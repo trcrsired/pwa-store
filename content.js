@@ -1,4 +1,4 @@
-import { categories } from './apps.js';
+import { categories } from './categories.js';
 
 const renderAppCard = (app) => {
   const container = document.createElement('div');
