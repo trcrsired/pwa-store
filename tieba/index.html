@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tieba</title>
+  <link rel="manifest" href="manifest.json" />
+  <script>
+    // Register Service Worker
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js')
+        .then(() => console.log('Service Worker registered'));
+    }
+
+    function isPWAInstalled() {
+      return window.matchMedia('(display-mode: standalone)').matches ||
+             window.navigator.standalone === true;
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const targetUrl = 'https://tieba.baidu.com';
+      const statusEl = document.getElementById('status');
+      const installBtn = document.getElementById('install');
+
+      const installedFlag = localStorage.getItem('tieba_installed');
+
+      if (isPWAInstalled() || installedFlag === 'true') {
+        window.location.href = targetUrl;
+      } else {
+        statusEl.textContent = 'Please install this app to continue.';
+        installBtn.style.display = 'inline-block';
+
+        window.addEventListener('beforeinstallprompt', e => {
+          e.preventDefault();
+          installBtn.onclick = () => {
+            e.prompt();
+            localStorage.setItem('tieba_installed', 'true');
+            statusEl.textContent = 'Thanks! You can now launch Tieba from your home screen.';
+            installBtn.style.display = 'none';
+          };
+        });
+      }
+    });
+  </script>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 2em;
+    }
+    #install {
+      display: none;
+      padding: 0.5em 1em;
+      background-color: #0052cc;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tieba</h1>
+  <p id="status">Checking app status...</p>
+  <button id="install">Install App</button>
+</body>
+</html>
