@@ -22,7 +22,7 @@ window.addEventListener("DOMContentLoaded", () => {
       installBtn.onclick = () => {
         e.prompt();
         localStorage.setItem(localStorageKey, "true");
-        statusEl.textContent = "Thanks! You can now launch Walmart from your home screen.";
+        statusEl.textContent = "Thanks! You can now launch the PWA from your home screen.";
         installBtn.style.display = "none";
       };
     });
