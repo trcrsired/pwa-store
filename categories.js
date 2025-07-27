@@ -92,6 +92,23 @@ export const categories = [
     ]
   },
   {
+    name: "Software Distributions",
+    apps : [
+      {
+        name: "APKPure",
+        icon: "icons/apkpure.png",
+        url: "https://apkpure.com",
+        description: "Discover Android apk files",
+      },
+      {
+        name: "Arch Linux AUR",
+        icon: "icons/aur.png",
+        url: "https://aur.archlinux.org",
+        description: "Explore community-maintained Arch packages.",
+      }      
+    ]
+  },
+  {
     name: "News",
     apps: [
       { name: "RT", icon: "icons/rt.png", url: "https://www.rt.com", description: "Russian international news outlet.", wrapper: true },
