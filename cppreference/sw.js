@@ -1,12 +1,11 @@
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open("pwa-walmart").then((cache) => {
+    caches.open("pwa-cppreference").then((cache) => {
       return cache.addAll([
         "/",           // Root page
         "/index.html", // Entry file
         "/manifest.json",
         "/icons/icon.png"
-        // You could add default video or fallback assets too
       ]);
     })
   );
