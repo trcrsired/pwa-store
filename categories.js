@@ -10,11 +10,18 @@ export const categories = [
     ]
   },
 	{
-    name: "Productivity",
+    name: "Microsoft Services",
     apps: [
       { name: "Microsoft Copilot", icon: "icons/copilot.png", url: "https://copilot.microsoft.com", description: "AI companion by Microsoft." },
       { name: "Outlook", icon: "icons/outlook.png", url: "https://outlook.live.com", description: "Webmail and calendar by Microsoft." },
-      { name: "OneDrive", icon: "icons/onedrive.png", url: "https://onedrive.live.com", description: "Cloud storage with robust PWA features." }
+      { name: "OneDrive", icon: "icons/onedrive.png", url: "https://onedrive.live.com", description: "Cloud storage with robust PWA features." },
+      {
+        name: "Bing",
+        icon: "bing/icons/icon.png",
+        url: "./bing",
+        description: "Microsoft's search engine delivering web, image, video, and map results with integrated AI features and daily visual highlights.",
+        wrapper: true
+      },
     ]
   },
   {
@@ -22,7 +29,29 @@ export const categories = [
     apps: [
       { name: "GitHub", icon: "icons/github.png", url: "https://github.com", description: "Code hosting with PWA support." },
       { name: "Visual Studio Code", icon: "icons/vscode.png", url: "https://vscode.dev", description: "Online code editor with GitHub integration." },
-      { name: "VS Code Insider", icon: "icons/vscode-insiders.png", url: "https://insiders.vscode.dev", description: "Preview build of Visual Studio Code Web." }
+      { name: "VS Code Insider", icon: "icons/vscode-insiders.png", url: "https://insiders.vscode.dev", description: "Preview build of Visual Studio Code Web." },
+      {
+        name: "cppreference",
+        icon: "cppreference/icons/icon.png",
+        url: "./cppreference",
+        description: "Comprehensive online reference for C and C++ programming languages, covering syntax, standard libraries, and compiler support.",
+        wrapper: true
+      },
+      {
+        name: "Godbolt",
+        icon: "godbolt/icons/icon.png",
+        url: "./godbolt",
+        description: "Interactive compiler explorer for C, C++, Rust, and more—visualizing assembly output and comparing optimization across toolchains.",
+        wrapper: true
+      },
+      {
+        name: "V86",
+        icon: "v86/icons/icon.png",
+        url: "./v86",
+        description: "Virtual x86 emulator running legacy operating systems like Windows 95 and Linux directly in the browser using WebAssembly.",
+        wrapper: true
+      },
+
     ]
   },
   {
@@ -34,7 +63,15 @@ export const categories = [
       { name: "Instagram", icon: "icons/instagram.png", url: "https://instagram.com", description: "Image-centric social network." },
       { name: "Facebook", icon: "icons/facebook.png", url: "https://facebook.com", description: "Meta’s primary social platform." },
       { name: "Tinder", icon: "icons/tinder.png", url: "https://tinder.com", description: "Swipe-based dating experience." },
-      { name: "Bluesky", icon: "icons/bluesky.png", url: "https://bsky.app", description: "Federated social media alternative." }
+      { name: "Bluesky", icon: "icons/bluesky.png", url: "https://bsky.app", description: "Federated social media alternative." },
+      { name: "Patreon", icon: "icons/patreon.png", url: "https://www.patreon.com",  description: "Support creators directly and access exclusive content." },
+      {
+        name: "Tieba (贴吧)",
+        icon: "tieba/icons/icon.png",
+        url: "./tieba",
+        description: "Baidu’s interest-based forum network where users gather in topic-specific bars to share posts, media, and discussions. On mobile, You need to Microsoft Edge with Android by modifying agent string with adding ArkWeb to bypass the check of tieba mini app.",
+        wrapper: true
+      },
     ]
   },
   {
@@ -58,14 +95,28 @@ export const categories = [
     name: "News",
     apps: [
       { name: "RT", icon: "icons/rt.png", url: "https://www.rt.com", description: "Russian international news outlet.", wrapper: true },
-      { name: "PressTV", icon: "icons/presstv.png", url: "https://www.presstv.ir", description: "Iranian English-language broadcaster.", wrapper: true }
+      { name: "PressTV", icon: "icons/presstv.png", url: "https://www.presstv.ir", description: "Iranian English-language broadcaster.", wrapper: true },
+      {
+        name: "CCTV",
+        icon: "cctv/icons/icon.png",
+        url: "./cctv",
+        description: "China's state-run broadcaster offering news, documentaries, and entertainment across multiple channels and digital platforms.",
+        wrapper: true
+      },
     ]
   },
   {
     name: "Gaming Community",
     apps: [
       { name: "Murlok.io", icon: "icons/murlok.png", url: "https://murlok.io", description: "WoW talent and build guides." },
-      { name: "World of Warcraft", icon: "icons/wow.png", url: "https://worldofwarcraft.blizzard.com", description: "Official game portal for WoW." }
+      { name: "World of Warcraft", icon: "icons/wow.png", url: "https://worldofwarcraft.blizzard.com", description: "Official game portal for WoW." },
+      {
+        name: "MMO-Champion",
+        icon: "mmo-champion/icons/icon.png",
+        url: "./mmo-champion",
+        description: "World of Warcraft-focused news and forum hub featuring patch notes, raid strategies, and community discussions.",
+        wrapper: true
+      },
     ]
   },
   {
@@ -90,9 +141,16 @@ export const categories = [
     ]
   },
   {
-    name: "Food & Beverage",
+    name: "Food & Groceries",
     apps: [
-      { name: "Starbucks", icon: "icons/starbucks.png", url: "https://starbucks.com", description: "Coffee ordering and loyalty tracking." }
+      { name: "Starbucks", icon: "icons/starbucks.png", url: "https://starbucks.com", description: "Coffee ordering and loyalty tracking." },
+      {
+        name: "Walmart",
+        icon: "walmart/icons/icon.png",
+        url: "./walmart",
+        description: "Multinational retail giant offering groceries, electronics, apparel, and more through supercenters and online shopping.",
+        wrapper: true
+      },
     ]
   },
   {
@@ -101,7 +159,8 @@ export const categories = [
       { name: "Pornhub", icon: "icons/pornhub.png", url: "https://pornhub.com", description: "Adult entertainment portal." },
       { name: "SpankBang", icon: "icons/spankbang.png", url: "https://spankbang.com", description: "Free adult video streaming site." },
       { name: "Hentai Haven", icon: "icons/hentaihaven.png", url: "https://hentaihaven.xxx", description: "Hentai-focused adult media platform." },
-      { name: "MissAV", icon: "icons/missav.png", url: "https://missav.com", description: "Japanese adult video index." }
+      { name: "MissAV", icon: "icons/missav.png", url: "https://missav.com", description: "Japanese adult video index." },
+      { name: "OnlyFans", icon: "icons/onlyfans.png", url: "https://onlyfans.com", description: "Subscription-based platform known for exclusive adult and creator content." },
     ]
   }
 ];
