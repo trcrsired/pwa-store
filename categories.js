@@ -1,5 +1,15 @@
 export const categories = [
   {
+    name: "Fundamental",
+    apps: [
+      { name: "SnaePlayer", icon: "icons/snaeplayer.png", url: "https://snaeplayer.com", description: "Lightweight on device music player PWA." },
+      { name: "Flow", icon: "icons/flow.png", url: "https://www.flowoss.com", description: "Browser Based EPUB reader" },
+      { name: "TReader", icon: "icons/treader.png", url: "https://tiansh.github.io/reader", description: "Lightweight text file reader." },
+      { name: "WebVideoPlayer", icon: "icons/webvideoplayer.png", url: "https://webvideoplayer.org", description: "An easy-to-use and very lightweight(<100KB) video player for local video/audio files on desktop platforms, powered by Web technology." },
+      { name: "PWA Player (My own toy)", icon: "icons/pwaplayer.png", url: "https://trcrsired.github.io/pwa-player", description: "A demo PWA for me to learn." }
+    ]
+  },
+	{
     name: "Productivity",
     apps: [
       { name: "Microsoft Copilot", icon: "icons/copilot.png", url: "https://copilot.microsoft.com", description: "AI companion by Microsoft." },
