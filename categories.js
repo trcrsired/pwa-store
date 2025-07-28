@@ -79,10 +79,10 @@ export const categories = [
         description: "Cloud-based messaging app offering fast, secure communication with support for large groups, media sharing, and cross-device sync."
       },
       {
-              name: "Zoom",
-              icon: "icons/zoom.webp",
-              url: "https://zoom.us/join",
-              description: "Video conferencing platform offering reliable virtual meetings, webinars, screen sharing, and collaboration tools across devices."
+        name: "Zoom",
+        icon: "icons/zoom.webp",
+        url: "https://zoom.us/join",
+        description: "Video conferencing platform offering reliable virtual meetings, webinars, screen sharing, and collaboration tools across devices."
       },
       {
         name: "Tieba (贴吧)",
@@ -100,7 +100,8 @@ export const categories = [
       { name: "Bitcoin Well", icon: "icons/bitcoinwell.webp", url: "https://bitcoinwell.com", description: "Enable your independence with the fastest and safest way to buy bitcoin on-chain or via the Lightning Network in Canada and the USA." },
       { name: "East Money (东方财经)", icon: "icons/eastmoney.webp", url: "https://eastmoney.com", description: "Chinese financial media and data portal." },
       { name: "TradingView", icon: "icons/tradingview.png", url: "https://www.tradingview.com", description: "Advanced market analysis and charts." },
-      { name: "Yahoo Finance", icon: "icons/yahoofinance.webp", url: "https://finance.yahoo.com", description: "Global financial news and quotes." }
+      { name: "Yahoo Finance", icon: "icons/yahoofinance.webp", url: "https://finance.yahoo.com", description: "Global financial news and quotes." },
+      { name: "LongForecast", icon: "icons/longforecast.png", url: "https://longforecast.com", description: "Stock, cryptocurrency and economic forecasts with multi-year trend charts." },
     ]
   },
   {
@@ -248,9 +249,10 @@ export const categories = [
     ]
   },
   {
-    name: "Food & Groceries",
+    name: "Food & Shopping",
     apps: [
       { name: "Starbucks", icon: "icons/starbucks.png", url: "https://www.starbucks.com", description: "Coffee ordering and loyalty tracking." },
+      { name: "Best Buy", icon: "icons/bestbuy.jpg", url: "https://www.bestbuy.com", description: "Electronics and appliances retail hub—enable desktop mode for install." },
       {
         name: "Walmart",
         icon: "walmart/icons/icon.png",
@@ -258,6 +260,19 @@ export const categories = [
         description: "Multinational retail giant offering groceries, electronics, apparel, and more through supercenters and online shopping.",
         wrapper: true
       },
+      { name: "Amazon", icon: "amazon/icons/icon.png", url: "./amazon", description: "Shop millions of products, track orders, and manage your account.", wrapper: true },
+    ]
+  },
+  {
+    name: "Posting & Transportation",
+    apps: [
+      { name: "SF Express (顺丰速运)", icon: "icons/shunfeng.png", url: "https://www.sf-express.com", description: "SF Express—track domestic and international shipments, schedule pickups, and manage delivery services." }
+    ]
+  },
+  {
+    name: "Cloud (is someone else's computer)",
+    apps: [
+      { name: "Linode", icon: "icons/linode.webp", url: "https://www.linode.com", description: "Akamai-powered cloud hosting, VMs, and dev tools." },
     ]
   },
   {
