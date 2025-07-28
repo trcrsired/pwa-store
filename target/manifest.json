@@ -1,10 +1,10 @@
 {
-  "name": "Walmart",
-  "short_name": "Walmart",
+  "name": "Target",
+  "short_name": "Target",
   "start_url": ".",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for Walmart",
+  "description": "A Progressive Web APP Wrapper for Target",
   "display": "standalone",
   "icons": [
     {

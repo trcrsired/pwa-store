@@ -1,4 +1,8 @@
 // shared/install-check.js
+function isPWAInstalled() {
+  return window.matchMedia("(display-mode: standalone)").matches ||
+         window.navigator.standalone === true;
+}
 
 window.addEventListener("DOMContentLoaded", () => {
   const { url, localStorageKey } = window.appConfig;
@@ -7,7 +11,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
   const installed = localStorage.getItem(localStorageKey) === "true";
 
-  if (installed) {
+  if (isPWAInstalled() || installed) {
     window.location.href = url;
   } else {
     statusEl.textContent = "Please install this app to continue.";
