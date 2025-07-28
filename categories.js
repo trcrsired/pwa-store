@@ -262,7 +262,7 @@ export const categories = [
     apps: [
       { name: "Starbucks", icon: "icons/starbucks.png", url: "https://www.starbucks.com", description: "Coffee ordering and loyalty tracking." },
       { name: "Amazon", icon: "icons/amazon.png", url: "https://www.amazon.com", description: "Shop millions of products, track orders, and manage your account." },
-      { name: "Best Buy", icon: "icons/bestbuy.jpg", url: "https://www.bestbuy.com", description: "Electronics and appliances retail hub—enable desktop mode for install." },
+      { name: "Best Buy", icon: "icons/bestbuy.jpg", url: "https://www.bestbuy.com", description: "Electronics and appliances retail hub" },
       {
         name: "Walmart",
         icon: "walmart/icons/icon.png",
@@ -288,10 +288,10 @@ export const categories = [
     name: "Adult",
     apps: [
       { name: "Pornhub", icon: "icons/pornhub.webp", url: "https://www.pornhub.com", description: "Adult entertainment portal." },
-      { name: "SpankBang", icon: "icons/spankbang.svg", url: "https://www.spankbang.com", description: "Free adult video streaming site." },
-      { name: "Hentai Haven", icon: "icons/hentaihaven.png", url: "https://www.hentaihaven.xxx", description: "Hentai-focused adult media platform." },
-      { name: "MissAV TV", icon: "icons/missavtv.png", url: "https://www.missavtv.com", description: "Japanese adult video index." },
-      { name: "OnlyFans", icon: "icons/onlyfans.webp", url: "https://www.onlyfans.com", description: "Subscription-based platform known for exclusive adult and creator content." },
+      { name: "SpankBang", icon: "icons/spankbang.svg", url: "https://spankbang.com", description: "Free adult video streaming site." },
+      { name: "Hentai Haven", icon: "icons/hentaihaven.png", url: "https://hentaihaven.xxx", description: "Hentai-focused adult media platform." },
+      { name: "MissAV TV", icon: "icons/missavtv.png", url: "https://missavtv.com", description: "Japanese adult video index." },
+      { name: "OnlyFans", icon: "icons/onlyfans.webp", url: "https://onlyfans.com", description: "Subscription-based platform known for exclusive adult and creator content." },
     ]
   }
 ];
