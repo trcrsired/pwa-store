@@ -51,10 +51,10 @@ export const categories = [
       { name: "Visual Studio Code", icon: "icons/vscode.webp", url: "https://vscode.dev", description: "Online code editor with GitHub integration." },
       { name: "VS Code Insider", icon: "icons/vscode-insiders.webp", url: "https://insiders.vscode.dev", description: "Preview build of Visual Studio Code Web." },
       {
-        name: "cppreference",
-        icon: "cppreference/icons/icon.png",
-        url: "./cppreference",
-        description: "Comprehensive online reference for C and C++ programming languages, covering syntax, standard libraries, and compiler support.",
+        name: "Linux.die",
+        icon: "linuxdie/icons/icon.png",
+        url: "./linuxdie",
+        description: "Extensive archive of Linux documentation, man pages, and HOWTO guides—ideal for developers, sysadmins, and command-line enthusiasts seeking quick reference and deep technical insight.",
         wrapper: true
       },
       {
