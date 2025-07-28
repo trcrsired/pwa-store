@@ -265,7 +265,8 @@ export const categories = [
     name: "Music Streaming",
     apps: [
       { name: "Spotify", icon: "icons/spotify.webp", url: "https://open.spotify.com", description: "Global music streaming platform." },
-      { name: "Apple Music", icon: "icons/applemusic.jpeg", url: "https://music.apple.com", description: "Apple’s premium music service." }
+      { name: "Apple Music", icon: "icons/applemusic.jpeg", url: "https://music.apple.com", description: "Apple’s premium music service." },
+      { name: "YouTube Music", icon: "icons/youtubemusic.png", url: "https://music.youtube.com", description: "Stream over 100 million songs, albums, remixes, and live performances—YouTube Music’s PWA offers personalized playlists, podcast support, and seamless playback across devices." },
     ]
   },
   {
