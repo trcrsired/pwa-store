@@ -6,7 +6,10 @@ export const categories = [
       { name: "Flow", icon: "icons/flow.png", url: "https://www.flowoss.com", description: "Browser Based EPUB reader" },
       { name: "TReader", icon: "icons/treader.png", url: "https://tiansh.github.io/reader", description: "Lightweight text file reader." },
       { name: "WebVideoPlayer", icon: "icons/webvideoplayer.png", url: "https://webvideoplayer.org", description: "An easy-to-use and very lightweight(<100KB) video player for local video/audio files on desktop platforms, powered by Web technology." },
-      { name: "PWA Player (My own toy)", icon: "icons/pwaplayer.png", url: "https://trcrsired.github.io/pwa-player", description: "A demo PWA for me to learn." }
+      { name: "PWA Player (My own toy)", icon: "icons/pwaplayer.png", url: "https://trcrsired.github.io/pwa-player", description: "A demo PWA for me to learn." },
+      { name: "Calculator", icon: "icons/calculator.png", url: "https://chrisdiana.github.io/pwa-calculator", description: "Simple, installable calculator PWA—works offline and optimized for mobile." },
+      { name: "Weawow", icon: "icons/weawow.png", url: "https://weawow.com", description: "Ad-free weather PWA with stunning photo forecasts, detailed hourly & 14-day data, and customizable widgets." },
+      { name: "Screen Flashlight", icon: "icons/screenflashlightweb.png", url: "http://trcrsired.github.io/ScreenFlashlightWeb", description: "A web-based PWA flashlight app" },
     ]
   },
 	{
