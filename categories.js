@@ -12,10 +12,20 @@ export const categories = [
       { name: "Screen Flashlight", icon: "icons/screenflashlightweb.png", url: "http://trcrsired.github.io/ScreenFlashlightWeb", description: "A web-based PWA flashlight app" },
     ]
   },
+  {
+    name: "Chatbots",
+    apps : 
+    [
+      { name: "Microsoft Copilot", icon: "icons/copilot.webp", url: "https://copilot.microsoft.com", description: "Conversational AI by Microsoft—Copilot helps you think, write, and explore with real-time web access and voice support." },
+      { name: "DeepSeek", icon: "icons/deepseek.png", url: "https://deepseek.com", description: "Chinese-developed AI assistant with powerful reasoning and multilingual support—DeepSeek’s PWA offers free access to its flagship models." },
+      { name: "ChatGPT", icon: "icons/chatgpt.jpg", url: "https://chat.openai.com", description: "OpenAI’s conversational assistant—ChatGPT’s PWA delivers installable access to GPT models, memory, plugins, and voice features." },
+      { name: "Google Gemini", icon: "icons/gemini.png", url: "https://gemini.google.com", description: "Google Gemini is a powerful artificial intelligence (AI) model developed by Google that can understand and generate text, images, videos, and audio. It serves as both a chatbot and the underlying large language model (LLM) that powers it, making it versatile for various applications. Gemini is designed to integrate with Google services, allowing users to interact with their data in Gmail, Google Calendar, and more, enhancing productivity and user experience." },
+      { name: "Qwen", icon: "icons/qwen.png", url: "https://chat.qwen.ai", description: "Multimodal AI by Alibaba—Qwen’s PWA supports chat, image generation, dialect-aware voice synthesis, and deep research tools." },
+    ]
+  },
 	{
     name: "Microsoft Services",
     apps: [
-      { name: "Microsoft Copilot", icon: "icons/copilot.webp", url: "https://copilot.microsoft.com", description: "AI companion by Microsoft." },
       { name: "Outlook", icon: "icons/outlook.webp", url: "https://outlook.live.com", description: "Webmail and calendar by Microsoft." },
       { name: "OneDrive", icon: "icons/onedrive.webp", url: "https://onedrive.live.com", description: "Cloud storage with robust PWA features." },
       {
@@ -31,6 +41,7 @@ export const categories = [
     name: "Google Services",
     apps: [
       { name: "Google Voice", icon: "icons/googlevoice.webp", url: "https://voice.google.com", description: "Get a free U.S. phone number for calls, texts, and voicemail—syncs across devices and works on web or mobile." },
+      { name: "Google Maps", icon: "icons/googlemaps.png", url: "https://maps.google.com", description: "Navigate the world with Google Maps—its PWA lets you find places, get directions, explore nearby businesses, and view real-time traffic, transit, and satellite layers." },
     ]
   },
   {
