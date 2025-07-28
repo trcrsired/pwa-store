@@ -66,6 +66,18 @@ export const categories = [
       { name: "Bluesky", icon: "icons/bluesky.png", url: "https://bsky.app", description: "Federated social media alternative." },
       { name: "Patreon", icon: "icons/patreon.png", url: "https://www.patreon.com",  description: "Support creators directly and access exclusive content." },
       {
+        name: "Discord",
+        icon: "icons/discord.png",
+        url: "https://discord.com",
+        description: "Voice, video, and text platform for communities, creators, and friends — organized around invite-only servers and topic-based channels."
+      },
+      {
+        name: "Telegram",
+        icon: "icons/telegram.png",
+        url: "https://web.telegram.org",
+        description: "Cloud-based messaging app offering fast, secure communication with support for large groups, media sharing, and cross-device sync."
+      },
+      {
         name: "Tieba (贴吧)",
         icon: "tieba/icons/icon.png",
         url: "./tieba",
