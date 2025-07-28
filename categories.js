@@ -68,7 +68,7 @@ export const categories = [
       {
         name: "Discord",
         icon: "icons/discord.png",
-        url: "https://discord.com",
+        url: "https://discord.com/app",
         description: "Voice, video, and text platform for communities, creators, and friends — organized around invite-only servers and topic-based channels."
       },
       {
