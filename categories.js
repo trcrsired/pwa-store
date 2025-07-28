@@ -258,6 +258,7 @@ export const categories = [
     name: "Food & Shopping",
     apps: [
       { name: "Starbucks", icon: "icons/starbucks.png", url: "https://www.starbucks.com", description: "Coffee ordering and loyalty tracking." },
+      { name: "Amazon", icon: "icons/amazon.png", url: "https://www.amazon.com", description: "Shop millions of products, track orders, and manage your account." },
       { name: "Best Buy", icon: "icons/bestbuy.jpg", url: "https://www.bestbuy.com", description: "Electronics and appliances retail hub—enable desktop mode for install." },
       {
         name: "Walmart",
@@ -265,8 +266,7 @@ export const categories = [
         url: "./walmart",
         description: "Multinational retail giant offering groceries, electronics, apparel, and more through supercenters and online shopping.",
         wrapper: true
-      },
-      { name: "Amazon", icon: "amazon/icons/icon.png", url: "./amazon", description: "Shop millions of products, track orders, and manage your account.", wrapper: true },
+      }
     ]
   },
   {
