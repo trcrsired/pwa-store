@@ -104,6 +104,7 @@ export const categories = [
         url: "https://zoom.us/join",
         description: "Video conferencing platform offering reliable virtual meetings, webinars, screen sharing, and collaboration tools across devices."
       },
+      { name: "Hacker News", icon: "icons/hackernews.webp", url: "https://hackernews.com", description: "Tech-savvy and community-driven—Hacker News offers a minimalist PWA experience for discovering and discussing cutting-edge ideas in programming, startups, and science." },
       {
         name: "Tieba (贴吧)",
         icon: "tieba/icons/icon.png",
