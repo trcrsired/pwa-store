@@ -269,7 +269,21 @@ export const categories = [
         url: "./walmart",
         description: "Multinational retail giant offering groceries, electronics, apparel, and more through supercenters and online shopping.",
         wrapper: true
-      }
+      },
+      {
+        name: "Target",
+        icon: "target/icons/icon.png",
+        url: "./target",
+        description: "U.S.-based retail chain offering groceries, electronics, clothing, and home goods—available via superstores and online shopping.",
+        wrapper: true
+      },
+      {
+        name: "CVS",
+        icon: "cvs/icons/icon.png",
+        url: "./cvs",
+        description: "U.S. pharmacy and retail chain offering prescriptions, health and wellness products, beauty essentials, and everyday groceries—available in-store and online.",
+        wrapper: true
+      },
     ]
   },
   {

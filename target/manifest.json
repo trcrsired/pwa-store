@@ -1,10 +1,10 @@
 {
-  "name": "Amazon",
-  "short_name": "Amazon",
+  "name": "Walmart",
+  "short_name": "Walmart",
   "start_url": ".",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for Amazon",
+  "description": "A Progressive Web APP Wrapper for Walmart",
   "display": "standalone",
   "icons": [
     {
