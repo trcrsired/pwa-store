@@ -174,6 +174,7 @@ export const categories = [
         url: "https://www.pbs.org",
         description: "U.S. public broadcaster providing educational, cultural, and documentary programming through a network of member stations."
       },
+      { name: "BBC", icon: "icons/bbc.jpg", url: "https://www.bbc.com", description: "Global news and media hub—BBC delivers breaking stories, live coverage, and in-depth reporting across politics, culture, and science." },
       {
         name: "CCTV",
         icon: "cctv/icons/icon.png",
