@@ -64,6 +64,7 @@ export const categories = [
       { name: "Facebook", icon: "icons/facebook.webp", url: "https://facebook.com", description: "Meta’s primary social platform." },
       { name: "Tinder", icon: "icons/tinder.png", url: "https://tinder.com", description: "Swipe-based dating experience." },
       { name: "Bluesky", icon: "icons/bluesky.webp", url: "https://bsky.app", description: "Federated social media alternative." },
+      { name: "Twitch", icon: "icons/twitch.avif", url: "https://www.twitch.tv", description: "Live streaming platform for gamers, creators, and communities to interact in real time." },
       { name: "Patreon", icon: "icons/patreon.png", url: "https://www.patreon.com",  description: "Support creators directly and access exclusive content." },
       {
         name: "Discord",
@@ -97,16 +98,17 @@ export const categories = [
     apps: [
       { name: "Chase", icon: "icons/chase.webp", url: "https://chase.com", description: "Major US bank with PWA support." },
       { name: "Bitcoin Well", icon: "icons/bitcoinwell.webp", url: "https://bitcoinwell.com", description: "Enable your independence with the fastest and safest way to buy bitcoin on-chain or via the Lightning Network in Canada and the USA." },
-      { name: "East Money (东方财经)", icon: "icons/eastmoney.png", url: "https://eastmoney.com", description: "Chinese financial media and data portal." },
+      { name: "East Money (东方财经)", icon: "icons/eastmoney.webp", url: "https://eastmoney.com", description: "Chinese financial media and data portal." },
       { name: "TradingView", icon: "icons/tradingview.png", url: "https://www.tradingview.com", description: "Advanced market analysis and charts." },
-      { name: "Yahoo Finance", icon: "icons/yahoofinance.png", url: "https://finance.yahoo.com", description: "Global financial news and quotes." }
+      { name: "Yahoo Finance", icon: "icons/yahoofinance.webp", url: "https://finance.yahoo.com", description: "Global financial news and quotes." }
     ]
   },
   {
     name: "Tech",
     apps: [
-      { name: "Windows Central", icon: "icons/windowscentral.png", url: "https://windowscentral.com", description: "Microsoft ecosystem coverage and guides." },
-      { name: "Mac Rumors", icon: "icons/macrumors.png", url: "https://macrumors.com", description: "Apple-focused tech reporting and insights." }
+      { name: "Windows Central", icon: "icons/windowscentral.png", url: "https://www.windowscentral.com", description: "Microsoft ecosystem coverage and guides." },
+      { name: "Mac Rumors", icon: "icons/macrumors.png", url: "https://www.macrumors.com", description: "Apple-focused tech reporting and insights." },
+      { name: "Android Authority", icon: "icons/androidauthority.png", url: "https://www.androidauthority.com", description: "News, reviews, and deep dives into Android and Google-related tech." },
     ]
   },
   {
@@ -137,16 +139,16 @@ export const categories = [
     name: "News",
     apps: [
       { name: "RT", icon: "icons/rt.png", url: "https://www.rt.com", description: "Russian international news outlet." },
-      { name: "PressTV", icon: "icons/presstv.png", url: "https://www.presstv.ir", description: "Iranian English-language broadcaster."},
+      { name: "PressTV", icon: "icons/presstv.webp", url: "https://www.presstv.ir", description: "Iranian English-language broadcaster."},
       {
         name: "Firstpost",
-        icon: "icons/firstpost.png",
+        icon: "icons/firstpost.webp",
         url: "https://www.firstpost.com",
         description: "Indian news portal offering coverage across politics, business, sports, and entertainment, with editorial and opinion content."
       },
       {
         name: "PBS",
-        icon: "icons/pbs.png",
+        icon: "icons/pbs.webp",
         url: "https://www.pbs.org",
         description: "U.S. public broadcaster providing educational, cultural, and documentary programming through a network of member stations."
       },
@@ -159,7 +161,7 @@ export const categories = [
       },
       {
         name: "In Defence of Marxism",
-        icon: "icons/marxist.png",
+        icon: "icons/indefenseofmarxism.svg",
         url: "https://marxist.com",
         description: "Online platform offering Marxist analysis of global events, political theory, and revolutionary history from a socialist perspective."
       },
@@ -187,6 +189,12 @@ export const categories = [
     name: "Video Platform",
     apps : [
       { name: "AGE Animation (AGE动漫)", icon: "icons/ageanimation.jpg" ,url: "https://www.agedm.vip", description:"Stream and explore a wide range of anime series and movies, updated regularly with Chinese subtitles." },
+      { name: "TED",
+        icon: "ted/icons/icon.png",
+        url: "https://www.ted.com/",
+        description: "TED is a global platform where thinkers, creators, and doers share powerful, concise talks on topics ranging from science and tech to art, education, and social change. Whether it's a mind-blowing discovery or a fresh way to look at the world, TED showcases ideas that inspire and spark conversation.",
+        wrapper: true
+      },
     ]
   },
   {
