@@ -24,6 +24,12 @@ export const categories = [
       },
     ]
   },
+	{
+    name: "Google Services",
+    apps: [
+      { name: "Google Voice", icon: "icons/googlevoice.webp", url: "https://voice.google.com", description: "Get a free U.S. phone number for calls, texts, and voicemail—syncs across devices and works on web or mobile." },
+    ]
+  },
   {
     name: "Programming",
     apps: [
