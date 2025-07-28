@@ -117,7 +117,7 @@ export const categories = [
     apps : [
       {
         name: "APKPure",
-        icon: "icons/apkpure.png",
+        icon: "icons/apkpure.webp",
         url: "https://apkpure.com",
         description: "Discover Android apk files",
       },
@@ -202,7 +202,7 @@ export const categories = [
     name: "Games",
     apps: [
       { name: "CrazyGames", icon: "icons/crazygames.png", url: "https://www.crazygames.com", description: "Browser-based games spanning action, puzzle, multiplayer, and more—play instantly without downloads." },
-      { name: "WebGamer", icon: "icons/webgamer.svg", url: "https://webgamer.io", description: "Portal for next-gen web games—play instantly in your browser with no installs required." },
+      { name: "Web Gamer", icon: "icons/webgamer.svg", url: "https://webgamer.io", description: "Portal for next-gen web games—play instantly in your browser with no installs required." },
     ]
   },
   {
