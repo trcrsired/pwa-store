@@ -1,15 +1,17 @@
 const version = 0;
+
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open("pwa-store").then((cache) => {
       return cache.addAll([
-        "/",           // Root page
-        "/index.html", // Entry file
+        "/",
+        "/index.html",
         "/manifest.json",
         "/logo/logo.png",
         "/content.js",
         "/app.js",
         "/categories.js",
+        "/style.css",
       ]);
     })
   );

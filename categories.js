@@ -78,6 +78,12 @@ export const categories = [
         description: "Cloud-based messaging app offering fast, secure communication with support for large groups, media sharing, and cross-device sync."
       },
       {
+              name: "Zoom",
+              icon: "icons/zoom.png",
+              url: "https://zoom.us/join",
+              description: "Video conferencing platform offering reliable virtual meetings, webinars, screen sharing, and collaboration tools across devices."
+      },
+      {
         name: "Tieba (贴吧)",
         icon: "tieba/icons/icon.png",
         url: "./tieba",
