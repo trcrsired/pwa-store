@@ -1,5 +1,4 @@
 const version = 0;
-
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open("pwa-store").then((cache) => {
