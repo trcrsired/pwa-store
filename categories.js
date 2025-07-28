@@ -192,7 +192,7 @@ export const categories = [
       { name: "AGE Animation (AGE动漫)", icon: "icons/ageanimation.jpg" ,url: "https://www.agedm.vip", description:"Stream and explore a wide range of anime series and movies, updated regularly with Chinese subtitles." },
       { name: "TED",
         icon: "ted/icons/icon.png",
-        url: "https://www.ted.com/",
+        url: "./ted",
         description: "TED is a global platform where thinkers, creators, and doers share powerful, concise talks on topics ranging from science and tech to art, education, and social change. Whether it's a mind-blowing discovery or a fresh way to look at the world, TED showcases ideas that inspire and spark conversation.",
         wrapper: true
       },
