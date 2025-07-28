@@ -123,8 +123,8 @@ export const categories = [
   {
     name: "News",
     apps: [
-      { name: "RT", icon: "icons/rt.png", url: "https://www.rt.com", description: "Russian international news outlet.", wrapper: true },
-      { name: "PressTV", icon: "icons/presstv.png", url: "https://www.presstv.ir", description: "Iranian English-language broadcaster.", wrapper: true },
+      { name: "RT", icon: "icons/rt.png", url: "https://www.rt.com", description: "Russian international news outlet." },
+      { name: "PressTV", icon: "icons/presstv.png", url: "https://www.presstv.ir", description: "Iranian English-language broadcaster."},
       {
         name: "Firstpost",
         icon: "icons/firstpost.png",
@@ -150,6 +150,24 @@ export const categories = [
         url: "https://marxist.com",
         description: "Online platform offering Marxist analysis of global events, political theory, and revolutionary history from a socialist perspective."
       },
+      {
+        name: "Tencent News (腾讯新闻)",
+        icon: "icons/tencent_news.png",
+        url: "https://news.qq.com",
+        description: "Comprehensive news portal by Tencent featuring top stories, lifestyle articles, and trending reports across China."
+      },
+      {
+        name: "Baidu (百度)",
+        icon: "icons/baidu.png",
+        url: "https://www.baidu.com",
+        description: "China's leading search engine with integrated news, search results, and app-like browsing experience."
+      },
+      {
+        name: "Sohu (搜狐)",
+        icon: "icons/sohu.png",
+        url: "https://www.sohu.com",
+        description: "Versatile media and news platform offering editorial coverage, breaking headlines, and multimedia stories."
+      }
     ]
   },
   {
@@ -162,6 +180,13 @@ export const categories = [
         icon: "mmo-champion/icons/icon.png",
         url: "./mmo-champion",
         description: "World of Warcraft-focused news and forum hub featuring patch notes, raid strategies, and community discussions.",
+        wrapper: true
+      },
+      {
+        name: "Warcraft Logs",
+        icon: "warcraftlogs/icons/icon.png",
+        url: "./warcraftlogs",
+        description: "Combat analysis platform for World of Warcraft, offering detailed raid metrics, rankings, and performance breakdowns.",
         wrapper: true
       },
     ]
