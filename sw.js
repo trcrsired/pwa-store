@@ -15,7 +15,7 @@ self.addEventListener("install", (event) => {
       ]);
     })
   );
-  self.skipWaiting(); // Activate immediately
+  self.skipWaiting();
 });
 
 self.addEventListener("activate", () => {

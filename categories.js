@@ -2,7 +2,7 @@ export const categories = [
   {
     name: "Fundamental",
     apps: [
-      { name: "SnaePlayer", icon: "icons/snaeplayer.png", url: "https://snaeplayer.com", description: "Lightweight on device music player PWA." },
+      { name: "SnaePlayer", icon: "icons/snaeplayer.svg", url: "https://snaeplayer.com", description: "Lightweight on device music player PWA." },
       { name: "Flow", icon: "icons/flow.png", url: "https://www.flowoss.com", description: "Browser Based EPUB reader" },
       { name: "TReader", icon: "icons/treader.png", url: "https://tiansh.github.io/reader", description: "Lightweight text file reader." },
       { name: "WebVideoPlayer", icon: "icons/webvideoplayer.png", url: "https://webvideoplayer.org", description: "An easy-to-use and very lightweight(<100KB) video player for local video/audio files on desktop platforms, powered by Web technology." },
@@ -12,9 +12,9 @@ export const categories = [
 	{
     name: "Microsoft Services",
     apps: [
-      { name: "Microsoft Copilot", icon: "icons/copilot.png", url: "https://copilot.microsoft.com", description: "AI companion by Microsoft." },
-      { name: "Outlook", icon: "icons/outlook.png", url: "https://outlook.live.com", description: "Webmail and calendar by Microsoft." },
-      { name: "OneDrive", icon: "icons/onedrive.png", url: "https://onedrive.live.com", description: "Cloud storage with robust PWA features." },
+      { name: "Microsoft Copilot", icon: "icons/copilot.webp", url: "https://copilot.microsoft.com", description: "AI companion by Microsoft." },
+      { name: "Outlook", icon: "icons/outlook.webp", url: "https://outlook.live.com", description: "Webmail and calendar by Microsoft." },
+      { name: "OneDrive", icon: "icons/onedrive.webp", url: "https://onedrive.live.com", description: "Cloud storage with robust PWA features." },
       {
         name: "Bing",
         icon: "bing/icons/icon.png",
@@ -28,8 +28,8 @@ export const categories = [
     name: "Programming",
     apps: [
       { name: "GitHub", icon: "icons/github.png", url: "https://github.com", description: "Code hosting with PWA support." },
-      { name: "Visual Studio Code", icon: "icons/vscode.png", url: "https://vscode.dev", description: "Online code editor with GitHub integration." },
-      { name: "VS Code Insider", icon: "icons/vscode-insiders.png", url: "https://insiders.vscode.dev", description: "Preview build of Visual Studio Code Web." },
+      { name: "Visual Studio Code", icon: "icons/vscode.webp", url: "https://vscode.dev", description: "Online code editor with GitHub integration." },
+      { name: "VS Code Insider", icon: "icons/vscode-insiders.webp", url: "https://insiders.vscode.dev", description: "Preview build of Visual Studio Code Web." },
       {
         name: "cppreference",
         icon: "cppreference/icons/icon.png",
@@ -57,7 +57,7 @@ export const categories = [
   {
     name: "Social Media",
     apps: [
-      { name: "YouTube", icon: "icons/youtube.png", url: "https://youtube.com", description: "Video streaming platform by Google." },
+      { name: "YouTube", icon: "icons/youtube.webp", url: "https://youtube.com", description: "Video streaming platform by Google." },
       { name: "Reddit", icon: "icons/reddit.png", url: "https://reddit.com", description: "Community-driven discussion forums." },
       { name: "X (Twitter)", icon: "icons/x.png", url: "https://x.com", description: "Text-based social updates and chatter." },
       { name: "Instagram", icon: "icons/instagram.png", url: "https://instagram.com", description: "Image-centric social network." },
@@ -95,8 +95,8 @@ export const categories = [
   {
     name: "Finance",
     apps: [
-      { name: "Chase", icon: "icons/chase.png", url: "https://chase.com", description: "Major US bank with PWA support." },
-      { name: "Bitcoin Well", icon: "icons/bitcoinwell.png", url: "https://bitcoinwell.com", description: "Crypto tools and payments dashboard." },
+      { name: "Chase", icon: "icons/chase.webp", url: "https://chase.com", description: "Major US bank with PWA support." },
+      { name: "Bitcoin Well", icon: "icons/bitcoinwell.webp", url: "https://bitcoinwell.com", description: "Enable your independence with the fastest and safest way to buy bitcoin on-chain or via the Lightning Network in Canada and the USA." },
       { name: "East Money (东方财经)", icon: "icons/eastmoney.png", url: "https://eastmoney.com", description: "Chinese financial media and data portal." },
       { name: "TradingView", icon: "icons/tradingview.png", url: "https://www.tradingview.com", description: "Advanced market analysis and charts." },
       { name: "Yahoo Finance", icon: "icons/yahoofinance.png", url: "https://finance.yahoo.com", description: "Global financial news and quotes." }
@@ -174,6 +174,12 @@ export const categories = [
         url: "https://www.sohu.com",
         description: "Versatile media and news platform offering editorial coverage, breaking headlines, and multimedia stories."
       }
+    ]
+  },
+  {
+    name: "Video Platform",
+    apps : [
+      { name: "AGE Animation (AGE动漫)", icon: "icons/ageanimation.png" ,url: "https://www.agedm.vip", description:"Stream and explore a wide range of anime series and movies, updated regularly with Chinese subtitles." },
     ]
   },
   {
