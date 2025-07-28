@@ -58,12 +58,12 @@ export const categories = [
     name: "Social Media",
     apps: [
       { name: "YouTube", icon: "icons/youtube.webp", url: "https://youtube.com", description: "Video streaming platform by Google." },
-      { name: "Reddit", icon: "icons/reddit.png", url: "https://reddit.com", description: "Community-driven discussion forums." },
-      { name: "X (Twitter)", icon: "icons/x.png", url: "https://x.com", description: "Text-based social updates and chatter." },
-      { name: "Instagram", icon: "icons/instagram.png", url: "https://instagram.com", description: "Image-centric social network." },
-      { name: "Facebook", icon: "icons/facebook.png", url: "https://facebook.com", description: "Meta’s primary social platform." },
+      { name: "Reddit", icon: "icons/reddit.webp", url: "https://reddit.com", description: "Community-driven discussion forums." },
+      { name: "X (Twitter)", icon: "icons/x.webp", url: "https://x.com", description: "Text-based social updates and chatter." },
+      { name: "Instagram", icon: "icons/instagram.jpeg", url: "https://instagram.com", description: "Image-centric social network." },
+      { name: "Facebook", icon: "icons/facebook.webp", url: "https://facebook.com", description: "Meta’s primary social platform." },
       { name: "Tinder", icon: "icons/tinder.png", url: "https://tinder.com", description: "Swipe-based dating experience." },
-      { name: "Bluesky", icon: "icons/bluesky.png", url: "https://bsky.app", description: "Federated social media alternative." },
+      { name: "Bluesky", icon: "icons/bluesky.webp", url: "https://bsky.app", description: "Federated social media alternative." },
       { name: "Patreon", icon: "icons/patreon.png", url: "https://www.patreon.com",  description: "Support creators directly and access exclusive content." },
       {
         name: "Discord",
@@ -73,13 +73,13 @@ export const categories = [
       },
       {
         name: "Telegram",
-        icon: "icons/telegram.png",
+        icon: "icons/telegram.jpeg",
         url: "https://web.telegram.org",
         description: "Cloud-based messaging app offering fast, secure communication with support for large groups, media sharing, and cross-device sync."
       },
       {
               name: "Zoom",
-              icon: "icons/zoom.png",
+              icon: "icons/zoom.webp",
               url: "https://zoom.us/join",
               description: "Video conferencing platform offering reliable virtual meetings, webinars, screen sharing, and collaboration tools across devices."
       },
@@ -123,7 +123,14 @@ export const categories = [
         icon: "icons/aur.png",
         url: "https://aur.archlinux.org",
         description: "Explore community-maintained Arch packages.",
-      }      
+      },
+      {
+        name: "Internet Archive",
+        icon: "archive/icons/icon.png",
+        url: "https://archive.org",
+        description: "Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more.",
+        wrapper: true
+      }
     ]
   },
   {
@@ -185,8 +192,8 @@ export const categories = [
   {
     name: "Gaming Community",
     apps: [
-      { name: "Murlok.io", icon: "icons/murlok.png", url: "https://murlok.io", description: "WoW talent and build guides." },
-      { name: "World of Warcraft", icon: "icons/wow.png", url: "https://worldofwarcraft.blizzard.com", description: "Official game portal for WoW." },
+      { name: "Murlok.io", icon: "icons/murlok.webp", url: "https://murlok.io", description: "WoW talent and build guides." },
+      { name: "World of Warcraft Forums (US)", icon: "icons/wow.webp", url: "https://us.forums.blizzard.com/en/wow", description: "Official game portal for WoW." },
       {
         name: "MMO-Champion",
         icon: "mmo-champion/icons/icon.png",
@@ -206,28 +213,28 @@ export const categories = [
   {
     name: "Learning",
     apps: [
-      { name: "Duolingo", icon: "icons/duolingo.png", url: "https://duolingo.com", description: "Gamified language learning." },
-      { name: "Duolingo (多邻国)", icon: "icons/duolingocn.png", url: "https://cn.duolingo.com", description: "Localized Chinese version of Duolingo." }
+      { name: "Duolingo", icon: "icons/duolingo.webp", url: "https://duolingo.com", description: "Gamified language learning." },
+      { name: "Duolingo (多邻国)", icon: "icons/duolingo.webp", url: "https://cn.duolingo.com", description: "Localized Chinese version of Duolingo." }
     ]
   },
   {
     name: "Knowledge & Pedias",
     apps: [
       { name: "Wikipedia", icon: "icons/wikipedia.png", url: "https://wikipedia.org", description: "Free online encyclopedia." },
-      { name: "Baidu Baike (百度百科)", icon: "icons/baike.png", url: "https://baike.baidu.com", description: "Chinese collaborative knowledge base." }
+      { name: "Baidu Baike (百度百科)", icon: "icons/baike.webp", url: "https://baike.baidu.com", description: "Chinese collaborative knowledge base." }
     ]
   },
   {
     name: "Music Streaming",
     apps: [
-      { name: "Spotify", icon: "icons/spotify.png", url: "https://open.spotify.com", description: "Global music streaming platform." },
-      { name: "Apple Music", icon: "icons/applemusic.png", url: "https://music.apple.com", description: "Apple’s premium music service." }
+      { name: "Spotify", icon: "icons/spotify.webp", url: "https://open.spotify.com", description: "Global music streaming platform." },
+      { name: "Apple Music", icon: "icons/applemusic.jpeg", url: "https://music.apple.com", description: "Apple’s premium music service." }
     ]
   },
   {
     name: "Food & Groceries",
     apps: [
-      { name: "Starbucks", icon: "icons/starbucks.png", url: "https://starbucks.com", description: "Coffee ordering and loyalty tracking." },
+      { name: "Starbucks", icon: "icons/starbucks.png", url: "https://www.starbucks.com", description: "Coffee ordering and loyalty tracking." },
       {
         name: "Walmart",
         icon: "walmart/icons/icon.png",
@@ -240,11 +247,11 @@ export const categories = [
   {
     name: "Adult",
     apps: [
-      { name: "Pornhub", icon: "icons/pornhub.png", url: "https://pornhub.com", description: "Adult entertainment portal." },
-      { name: "SpankBang", icon: "icons/spankbang.png", url: "https://spankbang.com", description: "Free adult video streaming site." },
-      { name: "Hentai Haven", icon: "icons/hentaihaven.png", url: "https://hentaihaven.xxx", description: "Hentai-focused adult media platform." },
-      { name: "MissAV", icon: "icons/missav.png", url: "https://missav.com", description: "Japanese adult video index." },
-      { name: "OnlyFans", icon: "icons/onlyfans.png", url: "https://onlyfans.com", description: "Subscription-based platform known for exclusive adult and creator content." },
+      { name: "Pornhub", icon: "icons/pornhub.webp", url: "https://www.pornhub.com", description: "Adult entertainment portal." },
+      { name: "SpankBang", icon: "icons/spankbang.svg", url: "https://www.spankbang.com", description: "Free adult video streaming site." },
+      { name: "Hentai Haven", icon: "icons/hentaihaven.png", url: "https://www.hentaihaven.xxx", description: "Hentai-focused adult media platform." },
+      { name: "MissAV TV", icon: "icons/missavtv.png", url: "https://www.missavtv.com", description: "Japanese adult video index." },
+      { name: "OnlyFans", icon: "icons/onlyfans.webp", url: "https://www.onlyfans.com", description: "Subscription-based platform known for exclusive adult and creator content." },
     ]
   }
 ];
