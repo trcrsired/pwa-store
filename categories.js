@@ -179,7 +179,7 @@ export const categories = [
   {
     name: "Video Platform",
     apps : [
-      { name: "AGE Animation (AGE动漫)", icon: "icons/ageanimation.png" ,url: "https://www.agedm.vip", description:"Stream and explore a wide range of anime series and movies, updated regularly with Chinese subtitles." },
+      { name: "AGE Animation (AGE动漫)", icon: "icons/ageanimation.jpg" ,url: "https://www.agedm.vip", description:"Stream and explore a wide range of anime series and movies, updated regularly with Chinese subtitles." },
     ]
   },
   {
