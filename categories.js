@@ -109,6 +109,7 @@ export const categories = [
       { name: "Windows Central", icon: "icons/windowscentral.png", url: "https://www.windowscentral.com", description: "Microsoft ecosystem coverage and guides." },
       { name: "Mac Rumors", icon: "icons/macrumors.png", url: "https://www.macrumors.com", description: "Apple-focused tech reporting and insights." },
       { name: "Android Authority", icon: "icons/androidauthority.png", url: "https://www.androidauthority.com", description: "News, reviews, and deep dives into Android and Google-related tech." },
+      { name: "Tom's Hardware", icon: "icons/tomshardware.webp", url: "https://www.tomshardware.com", description: "In-depth reviews, tech news, and DIY guides for PC enthusiasts and hardware pros." },
     ]
   },
   {
@@ -195,6 +196,13 @@ export const categories = [
         description: "TED is a global platform where thinkers, creators, and doers share powerful, concise talks on topics ranging from science and tech to art, education, and social change. Whether it's a mind-blowing discovery or a fresh way to look at the world, TED showcases ideas that inspire and spark conversation.",
         wrapper: true
       },
+    ]
+  },
+  {
+    name: "Games",
+    apps: [
+      { name: "CrazyGames", icon: "icons/crazygames.png", url: "https://www.crazygames.com", description: "Browser-based games spanning action, puzzle, multiplayer, and more—play instantly without downloads." },
+      { name: "WebGamer", icon: "icons/webgamer.svg", url: "https://webgamer.io", description: "Portal for next-gen web games—play instantly in your browser with no installs required." },
     ]
   },
   {
