@@ -114,11 +114,29 @@ export const categories = [
       { name: "RT", icon: "icons/rt.png", url: "https://www.rt.com", description: "Russian international news outlet.", wrapper: true },
       { name: "PressTV", icon: "icons/presstv.png", url: "https://www.presstv.ir", description: "Iranian English-language broadcaster.", wrapper: true },
       {
+        name: "Firstpost",
+        icon: "icons/firstpost.png",
+        url: "https://www.firstpost.com",
+        description: "Indian news portal offering coverage across politics, business, sports, and entertainment, with editorial and opinion content."
+      },
+      {
+        name: "PBS",
+        icon: "icons/pbs.png",
+        url: "https://www.pbs.org",
+        description: "U.S. public broadcaster providing educational, cultural, and documentary programming through a network of member stations."
+      },
+      {
         name: "CCTV",
         icon: "cctv/icons/icon.png",
         url: "./cctv",
         description: "China's state-run broadcaster offering news, documentaries, and entertainment across multiple channels and digital platforms.",
         wrapper: true
+      },
+      {
+        name: "In Defence of Marxism",
+        icon: "icons/marxist.png",
+        url: "https://marxist.com",
+        description: "Online platform offering Marxist analysis of global events, political theory, and revolutionary history from a socialist perspective."
       },
     ]
   },
