@@ -315,6 +315,12 @@ export const categories = [
     ]
   },
   {
+    name: "Websites & Blogs",
+    apps: [
+      { name: "WordPress", icon: "icons/wordpress.png", url: "https://wordpress.org", description: "Open-source content management system—build blogs, websites, and online stores with thousands of themes, plugins, and full customization." },
+    ]
+  },
+  {
     name: "Adult",
     apps: [
       { name: "Pornhub", icon: "icons/pornhub.webp", url: "https://www.pornhub.com", description: "Adult entertainment portal." },
