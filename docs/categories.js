@@ -294,7 +294,8 @@ export const categories = [
     apps: [
       { name: "CrazyGames", icon: "icons/crazygames.png", url: "https://www.crazygames.com", description: "Browser-based games spanning action, puzzle, multiplayer, and more—play instantly without downloads." },
       { name: "Web Gamer", icon: "icons/webgamer.svg", url: "https://webgamer.io", description: "Portal for next-gen web games—play instantly in your browser with no installs required." },
-      {
+	{ name: "GamesLOL", icon: "icons/gameslol.png", url: "https://en.gameslol.net", description: "GamesLOL is a website that offers a wide range of games in various genres, such as action, adventure, puzzle, sports, and more." },
+	{
         name: "MuMu Emulator (MuMu模拟器)",
         icon: "icons/wrappers/mumu.png",
         url: "https://mumu.163.com",
