@@ -1,0 +1,16 @@
+{
+  "name": "Gmail",
+  "short_name": "Gmail",
+  "start_url": ".",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "A Progressive Web APP Wrapper for Gmail",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icons/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
