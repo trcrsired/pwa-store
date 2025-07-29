@@ -346,6 +346,7 @@ export const categories = [
       { name: "Uber", icon: "icons/uber.png", url: "https://uber.com", description: "Ride-hailing and delivery platform—book trips, order food, and manage your account via installable PWA." },
       { name: "Amtrak", icon: "icons/amtrak.png", url: "https://amtrak.com", description: "Book train tickets, check schedules, and track your ride—Amtrak’s PWA offers smooth travel planning across 500+ U.S. destinations." },
       { name: "Delta", icon: "icons/delta.png", url: "https://delta.com", description: "Manage flights, check in, and track status—Delta’s installable PWA streamlines your journey with mobile-friendly tools and SkyMiles integration." },
+      { name: "United Airlines",icon: "icons/united.svg", url: "https://united.com", description: "Book flights, manage reservations, and track travel status—United’s installable PWA connects you to over 300 destinations worldwide with MileagePlus rewards, mobile check-in, and real-time updates." },
       { name: "FlixBus", icon: "icons/flixbus.png", url: "https://flixbus.com", description: "Explore 1,800+ destinations across the US and beyond—FlixBus’s PWA lets you book tickets, track your ride in real time, and travel comfortably with Wi-Fi, outlets, and extra legroom." },
       { name: "SF Express (顺丰速运)", icon: "icons/shunfeng.png", url: "https://www.sf-express.com", description: "SF Express—track domestic and international shipments, schedule pickups, and manage delivery services." },
       {
