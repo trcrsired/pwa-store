@@ -612,8 +612,8 @@ export const categories = [
     ]
   },
   {
-    name: "Global Organizations",
-    app : [
+    name: "Organizations",
+    apps : [
      {
       name: "ISO",
       icon: "icons/iso.webp",
