@@ -1,0 +1,16 @@
+{
+  "name": "White House",
+  "short_name": "White House",
+  "start_url": ".",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "A Progressive Web APP Wrapper for White House",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icons/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

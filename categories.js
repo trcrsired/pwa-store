@@ -370,13 +370,153 @@ export const categories = [
     ]
   },
   {
-    name: "Government",
+    name: "United States Government🇺🇸",
     apps : [
       {
         name: "IRS",
         icon: "icons/wrappers/irs.png",
         url: "./wrappers/irs",
         description: "Official site of the U.S. Internal Revenue Service—access tax forms, file returns, track refunds, manage payments, and stay updated on federal tax regulations and news.",
+        wrapper: true
+      },
+      {
+        name: "USCIS",
+        icon: "icons/wrappers/uscis.png",
+        url: "./wrappers/uscis",
+        description: "U.S. Citizenship and Immigration Services—manage immigration applications, check case status, access forms, and explore resources for citizenship, green cards, and asylum.",
+        wrapper: true
+      },
+      {
+        name: "SSA",
+        icon: "icons/wrappers/ssa.png",
+        url: "./wrappers/ssa",
+        description: "Social Security Administration—access retirement, disability, and Medicare benefits, manage your account, and find resources for planning and applying.",
+        wrapper: true
+      },
+      {
+        name: "TSA",
+        icon: "icons/wrappers/tsa.png",
+        url: "./wrappers/tsa",
+        description: "Transportation Security Administration—get travel tips, apply for TSA PreCheck, check airport security wait times, and review prohibited items.",
+        wrapper: true
+      },
+      {
+        name: "DOS",
+        icon: "icons/wrappers/dos.png",
+        url: "./wrappers/dos",
+        description: "U.S. Department of State—apply for passports, review travel advisories, access consular services, and explore foreign policy resources.",
+        wrapper: true
+      },
+      {
+        name: "USA.gov",
+        icon: "icons/wrappers/usagov.png",
+        url: "./wrappers/usagov",
+        description: "USA.gov—official guide to U.S. government services and information. Find benefits, contact agencies, explore topics like taxes, immigration, health, and more—all in one centralized portal.",
+        wrapper: true
+      },
+      {
+        name: "IdentityTheft",
+        icon: "icons/wrappers/identitytheft.png",
+        url: "./wrappers/identitytheft",
+        description: "Federal Trade Commission’s one-stop resource for identity theft victims—report fraud, create a recovery plan, access sample letters, and track progress through personalized steps.",
+        wrapper: true
+      },
+      {
+        name: "FTC",
+        icon: "icons/wrappers/ftc.png",
+        url: "./wrappers/ftc",
+        description: "Federal Trade Commission—protecting consumers and promoting competition through enforcement, education, and advocacy. Access fraud reporting tools, business guidance, and resources on scams, privacy, and identity theft.",
+        wrapper: true
+      },
+      {
+        name: "FED",
+        icon: "icons/wrappers/fed.png",
+        url: "./wrappers/fed",
+        description: "Central bank of the United States—formulates monetary policy, supervises financial institutions, promotes financial stability, and provides services to the banking system. Access economic data, policy updates, and regulatory resources.",
+        wrapper: true
+      },
+      {
+        name: "DOL",
+        icon: "icons/wrappers/dol.png",
+        url: "./wrappers/dol",
+        description: "U.S. Department of Labor—administers federal labor laws to ensure fair, safe, and healthy working conditions. Access wage standards, unemployment resources, workplace safety guidance, and employment training programs.",
+        wrapper: true
+      },
+      {
+        name: "DOD",
+        icon: "icons/wrappers/dod.png",
+        url: "./wrappers/dod",
+        description: "U.S. Department of Defense—coordinates and supervises the nation's military forces, including the Army, Navy, Air Force, Marines, Space Force, and Coast Guard. Access defense news, policy updates, service member resources, and official publications.",
+        wrapper: true
+      },
+      {
+        name: "GSA",
+        icon: "icons/wrappers/gsa.png",
+        url: "./wrappers/gsa",
+        description: "General Services Administration—manages federal property, procurement, and technology services. Access auctions, contracts, and governmentwide initiatives.",
+        wrapper: true
+      },
+      {
+        name: "DHS",
+        icon: "icons/wrappers/dhs.png",
+        url: "./wrappers/dhs",
+        description: "Department of Homeland Security—protects the U.S. from threats through border security, immigration enforcement, cybersecurity, and emergency response.",
+        wrapper: true
+      },
+      {
+        name: "DEA",
+        icon: "icons/wrappers/dea.png",
+        url: "./wrappers/dea",
+        description: "Drug Enforcement Administration—enforces controlled substance laws, combats drug trafficking, and supports prevention and education efforts.",
+        wrapper: true
+      },
+      {
+        name: "EEOC",
+        icon: "icons/wrappers/eeoc.png",
+        url: "./wrappers/eeoc",
+        description: "Equal Employment Opportunity Commission—enforces laws against workplace discrimination and provides resources for employees and employers.",
+        wrapper: true
+      },
+      {
+        name: "NSA",
+        icon: "icons/wrappers/nsa.png",
+        url: "./wrappers/nsa",
+        description: "National Security Agency—provides signals intelligence and cybersecurity services to protect national security and support military operations.",
+        wrapper: true
+      },
+      {
+        name: "CIA",
+        icon: "icons/wrappers/cia.png",
+        url: "./wrappers/cia",
+        description: "Central Intelligence Agency—collects and analyzes foreign intelligence, conducts covert operations, and informs U.S. national security policy.",
+        wrapper: true
+      },
+      {
+        name: "DOJ",
+        icon: "icons/wrappers/doj.png",
+        url: "./wrappers/doj",
+        description: "Department of Justice—enforces federal law, defends the interests of the U.S., and ensures fair and impartial administration of justice.",
+        wrapper: true
+      },
+      {
+        name: "OMB",
+        icon: "icons/wrappers/omb.png",
+        url: "./wrappers/omb",
+        description: "Office of Management and Budget—oversees federal budget development, agency performance, and regulatory policy across the executive branch.",
+        wrapper: true
+      },
+      {
+        name: "NASA",
+        icon: "icons/wrappers/nasa.png",
+        url: "./wrappers/nasa",
+        description: "National Aeronautics and Space Administration—explores space and aeronautics, conducts scientific research, and leads missions to study Earth, the solar system, and the universe. Access news, images, videos, and live coverage of launches and discoveries.",
+        wrapper: true
+      },
+      {
+        name: "White House",
+        icon: "icons/wrappers/whitehouse.png",
+        url: "./wrappers/whitehouse",
+        description: "Official residence and workplace of the President of the United States—explore executive branch initiatives, press releases, policy updates, and historical archives. Access resources from the Office of the President and stay informed on national priorities.",
         wrapper: true
       },
     ]
