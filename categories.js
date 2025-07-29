@@ -213,6 +213,18 @@ export const categories = [
     name: "Video Platform",
     apps : [
       { name: "AGE Animation (AGE动漫)", icon: "icons/ageanimation.jpg" ,url: "https://www.agedm.vip", description:"Stream and explore a wide range of anime series and movies, updated regularly with Chinese subtitles." },
+      {
+        name: "ViX (vix.com)",
+        icon: "icons/vix.png",
+        url: "https://www.vix.com",
+        description: "Official PWA-enabled hub for Spanish-language entertainment, ViX features live television, on-demand films, sports, and original shows curated for Hispanic audiences in the U.S. and Latin America."
+      },
+      {
+        name: "ViX (vix.watch)",
+        icon: "icons/vix.png",
+        url: "https://vix.watch",
+        description: "Alternate entry point to ViX's streaming catalog—providing access to novelas, movies, and series across regions. Ideal for redirect scenarios or geo-targeted user flows."
+      },
       { name: "TED",
         icon: "icons/wrappers/ted.png",
         url: "./wrappers/ted",
