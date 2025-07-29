@@ -37,7 +37,7 @@ WRAPPERS = [
   { "name": "KFC", "url": "https://www.kfc.com" },
   { "name": "Subway", "url": "https://www.subway.com" },
   { "name": "McDonald's", "url": "https://www.mcdonalds.com", "keyify_name": "mcdonalds" },
-  { "name": "Gmail", "url": "mail.google.com" },
+  { "name": "Gmail", "url": "https://mail.google.com" },
 
   { "name": "IRS", "url": "https://www.irs.gov" },
   { "name": "USCIS", "url": "https://www.uscis.gov" },

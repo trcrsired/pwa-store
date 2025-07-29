@@ -1,6 +1,6 @@
 window.appConfig = {
   title: "Gmail",
-  url: "mail.google.com",
+  url: "https://mail.google.com",
   cacheName: "pwa-gmail",
   localStorageKey: "gmail_installed"
 };
