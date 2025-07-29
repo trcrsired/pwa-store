@@ -298,6 +298,34 @@ export const categories = [
         description: "U.S. pharmacy and retail chain offering prescriptions, health and wellness products, beauty essentials, and everyday groceries—available in-store and online.",
         wrapper: true
       },
+      {
+        name: "Doordash",
+        icon: "icons/wrappers/doordash.png",
+        url: "./wrappers/doordash",
+        description: "Food delivery and logistics platform connecting users with restaurants, convenience stores, and groceries—order online or via app for on-demand service.",
+        wrapper: true
+      },
+      {
+        name: "KFC",
+        icon: "icons/wrappers/kfc.png",
+        url: "./wrappers/kfc",
+        description: "Global fast food chain known for its fried chicken—order meals, explore deals, and find locations through its app or website.",
+        wrapper: true
+      },
+      {
+        name: "Subway",
+        icon: "icons/wrappers/subway.png",
+        url: "./wrappers/subway",
+        description: "International sandwich shop offering customizable subs, wraps, and salads—order online, join rewards, and locate stores easily.",
+        wrapper: true
+      },
+      {
+        name: "McDonald's",
+        icon: "icons/wrappers/mcdonalds.png",
+        url: "./wrappers/mcdonalds",
+        description: "World's largest fast food chain serving burgers, fries, breakfast, and beverages—mobile ordering, rewards, and location finder available via app or site.",
+        wrapper: true
+      },
     ]
   },
   {
@@ -308,6 +336,13 @@ export const categories = [
       { name: "Delta", icon: "icons/delta.png", url: "https://delta.com", description: "Manage flights, check in, and track status—Delta’s installable PWA streamlines your journey with mobile-friendly tools and SkyMiles integration." },
       { name: "FlixBus", icon: "icons/flixbus.png", url: "https://flixbus.com", description: "Explore 1,800+ destinations across the US and beyond—FlixBus’s PWA lets you book tickets, track your ride in real time, and travel comfortably with Wi-Fi, outlets, and extra legroom." },
       { name: "SF Express (顺丰速运)", icon: "icons/shunfeng.png", url: "https://www.sf-express.com", description: "SF Express—track domestic and international shipments, schedule pickups, and manage delivery services." },
+      {
+        name: "USPS",
+        icon: "icons/wrappers/usps.png",
+        url: "./wrappers/usps",
+        description: "United States Postal Service—track shipments, buy postage, schedule pickups, and access national mailing services and address tools through its official portal.",
+        wrapper: true
+      },
     ]
   },
   {
@@ -330,6 +365,25 @@ export const categories = [
         icon: "icons/wrappers/irs.png",
         url: "./wrappers/irs",
         description: "Official site of the U.S. Internal Revenue Service—access tax forms, file returns, track refunds, manage payments, and stay updated on federal tax regulations and news.",
+        wrapper: true
+      },
+    ]
+  },
+  {
+    name: "Health & Insurance",
+    apps : [
+      {
+        name: "UHS",
+        icon: "icons/wrappers/uhs.png",
+        url: "./wrappers/uhs",
+        description: "Universal Health Services—hospital management and healthcare provider offering behavioral health, acute care, and medical services across the U.S.",
+        wrapper: true
+      },
+      {
+        name: "Delta Dental",
+        icon: "icons/wrappers/deltadental.png",
+        url: "./wrappers/deltadental",
+        description: "Dental insurance provider serving individuals and employers—manage benefits, find dentists, view claims, and explore oral health resources online.",
         wrapper: true
       },
     ]

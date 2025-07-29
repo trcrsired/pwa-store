@@ -14,24 +14,32 @@ SHARED_DIR = ROOT / "wrappers_shared"
 ICONS_DIR = ROOT / "icons" / "wrappers"
 WRAPPER_OUTPUT = ROOT / "wrappers"
 
-# 🌐 Wrapper definitions
 WRAPPERS = [
-    { "name": "CVS", "url": "https://www.cvs.com" },
-    { "name": "Internet Archive", "url": "https://archive.org", "keyify_name": "archive" },
-    { "name": "Bing", "url": "https://www.bing.com" },
-    { "name": "CCTV", "url": "https://tv.cctv.com" },
-    { "name": "cppreference", "url": "https://en.cppreference.com" },
-    { "name": "Compiler Explorer", "url": "https://godbolt.org", "keyify_name": "godbolt" },
-    { "name": "linux.die", "url": "https://en.cppreference.com" },
-    { "name": "MMO Champion", "url": "https://www.mmo-champion.com", "keyify_name": "mmo-champion" },
-    { "name": "Target", "url": "https://www.target.com" },
-    { "name": "TED", "url": "https://www.ted.com" },
-    { "name": "Tieba", "url": "https://tieba.baidu.com" },
-    { "name": "v86", "url": "https://copy.sh/v86" },
-    { "name": "Walmart", "url": "https://www.walmart.com" },
-    { "name": "WarcraftLogs", "url": "https://www.warcraftlogs.com" },
-    { "name": "IRS", "url": "https://www.irs.gov" },
+  { "name": "CVS", "url": "https://www.cvs.com" },
+  { "name": "Internet Archive", "url": "https://archive.org", "keyify_name": "archive" },
+  { "name": "Bing", "url": "https://www.bing.com" },
+  { "name": "CCTV", "url": "https://tv.cctv.com" },
+  { "name": "cppreference", "url": "https://en.cppreference.com" },
+  { "name": "Compiler Explorer", "url": "https://godbolt.org", "keyify_name": "godbolt" },
+  { "name": "linux.die", "url": "https://en.cppreference.com" },
+  { "name": "MMO Champion", "url": "https://www.mmo-champion.com", "keyify_name": "mmo-champion" },
+  { "name": "Target", "url": "https://www.target.com" },
+  { "name": "TED", "url": "https://www.ted.com" },
+  { "name": "Tieba", "url": "https://tieba.baidu.com" },
+  { "name": "v86", "url": "https://copy.sh/v86" },
+  { "name": "Walmart", "url": "https://www.walmart.com" },
+  { "name": "WarcraftLogs", "url": "https://www.warcraftlogs.com" },
+  { "name": "IRS", "url": "https://www.irs.gov" },
+  { "name": "Doordash", "url": "https://www.doordash.com" },
+  { "name": "Lyft", "url": "https://www.lyft.com" },
+  { "name": "USPS", "url": "https://www.usps.com"},
+  { "name": "UHS", "url": "https://www.uhs.com" },
+  { "name": "Delta Dental", "url": "https://www.deltadental.com", "keyify_name": "deltadental" },
+  { "name": "KFC", "url": "https://www.kfc.com" },
+  { "name": "Subway", "url": "https://www.subway.com" },
+  { "name": "McDonald's", "url": "https://www.mcdonalds.com", "keyify_name": "mcdonalds" },
 ]
+
 
 # 🔠 Normalize name: lowercase and remove periods
 def keyify(name):
