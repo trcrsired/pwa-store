@@ -51,10 +51,10 @@ export const categories = [
       { name: "Visual Studio Code", icon: "icons/vscode.webp", url: "https://vscode.dev", description: "Online code editor with GitHub integration." },
       { name: "VS Code Insider", icon: "icons/vscode-insiders.webp", url: "https://insiders.vscode.dev", description: "Preview build of Visual Studio Code Web." },
       {
-        name: "cppreference",
-        icon: "cppreference/icons/icon.png",
-        url: "./cppreference",
-        description: "Comprehensive online reference for C and C++ programming languages, covering syntax, standard libraries, and compiler support.",
+        name: "Linux.die",
+        icon: "linuxdie/icons/icon.png",
+        url: "./linuxdie",
+        description: "Extensive archive of Linux documentation, man pages, and HOWTO guides—ideal for developers, sysadmins, and command-line enthusiasts seeking quick reference and deep technical insight.",
         wrapper: true
       },
       {
@@ -104,6 +104,7 @@ export const categories = [
         url: "https://zoom.us/join",
         description: "Video conferencing platform offering reliable virtual meetings, webinars, screen sharing, and collaboration tools across devices."
       },
+      { name: "Hacker News", icon: "icons/hackernews.webp", url: "https://hackernews.com", description: "Tech-savvy and community-driven—Hacker News offers a minimalist PWA experience for discovering and discussing cutting-edge ideas in programming, startups, and science." },
       {
         name: "Tieba (贴吧)",
         icon: "tieba/icons/icon.png",
@@ -174,6 +175,7 @@ export const categories = [
         url: "https://www.pbs.org",
         description: "U.S. public broadcaster providing educational, cultural, and documentary programming through a network of member stations."
       },
+      { name: "BBC", icon: "icons/bbc.jpg", url: "https://www.bbc.com", description: "Global news and media hub—BBC delivers breaking stories, live coverage, and in-depth reporting across politics, culture, and science." },
       {
         name: "CCTV",
         icon: "cctv/icons/icon.png",
