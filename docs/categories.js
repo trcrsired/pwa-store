@@ -350,13 +350,7 @@ export const categories = [
     apps: [
       { name: "Wikipedia", icon: "icons/wikipedia.png", url: "https://wikipedia.org", description: "Free online encyclopedia." },
       { name: "Baidu Baike (百度百科)", icon: "icons/baike.webp", url: "https://baike.baidu.com", description: "Chinese collaborative knowledge base." },
-      {
-        name: "liquipedia",
-        icon: "icons/wrappers/liquipedia.png",
-        url: "./wrappers/liquipedia",
-        description: "Liquipedia is an online encyclopedia focused on esports.",
-        wrapper: true
-      },
+      { name: "Liquipedia", icon: "icons/liquipedia.png", url: "https://liquipedia.net", description: "Liquipedia is an online encyclopedia focused on esports."},
     ]
   },
   {
