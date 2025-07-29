@@ -103,6 +103,17 @@ export const categories = [
     ]
   },
   {
+    name: "Internet Services",
+    apps: [
+      {
+        name: "Cloudflare",
+        icon: "icons/cloudflare.webp",
+        url: "https://dash.cloudflare.com",
+        description: "Cloudflare is a widely adopted platform that provides networking, security, and performance services to enhance the functionality of websites, applications, and online services. It is used by a diverse range of users, from individual developers to large enterprises, due to its robust features and global infrastructure.",
+      }
+    ]
+  },
+  {
     name: "Social Media",
     apps: [
       { name: "YouTube", icon: "icons/youtube.webp", url: "https://youtube.com", description: "Video streaming platform by Google." },
