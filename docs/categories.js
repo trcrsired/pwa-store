@@ -43,7 +43,7 @@ export const categories = [
       { name: "Google", icon: "icons/google.png", url: "https://www.google.com", description: "Global search and service hub offering instant access to Search, Gmail, Drive, Translate, and other tools via a fast, unified web interface optimized across devices." },
       { name: "Google Voice", icon: "icons/googlevoice.webp", url: "https://voice.google.com", description: "Get a free U.S. phone number for calls, texts, and voicemail—syncs across devices and works on web or mobile." },
       { name: "Google Maps", icon: "icons/googlemaps.png", url: "https://maps.google.com", description: "Navigate the world with Google Maps—its PWA lets you find places, get directions, explore nearby businesses, and view real-time traffic, transit, and satellite layers." },
-      { name: "Gmail", icon: "icons/wrappers/gmail.png", url: "./wrappers/gmail", description: "Google's Mail Services" },
+      { name: "Gmail", icon: "icons/wrappers/gmail.png", url: "./wrappers/gmail", description: "Google's Mail Services", wrapper: true },
     ]
   },
   {
