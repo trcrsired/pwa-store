@@ -173,6 +173,7 @@ export const categories = [
       { name: "Android Authority", icon: "icons/androidauthority.png", url: "https://www.androidauthority.com", description: "News, reviews, and deep dives into Android and Google-related tech." },
       { name: "Tom's Hardware", icon: "icons/tomshardware.webp", url: "https://www.tomshardware.com", description: "In-depth reviews, tech news, and DIY guides for PC enthusiasts and hardware pros." },
       { name: "Ars OpenForum", icon: "icons/ars-open-forum.svg" , url: "https://arstechnica.com/civis", description: "Longstanding tech community hosted by Ars Technica—features flat, chronological discussions across hardware, software, politics, and geek culture. Powered by XenForo, it supports BBCode, Markdown, syntax highlighting, and power-user features like multi-quote, image resizing, and post tracking. A haven for respectful debate and deep dives since 1999."},
+      { name: "XDA Forums", icon: "icons/xdaforums.png" , url: "https://xdaforums.com", description: "XDA Forums is a community for discussion, guides, accessories and development of mobile devices, especially Android."},
     ]
   },
   {
@@ -247,7 +248,13 @@ export const categories = [
         icon: "icons/sohu.png",
         url: "https://www.sohu.com",
         description: "Versatile media and news platform offering editorial coverage, breaking headlines, and multimedia stories."
-      }
+      },
+      {
+        name: "Weibo Lite (微博Lite)",
+        icon: "icons/weibo.webp",
+        url: "https://m.weibo.cn",
+        description: "A lightweight, mobile-optimized gateway to China's popular microblogging service, offering quick access to trending posts, hashtags, and celebrity updates."
+      },
     ]
   },
   {
