@@ -48,6 +48,7 @@ export const categories = [
   {
     name: "Programming",
     apps: [
+      { name: "Open Web Advocacy", icon: "icons/open-web-advocacy.svg", url: "https://open-web-advocacy.org", description: "We are a group of software engineers from all over the world who have come together to advocate for the future of the open web by providing regulators, legislators and policy makers the intricate technical details that they need to understand the major anti-competitive issues in our industry and how to solve them." },
       { name: "GitHub", icon: "icons/github.png", url: "https://github.com", description: "Code hosting with PWA support." },
       { name: "Visual Studio Code", icon: "icons/vscode.webp", url: "https://vscode.dev", description: "Online code editor with GitHub integration." },
       { name: "VS Code Insider", icon: "icons/vscode-insiders.webp", url: "https://insiders.vscode.dev", description: "Preview build of Visual Studio Code Web." },
@@ -83,6 +84,13 @@ export const categories = [
         icon: "icons/wrappers/v86.png",
         url: "./wrappers/v86",
         description: "Virtual x86 emulator running legacy operating systems like Windows 95 and Linux directly in the browser using WebAssembly.",
+        wrapper: true
+      },
+      {
+        name: "Free Software Foundations",
+        icon: "icons/wrappers/fsf.png",
+        url: "./wrappers/fsf",
+        description: "he Free Software Foundation (FSF) is a nonprofit with a worldwide mission to promote computer user freedom.",
         wrapper: true
       },
       {
