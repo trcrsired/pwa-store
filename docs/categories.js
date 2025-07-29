@@ -274,6 +274,13 @@ export const categories = [
         url: "https://vix.watch",
         description: "Alternate entry point to ViX's streaming catalog—providing access to novelas, movies, and series across regions. Ideal for redirect scenarios or geo-targeted user flows."
       },
+      {
+        name: "Lightnovel Kingdom (轻之国度)",
+        icon: "icons/wrappers/lightnovelkingdom.png",
+        url: "./wrappers/lightnovelkingdom",
+        description: "One of China’s longest-running light novel communities, offering serialized fan translations, author archives, and anime-inspired literature in a minimalist interface optimized for mobile browsing.",
+        wrapper: true
+      },
       { name: "TED",
         icon: "icons/wrappers/ted.png",
         url: "./wrappers/ted",
