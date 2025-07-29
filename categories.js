@@ -52,6 +52,18 @@ export const categories = [
       { name: "VS Code Insider", icon: "icons/vscode-insiders.webp", url: "https://insiders.vscode.dev", description: "Preview build of Visual Studio Code Web." },
       { name: "v2ray", icon: "icons/v2ray.png", url: "https://www.v2ray.com", description: "Project V is a set of tools to help you build your own privacy network over internet. The core of Project V, named V2Ray, is responsible for network protocols and communications. It can work alone, as well as combine with other tools." },
       {
+        "name": "GitLab",
+        "icon": "icons/gitlab.png",
+        "url": "https://gitlab.com",
+        "description": "DevOps powerhouse with full-stack Git repository management and robust PWA support. Enables seamless code hosting, issue tracking, CI/CD workflows, and real-time collaboration across teams."
+      },
+      {
+        "name": "Gitee",
+        "icon": "icons/gitee.webp",
+        "url": "https://gitee.com",
+        "description": "China’s leading code hosting platform with native PWA support. Offers Git-based project management, team collaboration tools, and integrated CI/CD pipelines tailored to local developers and enterprises."
+      },
+      {
         name: "Linux.die",
         icon: "icons/wrappers/linuxdie.png",
         url: "./wrappers/linuxdie",
