@@ -494,10 +494,9 @@ export const categories = [
       },
       {
         name: "CIA",
-        icon: "icons/wrappers/cia.png",
-        url: "./wrappers/cia",
+        icon: "icons/cia.png",
+        url: "https://www.cia.gov",
         description: "Central Intelligence Agency—collects and analyzes foreign intelligence, conducts covert operations, and informs U.S. national security policy.",
-        wrapper: true
       },
       {
         name: "DOJ",

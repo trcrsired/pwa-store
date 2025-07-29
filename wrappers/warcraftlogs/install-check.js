@@ -1,17 +1,12 @@
-function isStandalone() {
-  return window.matchMedia("(display-mode: standalone)").matches ||
-         window.navigator.standalone === true;
-}
-
 function hasBeenInstalled(key) {
   return localStorage.getItem(key) === "true";
 }
 
-function isMyPWAStore(expectedId) {
-  return window.appConfig?.id === expectedId;
-}
-
 function setupInstallUI(statusEl, installBtn, localStorageKey) {
+  if (!statusEl)
+  {
+    return;
+  }
   statusEl.textContent = "Please install this app to continue.";
   installBtn.style.display = "inline-block";
 
@@ -26,21 +21,21 @@ function setupInstallUI(statusEl, installBtn, localStorageKey) {
   });
 }
 
-window.addEventListener("DOMContentLoaded", () => {
-  const { url, localStorageKey, id } = window.appConfig;
+function install_or_jump()
+{
+  if (!window.appConfig) return;
+  const { url, localStorageKey } = window.appConfig;
   const statusEl = document.getElementById("status");
   const installBtn = document.getElementById("install");
 
-  const isStore = isMyPWAStore("https://trcrsired.github.io/pwa-store");
   const installed = hasBeenInstalled(localStorageKey);
-  const standalone = isStandalone();
-
-  if (isStore) {
-    statusEl.textContent = "You're running the PWA Store.";
-    installBtn.style.display = "none";
-  } else if (standalone || installed) {
+ 
+  if (installed) {
     window.location.href = url;
   } else {
     setupInstallUI(statusEl, installBtn, localStorageKey);
   }
-});
+}
+
+window.addEventListener("DOMContentLoaded", install_or_jump);
+install_or_jump();

@@ -55,7 +55,6 @@ WRAPPERS = [
   { "name": "DEA", "url": "https://www.dea.gov" },
   { "name": "EEOC", "url": "https://www.eeoc.gov" },
   { "name": "NSA", "url": "https://www.nsa.gov" },
-  { "name": "CIA", "url": "https://www.cia.gov" },
   { "name": "DOJ", "url": "https://www.justice.gov" },
   { "name": "OMB", "url": "https://www.whitehouse.gov/omb" },
   { "name": "NASA", "url": "https://www.nasa.gov" },
