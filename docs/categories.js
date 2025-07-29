@@ -611,6 +611,30 @@ export const categories = [
     ]
   },
   {
+    name: "Global Organizations",
+    app : [
+     {
+      name: "ISO",
+      icon: "icons/iso.webp",
+      url: "https://www.iso.org",
+      description: "The International Organization for Standardization (ISO) is an independent, non-governmental international organization that develops and publishes global standards across a wide range of industries and sectors to ensure quality, safety, efficiency, and interoperability.",
+     },
+     {
+      name: "Olympics",
+      icon: "icons/olympics.webp",
+      url: "https://www.iso.org",
+      description: "The modern Olympic Games are the world's preeminent international sporting events.",
+     },
+     {
+      name: "UN",
+      icon: "icons/wrappers/un.png",
+      url: "./wrappers/un",
+      description: "The United Nations (UN) is the only place on Earth where all the world's nations come together to discuss common problems and find shared solutions that benefit all of humanity.",
+      wrapper: true
+     },
+    ]
+  },
+  {
     name: "Health & Insurance",
     apps : [
       {
