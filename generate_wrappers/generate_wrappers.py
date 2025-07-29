@@ -93,6 +93,8 @@ INDEX_HTML = """<!DOCTYPE html>
   <h1>{title}</h1>
   <p id="status">Checking app status...</p>
   <button id="install">Install App</button>
+  <a href="#" id="jump-link" target="_blank" rel="noopener">Jump to Website</a>
+  <script src="detectssa.js"></script>
 </body>
 </html>
 """
