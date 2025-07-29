@@ -30,8 +30,8 @@ export const categories = [
       { name: "OneDrive", icon: "icons/onedrive.webp", url: "https://onedrive.live.com", description: "Cloud storage with robust PWA features." },
       {
         name: "Bing",
-        icon: "bing/icons/icon.png",
-        url: "./bing",
+        icon: "icons/wrappers/bing.png",
+        url: "./wrappers/bing",
         description: "Microsoft's search engine delivering web, image, video, and map results with integrated AI features and daily visual highlights.",
         wrapper: true
       },
@@ -52,22 +52,22 @@ export const categories = [
       { name: "VS Code Insider", icon: "icons/vscode-insiders.webp", url: "https://insiders.vscode.dev", description: "Preview build of Visual Studio Code Web." },
       {
         name: "Linux.die",
-        icon: "linuxdie/icons/icon.png",
-        url: "./linuxdie",
+        icon: "icons/wrappers/linuxdie.png",
+        url: "./wrappers/linuxdie",
         description: "Extensive archive of Linux documentation, man pages, and HOWTO guides—ideal for developers, sysadmins, and command-line enthusiasts seeking quick reference and deep technical insight.",
         wrapper: true
       },
       {
         name: "Godbolt",
-        icon: "godbolt/icons/icon.png",
-        url: "./godbolt",
+        icon: "icons/wrappers/godbolt.png",
+        url: "./wrappers/godbolt",
         description: "Interactive compiler explorer for C, C++, Rust, and more—visualizing assembly output and comparing optimization across toolchains.",
         wrapper: true
       },
       {
-        name: "V86",
-        icon: "v86/icons/icon.png",
-        url: "./v86",
+        name: "v86",
+        icon: "icons/wrappers/v86.png",
+        url: "./wrappers/v86",
         description: "Virtual x86 emulator running legacy operating systems like Windows 95 and Linux directly in the browser using WebAssembly.",
         wrapper: true
       },
@@ -107,8 +107,8 @@ export const categories = [
       { name: "Hacker News", icon: "icons/hackernews.webp", url: "https://hackernews.com", description: "Tech-savvy and community-driven—Hacker News offers a minimalist PWA experience for discovering and discussing cutting-edge ideas in programming, startups, and science." },
       {
         name: "Tieba (贴吧)",
-        icon: "tieba/icons/icon.png",
-        url: "./tieba",
+        icon: "icons/wrappers/tieba.png",
+        url: "./wrappers/tieba",
         description: "Baidu’s interest-based forum network where users gather in topic-specific bars to share posts, media, and discussions. On mobile, You need to Microsoft Edge with Android by modifying agent string with adding ArkWeb to bypass the check of tieba mini app.",
         wrapper: true
       },
@@ -151,8 +151,8 @@ export const categories = [
       },
       {
         name: "Internet Archive",
-        icon: "archive/icons/icon.png",
-        url: "https://archive.org",
+        icon: "icons/wrappers/archive.png",
+        url: "./wrappers/archive",
         description: "Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more.",
         wrapper: true
       }
@@ -178,8 +178,8 @@ export const categories = [
       { name: "BBC", icon: "icons/bbc.jpg", url: "https://www.bbc.com", description: "Global news and media hub—BBC delivers breaking stories, live coverage, and in-depth reporting across politics, culture, and science." },
       {
         name: "CCTV",
-        icon: "cctv/icons/icon.png",
-        url: "./cctv",
+        icon: "icons/wrappers/cctv.png",
+        url: "./wrappers/cctv",
         description: "China's state-run broadcaster offering news, documentaries, and entertainment across multiple channels and digital platforms.",
         wrapper: true
       },
@@ -214,8 +214,8 @@ export const categories = [
     apps : [
       { name: "AGE Animation (AGE动漫)", icon: "icons/ageanimation.jpg" ,url: "https://www.agedm.vip", description:"Stream and explore a wide range of anime series and movies, updated regularly with Chinese subtitles." },
       { name: "TED",
-        icon: "ted/icons/icon.png",
-        url: "./ted",
+        icon: "icons/wrappers/ted.png",
+        url: "./wrappers/ted",
         description: "TED is a global platform where thinkers, creators, and doers share powerful, concise talks on topics ranging from science and tech to art, education, and social change. Whether it's a mind-blowing discovery or a fresh way to look at the world, TED showcases ideas that inspire and spark conversation.",
         wrapper: true
       },
@@ -234,16 +234,16 @@ export const categories = [
       { name: "Murlok.io", icon: "icons/murlok.webp", url: "https://murlok.io", description: "WoW talent and build guides." },
       { name: "World of Warcraft Forums (US)", icon: "icons/wow.webp", url: "https://us.forums.blizzard.com/en/wow", description: "Official game portal for WoW." },
       {
-        name: "MMO-Champion",
-        icon: "mmo-champion/icons/icon.png",
-        url: "./mmo-champion",
+        name: "MMO Champion",
+        icon: "icons/wrappers/mmo-champion.png",
+        url: "./wrappers/mmo-champion",
         description: "World of Warcraft-focused news and forum hub featuring patch notes, raid strategies, and community discussions.",
         wrapper: true
       },
       {
         name: "Warcraft Logs",
-        icon: "warcraftlogs/icons/icon.png",
-        url: "./warcraftlogs",
+        icon: "icons/wrappers/warcraftlogs.png",
+        url: "./wrappers/warcraftlogs",
         description: "Combat analysis platform for World of Warcraft, offering detailed raid metrics, rankings, and performance breakdowns.",
         wrapper: true
       },
@@ -279,22 +279,22 @@ export const categories = [
       { name: "Best Buy", icon: "icons/bestbuy.jpg", url: "https://www.bestbuy.com", description: "Electronics and appliances retail hub" },
       {
         name: "Walmart",
-        icon: "walmart/icons/icon.png",
-        url: "./walmart",
+        icon: "icons/wrappers/walmart.png",
+        url: "./wrappers/walmart",
         description: "Multinational retail giant offering groceries, electronics, apparel, and more through supercenters and online shopping.",
         wrapper: true
       },
       {
         name: "Target",
-        icon: "target/icons/icon.png",
-        url: "./target",
+        icon: "icons/wrappers/target.png",
+        url: "./wrappers/target",
         description: "U.S.-based retail chain offering groceries, electronics, clothing, and home goods—available via superstores and online shopping.",
         wrapper: true
       },
       {
         name: "CVS",
-        icon: "cvs/icons/icon.png",
-        url: "./cvs",
+        icon: "icons/wrappers/cvs.png",
+        url: "./wrappers/cvs",
         description: "U.S. pharmacy and retail chain offering prescriptions, health and wellness products, beauty essentials, and everyday groceries—available in-store and online.",
         wrapper: true
       },

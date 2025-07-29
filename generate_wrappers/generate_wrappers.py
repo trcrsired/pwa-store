@@ -21,6 +21,15 @@ WRAPPERS = [
     { "name": "Bing", "url": "https://www.bing.com" },
     { "name": "CCTV", "url": "https://tv.cctv.com" },
     { "name": "cppreference", "url": "https://en.cppreference.com" },
+    { "name": "Compiler Explorer", "url": "https://godbolt.org", "keyify_name": "godbolt" },
+    { "name": "linux.die", "url": "https://en.cppreference.com" },
+    { "name": "MMO Champion", "url": "https://www.mmo-champion.com", "keyify_name": "mmo-champion" },
+    { "name": "Target", "url": "https://www.target.com" },
+    { "name": "TED", "url": "https://www.ted.com" },
+    { "name": "Tieba", "url": "https://tieba.baidu.com" },
+    { "name": "v86", "url": "https://copy.sh/v86" },
+    { "name": "Walmart", "url": "https://www.walmart.com" },
+    { "name": "WarcraftLogs", "url": "https://www.warcraftlogs.com" },
 ]
 
 # 🔠 Normalize name: lowercase and remove periods
@@ -76,6 +85,10 @@ def build_manifest(name):
         }]
     }
     return json.dumps(manifest, indent=2).encode("utf-8")
+
+# 🚮 Clean existing wrappers
+if WRAPPER_OUTPUT.exists():
+    shutil.rmtree(WRAPPER_OUTPUT)
 
 # 🛠️ Wrapper generation loop
 for wrapper in WRAPPERS:
