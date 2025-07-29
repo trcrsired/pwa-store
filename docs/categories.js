@@ -329,6 +329,13 @@ export const categories = [
         description: "Combat analysis platform for World of Warcraft, offering detailed raid metrics, rankings, and performance breakdowns.",
         wrapper: true
       },
+      {
+        name: "Raider.IO",
+        icon: "icons/wrappers/raiderio.png",
+        url: "./wrappers/raiderio",
+        description: "Raider.IO is a World of Warcraft (WoW) Mythic+ and Raid Progression rankings site!",
+        wrapper: true
+      },
     ]
   },
   {
@@ -342,7 +349,14 @@ export const categories = [
     name: "Knowledge & Pedias",
     apps: [
       { name: "Wikipedia", icon: "icons/wikipedia.png", url: "https://wikipedia.org", description: "Free online encyclopedia." },
-      { name: "Baidu Baike (百度百科)", icon: "icons/baike.webp", url: "https://baike.baidu.com", description: "Chinese collaborative knowledge base." }
+      { name: "Baidu Baike (百度百科)", icon: "icons/baike.webp", url: "https://baike.baidu.com", description: "Chinese collaborative knowledge base." },
+      {
+        name: "liquipedia",
+        icon: "icons/wrappers/liquipedia.png",
+        url: "./wrappers/liquipedia",
+        description: "Liquipedia is an online encyclopedia focused on esports.",
+        wrapper: true
+      },
     ]
   },
   {

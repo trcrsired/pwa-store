@@ -29,6 +29,8 @@ WRAPPERS = [
   { "name": "v86", "url": "https://copy.sh/v86" },
   { "name": "Walmart", "url": "https://www.walmart.com" },
   { "name": "WarcraftLogs", "url": "https://www.warcraftlogs.com" },
+  { "name": "Raider.IO", "url": "https://raider.io", "keyify_name": "raiderio" },
+  { "name": "liquipedia", "url": "https://liquipedia.net" },
   { "name": "Doordash", "url": "https://www.doordash.com" },
   { "name": "Lyft", "url": "https://www.lyft.com" },
   { "name": "USPS", "url": "https://www.usps.com"},
