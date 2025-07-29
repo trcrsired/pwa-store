@@ -415,6 +415,7 @@ export const categories = [
     name: "Cloud (is someone else's computer)",
     apps: [
       { name: "Linode", icon: "icons/linode.webp", url: "https://www.linode.com", description: "Akamai-powered cloud hosting, VMs, and dev tools." },
+      { name: "Azure", icon: "icons/azure.png", url: "https://portal.azure.com", description: "Azure is the cloud computing platform developed by Microsoft. It offers management, access and development of applications and services to individuals, companies, and governments through its global infrastructure." },
     ]
   },
   {
