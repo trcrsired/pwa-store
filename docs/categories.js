@@ -655,6 +655,25 @@ export const categories = [
     ]
   },
   {
+    name: "Education",
+    apps: [
+      {
+        name: "Binghamton University",
+        icons: "icons/wrappers/binghamton_edu.png",
+        url: "./wrappers/binghamton_edu",
+        description: "Binghamton University is a world-class institution that offers students a broad, interdisciplinary education with an international perspective and one of the most vibrant research programs in the nation.",
+        wrapper: true,
+      },
+      {
+        name: "Fudan University",
+        icons: "icons/wrappers/fudan.png",
+        url: "./wrappers/fudan",
+        description: "Fudan University is a comprehensive research-oriented university in Shanghai, China, founded in 1905 as the first institution of higher education by a Chinese person.",
+        wrapper: true,
+      },
+    ]
+  },
+  {
     name: "Adult",
     apps: [
       { name: "Pornhub", icon: "icons/pornhub.webp", url: "https://www.pornhub.com", description: "Adult entertainment portal." },
