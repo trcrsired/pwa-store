@@ -331,6 +331,12 @@ export const categories = [
       { name: "Amazon", icon: "icons/amazon.png", url: "https://www.amazon.com", description: "Shop millions of products, track orders, and manage your account." },
       { name: "Best Buy", icon: "icons/bestbuy.jpg", url: "https://www.bestbuy.com", description: "Electronics and appliances retail hub" },
       {
+        name: "Taobao (淘宝)",
+        icon: "icons/taobao.jpg",
+        url: "https://www.taobao.com",
+        description: "A major consumer-to-consumer e-commerce platform in China, Taobao offers a diverse marketplace featuring everything from fashion and electronics to handmade local products. Backed by Alibaba, it’s known for powerful search tools, mobile-first features, and deep integration with logistics and social commerce."
+      },
+      {
         name: "Walmart",
         icon: "icons/wrappers/walmart.png",
         url: "./wrappers/walmart",
