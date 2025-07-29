@@ -30,6 +30,7 @@ WRAPPERS = [
     { "name": "v86", "url": "https://copy.sh/v86" },
     { "name": "Walmart", "url": "https://www.walmart.com" },
     { "name": "WarcraftLogs", "url": "https://www.warcraftlogs.com" },
+    { "name": "IRS", "url": "https://www.irs.gov" },
 ]
 
 # 🔠 Normalize name: lowercase and remove periods

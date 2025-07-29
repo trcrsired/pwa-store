@@ -323,6 +323,18 @@ export const categories = [
     ]
   },
   {
+    name: "Government",
+    apps : [
+      {
+        name: "IRS",
+        icon: "icons/wrappers/irs.png",
+        url: "./wrappers/irs",
+        description: "Official site of the U.S. Internal Revenue Service—access tax forms, file returns, track refunds, manage payments, and stay updated on federal tax regulations and news.",
+        wrapper: true
+      },
+    ]
+  },
+  {
     name: "Adult",
     apps: [
       { name: "Pornhub", icon: "icons/pornhub.webp", url: "https://www.pornhub.com", description: "Adult entertainment portal." },
