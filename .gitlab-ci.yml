@@ -9,4 +9,4 @@ create-pages:
     # a pages deploy
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
   script:
-    - echo "do nothing please"
+    - echo "deploying"
