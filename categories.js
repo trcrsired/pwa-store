@@ -137,12 +137,13 @@ export const categories = [
   {
     name: "Finance",
     apps: [
-      { name: "Chase", icon: "icons/chase.webp", url: "https://chase.com", description: "Major US bank with PWA support." },
+      { name: "Chase", icon: "icons/chase.webp", url: "https://chase.com", description: "Largest bank in the US." },
       { name: "Bitcoin Well", icon: "icons/bitcoinwell.webp", url: "https://bitcoinwell.com", description: "Enable your independence with the fastest and safest way to buy bitcoin on-chain or via the Lightning Network in Canada and the USA." },
       { name: "East Money (东方财经)", icon: "icons/eastmoney.webp", url: "https://eastmoney.com", description: "Chinese financial media and data portal." },
       { name: "TradingView", icon: "icons/tradingview.png", url: "https://www.tradingview.com", description: "Advanced market analysis and charts." },
       { name: "Yahoo Finance", icon: "icons/yahoofinance.webp", url: "https://finance.yahoo.com", description: "Global financial news and quotes." },
       { name: "LongForecast", icon: "icons/longforecast.png", url: "https://longforecast.com", description: "Stock, cryptocurrency and economic forecasts with multi-year trend charts." },
+      { name: "Bank of America", icon: "icons/wrappers/bankofamerica.png", url: "./wrappers/bankofAmerica", description: "Major US bank.", wrapper: true },
     ]
   },
   {
