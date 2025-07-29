@@ -68,6 +68,7 @@ WRAPPERS = [
   { "name": "Mumu Emulator(模拟器)", "url": "https://mumu.163.com", "keyify_name": "mumu" },
   { "name": "MumuPlayer", "url": "https://www.mumuplayer.com", "keyify_name": "mumuplayer", "icon": "mumu.png" },
   { "name": "UN", "url": "https://www.un.org" },
+  { "name": "Lightnovel Kingdom", "url": "https://www.lightnovel.fun/cn", "keyify_name": "lightnovelkingdom" },
 
   { "name" : "Binghamton Univeristy", "url": "https://www.binghamton.edu", "keyify_name": "binghamton_edu"},
   { "name" : "Fudan University", "url": "https://www.fudan.edu.cn", "keyify_name": "fudan" },
