@@ -143,7 +143,7 @@ export const categories = [
       { name: "TradingView", icon: "icons/tradingview.png", url: "https://www.tradingview.com", description: "Advanced market analysis and charts." },
       { name: "Yahoo Finance", icon: "icons/yahoofinance.webp", url: "https://finance.yahoo.com", description: "Global financial news and quotes." },
       { name: "LongForecast", icon: "icons/longforecast.png", url: "https://longforecast.com", description: "Stock, cryptocurrency and economic forecasts with multi-year trend charts." },
-      { name: "Bank of America", icon: "icons/wrappers/bankofamerica.png", url: "./wrappers/bankofAmerica", description: "Major US bank.", wrapper: true },
+      { name: "Bank of America", icon: "icons/wrappers/bankofamerica.png", url: "./wrappers/bankofamerica", description: "Major US bank.", wrapper: true },
     ]
   },
   {
