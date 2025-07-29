@@ -371,6 +371,12 @@ export const categories = [
       { name: "FlixBus", icon: "icons/flixbus.png", url: "https://flixbus.com", description: "Explore 1,800+ destinations across the US and beyond—FlixBus’s PWA lets you book tickets, track your ride in real time, and travel comfortably with Wi-Fi, outlets, and extra legroom." },
       { name: "SF Express (顺丰速运)", icon: "icons/shunfeng.png", url: "https://www.sf-express.com", description: "SF Express—track domestic and international shipments, schedule pickups, and manage delivery services." },
       {
+        name: "Jiakaobaodian (驾考宝典)",
+        icon: "icons/wrappers/jiakaobaodian.png",
+        url: "https://www.jiakaobaodian.com",
+        description: "China’s leading driving test platform—offers up-to-date question banks, multilingual exam prep, and full-process guidance for learners. On Microsoft Edge for Android, please log in first via the browser. The option to install as a Progressive Web App (PWA) becomes available after authentication."
+      },
+      {
         name: "USPS",
         icon: "icons/wrappers/usps.png",
         url: "./wrappers/usps",
