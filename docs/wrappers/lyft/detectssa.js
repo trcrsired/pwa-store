@@ -3,6 +3,11 @@ const url=window.appConfig.url;
 jumplink.href = url;
 jumplink.textContent = `Jump to ${url}`;
 
+const selflink = document.getElementById("self-link");
+const selfurl = window.location.href;
+selflink.href = selfurl;
+selflink.textContent = `URL of this website (you may need to copy it manually into your browser if the browser interface doesn’t allow you to open it directly): ${selfurl}`;
+
 const ua = navigator.userAgent;
 const isMobileOS = /Android|iPhone|iPad|iPod/i.test(ua);
 const supportSSA = ua.includes("Chrome") && !isMobileOS;
