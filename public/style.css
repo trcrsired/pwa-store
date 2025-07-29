@@ -1,0 +1,130 @@
+/* Base reset */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* App Store Container */
+#app-store {
+  padding: 16px;
+}
+
+/* Category Block */
+.category-block {
+  margin-bottom: 32px;
+}
+
+.category-block h2 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+/* Grid layout */
+.app-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+/* App Card */
+.app-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  flex: 1 1 calc(50% - 16px);
+  box-sizing: border-box;
+  max-width: calc(50% - 16px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Icon styling */
+.app-icon {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+/* Name & Description */
+.app-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.app-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+/* Wrapper badge */
+.wrapper-badge {
+  display: inline-block;
+  background-color: #efefef;
+  color: #333;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+/* Button */
+.install-button {
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.install-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive: single column on mobile */
+@media (max-width: 600px) {
+  .app-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .app-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .app-name {
+    font-size: 1rem;
+  }
+
+  .app-description {
+    font-size: 0.85rem;
+  }
+
+  .install-button {
+    font-size: 0.85rem;
+  }
+}
+
+#findBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #f0f0f0;
+  padding: 8px;
+  display: none;
+  z-index: 9999;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
