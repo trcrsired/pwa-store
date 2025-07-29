@@ -361,6 +361,12 @@ export const categories = [
     ]
   },
   {
+    name: "Analytics",
+    apps: [
+      { name: "StatCounter GS", icon: "icons/statcounter.png", url: "https://gs.statcounter.com", description: "Tracks the Usage Share of Search Engines, Browsers and Operating Systems." },
+    ]
+  },
+  {
     name: "Music Streaming",
     apps: [
       { name: "Spotify", icon: "icons/spotify.webp", url: "https://open.spotify.com", description: "Global music streaming platform." },
