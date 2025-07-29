@@ -59,6 +59,9 @@ WRAPPERS = [
   { "name": "OMB", "url": "https://www.whitehouse.gov/omb" },
   { "name": "NASA", "url": "https://www.nasa.gov" },
   { "name": "White House", "url": "https://www.whitehouse.gov", "keyify_name": "whitehouse" },
+
+  { "name": "Herb Sutter", "url": "https://herbsutter.com", "keyify_name": "herbsutter" },
+  { "name": "GCC MCF", "url": "https://gcc-mcf.lhmouse.com", "keyify_name": "gccmcf", "icon": "lhmouse.png" },
 ]
 
 
