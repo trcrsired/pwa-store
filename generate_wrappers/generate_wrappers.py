@@ -46,6 +46,7 @@ WRAPPERS = [
   { "name": "USA.gov", "url": "https://www.usa.gov" },
   { "name": "IdentityTheft", "url": "https://www.identitytheft.gov" },
   { "name": "FTC", "url": "https://www.ftc.gov" },
+  { "name": "FDA", "url": "https://www.fda.gov" },
   { "name": "FED", "url": "https://www.federalreserve.gov" },
   { "name": "DOL", "url": "https://www.dol.gov" },
   { "name": "DOD", "url": "https://www.defense.gov" },

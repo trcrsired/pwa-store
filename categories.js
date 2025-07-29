@@ -429,6 +429,13 @@ export const categories = [
         wrapper: true
       },
       {
+        name: "FDA",
+        icon: "icons/wrappers/fda.png",
+        url: "./wrappers/fda",
+        description: "U.S. Food and Drug Administration—protects public health by ensuring the safety, efficacy, and security of food, drugs, medical devices, cosmetics, and radiation-emitting products. Access recalls, approvals, research, and consumer guidance.",
+        wrapper: true
+      },
+      {
         name: "FED",
         icon: "icons/wrappers/fed.png",
         url: "./wrappers/fed",
