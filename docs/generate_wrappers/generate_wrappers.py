@@ -105,9 +105,11 @@ INDEX_HTML = """<!DOCTYPE html>
   <p id="status">Checking app status...</p>
   <button id="install">Install App</button>
     <div>
-        <a href="#" id="jump-link" target="_blank" rel="noopener">Jump to Website</a>
+        Jump to: 
+        <a href="#" id="jump-link" target="_blank" rel="noopener"></a>
     </div>
     <div>
+        URL of this website (you may need to copy it manually into your browser if the browser interface doesn’t allow you to open it directly): 
         <a href="#" id="self-link" target="_blank" rel="noopener"></a>
     </div>
   <script src="detectssa.js"></script>
