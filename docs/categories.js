@@ -364,6 +364,7 @@ export const categories = [
     name: "Analytics",
     apps: [
       { name: "StatCounter GS", icon: "icons/statcounter.png", url: "https://gs.statcounter.com", description: "Tracks the Usage Share of Search Engines, Browsers and Operating Systems." },
+      { name: "BrowserBench", icon: "icons/wrappers/browserbench.png", url: "./wrappers/browserbench", description: "MotionMark is a benchmark designed to put browser graphics systems to the test." },
     ]
   },
   {
