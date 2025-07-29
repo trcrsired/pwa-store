@@ -1,6 +1,7 @@
 const jumplink = document.getElementById("jump-link");
-jumplink.href = window.appConfig.url;
-jumplink.textContent = `Jump to ${jumplink.href}`;
+const url=window.appConfig.url;
+jumplink.href = url;
+jumplink.textContent = `Jump to ${url}`;
 
 const ua = navigator.userAgent;
 const isMobileOS = /Android|iPhone|iPad|iPod/i.test(ua);
