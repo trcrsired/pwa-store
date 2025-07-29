@@ -30,6 +30,7 @@ WRAPPERS = [
   { "name": "Walmart", "url": "https://www.walmart.com" },
   { "name": "WarcraftLogs", "url": "https://www.warcraftlogs.com" },
   { "name": "Raider.IO", "url": "https://raider.io", "keyify_name": "raiderio" },
+  { "name": "MapleStory", "url": "https://www.nexon.com/maplestory" },
   { "name": "Doordash", "url": "https://www.doordash.com" },
   { "name": "Lyft", "url": "https://www.lyft.com" },
   { "name": "USPS", "url": "https://www.usps.com"},

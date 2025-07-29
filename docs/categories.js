@@ -336,6 +336,13 @@ export const categories = [
         description: "Raider.IO is a World of Warcraft (WoW) Mythic+ and Raid Progression rankings site!",
         wrapper: true
       },
+      {
+        name: "MapleStory",
+        icon: "icons/wrappers/maplestory.png",
+        url: "https://www.nexon.com/maplestory",
+        description: "Maplestory is one of the oldest MMORPGs out there.",
+        wrapper: true
+      },
     ]
   },
   {
