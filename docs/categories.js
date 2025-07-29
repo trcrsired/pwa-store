@@ -287,13 +287,6 @@ export const categories = [
         description: "TED is a global platform where thinkers, creators, and doers share powerful, concise talks on topics ranging from science and tech to art, education, and social change. Whether it's a mind-blowing discovery or a fresh way to look at the world, TED showcases ideas that inspire and spark conversation.",
         wrapper: true
       },
-      {
-        name: "lightnovel kingdom (轻之国度)",
-        icon: "icons/wrappers/lightnovelkingdom.png",
-        url: "./wrappers/lightnovel",
-        description: "One of Chinese language longest-running light novel communities, offering serialized fan translations, author archives, and anime-inspired literature in a minimalist interface optimized for mobile browsing.",
-        wrapper: true
-      }
     ]
   },
   {
