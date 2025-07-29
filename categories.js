@@ -40,6 +40,7 @@ export const categories = [
 	{
     name: "Google Services",
     apps: [
+      { name: "Google", icon: "icons/google.png", url: "https://www.google.com", description: "Global search and service hub offering instant access to Search, Gmail, Drive, Translate, and other tools via a fast, unified web interface optimized across devices." },
       { name: "Google Voice", icon: "icons/googlevoice.webp", url: "https://voice.google.com", description: "Get a free U.S. phone number for calls, texts, and voicemail—syncs across devices and works on web or mobile." },
       { name: "Google Maps", icon: "icons/googlemaps.png", url: "https://maps.google.com", description: "Navigate the world with Google Maps—its PWA lets you find places, get directions, explore nearby businesses, and view real-time traffic, transit, and satellite layers." },
     ]
@@ -52,16 +53,16 @@ export const categories = [
       { name: "VS Code Insider", icon: "icons/vscode-insiders.webp", url: "https://insiders.vscode.dev", description: "Preview build of Visual Studio Code Web." },
       { name: "v2ray", icon: "icons/v2ray.png", url: "https://www.v2ray.com", description: "Project V is a set of tools to help you build your own privacy network over internet. The core of Project V, named V2Ray, is responsible for network protocols and communications. It can work alone, as well as combine with other tools." },
       {
-        "name": "GitLab",
-        "icon": "icons/gitlab.png",
-        "url": "https://gitlab.com",
-        "description": "DevOps powerhouse with full-stack Git repository management and robust PWA support. Enables seamless code hosting, issue tracking, CI/CD workflows, and real-time collaboration across teams."
+        name: "GitLab",
+        icon: "icons/gitlab.png",
+        url: "https://gitlab.com",
+        description: "DevOps powerhouse with full-stack Git repository management and robust PWA support. Enables seamless code hosting, issue tracking, CI/CD workflows, and real-time collaboration across teams."
       },
       {
-        "name": "Gitee",
-        "icon": "icons/gitee.webp",
-        "url": "https://gitee.com",
-        "description": "China’s leading code hosting platform with native PWA support. Offers Git-based project management, team collaboration tools, and integrated CI/CD pipelines tailored to local developers and enterprises."
+        name: "Gitee",
+        icon: "icons/gitee.webp",
+        url: "https://gitee.com",
+        description: "China’s leading code hosting platform with native PWA support. Offers Git-based project management, team collaboration tools, and integrated CI/CD pipelines tailored to local developers and enterprises."
       },
       {
         name: "Linux.die",
@@ -85,11 +86,11 @@ export const categories = [
         wrapper: true
       },
       {
-        "name": "GCC MCF",
-        "icon": "icons/wrappers/lhmouse.png",
-        "url": "./wrappers/gccmcf",
-        "description": "A customized GCC fork for Windows that replaces the standard POSIX thread model with its own minimal C library-based fiber-compatible threading system (MCF).",
-        "wrapper": true
+        name: "GCC MCF",
+        icon: "icons/wrappers/lhmouse.png",
+        url: "./wrappers/gccmcf",
+        description: "A customized GCC fork for Windows that replaces the standard POSIX thread model with its own minimal C library-based fiber-compatible threading system (MCF).",
+        wrapper: true
       },
     ]
   },
@@ -388,11 +389,11 @@ export const categories = [
     apps: [
       { name: "WordPress", icon: "icons/wordpress.png", url: "https://wordpress.org", description: "Open-source content management system—build blogs, websites, and online stores with thousands of themes, plugins, and full customization." },
       {
-        "name": "Herb Sutter",
-        "icon": "icons/wrappers/herbsutter.png",
-        "url": "./wrappers/herbsutter",
-        "description": "Herb Sutter (chairman of ISO C++ standard committee WG21)’s personal blog—explore thought-provoking essays, deep dives into modern C++, and insights on programming language evolution. A trusted resource for developers seeking clarity, rigor, and vision in software design.",
-        "wrapper": true
+        name: "Herb Sutter",
+        icon: "icons/wrappers/herbsutter.png",
+        url: "./wrappers/herbsutter",
+        description: "Herb Sutter (chairman of ISO C++ standard committee WG21)’s personal blog—explore thought-provoking essays, deep dives into modern C++, and insights on programming language evolution. A trusted resource for developers seeking clarity, rigor, and vision in software design.",
+        wrapper: true
       },
     ]
   },
