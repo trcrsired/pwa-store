@@ -50,6 +50,7 @@ export const categories = [
       { name: "GitHub", icon: "icons/github.png", url: "https://github.com", description: "Code hosting with PWA support." },
       { name: "Visual Studio Code", icon: "icons/vscode.webp", url: "https://vscode.dev", description: "Online code editor with GitHub integration." },
       { name: "VS Code Insider", icon: "icons/vscode-insiders.webp", url: "https://insiders.vscode.dev", description: "Preview build of Visual Studio Code Web." },
+      { name: "v2ray", icon: "icons/v2ray.png", url: "https://www.v2ray.com", description: "Project V is a set of tools to help you build your own privacy network over internet. The core of Project V, named V2Ray, is responsible for network protocols and communications. It can work alone, as well as combine with other tools." },
       {
         name: "Linux.die",
         icon: "icons/wrappers/linuxdie.png",
@@ -71,7 +72,13 @@ export const categories = [
         description: "Virtual x86 emulator running legacy operating systems like Windows 95 and Linux directly in the browser using WebAssembly.",
         wrapper: true
       },
-
+      {
+        "name": "GCC MCF",
+        "icon": "icons/wrappers/gccmcf.png",
+        "url": "./wrappers/gccmcf",
+        "description": "A customized GCC fork for Windows that replaces the standard POSIX thread model with its own minimal C library-based fiber-compatible threading system (MCF).",
+        "wrapper": true
+      },
     ]
   },
   {
@@ -368,6 +375,13 @@ export const categories = [
     name: "Websites & Blogs",
     apps: [
       { name: "WordPress", icon: "icons/wordpress.png", url: "https://wordpress.org", description: "Open-source content management system—build blogs, websites, and online stores with thousands of themes, plugins, and full customization." },
+      {
+        "name": "Herb Sutter",
+        "icon": "icons/wrappers/herbsutter.png",
+        "url": "./wrappers/herbsutter",
+        "description": "Herb Sutter (chairman of ISO C++ standard committee WG21)’s personal blog—explore thought-provoking essays, deep dives into modern C++, and insights on programming language evolution. A trusted resource for developers seeking clarity, rigor, and vision in software design.",
+        "wrapper": true
+      },
     ]
   },
   {

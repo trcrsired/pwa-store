@@ -2,12 +2,24 @@ function hasBeenInstalled(key) {
   return localStorage.getItem(key) === "true";
 }
 
+function isStandalone() {
+  return window.matchMedia("(display-mode: standalone)").matches ||
+         window.navigator.standalone === true;
+}
+
 function setupInstallUI(statusEl, installBtn, localStorageKey) {
   if (!statusEl)
   {
     return;
   }
-  statusEl.textContent = "Please install this app to continue.";
+  if (isStandalone())
+  {
+   statusEl.textContent = "Please install this app to continue. We have detected you are in PWA, you may need to open it in browser UI and then install it.";
+  }
+  else
+  {
+    statusEl.textContent = "Please install this app to continue.";
+  }
   installBtn.style.display = "inline-block";
 
   window.addEventListener("beforeinstallprompt", (e) => {
