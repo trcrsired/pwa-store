@@ -339,7 +339,7 @@ export const categories = [
       {
         name: "MapleStory",
         icon: "icons/wrappers/maplestory.png",
-        url: "https://www.nexon.com/maplestory",
+        url: "./wrappers/maplestory",
         description: "Maplestory is one of the oldest MMORPGs out there.",
         wrapper: true
       },
