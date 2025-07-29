@@ -74,7 +74,7 @@ export const categories = [
       },
       {
         "name": "GCC MCF",
-        "icon": "icons/wrappers/gccmcf.png",
+        "icon": "icons/wrappers/lhmouse.png",
         "url": "./wrappers/gccmcf",
         "description": "A customized GCC fork for Windows that replaces the standard POSIX thread model with its own minimal C library-based fiber-compatible threading system (MCF).",
         "wrapper": true
