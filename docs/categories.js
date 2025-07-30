@@ -730,7 +730,7 @@ export const categories = [
       { name: "Pornhub", icon: "icons/pornhub.webp", url: "https://www.pornhub.com", description: "Adult entertainment portal." },
       { name: "SpankBang", icon: "icons/spankbang.svg", url: "https://spankbang.com", description: "Free adult video streaming site." },
       { name: "Hentai Haven", icon: "icons/hentaihaven.png", url: "https://hentaihaven.xxx", description: "Hentai-focused adult media platform." },
-      { name: "MissAV TV", icon: "icons/missavtv.png", url: "https://missavtv.com", description: "Japanese adult video index." },
+      { name: "MissAV TV", icon: "icons/missavtv.png", url: "https://missavtv.com/en", description: "Japanese adult video index." },
       { name: "XNXX.COM", icon: "icons/xnxx.png", url: "https://www.xnxx.com", description: "XNXX is a Czech-French pornographic video sharing and viewing website. It was founded in 1997 in Paris, with servers and offices in Montreal, Tokyo and Newark." },
       { name: "OnlyFans", icon: "icons/onlyfans.webp", url: "https://onlyfans.com", description: "Subscription-based platform known for exclusive adult and creator content." },
     ]
