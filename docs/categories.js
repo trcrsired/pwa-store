@@ -309,6 +309,12 @@ export const categories = [
         description: "Alternate entry point to ViX's streaming catalog—providing access to novelas, movies, and series across regions. Ideal for redirect scenarios or geo-targeted user flows."
       },
       {
+        name: "ESPN",
+        icon: "icons/espn.webp",
+        url: "https://www.espn.com",
+        description: "Comprehensive sports network—ESPN covers live games, athlete insights, rankings, and analysis across leagues and disciplines."
+      },
+      {
         name: "Lightnovel Kingdom (轻之国度)",
         icon: "icons/wrappers/lightnovelkingdom.webp",
         url: "./wrappers/lightnovelkingdom",
@@ -430,6 +436,12 @@ export const categories = [
       { name: "Starbucks", icon: "icons/starbucks.webp", url: "https://www.starbucks.com", description: "Coffee ordering and loyalty tracking." },
       { name: "Amazon", icon: "icons/amazon.webp", url: "https://www.amazon.com", description: "Shop millions of products, track orders, and manage your account." },
       { name: "Best Buy", icon: "icons/bestbuy.webp", url: "https://www.bestbuy.com", description: "Electronics and appliances retail hub" },
+      {
+        name: "eBay",
+        icon: "icons/ebay.webp",
+        url: "https://www.ebay.com",
+        description: "Global e-commerce platform—eBay connects buyers and sellers through auctions, fixed-price listings, and curated collections."
+      },
       {
         name: "Taobao (淘宝)",
         icon: "icons/taobao.webp",
