@@ -40,9 +40,7 @@ function install_or_jump()
   const statusEl = document.getElementById("status");
   const installBtn = document.getElementById("install");
 
-  const installed = hasBeenInstalled(localStorageKey);
- 
-  if (installed) {
+  if (isStandalone() && hasBeenInstalled(localStorageKey)) {
     window.location.href = url;
   } else {
     setupInstallUI(statusEl, installBtn, localStorageKey);
