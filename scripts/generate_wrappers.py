@@ -75,6 +75,7 @@ WRAPPERS = [
   { "name": "NY Times", "url": "https://www.nytimes.com" , "keyify_name": "nytimes"},
   { "name": "Netflix", "url": "https://www.netflix.com" },
   { "name": "ISO C++", "url": "https://isocpp.org" , "keyify_name": "isocpp"},
+  { "name": "WeChat Read", "url": "https://weread.qq.com" , "keyify_name": "wechatread"},
 
   { "name" : "Binghamton Univeristy", "url": "https://www.binghamton.edu", "keyify_name": "binghamton_edu"},
   { "name" : "Fudan University", "url": "https://www.fudan.edu.cn", "keyify_name": "fudan" },

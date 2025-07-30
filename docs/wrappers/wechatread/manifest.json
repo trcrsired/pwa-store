@@ -1,0 +1,16 @@
+{
+  "name": "WeChat Read",
+  "short_name": "WeChat Read",
+  "start_url": ".",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "A Progressive Web APP Wrapper for WeChat Read",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

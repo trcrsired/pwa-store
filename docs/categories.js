@@ -292,7 +292,7 @@ export const categories = [
     ]
   },
   {
-    name: "Video Platform",
+    name: "Entertainment Platform",
     apps : [
       { name: "AGE Animation (AGE动漫)", icon: "icons/ageanimation.webp" ,url: "https://www.agedm.vip", description:"Stream and explore a wide range of anime series and movies, updated regularly with Chinese subtitles." },
       { name: "Disney+", icon: "icons/disneyplus.webp" ,url: "https://www.disneyplus.com", description:"Disney+ is an American subscription video on-demand over-the-top streaming media service owned and operated by Disney Streaming, the streaming division of Disney Entertainment, a major business segment of the Walt Disney Company." },
@@ -313,6 +313,13 @@ export const categories = [
         icon: "icons/wrappers/lightnovelkingdom.webp",
         url: "./wrappers/lightnovelkingdom",
         description: "One of China’s longest-running light novel communities, offering serialized fan translations, author archives, and anime-inspired literature in a minimalist interface optimized for mobile browsing.",
+        wrapper: true
+      },
+      {
+        name: "WeChat Read (微信读书)",
+        icon: "icons/wrappers/wechatread.webp",
+        url: "./wrappers/wechatread",
+        description: "A sleek wrapper for WeChat Read (微信读书), Tencent's official reading platform offering ebooks, social reading insights, and seamless integration with the WeChat ecosystem.",
         wrapper: true
       },
       { name: "TED",
