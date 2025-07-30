@@ -8,8 +8,8 @@
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.png",
-      "type": "image/png",
+      "src": "icons/icon.webp",
+      "type": "image/webp",
       "sizes": "512x512"
     }
   ]

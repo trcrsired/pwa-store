@@ -2,7 +2,7 @@ const sharedFiles = [
   "./",
   "./index.html",
   "./manifest.json",
-  "./icons/icon.png",
+  "./icons/icon.webp",
   "./styles.css",
   "./sw-register.js",
   "./install-check.js",

@@ -11,8 +11,8 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "logo/logo.png",
-      "type": "image/png",
+      "src": "logo/logo.webp",
+      "type": "image/webp",
       "sizes": "512x512"
     }
   ]
