@@ -67,6 +67,25 @@ export const categories = [
         description: "China’s leading code hosting platform with native PWA support. Offers Git-based project management, team collaboration tools, and integrated CI/CD pipelines tailored to local developers and enterprises."
       },
       {
+        name: "Python",
+        icon: "icons/python.webp",
+        url: "https://www.python.org",
+        description: "Python is a programming language that lets you work quickly and integrate systems more effectively."
+      },
+      {
+        name: "Rust",
+        icon: "icons/rustlang.webp",
+        url: "https://www.rust-lang.org",
+        description: "A language empowering everyone to build reliable and efficient software."
+      },
+      {
+        name: "ISO C++",
+        icon: "icons/wrappers/isocpp.png",
+        url: "./wrappers/isocpp",
+        description: "isocpp.org is the official website for the Standard C++ Foundation, which supports the C++ software developer community and promotes the understanding and use of modern Standard C++.",
+        wrapper: true
+      },
+      {
         name: "Linux.die",
         icon: "icons/wrappers/linuxdie.png",
         url: "./wrappers/linuxdie",
@@ -145,6 +164,7 @@ export const categories = [
         description: "Video conferencing platform offering reliable virtual meetings, webinars, screen sharing, and collaboration tools across devices."
       },
       { name: "Hacker News", icon: "icons/hackernews.webp", url: "https://hackernews.com", description: "Tech-savvy and community-driven—Hacker News offers a minimalist PWA experience for discovering and discussing cutting-edge ideas in programming, startups, and science." },
+      { name: "Lobsters", icon: "icons/lobsters.webp", url: "https://lobste.rs", description: "Lobsters is a computing-focused community centered around link aggregation and discussion, launched on July 3rd, 2012." },
       {
         name: "Tieba (贴吧)",
         icon: "icons/wrappers/tieba.png",
@@ -312,9 +332,9 @@ export const categories = [
   {
     name: "Games",
     apps: [
+    	{ name: "GamesLOL", icon: "icons/gameslol.webp", url: "https://en.gameslol.net", description: "GamesLOL is a website that offers a wide range of games in various genres, such as action, adventure, puzzle, sports, and more." },
       { name: "CrazyGames", icon: "icons/crazygames.png", url: "https://www.crazygames.com", description: "Browser-based games spanning action, puzzle, multiplayer, and more—play instantly without downloads." },
       { name: "Web Gamer", icon: "icons/webgamer.svg", url: "https://webgamer.io", description: "Portal for next-gen web games—play instantly in your browser with no installs required." },
-	{ name: "GamesLOL", icon: "icons/gameslol.webp", url: "https://en.gameslol.net", description: "GamesLOL is a website that offers a wide range of games in various genres, such as action, adventure, puzzle, sports, and more." },
 	{
         name: "MuMu Emulator (MuMu模拟器)",
         icon: "icons/wrappers/mumu.png",
