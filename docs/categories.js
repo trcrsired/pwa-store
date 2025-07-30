@@ -220,6 +220,19 @@ export const categories = [
       },
       { name: "BBC", icon: "icons/bbc.jpg", url: "https://www.bbc.com", description: "Global news and media hub—BBC delivers breaking stories, live coverage, and in-depth reporting across politics, culture, and science." },
       {
+        name: "Associated Press",
+        icon: "icons/associatedpress.webp",
+        url: "https://apnews.com",
+        description: "The Associated Press is an American not-for-profit news agency headquartered in New York City."
+      },
+      {
+        name: "New York Times",
+        icon: "icons/wrappers/nytimes.png",
+        url: "./wrappers/nytimes",
+        description: "The New York Times (NYT) is an American daily newspaper based in New York City. The New York Times covers domestic, national, and international news, and publishes opinion pieces, investigative reports, and reviews.",
+        wrapper: true
+      },      
+      {
         name: "CCTV",
         icon: "icons/wrappers/cctv.png",
         url: "./wrappers/cctv",
@@ -262,6 +275,7 @@ export const categories = [
     name: "Video Platform",
     apps : [
       { name: "AGE Animation (AGE动漫)", icon: "icons/ageanimation.jpg" ,url: "https://www.agedm.vip", description:"Stream and explore a wide range of anime series and movies, updated regularly with Chinese subtitles." },
+      { name: "Disney+", icon: "icons/disneyplus.webp" ,url: "https://www.disneyplus.com", description:"Disney+ is an American subscription video on-demand over-the-top streaming media service owned and operated by Disney Streaming, the streaming division of Disney Entertainment, a major business segment of the Walt Disney Company." },
       {
         name: "ViX (vix.com)",
         icon: "icons/vix.png",
@@ -287,6 +301,12 @@ export const categories = [
         description: "TED is a global platform where thinkers, creators, and doers share powerful, concise talks on topics ranging from science and tech to art, education, and social change. Whether it's a mind-blowing discovery or a fresh way to look at the world, TED showcases ideas that inspire and spark conversation.",
         wrapper: true
       },
+      { name: "Netflix",
+        icon: "icons/wrappers/netflix.png",
+        url: "./wrappers/netflix",
+        description: "Netflix is an American subscription video on-demand over-the-top streaming service. The service primarily distributes original and acquired films and television shows from various genres, and it is available internationally in multiple languages.",
+        wrapper: true
+      },
     ]
   },
   {
@@ -294,7 +314,7 @@ export const categories = [
     apps: [
       { name: "CrazyGames", icon: "icons/crazygames.png", url: "https://www.crazygames.com", description: "Browser-based games spanning action, puzzle, multiplayer, and more—play instantly without downloads." },
       { name: "Web Gamer", icon: "icons/webgamer.svg", url: "https://webgamer.io", description: "Portal for next-gen web games—play instantly in your browser with no installs required." },
-	{ name: "GamesLOL", icon: "icons/gameslol.png", url: "https://en.gameslol.net", description: "GamesLOL is a website that offers a wide range of games in various genres, such as action, adventure, puzzle, sports, and more." },
+	{ name: "GamesLOL", icon: "icons/gameslol.webp", url: "https://en.gameslol.net", description: "GamesLOL is a website that offers a wide range of games in various genres, such as action, adventure, puzzle, sports, and more." },
 	{
         name: "MuMu Emulator (MuMu模拟器)",
         icon: "icons/wrappers/mumu.png",

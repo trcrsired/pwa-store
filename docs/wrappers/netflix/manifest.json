@@ -1,0 +1,16 @@
+{
+  "name": "Netflix",
+  "short_name": "Netflix",
+  "start_url": ".",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "A Progressive Web APP Wrapper for Netflix",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icons/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

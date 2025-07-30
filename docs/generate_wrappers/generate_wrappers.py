@@ -72,6 +72,8 @@ WRAPPERS = [
   { "name": "UN", "url": "https://www.un.org" },
   { "name": "Lightnovel Kingdom", "url": "https://www.lightnovel.fun/cn", "keyify_name": "lightnovelkingdom" },
   { "name": "BrowserBench", "url": "https://browserbench.org" },
+  { "name": "NY Times", "url": "https://www.nytimes.com" , "keyify_name": "nytimes"},
+  { "name": "Netflix", "url": "https://www.netflix.com" },
 
   { "name" : "Binghamton Univeristy", "url": "https://www.binghamton.edu", "keyify_name": "binghamton_edu"},
   { "name" : "Fudan University", "url": "https://www.fudan.edu.cn", "keyify_name": "fudan" },
