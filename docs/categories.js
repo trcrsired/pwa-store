@@ -529,6 +529,14 @@ export const categories = [
         description: "Herb Sutter (chairman of ISO C++ standard committee WG21)’s personal blog—explore thought-provoking essays, deep dives into modern C++, and insights on programming language evolution. A trusted resource for developers seeking clarity, rigor, and vision in software design.",
         wrapper: true
       },
+      {
+        name: "nvidia",
+        icon: "icons/wrappers/nvidia.webp",
+        url: "./wrappers/nvidia",
+	description: "NVIDIA is a global leader in artificial intelligence computing and supplies chips for data centers, gaming, and more.",
+        wrapper: true
+      },
+ 
     ]
   },
   {
