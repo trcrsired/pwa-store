@@ -183,6 +183,13 @@ export const categories = [
       { name: "TradingView", icon: "icons/tradingview.webp", url: "https://www.tradingview.com", description: "Advanced market analysis and charts." },
       { name: "Yahoo Finance", icon: "icons/yahoofinance.webp", url: "https://finance.yahoo.com", description: "Global financial news and quotes." },
       { name: "LongForecast", icon: "icons/longforecast.webp", url: "https://longforecast.com", description: "Stock, cryptocurrency and economic forecasts with multi-year trend charts." },
+      {
+        name: "Paypal",
+        icon: "icons/wrappers/paypal.webp",
+        url: "./wrappers/paypal",
+        description: "PayPal is a global digital payment platform that enables secure online transactions, money transfers, and merchant services for individuals and businesses. It supports personal payments, subscriptions, and e-commerce checkout across millions of sites.",
+        wrapper: true
+      },
       { name: "Bank of America", icon: "icons/wrappers/bankofamerica.webp", url: "./wrappers/bankofamerica", description: "Major US bank.", wrapper: true },
     ]
   },
