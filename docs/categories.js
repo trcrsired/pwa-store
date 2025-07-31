@@ -195,6 +195,7 @@ export const categories = [
       { name: "Tom's Hardware", icon: "icons/tomshardware.webp", url: "https://www.tomshardware.com", description: "In-depth reviews, tech news, and DIY guides for PC enthusiasts and hardware pros." },
       { name: "Ars OpenForum", icon: "icons/ars-open-forum.webp" , url: "https://arstechnica.com/civis", description: "Longstanding tech community hosted by Ars Technica—features flat, chronological discussions across hardware, software, politics, and geek culture. Powered by XenForo, it supports BBCode, Markdown, syntax highlighting, and power-user features like multi-quote, image resizing, and post tracking. A haven for respectful debate and deep dives since 1999."},
       { name: "XDA Forums", icon: "icons/xdaforums.webp" , url: "https://xdaforums.com", description: "XDA Forums is a community for discussion, guides, accessories and development of mobile devices, especially Android."},
+      { name: "LINUX DO", icon: "icons/linuxdo.webp", url: "https://linux.do", description: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community." },
     ]
   },
   {
