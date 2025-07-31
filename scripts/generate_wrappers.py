@@ -79,6 +79,7 @@ WRAPPERS = [
   { "name": "NVIDIA", "url": "https://www.nvidia.com" },
   { "name": "CurseForge", "url": "https://www.curseforge.com" },
   { "name": "MineCraft Forum", "url": "https://www.minecraftforum.net", "keyify_name": "minecraftforum" },
+  { "name": "Paypal", "url": "https://www.paypal.com" },
 
   { "name" : "Binghamton Univeristy", "url": "https://www.binghamton.edu", "keyify_name": "binghamton_edu"},
   { "name" : "Fudan University", "url": "https://www.fudan.edu.cn", "keyify_name": "fudan" },
