@@ -7,7 +7,7 @@ self.addEventListener("install", (event) => {
         "/",
         "/index.html",
         "/manifest.json",
-        "/logo/logo.png",
+        "/logo/logo.webp",
         "/content.js",
         "/app.js",
         "/style.css",
