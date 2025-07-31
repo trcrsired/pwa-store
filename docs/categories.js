@@ -398,6 +398,20 @@ export const categories = [
         description: "Maplestory is one of the oldest MMORPGs out there.",
         wrapper: true
       },
+      {
+        name: "CurseForge",
+        icon: "icons/wrappers/curseforge.webp",
+        url: "./wrappers/curseforge",
+        description: "CurseForge is a leading platform for discovering, managing, and publishing mods and addons for games like Minecraft, World of Warcraft, and The Sims 4. It supports creators and simplifies modding with a dedicated desktop app.",
+        wrapper: true
+      },
+      {
+        name: "Minecraft Forum",
+        icon: "icons/wrappers/minecraftforum.webp",
+        url: "./wrappers/minecraftforum",
+        description: "Minecraft Forum is a long-standing community hub for Minecraft players and modders, offering discussions, tutorials, modpacks, and updates across both Java and Bedrock editions.",
+        wrapper: true
+      },
     ]
   },
   {

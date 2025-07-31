@@ -1,10 +1,10 @@
 {
-  "name": "NVIDIA",
-  "short_name": "NVIDIA",
+  "name": "CurseForge",
+  "short_name": "CurseForge",
   "start_url": ".",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for NVIDIA",
+  "description": "A Progressive Web APP Wrapper for CurseForge",
   "display": "standalone",
   "icons": [
     {

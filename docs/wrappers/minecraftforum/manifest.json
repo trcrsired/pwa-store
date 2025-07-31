@@ -1,10 +1,10 @@
 {
-  "name": "NVIDIA",
-  "short_name": "NVIDIA",
+  "name": "MineCraft Forum",
+  "short_name": "MineCraft Forum",
   "start_url": ".",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for NVIDIA",
+  "description": "A Progressive Web APP Wrapper for MineCraft Forum",
   "display": "standalone",
   "icons": [
     {

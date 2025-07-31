@@ -76,7 +76,10 @@ WRAPPERS = [
   { "name": "Netflix", "url": "https://www.netflix.com" },
   { "name": "ISO C++", "url": "https://isocpp.org" , "keyify_name": "isocpp"},
   { "name": "WeChat Read", "url": "https://weread.qq.com" , "keyify_name": "wechatread"},
-  { "name": "Nvidia", "url": "https://www.nvidia.com" },
+  { "name": "NVIDIA", "url": "https://www.nvidia.com" },
+  { "name": "CurseForge", "url": "https://www.curseforge.com" },
+  { "name": "MineCraft Forum", "url": "https://www.minecraftforum.net", "keyify_name": "minecraftforum" },
+
   { "name" : "Binghamton Univeristy", "url": "https://www.binghamton.edu", "keyify_name": "binghamton_edu"},
   { "name" : "Fudan University", "url": "https://www.fudan.edu.cn", "keyify_name": "fudan" },
 ]
