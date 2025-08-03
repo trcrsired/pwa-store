@@ -47,6 +47,18 @@ export const categories = [
     ]
   },
   {
+    name: "Office",
+    apps: [
+      {
+        name: "WPS",
+        icon: "icons/wrappers/wps.webp",
+        url: "https://docs.wps.com",
+        description: "WPS is an office suite developed by the Chinese company Kingsoft Office Software",
+        wrapper: true
+      }
+    ]
+  },
+  {
     name: "Programming",
     apps: [
       { name: "Open Web Advocacy", icon: "icons/open-web-advocacy.webp", url: "https://open-web-advocacy.org", description: "We are a group of software engineers from all over the world who have come together to advocate for the future of the open web by providing regulators, legislators and policy makers the intricate technical details that they need to understand the major anti-competitive issues in our industry and how to solve them." },
@@ -71,6 +83,18 @@ export const categories = [
         icon: "icons/stackoverflow.webp",
         url: "https://stackoverflow.com",
         description: "Stack Overflow is the largest, most trusted online community for developers to learn, share their programming knowledge, and build their careers."
+      },
+      {
+        name: "MDN Web Docs",
+        icon: "icons/mdnwebdocs.webp",
+        url: "https://developer.mozilla.org",
+        description: "MDN Web Docs, previously Mozilla Developer Network and formerly Mozilla Developer Center, is a documentation repository and learning resource for web developers."
+      },
+      {
+        name: "Chrome for developers",
+        icon: "icons/chrome.webp",
+        url: "https://developer.chrome.com",
+        description: "Chrome for Developers is Google's official resource hub for web developers building on the Chrome platform. It offers documentation, tools, and guidance for modern web development, including performance optimization, debugging, and the latest web platform features like WebAssembly, WebGPU, and Progressive Web Apps.",
       },
       {
         name: "Python",
