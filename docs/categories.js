@@ -52,7 +52,7 @@ export const categories = [
       {
         name: "WPS",
         icon: "icons/wrappers/wps.webp",
-        url: "https://docs.wps.com",
+        url: "./wrappers/wps",
         description: "WPS is an office suite developed by the Chinese company Kingsoft Office Software",
         wrapper: true
       }
