@@ -311,6 +311,20 @@ export const categories = [
         wrapper: true
       },
       {
+        name: "Al Jazeera",
+        icon: "icons/wrappers/aljazeera.webp",
+        url: "./wrappers/aljazeera",
+        description: "Stream global news and in-depth reporting from Al Jazeera, a leading international broadcaster known for its coverage of Middle Eastern affairs, investigative journalism, and live events.",
+        wrapper: true
+      },
+      {
+        name: "CGTN",
+        icon: "icons/wrappers/cgtn.webp",
+        url: "./wrappers/cgtn",
+        description: "Watch international news and cultural programming from CGTN, China’s state-run global broadcaster offering multilingual coverage of world events, business, and geopolitics from a Chinese perspective.",
+        wrapper: true
+      },
+      {
         name: "CCTV",
         icon: "icons/wrappers/cctv.webp",
         url: "./wrappers/cctv",
@@ -831,7 +845,7 @@ export const categories = [
     apps: [
       {
         name: "Princeton University",
-        icon: "princeton.webp",
+        icon: "icons/princeton.webp",
         url: "https://www.princeton.edu",
         description: "Princeton University is a private Ivy League research university in Princeton, New Jersey. It was founded in 1746 as the College of New Jersey, making it the fourth-oldest institution of higher education in the United States and one of the nine colonial colleges chartered before the American Revolution. Princeton University advances learning through scholarship, research, and teaching of unsurpassed quality, with an emphasis on undergraduate and doctoral education that is distinctive among the world’s great universities. Its educational mission is to prepare students to pursue meaningful lives and to help address the challenges of the future.",
       },

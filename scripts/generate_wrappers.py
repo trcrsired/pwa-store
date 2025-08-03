@@ -85,6 +85,9 @@ WRAPPERS = [
   { "name": "Marxists Internet Archive", "url": "https://www.marxists.org", "keyify_name": "marxistsorg" },
   { "name": "REVCOM.US", "url": "https://revcom.us/en", "keyify_name": "revcomus" },
   { "name": "YouVersion Bible", "url": "https://bible.com", "keyify_name": "biblecom" },
+  { "name": "REVCOM.US", "url": "https://revcom.us/en", "keyify_name": "revcomus" },
+  { "name": "Al Jazeera", "url": "https://www.aljazeera.com", "keyify_name": "aljazeera" },
+  { "name": "CGTN", "url": "https://www.cgtn.com" },
 
   { "name" : "Binghamton Univeristy", "url": "https://www.binghamton.edu", "keyify_name": "binghamton_edu"},
   { "name" : "Fudan University", "url": "https://www.fudan.edu.cn", "keyify_name": "fudan" },
