@@ -305,8 +305,8 @@ export const categories = [
       },
       {
         name: "REVCOM.US",
-        icon: "icons/wrappers/revcom.webp",
-        url: "./wrappers/revcom",
+        icon: "icons/wrappers/revcomus.webp",
+        url: "./wrappers/revcomus",
         description: "revcom.us is the official website of the Revolutionary Communist Party, USA. It features news, analysis, commentary, and theoretical writings focused on revolutionary change, social justice, and critiques of capitalism and imperialism.",
         wrapper: true
       },
