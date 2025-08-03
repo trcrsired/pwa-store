@@ -120,6 +120,13 @@ export const categories = [
         description: "A customized GCC fork for Windows that replaces the standard POSIX thread model with its own minimal C library-based fiber-compatible threading system (MCF).",
         wrapper: true
       },
+      {
+        name: "GeeksForGeeks",
+        icon: "icons/wrappers/geeksforgeeks.webp",
+        url: "./wrappers/geeksforgeeks",
+        description: "GeeksforGeeks is a comprehensive educational portal that empowers learners across domains.",
+        wrapper: true
+      },
     ]
   },
   {

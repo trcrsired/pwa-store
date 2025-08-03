@@ -1,8 +1,8 @@
-const version = 9;
+const CACHE_NAME = "pwa-store-cache-v0";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open("pwa-store").then((cache) => {
+    caches.open(CACHE_NAME).then((cache) => {
       return cache.addAll([
         "/",
         "/index.html",
@@ -14,24 +14,41 @@ self.addEventListener("install", (event) => {
       ]);
     })
   );
-  self.skipWaiting();
+  self.skipWaiting(); // Activate immediately
 });
 
-self.addEventListener("activate", () => {
-  clients.claim(); // Take control of pages
+self.addEventListener("activate", (event) => {
+  event.waitUntil(
+    caches.keys().then((keys) =>
+      Promise.all(
+        keys.map((key) => {
+          if (key !== CACHE_NAME) {
+            return caches.delete(key); // 🔥 delete old cache
+          }
+        })
+      )
+    )
+  );
+  clients.claim();
 });
 
 self.addEventListener("fetch", (event) => {
   event.respondWith(
-    caches.match(event.request).then((cached) => {
-      return cached || fetch(event.request);
-    })
+    caches.open(CACHE_NAME).then((cache) =>
+      cache.match(event.request).then((cachedResponse) => {
+        const fetchPromise = fetch(event.request).then((networkResponse) => {
+          if (
+            networkResponse &&
+            networkResponse.status === 200 &&
+            networkResponse.type === "basic"
+          ) {
+            cache.put(event.request, networkResponse.clone()); // ← updates cache
+          }
+          return networkResponse;
+        });
+
+        return cachedResponse || fetchPromise;
+      })
+    )
   );
 });
-
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker
-    .register("/sw.js")
-    .then(() => console.log("✅ Service Worker registered"))
-    .catch((err) => console.error("Service Worker failed:", err));
-}
