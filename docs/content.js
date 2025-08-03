@@ -33,13 +33,39 @@ const renderCategory = (category) => {
   return section;
 };
 
-const mountStore = () => {
+// 🔍 Render store with optional search filter
+const renderStore = (filterText = '') => {
   const root = document.getElementById('app-store');
   if (!root) return;
 
+  root.innerHTML = ''; // Clear previous content
+
   categories.forEach((category) => {
-    root.appendChild(renderCategory(category));
+    const filteredApps = category.apps.filter(app =>
+      app.name.toLowerCase().includes(filterText) ||
+      app.description.toLowerCase().includes(filterText)
+    );
+
+    if (filteredApps.length > 0) {
+      const filteredCategory = { ...category, apps: filteredApps };
+      root.appendChild(renderCategory(filteredCategory));
+    }
   });
 };
 
-document.addEventListener('DOMContentLoaded', mountStore);
+// 🔧 Setup search input listener
+const setupSearch = () => {
+  const input = document.getElementById('search-input');
+  if (!input) return;
+
+  input.addEventListener('input', (e) => {
+    const query = e.target.value.trim().toLowerCase();
+    renderStore(query);
+  });
+};
+
+// 🚀 Initialize everything
+document.addEventListener('DOMContentLoaded', () => {
+  renderStore(); // Initial full render
+  setupSearch(); // Enable search
+});
