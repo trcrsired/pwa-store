@@ -67,6 +67,12 @@ export const categories = [
         description: "China’s leading code hosting platform with native PWA support. Offers Git-based project management, team collaboration tools, and integrated CI/CD pipelines tailored to local developers and enterprises."
       },
       {
+        name: "Stack Overflow",
+        icon: "icons/stackoverflow.webp",
+        url: "https://stackoverflow.com",
+        description: "Stack Overflow is the largest, most trusted online community for developers to learn, share their programming knowledge, and build their careers."
+      },
+      {
         name: "Python",
         icon: "icons/python.webp",
         url: "https://www.python.org",
