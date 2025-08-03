@@ -82,6 +82,9 @@ WRAPPERS = [
   { "name": "Paypal", "url": "https://www.paypal.com" },
   { "name": "GeeksForGeeks", "url": "https://www.geeksforgeeks.org" },
   { "name": "WPS", "url": "https://www.wps.com/wpsdocs" },
+  { "name": "Marxists Internet Archive", "url": "https://www.marxists.org", "keyify_name": "marxistsorg" },
+  { "name": "REVCOM.US", "url": "https://revcom.us/en", "keyify_name": "revcomus" },
+  { "name": "YouVersion Bible", "url": "https://bible.com", "keyify_name": "biblecom" },
 
   { "name" : "Binghamton Univeristy", "url": "https://www.binghamton.edu", "keyify_name": "binghamton_edu"},
   { "name" : "Fudan University", "url": "https://www.fudan.edu.cn", "keyify_name": "fudan" },

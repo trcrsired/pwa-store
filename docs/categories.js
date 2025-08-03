@@ -291,24 +291,31 @@ export const categories = [
         description: "The Associated Press is an American not-for-profit news agency headquartered in New York City."
       },
       {
+        name: "In Defence of Marxism",
+        icon: "icons/indefenseofmarxism.webp",
+        url: "https://marxist.com",
+        description: "Online platform offering Marxist analysis of global events, political theory, and revolutionary history from a socialist perspective."
+      },
+      {
         name: "New York Times",
         icon: "icons/wrappers/nytimes.webp",
         url: "./wrappers/nytimes",
         description: "The New York Times (NYT) is an American daily newspaper based in New York City. The New York Times covers domestic, national, and international news, and publishes opinion pieces, investigative reports, and reviews.",
         wrapper: true
-      },      
+      },
+      {
+        name: "REVCOM.US",
+        icon: "icons/wrappers/revcom.webp",
+        url: "./wrappers/revcom",
+        description: "revcom.us is the official website of the Revolutionary Communist Party, USA. It features news, analysis, commentary, and theoretical writings focused on revolutionary change, social justice, and critiques of capitalism and imperialism.",
+        wrapper: true
+      },
       {
         name: "CCTV",
         icon: "icons/wrappers/cctv.webp",
         url: "./wrappers/cctv",
         description: "China's state-run broadcaster offering news, documentaries, and entertainment across multiple channels and digital platforms.",
         wrapper: true
-      },
-      {
-        name: "In Defence of Marxism",
-        icon: "icons/indefenseofmarxism.webp",
-        url: "https://marxist.com",
-        description: "Online platform offering Marxist analysis of global events, political theory, and revolutionary history from a socialist perspective."
       },
       {
         name: "Tencent News (腾讯新闻)",
@@ -471,6 +478,14 @@ export const categories = [
       { name: "Wikipedia", icon: "icons/wikipedia.webp", url: "https://wikipedia.org", description: "Free online encyclopedia." },
       { name: "Baidu Baike (百度百科)", icon: "icons/baike.webp", url: "https://baike.baidu.com", description: "Chinese collaborative knowledge base." },
       { name: "Liquipedia", icon: "icons/liquipedia.webp", url: "https://liquipedia.net", description: "Liquipedia is an online encyclopedia focused on esports."},
+      { name: "Marxists Internet Archive", icon: "icons/marxistsorg.webp", url: "./wrappers/marxistsorg", description: "Marxists Internet Archive is a non-profit online encyclopedia that hosts a multilingual library (created in 1990) of the works of communist, anarchist, and socialist writers, such as Karl Marx, Friedrich Engels, Vladimir Lenin, Leon Trotsky, Joseph Stalin, Mao Zedong, Rosa Luxemburg, Mikhail Bakunin, Peter Kropotkin, and Pierre-Joseph Proudhon, as well as that of writers of related ideologies, and even unrelated ones (for instance, Sun Tzu). ", wrapper: true},
+    ]
+  },
+  {
+    name: "Religion",
+    apps: [
+      { name: "Quran.com", icon: "icons/qurancom.webp", url: "https://quran.com", description: "Clean, mobile-optimized site for reading and listening to the Quran. Includes translations and tafsir." },
+      { name: "YouVersion Bible", icon: "icons/wrappers/biblecom.webp", url: "./wrappers/biblecom", wrapper: true, description: "Offers full text of the Bible in many translations. Includes reading plans, audio, and mobile apps." },
     ]
   },
   {
@@ -814,6 +829,12 @@ export const categories = [
   {
     name: "Education",
     apps: [
+      {
+        name: "Princeton University",
+        icon: "princeton.webp",
+        url: "https://www.princeton.edu",
+        description: "Princeton University is a private Ivy League research university in Princeton, New Jersey. It was founded in 1746 as the College of New Jersey, making it the fourth-oldest institution of higher education in the United States and one of the nine colonial colleges chartered before the American Revolution. Princeton University advances learning through scholarship, research, and teaching of unsurpassed quality, with an emphasis on undergraduate and doctoral education that is distinctive among the world’s great universities. Its educational mission is to prepare students to pursue meaningful lives and to help address the challenges of the future.",
+      },
       {
         name: "Binghamton University",
         icon: "icons/wrappers/binghamton_edu.webp",
