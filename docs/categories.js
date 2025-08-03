@@ -492,7 +492,7 @@ export const categories = [
       { name: "Wikipedia", icon: "icons/wikipedia.webp", url: "https://wikipedia.org", description: "Free online encyclopedia." },
       { name: "Baidu Baike (百度百科)", icon: "icons/baike.webp", url: "https://baike.baidu.com", description: "Chinese collaborative knowledge base." },
       { name: "Liquipedia", icon: "icons/liquipedia.webp", url: "https://liquipedia.net", description: "Liquipedia is an online encyclopedia focused on esports."},
-      { name: "Marxists Internet Archive", icon: "icons/marxistsorg.webp", url: "./wrappers/marxistsorg", description: "Marxists Internet Archive is a non-profit online encyclopedia that hosts a multilingual library (created in 1990) of the works of communist, anarchist, and socialist writers, such as Karl Marx, Friedrich Engels, Vladimir Lenin, Leon Trotsky, Joseph Stalin, Mao Zedong, Rosa Luxemburg, Mikhail Bakunin, Peter Kropotkin, and Pierre-Joseph Proudhon, as well as that of writers of related ideologies, and even unrelated ones (for instance, Sun Tzu). ", wrapper: true},
+      { name: "Marxists Internet Archive", icon: "icons/wrappers/marxistsorg.webp", url: "./wrappers/marxistsorg", description: "Marxists Internet Archive is a non-profit online encyclopedia that hosts a multilingual library (created in 1990) of the works of communist, anarchist, and socialist writers, such as Karl Marx, Friedrich Engels, Vladimir Lenin, Leon Trotsky, Joseph Stalin, Mao Zedong, Rosa Luxemburg, Mikhail Bakunin, Peter Kropotkin, and Pierre-Joseph Proudhon, as well as that of writers of related ideologies, and even unrelated ones (for instance, Sun Tzu). ", wrapper: true},
     ]
   },
   {
