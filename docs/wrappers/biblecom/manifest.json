@@ -1,0 +1,16 @@
+{
+  "name": "YouVersion Bible",
+  "short_name": "YouVersion Bible",
+  "start_url": ".",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "A Progressive Web APP Wrapper for YouVersion Bible",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
