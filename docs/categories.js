@@ -674,7 +674,7 @@ export const categories = [
     apps: [
       {
         name: "Tao Piao Piao (淘票票)",
-        icon: "icon/wrappers/taopiaopiao.webp",
+        icon: "icons/wrappers/taopiaopiao.webp",
         url: "./wrappers/taopiaopiao",
         description: "Tao Piao Piao is a leading Chinese movie ticketing platform owned by Alibaba. It offers showtimes, seat selection, and online booking for cinemas across China, along with trailers, reviews, and promotional content for current and upcoming films.",
         wrapper: true
