@@ -1,0 +1,16 @@
+{
+  "name": "yeah.net Mail",
+  "short_name": "yeah.net Mail",
+  "start_url": ".",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "A Progressive Web APP Wrapper for yeah.net Mail",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

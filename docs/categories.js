@@ -184,6 +184,39 @@ export const categories = [
     ]
   },
   {
+    name: "Mail",
+    apps: [
+      {
+        name: "QQ Mail",
+        icon: "icons/wrappers/qqmail.webp",
+        url: "./wrappers/qqmail",
+        wrapper: true,
+        description: "QQ Mail is a popular email service from Tencent, offering fast, secure, and mobile-friendly access to personal and enterprise email accounts. It integrates with the broader QQ ecosystem and supports both web and app-based usage."
+      },
+      {
+        name: "163 Mail",
+        icon: "icons/wrappers/netease163.webp",
+        url: "./wrappers/netease163",
+        wrapper: true,
+        description: "Netease 163 Mail is one of China's most widely used email platforms, known for its reliability, large storage capacity, and clean interface. It supports both personal and business accounts with mobile and desktop access."
+      },
+      {
+        name: "126 Mail",
+        icon: "icons/wrappers/netease126.webp",
+        url: "./wrappers/netease126",
+        wrapper: true,
+        description: "Netease 126 Mail is a sister service to 163 Mail, offering similar features with a distinct domain. It provides stable email access, spam filtering, and seamless integration with Netease’s broader suite of services."
+      },
+      {
+        name: "yeah.net Mail",
+        icon: "icons/wrappers/yeahnet.webp",
+        url: "./wrappers/yeahnet",
+        wrapper: true,
+        description: "Netease yeah.net Mail is a sister service to 163 Mail, offering similar features with a distinct domain. It provides stable email access, spam filtering, and seamless integration with Netease’s broader suite of services."
+      },
+    ]
+  },
+  {
     name: "Social Media",
     apps: [
       { name: "YouTube", icon: "icons/youtube.webp", url: "https://youtube.com", description: "Video streaming platform by Google." },
@@ -392,6 +425,12 @@ export const categories = [
         icon: "icons/espn.webp",
         url: "https://www.espn.com",
         description: "Comprehensive sports network—ESPN covers live games, athlete insights, rankings, and analysis across leagues and disciplines."
+      },
+      {
+        name: "Youku (优酷)",
+        icon: "icons/youku.webp",
+        url: "https://www.youku.com",
+        description: "Youku Tudou Inc., doing business as Youku, is a video streaming service and former video sharing website based in Beijing, China. It operates as a subsidiary of Alibaba Group Holding Limited."
       },
       {
         name: "Lightnovel Kingdom (轻之国度)",
