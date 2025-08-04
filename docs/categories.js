@@ -104,6 +104,12 @@ export const categories = [
         description: "Chrome for Developers is Google's official resource hub for web developers building on the Chrome platform. It offers documentation, tools, and guidance for modern web development, including performance optimization, debugging, and the latest web platform features like WebAssembly, WebGPU, and Progressive Web Apps.",
       },
       {
+        name: "Bing Webmaster Tools",
+        icon: "icons/wrappers/bing.webp",
+        url: "https://www.bing.com/webmasters",
+        description: "Bing Webmaster Tools provides website owners with insights into search performance, indexing status, and SEO diagnostics. Monitor traffic, submit sitemaps, and optimize your site for visibility on Bing Search.",
+      },
+      {
         name: "Python",
         icon: "icons/python.webp",
         url: "https://www.python.org",
