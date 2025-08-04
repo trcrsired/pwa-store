@@ -55,6 +55,13 @@ export const categories = [
         url: "./wrappers/wps",
         description: "WPS is an office suite developed by the Chinese company Kingsoft Office Software",
         wrapper: true
+      },
+      {
+        name: "WPS (CN)",
+        icon: "icons/wrappers/wps.webp",
+        url: "./wrappers/wpscn",
+        description: "Chinese localized version of WPS. WPS is an office suite developed by the Chinese company Kingsoft Office Software",
+        wrapper: true
       }
     ]
   },
