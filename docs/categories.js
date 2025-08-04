@@ -427,6 +427,12 @@ export const categories = [
         description: "Comprehensive sports network—ESPN covers live games, athlete insights, rankings, and analysis across leagues and disciplines."
       },
       {
+        name: "Dubok (独播库)",
+        icon: "icons/dubok.webp",
+        url: "https://www.dubok.tv",
+        description: "Dubok is a Chinese streaming site specializing in exclusive and hard-to-find TV dramas, anime, and variety shows. It aggregates content from multiple sources, offering fast updates and a wide selection of subtitled episodes for niche audiences.",
+      },
+      {
         name: "Youku (优酷)",
         icon: "icons/youku.webp",
         url: "https://www.youku.com",
@@ -661,6 +667,18 @@ export const categories = [
         description: "United States Postal Service—track shipments, buy postage, schedule pickups, and access national mailing services and address tools through its official portal.",
         wrapper: true
       },
+    ]
+  },
+  {
+    name: "Tickets",
+    apps: [
+      {
+        name: "Tao Piao Piao (淘票票)",
+        icon: "icon/wrappers/taopiaopiao.webp",
+        url: "./wrappers/taopiaopiao",
+        description: "Tao Piao Piao is a leading Chinese movie ticketing platform owned by Alibaba. It offers showtimes, seat selection, and online booking for cinemas across China, along with trailers, reviews, and promotional content for current and upcoming films.",
+        wrapper: true
+      }
     ]
   },
   {

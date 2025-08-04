@@ -87,6 +87,7 @@ WRAPPERS = [
   { "name": "163 Mail", "url": "https://mail.163.com", "keyify_name":"netease163" },
   { "name": "126 Mail", "url": "https://mail.126.com", "keyify_name":"netease126" },
   { "name": "yeah.net Mail", "url": "https://mail.yeah.net", "keyify_name":"yeahnet" },
+  { "name": "Tao Piao Piao", "url": "https://www.taopiaopiao.com", "keyify_name":"taopiaopiao" },
 
   { "name": "Marxists Internet Archive", "url": "https://www.marxists.org", "keyify_name": "marxistsorg" },
   { "name": "REVCOM.US", "url": "https://revcom.us/en", "keyify_name": "revcomus" },

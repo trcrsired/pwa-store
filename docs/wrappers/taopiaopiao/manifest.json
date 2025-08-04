@@ -1,0 +1,16 @@
+{
+  "name": "Tao Piao Piao",
+  "short_name": "Tao Piao Piao",
+  "start_url": ".",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "A Progressive Web APP Wrapper for Tao Piao Piao",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
