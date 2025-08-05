@@ -9,7 +9,7 @@ export const categories = [
       { name: "PWA Player (My own toy)", icon: "icons/pwaplayer.webp", url: "https://pwa-player.pages.dev", description: "A demo PWA for me to learn." },
       { name: "Calculator", icon: "icons/calculator.webp", url: "https://chrisdiana.github.io/pwa-calculator", description: "Simple, installable calculator PWA—works offline and optimized for mobile." },
       { name: "Weawow", icon: "icons/weawow.webp", url: "https://weawow.com", description: "Ad-free weather PWA with stunning photo forecasts, detailed hourly & 14-day data, and customizable widgets." },
-      { name: "Screen Flashlight", icon: "icons/screenflashlightweb.webp", url: "http://trcrsired.github.io/ScreenFlashlightWeb", description: "A web-based PWA flashlight app" },
+      { name: "Screen Flashlight", icon: "icons/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", description: "A web-based PWA flashlight app" },
     ]
   },
   {
@@ -108,6 +108,12 @@ export const categories = [
         icon: "icons/wrappers/bing.webp",
         url: "https://www.bing.com/webmasters",
         description: "Bing Webmaster Tools provides website owners with insights into search performance, indexing status, and SEO diagnostics. Monitor traffic, submit sitemaps, and optimize your site for visibility on Bing Search.",
+      },
+      {
+        name: "PWA Builder",
+        icon: "icons/pwabuilder.webp",
+        url: "https://www.pwabuilder.com",
+        description: "PWA Builder is an open-source tool developed by Microsoft that simplifies the process of deploying Progressive Web Apps (PWAs).",
       },
       {
         name: "Python",
