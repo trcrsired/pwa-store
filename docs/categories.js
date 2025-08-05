@@ -110,6 +110,12 @@ export const categories = [
         description: "Bing Webmaster Tools provides website owners with insights into search performance, indexing status, and SEO diagnostics. Monitor traffic, submit sitemaps, and optimize your site for visibility on Bing Search.",
       },
       {
+        name: "PWA Builder",
+        icon: "icons/pwabuilder.webp",
+        url: "https://www.pwabuilder.com",
+        description: "PWA Builder is an open-source tool developed by Microsoft that simplifies the process of deploying Progressive Web Apps (PWAs).",
+      },
+      {
         name: "Python",
         icon: "icons/python.webp",
         url: "https://www.python.org",
