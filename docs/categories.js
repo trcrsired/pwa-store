@@ -601,6 +601,7 @@ export const categories = [
     apps: [
       { name: "Murlok.io", icon: "icons/murlok.webp", url: "https://murlok.io", description: "WoW talent and build guides." },
       { name: "World of Warcraft Forums (US)", icon: "icons/wow.webp", url: "https://us.forums.blizzard.com/en/wow", description: "Official game portal for WoW." },
+      { name: "WoWAnalyzer", icon: "icons/wowanalyzer.webp", url: "https://wowanalyzer.com", description: "Improve your performance with personal feedback and stats. Just enter the link of a Warcraft Logs report." },
       {
         name: "MMO Champion",
         icon: "icons/wrappers/mmo-champion.webp",
