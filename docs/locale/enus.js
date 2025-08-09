@@ -107,17 +107,21 @@ const L = {
 
   socialmedia_name: "Social Media",
 
+  youtube_name: "YouTube",
   youtube_desc: "Video streaming platform by Google.",
   reddit_desc: "Community-driven discussion forums.",
   x_name: "X (Twitter)",
   x_desc: "Text-based social updates and chatter.",
   instagram_desc: "Image-centric social network.",
+  facebook_name: "Facebook",
   facebook_desc: "Meta’s primary social platform.",
   tinder_desc: "Swipe-based dating experience.",
+  bluesky_name: "Bluesky",
   bluesky_desc: "Federated social media alternative.",
   twitch_desc: "Live streaming platform for gamers, creators, and communities to interact in real time.",
   patreon_desc: "Support creators directly and access exclusive content.",
   discord_desc: "Voice, video, and text platform for communities, creators, and friends — organized around invite-only servers and topic-based channels.",
+  telegram_name: "Telegram",
   telegram_desc: "Cloud-based messaging app offering fast, secure communication with support for large groups, media sharing, and cross-device sync.",
   zoom_desc: "Video conferencing platform offering reliable virtual meetings, webinars, screen sharing, and collaboration tools across devices.",
   hackernews_name: "Hacker News",
@@ -125,6 +129,334 @@ const L = {
   lobsters_desc: "Lobsters is a computing-focused community centered around link aggregation and discussion, launched on July 3rd, 2012.",
   tieba_name: "Tieba (贴吧)",
   tieba_desc: "Baidu’s interest-based forum network where users gather in topic-specific bars to share posts, media, and discussions. On mobile, you need to use Microsoft Edge with Android and modify the agent string by adding ArkWeb to bypass the Tieba mini app check.",
+
+  finance_name: "Finance",
+
+  chase_name: "Chase",
+  chase_desc: "Largest bank in the US.",
+
+  bitcoinwell_name: "Bitcoin Well",
+  bitcoinwell_desc: "Enable your independence with the fastest and safest way to buy bitcoin on-chain or via the Lightning Network in Canada and the USA.",
+
+  eastmoney_name: "East Money (东方财经)",
+  eastmoney_desc: "Chinese financial media and data portal.",
+
+  tradingview_name: "TradingView",
+  tradingview_desc: "Advanced market analysis and charts.",
+
+  yahoofinance_name: "Yahoo Finance",
+  yahoofinance_desc: "Global financial news and quotes.",
+
+  longforecast_name: "LongForecast",
+  longforecast_desc: "Stock, cryptocurrency and economic forecasts with multi-year trend charts.",
+
+  paypal_name: "PayPal",
+  paypal_desc: "PayPal is a global digital payment platform that enables secure online transactions, money transfers, and merchant services for individuals and businesses. It supports personal payments, subscriptions, and e-commerce checkout across millions of sites.",
+
+  bankofamerica_name: "Bank of America",
+  bankofamerica_desc: "Major US bank.",
+
+  tech_key: "Tech",
+
+  windowscentral_name: "Windows Central",
+  windowscentral_desc: "Microsoft ecosystem coverage and guides.",
+
+  macrumors_name: "MacRumors",
+  macrumors_desc: "Apple-focused tech reporting and insights.",
+
+  androidauthority_name: "Android Authority",
+  androidauthority_desc: "News, reviews, and deep dives into Android and Google-related tech.",
+
+  tomshardware_name: "Tom's Hardware",
+  tomshardware_desc: "In-depth reviews, tech news, and DIY guides for PC enthusiasts and hardware pros.",
+
+  arsopenforum_name: "Ars OpenForum",
+  arsopenforum_desc: "Longstanding tech community hosted by Ars Technica—features flat, chronological discussions across hardware, software, politics, and geek culture. Powered by XenForo, it supports BBCode, Markdown, syntax highlighting, and power-user features like multi-quote, image resizing, and post tracking. A haven for respectful debate and deep dives since 1999.",
+
+  xdaforums_name: "XDA Forums",
+  xdaforums_desc: "XDA Forums is a community for discussion, guides, accessories and development of mobile devices, especially Android.",
+
+  linuxdo_name: "LINUX DO",
+  linuxdo_desc: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community.",
+
+  internetservices_name: "Internet Services",
+  softwaredistributions_name: "Software Distributions",
+
+  apkpure_name: "APKPure",
+  apkpure_desc: "Discover Android apk files.",
+
+  aur_name: "Arch Linux AUR",
+  aur_desc: "Explore community-maintained Arch packages.",
+
+  archive_name: "Internet Archive",
+  archive_desc: "Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more.",
+
+  news_name: "News",
+  rt_name: "RT",
+  rt_desc: "Russian international news outlet.",
+
+  presstv_name: "PressTV",
+  presstv_desc: "Iranian English-language broadcaster.",
+
+  firstpost_name: "Firstpost",
+  firstpost_desc: "Indian news portal offering coverage across politics, business, sports, and entertainment, with editorial and opinion content.",
+
+  pbs_name: "PBS",
+  pbs_desc: "U.S. public broadcaster providing educational, cultural, and documentary programming through a network of member stations.",
+
+  bbc_name: "BBC",
+  bbc_desc: "Global news and media hub—BBC delivers breaking stories, live coverage, and in-depth reporting across politics, culture, and science.",
+
+  ap_name: "Associated Press",
+  ap_desc: "The Associated Press is an American not-for-profit news agency headquartered in New York City.",
+
+  marxism_name: "In Defence of Marxism",
+  marxism_desc: "Online platform offering Marxist analysis of global events, political theory, and revolutionary history from a socialist perspective.",
+
+  nyt_name: "New York Times",
+  nyt_desc: "The New York Times (NYT) is an American daily newspaper based in New York City. The New York Times covers domestic, national, and international news, and publishes opinion pieces, investigative reports, and reviews.",
+
+  revcom_name: "REVCOM.US",
+  revcom_desc: "revcom.us is the official website of the Revolutionary Communist Party, USA. It features news, analysis, commentary, and theoretical writings focused on revolutionary change, social justice, and critiques of capitalism and imperialism.",
+
+  aljazeera_name: "Al Jazeera",
+  aljazeera_desc: "Stream global news and in-depth reporting from Al Jazeera, a leading international broadcaster known for its coverage of Middle Eastern affairs, investigative journalism, and live events.",
+
+  cgtn_name: "CGTN",
+  cgtn_desc: "Watch international news and cultural programming from CGTN, China’s state-run global broadcaster offering multilingual coverage of world events, business, and geopolitics from a Chinese perspective.",
+
+  cctv_name: "CCTV",
+  cctv_desc: "China's state-run broadcaster offering news, documentaries, and entertainment across multiple channels and digital platforms.",
+
+  tencent_name: "Tencent News (腾讯新闻)",
+  tencent_desc: "Comprehensive news portal by Tencent featuring top stories, lifestyle articles, and trending reports across China.",
+
+  baidu_name: "Baidu (百度)",
+  baidu_desc: "China's leading search engine with integrated news, search results, and app-like browsing experience.",
+
+  sohu_name: "Sohu (搜狐)",
+  sohu_desc: "Versatile media and news platform offering editorial coverage, breaking headlines, and multimedia stories.",
+
+  weibo_name: "Weibo Lite (微博Lite)",
+  weibo_desc: "A lightweight, mobile-optimized gateway to China's popular microblogging service, offering quick access to trending posts, hashtags, and celebrity updates.",
+  entertainmentplatform_name: "Entertainment Platform",
+
+  age_name: "AGE Animation (AGE动漫)",
+  age_desc: "Stream and explore a wide range of anime series and movies, updated regularly with Chinese subtitles.",
+
+  disneyplus_name: "Disney+",
+  disneyplus_desc: "Disney+ is an American subscription video on-demand over-the-top streaming media service owned and operated by Disney Streaming, the streaming division of Disney Entertainment, a major business segment of the Walt Disney Company.",
+
+  vixcom_name: "ViX (vix.com)",
+  vixcom_desc: "Official PWA-enabled hub for Spanish-language entertainment, ViX features live television, on-demand films, sports, and original shows curated for Hispanic audiences in the U.S. and Latin America.",
+
+  vixwatch_name: "ViX (vix.watch)",
+  vixwatch_desc: "Alternate entry point to ViX's streaming catalog—providing access to novelas, movies, and series across regions. Ideal for redirect scenarios or geo-targeted user flows.",
+
+  espn_name: "ESPN",
+  espn_desc: "Comprehensive sports network—ESPN covers live games, athlete insights, rankings, and analysis across leagues and disciplines.",
+
+  dubok_name: "Dubok (独播库)",
+  dubok_desc: "Dubok is a Chinese streaming site specializing in exclusive and hard-to-find TV dramas, anime, and variety shows. It aggregates content from multiple sources, offering fast updates and a wide selection of subtitled episodes for niche audiences.",
+
+  youku_name: "Youku (优酷)",
+  youku_desc: "Youku Tudou Inc., doing business as Youku, is a video streaming service and former video sharing website based in Beijing, China. It operates as a subsidiary of Alibaba Group Holding Limited.",
+
+  lightnovel_name: "Lightnovel Kingdom (轻之国度)",
+  lightnovel_desc: "One of China’s longest-running light novel communities, offering serialized fan translations, author archives, and anime-inspired literature in a minimalist interface optimized for mobile browsing.",
+
+  wechatread_name: "WeChat Read (微信读书)",
+  wechatread_desc: "A sleek wrapper for WeChat Read (微信读书), Tencent's official reading platform offering ebooks, social reading insights, and seamless integration with the WeChat ecosystem.",
+
+  ted_name: "TED",
+  ted_desc: "TED is a global platform where thinkers, creators, and doers share powerful, concise talks on topics ranging from science and tech to art, education, and social change. Whether it's a mind-blowing discovery or a fresh way to look at the world, TED showcases ideas that inspire and spark conversation.",
+
+  netflix_name: "Netflix",
+  netflix_desc: "Netflix is an American subscription video on-demand over-the-top streaming service. The service primarily distributes original and acquired films and television shows from various genres, and it is available internationally in multiple languages.",
+
+  games_name: "Games",
+
+  gameslol_name: "GamesLOL",
+  gameslol_desc: "GamesLOL is a website that offers a wide range of games in various genres, such as action, adventure, puzzle, sports, and more.",
+
+  crazygames_name: "CrazyGames",
+  crazygames_desc: "Browser-based games spanning action, puzzle, multiplayer, and more—play instantly without downloads.",
+
+  webgamer_name: "Web Gamer",
+  webgamer_desc: "Portal for next-gen web games—play instantly in your browser with no installs required.",
+
+  mumu_cn_name: "MuMu Emulator (MuMu模拟器)",
+  mumu_cn_desc: "Chinese-localized version of NetEase’s MuMu Android emulator, designed for domestic users with deep integration into mainland gaming ecosystems and simplified PC-side control.",
+
+  mumu_global_name: "MuMuPlayer",
+  mumu_global_desc: "Global-facing version of MuMu with international download mirrors, multilingual support, and optimized cross-platform emulation for Windows and macOS.",
+
+  gamingcommunity_name: "Gaming Community",
+
+  murlok_name: "Murlok.io",
+  murlok_desc: "WoW talent and build guides.",
+
+  wowforums_name: "World of Warcraft Forums (US)",
+  wowforums_desc: "Official game portal for WoW.",
+
+  wowanalyzer_name: "WoWAnalyzer",
+  wowanalyzer_desc: "Improve your performance with personal feedback and stats. Just enter the link of a Warcraft Logs report.",
+
+  mmochampion_name: "MMO Champion",
+  mmochampion_desc: "World of Warcraft-focused news and forum hub featuring patch notes, raid strategies, and community discussions.",
+
+  warcraftlogs_name: "Warcraft Logs",
+  warcraftlogs_desc: "Combat analysis platform for World of Warcraft, offering detailed raid metrics, rankings, and performance breakdowns.",
+
+  raiderio_name: "Raider.IO",
+  raiderio_desc: "Raider.IO is a World of Warcraft (WoW) Mythic+ and Raid Progression rankings site!",
+
+  maplestory_name: "MapleStory",
+  maplestory_desc: "Maplestory is one of the oldest MMORPGs out there.",
+
+  curseforge_name: "CurseForge",
+  curseforge_desc: "CurseForge is a leading platform for discovering, managing, and publishing mods and addons for games like Minecraft, World of Warcraft, and The Sims 4. It supports creators and simplifies modding with a dedicated desktop app.",
+
+  minecraftforum_name: "Minecraft Forum",
+  minecraftforum_desc: "Minecraft Forum is a long-standing community hub for Minecraft players and modders, offering discussions, tutorials, modpacks, and updates across both Java and Bedrock editions.",
+
+  learning_name: "Learning",
+  duolingo_global_name: "Duolingo",
+  duolingo_global_desc: "Gamified language learning.",
+
+  duolingo_cn_name: "Duolingo (多邻国)",
+  duolingo_cn_desc: "Localized Chinese version of Duolingo.",
+
+  knowledgespedia_name: "Knowledge & Pedias",
+
+  wikipedia_name: "Wikipedia",
+  wikipedia_desc: "Free online encyclopedia.",
+
+  baidubaike_name: "Baidu Baike (百度百科)",
+  baidubaike_desc: "Chinese collaborative knowledge base.",
+
+  liquipedia_name: "Liquipedia",
+  liquipedia_desc: "Liquipedia is an online encyclopedia focused on esports.",
+
+  marxistsorg_name: "Marxists Internet Archive",
+  marxistsorg_desc: "Marxists Internet Archive is a non-profit online encyclopedia that hosts a multilingual library (created in 1990) of the works of communist, anarchist, and socialist writers, such as Karl Marx, Friedrich Engels, Vladimir Lenin, Leon Trotsky, Joseph Stalin, Mao Zedong, Rosa Luxemburg, Mikhail Bakunin, Peter Kropotkin, and Pierre-Joseph Proudhon, as well as that of writers of related ideologies, and even unrelated ones (for instance, Sun Tzu).",
+
+  religion_name: "Religion",
+
+  qurancom_name: "Quran.com",
+  qurancom_desc: "Clean, mobile-optimized site for reading and listening to the Quran. Includes translations and tafsir.",
+
+  biblecom_name: "YouVersion Bible",
+  biblecom_desc: "Offers full text of the Bible in many translations. Includes reading plans, audio, and mobile apps.",
+
+  analytics_name: "Analytics",
+
+  statcounter_name: "StatCounter GS",
+  statcounter_desc: "Tracks the Usage Share of Search Engines, Browsers and Operating Systems.",
+
+  basemarkweb_name: "Basemark Web",
+  basemarkweb_desc: "Basemark Web is a cross-platform benchmark that measures real-world client-side performance of web browsers.",
+
+  browserbench_name: "BrowserBench",
+  browserbench_desc: "MotionMark is a benchmark designed to put browser graphics systems to the test.",
+
+  musicstreaming_name: "Music Streaming",
+  spotify_name: "Spotify",
+  spotify_desc: "Global music streaming platform.",
+
+  applemusic_name: "Apple Music",
+  applemusic_desc: "Apple’s premium music service.",
+
+  youtubemusic_name: "YouTube Music",
+  youtubemusic_desc: "Stream over 100 million songs, albums, remixes, and live performances—YouTube Music’s PWA offers personalized playlists, podcast support, and seamless playback across devices.",
+
+  ecommerece_name: "E-commerece",
+
+  starbucks_name: "Starbucks",
+  starbucks_desc: "Coffee ordering and loyalty tracking.",
+
+  amazon_name: "Amazon",
+  amazon_desc: "Shop millions of products, track orders, and manage your account.",
+
+  bestbuy_name: "Best Buy",
+  bestbuy_desc: "Electronics and appliances retail hub.",
+
+  ebay_name: "eBay",
+  ebay_desc: "Global e-commerce platform—eBay connects buyers and sellers through auctions, fixed-price listings, and curated collections.",
+
+  taobao_name: "Taobao (淘宝)",
+  taobao_desc: "A major consumer-to-consumer e-commerce platform in China, Taobao offers a diverse marketplace featuring everything from fashion and electronics to handmade local products. Backed by Alibaba, it’s known for powerful search tools, mobile-first features, and deep integration with logistics and social commerce.",
+
+  walmart_name: "Walmart",
+  walmart_desc: "Multinational retail giant offering groceries, electronics, apparel, and more through supercenters and online shopping.",
+
+  target_name: "Target",
+  target_desc: "U.S.-based retail chain offering groceries, electronics, clothing, and home goods—available via superstores and online shopping.",
+
+  cvs_name: "CVS",
+  cvs_desc: "U.S. pharmacy and retail chain offering prescriptions, health and wellness products, beauty essentials, and everyday groceries—available in-store and online.",
+
+  doordash_name: "Doordash",
+  doordash_desc: "Food delivery and logistics platform connecting users with restaurants, convenience stores, and groceries—order online or via app for on-demand service.",
+
+  kfc_name: "KFC",
+  kfc_desc: "Global fast food chain known for its fried chicken—order meals, explore deals, and find locations through its app or website.",
+
+  subway_name: "Subway",
+  subway_desc: "International sandwich shop offering customizable subs, wraps, and salads—order online, join rewards, and locate stores easily.",
+
+  mcdonalds_name: "McDonald's",
+  mcdonalds_desc: "World's largest fast food chain serving burgers, fries, breakfast, and beverages—mobile ordering, rewards, and location finder available via app or site.",
+
+  mobilitylogistics_name: "Mobility & Logistics",
+
+  uber_name: "Uber",
+  uber_desc: "Ride-hailing and delivery platform—book trips, order food, and manage your account via installable PWA.",
+
+  amtrak_name: "Amtrak",
+  amtrak_desc: "Book train tickets, check schedules, and track your ride—Amtrak’s PWA offers smooth travel planning across 500+ U.S. destinations.",
+
+  delta_name: "Delta",
+  delta_desc: "Manage flights, check in, and track status—Delta’s installable PWA streamlines your journey with mobile-friendly tools and SkyMiles integration.",
+
+  united_name: "United Airlines",
+  united_desc: "Book flights, manage reservations, and track travel status—United’s installable PWA connects you to over 300 destinations worldwide with MileagePlus rewards, mobile check-in, and real-time updates.",
+
+  flixbus_name: "FlixBus",
+  flixbus_desc: "Explore 1,800+ destinations across the US and beyond—FlixBus’s PWA lets you book tickets, track your ride in real time, and travel comfortably with Wi-Fi, outlets, and extra legroom.",
+
+  sfexpress_name: "SF Express (顺丰速运)",
+  sfexpress_desc: "SF Express—track domestic and international shipments, schedule pickups, and manage delivery services.",
+
+  jiakaobaodian_name: "Jiakaobaodian (驾考宝典)",
+  jiakaobaodian_desc: "China’s leading driving test platform—offers up-to-date question banks, multilingual exam prep, and full-process guidance for learners. On Microsoft Edge for Android, please log in first via the browser. The option to install as a Progressive Web App (PWA) becomes available after authentication.",
+
+  usps_name: "USPS",
+  usps_desc: "United States Postal Service—track shipments, buy postage, schedule pickups, and access national mailing services and address tools through its official portal.",
+
+  tickets_name: "Tickets",
+
+  taopiaopiao_name: "Tao Piao Piao (淘票票)",
+  taopiaopiao_desc: "Tao Piao Piao is a leading Chinese movie ticketing platform owned by Alibaba. It offers showtimes, seat selection, and online booking for cinemas across China, along with trailers, reviews, and promotional content for current and upcoming films.",
+
+  cloud_name: "Cloud (is someone else's computer)",
+
+  linode_name: "Linode",
+  linode_desc: "Akamai-powered cloud hosting, VMs, and dev tools.",
+
+  azure_name: "Azure",
+  azure_desc: "Azure is the cloud computing platform developed by Microsoft. It offers management, access and development of applications and services to individuals, companies, and governments through its global infrastructure.",
+
+  websitesblogs_name: "Websites & Blogs",
+
+  wordpress_name: "WordPress",
+  wordpress_desc: "Open-source content management system—build blogs, websites, and online stores with thousands of themes, plugins, and full customization.",
+
+  herbsutter_name: "Herb Sutter",
+  herbsutter_desc: "Herb Sutter (chairman of ISO C++ standard committee WG21)’s personal blog—explore thought-provoking essays, deep dives into modern C++, and insights on programming language evolution. A trusted resource for developers seeking clarity, rigor, and vision in software design.",
+
+  nvidia_name: "NVIDIA",
+  nvidia_desc: "NVIDIA is a global leader in artificial intelligence computing and supplies chips for data centers, gaming, and more.",
 
   usgov_name: "United States Government🇺🇸",
 
@@ -192,7 +524,56 @@ const L = {
   nasa_desc: "National Aeronautics and Space Administration—explores space and aeronautics, conducts scientific research, and leads missions to study Earth, the solar system, and the universe. Access news, images, videos, and live coverage of launches and discoveries.",
 
   whitehouse_name: "White House",
-  whitehouse_desc: "Official residence and workplace of the President of the United States—explore executive branch initiatives, press releases, policy updates, and historical archives. Access resources from the Office of the President and stay informed on national priorities."
+  whitehouse_desc: "Official residence and workplace of the President of the United States—explore executive branch initiatives, press releases, policy updates, and historical archives. Access resources from the Office of the President and stay informed on national priorities.",
+
+  organizations_name: "Organizations",
+  iso_name: "ISO",
+  iso_desc: "The International Organization for Standardization (ISO) is an independent, non-governmental international organization that develops and publishes global standards across a wide range of industries and sectors to ensure quality, safety, efficiency, and interoperability.",
+
+  olympics_name: "Olympics",
+  olympics_desc: "The modern Olympic Games are the world's preeminent international sporting events.",
+
+  un_name: "UN",
+  un_desc: "The United Nations (UN) is the only place on Earth where all the world's nations come together to discuss common problems and find shared solutions that benefit all of humanity.",
+  
+  healthinsurance_name: "Health & Insurance",
+
+  uhs_name: "UHS",
+  uhs_desc: "Universal Health Services—hospital management and healthcare provider offering behavioral health, acute care, and medical services across the U.S.",
+
+  deltadental_name: "Delta Dental",
+  deltadental_desc: "Dental insurance provider serving individuals and employers—manage benefits, find dentists, view claims, and explore oral health resources online.",
+  
+  education_name: "Education",
+
+  princeton_name: "Princeton University",
+  princeton_desc: "Princeton University is a private Ivy League research university in Princeton, New Jersey. Founded in 1746, it is the fourth-oldest higher education institution in the U.S. and one of the nine colonial colleges. Princeton is renowned for its undergraduate and doctoral programs, and its mission is to prepare students for meaningful lives and future challenges through world-class scholarship and teaching.",
+
+  binghamton_name: "Binghamton University",
+  binghamton_desc: "Binghamton University is a world-class institution offering interdisciplinary education with an international perspective and one of the most vibrant research programs in the U.S.",
+
+  fudan_name: "Fudan University",
+  fudan_desc: "Fudan University is a comprehensive research university in Shanghai, China, founded in 1905 as the first higher education institution established by a Chinese person.",
+
+  adult_name: "Adult",
+
+  pornhub_name: "Pornhub",
+  pornhub_desc: "Adult entertainment portal.",
+
+  spankbang_name: "SpankBang",
+  spankbang_desc: "Free adult video streaming site.",
+
+  hentaihaven_name: "Hentai Haven",
+  hentaihaven_desc: "Hentai-focused adult media platform.",
+
+  missavtv_name: "MissAV TV",
+  missavtv_desc: "Japanese adult video index.",
+
+  xnxx_name: "XNXX.COM",
+  xnxx_desc: "Czech-French adult video sharing site founded in 1997, with global infrastructure.",
+
+  onlyfans_name: "OnlyFans",
+  onlyfans_desc: "Subscription-based platform known for exclusive adult and creator content."
 };
 
 registerLocale("enus", L);

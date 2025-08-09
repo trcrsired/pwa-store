@@ -271,6 +271,7 @@ export const categories = [
     apps: [
       {
         name: "YouTube",
+        nameKey: "youtube_name",
         icon: "icons/youtube.webp",
         url: "https://youtube.com",
         descriptionKey: "youtube_desc"
@@ -296,6 +297,7 @@ export const categories = [
       },
       {
         name: "Facebook",
+        nameKey: "facebook_name",
         icon: "icons/facebook.webp",
         url: "https://facebook.com",
         descriptionKey: "facebook_desc"
@@ -308,6 +310,7 @@ export const categories = [
       },
       {
         name: "Bluesky",
+        nameKey: "bluesky_name",
         icon: "icons/bluesky.webp",
         url: "https://bsky.app",
         descriptionKey: "bluesky_desc"
@@ -332,6 +335,7 @@ export const categories = [
       },
       {
         name: "Telegram",
+        nameKey: "telegram_name",
         icon: "icons/telegram.webp",
         url: "https://web.telegram.org",
         descriptionKey: "telegram_desc"
@@ -367,454 +371,660 @@ export const categories = [
   },
   {
     name: "Finance",
+    nameKey: "finance_name",
     apps: [
-      { name: "Chase", icon: "icons/chase.webp", url: "https://chase.com", description: "Largest bank in the US." },
-      { name: "Bitcoin Well", icon: "icons/bitcoinwell.webp", url: "https://bitcoinwell.com", description: "Enable your independence with the fastest and safest way to buy bitcoin on-chain or via the Lightning Network in Canada and the USA." },
-      { name: "East Money (东方财经)", icon: "icons/eastmoney.webp", url: "https://eastmoney.com", description: "Chinese financial media and data portal." },
-      { name: "TradingView", icon: "icons/tradingview.webp", url: "https://www.tradingview.com", description: "Advanced market analysis and charts." },
-      { name: "Yahoo Finance", icon: "icons/yahoofinance.webp", url: "https://finance.yahoo.com", description: "Global financial news and quotes." },
-      { name: "LongForecast", icon: "icons/longforecast.webp", url: "https://longforecast.com", description: "Stock, cryptocurrency and economic forecasts with multi-year trend charts." },
+      {
+        name: "Chase",
+        nameKey: "chase_name",
+        descriptionKey: "chase_desc",
+        icon: "icons/chase.webp",
+        url: "https://chase.com"
+      },
+      {
+        name: "Bitcoin Well",
+        nameKey: "bitcoinwell_name",
+        descriptionKey: "bitcoinwell_desc",
+        icon: "icons/bitcoinwell.webp",
+        url: "https://bitcoinwell.com"
+      },
+      {
+        name: "East Money (东方财经)",
+        nameKey: "eastmoney_name",
+        descriptionKey: "eastmoney_desc",
+        icon: "icons/eastmoney.webp",
+        url: "https://eastmoney.com"
+      },
+      {
+        name: "TradingView",
+        nameKey: "tradingview_name",
+        descriptionKey: "tradingview_desc",
+        icon: "icons/tradingview.webp",
+        url: "https://www.tradingview.com"
+      },
+      {
+        name: "Yahoo Finance",
+        nameKey: "yahoofinance_name",
+        descriptionKey: "yahoofinance_desc",
+        icon: "icons/yahoofinance.webp",
+        url: "https://finance.yahoo.com"
+      },
+      {
+        name: "LongForecast",
+        nameKey: "longforecast_name",
+        descriptionKey: "longforecast_desc",
+        icon: "icons/longforecast.webp",
+        url: "https://longforecast.com"
+      },
       {
         name: "Paypal",
+        nameKey: "paypal_name",
+        descriptionKey: "paypal_desc",
         icon: "icons/wrappers/paypal.webp",
         url: "./wrappers/paypal",
-        description: "PayPal is a global digital payment platform that enables secure online transactions, money transfers, and merchant services for individuals and businesses. It supports personal payments, subscriptions, and e-commerce checkout across millions of sites.",
         wrapper: true
       },
-      { name: "Bank of America", icon: "icons/wrappers/bankofamerica.webp", url: "./wrappers/bankofamerica", description: "Major US bank.", wrapper: true },
-    ]
-  },
-  {
-    name: "Tech",
-    apps: [
-      { name: "Windows Central", icon: "icons/windowscentral.webp", url: "https://www.windowscentral.com", description: "Microsoft ecosystem coverage and guides." },
-      { name: "Mac Rumors", icon: "icons/macrumors.webp", url: "https://www.macrumors.com", description: "Apple-focused tech reporting and insights." },
-      { name: "Android Authority", icon: "icons/androidauthority.webp", url: "https://www.androidauthority.com", description: "News, reviews, and deep dives into Android and Google-related tech." },
-      { name: "Tom's Hardware", icon: "icons/tomshardware.webp", url: "https://www.tomshardware.com", description: "In-depth reviews, tech news, and DIY guides for PC enthusiasts and hardware pros." },
-      { name: "Ars OpenForum", icon: "icons/ars-open-forum.webp" , url: "https://arstechnica.com/civis", description: "Longstanding tech community hosted by Ars Technica—features flat, chronological discussions across hardware, software, politics, and geek culture. Powered by XenForo, it supports BBCode, Markdown, syntax highlighting, and power-user features like multi-quote, image resizing, and post tracking. A haven for respectful debate and deep dives since 1999."},
-      { name: "XDA Forums", icon: "icons/xdaforums.webp" , url: "https://xdaforums.com", description: "XDA Forums is a community for discussion, guides, accessories and development of mobile devices, especially Android."},
-      { name: "LINUX DO", icon: "icons/linuxdo.webp", url: "https://linux.do", description: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community." },
-    ]
-  },
-  {
-    name: "Software Distributions",
-    apps : [
       {
-        name: "APKPure",
-        icon: "icons/apkpure.webp",
-        url: "https://apkpure.com",
-        description: "Discover Android apk files",
-      },
-      {
-        name: "Arch Linux AUR",
-        icon: "icons/aur.webp",
-        url: "https://aur.archlinux.org",
-        description: "Explore community-maintained Arch packages.",
-      },
-      {
-        name: "Internet Archive",
-        icon: "icons/wrappers/archive.webp",
-        url: "./wrappers/archive",
-        description: "Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more.",
+        name: "Bank of America",
+        nameKey: "bankofamerica_name",
+        descriptionKey: "bankofamerica_desc",
+        icon: "icons/wrappers/bankofamerica.webp",
+        url: "./wrappers/bankofamerica",
         wrapper: true
       }
     ]
   },
   {
-    name: "News",
+    name: "Tech",
+    nameKey: "tech_key",
     apps: [
-      { name: "RT", icon: "icons/rt.webp", url: "https://www.rt.com", description: "Russian international news outlet." },
-      { name: "PressTV", icon: "icons/presstv.webp", url: "https://www.presstv.ir", description: "Iranian English-language broadcaster."},
       {
-        name: "Firstpost",
-        icon: "icons/firstpost.webp",
-        url: "https://www.firstpost.com",
-        description: "Indian news portal offering coverage across politics, business, sports, and entertainment, with editorial and opinion content."
+        name: "Windows Central",
+        nameKey: "windowscentral_name",
+        descriptionKey: "windowscentral_desc",
+        icon: "icons/windowscentral.webp",
+        url: "https://www.windowscentral.com"
       },
       {
-        name: "PBS",
-        icon: "icons/pbs.webp",
-        url: "https://www.pbs.org",
-        description: "U.S. public broadcaster providing educational, cultural, and documentary programming through a network of member stations."
-      },
-      { name: "BBC", icon: "icons/bbc.webp", url: "https://www.bbc.com", description: "Global news and media hub—BBC delivers breaking stories, live coverage, and in-depth reporting across politics, culture, and science." },
-      {
-        name: "Associated Press",
-        icon: "icons/associatedpress.webp",
-        url: "https://apnews.com",
-        description: "The Associated Press is an American not-for-profit news agency headquartered in New York City."
+        name: "Mac Rumors",
+        nameKey: "macrumors_name",
+        descriptionKey: "macrumors_desc",
+        icon: "icons/macrumors.webp",
+        url: "https://www.macrumors.com"
       },
       {
-        name: "In Defence of Marxism",
-        icon: "icons/indefenseofmarxism.webp",
-        url: "https://marxist.com",
-        description: "Online platform offering Marxist analysis of global events, political theory, and revolutionary history from a socialist perspective."
+        name: "Android Authority",
+        nameKey: "androidauthority_name",
+        descriptionKey: "androidauthority_desc",
+        icon: "icons/androidauthority.webp",
+        url: "https://www.androidauthority.com"
       },
       {
-        name: "New York Times",
-        icon: "icons/wrappers/nytimes.webp",
-        url: "./wrappers/nytimes",
-        description: "The New York Times (NYT) is an American daily newspaper based in New York City. The New York Times covers domestic, national, and international news, and publishes opinion pieces, investigative reports, and reviews.",
+        name: "Tom's Hardware",
+        nameKey: "tomshardware_name",
+        descriptionKey: "tomshardware_desc",
+        icon: "icons/tomshardware.webp",
+        url: "https://www.tomshardware.com"
+      },
+      {
+        name: "Ars OpenForum",
+        nameKey: "arsopenforum_name",
+        descriptionKey: "arsopenforum_desc",
+        icon: "icons/ars-open-forum.webp",
+        url: "https://arstechnica.com/civis"
+      },
+      {
+        name: "XDA Forums",
+        nameKey: "xdaforums_name",
+        descriptionKey: "xdaforums_desc",
+        icon: "icons/xdaforums.webp",
+        url: "https://xdaforums.com"
+      },
+      {
+        name: "LINUX DO",
+        nameKey: "linuxdo_name",
+        descriptionKey: "linuxdo_desc",
+        icon: "icons/linuxdo.webp",
+        url: "https://linux.do"
+      },
+    ]
+  },
+  {
+    name: "Software Distributions",
+    nameKey: "softwaredistributions_name",
+    apps : [
+      {
+        name: "APKPure",
+        nameKey: "apkpure_name",
+        descriptionKey: "apkpure_desc",
+        icon: "icons/apkpure.webp",
+        url: "https://apkpure.com"
+      },
+      {
+        name: "Arch Linux AUR",
+        nameKey: "aur_name",
+        descriptionKey: "aur_desc",
+        icon: "icons/aur.webp",
+        url: "https://aur.archlinux.org"
+      },
+      {
+        name: "Internet Archive",
+        nameKey: "archive_name",
+        descriptionKey: "archive_desc",
+        icon: "icons/wrappers/archive.webp",
+        url: "./wrappers/archive",
         wrapper: true
       },
-      {
-        name: "REVCOM.US",
-        icon: "icons/wrappers/revcomus.webp",
-        url: "./wrappers/revcomus",
-        description: "revcom.us is the official website of the Revolutionary Communist Party, USA. It features news, analysis, commentary, and theoretical writings focused on revolutionary change, social justice, and critiques of capitalism and imperialism.",
-        wrapper: true
-      },
-      {
-        name: "Al Jazeera",
-        icon: "icons/wrappers/aljazeera.webp",
-        url: "./wrappers/aljazeera",
-        description: "Stream global news and in-depth reporting from Al Jazeera, a leading international broadcaster known for its coverage of Middle Eastern affairs, investigative journalism, and live events.",
-        wrapper: true
-      },
-      {
-        name: "CGTN",
-        icon: "icons/wrappers/cgtn.webp",
-        url: "./wrappers/cgtn",
-        description: "Watch international news and cultural programming from CGTN, China’s state-run global broadcaster offering multilingual coverage of world events, business, and geopolitics from a Chinese perspective.",
-        wrapper: true
-      },
-      {
-        name: "CCTV",
-        icon: "icons/wrappers/cctv.webp",
-        url: "./wrappers/cctv",
-        description: "China's state-run broadcaster offering news, documentaries, and entertainment across multiple channels and digital platforms.",
-        wrapper: true
-      },
-      {
-        name: "Tencent News (腾讯新闻)",
-        icon: "icons/tencent_news.webp",
-        url: "https://news.qq.com",
-        description: "Comprehensive news portal by Tencent featuring top stories, lifestyle articles, and trending reports across China."
-      },
-      {
-        name: "Baidu (百度)",
-        icon: "icons/baidu.webp",
-        url: "https://www.baidu.com",
-        description: "China's leading search engine with integrated news, search results, and app-like browsing experience."
-      },
-      {
-        name: "Sohu (搜狐)",
-        icon: "icons/sohu.webp",
-        url: "https://www.sohu.com",
-        description: "Versatile media and news platform offering editorial coverage, breaking headlines, and multimedia stories."
-      },
-      {
-        name: "Weibo Lite (微博Lite)",
-        icon: "icons/weibo.webp",
-        url: "https://m.weibo.cn",
-        description: "A lightweight, mobile-optimized gateway to China's popular microblogging service, offering quick access to trending posts, hashtags, and celebrity updates."
-      },
+    ]
+  },
+  {
+    name: "News",
+    nameKey: "news_name",
+    apps: [
+      { name: "RT", nameKey: "rt_name", descriptionKey: "rt_desc", icon: "icons/rt.webp", url: "https://www.rt.com" },
+      { name: "PressTV", nameKey: "presstv_name", descriptionKey: "presstv_desc", icon: "icons/presstv.webp", url: "https://www.presstv.ir" },
+      { name: "Firstpost", nameKey: "firstpost_name", descriptionKey: "firstpost_desc", icon: "icons/firstpost.webp", url: "https://www.firstpost.com" },
+      { name: "PBS", nameKey: "pbs_name", descriptionKey: "pbs_desc", icon: "icons/pbs.webp", url: "https://www.pbs.org" },
+      { name: "BBC", nameKey: "bbc_name", descriptionKey: "bbc_desc", icon: "icons/bbc.webp", url: "https://www.bbc.com" },
+      { name: "Associated Press", nameKey: "ap_name", descriptionKey: "ap_desc", icon: "icons/associatedpress.webp", url: "https://apnews.com" },
+      { name: "In Defence of Marxism", nameKey: "marxism_name", descriptionKey: "marxism_desc", icon: "icons/indefenseofmarxism.webp", url: "https://marxist.com" },
+      { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url: "./wrappers/nytimes", wrapper: true },
+      { name: "REVCOM.US", nameKey: "revcom_name", descriptionKey: "revcom_desc", icon: "icons/wrappers/revcomus.webp", url: "./wrappers/revcomus", wrapper: true },
+      { name: "Al Jazeera", nameKey: "aljazeera_name", descriptionKey: "aljazeera_desc", icon: "icons/wrappers/aljazeera.webp", url: "./wrappers/aljazeera", wrapper: true },
+      { name: "CGTN", nameKey: "cgtn_name", descriptionKey: "cgtn_desc", icon: "icons/wrappers/cgtn.webp", url: "./wrappers/cgtn", wrapper: true },
+      { name: "CCTV", nameKey: "cctv_name", descriptionKey: "cctv_desc", icon: "icons/wrappers/cctv.webp", url: "./wrappers/cctv", wrapper: true },
+      { name: "Tencent News (腾讯新闻)", nameKey: "tencent_name", descriptionKey: "tencent_desc", icon: "icons/tencent_news.webp", url: "https://news.qq.com" },
+      { name: "Baidu (百度)", nameKey: "baidu_name", descriptionKey: "baidu_desc", icon: "icons/baidu.webp", url: "https://www.baidu.com" },
+      { name: "Sohu (搜狐)", nameKey: "sohu_name", descriptionKey: "sohu_desc", icon: "icons/sohu.webp", url: "https://www.sohu.com" },
+      { name: "Weibo Lite (微博Lite)", nameKey: "weibo_name", descriptionKey: "weibo_desc", icon: "icons/weibo.webp", url: "https://m.weibo.cn" },
     ]
   },
   {
     name: "Entertainment Platform",
+    nameKey: "entertainmentplatform_name",
     apps : [
-      { name: "AGE Animation (AGE动漫)", icon: "icons/ageanimation.webp" ,url: "https://www.agedm.vip", description:"Stream and explore a wide range of anime series and movies, updated regularly with Chinese subtitles." },
-      { name: "Disney+", icon: "icons/disneyplus.webp" ,url: "https://www.disneyplus.com", description:"Disney+ is an American subscription video on-demand over-the-top streaming media service owned and operated by Disney Streaming, the streaming division of Disney Entertainment, a major business segment of the Walt Disney Company." },
-      {
-        name: "ViX (vix.com)",
-        icon: "icons/vix.webp",
-        url: "https://www.vix.com",
-        description: "Official PWA-enabled hub for Spanish-language entertainment, ViX features live television, on-demand films, sports, and original shows curated for Hispanic audiences in the U.S. and Latin America."
-      },
-      {
-        name: "ViX (vix.watch)",
-        icon: "icons/vix.webp",
-        url: "https://vix.watch",
-        description: "Alternate entry point to ViX's streaming catalog—providing access to novelas, movies, and series across regions. Ideal for redirect scenarios or geo-targeted user flows."
-      },
-      {
-        name: "ESPN",
-        icon: "icons/espn.webp",
-        url: "https://www.espn.com",
-        description: "Comprehensive sports network—ESPN covers live games, athlete insights, rankings, and analysis across leagues and disciplines."
-      },
-      {
-        name: "Dubok (独播库)",
-        icon: "icons/dubok.webp",
-        url: "https://www.dubok.tv",
-        description: "Dubok is a Chinese streaming site specializing in exclusive and hard-to-find TV dramas, anime, and variety shows. It aggregates content from multiple sources, offering fast updates and a wide selection of subtitled episodes for niche audiences.",
-      },
-      {
-        name: "Youku (优酷)",
-        icon: "icons/youku.webp",
-        url: "https://www.youku.com",
-        description: "Youku Tudou Inc., doing business as Youku, is a video streaming service and former video sharing website based in Beijing, China. It operates as a subsidiary of Alibaba Group Holding Limited."
-      },
-      {
-        name: "Lightnovel Kingdom (轻之国度)",
-        icon: "icons/wrappers/lightnovelkingdom.webp",
-        url: "./wrappers/lightnovelkingdom",
-        description: "One of China’s longest-running light novel communities, offering serialized fan translations, author archives, and anime-inspired literature in a minimalist interface optimized for mobile browsing.",
-        wrapper: true
-      },
-      {
-        name: "WeChat Read (微信读书)",
-        icon: "icons/wrappers/wechatread.webp",
-        url: "./wrappers/wechatread",
-        description: "A sleek wrapper for WeChat Read (微信读书), Tencent's official reading platform offering ebooks, social reading insights, and seamless integration with the WeChat ecosystem.",
-        wrapper: true
-      },
-      { name: "TED",
-        icon: "icons/wrappers/ted.webp",
-        url: "./wrappers/ted",
-        description: "TED is a global platform where thinkers, creators, and doers share powerful, concise talks on topics ranging from science and tech to art, education, and social change. Whether it's a mind-blowing discovery or a fresh way to look at the world, TED showcases ideas that inspire and spark conversation.",
-        wrapper: true
-      },
-      { name: "Netflix",
-        icon: "icons/wrappers/netflix.webp",
-        url: "./wrappers/netflix",
-        description: "Netflix is an American subscription video on-demand over-the-top streaming service. The service primarily distributes original and acquired films and television shows from various genres, and it is available internationally in multiple languages.",
-        wrapper: true
-      },
+      { name: "AGE Animation (AGE动漫)", nameKey: "age_name", descriptionKey: "age_desc", icon: "icons/ageanimation.webp", url: "https://www.agedm.vip" },
+      { name: "Disney+", nameKey: "disneyplus_name", descriptionKey: "disneyplus_desc", icon: "icons/disneyplus.webp", url: "https://www.disneyplus.com" },
+      { name: "ViX (vix.com)", nameKey: "vixcom_name", descriptionKey: "vixcom_desc", icon: "icons/vix.webp", url: "https://www.vix.com" },
+      { name: "ViX (vix.watch)", nameKey: "vixwatch_name", descriptionKey: "vixwatch_desc", icon: "icons/vix.webp", url: "https://vix.watch" },
+      { name: "ESPN", nameKey: "espn_name", descriptionKey: "espn_desc", icon: "icons/espn.webp", url: "https://www.espn.com" },
+      { name: "Dubok (独播库)", nameKey: "dubok_name", descriptionKey: "dubok_desc", icon: "icons/dubok.webp", url: "https://www.dubok.tv" },
+      { name: "Youku (优酷)", nameKey: "youku_name", descriptionKey: "youku_desc", icon: "icons/youku.webp", url: "https://www.youku.com" },
+      { name: "Lightnovel Kingdom (轻之国度)", nameKey: "lightnovel_name", descriptionKey: "lightnovel_desc", icon: "icons/wrappers/lightnovelkingdom.webp", url: "./wrappers/lightnovelkingdom", wrapper: true },
+      { name: "WeChat Read (微信读书)", nameKey: "wechatread_name", descriptionKey: "wechatread_desc", icon: "icons/wrappers/wechatread.webp", url: "./wrappers/wechatread", wrapper: true },
+      { name: "TED", nameKey: "ted_name", descriptionKey: "ted_desc", icon: "icons/wrappers/ted.webp", url: "./wrappers/ted", wrapper: true },
+      { name: "Netflix", nameKey: "netflix_name", descriptionKey: "netflix_desc", icon: "icons/wrappers/netflix.webp", url: "./wrappers/netflix", wrapper: true }
     ]
   },
   {
     name: "Games",
+    nameKey: "games_name",
     apps: [
-    	{ name: "GamesLOL", icon: "icons/gameslol.webp", url: "https://en.gameslol.net", description: "GamesLOL is a website that offers a wide range of games in various genres, such as action, adventure, puzzle, sports, and more." },
-      { name: "CrazyGames", icon: "icons/crazygames.webp", url: "https://www.crazygames.com", description: "Browser-based games spanning action, puzzle, multiplayer, and more—play instantly without downloads." },
-      { name: "Web Gamer", icon: "icons/webgamer.webp", url: "https://webgamer.io", description: "Portal for next-gen web games—play instantly in your browser with no installs required." },
-	{
+      {
+        name: "GamesLOL",
+        nameKey: "gameslol_name",
+        descriptionKey: "gameslol_desc",
+        icon: "icons/gameslol.webp",
+        url: "https://en.gameslol.net"
+      },
+      {
+        name: "CrazyGames",
+        nameKey: "crazygames_name",
+        descriptionKey: "crazygames_desc",
+        icon: "icons/crazygames.webp",
+        url: "https://www.crazygames.com"
+      },
+      {
+        name: "Web Gamer",
+        nameKey: "webgamer_name",
+        descriptionKey: "webgamer_desc",
+        icon: "icons/webgamer.webp",
+        url: "https://webgamer.io"
+      },
+      {
         name: "MuMu Emulator (MuMu模拟器)",
+        nameKey: "mumu_cn_name",
+        descriptionKey: "mumu_cn_desc",
         icon: "icons/wrappers/mumu.webp",
         url: "https://mumu.163.com",
-        description: "Chinese-localized version of NetEase’s MuMu Android emulator, designed for domestic users with deep integration into mainland gaming ecosystems and simplified PC-side control.",
         wrapper: true
       },
       {
         name: "MuMuPlayer",
+        nameKey: "mumu_global_name",
+        descriptionKey: "mumu_global_desc",
         icon: "icons/wrappers/mumu.webp",
         url: "https://www.mumuplayer.com",
-        description: "Global-facing version of MuMu with international download mirrors, multilingual support, and optimized cross-platform emulation for Windows and macOS.",
         wrapper: true
-      },
+      }
     ]
   },
   {
     name: "Gaming Community",
+    nameKey: "gamingcommunity_name",
     apps: [
-      { name: "Murlok.io", icon: "icons/murlok.webp", url: "https://murlok.io", description: "WoW talent and build guides." },
-      { name: "World of Warcraft Forums (US)", icon: "icons/wow.webp", url: "https://us.forums.blizzard.com/en/wow", description: "Official game portal for WoW." },
-      { name: "WoWAnalyzer", icon: "icons/wowanalyzer.webp", url: "https://wowanalyzer.com", description: "Improve your performance with personal feedback and stats. Just enter the link of a Warcraft Logs report." },
+      {
+        name: "Murlok.io",
+        nameKey: "murlok_name",
+        descriptionKey: "murlok_desc",
+        icon: "icons/murlok.webp",
+        url: "https://murlok.io"
+      },
+      {
+        name: "World of Warcraft Forums (US)",
+        nameKey: "wowforums_name",
+        descriptionKey: "wowforums_desc",
+        icon: "icons/wow.webp",
+        url: "https://us.forums.blizzard.com/en/wow"
+      },
+      {
+        name: "WoWAnalyzer",
+        nameKey: "wowanalyzer_name",
+        descriptionKey: "wowanalyzer_desc",
+        icon: "icons/wowanalyzer.webp",
+        url: "https://wowanalyzer.com"
+      },
       {
         name: "MMO Champion",
+        nameKey: "mmochampion_name",
+        descriptionKey: "mmochampion_desc",
         icon: "icons/wrappers/mmo-champion.webp",
         url: "./wrappers/mmo-champion",
-        description: "World of Warcraft-focused news and forum hub featuring patch notes, raid strategies, and community discussions.",
         wrapper: true
       },
       {
         name: "Warcraft Logs",
+        nameKey: "warcraftlogs_name",
+        descriptionKey: "warcraftlogs_desc",
         icon: "icons/wrappers/warcraftlogs.webp",
         url: "./wrappers/warcraftlogs",
-        description: "Combat analysis platform for World of Warcraft, offering detailed raid metrics, rankings, and performance breakdowns.",
         wrapper: true
       },
       {
         name: "Raider.IO",
+        nameKey: "raiderio_name",
+        descriptionKey: "raiderio_desc",
         icon: "icons/wrappers/raiderio.webp",
         url: "./wrappers/raiderio",
-        description: "Raider.IO is a World of Warcraft (WoW) Mythic+ and Raid Progression rankings site!",
         wrapper: true
       },
       {
         name: "MapleStory",
+        nameKey: "maplestory_name",
+        descriptionKey: "maplestory_desc",
         icon: "icons/wrappers/maplestory.webp",
         url: "./wrappers/maplestory",
-        description: "Maplestory is one of the oldest MMORPGs out there.",
         wrapper: true
       },
       {
         name: "CurseForge",
+        nameKey: "curseforge_name",
+        descriptionKey: "curseforge_desc",
         icon: "icons/wrappers/curseforge.webp",
         url: "./wrappers/curseforge",
-        description: "CurseForge is a leading platform for discovering, managing, and publishing mods and addons for games like Minecraft, World of Warcraft, and The Sims 4. It supports creators and simplifies modding with a dedicated desktop app.",
         wrapper: true
       },
       {
         name: "Minecraft Forum",
+        nameKey: "minecraftforum_name",
+        descriptionKey: "minecraftforum_desc",
         icon: "icons/wrappers/minecraftforum.webp",
         url: "./wrappers/minecraftforum",
-        description: "Minecraft Forum is a long-standing community hub for Minecraft players and modders, offering discussions, tutorials, modpacks, and updates across both Java and Bedrock editions.",
         wrapper: true
-      },
+      }
     ]
   },
   {
     name: "Learning",
+    nameKey: "learning_name",
     apps: [
-      { name: "Duolingo", icon: "icons/duolingo.webp", url: "https://duolingo.com", description: "Gamified language learning." },
-      { name: "Duolingo (多邻国)", icon: "icons/duolingo.webp", url: "https://cn.duolingo.com", description: "Localized Chinese version of Duolingo." }
+      {
+        name: "Duolingo",
+        nameKey: "duolingo_global_name",
+        descriptionKey: "duolingo_global_desc",
+        icon: "icons/duolingo.webp",
+        url: "https://duolingo.com"
+      },
+      {
+        name: "Duolingo (多邻国)",
+        nameKey: "duolingo_cn_name",
+        descriptionKey: "duolingo_cn_desc",
+        icon: "icons/duolingo.webp",
+        url: "https://cn.duolingo.com"
+      },
     ]
   },
   {
     name: "Knowledge & Pedias",
+    nameKey: "knowledgespedia_name",
     apps: [
-      { name: "Wikipedia", icon: "icons/wikipedia.webp", url: "https://wikipedia.org", description: "Free online encyclopedia." },
-      { name: "Baidu Baike (百度百科)", icon: "icons/baike.webp", url: "https://baike.baidu.com", description: "Chinese collaborative knowledge base." },
-      { name: "Liquipedia", icon: "icons/liquipedia.webp", url: "https://liquipedia.net", description: "Liquipedia is an online encyclopedia focused on esports."},
-      { name: "Marxists Internet Archive", icon: "icons/wrappers/marxistsorg.webp", url: "./wrappers/marxistsorg", description: "Marxists Internet Archive is a non-profit online encyclopedia that hosts a multilingual library (created in 1990) of the works of communist, anarchist, and socialist writers, such as Karl Marx, Friedrich Engels, Vladimir Lenin, Leon Trotsky, Joseph Stalin, Mao Zedong, Rosa Luxemburg, Mikhail Bakunin, Peter Kropotkin, and Pierre-Joseph Proudhon, as well as that of writers of related ideologies, and even unrelated ones (for instance, Sun Tzu). ", wrapper: true},
+      {
+        name: "Wikipedia",
+        nameKey: "wikipedia_name",
+        descriptionKey: "wikipedia_desc",
+        icon: "icons/wikipedia.webp",
+        url: "https://wikipedia.org"
+      },
+      {
+        name: "Baidu Baike (百度百科)",
+        nameKey: "baidubaike_name",
+        descriptionKey: "baidubaike_desc",
+        icon: "icons/baike.webp",
+        url: "https://baike.baidu.com"
+      },
+      {
+        name: "Liquipedia",
+        nameKey: "liquipedia_name",
+        descriptionKey: "liquipedia_desc",
+        icon: "icons/liquipedia.webp",
+        url: "https://liquipedia.net"
+      },
+      {
+        name: "Marxists Internet Archive",
+        nameKey: "marxistsorg_name",
+        descriptionKey: "marxistsorg_desc",
+        icon: "icons/wrappers/marxistsorg.webp",
+        url: "./wrappers/marxistsorg",
+        wrapper: true
+      },
     ]
   },
   {
     name: "Religion",
+    nameKey: "religion_name",
     apps: [
-      { name: "Quran.com", icon: "icons/qurancom.webp", url: "https://quran.com", description: "Clean, mobile-optimized site for reading and listening to the Quran. Includes translations and tafsir." },
-      { name: "YouVersion Bible", icon: "icons/wrappers/biblecom.webp", url: "./wrappers/biblecom", wrapper: true, description: "Offers full text of the Bible in many translations. Includes reading plans, audio, and mobile apps." },
+      {
+      name: "Quran.com",
+      nameKey: "qurancom_name",
+      descriptionKey: "qurancom_desc",
+      icon: "icons/qurancom.webp",
+      url: "https://quran.com"
+      },
+      {
+        name: "YouVersion Bible",
+        nameKey: "biblecom_name",
+        descriptionKey: "biblecom_desc",
+        icon: "icons/wrappers/biblecom.webp",
+        url: "./wrappers/biblecom",
+        wrapper: true
+      },
     ]
   },
   {
     name: "Analytics",
+    nameKey: "analytics_name",
     apps: [
-      { name: "StatCounter GS", icon: "icons/statcounter.webp", url: "https://gs.statcounter.com", description: "Tracks the Usage Share of Search Engines, Browsers and Operating Systems." },
-      { name: "Basemark Web", icon: "icons/basemarkweb.webp", url: "https://web.basemark.com", description: "Basemark Web is a cross-platform benchmark that measures real-world client-side performance of web browsers." },
-      { name: "BrowserBench", icon: "icons/wrappers/browserbench.webp", url: "./wrappers/browserbench", description: "MotionMark is a benchmark designed to put browser graphics systems to the test." },
+      {
+        name: "StatCounter GS",
+        nameKey: "statcounter_name",
+        descriptionKey: "statcounter_desc",
+        icon: "icons/statcounter.webp",
+        url: "https://gs.statcounter.com"
+      },
+      {
+        name: "Basemark Web",
+        nameKey: "basemarkweb_name",
+        descriptionKey: "basemarkweb_desc",
+        icon: "icons/basemarkweb.webp",
+        url: "https://web.basemark.com"
+      },
+      {
+        name: "BrowserBench",
+        nameKey: "browserbench_name",
+        descriptionKey: "browserbench_desc",
+        icon: "icons/wrappers/browserbench.webp",
+        url: "./wrappers/browserbench",
+        wrapper: true
+      }
     ]
   },
   {
     name: "Music Streaming",
+    nameKey: "musicstreaming_name",
     apps: [
-      { name: "Spotify", icon: "icons/spotify.webp", url: "https://open.spotify.com", description: "Global music streaming platform." },
-      { name: "Apple Music", icon: "icons/applemusic.webp", url: "https://music.apple.com", description: "Apple’s premium music service." },
-      { name: "YouTube Music", icon: "icons/youtubemusic.webp", url: "https://music.youtube.com", description: "Stream over 100 million songs, albums, remixes, and live performances—YouTube Music’s PWA offers personalized playlists, podcast support, and seamless playback across devices." },
+      {
+        name: "Spotify",
+        nameKey: "spotify_name",
+        descriptionKey: "spotify_desc",
+        icon: "icons/spotify.webp",
+        url: "https://open.spotify.com"
+      },
+      {
+        name: "Apple Music",
+        nameKey: "applemusic_name",
+        descriptionKey: "applemusic_desc",
+        icon: "icons/applemusic.webp",
+        url: "https://music.apple.com"
+      },
+      {
+        name: "YouTube Music",
+        nameKey: "youtubemusic_name",
+        descriptionKey: "youtubemusic_desc",
+        icon: "icons/youtubemusic.webp",
+        url: "https://music.youtube.com"
+      },
     ]
   },
   {
-    name: "Food & Shopping",
+    name: "E-commerce",
+    nameKey: "ecommerece_name",
     apps: [
-      { name: "Starbucks", icon: "icons/starbucks.webp", url: "https://www.starbucks.com", description: "Coffee ordering and loyalty tracking." },
-      { name: "Amazon", icon: "icons/amazon.webp", url: "https://www.amazon.com", description: "Shop millions of products, track orders, and manage your account." },
-      { name: "Best Buy", icon: "icons/bestbuy.webp", url: "https://www.bestbuy.com", description: "Electronics and appliances retail hub" },
+      {
+        name: "Starbucks",
+        nameKey: "starbucks_name",
+        descriptionKey: "starbucks_desc",
+        icon: "icons/starbucks.webp",
+        url: "https://www.starbucks.com"
+      },
+      {
+        name: "Amazon",
+        nameKey: "amazon_name",
+        descriptionKey: "amazon_desc",
+        icon: "icons/amazon.webp",
+        url: "https://www.amazon.com"
+      },
+      {
+        name: "Best Buy",
+        nameKey: "bestbuy_name",
+        descriptionKey: "bestbuy_desc",
+        icon: "icons/bestbuy.webp",
+        url: "https://www.bestbuy.com"
+      },
       {
         name: "eBay",
+        nameKey: "ebay_name",
+        descriptionKey: "ebay_desc",
         icon: "icons/ebay.webp",
-        url: "https://www.ebay.com",
-        description: "Global e-commerce platform—eBay connects buyers and sellers through auctions, fixed-price listings, and curated collections."
+        url: "https://www.ebay.com"
       },
       {
         name: "Taobao (淘宝)",
+        nameKey: "taobao_name",
+        descriptionKey: "taobao_desc",
         icon: "icons/taobao.webp",
-        url: "https://www.taobao.com",
-        description: "A major consumer-to-consumer e-commerce platform in China, Taobao offers a diverse marketplace featuring everything from fashion and electronics to handmade local products. Backed by Alibaba, it’s known for powerful search tools, mobile-first features, and deep integration with logistics and social commerce."
+        url: "https://www.taobao.com"
       },
       {
         name: "Walmart",
+        nameKey: "walmart_name",
+        descriptionKey: "walmart_desc",
         icon: "icons/wrappers/walmart.webp",
         url: "./wrappers/walmart",
-        description: "Multinational retail giant offering groceries, electronics, apparel, and more through supercenters and online shopping.",
         wrapper: true
       },
       {
         name: "Target",
+        nameKey: "target_name",
+        descriptionKey: "target_desc",
         icon: "icons/wrappers/target.webp",
         url: "./wrappers/target",
-        description: "U.S.-based retail chain offering groceries, electronics, clothing, and home goods—available via superstores and online shopping.",
         wrapper: true
       },
       {
         name: "CVS",
+        nameKey: "cvs_name",
+        descriptionKey: "cvs_desc",
         icon: "icons/wrappers/cvs.webp",
         url: "./wrappers/cvs",
-        description: "U.S. pharmacy and retail chain offering prescriptions, health and wellness products, beauty essentials, and everyday groceries—available in-store and online.",
         wrapper: true
       },
       {
         name: "Doordash",
+        nameKey: "doordash_name",
+        descriptionKey: "doordash_desc",
         icon: "icons/wrappers/doordash.webp",
         url: "./wrappers/doordash",
-        description: "Food delivery and logistics platform connecting users with restaurants, convenience stores, and groceries—order online or via app for on-demand service.",
         wrapper: true
       },
       {
         name: "KFC",
+        nameKey: "kfc_name",
+        descriptionKey: "kfc_desc",
         icon: "icons/wrappers/kfc.webp",
         url: "./wrappers/kfc",
-        description: "Global fast food chain known for its fried chicken—order meals, explore deals, and find locations through its app or website.",
         wrapper: true
       },
       {
         name: "Subway",
+        nameKey: "subway_name",
+        descriptionKey: "subway_desc",
         icon: "icons/wrappers/subway.webp",
         url: "./wrappers/subway",
-        description: "International sandwich shop offering customizable subs, wraps, and salads—order online, join rewards, and locate stores easily.",
         wrapper: true
       },
       {
         name: "McDonald's",
+        nameKey: "mcdonalds_name",
+        descriptionKey: "mcdonalds_desc",
         icon: "icons/wrappers/mcdonalds.webp",
         url: "./wrappers/mcdonalds",
-        description: "World's largest fast food chain serving burgers, fries, breakfast, and beverages—mobile ordering, rewards, and location finder available via app or site.",
         wrapper: true
       },
     ]
   },
   {
-    name: "Posting & Transportation",
+    name: "Mobility & Logistics",
+    nameKey: "mobilitylogistics_name",
     apps: [
-      { name: "Uber", icon: "icons/uber.webp", url: "https://uber.com", description: "Ride-hailing and delivery platform—book trips, order food, and manage your account via installable PWA." },
-      { name: "Amtrak", icon: "icons/amtrak.webp", url: "https://amtrak.com", description: "Book train tickets, check schedules, and track your ride—Amtrak’s PWA offers smooth travel planning across 500+ U.S. destinations." },
-      { name: "Delta", icon: "icons/delta.webp", url: "https://delta.com", description: "Manage flights, check in, and track status—Delta’s installable PWA streamlines your journey with mobile-friendly tools and SkyMiles integration." },
-      { name: "United Airlines",icon: "icons/united.webp", url: "https://united.com", description: "Book flights, manage reservations, and track travel status—United’s installable PWA connects you to over 300 destinations worldwide with MileagePlus rewards, mobile check-in, and real-time updates." },
-      { name: "FlixBus", icon: "icons/flixbus.webp", url: "https://flixbus.com", description: "Explore 1,800+ destinations across the US and beyond—FlixBus’s PWA lets you book tickets, track your ride in real time, and travel comfortably with Wi-Fi, outlets, and extra legroom." },
-      { name: "SF Express (顺丰速运)", icon: "icons/shunfeng.webp", url: "https://www.sf-express.com", description: "SF Express—track domestic and international shipments, schedule pickups, and manage delivery services." },
+      {
+        name: "Uber",
+        nameKey: "uber_name",
+        descriptionKey: "uber_desc",
+        icon: "icons/uber.webp",
+        url: "https://uber.com"
+      },
+      {
+        name: "Amtrak",
+        nameKey: "amtrak_name",
+        descriptionKey: "amtrak_desc",
+        icon: "icons/amtrak.webp",
+        url: "https://amtrak.com"
+      },
+      {
+        name: "Delta",
+        nameKey: "delta_name",
+        descriptionKey: "delta_desc",
+        icon: "icons/delta.webp",
+        url: "https://delta.com"
+      },
+      {
+        name: "United Airlines",
+        nameKey: "united_name",
+        descriptionKey: "united_desc",
+        icon: "icons/united.webp",
+        url: "https://united.com"
+      },
+      {
+        name: "FlixBus",
+        nameKey: "flixbus_name",
+        descriptionKey: "flixbus_desc",
+        icon: "icons/flixbus.webp",
+        url: "https://flixbus.com"
+      },
+      {
+        name: "SF Express (顺丰速运)",
+        nameKey: "sfexpress_name",
+        descriptionKey: "sfexpress_desc",
+        icon: "icons/shunfeng.webp",
+        url: "https://www.sf-express.com"
+      },
       {
         name: "Jiakaobaodian (驾考宝典)",
+        nameKey: "jiakaobaodian_name",
+        descriptionKey: "jiakaobaodian_desc",
         icon: "icons/jiakaobaodian.webp",
-        url: "https://www.jiakaobaodian.com",
-        description: "China’s leading driving test platform—offers up-to-date question banks, multilingual exam prep, and full-process guidance for learners. On Microsoft Edge for Android, please log in first via the browser. The option to install as a Progressive Web App (PWA) becomes available after authentication."
+        url: "https://www.jiakaobaodian.com"
       },
       {
         name: "USPS",
+        nameKey: "usps_name",
+        descriptionKey: "usps_desc",
         icon: "icons/wrappers/usps.webp",
         url: "./wrappers/usps",
-        description: "United States Postal Service—track shipments, buy postage, schedule pickups, and access national mailing services and address tools through its official portal.",
         wrapper: true
       },
     ]
   },
   {
     name: "Tickets",
+    nameKey: "tickets_name",
     apps: [
       {
         name: "Tao Piao Piao (淘票票)",
+        nameKey: "taopiaopiao_name",
+        descriptionKey: "taopiaopiao_desc",
         icon: "icons/wrappers/taopiaopiao.webp",
         url: "./wrappers/taopiaopiao",
-        description: "Tao Piao Piao is a leading Chinese movie ticketing platform owned by Alibaba. It offers showtimes, seat selection, and online booking for cinemas across China, along with trailers, reviews, and promotional content for current and upcoming films.",
         wrapper: true
-      }
+      },
     ]
   },
   {
     name: "Cloud (is someone else's computer)",
+    nameKey: "cloud_name",
     apps: [
-      { name: "Linode", icon: "icons/linode.webp", url: "https://www.linode.com", description: "Akamai-powered cloud hosting, VMs, and dev tools." },
-      { name: "Azure", icon: "icons/azure.webp", url: "https://portal.azure.com", description: "Azure is the cloud computing platform developed by Microsoft. It offers management, access and development of applications and services to individuals, companies, and governments through its global infrastructure." },
+      {
+        name: "Linode",
+        nameKey: "linode_name",
+        descriptionKey: "linode_desc",
+        icon: "icons/linode.webp",
+        url: "https://www.linode.com"
+      },
+      {
+        name: "Azure",
+        nameKey: "azure_name",
+        descriptionKey: "azure_desc",
+        icon: "icons/azure.webp",
+        url: "https://portal.azure.com"
+      },
     ]
   },
   {
     name: "Websites & Blogs",
+    nameKey: "websitesblogs_name",
     apps: [
-      { name: "WordPress", icon: "icons/wordpress.webp", url: "https://wordpress.org", description: "Open-source content management system—build blogs, websites, and online stores with thousands of themes, plugins, and full customization." },
+      {
+        name: "WordPress",
+        nameKey: "wordpress_name",
+        descriptionKey: "wordpress_desc",
+        icon: "icons/wordpress.webp",
+        url: "https://wordpress.org"
+      },
       {
         name: "Herb Sutter",
+        nameKey: "herbsutter_name",
+        descriptionKey: "herbsutter_desc",
         icon: "icons/wrappers/herbsutter.webp",
         url: "./wrappers/herbsutter",
-        description: "Herb Sutter (chairman of ISO C++ standard committee WG21)’s personal blog—explore thought-provoking essays, deep dives into modern C++, and insights on programming language evolution. A trusted resource for developers seeking clarity, rigor, and vision in software design.",
         wrapper: true
       },
       {
         name: "nvidia",
+        nameKey: "nvidia_name",
+        descriptionKey: "nvidia_desc",
         icon: "icons/wrappers/nvidia.webp",
         url: "./wrappers/nvidia",
-	description: "NVIDIA is a global leader in artificial intelligence computing and supplies chips for data centers, gaming, and more.",
         wrapper: true
-      },
+      }
     ]
   },
   {
@@ -1000,81 +1210,129 @@ export const categories = [
   },
   {
     name: "Organizations",
+    nameKey: "organizations_name",
     apps : [
-     {
-      name: "ISO",
-      icon: "icons/iso.webp",
-      url: "https://www.iso.org",
-      description: "The International Organization for Standardization (ISO) is an independent, non-governmental international organization that develops and publishes global standards across a wide range of industries and sectors to ensure quality, safety, efficiency, and interoperability.",
-     },
-     {
-      name: "Olympics",
-      icon: "icons/olympics.webp",
-      url: "https://www.iso.org",
-      description: "The modern Olympic Games are the world's preeminent international sporting events.",
-     },
-     {
-      name: "UN",
-      icon: "icons/wrappers/un.webp",
-      url: "./wrappers/un",
-      description: "The United Nations (UN) is the only place on Earth where all the world's nations come together to discuss common problems and find shared solutions that benefit all of humanity.",
-      wrapper: true
-     },
+      {
+        name: "ISO",
+        nameKey: "iso_name",
+        descriptionKey: "iso_desc",
+        icon: "icons/iso.webp",
+        url: "https://www.iso.org"
+      },
+      {
+        name: "Olympics",
+        nameKey: "olympics_name",
+        descriptionKey: "olympics_desc",
+        icon: "icons/olympics.webp",
+        url: "https://www.iso.org"
+      },
+      {
+        name: "UN",
+        nameKey: "un_name",
+        descriptionKey: "un_desc",
+        icon: "icons/wrappers/un.webp",
+        url: "./wrappers/un",
+        wrapper: true
+      }
     ]
   },
   {
     name: "Health & Insurance",
+    nameKey: "healthinsurance_name",
     apps : [
       {
         name: "UHS",
+        nameKey: "uhs_name",
+        descriptionKey: "uhs_desc",
         icon: "icons/wrappers/uhs.webp",
         url: "./wrappers/uhs",
-        description: "Universal Health Services—hospital management and healthcare provider offering behavioral health, acute care, and medical services across the U.S.",
         wrapper: true
       },
       {
         name: "Delta Dental",
+        nameKey: "deltadental_name",
+        descriptionKey: "deltadental_desc",
         icon: "icons/wrappers/deltadental.webp",
         url: "./wrappers/deltadental",
-        description: "Dental insurance provider serving individuals and employers—manage benefits, find dentists, view claims, and explore oral health resources online.",
         wrapper: true
-      },
+      }
     ]
   },
   {
     name: "Education",
+    nameKey: "education_name",
     apps: [
       {
         name: "Princeton University",
+        nameKey: "princeton_name",
+        descriptionKey: "princeton_desc",
         icon: "icons/princeton.webp",
-        url: "https://www.princeton.edu",
-        description: "Princeton University is a private Ivy League research university in Princeton, New Jersey. It was founded in 1746 as the College of New Jersey, making it the fourth-oldest institution of higher education in the United States and one of the nine colonial colleges chartered before the American Revolution. Princeton University advances learning through scholarship, research, and teaching of unsurpassed quality, with an emphasis on undergraduate and doctoral education that is distinctive among the world’s great universities. Its educational mission is to prepare students to pursue meaningful lives and to help address the challenges of the future.",
+        url: "https://www.princeton.edu"
       },
       {
         name: "Binghamton University",
+        nameKey: "binghamton_name",
+        descriptionKey: "binghamton_desc",
         icon: "icons/wrappers/binghamton_edu.webp",
         url: "./wrappers/binghamton_edu",
-        description: "Binghamton University is a world-class institution that offers students a broad, interdisciplinary education with an international perspective and one of the most vibrant research programs in the nation.",
-        wrapper: true,
+        wrapper: true
       },
       {
         name: "Fudan University",
+        nameKey: "fudan_name",
+        descriptionKey: "fudan_desc",
         icon: "icons/wrappers/fudan.webp",
         url: "./wrappers/fudan",
-        description: "Fudan University is a comprehensive research-oriented university in Shanghai, China, founded in 1905 as the first institution of higher education by a Chinese person.",
-        wrapper: true,
-      },
+        wrapper: true
+      }
     ]
   },
   {
     name: "Adult",
+    nameKey: "adult_name",
     apps: [
-      { name: "Pornhub", icon: "icons/pornhub.webp", url: "https://www.pornhub.com", description: "Adult entertainment portal." },
-      { name: "SpankBang", icon: "icons/spankbang.webp", url: "https://spankbang.com", description: "Free adult video streaming site." },
-      { name: "Hentai Haven", icon: "icons/hentaihaven.webp", url: "https://hentaihaven.xxx", description: "Hentai-focused adult media platform." },
-      { name: "MissAV TV", icon: "icons/missavtv.webp", url: "https://missavtv.com/en", description: "Japanese adult video index." },
-      { name: "XNXX.COM", icon: "icons/xnxx.webp", url: "https://www.xnxx.com", description: "XNXX is a Czech-French pornographic video sharing and viewing website. It was founded in 1997 in Paris, with servers and offices in Montreal, Tokyo and Newark." },
-      { name: "OnlyFans", icon: "icons/onlyfans.webp", url: "https://onlyfans.com", description: "Subscription-based platform known for exclusive adult and creator content." },
+      {
+        name: "Pornhub",
+        nameKey: "pornhub_name",
+        descriptionKey: "pornhub_desc",
+        icon: "icons/pornhub.webp",
+        url: "https://www.pornhub.com"
+      },
+      {
+        name: "SpankBang",
+        nameKey: "spankbang_name",
+        descriptionKey: "spankbang_desc",
+        icon: "icons/spankbang.webp",
+        url: "https://spankbang.com"
+      },
+      {
+        name: "Hentai Haven",
+        nameKey: "hentaihaven_name",
+        descriptionKey: "hentaihaven_desc",
+        icon: "icons/hentaihaven.webp",
+        url: "https://hentaihaven.xxx"
+      },
+      {
+        name: "MissAV TV",
+        nameKey: "missavtv_name",
+        descriptionKey: "missavtv_desc",
+        icon: "icons/missavtv.webp",
+        url: "https://missavtv.com/en"
+      },
+      {
+        name: "XNXX.COM",
+        nameKey: "xnxx_name",
+        descriptionKey: "xnxx_desc",
+        icon: "icons/xnxx.webp",
+        url: "https://www.xnxx.com"
+      },
+      {
+        name: "OnlyFans",
+        nameKey: "onlyfans_name",
+        descriptionKey: "onlyfans_desc",
+        icon: "icons/onlyfans.webp",
+        url: "https://onlyfans.com"
+      },
     ]
   }
 ];

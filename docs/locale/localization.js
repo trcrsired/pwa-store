@@ -8,7 +8,7 @@ export function registerLocale(localeName, localeTable) {
 }
 
 export function setLocale(localeName) {
-  let normalized = localeName.toLowerCase();
+  const normalized = localeName.toLowerCase();
   if (Locales[normalized]) {
     activeLocale = normalized;
   } else {

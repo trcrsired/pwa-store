@@ -109,17 +109,21 @@ const L = {
 
   socialmedia_name: "社交媒体",
 
+  youtube_name: "油管（YouTube）",
   youtube_desc: "Google 推出的在线视频平台。",
   reddit_desc: "社区驱动的讨论论坛。",
   x_name: "X（推特）",
   x_desc: "以文本为主的社交更新与交流平台。",
   instagram_desc: "以图片为核心的社交网络。",
+  facebook_name: "脸书（Facebook）",
   facebook_desc: "Meta 的主要社交平台。",
   tinder_desc: "基于滑动操作的约会体验。",
+  bluesky_name: "蓝天（Bluesky）",
   bluesky_desc: "去中心化的社交媒体替代方案。",
   twitch_desc: "面向游戏玩家、创作者和社区的实时直播平台。",
   patreon_desc: "直接支持创作者并获取独家内容的平台。",
   discord_desc: "为社区、创作者和朋友提供语音、视频和文本交流的平台，基于邀请制服务器和主题频道组织。",
+  telegram_name: "电报（Telegram）",
   telegram_desc: "基于云的消息应用，提供快速、安全的通信，支持大型群组、媒体分享和跨设备同步。",
   zoom_desc: "视频会议平台，提供可靠的虚拟会议、网络研讨会、屏幕共享和跨设备协作工具。",
   hackernews_name: "Hacker News",
@@ -127,6 +131,369 @@ const L = {
   lobsters_desc: "Lobsters 是一个专注于计算机技术的社区，围绕链接聚合和讨论展开，创建于 2012 年 7 月 3 日。",
   tieba_name: "贴吧",
   tieba_desc: "百度的兴趣社区平台，用户在特定主题的贴吧中分享帖子、媒体和讨论。在移动端需使用 Android 版 Microsoft Edge，并通过添加 ArkWeb 到 UA 字符串来绕过贴吧小程序的检测。",
+
+  finance_name: "金融",
+
+  chase_name: "摩根大通",
+  chase_desc: "美国最大的银行之一，提供全面的金融服务，包括储蓄、贷款和信用卡。",
+
+  bitcoinwell_name: "比特币井 （Bitcoin Well）",
+  bitcoinwell_desc: "加拿大和美国最快捷、最安全的比特币购买平台，支持链上和闪电网络交易。",
+
+  eastmoney_name: "东方财富网",
+  eastmoney_desc: "中国领先的财经资讯与数据门户，涵盖股票、基金、债券等金融信息。",
+
+  tradingview_name: "TradingView",
+  tradingview_desc: "提供高级市场分析工具和交互式图表，支持全球股票、加密货币和外汇交易。",
+
+  yahoofinance_name: "雅虎财经",
+  yahoofinance_desc: "全球金融新闻、股票报价和市场趋势的综合平台。",
+
+  longforecast_name: "LongForecast",
+  longforecast_desc: "提供股票、加密货币和经济趋势的长期预测图表，适合中长期投资者参考。",
+
+  paypal_name: "贝宝",
+  paypal_desc: "全球数字支付平台，支持安全的在线交易、转账、订阅和电商结算服务。",
+
+  bankofamerica_name: "美国银行",
+  bankofamerica_desc: "美国主要银行之一，提供个人和企业金融服务。",
+
+  tech_key: "科技",
+  windowscentral_name: "Windows中心 （Windows Central）",
+  windowscentral_desc: "专注于微软生态系统的新闻报道与使用指南，包括 Windows、Surface、Xbox 等产品。",
+
+  macrumors_name: "麦克传闻 （Mac Rumors）",
+  macrumors_desc: "聚焦苹果产品的科技新闻与深度分析，涵盖 Mac、iPhone、iOS 等相关内容。",
+
+  androidauthority_name: "安卓权威（Android Authority）",
+  androidauthority_desc: "提供关于 Android 和 Google 技术的新闻、评测与深入解析。",
+
+  tomshardware_name: "汤姆的硬件（Tom's Hardware）",
+  tomshardware_desc: "面向 PC 爱好者与硬件专业人士的深度评测、技术新闻与 DIY 指南。",
+
+  arsopenforum_name: "Ars 开放论坛（Ars OpenForum）",
+  arsopenforum_desc: "由 Ars Technica 主办的长期技术社区，涵盖硬件、软件、政治与极客文化。论坛采用 XenForo 架构，支持 BBCode、Markdown、语法高亮、多重引用、图片缩放与帖子追踪，是自 1999 年以来尊重讨论与深入交流的技术避风港。",
+
+  xdaforums_name: "XDA 论坛",
+  xdaforums_desc: "XDA 论坛是一个专注于移动设备（尤其是 Android）开发、配件、指南与讨论的技术社区。",
+
+  linuxdo_name: "LINUX DO",
+  linuxdo_desc: "LINUX DO 是面向中文用户的 Linux 门户网站，提供新闻、教程、发行版信息与开源开发资源，服务于技术爱好者与专业人士。",
+
+  internetservices_name: "互联网服务",
+  softwaredistributions_name: "软件分发",
+
+  apkpure_name: "APKPure",
+  apkpure_desc: "发现并下载 Android APK 文件。",
+
+  aur_name: "Arch Linux AUR",
+  aur_desc: "探索由社区维护的 Arch Linux 软件包。",
+
+  archive_name: "互联网档案馆",
+  archive_desc: "互联网档案馆是一个非营利数字图书馆，收藏数百万份免费文本、电影、软件、音乐、网站等资源。",
+
+  news_name: "新闻",
+  rt_name: "俄罗斯今天",
+  rt_desc: "俄罗斯国际新闻媒体。",
+
+  presstv_name: "PressTV",
+  presstv_desc: "伊朗的英文广播机构。",
+
+  firstpost_name: "Firstpost",
+  firstpost_desc: "印度新闻门户网站，涵盖政治、商业、体育和娱乐，并提供社论和观点内容。",
+
+  pbs_name: "PBS",
+  pbs_desc: "美国公共广播机构，通过成员台网络提供教育、文化和纪录片节目。",
+
+  bbc_name: "BBC",
+  bbc_desc: "全球新闻与媒体中心，BBC 提供突发新闻、直播报道以及政治、文化和科学的深度报道。",
+
+  ap_name: "美联社",
+  ap_desc: "美联社是一家总部位于纽约市的美国非营利新闻机构。",
+
+  marxism_name: "保卫马克思主义",
+  marxism_desc: "提供全球事件、政治理论和革命历史的马克思主义分析的在线平台。",
+
+  nyt_name: "纽约时报",
+  nyt_desc: "《纽约时报》是一家总部位于纽约市的美国日报，报道国内、国家和国际新闻，并发表社论、调查报道和评论文章。",
+
+  revcom_name: "REVCOM.US",
+  revcom_desc: "REVCOM.US 是美国革命共产党官方网站，提供关于革命变革、社会正义和对资本主义与帝国主义批判的新闻、分析和理论文章。",
+
+  aljazeera_name: "半岛电视台",
+  aljazeera_desc: "全球新闻和深度报道，半岛电视台以中东事务、调查性新闻和直播报道而闻名。",
+
+  cgtn_name: "CGTN",
+  cgtn_desc: "中国国家级国际广播机构 CGTN 提供多语言的世界新闻、商业和地缘政治报道。",
+
+  cctv_name: "央视",
+  cctv_desc: "中国国家广播机构，提供新闻、纪录片和多种频道的娱乐节目。",
+
+  tencent_name: "腾讯新闻",
+  tencent_desc: "腾讯综合新闻门户，涵盖中国各地的头条、生活资讯和热门报道。",
+
+  baidu_name: "百度",
+  baidu_desc: "中国领先的搜索引擎，集成新闻、搜索结果和类应用浏览体验。",
+
+  sohu_name: "搜狐",
+  sohu_desc: "多元化媒体平台，提供社论报道、突发新闻和多媒体故事。",
+
+  weibo_name: "微博Lite",
+  weibo_desc: "微博Lite 是中国流行微博服务的轻量级移动入口，提供热门帖子、话题标签和明星动态的快速访问。",
+
+  entertainmentplatform_name: "娱乐平台",
+  age_name: "AGE动漫",
+  age_desc: "在线观看丰富的动漫剧集和电影，内容定期更新并配有中文字幕。",
+
+  disneyplus_name: "Disney+",
+  disneyplus_desc: "Disney+ 是由迪士尼流媒体部门运营的美国订阅制视频点播服务，隶属于迪士尼娱乐，是华特迪士尼公司的重要业务板块之一。",
+
+  vixcom_name: "ViX (vix.com)",
+  vixcom_desc: "ViX 是西班牙语娱乐的官方平台，提供直播电视、点播电影、体育赛事和原创节目，面向美国和拉美的西语观众。",
+
+  vixwatch_name: "ViX (vix.watch)",
+  vixwatch_desc: "ViX 的另一个入口，提供跨地区的电视剧、电影和系列剧，适用于重定向或地理定位用户流程。",
+
+  espn_name: "ESPN",
+  espn_desc: "综合体育网络，ESPN 报道各类联赛和项目的直播赛事、运动员动态、排名和分析。",
+
+  dubok_name: "独播库",
+  dubok_desc: "独播库是一个专注于独家和冷门剧集的中国流媒体网站，聚合多个来源内容，更新迅速，提供大量带字幕的剧集，适合小众观众。",
+
+  youku_name: "优酷",
+  youku_desc: "优酷是由阿里巴巴集团旗下运营的视频流媒体服务，前身为视频分享网站，总部位于北京。",
+
+  lightnovel_name: "轻之国度",
+  lightnovel_desc: "中国最早的轻小说社区之一，提供连载翻译、作者档案和动漫风格文学，界面简洁，适合移动浏览。",
+
+  wechatread_name: "微信读书",
+  wechatread_desc: "微信读书是腾讯官方阅读平台，提供电子书、社交阅读体验，并与微信生态无缝集成。",
+
+  ted_name: "TED",
+  ted_desc: "TED 是一个全球平台，思想家、创作者和行动者在此分享关于科学、技术、艺术、教育和社会变革的精彩演讲，激发灵感，引发思考。",
+
+  netflix_name: "奈飞",
+  netflix_desc: "奈飞（Netflix）是一家美国订阅制视频点播服务，主要发行原创和收购的电影及电视剧，覆盖多种类型，支持多语言，面向全球用户。",
+
+  games_name: "游戏",
+
+  gameslol_name: "GamesLOL",
+  gameslol_desc: "GamesLOL 提供多种类型的游戏，包括动作、冒险、益智、体育等，种类丰富。",
+
+  crazygames_name: "CrazyGames",
+  crazygames_desc: "CrazyGames 提供基于浏览器的游戏，涵盖动作、益智、多人等类型，无需下载即可畅玩。",
+
+  webgamer_name: "Web Gamer",
+  webgamer_desc: "Web Gamer 是新一代网页游戏门户，无需安装，直接在浏览器中畅玩。",
+
+  mumu_cn_name: "MuMu模拟器",
+  mumu_cn_desc: "网易 MuMu 安卓模拟器的中国本地化版本，面向国内用户，深度集成大陆游戏生态，简化 PC 端操作。",
+
+  mumu_global_name: "MuMuPlayer",
+  mumu_global_desc: "MuMu 的国际版，提供全球下载镜像、多语言支持，并针对 Windows 和 macOS 优化跨平台模拟体验。",
+
+  gamingcommunity_name: "游戏社区",
+
+  murlok_name: "Murlok.io",
+  murlok_desc: "提供魔兽世界天赋与构建指南。",
+
+  wowforums_name: "魔兽世界论坛（美服）",
+  wowforums_desc: "魔兽世界的官方游戏门户。",
+
+  wowanalyzer_name: "WoWAnalyzer",
+  wowanalyzer_desc: "通过个人反馈和数据分析提升你的表现，只需输入 Warcraft Logs 报告链接。",
+
+  mmochampion_name: "MMO Champion",
+  mmochampion_desc: "专注于魔兽世界的新闻与论坛中心，提供补丁说明、团队副本攻略和社区讨论。",
+
+  warcraftlogs_name: "Warcraft Logs",
+  warcraftlogs_desc: "魔兽世界战斗分析平台，提供详细的团队副本数据、排名和表现分析。",
+
+  raiderio_name: "Raider.IO",
+  raiderio_desc: "Raider.IO 是一个魔兽世界（WoW）秘境+和团队进度排名网站！",
+
+  maplestory_name: "冒险岛",
+  maplestory_desc: "冒险岛是最早的 MMORPG 游戏之一。",
+
+  curseforge_name: "CurseForge",
+  curseforge_desc: "CurseForge 是领先的游戏模组和插件平台，支持 Minecraft、魔兽世界和模拟人生 4 等游戏，并通过专用桌面应用简化模组管理。",
+
+  minecraftforum_name: "Minecraft 论坛",
+  minecraftforum_desc: "Minecraft 论坛是一个历史悠久的社区中心，面向玩家和模组开发者，提供讨论、教程、模组包和 Java 与基岩版的更新信息。",
+
+  learning_name: "学习",
+  duolingo_global_name: "Duolingo",
+  duolingo_global_desc: "通过游戏化方式进行语言学习。",
+
+  duolingo_cn_name: "多邻国",
+  duolingo_cn_desc: "Duolingo 的中文本地化版本。",
+
+  knowledgespedia_name: "知识和百科",
+
+  wikipedia_name: "维基百科",
+  wikipedia_desc: "免费的在线百科全书。",
+
+  baidubaike_name: "百度百科",
+  baidubaike_desc: "中国的协作式知识平台。",
+
+  liquipedia_name: "Liquipedia",
+  liquipedia_desc: "Liquipedia 是专注于电子竞技的在线百科全书。",
+
+  marxistsorg_name: "马克思主义互联网文库",
+  marxistsorg_desc: "马克思主义互联网文库是一个非营利的在线百科全书，自1990年起收录了多语言版本的共产主义、无政府主义和社会主义思想家的著作，包括马克思、恩格斯、列宁、托洛茨基、斯大林、毛泽东、卢森堡、巴枯宁、克鲁泡特金、蒲鲁东，以及相关甚至无关思想家的作品（如孙子）。",
+
+  religion_name: "宗教",
+
+  qurancom_name: "古兰经 （Quran.com）",
+  qurancom_desc: "简洁、适配移动设备的网站，可阅读和收听《古兰经》，支持多种语言翻译和注释（Tafsir）。",
+
+  biblecom_name: "YouVersion 圣经",
+  biblecom_desc: "提供多种译本的圣经全文，包含阅读计划、有声版本和移动应用。",
+
+  analytics_name: "分析",
+
+  statcounter_name: "StatCounter GS",
+  statcounter_desc: "跟踪搜索引擎、浏览器和操作系统的使用份额。",
+
+  basemarkweb_name: "Basemark Web",
+  basemarkweb_desc: "Basemark Web 是一个跨平台基准测试工具，用于衡量网页浏览器在客户端的真实性能表现。",
+
+  browserbench_name: "BrowserBench",
+  browserbench_desc: "MotionMark 是一款用于测试浏览器图形系统性能的基准测试工具。",
+
+  musicstreaming_name: "音乐流媒体",
+
+  spotify_name: "Spotify",
+  spotify_desc: "全球音乐流媒体平台。",
+
+  applemusic_name: "苹果音乐",
+  applemusic_desc: "苹果提供的高品质音乐服务。",
+
+  youtubemusic_name: "油管音乐 （YouTube Music）",
+  youtubemusic_desc: "可串流播放超过一亿首歌曲、专辑、混音和现场表演——YouTube Music 的渐进式网页应用（PWA）支持个性化播放列表、播客功能，并在多设备间无缝播放。",
+
+  ecommerece_name: "电子商务",
+
+  starbucks_name: "星巴克",
+  starbucks_desc: "咖啡点单与会员积分管理。",
+
+  amazon_name: "亚马逊",
+  amazon_desc: "购物、订单跟踪与账户管理，涵盖数百万种商品。",
+
+  bestbuy_name: "Best Buy",
+  bestbuy_desc: "电子产品与家电零售平台。",
+
+  ebay_name: "eBay",
+  ebay_desc: "全球电子商务平台，通过拍卖、一口价和精选商品连接买家与卖家。",
+
+  taobao_name: "淘宝",
+  taobao_desc: "中国主要的 C2C 电商平台，提供从时尚、电子产品到本地手工商品的多样化市场。由阿里巴巴支持，具备强大的搜索功能、移动优先体验以及物流与社交电商的深度整合。",
+
+  walmart_name: "沃尔玛",
+  walmart_desc: "跨国零售巨头，提供食品、电子产品、服饰等商品，支持超市与线上购物。",
+
+  target_name: "Target",
+  target_desc: "美国零售连锁店，销售食品、电子产品、服装和家居用品，支持门店与线上购物。",
+
+  cvs_name: "CVS",
+  cvs_desc: "美国药房与零售连锁，提供处方药、健康产品、美妆用品及日常食品，支持门店与线上服务。",
+
+  doordash_name: "Doordash",
+  doordash_desc: "餐饮配送与物流平台，连接用户与餐厅、便利店和超市，支持在线或 App 下单即时送达。",
+
+  kfc_name: "肯德基",
+  kfc_desc: "全球知名快餐连锁，以炸鸡闻名，支持在线点餐、优惠活动和门店查询。",
+
+  subway_name: "赛百味",
+  subway_desc: "国际三明治连锁店，提供可定制的潜艇堡、卷饼和沙拉，支持在线点餐、会员奖励和门店定位。",
+
+  mcdonalds_name: "麦当劳",
+  mcdonalds_desc: "全球最大的快餐连锁，提供汉堡、薯条、早餐和饮品，支持 App 或网站点餐、积分奖励和门店查询。",
+
+  mobilitylogistics_name: "出行与配送",
+  uber_name: "优步",
+  uber_desc: "打车与配送平台，可预订行程、点餐并通过可安装的 PWA 管理账户。",
+
+  amtrak_name: "Amtrak",
+  amtrak_desc: "预订火车票、查看时刻表并跟踪行程——Amtrak 的 PWA 支持覆盖美国 500 多个目的地的便捷旅行规划。",
+
+  delta_name: "达美航空",
+  delta_desc: "管理航班、办理登机手续并跟踪状态——达美航空的 PWA 提供移动友好工具并集成 SkyMiles 会员系统。",
+
+  united_name: "美联航",
+  united_desc: "预订航班、管理订单并跟踪行程状态——美联航的 PWA 覆盖全球 300 多个目的地，支持 MileagePlus 奖励、移动登机和实时更新。",
+
+  flixbus_name: "FlixBus",
+  flixbus_desc: "探索美国及其他地区的 1800 多个目的地——FlixBus 的 PWA 支持实时购票与行程跟踪，提供 Wi-Fi、电源插座和宽敞座位。",
+
+  sfexpress_name: "顺丰速运",
+  sfexpress_desc: "顺丰速运——支持国内外快递查询、预约取件与配送服务管理。",
+
+  jiakaobaodian_name: "驾考宝典",
+  jiakaobaodian_desc: "中国领先的驾考平台，提供最新题库、多语言考试准备与全流程学习指导。在 Android 版 Microsoft Edge 浏览器中，请先登录账户，登录后可安装为 PWA 应用。",
+
+  usps_name: "美国邮政",
+  usps_desc: "美国邮政服务——支持快递查询、邮资购买、预约取件及地址工具等国家邮政服务。",
+
+  starbucks_name: "星巴克",
+  starbucks_desc: "咖啡点单与会员积分管理。",
+
+  amazon_name: "亚马逊",
+  amazon_desc: "购物、订单跟踪与账户管理，涵盖数百万种商品。",
+
+  bestbuy_name: "Best Buy",
+  bestbuy_desc: "电子产品与家电零售平台。",
+
+  ebay_name: "eBay",
+  ebay_desc: "全球电子商务平台，通过拍卖、一口价和精选商品连接买家与卖家。",
+
+  taobao_name: "淘宝",
+  taobao_desc: "中国主要的 C2C 电商平台，提供从时尚、电子产品到本地手工商品的多样化市场。由阿里巴巴支持，具备强大的搜索功能、移动优先体验以及物流与社交电商的深度整合。",
+
+  walmart_name: "沃尔玛",
+  walmart_desc: "跨国零售巨头，提供食品、电子产品、服饰等商品，支持超市与线上购物。",
+
+  target_name: "Target",
+  target_desc: "美国零售连锁店，销售食品、电子产品、服装和家居用品，支持门店与线上购物。",
+
+  cvs_name: "CVS",
+  cvs_desc: "美国药房与零售连锁，提供处方药、健康产品、美妆用品及日常食品，支持门店与线上服务。",
+
+  doordash_name: "Doordash",
+  doordash_desc: "餐饮配送与物流平台，连接用户与餐厅、便利店和超市，支持在线或 App 下单即时送达。",
+
+  kfc_name: "肯德基",
+  kfc_desc: "全球知名快餐连锁，以炸鸡闻名，支持在线点餐、优惠活动和门店查询。",
+
+  subway_name: "赛百味",
+  subway_desc: "国际三明治连锁店，提供可定制的潜艇堡、卷饼和沙拉，支持在线点餐、会员奖励和门店定位。",
+
+  mcdonalds_name: "麦当劳",
+  mcdonalds_desc: "全球最大的快餐连锁，提供汉堡、薯条、早餐和饮品，支持 App 或网站点餐、积分奖励和门店查询。",
+
+  tickets_name: "票",
+
+  taopiaopiao_name: "淘票票",
+  taopiaopiao_desc: "淘票票是阿里巴巴旗下的中国领先电影票务平台，提供全国影院的放映时间、选座和在线购票服务，并展示当前及即将上映影片的预告片、影评和宣传内容。",
+
+  cloud_name: "云(就是别人的电脑)",
+
+  linode_name: "Linode",
+  linode_desc: "由 Akamai 提供支持的云托管服务，包含虚拟机和开发工具。",
+
+  azure_name: "Azure",
+  azure_desc: "Azure 是微软开发的云计算平台，通过其全球基础设施为个人、企业和政府提供应用和服务的管理、访问与开发能力。",
+
+  websitesblogs_name: "网站和博客",
+
+  wordpress_name: "WordPress",
+  wordpress_desc: "开源内容管理系统，可用于构建博客、网站和在线商店，支持数千种主题和插件，高度可定制。",
+
+  herbsutter_name: "Herb Sutter",
+  herbsutter_desc: "Herb Sutter（ISO C++ 标准委员会 WG21 主席）个人博客，分享关于现代 C++ 的深度文章、编程语言演进的见解，是开发者寻求清晰性、严谨性和设计理念的重要资源。",
+
+  nvidia_name: "英伟达",
+  nvidia_desc: "英伟达是全球人工智能计算领域的领导者，提供用于数据中心、游戏等领域的芯片。",
 
   usgov_name: "美国政府🇺🇸",
 
@@ -195,6 +562,55 @@ const L = {
 
   whitehouse_name: "白宫",
   whitehouse_desc: "美国总统的官邸与办公地点——了解行政部门的政策、新闻发布、历史档案和国家重点事务。访问总统办公室资源，掌握国家最新动态。",
+
+  organizations_name: "组织",
+  iso_name: "国际标准化组织（ISO）",
+  iso_desc: "国际标准化组织（ISO）是一个独立的非政府国际组织，负责制定和发布全球各行业的标准，以确保质量、安全、效率和互操作性。",
+
+  olympics_name: "奥林匹克运动会",
+  olympics_desc: "现代奥林匹克运动会是全球最具影响力的国际体育赛事。",
+
+  un_name: "联合国",
+  un_desc: "联合国是全球唯一一个所有国家汇聚一堂，共同探讨问题并寻求造福全人类解决方案的组织。",
+
+  healthinsurance_name: "健康和保险",
+
+  uhs_name: "UHS",
+  uhs_desc: "UHS（Universal Health Services）是一家医院管理和医疗服务提供商，在美国提供行为健康、急性护理和综合医疗服务。",
+
+  deltadental_name: "Delta Dental",
+  deltadental_desc: "Delta Dental 是面向个人和雇主的牙科保险服务商，支持在线管理福利、查找牙医、查看理赔和获取口腔健康资源。",
+
+  education_name: "教育",
+
+  princeton_name: "普林斯顿大学",
+  princeton_desc: "普林斯顿大学是位于新泽西州普林斯顿的私立常春藤研究型大学，成立于 1746 年，是美国第四古老的高等教育机构，也是美国独立战争前九所殖民地学院之一。普林斯顿以卓越的本科和博士教育而闻名，致力于通过世界一流的学术研究和教学培养学生应对未来挑战，追求有意义的人生。",
+
+  binghamton_name: "宾汉姆顿大学",
+  binghamton_desc: "宾汉姆顿大学是一所世界级学府，提供具有国际视野的跨学科教育，并拥有全美最具活力的研究项目之一。",
+
+  fudan_name: "复旦大学",
+  fudan_desc: "复旦大学是一所位于中国上海的综合性研究型大学，成立于 1905 年，是中国人创办的第一所高等教育机构。",
+
+  adult_name: "成人",
+
+  pornhub_name: "Pornhub",
+  pornhub_desc: "成人娱乐门户网站。",
+
+  spankbang_name: "SpankBang",
+  spankbang_desc: "免费成人视频流媒体平台。",
+
+  hentaihaven_name: "Hentai Haven",
+  hentaihaven_desc: "专注于本子类内容的成人媒体平台。",
+
+  missavtv_name: "MissAV TV",
+  missavtv_desc: "日本成人影片索引平台。",
+
+  xnxx_name: "XNXX.COM",
+  xnxx_desc: "成立于 1997 年的捷克-法国成人视频网站，服务器遍布全球。",
+
+  onlyfans_name: "OnlyFans",
+  onlyfans_desc: "订阅制平台，以独家成人内容和创作者作品闻名。"
 };
 
 registerLocale("zhcn", L);
