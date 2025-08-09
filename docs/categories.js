@@ -1,266 +1,368 @@
 export const categories = [
   {
+    nameKey: "fundamental_name",
     name: "Fundamental",
     apps: [
-      { name: "SnaePlayer", icon: "icons/snaeplayer.webp", url: "https://snaeplayer.com", description: "Lightweight on device music player PWA." },
-      { name: "Flow", icon: "icons/flow.webp", url: "https://www.flowoss.com", description: "Browser Based EPUB reader" },
-      { name: "TReader", icon: "icons/treader.webp", url: "https://tiansh.github.io/reader", description: "Lightweight text file reader." },
-      { name: "WebVideoPlayer", icon: "icons/webvideoplayer.webp", url: "https://webvideoplayer.org", description: "An easy-to-use and very lightweight(<100KB) video player for local video/audio files on desktop platforms, powered by Web technology." },
-      { name: "PWA Player (My own toy)", icon: "icons/pwaplayer.webp", url: "https://pwa-player.pages.dev", description: "A demo PWA for me to learn." },
-      { name: "Calculator", icon: "icons/calculator.webp", url: "https://chrisdiana.github.io/pwa-calculator", description: "Simple, installable calculator PWA—works offline and optimized for mobile." },
-      { name: "Weawow", icon: "icons/weawow.webp", url: "https://weawow.com", description: "Ad-free weather PWA with stunning photo forecasts, detailed hourly & 14-day data, and customizable widgets." },
-      { name: "Screen Flashlight", icon: "icons/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", description: "A web-based PWA flashlight app" },
+      { name: "SnaePlayer", icon: "icons/snaeplayer.webp", url: "https://snaeplayer.com", descriptionKey: "snaeplayer_desc" },
+      { name: "Flow", icon: "icons/flow.webp", url: "https://www.flowoss.com", descriptionKey: "flow_desc" },
+      { name: "TReader", icon: "icons/treader.webp", url: "https://tiansh.github.io/reader", descriptionKey: "treader_desc" },
+      { name: "WebVideoPlayer", icon: "icons/webvideoplayer.webp", url: "https://webvideoplayer.org", descriptionKey: "webvideoplayer_desc" },
+      { nameKey: "pwaplayer_name", name: "PWA Player (My own toy)", icon: "icons/pwaplayer.webp", url: "https://pwa-player.pages.dev", descriptionKey: "pwaplayer_desc" },
+      { name: "Calculator", icon: "icons/calculator.webp", url: "https://chrisdiana.github.io/pwa-calculator", descriptionKey: "calculator_desc" },
+      { name: "Weawow", icon: "icons/weawow.webp", url: "https://weawow.com", descriptionKey: "weawow_desc" },
+      { name: "Screen Flashlight", icon: "icons/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", descriptionKey: "screenflashlight_desc" },
     ]
   },
   {
+    nameKey: "chabots_name",
     name: "Chatbots",
-    apps : 
-    [
-      { name: "Microsoft Copilot", icon: "icons/copilot.webp", url: "https://copilot.microsoft.com", description: "Conversational AI by Microsoft—Copilot helps you think, write, and explore with real-time web access and voice support." },
-      { name: "DeepSeek", icon: "icons/deepseek.webp", url: "https://deepseek.com", description: "Chinese-developed AI assistant with powerful reasoning and multilingual support—DeepSeek’s PWA offers free access to its flagship models." },
-      { name: "ChatGPT", icon: "icons/chatgpt.webp", url: "https://chat.openai.com", description: "OpenAI’s conversational assistant—ChatGPT’s PWA delivers installable access to GPT models, memory, plugins, and voice features." },
-      { name: "Google Gemini", icon: "icons/gemini.webp", url: "https://gemini.google.com", description: "Google Gemini is a powerful artificial intelligence (AI) model developed by Google that can understand and generate text, images, videos, and audio. It serves as both a chatbot and the underlying large language model (LLM) that powers it, making it versatile for various applications. Gemini is designed to integrate with Google services, allowing users to interact with their data in Gmail, Google Calendar, and more, enhancing productivity and user experience." },
-      { name: "Qwen", icon: "icons/qwen.webp", url: "https://chat.qwen.ai", description: "Multimodal AI by Alibaba—Qwen’s PWA supports chat, image generation, dialect-aware voice synthesis, and deep research tools." },
+    apps: [
+      { name: "Microsoft Copilot", icon: "icons/copilot.webp", url: "https://copilot.microsoft.com", descriptionKey: "copilot_desc" },
+      { name: "DeepSeek", icon: "icons/deepseek.webp", url: "https://deepseek.com", descriptionKey: "deepseek_desc" },
+      { name: "ChatGPT", icon: "icons/chatgpt.webp", url: "https://chat.openai.com", descriptionKey: "chatgpt_desc" },
+      { name: "Google Gemini", icon: "icons/gemini.webp", url: "https://gemini.google.com", descriptionKey: "gemini_desc" },
+      { name: "Qwen", icon: "icons/qwen.webp", url: "https://chat.qwen.ai", descriptionKey: "qwen_desc" },
     ]
   },
-	{
+  {
+    nameKey: "microsoft_services_name",
     name: "Microsoft Services",
     apps: [
-      { name: "Outlook", icon: "icons/outlook.webp", url: "https://outlook.live.com", description: "Webmail and calendar by Microsoft." },
-      { name: "OneDrive", icon: "icons/onedrive.webp", url: "https://onedrive.live.com", description: "Cloud storage with robust PWA features." },
-      {
-        name: "Bing",
-        icon: "icons/wrappers/bing.webp",
-        url: "./wrappers/bing",
-        description: "Microsoft's search engine delivering web, image, video, and map results with integrated AI features and daily visual highlights.",
-        wrapper: true
-      },
-    ]
-  },
-	{
-    name: "Google Services",
-    apps: [
-      { name: "Google", icon: "icons/google.webp", url: "https://www.google.com", description: "Global search and service hub offering instant access to Search, Gmail, Drive, Translate, and other tools via a fast, unified web interface optimized across devices." },
-      { name: "Google Voice", icon: "icons/googlevoice.webp", url: "https://voice.google.com", description: "Get a free U.S. phone number for calls, texts, and voicemail—syncs across devices and works on web or mobile." },
-      { name: "Google Maps", icon: "icons/googlemaps.webp", url: "https://maps.google.com", description: "Navigate the world with Google Maps—its PWA lets you find places, get directions, explore nearby businesses, and view real-time traffic, transit, and satellite layers." },
-      { name: "Gmail", icon: "icons/wrappers/gmail.webp", url: "./wrappers/gmail", description: "Google's Mail Services", wrapper: true },
+      { name: "Outlook", icon: "icons/outlook.webp", url: "https://outlook.live.com", descriptionKey: "outlook_desc" },
+      { name: "OneDrive", icon: "icons/onedrive.webp", url: "https://onedrive.live.com", descriptionKey: "onedrive_desc" },
+      { name: "Bing", nameKey: "bing_name", icon: "icons/wrappers/bing.webp", url: "./wrappers/bing", descriptionKey: "bing_desc", wrapper: true },
     ]
   },
   {
-    name: "Office",
+    nameKey: "google_services_name",
+    apps: [
+      { name: "Google", icon: "icons/google.webp", url: "https://www.google.com", descriptionKey: "google_desc" },
+      { nameKey: "googlevoice_name", name: "Google Voice", icon: "icons/googlevoice.webp", url: "https://voice.google.com", descriptionKey: "googlevoice_desc" },
+      { nameKey: "googlemaps_name", name: "Google Maps", icon: "icons/googlemaps.webp", url: "https://maps.google.com", descriptionKey: "googlemaps_desc" },
+      { name: "Gmail", icon: "icons/wrappers/gmail.webp", url: "./wrappers/gmail", descriptionKey: "gmail_desc", wrapper: true },
+    ]
+  },
+  {
+    nameKey: "officesuites_name",
+    name: "Office Suites",
     apps: [
       {
         name: "WPS",
+        descriptionKey: "wps_desc",
         icon: "icons/wrappers/wps.webp",
         url: "./wrappers/wps",
-        description: "WPS is an office suite developed by the Chinese company Kingsoft Office Software",
+        descriptionKey: "wps_desc",
         wrapper: true
       },
       {
         name: "WPS (CN)",
+        nameKey: "wpscn_name",
+        descriptionKey: "wpscn_desc",
         icon: "icons/wrappers/wps.webp",
         url: "./wrappers/wpscn",
-        description: "Chinese localized version of WPS. WPS is an office suite developed by the Chinese company Kingsoft Office Software",
         wrapper: true
       }
     ]
   },
   {
+    nameKey: "programming_name",
     name: "Programming",
     apps: [
-      { name: "Open Web Advocacy", icon: "icons/open-web-advocacy.webp", url: "https://open-web-advocacy.org", description: "We are a group of software engineers from all over the world who have come together to advocate for the future of the open web by providing regulators, legislators and policy makers the intricate technical details that they need to understand the major anti-competitive issues in our industry and how to solve them." },
-      { name: "GitHub", icon: "icons/github.webp", url: "https://github.com", description: "Code hosting with PWA support." },
-      { name: "Visual Studio Code", icon: "icons/vscode.webp", url: "https://vscode.dev", description: "Online code editor with GitHub integration." },
-      { name: "VS Code Insider", icon: "icons/vscode-insiders.webp", url: "https://insiders.vscode.dev", description: "Preview build of Visual Studio Code Web." },
-      { name: "v2ray", icon: "icons/v2ray.webp", url: "https://www.v2ray.com", description: "Project V is a set of tools to help you build your own privacy network over internet. The core of Project V, named V2Ray, is responsible for network protocols and communications. It can work alone, as well as combine with other tools." },
+      {
+        name: "Open Web Advocacy",
+        nameKey: "open_web_advocacy_name",
+        icon: "icons/open-web-advocacy.webp",
+        url: "https://open-web-advocacy.org",
+        descriptionKey: "open_web_advocacy_desc"
+      },
+      {
+        name: "GitHub",
+        icon: "icons/github.webp",
+        url: "https://github.com",
+        descriptionKey: "github_desc"
+      },
+      {
+        name: "Visual Studio Code",
+        nameKey: "vscode_name",
+        icon: "icons/vscode.webp",
+        url: "https://vscode.dev",
+        descriptionKey: "vscode_desc"
+      },
+      {
+        name: "VS Code Insider",
+        nameKey: "vscode_insider_name",
+        icon: "icons/vscode-insiders.webp",
+        url: "https://insiders.vscode.dev",
+        descriptionKey: "vscode_insider_desc"
+      },
+      {
+        name: "v2ray",
+        icon: "icons/v2ray.webp",
+        url: "https://www.v2ray.com",
+        descriptionKey: "v2ray_desc"
+      },
       {
         name: "GitLab",
         icon: "icons/gitlab.webp",
         url: "https://gitlab.com",
-        description: "DevOps powerhouse with full-stack Git repository management and robust PWA support. Enables seamless code hosting, issue tracking, CI/CD workflows, and real-time collaboration across teams."
+        descriptionKey: "gitlab_desc"
       },
       {
         name: "Gitee",
         icon: "icons/gitee.webp",
         url: "https://gitee.com",
-        description: "China’s leading code hosting platform with native PWA support. Offers Git-based project management, team collaboration tools, and integrated CI/CD pipelines tailored to local developers and enterprises."
+        descriptionKey: "gitee_desc"
       },
       {
         name: "Stack Overflow",
+        nameKey: "stackoverflow_name",
         icon: "icons/stackoverflow.webp",
         url: "https://stackoverflow.com",
-        description: "Stack Overflow is the largest, most trusted online community for developers to learn, share their programming knowledge, and build their careers."
+        descriptionKey: "stackoverflow_desc"
       },
       {
         name: "MDN Web Docs",
+        nameKey: "mdn_name",
         icon: "icons/mdnwebdocs.webp",
         url: "https://developer.mozilla.org",
-        description: "MDN Web Docs, previously Mozilla Developer Network and formerly Mozilla Developer Center, is a documentation repository and learning resource for web developers."
+        descriptionKey: "mdn_desc"
       },
       {
         name: "Chrome for developers",
+        nameKey: "chrome_dev_name",
         icon: "icons/chrome.webp",
         url: "https://developer.chrome.com",
-        description: "Chrome for Developers is Google's official resource hub for web developers building on the Chrome platform. It offers documentation, tools, and guidance for modern web development, including performance optimization, debugging, and the latest web platform features like WebAssembly, WebGPU, and Progressive Web Apps.",
+        descriptionKey: "chrome_dev_desc"
       },
       {
         name: "Bing Webmaster Tools",
+        nameKey: "bing_webmaster_name",
         icon: "icons/wrappers/bing.webp",
         url: "https://www.bing.com/webmasters",
-        description: "Bing Webmaster Tools provides website owners with insights into search performance, indexing status, and SEO diagnostics. Monitor traffic, submit sitemaps, and optimize your site for visibility on Bing Search.",
+        descriptionKey: "bing_webmaster_desc"
       },
       {
         name: "PWA Builder",
+        nameKey: "pwabuilder_name",
         icon: "icons/pwabuilder.webp",
         url: "https://www.pwabuilder.com",
-        description: "PWA Builder is an open-source tool developed by Microsoft that simplifies the process of deploying Progressive Web Apps (PWAs).",
+        descriptionKey: "pwabuilder_desc"
       },
       {
         name: "Python",
         icon: "icons/python.webp",
         url: "https://www.python.org",
-        description: "Python is a programming language that lets you work quickly and integrate systems more effectively."
+        descriptionKey: "python_desc"
       },
       {
         name: "Rust",
         icon: "icons/rustlang.webp",
         url: "https://www.rust-lang.org",
-        description: "A language empowering everyone to build reliable and efficient software."
+        descriptionKey: "rust_desc"
       },
       {
         name: "ISO C++",
+        nameKey: "isocpp_name",
         icon: "icons/wrappers/isocpp.webp",
         url: "./wrappers/isocpp",
-        description: "isocpp.org is the official website for the Standard C++ Foundation, which supports the C++ software developer community and promotes the understanding and use of modern Standard C++.",
+        descriptionKey: "isocpp_desc",
         wrapper: true
       },
       {
         name: "Linux.die",
+        nameKey: "linuxdie_name",
         icon: "icons/wrappers/linuxdie.webp",
         url: "./wrappers/linuxdie",
-        description: "Extensive archive of Linux documentation, man pages, and HOWTO guides—ideal for developers, sysadmins, and command-line enthusiasts seeking quick reference and deep technical insight.",
+        descriptionKey: "linuxdie_desc",
         wrapper: true
       },
       {
         name: "Godbolt",
         icon: "icons/wrappers/godbolt.webp",
         url: "./wrappers/godbolt",
-        description: "Interactive compiler explorer for C, C++, Rust, and more—visualizing assembly output and comparing optimization across toolchains.",
+        descriptionKey: "godbolt_desc",
         wrapper: true
       },
       {
         name: "v86",
         icon: "icons/wrappers/v86.webp",
         url: "./wrappers/v86",
-        description: "Virtual x86 emulator running legacy operating systems like Windows 95 and Linux directly in the browser using WebAssembly.",
+        descriptionKey: "v86_desc",
         wrapper: true
       },
       {
         name: "Free Software Foundations",
+        nameKey: "fsf_name",
         icon: "icons/wrappers/fsf.webp",
         url: "./wrappers/fsf",
-        description: "he Free Software Foundation (FSF) is a nonprofit with a worldwide mission to promote computer user freedom.",
+        descriptionKey: "fsf_desc",
         wrapper: true
       },
       {
         name: "GCC MCF",
+        nameKey: "gccmcf_name",
         icon: "icons/wrappers/lhmouse.webp",
         url: "./wrappers/gccmcf",
-        description: "A customized GCC fork for Windows that replaces the standard POSIX thread model with its own minimal C library-based fiber-compatible threading system (MCF).",
+        descriptionKey: "gccmcf_desc",
         wrapper: true
       },
       {
         name: "GeeksForGeeks",
         icon: "icons/wrappers/geeksforgeeks.webp",
         url: "./wrappers/geeksforgeeks",
-        description: "GeeksforGeeks is a comprehensive educational portal that empowers learners across domains.",
+        descriptionKey: "geeksforgeeks_desc",
         wrapper: true
-      },
+      }
     ]
   },
   {
     name: "Internet Services",
+    nameKey: "internetservices_name",
     apps: [
       {
         name: "Cloudflare",
         icon: "icons/cloudflare.webp",
         url: "https://dash.cloudflare.com",
-        description: "Cloudflare is a widely adopted platform that provides networking, security, and performance services to enhance the functionality of websites, applications, and online services. It is used by a diverse range of users, from individual developers to large enterprises, due to its robust features and global infrastructure.",
+        descriptionKey: "cloudflare_desc",
       }
     ]
   },
   {
     name: "Mail",
+    nameKey: "mail_name",
     apps: [
       {
         name: "QQ Mail",
+        nameKey: "qqmail_name",
         icon: "icons/wrappers/qqmail.webp",
         url: "./wrappers/qqmail",
         wrapper: true,
-        description: "QQ Mail is a popular email service from Tencent, offering fast, secure, and mobile-friendly access to personal and enterprise email accounts. It integrates with the broader QQ ecosystem and supports both web and app-based usage."
+        descriptionKey: "qqmail_desc"
       },
       {
         name: "163 Mail",
+        nameKey: "netease163_name",
         icon: "icons/wrappers/netease163.webp",
         url: "./wrappers/netease163",
         wrapper: true,
-        description: "Netease 163 Mail is one of China's most widely used email platforms, known for its reliability, large storage capacity, and clean interface. It supports both personal and business accounts with mobile and desktop access."
+        descriptionKey: "netease163_desc"
       },
       {
         name: "126 Mail",
+        nameKey: "netease126_name",
         icon: "icons/wrappers/netease126.webp",
         url: "./wrappers/netease126",
         wrapper: true,
-        description: "Netease 126 Mail is a sister service to 163 Mail, offering similar features with a distinct domain. It provides stable email access, spam filtering, and seamless integration with Netease’s broader suite of services."
+        descriptionKey: "netease126_desc"
       },
       {
         name: "yeah.net Mail",
+        nameKey: "yeahnet_name",
         icon: "icons/wrappers/yeahnet.webp",
         url: "./wrappers/yeahnet",
         wrapper: true,
-        description: "Netease yeah.net Mail is a sister service to 163 Mail, offering similar features with a distinct domain. It provides stable email access, spam filtering, and seamless integration with Netease’s broader suite of services."
-      },
+        descriptionKey: "yeahnet_desc"
+      }
     ]
   },
   {
     name: "Social Media",
+    nameKey: "socialmedia_name",
     apps: [
-      { name: "YouTube", icon: "icons/youtube.webp", url: "https://youtube.com", description: "Video streaming platform by Google." },
-      { name: "Reddit", icon: "icons/reddit.webp", url: "https://reddit.com", description: "Community-driven discussion forums." },
-      { name: "X (Twitter)", icon: "icons/x.webp", url: "https://x.com", description: "Text-based social updates and chatter." },
-      { name: "Instagram", icon: "icons/instagram.webp", url: "https://instagram.com", description: "Image-centric social network." },
-      { name: "Facebook", icon: "icons/facebook.webp", url: "https://facebook.com", description: "Meta’s primary social platform." },
-      { name: "Tinder", icon: "icons/tinder.webp", url: "https://tinder.com", description: "Swipe-based dating experience." },
-      { name: "Bluesky", icon: "icons/bluesky.webp", url: "https://bsky.app", description: "Federated social media alternative." },
-      { name: "Twitch", icon: "icons/twitch.webp", url: "https://www.twitch.tv", description: "Live streaming platform for gamers, creators, and communities to interact in real time." },
-      { name: "Patreon", icon: "icons/patreon.webp", url: "https://www.patreon.com",  description: "Support creators directly and access exclusive content." },
+      {
+        name: "YouTube",
+        icon: "icons/youtube.webp",
+        url: "https://youtube.com",
+        descriptionKey: "youtube_desc"
+      },
+      {
+        name: "Reddit",
+        icon: "icons/reddit.webp",
+        url: "https://reddit.com",
+        descriptionKey: "reddit_desc"
+      },
+      {
+        name: "X (Twitter)",
+        nameKey: "x_name",
+        icon: "icons/x.webp",
+        url: "https://x.com",
+        descriptionKey: "x_desc"
+      },
+      {
+        name: "Instagram",
+        icon: "icons/instagram.webp",
+        url: "https://instagram.com",
+        descriptionKey: "instagram_desc"
+      },
+      {
+        name: "Facebook",
+        icon: "icons/facebook.webp",
+        url: "https://facebook.com",
+        descriptionKey: "facebook_desc"
+      },
+      {
+        name: "Tinder",
+        icon: "icons/tinder.webp",
+        url: "https://tinder.com",
+        descriptionKey: "tinder_desc"
+      },
+      {
+        name: "Bluesky",
+        icon: "icons/bluesky.webp",
+        url: "https://bsky.app",
+        descriptionKey: "bluesky_desc"
+      },
+      {
+        name: "Twitch",
+        icon: "icons/twitch.webp",
+        url: "https://www.twitch.tv",
+        descriptionKey: "twitch_desc"
+      },
+      {
+        name: "Patreon",
+        icon: "icons/patreon.webp",
+        url: "https://www.patreon.com",
+        descriptionKey: "patreon_desc"
+      },
       {
         name: "Discord",
         icon: "icons/discord.webp",
         url: "https://discord.com/app",
-        description: "Voice, video, and text platform for communities, creators, and friends — organized around invite-only servers and topic-based channels."
+        descriptionKey: "discord_desc"
       },
       {
         name: "Telegram",
         icon: "icons/telegram.webp",
         url: "https://web.telegram.org",
-        description: "Cloud-based messaging app offering fast, secure communication with support for large groups, media sharing, and cross-device sync."
+        descriptionKey: "telegram_desc"
       },
       {
         name: "Zoom",
         icon: "icons/zoom.webp",
         url: "https://zoom.us/join",
-        description: "Video conferencing platform offering reliable virtual meetings, webinars, screen sharing, and collaboration tools across devices."
+        descriptionKey: "zoom_desc"
       },
-      { name: "Hacker News", icon: "icons/hackernews.webp", url: "https://hackernews.com", description: "Tech-savvy and community-driven—Hacker News offers a minimalist PWA experience for discovering and discussing cutting-edge ideas in programming, startups, and science." },
-      { name: "Lobsters", icon: "icons/lobsters.webp", url: "https://lobste.rs", description: "Lobsters is a computing-focused community centered around link aggregation and discussion, launched on July 3rd, 2012." },
+      {
+        name: "Hacker News",
+        nameKey: "hackernews_name",
+        icon: "icons/hackernews.webp",
+        url: "https://hackernews.com",
+        descriptionKey: "hackernews_desc"
+      },
+      {
+        name: "Lobsters",
+        icon: "icons/lobsters.webp",
+        url: "https://lobste.rs",
+        descriptionKey: "lobsters_desc"
+      },
       {
         name: "Tieba (贴吧)",
+        nameKey: "tieba_name",
         icon: "icons/wrappers/tieba.webp",
         url: "./wrappers/tieba",
-        description: "Baidu’s interest-based forum network where users gather in topic-specific bars to share posts, media, and discussions. On mobile, You need to Microsoft Edge with Android by modifying agent string with adding ArkWeb to bypass the check of tieba mini app.",
+        descriptionKey: "tieba_desc",
         wrapper: true
-      },
+      }
     ]
   },
   {
@@ -712,165 +814,187 @@ export const categories = [
 	description: "NVIDIA is a global leader in artificial intelligence computing and supplies chips for data centers, gaming, and more.",
         wrapper: true
       },
- 
     ]
   },
   {
     name: "United States Government🇺🇸",
+    nameKey: "usgov_name",
     apps : [
       {
         name: "IRS",
+        nameKey: "irs_name",
         icon: "icons/wrappers/irs.webp",
         url: "./wrappers/irs",
-        description: "Official site of the U.S. Internal Revenue Service—access tax forms, file returns, track refunds, manage payments, and stay updated on federal tax regulations and news.",
+        descriptionKey: "irs_desc",
         wrapper: true
       },
       {
         name: "USCIS",
+        nameKey: "uscis_name",
         icon: "icons/wrappers/uscis.webp",
         url: "./wrappers/uscis",
-        description: "U.S. Citizenship and Immigration Services—manage immigration applications, check case status, access forms, and explore resources for citizenship, green cards, and asylum.",
+        descriptionKey: "uscis_desc",
         wrapper: true
       },
       {
         name: "SSA",
+        nameKey: "ssa_name",
         icon: "icons/wrappers/ssa.webp",
         url: "./wrappers/ssa",
-        description: "Social Security Administration—access retirement, disability, and Medicare benefits, manage your account, and find resources for planning and applying.",
+        descriptionKey: "ssa_desc",
         wrapper: true
       },
       {
         name: "TSA",
+        nameKey: "tsa_name",
         icon: "icons/wrappers/tsa.webp",
         url: "./wrappers/tsa",
-        description: "Transportation Security Administration—get travel tips, apply for TSA PreCheck, check airport security wait times, and review prohibited items.",
+        descriptionKey: "tsa_desc",
         wrapper: true
       },
       {
         name: "DOS",
+        nameKey: "dos_name",
         icon: "icons/wrappers/dos.webp",
         url: "./wrappers/dos",
-        description: "U.S. Department of State—apply for passports, review travel advisories, access consular services, and explore foreign policy resources.",
+        descriptionKey: "dos_desc",
         wrapper: true
       },
       {
         name: "USA.gov",
+        nameKey: "usagov_name",
         icon: "icons/wrappers/usagov.webp",
         url: "./wrappers/usagov",
-        description: "USA.gov—official guide to U.S. government services and information. Find benefits, contact agencies, explore topics like taxes, immigration, health, and more—all in one centralized portal.",
+        descriptionKey: "usagov_desc",
         wrapper: true
       },
       {
         name: "IdentityTheft",
+        nameKey: "identitytheft_name",
         icon: "icons/wrappers/identitytheft.webp",
         url: "./wrappers/identitytheft",
-        description: "Federal Trade Commission’s one-stop resource for identity theft victims—report fraud, create a recovery plan, access sample letters, and track progress through personalized steps.",
+        descriptionKey: "identitytheft_desc",
         wrapper: true
       },
       {
         name: "FTC",
+        nameKey: "ftc_name",
         icon: "icons/wrappers/ftc.webp",
         url: "./wrappers/ftc",
-        description: "Federal Trade Commission—protecting consumers and promoting competition through enforcement, education, and advocacy. Access fraud reporting tools, business guidance, and resources on scams, privacy, and identity theft.",
+        descriptionKey: "ftc_desc",
         wrapper: true
       },
       {
         name: "FDA",
+        nameKey: "fda_name",
         icon: "icons/wrappers/fda.webp",
         url: "./wrappers/fda",
-        description: "U.S. Food and Drug Administration—protects public health by ensuring the safety, efficacy, and security of food, drugs, medical devices, cosmetics, and radiation-emitting products. Access recalls, approvals, research, and consumer guidance.",
+        descriptionKey: "fda_desc",
         wrapper: true
       },
       {
         name: "FED",
+        nameKey: "fed_name",
         icon: "icons/wrappers/fed.webp",
         url: "./wrappers/fed",
-        description: "Central bank of the United States—formulates monetary policy, supervises financial institutions, promotes financial stability, and provides services to the banking system. Access economic data, policy updates, and regulatory resources.",
+        descriptionKey: "fed_desc",
         wrapper: true
       },
       {
         name: "DOL",
+        nameKey: "dol_name",
         icon: "icons/wrappers/dol.webp",
         url: "./wrappers/dol",
-        description: "U.S. Department of Labor—administers federal labor laws to ensure fair, safe, and healthy working conditions. Access wage standards, unemployment resources, workplace safety guidance, and employment training programs.",
+        descriptionKey: "dol_desc",
         wrapper: true
       },
       {
         name: "DOD",
+        nameKey: "dod_name",
         icon: "icons/wrappers/dod.webp",
         url: "./wrappers/dod",
-        description: "U.S. Department of Defense—coordinates and supervises the nation's military forces, including the Army, Navy, Air Force, Marines, Space Force, and Coast Guard. Access defense news, policy updates, service member resources, and official publications.",
+        descriptionKey: "dod_desc",
         wrapper: true
       },
       {
         name: "GSA",
+        nameKey: "gsa_name",
         icon: "icons/wrappers/gsa.webp",
         url: "./wrappers/gsa",
-        description: "General Services Administration—manages federal property, procurement, and technology services. Access auctions, contracts, and governmentwide initiatives.",
+        descriptionKey: "gsa_desc",
         wrapper: true
       },
       {
         name: "DHS",
+        nameKey: "dhs_name",
         icon: "icons/wrappers/dhs.webp",
         url: "./wrappers/dhs",
-        description: "Department of Homeland Security—protects the U.S. from threats through border security, immigration enforcement, cybersecurity, and emergency response.",
+        descriptionKey: "dhs_desc",
         wrapper: true
       },
       {
         name: "DEA",
+        nameKey: "dea_name",
         icon: "icons/wrappers/dea.webp",
         url: "./wrappers/dea",
-        description: "Drug Enforcement Administration—enforces controlled substance laws, combats drug trafficking, and supports prevention and education efforts.",
+        descriptionKey: "dea_desc",
         wrapper: true
       },
       {
         name: "EEOC",
+        nameKey: "eeoc_name",
         icon: "icons/wrappers/eeoc.webp",
         url: "./wrappers/eeoc",
-        description: "Equal Employment Opportunity Commission—enforces laws against workplace discrimination and provides resources for employees and employers.",
+        descriptionKey: "eeoc_desc",
         wrapper: true
       },
       {
         name: "NSA",
+        nameKey: "nsa_name",
         icon: "icons/wrappers/nsa.webp",
         url: "./wrappers/nsa",
-        description: "National Security Agency—provides signals intelligence and cybersecurity services to protect national security and support military operations.",
+        descriptionKey: "nsa_desc",
         wrapper: true
       },
       {
         name: "CIA",
+        nameKey: "cia_name",
         icon: "icons/cia.webp",
         url: "https://www.cia.gov",
-        description: "Central Intelligence Agency—collects and analyzes foreign intelligence, conducts covert operations, and informs U.S. national security policy.",
+        descriptionKey: "cia_desc"
       },
       {
         name: "DOJ",
+        nameKey: "doj_name",
         icon: "icons/wrappers/doj.webp",
         url: "./wrappers/doj",
-        description: "Department of Justice—enforces federal law, defends the interests of the U.S., and ensures fair and impartial administration of justice.",
+        descriptionKey: "doj_desc",
         wrapper: true
       },
       {
         name: "OMB",
+        nameKey: "omb_name",
         icon: "icons/wrappers/omb.webp",
         url: "./wrappers/omb",
-        description: "Office of Management and Budget—oversees federal budget development, agency performance, and regulatory policy across the executive branch.",
+        descriptionKey: "omb_desc",
         wrapper: true
       },
       {
         name: "NASA",
+        nameKey: "nasa_name",
         icon: "icons/wrappers/nasa.webp",
         url: "./wrappers/nasa",
-        description: "National Aeronautics and Space Administration—explores space and aeronautics, conducts scientific research, and leads missions to study Earth, the solar system, and the universe. Access news, images, videos, and live coverage of launches and discoveries.",
+        descriptionKey: "nasa_desc",
         wrapper: true
       },
       {
         name: "White House",
+        nameKey: "whitehouse_name",
         icon: "icons/wrappers/whitehouse.webp",
         url: "./wrappers/whitehouse",
-        description: "Official residence and workplace of the President of the United States—explore executive branch initiatives, press releases, policy updates, and historical archives. Access resources from the Office of the President and stay informed on national priorities.",
+        descriptionKey: "whitehouse_desc",
         wrapper: true
-      },
+      }
     ]
   },
   {
