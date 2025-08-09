@@ -6,6 +6,7 @@ const L = {
   "fundamental_name": "Fundamental",
   "chabots_name": "Chatbots",
   "microsoft_services_name": "Microsoft Services",
+  "google_services_name": "Google Services",
   "snaeplayer_desc": "Lightweight on device music player PWA.",
   "flow_desc": "Browser Based EPUB reader",
   "treader_desc": "Lightweight text file reader.",
