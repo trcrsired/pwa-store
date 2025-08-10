@@ -1,4 +1,4 @@
-const CACHE_NAME = "pwa-store-cache-v14";
+const CACHE_NAME = "pwa-store-cache-v15";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -11,8 +11,8 @@ self.addEventListener("install", (event) => {
         "/app.js",
         "/lang.js",
         "/style.css",
-        "/how/en.html",
-        "/how/zh.html",
+        "/how_en.html",
+        "/how_zh.html",
         "/lang/zh.json",
       ]);
     })
@@ -34,23 +34,27 @@ self.addEventListener("activate", (event) => {
   );
   clients.claim();
 });
-
 self.addEventListener("fetch", (event) => {
-
   event.respondWith(
     caches.open(CACHE_NAME).then((cache) =>
       cache.match(event.request).then((cachedResponse) => {
-        const fetchPromise = fetch(event.request).then((networkResponse) => {
-          if (
-            networkResponse &&
-            networkResponse.status === 200 &&
-            networkResponse.type === "basic"
-          ) {
-            cache.put(event.request, networkResponse.clone()); // ← updates cache
-          }
-          return networkResponse;
-        });
+        const fetchPromise = fetch(event.request)
+          .then((networkResponse) => {
+            if (
+              networkResponse &&
+              networkResponse.status === 200 &&
+              networkResponse.type === "basic"
+            ) {
+              cache.put(event.request, networkResponse.clone());
+            }
+            return networkResponse;
+          })
+          .catch(() => {
+            // 🛑 Network failed — return cached response if available
+            return cachedResponse;
+          });
 
+        // ✅ Return cached first, then update in background
         return cachedResponse || fetchPromise;
       })
     )
