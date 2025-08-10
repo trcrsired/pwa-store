@@ -18,6 +18,8 @@ const L = {
   "calculator_desc": "Simple, installable calculator PWA—works offline and optimized for mobile.",
   "weawow_desc": "Ad-free weather PWA with stunning photo forecasts, detailed hourly & 14-day data, and customizable widgets.",
   "screenflashlight_desc": "A web-based PWA flashlight app",
+  "pwastore_name": "PWA Store",
+  "pwastore_desc": "Yes, this PWA Store itself is also a PWA.",
   "copilot_desc": "Conversational AI by Microsoft—Copilot helps you think, write, and explore with real-time web access and voice support.",
   "deepseek_desc": "Chinese-developed AI assistant with powerful reasoning and multilingual support—DeepSeek’s PWA offers free access to its flagship models.",
   "chatgpt_desc": "OpenAI’s conversational assistant—ChatGPT’s PWA delivers installable access to GPT models, memory, plugins, and voice features.",

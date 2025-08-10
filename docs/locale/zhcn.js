@@ -18,6 +18,8 @@ const L = {
   "calculator_desc": "简单的可安装计算器 PWA，支持离线使用并针对移动设备优化。",
   "weawow_desc": "无广告天气 PWA，提供精美照片预报、详细的小时和 14 天数据，以及可定制的小组件。",
   "screenflashlight_desc": "基于网页的 PWA 手电筒应用。",
+  "pwastore_name": "PWA商店",
+  "pwastore_desc": "对的，这个PWA商店自身也是个PWA。",
   "copilot_desc": "微软推出的对话式 AI——Copilot 支持实时联网、语音交互，帮助你思考、写作和探索。",
   "deepseek_desc": "国产 AI 助手，具备强大的推理能力和多语言支持——DeepSeek 的 PWA 提供免费访问其旗舰模型。",
   "chatgpt_desc": "OpenAI 的对话助手——ChatGPT 的 PWA 提供 GPT 模型、记忆、插件和语音功能的可安装访问。",

@@ -11,6 +11,7 @@ export const categories = [
       { name: "Calculator", icon: "icons/calculator.webp", url: "https://chrisdiana.github.io/pwa-calculator", descriptionKey: "calculator_desc" },
       { name: "Weawow", icon: "icons/weawow.webp", url: "https://weawow.com", descriptionKey: "weawow_desc" },
       { name: "Screen Flashlight", icon: "icons/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", descriptionKey: "screenflashlight_desc" },
+      { name: "PWA Store", name: "pwastore_name", icon: "logo/logo.webp", url: "/", descriptionKey: "pwastore_desc" },
     ]
   },
   {
