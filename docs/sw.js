@@ -1,9 +1,10 @@
-const CACHE_NAME = "pwa-store-cache-v12";
+const CACHE_NAME = "pwa-store-cache-v13";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       return cache.addAll([
+        "/",
         "/index.html",
         "/manifest.json",
         "/logo/logo.webp",
@@ -36,6 +37,7 @@ self.addEventListener("activate", (event) => {
 });
 
 self.addEventListener("fetch", (event) => {
+
   event.respondWith(
     caches.open(CACHE_NAME).then((cache) =>
       cache.match(event.request).then((cachedResponse) => {
