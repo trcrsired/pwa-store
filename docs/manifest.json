@@ -1,14 +1,15 @@
 {
   "id": "pwa-store",
   "name": "PWA Store",
-  "short_name": "PWAStore",
+  "short_name": "PWA Store",
   "description": "Install and explore Progressive Web Apps",
-  "start_url": "index.html",
-  "scope": "./",
+  "start_url": "/?source=pwa",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "orientation": "portrait",
+  "lang": "en",
   "icons": [
     {
       "src": "logo/logo.webp",

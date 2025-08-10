@@ -19,7 +19,7 @@ body {
 .category-block h2 {
   font-size: 1.5rem;
   margin-bottom: 12px;
-  color: #222;
+  color: inherit;
 }
 
 /* Grid layout */
@@ -32,7 +32,7 @@ body {
 
 /* App Card */
 .app-card {
-  background-color: #fff;
+  background-color: inherit; /* ← match body background */
   border-radius: 8px;
   padding: 12px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
@@ -43,6 +43,7 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  color: inherit; /* ← inherit text color */
 }
 
 /* Icon styling */
@@ -58,11 +59,12 @@ body {
   font-weight: bold;
   font-size: 1.1rem;
   margin-bottom: 6px;
+  color: inherit;
 }
 
 .app-description {
   font-size: 0.9rem;
-  color: #666;
+  color: inherit;
   margin-bottom: 8px;
 }
 
@@ -70,7 +72,7 @@ body {
 .wrapper-badge {
   display: inline-block;
   background-color: #efefef;
-  color: #333;
+  color: inherit;
   font-size: 0.75rem;
   padding: 2px 6px;
   border-radius: 4px;
@@ -134,16 +136,73 @@ body {
   color: inherit;
 }
 
+/* Theme overrides */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #000;
-    color: #fff;
+    background-color: #121212;
+    color: #ffffff;
+  }
+
+  .wrapper-badge {
+    background-color: #333;
+  }
+
+  .install-button {
+    background-color: #3399ff;
+  }
+
+  .install-button:hover {
+    background-color: #1a73e8;
   }
 }
 
 @media (prefers-color-scheme: light) {
   body {
-    background-color: #fff;
-    color: #000;
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .wrapper-badge {
+    background-color: #efefef;
+  }
+
+  .install-button {
+    background-color: #007bff;
+  }
+
+  .install-button:hover {
+    background-color: #0056b3;
+  }
+}
+
+/* Default link styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Dark mode override */
+@media (prefers-color-scheme: dark) {
+  a {
+    color: #90caf9; /* soft blue for dark background */
+  }
+
+  a:hover {
+    color: #bbdefb;
+  }
+}
+
+/* Light mode override (optional, for clarity) */
+@media (prefers-color-scheme: light) {
+  a {
+    color: #007bff;
+  }
+
+  a:hover {
+    color: #0056b3;
   }
 }
