@@ -700,7 +700,7 @@ export const categories = [
     apps: [
       {
         name: "Incels.is",
-        nameKey: "incelsis",
+        nameKey: "incelsis_name",
         descriptionKey: "incelsis_desc",
         icon: "icons/incel.webp",
         url: "https://incels.is"
