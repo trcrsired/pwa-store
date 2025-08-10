@@ -8,6 +8,8 @@ const L = {
   "microsoft_services_name": "微软服务",
   "msstore_name": "微软商店",
   "msstore_desc": "微软的应用商店",
+  "mstechcommunity_name": "微软技术社区",
+  "mstechcommunity_desc": "一个公开平台，供 IT 专业人士、开发者和微软专家交流见解、提出问题，并了解产品动态、最佳实践和线上活动。",
   "google_services_name": "谷歌服务",
   "snaeplayer_desc": "轻量级本地音乐播放器 PWA 应用。",
   "flow_desc": "基于浏览器的 EPUB 阅读器。",

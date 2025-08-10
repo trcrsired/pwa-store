@@ -16,36 +16,53 @@
 
   <!-- ⚙️ Scripts -->
   <script type="module" src="app.js"></script>
+  <script type="module" src="lang.js"></script>
 </head>
 <body>
   <header class="site-header">
-    <h1><a href="/" class="site-title-link">PWA Store</a></h1>
-    <p>Install and explore Progressive Web Apps</p>
+    <h1>
+      <a href="/" class="site-title-link" id="site-title">PWA Store</a>
+    </h1>
+    <p id="site-subtitle">Install and explore Progressive Web Apps</p>
+    <nav>
+      <a id="how-link" href="how/en.html">How to Install PWAs</a>
+    </nav>
   </header>
 
   <div id="search-container">
     <input type="text" id="search-input" placeholder="Search apps..." />
   </div>
-
+  <main id="app-store" class="store-container">
+    <!-- Dynamic content loads here from content.js -->
+  </main>
   <main id="app-store" class="store-container">
     <!-- Dynamic content loads here from content.js -->
   </main>
 
   <footer class="site-footer">
-    <p>
-      <p>For an optimal experience on Android, we recommend using the Microsoft Edge browser. We advise against Firefox due to limited compatibility, and strongly discourage the use of locked-down operating systems like iOS, ChromeOS, Windows S mode and anything from Huawei, which restrict user freedom and app flexibility.</p>
-      <p>If you're browsing on Android, consider installing the NoForceDownload Chromium extension. Many websites aggressively prompt mobile users to download apps, and this extension helps block the most intrusive ones.</p>
-      <a href="https://microsoftedge.microsoft.com/addons/detail/noforcedownload/dcfmfnemndhobghklljikelapjlnkpgp">NoForceDownload in Microsoft Store</a><br>
-      <a href="extensions/NoForceDownload.crx">Download NoForceDownload.crx</a><br>
-      <a href="https://github.com/trcrsired/NoForceDownload" target="_blank">View Extension Repository</a>
-
-      <hr>
-
-      <a href="https://github.com/trcrsired/pwa-store" target="_blank">
-        PWA Store on GitHub
-      </a> · Licensed under <strong>GPL-3.0</strong> · 
-      Contributions and donations welcome 💖
+    <p id="footer-browser">
+      For an optimal experience on Android, we recommend using the Microsoft Edge browser. We advise against Firefox due to limited compatibility, and strongly discourage the use of locked-down operating systems like iOS, ChromeOS, Windows S mode and anything from Huawei, which restrict user freedom and app flexibility.
     </p>
+    <p id="footer-extension">
+      If you're browsing on Android, consider installing the NoForceDownload Chromium extension. Many websites aggressively prompt mobile users to download apps, and this extension helps block the most intrusive ones.
+    </p>
+    <a id="footer-store-link" href="https://microsoftedge.microsoft.com/addons/detail/noforcedownload/dcfmfnemndhobghklljikelapjlnkpgp">
+      NoForceDownload in Microsoft Store
+    </a><br>
+    <a id="footer-crx-link" href="extensions/NoForceDownload.crx">
+      Download NoForceDownload.crx
+    </a><br>
+    <a id="footer-repo-link" href="https://github.com/trcrsired/NoForceDownload" target="_blank">
+      View Extension Repository
+    </a>
+
+    <hr>
+
+    <a id="footer-github-link" href="https://github.com/trcrsired/pwa-store" target="_blank">
+      PWA Store on GitHub
+    </a> · 
+    <span id="footer-license"><strong>GPL-3.0</strong></span> · 
+    <span id="footer-contribution">Contributions and donations welcome 💖</span>
   </footer>
 </body>
 </html>

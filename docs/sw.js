@@ -1,4 +1,4 @@
-const CACHE_NAME = "pwa-store-cache-v10";
+const CACHE_NAME = "pwa-store-cache-v11";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -10,7 +10,11 @@ self.addEventListener("install", (event) => {
         "/logo/logo.webp",
         "/content.js",
         "/app.js",
+        "/lang.js",
         "/style.css",
+        "/how/en.html",
+        "/how/zh.html",
+        "/lang/zh.json",
       ]);
     })
   );

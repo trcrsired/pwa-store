@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>如何安装渐进式网络应用</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <h1>📦 如何安装渐进式网络应用（PWA）</h1>
+  <p>PWA 应用可以直接通过浏览器安装，提供接近原生应用的体验。以下是各主流平台的安装方法：</p>
+
+  <h2>🧭 Chrome（Windows、macOS、Linux、Android）</h2>
+  <ul>
+    <li>访问 PWA 网站。</li>
+    <li>在地址栏中查找 <strong>安装图标</strong>（一个带箭头的显示器）。</li>
+    <li>点击 <strong>安装</strong>，即可添加到桌面或主屏幕。</li>
+    <li>在 Android 上，点击 <strong>三点菜单</strong> → <strong>安装应用</strong>。</li>
+  </ul>
+
+  <h2>🦊 Firefox</h2>
+  <ul>
+    <li>Firefox 当前不支持原生 PWA 安装。</li>
+    <li>可使用 <a href="https://github.com/filips123/PWAsForFirefox">PWAsForFirefox</a> 扩展插件实现桌面支持。</li>
+  </ul>
+
+  <h2>🧑‍💻 Edge（Windows、macOS、Android）</h2>
+  <ul>
+    <li>访问 PWA 网站。</li>
+    <li>点击地址栏中的 <strong>安装图标</strong>，或进入 <strong>设置 → 应用 → 将此网站安装为应用</strong>。</li>
+    <li>Android 上的安装方式与 Chrome 相同。</li>
+  </ul>
+
+  <h2>🍎 Safari（iOS、macOS）</h2>
+  <ul>
+    <li>在 iOS 上：点击 <strong>分享</strong> 图标 → <strong>添加到主屏幕</strong>。</li>
+    <li>macOS 上：Safari 不支持原生 PWA 安装。</li>
+    <li>建议使用 Chrome 或 Edge 浏览器以获得完整支持。</li>
+  </ul>
+
+  <h2>📱 Android（所有浏览器）</h2>
+  <ul>
+    <li>大多数现代浏览器均支持 PWA 安装。</li>
+    <li>在浏览器菜单中查找 <strong>安装</strong> 或 <strong>添加到主屏幕</strong> 选项。</li>
+  </ul>
+
+  <h2>🧩 技术提示</h2>
+  <ul>
+    <li>PWA 必须通过 HTTPS 提供服务，并包含有效的 <code>manifest.json</code> 文件。</li>
+    <li>可通过 Chrome DevTools → <strong>Application</strong> 标签页测试可安装性。</li>
+    <li>安装后的 PWA 可像原生应用一样从操作系统中启动。</li>
+  </ul>
+
+  <p>想了解更多？请访问 <a href="https://web.dev/progressive-web-apps/">Google 的 PWA 指南</a>。</p>
+</body>
+</html>
+
