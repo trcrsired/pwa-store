@@ -6,6 +6,8 @@ const L = {
   "fundamental_name": "基本",
   "chabots_name": "聊天机器人",
   "microsoft_services_name": "微软服务",
+  "microsoft_store_name": "微软商店",
+  "microsoft_store_desc": "微软的应用商店",
   "google_services_name": "谷歌服务",
   "snaeplayer_desc": "轻量级本地音乐播放器 PWA 应用。",
   "flow_desc": "基于浏览器的 EPUB 阅读器。",

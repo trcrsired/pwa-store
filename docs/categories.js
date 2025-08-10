@@ -30,6 +30,7 @@ export const categories = [
     apps: [
       { name: "Outlook", icon: "icons/outlook.webp", url: "https://outlook.live.com", descriptionKey: "outlook_desc" },
       { name: "OneDrive", icon: "icons/onedrive.webp", url: "https://onedrive.live.com", descriptionKey: "onedrive_desc" },
+      { name: "Microsoft Store", nameKey: "msstore_name", icon: "icons/msstore.webp", url: "https://apps.microsoft.com", descriptionKey: "msstore_desc" },
       { name: "Bing", nameKey: "bing_name", icon: "icons/wrappers/bing.webp", url: "./wrappers/bing", descriptionKey: "bing_desc", wrapper: true },
     ]
   },
