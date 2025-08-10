@@ -50,23 +50,35 @@ const renderStore = (filterText = '') => {
   root.innerHTML = '';
 
   categories.forEach((category) => {
-    const filteredApps = category.apps.filter(app => {
-      const nameKeyText = app.nameKey ? L(app.nameKey) : '';
-      const nameText = app.name || '';
-      const descKeyText = app.descriptionKey ? L(app.descriptionKey) : '';
-      const descText = app.description || '';
+    // Get localized and raw category name
+    const localizedCategoryName = category.nameKey ? L(category.nameKey) : category.name;
+    const categoryText = `${localizedCategoryName} ${category.name}`.toLowerCase();
 
-      const combinedText = `${nameKeyText} ${nameText} ${descKeyText} ${descText}`.toLowerCase();
-      return combinedText.includes(filterText);
-    });
+    let filteredApps;
 
+    if (categoryText.includes(filterText)) {
+      // ✅ If category name matches the filter, include all apps in this category
+      filteredApps = category.apps;
+    } else {
+      // 🔍 Otherwise, filter apps individually by name and description
+      filteredApps = category.apps.filter(app => {
+        const nameKeyText = app.nameKey ? L(app.nameKey) : '';
+        const nameText = app.name || '';
+        const descKeyText = app.descriptionKey ? L(app.descriptionKey) : '';
+        const descText = app.description || '';
+
+        const combinedText = `${nameKeyText} ${nameText} ${descKeyText} ${descText}`.toLowerCase();
+        return combinedText.includes(filterText);
+      });
+    }
+
+    // 🧩 Render category only if it has matching apps
     if (filteredApps.length > 0) {
       const filteredCategory = { ...category, apps: filteredApps };
       root.appendChild(renderCategory(filteredCategory));
     }
   });
 };
-
 
 // 🔧 Setup search input listener
 const setupSearch = () => {
