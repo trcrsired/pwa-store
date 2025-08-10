@@ -594,6 +594,14 @@ const L = {
   deltadental_name: "Delta Dental",
   deltadental_desc: "Delta Dental 是面向个人和雇主的牙科保险服务商，支持在线管理福利、查找牙医、查看理赔和获取口腔健康资源。",
 
+  research_name: "研究",
+
+  secdeadlines_name: "安全与隐私会议截止时间",
+  secdeadlines_desc: "顶级安全与隐私会议的截止时间倒计时。",
+
+  hotcrp_name: "HotCRP",
+  hotcrp_desc: "一个基于网络的会议管理系统，用于论文提交、评审和决策跟踪。",
+
   education_name: "教育",
 
   princeton_name: "普林斯顿大学",

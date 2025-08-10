@@ -557,7 +557,15 @@ const L = {
 
   deltadental_name: "Delta Dental",
   deltadental_desc: "Dental insurance provider serving individuals and employers—manage benefits, find dentists, view claims, and explore oral health resources online.",
-  
+
+  research_name: "Research",
+
+  secdeadlines_name: "Security and Privacy Conference Deadlines",
+  secdeadlines_desc: "Countdowns to top Security and Privacy conference deadlines.",
+
+  hotcrp_name: "HotCRP",
+  hotcrp_desc: "A web-based conference management system for paper submission, review, and decision tracking.",
+
   education_name: "Education",
 
   princeton_name: "Princeton University",

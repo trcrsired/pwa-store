@@ -96,6 +96,8 @@ WRAPPERS = [
   { "name": "Al Jazeera", "url": "https://www.aljazeera.com", "keyify_name": "aljazeera" },
   { "name": "CGTN", "url": "https://www.cgtn.com" },
 
+  { "name" : "HotCRP", "url": "https://hotcrp.com" },
+
   { "name" : "Binghamton Univeristy", "url": "https://www.binghamton.edu", "keyify_name": "binghamton_edu"},
   { "name" : "Fudan University", "url": "https://www.fudan.edu.cn", "keyify_name": "fudan" },
 ]

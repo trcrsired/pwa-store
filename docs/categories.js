@@ -1287,6 +1287,27 @@ export const categories = [
     ]
   },
   {
+    name: "Research",
+    nameKey: "research_name",
+    apps: [
+      {
+        name: "Security and Privacy Conference Deadlines",
+        nameKey: "secdeadlines_name",
+        descriptionKey: "secdeadlines_desc",
+        icon: "icons/secdeadlines.webp",
+        url: "https://sec-deadlines.github.io",
+      },
+      {
+        name: "HotCRP",
+        nameKey: "hotcrp_name",
+        descriptionKey: "hotcrp_desc",
+        icon: "icons/wrappers/hotcrp.webp",
+        url: "./wrappers/hotcrp",
+        wrapper: true,
+      },
+    ]
+  },
+  {
     name: "Education",
     nameKey: "education_name",
     apps: [
