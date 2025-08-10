@@ -138,6 +138,12 @@ export const categories = [
         descriptionKey: "chrome_dev_desc"
       },
       {
+        name: "web.dev",
+        icon: "icons/webdev.webp",
+        url: "https://web.dev",
+        descriptionKey: "webdev_desc"
+      },
+      {
         name: "Bing Webmaster Tools",
         nameKey: "bing_webmaster_name",
         icon: "icons/wrappers/bing.webp",

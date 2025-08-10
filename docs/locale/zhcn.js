@@ -69,6 +69,8 @@ const L = {
   chrome_dev_name: "Chrome 开发者平台",
   chrome_dev_desc: "Google 官方的 Chrome 开发者资源中心，提供文档、工具和现代 Web 开发指南，包括 WebAssembly、WebGPU 和 PWA。",
 
+  webdev_desc: "web.dev 是由 Google 创建的资源平台，旨在帮助开发者构建现代化、高速且易访问的网站。它提供教程、工具和最佳实践，涵盖网站性能、SEO、安全性和用户体验等方面。无论是初学者还是资深开发者，web.dev 都提供基于真实数据和开放标准的实用指导。",
+  
   bing_webmaster_name: "Bing 站长工具",
   bing_webmaster_desc: "提供网站搜索性能分析、索引状态和 SEO 诊断，帮助优化 Bing 搜索可见性。",
 
