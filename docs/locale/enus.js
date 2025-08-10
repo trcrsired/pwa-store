@@ -76,6 +76,9 @@ const L = {
   pwabuilder_name: "PWA Builder",
   pwabuilder_desc: "PWA Builder is an open-source tool developed by Microsoft that simplifies the process of deploying Progressive Web Apps (PWAs).",
 
+  resilientwebdesign_name: "Resilient Web Design",
+  resilientwebdesign_desc: "Resilient Web Design is a free, beautifully written web book by Jeremy Keith that explores the foundational principles and philosophies of building robust, future-proof websites.",
+
   python_desc: "Python is a programming language that lets you work quickly and integrate systems more effectively.",
 
   rust_desc: "A language empowering everyone to build reliable and efficient software.",
@@ -471,6 +474,9 @@ const L = {
 
   wordpress_name: "WordPress",
   wordpress_desc: "Open-source content management system—build blogs, websites, and online stores with thousands of themes, plugins, and full customization.",
+
+  adactio_name: "Adactio",
+  adactio_desc: "Adactio is the online home of Jeremy Keith, a web developer and author living and working in Brighton, England.",
 
   herbsutter_name: "Herb Sutter",
   herbsutter_desc: "Herb Sutter (chairman of ISO C++ standard committee WG21)’s personal blog—explore thought-provoking essays, deep dives into modern C++, and insights on programming language evolution. A trusted resource for developers seeking clarity, rigor, and vision in software design.",

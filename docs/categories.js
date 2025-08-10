@@ -158,6 +158,13 @@ export const categories = [
         descriptionKey: "pwabuilder_desc"
       },
       {
+        name: "Resilient Web Design",
+        nameKey: "resilientwebdesign_name",
+        icon: "icons/resilientwebdesign.webp",
+        url: "https://resilientwebdesign.com",
+        descriptionKey: "resilientwebdesign_desc"
+      },
+      {
         name: "Python",
         icon: "icons/python.webp",
         url: "https://www.python.org",
@@ -1044,6 +1051,13 @@ export const categories = [
         descriptionKey: "wordpress_desc",
         icon: "icons/wordpress.webp",
         url: "https://wordpress.org"
+      },
+      {
+        name: "Adactio",
+        nameKey: "adactio_name",
+        descriptionKey: "adactio_desc",
+        icon: "icons/adactio.webp",
+        url: "https://adactio.com"
       },
       {
         name: "Herb Sutter",

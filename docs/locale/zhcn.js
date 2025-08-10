@@ -77,6 +77,9 @@ const L = {
   pwabuilder_name: "PWA Builder",
   pwabuilder_desc: "由 Microsoft 开发的开源工具，简化 Progressive Web App 的部署流程。",
 
+  resilientwebdesign_name: "韧性网络设计",
+  resilientwebdesign_desc: "《韧性网络设计》是 Jeremy Keith 免费撰写的一本优美的网络书籍，深入探讨构建稳健且具备未来适应性的网页的基本原则与设计理念。",
+
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
 
   rust_desc: "一门可靠且高效的软件开发语言。",
@@ -507,6 +510,9 @@ const L = {
 
   wordpress_name: "WordPress",
   wordpress_desc: "开源内容管理系统，可用于构建博客、网站和在线商店，支持数千种主题和插件，高度可定制。",
+
+  adactio_name: "Adactio",
+  adactio_desc: "Adactio 是 Jeremy Keith 的线上主页，他是一位居住并工作在英国布莱顿的网络开发者和作家。",
 
   herbsutter_name: "Herb Sutter",
   herbsutter_desc: "Herb Sutter（ISO C++ 标准委员会 WG21 主席）个人博客，分享关于现代 C++ 的深度文章、编程语言演进的见解，是开发者寻求清晰性、严谨性和设计理念的重要资源。",
