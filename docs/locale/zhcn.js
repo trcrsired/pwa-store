@@ -374,6 +374,9 @@ const L = {
 
   analytics_name: "分析",
 
+  pwastats_name: "PWA 统计",
+  pwastats_desc: "PWA 统计是一个精选仪表板，展示渐进式网络应用在各行业的影响力，包含真实案例、性能指标和采用趋势。",
+
   statcounter_name: "StatCounter GS",
   statcounter_desc: "跟踪搜索引擎、浏览器和操作系统的使用份额。",
 

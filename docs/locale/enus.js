@@ -374,6 +374,9 @@ const L = {
 
   analytics_name: "Analytics",
 
+  pwastats_name: "PWA Stats",
+  pwastats_desc: "PWA Stats is a curated dashboard showcasing the impact of Progressive Web Apps across industries, with real-world case studies, performance metrics, and adoption trends.",
+
   statcounter_name: "StatCounter GS",
   statcounter_desc: "Tracks the Usage Share of Search Engines, Browsers and Operating Systems.",
 

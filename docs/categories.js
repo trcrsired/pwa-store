@@ -797,6 +797,13 @@ export const categories = [
     nameKey: "analytics_name",
     apps: [
       {
+        name: "PWA Stats",
+        nameKey: "pwastats_name",
+        descriptionKey: "pwastats_desc",
+        icon: "icons/pwastats.webp",
+        url: "https://www.pwastats.com"
+      },
+      {
         name: "StatCounter GS",
         nameKey: "statcounter_name",
         descriptionKey: "statcounter_desc",
