@@ -210,8 +210,14 @@ const L = {
   presstv_name: "PressTV",
   presstv_desc: "Iranian English-language broadcaster.",
 
+  bloomberg_name: "Bloomberg",
+  bloomberg_desc: "Global financial media company delivering real-time market data, business news, and economic analysis.",
+
   firstpost_name: "Firstpost",
   firstpost_desc: "Indian news portal offering coverage across politics, business, sports, and entertainment, with editorial and opinion content.",
+
+  forbes_name: "Forbes",
+  forbes_desc: "Global media outlet known for business news, financial insights, and influential rankings like the Forbes Billionaires List.",
 
   pbs_name: "PBS",
   pbs_desc: "U.S. public broadcaster providing educational, cultural, and documentary programming through a network of member stations.",
@@ -224,6 +230,9 @@ const L = {
 
   marxism_name: "In Defence of Marxism",
   marxism_desc: "Online platform offering Marxist analysis of global events, political theory, and revolutionary history from a socialist perspective.",
+
+  abcnews_name: "ABC News",
+  abcnews_desc: "U.S. news organization providing national and international coverage across politics, health, business, and culture.",
 
   nyt_name: "New York Times",
   nyt_desc: "The New York Times (NYT) is an American daily newspaper based in New York City. The New York Times covers domestic, national, and international news, and publishes opinion pieces, investigative reports, and reviews.",
@@ -239,6 +248,9 @@ const L = {
 
   cctv_name: "CCTV",
   cctv_desc: "China's state-run broadcaster offering news, documentaries, and entertainment across multiple channels and digital platforms.",
+
+  ifeng_name: "ifeng (凤凰网)",
+  ifeng_desc: "Comprehensive Chinese news portal offering coverage of current affairs, finance, culture, and global events.",
 
   tencent_name: "Tencent News (腾讯新闻)",
   tencent_desc: "Comprehensive news portal by Tencent featuring top stories, lifestyle articles, and trending reports across China.",

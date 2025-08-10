@@ -210,8 +210,14 @@ const L = {
   presstv_name: "PressTV",
   presstv_desc: "伊朗的英文广播机构。",
 
+  bloomberg_name: "彭博社",
+  bloomberg_desc: "全球金融媒体公司，提供实时市场数据、商业新闻和经济分析。",
+
   firstpost_name: "Firstpost",
   firstpost_desc: "印度新闻门户网站，涵盖政治、商业、体育和娱乐，并提供社论和观点内容。",
+
+  forbes_name: "福布斯",
+  forbes_desc: "全球知名媒体，专注于商业新闻、财经洞察，以及如福布斯富豪榜等权威排名。",
 
   pbs_name: "PBS",
   pbs_desc: "美国公共广播机构，通过成员台网络提供教育、文化和纪录片节目。",
@@ -225,6 +231,9 @@ const L = {
   marxism_name: "保卫马克思主义",
   marxism_desc: "提供全球事件、政治理论和革命历史的马克思主义分析的在线平台。",
 
+  abcnews_name: "美国广播公司新闻",
+  abcnews_desc: "美国新闻机构，报道国内外政治、健康、商业和文化等领域的新闻。",
+
   nyt_name: "纽约时报",
   nyt_desc: "《纽约时报》是一家总部位于纽约市的美国日报，报道国内、国家和国际新闻，并发表社论、调查报道和评论文章。",
 
@@ -237,8 +246,11 @@ const L = {
   cgtn_name: "CGTN",
   cgtn_desc: "中国国家级国际广播机构 CGTN 提供多语言的世界新闻、商业和地缘政治报道。",
 
-  cctv_name: "央视",
+  cctv_name: "中国中央电视台",
   cctv_desc: "中国国家广播机构，提供新闻、纪录片和多种频道的娱乐节目。",
+
+  ifeng_name: "凤凰网",
+  ifeng_desc: "综合性中文新闻门户，涵盖时政、财经、文化及全球热点资讯。",
 
   tencent_name: "腾讯新闻",
   tencent_desc: "腾讯综合新闻门户，涵盖中国各地的头条、生活资讯和热门报道。",

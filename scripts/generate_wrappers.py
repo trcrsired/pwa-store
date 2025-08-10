@@ -19,6 +19,7 @@ WRAPPERS = [
   { "name": "Internet Archive", "url": "https://archive.org", "keyify_name": "archive" },
   { "name": "Bing", "url": "https://www.bing.com" },
   { "name": "CCTV", "url": "https://tv.cctv.com" },
+  { "name": "ifeng", "url": "https://www.ifeng.com" },
   { "name": "cppreference", "url": "https://en.cppreference.com" },
   { "name": "Compiler Explorer", "url": "https://godbolt.org", "keyify_name": "godbolt" },
   { "name": "linux.die", "url": "https://en.cppreference.com" },
