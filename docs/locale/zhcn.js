@@ -330,6 +330,14 @@ const L = {
   duolingo_cn_name: "多邻国",
   duolingo_cn_desc: "Duolingo 的中文本地化版本。",
 
+  forums_name: "论坛",
+
+  incelsis_name: "非自愿独身者论坛",
+  incelsis_desc: "Incel.is 是一个围绕非自愿独身者亚文化的在线讨论论坛。用户可在此分享观点、参与交流，并探讨与情感排斥、社会关系及身份认同相关的主题。",
+
+  fourchan_name: "4chan",
+  fourchan_desc: "4chan 是一个匿名图片讨论平台，用户可在多个主题板块中分享图片与文字，涵盖科技、动漫、游戏、健身、政治等多种话题。帖子通常具有时效性，平台强调匿名性与开放参与，无需用户注册即可发言。",
+
   knowledgespedia_name: "知识和百科",
 
   wikipedia_name: "维基百科",
@@ -340,6 +348,9 @@ const L = {
 
   liquipedia_name: "Liquipedia",
   liquipedia_desc: "Liquipedia 是专注于电子竞技的在线百科全书。",
+
+  incelwiki_name: "非自愿独身者百科",
+  incelwiki_desc: "非自愿独身者百科是一个由社区维护的百科全书，专注于“非自愿独身者”（Incel）这一网络亚文化。",
 
   marxistsorg_name: "马克思主义互联网文库",
   marxistsorg_desc: "马克思主义互联网文库是一个非营利的在线百科全书，自1990年起收录了多语言版本的共产主义、无政府主义和社会主义思想家的著作，包括马克思、恩格斯、列宁、托洛茨基、斯大林、毛泽东、卢森堡、巴枯宁、克鲁泡特金、蒲鲁东，以及相关甚至无关思想家的作品（如孙子）。",

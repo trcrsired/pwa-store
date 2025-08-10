@@ -330,6 +330,14 @@ const L = {
   duolingo_cn_name: "Duolingo (多邻国)",
   duolingo_cn_desc: "Localized Chinese version of Duolingo.",
 
+  forums_name: "Forums",
+
+  incelsis_name: "Incel.is",
+  incelsis_desc: "Incel.is is an online discussion forum centered around the incel subculture. It provides a space for users to share perspectives, engage in dialogue, and explore topics related to romantic exclusion, social dynamics, and identity.",
+
+  fourchan_name: "4chan",
+  fourchan_desc: "4chan is an anonymous imageboard platform where users share images and text across a wide range of topic-specific boards. It supports real-time discussions on subjects such as technology, anime, video games, fitness, politics, and more. Posts are typically short-lived, and the site emphasizes anonymity and open participation without user accounts.",
+
   knowledgespedia_name: "Knowledge & Pedias",
 
   wikipedia_name: "Wikipedia",
@@ -340,6 +348,9 @@ const L = {
 
   liquipedia_name: "Liquipedia",
   liquipedia_desc: "Liquipedia is an online encyclopedia focused on esports.",
+
+  incelwiki_name: "Incel Wiki",
+  incelwiki_desc: "Incel Wiki is a community-curated encyclopedia focused on the incel subculture—short for \"involuntary celibate.\"",
 
   marxistsorg_name: "Marxists Internet Archive",
   marxistsorg_desc: "Marxists Internet Archive is a non-profit online encyclopedia that hosts a multilingual library (created in 1990) of the works of communist, anarchist, and socialist writers, such as Karl Marx, Friedrich Engels, Vladimir Lenin, Leon Trotsky, Joseph Stalin, Mao Zedong, Rosa Luxemburg, Mikhail Bakunin, Peter Kropotkin, and Pierre-Joseph Proudhon, as well as that of writers of related ideologies, and even unrelated ones (for instance, Sun Tzu).",

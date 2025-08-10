@@ -695,6 +695,26 @@ export const categories = [
     ]
   },
   {
+    name: "Forums",
+    nameKey: "forums_name",
+    apps: [
+      {
+        name: "Incels.is",
+        nameKey: "incelsis",
+        descriptionKey: "incelsis_desc",
+        icon: "icons/incel.webp",
+        url: "https://incels.is"
+      },
+      {
+        name: "4chan",
+        nameKey: "fourchan_name",
+        descriptionKey: "fourchan_desc",
+        icon: "icons/4chan.webp",
+        url: "https://4chan.org"
+      },
+    ]
+  },
+  {
     name: "Knowledge & Pedias",
     nameKey: "knowledgespedia_name",
     apps: [
@@ -718,6 +738,13 @@ export const categories = [
         descriptionKey: "liquipedia_desc",
         icon: "icons/liquipedia.webp",
         url: "https://liquipedia.net"
+      },
+      {
+        name: "Incel Wiki",
+        nameKey: "incelwiki_name",
+        descriptionKey: "incelwiki_desc",
+        icon: "icons/incelwiki.webp",
+        url: "https://incels.wiki"
       },
       {
         name: "Marxists Internet Archive",
