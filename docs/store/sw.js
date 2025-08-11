@@ -1,4 +1,5 @@
-const CACHE_NAME = "pwa-store-cache-v15";
+const CACHE_NAME = "pwa-store-cache-v16";
+const IMAGE_CACHE = "pwa-store-images-v1";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -35,6 +36,29 @@ self.addEventListener("activate", (event) => {
   clients.claim();
 });
 self.addEventListener("fetch", (event) => {
+  const req = event.request;
+
+  if (req.method !== "GET") return;
+
+  if (req.destination === "image") {
+    event.respondWith(
+      caches.open(IMAGE_CACHE).then((cache) =>
+        cache.match(req).then((cached) => {
+          const fetchAndCache = fetch(req)
+            .then((res) => {
+              if (res && res.status === 200) {
+                cache.put(req, res.clone());
+              }
+              return res;
+            })
+            .catch(() => cached); // fallback to cache if offline
+
+          return cached || fetchAndCache;
+        })
+      )
+    );
+    return;
+  }
   event.respondWith(
     caches.open(CACHE_NAME).then((cache) =>
       cache.match(event.request).then((cachedResponse) => {
