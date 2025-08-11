@@ -237,6 +237,14 @@ const L = {
 
   ap_name: "Associated Press",
   ap_desc: "The Associated Press is an American not-for-profit news agency headquartered in New York City.",
+  independent_name: "The Independent",
+  independent_desc: "A UK-based news outlet offering global coverage on politics, culture, and current affairs.",
+  cnn_name: "CNN",
+  cnn_desc: "A major American news network delivering coverage of global events, politics, and breaking news.",
+  foxnews_name: "Fox News",
+  foxnews_desc: "A U.S. news channel known for its coverage of politics, current events, and opinion programming.",
+  usatoday_name: "USA Today",
+  usatoday_desc: "A national American newspaper offering news, lifestyle, and entertainment coverage across digital and print platforms.",
 
   marxism_name: "In Defence of Marxism",
   marxism_desc: "Online platform offering Marxist analysis of global events, political theory, and revolutionary history from a socialist perspective.",
@@ -246,6 +254,9 @@ const L = {
 
   usnews_name: "US News",
   usnews_desc: "A leading American media outlet known for its rankings, analysis, and coverage of education, health, politics, and national affairs.",
+
+  nittele_name: "Nippon TV NEWS (日テレNEWS)",
+  nittele_desc: "A Japanese-language news network operated by Nippon TV, offering 24-hour coverage of domestic news, weather, and emergency alerts.",
 
   nyt_name: "New York Times",
   nyt_desc: "The New York Times (NYT) is an American daily newspaper based in New York City. The New York Times covers domestic, national, and international news, and publishes opinion pieces, investigative reports, and reviews.",
@@ -280,7 +291,7 @@ const L = {
   weibo_name: "Weibo Lite (微博Lite)",
   weibo_desc: "A lightweight, mobile-optimized gateway to China's popular microblogging service, offering quick access to trending posts, hashtags, and celebrity updates.",
   entertainmentplatform_name: "Entertainment Platform",
-
+  
   age_name: "AGE Animation (AGE动漫)",
   age_desc: "Stream and explore a wide range of anime series and movies, updated regularly with Chinese subtitles.",
 
