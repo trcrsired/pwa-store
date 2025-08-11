@@ -1,7 +1,7 @@
 {
   "name": "Raider.IO",
   "short_name": "Raider.IO",
-  "start_url": ".",
+  "start_url": "/?source=pwa",
   "background_color": "black",
   "theme_color": "black",
   "description": "A Progressive Web APP Wrapper for Raider.IO",

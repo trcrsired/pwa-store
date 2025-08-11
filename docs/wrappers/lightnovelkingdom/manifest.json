@@ -1,7 +1,7 @@
 {
   "name": "Lightnovel Kingdom",
   "short_name": "Lightnovel Kingdom",
-  "start_url": ".",
+  "start_url": "/?source=pwa",
   "background_color": "black",
   "theme_color": "black",
   "description": "A Progressive Web APP Wrapper for Lightnovel Kingdom",

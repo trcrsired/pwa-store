@@ -154,7 +154,7 @@ def build_manifest(name):
     manifest = {
         "name": name,
         "short_name": name,
-        "start_url": ".",
+        "start_url": "/?source=pwa",
         "background_color": "black",
         "theme_color": "black",
         "description": f"A Progressive Web APP Wrapper for {name}",

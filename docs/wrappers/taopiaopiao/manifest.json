@@ -1,7 +1,7 @@
 {
   "name": "Tao Piao Piao",
   "short_name": "Tao Piao Piao",
-  "start_url": ".",
+  "start_url": "/?source=pwa",
   "background_color": "black",
   "theme_color": "black",
   "description": "A Progressive Web APP Wrapper for Tao Piao Piao",

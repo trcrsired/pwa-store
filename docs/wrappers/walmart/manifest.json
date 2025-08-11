@@ -1,7 +1,7 @@
 {
   "name": "Walmart",
   "short_name": "Walmart",
-  "start_url": ".",
+  "start_url": "/?source=pwa",
   "background_color": "black",
   "theme_color": "black",
   "description": "A Progressive Web APP Wrapper for Walmart",

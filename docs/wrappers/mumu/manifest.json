@@ -1,7 +1,7 @@
 {
   "name": "Mumu Emulator(\u6a21\u62df\u5668)",
   "short_name": "Mumu Emulator(\u6a21\u62df\u5668)",
-  "start_url": ".",
+  "start_url": "/?source=pwa",
   "background_color": "black",
   "theme_color": "black",
   "description": "A Progressive Web APP Wrapper for Mumu Emulator(\u6a21\u62df\u5668)",
