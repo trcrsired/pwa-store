@@ -250,6 +250,9 @@ const L = {
   nyt_name: "New York Times",
   nyt_desc: "The New York Times (NYT) is an American daily newspaper based in New York City. The New York Times covers domestic, national, and international news, and publishes opinion pieces, investigative reports, and reviews.",
 
+  reuters_name: "Reuters",
+  reuters_desc: "An international news organization known for timely, unbiased reporting across politics, business, and global affairs.",
+
   revcom_name: "REVCOM.US",
   revcom_desc: "revcom.us is the official website of the Revolutionary Communist Party, USA. It features news, analysis, commentary, and theoretical writings focused on revolutionary change, social justice, and critiques of capitalism and imperialism.",
 

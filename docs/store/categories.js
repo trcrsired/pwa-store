@@ -564,6 +564,7 @@ export const categories = [
       { name: "ABC News", nameKey: "abcnews_name", descriptionKey: "abcnews_desc", icon: "icons/abcnews.webp", url: "https://abcnews.go.com" },
       { name: "US News", nameKey: "usnews_name", descriptionKey: "usnews_desc", icon: "icons/usnews.webp", url: "https://www.usnews.com" },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url: "/wrappers/nytimes", wrapper: true },
+      { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url: "/wrappers/reuters", wrapper: true },
       { name: "REVCOM.US", nameKey: "revcom_name", descriptionKey: "revcom_desc", icon: "icons/wrappers/revcomus.webp", url: "/wrappers/revcomus", wrapper: true },
       { name: "Al Jazeera", nameKey: "aljazeera_name", descriptionKey: "aljazeera_desc", icon: "icons/wrappers/aljazeera.webp", url: "/wrappers/aljazeera", wrapper: true },
       { name: "CGTN", nameKey: "cgtn_name", descriptionKey: "cgtn_desc", icon: "icons/wrappers/cgtn.webp", url: "/wrappers/cgtn", wrapper: true },
