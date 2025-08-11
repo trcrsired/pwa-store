@@ -6,7 +6,6 @@ self.addEventListener("install", (event) => {
     caches.open(CACHE_NAME).then((cache) => {
       return cache.addAll([
         "/store/",
-        "/store/?source=pwa",
         "/store/manifest.json",
         "/store/logo/logo.webp",
         "/store/content.js",
@@ -39,10 +38,10 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   const req = event.request;
-
   if (req.method !== "GET") return;
 
-  if (req.destination === "image") {
+  if (req.destination === "image" && !req.url.includes("/store/logo/logo.webp"))
+  {
     event.respondWith(
       caches.open(IMAGE_CACHE).then((cache) =>
         cache.match(req).then((cached) => {
