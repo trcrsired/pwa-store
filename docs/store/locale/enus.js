@@ -239,6 +239,8 @@ const L = {
   ap_desc: "The Associated Press is an American not-for-profit news agency headquartered in New York City.",
   independent_name: "The Independent",
   independent_desc: "A UK-based news outlet offering global coverage on politics, culture, and current affairs.",
+  theguardian_name: "The Guardian",
+  theguardian_desc: "A British news organization known for progressive journalism and in-depth reporting on global issues, politics, and the environment.",
   cnn_name: "CNN",
   cnn_desc: "A major American news network delivering coverage of global events, politics, and breaking news.",
   foxnews_name: "Fox News",

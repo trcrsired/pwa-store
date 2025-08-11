@@ -239,6 +239,8 @@ const L = {
   ap_desc: "美联社是一家总部位于纽约市的美国非营利新闻机构。",
   independent_name: "独立报",
   independent_desc: "一家总部位于英国的新闻机构，提供政治、文化和时事的全球报道。",
+  theguardian_name: "卫报",
+  theguardian_desc: "一家总部位于英国的新闻媒体，专注于政治、社会正义和环境议题的国际报道。",
   cnn_name: "CNN",
   cnn_desc: "一家美国主流新闻网络，报道全球事件、政治和突发新闻。",
   foxnews_name: "福克斯新闻",
@@ -692,3 +694,4 @@ const L = {
 };
 
 registerLocale("zhcn", L);
+
