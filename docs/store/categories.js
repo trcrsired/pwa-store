@@ -563,7 +563,7 @@ export const categories = [
       { name: "In Defence of Marxism", nameKey: "marxism_name", descriptionKey: "marxism_desc", icon: "icons/indefenseofmarxism.webp", url: "https://marxist.com" },
       { name: "ABC News", nameKey: "abcnews_name", descriptionKey: "abcnews_desc", icon: "icons/abcnews.webp", url: "https://abcnews.go.com" },
       { name: "US News", nameKey: "usnews_name", descriptionKey: "usnews_desc", icon: "icons/usnews.webp", url: "https://www.usnews.com" },
-      { name: "CBS News", nameKey: "cbsews_name", descriptionKey: "cbsews_desc", icon: "icons/cbs.webp", url: "https://www.cbsnews.com" },
+      { name: "CBS News", nameKey: "cbsnews_name", descriptionKey: "cbsnews_desc", icon: "icons/cbs.webp", url: "https://www.cbsnews.com" },
       { name: "NBC", nameKey: "nbc_name", descriptionKey: "nbc_desc", icon: "icons/nbc.webp", url: "https://www.nbc.com" },
       { name: "CNBC", nameKey: "cnbc_name", descriptionKey: "cnbc_desc", icon: "icons/nbc.webp", url: "https://www.cnbc.com" },
       { name: "MSNBC", nameKey: "msnbc_name", descriptionKey: "msnbc_desc", icon: "icons/nbc.webp", url: "https://www.msnbc.com" },
