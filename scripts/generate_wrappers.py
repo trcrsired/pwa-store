@@ -81,6 +81,7 @@ WRAPPERS = [
   { "name": "NVIDIA", "url": "https://www.nvidia.com" },
   { "name": "CurseForge", "url": "https://www.curseforge.com" },
   { "name": "MineCraft Forum", "url": "https://www.minecraftforum.net", "keyify_name": "minecraftforum" },
+  { "name": "IGN", "url": "https://www.ign.com" },
   { "name": "Paypal", "url": "https://www.paypal.com" },
   { "name": "GeeksForGeeks", "url": "https://www.geeksforgeeks.org" },
   { "name": "WPS", "url": "https://www.wps.com/wpsdocs" },

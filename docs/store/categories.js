@@ -708,7 +708,15 @@ export const categories = [
         icon: "icons/wrappers/minecraftforum.webp",
         url: "/wrappers/minecraftforum",
         wrapper: true
-      }
+      },
+      {
+        name: "IGN",
+        nameKey: "ign_name",
+        descriptionKey: "ign_desc",
+        icon: "icons/wrappers/ign.webp",
+        url: "/wrappers/ign",
+        wrapper: true
+      },
     ]
   },
   {

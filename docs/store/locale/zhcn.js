@@ -332,33 +332,26 @@ const L = {
   mumu_global_desc: "MuMu 的国际版，提供全球下载镜像、多语言支持，并针对 Windows 和 macOS 优化跨平台模拟体验。",
 
   gamingcommunity_name: "游戏社区",
-
   murlok_name: "Murlok.io",
   murlok_desc: "提供魔兽世界天赋与构建指南。",
-
   wowforums_name: "魔兽世界论坛（美服）",
   wowforums_desc: "魔兽世界的官方游戏门户。",
-
   wowanalyzer_name: "WoWAnalyzer",
   wowanalyzer_desc: "通过个人反馈和数据分析提升你的表现，只需输入 Warcraft Logs 报告链接。",
-
   mmochampion_name: "MMO Champion",
   mmochampion_desc: "专注于魔兽世界的新闻与论坛中心，提供补丁说明、团队副本攻略和社区讨论。",
-
   warcraftlogs_name: "Warcraft Logs",
   warcraftlogs_desc: "魔兽世界战斗分析平台，提供详细的团队副本数据、排名和表现分析。",
-
   raiderio_name: "Raider.IO",
   raiderio_desc: "Raider.IO 是一个魔兽世界（WoW）秘境+和团队进度排名网站！",
-
   maplestory_name: "冒险岛",
   maplestory_desc: "冒险岛是最早的 MMORPG 游戏之一。",
-
   curseforge_name: "CurseForge",
   curseforge_desc: "CurseForge 是领先的游戏模组和插件平台，支持 Minecraft、魔兽世界和模拟人生 4 等游戏，并通过专用桌面应用简化模组管理。",
-
   minecraftforum_name: "Minecraft 论坛",
   minecraftforum_desc: "Minecraft 论坛是一个历史悠久的社区中心，面向玩家和模组开发者，提供讨论、教程、模组包和 Java 与基岩版的更新信息。",
+  ign_name: "IGN",
+  ign_desc: "一家媒体机构，通过评测、新闻和原创内容报道电子游戏、娱乐和流行文化。",
 
   learning_name: "学习",
   duolingo_global_name: "Duolingo",

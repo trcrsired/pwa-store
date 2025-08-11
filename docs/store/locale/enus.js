@@ -332,38 +332,30 @@ const L = {
   mumu_global_desc: "Global-facing version of MuMu with international download mirrors, multilingual support, and optimized cross-platform emulation for Windows and macOS.",
 
   gamingcommunity_name: "Gaming Community",
-
   murlok_name: "Murlok.io",
   murlok_desc: "WoW talent and build guides.",
-
   wowforums_name: "World of Warcraft Forums (US)",
   wowforums_desc: "Official game portal for WoW.",
-
   wowanalyzer_name: "WoWAnalyzer",
   wowanalyzer_desc: "Improve your performance with personal feedback and stats. Just enter the link of a Warcraft Logs report.",
-
   mmochampion_name: "MMO Champion",
   mmochampion_desc: "World of Warcraft-focused news and forum hub featuring patch notes, raid strategies, and community discussions.",
-
   warcraftlogs_name: "Warcraft Logs",
   warcraftlogs_desc: "Combat analysis platform for World of Warcraft, offering detailed raid metrics, rankings, and performance breakdowns.",
-
   raiderio_name: "Raider.IO",
   raiderio_desc: "Raider.IO is a World of Warcraft (WoW) Mythic+ and Raid Progression rankings site!",
-
   maplestory_name: "MapleStory",
   maplestory_desc: "Maplestory is one of the oldest MMORPGs out there.",
-
   curseforge_name: "CurseForge",
   curseforge_desc: "CurseForge is a leading platform for discovering, managing, and publishing mods and addons for games like Minecraft, World of Warcraft, and The Sims 4. It supports creators and simplifies modding with a dedicated desktop app.",
-
   minecraftforum_name: "Minecraft Forum",
   minecraftforum_desc: "Minecraft Forum is a long-standing community hub for Minecraft players and modders, offering discussions, tutorials, modpacks, and updates across both Java and Bedrock editions.",
+  ign_name: "IGN",
+  ign_desc: "A media outlet covering video games, entertainment, and pop culture through reviews, news, and original content.",
 
   learning_name: "Learning",
   duolingo_global_name: "Duolingo",
   duolingo_global_desc: "Gamified language learning.",
-
   duolingo_cn_name: "Duolingo (多邻国)",
   duolingo_cn_desc: "Localized Chinese version of Duolingo.",
 
