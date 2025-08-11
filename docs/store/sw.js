@@ -12,8 +12,8 @@ self.addEventListener("install", (event) => {
         "/store/app.js",
         "/store/lang.js",
         "/store/style.css",
-        "/store/how/en.html",
-        "/store/how/zh.html",
+        "/store/how/en/",
+        "/store/how/zh/",
         "/store/lang/zh.json",
       ]);
     })

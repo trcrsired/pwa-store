@@ -3,14 +3,13 @@ const CACHE_NAME = `pwa-cache-${CACHE_VERSION}`;
 
 const sharedFiles = [
   "./",
-  "./index.html",
   "./manifest.json",
   "./icons/icon.webp",
   "./styles.css",
   "./sw-register.js",
   "./install-check.js",
   "./config.js",
-  "./offline.html", // ✅ Make sure this exists
+  "./offline/", // ✅ Make sure this exists
 ];
 
 // Install: cache all shared files immediately
@@ -50,7 +49,7 @@ self.addEventListener("fetch", (event) => {
         cachedResponse ||
         fetch(request).catch(() => {
           if (request.mode === "navigate") {
-            return caches.match("./offline.html");
+            return caches.match("./offline/");
           }
         })
       );

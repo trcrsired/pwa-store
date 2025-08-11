@@ -2,7 +2,7 @@
   "site_title": "PWA商店",
   "site_subtitle": "安装并探索渐进式网络应用",
   "how_link": "如何安装渐进式网络应用",
-  "how_href": "how/zh.html",
+  "how_href": "how/zh/",
   "footer_browser_recommendation": "在安卓设备上，我们推荐使用微软 Edge 浏览器以获得最佳体验。由于兼容性限制，不建议使用 Firefox。我们强烈不推荐使用限制用户自由和应用灵活性的封闭系统，例如 iOS、ChromeOS、Windows S 模式以及一切华为设备。",
   "footer_extension_tip": "如果您正在使用安卓浏览器，建议安装 NoForceDownload 扩展程序。许多网站会强制提示用户下载APP，而此扩展可有效屏蔽最具干扰性的提示。",
   "footer_link_store": "在微软商店中获取 NoForceDownload",
