@@ -254,7 +254,8 @@ const L = {
 
   usnews_name: "US News",
   usnews_desc: "A leading American media outlet known for its rankings, analysis, and coverage of education, health, politics, and national affairs.",
-
+  cbsnews_name: "CBS News",
+  cbsnews_desc: "A U.S. news organization providing live coverage, investigative journalism, and in-depth reporting on national and global events.",
   nbc_name: "NBC",
   nbc_desc: "The National Broadcasting Company is the oldest major broadcast network in the U.S., known for its iconic peacock logo and a wide range of news, entertainment, and sports programming.",
   cnbc_name: "CNBC",

@@ -253,7 +253,8 @@ const L = {
 
   usnews_name: "美国新闻",
   usnews_desc: "美国知名媒体机构，以教育、健康、政治和国家事务的排名与分析报道而闻名。",
-
+  cbsnews_name: "CBS新闻",
+  cbsnews_desc: "一家美国新闻机构，提供直播报道、调查新闻和对国内外事件的深入报道。",
   nbc_name: "NBC",
   nbc_desc: "美国最早的主要广播电视网络，以标志性的孔雀标志和丰富的新闻、娱乐及体育节目而闻名。",
   cnbc_name: "CNBC",
