@@ -12,12 +12,12 @@
   "lang": "en",
   "icons": [
     {
-      "src": "logo/logo.webp",
+      "src": "/store/logo/logo.webp",
       "type": "image/webp",
       "sizes": "512x512"
     },
     {
-      "src": "logo/logo.png",
+      "src": "/store/logo/logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
