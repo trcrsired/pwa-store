@@ -1,14 +1,15 @@
 {
   "name": "Tieba",
   "short_name": "Tieba",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/tieba/index.html?source=pwa",
+  "scope": "/wrappers/tieba/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for Tieba",
+  "description": "PWA Wrapper for Tieba",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/tieba/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

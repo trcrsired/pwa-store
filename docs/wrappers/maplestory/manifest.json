@@ -1,14 +1,15 @@
 {
   "name": "MapleStory",
   "short_name": "MapleStory",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/maplestory/index.html?source=pwa",
+  "scope": "/wrappers/maplestory/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for MapleStory",
+  "description": "PWA Wrapper for MapleStory",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/maplestory/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

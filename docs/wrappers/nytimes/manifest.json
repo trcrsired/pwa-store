@@ -1,14 +1,15 @@
 {
   "name": "NY Times",
   "short_name": "NY Times",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/nytimes/index.html?source=pwa",
+  "scope": "/wrappers/nytimes/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for NY Times",
+  "description": "PWA Wrapper for NY Times",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/nytimes/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -1,14 +1,15 @@
 {
   "name": "DHS",
   "short_name": "DHS",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/dhs/index.html?source=pwa",
+  "scope": "/wrappers/dhs/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for DHS",
+  "description": "PWA Wrapper for DHS",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/dhs/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

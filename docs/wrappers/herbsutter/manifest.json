@@ -1,14 +1,15 @@
 {
   "name": "Herb Sutter",
   "short_name": "Herb Sutter",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/herbsutter/index.html?source=pwa",
+  "scope": "/wrappers/herbsutter/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for Herb Sutter",
+  "description": "PWA Wrapper for Herb Sutter",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/herbsutter/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

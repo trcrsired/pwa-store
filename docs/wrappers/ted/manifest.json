@@ -1,14 +1,15 @@
 {
   "name": "TED",
   "short_name": "TED",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/ted/index.html?source=pwa",
+  "scope": "/wrappers/ted/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for TED",
+  "description": "PWA Wrapper for TED",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/ted/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

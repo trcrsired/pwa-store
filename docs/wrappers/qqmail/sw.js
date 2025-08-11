@@ -1,4 +1,4 @@
-const CACHE_VERSION = "v0";
+const CACHE_VERSION = "v1";
 const CACHE_NAME = `pwa-cache-${CACHE_VERSION}`;
 
 const sharedFiles = [

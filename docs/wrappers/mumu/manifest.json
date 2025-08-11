@@ -1,14 +1,15 @@
 {
   "name": "Mumu Emulator(\u6a21\u62df\u5668)",
   "short_name": "Mumu Emulator(\u6a21\u62df\u5668)",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/mumu/index.html?source=pwa",
+  "scope": "/wrappers/mumu/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for Mumu Emulator(\u6a21\u62df\u5668)",
+  "description": "PWA Wrapper for Mumu Emulator(\u6a21\u62df\u5668)",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/mumu/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

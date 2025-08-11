@@ -1,14 +1,15 @@
 {
   "name": "Bing",
   "short_name": "Bing",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/bing/index.html?source=pwa",
+  "scope": "/wrappers/bing/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for Bing",
+  "description": "PWA Wrapper for Bing",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/bing/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

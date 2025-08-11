@@ -1,14 +1,15 @@
 {
   "name": "ISO C++",
   "short_name": "ISO C++",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/isocpp/index.html?source=pwa",
+  "scope": "/wrappers/isocpp/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for ISO C++",
+  "description": "PWA Wrapper for ISO C++",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/isocpp/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

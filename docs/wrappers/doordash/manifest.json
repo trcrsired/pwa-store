@@ -1,14 +1,15 @@
 {
   "name": "Doordash",
   "short_name": "Doordash",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/doordash/index.html?source=pwa",
+  "scope": "/wrappers/doordash/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for Doordash",
+  "description": "PWA Wrapper for Doordash",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/doordash/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

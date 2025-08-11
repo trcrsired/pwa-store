@@ -1,14 +1,15 @@
 {
   "name": "Netflix",
   "short_name": "Netflix",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/netflix/index.html?source=pwa",
+  "scope": "/wrappers/netflix/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for Netflix",
+  "description": "PWA Wrapper for Netflix",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/netflix/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

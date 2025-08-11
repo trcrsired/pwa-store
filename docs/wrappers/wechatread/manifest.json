@@ -1,14 +1,15 @@
 {
   "name": "WeChat Read",
   "short_name": "WeChat Read",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/wechatread/index.html?source=pwa",
+  "scope": "/wrappers/wechatread/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for WeChat Read",
+  "description": "PWA Wrapper for WeChat Read",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/wechatread/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

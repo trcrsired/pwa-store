@@ -1,14 +1,15 @@
 {
   "name": "Paypal",
   "short_name": "Paypal",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/paypal/index.html?source=pwa",
+  "scope": "/wrappers/paypal/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for Paypal",
+  "description": "PWA Wrapper for Paypal",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/paypal/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

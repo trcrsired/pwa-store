@@ -1,14 +1,15 @@
 {
   "name": "UHS",
   "short_name": "UHS",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/uhs/index.html?source=pwa",
+  "scope": "/wrappers/uhs/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for UHS",
+  "description": "PWA Wrapper for UHS",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/uhs/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

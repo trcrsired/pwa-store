@@ -1,14 +1,15 @@
 {
   "name": "CCTV",
   "short_name": "CCTV",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/cctv/index.html?source=pwa",
+  "scope": "/wrappers/cctv/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for CCTV",
+  "description": "PWA Wrapper for CCTV",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/cctv/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

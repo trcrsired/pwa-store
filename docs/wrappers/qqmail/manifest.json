@@ -1,14 +1,15 @@
 {
   "name": "QQ Mail",
   "short_name": "QQ Mail",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/qqmail/index.html?source=pwa",
+  "scope": "/wrappers/qqmail/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for QQ Mail",
+  "description": "PWA Wrapper for QQ Mail",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/qqmail/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

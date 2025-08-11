@@ -1,14 +1,15 @@
 {
   "name": "EEOC",
   "short_name": "EEOC",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/eeoc/index.html?source=pwa",
+  "scope": "/wrappers/eeoc/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for EEOC",
+  "description": "PWA Wrapper for EEOC",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/eeoc/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -1,14 +1,15 @@
 {
   "name": "WarcraftLogs",
   "short_name": "WarcraftLogs",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/warcraftlogs/index.html?source=pwa",
+  "scope": "/wrappers/warcraftlogs/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for WarcraftLogs",
+  "description": "PWA Wrapper for WarcraftLogs",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/warcraftlogs/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

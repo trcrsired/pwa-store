@@ -1,14 +1,15 @@
 {
   "name": "ifeng",
   "short_name": "ifeng",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/ifeng/index.html?source=pwa",
+  "scope": "/wrappers/ifeng/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for ifeng",
+  "description": "PWA Wrapper for ifeng",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/ifeng/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

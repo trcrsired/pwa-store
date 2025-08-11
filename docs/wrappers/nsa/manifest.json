@@ -1,14 +1,15 @@
 {
   "name": "NSA",
   "short_name": "NSA",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/nsa/index.html?source=pwa",
+  "scope": "/wrappers/nsa/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for NSA",
+  "description": "PWA Wrapper for NSA",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/nsa/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

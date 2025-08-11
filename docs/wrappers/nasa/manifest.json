@@ -1,14 +1,15 @@
 {
   "name": "NASA",
   "short_name": "NASA",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/nasa/index.html?source=pwa",
+  "scope": "/wrappers/nasa/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for NASA",
+  "description": "PWA Wrapper for NASA",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/nasa/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

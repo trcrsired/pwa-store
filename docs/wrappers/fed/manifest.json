@@ -1,14 +1,15 @@
 {
   "name": "FED",
   "short_name": "FED",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/fed/index.html?source=pwa",
+  "scope": "/wrappers/fed/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for FED",
+  "description": "PWA Wrapper for FED",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/fed/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

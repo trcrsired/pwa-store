@@ -1,14 +1,15 @@
 {
   "name": "UN",
   "short_name": "UN",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/un/index.html?source=pwa",
+  "scope": "/wrappers/un/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for UN",
+  "description": "PWA Wrapper for UN",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/un/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -1,14 +1,15 @@
 {
   "name": "GeeksForGeeks",
   "short_name": "GeeksForGeeks",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/geeksforgeeks/index.html?source=pwa",
+  "scope": "/wrappers/geeksforgeeks/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for GeeksForGeeks",
+  "description": "PWA Wrapper for GeeksForGeeks",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/geeksforgeeks/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -1,14 +1,15 @@
 {
   "name": "DOJ",
   "short_name": "DOJ",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/doj/index.html?source=pwa",
+  "scope": "/wrappers/doj/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for DOJ",
+  "description": "PWA Wrapper for DOJ",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/doj/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

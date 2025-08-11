@@ -1,14 +1,15 @@
 {
   "name": "REVCOM.US",
   "short_name": "REVCOM.US",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/revcomus/index.html?source=pwa",
+  "scope": "/wrappers/revcomus/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for REVCOM.US",
+  "description": "PWA Wrapper for REVCOM.US",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/revcomus/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

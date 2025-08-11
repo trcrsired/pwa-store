@@ -1,14 +1,15 @@
 {
   "name": "163 Mail",
   "short_name": "163 Mail",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/netease163/index.html?source=pwa",
+  "scope": "/wrappers/netease163/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for 163 Mail",
+  "description": "PWA Wrapper for 163 Mail",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/netease163/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

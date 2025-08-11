@@ -1,14 +1,15 @@
 {
   "name": "Lyft",
   "short_name": "Lyft",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/lyft/index.html?source=pwa",
+  "scope": "/wrappers/lyft/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for Lyft",
+  "description": "PWA Wrapper for Lyft",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/lyft/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

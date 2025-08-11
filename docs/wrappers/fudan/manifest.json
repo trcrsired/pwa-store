@@ -1,14 +1,15 @@
 {
   "name": "Fudan University",
   "short_name": "Fudan University",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/fudan/index.html?source=pwa",
+  "scope": "/wrappers/fudan/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for Fudan University",
+  "description": "PWA Wrapper for Fudan University",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/fudan/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

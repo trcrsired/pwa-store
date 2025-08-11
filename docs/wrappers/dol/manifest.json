@@ -1,14 +1,15 @@
 {
   "name": "DOL",
   "short_name": "DOL",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/dol/index.html?source=pwa",
+  "scope": "/wrappers/dol/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for DOL",
+  "description": "PWA Wrapper for DOL",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/dol/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

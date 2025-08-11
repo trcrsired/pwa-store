@@ -1,14 +1,15 @@
 {
   "name": "White House",
   "short_name": "White House",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/whitehouse/index.html?source=pwa",
+  "scope": "/wrappers/whitehouse/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for White House",
+  "description": "PWA Wrapper for White House",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/whitehouse/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

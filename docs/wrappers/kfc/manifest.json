@@ -1,14 +1,15 @@
 {
   "name": "KFC",
   "short_name": "KFC",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/kfc/index.html?source=pwa",
+  "scope": "/wrappers/kfc/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for KFC",
+  "description": "PWA Wrapper for KFC",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/kfc/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

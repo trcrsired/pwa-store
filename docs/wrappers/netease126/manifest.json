@@ -1,14 +1,15 @@
 {
   "name": "126 Mail",
   "short_name": "126 Mail",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/netease126/index.html?source=pwa",
+  "scope": "/wrappers/netease126/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for 126 Mail",
+  "description": "PWA Wrapper for 126 Mail",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/netease126/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

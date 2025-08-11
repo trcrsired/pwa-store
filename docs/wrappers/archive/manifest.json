@@ -1,14 +1,15 @@
 {
   "name": "Internet Archive",
   "short_name": "Internet Archive",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/archive/index.html?source=pwa",
+  "scope": "/wrappers/archive/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for Internet Archive",
+  "description": "PWA Wrapper for Internet Archive",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/archive/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

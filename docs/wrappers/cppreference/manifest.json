@@ -1,14 +1,15 @@
 {
   "name": "cppreference",
   "short_name": "cppreference",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/cppreference/index.html?source=pwa",
+  "scope": "/wrappers/cppreference/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for cppreference",
+  "description": "PWA Wrapper for cppreference",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/cppreference/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

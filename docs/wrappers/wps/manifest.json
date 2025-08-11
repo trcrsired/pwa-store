@@ -1,14 +1,15 @@
 {
   "name": "WPS",
   "short_name": "WPS",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/wps/index.html?source=pwa",
+  "scope": "/wrappers/wps/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for WPS",
+  "description": "PWA Wrapper for WPS",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/wps/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

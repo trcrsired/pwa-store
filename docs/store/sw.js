@@ -4,16 +4,16 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       return cache.addAll([
-        "./",
-        "./manifest.json",
-        "./logo/logo.webp",
-        "./content.js",
-        "./app.js",
-        "./lang.js",
-        "./style.css",
-        "./how_en.html",
-        "./how_zh.html",
-        "./lang/zh.json",
+        "/",
+        "/manifest.json",
+        "/logo/logo.webp",
+        "/content.js",
+        "/app.js",
+        "/lang.js",
+        "/style.css",
+        "/how_en.html",
+        "/how_zh.html",
+        "/lang/zh.json",
       ]);
     })
   );

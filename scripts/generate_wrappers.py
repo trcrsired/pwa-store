@@ -11,7 +11,7 @@ if len(sys.argv) != 2:
 
 ROOT = Path(sys.argv[1])
 SHARED_DIR = ROOT / "wrappers_shared"
-ICONS_DIR = ROOT / "docs" / "icons" / "wrappers"
+ICONS_DIR = ROOT / "docs" / "store" / "icons" / "wrappers"
 WRAPPER_OUTPUT = ROOT / "docs" / "wrappers"
 
 WRAPPERS = [
@@ -150,17 +150,18 @@ INDEX_HTML = """<!DOCTYPE html>
 def encode(text):
     return text.encode("utf-8")
 
-def build_manifest(name):
+def build_manifest(name, key):
     manifest = {
         "name": name,
         "short_name": name,
-        "start_url": "/?source=pwa",
+        "start_url": f"/wrappers/{key}/index.html?source=pwa",
+        "scope": f"/wrappers/{key}/",
         "background_color": "black",
         "theme_color": "black",
-        "description": f"A Progressive Web APP Wrapper for {name}",
+        "description": f"PWA Wrapper for {name}",
         "display": "standalone",
         "icons": [{
-            "src": "icons/icon.webp",
+            "src": f"/wrappers/{key}/icons/icon.webp",
             "type": "image/webp",
             "sizes": "512x512"
         }]
@@ -212,6 +213,6 @@ for wrapper in WRAPPERS:
 
     # Generate manifest.json
     with open(dest / "manifest.json", "wb") as f:
-        f.write(build_manifest(name))
+        f.write(build_manifest(name, key))
 
     print(f"✅ Generated wrapper: {name} → {key} → icon: {icon_file}")

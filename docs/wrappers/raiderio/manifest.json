@@ -1,14 +1,15 @@
 {
   "name": "Raider.IO",
   "short_name": "Raider.IO",
-  "start_url": "/?source=pwa",
+  "start_url": "/wrappers/raiderio/index.html?source=pwa",
+  "scope": "/wrappers/raiderio/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "A Progressive Web APP Wrapper for Raider.IO",
+  "description": "PWA Wrapper for Raider.IO",
   "display": "standalone",
   "icons": [
     {
-      "src": "icons/icon.webp",
+      "src": "/wrappers/raiderio/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }
