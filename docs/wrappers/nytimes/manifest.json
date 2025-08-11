@@ -1,7 +1,7 @@
 {
   "name": "NY Times",
   "short_name": "NY Times",
-  "start_url": "/wrappers/nytimes/index.html?source=pwa",
+  "start_url": "/wrappers/nytimes/?source=pwa",
   "scope": "/wrappers/nytimes/",
   "background_color": "black",
   "theme_color": "black",

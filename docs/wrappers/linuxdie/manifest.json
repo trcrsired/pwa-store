@@ -1,7 +1,7 @@
 {
   "name": "linux.die",
   "short_name": "linux.die",
-  "start_url": "/wrappers/linuxdie/index.html?source=pwa",
+  "start_url": "/wrappers/linuxdie/?source=pwa",
   "scope": "/wrappers/linuxdie/",
   "background_color": "black",
   "theme_color": "black",

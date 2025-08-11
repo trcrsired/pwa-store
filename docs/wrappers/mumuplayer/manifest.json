@@ -1,7 +1,7 @@
 {
   "name": "MumuPlayer",
   "short_name": "MumuPlayer",
-  "start_url": "/wrappers/mumuplayer/index.html?source=pwa",
+  "start_url": "/wrappers/mumuplayer/?source=pwa",
   "scope": "/wrappers/mumuplayer/",
   "background_color": "black",
   "theme_color": "black",

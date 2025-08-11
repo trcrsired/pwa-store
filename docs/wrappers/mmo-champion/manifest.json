@@ -1,7 +1,7 @@
 {
   "name": "MMO Champion",
   "short_name": "MMO Champion",
-  "start_url": "/wrappers/mmo-champion/index.html?source=pwa",
+  "start_url": "/wrappers/mmo-champion/?source=pwa",
   "scope": "/wrappers/mmo-champion/",
   "background_color": "black",
   "theme_color": "black",

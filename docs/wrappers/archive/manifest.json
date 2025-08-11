@@ -1,7 +1,7 @@
 {
   "name": "Internet Archive",
   "short_name": "Internet Archive",
-  "start_url": "/wrappers/archive/index.html?source=pwa",
+  "start_url": "/wrappers/archive/?source=pwa",
   "scope": "/wrappers/archive/",
   "background_color": "black",
   "theme_color": "black",

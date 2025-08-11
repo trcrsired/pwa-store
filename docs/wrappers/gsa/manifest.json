@@ -1,7 +1,7 @@
 {
   "name": "GSA",
   "short_name": "GSA",
-  "start_url": "/wrappers/gsa/index.html?source=pwa",
+  "start_url": "/wrappers/gsa/?source=pwa",
   "scope": "/wrappers/gsa/",
   "background_color": "black",
   "theme_color": "black",

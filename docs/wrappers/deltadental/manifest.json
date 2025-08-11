@@ -1,7 +1,7 @@
 {
   "name": "Delta Dental",
   "short_name": "Delta Dental",
-  "start_url": "/wrappers/deltadental/index.html?source=pwa",
+  "start_url": "/wrappers/deltadental/?source=pwa",
   "scope": "/wrappers/deltadental/",
   "background_color": "black",
   "theme_color": "black",

@@ -1,7 +1,7 @@
 {
   "name": "HotCRP",
   "short_name": "HotCRP",
-  "start_url": "/wrappers/hotcrp/index.html?source=pwa",
+  "start_url": "/wrappers/hotcrp/?source=pwa",
   "scope": "/wrappers/hotcrp/",
   "background_color": "black",
   "theme_color": "black",

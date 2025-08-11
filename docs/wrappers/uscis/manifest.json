@@ -1,7 +1,7 @@
 {
   "name": "USCIS",
   "short_name": "USCIS",
-  "start_url": "/wrappers/uscis/index.html?source=pwa",
+  "start_url": "/wrappers/uscis/?source=pwa",
   "scope": "/wrappers/uscis/",
   "background_color": "black",
   "theme_color": "black",

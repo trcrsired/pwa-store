@@ -1,7 +1,7 @@
 {
   "name": "DOS",
   "short_name": "DOS",
-  "start_url": "/wrappers/dos/index.html?source=pwa",
+  "start_url": "/wrappers/dos/?source=pwa",
   "scope": "/wrappers/dos/",
   "background_color": "black",
   "theme_color": "black",

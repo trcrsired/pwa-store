@@ -1,7 +1,7 @@
 {
   "name": "OMB",
   "short_name": "OMB",
-  "start_url": "/wrappers/omb/index.html?source=pwa",
+  "start_url": "/wrappers/omb/?source=pwa",
   "scope": "/wrappers/omb/",
   "background_color": "black",
   "theme_color": "black",

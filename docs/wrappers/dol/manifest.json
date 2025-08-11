@@ -1,7 +1,7 @@
 {
   "name": "DOL",
   "short_name": "DOL",
-  "start_url": "/wrappers/dol/index.html?source=pwa",
+  "start_url": "/wrappers/dol/?source=pwa",
   "scope": "/wrappers/dol/",
   "background_color": "black",
   "theme_color": "black",

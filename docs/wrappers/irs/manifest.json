@@ -1,7 +1,7 @@
 {
   "name": "IRS",
   "short_name": "IRS",
-  "start_url": "/wrappers/irs/index.html?source=pwa",
+  "start_url": "/wrappers/irs/?source=pwa",
   "scope": "/wrappers/irs/",
   "background_color": "black",
   "theme_color": "black",

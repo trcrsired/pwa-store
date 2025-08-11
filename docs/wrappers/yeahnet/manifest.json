@@ -1,7 +1,7 @@
 {
   "name": "yeah.net Mail",
   "short_name": "yeah.net Mail",
-  "start_url": "/wrappers/yeahnet/index.html?source=pwa",
+  "start_url": "/wrappers/yeahnet/?source=pwa",
   "scope": "/wrappers/yeahnet/",
   "background_color": "black",
   "theme_color": "black",

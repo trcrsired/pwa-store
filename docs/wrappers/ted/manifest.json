@@ -1,7 +1,7 @@
 {
   "name": "TED",
   "short_name": "TED",
-  "start_url": "/wrappers/ted/index.html?source=pwa",
+  "start_url": "/wrappers/ted/?source=pwa",
   "scope": "/wrappers/ted/",
   "background_color": "black",
   "theme_color": "black",

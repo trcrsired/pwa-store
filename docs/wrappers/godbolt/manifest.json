@@ -1,7 +1,7 @@
 {
   "name": "Compiler Explorer",
   "short_name": "Compiler Explorer",
-  "start_url": "/wrappers/godbolt/index.html?source=pwa",
+  "start_url": "/wrappers/godbolt/?source=pwa",
   "scope": "/wrappers/godbolt/",
   "background_color": "black",
   "theme_color": "black",

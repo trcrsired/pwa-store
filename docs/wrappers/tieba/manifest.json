@@ -1,7 +1,7 @@
 {
   "name": "Tieba",
   "short_name": "Tieba",
-  "start_url": "/wrappers/tieba/index.html?source=pwa",
+  "start_url": "/wrappers/tieba/?source=pwa",
   "scope": "/wrappers/tieba/",
   "background_color": "black",
   "theme_color": "black",

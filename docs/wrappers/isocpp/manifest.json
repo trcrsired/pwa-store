@@ -1,7 +1,7 @@
 {
   "name": "ISO C++",
   "short_name": "ISO C++",
-  "start_url": "/wrappers/isocpp/index.html?source=pwa",
+  "start_url": "/wrappers/isocpp/?source=pwa",
   "scope": "/wrappers/isocpp/",
   "background_color": "black",
   "theme_color": "black",

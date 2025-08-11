@@ -1,7 +1,7 @@
 {
   "name": "Doordash",
   "short_name": "Doordash",
-  "start_url": "/wrappers/doordash/index.html?source=pwa",
+  "start_url": "/wrappers/doordash/?source=pwa",
   "scope": "/wrappers/doordash/",
   "background_color": "black",
   "theme_color": "black",

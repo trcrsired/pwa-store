@@ -1,7 +1,7 @@
 {
   "name": "Subway",
   "short_name": "Subway",
-  "start_url": "/wrappers/subway/index.html?source=pwa",
+  "start_url": "/wrappers/subway/?source=pwa",
   "scope": "/wrappers/subway/",
   "background_color": "black",
   "theme_color": "black",

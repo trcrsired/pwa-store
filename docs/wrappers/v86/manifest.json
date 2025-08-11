@@ -1,7 +1,7 @@
 {
   "name": "v86",
   "short_name": "v86",
-  "start_url": "/wrappers/v86/index.html?source=pwa",
+  "start_url": "/wrappers/v86/?source=pwa",
   "scope": "/wrappers/v86/",
   "background_color": "black",
   "theme_color": "black",

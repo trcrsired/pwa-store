@@ -1,7 +1,7 @@
 {
   "name": "Bing",
   "short_name": "Bing",
-  "start_url": "/wrappers/bing/index.html?source=pwa",
+  "start_url": "/wrappers/bing/?source=pwa",
   "scope": "/wrappers/bing/",
   "background_color": "black",
   "theme_color": "black",

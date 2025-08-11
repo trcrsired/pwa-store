@@ -1,7 +1,7 @@
 {
   "name": "NVIDIA",
   "short_name": "NVIDIA",
-  "start_url": "/wrappers/nvidia/index.html?source=pwa",
+  "start_url": "/wrappers/nvidia/?source=pwa",
   "scope": "/wrappers/nvidia/",
   "background_color": "black",
   "theme_color": "black",

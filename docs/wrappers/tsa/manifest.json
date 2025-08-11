@@ -1,7 +1,7 @@
 {
   "name": "TSA",
   "short_name": "TSA",
-  "start_url": "/wrappers/tsa/index.html?source=pwa",
+  "start_url": "/wrappers/tsa/?source=pwa",
   "scope": "/wrappers/tsa/",
   "background_color": "black",
   "theme_color": "black",

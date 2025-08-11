@@ -1,7 +1,7 @@
 {
   "name": "GCC MCF",
   "short_name": "GCC MCF",
-  "start_url": "/wrappers/gccmcf/index.html?source=pwa",
+  "start_url": "/wrappers/gccmcf/?source=pwa",
   "scope": "/wrappers/gccmcf/",
   "background_color": "black",
   "theme_color": "black",

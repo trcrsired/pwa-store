@@ -1,7 +1,7 @@
 {
   "name": "CCTV",
   "short_name": "CCTV",
-  "start_url": "/wrappers/cctv/index.html?source=pwa",
+  "start_url": "/wrappers/cctv/?source=pwa",
   "scope": "/wrappers/cctv/",
   "background_color": "black",
   "theme_color": "black",

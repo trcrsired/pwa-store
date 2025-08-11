@@ -1,7 +1,7 @@
 {
   "name": "FTC",
   "short_name": "FTC",
-  "start_url": "/wrappers/ftc/index.html?source=pwa",
+  "start_url": "/wrappers/ftc/?source=pwa",
   "scope": "/wrappers/ftc/",
   "background_color": "black",
   "theme_color": "black",

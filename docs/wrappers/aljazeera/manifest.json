@@ -1,7 +1,7 @@
 {
   "name": "Al Jazeera",
   "short_name": "Al Jazeera",
-  "start_url": "/wrappers/aljazeera/index.html?source=pwa",
+  "start_url": "/wrappers/aljazeera/?source=pwa",
   "scope": "/wrappers/aljazeera/",
   "background_color": "black",
   "theme_color": "black",

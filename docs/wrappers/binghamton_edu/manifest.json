@@ -1,7 +1,7 @@
 {
   "name": "Binghamton Univeristy",
   "short_name": "Binghamton Univeristy",
-  "start_url": "/wrappers/binghamton_edu/index.html?source=pwa",
+  "start_url": "/wrappers/binghamton_edu/?source=pwa",
   "scope": "/wrappers/binghamton_edu/",
   "background_color": "black",
   "theme_color": "black",

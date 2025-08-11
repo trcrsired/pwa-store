@@ -1,7 +1,7 @@
 {
   "name": "Mumu Emulator(\u6a21\u62df\u5668)",
   "short_name": "Mumu Emulator(\u6a21\u62df\u5668)",
-  "start_url": "/wrappers/mumu/index.html?source=pwa",
+  "start_url": "/wrappers/mumu/?source=pwa",
   "scope": "/wrappers/mumu/",
   "background_color": "black",
   "theme_color": "black",

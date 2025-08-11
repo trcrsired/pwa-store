@@ -1,7 +1,7 @@
 {
   "name": "WeChat Read",
   "short_name": "WeChat Read",
-  "start_url": "/wrappers/wechatread/index.html?source=pwa",
+  "start_url": "/wrappers/wechatread/?source=pwa",
   "scope": "/wrappers/wechatread/",
   "background_color": "black",
   "theme_color": "black",

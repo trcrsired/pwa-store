@@ -1,7 +1,7 @@
 {
   "name": "CGTN",
   "short_name": "CGTN",
-  "start_url": "/wrappers/cgtn/index.html?source=pwa",
+  "start_url": "/wrappers/cgtn/?source=pwa",
   "scope": "/wrappers/cgtn/",
   "background_color": "black",
   "theme_color": "black",

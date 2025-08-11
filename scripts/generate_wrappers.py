@@ -154,7 +154,7 @@ def build_manifest(name, key):
     manifest = {
         "name": name,
         "short_name": name,
-        "start_url": f"/wrappers/{key}/index.html?source=pwa",
+        "start_url": f"/wrappers/{key}/?source=pwa",
         "scope": f"/wrappers/{key}/",
         "background_color": "black",
         "theme_color": "black",

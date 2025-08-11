@@ -1,7 +1,7 @@
 {
   "name": "Paypal",
   "short_name": "Paypal",
-  "start_url": "/wrappers/paypal/index.html?source=pwa",
+  "start_url": "/wrappers/paypal/?source=pwa",
   "scope": "/wrappers/paypal/",
   "background_color": "black",
   "theme_color": "black",

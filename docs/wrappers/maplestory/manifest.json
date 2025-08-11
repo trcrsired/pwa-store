@@ -1,7 +1,7 @@
 {
   "name": "MapleStory",
   "short_name": "MapleStory",
-  "start_url": "/wrappers/maplestory/index.html?source=pwa",
+  "start_url": "/wrappers/maplestory/?source=pwa",
   "scope": "/wrappers/maplestory/",
   "background_color": "black",
   "theme_color": "black",

@@ -1,7 +1,7 @@
 {
   "name": "DHS",
   "short_name": "DHS",
-  "start_url": "/wrappers/dhs/index.html?source=pwa",
+  "start_url": "/wrappers/dhs/?source=pwa",
   "scope": "/wrappers/dhs/",
   "background_color": "black",
   "theme_color": "black",

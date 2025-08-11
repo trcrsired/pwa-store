@@ -1,7 +1,7 @@
 {
   "name": "REVCOM.US",
   "short_name": "REVCOM.US",
-  "start_url": "/wrappers/revcomus/index.html?source=pwa",
+  "start_url": "/wrappers/revcomus/?source=pwa",
   "scope": "/wrappers/revcomus/",
   "background_color": "black",
   "theme_color": "black",

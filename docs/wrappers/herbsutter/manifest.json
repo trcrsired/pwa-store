@@ -1,7 +1,7 @@
 {
   "name": "Herb Sutter",
   "short_name": "Herb Sutter",
-  "start_url": "/wrappers/herbsutter/index.html?source=pwa",
+  "start_url": "/wrappers/herbsutter/?source=pwa",
   "scope": "/wrappers/herbsutter/",
   "background_color": "black",
   "theme_color": "black",

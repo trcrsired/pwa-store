@@ -1,7 +1,7 @@
 {
   "name": "QQ Mail",
   "short_name": "QQ Mail",
-  "start_url": "/wrappers/qqmail/index.html?source=pwa",
+  "start_url": "/wrappers/qqmail/?source=pwa",
   "scope": "/wrappers/qqmail/",
   "background_color": "black",
   "theme_color": "black",

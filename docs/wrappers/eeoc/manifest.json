@@ -1,7 +1,7 @@
 {
   "name": "EEOC",
   "short_name": "EEOC",
-  "start_url": "/wrappers/eeoc/index.html?source=pwa",
+  "start_url": "/wrappers/eeoc/?source=pwa",
   "scope": "/wrappers/eeoc/",
   "background_color": "black",
   "theme_color": "black",

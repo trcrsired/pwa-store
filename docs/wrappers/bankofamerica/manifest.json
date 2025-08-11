@@ -1,7 +1,7 @@
 {
   "name": "Bank of America",
   "short_name": "Bank of America",
-  "start_url": "/wrappers/bankofamerica/index.html?source=pwa",
+  "start_url": "/wrappers/bankofamerica/?source=pwa",
   "scope": "/wrappers/bankofamerica/",
   "background_color": "black",
   "theme_color": "black",

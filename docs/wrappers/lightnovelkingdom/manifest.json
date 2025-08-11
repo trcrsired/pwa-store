@@ -1,7 +1,7 @@
 {
   "name": "Lightnovel Kingdom",
   "short_name": "Lightnovel Kingdom",
-  "start_url": "/wrappers/lightnovelkingdom/index.html?source=pwa",
+  "start_url": "/wrappers/lightnovelkingdom/?source=pwa",
   "scope": "/wrappers/lightnovelkingdom/",
   "background_color": "black",
   "theme_color": "black",

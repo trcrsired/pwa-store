@@ -1,7 +1,7 @@
 {
   "name": "USA.gov",
   "short_name": "USA.gov",
-  "start_url": "/wrappers/usagov/index.html?source=pwa",
+  "start_url": "/wrappers/usagov/?source=pwa",
   "scope": "/wrappers/usagov/",
   "background_color": "black",
   "theme_color": "black",

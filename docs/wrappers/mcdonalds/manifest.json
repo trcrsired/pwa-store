@@ -1,7 +1,7 @@
 {
   "name": "McDonald's",
   "short_name": "McDonald's",
-  "start_url": "/wrappers/mcdonalds/index.html?source=pwa",
+  "start_url": "/wrappers/mcdonalds/?source=pwa",
   "scope": "/wrappers/mcdonalds/",
   "background_color": "black",
   "theme_color": "black",

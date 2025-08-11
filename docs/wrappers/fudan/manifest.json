@@ -1,7 +1,7 @@
 {
   "name": "Fudan University",
   "short_name": "Fudan University",
-  "start_url": "/wrappers/fudan/index.html?source=pwa",
+  "start_url": "/wrappers/fudan/?source=pwa",
   "scope": "/wrappers/fudan/",
   "background_color": "black",
   "theme_color": "black",

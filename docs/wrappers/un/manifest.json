@@ -1,7 +1,7 @@
 {
   "name": "UN",
   "short_name": "UN",
-  "start_url": "/wrappers/un/index.html?source=pwa",
+  "start_url": "/wrappers/un/?source=pwa",
   "scope": "/wrappers/un/",
   "background_color": "black",
   "theme_color": "black",

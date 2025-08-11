@@ -1,7 +1,7 @@
 {
   "name": "DOD",
   "short_name": "DOD",
-  "start_url": "/wrappers/dod/index.html?source=pwa",
+  "start_url": "/wrappers/dod/?source=pwa",
   "scope": "/wrappers/dod/",
   "background_color": "black",
   "theme_color": "black",

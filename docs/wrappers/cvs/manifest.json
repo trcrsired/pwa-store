@@ -1,7 +1,7 @@
 {
   "name": "CVS",
   "short_name": "CVS",
-  "start_url": "/wrappers/cvs/index.html?source=pwa",
+  "start_url": "/wrappers/cvs/?source=pwa",
   "scope": "/wrappers/cvs/",
   "background_color": "black",
   "theme_color": "black",

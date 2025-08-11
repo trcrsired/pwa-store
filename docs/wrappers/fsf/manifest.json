@@ -1,7 +1,7 @@
 {
   "name": "Free Software Foundations",
   "short_name": "Free Software Foundations",
-  "start_url": "/wrappers/fsf/index.html?source=pwa",
+  "start_url": "/wrappers/fsf/?source=pwa",
   "scope": "/wrappers/fsf/",
   "background_color": "black",
   "theme_color": "black",

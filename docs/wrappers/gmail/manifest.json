@@ -1,7 +1,7 @@
 {
   "name": "Gmail",
   "short_name": "Gmail",
-  "start_url": "/wrappers/gmail/index.html?source=pwa",
+  "start_url": "/wrappers/gmail/?source=pwa",
   "scope": "/wrappers/gmail/",
   "background_color": "black",
   "theme_color": "black",

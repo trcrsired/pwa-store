@@ -1,7 +1,7 @@
 {
   "name": "Tao Piao Piao",
   "short_name": "Tao Piao Piao",
-  "start_url": "/wrappers/taopiaopiao/index.html?source=pwa",
+  "start_url": "/wrappers/taopiaopiao/?source=pwa",
   "scope": "/wrappers/taopiaopiao/",
   "background_color": "black",
   "theme_color": "black",

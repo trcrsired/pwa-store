@@ -1,7 +1,7 @@
 {
   "name": "126 Mail",
   "short_name": "126 Mail",
-  "start_url": "/wrappers/netease126/index.html?source=pwa",
+  "start_url": "/wrappers/netease126/?source=pwa",
   "scope": "/wrappers/netease126/",
   "background_color": "black",
   "theme_color": "black",

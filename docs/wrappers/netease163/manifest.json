@@ -1,7 +1,7 @@
 {
   "name": "163 Mail",
   "short_name": "163 Mail",
-  "start_url": "/wrappers/netease163/index.html?source=pwa",
+  "start_url": "/wrappers/netease163/?source=pwa",
   "scope": "/wrappers/netease163/",
   "background_color": "black",
   "theme_color": "black",

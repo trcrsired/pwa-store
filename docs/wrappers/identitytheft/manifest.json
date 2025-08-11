@@ -1,7 +1,7 @@
 {
   "name": "IdentityTheft",
   "short_name": "IdentityTheft",
-  "start_url": "/wrappers/identitytheft/index.html?source=pwa",
+  "start_url": "/wrappers/identitytheft/?source=pwa",
   "scope": "/wrappers/identitytheft/",
   "background_color": "black",
   "theme_color": "black",

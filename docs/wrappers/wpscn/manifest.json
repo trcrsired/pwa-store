@@ -1,7 +1,7 @@
 {
   "name": "WPS (CN)",
   "short_name": "WPS (CN)",
-  "start_url": "/wrappers/wpscn/index.html?source=pwa",
+  "start_url": "/wrappers/wpscn/?source=pwa",
   "scope": "/wrappers/wpscn/",
   "background_color": "black",
   "theme_color": "black",

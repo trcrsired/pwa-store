@@ -1,7 +1,7 @@
 {
   "name": "UHS",
   "short_name": "UHS",
-  "start_url": "/wrappers/uhs/index.html?source=pwa",
+  "start_url": "/wrappers/uhs/?source=pwa",
   "scope": "/wrappers/uhs/",
   "background_color": "black",
   "theme_color": "black",

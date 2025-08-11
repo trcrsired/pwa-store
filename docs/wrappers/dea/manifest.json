@@ -1,7 +1,7 @@
 {
   "name": "DEA",
   "short_name": "DEA",
-  "start_url": "/wrappers/dea/index.html?source=pwa",
+  "start_url": "/wrappers/dea/?source=pwa",
   "scope": "/wrappers/dea/",
   "background_color": "black",
   "theme_color": "black",

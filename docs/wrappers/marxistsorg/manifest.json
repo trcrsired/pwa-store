@@ -1,7 +1,7 @@
 {
   "name": "Marxists Internet Archive",
   "short_name": "Marxists Internet Archive",
-  "start_url": "/wrappers/marxistsorg/index.html?source=pwa",
+  "start_url": "/wrappers/marxistsorg/?source=pwa",
   "scope": "/wrappers/marxistsorg/",
   "background_color": "black",
   "theme_color": "black",

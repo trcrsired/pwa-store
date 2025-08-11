@@ -1,7 +1,7 @@
 {
   "name": "ifeng",
   "short_name": "ifeng",
-  "start_url": "/wrappers/ifeng/index.html?source=pwa",
+  "start_url": "/wrappers/ifeng/?source=pwa",
   "scope": "/wrappers/ifeng/",
   "background_color": "black",
   "theme_color": "black",
