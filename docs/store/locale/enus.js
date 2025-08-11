@@ -255,6 +255,13 @@ const L = {
   usnews_name: "US News",
   usnews_desc: "A leading American media outlet known for its rankings, analysis, and coverage of education, health, politics, and national affairs.",
 
+  nbc_name: "NBC",
+  nbc_desc: "The National Broadcasting Company is the oldest major broadcast network in the U.S., known for its iconic peacock logo and a wide range of news, entertainment, and sports programming.",
+  cnbc_name: "CNBC",
+  cnbc_desc: "An American business news channel providing real-time coverage of financial markets, economic trends, and investment insights.",
+  msnbc_name: "MSNBC",
+  msnbc_desc: "A U.S. news network offering political analysis, breaking news, and commentary on current affairs.",
+
   nittele_name: "Nippon TV NEWS (日テレNEWS)",
   nittele_desc: "A Japanese-language news network operated by Nippon TV, offering 24-hour coverage of domestic news, weather, and emergency alerts.",
 
