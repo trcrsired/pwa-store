@@ -18,6 +18,7 @@ WRAPPERS = [
   { "name": "CVS", "url": "https://www.cvs.com" },
   { "name": "Internet Archive", "url": "https://archive.org", "keyify_name": "archive" },
   { "name": "Bing", "url": "https://www.bing.com" },
+  { "name": "MSN", "url": "https://www.msn.com" },
   { "name": "CCTV", "url": "https://tv.cctv.com" },
   { "name": "ifeng", "url": "https://www.ifeng.com" },
   { "name": "cppreference", "url": "https://en.cppreference.com" },
@@ -93,7 +94,6 @@ WRAPPERS = [
   { "name": "Marxists Internet Archive", "url": "https://www.marxists.org", "keyify_name": "marxistsorg" },
   { "name": "REVCOM.US", "url": "https://revcom.us/en", "keyify_name": "revcomus" },
   { "name": "YouVersion Bible", "url": "https://bible.com", "keyify_name": "biblecom" },
-  { "name": "REVCOM.US", "url": "https://revcom.us/en", "keyify_name": "revcomus" },
   { "name": "Al Jazeera", "url": "https://www.aljazeera.com", "keyify_name": "aljazeera" },
   { "name": "CGTN", "url": "https://www.cgtn.com" },
 

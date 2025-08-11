@@ -31,6 +31,8 @@ const L = {
   "onedrive_desc": "Cloud storage with robust PWA features.",
   "bing_name": "Bing",
   "bing_desc": "Microsoft's search engine delivering web, image, video, and map results with integrated AI features and daily visual highlights.",
+  "msn_name": "MSN",
+  "msn_desc": "A web portal offering news, entertainment, lifestyle content, and access to Microsoft services.",
   "google_desc": "Global search and service hub offering instant access to Search, Gmail, Drive, Translate, and other tools via a fast, unified web interface optimized across devices.",
   "googlevoice_name": "Google Voice",
   "googlevoice_desc": "Get a free U.S. phone number for calls, texts, and voicemail—syncs across devices and works on web or mobile.",
@@ -187,6 +189,9 @@ const L = {
 
   xdaforums_name: "XDA Forums",
   xdaforums_desc: "XDA Forums is a community for discussion, guides, accessories and development of mobile devices, especially Android.",
+
+  appleinsider_name: "AppleInsider",
+  appleinsider_desc: "A news site focused on Apple products, rumors, reviews, and industry analysis.",
 
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community.",

@@ -34,6 +34,7 @@ export const categories = [
       { name: "Microsoft Store", nameKey: "msstore_name", icon: "icons/msstore.webp", url: "https://apps.microsoft.com", descriptionKey: "msstore_desc" },
       { name: "Microsoft Tech Community", nameKey: "mstechcommunity_name", icon: "icons/msft.webp", url: "https://techcommunity.microsoft.com", descriptionKey: "mstechcommunity_desc" },
       { name: "Bing", nameKey: "bing_name", icon: "icons/wrappers/bing.webp", url: "/wrappers/bing", descriptionKey: "bing_desc", wrapper: true },
+      { name: "MSN", nameKey: "msn_name", icon: "icons/wrappers/msn.webp", url: "/wrappers/msn", descriptionKey: "msn_desc", wrapper: true },
     ]
   },
   {
@@ -494,6 +495,13 @@ export const categories = [
         descriptionKey: "xdaforums_desc",
         icon: "icons/xdaforums.webp",
         url: "https://xdaforums.com"
+      },
+      {
+        name: "AppleInsider",
+        nameKey: "appleinsider_name",
+        descriptionKey: "appleinsider_desc",
+        icon: "icons/appleinsider.webp",
+        url: "https://appleinsider.com",
       },
       {
         name: "LINUX DO",

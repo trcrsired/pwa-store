@@ -31,6 +31,8 @@ const L = {
   "onedrive_desc": "具备强大 PWA 功能的云存储服务。",
   "bing_name": "必应",
   "bing_desc": "微软搜索引擎，集成 AI 功能，提供网页、图片、视频和地图结果，并展示每日视觉亮点。",
+  "msn_name": "MSN",
+  "msn_desc": "一个提供新闻、娱乐、生活方式内容以及微软服务入口的网络门户。",
   "google_desc": "全球搜索与服务中心，快速统一的网页界面，可访问搜索、Gmail、云端硬盘、翻译等工具，适配多设备。",
   "googlevoice_name": "谷歌语音",
   "googlevoice_desc": "免费美国电话号码，支持通话、短信和语音信箱——可跨设备同步，支持网页和移动端。",
@@ -187,6 +189,9 @@ const L = {
 
   xdaforums_name: "XDA 论坛",
   xdaforums_desc: "XDA 论坛是一个专注于移动设备（尤其是 Android）开发、配件、指南与讨论的技术社区。",
+
+  appleinsider_name: "AppleInsider",
+  appleinsider_desc: "一个专注于苹果产品、传闻、评测和行业分析的新闻网站。",
 
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO 是面向中文用户的 Linux 门户网站，提供新闻、教程、发行版信息与开源开发资源，服务于技术爱好者与专业人士。",
