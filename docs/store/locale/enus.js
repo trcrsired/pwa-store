@@ -37,7 +37,9 @@ const L = {
   "googlevoice_name": "Google Voice",
   "googlevoice_desc": "Get a free U.S. phone number for calls, texts, and voicemail—syncs across devices and works on web or mobile.",
   "googlemaps_name": "Google Maps",
-  "googlemaps_desc": "Navigate the world with Google Maps—its PWA lets you find places, get directions, explore nearby businesses, and view real-time traffic, transit, and satellite layers.",
+  "googlemaps_desc": "Navigate the world with Google Maps—find places, get directions, explore nearby businesses, and view real-time traffic, transit, and satellite layers.",
+  "googlenews_name": "Google News",
+  "googlenews_desc": "A news aggregator that organizes headlines from thousands of sources and presents them in a personalized feed.",
   "gmail_desc": "Google's Mail Services",
   "officesuites_name": "Office Suites",
   "wps_desc": "WPS is an office suite developed by the Chinese company Kingsoft Office Software",
@@ -192,6 +194,9 @@ const L = {
 
   appleinsider_name: "AppleInsider",
   appleinsider_desc: "A news site focused on Apple products, rumors, reviews, and industry analysis.",
+
+  pcmag_name: "PCMag",
+  pcmag_desc: "A technology publication offering reviews, buying guides, and analysis of consumer electronics and software.",
 
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community.",

@@ -43,6 +43,7 @@ export const categories = [
       { name: "Google", icon: "icons/google.webp", url: "https://www.google.com", descriptionKey: "google_desc" },
       { nameKey: "googlevoice_name", name: "Google Voice", icon: "icons/googlevoice.webp", url: "https://voice.google.com", descriptionKey: "googlevoice_desc" },
       { nameKey: "googlemaps_name", name: "Google Maps", icon: "icons/googlemaps.webp", url: "https://maps.google.com", descriptionKey: "googlemaps_desc" },
+      { nameKey: "googlenews_name", name: "Google News", icon: "icons/googlenews.webp", url: "https://news.google.com", descriptionKey: "googlenews_desc" },
       { name: "Gmail", icon: "icons/wrappers/gmail.webp", url: "/wrappers/gmail", descriptionKey: "gmail_desc", wrapper: true },
     ]
   },
@@ -502,6 +503,13 @@ export const categories = [
         descriptionKey: "appleinsider_desc",
         icon: "icons/appleinsider.webp",
         url: "https://appleinsider.com",
+      },
+      {
+        name: "PCMag",
+        nameKey: "pcmag_name",
+        descriptionKey: "pcmag_desc",
+        icon: "icons/pcmag.webp",
+        url: "https://www.pcmag.com",
       },
       {
         name: "LINUX DO",

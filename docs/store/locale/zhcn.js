@@ -37,8 +37,10 @@ const L = {
   "googlevoice_name": "谷歌语音",
   "googlevoice_desc": "免费美国电话号码，支持通话、短信和语音信箱——可跨设备同步，支持网页和移动端。",
   "googlemaps_name": "谷歌地图",
-  "googlemaps_desc": "使用 Google 地图探索世界——PWA 支持查找地点、获取路线、浏览周边商家，并查看实时交通、公交和卫星图层。",
-  "gmail_desc": "Google 的邮件服务。",
+  "googlemaps_desc": "使用谷歌地图探索世界——支持查找地点、获取路线、浏览周边商家，并查看实时交通、公交和卫星图层。",
+  "googlenews_name": "谷歌新闻",
+  "googlenews_desc": "一个新闻聚合平台，从数千个来源整理头条新闻，并以个性化方式呈现。",
+  "gmail_desc": "谷歌的邮件服务。",
   "officesuites_name": "办公套件",
   "wps_desc": "由中国金山办公软件公司开发的办公套件。",
   "wpscn_name": "WPS国内版",
@@ -192,6 +194,9 @@ const L = {
 
   appleinsider_name: "AppleInsider",
   appleinsider_desc: "一个专注于苹果产品、传闻、评测和行业分析的新闻网站。",
+
+  pcmag_name: "PCMag",
+  pcmag_desc: "一个提供消费电子产品和软件评测、购买指南及分析的科技媒体。",
 
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO 是面向中文用户的 Linux 门户网站，提供新闻、教程、发行版信息与开源开发资源，服务于技术爱好者与专业人士。",
