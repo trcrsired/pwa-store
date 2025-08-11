@@ -1,6 +1,5 @@
 import './content.js';
 
-/*
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker
@@ -13,7 +12,6 @@ if ("serviceWorker" in navigator) {
       });
   });
 }
-*/
 
 const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
 document.body.classList.toggle("dark", isDarkMode);
