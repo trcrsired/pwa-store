@@ -1,20 +1,21 @@
-const CACHE_NAME = "pwa-store-cache-v16";
+const CACHE_NAME = "pwa-store-cache-v17";
 const IMAGE_CACHE = "pwa-store-images-v1";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       return cache.addAll([
-        "./",
-        "./manifest.json",
-        "./logo/logo.webp",
-        "./content.js",
-        "./app.js",
-        "./lang.js",
-        "./style.css",
-        "./how/en.html",
-        "./how/zh.html",
-        "./lang/zh.json",
+        "/store/",
+        "/store/?source=pwa",
+        "/store/manifest.json",
+        "/store/logo/logo.webp",
+        "/store/content.js",
+        "/store/app.js",
+        "/store/lang.js",
+        "/store/style.css",
+        "/store/how/en.html",
+        "/store/how/zh.html",
+        "/store/lang/zh.json",
       ]);
     })
   );
@@ -26,7 +27,7 @@ self.addEventListener("activate", (event) => {
     caches.keys().then((keys) =>
       Promise.all(
         keys.map((key) => {
-          if (key !== CACHE_NAME) {
+          if (key !== CACHE_NAME && key !== IMAGE_CACHE) {
             return caches.delete(key); // 🔥 delete old cache
           }
         })
@@ -35,6 +36,7 @@ self.addEventListener("activate", (event) => {
   );
   clients.claim();
 });
+
 self.addEventListener("fetch", (event) => {
   const req = event.request;
 
