@@ -284,6 +284,9 @@ const L = {
   cctv_name: "CCTV",
   cctv_desc: "China's state-run broadcaster offering news, documentaries, and entertainment across multiple channels and digital platforms.",
 
+  fortune_name: "Fortune",
+  fortune_desc: "A global business media brand known for its rankings like the Fortune 500 and Global 500, offering in-depth coverage of corporate leadership, finance, and economic trends.",
+
   ifeng_name: "ifeng (凤凰网)",
   ifeng_desc: "Comprehensive Chinese news portal offering coverage of current affairs, finance, culture, and global events.",
 
