@@ -546,6 +546,7 @@ export const categories = [
       { name: "Associated Press", nameKey: "ap_name", descriptionKey: "ap_desc", icon: "icons/associatedpress.webp", url: "https://apnews.com" },
       { name: "In Defence of Marxism", nameKey: "marxism_name", descriptionKey: "marxism_desc", icon: "icons/indefenseofmarxism.webp", url: "https://marxist.com" },
       { name: "ABC News", nameKey: "abcnews_name", descriptionKey: "abcnews_desc", icon: "icons/abcnews.webp", url: "https://abcnews.go.com/" },
+      { name: "US News", nameKey: "usnews", descriptionKey: "usnews_desc", icon: "icons/usnews.webp", url: "https://www.usnews.com/" },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url: "/wrappers/nytimes", wrapper: true },
       { name: "REVCOM.US", nameKey: "revcom_name", descriptionKey: "revcom_desc", icon: "icons/wrappers/revcomus.webp", url: "/wrappers/revcomus", wrapper: true },
       { name: "Al Jazeera", nameKey: "aljazeera_name", descriptionKey: "aljazeera_desc", icon: "icons/wrappers/aljazeera.webp", url: "/wrappers/aljazeera", wrapper: true },

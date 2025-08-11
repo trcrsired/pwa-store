@@ -234,6 +234,9 @@ const L = {
   abcnews_name: "ABC News",
   abcnews_desc: "U.S. news organization providing national and international coverage across politics, health, business, and culture.",
 
+  usnews_name: "US News",
+  usnews_desc: "A leading American media outlet known for its rankings, analysis, and coverage of education, health, politics, and national affairs.",
+
   nyt_name: "New York Times",
   nyt_desc: "The New York Times (NYT) is an American daily newspaper based in New York City. The New York Times covers domestic, national, and international news, and publishes opinion pieces, investigative reports, and reviews.",
 
