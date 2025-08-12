@@ -1022,7 +1022,7 @@ export const categories = [
         wrapper: true,
       },
       {
-        name: "Apple Store (Retail)",
+        name: "Apple Retail Store",
         nameKey: "appleretail_name",
         descriptionKey: "appleretail_desc",
         icon: "icons/wrappers/apple.webp",
