@@ -1,0 +1,17 @@
+{
+  "name": "Apple Store",
+  "short_name": "Apple Store",
+  "start_url": "/wrappers/applestore/?source=pwa",
+  "scope": "/wrappers/applestore/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Apple Store",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/applestore/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

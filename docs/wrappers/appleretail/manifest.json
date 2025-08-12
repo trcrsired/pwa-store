@@ -1,0 +1,17 @@
+{
+  "name": "Apple Retail Store",
+  "short_name": "Apple Retail Store",
+  "start_url": "/wrappers/appleretail/?source=pwa",
+  "scope": "/wrappers/appleretail/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Apple Retail Store",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/appleretail/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
