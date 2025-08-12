@@ -27,6 +27,7 @@ const L = {
   "chatgpt_desc": "OpenAI 的对话助手——ChatGPT 的 PWA 提供 GPT 模型、记忆、插件和语音功能的可安装访问。",
   "gemini_desc": "Google Gemini 是谷歌开发的强大人工智能模型，支持文本、图像、视频和音频的理解与生成。它既是聊天机器人，也是背后的大型语言模型（LLM），可广泛应用。Gemini 与谷歌服务深度集成，支持访问 Gmail、日历等数据，提升生产力和用户体验。",
   "qwen_desc": "阿里巴巴推出的多模态 AI——Qwen 的 PWA 支持聊天、图像生成、方言语音合成和深度研究工具。",
+  "grok_desc": "Grok 是由 xAI 开发的生成式人工智能聊天机器人。它于 2023 年 11 月由埃隆·马斯克推出，基于同名的大型语言模型（LLM）。",
   "outlook_desc": "微软的网页邮箱和日历服务。",
   "onedrive_desc": "具备强大 PWA 功能的云存储服务。",
   "bing_name": "必应",

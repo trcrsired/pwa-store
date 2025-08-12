@@ -27,6 +27,7 @@ const L = {
   "chatgpt_desc": "OpenAI’s conversational assistant—ChatGPT’s PWA delivers installable access to GPT models, memory, plugins, and voice features.",
   "gemini_desc": "Google Gemini is a powerful artificial intelligence (AI) model developed by Google that can understand and generate text, images, videos, and audio. It serves as both a chatbot and the underlying large language model (LLM) that powers it, making it versatile for various applications. Gemini is designed to integrate with Google services, allowing users to interact with their data in Gmail, Google Calendar, and more, enhancing productivity and user experience.",
   "qwen_desc": "Multimodal AI by Alibaba—Qwen’s PWA supports chat, image generation, dialect-aware voice synthesis, and deep research tools.",
+  "grok_desc": "Grok is a generative artificial intelligence chatbot developed by xAI. It was launched in November 2023 by Elon Musk as an initiative based on the large language model (LLM) of the same name.",
   "outlook_desc": "Webmail and calendar by Microsoft.",
   "onedrive_desc": "Cloud storage with robust PWA features.",
   "bing_name": "Bing",
