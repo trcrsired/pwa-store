@@ -597,6 +597,7 @@ export const categories = [
       { name: "NBC", nameKey: "nbc_name", descriptionKey: "nbc_desc", icon: "icons/nbc.webp", url: "https://www.nbc.com" },
       { name: "CNBC", nameKey: "cnbc_name", descriptionKey: "cnbc_desc", icon: "icons/nbc.webp", url: "https://www.cnbc.com" },
       { name: "MSNBC", nameKey: "msnbc_name", descriptionKey: "msnbc_desc", icon: "icons/nbc.webp", url: "https://www.msnbc.com" },
+      { name: "The Hill", nameKey: "thehill_name", descriptionKey: "thehill_desc", icon: "icons/thehill.webp", url: "https://thehill.com" },
       { name: "The Independent", nameKey: "independent_name", descriptionKey: "independent_desc", icon: "icons/independent.webp", url: "https://www.independent.co.uk" },
       { name: "The Guardian", nameKey: "theguardian_name", descriptionKey: "theguardian_desc", icon: "icons/theguardian.webp", url: "https://www.theguardian.com" },
       { name: "Nippon TV NEWS (日テレNEWS)", nameKey: "nittele_name", descriptionKey: "nittele_desc", icon: "icons/nittele.webp", url: "https://news.ntv.co.jp" },

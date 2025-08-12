@@ -274,7 +274,8 @@ const L = {
   cnbc_desc: "An American business news channel providing real-time coverage of financial markets, economic trends, and investment insights.",
   msnbc_name: "MSNBC",
   msnbc_desc: "A U.S. news network offering political analysis, breaking news, and commentary on current affairs.",
-
+  thehill_name: "The Hill",
+  thehill_desc: "he Hill, formed in 1994, is an American newspaper and digital media company based in Washington, D.C. Focusing on politics, policy, business and international relations, The Hill's coverage includes the U.S. Congress, the presidency and executive branch, and election campaigns.",
   nittele_name: "Nippon TV NEWS (日テレNEWS)",
   nittele_desc: "A Japanese-language news network operated by Nippon TV, offering 24-hour coverage of domestic news, weather, and emergency alerts.",
 
