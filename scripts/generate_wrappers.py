@@ -23,7 +23,7 @@ WRAPPERS = [
   { "name": "ifeng", "url": "https://www.ifeng.com" },
   { "name": "cppreference", "url": "https://en.cppreference.com" },
   { "name": "Compiler Explorer", "url": "https://godbolt.org", "keyify_name": "godbolt" },
-  { "name": "linux.die", "url": "https://en.cppreference.com" },
+  { "name": "linux.die", "url": "https://linux.die.net" },
   { "name": "MMO Champion", "url": "https://www.mmo-champion.com", "keyify_name": "mmo-champion" },
   { "name": "Target", "url": "https://www.target.com" },
   { "name": "TED", "url": "https://www.ted.com" },
