@@ -42,7 +42,7 @@ WRAPPERS = [
   { "name": "Subway", "url": "https://www.subway.com" },
   { "name": "McDonald's", "url": "https://www.mcdonalds.com", "keyify_name": "mcdonalds" },
   { "name": "Apple Store", "url": "https://www.apple.com/store", "keyify_name": "applestore", "icon": "apple.webp" },
-  { "name": "Apple Retail Store", "url": "https://www.apple.com/retail", "keyify_name": "appleretail", "icon": "apple.webp" },
+  { "name": "Apple Store (Retail)", "url": "https://www.apple.com/retail", "keyify_name": "appleretail", "icon": "apple.webp" },
   { "name": "Gmail", "url": "https://mail.google.com" },
 
   { "name": "IRS", "url": "https://www.irs.gov" },
