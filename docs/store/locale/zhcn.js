@@ -485,7 +485,10 @@ const L = {
 
   mcdonalds_name: "麦当劳",
   mcdonalds_desc: "全球最大的快餐连锁，提供汉堡、薯条、早餐和饮品，支持 App 或网站点餐、积分奖励和门店查询。",
-
+  applestore_name: "苹果商店",
+  applestore_desc: "苹果商店是苹果官方的产品购买与服务平台。选购 iPhone、Mac、iPad 及配件，或获取专家支持与售后服务。",
+  appleretailstore_name: "苹果零售店",
+  appleretailstore_desc: "苹果零售店是苹果官方的实体门店，提供产品选购、技术支持和店内课程体验。顾客可亲身试用设备，并获得苹果专家的个性化服务。",
   housing_name: "房地产",
   booking_name: "缤客",
   booking_desc: "搜索并预订来自全球供应商的酒店、度假村、公寓等住宿。可按地点、价格、评分和可订日期筛选。",

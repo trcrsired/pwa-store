@@ -1013,6 +1013,22 @@ export const categories = [
         url: "/wrappers/mcdonalds",
         wrapper: true
       },
+      {
+        name: "Apple Store",
+        nameKey: "applestore_name",
+        descriptionKey: "applestore_desc",
+        icon: "icons/wrappers/applestore.webp",
+        url: "/wrappers/applestore",
+        wrapper: true,
+      },
+      {
+        name: "Apple Retail Store",
+        nameKey: "appleretailstore_name",
+        descriptionKey: "appleretailstore_desc",
+        icon: "icons/wrappers/appleretailstore.webp",
+        url: "/wrappers/appleretailstore",
+        wrapper: true,
+      },
     ]
   },
   {
