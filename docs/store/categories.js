@@ -327,6 +327,13 @@ export const categories = [
         descriptionKey: "tinder_desc"
       },
       {
+        name: "Truth Social",
+        nameKey: "truthsocial_name",
+        icon: "icons/truth.webp",
+        url: "https://truthsocial.com",
+        descriptionKey: "truthsocial_desc",
+      },
+      {
         name: "Bluesky",
         nameKey: "bluesky_name",
         icon: "icons/bluesky.webp",
@@ -434,11 +441,26 @@ export const categories = [
         url: "https://longforecast.com"
       },
       {
+        name: "Investing",
+        nameKey: "investing_name",
+        descriptionKey: "investing_desc",
+        icon: "icons/investing.webp",
+        url: "https://www.investing.com"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",
         icon: "icons/wrappers/paypal.webp",
         url: "/wrappers/paypal",
+        wrapper: true
+      },
+      {
+        name: "Moomoo",
+        nameKey: "moomoo_name",
+        descriptionKey: "moomoo_desc",
+        icon: "icons/moomoo.webp",
+        url: "/wrappers/moomoo",
         wrapper: true
       },
       {
@@ -1032,6 +1054,13 @@ export const categories = [
         url: "https://flixbus.com"
       },
       {
+        name: "Booking",
+        nameKey: "booking_name",
+        descriptionKey: "booking_desc",
+        icon: "icons/booking_name.webp",
+        url: "https://www.booking.com"
+      },
+      {
         name: "SF Express (顺丰速运)",
         nameKey: "sfexpress_name",
         descriptionKey: "sfexpress_desc",
@@ -1060,11 +1089,63 @@ export const categories = [
     nameKey: "tickets_name",
     apps: [
       {
+        name: "Booking",
+        nameKey: "booking_name",
+        descriptionKey: "booking_desc",
+        icon: "icons/wrappers/booking.webp",
+        url: "/wrappers/booking",
+        wrapper: true
+      },
+      {
+        name: "Ctrip (携程)",
+        nameKey: "ctrip_name",
+        descriptionKey: "ctrip_desc",
+        icon: "icons/wrappers/ctrip.webp",
+        url: "/wrappers/ctrip",
+        wrapper: true
+      },
+      {
         name: "Tao Piao Piao (淘票票)",
         nameKey: "taopiaopiao_name",
         descriptionKey: "taopiaopiao_desc",
         icon: "icons/wrappers/taopiaopiao.webp",
         url: "/wrappers/taopiaopiao",
+        wrapper: true
+      },
+    ]
+  },
+  {
+    name: "Housing",
+    nameKey: "housing_name",
+    apps: [
+      {
+        name: "Zillow",
+        nameKey: "zillow_name",
+        descriptionKey: "zillow_desc",
+        icon: "icons/zillow.webp",
+        url: "https://www.zillow.com",
+      },
+      {
+        name: "Redfin",
+        nameKey: "redfin_name",
+        descriptionKey: "redfin_desc",
+        icon: "icons/redfin.webp",
+        url: "https://www.redfin.com",
+      },
+      {
+        name: "Airbnb",
+        nameKey: "airbnb_name",
+        descriptionKey: "airbnb_desc",
+        icon: "icons/wrappers/airbnb.webp",
+        url: "/wrappers/airbnb",
+        wrapper: true
+      },
+      {
+        name: "Auction.com",
+        nameKey: "auctioncom_name",
+        descriptionKey: "auctioncom_desc",
+        icon: "icons/wrappers/auctioncom.webp",
+        url: "/wrappers/auctioncom",
         wrapper: true
       },
     ]
@@ -1116,7 +1197,7 @@ export const categories = [
         wrapper: true
       },
       {
-        name: "nvidia",
+        name: "NVIDIA",
         nameKey: "nvidia_name",
         descriptionKey: "nvidia_desc",
         icon: "icons/wrappers/nvidia.webp",

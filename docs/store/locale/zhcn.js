@@ -167,9 +167,13 @@ const L = {
   longforecast_name: "LongForecast",
   longforecast_desc: "提供股票、加密货币和经济趋势的长期预测图表，适合中长期投资者参考。",
 
+  investing_name: "英为财情",
+  investing_desc: "追踪全球金融市场，查看实时行情，浏览股票、外汇、加密货币等领域的新闻、分析与工具。",
+
   paypal_name: "贝宝",
   paypal_desc: "全球数字支付平台，支持安全的在线交易、转账、订阅和电商结算服务。",
-
+  moomoo_name: "富途牛牛",
+  moomoo_desc: "由富途控股推出的一站式投资平台，支持港股、美股、A股等市场交易，提供实时行情、智能工具和财经资讯。",
   bankofamerica_name: "美国银行",
   bankofamerica_desc: "美国主要银行之一，提供个人和企业金融服务。",
 
@@ -214,7 +218,7 @@ const L = {
   archive_desc: "互联网档案馆是一个非营利数字图书馆，收藏数百万份免费文本、电影、软件、音乐、网站等资源。",
 
   news_name: "新闻",
-  rt_name: "俄罗斯今天",
+  rt_name: "今日俄罗斯",
   rt_desc: "俄罗斯国际新闻媒体。",
 
   presstv_name: "PressTV",
@@ -479,6 +483,17 @@ const L = {
   mcdonalds_name: "麦当劳",
   mcdonalds_desc: "全球最大的快餐连锁，提供汉堡、薯条、早餐和饮品，支持 App 或网站点餐、积分奖励和门店查询。",
 
+  booking_name: "缤客",
+  booking_desc: "搜索并预订来自全球供应商的酒店、度假村、公寓等住宿。可按地点、价格、评分和可订日期筛选。",
+  airbnb_name: "爱彼迎",
+  airbnb_desc: "探索由当地房东提供的特色住宿和短期租赁。可按地点、价格、房型和可订日期进行搜索。",
+  zillow_name: "Zillow",
+  zillow_desc: "浏览美国各地的出售和出租房源。查看房产详情、估算房屋价值，并了解社区信息。",
+  redfin_name: "Redfin",
+  redfin_desc: "实时搜索房产列表，获取经纪人提供的专业见解。比较房价、预约看房，并跟踪市场趋势。",
+  auctioncom_name: "Auction.com",
+  auctioncom_desc: "发现可供拍卖的住宅和商业房产。在线竞标，查看止赎信息，探索投资机会。",
+
   mobilitylogistics_name: "出行与配送",
   uber_name: "优步",
   uber_desc: "打车与配送平台，可预订行程、点餐并通过可安装的 PWA 管理账户。",
@@ -540,8 +555,15 @@ const L = {
   mcdonalds_name: "麦当劳",
   mcdonalds_desc: "全球最大的快餐连锁，提供汉堡、薯条、早餐和饮品，支持 App 或网站点餐、积分奖励和门店查询。",
 
+  hotels_name: "酒店",
+
+  airbnb_name: "爱彼迎",
+  airbnb_desc: "探索由当地房东提供的特色住宿和短期租赁。可按地点、价格、房型和可订日期进行搜索。",
+
   tickets_name: "票",
 
+  ctrip_name: "携程",
+  ctrip_desc: "预订国内及全球的机票、酒店、火车票和度假套餐。支持比价、查找空位并轻松管理行程。",
   taopiaopiao_name: "淘票票",
   taopiaopiao_desc: "淘票票是阿里巴巴旗下的中国领先电影票务平台，提供全国影院的放映时间、选座和在线购票服务，并展示当前及即将上映影片的预告片、影评和宣传内容。",
 

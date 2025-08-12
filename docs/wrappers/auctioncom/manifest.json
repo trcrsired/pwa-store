@@ -1,0 +1,17 @@
+{
+  "name": "Auction.com",
+  "short_name": "Auction.com",
+  "start_url": "/wrappers/auctioncom/?source=pwa",
+  "scope": "/wrappers/auctioncom/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Auction.com",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/auctioncom/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

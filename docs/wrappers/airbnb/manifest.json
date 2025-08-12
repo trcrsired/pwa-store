@@ -1,0 +1,17 @@
+{
+  "name": "Airbnb",
+  "short_name": "Airbnb",
+  "start_url": "/wrappers/airbnb/?source=pwa",
+  "scope": "/wrappers/airbnb/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Airbnb",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/airbnb/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

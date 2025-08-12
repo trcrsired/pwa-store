@@ -1,0 +1,17 @@
+{
+  "name": "Moomoo",
+  "short_name": "Moomoo",
+  "start_url": "/wrappers/moomoo/?source=pwa",
+  "scope": "/wrappers/moomoo/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Moomoo",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/moomoo/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

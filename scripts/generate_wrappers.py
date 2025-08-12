@@ -83,6 +83,7 @@ WRAPPERS = [
   { "name": "MineCraft Forum", "url": "https://www.minecraftforum.net", "keyify_name": "minecraftforum" },
   { "name": "IGN", "url": "https://www.ign.com" },
   { "name": "Paypal", "url": "https://www.paypal.com" },
+  { "name": "Moomoo", "url": "https://www.moomoo.com" },
   { "name": "GeeksForGeeks", "url": "https://www.geeksforgeeks.org" },
   { "name": "WPS", "url": "https://www.wps.com/wpsdocs" },
   { "name": "WPS (CN)", "url": "https://www.kdocs.cn", "keyify_name":"wpscn", "icon":"wps.webp" },
@@ -90,6 +91,10 @@ WRAPPERS = [
   { "name": "163 Mail", "url": "https://mail.163.com", "keyify_name":"netease163" },
   { "name": "126 Mail", "url": "https://mail.126.com", "keyify_name":"netease126" },
   { "name": "yeah.net Mail", "url": "https://mail.yeah.net", "keyify_name":"yeahnet" },
+  { "name": "Auction.com", "url": "https://www.auction.com", "keyify_name": "auctioncom" },
+  { "name": "Airbnb", "url": "https://www.airbnb.com" },
+  { "name": "Booking", "url": "https://www.booking.com" },
+  { "name": "Ctrip", "url": "https://www.ctrip.com" },
   { "name": "Tao Piao Piao", "url": "https://www.taopiaopiao.com", "keyify_name":"taopiaopiao" },
 
   { "name": "Marxists Internet Archive", "url": "https://www.marxists.org", "keyify_name": "marxistsorg" },

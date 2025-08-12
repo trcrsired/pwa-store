@@ -166,9 +166,13 @@ const L = {
   longforecast_name: "LongForecast",
   longforecast_desc: "Stock, cryptocurrency and economic forecasts with multi-year trend charts.",
 
+  investing_name: "Investing",
+  investing_desc: "Track global financial markets, view real-time quotes, and explore news, analysis, and tools for stocks, forex, crypto, and more.",
+
   paypal_name: "PayPal",
   paypal_desc: "PayPal is a global digital payment platform that enables secure online transactions, money transfers, and merchant services for individuals and businesses. It supports personal payments, subscriptions, and e-commerce checkout across millions of sites.",
-
+  moomoo_name: "Moomoo",
+  moomoo_desc: "Trade U.S., Hong Kong, and China stocks with real-time data and advanced tools. Analyze markets, manage portfolios, and access financial news.",
   bankofamerica_name: "Bank of America",
   bankofamerica_desc: "Major US bank.",
 
@@ -478,6 +482,17 @@ const L = {
   mcdonalds_name: "McDonald's",
   mcdonalds_desc: "World's largest fast food chain serving burgers, fries, breakfast, and beverages—mobile ordering, rewards, and location finder available via app or site.",
 
+  booking_name: "Booking",
+  booking_desc: "Search and book hotels, resorts, apartments, and more from global providers. Filter by location, price, rating, and availability.",
+  airbnb_name: "Airbnb",
+  airbnb_desc: "Discover unique stays and short-term rentals hosted by locals. Search by location, price, type, and availability.",
+  zillow_name: "Zillow",
+  zillow_desc: "Browse homes for sale and rent across the U.S. View property details, estimate home values, and explore neighborhood insights.",
+  redfin_name: "Redfin",
+  redfin_desc: "Search real estate listings with live updates and agent-backed insights. Compare home prices, schedule tours, and track market trends.",
+  auctioncom_name: "Auction.com",
+  auctioncom_desc: "Discover residential and commercial properties for auction. Bid online, review foreclosure details, and explore investment opportunities.",
+
   mobilitylogistics_name: "Mobility & Logistics",
 
   uber_name: "Uber",
@@ -505,6 +520,9 @@ const L = {
   usps_desc: "United States Postal Service—track shipments, buy postage, schedule pickups, and access national mailing services and address tools through its official portal.",
 
   tickets_name: "Tickets",
+
+  ctrip_name: "Ctrip (携程)",
+  ctrip_desc: "Book flights, hotels, trains, and vacation packages across China and worldwide. Compare prices, check availability, and manage your travel plans easily.",
 
   taopiaopiao_name: "Tao Piao Piao (淘票票)",
   taopiaopiao_desc: "Tao Piao Piao is a leading Chinese movie ticketing platform owned by Alibaba. It offers showtimes, seat selection, and online booking for cinemas across China, along with trailers, reviews, and promotional content for current and upcoming films.",
