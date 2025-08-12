@@ -1190,7 +1190,14 @@ export const categories = [
         descriptionKey: "linkedin_desc",
         icon: "icons/linkedin.webp",
         url: "https://www.linkedin.com",
-      }
+      },
+      {
+        name: "Handshake",
+        nameKey: "handshake_name",
+        descriptionKey: "handshake_desc",
+        icon: "icons/handshake.webp",
+        url: "https://app.joinhandshake.com",
+      },
     ]
   },
   {

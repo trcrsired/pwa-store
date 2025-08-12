@@ -503,6 +503,8 @@ const L = {
   jobs_name: "Jobs",
   linkedin_name: "LinkedIn",
   linkedin_desc: "Connect with professionals, explore job opportunities, and build your career profile. Follow companies, join industry groups, and share insights.",
+  handshake_name: "Handshake",
+  handshake_desc: "Handshake is a career platform designed for students and recent graduates to discover jobs, internships, and events. It connects users with employers, career centers, and peers to support early career growth and networking.",
   mobilitylogistics_name: "Mobility & Logistics",
 
   uber_name: "Uber",
