@@ -1078,13 +1078,6 @@ export const categories = [
         url: "https://flixbus.com"
       },
       {
-        name: "Booking",
-        nameKey: "booking_name",
-        descriptionKey: "booking_desc",
-        icon: "icons/booking_name.webp",
-        url: "https://www.booking.com"
-      },
-      {
         name: "SF Express (顺丰速运)",
         nameKey: "sfexpress_name",
         descriptionKey: "sfexpress_desc",
