@@ -1151,6 +1151,19 @@ export const categories = [
     ]
   },
   {
+    name: "Jobs",
+    nameKey: "jobs_name",
+    apps: [
+      {
+        name: "LinkedIn",
+        nameKey: "linkedin_name",
+        descriptionKey: "linkedin_desc",
+        icon: "icons/linkedin",
+        url: "https://www.linkedin.com",
+      }
+    ]
+  },
+  {
     name: "Cloud (is someone else's computer)",
     nameKey: "cloud_name",
     apps: [

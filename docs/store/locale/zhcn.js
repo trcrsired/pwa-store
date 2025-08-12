@@ -483,6 +483,7 @@ const L = {
   mcdonalds_name: "麦当劳",
   mcdonalds_desc: "全球最大的快餐连锁，提供汉堡、薯条、早餐和饮品，支持 App 或网站点餐、积分奖励和门店查询。",
 
+  housing_name: "房地产",
   booking_name: "缤客",
   booking_desc: "搜索并预订来自全球供应商的酒店、度假村、公寓等住宿。可按地点、价格、评分和可订日期筛选。",
   airbnb_name: "爱彼迎",
@@ -494,6 +495,9 @@ const L = {
   auctioncom_name: "Auction.com",
   auctioncom_desc: "发现可供拍卖的住宅和商业房产。在线竞标，查看止赎信息，探索投资机会。",
 
+  jobs_name: "工作",
+  linkedin_name: "领英",
+  linkedin_desc: "与职场人士建立联系，探索工作机会，完善职业档案。关注企业，加入行业社群，分享见解。",
   mobilitylogistics_name: "出行与配送",
   uber_name: "优步",
   uber_desc: "打车与配送平台，可预订行程、点餐并通过可安装的 PWA 管理账户。",

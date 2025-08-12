@@ -482,6 +482,7 @@ const L = {
   mcdonalds_name: "McDonald's",
   mcdonalds_desc: "World's largest fast food chain serving burgers, fries, breakfast, and beverages—mobile ordering, rewards, and location finder available via app or site.",
 
+  housing_name: "Housing",
   booking_name: "Booking",
   booking_desc: "Search and book hotels, resorts, apartments, and more from global providers. Filter by location, price, rating, and availability.",
   airbnb_name: "Airbnb",
@@ -493,6 +494,9 @@ const L = {
   auctioncom_name: "Auction.com",
   auctioncom_desc: "Discover residential and commercial properties for auction. Bid online, review foreclosure details, and explore investment opportunities.",
 
+  jobs_name: "Jobs",
+  linkedin_name: "LinkedIn",
+  linkedin_desc: "Connect with professionals, explore job opportunities, and build your career profile. Follow companies, join industry groups, and share insights.",
   mobilitylogistics_name: "Mobility & Logistics",
 
   uber_name: "Uber",
