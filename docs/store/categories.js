@@ -459,7 +459,7 @@ export const categories = [
         name: "Moomoo",
         nameKey: "moomoo_name",
         descriptionKey: "moomoo_desc",
-        icon: "icons/moomoo.webp",
+        icon: "icons/wrappers/moomoo.webp",
         url: "/wrappers/moomoo",
         wrapper: true
       },
