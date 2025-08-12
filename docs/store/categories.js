@@ -535,6 +535,13 @@ export const categories = [
         url: "https://www.pcmag.com",
       },
       {
+        name: "ZDNET",
+        nameKey: "zdnet_name",
+        descriptionKey: "zdnet_desc",
+        icon: "icons/zdnet.webp",
+        url: "https://www.zdnet.com",
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",

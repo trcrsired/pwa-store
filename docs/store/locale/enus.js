@@ -205,6 +205,9 @@ const L = {
   pcmag_name: "PCMag",
   pcmag_desc: "A technology publication offering reviews, buying guides, and analysis of consumer electronics and software.",
 
+  zdnet_name: "ZDNET",
+  zdnet_desc: "ZDNET is a business technology news website owned by Ziff Davis. It provides expert insights on innovations, trends, and products for professionals in IT, business, and digital transformation.",
+
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community.",
 

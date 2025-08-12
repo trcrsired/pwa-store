@@ -205,6 +205,9 @@ const L = {
   pcmag_name: "PCMag",
   pcmag_desc: "一个提供消费电子产品和软件评测、购买指南及分析的科技媒体。",
 
+  zdnet_name: "ZDNET",
+  zdnet_desc: "ZDNET 是一家由 Ziff Davis 运营的商业科技新闻网站，面向 IT、商业和数字化转型领域的专业人士，提供创新趋势与技术产品的深度分析与见解。",
+
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO 是面向中文用户的 Linux 门户网站，提供新闻、教程、发行版信息与开源开发资源，服务于技术爱好者与专业人士。",
 
