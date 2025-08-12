@@ -600,7 +600,8 @@ const L = {
 
   adactio_name: "Adactio",
   adactio_desc: "Adactio 是 Jeremy Keith 的线上主页，他是一位居住并工作在英国布莱顿的网络开发者和作家。",
-
+  medium_name: "Medium",
+  medium_desc: "一个在线出版平台，个人和机构可在此发布文章、随笔和故事。",
   herbsutter_name: "赫布·萨特（Herb Sutter）",
   herbsutter_desc: "赫布·萨特（ISO C++ 标准委员会 WG21 主席）个人博客，分享关于现代 C++ 的深度文章、编程语言演进的见解，是开发者寻求清晰性、严谨性和设计理念的重要资源。",
   bjarnestroustrup_name: "本贾尼·斯特劳斯特卢普（Bjarne Stroustrup）",

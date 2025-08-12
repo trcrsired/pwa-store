@@ -560,7 +560,8 @@ const L = {
 
   adactio_name: "Adactio",
   adactio_desc: "Adactio is the online home of Jeremy Keith, a web developer and author living and working in Brighton, England.",
-
+  medium_name: "Medium",
+  medium_desc: "Online publishing platform for articles, essays, and stories from individuals and organizations.",
   herbsutter_name: "Herb Sutter",
   herbsutter_desc: "Herb Sutter (chairman of ISO C++ standard committee WG21)’s personal blog—explore thought-provoking essays, deep dives into modern C++, and insights on programming language evolution. A trusted resource for developers seeking clarity, rigor, and vision in software design.",
   bjarnestroustrup_name: "Bjarne Stroustrup",

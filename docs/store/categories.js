@@ -1247,6 +1247,13 @@ export const categories = [
         url: "https://adactio.com"
       },
       {
+        name: "Medium",
+        nameKey: "medium_name",
+        descriptionKey: "medium_desc",
+        icon: "icons/medium.webp",
+        url: "https://medium.com"
+      },
+      {
         name: "Herb Sutter",
         nameKey: "herbsutter_name",
         descriptionKey: "herbsutter_desc",
