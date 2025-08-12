@@ -1198,6 +1198,14 @@ export const categories = [
         icon: "icons/handshake.webp",
         url: "https://app.joinhandshake.com",
       },
+      {
+        name: "Remote OK",
+        nameKey: "remoteok_name",
+        descriptionKey: "remoteok_desc",
+        icon: "icons/wrappers/remoteok.webp",
+        url: "/wrappers/remoteok",
+        wrapper: true
+      },
     ]
   },
   {

@@ -508,6 +508,8 @@ const L = {
   linkedin_desc: "Connect with professionals, explore job opportunities, and build your career profile. Follow companies, join industry groups, and share insights.",
   handshake_name: "Handshake",
   handshake_desc: "Handshake is a career platform designed for students and recent graduates to discover jobs, internships, and events. It connects users with employers, career centers, and peers to support early career growth and networking.",
+  remoteok_name: "Remote OK",
+  remoteok_desc: "Remote OK is a global job board specializing in remote work opportunities across tech, design, marketing, and more. Updated daily with verified listings from remote-friendly companies.",
   mobilitylogistics_name: "Mobility & Logistics",
 
   uber_name: "Uber",

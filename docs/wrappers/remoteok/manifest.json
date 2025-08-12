@@ -1,0 +1,17 @@
+{
+  "name": "Remote OK",
+  "short_name": "Remote OK",
+  "start_url": "/wrappers/remoteok/?source=pwa",
+  "scope": "/wrappers/remoteok/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Remote OK",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/remoteok/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
