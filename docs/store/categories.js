@@ -1200,6 +1200,14 @@ export const categories = [
         url: "https://app.joinhandshake.com",
       },
       {
+        name: "CodeSignal",
+        nameKey: "codesignal_name",
+        descriptionKey: "codesignal_desc",
+        icon: "icons/wrappers/codesignal.webp",
+        url: "/wrappers/codesignal",
+        wrapper: true
+      },
+      {
         name: "Remote OK",
         nameKey: "remoteok_name",
         descriptionKey: "remoteok_desc",

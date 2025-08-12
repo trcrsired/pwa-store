@@ -510,6 +510,8 @@ const L = {
   linkedin_desc: "与职场人士建立联系，探索工作机会，完善职业档案。关注企业，加入行业社群，分享见解。",
   handshake_name: "Handshake",
   handshake_desc: "Handshake 是一个面向学生和应届毕业生的职业平台，帮助用户寻找工作、实习和职业活动。平台连接雇主、职业服务中心和同行，支持职业发展和人脉拓展。",
+  codesignal_name: "CodeSignal",
+  codesignal_desc: "一个用于技术评估、面试准备和技能认证的平台，广泛应用于企业招聘和求职者提升。",
   remoteok_name: "Remote OK",
   remoteok_desc: "Remote OK 是一个全球远程工作招聘平台，涵盖技术、设计、市场营销等多个领域。每日更新，提供来自支持远程工作的公司的真实职位信息。",
   mobilitylogistics_name: "出行与配送",

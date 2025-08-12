@@ -1,0 +1,17 @@
+{
+  "name": "CodeSignal",
+  "short_name": "CodeSignal",
+  "start_url": "/wrappers/codesignal/?source=pwa",
+  "scope": "/wrappers/codesignal/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for CodeSignal",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/codesignal/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
