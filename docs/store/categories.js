@@ -1158,7 +1158,7 @@ export const categories = [
         name: "LinkedIn",
         nameKey: "linkedin_name",
         descriptionKey: "linkedin_desc",
-        icon: "icons/linkedin",
+        icon: "icons/linkedin.webp",
         url: "https://www.linkedin.com",
       }
     ]
