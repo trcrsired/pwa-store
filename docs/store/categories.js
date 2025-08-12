@@ -1210,6 +1210,14 @@ export const categories = [
         wrapper: true
       },
       {
+        name: "Bjarne Stroustrup",
+        nameKey: "bjarnestroustrup_name",
+        descriptionKey: "bjarnestroustrup_desc",
+        icon: "icons/wrappers/bjarnestroustrup.webp",
+        url: "/wrappers/bjarnestroustrup",
+        wrapper: true
+      },
+      {
         name: "NVIDIA",
         nameKey: "nvidia_name",
         descriptionKey: "nvidia_desc",

@@ -551,7 +551,8 @@ const L = {
 
   herbsutter_name: "Herb Sutter",
   herbsutter_desc: "Herb Sutter (chairman of ISO C++ standard committee WG21)’s personal blog—explore thought-provoking essays, deep dives into modern C++, and insights on programming language evolution. A trusted resource for developers seeking clarity, rigor, and vision in software design.",
-
+  bjarnestroustrup_name: "Bjarne Stroustrup",
+  bjarnestroustrup_desc: "Bjarne Stroustrup is a Danish computer scientist best known for designing and implementing the C++ programming language.",
   nvidia_name: "NVIDIA",
   nvidia_desc: "NVIDIA is a global leader in artificial intelligence computing and supplies chips for data centers, gaming, and more.",
 

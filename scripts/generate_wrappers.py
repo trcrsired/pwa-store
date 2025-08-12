@@ -66,6 +66,7 @@ WRAPPERS = [
   { "name": "White House", "url": "https://www.whitehouse.gov", "keyify_name": "whitehouse" },
 
   { "name": "Herb Sutter", "url": "https://herbsutter.com", "keyify_name": "herbsutter" },
+  { "name": "Bjarne Stroustrup", "url": "https://www.stroustrup.com", "keyify_name": "bjarnestroustrup" },
   { "name": "GCC MCF", "url": "https://gcc-mcf.lhmouse.com", "keyify_name": "gccmcf", "icon": "lhmouse.webp" },
   { "name": "Bank of America", "url": "https://www.bankofamerica.com", "keyify_name": "bankofamerica" },
   { "name": "Free Software Foundations", "url": "https://www.fsf.org", "keyify_name": "fsf" },
