@@ -132,6 +132,8 @@ const L = {
   facebook_name: "Facebook",
   facebook_desc: "Meta’s primary social platform.",
   tinder_desc: "Swipe-based dating experience.",
+  truthsocial_name: "Truth Social",
+  truthsocial_desc: "Truth Social is an alt-tech social media platform owned by Trump Media & Technology Group (TMTG), an American media and technology company majority-owned by U.S. president Donald Trump.",
   bluesky_name: "Bluesky",
   bluesky_desc: "Federated social media alternative.",
   twitch_desc: "Live streaming platform for gamers, creators, and communities to interact in real time.",

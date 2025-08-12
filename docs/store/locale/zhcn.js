@@ -133,6 +133,8 @@ const L = {
   facebook_name: "脸书（Facebook）",
   facebook_desc: "Meta 的主要社交平台。",
   tinder_desc: "基于滑动操作的约会体验。",
+  truthsocial_name: "真实社交（Truth Social）",
+  truthsocial_desc: "真实社交（Truth Social） 是一个另类科技社交平台，由美国媒体与科技公司 Trump Media & Technology Group（TMTG）运营，该公司由美国总统唐纳德·特朗普控股。",
   bluesky_name: "蓝天（Bluesky）",
   bluesky_desc: "去中心化的社交媒体替代方案。",
   twitch_desc: "面向游戏玩家、创作者和社区的实时直播平台。",
@@ -145,7 +147,7 @@ const L = {
   hackernews_desc: "面向技术爱好者的社区，提供极简 PWA 体验，探索和讨论编程、初创企业和科学领域的前沿思想。",
   lobsters_desc: "Lobsters 是一个专注于计算机技术的社区，围绕链接聚合和讨论展开，创建于 2012 年 7 月 3 日。",
   tieba_name: "贴吧",
-  tieba_desc: "百度的兴趣社区平台，用户在特定主题的贴吧中分享帖子、媒体和讨论。在移动端需使用 Android 版 Microsoft Edge，并通过添加 ArkWeb 到 UA 字符串来绕过贴吧小程序的检测。",
+  tieba_desc: "百度的兴趣社区平台，用户在特定主题的贴吧中分享帖子、媒体和讨论。在移动端需使用安卓版微软Edge浏览器，并通过添加 ArkWeb 到 UA 字符串来绕过贴吧小程序的检测。",
 
   finance_name: "金融",
 

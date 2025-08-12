@@ -329,7 +329,7 @@ export const categories = [
       {
         name: "Truth Social",
         nameKey: "truthsocial_name",
-        icon: "icons/truth.webp",
+        icon: "icons/truthsocial.webp",
         url: "https://truthsocial.com",
         descriptionKey: "truthsocial_desc",
       },
