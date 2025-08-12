@@ -1069,19 +1069,32 @@ export const categories = [
         url: "https://www.sf-express.com"
       },
       {
-        name: "Jiakaobaodian (驾考宝典)",
-        nameKey: "jiakaobaodian_name",
-        descriptionKey: "jiakaobaodian_desc",
-        icon: "icons/jiakaobaodian.webp",
-        url: "https://www.jiakaobaodian.com"
-      },
-      {
         name: "USPS",
         nameKey: "usps_name",
         descriptionKey: "usps_desc",
         icon: "icons/wrappers/usps.webp",
         url: "/wrappers/usps",
         wrapper: true
+      },
+    ]
+  },
+  {
+    name: "Cars",
+    nameKey: "cars_name",
+    apps: [
+      {
+        name: "Tesla",
+        nameKey: "tesla_name",
+        descriptionKey: "tesla_desc",
+        icon: "icons/tesla.webp",
+        url: "https://www.tesla.com"
+      },
+      {
+        name: "Jiakaobaodian (驾考宝典)",
+        nameKey: "jiakaobaodian_name",
+        descriptionKey: "jiakaobaodian_desc",
+        icon: "icons/jiakaobaodian.webp",
+        url: "https://www.jiakaobaodian.com"
       },
     ]
   },

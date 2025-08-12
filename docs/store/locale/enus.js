@@ -519,12 +519,13 @@ const L = {
 
   sfexpress_name: "SF Express (顺丰速运)",
   sfexpress_desc: "SF Express—track domestic and international shipments, schedule pickups, and manage delivery services.",
-
-  jiakaobaodian_name: "Jiakaobaodian (驾考宝典)",
-  jiakaobaodian_desc: "China’s leading driving test platform—offers up-to-date question banks, multilingual exam prep, and full-process guidance for learners. On Microsoft Edge for Android, please log in first via the browser. The option to install as a Progressive Web App (PWA) becomes available after authentication.",
-
   usps_name: "USPS",
   usps_desc: "United States Postal Service—track shipments, buy postage, schedule pickups, and access national mailing services and address tools through its official portal.",
+  cars_name: "Cars",
+  tesla_name: "Tesla",
+  tesla_desc: "Tesla is an American electric vehicle and clean energy company founded by Elon Musk and others in 2003. It is known for its innovative EVs, autonomous driving technology, and energy solutions such as solar panels and battery storage.",
+  jiakaobaodian_name: "Jiakaobaodian (驾考宝典)",
+  jiakaobaodian_desc: "China’s leading driving test platform—offers up-to-date question banks, multilingual exam prep, and full-process guidance for learners. On Microsoft Edge for Android, please log in first via the browser. The option to install as a Progressive Web App (PWA) becomes available after authentication.",
 
   tickets_name: "Tickets",
 

@@ -519,12 +519,13 @@ const L = {
 
   sfexpress_name: "顺丰速运",
   sfexpress_desc: "顺丰速运——支持国内外快递查询、预约取件与配送服务管理。",
-
-  jiakaobaodian_name: "驾考宝典",
-  jiakaobaodian_desc: "中国领先的驾考平台，提供最新题库、多语言考试准备与全流程学习指导。在 Android 版 Microsoft Edge 浏览器中，请先登录账户，登录后可安装为 PWA 应用。",
-
   usps_name: "美国邮政",
   usps_desc: "美国邮政服务——支持快递查询、邮资购买、预约取件及地址工具等国家邮政服务。",
+  cars_name: "汽车",
+  tesla_name: "特斯拉",
+  tesla_desc: "特斯拉是一家美国电动汽车与清洁能源公司，由埃隆·马斯克等人于 2003 年创立。公司以其创新的电动车、自主驾驶技术以及太阳能和电池储能解决方案而闻名。",
+  jiakaobaodian_name: "驾考宝典",
+  jiakaobaodian_desc: "中国领先的驾考平台，提供最新题库、多语言考试准备与全流程学习指导。在安卓版微软Edge浏览器中，请先登录账户，登录后可安装为 PWA 应用。",
 
   starbucks_name: "星巴克",
   starbucks_desc: "咖啡点单与会员积分管理。",
