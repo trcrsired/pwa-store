@@ -90,8 +90,11 @@ const L = {
   leetcode_name: "LeetCode",
   leetcode_desc: "LeetCode is an online platform offering coding challenges focused on algorithms, data structures, and technical interview preparation.",
   leetcodecn_name: "LeetCode (CN)",
-  leetcodecn_desc: "LeetCode (CN) is the localized Chinese version of LeetCode, offering a translated interface, community discussions, and problem solutions tailored for Chinese users.",  usacotraining_name: "USACO Training Gateway",
+  leetcodecn_desc: "LeetCode (CN) is the localized Chinese version of LeetCode, offering a translated interface, community discussions, and problem solutions tailored for Chinese users.",
+  usacotraining_name: "USACO Training Gateway",
   usacotraining_desc: "USACO Training Gateway is an online learning portal from the USA Computing Olympiad, providing progressive programming problems and tutorials.",
+  fdroid_name: "F-Droid",
+  fdroid_desc: "F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform. The client makes it easy to browse, install, and keep track of updates on your device.",
   resilientwebdesign_name: "Resilient Web Design",
   resilientwebdesign_desc: "Resilient Web Design is a free, beautifully written web book by Jeremy Keith that explores the foundational principles and philosophies of building robust, future-proof websites.",
 

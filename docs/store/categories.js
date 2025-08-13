@@ -200,6 +200,13 @@ export const categories = [
         descriptionKey: "usacotraining_desc"
       },
       {
+        name: "F-Droid",
+        nameKey: "fdroid_name",
+        icon: "icons/fdroid.webp",
+        url: "https://f-droid.org",
+        descriptionKey: "fdroid_desc"
+      },
+      {
         name: "Resilient Web Design",
         nameKey: "resilientwebdesign_name",
         icon: "icons/resilientwebdesign.webp",

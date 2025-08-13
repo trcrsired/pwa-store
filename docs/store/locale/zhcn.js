@@ -94,6 +94,8 @@ const L = {
   leetcodecn_desc: "LeetCode （国内版）是力扣的本地化平台，提供中文界面、题解与社区，帮助用户提升编程能力并准备技术面试。",
   usacotraining_name: "USACO训练入口",
   usacotraining_desc: "USACO训练入口（USACO Training Gateway）是美国计算机奥林匹克竞赛的在线训练平台，为学生提供逐步提升的编程挑战与解题指导。",
+  fdroid_name: "F-Droid",
+  fdroid_desc: "F-Droid 是一个可安装的自由开源软件（FOSS）应用目录，专为安卓平台打造。客户端可帮助你轻松浏览、安装应用，并跟踪设备上的更新。",
   resilientwebdesign_name: "韧性网络设计",
   resilientwebdesign_desc: "《韧性网络设计》是 Jeremy Keith 免费撰写的一本优美的网络书籍，深入探讨构建稳健且具备未来适应性的网页的基本原则与设计理念。",
 
