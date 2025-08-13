@@ -751,6 +751,7 @@ const L = {
   onlyfans_name: "OnlyFans",
   onlyfans_desc: "订阅制平台，以独家成人内容和创作者作品闻名。",
 
+  javhdporn_name: "JavHDPorn",
   javhdporn_desc: "免费日本AV片高清视频，日本色情内容在线播放",
 };
 

@@ -710,6 +710,7 @@ const L = {
   onlyfans_name: "OnlyFans",
   onlyfans_desc: "Subscription-based platform known for exclusive adult and creator content.",
 
+  javhdporn_name: "JavHDPorn",
   javhdporn_desc: "Free Janpanese AV HD Videos, Japanese Porn Streaming Online",
 };
 
