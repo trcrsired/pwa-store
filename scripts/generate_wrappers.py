@@ -79,7 +79,7 @@ WRAPPERS = [
   { "name": "BrowserBench", "url": "https://browserbench.org" },
   { "name": "NY Times", "url": "https://www.nytimes.com" , "keyify_name": "nytimes"},
   { "name": "Netflix", "url": "https://www.netflix.com" },
-  { "name": "LeetCode (CN)", "url": "https://leetcode.cn", "keyify_name": "leetcodecn"},
+  { "name": "LeetCode (CN)", "url": "https://leetcode.cn", "keyify_name": "leetcodecn", "icon": "leetcode.webp"},
   { "name": "ISO C++", "url": "https://isocpp.org" , "keyify_name": "isocpp"},
   { "name": "WeChat Read", "url": "https://weread.qq.com" , "keyify_name": "wechatread"},
   { "name": "NVIDIA", "url": "https://www.nvidia.com" },
