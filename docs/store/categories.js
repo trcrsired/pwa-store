@@ -31,7 +31,7 @@ export const categories = [
     name: "Cybersecurity",
     apps: [
       { name: "ScamAdviser", icon: "icons/scamadvisor.webp", url: "https://www.scamadviser.com", descriptionKey: "scamadviser_desc" },
-      { name: "stack.watch", icon: "icons/stackwatch.webp", url: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", wrapper: true },
+      { name: "stack.watch", icon: "icons/wrapper/stackwatch.webp", url: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", wrapper: true },
     ]
   },
   {
