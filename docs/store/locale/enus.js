@@ -101,7 +101,7 @@ const L = {
   godbolt_desc: "Interactive compiler explorer for C, C++, Rust, and more—visualizing assembly output and comparing optimization across toolchains.",
 
   v86_desc: "Virtual x86 emulator running legacy operating systems like Windows 95 and Linux directly in the browser using WebAssembly.",
-
+  termux_desc: "Termux is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required. A minimal base system is installed automatically - additional packages are available using the APT package manager.",
   fsf_name: "Free Software Foundations",
   fsf_desc: "The Free Software Foundation (FSF) is a nonprofit with a worldwide mission to promote computer user freedom.",
 

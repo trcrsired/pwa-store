@@ -29,6 +29,7 @@ WRAPPERS = [
   { "name": "TED", "url": "https://www.ted.com" },
   { "name": "Tieba", "url": "https://tieba.baidu.com" },
   { "name": "v86", "url": "https://copy.sh/v86" },
+  { "name": "Termux", "url": "https://termux.dev" },
   { "name": "Walmart", "url": "https://www.walmart.com" },
   { "name": "WarcraftLogs", "url": "https://www.warcraftlogs.com" },
   { "name": "Raider.IO", "url": "https://raider.io", "keyify_name": "raiderio" },

@@ -103,7 +103,7 @@ const L = {
   godbolt_desc: "交互式编译器探索工具，支持 C、C++、Rust 等语言，可视化汇编输出并比较不同工具链的优化效果。",
 
   v86_desc: "基于 WebAssembly 的虚拟 x86 模拟器，可在浏览器中运行 Windows 95 和 Linux 等旧系统。",
-
+  termux_desc: "Termux是一个适用于安卓的终端模拟器，其环境类似于 Linux 环境。 无需Root或设置即可使用。 Termux 会自动进行最小安装 - 使用 APT 包管理器即可获得其他软件包。",
   fsf_name: "自由软件基金会",
   fsf_desc: "自由软件基金会（FSF）是一个全球性非营利组织，致力于推广用户自由和开源软件。",
 

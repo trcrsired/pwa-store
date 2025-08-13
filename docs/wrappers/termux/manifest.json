@@ -1,0 +1,17 @@
+{
+  "name": "Termux",
+  "short_name": "Termux",
+  "start_url": "/wrappers/termux/?source=pwa",
+  "scope": "/wrappers/termux/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Termux",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/termux/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

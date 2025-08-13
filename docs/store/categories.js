@@ -232,6 +232,13 @@ export const categories = [
         wrapper: true
       },
       {
+        name: "Termux",
+        icon: "icons/wrappers/termux.webp",
+        url: "/wrappers/termux",
+        descriptionKey: "termux_desc",
+        wrapper: true,
+      },
+      {
         name: "Free Software Foundations",
         nameKey: "fsf_name",
         icon: "icons/wrappers/fsf.webp",
