@@ -1,0 +1,17 @@
+{
+  "name": "NIST Time",
+  "short_name": "NIST Time",
+  "start_url": "/wrappers/timegov/?source=pwa",
+  "scope": "/wrappers/timegov/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for NIST Time",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/timegov/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

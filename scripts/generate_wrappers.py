@@ -17,6 +17,8 @@ WRAPPER_OUTPUT = ROOT / "docs" / "wrappers"
 WRAPPERS = [
   { "name": "CVS", "url": "https://www.cvs.com" },
   { "name": "Internet Archive", "url": "https://archive.org", "keyify_name": "archive" },
+  { "name": "stack.watch", "url": "https://stack.watch", "keyify_name": "stackwatch" },
+  { "name": "NIST Time", "url": "https://www.time.gov", "keyify_name": "timegov" },
   { "name": "Bing", "url": "https://www.bing.com" },
   { "name": "MSN", "url": "https://www.msn.com" },
   { "name": "CCTV", "url": "https://tv.cctv.com" },
@@ -118,6 +120,8 @@ WRAPPERS = [
 
   { "name" : "Binghamton Univeristy", "url": "https://www.binghamton.edu", "keyify_name": "binghamton_edu"},
   { "name" : "Fudan University", "url": "https://www.fudan.edu.cn", "keyify_name": "fudan" },
+
+  { "name" : "JavHDPorn", "url": "https://www4.javhdporn.net" },
 ]
 
 

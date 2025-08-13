@@ -5,6 +5,13 @@ const L = {
   "wrapper": "wrapper",
   "fundamental_name": "Fundamental",
   "chabots_name": "Chatbots",
+  "cybersecurity_name": "Cybersecurity",
+  "scamadviser_desc": "Analyze websites to check for trustworthiness and potential scams.",
+  "time_name": "Time",
+  "timeis_desc": "Check the current time anywhere in the world with precision.",
+  "everytimezone_desc": "Visualize time zones across the globe in a simple layout.",
+  "timegov_desc": "Access official U.S. time from the National Institute of Standards and Technology.",
+  "stackwatch_desc": "Track vulnerabilities and security updates across software stacks.",
   "microsoft_services_name": "Microsoft Services",
   "msstore_name": "Microsoft Store",
   "msstore_desc": "Microsoft's App Store",
@@ -701,7 +708,9 @@ const L = {
   xnxx_desc: "Czech-French adult video sharing site founded in 1997, with global infrastructure.",
 
   onlyfans_name: "OnlyFans",
-  onlyfans_desc: "Subscription-based platform known for exclusive adult and creator content."
+  onlyfans_desc: "Subscription-based platform known for exclusive adult and creator content.",
+
+  javhdporn_desc: "Free Janpanese AV HD Videos, Japanese Porn Streaming Online",
 };
 
 registerLocale("enus", L);

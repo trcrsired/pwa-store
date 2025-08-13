@@ -5,6 +5,13 @@ const L = {
   "wrapper": "包装",
   "fundamental_name": "基本",
   "chabots_name": "聊天机器人",
+  "cybersecurity_name": "网络安全",
+  "scamadviser_desc": "分析网站以评估可信度并识别潜在骗局。",
+  "stackwatch_desc": "跟踪软件栈中的漏洞和安全更新。",
+  "time_name": "时间",
+  "timeis_desc": "精确查看全球任意地点的当前时间。",
+  "everytimezone_desc": "以简洁布局直观展示全球各地的时区。",
+  "timegov_desc": "获取美国国家标准技术研究院提供的官方时间。",
   "microsoft_services_name": "微软服务",
   "msstore_name": "微软商店",
   "msstore_desc": "微软的应用商店",
@@ -742,7 +749,9 @@ const L = {
   xnxx_desc: "成立于 1997 年的捷克-法国成人视频网站，服务器遍布全球。",
 
   onlyfans_name: "OnlyFans",
-  onlyfans_desc: "订阅制平台，以独家成人内容和创作者作品闻名。"
+  onlyfans_desc: "订阅制平台，以独家成人内容和创作者作品闻名。",
+
+  javhdporn_desc: "免费日本AV片高清视频，日本色情内容在线播放",
 };
 
 registerLocale("zhcn", L);

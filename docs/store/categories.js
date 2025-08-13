@@ -27,6 +27,23 @@ export const categories = [
     ]
   },
   {
+    nameKey: "cybersecurity_name",
+    name: "Cybersecurity",
+    apps: [
+      { name: "ScamAdviser", icon: "icons/scamadvisor.webp", url: "https://www.scamadviser.com", descriptionKey: "scamadviser_desc" },
+      { name: "stack.watch", icon: "icons/stackwatch.webp", url: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", wrapper: true },
+    ]
+  },
+  {
+    nameKey: "time_name",
+    name: "Time",
+    apps: [
+      { name: "Time.is", icon: "icons/timeis.webp", url: "https://time.is", descriptionKey: "timeis_desc" },
+      { name: "Every Time Zone", icon: "icons/everytimezone.webp", url: "https://everytimezone.com", descriptionKey: "everytimezone_desc" },
+      { name: "NIST Time", icon: "icons/timegov.webp", url: "/wrappers/timegov", descriptionKey: "timegov_desc", wrapper: true },
+    ]
+  },
+  {
     nameKey: "microsoft_services_name",
     name: "Microsoft Services",
     apps: [
@@ -1650,6 +1667,14 @@ export const categories = [
         descriptionKey: "onlyfans_desc",
         icon: "icons/onlyfans.webp",
         url: "https://onlyfans.com"
+      },
+      {
+        name: "JavHDPorn",
+        nameKey: "javhdporn_name",
+        descriptionKey: "javhdporn_desc",
+        icon: "icons/wrappers/javhdporn.webp",
+        url: "/wrappers/javhdporn",
+        wrapper: true
       },
     ]
   }

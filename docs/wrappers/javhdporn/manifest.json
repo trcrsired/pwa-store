@@ -1,0 +1,17 @@
+{
+  "name": "JavHDPorn",
+  "short_name": "JavHDPorn",
+  "start_url": "/wrappers/javhdporn/?source=pwa",
+  "scope": "/wrappers/javhdporn/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for JavHDPorn",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/javhdporn/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
