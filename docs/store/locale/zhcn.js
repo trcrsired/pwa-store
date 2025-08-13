@@ -84,7 +84,7 @@ const L = {
   leetcode_name: "LeetCode",
   leetcode_desc: "力扣（LeetCode）是一个在线编程学习平台，提供丰富的算法与数据结构题库，广泛用于技术面试准备和编程技能提升。",
   leetcodecn_name: "LeetCode （国内版）",
-  leetcodecn_desc: "LeetCode （国内版）是 LeetCode 的本地化平台，提供中文界面、题解与社区，帮助用户提升编程能力并准备技术面试。",
+  leetcodecn_desc: "LeetCode （国内版）是力扣的本地化平台，提供中文界面、题解与社区，帮助用户提升编程能力并准备技术面试。",
   usacotraining_name: "USACO训练入口",
   usacotraining_desc: "USACO训练入口（USACO Training Gateway）是美国计算机奥林匹克竞赛的在线训练平台，为学生提供逐步提升的编程挑战与解题指导。",
   resilientwebdesign_name: "韧性网络设计",
