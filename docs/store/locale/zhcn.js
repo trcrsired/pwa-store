@@ -466,6 +466,9 @@ const L = {
   youtubemusic_name: "油管音乐 （YouTube Music）",
   youtubemusic_desc: "可串流播放超过一亿首歌曲、专辑、混音和现场表演——YouTube Music 的渐进式网页应用（PWA）支持个性化播放列表、播客功能，并在多设备间无缝播放。",
 
+  soundcloud_name: "声云 （SoundCloud）",
+  soundcloud_desc: "声云 （SoundCloud） 是一家德国音频流媒体服务，由 SoundCloud Global Limited & Co. KG 拥有并运营。该服务允许用户上传、推广和分享音频内容。",
+
   ecommerece_name: "电子商务",
 
   starbucks_name: "星巴克",

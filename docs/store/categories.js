@@ -977,6 +977,13 @@ export const categories = [
         icon: "icons/youtubemusic.webp",
         url: "https://music.youtube.com"
       },
+      {
+        name: "SoundCloud",
+        nameKey: "soundcloud_name",
+        descriptionKey: "soundcloud_desc",
+        icon: "icons/soundcloud",
+        url: "https://soundcloud.com"
+      }
     ]
   },
   {

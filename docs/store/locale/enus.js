@@ -464,6 +464,9 @@ const L = {
   youtubemusic_name: "YouTube Music",
   youtubemusic_desc: "Stream over 100 million songs, albums, remixes, and live performances—YouTube Music’s PWA offers personalized playlists, podcast support, and seamless playback across devices.",
 
+  soundcloud_name: "SoundCloud",
+  soundcloud_desc: "SoundCloud is a German audio streaming service owned and operated by SoundCloud Global Limited & Co. KG. The service enables its users to upload, promote, and share audio.",
+
   ecommerece_name: "E-commerece",
 
   starbucks_name: "Starbucks",
