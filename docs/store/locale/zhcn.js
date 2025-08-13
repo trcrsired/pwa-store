@@ -81,7 +81,10 @@ const L = {
 
   pwabuilder_name: "PWA Builder",
   pwabuilder_desc: "由 Microsoft 开发的开源工具，简化 Progressive Web App 的部署流程。",
-
+  leetcode_name: "力扣",
+  leetcode_desc: "力扣（LeetCode）是一个在线编程学习平台，提供丰富的算法与数据结构题库，广泛用于技术面试准备和编程技能提升。",
+  usacotraining_name: "USACO训练入口",
+  usacotraining_desc: "USACO训练入口（USACO Training Gateway）是美国计算机奥林匹克竞赛的在线训练平台，为学生提供逐步提升的编程挑战与解题指导。",
   resilientwebdesign_name: "韧性网络设计",
   resilientwebdesign_desc: "《韧性网络设计》是 Jeremy Keith 免费撰写的一本优美的网络书籍，深入探讨构建稳健且具备未来适应性的网页的基本原则与设计理念。",
 

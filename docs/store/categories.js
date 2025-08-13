@@ -161,6 +161,20 @@ export const categories = [
         descriptionKey: "pwabuilder_desc"
       },
       {
+        name: "LeetCode",
+        nameKey: "leetcode_name",
+        icon: "icons/leetcode.webp",
+        url: "https://leetcode.com",
+        descriptionKey: "leetcode_desc"
+      },
+      {
+        name: "USACO Training Gateway",
+        nameKey: "usacotraining_name",
+        icon: "icons/usacotraining.webp",
+        url: "https://usaco.training",
+        descriptionKey: "usacotraining_desc"
+      },
+      {
         name: "Resilient Web Design",
         nameKey: "resilientwebdesign_name",
         icon: "icons/resilientwebdesign.webp",
