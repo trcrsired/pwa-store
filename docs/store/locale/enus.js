@@ -214,7 +214,8 @@ const L = {
 
   xdaforums_name: "XDA Forums",
   xdaforums_desc: "XDA Forums is a community for discussion, guides, accessories and development of mobile devices, especially Android.",
-
+  fdroidforum_name: "F-Droid Forum",
+  fdroidforum_desc: "The official community forum for F-Droid users and developers to discuss apps, issues, and ideas.",
   appleinsider_name: "AppleInsider",
   appleinsider_desc: "A news site focused on Apple products, rumors, reviews, and industry analysis.",
 

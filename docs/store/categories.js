@@ -594,6 +594,13 @@ export const categories = [
         url: "https://xdaforums.com"
       },
       {
+        name: "F-Droid Forum",
+        nameKey: "fdroidforum_name",
+        descriptionKey: "fdroidforum_desc",
+        icon: "icons/fdroid.webp",
+        url: "https://forum.f-droid.org"
+      },
+      {
         name: "AppleInsider",
         nameKey: "appleinsider_name",
         descriptionKey: "appleinsider_desc",

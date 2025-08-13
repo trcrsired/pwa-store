@@ -214,7 +214,8 @@ const L = {
 
   xdaforums_name: "XDA 论坛",
   xdaforums_desc: "XDA 论坛是一个专注于移动设备（尤其是 Android）开发、配件、指南与讨论的技术社区。",
-
+  fdroidforum_name: "F-Droid 论坛",
+  fdroidforum_desc: "这是 F-Droid 用户和开发者的官方社区论坛，用于讨论应用、问题和创意。",
   appleinsider_name: "AppleInsider",
   appleinsider_desc: "一个专注于苹果产品、传闻、评测和行业分析的新闻网站。",
 
