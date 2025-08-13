@@ -348,6 +348,12 @@ export const categories = [
         descriptionKey: "reddit_desc"
       },
       {
+        name: "Mastodon",
+        icon: "icons/mastodon.webp",
+        url: "https://mastodon.social",
+        descriptionKey: "mastodon_desc"
+      },
+      {
         name: "X (Twitter)",
         nameKey: "x_name",
         icon: "icons/x.webp",

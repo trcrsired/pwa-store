@@ -140,6 +140,7 @@ const L = {
   youtube_name: "油管（YouTube）",
   youtube_desc: "Google 推出的在线视频平台。",
   reddit_desc: "社区驱动的讨论论坛。",
+  mastodon_desc: "Mastodon 是一款自由开源软件，允许你加入或创建自己的服务器，并与整个联邦宇宙中的任何人交流。",
   x_name: "X（推特）",
   x_desc: "以文本为主的社交更新与交流平台。",
   instagram_desc: "以图片为核心的社交网络。",

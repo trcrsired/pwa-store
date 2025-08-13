@@ -138,6 +138,7 @@ const L = {
   youtube_name: "YouTube",
   youtube_desc: "Video streaming platform by Google.",
   reddit_desc: "Community-driven discussion forums.",
+  mastodon_desc: "Mastodon is a free and open-source software that lets you join or create your own server and communicate with anyone across the fediverse.",
   x_name: "X (Twitter)",
   x_desc: "Text-based social updates and chatter.",
   instagram_desc: "Image-centric social network.",
