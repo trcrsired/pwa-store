@@ -981,7 +981,7 @@ export const categories = [
         name: "SoundCloud",
         nameKey: "soundcloud_name",
         descriptionKey: "soundcloud_desc",
-        icon: "icons/soundcloud",
+        icon: "icons/soundcloud.webp",
         url: "https://soundcloud.com"
       }
     ]
