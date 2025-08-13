@@ -168,6 +168,14 @@ export const categories = [
         descriptionKey: "leetcode_desc"
       },
       {
+        name: "LeetCode (CN)",
+        nameKey: "leetcodecn_name",
+        icon: "icons/leetcode.webp",
+        url: "/wrappers/leetcodecn",
+        descriptionKey: "leetcodecn_desc",
+        wrapper: true
+      },
+      {
         name: "USACO Training Gateway",
         nameKey: "usacotraining_name",
         icon: "icons/usacotraining.webp",

@@ -1,0 +1,17 @@
+{
+  "name": "LeetCode (CN)",
+  "short_name": "LeetCode (CN)",
+  "start_url": "/wrappers/leetcodecn/?source=pwa",
+  "scope": "/wrappers/leetcodecn/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for LeetCode (CN)",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/leetcodecn/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
