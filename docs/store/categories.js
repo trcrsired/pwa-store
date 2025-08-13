@@ -30,8 +30,8 @@ export const categories = [
     nameKey: "cybersecurity_name",
     name: "Cybersecurity",
     apps: [
-      { name: "ScamAdviser", icon: "icons/scamadvisor.webp", url: "https://www.scamadviser.com", descriptionKey: "scamadviser_desc" },
-      { name: "stack.watch", icon: "icons/wrapper/stackwatch.webp", url: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", wrapper: true },
+      { name: "ScamAdviser", icon: "icons/scamadviser.webp", url: "https://www.scamadviser.com", descriptionKey: "scamadviser_desc" },
+      { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", wrapper: true },
     ]
   },
   {
@@ -40,7 +40,7 @@ export const categories = [
     apps: [
       { name: "Time.is", icon: "icons/timeis.webp", url: "https://time.is", descriptionKey: "timeis_desc" },
       { name: "Every Time Zone", icon: "icons/everytimezone.webp", url: "https://everytimezone.com", descriptionKey: "everytimezone_desc" },
-      { name: "NIST Time", icon: "icons/timegov.webp", url: "/wrappers/timegov", descriptionKey: "timegov_desc", wrapper: true },
+      { name: "NIST Time", icon: "icons/wrappers/timegov.webp", url: "/wrappers/timegov", descriptionKey: "timegov_desc", wrapper: true },
     ]
   },
   {
