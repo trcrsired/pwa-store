@@ -1,0 +1,17 @@
+{
+  "name": "Aurora Store",
+  "short_name": "Aurora Store",
+  "start_url": "/wrappers/aurorastore/?source=pwa",
+  "scope": "/wrappers/aurorastore/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Aurora Store",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/aurorastore/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

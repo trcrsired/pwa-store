@@ -284,6 +284,13 @@ export const categories = [
         url: "/wrappers/geeksforgeeks",
         descriptionKey: "geeksforgeeks_desc",
         wrapper: true
+      },
+      {
+        name: "Aurora Store",
+        icon: "icons/wrappers/aurorastore.webp",
+        url: "/wrappers/aurorastore",
+        descriptionKey: "aurorastore_desc",
+        wrapper: true
       }
     ]
   },

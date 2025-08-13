@@ -117,9 +117,8 @@ const L = {
 
   gccmcf_name: "GCC MCF",
   gccmcf_desc: "A customized GCC fork for Windows that replaces the standard POSIX thread model with its own minimal C library-based fiber-compatible threading system (MCF).",
-
   geeksforgeeks_desc: "GeeksforGeeks is a comprehensive educational portal that empowers learners across domains.",
-
+  aurorastore_desc: "An open-source client for Google Play that supports anonymous downloads, app browsing, and update tracking without Google services.",
   cloudflare_desc: "Cloudflare is a widely adopted platform that provides networking, security, and performance services to enhance the functionality of websites, applications, and online services. It is used by a diverse range of users, from individual developers to large enterprises, due to its robust features and global infrastructure.",
 
   mail_name: "Mail",
