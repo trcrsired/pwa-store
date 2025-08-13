@@ -478,6 +478,9 @@ const L = {
   ebay_name: "eBay",
   ebay_desc: "Global e-commerce platform—eBay connects buyers and sellers through auctions, fixed-price listings, and curated collections.",
 
+  shopify_name: "Shopify",
+  shopify_desc: "Build and manage your own online store with customizable tools and secure checkout.",
+
   taobao_name: "Taobao (淘宝)",
   taobao_desc: "A major consumer-to-consumer e-commerce platform in China, Taobao offers a diverse marketplace featuring everything from fashion and electronics to handmade local products. Backed by Alibaba, it’s known for powerful search tools, mobile-first features, and deep integration with logistics and social commerce.",
 

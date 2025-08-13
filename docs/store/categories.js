@@ -1012,6 +1012,13 @@ export const categories = [
         url: "https://www.ebay.com"
       },
       {
+        name: "Shopify",
+        nameKey: "shopify_name",
+        descriptionKey: "shopify_desc",
+        icon: "icons/shopify.webp",
+        url: "https://www.shopify.com"
+      },
+      {
         name: "Taobao (淘宝)",
         nameKey: "taobao_name",
         descriptionKey: "taobao_desc",
