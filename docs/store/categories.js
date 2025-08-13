@@ -163,14 +163,14 @@ export const categories = [
       {
         name: "LeetCode",
         nameKey: "leetcode_name",
-        icon: "icons/leetcode.webp",
+        icon: "icons/wrappers/leetcode.webp",
         url: "https://leetcode.com",
         descriptionKey: "leetcode_desc"
       },
       {
         name: "LeetCode (CN)",
         nameKey: "leetcodecn_name",
-        icon: "icons/leetcode.webp",
+        icon: "icons/wrappers/leetcode.webp",
         url: "/wrappers/leetcodecn",
         descriptionKey: "leetcodecn_desc",
         wrapper: true
