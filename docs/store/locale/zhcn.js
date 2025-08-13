@@ -147,6 +147,8 @@ const L = {
   hackernews_name: "Hacker News",
   hackernews_desc: "面向技术爱好者的社区，提供极简 PWA 体验，探索和讨论编程、初创企业和科学领域的前沿思想。",
   lobsters_desc: "Lobsters 是一个专注于计算机技术的社区，围绕链接聚合和讨论展开，创建于 2012 年 7 月 3 日。",
+  flipboard_name: "红板报",
+  flipboard_desc: "红板报（Flipboard） 是一家新闻聚合和社交网络聚合公司，总部位于加利福尼亚州帕洛阿尔托，在纽约、温哥华和北京设有办事处。",
   tieba_name: "贴吧",
   tieba_desc: "百度的兴趣社区平台，用户在特定主题的贴吧中分享帖子、媒体和讨论。在移动端需使用安卓版微软Edge浏览器，并通过添加 ArkWeb 到 UA 字符串来绕过贴吧小程序的检测。",
 

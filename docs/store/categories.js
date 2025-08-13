@@ -386,6 +386,13 @@ export const categories = [
         descriptionKey: "lobsters_desc"
       },
       {
+        name: "Flipboard",
+        nameKey: "flipboard_name",
+        icon: "icons/flipboard.webp",
+        url: "https://flipboard.com",
+        descriptionKey: "flipboard_desc"
+      },
+      {
         name: "Tieba (贴吧)",
         nameKey: "tieba_name",
         icon: "icons/wrappers/tieba.webp",
