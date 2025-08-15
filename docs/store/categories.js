@@ -1572,6 +1572,14 @@ export const categories = [
         url: "/wrappers/whitehouse",
         descriptionKey: "whitehouse_desc",
         wrapper: true
+      },
+      {
+        name: "ID.me",
+        nameKey: "idme_name",
+        icon: "icons/wrappers/idme.webp",
+        url: "/wrappers/idme",
+        descriptionKey: "idme_desc",
+        wrapper: true
       }
     ]
   },
