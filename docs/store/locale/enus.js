@@ -224,7 +224,7 @@ const L = {
 
   zdnet_name: "ZDNET",
   zdnet_desc: "ZDNET is a business technology news website owned by Ziff Davis. It provides expert insights on innovations, trends, and products for professionals in IT, business, and digital transformation.",
-
+  techspot_desc: "TechSpot is a technology news and analysis site that covers computing, software, hardware, and the digital industry. It’s trusted by tech enthusiasts and professionals for its in-depth reviews and timely reporting.",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community.",
 
@@ -484,7 +484,7 @@ const L = {
 
   ebay_name: "eBay",
   ebay_desc: "Global e-commerce platform—eBay connects buyers and sellers through auctions, fixed-price listings, and curated collections.",
-
+  temu_desc: "Temu is an online marketplace operated by e-commerce company PDD Holdings. The program is designed to help local sellers reach more local consumers, bring more locally relevant products to local shoppers, and improve the user experience.",
   shopify_name: "Shopify",
   shopify_desc: "Build and manage your own online store with customizable tools and secure checkout.",
 

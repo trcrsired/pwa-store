@@ -224,7 +224,7 @@ const L = {
 
   zdnet_name: "ZDNET",
   zdnet_desc: "ZDNET 是一家由 Ziff Davis 运营的商业科技新闻网站，面向 IT、商业和数字化转型领域的专业人士，提供创新趋势与技术产品的深度分析与见解。",
-
+  techspot_desc: "TechSpot 是一家专注于计算机技术的科技媒体，内容涵盖硬件评测、软件推荐、行业动态与深度分析，深受技术爱好者与专业用户的信赖。",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO 是面向中文用户的 Linux 门户网站，提供新闻、教程、发行版信息与开源开发资源，服务于技术爱好者与专业人士。",
 
@@ -485,7 +485,7 @@ const L = {
 
   ebay_name: "eBay",
   ebay_desc: "全球电子商务平台，通过拍卖、一口价和精选商品连接买家与卖家。",
-
+  temu_desc: "Temu 是由电商公司拼多多控股运营的在线购物平台。该平台旨在帮助本地卖家触达更多本地消费者，提供更符合本地需求的商品，并提升用户购物体验。",
   shopify_name: "Shopify",
   shopify_desc: "使用可定制工具和安全结账系统创建并管理您的在线商店。",
 

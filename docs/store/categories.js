@@ -622,6 +622,12 @@ export const categories = [
         url: "https://www.zdnet.com",
       },
       {
+        name: "TechSpot",
+        descriptionKey: "techspot_desc",
+        icon: "icons/techspot.webp",
+        url: "https://www.techspot.com"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",
@@ -1044,6 +1050,12 @@ export const categories = [
         descriptionKey: "ebay_desc",
         icon: "icons/ebay.webp",
         url: "https://www.ebay.com"
+      },
+      {
+        name: "Temu",
+        descriptionKey: "temu_desc",
+        icon: "icons/temu.webp",
+        url: "https://www.temu.com/login.html"
       },
       {
         name: "Shopify",
