@@ -390,6 +390,8 @@ const L = {
   wowforums_desc: "魔兽世界的官方游戏门户。",
   wowanalyzer_name: "WoWAnalyzer",
   wowanalyzer_desc: "通过个人反馈和数据分析提升你的表现，只需输入 Warcraft Logs 报告链接。",
+  ragezone_name: "RaGEZONE",
+  ragezone_desc: "RaGEZONE 是一个资深的在线论坛，专注于 MMORPG 游戏开发、私服模拟和游戏修改。论坛提供丰富的资源，包括服务器文件、教程，以及针对 MU Online、冒险岛、仙境传说等游戏的技术讨论。凭借活跃的开发者社区和用户基础，RaGEZONE 成为游戏定制与逆向工程爱好者的重要交流平台。",
   mmochampion_name: "MMO Champion",
   mmochampion_desc: "专注于魔兽世界的新闻与论坛中心，提供补丁说明、团队副本攻略和社区讨论。",
   warcraftlogs_name: "Warcraft Logs",

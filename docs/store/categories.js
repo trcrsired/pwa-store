@@ -798,6 +798,13 @@ export const categories = [
         url: "https://wowanalyzer.com"
       },
       {
+        name: "RaGEZONE",
+        nameKey: "ragezone_name",
+        descriptionKey: "ragezone_desc",
+        icon: "icons/ragezone.webp",
+        url: "https://forum.ragezone.com"
+      },
+      {
         name: "MMO Champion",
         nameKey: "mmochampion_name",
         descriptionKey: "mmochampion_desc",

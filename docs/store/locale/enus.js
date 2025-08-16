@@ -391,6 +391,8 @@ const L = {
   wowforums_desc: "Official game portal for WoW.",
   wowanalyzer_name: "WoWAnalyzer",
   wowanalyzer_desc: "Improve your performance with personal feedback and stats. Just enter the link of a Warcraft Logs report.",
+  ragezone_name: "RaGEZONE",
+  ragezone_desc: "RaGEZONE is a veteran online forum focused on MMORPG development, private server emulation, and game modding. It hosts a wide range of resources including server files, tutorials, and technical discussions for games like MU Online, MapleStory, and Ragnarok. With a strong developer community and active user base, RaGEZONE serves as a hub for enthusiasts exploring game customization and reverse engineering.",
   mmochampion_name: "MMO Champion",
   mmochampion_desc: "World of Warcraft-focused news and forum hub featuring patch notes, raid strategies, and community discussions.",
   warcraftlogs_name: "Warcraft Logs",
