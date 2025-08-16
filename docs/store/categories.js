@@ -733,6 +733,13 @@ export const categories = [
         url: "https://en.gameslol.net"
       },
       {
+        name: "ClassicGames.gg",
+        nameKey: "classicgames_name",
+        descriptionKey: "classicgames_desc",
+        icon: "icons/classicgamesgg.webp",
+        url: "https://classicgames.gg",
+      },
+      {
         name: "CrazyGames",
         nameKey: "crazygames_name",
         descriptionKey: "crazygames_desc",

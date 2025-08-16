@@ -369,7 +369,8 @@ const L = {
 
   gameslol_name: "GamesLOL",
   gameslol_desc: "GamesLOL 提供多种类型的游戏，包括动作、冒险、益智、体育等，种类丰富。",
-
+  classicgamesgg_name: "ClassicGames.gg",
+  classicgamesgg_desc: "免费在线畅玩经典游戏！数百款复古街机、主机和PC游戏，无需下载，直接在浏览器中尽情享受。立即重温童年回忆！",
   crazygames_name: "CrazyGames",
   crazygames_desc: "CrazyGames 提供基于浏览器的游戏，涵盖动作、益智、多人等类型，无需下载即可畅玩。",
 

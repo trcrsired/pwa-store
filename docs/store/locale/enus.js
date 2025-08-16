@@ -370,7 +370,8 @@ const L = {
 
   gameslol_name: "GamesLOL",
   gameslol_desc: "GamesLOL is a website that offers a wide range of games in various genres, such as action, adventure, puzzle, sports, and more.",
-
+  classicgamesgg_name: "ClassicGames.gg",
+  classicgamesgg_desc: "Play classic games online for free! Enjoy hundreds of retro arcade, console, and PC games right in your browser—no downloads needed. Relive the nostalgia now!",
   crazygames_name: "CrazyGames",
   crazygames_desc: "Browser-based games spanning action, puzzle, multiplayer, and more—play instantly without downloads.",
 
