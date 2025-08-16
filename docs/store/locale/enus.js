@@ -376,7 +376,8 @@ const L = {
 
   webgamer_name: "Web Gamer",
   webgamer_desc: "Portal for next-gen web games—play instantly in your browser with no installs required.",
-
+  chronodivide_name: "RA2: Chrono Divide",
+  chronodivide_desc: "RA2: Chrono Divide is a fan-made, browser-based tribute to the classic Command & Conquer: Red Alert 2. It faithfully recreates the real-time strategy experience with smooth online multiplayer, iconic units, and nostalgic visuals—all without needing to install a thing. Whether you're commanding Soviet forces or leading Allied troops, Chrono Divide lets you relive the tactical thrill of chrono technology and battlefield domination, right from your browser.",
   mumu_cn_name: "MuMu Emulator (MuMu模拟器)",
   mumu_cn_desc: "Chinese-localized version of NetEase’s MuMu Android emulator, designed for domestic users with deep integration into mainland gaming ecosystems and simplified PC-side control.",
 

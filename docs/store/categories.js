@@ -747,6 +747,14 @@ export const categories = [
         url: "https://webgamer.io"
       },
       {
+        name: "Red Alert 2: Chrono Divide",
+        nameKey: "chronodivide_name",
+        descriptionKey: "chronodivide_desc",
+        icon: "icons/chronodivide.webp",
+        url: "",
+        wrapper: true
+      },
+      {
         name: "MuMu Emulator (MuMu模拟器)",
         nameKey: "mumu_cn_name",
         descriptionKey: "mumu_cn_desc",

@@ -1,0 +1,17 @@
+{
+  "name": "RA2: Chrono Divide",
+  "short_name": "RA2: Chrono Divide",
+  "start_url": "/wrappers/chronodivide/?source=pwa",
+  "scope": "/wrappers/chronodivide/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for RA2: Chrono Divide",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/chronodivide/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

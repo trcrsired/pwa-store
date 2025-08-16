@@ -76,6 +76,7 @@ WRAPPERS = [
   { "name": "GCC MCF", "url": "https://gcc-mcf.lhmouse.com", "keyify_name": "gccmcf", "icon": "lhmouse.webp" },
   { "name": "Bank of America", "url": "https://www.bankofamerica.com", "keyify_name": "bankofamerica" },
   { "name": "Free Software Foundations", "url": "https://www.fsf.org", "keyify_name": "fsf" },
+  { "name": "RA2: Chrono Divide", "url": "https://game.chronodivide.com", "keyify_name": "chronodivide" },
   { "name": "Mumu Emulator(模拟器)", "url": "https://mumu.163.com", "keyify_name": "mumu" },
   { "name": "MumuPlayer", "url": "https://www.mumuplayer.com", "keyify_name": "mumuplayer", "icon": "mumu.webp" },
   { "name": "UN", "url": "https://www.un.org" },
