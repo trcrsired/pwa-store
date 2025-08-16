@@ -750,9 +750,9 @@ export const categories = [
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",
-        icon: "icons/chronodivide.webp",
-        url: "",
-        wrapper: true
+        icon: "icons/wrappers/chronodivide.webp",
+        url: "/wrappers/chronodivide",
+        wrappe: true
       },
       {
         name: "MuMu Emulator (MuMu模拟器)",
