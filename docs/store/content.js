@@ -45,39 +45,41 @@ const renderCategory = (category) => {
 // 🔍 Render store with optional search filter
 const renderStore = (filterText = '') => {
   const root = document.getElementById('app-store');
-  if (!root) return;
+  const resultCount = document.getElementById('result-count');
+  if (!root || !resultCount) return;
 
   root.innerHTML = '';
 
+  let totalMatches = 0;
+
   categories.forEach((category) => {
-    // Get localized and raw category name
     const localizedCategoryName = category.nameKey ? L(category.nameKey) : category.name;
     const categoryText = `${localizedCategoryName} ${category.name}`.toLowerCase();
 
     let filteredApps;
 
     if (categoryText.includes(filterText)) {
-      // ✅ If category name matches the filter, include all apps in this category
       filteredApps = category.apps;
     } else {
-      // 🔍 Otherwise, filter apps individually by name and description
       filteredApps = category.apps.filter(app => {
         const nameKeyText = app.nameKey ? L(app.nameKey) : '';
         const nameText = app.name || '';
         const descKeyText = app.descriptionKey ? L(app.descriptionKey) : '';
         const descText = app.description || '';
-
         const combinedText = `${nameKeyText} ${nameText} ${descKeyText} ${descText}`.toLowerCase();
         return combinedText.includes(filterText);
       });
     }
 
-    // 🧩 Render category only if it has matching apps
     if (filteredApps.length > 0) {
+      totalMatches += filteredApps.length;
       const filteredCategory = { ...category, apps: filteredApps };
       root.appendChild(renderCategory(filteredCategory));
     }
   });
+
+  // 🧮 Update result count display
+  resultCount.textContent = `${totalMatches} PWA${totalMatches !== 1 ? 's' : ''}`;
 };
 
 // 🔧 Setup search input listener
