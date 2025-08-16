@@ -734,8 +734,8 @@ export const categories = [
       },
       {
         name: "ClassicGames.gg",
-        nameKey: "classicgames_name",
-        descriptionKey: "classicgames_desc",
+        nameKey: "classicgamesgg_name",
+        descriptionKey: "classicgamesgg_desc",
         icon: "icons/classicgamesgg.webp",
         url: "https://classicgames.gg",
       },
