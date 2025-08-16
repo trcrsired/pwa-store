@@ -752,7 +752,7 @@ export const categories = [
         descriptionKey: "chronodivide_desc",
         icon: "icons/wrappers/chronodivide.webp",
         url: "/wrappers/chronodivide",
-        wrappe: true
+        wrapper: true
       },
       {
         name: "MuMu Emulator (MuMu模拟器)",
