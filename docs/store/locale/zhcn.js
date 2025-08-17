@@ -156,6 +156,8 @@ const L = {
   twitch_desc: "面向游戏玩家、创作者和社区的实时直播平台。",
   patreon_desc: "直接支持创作者并获取独家内容的平台。",
   tumblr_desc: "Tumblr 是一个由 David Karp 于 2007 年创立的微博客和社交媒体平台，目前由美国公司 Automattic 所拥有。用户可以在平台上发布多媒体内容及其他信息，创建简洁的博客。",
+  elk_desc: "Elk 是一款轻巧灵活的 Mastodon 网页客户端，拥有简洁现代的界面，支持多账户、富文本发布等功能。而且，它是免费且开源的！",
+  groupme_desc: "GroupMe — 免费且简单的方式，让你快速轻松地与亲朋好友保持联系。",
   discord_desc: "为社区、创作者和朋友提供语音、视频和文本交流的平台，基于邀请制服务器和主题频道组织。",
   telegram_name: "电报（Telegram）",
   telegram_desc: "基于云的消息应用，提供快速、安全的通信，支持大型群组、媒体分享和跨设备同步。",
@@ -167,6 +169,8 @@ const L = {
   flipboard_desc: "红板报（Flipboard） 是一家新闻聚合和社交网络聚合公司，总部位于加利福尼亚州帕洛阿尔托，在纽约、温哥华和北京设有办事处。",
   pinterest_name: "Pinterest",
   pinterest_desc: "Pinterest 是你的视觉发现引擎，帮助你寻找灵感点子，如食谱、家居设计、时尚风格等。保存你喜爱的内容，整理你的发现，探索来自世界各地的无限创意。",
+  zoosk_name: "Zoosk",
+  zoosk_desc: "Zoosk 是一款广受欢迎的在线约会平台，采用行为匹配技术，帮助全球用户寻找理想伴侣。界面友好，匹配智能，为用户提供一个有趣且安全的交友环境，助你建立有意义的关系。",
   tieba_name: "贴吧",
   tieba_desc: "百度的兴趣社区平台，用户在特定主题的贴吧中分享帖子、媒体和讨论。在移动端需使用安卓版微软Edge浏览器，并通过添加 ArkWeb 到 UA 字符串来绕过贴吧小程序的检测。",
 
@@ -725,7 +729,8 @@ const L = {
   un_desc: "联合国是全球唯一一个所有国家汇聚一堂，共同探讨问题并寻求造福全人类解决方案的组织。",
 
   healthinsurance_name: "健康和保险",
-
+  digitalexpertgehealthcare_name: "Digital Expert GE HealthCare",
+  digitalexpertgehealthcare_desc: "Digital Expert 是 GE HealthCare 推出的云端平台，可为临床医生提供实时支持、培训和专家指导。该平台旨在提升诊断信心与工作效率，使医疗专业人员能够按需访问临床专长与数字工具。",
   uhs_name: "UHS",
   uhs_desc: "UHS（Universal Health Services）是一家医院管理和医疗服务提供商，在美国提供行为健康、急性护理和综合医疗服务。",
 

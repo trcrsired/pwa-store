@@ -29,6 +29,7 @@ WRAPPERS = [
   { "name": "MMO Champion", "url": "https://www.mmo-champion.com", "keyify_name": "mmo-champion" },
   { "name": "Target", "url": "https://www.target.com" },
   { "name": "TED", "url": "https://www.ted.com" },
+  { "name": "Zoosk", "url": "https://zoosk.com" },
   { "name": "Tieba", "url": "https://tieba.baidu.com" },
   { "name": "v86", "url": "https://copy.sh/v86" },
   { "name": "Termux", "url": "https://termux.dev" },

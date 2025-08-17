@@ -155,6 +155,8 @@ const L = {
   twitch_desc: "Live streaming platform for gamers, creators, and communities to interact in real time.",
   patreon_desc: "Support creators directly and access exclusive content.",
   tumblr_desc: "Tumblr is a microblogging and social media platform founded by David Karp in 2007 and is owned by American company Automattic. The service allows users to post multimedia and other content to a short-form blog.",
+  elk_desc: "Elk is a nimble Mastodon web client with a clean and modern interface, support for multiple accounts, posting in rich text, and more. Plus, it's free and open source!",
+  groupme_desc: "GroupMe — the free and simple way to stay in touch with friends and family, quickly and easily",
   discord_desc: "Voice, video, and text platform for communities, creators, and friends — organized around invite-only servers and topic-based channels.",
   telegram_name: "Telegram",
   telegram_desc: "Cloud-based messaging app offering fast, secure communication with support for large groups, media sharing, and cross-device sync.",
@@ -166,6 +168,8 @@ const L = {
   flipboard_desc: "Flipboard is a news aggregator and social network aggregation company based in Palo Alto, California, with offices in New York, Vancouver, and Beijing.",
   pinterest_name: "Pinterest",
   pinterest_desc: "Pinterest is your visual discovery engine for finding ideas like recipes, home and style inspiration, and more. Save what you love, organize your finds, and explore endless creativity from around the world.",
+  zoosk_name: "Zoosk",
+  zoosk_desc: "Zoosk is a popular online dating platform that uses behavioral matchmaking technology to connect singles worldwide. With a user-friendly interface and smart matching features, Zoosk helps people find meaningful relationships in a fun and secure environment.",
   tieba_name: "Tieba (贴吧)",
   tieba_desc: "Baidu’s interest-based forum network where users gather in topic-specific bars to share posts, media, and discussions. On mobile, you need to use Microsoft Edge with Android and modify the agent string by adding ArkWeb to bypass the Tieba mini app check.",
 
@@ -683,9 +687,9 @@ const L = {
 
   un_name: "UN",
   un_desc: "The United Nations (UN) is the only place on Earth where all the world's nations come together to discuss common problems and find shared solutions that benefit all of humanity.",
-  
   healthinsurance_name: "Health & Insurance",
-
+  digitalexpertgehealthcare_name: "Digital Expert GE HealthCare",
+  digitalexpertgehealthcare_desc: "Digital Expert by GE HealthCare is a cloud-based platform that connects clinicians with real-time support, training, and expert guidance. Designed to enhance diagnostic confidence and workflow efficiency, it empowers healthcare professionals with on-demand access to clinical expertise and digital tools.",
   uhs_name: "UHS",
   uhs_desc: "Universal Health Services—hospital management and healthcare provider offering behavioral health, acute care, and medical services across the U.S.",
 

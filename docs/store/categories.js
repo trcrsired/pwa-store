@@ -432,6 +432,18 @@ export const categories = [
         descriptionKey: "tumblr_desc"
       },
       {
+        name: "Elk",
+        icon: "icons/elk.webp",
+        url: "https://elk.zone",
+        descriptionKey: "elk_desc",
+      },
+      {
+        name: "GroupMe",
+        icon: "icons/groupme.webp",
+        url: "https://web.groupme.com",
+        descriptionKey: "groupme_desc"
+      },
+      {
         name: "Discord",
         icon: "icons/discord.webp",
         url: "https://discord.com/app",
@@ -476,6 +488,14 @@ export const categories = [
         icon: "icons/pinterest.webp",
         url: "https://www.pinterest.com",
         descriptionKey: "pinterest_desc",
+      },
+      {
+        name: "Zoosk",
+        nameKey: "zoosk_name",
+        icon: "icons/wrappers/zoosk.webp",
+        url: "/wrappers/zoosk",
+        descriptionKey: "zoosk_desc",
+        wrapper: true
       },
       {
         name: "Tieba (贴吧)",
@@ -1669,6 +1689,13 @@ export const categories = [
     name: "Health & Insurance",
     nameKey: "healthinsurance_name",
     apps : [
+      {
+        name: "GE HealthCare Digital Expert",
+        nameKey: "digitalexpertgehealthcare_name",
+        descriptionKey: "digitalexpertgehealthcare_desc",
+        icon: "icons/digitalexpertgehealthcare.webp",
+        url: "https://digitalexpert.gehealthcare.com",
+      },
       {
         name: "UHS",
         nameKey: "uhs_name",

@@ -1,0 +1,17 @@
+{
+  "name": "Zoosk",
+  "short_name": "Zoosk",
+  "start_url": "/wrappers/zoosk/?source=pwa",
+  "scope": "/wrappers/zoosk/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Zoosk",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/zoosk/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
