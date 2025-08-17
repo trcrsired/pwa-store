@@ -679,7 +679,7 @@ export const categories = [
   {
     name: "Media Tools",
     nameKey: "mediatools_name",
-    app : [
+    apps: [
       {
         name: "Postimages",
         nameKey: "postimages_name",
