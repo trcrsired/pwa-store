@@ -119,6 +119,7 @@ WRAPPERS = [
   { "name": "Al Jazeera", "url": "https://www.aljazeera.com", "keyify_name": "aljazeera" },
   { "name": "CGTN", "url": "https://www.cgtn.com" },
   { "name": "Fortune", "url": "https://fortune.com" },
+  { "name": "Canva", "url": "https://www.canva.com"},
 
   { "name" : "HotCRP", "url": "https://hotcrp.com" },
 

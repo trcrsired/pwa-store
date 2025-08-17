@@ -250,6 +250,8 @@ const L = {
   mediatools_name: "媒体工具",
   postimages_name: "Postimages",
   postimages_desc: "Postimages 是一个免费的图像托管服务，支持快速匿名上传。用户可拖拽图片生成外链，轻松嵌入论坛、博客或网站，无需注册即可使用。",
+  canva_name: "可画",
+  canva_desc: "可画是一款功能强大的在线设计平台，让任何人都能轻松创作出令人惊艳的视觉作品。无论是社交媒体内容、演示文稿、营销素材还是视频，可画都提供海量模板和直观工具，一站式满足你的设计需求。",
   news_name: "新闻",
   rt_name: "今日俄罗斯",
   rt_desc: "俄罗斯国际新闻媒体。",

@@ -714,6 +714,14 @@ export const categories = [
         icon: "icons/postimages.webp",
         url: "https://postimages.org",
       },
+      {
+        name: "Canva",
+        nameKey: "canva_name",
+        descriptionKey: "canva_desc",
+        icon: "icons/wrappers/canva.webp",
+        url: "/wrappers/canva",
+        wrapper: true
+      },
     ]
   },
   {

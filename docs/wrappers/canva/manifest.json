@@ -1,0 +1,17 @@
+{
+  "name": "Canva",
+  "short_name": "Canva",
+  "start_url": "/wrappers/canva/?source=pwa",
+  "scope": "/wrappers/canva/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Canva",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/canva/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
