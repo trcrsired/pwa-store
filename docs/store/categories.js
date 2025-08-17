@@ -684,7 +684,8 @@ export const categories = [
         name: "Postimages",
         nameKey: "postimages_name",
         descriptionKey: "postimages_desc",
-        icon: "icons/postimages.webp"
+        icon: "icons/postimages.webp",
+        url: "https://postimages.org",
       },
     ]
   },
