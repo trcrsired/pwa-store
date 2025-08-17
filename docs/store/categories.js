@@ -362,17 +362,23 @@ export const categories = [
         descriptionKey: "reddit_desc"
       },
       {
+        name: "X (Twitter)",
+        nameKey: "x_name",
+        icon: "icons/x.webp",
+        url: "https://x.com",
+        descriptionKey: "x_desc"
+      },
+      {
         name: "Mastodon",
         icon: "icons/mastodon.webp",
         url: "https://mastodon.social",
         descriptionKey: "mastodon_desc"
       },
       {
-        name: "X (Twitter)",
-        nameKey: "x_name",
-        icon: "icons/x.webp",
-        url: "https://x.com",
-        descriptionKey: "x_desc"
+        name: "Threads",
+        icon: "icons/threads.webp",
+        url: "https://www.threads.com",
+        descriptionKey: "threads_desc"
       },
       {
         name: "Instagram",
