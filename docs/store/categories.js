@@ -471,6 +471,13 @@ export const categories = [
         descriptionKey: "flipboard_desc"
       },
       {
+        name: "Pinterest",
+        nameKey: "pinterest_name",
+        icon: "icons/pinterest.webp",
+        url: "https://www.pinterest.com",
+        descriptionKey: "pinterest_desc",
+      },
+      {
         name: "Tieba (贴吧)",
         nameKey: "tieba_name",
         icon: "icons/wrappers/tieba.webp",

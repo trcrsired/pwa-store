@@ -164,6 +164,8 @@ const L = {
   lobsters_desc: "Lobsters is a computing-focused community centered around link aggregation and discussion, launched on July 3rd, 2012.",
   flipboard_name: "Flipboard",
   flipboard_desc: "Flipboard is a news aggregator and social network aggregation company based in Palo Alto, California, with offices in New York, Vancouver, and Beijing.",
+  pinterest_name: "Pinterest",
+  pinterest_desc: "Pinterest is your visual discovery engine for finding ideas like recipes, home and style inspiration, and more. Save what you love, organize your finds, and explore endless creativity from around the world.",
   tieba_name: "Tieba (贴吧)",
   tieba_desc: "Baidu’s interest-based forum network where users gather in topic-specific bars to share posts, media, and discussions. On mobile, you need to use Microsoft Edge with Android and modify the agent string by adding ArkWeb to bypass the Tieba mini app check.",
 
