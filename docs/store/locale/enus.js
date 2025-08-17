@@ -467,10 +467,12 @@ const L = {
 
   statcounter_name: "StatCounter GS",
   statcounter_desc: "Tracks the Usage Share of Search Engines, Browsers and Operating Systems.",
-
+  speedtest_name: "Speedtest by Ookla",
+  speedtest_desc: "Speedtest by Ookla — the industry-leading tool for measuring your internet connection's download speed, upload speed, and latency in real time. Trusted by millions worldwide to diagnose network performance and troubleshoot connectivity issues with precision.",
   basemarkweb_name: "Basemark Web",
   basemarkweb_desc: "Basemark Web is a cross-platform benchmark that measures real-world client-side performance of web browsers.",
-
+  cznull_name: "CZNull",
+  cznull_desc: "Free online performance tests and benchmarks for your device. Test your GPU, CPU, and memory capabilities with our comprehensive suite of tests.",
   browserbench_name: "BrowserBench",
   browserbench_desc: "MotionMark is a benchmark designed to put browser graphics systems to the test.",
 

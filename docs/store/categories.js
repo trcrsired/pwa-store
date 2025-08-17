@@ -1051,11 +1051,25 @@ export const categories = [
         url: "https://gs.statcounter.com"
       },
       {
+        name: "Speedtest by Ookla",
+        nameKey: "speedtest_name",
+        descriptionKey: "speedtest_desc",
+        icon: "icons/speedtest.webp",
+        url: "https://www.speedtest.net"
+      },
+      {
         name: "Basemark Web",
         nameKey: "basemarkweb_name",
         descriptionKey: "basemarkweb_desc",
         icon: "icons/basemarkweb.webp",
         url: "https://web.basemark.com"
+      },
+      {
+        name: "CZNull",
+        nameKey: "cznull_name",
+        descriptionKey: "cznull_desc",
+        icon: "icons/cznull.webp",
+        url: "https://cznull.com"
       },
       {
         name: "BrowserBench",
