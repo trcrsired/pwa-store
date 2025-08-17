@@ -154,6 +154,7 @@ const L = {
   bluesky_desc: "Federated social media alternative.",
   twitch_desc: "Live streaming platform for gamers, creators, and communities to interact in real time.",
   patreon_desc: "Support creators directly and access exclusive content.",
+  tumblr_desc: "Tumblr is a microblogging and social media platform founded by David Karp in 2007 and is owned by American company Automattic. The service allows users to post multimedia and other content to a short-form blog.",
   discord_desc: "Voice, video, and text platform for communities, creators, and friends — organized around invite-only servers and topic-based channels.",
   telegram_name: "Telegram",
   telegram_desc: "Cloud-based messaging app offering fast, secure communication with support for large groups, media sharing, and cross-device sync.",
@@ -240,7 +241,9 @@ const L = {
 
   archive_name: "Internet Archive",
   archive_desc: "Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more.",
-
+  mediatools_name: "Media Tools",
+  postimages_name: "Postimages",
+  postimages_desc: "Postimages is a free image hosting service designed for fast, anonymous uploads. Users can drag and drop images, generate direct links, and embed them in forums, blogs, or websites—no registration required.",
   news_name: "News",
   rt_name: "RT",
   rt_desc: "Russian international news outlet.",

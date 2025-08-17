@@ -155,6 +155,7 @@ const L = {
   bluesky_desc: "去中心化的社交媒体替代方案。",
   twitch_desc: "面向游戏玩家、创作者和社区的实时直播平台。",
   patreon_desc: "直接支持创作者并获取独家内容的平台。",
+  tumblr_desc: "Tumblr 是一个由 David Karp 于 2007 年创立的微博客和社交媒体平台，目前由美国公司 Automattic 所拥有。用户可以在平台上发布多媒体内容及其他信息，创建简洁的博客。",
   discord_desc: "为社区、创作者和朋友提供语音、视频和文本交流的平台，基于邀请制服务器和主题频道组织。",
   telegram_name: "电报（Telegram）",
   telegram_desc: "基于云的消息应用，提供快速、安全的通信，支持大型群组、媒体分享和跨设备同步。",
@@ -240,7 +241,9 @@ const L = {
 
   archive_name: "互联网档案馆",
   archive_desc: "互联网档案馆是一个非营利数字图书馆，收藏数百万份免费文本、电影、软件、音乐、网站等资源。",
-
+  mediatools_name: "媒体工具",
+  postimages_name: "Postimages",
+  postimages_desc: "Postimages 是一个免费的图像托管服务，支持快速匿名上传。用户可拖拽图片生成外链，轻松嵌入论坛、博客或网站，无需注册即可使用。",
   news_name: "新闻",
   rt_name: "今日俄罗斯",
   rt_desc: "俄罗斯国际新闻媒体。",

@@ -426,6 +426,12 @@ export const categories = [
         descriptionKey: "patreon_desc"
       },
       {
+        name: "Tumblr",
+        icon: "icons/tumblr.webp",
+        url: "https://www.tumblr.com",
+        descriptionKey: "tumblr_desc"
+      },
+      {
         name: "Discord",
         icon: "icons/discord.webp",
         url: "https://discord.com/app",
@@ -667,6 +673,18 @@ export const categories = [
         icon: "icons/wrappers/archive.webp",
         url: "/wrappers/archive",
         wrapper: true
+      },
+    ]
+  },
+  {
+    name: "Media Tools",
+    nameKey: "mediatools_name",
+    app : [
+      {
+        name: "Postimages",
+        nameKey: "postimages_name",
+        descriptionKey: "postimages_desc",
+        icon: "icons/postimages.webp"
       },
     ]
   },
