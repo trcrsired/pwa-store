@@ -21,5 +21,22 @@
       "type": "image/png",
       "sizes": "512x512"
     }
+  ],
+  "screenshots":
+  [
+    {
+      "src": "logo/screenshot.webp",
+      "sizes": "1920x1036",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "desktop"
+    },
+    {
+      "src": "logo/screenshot-mobile.webp",
+      "sizes": "1080x2424",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "mobile"
+    }
   ]
 }
