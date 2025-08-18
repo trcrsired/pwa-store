@@ -756,12 +756,30 @@ const L = {
   javhdporn_desc: "Free Janpanese AV HD Videos, Japanese Porn Streaming Online",
 
 // WeChat Mini Programs
+  lygdaily_name: "Lianyungang Daily",
+  lygdaily_desc: "Lianyungang Daily’s WeChat Mini Program provides local news, policy updates, and public service information for residents of Lianyungang. It serves as a digital portal for staying informed about city affairs, government announcements, and community events.",
+  meituan_name: "Meituan",
+  meituan_desc: "Meituan’s WeChat Mini Program provides food delivery, group deals, hotel bookings, movie tickets, and shared mobility services. Users can also unlock Meituan Bikes directly within the Mini Program for fast and flexible urban travel.",
   meituangroupmeals_name: "Meituan Group Meals",
   meituangroupmeals_desc: "Meituan Group Meals is a WeChat Mini Program that lets users team up to order food together for discounts and free delivery. Share a meal link, form a group, and enjoy savings on popular restaurants across China.",
+  meituanwaimai_name: "Meituan Waimai",
+  meituanwaimai_desc: "Meituan Waimai’s WeChat Mini Program offers food delivery from nearby restaurants, milk tea, coffee, fruits, and daily essentials. Users can browse local options, place orders, and track deliveries in real time.",
+  eleme_name: "Ele.me",
+  eleme_desc: "Ele.me’s WeChat Mini Program offers food delivery, fresh groceries, supermarket items, and daily essentials. Users can browse nearby restaurants, order meals, and shop for fruits, vegetables, and household goods—all in one streamlined experience.",
   transitcode_name: "Transit Code",
   transitcode_desc: "Transit Code is Tencent’s official WeChat Mini Program for public transportation. It lets users scan a QR code to ride buses and subways across hundreds of cities in China. With automatic payments via WeChat Pay, it offers a fast, secure, and paperless way to travel. Just open the Mini Program, scan, and go—no top-ups or tickets required.",
+  railway12306_name: "Railway 12306",
+  railway12306_desc: "Railway 12306 is China Railway’s WeChat Mini Program for booking train tickets, checking schedules, and managing travel plans. It supports real-name authentication, seat selection, and digital ticketing for seamless high-speed rail travel across China.",
+  govservice_name: "National Government Service Platform",
+  govservice_desc: "This WeChat Mini Program provides access to public services across China, including household registration, social security, healthcare, and travel documentation. It serves as a unified portal for citizens to manage official tasks and access government resources.",
   suishenban_name: "Suishenban",
   suishenban_desc: "Suishenban is Shanghai’s official WeChat Mini Program for public services. Developed by the Shanghai Municipal Government, it provides residents with access to healthcare, social security, transportation, legal services, and more—all in one place. Whether you're booking a hospital visit or checking your housing status, Suishenban makes city life easier and more connected.",
+  wowchina_name: "World of Warcraft (China)",
+  wowchina_desc: "This WeChat Mini Program provides access to World of Warcraft services in mainland China, including account management, game updates, community events, and support. Players can stay connected to Azeroth and manage their profiles on the go.",
+  chinaunicom_name: "China Unicom",
+  chinaunicom_desc: "China Unicom’s WeChat Mini Program provides mobile service management, bill payments, data packages, and customer support. Users can check usage, recharge accounts, and access telecom services conveniently from their phone.",
+  fudancard_name: "Fudan Alumni Card",
+  fudancard_desc: "Developed by Fudan University’s Alumni Association and IT Office, this Mini Program enables alumni to verify their identity, access campus services, and enjoy exclusive benefits. Features include campus entry via QR code, dining access, library reservations, and future perks in travel, finance, and shopping.",
 };
 
 registerLocale("enus", L);

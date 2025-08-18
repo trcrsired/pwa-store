@@ -318,7 +318,15 @@ export const categories = [
         icon: "icons/cloudflare.webp",
         url: "https://dash.cloudflare.com",
         descriptionKey: "cloudflare_desc",
-      }
+      },
+      {
+        name: "China Unicom",
+        nameKey: "chinaunicom_name",
+        descriptionKey: "chinaunicom_desc",
+        icon: "icons/wechatmini/chinaunicom.webp",
+        url: "#小程序://中国联通营业厅/nMjhTIVG5fmrslA",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
@@ -798,6 +806,14 @@ export const categories = [
       { name: "Baidu (百度)", nameKey: "baidu_name", descriptionKey: "baidu_desc", icon: "icons/baidu.webp", url: "https://www.baidu.com" },
       { name: "Sohu (搜狐)", nameKey: "sohu_name", descriptionKey: "sohu_desc", icon: "icons/sohu.webp", url: "https://www.sohu.com" },
       { name: "Weibo Lite (微博Lite)", nameKey: "weibo_name", descriptionKey: "weibo_desc", icon: "icons/weibo.webp", url: "https://m.weibo.cn" },
+      {
+        name: "Lianyungang Daily",
+        nameKey: "lygdaily_name",
+        descriptionKey: "lygdaily_desc",
+        icon: "icons/wechatmini/lygdaily.webp",
+        url: "#小程序://连云港日报/rxYe5qmyJlJ4Dio",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
@@ -963,6 +979,14 @@ export const categories = [
         icon: "icons/wrappers/ign.webp",
         url: "/wrappers/ign",
         apptype: "wrapper"
+      },
+      {
+        name: "World of Warcraft (China)",
+        nameKey: "wowchina_name",
+        descriptionKey: "wowchina_desc",
+        icon: "icons/wow.webp",
+        url: "#小程序://魔兽世界/vyIwtNlzGN4iYEz",
+        apptype: "wechatmini"
       },
     ]
   },
@@ -1285,11 +1309,35 @@ export const categories = [
         apptype: "wrapper",
       },
       {
+        name: "Meituan",
+        nameKey: "meituan_name",
+        descriptionKey: "meituan_desc",
+        icon: "icons/wechatmini/meituan.webp",
+        url: "#小程序://美团丨外卖团购特价美食酒店电影/eJ6ozGdCBaK8jrr",
+        apptype: "wechatmini"
+      },
+      {
         name: "Meituan Group Meals",
         nameKey: "meituangroupmeals_name",
         descriptionKey: "meituangroupmeals_desc",
         icon: "icons/wechatmini/meituangroupmeals.webp",
         url: "#小程序://美团拼好饭/zhgDGctIuPeGOzJ",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Meituan Waimai",
+        nameKey: "meituanwaimai_name",
+        descriptionKey: "meituanwaimai_desc",
+        icon: "icons/wechatmini/meituanwaimai.webp",
+        url: "#小程序://美团外卖丨外卖美食奶茶咖啡水果/CV1C1oMohyBOlhr",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Ele.me",
+        nameKey: "eleme_name",
+        descriptionKey: "eleme_desc",
+        icon: "icons/wechatmini/eleme.webp",
+        url: "#小程序://饿了么l外卖美食超市买菜水果/P2QafBViNs4CxJv",
         apptype: "wechatmini"
       },
     ]
@@ -1356,6 +1404,14 @@ export const categories = [
         url: "#小程序://乘车码/bSEajcXCPAVb1op",
         apptype: "wechatmini"
       },
+      {
+        name: "Railway 12306",
+        nameKey: "railway12306_name",
+        descriptionKey: "railway12306_desc",
+        icon: "icons/wechatmini/railway12306.webp",
+        url: "#小程序://铁路12306/9QjwOfcETHvGnKJ",
+        apptype: "wechatmini"
+      }
     ]
   },
   {
@@ -1745,6 +1801,14 @@ export const categories = [
     nameKey: "cngov_name",
     apps : [
       {
+        name: "National Government Service Platform",
+        nameKey: "govservice_name",
+        descriptionKey: "govservice_desc",
+        icon: "icons/wechatmini/govservice.webp",
+        url: "#小程序://国家政务服务平台/c2tiC9JVFGWrRbi",
+        apptype: "wechatmini"
+      },
+      {
         name: "Suishenban",
         nameKey: "suishenban_name",
         descriptionKey: "suishenban_desc",
@@ -1858,7 +1922,15 @@ export const categories = [
         icon: "icons/wrappers/fudan.webp",
         url: "/wrappers/fudan",
         apptype: "wrapper"
-      }
+      },
+      {
+        name: "Fudan Alumni Card",
+        nameKey: "fudancard_name",
+        descriptionKey: "fudancard_desc",
+        icon: "icons/wechatmini/fudancard.webp",
+        url: "#小程序://复旦校友卡/WkzRPCcrzcjCxTp",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
