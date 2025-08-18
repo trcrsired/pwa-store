@@ -734,6 +734,13 @@ export const categories = [
         url: "https://www.techspot.com"
       },
       {
+        name: "The Verge",
+        nameKey: "theverge_name",
+        descriptionKey: "theverge_desc",
+        icon: "icons/theverge.webp",
+        url: "https://www.theverge.com",
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",

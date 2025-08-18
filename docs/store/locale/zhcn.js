@@ -253,6 +253,8 @@ const L = {
   zdnet_name: "ZDNET",
   zdnet_desc: "ZDNET 是一家由 Ziff Davis 运营的商业科技新闻网站，面向 IT、商业和数字化转型领域的专业人士，提供创新趋势与技术产品的深度分析与见解。",
   techspot_desc: "TechSpot 是一家专注于计算机技术的科技媒体，内容涵盖硬件评测、软件推荐、行业动态与深度分析，深受技术爱好者与专业用户的信赖。",
+  theverge_name: "The Verge",
+  theverge_desc: "The Verge是由Vox Media运营的科技新闻与媒体平台，创立于2011年，总部位于纽约市。内容涵盖科技、科学、艺术与文化的交汇点，通过新闻、测评、专题、播客和视频呈现数字时代的变革。",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO 是面向中文用户的 Linux 门户网站，提供新闻、教程、发行版信息与开源开发资源，服务于技术爱好者与专业人士。",
 
