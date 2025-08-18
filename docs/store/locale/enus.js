@@ -786,6 +786,8 @@ const L = {
   fudanecard_desc: "Fudan eCard is the official campus card Mini Program for Fudan University. It supports virtual card payments, identity verification, meal ordering, water control, dorm access, and real-time account management. Students and staff can recharge, report lost cards, and view transaction history—all through unified identity authentication.",
   fudanalumnicard_name: "Fudan Alumni Card",
   fudanalumnicard_desc: "Developed by Fudan University’s Alumni Association and IT Office, this Mini Program enables alumni to verify their identity, access campus services, and enjoy exclusive benefits. Features include campus entry via QR code, dining access, library reservations, and future perks in travel, finance, and shopping.",
+  bosszhipin_name: "BOSS Zhipin",
+  bosszhipin_desc: "BOSS Zhipin is a direct-chat recruitment Mini Program that connects job seekers with hiring managers in real time. Users can browse openings, filter by location and role, and initiate conversations instantly—without intermediaries. The platform uses intelligent matching to recommend jobs based on resume and preferences.",
 };
 
 registerLocale("enus", L);

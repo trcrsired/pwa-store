@@ -1534,6 +1534,14 @@ export const categories = [
         url: "/wrappers/remoteok",
         apptype: "wrapper"
       },
+      {
+        name: "BOSS Zhipin",
+        nameKey: "bosszhipin_name",
+        descriptionKey: "bosszhipin_desc",
+        icon: "icons/wechatmini/bosszhipin.webp",
+        url: "#小程序://BOSS直聘/OZRCz4jyHJOfBQk",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
