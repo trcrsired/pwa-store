@@ -130,17 +130,30 @@ const setupSearch = () => {
 
 // 🚀 Initialize everything
 document.addEventListener('DOMContentLoaded', () => {
+  // 🧠 Restore saved filter states, with default ON for PWA
+  const savedPWA = localStorage.getItem('filter-pwa');
+  const savedWeChat = localStorage.getItem('filter-wechat');
+
+  filterPWA.checked = savedPWA === null ? true : savedPWA === 'true';
+  filterWeChat.checked = savedWeChat === 'true';
+
   renderStore(); // Initial full render
   setupSearch(); // Enable search
 });
 
-// 🔁 Re-render store when filter checkboxes change
-document.getElementById('filter-pwa')?.addEventListener('change', () => {
-  const searchText = document.getElementById('search-input')?.value?.toLowerCase() || '';
+const filterPWA = document.getElementById('filter-pwa');
+const filterWeChat = document.getElementById('filter-wechat');
+const searchInput = document.getElementById('search-input');
+
+// 💾 Save state on change and re-render
+filterPWA.addEventListener('change', () => {
+  localStorage.setItem('filter-pwa', filterPWA.checked);
+  const searchText = searchInput?.value?.toLowerCase() || '';
   renderStore(searchText);
 });
 
-document.getElementById('filter-wechat')?.addEventListener('change', () => {
-  const searchText = document.getElementById('search-input')?.value?.toLowerCase() || '';
+filterWeChat.addEventListener('change', () => {
+  localStorage.setItem('filter-wechat', filterWeChat.checked);
+  const searchText = searchInput?.value?.toLowerCase() || '';
   renderStore(searchText);
 });
