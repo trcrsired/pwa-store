@@ -1613,6 +1613,20 @@ export const categories = [
     ]
   },
   {
+    name: "LegalTech",
+    nameKey: "legaltech_name",
+    apps: [
+      {
+        name: "Tencent E-Signature",
+        nameKey: "tencentesignature_name",
+        descriptionKey: "tencentesignature_desc",
+        icon: "icons/wechatmini/tencentesignature.webp",
+        url: "#小程序://腾讯电子签/Eg1rsQigdCZqxkK",
+        apptype: "wechatmini"
+      }
+    ]
+  },
+  {
     name: "Websites & Blogs",
     nameKey: "websitesblogs_name",
     apps: [

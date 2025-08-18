@@ -667,7 +667,9 @@ const L = {
 
   azure_name: "Azure",
   azure_desc: "Azure 是微软开发的云计算平台，通过其全球基础设施为个人、企业和政府提供应用和服务的管理、访问与开发能力。",
-
+  legaltech_name: "法律科技",
+  tencentesignature_name: "腾讯电子签",
+  tencentesignature_desc: "腾讯电子签是由腾讯云推出的微信生态电子签约服务，支持合同签署、身份认证、区块链存证与合同全生命周期管理，广泛应用于金融、人力、法务及企业办公场景。",
   websitesblogs_name: "网站和博客",
 
   wordpress_name: "WordPress",
