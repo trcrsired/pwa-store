@@ -12,6 +12,13 @@ export const categories = [
       { name: "Weawow", icon: "icons/weawow.webp", url: "https://weawow.com", descriptionKey: "weawow_desc" },
       { name: "Screen Flashlight", icon: "icons/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", descriptionKey: "screenflashlight_desc" },
       { name: "PWA Store", nameKey: "pwastore_name", icon: "logo/logo.webp", url: ".", descriptionKey: "pwastore_desc" },
+      {
+        name: "Web Screen Recorder",
+        nameKey: "webscreenrecorder_name",
+        descriptionKey: "webscreenrecorder_desc",
+        icon: "icons/webscreenrecorder.webp",
+        url: "https://menglinmaker-pwa-screen-recorder.netlify.app"
+      },
     ]
   },
   {

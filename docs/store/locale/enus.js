@@ -29,6 +29,8 @@ const L = {
   "screenflashlight_desc": "A web-based PWA flashlight app",
   "pwastore_name": "PWA Store",
   "pwastore_desc": "Yeap, this PWA Store itself is also a PWA.", 
+  "webscreenrecorder_name": "Web Screen Recorder",
+  "webscreenrecorder_desc": "Web Screen Recorder is a browser-based tool that lets users record their screen, webcam, and microphone directly from any device—no downloads required. Ideal for tutorials, meetings, or demos, it offers a fast and lightweight recording experience with instant access and privacy-friendly storage.",
   "copilot_desc": "Conversational AI by Microsoft—Copilot helps you think, write, and explore with real-time web access and voice support.",
   "deepseek_desc": "Chinese-developed AI assistant with powerful reasoning and multilingual support—DeepSeek’s PWA offers free access to its flagship models.",
   "chatgpt_desc": "OpenAI’s conversational assistant—ChatGPT’s PWA delivers installable access to GPT models, memory, plugins, and voice features.",
