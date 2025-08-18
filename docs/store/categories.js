@@ -26,11 +26,12 @@ export const categories = [
     name: "Chatbots",
     apps: [
       { name: "Microsoft Copilot", icon: "icons/copilot.webp", url: "https://copilot.microsoft.com", descriptionKey: "copilot_desc" },
-      { name: "DeepSeek", icon: "icons/deepseek.webp", url: "https://deepseek.com", descriptionKey: "deepseek_desc" },
       { name: "ChatGPT", icon: "icons/chatgpt.webp", url: "https://chat.openai.com", descriptionKey: "chatgpt_desc" },
       { name: "Google Gemini", icon: "icons/gemini.webp", url: "https://gemini.google.com", descriptionKey: "gemini_desc" },
-      { name: "Qwen", icon: "icons/qwen.webp", url: "https://chat.qwen.ai", descriptionKey: "qwen_desc" },
       { name: "Grok", icon: "icons/grok.webp", url: "https://grok.com", descriptionKey: "grok_desc"},
+      { name: "Cursor", icon: "icons/cursor.webp", url: "https://cursor.com/agents", descriptionKey: "cursor_desc" },
+      { name: "Qwen", icon: "icons/qwen.webp", url: "https://chat.qwen.ai", descriptionKey: "qwen_desc" },
+      { name: "DeepSeek", icon: "icons/deepseek.webp", url: "https://deepseek.com", descriptionKey: "deepseek_desc" },
     ]
   },
   {
@@ -627,6 +628,14 @@ export const categories = [
         icon: "icons/wrappers/bankofamerica.webp",
         url: "/wrappers/bankofamerica",
         apptype: "wrapper"
+      },
+      {
+        name: "Mini Program Demo",
+        nameKey: "miniprogramdemo_name",
+        descriptionKey: "miniprogramdemo_desc",
+        icon: "icons/wechatmini/miniprogramdemo.webp",
+        url: "#小程序://小程序示例/H5Xs704fylC1Ktc",
+        apptype: "wechatmini"
       }
     ]
   },
@@ -1838,6 +1847,14 @@ export const categories = [
         descriptionKey: "suishenban_desc",
         icon: "icons/wechatmini/suishenban.webp",
         url: "#小程序://随申办/2bL7Tzu37kdlfRh",
+        apptype: "wechatmini"
+      },
+      {
+        name: "12315",
+        nameKey: "china12315_name",
+        descriptionKey: "china12315_desc",
+        icon: "icons/wechatmini/china12315.webp",
+        url: "#小程序://12315/bTgvVMQdjPhAHjr",
         apptype: "wechatmini"
       },
     ]
