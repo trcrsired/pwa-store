@@ -561,6 +561,13 @@ export const categories = [
         url: "https://www.investing.com"
       },
       {
+        name: "Stripe Dashboard",
+        nameKey: "stripe_name",
+        descriptionKey: "strip_desc",
+        icon: "icons/stripe.webp",
+        url: "https://dashboard.stripe.com"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",

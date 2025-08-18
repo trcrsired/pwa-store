@@ -195,7 +195,8 @@ const L = {
 
   investing_name: "Investing",
   investing_desc: "Track global financial markets, view real-time quotes, and explore news, analysis, and tools for stocks, forex, crypto, and more.",
-
+  stripe_name: "Stripe Dashboard",
+  stripe_desc: "Stripe is a global financial infrastructure platform that enables businesses to accept payments, manage subscriptions, and build custom financial services with powerful APIs.",
   paypal_name: "PayPal",
   paypal_desc: "PayPal is a global digital payment platform that enables secure online transactions, money transfers, and merchant services for individuals and businesses. It supports personal payments, subscriptions, and e-commerce checkout across millions of sites.",
   moomoo_name: "Moomoo",

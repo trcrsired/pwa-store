@@ -196,7 +196,8 @@ const L = {
 
   investing_name: "英为财情",
   investing_desc: "追踪全球金融市场，查看实时行情，浏览股票、外汇、加密货币等领域的新闻、分析与工具。",
-
+  stripe_name: "Stripe Dashboard",
+  stripe_desc: "Stripe 是一个全球金融基础设施平台，提供强大的 API，帮助企业接收支付、管理订阅，并构建定制化的金融服务。",
   paypal_name: "贝宝",
   paypal_desc: "全球数字支付平台，支持安全的在线交易、转账、订阅和电商结算服务。",
   moomoo_name: "富途牛牛",
