@@ -7,6 +7,8 @@ const L = {
   "wechatminiurlcopied_succ": "Link copied! Paste it into WeChat File Transfer to open.",
   "wechatminiurlcopied_fail": "Copy failed. Please copy the link manually.",
   "fundamental_name": "Fundamental",
+  "copyurl_desc": "Copy URL",
+  "open_desc": "Open",
   "chabots_name": "Chatbots",
   "cybersecurity_name": "Cybersecurity",
   "scamadviser_desc": "Analyze websites to check for trustworthiness and potential scams.",

@@ -90,6 +90,12 @@ body {
   transition: background-color 0.2s ease-in-out;
 }
 
+/* Ensure <a> behaves like a button */
+.install-button:link,
+.install-button:visited {
+  color: white;
+}
+
 .install-button:hover {
   background-color: #0056b3;
 }

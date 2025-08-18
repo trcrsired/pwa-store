@@ -35,10 +35,10 @@ const renderAppCard = (app) => {
   button.className = 'install-button';
 
   if (isWeChatMini) {
-    button.textContent = 'Copy URL';
+    button.textContent = L('copyurl_desc');
     button.addEventListener('click', () => copyToClipboard(app.url));
   } else {
-    button.textContent = 'Open';
+    button.textContent = L('open_desc');
     button.href = app.url;
     button.target = '_blank';
   }

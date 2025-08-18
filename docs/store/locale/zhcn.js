@@ -6,6 +6,8 @@ const L = {
   "wechatmini": "微信小程序",
   "wechatminiurlcopied_succ": "链接已复制！请粘贴到微信文件传输助手中打开。",
   "wechatminiurlcopied_fail": "复制失败。请手动复制该链接。",
+  "copyurl_desc": "复制链接",
+  "open_desc": "打开",
   "fundamental_name": "基本",
   "chabots_name": "聊天机器人",
   "cybersecurity_name": "网络安全",
