@@ -1,9 +1,9 @@
 async function localizePage() {
   let browserLang = (navigator.language || 'en').toLowerCase();
 
-  /*
+/*
   browserLang = "zh"; // Force Chinese for testing
-  */
+*/
 
   const languageMap = {
     'zh': 'zh',
@@ -47,7 +47,7 @@ async function localizePage() {
 
     // Search
     setPlaceholder('search-input', strings.search_placeholder);
-
+    setText('label-filter-wechat', strings.filter_wechat);
     // Footer
     setText('footer-browser', strings.footer_browser_recommendation);
     setText('footer-extension', strings.footer_extension_tip);

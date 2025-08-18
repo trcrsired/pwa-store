@@ -3,6 +3,9 @@ import { registerLocale } from './localization.js';
 
 const L = {
   "wrapper": "包装",
+  "wechatmini": "微信小程序",
+  "wechatminiurlcopied_succ": "链接已复制！请粘贴到微信文件传输助手中打开。",
+  "wechatminiurlcopied_fail": "复制失败。请手动复制该链接。",
   "fundamental_name": "基本",
   "chabots_name": "聊天机器人",
   "cybersecurity_name": "网络安全",
@@ -794,6 +797,10 @@ const L = {
 
   javhdporn_name: "JavHDPorn",
   javhdporn_desc: "免费日本AV片高清视频，日本色情内容在线播放",
+
+// WeChat Mini Programs
+  meituangroupmeals_name: "美团拼好饭",
+  meituangroupmeals_desc: "美团拼好饭是一个微信小程序，用户可通过分享链接组团点餐，享受优惠和免配送费。支持全国热门餐厅，团购更省钱，点餐更高效。",
 };
 
 registerLocale("zhcn", L);

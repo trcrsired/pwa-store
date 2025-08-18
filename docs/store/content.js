@@ -5,20 +5,45 @@ import { setLocale, L } from './locale/localization.js';
 
 setLocale(navigator.language.toLowerCase().replace('-', ''));
 
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text).then(() => {
+    alert(L('wechatminiurlcopied_succ'));
+  }).catch(() => {
+    alert(L('wechatminiurlcopied_fail'));
+  });
+}
+
 const renderAppCard = (app) => {
   const container = document.createElement('div');
   container.className = 'app-card';
 
   const localizedName = app.nameKey ? L(app.nameKey) : app.name;
   const localizedDescription = app.descriptionKey ? L(app.descriptionKey) : app.description;
+  const showBadge = app.apptype && app.apptype !== "pwa";
+  const isWeChatMini = app.apptype === 'wechatmini';
 
+  // Build static elements
   container.innerHTML = `
     <img src="${app.icon}" alt="${localizedName}" class="app-icon" />
     <div class="app-name">${localizedName}</div>
     <div class="app-description">${localizedDescription}</div>
-    ${app.wrapper ? `<span class="wrapper-badge">${L("wrapper")}</span>` : ''}
-    <a href="${app.url}" target="_blank" class="install-button">Open</a>
+    ${showBadge ? `<span class="apptype-badge">${L(app.apptype)}</span>` : ''}
   `;
+
+  // Add install button separately to bind event safely
+  const button = document.createElement(isWeChatMini ? 'button' : 'a');
+  button.className = 'install-button';
+
+  if (isWeChatMini) {
+    button.textContent = 'Copy URL';
+    button.addEventListener('click', () => copyToClipboard(app.url));
+  } else {
+    button.textContent = 'Open';
+    button.href = app.url;
+    button.target = '_blank';
+  }
+
+  container.appendChild(button);
   return container;
 };
 
@@ -42,35 +67,44 @@ const renderCategory = (category) => {
   return section;
 };
 
-// 🔍 Render store with optional search filter
+// 🔄 Render the app store with search and type filters
 const renderStore = (filterText = '') => {
   const root = document.getElementById('app-store');
   const resultCount = document.getElementById('result-count');
   if (!root || !resultCount) return;
 
   root.innerHTML = '';
-
   let totalMatches = 0;
 
+  // ✅ Read filter checkbox states
+  const showPWA = document.getElementById('filter-pwa')?.checked;
+  const showWeChat = document.getElementById('filter-wechat')?.checked;
+
   categories.forEach((category) => {
-    const localizedCategoryName = category.nameKey ? L(category.nameKey) : category.name;
-    const categoryText = `${localizedCategoryName} ${category.name}`.toLowerCase();
+    const localizedName = category.nameKey ? L(category.nameKey) : category.name;
+    const categoryText = `${localizedName} ${category.name}`.toLowerCase();
 
-    let filteredApps;
+    // 🔍 Filter apps by search text
+    let filteredApps = categoryText.includes(filterText)
+      ? category.apps
+      : category.apps.filter(app => {
+          const nameKey = app.nameKey ? L(app.nameKey) : '';
+          const name = app.name || '';
+          const descKey = app.descriptionKey ? L(app.descriptionKey) : '';
+          const desc = app.description || '';
+          const combined = `${nameKey} ${name} ${descKey} ${desc}`.toLowerCase();
+          return combined.includes(filterText);
+        });
 
-    if (categoryText.includes(filterText)) {
-      filteredApps = category.apps;
-    } else {
-      filteredApps = category.apps.filter(app => {
-        const nameKeyText = app.nameKey ? L(app.nameKey) : '';
-        const nameText = app.name || '';
-        const descKeyText = app.descriptionKey ? L(app.descriptionKey) : '';
-        const descText = app.description || '';
-        const combinedText = `${nameKeyText} ${nameText} ${descKeyText} ${descText}`.toLowerCase();
-        return combinedText.includes(filterText);
-      });
-    }
+    // 🧩 Filter apps by type
+    filteredApps = filteredApps.filter(app => {
+      const type = app.apptype || 'pwa';
+      const isPWA = type === 'pwa' || type === 'wrapper';
+      const isWeChatMini = type === 'wechatmini';
+      return (isPWA && showPWA) || (isWeChatMini && showWeChat);
+    });
 
+    // 📦 Render category if it has matching apps
     if (filteredApps.length > 0) {
       totalMatches += filteredApps.length;
       const filteredCategory = { ...category, apps: filteredApps };
@@ -78,9 +112,10 @@ const renderStore = (filterText = '') => {
     }
   });
 
-  // 🧮 Update result count display
-  resultCount.textContent = `${totalMatches} PWA${totalMatches !== 1 ? 's' : ''}`;
+  // 🧮 Update result count
+  resultCount.textContent = `${totalMatches} APP${totalMatches !== 1 ? 's' : ''}`;
 };
+
 
 // 🔧 Setup search input listener
 const setupSearch = () => {
@@ -97,4 +132,15 @@ const setupSearch = () => {
 document.addEventListener('DOMContentLoaded', () => {
   renderStore(); // Initial full render
   setupSearch(); // Enable search
+});
+
+// 🔁 Re-render store when filter checkboxes change
+document.getElementById('filter-pwa')?.addEventListener('change', () => {
+  const searchText = document.getElementById('search-input')?.value?.toLowerCase() || '';
+  renderStore(searchText);
+});
+
+document.getElementById('filter-wechat')?.addEventListener('change', () => {
+  const searchText = document.getElementById('search-input')?.value?.toLowerCase() || '';
+  renderStore(searchText);
 });

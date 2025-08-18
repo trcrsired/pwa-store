@@ -3,6 +3,9 @@ import { registerLocale } from './localization.js';
 
 const L = {
   "wrapper": "wrapper",
+  "wechatmini": "WeChat Mini Program",
+  "wechatminiurlcopied_succ": "Link copied! Paste it into WeChat File Transfer to open.",
+  "wechatminiurlcopied_fail": "Copy failed. Please copy the link manually.",
   "fundamental_name": "Fundamental",
   "chabots_name": "Chatbots",
   "cybersecurity_name": "Cybersecurity",
@@ -751,6 +754,10 @@ const L = {
 
   javhdporn_name: "JavHDPorn",
   javhdporn_desc: "Free Janpanese AV HD Videos, Japanese Porn Streaming Online",
+
+// WeChat Mini Programs
+  meituangroupmeals_name: "Meituan Group Meals",
+  meituangroupmeals_desc: "Meituan Group Meals is a WeChat Mini Program that lets users team up to order food together for discounts and free delivery. Share a meal link, form a group, and enjoy savings on popular restaurants across China.",
 };
 
 registerLocale("enus", L);

@@ -31,8 +31,20 @@
 
   <div id="search-container">
     <input type="text" id="search-input" placeholder="Search apps..." />
+
     <span id="result-count" style="margin-left: 10px; font-weight: bold;"></span>
+
+    <!-- 🔍 App type filters -->
+    <label style="margin-left: 20px;">
+      <input type="checkbox" id="filter-pwa" checked />
+      <span id="label-filter-pwa">PWA</span>
+    </label>
+    <label style="margin-left: 10px;">
+      <input type="checkbox" id="filter-wechat" />
+      <span id="label-filter-wechat">WeChat Mini Programs</span>
+    </label>
   </div>
+
   <main id="app-store" class="store-container">
     <!-- Dynamic content loads here from content.js -->
   </main>

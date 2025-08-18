@@ -69,7 +69,7 @@ body {
 }
 
 /* Wrapper badge */
-.wrapper-badge {
+.apptype-badge {
   display: inline-block;
   background-color: #efefef;
   color: inherit;
@@ -143,7 +143,7 @@ body {
     color: #ffffff;
   }
 
-  .wrapper-badge {
+  .apptype-badge {
     background-color: #333;
   }
 
@@ -162,7 +162,7 @@ body {
     color: #000000;
   }
 
-  .wrapper-badge {
+  .apptype-badge {
     background-color: #efefef;
   }
 
