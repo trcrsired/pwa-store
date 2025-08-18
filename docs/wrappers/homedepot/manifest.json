@@ -1,0 +1,17 @@
+{
+  "name": "The Home Depot",
+  "short_name": "The Home Depot",
+  "start_url": "/wrappers/homedepot/?source=pwa",
+  "scope": "/wrappers/homedepot/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for The Home Depot",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/homedepot/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
