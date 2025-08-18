@@ -298,6 +298,14 @@ export const categories = [
         url: "/wrappers/aurorastore",
         descriptionKey: "aurorastore_desc",
         wrapper: true
+      },
+      {
+        name: "WeChat Developers",
+        nameKey: "wechatdevelopers_name",
+        descriptionKey: "wechatdevelopers_desc",
+        icon: "icons/wrappers/wechatdevelopers.webp",
+        url: "/wrappers/wechatdevelopers",
+        wrapper: true
       }
     ]
   },

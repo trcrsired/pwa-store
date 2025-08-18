@@ -122,6 +122,8 @@ const L = {
   gccmcf_desc: "为 Windows 定制的 GCC 分支，使用最小 C 库的线程系统（MCF）替代标准 POSIX 线程模型。",
   geeksforgeeks_desc: "GeeksforGeeks 是一个综合教育平台，覆盖多个技术领域，助力学习者成长。",
   aurorastore_desc: "Aurora Store 是一个开源的 Google Play 客户端，支持匿名下载、应用浏览和无需 Google 服务的更新跟踪。",
+  wechatdevelopers_name: "微信开发者平台",
+  wechatdevelopers_desc: "微信开发者平台是腾讯官方提供的开发门户，支持构建小程序、公众号及各类基于微信 API 和 SDK 的集成应用。平台提供详尽的文档、开发工具和资源，帮助开发者在微信生态中实现支付、消息、社交等功能的开发与部署。",
   cloudflare_desc: "Cloudflare 是一个被广泛采用的平台，提供网络、安全和性能服务，以提升网站、应用程序和在线服务的功能。由于其强大的功能和全球基础设施，从个人开发者到大型企业的各类用户都在使用它。",
 
   mail_name: "邮箱",

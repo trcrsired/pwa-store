@@ -97,6 +97,7 @@ WRAPPERS = [
   { "name": "Moomoo", "url": "https://www.moomoo.com" },
   { "name": "GeeksForGeeks", "url": "https://www.geeksforgeeks.org" },
   { "name": "Aurora Store", "url": "https://store.auroraoss.com", "keyify_name":"aurorastore" },
+  { "name": "WeChat Devs", "url": "https://developers.weixin.qq.com", "keyify_name": "wechatdevelopers"},
   { "name": "WPS", "url": "https://www.wps.com/wpsdocs" },
   { "name": "WPS (CN)", "url": "https://www.kdocs.cn", "keyify_name":"wpscn", "icon":"wps.webp" },
   { "name": "QQ Mail", "url": "https://mail.qq.com", "keyify_name":"qqmail" },

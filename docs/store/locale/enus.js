@@ -121,6 +121,8 @@ const L = {
   gccmcf_desc: "A customized GCC fork for Windows that replaces the standard POSIX thread model with its own minimal C library-based fiber-compatible threading system (MCF).",
   geeksforgeeks_desc: "GeeksforGeeks is a comprehensive educational portal that empowers learners across domains.",
   aurorastore_desc: "An open-source client for Google Play that supports anonymous downloads, app browsing, and update tracking without Google services.",
+  wechatdevelopers_name: "WeChat Developers",
+  wechatdevelopers_desc: "WeChat Developers is Tencent’s official development portal for building Mini Programs, Official Accounts, and integrations using WeChat’s APIs and SDKs. It provides documentation, tools, and resources for developers to create applications across the WeChat ecosystem, including payments, messaging, and social features.",
   cloudflare_desc: "Cloudflare is a widely adopted platform that provides networking, security, and performance services to enhance the functionality of websites, applications, and online services. It is used by a diverse range of users, from individual developers to large enterprises, due to its robust features and global infrastructure.",
 
   mail_name: "Mail",

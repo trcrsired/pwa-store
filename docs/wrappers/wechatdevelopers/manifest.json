@@ -1,0 +1,17 @@
+{
+  "name": "WeChat Devs",
+  "short_name": "WeChat Devs",
+  "start_url": "/wrappers/wechatdevelopers/?source=pwa",
+  "scope": "/wrappers/wechatdevelopers/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for WeChat Devs",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/wechatdevelopers/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
