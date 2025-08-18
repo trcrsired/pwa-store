@@ -780,8 +780,8 @@ const L = {
   wowchina_desc: "This WeChat Mini Program provides access to World of Warcraft services in mainland China, including account management, game updates, community events, and support. Players can stay connected to Azeroth and manage their profiles on the go.",
   chinaunicom_name: "China Unicom",
   chinaunicom_desc: "China Unicom’s WeChat Mini Program provides mobile service management, bill payments, data packages, and customer support. Users can check usage, recharge accounts, and access telecom services conveniently from their phone.",
-  fudancard_name: "Fudan Alumni Card",
-  fudancard_desc: "Developed by Fudan University’s Alumni Association and IT Office, this Mini Program enables alumni to verify their identity, access campus services, and enjoy exclusive benefits. Features include campus entry via QR code, dining access, library reservations, and future perks in travel, finance, and shopping.",
+  fudanalumnicard_name: "Fudan Alumni Card",
+  fudanalumnicard_desc: "Developed by Fudan University’s Alumni Association and IT Office, this Mini Program enables alumni to verify their identity, access campus services, and enjoy exclusive benefits. Features include campus entry via QR code, dining access, library reservations, and future perks in travel, finance, and shopping.",
 };
 
 registerLocale("enus", L);

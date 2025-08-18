@@ -1925,9 +1925,9 @@ export const categories = [
       },
       {
         name: "Fudan Alumni Card",
-        nameKey: "fudancard_name",
-        descriptionKey: "fudancard_desc",
-        icon: "icons/wechatmini/fudancard.webp",
+        nameKey: "fudanalumnicard_name",
+        descriptionKey: "fudanalumnicard_desc",
+        icon: "icons/wechatmini/fudanalumnicard.webp",
         url: "#小程序://复旦校友卡/WkzRPCcrzcjCxTp",
         apptype: "wechatmini"
       },
