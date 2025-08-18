@@ -172,6 +172,13 @@ export const categories = [
         descriptionKey: "webdev_desc"
       },
       {
+        name: "Google for Developers",
+        nameKey: "googledevelopers_name",
+        icon: "icons/google.webp",
+        url: "https://developers.google.com",
+        descriptionKey: "googledevelopers_desc"
+      },
+      {
         name: "Bing Webmaster Tools",
         nameKey: "bing_webmaster_name",
         icon: "icons/wrappers/bing.webp",

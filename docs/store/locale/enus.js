@@ -90,7 +90,8 @@ const L = {
   chrome_dev_desc: "Chrome for Developers is Google's official resource hub for web developers building on the Chrome platform. It offers documentation, tools, and guidance for modern web development, including performance optimization, debugging, and the latest web platform features like WebAssembly, WebGPU, and Progressive Web Apps.",
 
   webdev_desc: "web.dev is a resource hub created by Google to help developers build modern, fast, and accessible websites. It offers tutorials, tools, and best practices for improving site performance, SEO, security, and user experience. Whether you're a beginner or an expert, web.dev provides actionable guidance backed by real-world metrics and open standards.",
-
+  googledevelopers_name: "Google for Developers",
+  googledevelopers_desc: "Google for Developers is the official platform offering documentation, APIs, tools, and resources to help developers build high-quality web, mobile, and cloud applications.",
   bing_webmaster_name: "Bing Webmaster Tools",
   bing_webmaster_desc: "Bing Webmaster Tools provides website owners with insights into search performance, indexing status, and SEO diagnostics. Monitor traffic, submit sitemaps, and optimize your site for visibility on Bing Search.",
 
