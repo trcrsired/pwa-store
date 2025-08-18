@@ -212,6 +212,8 @@ const L = {
   stripe_desc: "Stripe is a global financial infrastructure platform that enables businesses to accept payments, manage subscriptions, and build custom financial services with powerful APIs.",
   seekingalpha_name: "Seeking Alpha",
   seekingalpha_desc: "Seeking Alpha is a financial research platform founded in 2004 by David Jackson. It offers crowd-sourced investment analysis, stock ratings, market news, and portfolio tools, helping investors discover ideas and make informed decisions across U.S.-traded stocks and ETFs.",
+  investorsbusinessdaily_name: "Investor's Business Daily",
+  investorsbusinessdaily_desc: "Investor’s Business Daily (IBD) is a U.S.-based financial news and research platform founded in 1984 by William J. O’Neil. Now part of News Corp via Dow Jones, it offers exclusive stock lists, market analysis, and investment tools based on the IBD Methodology, serving individual investors and professionals.",
   paypal_name: "PayPal",
   paypal_desc: "PayPal is a global digital payment platform that enables secure online transactions, money transfers, and merchant services for individuals and businesses. It supports personal payments, subscriptions, and e-commerce checkout across millions of sites.",
   moomoo_name: "Moomoo",

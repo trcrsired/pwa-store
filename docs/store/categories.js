@@ -614,6 +614,13 @@ export const categories = [
         url: "https://dashboard.stripe.com"
       },
       {
+        name: "Investor's Business Daily",
+        nameKey: "investorsbusinessdaily_name",
+        descriptionKey: "investorsbusinessdaily_desc",
+        icon: "icons/investorsbusinessdaily.webp",
+        url: "https://www.investors.com"
+      },
+      {
         name: "Seeking Alpha",
         nameKey: "seekingalpha_name",
         descriptionKey: "seekingalpha_desc",
