@@ -362,7 +362,9 @@ const L = {
 
   weibo_name: "微博Lite",
   weibo_desc: "微博Lite 是中国流行微博服务的轻量级移动入口，提供热门帖子、话题标签和明星动态的快速访问。",
-
+  fashion_name: "时尚",
+  instyle_name: "InStyle时尚杂志",
+  instyle_desc: "InStyle是时尚、美妆和流行文化领域的权威媒体。创立于1994年，现隶属于Dotdash Meredith集团，专注于数字内容，提供风格灵感、明星潮流和专业建议。",
   entertainmentplatform_name: "娱乐平台",
   age_name: "AGE动漫",
   age_desc: "在线观看丰富的动漫剧集和电影，内容定期更新并配有中文字幕。",

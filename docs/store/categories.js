@@ -834,6 +834,13 @@ export const categories = [
     ]
   },
   {
+    name: "Fashion",
+    nameKey: "fashion_name",
+    apps: [
+      { name: "InStyle", nameKey: "instyle_name", descriptionKey: "instyle_desc", icon: "icons/instyle.webp", url: "https://www.instyle.com" },
+    ]
+  },
+  {
     name: "Entertainment Platform",
     nameKey: "entertainmentplatform_name",
     apps : [

@@ -361,6 +361,9 @@ const L = {
 
   weibo_name: "Weibo Lite (微博Lite)",
   weibo_desc: "A lightweight, mobile-optimized gateway to China's popular microblogging service, offering quick access to trending posts, hashtags, and celebrity updates.",
+  fashion_name: "Fashion",
+  instyle_name: "InStyle",
+  instyle_desc: "InStyle is a trusted voice in fashion, beauty, and pop culture. Founded in 1994 and now part of Dotdash Meredith, it offers style inspiration, celebrity trends, and expert advice through a digital-only format.",
   entertainmentplatform_name: "Entertainment Platform",
   
   age_name: "AGE Animation (AGE动漫)",
