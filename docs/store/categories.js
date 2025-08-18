@@ -1809,6 +1809,14 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
+        name: "Traffic Management 12123",
+        nameKey: "traffic12123_name",
+        descriptionKey: "traffic12123_desc",
+        icon: "icons/wechatmini/traffic12123.webp",
+        url: "#小程序://交管12123/G6CGqlbSCKrxnlp",
+        apptype: "wechatmini"
+      },
+      {
         name: "Suishenban",
         nameKey: "suishenban_name",
         descriptionKey: "suishenban_desc",
@@ -1922,6 +1930,14 @@ export const categories = [
         icon: "icons/wrappers/fudan.webp",
         url: "/wrappers/fudan",
         apptype: "wrapper"
+      },
+      {
+        name: "Fudan eCard",
+        nameKey: "fudanecard_name",
+        descriptionKey: "fudanecard_desc",
+        icon: "icons/wechatmini/fudanecard.webp",
+        url: "#小程序://复旦eCard/HzsZa9axWxC1Zxt",
+        apptype: "wechatmini"
       },
       {
         name: "Fudan Alumni Card",
