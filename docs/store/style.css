@@ -79,25 +79,39 @@ body {
   margin-bottom: 8px;
 }
 
-/* Button */
 .install-button {
-  text-decoration: none;
-  background-color: #007bff;
-  color: #fff;
-  padding: 6px 12px;
-  border-radius: 4px;
-  font-size: 0.9rem;
-  transition: background-color 0.2s ease-in-out;
+  display: inline-block;       /* Make both <a> and <button> behave like block-level buttons */
+  padding: 8px 16px;           /* Add spacing inside the button */
+  background-color: #0078d4;   /* Set a consistent background color */
+  color: white;                /* Set text color to white */
+  text-decoration: none;       /* Remove underline from <a> elements */
+  border: none;                /* Remove default border from <button> */
+  border-radius: 4px;          /* Slightly round the corners */
+  font-size: 14px;             /* Set consistent font size */
+  cursor: pointer;             /* Show pointer cursor on hover */
+  box-shadow: none;            /* Remove any default shadow from <button> */
+  outline: none;               /* Remove focus outline */
+  appearance: none;            /* Reset browser-specific button styles */
+  font-family: inherit;        /* Use the same font as the parent element */
+  line-height: 1.5;            /* Improve vertical spacing */
+  vertical-align: middle;      /* Align with surrounding text if needed */
 }
 
-/* Ensure <a> behaves like a button */
+/* Hover effect for both <a> and <button> */
+.install-button:hover {
+  background-color: #005ea2;   /* Darker shade on hover */
+}
+
+/* Remove focus styles for consistency */
+.install-button:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+/* Ensure <a> elements keep white text color */
 .install-button:link,
 .install-button:visited {
   color: white;
-}
-
-.install-button:hover {
-  background-color: #0056b3;
 }
 
 /* Responsive: single column on mobile */
