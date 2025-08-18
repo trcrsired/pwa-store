@@ -804,6 +804,8 @@ const L = {
   javhdporn_desc: "免费日本AV片高清视频，日本色情内容在线播放",
 
 // WeChat Mini Programs
+  miniprogramdemo_name: "小程序示例",
+  miniprogramdemo_desc: "这是一个微信小程序示例，展示了基础功能如页面跳转、组件使用和接口调用，适合开发者学习和参考微信小程序开发框架。",
   lygdaily_name: "连云港日报",
   lygdaily_desc: "连云港日报微信小程序，面向本地居民提供新闻资讯、政策动态及公共服务信息。用户可通过小程序了解城市要闻、政务发布和社区活动，掌握连云港最新动态。",
   meituan_name: "美团",

@@ -761,6 +761,8 @@ const L = {
   javhdporn_desc: "Free Janpanese AV HD Videos, Japanese Porn Streaming Online",
 
 // WeChat Mini Programs
+  miniprogramdemo_name: "Mini Program Demo",
+  miniprogramdemo_desc: "This is a demonstration Mini Program showcasing basic WeChat Mini Program capabilities, including navigation, UI components, and API integration. It serves as a reference for developers exploring the Mini Program framework.",
   lygdaily_name: "Lianyungang Daily",
   lygdaily_desc: "Lianyungang Daily’s WeChat Mini Program provides local news, policy updates, and public service information for residents of Lianyungang. It serves as a digital portal for staying informed about city affairs, government announcements, and community events.",
   meituan_name: "Meituan",
