@@ -34,6 +34,7 @@ WRAPPERS = [
   { "name": "v86", "url": "https://copy.sh/v86" },
   { "name": "Termux", "url": "https://termux.dev" },
   { "name": "Walmart", "url": "https://www.walmart.com" },
+  { "name": "The Home Depot", "url": "https://www.homedepot.com" },
   { "name": "WarcraftLogs", "url": "https://www.warcraftlogs.com" },
   { "name": "Raider.IO", "url": "https://raider.io", "keyify_name": "raiderio" },
   { "name": "MapleStory", "url": "https://www.nexon.com/maplestory" },

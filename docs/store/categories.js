@@ -777,6 +777,7 @@ export const categories = [
     apps : [
       { name: "AGE Animation (AGE动漫)", nameKey: "age_name", descriptionKey: "age_desc", icon: "icons/ageanimation.webp", url: "https://www.agedm.vip" },
       { name: "Disney+", nameKey: "disneyplus_name", descriptionKey: "disneyplus_desc", icon: "icons/disneyplus.webp", url: "https://www.disneyplus.com" },
+      { name: "Hulu", nameKey: "hulu_name", descriptionKey: "hulu_desc", icon: "icons/hulu.webp", url: "https://www.hulu.com" },
       { name: "ViX (vix.com)", nameKey: "vixcom_name", descriptionKey: "vixcom_desc", icon: "icons/vix.webp", url: "https://www.vix.com" },
       { name: "ViX (vix.watch)", nameKey: "vixwatch_name", descriptionKey: "vixwatch_desc", icon: "icons/vix.webp", url: "https://vix.watch" },
       { name: "ESPN", nameKey: "espn_name", descriptionKey: "espn_desc", icon: "icons/espn.webp", url: "https://www.espn.com" },
@@ -1188,6 +1189,14 @@ export const categories = [
         descriptionKey: "target_desc",
         icon: "icons/wrappers/target.webp",
         url: "/wrappers/target",
+        wrapper: true
+      },
+      {
+        name: "The Home Depot",
+        nameKey: "homedepot_name",
+        descriptionKey: "homedepot_desc",
+        icon: "icons/wrappers/homedepot.webp",
+        url: "/wrappers/homedepot",
         wrapper: true
       },
       {

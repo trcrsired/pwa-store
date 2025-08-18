@@ -350,7 +350,8 @@ const L = {
 
   disneyplus_name: "Disney+",
   disneyplus_desc: "Disney+ 是由迪士尼流媒体部门运营的美国订阅制视频点播服务，隶属于迪士尼娱乐，是华特迪士尼公司的重要业务板块之一。",
-
+  hulu_name: "Hulu",
+  hulu_desc: "Hulu 是一家美国的订阅制流媒体服务平台，提供丰富的电视剧、电影、原创内容以及直播电视服务，涵盖新闻、体育和娱乐等多个领域。",
   vixcom_name: "ViX (vix.com)",
   vixcom_desc: "ViX 是西班牙语娱乐的官方平台，提供直播电视、点播电影、体育赛事和原创节目，面向美国和拉美的西语观众。",
 
@@ -516,7 +517,8 @@ const L = {
 
   target_name: "Target",
   target_desc: "美国零售连锁店，销售食品、电子产品、服装和家居用品，支持门店与线上购物。",
-
+  homedepot_name: "家得宝",
+  homedepot_desc: "家得宝（The Home Depot）是一家美国跨国家居改善零售公司，销售工具、建筑产品、家用电器及相关服务，包括燃料和交通租赁服务。",
   cvs_name: "CVS",
   cvs_desc: "美国药房与零售连锁，提供处方药、健康产品、美妆用品及日常食品，支持门店与线上服务。",
 

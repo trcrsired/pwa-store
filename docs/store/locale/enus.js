@@ -351,7 +351,8 @@ const L = {
 
   disneyplus_name: "Disney+",
   disneyplus_desc: "Disney+ is an American subscription video on-demand over-the-top streaming media service owned and operated by Disney Streaming, the streaming division of Disney Entertainment, a major business segment of the Walt Disney Company.",
-
+  hulu_name: "Hulu",
+  hulu_desc: "Hulu is an American subscription-based streaming service that offers a wide variety of TV shows, movies, original content, and live television, including news, sports, and entertainment.",
   vixcom_name: "ViX (vix.com)",
   vixcom_desc: "Official PWA-enabled hub for Spanish-language entertainment, ViX features live television, on-demand films, sports, and original shows curated for Hispanic audiences in the U.S. and Latin America.",
 
@@ -515,7 +516,8 @@ const L = {
 
   target_name: "Target",
   target_desc: "U.S.-based retail chain offering groceries, electronics, clothing, and home goods—available via superstores and online shopping.",
-
+  homedepot_name: "The Home Depot",
+  homedepot_desc: "The Home Depot is an American multinational home improvement retail corporation that sells tools, construction products, appliances, and services, including fuel and transportation rentals.",
   cvs_name: "CVS",
   cvs_desc: "U.S. pharmacy and retail chain offering prescriptions, health and wellness products, beauty essentials, and everyday groceries—available in-store and online.",
 
