@@ -189,7 +189,8 @@ const L = {
 
   yahoofinance_name: "Yahoo Finance",
   yahoofinance_desc: "Global financial news and quotes.",
-
+  stockanalysis_name: "Stock Analysis",
+  stockanalysis_desc: "Stock Analysis is an online platform that provides detailed financial data, charts, news, and insights to help investors research and evaluate publicly traded companies.",
   longforecast_name: "LongForecast",
   longforecast_desc: "Stock, cryptocurrency and economic forecasts with multi-year trend charts.",
 

@@ -547,6 +547,13 @@ export const categories = [
         url: "https://finance.yahoo.com"
       },
       {
+        name: "Stock Analysis",
+        nameKey: "stockanalysis_name",
+        descriptionKey: "stockanalysis_desc",
+        icon: "icons/stockanalysis.webp",
+        url: "https://stockanalysis.com"
+      },
+      {
         name: "LongForecast",
         nameKey: "longforecast_name",
         descriptionKey: "longforecast_desc",

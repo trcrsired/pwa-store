@@ -190,7 +190,8 @@ const L = {
 
   yahoofinance_name: "雅虎财经",
   yahoofinance_desc: "全球金融新闻、股票报价和市场趋势的综合平台。",
-
+  stockanalysis_name: "股票分析",
+  stockanalysis_desc: "股票分析（Stock Analysis）是一个在线平台，提供详尽的财务数据、图表、新闻和洞察，帮助投资者研究和评估上市公司。",
   longforecast_name: "LongForecast",
   longforecast_desc: "提供股票、加密货币和经济趋势的长期预测图表，适合中长期投资者参考。",
 
