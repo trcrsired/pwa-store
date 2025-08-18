@@ -697,6 +697,7 @@ const L = {
   whitehouse_desc: "Official residence and workplace of the President of the United States—explore executive branch initiatives, press releases, policy updates, and historical archives. Access resources from the Office of the President and stay informed on national priorities.",
   idme_name: "ID.me",
   idme_desc: "ID.me is a private digital identity platform trusted by U.S. government agencies for secure online access. It helps users verify their identity, access public services, and unlock exclusive benefits for verified groups like military personnel, students, and first responders.",
+  cngov_name: "Chinese Government🇨🇳",
   organizations_name: "Organizations",
   iso_name: "ISO",
   iso_desc: "The International Organization for Standardization (ISO) is an independent, non-governmental international organization that develops and publishes global standards across a wide range of industries and sectors to ensure quality, safety, efficiency, and interoperability.",
