@@ -1348,6 +1348,14 @@ export const categories = [
         url: "/wrappers/usps",
         apptype: "wrapper"
       },
+      {
+        name: "Transit Code",
+        nameKey: "transitcode_name",
+        descriptionKey: "transitcode_desc",
+        icon: "icons/wechatmini/transitcode.webp",
+        url: "#小程序://乘车码/bSEajcXCPAVb1op",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
@@ -1730,6 +1738,20 @@ export const categories = [
         descriptionKey: "idme_desc",
         apptype: "wrapper"
       }
+    ]
+  },
+  {
+    name: "Chinese Government🇨🇳",
+    nameKey: "cngov_name",
+    apps : [
+      {
+        name: "Suishenban",
+        nameKey: "suishenban_name",
+        descriptionKey: "suishenban_desc",
+        icon: "icons/wechatmini/suishenban.webp",
+        url: "#小程序://随申办/2bL7Tzu37kdlfRh",
+        apptype: "wechatmini"
+      },
     ]
   },
   {

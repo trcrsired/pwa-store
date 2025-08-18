@@ -758,6 +758,10 @@ const L = {
 // WeChat Mini Programs
   meituangroupmeals_name: "Meituan Group Meals",
   meituangroupmeals_desc: "Meituan Group Meals is a WeChat Mini Program that lets users team up to order food together for discounts and free delivery. Share a meal link, form a group, and enjoy savings on popular restaurants across China.",
+  transitcode_name: "Transit Code",
+  transitcode_desc: "Transit Code is Tencent’s official WeChat Mini Program for public transportation. It lets users scan a QR code to ride buses and subways across hundreds of cities in China. With automatic payments via WeChat Pay, it offers a fast, secure, and paperless way to travel. Just open the Mini Program, scan, and go—no top-ups or tickets required.",
+  suishenban_name: "Suishenban",
+  suishenban_desc: "Suishenban is Shanghai’s official WeChat Mini Program for public services. Developed by the Shanghai Municipal Government, it provides residents with access to healthcare, social security, transportation, legal services, and more—all in one place. Whether you're booking a hospital visit or checking your housing status, Suishenban makes city life easier and more connected.",
 };
 
 registerLocale("enus", L);
