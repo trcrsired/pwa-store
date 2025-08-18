@@ -198,6 +198,8 @@ const L = {
   investing_desc: "Track global financial markets, view real-time quotes, and explore news, analysis, and tools for stocks, forex, crypto, and more.",
   stripe_name: "Stripe Dashboard",
   stripe_desc: "Stripe is a global financial infrastructure platform that enables businesses to accept payments, manage subscriptions, and build custom financial services with powerful APIs.",
+  seekingalpha_name: "Seeking Alpha",
+  seekingalpha_desc: "Seeking Alpha is a financial research platform founded in 2004 by David Jackson. It offers crowd-sourced investment analysis, stock ratings, market news, and portfolio tools, helping investors discover ideas and make informed decisions across U.S.-traded stocks and ETFs.",
   paypal_name: "PayPal",
   paypal_desc: "PayPal is a global digital payment platform that enables secure online transactions, money transfers, and merchant services for individuals and businesses. It supports personal payments, subscriptions, and e-commerce checkout across millions of sites.",
   moomoo_name: "Moomoo",

@@ -197,8 +197,12 @@ const L = {
 
   investing_name: "英为财情",
   investing_desc: "追踪全球金融市场，查看实时行情，浏览股票、外汇、加密货币等领域的新闻、分析与工具。",
+  seekingalpha_name: "Seeking Alpha",
+  seekingalpha_desc: "Seeking Alpha 是一个成立于 2004 年的金融研究平台，由 David Jackson 创办。该平台提供众包投资分析、股票评级、市场新闻和投资组合工具，帮助投资者发现投资机会并在美股和 ETF 市场中做出明智决策。",
   stripe_name: "Stripe Dashboard",
   stripe_desc: "Stripe 是一个全球金融基础设施平台，提供强大的 API，帮助企业接收支付、管理订阅，并构建定制化的金融服务。",
+  seekingalpha_name: "Seeking Alpha",
+  seekingalpha_desc: "Seeking Alpha 是一个金融研究平台，由 David Jackson 于 2004 年创立。平台提供众包的投资分析、股票评级、市场新闻以及投资组合管理工具，帮助投资者发掘投资机会，并在美国上市股票和 ETF 市场中做出明智决策。",
   paypal_name: "贝宝",
   paypal_desc: "全球数字支付平台，支持安全的在线交易、转账、订阅和电商结算服务。",
   moomoo_name: "富途牛牛",

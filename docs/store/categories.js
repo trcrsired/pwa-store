@@ -575,6 +575,13 @@ export const categories = [
         url: "https://dashboard.stripe.com"
       },
       {
+        name: "Seeking Alpha",
+        nameKey: "seekingalpha_name",
+        descriptionKey: "seekingalpha_desc",
+        icon: "icons/seekingalpha.webp",
+        url: "https://seekingalpha.com"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",
