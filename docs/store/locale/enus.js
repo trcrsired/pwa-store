@@ -381,7 +381,8 @@ const L = {
 
   espn_name: "ESPN",
   espn_desc: "Comprehensive sports network—ESPN covers live games, athlete insights, rankings, and analysis across leagues and disciplines.",
-
+  mangadex_name: "MangaDex",
+  mangadex_desc: "MangaDex is a nonprofit online manga reader founded in 2018 by Hologfx. Built by scanlators for scanlators, it hosts unofficial fan translations of manga, manhwa, and manhua in multiple languages, with advanced filtering and user-controlled libraries.",
   dubok_name: "Dubok (独播库)",
   dubok_desc: "Dubok is a Chinese streaming site specializing in exclusive and hard-to-find TV dramas, anime, and variety shows. It aggregates content from multiple sources, offering fast updates and a wide selection of subtitled episodes for niche audiences.",
 
