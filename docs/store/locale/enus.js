@@ -788,6 +788,8 @@ const L = {
   fudanalumnicard_desc: "Developed by Fudan University’s Alumni Association and IT Office, this Mini Program enables alumni to verify their identity, access campus services, and enjoy exclusive benefits. Features include campus entry via QR code, dining access, library reservations, and future perks in travel, finance, and shopping.",
   bosszhipin_name: "BOSS Zhipin",
   bosszhipin_desc: "BOSS Zhipin is a direct-chat recruitment Mini Program that connects job seekers with hiring managers in real time. Users can browse openings, filter by location and role, and initiate conversations instantly—without intermediaries. The platform uses intelligent matching to recommend jobs based on resume and preferences.",
+  hworldclub_name: "H World Club",
+  hworldclub_desc: "H World Club is the official hotel booking Mini Program by H World Group Limited, offering real-time reservations across 5,000+ hotels in 1,000+ cities. Members enjoy location-based search, instant booking, exclusive discounts, and unified loyalty points across brands like Hanting, Ji Hotel, and Orange Hotel.",
 };
 
 registerLocale("enus", L);

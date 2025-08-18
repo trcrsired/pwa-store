@@ -1498,6 +1498,14 @@ export const categories = [
         url: "/wrappers/auctioncom",
         apptype: "wrapper"
       },
+      {
+        name: "H World Club",
+        nameKey: "hworldclub_name",
+        descriptionKey: "hworldclub_desc",
+        icon: "icons/wechatmini/hworldclub.webp",
+        url: "#小程序://华住会酒店预订汉庭全季桔子/wgSElQcmKxKYYLl",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
