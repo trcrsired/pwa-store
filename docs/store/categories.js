@@ -563,7 +563,7 @@ export const categories = [
       {
         name: "Stripe Dashboard",
         nameKey: "stripe_name",
-        descriptionKey: "strip_desc",
+        descriptionKey: "stripe_desc",
         icon: "icons/stripe.webp",
         url: "https://dashboard.stripe.com"
       },
