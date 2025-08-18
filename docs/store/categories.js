@@ -307,6 +307,14 @@ export const categories = [
         icon: "icons/wrappers/wechatdevelopers.webp",
         url: "/wrappers/wechatdevelopers",
         apptype: "wrapper"
+      },
+      {
+        name: "Mini Program Demo",
+        nameKey: "miniprogramdemo_name",
+        descriptionKey: "miniprogramdemo_desc",
+        icon: "icons/wechatmini/miniprogramdemo.webp",
+        url: "#小程序://小程序示例/H5Xs704fylC1Ktc",
+        apptype: "wechatmini"
       }
     ]
   },
@@ -629,14 +637,6 @@ export const categories = [
         url: "/wrappers/bankofamerica",
         apptype: "wrapper"
       },
-      {
-        name: "Mini Program Demo",
-        nameKey: "miniprogramdemo_name",
-        descriptionKey: "miniprogramdemo_desc",
-        icon: "icons/wechatmini/miniprogramdemo.webp",
-        url: "#小程序://小程序示例/H5Xs704fylC1Ktc",
-        apptype: "wechatmini"
-      }
     ]
   },
   {
