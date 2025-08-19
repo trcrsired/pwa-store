@@ -1615,6 +1615,13 @@ export const categories = [
         url: "https://app.joinhandshake.com",
       },
       {
+        name: "IGUOPIN",
+        nameKey: "iguopin_name",
+        descriptionKey: "iguopin_desc",
+        icon: "icons/iguopin.webp",
+        url: "https://www.iguopin.com",
+      },
+      {
         name: "CodeSignal",
         nameKey: "codesignal_name",
         descriptionKey: "codesignal_desc",

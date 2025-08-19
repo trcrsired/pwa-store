@@ -580,6 +580,8 @@ const L = {
   linkedin_desc: "Connect with professionals, explore job opportunities, and build your career profile. Follow companies, join industry groups, and share insights.",
   handshake_name: "Handshake",
   handshake_desc: "Handshake is a career platform designed for students and recent graduates to discover jobs, internships, and events. It connects users with employers, career centers, and peers to support early career growth and networking.",
+  iguopin_name: "IGUOPIN",
+  iguopin_desc: "Operated by China National Talent Network, Guopin is a state-backed recruitment platform offering job listings, campus hiring, social recruitment, and high-end talent services. Its PWA supports mobile access to job search, resume submission, online assessments, and virtual career fairs. Ideal for graduates and professionals seeking roles in central SOEs and major enterprises.",
   codesignal_name: "CodeSignal",
   codesignal_desc: "A platform for technical assessments, interview preparation, and skills certification used by companies and job seekers.",
   remoteok_name: "Remote OK",

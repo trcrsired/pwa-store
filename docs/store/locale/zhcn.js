@@ -582,6 +582,8 @@ const L = {
   linkedin_desc: "与职场人士建立联系，探索工作机会，完善职业档案。关注企业，加入行业社群，分享见解。",
   handshake_name: "Handshake",
   handshake_desc: "Handshake 是一个面向学生和应届毕业生的职业平台，帮助用户寻找工作、实习和职业活动。平台连接雇主、职业服务中心和同行，支持职业发展和人脉拓展。",
+  iguopin_name: "国聘网",
+  iguopin_desc: "由中国国家人才网运营的央企招聘平台，提供职位搜索、校园招聘、社会招聘、高端人才服务等功能。其PWA支持移动端访问、简历投递、在线测评及云宣讲会，适合高校毕业生及职场人士寻找央企及大型企业岗位。",
   codesignal_name: "CodeSignal",
   codesignal_desc: "一个用于技术评估、面试准备和技能认证的平台，广泛应用于企业招聘和求职者提升。",
   remoteok_name: "Remote OK",
