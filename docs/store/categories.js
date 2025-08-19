@@ -778,6 +778,13 @@ export const categories = [
         icon: "icons/linuxdo.webp",
         url: "https://linux.do"
       },
+      {
+        name: "Juejin",
+        nameKey: "juejin_name",
+        icon: "icons/juejin.webp",
+        url: "https://juejin.cn",
+        descriptionKey: "juejin_desc"
+      },
     ]
   },
   {

@@ -258,7 +258,8 @@ const L = {
   theverge_desc: "The Verge是由Vox Media运营的科技新闻与媒体平台，创立于2011年，总部位于纽约市。内容涵盖科技、科学、艺术与文化的交汇点，通过新闻、测评、专题、播客和视频呈现数字时代的变革。",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO 是面向中文用户的 Linux 门户网站，提供新闻、教程、发行版信息与开源开发资源，服务于技术爱好者与专业人士。",
-
+  juejin_name: "掘金",
+  juejin_desc: "掘金是一个面向开发者的中文技术社区与内容平台，涵盖前端、后端、移动开发、人工智能等多个领域，提供高质量文章、教程与技术讨论。平台聚集了工程师、设计师与产品经理，致力于技术成长、开源分享与职业发展。",
   internetservices_name: "互联网服务",
   softwaredistributions_name: "软件分发",
 

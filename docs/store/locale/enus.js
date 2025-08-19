@@ -255,7 +255,8 @@ const L = {
   theverge_desc: "The Verge is a technology news and media platform founded in 2011 and operated by Vox Media. Headquartered in New York City, it covers the intersection of technology, science, art, and culture through breaking news, reviews, features, podcasts, and videos.",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community.",
-
+  juejin_name: "Juejin",
+  juejin_desc: "Juejin is a Chinese developer community and content platform offering high-quality articles, tutorials, and discussions across frontend, backend, mobile, AI, and more. It serves as a hub for technical growth, open-source sharing, and career development, with active contributions from engineers, designers, and product managers.",
   internetservices_name: "Internet Services",
   softwaredistributions_name: "Software Distributions",
 
