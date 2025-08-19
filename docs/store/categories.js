@@ -1427,6 +1427,22 @@ export const categories = [
         icon: "icons/wechatmini/rtmart.webp",
         url: "#小程序://大润发优鲜/vMKuGAgtVyLvbKb",
         apptype: "wechatmini"
+      },
+      {
+        name: "McDonald's (CN)",
+        nameKey: "mcdonaldscn_name",
+        descriptionKey: "mcdonaldscn_desc",
+        icon: "icons/wrappers/mcdonalds.webp",
+        url: "#小程序://麦当劳/EGpDh3ZM8GA27Ju",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Luckin Coffee",
+        nameKey: "luckin_name",
+        descriptionKey: "luckin_desc",
+        icon: "icons/wechatmini/luckin.webp",
+        url: "#小程序://瑞幸咖啡/yI3YsmuVZEDSN9z",
+        apptype: "wechatmini"
       }
     ]
   },

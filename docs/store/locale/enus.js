@@ -559,6 +559,8 @@ const L = {
 
   mcdonalds_name: "McDonald's",
   mcdonalds_desc: "World's largest fast food chain serving burgers, fries, breakfast, and beverages—mobile ordering, rewards, and location finder available via app or site.",
+  luckin_name: "Luckin Coffee",
+  luckin_desc: "Luckin Coffee is a WeChat Mini Program offering mobile ordering, membership discounts, and fast pickup across thousands of stores in China. Users can browse seasonal menus, earn points, and pay via WeChat Pay. The program supports delivery, self-pickup, and personalized recommendations based on location and preferences.",
   applestore_name: "Apple Store",
   applestore_desc: "Apple Store is the official retail and support channel for Apple products. Shop iPhones, Macs, iPads, and accessories, or get help from Apple Specialists and Genius Bar technicians.",
   appleretail_name: "Apple Retail Store",
@@ -798,6 +800,8 @@ const L = {
   walmartcn_desc: "Walmart's Mini Program, operated by Walmart China, offers O2O grocery shopping, in-store self-checkout via 'Scan & Go', and 1-hour home delivery. It uses LBS to tailor services by location, supports electronic coupons, and integrates with WeChat Pay. The program connects over 300 stores nationwide and emphasizes seamless omnichannel retail.",
   rtmart_name: "RT-Mart",
   rtmart_desc: "RT-Mart is a Mini Program operated by Sun Art Retail Group, offering fresh groceries, household goods, and 1-hour delivery within 5km of RT-Mart stores. It supports shopping card payments, WeChat Pay, and self-checkout. Users can bind prepaid cards and shop both online and in-store with unified access.",
+  mcdonaldscn_name: "McDonald's (CN)",
+  mcdonaldscn_desc: "McDonald's (CN) is a WeChat Mini Program offering mobile ordering, exclusive coupons, and store locator services across China. Users can browse the menu, customize meals, and pay via WeChat Pay. The program supports membership benefits, pickup and delivery options, and seamless access to nearby McDonald's locations.",
   transitcode_name: "Transit Code",
   transitcode_desc: "Transit Code is Tencent’s official WeChat Mini Program for public transportation. It lets users scan a QR code to ride buses and subways across hundreds of cities in China. With automatic payments via WeChat Pay, it offers a fast, secure, and paperless way to travel. Just open the Mini Program, scan, and go—no top-ups or tickets required.",
   railway12306_name: "Railway 12306",
