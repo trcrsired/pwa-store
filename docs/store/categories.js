@@ -1388,6 +1388,30 @@ export const categories = [
         url: "#小程序://拼多多/DCuif8uSadbMNvd",
         apptype: "wechatmini"
       },
+      {
+        name: "Xianyu",
+        nameKey: "xianyu_name",
+        descriptionKey: "xianyu_desc",
+        icon: "icons/wechatmini/xianyu.webp",
+        url: "#小程序://闲鱼/TUD1i2rz0N9kPiD",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Walmart (CN)",
+        nameKey: "walmartcn_name",
+        descriptionKey: "walmartcn_desc",
+        icon: "icons/wrappers/walmart.webp",
+        url: "#小程序://沃尔玛/TD4MGupp4fHV50t",
+        apptype: "wechatmini"
+      },
+      {
+        name: "RT-Mart",
+        nameKey: "rtmart_name",
+        descriptionKey: "rtmart_desc",
+        icon: "icons/wechatmini/rtmart.webp",
+        url: "#小程序://大润发优鲜/vMKuGAgtVyLvbKb",
+        apptype: "wechatmini"
+      }
     ]
   },
   {
