@@ -343,6 +343,20 @@ export const categories = [
         descriptionKey: "cloudflare_desc",
       },
       {
+        name: "Yandex",
+        nameKey: "yandex_name",
+        icon: "icons/yandex.webp",
+        url: "https://yandex.com",
+        descriptionKey: "yandex_desc",
+      },
+      {
+        name: "DuckDuckGo",
+        url: "https://duckduckgo.com",
+        nameKey: "duckduckgo_name",
+        descriptionKey: "duckduckgo_desc",
+        icon: "icons/duckduckgo.webp"
+      },
+      {
         name: "China Telecom",
         nameKey: "chinatelecom_name",
         descriptionKey: "chinatelecom_desc",
