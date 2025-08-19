@@ -667,6 +667,14 @@ export const categories = [
         url: "/wrappers/bankofamerica",
         apptype: "wrapper"
       },
+      {
+        name: "ABC Microservices",
+        nameKey: "abchinamicro_name",
+        descriptionKey: "abchinamicro_desc",
+        icon: "icons/wechatmini/abchina.webp",
+        url: "#小程序://农行微服务/hjvTK1OXuyfOkCE",
+        apptype: "wechatmini"
+      },
     ]
   },
   {

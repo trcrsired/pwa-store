@@ -220,7 +220,6 @@ const L = {
   moomoo_desc: "Trade U.S., Hong Kong, and China stocks with real-time data and advanced tools. Analyze markets, manage portfolios, and access financial news.",
   bankofamerica_name: "Bank of America",
   bankofamerica_desc: "Major US bank.",
-
   tech_key: "Tech",
 
   windowscentral_name: "Windows Central",
@@ -559,8 +558,6 @@ const L = {
 
   mcdonalds_name: "McDonald's",
   mcdonalds_desc: "World's largest fast food chain serving burgers, fries, breakfast, and beverages—mobile ordering, rewards, and location finder available via app or site.",
-  luckin_name: "Luckin Coffee",
-  luckin_desc: "Luckin Coffee is a WeChat Mini Program offering mobile ordering, membership discounts, and fast pickup across thousands of stores in China. Users can browse seasonal menus, earn points, and pay via WeChat Pay. The program supports delivery, self-pickup, and personalized recommendations based on location and preferences.",
   applestore_name: "Apple Store",
   applestore_desc: "Apple Store is the official retail and support channel for Apple products. Shop iPhones, Macs, iPads, and accessories, or get help from Apple Specialists and Genius Bar technicians.",
   appleretail_name: "Apple Retail Store",
@@ -830,6 +827,10 @@ const L = {
   bosszhipin_desc: "BOSS Zhipin is a direct-chat recruitment Mini Program that connects job seekers with hiring managers in real time. Users can browse openings, filter by location and role, and initiate conversations instantly—without intermediaries. The platform uses intelligent matching to recommend jobs based on resume and preferences.",
   hworldclub_name: "H World Club",
   hworldclub_desc: "H World Club is the official hotel booking Mini Program by H World Group Limited, offering real-time reservations across 5,000+ hotels in 1,000+ cities. Members enjoy location-based search, instant booking, exclusive discounts, and unified loyalty points across brands like Hanting, Ji Hotel, and Orange Hotel.",
+  luckin_name: "Luckin Coffee",
+  luckin_desc: "Luckin Coffee is a WeChat Mini Program offering mobile ordering, membership discounts, and fast pickup across thousands of stores in China. Users can browse seasonal menus, earn points, and pay via WeChat Pay. The program supports delivery, self-pickup, and personalized recommendations based on location and preferences.",
+  abchinamicro_name: "ABC Microservices",
+  abchinamicro_desc: "ABC Microservices is a WeChat Mini Program operated by Agricultural Bank of China, offering mobile banking, account services, and financial tools. Users can check balances, transfer funds, pay bills, and manage cards securely through WeChat. It supports biometric login, WeChat Pay, and personalized financial recommendations based on user profiles and location.",
 };
 
 registerLocale("enus", L);
