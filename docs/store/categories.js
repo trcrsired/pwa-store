@@ -229,6 +229,13 @@ export const categories = [
         descriptionKey: "resilientwebdesign_desc"
       },
       {
+        name: "PWA Dev China",
+        nameKey: "pwadevcn_name",
+        icon: "icons/pwadevcn.webp",
+        url: "https://pwadev.cn",
+        descriptionKey: "pwadevcn_desc"
+      },
+      {
         name: "Python",
         icon: "icons/python.webp",
         url: "https://www.python.org",
