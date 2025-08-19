@@ -788,6 +788,8 @@ const L = {
   meituanwaimai_desc: "Meituan Waimai’s WeChat Mini Program offers food delivery from nearby restaurants, milk tea, coffee, fruits, and daily essentials. Users can browse local options, place orders, and track deliveries in real time.",
   eleme_name: "Ele.me",
   eleme_desc: "Ele.me’s WeChat Mini Program offers food delivery, fresh groceries, supermarket items, and daily essentials. Users can browse nearby restaurants, order meals, and shop for fruits, vegetables, and household goods—all in one streamlined experience.",
+  pinduoduo_name: "Pinduoduo",
+  pinduoduo_desc: "Pinduoduo is a social commerce Mini Program operated by Shanghai Xunmeng Information Technology Co., Ltd. It offers group-buying deals, fresh produce delivery, brand discounts, and interactive features like live streaming and flash sales. Users can team up for lower prices and explore categories from groceries to electronics.",
   transitcode_name: "Transit Code",
   transitcode_desc: "Transit Code is Tencent’s official WeChat Mini Program for public transportation. It lets users scan a QR code to ride buses and subways across hundreds of cities in China. With automatic payments via WeChat Pay, it offers a fast, secure, and paperless way to travel. Just open the Mini Program, scan, and go—no top-ups or tickets required.",
   railway12306_name: "Railway 12306",

@@ -1380,6 +1380,14 @@ export const categories = [
         url: "#小程序://饿了么l外卖美食超市买菜水果/P2QafBViNs4CxJv",
         apptype: "wechatmini"
       },
+      {
+        name: "Pinduoduo",
+        nameKey: "pinduoduo_name",
+        descriptionKey: "pinduoduo_desc",
+        icon: "icons/wechatmini/pinduoduo.webp",
+        url: "#小程序://拼多多/DCuif8uSadbMNvd",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
