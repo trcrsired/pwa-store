@@ -336,6 +336,22 @@ export const categories = [
         descriptionKey: "cloudflare_desc",
       },
       {
+        name: "China Telecom",
+        nameKey: "chinatelecom_name",
+        descriptionKey: "chinatelecom_desc",
+        icon: "icons/wechatmini/chinatelecom.webp",
+        url: "#小程序://中国电信App/euxKgI21HGTS3KJ",
+        apptype: "wechatmini"
+      },
+      {
+        name: "China Mobile",
+        nameKey: "chinamobile_name",
+        descriptionKey: "chinamobile_desc",
+        icon: "icons/wechatmini/chinamobile.webp",
+        url: "#小程序://中国移动10086+/mtcmuETQct3HdmA",
+        apptype: "wechatmini"
+      },
+      {
         name: "China Unicom",
         nameKey: "chinaunicom_name",
         descriptionKey: "chinaunicom_desc",
