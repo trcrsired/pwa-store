@@ -335,7 +335,8 @@ const L = {
   thehill_desc: "The Hill, formed in 1994, is an American newspaper and digital media company based in Washington, D.C. Focusing on politics, policy, business and international relations, The Hill's coverage includes the U.S. Congress, the presidency and executive branch, and election campaigns.",
   nittele_name: "Nippon TV NEWS (日テレNEWS)",
   nittele_desc: "A Japanese-language news network operated by Nippon TV, offering 24-hour coverage of domestic news, weather, and emergency alerts.",
-
+  economictimes_name: "Economic Times",
+  economictimes_desc: "The Economic Times is an Indian English-language daily newspaper focused on business and financial news. Founded in 1961 and published by Bennett, Coleman & Co. Ltd. (The Times Group), it is headquartered in Mumbai and distributed across major Indian cities. As of 2012, it was the world’s second-most widely read English-language business newspaper, after The Wall Street Journal. Its coverage spans the Indian economy, global finance, stock markets, commodities, and corporate affairs. The publication also operates ET Now (a business news TV channel) and ET Prime (a subscription-based analysis platform).",
   nyt_name: "New York Times",
   nyt_desc: "The New York Times (NYT) is an American daily newspaper based in New York City. The New York Times covers domestic, national, and international news, and publishes opinion pieces, investigative reports, and reviews.",
 
