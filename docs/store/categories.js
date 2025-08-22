@@ -665,6 +665,13 @@ export const categories = [
         url: "https://seekingalpha.com"
       },
       {
+        name: "Motley Fool",
+        nameKey: "motleyfool_name",
+        descriptionKey: "motleyfool_desc",
+        icon: "icons/motleyfool.webp",
+        url: "https://www.fool.com"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",

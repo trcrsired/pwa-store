@@ -216,6 +216,8 @@ const L = {
   stripe_desc: "Stripe is a global financial infrastructure platform that enables businesses to accept payments, manage subscriptions, and build custom financial services with powerful APIs.",
   seekingalpha_name: "Seeking Alpha",
   seekingalpha_desc: "Seeking Alpha is a financial research platform founded in 2004 by David Jackson. It offers crowd-sourced investment analysis, stock ratings, market news, and portfolio tools, helping investors discover ideas and make informed decisions across U.S.-traded stocks and ETFs.",
+  motleyfool_name: "Motley Fool",
+  motleyfool_desc: "Founded in 1993, The Motley Fool is a private financial services company headquartered in Alexandria, Virginia. It provides investment advice, stock recommendations, and financial education through premium newsletters, podcasts, and market analysis. With a mission to make the world smarter, happier, and richer, the company is known for its long-term investing philosophy and accessible guidance for individual investors. The name 'Motley Fool' is inspired by Shakespeare’s *As You Like It*, referencing the court jester who could speak truth to power without consequence.",
   investorsbusinessdaily_name: "Investor's Business Daily",
   investorsbusinessdaily_desc: "Investor’s Business Daily (IBD) is a U.S.-based financial news and research platform founded in 1984 by William J. O’Neil. Now part of News Corp via Dow Jones, it offers exclusive stock lists, market analysis, and investment tools based on the IBD Methodology, serving individual investors and professionals.",
   paypal_name: "PayPal",
