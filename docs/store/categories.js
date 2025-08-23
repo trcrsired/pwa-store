@@ -1353,6 +1353,13 @@ export const categories = [
         url: "https://www.shopify.com"
       },
       {
+        name: "Dunkin' Donuts",
+        nameKey: "dunkindonuts_name",
+        descriptionKey: "dunkindonuts_desc",
+        icon: "icon/dunkindonuts.webp",
+        url: "https://www.dunkindonuts.com"
+      },
+      {
         name: "Taobao (淘宝)",
         nameKey: "taobao_name",
         descriptionKey: "taobao_desc",

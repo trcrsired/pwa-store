@@ -562,7 +562,8 @@ const L = {
   temu_desc: "Temu is an online marketplace operated by e-commerce company PDD Holdings. The program is designed to help local sellers reach more local consumers, bring more locally relevant products to local shoppers, and improve the user experience.",
   shopify_name: "Shopify",
   shopify_desc: "Build and manage your own online store with customizable tools and secure checkout.",
-
+  dunkindonuts_name: "Dunkin' Donuts",
+  dunkindonuts_desc: "Founded in 1950, Dunkin' is a leading coffee and donut brand with over 14,000 locations worldwide. It offers a wide range of beverages, baked goods, and breakfast items, and is part of the Inspire Brands family.",
   taobao_name: "Taobao (淘宝)",
   taobao_desc: "A major consumer-to-consumer e-commerce platform in China, Taobao offers a diverse marketplace featuring everything from fashion and electronics to handmade local products. Backed by Alibaba, it’s known for powerful search tools, mobile-first features, and deep integration with logistics and social commerce.",
 

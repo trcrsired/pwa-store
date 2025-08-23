@@ -564,7 +564,8 @@ const L = {
   temu_desc: "Temu 是由电商公司拼多多控股运营的在线购物平台。该平台旨在帮助本地卖家触达更多本地消费者，提供更符合本地需求的商品，并提升用户购物体验。",
   shopify_name: "Shopify",
   shopify_desc: "使用可定制工具和安全结账系统创建并管理您的在线商店。",
-
+  dunkindonuts_name: "唐恩都乐 （Dunkin' Donuts）",
+  dunkindonuts_desc: "Dunkin' 成立于1950年，是全球领先的咖啡与甜甜圈品牌，在全球拥有超过14,000家门店。产品涵盖咖啡、烘焙食品和早餐选项，隶属于 Inspire Brands 品牌集团。",
   taobao_name: "淘宝",
   taobao_desc: "中国主要的 C2C 电商平台，提供从时尚、电子产品到本地手工商品的多样化市场。由阿里巴巴支持，具备强大的搜索功能、移动优先体验以及物流与社交电商的深度整合。",
 
