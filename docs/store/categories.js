@@ -1166,7 +1166,15 @@ export const categories = [
         descriptionKey: "xiangyin_desc",
         icon: "icons/xiangyin.webp",
         url: "https://web.xiangyin.mobi"
-      }
+      },
+      {
+        name: "Eudic Dictionary",
+        nameKey: "eudic_name",
+        descriptionKey: "eudic_desc",
+        icon: "icons/wrappers/eudic.webp",
+        url: "/wrappers/eudic",
+        apptype: "wrapper"
+      },
     ]
   },
   {

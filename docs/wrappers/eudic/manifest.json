@@ -1,0 +1,17 @@
+{
+  "name": "Eudic",
+  "short_name": "Eudic",
+  "start_url": "/wrappers/eudic/?source=pwa",
+  "scope": "/wrappers/eudic/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Eudic",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/eudic/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

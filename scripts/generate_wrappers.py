@@ -112,6 +112,7 @@ WRAPPERS = [
   { "name": "Tao Piao Piao", "url": "https://www.taopiaopiao.com", "keyify_name":"taopiaopiao" },
   { "name": "CodeSignal", "url": "https://codesignal.com" },
   { "name": "Remote OK", "url": "https://remoteok.com", "keyify_name": "remoteok" },
+  { "name": "Eudic", "url": "https://dict.eudic.net" },
   { "name": "Marxists Internet Archive", "url": "https://www.marxists.org", "keyify_name": "marxistsorg" },
   { "name": "REVCOM.US", "url": "https://revcom.us/en", "keyify_name": "revcomus" },
   { "name": "YouVersion Bible", "url": "https://bible.com", "keyify_name": "biblecom" },
