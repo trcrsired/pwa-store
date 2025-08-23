@@ -1627,6 +1627,13 @@ export const categories = [
         url: "https://www.autosport.com"
       },
       {
+        name: "Dongchedi",
+        nameKey: "dongchedi_name",
+        descriptionKey: "dongchedi_desc",
+        icon: "icons/dongchedi.webp",
+        url: "https://www.dongchedi.com"
+      },
+      {
         name: "Jiakaobaodian (驾考宝典)",
         nameKey: "jiakaobaodian_name",
         descriptionKey: "jiakaobaodian_desc",
