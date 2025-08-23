@@ -1,0 +1,17 @@
+{
+  "name": "Washington Post",
+  "short_name": "Washington Post",
+  "start_url": "/wrappers/washingtonpost/?source=pwa",
+  "scope": "/wrappers/washingtonpost/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Washington Post",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/washingtonpost/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

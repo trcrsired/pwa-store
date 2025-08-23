@@ -337,11 +337,14 @@ const L = {
   nittele_desc: "A Japanese-language news network operated by Nippon TV, offering 24-hour coverage of domestic news, weather, and emergency alerts.",
   economictimes_name: "Economic Times",
   economictimes_desc: "The Economic Times is an Indian English-language daily newspaper focused on business and financial news. Founded in 1961 and published by Bennett, Coleman & Co. Ltd. (The Times Group), it is headquartered in Mumbai and distributed across major Indian cities. As of 2012, it was the world’s second-most widely read English-language business newspaper, after The Wall Street Journal. Its coverage spans the Indian economy, global finance, stock markets, commodities, and corporate affairs. The publication also operates ET Now (a business news TV channel) and ET Prime (a subscription-based analysis platform).",
+  dw_name: "DW",
+  dw_desc: "Deutsche Welle (DW) is Germany’s international public broadcaster, providing news and analysis in over 30 languages. Headquartered in Bonn and Berlin, DW promotes global understanding through impartial journalism, cultural exchange, and coverage of key global issues including politics, business, science, and human rights.",
   hindustantimes_name: "Hindustan Times",
   hindustantimes_desc: "One of India's leading English-language newspapers, Hindustan Times delivers comprehensive coverage of national and international news, politics, business, sports, entertainment, and lifestyle. Owned by HT Media Ltd., it is known for its credible journalism and wide readership across major Indian cities.",
   nyt_name: "New York Times",
   nyt_desc: "The New York Times (NYT) is an American daily newspaper based in New York City. The New York Times covers domestic, national, and international news, and publishes opinion pieces, investigative reports, and reviews.",
-
+  washingtonpost_name: "Washington Post",
+  washingtonpost_desc: "The Washington Post is a major American newspaper based in Washington, D.C., renowned for its investigative journalism and in-depth political coverage. Founded in 1877, it has played a pivotal role in shaping public discourse, especially through landmark reporting such as the Watergate scandal. Owned by Amazon founder Jeff Bezos since 2013, the Post continues to be a leading source of national and international news, opinion, and analysis.",
   reuters_name: "Reuters",
   reuters_desc: "An international news organization known for timely, unbiased reporting across politics, business, and global affairs.",
 

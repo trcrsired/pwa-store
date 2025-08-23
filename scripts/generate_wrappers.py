@@ -115,6 +115,7 @@ WRAPPERS = [
   { "name": "REVCOM.US", "url": "https://revcom.us/en", "keyify_name": "revcomus" },
   { "name": "YouVersion Bible", "url": "https://bible.com", "keyify_name": "biblecom" },
   { "name": "Reuters", "url": "https://www.reuters.com" },
+  { "name": "Washington Post", "url": "https://www.washingtonpost.com","keyify_name": "washingtonpost" },
   { "name": "CNN", "url": "https://www.cnn.com" },
   { "name": "Fox News", "url": "https://www.foxnews.com", "keyify_name": "foxnews" },
   { "name": "USA Today", "url": "https://www.usatoday.com", "keyify_name": "usatoday" },
