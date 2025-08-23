@@ -483,7 +483,8 @@ const L = {
   duolingo_global_desc: "Gamified language learning.",
   duolingo_cn_name: "Duolingo (多邻国)",
   duolingo_cn_desc: "Localized Chinese version of Duolingo.",
-
+  xiangyin_name: "Xiangyin (乡音)",
+  xiangyin_desc: "Xiangyin is a community platform for exploring regional dialects through audio recordings of poetry, film quotes, everyday conversations, and jokes. Users can share their own dialect recordings, interact with others, and play the 'Guess the Accent' game to identify speakers' hometowns. To respect linguistic diversity, speaker locations are anonymized using ~10km grid mapping, allowing users to browse dialects across regions via an interactive map.",
   forums_name: "Forums",
 
   incelsis_name: "Incel.is",

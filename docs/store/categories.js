@@ -1139,6 +1139,13 @@ export const categories = [
         icon: "icons/duolingo.webp",
         url: "https://cn.duolingo.com"
       },
+      {
+        name: "Xiangyin (乡音)",
+        nameKey: "xiangyin_name",
+        descriptionKey: "xiangyin_desc",
+        icon: "icons/xiangyin.webp",
+        url: "https://web.xiangyin.mobi"
+      }
     ]
   },
   {
