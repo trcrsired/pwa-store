@@ -280,6 +280,8 @@ const L = {
   mediatools_name: "Media Tools",
   spline_name: "Spline",
   spline_desc: "Spline is a browser-based 3D design tool that enables real-time collaboration and interactive scene creation. Users can model, animate, and export 3D content directly from the web without installing software. It supports drag-and-drop interactivity, physics simulations, and integration with platforms like React and Webflow. Spline is proprietary software and not licensed under GPL.",
+  godot_name: "Godot",
+  godot_desc: "Create and prototype 2D and 3D games directly in your browser with the official Godot Web Editor. No installation required—just launch and start building. Ideal for learning, experimentation, and quick scene testing, with support for GDScript and Godot’s node-based architecture.",
   postimages_name: "Postimages",
   postimages_desc: "Postimages is a free image hosting service designed for fast, anonymous uploads. Users can drag and drop images, generate direct links, and embed them in forums, blogs, or websites—no registration required.",
   canva_name: "Canva",

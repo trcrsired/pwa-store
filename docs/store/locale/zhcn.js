@@ -282,6 +282,8 @@ const L = {
   mediatools_name: "媒体工具",
   spline_name: "Spline",
   spline_desc: "Spline 是一款基于浏览器的 3D 设计工具，支持实时协作和交互式场景创建。用户可以直接在网页中建模、制作动画并导出 3D 内容，无需安装任何软件。它支持拖放式交互、物理模拟，并可与 React 和 Webflow 等平台集成。Spline 是专有软件，并不采用 GPL 许可。",
+  godot_name: "Godot",
+  godot_desc: "使用官方的 Godot 网页编辑器，直接在浏览器中创建和原型设计 2D 与 3D 游戏。无需安装，打开即可开始构建。非常适合学习、实验和快速场景测试，支持 GDScript 和 Godot 的节点式架构。",
   postimages_name: "Postimages",
   postimages_desc: "Postimages 是一个免费的图像托管服务，支持快速匿名上传。用户可拖拽图片生成外链，轻松嵌入论坛、博客或网站，无需注册即可使用。",
   canva_name: "可画",

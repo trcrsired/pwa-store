@@ -856,6 +856,13 @@ export const categories = [
         url: "https://spline.design"
       },
       {
+        name: "Godot",
+        nameKey: "godot_name",
+        descriptionKey: "godot_desc",
+        icon: "icons/godot.webp",
+        url: "https://editor.godotengine.org"
+      },
+      {
         name: "Postimages",
         nameKey: "postimages_name",
         descriptionKey: "postimages_desc",
