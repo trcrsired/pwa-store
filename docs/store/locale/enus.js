@@ -278,6 +278,8 @@ const L = {
   archive_name: "Internet Archive",
   archive_desc: "Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more.",
   mediatools_name: "Media Tools",
+  spline_name: "Spline",
+  spline_desc: "Spline is a browser-based 3D design tool that enables real-time collaboration and interactive scene creation. Users can model, animate, and export 3D content directly from the web without installing software. It supports drag-and-drop interactivity, physics simulations, and integration with platforms like React and Webflow. Spline is proprietary software and not licensed under GPL.",
   postimages_name: "Postimages",
   postimages_desc: "Postimages is a free image hosting service designed for fast, anonymous uploads. Users can drag and drop images, generate direct links, and embed them in forums, blogs, or websites—no registration required.",
   canva_name: "Canva",

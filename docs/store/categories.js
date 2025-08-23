@@ -849,6 +849,13 @@ export const categories = [
     nameKey: "mediatools_name",
     apps: [
       {
+        name: "Spline",
+        nameKey: "spline_name",
+        descriptionKey: "spline_desc",
+        icon: "icons/spline.webp",
+        url: "https://spline.design"
+      },
+      {
         name: "Postimages",
         nameKey: "postimages_name",
         descriptionKey: "postimages_desc",
