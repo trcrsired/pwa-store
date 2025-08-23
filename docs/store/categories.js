@@ -1388,6 +1388,13 @@ export const categories = [
         url: "https://www.dunkindonuts.com"
       },
       {
+        name: "Sam's Club",
+        nameKey: "samsclub_name",
+        descriptionKey: "samsclub_desc",
+        icon: "icon/samsclub.webp",
+        url: "https://www.samsclub.com"
+      },
+      {
         name: "Taobao (淘宝)",
         nameKey: "taobao_name",
         descriptionKey: "taobao_desc",

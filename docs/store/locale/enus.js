@@ -571,6 +571,8 @@ const L = {
   shopify_desc: "Build and manage your own online store with customizable tools and secure checkout.",
   dunkindonuts_name: "Dunkin' Donuts",
   dunkindonuts_desc: "Founded in 1950, Dunkin' is a leading coffee and donut brand with over 14,000 locations worldwide. It offers a wide range of beverages, baked goods, and breakfast items, and is part of the Inspire Brands family.",
+  samsclub_name: "Sam's Club",
+  samsclub_desc: "Sam’s Club is a premium membership-based warehouse retailer under Walmart, offering bulk savings, curated global products, fresh food delivery, and exclusive member services. Customers can shop online or in-store, with integrated services across the U.S. and China.",
   taobao_name: "Taobao (淘宝)",
   taobao_desc: "A major consumer-to-consumer e-commerce platform in China, Taobao offers a diverse marketplace featuring everything from fashion and electronics to handmade local products. Backed by Alibaba, it’s known for powerful search tools, mobile-first features, and deep integration with logistics and social commerce.",
 
