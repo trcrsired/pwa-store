@@ -2256,6 +2256,13 @@ export const categories = [
         url: "https://digitalexpert.gehealthcare.com",
       },
       {
+        name: "Calm",
+        nameKey: "calm_name",
+        descriptionKey: "calm_desc",
+        icon: "icons/calm.webp",
+        url: "https://www.calm.com"
+      },
+      {
         name: "UHS",
         nameKey: "uhs_name",
         descriptionKey: "uhs_desc",

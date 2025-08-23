@@ -232,8 +232,8 @@ const L = {
   motleyfool_desc: "成立于1993年，Motley Fool（愚人公司）是一家总部位于美国弗吉尼亚州亚历山大的私人金融服务公司。该公司通过付费通讯、播客和市场分析，提供投资建议、股票推荐和金融教育。其使命是让世界变得更聪明、更快乐、更富有，以长期投资理念和面向个人投资者的易懂指导而闻名。公司名称“Motley Fool”源自莎士比亚的《皆大欢喜》，寓意宫廷小丑能无惧权威地讲述真相。",
   benzinga_name: "Benzinga",
   benzinga_desc: "Benzinga 是一家金融媒体与数据技术平台，提供实时市场新闻、交易洞察与投资工具，服务于个人投资者与活跃交易者。平台致力于信息透明与技术创新，帮助用户在瞬息万变的市场中做出明智决策。",
-  "investopedia_name": "Investopedia",
-  "investopedia_desc": "Investopedia 是一个成立于 1999 年的金融教育平台，提供通俗易懂的财经概念解释、投资策略、经济术语与个人理财内容。其词典式条目与专家审核的内容广受欢迎，服务对象涵盖全球学习者、专业人士与投资者。",
+  investopedia_name: "Investopedia",
+  investopedia_desc: "Investopedia 是一个成立于 1999 年的金融教育平台，提供通俗易懂的财经概念解释、投资策略、经济术语与个人理财内容。其词典式条目与专家审核的内容广受欢迎，服务对象涵盖全球学习者、专业人士与投资者。",
   investorsbusinessdaily_name: "投资者商业日报",
   investorsbusinessdaily_desc: "《投资者商业日报》（IBD）是由William J. O’Neil于1984年创立的美国财经新闻与研究平台，现隶属于新闻集团旗下的道琼斯公司。平台提供独家股票列表、市场分析及基于IBD投资方法的工具，服务于个人投资者与专业人士。",
   paypal_name: "贝宝",
@@ -822,10 +822,11 @@ const L = {
 
   un_name: "联合国",
   un_desc: "联合国是全球唯一一个所有国家汇聚一堂，共同探讨问题并寻求造福全人类解决方案的组织。",
-
   healthinsurance_name: "健康和保险",
   digitalexpertgehealthcare_name: "Digital Expert GE HealthCare",
   digitalexpertgehealthcare_desc: "Digital Expert 是 GE HealthCare 推出的云端平台，可为临床医生提供实时支持、培训和专家指导。该平台旨在提升诊断信心与工作效率，使医疗专业人员能够按需访问临床专长与数字工具。",
+  calm_name: "Calm",
+  calm_desc: "Calm 是一款主打心理健康的应用，提供冥想指导、睡眠故事、呼吸练习与放松音乐，帮助用户缓解压力、改善睡眠并培养正念习惯。支持网页与移动端使用，适合个人与企业日常心理健康管理。",
   uhs_name: "UHS",
   uhs_desc: "UHS（Universal Health Services）是一家医院管理和医疗服务提供商，在美国提供行为健康、急性护理和综合医疗服务。",
 
