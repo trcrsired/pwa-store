@@ -12,7 +12,7 @@ export const categories = [
       { name: "Weawow", icon: "icons/weawow.webp", url: "https://weawow.com", descriptionKey: "weawow_desc" },
       { name: "Screen Flashlight", icon: "icons/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", descriptionKey: "screenflashlight_desc" },
       { name: "PWA Store", nameKey: "pwastore_name", icon: "logo/logo.webp", url: ".", descriptionKey: "pwastore_desc" },
-      { name: "Wavacity", nameKey: "wavacity_name", icon: "logo/wavacity.webp", url: "https://wavacity.com", descriptionKey: "wavacity_desc" },
+      { name: "Wavacity", nameKey: "wavacity_name", icon: "icons/wavacity.webp", url: "https://wavacity.com", descriptionKey: "wavacity_desc" },
       {
         name: "Web Screen Recorder",
         nameKey: "webscreenrecorder_name",
