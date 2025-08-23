@@ -238,6 +238,10 @@ const L = {
   paypal_desc: "全球数字支付平台，支持安全的在线交易、转账、订阅和电商结算服务。",
   moomoo_name: "富途牛牛",
   moomoo_desc: "由富途控股推出的一站式投资平台，支持港股、美股、A股等市场交易，提供实时行情、智能工具和财经资讯。",
+  thestreet_name: "TheStreet",
+  thestreet_desc: "TheStreet 是一个金融新闻与理财教育平台，由 Jim Cramer 和 Marty Peretz 于 1996 年创立。平台提供市场分析、个人理财建议与投资评论，服务对象涵盖新手与资深投资者。内容包括免费文章与付费服务（如 TheStreet Pro），涵盖股票、退休规划与经济趋势。",
+  marketwatch_name: "MarketWatch",
+  marketwatch_desc: "MarketWatch 是由道琼斯公司运营的金融新闻与数据网站，提供实时市场报道、投资评论及个人理财内容。",
   bankofamerica_name: "美国银行",
   bankofamerica_desc: "美国主要银行之一，提供个人和企业金融服务。",
 

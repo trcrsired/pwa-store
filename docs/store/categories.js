@@ -708,6 +708,22 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "TheStreet",
+        nameKey: "thestreet_name",
+        descriptionKey: "thestreet_desc",
+        icon: "icons/wrappers/thestreet.webp",
+        url: "/wrappers/thestreet",
+        apptype: "wrapper"
+      },
+      {
+        name: "MarketWatch",
+        nameKey: "marketwatch_name",
+        descriptionKey: "marketwatch_desc",
+        icon: "icons/wrappers/marketwatch.webp",
+        url: "/wrappers/marketwatch",
+        apptype: "wrapper"
+      },
+      {
         name: "Bank of America",
         nameKey: "bankofamerica_name",
         descriptionKey: "bankofamerica_desc",

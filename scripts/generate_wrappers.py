@@ -96,6 +96,8 @@ WRAPPERS = [
   { "name": "IGN", "url": "https://www.ign.com" },
   { "name": "Paypal", "url": "https://www.paypal.com" },
   { "name": "Moomoo", "url": "https://www.moomoo.com" },
+  { "name": "TheStreet", "url": "https://www.thestreet.com" },
+  { "name": "MarketWatch", "url": "https://www.marketwatch.com" },
   { "name": "GeeksForGeeks", "url": "https://www.geeksforgeeks.org" },
   { "name": "Aurora Store", "url": "https://store.auroraoss.com", "keyify_name":"aurorastore" },
   { "name": "WeChat Devs", "url": "https://developers.weixin.qq.com", "keyify_name": "wechatdevelopers"},

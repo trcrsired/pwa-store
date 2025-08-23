@@ -1,0 +1,17 @@
+{
+  "name": "MarketWatch",
+  "short_name": "MarketWatch",
+  "start_url": "/wrappers/marketwatch/?source=pwa",
+  "scope": "/wrappers/marketwatch/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for MarketWatch",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/marketwatch/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
