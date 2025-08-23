@@ -84,7 +84,6 @@ export const categories = [
     apps: [
       {
         name: "WPS",
-        nameKey: "wps_name",
         icon: "icons/wrappers/wps.webp",
         url: "/wrappers/wps",
         descriptionKey: "wps_desc",
