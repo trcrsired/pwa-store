@@ -566,6 +566,13 @@ export const categories = [
         descriptionKey: "pinterest_desc",
       },
       {
+        name: "Mixi",
+        nameKey: "mixi_name",
+        icon: "icons/mixi.webp",
+        url: "https://mixi.jp",
+        descriptionKey: "mixi_desc",
+      },
+      {
         name: "Zoosk",
         nameKey: "zoosk_name",
         icon: "icons/wrappers/zoosk.webp",

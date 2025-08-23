@@ -184,6 +184,8 @@ const L = {
   flipboard_desc: "Flipboard is a news aggregator and social network aggregation company based in Palo Alto, California, with offices in New York, Vancouver, and Beijing.",
   pinterest_name: "Pinterest",
   pinterest_desc: "Pinterest is your visual discovery engine for finding ideas like recipes, home and style inspiration, and more. Save what you love, organize your finds, and explore endless creativity from around the world.",
+  mixi_name: "Mixi（ミクシィ）",
+  mixi_desc: "A Japanese social networking service known for community forums, diary-style posts, and interest-based groups.",
   zoosk_name: "Zoosk",
   zoosk_desc: "Zoosk is a popular online dating platform that uses behavioral matchmaking technology to connect singles worldwide. With a user-friendly interface and smart matching features, Zoosk helps people find meaningful relationships in a fun and secure environment.",
   tieba_name: "Tieba (贴吧)",
