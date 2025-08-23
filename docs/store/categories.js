@@ -1140,6 +1140,13 @@ export const categories = [
         url: "https://cn.duolingo.com"
       },
       {
+        name: "Oxford English Dictionary",
+        nameKey: "oed_name",
+        descriptionKey: "oed_desc",
+        icon: "icons/oed.webp",
+        url: "https://www.oed.com"
+      },
+      {
         name: "Duoreader",
         nameKey: "duoreader_name",
         descriptionKey: "duoreader_desc",

@@ -483,6 +483,8 @@ const L = {
   duolingo_global_desc: "Gamified language learning.",
   duolingo_cn_name: "Duolingo (多邻国)",
   duolingo_cn_desc: "Localized Chinese version of Duolingo.",
+  oed_name: "Oxford English Dictionary",
+  oed_desc: "The Oxford English Dictionary is the definitive historical dictionary of the English language. It traces the meaning, usage, and evolution of over 500,000 words and phrases, offering unparalleled insight for scholars, writers, and language enthusiasts worldwide.",
   duoreader_name: "Duoreader",
   duoreader_desc: "Duoreader is a multilingual reading platform focused on original texts. It offers synchronized translation, voice playback, dictionary lookup, and customizable reading modes. Ideal for learners and scholars engaging with classic literature, philosophy, and historical documents in their original form.",
   dudianji_name: "Dudianji (读典籍)",

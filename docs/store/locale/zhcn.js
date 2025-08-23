@@ -481,9 +481,10 @@ const L = {
   learning_name: "学习",
   duolingo_global_name: "Duolingo",
   duolingo_global_desc: "通过游戏化方式进行语言学习。",
-
   duolingo_cn_name: "多邻国",
   duolingo_cn_desc: "Duolingo 的中文本地化版本。",
+  oed_name: "牛津英语词典",
+  oed_desc: "牛津英语词典是英语语言的权威历史词典，收录超过50万个词汇与短语，详尽展示其含义、用法与演变过程。适合学者、作家及语言爱好者深入研究英语的发展与文化背景。",
   duoreader_name: "读原著",
   duoreader_desc: "读原著是一款多语种原文阅读平台，支持同步翻译、语音朗读、词典查询及多种阅读模式定制。适合希望深入研读经典文献、哲学著作及历史文本的学习者与研究者，强调原汁原味的文本体验与语言沉浸。",
   dudianji_name: "读典籍",
