@@ -337,6 +337,8 @@ const L = {
   nittele_desc: "A Japanese-language news network operated by Nippon TV, offering 24-hour coverage of domestic news, weather, and emergency alerts.",
   economictimes_name: "Economic Times",
   economictimes_desc: "The Economic Times is an Indian English-language daily newspaper focused on business and financial news. Founded in 1961 and published by Bennett, Coleman & Co. Ltd. (The Times Group), it is headquartered in Mumbai and distributed across major Indian cities. As of 2012, it was the world’s second-most widely read English-language business newspaper, after The Wall Street Journal. Its coverage spans the Indian economy, global finance, stock markets, commodities, and corporate affairs. The publication also operates ET Now (a business news TV channel) and ET Prime (a subscription-based analysis platform).",
+  hindustantimes_name: "Hindustan Times",
+  hindustantimes_desc: "One of India's leading English-language newspapers, Hindustan Times delivers comprehensive coverage of national and international news, politics, business, sports, entertainment, and lifestyle. Owned by HT Media Ltd., it is known for its credible journalism and wide readership across major Indian cities.",
   nyt_name: "New York Times",
   nyt_desc: "The New York Times (NYT) is an American daily newspaper based in New York City. The New York Times covers domestic, national, and international news, and publishes opinion pieces, investigative reports, and reviews.",
 
