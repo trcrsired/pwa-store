@@ -1531,10 +1531,18 @@ export const categories = [
       },
       {
         name: "Walmart (CN)",
-        nameKey: "walmartcn_name",
-        descriptionKey: "walmartcn_desc",
+        nameKey: "walmartwechatmini_name",
+        descriptionKey: "walmartwechatmini_desc",
         icon: "icons/wrappers/walmart.webp",
         url: "#小程序://沃尔玛/TD4MGupp4fHV50t",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Sam's Club (CN)",
+        nameKey: "samsclubwechatmini_name",
+        descriptionKey: "samsclubwechatmini_desc",
+        icon: "icons/samsclub.webp",
+        url: "#小程序://山姆会员商店SamsClub/TeZ2pCNStN24TDy",
         apptype: "wechatmini"
       },
       {

@@ -575,7 +575,6 @@ const L = {
   samsclub_desc: "Sam’s Club is a premium membership-based warehouse retailer under Walmart, offering bulk savings, curated global products, fresh food delivery, and exclusive member services. Customers can shop online or in-store, with integrated services across the U.S. and China.",
   taobao_name: "Taobao (淘宝)",
   taobao_desc: "A major consumer-to-consumer e-commerce platform in China, Taobao offers a diverse marketplace featuring everything from fashion and electronics to handmade local products. Backed by Alibaba, it’s known for powerful search tools, mobile-first features, and deep integration with logistics and social commerce.",
-
   walmart_name: "Walmart",
   walmart_desc: "Multinational retail giant offering groceries, electronics, apparel, and more through supercenters and online shopping.",
 
@@ -841,8 +840,10 @@ const L = {
   pinduoduo_desc: "Pinduoduo is a social commerce Mini Program operated by Shanghai Xunmeng Information Technology Co., Ltd. It offers group-buying deals, fresh produce delivery, brand discounts, and interactive features like live streaming and flash sales. Users can team up for lower prices and explore categories from groceries to electronics.",
   xianyu_name: "Xianyu",
   xianyu_desc: "Xianyu (Idle Fish) is a secondhand trading Mini Program operated by Alibaba Group. It allows users to buy and sell used goods, chat privately, and manage listings and orders. The Mini Program mirrors the app’s core features, including location-based browsing, item publishing, and WeChat Pay integration. It emphasizes trust-based transactions and is expanding into lifestyle services like rentals and recycling.",
-  walmartcn_name: "Walmart (CN)",
-  walmartcn_desc: "Walmart's Mini Program, operated by Walmart China, offers O2O grocery shopping, in-store self-checkout via 'Scan & Go', and 1-hour home delivery. It uses LBS to tailor services by location, supports electronic coupons, and integrates with WeChat Pay. The program connects over 300 stores nationwide and emphasizes seamless omnichannel retail.",
+  walmartwechatmini_name: "Walmart (CN)",
+  walmartwechatmini_desc: "Walmart's Mini Program, operated by Walmart China, offers O2O grocery shopping, in-store self-checkout via 'Scan & Go', and 1-hour home delivery. It uses LBS to tailor services by location, supports electronic coupons, and integrates with WeChat Pay. The program connects over 300 stores nationwide and emphasizes seamless omnichannel retail.",
+  samsclubwechatmini_name: "Sam's Club (CN)",
+  samsclubwechatmini_desc: "Sam’s Club WeChat Mini Program offers membership-based warehouse shopping with online ordering, cold-chain delivery, in-store pickup, and member card management. Users can browse products, place orders, and access services directly within WeChat for a seamless shopping experience.",
   rtmart_name: "RT-Mart",
   rtmart_desc: "RT-Mart is a Mini Program operated by Sun Art Retail Group, offering fresh groceries, household goods, and 1-hour delivery within 5km of RT-Mart stores. It supports shopping card payments, WeChat Pay, and self-checkout. Users can bind prepaid cards and shop both online and in-store with unified access.",
   mcdonaldscn_name: "McDonald's (CN)",
