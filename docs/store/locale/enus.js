@@ -228,6 +228,8 @@ const L = {
   seekingalpha_desc: "Seeking Alpha is a financial research platform founded in 2004 by David Jackson. It offers crowd-sourced investment analysis, stock ratings, market news, and portfolio tools, helping investors discover ideas and make informed decisions across U.S.-traded stocks and ETFs.",
   motleyfool_name: "Motley Fool",
   motleyfool_desc: "Founded in 1993, The Motley Fool is a private financial services company headquartered in Alexandria, Virginia. It provides investment advice, stock recommendations, and financial education through premium newsletters, podcasts, and market analysis. With a mission to make the world smarter, happier, and richer, the company is known for its long-term investing philosophy and accessible guidance for individual investors. The name 'Motley Fool' is inspired by Shakespeare’s *As You Like It*, referencing the court jester who could speak truth to power without consequence.",
+  benzinga_name: "Benzinga",
+  benzinga_desc: "Benzinga is a financial media and data technology platform offering real-time market news, trading insights, and investment tools for individual investors and active traders. With a focus on accessibility and innovation, Benzinga empowers users to make informed decisions in fast-moving markets.",
   investorsbusinessdaily_name: "Investor's Business Daily",
   investorsbusinessdaily_desc: "Investor’s Business Daily (IBD) is a U.S.-based financial news and research platform founded in 1984 by William J. O’Neil. Now part of News Corp via Dow Jones, it offers exclusive stock lists, market analysis, and investment tools based on the IBD Methodology, serving individual investors and professionals.",
   paypal_name: "PayPal",

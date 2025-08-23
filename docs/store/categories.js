@@ -685,6 +685,13 @@ export const categories = [
         url: "https://www.fool.com"
       },
       {
+        name: "Benzinga",
+        nameKey: "benzinga_name",
+        descriptionKey: "benzinga_desc",
+        icon: "icons/benzinga.webp",
+        url: "https://www.benzinga.com"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",

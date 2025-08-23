@@ -230,6 +230,8 @@ const L = {
   seekingalpha_desc: "Seeking Alpha 是一个金融研究平台，由 David Jackson 于 2004 年创立。平台提供众包的投资分析、股票评级、市场新闻以及投资组合管理工具，帮助投资者发掘投资机会，并在美国上市股票和 ETF 市场中做出明智决策。",
   motleyfool_name: "Motley Fool",
   motleyfool_desc: "成立于1993年，Motley Fool（愚人公司）是一家总部位于美国弗吉尼亚州亚历山大的私人金融服务公司。该公司通过付费通讯、播客和市场分析，提供投资建议、股票推荐和金融教育。其使命是让世界变得更聪明、更快乐、更富有，以长期投资理念和面向个人投资者的易懂指导而闻名。公司名称“Motley Fool”源自莎士比亚的《皆大欢喜》，寓意宫廷小丑能无惧权威地讲述真相。",
+  benzinga_name: "Benzinga",
+  benzinga_desc: "Benzinga 是一家金融媒体与数据技术平台，提供实时市场新闻、交易洞察与投资工具，服务于个人投资者与活跃交易者。平台致力于信息透明与技术创新，帮助用户在瞬息万变的市场中做出明智决策。",
   investorsbusinessdaily_name: "投资者商业日报",
   investorsbusinessdaily_desc: "《投资者商业日报》（IBD）是由William J. O’Neil于1984年创立的美国财经新闻与研究平台，现隶属于新闻集团旗下的道琼斯公司。平台提供独家股票列表、市场分析及基于IBD投资方法的工具，服务于个人投资者与专业人士。",
   paypal_name: "贝宝",
