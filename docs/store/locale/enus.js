@@ -639,6 +639,8 @@ const L = {
   cars_name: "Cars",
   tesla_name: "Tesla",
   tesla_desc: "Tesla is an American electric vehicle and clean energy company founded by Elon Musk and others in 2003. It is known for its innovative EVs, autonomous driving technology, and energy solutions such as solar panels and battery storage.",
+  autosport_name: "Autosport",
+  autosport_desc: "Autosport is a leading motorsport media brand founded in 1950. It provides news, analysis, and live coverage of Formula 1, MotoGP, WEC, and other racing series through its website, magazine, and events.",
   jiakaobaodian_name: "Jiakaobaodian (驾考宝典)",
   jiakaobaodian_desc: "China’s leading driving test platform—offers up-to-date question banks, multilingual exam prep, and full-process guidance for learners. On Microsoft Edge for Android, please log in first via the browser. The option to install as a Progressive Web App (PWA) becomes available after authentication.",
 

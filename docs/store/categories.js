@@ -1620,6 +1620,13 @@ export const categories = [
         url: "https://www.tesla.com"
       },
       {
+        name: "Autosport",
+        nameKey: "autosport_name",
+        descriptionKey: "autosport_desc",
+        icon: "icons/autosport.webp",
+        url: "https://www.autosport.com"
+      },
+      {
         name: "Jiakaobaodian (驾考宝典)",
         nameKey: "jiakaobaodian_name",
         descriptionKey: "jiakaobaodian_desc",
