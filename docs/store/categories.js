@@ -1384,14 +1384,14 @@ export const categories = [
         name: "Dunkin' Donuts",
         nameKey: "dunkindonuts_name",
         descriptionKey: "dunkindonuts_desc",
-        icon: "icon/dunkindonuts.webp",
+        icon: "icons/dunkindonuts.webp",
         url: "https://www.dunkindonuts.com"
       },
       {
         name: "Sam's Club",
         nameKey: "samsclub_name",
         descriptionKey: "samsclub_desc",
-        icon: "icon/samsclub.webp",
+        icon: "icons/samsclub.webp",
         url: "https://www.samsclub.com"
       },
       {
