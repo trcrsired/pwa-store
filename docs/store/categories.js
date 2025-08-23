@@ -692,6 +692,13 @@ export const categories = [
         url: "https://www.benzinga.com"
       },
       {
+        name: "Investopedia",
+        nameKey: "investopedia_name",
+        descriptionKey: "investopedia_desc",
+        icon: "icons/investopedia.webp",
+        url: "https://www.investopedia.com"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",
