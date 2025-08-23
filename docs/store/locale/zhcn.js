@@ -34,6 +34,8 @@ const L = {
   "screenflashlight_desc": "基于网页的 PWA 手电筒应用。",
   "pwastore_name": "PWA商店",
   "pwastore_desc": "对的，这个PWA商店自身也是个PWA。",
+  "wavacity_name": "Wavacity",
+  "wavacity_desc": "Wavacity 是一个免费开源的音频编辑器，可直接在网页浏览器中运行。它是 Audacity® 的浏览器版本移植，支持多轨编辑和音频处理，无需安装。Wavacity 与 Audacity 无隶属或官方授权关系。",
   "webscreenrecorder_name": "Web Screen Recorder",
   "webscreenrecorder_desc": "Web Screen Recorder 是一款基于浏览器的录屏工具，支持用户直接在任意设备上录制屏幕、摄像头和麦克风，无需下载。适用于教程、会议或演示，提供快速轻便的录制体验，并保障隐私存储。",
   "copilot_desc": "微软推出的对话式 AI——Copilot 支持实时联网、语音交互，帮助你思考、写作和探索。",
