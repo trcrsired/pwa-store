@@ -1516,6 +1516,14 @@ export const categories = [
         icon: "icons/wechatmini/luckin.webp",
         url: "#小程序://瑞幸咖啡/yI3YsmuVZEDSN9z",
         apptype: "wechatmini"
+      },
+      {
+        name: "Shouqianba",
+        nameKey: "shouqianba_name",
+        descriptionKey: "shouqianba_desc",
+        icon: "icons/wechatmini/shouqianba.webp",
+        url: "#小程序://收钱吧/zCbRYSIBiQ9U4DH",
+        apptype: "wechatmini"
       }
     ]
   },
