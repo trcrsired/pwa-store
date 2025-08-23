@@ -1563,6 +1563,14 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
+        name: "Jingdong",
+        nameKey: "jingdong_name",
+        descriptionKey: "jingdong_desc",
+        icon: "icons/wechatmini/jingdong.webp",
+        url: "#小程序://京东购物丨点外卖领国补/pyc18EyQdbRmJkc",
+        apptype: "wechatmini"
+      },
+      {
         name: "Duoduo Maicai",
         nameKey: "duoduomaicai_name",
         descriptionKey: "duoduomaicai_desc",

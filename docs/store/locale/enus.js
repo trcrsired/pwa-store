@@ -879,6 +879,8 @@ const L = {
   luckin_desc: "Luckin Coffee is a WeChat Mini Program offering mobile ordering, membership discounts, and fast pickup across thousands of stores in China. Users can browse seasonal menus, earn points, and pay via WeChat Pay. The program supports delivery, self-pickup, and personalized recommendations based on location and preferences.",
   shouqianba_name: "Shouqianba",
   shouqianba_desc: "Provides tools for payment collection, order management, financial tracking, and marketing, suitable for various types of merchants in China.",
+  jingdong_name: "Jingdong",
+  jingdong_desc: "Jingdong is an e-commerce mini program offering product search, ordering, payment, and delivery services within WeChat. It supports groceries, electronics, daily essentials, and promotional campaigns including government subsidies.",
   abchinamicro_name: "ABC Microservices",
   abchinamicro_desc: "ABC Microservices is a WeChat Mini Program operated by Agricultural Bank of China, offering mobile banking, account services, and financial tools. Users can check balances, transfer funds, pay bills, and manage cards securely through WeChat. It supports biometric login, WeChat Pay, and personalized financial recommendations based on user profiles and location.",
   duoduomaicai_name: "Duoduo Maicai",
