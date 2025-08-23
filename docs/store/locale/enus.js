@@ -571,9 +571,10 @@ const L = {
   shopify_desc: "Build and manage your own online store with customizable tools and secure checkout.",
   dunkindonuts_name: "Dunkin' Donuts",
   dunkindonuts_desc: "Founded in 1950, Dunkin' is a leading coffee and donut brand with over 14,000 locations worldwide. It offers a wide range of beverages, baked goods, and breakfast items, and is part of the Inspire Brands family.",
+  samsclub_name: "Sam's Club",
+  samsclub_desc: "Sam’s Club is a premium membership-based warehouse retailer under Walmart, offering bulk savings, curated global products, fresh food delivery, and exclusive member services. Customers can shop online or in-store, with integrated services across the U.S. and China.",
   taobao_name: "Taobao (淘宝)",
   taobao_desc: "A major consumer-to-consumer e-commerce platform in China, Taobao offers a diverse marketplace featuring everything from fashion and electronics to handmade local products. Backed by Alibaba, it’s known for powerful search tools, mobile-first features, and deep integration with logistics and social commerce.",
-
   walmart_name: "Walmart",
   walmart_desc: "Multinational retail giant offering groceries, electronics, apparel, and more through supercenters and online shopping.",
 
@@ -839,8 +840,10 @@ const L = {
   pinduoduo_desc: "Pinduoduo is a social commerce Mini Program operated by Shanghai Xunmeng Information Technology Co., Ltd. It offers group-buying deals, fresh produce delivery, brand discounts, and interactive features like live streaming and flash sales. Users can team up for lower prices and explore categories from groceries to electronics.",
   xianyu_name: "Xianyu",
   xianyu_desc: "Xianyu (Idle Fish) is a secondhand trading Mini Program operated by Alibaba Group. It allows users to buy and sell used goods, chat privately, and manage listings and orders. The Mini Program mirrors the app’s core features, including location-based browsing, item publishing, and WeChat Pay integration. It emphasizes trust-based transactions and is expanding into lifestyle services like rentals and recycling.",
-  walmartcn_name: "Walmart (CN)",
-  walmartcn_desc: "Walmart's Mini Program, operated by Walmart China, offers O2O grocery shopping, in-store self-checkout via 'Scan & Go', and 1-hour home delivery. It uses LBS to tailor services by location, supports electronic coupons, and integrates with WeChat Pay. The program connects over 300 stores nationwide and emphasizes seamless omnichannel retail.",
+  walmartwechatmini_name: "Walmart (CN)",
+  walmartwechatmini_desc: "Walmart's Mini Program, operated by Walmart China, offers O2O grocery shopping, in-store self-checkout via 'Scan & Go', and 1-hour home delivery. It uses LBS to tailor services by location, supports electronic coupons, and integrates with WeChat Pay. The program connects over 300 stores nationwide and emphasizes seamless omnichannel retail.",
+  samsclubwechatmini_name: "Sam's Club (CN)",
+  samsclubwechatmini_desc: "Sam’s Club WeChat Mini Program offers membership-based warehouse shopping with online ordering, cold-chain delivery, in-store pickup, and member card management. Users can browse products, place orders, and access services directly within WeChat for a seamless shopping experience.",
   rtmart_name: "RT-Mart",
   rtmart_desc: "RT-Mart is a Mini Program operated by Sun Art Retail Group, offering fresh groceries, household goods, and 1-hour delivery within 5km of RT-Mart stores. It supports shopping card payments, WeChat Pay, and self-checkout. Users can bind prepaid cards and shop both online and in-store with unified access.",
   mcdonaldscn_name: "McDonald's (CN)",
@@ -849,6 +852,8 @@ const L = {
   transitcode_desc: "Transit Code is Tencent’s official WeChat Mini Program for public transportation. It lets users scan a QR code to ride buses and subways across hundreds of cities in China. With automatic payments via WeChat Pay, it offers a fast, secure, and paperless way to travel. Just open the Mini Program, scan, and go—no top-ups or tickets required.",
   railway12306_name: "Railway 12306",
   railway12306_desc: "Railway 12306 is China Railway’s WeChat Mini Program for booking train tickets, checking schedules, and managing travel plans. It supports real-name authentication, seat selection, and digital ticketing for seamless high-speed rail travel across China.",
+  didi_name: "DiDi",
+  didi_desc: "DiDi is a multi-modal mobility mini program within WeChat, offering ride-hailing, bike-sharing, public transit info, car rentals, and chauffeur services. Users can book and manage trips directly in WeChat with location tracking and secure payments.",
   govservice_name: "National Government Service Platform",
   govservice_desc: "This WeChat Mini Program provides access to public services across China, including household registration, social security, healthcare, and travel documentation. It serves as a unified portal for citizens to manage official tasks and access government resources.",
   china12315_name: "12315",
@@ -877,8 +882,14 @@ const L = {
   luckin_desc: "Luckin Coffee is a WeChat Mini Program offering mobile ordering, membership discounts, and fast pickup across thousands of stores in China. Users can browse seasonal menus, earn points, and pay via WeChat Pay. The program supports delivery, self-pickup, and personalized recommendations based on location and preferences.",
   shouqianba_name: "Shouqianba",
   shouqianba_desc: "Provides tools for payment collection, order management, financial tracking, and marketing, suitable for various types of merchants in China.",
+  jingdong_name: "Jingdong",
+  jingdong_desc: "Jingdong is an e-commerce mini program offering product search, ordering, payment, and delivery services within WeChat. It supports groceries, electronics, daily essentials, and promotional campaigns including government subsidies.",
   abchinamicro_name: "ABC Microservices",
   abchinamicro_desc: "ABC Microservices is a WeChat Mini Program operated by Agricultural Bank of China, offering mobile banking, account services, and financial tools. Users can check balances, transfer funds, pay bills, and manage cards securely through WeChat. It supports biometric login, WeChat Pay, and personalized financial recommendations based on user profiles and location.",
+  duoduomaicai_name: "Duoduo Maicai",
+  duoduomaicai_desc: "Duoduo Maicai is a grocery ordering mini program operated by Pinduoduo. It offers next-day pickup of fresh produce and daily essentials through a preorder model, with items sourced directly from agricultural regions across China.",
+  dingdongmaicai_name: "Dingdong Maicai",
+  dingdongmaicai_desc: "Dingdong Maicai is a fresh grocery delivery service offering fruits, vegetables, seafood, and ready-to-cook meals. Users can place orders via WeChat and receive home delivery with real-time tracking and flexible time slots.",
 };
 
 registerLocale("enus", L);

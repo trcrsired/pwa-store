@@ -1388,6 +1388,13 @@ export const categories = [
         url: "https://www.dunkindonuts.com"
       },
       {
+        name: "Sam's Club",
+        nameKey: "samsclub_name",
+        descriptionKey: "samsclub_desc",
+        icon: "icon/samsclub.webp",
+        url: "https://www.samsclub.com"
+      },
+      {
         name: "Taobao (淘宝)",
         nameKey: "taobao_name",
         descriptionKey: "taobao_desc",
@@ -1524,10 +1531,18 @@ export const categories = [
       },
       {
         name: "Walmart (CN)",
-        nameKey: "walmartcn_name",
-        descriptionKey: "walmartcn_desc",
+        nameKey: "walmartwechatmini_name",
+        descriptionKey: "walmartwechatmini_desc",
         icon: "icons/wrappers/walmart.webp",
         url: "#小程序://沃尔玛/TD4MGupp4fHV50t",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Sam's Club (CN)",
+        nameKey: "samsclubwechatmini_name",
+        descriptionKey: "samsclubwechatmini_desc",
+        icon: "icons/samsclub.webp",
+        url: "#小程序://山姆会员商店SamsClub/TeZ2pCNStN24TDy",
         apptype: "wechatmini"
       },
       {
@@ -1561,7 +1576,31 @@ export const categories = [
         icon: "icons/wechatmini/shouqianba.webp",
         url: "#小程序://收钱吧/zCbRYSIBiQ9U4DH",
         apptype: "wechatmini"
-      }
+      },
+      {
+        name: "Jingdong",
+        nameKey: "jingdong_name",
+        descriptionKey: "jingdong_desc",
+        icon: "icons/wechatmini/jingdong.webp",
+        url: "#小程序://京东购物丨点外卖领国补/pyc18EyQdbRmJkc",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Duoduo Maicai",
+        nameKey: "duoduomaicai_name",
+        descriptionKey: "duoduomaicai_desc",
+        icon: "icons/wechatmini/duoduomaicai.webp",
+        url: "#小程序://多多买菜/IRSCtliU0KQ5jqw",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Dingdong Maicai",
+        nameKey: "dingdongmaicai_name",
+        descriptionKey: "dingdongmaicai_desc",
+        icon: "icons/wechatmini/dingdongmaicai.webp",
+        url: "#小程序://叮咚买菜美食水果蔬菜海鲜早餐/dBCM11P15BLgTii",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
@@ -1632,6 +1671,14 @@ export const categories = [
         descriptionKey: "railway12306_desc",
         icon: "icons/wechatmini/railway12306.webp",
         url: "#小程序://铁路12306/9QjwOfcETHvGnKJ",
+        apptype: "wechatmini"
+      },
+      {
+        name: "滴滴",
+        nameKey: "didi_name",
+        descriptionKey: "didi_desc",
+        icon: "icons/wechatmini/didi.webp",
+        url: "#小程序://滴滴出行丨打车骑行公交租车代驾/vUZE0P6bqzPYwhB",
         apptype: "wechatmini"
       }
     ]
