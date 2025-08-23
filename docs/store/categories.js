@@ -1639,6 +1639,30 @@ export const categories = [
         url: "/wrappers/taopiaopiao",
         apptype: "wrapper"
       },
+      {
+        name: "Tao piao piao (淘票票)",
+        nameKey: "taopiaopiao_name",
+        descriptionKey: "taopiaopiaowechatmini_desc",
+        icon: "icons/wrappers/taopiaopiao.webp",
+        url: "#小程序://淘票票/fV6lH9S9tKcO2MI",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Damai (大麦)",
+        nameKey: "damai_name",
+        descriptionKey: "damai_desc",
+        icon: "icons/wechatmini/damai.webp",
+        url: "#小程序://大麦/yI6LM73uPECoBcj",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Maoyan (猫眼)",
+        nameKey: "maoyan_name",
+        descriptionKey: "maoyan_desc",
+        icon: "icons/wechatmini/maoyan.webp",
+        url: "#小程序://猫眼电影演出玩乐I电影票演唱会/hdPJ0AXmmtd9DJC",
+        apptype: "wechatmini"
+      },
     ]
   },
   {

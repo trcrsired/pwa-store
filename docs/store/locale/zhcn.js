@@ -687,7 +687,11 @@ const L = {
   ctrip_desc: "预订国内及全球的机票、酒店、火车票和度假套餐。支持比价、查找空位并轻松管理行程。",
   taopiaopiao_name: "淘票票",
   taopiaopiao_desc: "淘票票是阿里巴巴旗下的中国领先电影票务平台，提供全国影院的放映时间、选座和在线购票服务，并展示当前及即将上映影片的预告片、影评和宣传内容。",
-
+  taopiaopiaowechatmini_desc: "淘票票的微信小程序",
+  damai_name: "大麦",
+  damai_desc: "提供音乐会、话剧、体育赛事等活动的在线选座与电子票服务，服务范围覆盖中国境内。",
+  maoyan_name: "大麦",
+  maoyan_desc: "涵盖电影排片、演唱会门票及各类演出活动的实时信息与购票功能，服务覆盖中国境内。",
   cloud_name: "云(就是别人的电脑)",
 
   linode_name: "Linode",
