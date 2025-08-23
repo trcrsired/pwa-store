@@ -1561,7 +1561,23 @@ export const categories = [
         icon: "icons/wechatmini/shouqianba.webp",
         url: "#小程序://收钱吧/zCbRYSIBiQ9U4DH",
         apptype: "wechatmini"
-      }
+      },
+      {
+        name: "Duoduo Maicai",
+        nameKey: "duoduomaicai_name",
+        descriptionKey: "duoduomaicai_desc",
+        icon: "icons/wechatmini/duoduomaicai.webp",
+        url: "#小程序://多多买菜/IRSCtliU0KQ5jqw",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Dingdong Maicai",
+        nameKey: "dingdongmaicai_name",
+        descriptionKey: "dingdongmaicai_desc",
+        icon: "icons/wechatmini/dingdongmaicai.webp",
+        url: "#小程序://叮咚买菜美食水果蔬菜海鲜早餐/dBCM11P15BLgTii",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
@@ -1632,6 +1648,14 @@ export const categories = [
         descriptionKey: "railway12306_desc",
         icon: "icons/wechatmini/railway12306.webp",
         url: "#小程序://铁路12306/9QjwOfcETHvGnKJ",
+        apptype: "wechatmini"
+      },
+      {
+        name: "滴滴",
+        nameKey: "didi_name",
+        descriptionKey: "didi_desc",
+        icon: "icons/wechatmini/didi.webp",
+        url: "#小程序://滴滴出行丨打车骑行公交租车代驾/vUZE0P6bqzPYwhB",
         apptype: "wechatmini"
       }
     ]

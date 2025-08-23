@@ -849,6 +849,8 @@ const L = {
   transitcode_desc: "Transit Code is Tencent’s official WeChat Mini Program for public transportation. It lets users scan a QR code to ride buses and subways across hundreds of cities in China. With automatic payments via WeChat Pay, it offers a fast, secure, and paperless way to travel. Just open the Mini Program, scan, and go—no top-ups or tickets required.",
   railway12306_name: "Railway 12306",
   railway12306_desc: "Railway 12306 is China Railway’s WeChat Mini Program for booking train tickets, checking schedules, and managing travel plans. It supports real-name authentication, seat selection, and digital ticketing for seamless high-speed rail travel across China.",
+  didi_name: "DiDi",
+  didi_desc: "DiDi is a multi-modal mobility mini program within WeChat, offering ride-hailing, bike-sharing, public transit info, car rentals, and chauffeur services. Users can book and manage trips directly in WeChat with location tracking and secure payments.",
   govservice_name: "National Government Service Platform",
   govservice_desc: "This WeChat Mini Program provides access to public services across China, including household registration, social security, healthcare, and travel documentation. It serves as a unified portal for citizens to manage official tasks and access government resources.",
   china12315_name: "12315",
@@ -879,6 +881,10 @@ const L = {
   shouqianba_desc: "Provides tools for payment collection, order management, financial tracking, and marketing, suitable for various types of merchants in China.",
   abchinamicro_name: "ABC Microservices",
   abchinamicro_desc: "ABC Microservices is a WeChat Mini Program operated by Agricultural Bank of China, offering mobile banking, account services, and financial tools. Users can check balances, transfer funds, pay bills, and manage cards securely through WeChat. It supports biometric login, WeChat Pay, and personalized financial recommendations based on user profiles and location.",
+  duoduomaicai_name: "Duoduo Maicai",
+  duoduomaicai_desc: "Duoduo Maicai is a grocery ordering mini program operated by Pinduoduo. It offers next-day pickup of fresh produce and daily essentials through a preorder model, with items sourced directly from agricultural regions across China.",
+  dingdongmaicai_name: "Dingdong Maicai",
+  dingdongmaicai_desc: "Dingdong Maicai is a fresh grocery delivery service offering fruits, vegetables, seafood, and ready-to-cook meals. Users can place orders via WeChat and receive home delivery with real-time tracking and flexible time slots.",
 };
 
 registerLocale("enus", L);
