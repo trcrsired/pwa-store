@@ -1140,6 +1140,20 @@ export const categories = [
         url: "https://cn.duolingo.com"
       },
       {
+        name: "Duoreader",
+        nameKey: "duoreader_name",
+        descriptionKey: "duoreader_desc",
+        icon: "icons/duoreader.webp",
+        url: "https://web.duoreader.cn"
+      },
+      {
+        name: "Dudianji (读典籍)",
+        nameKey: "dudianji_name",
+        descriptionKey: "dudianji_desc",
+        icon: "icons/dudianji.webp",
+        url: "https://web.dudianji.com"
+      },
+      {
         name: "Xiangyin (乡音)",
         nameKey: "xiangyin_name",
         descriptionKey: "xiangyin_desc",
