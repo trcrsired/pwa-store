@@ -28,9 +28,10 @@ export const categories = [
     apps: [
       { name: "Microsoft Copilot", icon: "icons/copilot.webp", url: "https://copilot.microsoft.com", descriptionKey: "copilot_desc" },
       { name: "ChatGPT", icon: "icons/chatgpt.webp", url: "https://chat.openai.com", descriptionKey: "chatgpt_desc" },
-      { name: "Google Gemini", icon: "icons/gemini.webp", url: "https://gemini.google.com", descriptionKey: "gemini_desc" },
       { name: "Grok", icon: "icons/grok.webp", url: "https://grok.com", descriptionKey: "grok_desc"},
+      { name: "Meta AI", icon: "icons/metaai.webp", url: "https://www.meta.ai", descriptionKey: "metaai_desc" }, 
       { name: "Cursor", icon: "icons/cursor.webp", url: "https://cursor.com/agents", descriptionKey: "cursor_desc" },
+      { name: "Google Gemini", icon: "icons/gemini.webp", url: "https://gemini.google.com", descriptionKey: "gemini_desc" },
       { name: "Claude", icon: "icons/claude.webp", url: "https://claude.ai", descriptionKey: "claude_desc" },
       { name: "Manus", icon: "icons/manus.webp", url: "https://manus.im", descriptionKey: "manus_desc" },
       { name: "Qwen", icon: "icons/qwen.webp", url: "https://chat.qwen.ai", descriptionKey: "qwen_desc" },
