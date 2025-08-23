@@ -758,7 +758,8 @@ const L = {
   deltadental_desc: "Dental insurance provider serving individuals and employers—manage benefits, find dentists, view claims, and explore oral health resources online.",
 
   research_name: "Research",
-
+  overleaf_name: "Overleaf",
+  overleaf_desc: "Overleaf is a cloud-based LaTeX editor designed for collaborative academic and technical writing. It enables real-time co-authoring, automatic document compilation, and seamless integration with citation tools, making it ideal for researchers, scientists, and students preparing structured documents such as papers, theses, and reports.",
   secdeadlines_name: "Security and Privacy Conference Deadlines",
   secdeadlines_desc: "Countdowns to top Security and Privacy conference deadlines.",
 

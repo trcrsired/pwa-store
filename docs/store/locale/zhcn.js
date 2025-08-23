@@ -800,7 +800,8 @@ const L = {
   deltadental_desc: "Delta Dental 是面向个人和雇主的牙科保险服务商，支持在线管理福利、查找牙医、查看理赔和获取口腔健康资源。",
 
   research_name: "研究",
-
+  overleaf_name: "Overleaf",
+  overleaf_desc: "Overleaf 是一个基于云端的 LaTeX 编辑平台，专为学术写作和技术文档设计。它支持多人实时协作、自动编译文档，并与参考文献管理工具无缝集成，特别适合撰写论文、报告、简历和演示文稿等结构化文档。用户无需安装任何软件，即可在线编辑和预览 LaTeX 文档。",
   secdeadlines_name: "安全与隐私会议截止时间",
   secdeadlines_desc: "顶级安全与隐私会议的截止时间倒计时。",
 

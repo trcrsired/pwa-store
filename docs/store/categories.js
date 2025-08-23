@@ -80,7 +80,7 @@ export const categories = [
     apps: [
       {
         name: "WPS",
-        descriptionKey: "wps_desc",
+        nameKey: "wps_name",
         icon: "icons/wrappers/wps.webp",
         url: "/wrappers/wps",
         descriptionKey: "wps_desc",
@@ -2106,6 +2106,13 @@ export const categories = [
     name: "Research",
     nameKey: "research_name",
     apps: [
+      {
+        name: "Overleaf",
+        nameKey: "overleaf_name",
+        descriptionKey: "overleaf_desc",
+        icon: "icons/overleaf.webp",
+        url: "https://www.overleaf.com"
+      },
       {
         name: "Security and Privacy Conference Deadlines",
         nameKey: "secdeadlines_name",
