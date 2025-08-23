@@ -47,6 +47,8 @@ const L = {
   "qwen_desc": "Multimodal AI by Alibaba—Qwen’s PWA supports chat, image generation, dialect-aware voice synthesis, and deep research tools.",
   "grok_desc": "Grok is a generative artificial intelligence chatbot developed by xAI. It was launched in November 2023 by Elon Musk as an initiative based on the large language model (LLM) of the same name.",
   "metaai_desc": "Meta AI is Meta’s generative AI assistant powered by the Llama language model family. It supports natural conversation, image generation, real-time web search, and voice interaction. Integrated across platforms like Instagram, WhatsApp, and Messenger, Meta AI offers personalized assistance, creative tools, and social features. It represents Meta’s vision of embedding intelligent agents into everyday digital experiences.",
+  "kimi_desc": "Kimi is an AI assistant developed by Moonshot AI, designed to help users with research, writing, coding, and document analysis through natural language interaction.",
+  "kimiplus_desc": "Kimi+ offers enhanced features for professional users, including long-context processing, multimodal input support, and advanced reasoning capabilities for complex tasks.",
   "perplexity_desc": "Perplexity is an AI-powered search and answer engine that combines large language models with real-time web browsing. It delivers concise, cited responses to user queries, making it ideal for research, fact-checking, and exploration. Users can interact conversationally, follow up with related questions, and access features like Spaces, Pages, and Pro Search for deeper investigations.",
   "cursor_name": "Cursor",
   "cursor_desc": "Cursor is an AI-powered coding assistant that helps developers write, refactor, and debug code across platforms. Its autonomous agents can generate files, run terminal commands, and analyze entire codebases—available via web, CLI, and Slack.",
@@ -481,7 +483,14 @@ const L = {
   duolingo_global_desc: "Gamified language learning.",
   duolingo_cn_name: "Duolingo (多邻国)",
   duolingo_cn_desc: "Localized Chinese version of Duolingo.",
-
+  oed_name: "Oxford English Dictionary",
+  oed_desc: "The Oxford English Dictionary is the definitive historical dictionary of the English language. It traces the meaning, usage, and evolution of over 500,000 words and phrases, offering unparalleled insight for scholars, writers, and language enthusiasts worldwide.",
+  duoreader_name: "Duoreader",
+  duoreader_desc: "Duoreader is a multilingual reading platform focused on original texts. It offers synchronized translation, voice playback, dictionary lookup, and customizable reading modes. Ideal for learners and scholars engaging with classic literature, philosophy, and historical documents in their original form.",
+  dudianji_name: "Dudianji (读典籍)",
+  dudianji_desc: "Dudianji (读典籍) is a classical Chinese reading app that uses AI and interactive design to make ancient texts more accessible. It features sentence-level bilingual comparison, interactive annotations, and tools for exploring historical, philosophical, and literary classics.",
+  xiangyin_name: "Xiangyin (乡音)",
+  xiangyin_desc: "Xiangyin is a community platform for exploring regional dialects through audio recordings of poetry, film quotes, everyday conversations, and jokes. Users can share their own dialect recordings, interact with others, and play the 'Guess the Accent' game to identify speakers' hometowns. To respect linguistic diversity, speaker locations are anonymized using ~10km grid mapping, allowing users to browse dialects across regions via an interactive map.",
   forums_name: "Forums",
 
   incelsis_name: "Incel.is",
@@ -560,7 +569,8 @@ const L = {
   temu_desc: "Temu is an online marketplace operated by e-commerce company PDD Holdings. The program is designed to help local sellers reach more local consumers, bring more locally relevant products to local shoppers, and improve the user experience.",
   shopify_name: "Shopify",
   shopify_desc: "Build and manage your own online store with customizable tools and secure checkout.",
-
+  dunkindonuts_name: "Dunkin' Donuts",
+  dunkindonuts_desc: "Founded in 1950, Dunkin' is a leading coffee and donut brand with over 14,000 locations worldwide. It offers a wide range of beverages, baked goods, and breakfast items, and is part of the Inspire Brands family.",
   taobao_name: "Taobao (淘宝)",
   taobao_desc: "A major consumer-to-consumer e-commerce platform in China, Taobao offers a diverse marketplace featuring everything from fashion and electronics to handmade local products. Backed by Alibaba, it’s known for powerful search tools, mobile-first features, and deep integration with logistics and social commerce.",
 
@@ -636,6 +646,10 @@ const L = {
   cars_name: "Cars",
   tesla_name: "Tesla",
   tesla_desc: "Tesla is an American electric vehicle and clean energy company founded by Elon Musk and others in 2003. It is known for its innovative EVs, autonomous driving technology, and energy solutions such as solar panels and battery storage.",
+  autosport_name: "Autosport",
+  autosport_desc: "Autosport is a leading motorsport media brand founded in 1950. It provides news, analysis, and live coverage of Formula 1, MotoGP, WEC, and other racing series through its website, magazine, and events.",
+  dongchedi_name: "Dongchedi (懂车帝)",
+  dongchedi_desc: "Dongchedi is an automotive information platform based in Chongqing, China. It provides intelligent car recommendations, pricing data, news, reviews, and video content, helping users make informed decisions about new and used vehicles.",
   jiakaobaodian_name: "Jiakaobaodian (驾考宝典)",
   jiakaobaodian_desc: "China’s leading driving test platform—offers up-to-date question banks, multilingual exam prep, and full-process guidance for learners. On Microsoft Edge for Android, please log in first via the browser. The option to install as a Progressive Web App (PWA) becomes available after authentication.",
 
@@ -646,7 +660,11 @@ const L = {
 
   taopiaopiao_name: "Tao Piao Piao (淘票票)",
   taopiaopiao_desc: "Tao Piao Piao is a leading Chinese movie ticketing platform owned by Alibaba. It offers showtimes, seat selection, and online booking for cinemas across China, along with trailers, reviews, and promotional content for current and upcoming films.",
-
+  taopiaopiaowechatmini_desc: "WeChat Mini Program of Tao Piao Piao",
+  damai_name: "Damai (大麦)",
+  damai_desc: "Offers ticketing services for concerts, theater, and sports events, including online seat selection and e-tickets, with services available within China",
+  maoyan_name: "Maoayan (猫眼)",
+  maoyan_desc: "Provides real-time schedules for movies, concert tickets, and live show bookings, with services available within China.",
   cloud_name: "Cloud (is someone else's computer)",
 
   linode_name: "Linode",
@@ -857,6 +875,8 @@ const L = {
   hworldclub_desc: "H World Club is the official hotel booking Mini Program by H World Group Limited, offering real-time reservations across 5,000+ hotels in 1,000+ cities. Members enjoy location-based search, instant booking, exclusive discounts, and unified loyalty points across brands like Hanting, Ji Hotel, and Orange Hotel.",
   luckin_name: "Luckin Coffee",
   luckin_desc: "Luckin Coffee is a WeChat Mini Program offering mobile ordering, membership discounts, and fast pickup across thousands of stores in China. Users can browse seasonal menus, earn points, and pay via WeChat Pay. The program supports delivery, self-pickup, and personalized recommendations based on location and preferences.",
+  shouqianba_name: "Shouqianba",
+  shouqianba_desc: "Provides tools for payment collection, order management, financial tracking, and marketing, suitable for various types of merchants in China.",
   abchinamicro_name: "ABC Microservices",
   abchinamicro_desc: "ABC Microservices is a WeChat Mini Program operated by Agricultural Bank of China, offering mobile banking, account services, and financial tools. Users can check balances, transfer funds, pay bills, and manage cards securely through WeChat. It supports biometric login, WeChat Pay, and personalized financial recommendations based on user profiles and location.",
 };

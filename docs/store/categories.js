@@ -36,6 +36,8 @@ export const categories = [
       { name: "Manus", icon: "icons/manus.webp", url: "https://manus.im", descriptionKey: "manus_desc" },
       { name: "Qwen", icon: "icons/qwen.webp", url: "https://chat.qwen.ai", descriptionKey: "qwen_desc" },
       { name: "DeepSeek", icon: "icons/deepseek.webp", url: "https://deepseek.com", descriptionKey: "deepseek_desc" },
+      { name: "Kimi", icon: "icons/kimi.webp", url: "https://www.kimi.com", descriptionKey: "kimi_desc" },
+      { name: "Kimi+", icon: "icons/kimi.webp", url: "https://www.kimi.com/kimiplus-square", descriptionKey: "kimiplus_desc" },
       { name: "Perplexity", icon: "icons/wrappers/perplexity.webp", url: "/wrappers/perplexity", descriptionKey: "perplexity_desc", apptype: "wrapper" },
     ]
   },
@@ -84,7 +86,6 @@ export const categories = [
     apps: [
       {
         name: "WPS",
-        nameKey: "wps_name",
         icon: "icons/wrappers/wps.webp",
         url: "/wrappers/wps",
         descriptionKey: "wps_desc",
@@ -1138,6 +1139,34 @@ export const categories = [
         icon: "icons/duolingo.webp",
         url: "https://cn.duolingo.com"
       },
+      {
+        name: "Oxford English Dictionary",
+        nameKey: "oed_name",
+        descriptionKey: "oed_desc",
+        icon: "icons/oed.webp",
+        url: "https://www.oed.com"
+      },
+      {
+        name: "Duoreader",
+        nameKey: "duoreader_name",
+        descriptionKey: "duoreader_desc",
+        icon: "icons/duoreader.webp",
+        url: "https://web.duoreader.cn"
+      },
+      {
+        name: "Dudianji (读典籍)",
+        nameKey: "dudianji_name",
+        descriptionKey: "dudianji_desc",
+        icon: "icons/dudianji.webp",
+        url: "https://web.dudianji.com"
+      },
+      {
+        name: "Xiangyin (乡音)",
+        nameKey: "xiangyin_name",
+        descriptionKey: "xiangyin_desc",
+        icon: "icons/xiangyin.webp",
+        url: "https://web.xiangyin.mobi"
+      }
     ]
   },
   {
@@ -1352,6 +1381,13 @@ export const categories = [
         url: "https://www.shopify.com"
       },
       {
+        name: "Dunkin' Donuts",
+        nameKey: "dunkindonuts_name",
+        descriptionKey: "dunkindonuts_desc",
+        icon: "icon/dunkindonuts.webp",
+        url: "https://www.dunkindonuts.com"
+      },
+      {
         name: "Taobao (淘宝)",
         nameKey: "taobao_name",
         descriptionKey: "taobao_desc",
@@ -1517,6 +1553,14 @@ export const categories = [
         icon: "icons/wechatmini/luckin.webp",
         url: "#小程序://瑞幸咖啡/yI3YsmuVZEDSN9z",
         apptype: "wechatmini"
+      },
+      {
+        name: "Shouqianba",
+        nameKey: "shouqianba_name",
+        descriptionKey: "shouqianba_desc",
+        icon: "icons/wechatmini/shouqianba.webp",
+        url: "#小程序://收钱吧/zCbRYSIBiQ9U4DH",
+        apptype: "wechatmini"
       }
     ]
   },
@@ -1604,6 +1648,20 @@ export const categories = [
         url: "https://www.tesla.com"
       },
       {
+        name: "Autosport",
+        nameKey: "autosport_name",
+        descriptionKey: "autosport_desc",
+        icon: "icons/autosport.webp",
+        url: "https://www.autosport.com"
+      },
+      {
+        name: "Dongchedi",
+        nameKey: "dongchedi_name",
+        descriptionKey: "dongchedi_desc",
+        icon: "icons/dongchedi.webp",
+        url: "https://www.dongchedi.com"
+      },
+      {
         name: "Jiakaobaodian (驾考宝典)",
         nameKey: "jiakaobaodian_name",
         descriptionKey: "jiakaobaodian_desc",
@@ -1639,6 +1697,30 @@ export const categories = [
         icon: "icons/wrappers/taopiaopiao.webp",
         url: "/wrappers/taopiaopiao",
         apptype: "wrapper"
+      },
+      {
+        name: "Tao piao piao (淘票票)",
+        nameKey: "taopiaopiao_name",
+        descriptionKey: "taopiaopiaowechatmini_desc",
+        icon: "icons/wrappers/taopiaopiao.webp",
+        url: "#小程序://淘票票/fV6lH9S9tKcO2MI",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Damai (大麦)",
+        nameKey: "damai_name",
+        descriptionKey: "damai_desc",
+        icon: "icons/wechatmini/damai.webp",
+        url: "#小程序://大麦/yI6LM73uPECoBcj",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Maoyan (猫眼)",
+        nameKey: "maoyan_name",
+        descriptionKey: "maoyan_desc",
+        icon: "icons/wechatmini/maoyan.webp",
+        url: "#小程序://猫眼电影演出玩乐I电影票演唱会/hdPJ0AXmmtd9DJC",
+        apptype: "wechatmini"
       },
     ]
   },
