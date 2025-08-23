@@ -31,8 +31,11 @@ export const categories = [
       { name: "Google Gemini", icon: "icons/gemini.webp", url: "https://gemini.google.com", descriptionKey: "gemini_desc" },
       { name: "Grok", icon: "icons/grok.webp", url: "https://grok.com", descriptionKey: "grok_desc"},
       { name: "Cursor", icon: "icons/cursor.webp", url: "https://cursor.com/agents", descriptionKey: "cursor_desc" },
+      { name: "Claude", icon: "icons/claude.webp", url: "https://claude.ai", descriptionKey: "claude_desc" },
+      { name: "Manus", icon: "icons/manus.webp", url: "https://manus.im", descriptionKey: "manus_desc" },
       { name: "Qwen", icon: "icons/qwen.webp", url: "https://chat.qwen.ai", descriptionKey: "qwen_desc" },
       { name: "DeepSeek", icon: "icons/deepseek.webp", url: "https://deepseek.com", descriptionKey: "deepseek_desc" },
+      { name: "Perplexity", icon: "icons/wrappers/perplexity.webp", url: "/wrappers/perplexity", descriptionKey: "perplexity_desc", apptype: "wrapper" },
     ]
   },
   {

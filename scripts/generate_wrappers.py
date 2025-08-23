@@ -17,6 +17,7 @@ WRAPPER_OUTPUT = ROOT / "docs" / "wrappers"
 WRAPPERS = [
   { "name": "CVS", "url": "https://www.cvs.com" },
   { "name": "Internet Archive", "url": "https://archive.org", "keyify_name": "archive" },
+  { "name": "perplexity", "url": "https://www.perplexity.ai" },
   { "name": "stack.watch", "url": "https://stack.watch", "keyify_name": "stackwatch" },
   { "name": "NIST Time", "url": "https://www.time.gov", "keyify_name": "timegov" },
   { "name": "Bing", "url": "https://www.bing.com" },
