@@ -1361,6 +1361,13 @@ export const categories = [
         url: "https://cznull.com"
       },
       {
+        name: "Redirection.io",
+        nameKey: "redirectionio_name",
+        descriptionKey: "redirectionio_desc",
+        icon: "icons/redirectionio.webp",
+        url: "https://redirection.io"
+      },
+      {
         name: "BrowserBench",
         nameKey: "browserbench_name",
         descriptionKey: "browserbench_desc",

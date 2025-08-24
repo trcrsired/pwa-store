@@ -552,6 +552,8 @@ const L = {
   basemarkweb_desc: "Basemark Web is a cross-platform benchmark that measures real-world client-side performance of web browsers.",
   cznull_name: "CZNull",
   cznull_desc: "Free online performance tests and benchmarks for your device. Test your GPU, CPU, and memory capabilities with our comprehensive suite of tests.",
+  redirectionio_name: "Redirection.io",
+  redirectionio_desc: "A powerful platform for managing HTTP redirections, optimizing SEO, and preventing traffic loss during site transitions.",
   browserbench_name: "BrowserBench",
   browserbench_desc: "MotionMark is a benchmark designed to put browser graphics systems to the test.",
 

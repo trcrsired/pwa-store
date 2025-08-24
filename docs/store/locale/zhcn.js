@@ -552,6 +552,8 @@ const L = {
   basemarkweb_desc: "Basemark Web 是一个跨平台基准测试工具，用于衡量网页浏览器在客户端的真实性能表现。",
   cznull_name: "CZNull",
   cznull_desc: "免费的在线性能测试与基准评估工具，帮助您全面检测设备的 GPU、CPU 和内存性能。",
+  redirectionio_name: "Redirection.io",
+  redirectionio_desc: "一个强大的 HTTP 重定向管理平台，帮助优化 SEO，防止网站迁移期间的流量损失。",
   browserbench_name: "BrowserBench",
   browserbench_desc: "MotionMark 是一款用于测试浏览器图形系统性能的基准测试工具。",
 
