@@ -1670,6 +1670,30 @@ export const categories = [
         url: "#小程序://叮咚买菜美食水果蔬菜海鲜早餐/dBCM11P15BLgTii",
         apptype: "wechatmini"
       },
+      {
+        name: "FamilyMart (全家)",
+        nameKey: "familymart_name",
+        descriptionKey: "familymart_desc",
+        icon: "icons/wechatmini/familymart.webp",
+        url: "#小程序://全家微会员/6BYag4ry0B2pGsf",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Dianping (大众点评)",
+        nameKey: "dianping_name",
+        descriptionKey: "dianping_desc",
+        icon: "icons/wechatmini/dianping.webp",
+        url: "#小程序://大众点评美食电影运动旅游门票/vwExEgIYfeAkPBp",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Youding (悠订)",
+        nameKey: "youding_name",
+        descriptionKey: "youding_desc",
+        icon: "icons/wechatmini/youding.webp",
+        url: "#小程序://悠订/scYn41jTenAGvGc",
+        apptype: "wechatmini"
+      }
     ]
   },
   {

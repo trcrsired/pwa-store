@@ -948,6 +948,12 @@ const L = {
   duoduomaicai_desc: "多多买菜是拼多多运营的买菜小程序，采用“线上下单+线下自提”模式，次日可取。商品来自全国农产区，涵盖蔬菜、水果、肉蛋、粮油等生活必需品。",
   dingdongmaicai_name: "叮咚买菜",
   dingdongmaicai_desc: "叮咚买菜是一款生鲜配送服务小程序，提供水果、蔬菜、海鲜及预制菜等商品。用户可通过微信下单，享受送货上门、实时配送跟踪与灵活时间选择。",
+  familymart_name: "全家",
+  familymart_desc: "全家便利店的会员服务与优惠活动。",
+  dianping_name: "大众点评",
+  dianping_desc: "探索美食、电影、运动、旅游与门票服务。",
+  youding_name: "悠订",
+  youding_desc: "一款便捷的生活服务预约工具。",
 };
 
 registerLocale("zhcn", L);

@@ -907,6 +907,12 @@ const L = {
   duoduomaicai_desc: "Duoduo Maicai is a grocery ordering mini program operated by Pinduoduo. It offers next-day pickup of fresh produce and daily essentials through a preorder model, with items sourced directly from agricultural regions across China.",
   dingdongmaicai_name: "Dingdong Maicai",
   dingdongmaicai_desc: "Dingdong Maicai is a fresh grocery delivery service offering fruits, vegetables, seafood, and ready-to-cook meals. Users can place orders via WeChat and receive home delivery with real-time tracking and flexible time slots.",
+  familymart_name: "FamilyMart (全家)",
+  familymart_desc: "Membership services and promotions from FamilyMart.",
+  dianping_name: "Dianping (大众点评)",
+  dianping_desc: "Discover food, movies, fitness, travel, and tickets via Dianping.",
+  youding_name: "Youding (悠订)",
+  youding_desc: "A streamlined booking tool for lifestyle services.",
 };
 
 registerLocale("enus", L);
