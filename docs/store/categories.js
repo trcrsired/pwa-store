@@ -853,8 +853,8 @@ export const categories = [
     ]
   },
   {
-    name: "Software Distributions",
-    nameKey: "softwaredistributions_name",
+    name: "Resource Distributions",
+    nameKey: "resourcedistributions_name",
     apps : [
       {
         name: "APKPure",
@@ -876,6 +876,14 @@ export const categories = [
         descriptionKey: "archive_desc",
         icon: "icons/wrappers/archive.webp",
         url: "/wrappers/archive",
+        apptype: "wrapper"
+      },
+      {
+        name: "BTSOW",
+        nameKey: "btsow_name",
+        descriptionKey: "btsow_desc",
+        icon: "icons/wrappers/btsow.webp",
+        url: "/wrappers/btsow",
         apptype: "wrapper"
       },
     ]
@@ -2475,6 +2483,14 @@ export const categories = [
         descriptionKey: "javhdporn_desc",
         icon: "icons/wrappers/javhdporn.webp",
         url: "/wrappers/javhdporn",
+        apptype: "wrapper"
+      },
+      {
+        name: "avdanyuwiki",
+        nameKey: "avdanyuwiki_name",
+        descriptionKey: "avdanyuwiki_desc",
+        icon: "icons/wrappers/avdanyuwiki.webp",
+        url: "/wrappers/avdanyuwiki",
         apptype: "wrapper"
       },
     ]

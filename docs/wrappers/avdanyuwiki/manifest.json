@@ -1,0 +1,17 @@
+{
+  "name": "avdanyuwiki",
+  "short_name": "avdanyuwiki",
+  "start_url": "/wrappers/avdanyuwiki/?source=pwa",
+  "scope": "/wrappers/avdanyuwiki/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for avdanyuwiki",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/avdanyuwiki/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -281,7 +281,7 @@ const L = {
   juejin_name: "Juejin",
   juejin_desc: "Juejin is a Chinese developer community and content platform offering high-quality articles, tutorials, and discussions across frontend, backend, mobile, AI, and more. It serves as a hub for technical growth, open-source sharing, and career development, with active contributions from engineers, designers, and product managers.",
   internetservices_name: "Internet Services",
-  softwaredistributions_name: "Software Distributions",
+  resourcedistributions_name: "Resource Distributions",
 
   apkpure_name: "APKPure",
   apkpure_desc: "Discover Android apk files.",
@@ -291,6 +291,8 @@ const L = {
 
   archive_name: "Internet Archive",
   archive_desc: "Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more.",
+  btsow_name: "BTSOW",
+  btsow_desc: "BTSOW is a magnet link indexing platform based on the BitTorrent protocol. It enables fast keyword search for publicly shared torrent resources, including movies, software, music, and more. The site operates on a distributed architecture without central servers, and domain changes may occur due to compliance issues.",
   mediatools_name: "Media Tools",
   spline_name: "Spline",
   spline_desc: "Spline is a browser-based 3D design tool that enables real-time collaboration and interactive scene creation. Users can model, animate, and export 3D content directly from the web without installing software. It supports drag-and-drop interactivity, physics simulations, and integration with platforms like React and Webflow. Spline is proprietary software and not licensed under GPL.",
@@ -917,6 +919,8 @@ const L = {
   dianping_desc: "Discover food, movies, fitness, travel, and tickets via Dianping.",
   youding_name: "Youding (悠订)",
   youding_desc: "A streamlined booking tool for lifestyle services.",
+  avdanyuwiki_name: "avdanyuwiki",
+  avdanyuwiki_desc: "Avdanyuwiki is a community-driven wiki platform that catalogs profiles, filmographies, and career data of Japanese AV actors and actresses. It provides structured metadata, historical records, and cross-referenced tags for enthusiasts and researchers. Content may include images, aliases, debut dates, and studio affiliations."
 };
 
 registerLocale("enus", L);

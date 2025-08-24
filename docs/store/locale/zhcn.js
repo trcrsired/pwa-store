@@ -283,7 +283,7 @@ const L = {
   juejin_name: "掘金",
   juejin_desc: "掘金是一个面向开发者的中文技术社区与内容平台，涵盖前端、后端、移动开发、人工智能等多个领域，提供高质量文章、教程与技术讨论。平台聚集了工程师、设计师与产品经理，致力于技术成长、开源分享与职业发展。",
   internetservices_name: "互联网服务",
-  softwaredistributions_name: "软件分发",
+  resourcedistributions_name: "资源分发",
 
   apkpure_name: "APKPure",
   apkpure_desc: "发现并下载 Android APK 文件。",
@@ -293,6 +293,8 @@ const L = {
 
   archive_name: "互联网档案馆",
   archive_desc: "互联网档案馆是一个非营利数字图书馆，收藏数百万份免费文本、电影、软件、音乐、网站等资源。",
+  btsow_name: "BTSOW",
+  btsow_desc: "BTSOW 是一个基于 BitTorrent 协议的磁力链接索引平台，支持通过关键词快速检索公开分享的种子资源，包括影视、软件、音乐等。该站点采用分布式架构，无需中心服务器，域名可能因合规问题不定期变更。",
   mediatools_name: "媒体工具",
   spline_name: "Spline",
   spline_desc: "Spline 是一款基于浏览器的 3D 设计工具，支持实时协作和交互式场景创建。用户可以直接在网页中建模、制作动画并导出 3D 内容，无需安装任何软件。它支持拖放式交互、物理模拟，并可与 React 和 Webflow 等平台集成。Spline 是专有软件，并不采用 GPL 许可。",
@@ -958,6 +960,8 @@ const L = {
   dianping_desc: "探索美食、电影、运动、旅游与门票服务。",
   youding_name: "悠订",
   youding_desc: "一款便捷的生活服务预约工具。",
+  avdanyuwiki_name: "avdanyuwiki",
+  avdanyuwiki_desc: "Avdanyuwiki是一个由社区维护的百科平台，专注于收录日本AV男女优的资料、作品年表与职业信息。平台提供结构化元数据、历史记录与标签交叉索引，适合爱好者与研究者使用。内容可能包括照片、别名、出道时间与所属片商等信息。",
 };
 
 registerLocale("zhcn", L);
