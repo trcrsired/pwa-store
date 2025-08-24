@@ -197,5 +197,5 @@ toggleAllButton.addEventListener('click', () => {
     localStorage.setItem(storageKey, expand);
   });
 
-  toggleAllButton.textContent = expand ? 'Collapse All' : 'Expand All';
+  toggleAllButton.textContent = expand ? L('Collapse All') : L('Expand All');
 });

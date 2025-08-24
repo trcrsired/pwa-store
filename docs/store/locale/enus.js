@@ -9,6 +9,8 @@ const L = {
   "fundamental_name": "Fundamental",
   "copyurl_desc": "Copy URL",
   "open_desc": "Open",
+  "Collapse All": "Collapse All",
+  "Expand All": "Expand All",
   "chabots_name": "Chatbots",
   "cybersecurity_name": "Cybersecurity",
   "scamadviser_desc": "Analyze websites to check for trustworthiness and potential scams.",
