@@ -1,0 +1,17 @@
+{
+  "name": "Android Authority",
+  "short_name": "Android Authority",
+  "start_url": "/wrappers/androidauthority/?source=pwa",
+  "scope": "/wrappers/androidauthority/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Android Authority",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/androidauthority/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

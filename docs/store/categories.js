@@ -771,7 +771,8 @@ export const categories = [
         nameKey: "androidauthority_name",
         descriptionKey: "androidauthority_desc",
         icon: "icons/androidauthority.webp",
-        url: "https://www.androidauthority.com"
+        url: "/wrappers/androidauthority",
+        apptype: "wrapper"
       },
       {
         name: "Tom's Hardware",
