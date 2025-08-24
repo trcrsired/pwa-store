@@ -1774,11 +1774,19 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
-        name: "滴滴",
+        name: "DiDi",
         nameKey: "didi_name",
         descriptionKey: "didi_desc",
         icon: "icons/wechatmini/didi.webp",
         url: "#小程序://滴滴出行丨打车骑行公交租车代驾/vUZE0P6bqzPYwhB",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Fengchao",
+        nameKey: "fengchao_name",
+        descriptionKey: "fengchao_desc",
+        icon: "icons/wechatmini/fengchao.webp",
+        url: "#小程序://丰巢/AN2aNIAnjejg3Uh",
         apptype: "wechatmini"
       }
     ]

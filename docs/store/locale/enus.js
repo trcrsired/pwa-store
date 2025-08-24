@@ -873,6 +873,8 @@ const L = {
   railway12306_desc: "Railway 12306 is China Railway’s WeChat Mini Program for booking train tickets, checking schedules, and managing travel plans. It supports real-name authentication, seat selection, and digital ticketing for seamless high-speed rail travel across China.",
   didi_name: "DiDi",
   didi_desc: "DiDi is a multi-modal mobility mini program within WeChat, offering ride-hailing, bike-sharing, public transit info, car rentals, and chauffeur services. Users can book and manage trips directly in WeChat with location tracking and secure payments.",
+  fengchao_name: "Fengchao (丰巢)",
+  fengchao_desc: "Fengchao is a smart locker mini program offering 24/7 self-service for parcel pickup, drop-off, and temporary storage. Integrated with major logistics providers like SF Express and Cainiao, it supports contactless delivery, real-time tracking, and flexible access across residential, office, and commercial zones.",
   govservice_name: "National Government Service Platform",
   govservice_desc: "This WeChat Mini Program provides access to public services across China, including household registration, social security, healthcare, and travel documentation. It serves as a unified portal for citizens to manage official tasks and access government resources.",
   china12315_name: "12315",
