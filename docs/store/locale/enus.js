@@ -679,7 +679,7 @@ const L = {
   taopiaopiaowechatmini_desc: "WeChat Mini Program of Tao Piao Piao",
   damai_name: "Damai (大麦)",
   damai_desc: "Offers ticketing services for concerts, theater, and sports events, including online seat selection and e-tickets, with services available within China",
-  maoyan_name: "Maoayan (猫眼)",
+  maoyan_name: "Maoyan (猫眼)",
   maoyan_desc: "Provides real-time schedules for movies, concert tickets, and live show bookings, with services available within China.",
   cloud_name: "Cloud (is someone else's computer)",
 
