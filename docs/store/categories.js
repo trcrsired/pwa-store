@@ -770,7 +770,7 @@ export const categories = [
         name: "Android Authority",
         nameKey: "androidauthority_name",
         descriptionKey: "androidauthority_desc",
-        icon: "icons/androidauthority.webp",
+        icon: "icons/wrappers/androidauthority.webp",
         url: "/wrappers/androidauthority",
         apptype: "wrapper"
       },
