@@ -51,18 +51,41 @@ const renderCategory = (category) => {
   const section = document.createElement('section');
   section.className = 'category-block';
 
+  // Create category heading
   const heading = document.createElement('h2');
   const localizedCategoryName = category.nameKey ? L(category.nameKey) : category.name;
   heading.textContent = localizedCategoryName;
-  section.appendChild(heading);
+  heading.className = 'category-heading';
+  heading.style.cursor = 'pointer';
 
+  // Create container for app cards
   const grid = document.createElement('div');
   grid.className = 'app-grid';
 
+  // Use category name as localStorage key
+  const storageKey = `category-expanded-${localizedCategoryName}`;
+  const isExpanded = localStorage.getItem(storageKey) === 'true';
+
+  // Set initial visibility based on saved state
+  grid.style.display = isExpanded ? 'block' : 'none';
+  heading.classList.toggle('expanded', isExpanded);
+
+  // Toggle visibility and save state on click
+  heading.addEventListener('click', () => {
+    const currentlyVisible = grid.style.display === 'block';
+    const newState = !currentlyVisible;
+    grid.style.display = newState ? 'block' : 'none';
+    heading.classList.toggle('expanded', newState);
+    localStorage.setItem(storageKey, newState);
+  });
+
+  // Render each app card inside the grid
   category.apps.forEach((app) => {
     grid.appendChild(renderAppCard(app));
   });
 
+  // Append heading and grid to section
+  section.appendChild(heading);
   section.appendChild(grid);
   return section;
 };
@@ -156,4 +179,23 @@ filterWeChat.addEventListener('change', () => {
   localStorage.setItem('filter-wechat', filterWeChat.checked);
   const searchText = searchInput?.value?.toLowerCase() || '';
   renderStore(searchText);
+});
+
+const toggleAllButton = document.getElementById('toggle-all-btn');
+
+toggleAllButton.addEventListener('click', () => {
+  const allHeadings = document.querySelectorAll('.category-heading');
+  const expand = toggleAllButton.textContent === 'Expand All';
+
+  allHeadings.forEach((heading) => {
+    const grid = heading.nextElementSibling;
+    const categoryName = heading.textContent;
+    const storageKey = `category-expanded-${categoryName}`;
+
+    grid.style.display = expand ? 'block' : 'none';
+    heading.classList.toggle('expanded', expand);
+    localStorage.setItem(storageKey, expand);
+  });
+
+  toggleAllButton.textContent = expand ? 'Collapse All' : 'Expand All';
 });

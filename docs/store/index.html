@@ -33,7 +33,7 @@
     <input type="text" id="search-input" placeholder="Search apps..." />
     <span id="result-count" style="margin-left: 10px; font-weight: bold;"></span>
 
-    <!-- 🔍 App type filters on a new line -->
+    <!-- 🔍 App type filters -->
     <div style="margin-top: 10px;">
       <label style="margin-right: 20px;">
         <input type="checkbox" id="filter-pwa" checked />
@@ -44,6 +44,11 @@
         <span id="label-filter-wechat">WeChat Mini Programs</span>
       </label>
     </div>
+  </div>
+
+  <!-- 🌐 Global category toggle button -->
+  <div style="margin: 20px 0; text-align: left;">
+    <button id="toggle-all-btn">Expand All</button>
   </div>
 
   <main id="app-store" class="store-container">

@@ -226,3 +226,14 @@ a:hover {
     color: #0056b3;
   }
 }
+
+.category-heading::after {
+  content: ' ▶';
+  font-size: 0.9em;
+  color: #666;
+}
+
+.category-heading.expanded::after {
+  content: ' ▼';
+}
+
