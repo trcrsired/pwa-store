@@ -469,6 +469,8 @@ const L = {
   wowforums_desc: "魔兽世界的官方游戏门户。",
   wowanalyzer_name: "WoWAnalyzer",
   wowanalyzer_desc: "通过个人反馈和数据分析提升你的表现，只需输入 Warcraft Logs 报告链接。",
+  icyveins_name: "Icy Veins",
+  icyveins_desc: "Icy Veins 是一个专注于《魔兽世界》及其他暴雪游戏的攻略网站，提供详尽的职业指南、副本攻略、幻化套装展示及节日活动信息。玩家可通过该平台优化天赋、技能循环、装备选择与宏命令，适用于所有职业专精与角色定位。",
   ragezone_name: "RaGEZONE",
   ragezone_desc: "RaGEZONE 是一个资深的在线论坛，专注于 MMORPG 游戏开发、私服模拟和游戏修改。论坛提供丰富的资源，包括服务器文件、教程，以及针对 MU Online、冒险岛、仙境传说等游戏的技术讨论。凭借活跃的开发者社区和用户基础，RaGEZONE 成为游戏定制与逆向工程爱好者的重要交流平台。",
   mmochampion_name: "MMO Champion",
@@ -523,7 +525,8 @@ const L = {
 
   incelwiki_name: "非自愿独身者百科",
   incelwiki_desc: "非自愿独身者百科是一个由社区维护的百科全书，专注于“非自愿独身者”（Incel）这一网络亚文化。",
-
+  wowdevwiki_name: "WoWDev维基",
+  wowdevwiki_desc: "WoWDev维基（WoWDev wiki） 是一个专注于《魔兽世界》技术文档的社区平台，涵盖游戏文件格式、内存结构与客户端行为分析。内容涉及多个版本（如经典旧世、巫妖王之怒、德拉诺之王），并收录 ADT、WMO、M2、DBC、CASC 等格式的详细说明。该站由社区维护，适用于开发者、模组作者及逆向工程人员进行工具开发与数据研究。",
   marxistsorg_name: "马克思主义互联网文库",
   marxistsorg_desc: "马克思主义互联网文库是一个非营利的在线百科全书，自1990年起收录了多语言版本的共产主义、无政府主义和社会主义思想家的著作，包括马克思、恩格斯、列宁、托洛茨基、斯大林、毛泽东、卢森堡、巴枯宁、克鲁泡特金、蒲鲁东，以及相关甚至无关思想家的作品（如孙子）。",
 

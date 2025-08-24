@@ -469,6 +469,8 @@ const L = {
   wowforums_desc: "Official game portal for WoW.",
   wowanalyzer_name: "WoWAnalyzer",
   wowanalyzer_desc: "Improve your performance with personal feedback and stats. Just enter the link of a Warcraft Logs report.",
+  icyveins_name: "Icy Veins",
+  icyveins_desc: "Icy Veins is a strategy guide site for World of Warcraft and other Blizzard titles. It offers in-depth class guides, raid and dungeon walkthroughs, transmogrification sets, and seasonal event coverage. The platform is widely used by players to optimize talents, rotations, gear, and macros across all specs and roles.",
   ragezone_name: "RaGEZONE",
   ragezone_desc: "RaGEZONE is a veteran online forum focused on MMORPG development, private server emulation, and game modding. It hosts a wide range of resources including server files, tutorials, and technical discussions for games like MU Online, MapleStory, and Ragnarok. With a strong developer community and active user base, RaGEZONE serves as a hub for enthusiasts exploring game customization and reverse engineering.",
   mmochampion_name: "MMO Champion",
@@ -523,7 +525,8 @@ const L = {
 
   incelwiki_name: "Incel Wiki",
   incelwiki_desc: "Incel Wiki is a community-curated encyclopedia focused on the incel subculture—short for \"involuntary celibate.\"",
-
+  wowdevwiki_name: "WoWDev wiki",
+  wowdevwiki_desc: "WoWDev wiki is a technical documentation hub for World of Warcraft’s internal file formats, memory structures, and client behavior. It catalogs data from multiple game versions, including Vanilla, WotLK, and WoD, and provides insights into formats like ADT, WMO, M2, DBC, and CASC. The site is maintained by community contributors and serves developers, modders, and reverse engineers working on WoW-related tools and analysis.",
   marxistsorg_name: "Marxists Internet Archive",
   marxistsorg_desc: "Marxists Internet Archive is a non-profit online encyclopedia that hosts a multilingual library (created in 1990) of the works of communist, anarchist, and socialist writers, such as Karl Marx, Friedrich Engels, Vladimir Lenin, Leon Trotsky, Joseph Stalin, Mao Zedong, Rosa Luxemburg, Mikhail Bakunin, Peter Kropotkin, and Pierre-Joseph Proudhon, as well as that of writers of related ideologies, and even unrelated ones (for instance, Sun Tzu).",
 

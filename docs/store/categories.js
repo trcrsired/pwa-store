@@ -1079,6 +1079,13 @@ export const categories = [
         url: "https://wowanalyzer.com"
       },
       {
+        name: "Icy Veins",
+        nameKey: "icyveins_name",
+        descriptionKey: "icyveins_desc",
+        icon: "icons/icyveins.webp",
+        url: "https://www.icy-veins.com"
+      },
+      {
         name: "RaGEZONE",
         nameKey: "ragezone_name",
         descriptionKey: "ragezone_desc",
@@ -1247,13 +1254,6 @@ export const categories = [
         url: "https://wikipedia.org"
       },
       {
-        name: "Baidu Baike (百度百科)",
-        nameKey: "baidubaike_name",
-        descriptionKey: "baidubaike_desc",
-        icon: "icons/baike.webp",
-        url: "https://baike.baidu.com"
-      },
-      {
         name: "Liquipedia",
         nameKey: "liquipedia_name",
         descriptionKey: "liquipedia_desc",
@@ -1266,6 +1266,20 @@ export const categories = [
         descriptionKey: "incelwiki_desc",
         icon: "icons/incelwiki.webp",
         url: "https://incels.wiki"
+      },
+      {
+        name: "WoWDev wiki",
+        nameKey: "wowdevwiki_name",
+        descriptionKey: "wowdevwiki_desc",
+        icon: "icons/wowdevwiki.webp",
+        url: "https://wowdev.wiki"
+      },
+      {
+        name: "Baidu Baike (百度百科)",
+        nameKey: "baidubaike_name",
+        descriptionKey: "baidubaike_desc",
+        icon: "icons/baike.webp",
+        url: "https://baike.baidu.com"
       },
       {
         name: "Marxists Internet Archive",
