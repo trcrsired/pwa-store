@@ -1290,6 +1290,14 @@ export const categories = [
         url: "/wrappers/marxistsorg",
         apptype: "wrapper"
       },
+      {
+        name: "OSDev.org",
+        nameKey: "osdevorg_name",
+        descriptionKey: "osdevorg_desc",
+        icon: "icons/wrappers/osdevorg.webp",
+        url: "/wrappers/osdevorg",
+        apptype: "wrapper"
+      },
     ]
   },
   {

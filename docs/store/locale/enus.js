@@ -529,7 +529,8 @@ const L = {
   wowdevwiki_desc: "WoWDev wiki is a technical documentation hub for World of Warcraft’s internal file formats, memory structures, and client behavior. It catalogs data from multiple game versions, including Vanilla, WotLK, and WoD, and provides insights into formats like ADT, WMO, M2, DBC, and CASC. The site is maintained by community contributors and serves developers, modders, and reverse engineers working on WoW-related tools and analysis.",
   marxistsorg_name: "Marxists Internet Archive",
   marxistsorg_desc: "Marxists Internet Archive is a non-profit online encyclopedia that hosts a multilingual library (created in 1990) of the works of communist, anarchist, and socialist writers, such as Karl Marx, Friedrich Engels, Vladimir Lenin, Leon Trotsky, Joseph Stalin, Mao Zedong, Rosa Luxemburg, Mikhail Bakunin, Peter Kropotkin, and Pierre-Joseph Proudhon, as well as that of writers of related ideologies, and even unrelated ones (for instance, Sun Tzu).",
-
+  osdevorg_name: "OSDev.org",
+  osdevorg_desc: "A technical community focused on operating system development, offering tutorials, forums, and resources.",
   religion_name: "Religion",
 
   qurancom_name: "Quran.com",

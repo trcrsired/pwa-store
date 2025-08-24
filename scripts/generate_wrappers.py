@@ -118,6 +118,7 @@ WRAPPERS = [
   { "name": "Remote OK", "url": "https://remoteok.com", "keyify_name": "remoteok" },
   { "name": "Eudic", "url": "https://dict.eudic.net" },
   { "name": "Marxists Internet Archive", "url": "https://www.marxists.org", "keyify_name": "marxistsorg" },
+  { "name": "OSDev.org" , "url": "https://wiki.osdev.org", "keyify_name": "osdevorg" },
   { "name": "REVCOM.US", "url": "https://revcom.us/en", "keyify_name": "revcomus" },
   { "name": "YouVersion Bible", "url": "https://bible.com", "keyify_name": "biblecom" },
   { "name": "Reuters", "url": "https://www.reuters.com" },
