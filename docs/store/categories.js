@@ -1142,6 +1142,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Wowhead",
+        nameKey: "wowhead_name",
+        descriptionKey: "wowhead_desc",
+        icon: "icons/wrappers/wowhead.webp",
+        url: "/wrappers/wowhead",
+        apptype: "wrapper"
+      },
+      {
         name: "World of Warcraft (China)",
         nameKey: "wowchina_name",
         descriptionKey: "wowchina_desc",

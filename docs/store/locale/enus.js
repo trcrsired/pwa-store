@@ -485,7 +485,8 @@ const L = {
   minecraftforum_desc: "Minecraft Forum is a long-standing community hub for Minecraft players and modders, offering discussions, tutorials, modpacks, and updates across both Java and Bedrock editions.",
   ign_name: "IGN",
   ign_desc: "A media outlet covering video games, entertainment, and pop culture through reviews, news, and original content.",
-
+  wowhead_name: "Wowhead",
+  wowhead_desc: "Wowhead is a comprehensive database and guide platform for World of Warcraft. It catalogs items, quests, NPCs, zones, talents, and more, with powerful search and filtering tools. The site also features community-driven comments, patch-specific updates, and curated guides for expansions and gameplay strategies.",
   learning_name: "Learning",
   duolingo_global_name: "Duolingo",
   duolingo_global_desc: "Gamified language learning.",

@@ -485,7 +485,8 @@ const L = {
   minecraftforum_desc: "Minecraft 论坛是一个历史悠久的社区中心，面向玩家和模组开发者，提供讨论、教程、模组包和 Java 与基岩版的更新信息。",
   ign_name: "IGN",
   ign_desc: "一家媒体机构，通过评测、新闻和原创内容报道电子游戏、娱乐和流行文化。",
-
+  wowhead_name: "窝窝头（Wowhead）",
+  wowhead_desc: "Wowhead 是一个专注于《魔兽世界》的数据库与攻略平台，收录游戏中的物品、任务、NPC、地图、天赋等内容，并提供强大的搜索与筛选功能。网站还包含玩家评论、版本更新信息及扩展包攻略，适合新手与资深玩家查阅使用。",
   learning_name: "学习",
   duolingo_global_name: "Duolingo",
   duolingo_global_desc: "通过游戏化方式进行语言学习。",

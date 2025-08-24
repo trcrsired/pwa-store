@@ -94,6 +94,7 @@ WRAPPERS = [
   { "name": "CurseForge", "url": "https://www.curseforge.com" },
   { "name": "MineCraft Forum", "url": "https://www.minecraftforum.net", "keyify_name": "minecraftforum" },
   { "name": "IGN", "url": "https://www.ign.com" },
+  { "name": "Wowhead", "url": "https://www.wowhead.com" },
   { "name": "Paypal", "url": "https://www.paypal.com" },
   { "name": "Moomoo", "url": "https://www.moomoo.com" },
   { "name": "TheStreet", "url": "https://www.thestreet.com" },
