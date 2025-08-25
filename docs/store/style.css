@@ -237,3 +237,14 @@ a:hover {
   content: ' ▼';
 }
 
+.app-grid.collapsed {
+  max-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.app-grid.expanded {
+  max-height: 9999px; /* or auto if you prefer */
+  visibility: visible;
+}

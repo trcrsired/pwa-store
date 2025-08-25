@@ -47,7 +47,7 @@ const renderAppCard = (app) => {
   return container;
 };
 
-const renderCategory = (category) => {
+const renderCategory = (category, forceExpand = false) => {
   const section = document.createElement('section');
   section.className = 'category-block';
 
@@ -64,17 +64,20 @@ const renderCategory = (category) => {
 
   // Use category name as localStorage key
   const storageKey = `category-expanded-${localizedCategoryName}`;
-  const isExpanded = localStorage.getItem(storageKey) === 'true';
+  const storedState = localStorage.getItem(storageKey) === 'true';
+  const isExpanded = forceExpand || storedState;
 
-  // Set initial visibility based on saved state
-  grid.style.display = isExpanded ? 'block' : 'none';
+  // Set initial visibility based on saved state or forced expansion
+  grid.classList.add(isExpanded ? 'expanded' : 'collapsed');
   heading.classList.toggle('expanded', isExpanded);
 
   // Toggle visibility and save state on click
   heading.addEventListener('click', () => {
-    const currentlyVisible = grid.style.display === 'block';
-    const newState = !currentlyVisible;
-    grid.style.display = newState ? 'block' : 'none';
+    const currentlyExpanded = grid.classList.contains('expanded');
+    const newState = !currentlyExpanded;
+
+    grid.classList.toggle('expanded', newState);
+    grid.classList.toggle('collapsed', !newState);
     heading.classList.toggle('expanded', newState);
     localStorage.setItem(storageKey, newState);
   });
@@ -90,16 +93,17 @@ const renderCategory = (category) => {
   return section;
 };
 
+
 // 🔄 Render the app store with search and type filters
 const renderStore = (filterText = '') => {
   const root = document.getElementById('app-store');
   const resultCount = document.getElementById('result-count');
   if (!root || !resultCount) return;
 
+  const isSearching = filterText.trim() !== ''; // ✅ Normalize whitespace too
   root.innerHTML = '';
   let totalMatches = 0;
 
-  // ✅ Read filter checkbox states
   const showPWA = document.getElementById('filter-pwa')?.checked;
   const showWeChat = document.getElementById('filter-wechat')?.checked;
 
@@ -107,7 +111,6 @@ const renderStore = (filterText = '') => {
     const localizedName = category.nameKey ? L(category.nameKey) : category.name;
     const categoryText = `${localizedName} ${category.name}`.toLowerCase();
 
-    // 🔍 Filter apps by search text
     let filteredApps = categoryText.includes(filterText)
       ? category.apps
       : category.apps.filter(app => {
@@ -119,7 +122,6 @@ const renderStore = (filterText = '') => {
           return combined.includes(filterText);
         });
 
-    // 🧩 Filter apps by type
     filteredApps = filteredApps.filter(app => {
       const type = app.apptype || 'pwa';
       const isPWA = type === 'pwa' || type === 'wrapper';
@@ -127,15 +129,13 @@ const renderStore = (filterText = '') => {
       return (isPWA && showPWA) || (isWeChatMini && showWeChat);
     });
 
-    // 📦 Render category if it has matching apps
     if (filteredApps.length > 0) {
       totalMatches += filteredApps.length;
       const filteredCategory = { ...category, apps: filteredApps };
-      root.appendChild(renderCategory(filteredCategory));
+      root.appendChild(renderCategory(filteredCategory, isSearching)); // ✅ Use flag
     }
   });
 
-  // 🧮 Update result count
   resultCount.textContent = `${totalMatches} APP${totalMatches !== 1 ? 's' : ''}`;
 };
 
@@ -182,17 +182,45 @@ filterWeChat.addEventListener('change', () => {
 });
 
 const toggleAllButton = document.getElementById('toggle-all-btn');
+const allHeadings = document.querySelectorAll('.category-heading');
+
+let allExpanded = true;
+
+allHeadings.forEach((heading) => {
+  const categoryName = heading.textContent;
+  const storageKey = `category-expanded-${categoryName}`;
+  const isExpanded = localStorage.getItem(storageKey) === 'true';
+
+  if (!isExpanded) {
+    allExpanded = false;
+  }
+
+  const grid = heading.nextElementSibling;
+  grid.classList.toggle('expanded', isExpanded);
+  grid.classList.toggle('collapsed', !isExpanded);
+  heading.classList.toggle('expanded', isExpanded);
+});
+
+toggleAllButton.textContent = allExpanded ? L('Collapse All') : L('Expand All');
 
 toggleAllButton.addEventListener('click', () => {
   const allHeadings = document.querySelectorAll('.category-heading');
-  const expand = toggleAllButton.textContent === 'Expand All';
+
+  const allExpanded = Array.from(allHeadings).every((heading) => {
+    const categoryName = heading.textContent;
+    const storageKey = `category-expanded-${categoryName}`;
+    return localStorage.getItem(storageKey) === 'true';
+  });
+
+  const expand = !allExpanded;
 
   allHeadings.forEach((heading) => {
     const grid = heading.nextElementSibling;
     const categoryName = heading.textContent;
     const storageKey = `category-expanded-${categoryName}`;
 
-    grid.style.display = expand ? 'block' : 'none';
+    grid.classList.toggle('expanded', expand);
+    grid.classList.toggle('collapsed', !expand);
     heading.classList.toggle('expanded', expand);
     localStorage.setItem(storageKey, expand);
   });
