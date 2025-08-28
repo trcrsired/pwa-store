@@ -278,6 +278,8 @@ const L = {
   techspot_desc: "TechSpot is a technology news and analysis site that covers computing, software, hardware, and the digital industry. It’s trusted by tech enthusiasts and professionals for its in-depth reviews and timely reporting.",
   theverge_name: "The Verge",
   theverge_desc: "The Verge is a technology news and media platform founded in 2011 and operated by Vox Media. Headquartered in New York City, it covers the intersection of technology, science, art, and culture through breaking news, reviews, features, podcasts, and videos.",
+  thurrott_name: "Thurrott",
+  thurrott_desc: "A trusted source for news, reviews, and analysis on Microsoft, Windows, Surface, and related technologies. Thurrott offers deep insights for IT professionals, enthusiasts, and developers navigating the evolving tech landscape.",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community.",
   juejin_name: "Juejin",

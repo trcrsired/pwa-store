@@ -838,6 +838,13 @@ export const categories = [
         url: "https://www.theverge.com",
       },
       {
+        name: "Thurrott",
+        nameKey: "thurrott_name",
+        descriptionKey: "thurrott_desc",
+        icon: "icons/thurrott.webp",
+        url: "https://www.thurrott.com"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",

@@ -280,6 +280,8 @@ const L = {
   techspot_desc: "TechSpot 是一家专注于计算机技术的科技媒体，内容涵盖硬件评测、软件推荐、行业动态与深度分析，深受技术爱好者与专业用户的信赖。",
   theverge_name: "The Verge",
   theverge_desc: "The Verge是由Vox Media运营的科技新闻与媒体平台，创立于2011年，总部位于纽约市。内容涵盖科技、科学、艺术与文化的交汇点，通过新闻、测评、专题、播客和视频呈现数字时代的变革。",
+  thurrott_name: "Thurrott",
+  thurrott_desc: "Thurrott 是一个专注于微软、Windows、Surface 及相关技术的权威资讯平台，提供深入的新闻报道、产品评测与行业分析，服务于 IT 专业人士、技术爱好者与开发者。",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO 是面向中文用户的 Linux 门户网站，提供新闻、教程、发行版信息与开源开发资源，服务于技术爱好者与专业人士。",
   juejin_name: "掘金",
