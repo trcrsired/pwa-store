@@ -255,6 +255,8 @@ const L = {
   macrumors_desc: "Apple-focused tech reporting and insights.",
   androidsage_name: "Android Sage",
   androidsage_desc: "Android Sage is a tech blog dedicated to Android updates, downloads, tutorials, and app development. It covers topics like Samsung One UI, Android Auto, Pixel Watch apps, and AI features—serving both enthusiasts and developers with practical guides and APK links.",
+  androidheadlines_name: "Android Headlines",
+  androidheadlines_desc: "Android Headlines is a technology news site focused on Android, Google, Samsung, and mobile innovation. It provides updates on smartphone launches, AI features, Pixel reviews, and industry developments for readers interested in mobile ecosystems.",
   androidauthority_name: "Android Authority",
   androidauthority_desc: "News, reviews, and deep dives into Android and Google-related tech.",
 

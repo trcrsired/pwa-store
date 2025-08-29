@@ -774,6 +774,13 @@ export const categories = [
         url: "https://www.androidsage.com"
       },
       {
+        name: "Android Headlines",
+        nameKey: "androidheadlines_name",
+        descriptionKey: "androidheadlines_desc",
+        icon: "icons/androidheadlines.webp",
+        url: "https://www.androidheadlines.com"
+      },
+      {
         name: "Android Authority",
         nameKey: "androidauthority_name",
         descriptionKey: "androidauthority_desc",
