@@ -284,6 +284,8 @@ const L = {
   thurrott_desc: "Thurrott 是一个专注于微软、Windows、Surface 及相关技术的权威资讯平台，提供深入的新闻报道、产品评测与行业分析，服务于 IT 专业人士、技术爱好者与开发者。",
   cybernews_name: "Cybernews",
   cybernews_desc: "由Cybernews内部专家团队制作，提供最新网络安全与信息新闻、独立研究、前沿技术分析以及产品评测。",
+  techradar_name: "科技雷达 （TechRadar）",
+  techradar_desc: "TechRadar是一家全球领先的科技新闻与评测网站，提供关于电子产品、软件和数字趋势的专业见解。从智能手机到流媒体设备，TechRadar通过权威的购买指南和国际化报道，帮助用户做出明智选择。",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO 是面向中文用户的 Linux 门户网站，提供新闻、教程、发行版信息与开源开发资源，服务于技术爱好者与专业人士。",
   juejin_name: "掘金",

@@ -851,6 +851,13 @@ export const categories = [
         url: "https://cybernews.com"
       },
       {
+        name: "TechRadar",
+        nameKey: "techradar_name",
+        descriptionKey: "techradar_desc",
+        icon: "icons/techradar.webp",
+        url: "https://www.techradar.com"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",

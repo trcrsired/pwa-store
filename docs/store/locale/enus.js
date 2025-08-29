@@ -282,6 +282,8 @@ const L = {
   thurrott_desc: "A trusted source for news, reviews, and analysis on Microsoft, Windows, Surface, and related technologies. Thurrott offers deep insights for IT professionals, enthusiasts, and developers navigating the evolving tech landscape.",
   cybernews_name: "Cybernews",
   cybernews_desc: "Breaking cybersecurity and information news, independent research, latest tech analysis and product reviews all produced by Cybernews in-house experts.",
+  techradar_name: "TechRadar",
+  techradar_desc: "TechRadar is a leading technology news and reviews site, offering expert insights on gadgets, software, and digital trends. From smartphones to streaming devices, it helps users make informed decisions with trusted buying guides and global coverage.",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community.",
   juejin_name: "Juejin",
