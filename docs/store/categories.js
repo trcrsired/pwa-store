@@ -593,7 +593,15 @@ export const categories = [
         url: "/wrappers/tieba",
         descriptionKey: "tieba_desc",
         apptype: "wrapper"
-      }
+      },
+      {
+        name: "Tencent Meeting",
+        nameKey: "tencentmeeting_name",
+        icon: "icons/wechat/tencentmeeting.webp",
+        url: "#小程序://腾讯会议/2S7Qe4qJWnhBOCe",
+        descriptionKey: "tencentmeeting_desc",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
@@ -918,6 +926,14 @@ export const categories = [
         descriptionKey: "archive_desc",
         icon: "icons/wrappers/archive.webp",
         url: "/wrappers/archive",
+        apptype: "wrapper"
+      },
+      {
+        name: "APK Premier",
+        nameKey: "apkpremier_name",
+        icon: "icons/wrappers/apkpremier.webp",
+        url: "/wrappers/apkpremier",
+        descriptionKey: "apkpremier_desc",
         apptype: "wrapper"
       },
       {

@@ -306,6 +306,8 @@ const L = {
 
   archive_name: "互联网档案馆",
   archive_desc: "互联网档案馆是一个非营利数字图书馆，收藏数百万份免费文本、电影、软件、音乐、网站等资源。",
+  apkpremier_name: "APK Premier",
+  apkpremier_desc: "APK Premier提供安卓应用与游戏的免费APK下载，涵盖娱乐、通讯与效率工具，支持直接获取最新安装包与应用列表。",
   btsow_name: "BTSOW",
   btsow_desc: "BTSOW 是一个基于 BitTorrent 协议的磁力链接索引平台，支持通过关键词快速检索公开分享的种子资源，包括影视、软件、音乐等。该站点采用分布式架构，无需中心服务器，域名可能因合规问题不定期变更。",
   mediatools_name: "媒体工具",
@@ -977,6 +979,8 @@ const L = {
   shouqianba_desc: "在中国提供收款、订单管理、财务统计和营销工具，适用于多种业态的商户使用。",
   jingdong_name: "京东",
   jingdong_desc: "京东购物是微信小程序中的电商平台，支持商品搜索、下单、支付与配送服务，涵盖生鲜、数码、日用品等品类，并提供外卖点餐与国补活动等优惠功能。",
+  tencentmeeting_name: "腾讯会议",
+  tencentmeeting_desc: "腾讯会议是一款视频会议工具，支持屏幕共享、日程安排，并可通过微信小程序便捷访问，适用于远程协作场景。",
   abchinamicro_name: "农行微服务",
   abchinamicro_desc: "农行微服务是中国农业银行官方微信小程序，提供移动银行、账户服务及多项金融工具。用户可通过微信安全查询余额、转账汇款、缴费支付及管理银行卡。小程序支持生物识别登录、微信支付，并根据用户画像和地理位置提供个性化金融推荐。",
   duoduomaicai_name: "多多买菜",

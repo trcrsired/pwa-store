@@ -18,6 +18,7 @@ WRAPPERS = [
   { "name": "CVS", "url": "https://www.cvs.com" },
   { "name": "Android Authority", "url": "https://www.androidauthority.com", "keyify_name": "androidauthority"},
   { "name": "Internet Archive", "url": "https://archive.org", "keyify_name": "archive" },
+  { "name": "APK Premier", "url": "https://apkpremier.com", "keyify_name": "apkpremier" },
   { "name": "BTSOW", "url": "https://btsow.lol" },
   { "name": "perplexity", "url": "https://www.perplexity.ai" },
   { "name": "stack.watch", "url": "https://stack.watch", "keyify_name": "stackwatch" },

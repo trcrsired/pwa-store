@@ -1,0 +1,17 @@
+{
+  "name": "APK Premier",
+  "short_name": "APK Premier",
+  "start_url": "/wrappers/apkpremier/?source=pwa",
+  "scope": "/wrappers/apkpremier/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for APK Premier",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/apkpremier/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
