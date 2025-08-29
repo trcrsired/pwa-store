@@ -255,7 +255,8 @@ const L = {
 
   macrumors_name: "麦克传闻 （Mac Rumors）",
   macrumors_desc: "聚焦苹果产品的科技新闻与深度分析，涵盖 Mac、iPhone、iOS 等相关内容。",
-
+  androidsage_name: "安卓智者 （Android Sage）",
+  androidsage_desc: "Android Sage是一个专注于安卓更新、软件下载、教程和应用开发的技术博客。内容涵盖三星One UI、Android Auto、Pixel Watch应用和AI功能，为安卓爱好者与开发者提供实用指南与APK资源。",
   androidauthority_name: "安卓权威（Android Authority）",
   androidauthority_desc: "提供关于 Android 和 Google 技术的新闻、评测与深入解析。",
 

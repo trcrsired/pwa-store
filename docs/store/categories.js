@@ -767,6 +767,13 @@ export const categories = [
         url: "https://www.macrumors.com"
       },
       {
+        name: "Android Sage",
+        nameKey: "androidsage_name",
+        descriptionKey: "androidsage_desc",
+        icons: "icons/androidsage.webp",
+        url: "https://www.androidsage.com"
+      },
+      {
         name: "Android Authority",
         nameKey: "androidauthority_name",
         descriptionKey: "androidauthority_desc",
