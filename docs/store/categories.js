@@ -2055,6 +2055,13 @@ export const categories = [
         url: "https://medium.com"
       },
       {
+        name: "Qinlili",
+        nameKey: "qinlili_name",
+        descriptionKey: "qinlili_desc",
+        icon: "icons/qinlili.webp",
+        url: "https://qinlili.bid" 
+      },
+      {
         name: "Herb Sutter",
         nameKey: "herbsutter_name",
         descriptionKey: "herbsutter_desc",
