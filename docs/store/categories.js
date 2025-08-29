@@ -1993,6 +1993,14 @@ export const categories = [
         url: "#小程序://BOSS直聘/OZRCz4jyHJOfBQk",
         apptype: "wechatmini"
       },
+      {
+        name: "Yupao Zhipin",
+        nameKey: "yupaozhipin_name",
+        descriptionKey: "yupaozhipin_desc",
+        icon: "icons/wechatmini/yupaozhipin.webp",
+        url: "#小程序://鱼泡直聘/tu6JXowI0agEQ9I",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
