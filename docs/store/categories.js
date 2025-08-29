@@ -597,7 +597,7 @@ export const categories = [
       {
         name: "Tencent Meeting",
         nameKey: "tencentmeeting_name",
-        icon: "icons/wechat/tencentmeeting.webp",
+        icon: "icons/wechatmini/tencentmeeting.webp",
         url: "#小程序://腾讯会议/2S7Qe4qJWnhBOCe",
         descriptionKey: "tencentmeeting_desc",
         apptype: "wechatmini"
