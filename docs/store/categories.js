@@ -1809,7 +1809,47 @@ export const categories = [
         icon: "icons/wechatmini/fengchao.webp",
         url: "#小程序://丰巢/AN2aNIAnjejg3Uh",
         apptype: "wechatmini"
-      }
+      },
+      {
+        name: "Yijie Refuel",
+        nameKey: "yijie_name",
+        descriptionKey: "yijie_desc",
+        icon: "icons/wechatmini/yijie.webp",
+        url: "#小程序://易捷加油/b6claRES3P03VxC",
+        apptype: "wechatmini"
+      },
+      {
+        name: "ETC Assistant",
+        nameKey: "etc_name",
+        descriptionKey: "etc_desc",
+        icon: "icons/wechatmini/etc.webp",
+        url: "#小程序://ETC助手/KJ7AP2LwPfDSI6z",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Haluo Mobility",
+        nameKey: "haluo_name",
+        descriptionKey: "haluo_desc",
+        icon: "icons/wechatmini/haluo.webp",
+        url: "#小程序://哈啰/Lht1JKGFukQZhFG",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Tencent Maps",
+        nameKey: "tencentmaps_name",
+        descriptionKey: "tencentmaps_desc",
+        icon: "icons/wechatmini/tencentmaps.webp",
+        url: "#小程序://腾讯地图丨查路线公交步行搜周边/f3SHk1NIrkaIvet",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Didi Qingju",
+        nameKey: "didiqingju_name",
+        descriptionKey: "didiqingju_desc",
+        icon: "icons/wechatmini/didiqingju.webp",
+        url: "#小程序://青桔/0hig2G6lGATTQwb",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
