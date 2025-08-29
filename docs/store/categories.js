@@ -46,8 +46,7 @@ export const categories = [
     name: "Cybersecurity",
     apps: [
       { name: "ScamAdviser", icon: "icons/scamadviser.webp", url: "https://www.scamadviser.com", descriptionKey: "scamadviser_desc" },
-      { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype: "wrapper" },
-    ]
+      { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype: "wrapper" },    ]
   },
   {
     nameKey: "time_name",
@@ -843,6 +842,13 @@ export const categories = [
         descriptionKey: "thurrott_desc",
         icon: "icons/thurrott.webp",
         url: "https://www.thurrott.com"
+      },
+      {
+        name: "Cybernews",
+        nameKey: "cybernews_name",
+        descriptionKey: "cybernews_desc",
+        icon: "icons/cybernews.webp",
+        url: "https://cybernews.com"
       },
       {
         name: "LINUX DO",

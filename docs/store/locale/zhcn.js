@@ -282,6 +282,8 @@ const L = {
   theverge_desc: "The Verge是由Vox Media运营的科技新闻与媒体平台，创立于2011年，总部位于纽约市。内容涵盖科技、科学、艺术与文化的交汇点，通过新闻、测评、专题、播客和视频呈现数字时代的变革。",
   thurrott_name: "Thurrott",
   thurrott_desc: "Thurrott 是一个专注于微软、Windows、Surface 及相关技术的权威资讯平台，提供深入的新闻报道、产品评测与行业分析，服务于 IT 专业人士、技术爱好者与开发者。",
+  cybernews_name: "Cybernews",
+  cybernews_desc: "由Cybernews内部专家团队制作，提供最新网络安全与信息新闻、独立研究、前沿技术分析以及产品评测。",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO 是面向中文用户的 Linux 门户网站，提供新闻、教程、发行版信息与开源开发资源，服务于技术爱好者与专业人士。",
   juejin_name: "掘金",
