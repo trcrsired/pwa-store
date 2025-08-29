@@ -287,6 +287,8 @@ const L = {
   cybernews_desc: "由Cybernews内部专家团队制作，提供最新网络安全与信息新闻、独立研究、前沿技术分析以及产品评测。",
   techradar_name: "科技雷达 （TechRadar）",
   techradar_desc: "TechRadar是一家全球领先的科技新闻与评测网站，提供关于电子产品、软件和数字趋势的专业见解。从智能手机到流媒体设备，TechRadar通过权威的购买指南和国际化报道，帮助用户做出明智选择。",
+  medianama_name: "MEDIANAMA （媒体智库）",
+  medianama_desc: "MediaNama是印度领先的科技政策新闻与分析平台，内容涵盖人工智能治理、数字权利、网络安全、电信监管及平台责任。为政策制定者、开发者与研究人员提供深入报道与专家评论。",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO 是面向中文用户的 Linux 门户网站，提供新闻、教程、发行版信息与开源开发资源，服务于技术爱好者与专业人士。",
   juejin_name: "掘金",

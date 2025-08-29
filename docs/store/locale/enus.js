@@ -285,6 +285,8 @@ const L = {
   cybernews_desc: "Breaking cybersecurity and information news, independent research, latest tech analysis and product reviews all produced by Cybernews in-house experts.",
   techradar_name: "TechRadar",
   techradar_desc: "TechRadar is a leading technology news and reviews site, offering expert insights on gadgets, software, and digital trends. From smartphones to streaming devices, it helps users make informed decisions with trusted buying guides and global coverage.",
+  medianama_name: "MEDIANAMA",
+  medianama_desc: "MEDIANAMA is a leading source for technology policy news and analysis in India. It covers AI governance, digital rights, cybersecurity, telecom regulation, and platform accountability—serving policymakers, developers, and researchers with in-depth reporting and expert commentary.",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community.",
   juejin_name: "Juejin",

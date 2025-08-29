@@ -865,6 +865,13 @@ export const categories = [
         url: "https://www.techradar.com"
       },
       {
+        name: "MEDIANAMA",
+        nameKey: "medianama_name",
+        descriptionKey: "medianama_desc",
+        icon: "icons/medianama.webp",
+        url: "https://www.medianama.com"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",
