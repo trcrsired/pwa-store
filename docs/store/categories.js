@@ -770,7 +770,7 @@ export const categories = [
         name: "Android Sage",
         nameKey: "androidsage_name",
         descriptionKey: "androidsage_desc",
-        icons: "icons/androidsage.webp",
+        icon: "icons/androidsage.webp",
         url: "https://www.androidsage.com"
       },
       {
