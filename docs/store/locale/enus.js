@@ -851,6 +851,8 @@ const L = {
 
   javhdporn_name: "JavHDPorn",
   javhdporn_desc: "Free Janpanese AV HD Videos, Japanese Porn Streaming Online",
+  avdanyuwiki_name: "avdanyuwiki",
+  avdanyuwiki_desc: "Avdanyuwiki is a community-driven wiki platform that catalogs profiles, filmographies, and career data of Japanese AV actors and actresses. It provides structured metadata, historical records, and cross-referenced tags for enthusiasts and researchers. Content may include images, aliases, debut dates, and studio affiliations.",
 
 // WeChat Mini Programs
   miniprogramdemo_name: "Mini Program Demo",
@@ -939,8 +941,8 @@ const L = {
   dianping_desc: "Discover food, movies, fitness, travel, and tickets via Dianping.",
   youding_name: "Youding (悠订)",
   youding_desc: "A streamlined booking tool for lifestyle services.",
-  avdanyuwiki_name: "avdanyuwiki",
-  avdanyuwiki_desc: "Avdanyuwiki is a community-driven wiki platform that catalogs profiles, filmographies, and career data of Japanese AV actors and actresses. It provides structured metadata, historical records, and cross-referenced tags for enthusiasts and researchers. Content may include images, aliases, debut dates, and studio affiliations."
+  keep_name: "Keep Fitness Assistant (Keep运动助手)",
+  keep_desc: "An official Keep mini app for fitness check-ins, group tracking, data sync, and leaderboard display—boosting motivation through social workouts.",
 };
 
 registerLocale("enus", L);

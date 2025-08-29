@@ -892,6 +892,8 @@ const L = {
 
   javhdporn_name: "JavHDPorn",
   javhdporn_desc: "免费日本AV片高清视频，日本色情内容在线播放",
+  avdanyuwiki_name: "avdanyuwiki",
+  avdanyuwiki_desc: "Avdanyuwiki是一个由社区维护的百科平台，专注于收录日本AV男女优的资料、作品年表与职业信息。平台提供结构化元数据、历史记录与标签交叉索引，适合爱好者与研究者使用。内容可能包括照片、别名、出道时间与所属片商等信息。",
 
 // WeChat Mini Programs
   miniprogramdemo_name: "小程序示例",
@@ -980,8 +982,8 @@ const L = {
   dianping_desc: "探索美食、电影、运动、旅游与门票服务。",
   youding_name: "悠订",
   youding_desc: "一款便捷的生活服务预约工具。",
-  avdanyuwiki_name: "avdanyuwiki",
-  avdanyuwiki_desc: "Avdanyuwiki是一个由社区维护的百科平台，专注于收录日本AV男女优的资料、作品年表与职业信息。平台提供结构化元数据、历史记录与标签交叉索引，适合爱好者与研究者使用。内容可能包括照片、别名、出道时间与所属片商等信息。",
+  keep_name: "Keep运动助手",
+  keep_desc: "Keep官方推出的运动打卡小程序，支持群组打卡、数据同步、排行榜展示等功能，提升健身社交体验。",
 };
 
 registerLocale("zhcn", L);

@@ -2423,7 +2423,15 @@ export const categories = [
         icon: "icons/wrappers/deltadental.webp",
         url: "/wrappers/deltadental",
         apptype: "wrapper"
-      }
+      },
+      {
+        name: "Keep Fitness Assistant",
+        nameKey: "keep_name",
+        descriptionKey: "keep_desc",
+        icon: "icons/wechatmini/keep.webp",
+        url: "#小程序://Keep运动助手/uGebbOX0XuWA0Li",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
