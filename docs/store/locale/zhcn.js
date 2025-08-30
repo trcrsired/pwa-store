@@ -40,6 +40,8 @@ const L = {
   "wavacity_desc": "Wavacity 是一个免费开源的音频编辑器，可直接在网页浏览器中运行。它是 Audacity® 的浏览器版本移植，支持多轨编辑和音频处理，无需安装。Wavacity 与 Audacity 无隶属或官方授权关系。",
   "webscreenrecorder_name": "Web Screen Recorder",
   "webscreenrecorder_desc": "Web Screen Recorder 是一款基于浏览器的录屏工具，支持用户直接在任意设备上录制屏幕、摄像头和麦克风，无需下载。适用于教程、会议或演示，提供快速轻便的录制体验，并保障隐私存储。",
+  "squoosh_name": "Squoosh",
+  "squoosh_desc": "Squoosh 是一个基于浏览器的图像压缩工具，支持本地调整大小、格式转换和图像优化。用户可使用高级编解码器进行实时预览和参数配置，无需将文件上传至服务器。",
   "copilot_desc": "微软推出的对话式 AI——Copilot 支持实时联网、语音交互，帮助你思考、写作和探索。",
   "deepseek_desc": "国产 AI 助手，具备强大的推理能力和多语言支持——DeepSeek 的 PWA 提供免费访问其旗舰模型。",
   "chatgpt_desc": "OpenAI 的对话助手——ChatGPT 的 PWA 提供 GPT 模型、记忆、插件和语音功能的可安装访问。",

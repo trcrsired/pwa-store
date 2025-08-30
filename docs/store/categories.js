@@ -20,6 +20,13 @@ export const categories = [
         icon: "icons/webscreenrecorder.webp",
         url: "https://menglinmaker-pwa-screen-recorder.netlify.app"
       },
+      {
+        name: "Squoosh",
+        nameKey: "squoosh_name",
+        descriptionKey: "squoosh_desc",
+        icon: "icons/squoosh.webp",
+        url: "https://squoosh.app"
+      },
     ]
   },
   {

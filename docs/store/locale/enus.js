@@ -40,6 +40,8 @@ const L = {
   "wavacity_desc": "Wavacity is a free, open-source audio editor that runs directly in the web browser. It is a browser-based port of Audacity®, offering multi-track editing and audio processing without installation. Wavacity is not affiliated with or endorsed by Audacity.",
   "webscreenrecorder_name": "Web Screen Recorder",
   "webscreenrecorder_desc": "Web Screen Recorder is a browser-based tool that lets users record their screen, webcam, and microphone directly from any device—no downloads required. Ideal for tutorials, meetings, or demos, it offers a fast and lightweight recording experience with instant access and privacy-friendly storage.",
+  "squoosh_name": "Squoosh",
+  "squoosh_desc": "Squoosh is a browser-based image compression tool that lets users resize, convert, and optimize images locally using advanced codecs. It supports real-time previews and customizable settings without uploading files to a server.",
   "copilot_desc": "Conversational AI by Microsoft—Copilot helps you think, write, and explore with real-time web access and voice support.",
   "deepseek_desc": "Chinese-developed AI assistant with powerful reasoning and multilingual support—DeepSeek’s PWA offers free access to its flagship models.",
   "chatgpt_desc": "OpenAI’s conversational assistant—ChatGPT’s PWA delivers installable access to GPT models, memory, plugins, and voice features.",
