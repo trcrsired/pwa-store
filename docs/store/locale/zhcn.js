@@ -442,6 +442,8 @@ const L = {
   espn_desc: "综合体育网络，ESPN 报道各类联赛和项目的直播赛事、运动员动态、排名和分析。",
   mangadex_name: "MangaDex",
   mangadex_desc: "MangaDex是一个非营利性的在线漫画阅读平台，由Hologfx于2018年创立。由翻译组打造并运营，支持多语言的漫画、韩漫和中漫的非官方译本，提供高级筛选和用户自定义书库功能。",
+  crunchyroll_name: "Crunchyroll",
+  crunchyroll_desc: "Crunchyroll 是一个专注于动漫的流媒体服务，提供来自日本及其他地区的数千集动画剧集。平台包含同步播出剧集、原创作品，以及涵盖多种类型的大量字幕和配音内容。",
   dubok_name: "独播库",
   dubok_desc: "独播库是一个专注于独家和冷门剧集的中国流媒体网站，聚合多个来源内容，更新迅速，提供大量带字幕的剧集，适合小众观众。",
 
