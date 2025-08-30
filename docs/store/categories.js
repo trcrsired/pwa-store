@@ -1548,6 +1548,13 @@ export const categories = [
         url: "https://www.samsclub.com"
       },
       {
+        name: "Seamless",
+        nameKey: "seamless_name",
+        descriptionKey: "seamless_desc",
+        icon: "icons/seamless.webp",
+        url: "https://www.seamless.com"
+      },
+      {
         name: "Taobao (淘宝)",
         nameKey: "taobao_name",
         descriptionKey: "taobao_desc",
@@ -1601,6 +1608,29 @@ export const categories = [
         icon: "icons/wrappers/kfc.webp",
         url: "/wrappers/kfc",
         apptype: "wrapper"
+      },
+      {
+        name: "KFC (CN)",
+        nameKey: "kfccn_name",
+        descriptionKey: "kfccn_desc",
+        icon: "icons/kfc.webp",
+        url: "https://www.kfc.com.cn"
+      },
+      {
+        name: "KFC (CN)",
+        nameKey: "kfccnwechatmini_name",
+        descriptionKey: "kfccnwechatmini_desc",
+        icon: "icons/kfc.webp",
+        url: "#小程序://肯德基自助点餐/vSpQIGDyIbM8Vsi",
+        apptype: "wechatmini"
+      },
+      {
+        name: "KFC+ (CN)",
+        nameKey: "kfcpluscnwechatmini_name",
+        descriptionKey: "kfcpluscnwechatmini_desc",
+        icon: "icons/kfc.webp",
+        url: "#小程序://肯德基+/IET1fiA5KgBHlHG",
+        apptype: "wechatmini"
       },
       {
         name: "Subway",

@@ -614,6 +614,8 @@ const L = {
   dunkindonuts_desc: "Dunkin' 成立于1950年，是全球领先的咖啡与甜甜圈品牌，在全球拥有超过14,000家门店。产品涵盖咖啡、烘焙食品和早餐选项，隶属于 Inspire Brands 品牌集团。",
   samsclub_name: "山姆会员商店",
   samsclub_desc: "山姆会员商店 （Sam's Club）是沃尔玛旗下的高端会员制仓储超市，提供全球精选商品、大包装优惠、生鲜冷链配送及多种会员专属服务。用户可通过官网或App享受线上线下融合的购物体验，覆盖美国家庭与中国城市。",
+  seamless_name: "Seamless",
+  seamless_desc: "Seamless 是一个在线订餐平台，连接用户与本地餐厅，支持快速外卖或自取服务。由 Grubhub 提供技术支持，平台覆盖美国主要城市，提供数千家餐厅菜单、实时订单追踪以及专属优惠。",
   taobao_name: "淘宝",
   taobao_desc: "中国主要的 C2C 电商平台，提供从时尚、电子产品到本地手工商品的多样化市场。由阿里巴巴支持，具备强大的搜索功能、移动优先体验以及物流与社交电商的深度整合。",
 
@@ -632,7 +634,12 @@ const L = {
 
   kfc_name: "肯德基",
   kfc_desc: "全球知名快餐连锁，以炸鸡闻名，支持在线点餐、优惠活动和门店查询。",
-
+  kfccn_name: "肯德基（中国）",
+  kfccn_desc: "肯德基中国官网，提供菜单浏览、门店查询、优惠活动及在线订餐服务。",
+  kfccnwechatmini_name: "肯德基自助点餐",
+  kfccnwechatmini_desc: "肯德基微信小程序，支持在中国自助点餐、优惠券领取及附近门店定位。",
+  kfcpluscnwechatmini_name: "肯德基+",
+  kfcpluscnwechatmini_desc: "肯德基+ 微信小程序，在中国提供会员专属权益、积分兑换、个性化推荐与互动活动。",
   subway_name: "赛百味",
   subway_desc: "国际三明治连锁店，提供可定制的潜艇堡、卷饼和沙拉，支持在线点餐、会员奖励和门店定位。",
 
