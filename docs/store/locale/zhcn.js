@@ -56,6 +56,8 @@ const L = {
   "metaai_desc": "Meta AI 是 Meta 公司推出的生成式人工智能助手，基于其自研的 Llama 系列语言模型。它支持自然语言对话、图像生成、实时网页搜索和语音交互，已集成于 Instagram、WhatsApp 和 Messenger 等平台。Meta AI 提供个性化助手服务、创意工具与社交功能，体现了 Meta 将智能代理融入日常数字生活的愿景。",
   "kimi_desc": "Kimi 是由 Moonshot AI 开发的人工智能助手，支持自然语言交互，可用于研究、写作、编程和文档分析。",
   "kimiplus_desc": "Kimi+ 提供面向专业用户的增强功能，包括长文本处理、多模态输入支持，以及适用于复杂任务的高级推理能力。",
+  wolframalpha_name: "WolframAlpha",
+  wolframalpha_desc: "WolframAlpha 是一个计算知识引擎，通过整合数据、算法和符号计算，为科学、金融及日常问题提供专业级答案。广泛应用于智能搜索、数学求解和数据分析。",
   "perplexity_desc": "Perplexity 是一款由人工智能驱动的搜索与问答引擎，结合大型语言模型与实时网页浏览功能，能够快速生成带有引用的精准答案。它支持对话式查询、深度研究、文档分析和图像识别，适用于学术探索、信息检索和专业内容整合。高级用户还可使用 Pro 模式进行多模态搜索与定制化报告生成。",
   "cursor_name": "Cursor",
   "cursor_desc": "Cursor 是一款由 AI 驱动的编程助手，支持跨平台代码编写、重构与调试。其智能代理可生成文件、执行终端命令、分析完整代码库，并可通过网页、命令行和 Slack 使用。",

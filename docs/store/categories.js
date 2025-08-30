@@ -46,6 +46,9 @@ export const categories = [
       { name: "DeepSeek", icon: "icons/deepseek.webp", url: "https://deepseek.com", descriptionKey: "deepseek_desc" },
       { name: "Kimi", icon: "icons/kimi.webp", url: "https://www.kimi.com", descriptionKey: "kimi_desc" },
       { name: "Kimi+", icon: "icons/kimi.webp", url: "https://www.kimi.com/kimiplus-square", descriptionKey: "kimiplus_desc" },
+      {
+        name: "WolframAlpha", nameKey: "wolframalpha_name", icon: "icons/wolframapha.webp", url: "https://www.wolframalpha.com", descriptionKey: "wolframalpha_desc"
+      },
       { name: "Perplexity", icon: "icons/wrappers/perplexity.webp", url: "/wrappers/perplexity", descriptionKey: "perplexity_desc", apptype: "wrapper" },
     ]
   },
