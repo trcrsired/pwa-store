@@ -956,6 +956,8 @@ const L = {
   youding_desc: "A streamlined booking tool for lifestyle services.",
   keep_name: "Keep Fitness Assistant (Keep运动助手)",
   keep_desc: "An official Keep mini app for fitness check-ins, group tracking, data sync, and leaderboard display—boosting motivation through social workouts.",
+  ybzf_name: "Mobile Medical Insurance Payment (医保移动支付)",
+  ybzf_desc: "This service allows insured users to settle medical expenses via mobile apps, supporting outpatient registration, consultations, and prescriptions without physical cards or queueing.",
 };
 
 registerLocale("enus", L);

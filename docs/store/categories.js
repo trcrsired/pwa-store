@@ -2477,6 +2477,14 @@ export const categories = [
         url: "#小程序://Keep运动助手/uGebbOX0XuWA0Li",
         apptype: "wechatmini"
       },
+      {
+        name: "Mobile Medical Insurance Payment (医保移动支付)",
+        nameKey: "ybzf_name",
+        descriptionKey: "ybzf_desc",
+        icon: "icons/wechatmini/ybzf.webp",
+        url: "#小程序://医保移动支付/VnUHHAb2ukRreIy",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
