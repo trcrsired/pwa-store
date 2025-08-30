@@ -1617,14 +1617,14 @@ export const categories = [
         name: "KFC (CN)",
         nameKey: "kfccn_name",
         descriptionKey: "kfccn_desc",
-        icon: "icons/kfc.webp",
+        icon: "icons/wrappers/kfc.webp",
         url: "https://www.kfc.com.cn"
       },
       {
         name: "KFC (CN)",
         nameKey: "kfccnwechatmini_name",
         descriptionKey: "kfccnwechatmini_desc",
-        icon: "icons/kfc.webp",
+        icon: "icons/wrappers/kfc.webp",
         url: "#小程序://肯德基自助点餐/vSpQIGDyIbM8Vsi",
         apptype: "wechatmini"
       },
@@ -1632,7 +1632,7 @@ export const categories = [
         name: "KFC+ (CN)",
         nameKey: "kfcpluscnwechatmini_name",
         descriptionKey: "kfcpluscnwechatmini_desc",
-        icon: "icons/kfc.webp",
+        icon: "icons/wrappers/kfc.webp",
         url: "#小程序://肯德基+/IET1fiA5KgBHlHG",
         apptype: "wechatmini"
       },
