@@ -446,6 +446,8 @@ const L = {
   mangadex_desc: "MangaDex is a nonprofit online manga reader founded in 2018 by Hologfx. Built by scanlators for scanlators, it hosts unofficial fan translations of manga, manhwa, and manhua in multiple languages, with advanced filtering and user-controlled libraries.",
   crunchyroll_name: "Crunchyroll",
   crunchyroll_desc: "Crunchyroll is a streaming service focused on anime, offering thousands of episodes from Japan and beyond. It features simulcasts, original productions, and a wide selection of subbed and dubbed series across various genres.",
+  sling_name: "Sling",
+  sling_Desc: "Sling TV is a flexible streaming service offering live and on-demand channels across news, sports, and entertainment. Users can customize their lineup with affordable packages and no long-term contracts.",
   dubok_name: "Dubok (独播库)",
   dubok_desc: "Dubok is a Chinese streaming site specializing in exclusive and hard-to-find TV dramas, anime, and variety shows. It aggregates content from multiple sources, offering fast updates and a wide selection of subtitled episodes for niche audiences.",
 
