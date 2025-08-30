@@ -1689,6 +1689,14 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
+        name: "Meituan Preferred",
+        nameKey: "meituanpreferred_name",
+        descriptionKey: "meituanpreferred_desc",
+        icon: "icons/wechatmini/meituanpreferred.webp",
+        url: "#小程序://美团优选明日达超市真的真的省/80klD1YmciqrG7p",
+        apptype: "wechatmini"
+      },
+      {
         name: "Ele.me",
         nameKey: "eleme_name",
         descriptionKey: "eleme_desc",

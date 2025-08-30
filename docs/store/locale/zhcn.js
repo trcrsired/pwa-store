@@ -928,6 +928,8 @@ const L = {
   meituangroupmeals_desc: "美团拼好饭是一个微信小程序，用户可通过分享链接组团点餐，享受优惠和免配送费。支持全国热门餐厅，团购更省钱，点餐更高效。",
   meituanwaimai_name: "美团外卖",
   meituanwaimai_desc: "美团外卖微信小程序，提供附近餐厅的外卖服务，包括美食、奶茶、咖啡、水果及日常用品。用户可浏览商家、下单点餐，并实时查看配送进度。",
+  meituanpreferred_name: "美团优选",
+  meituanpreferred_desc: "美团优选微信小程序，支持次日达超市购物，优惠力度大，自助下单更便捷。",
   eleme_name: "饿了么",
   eleme_desc: "饿了么微信小程序，提供外卖点餐、生鲜果蔬、超市商品及日常用品服务。用户可浏览附近餐厅、下单美食，也可选购买菜水果与生活用品，一站式便捷体验。",
   pinduoduo_name: "拼多多",

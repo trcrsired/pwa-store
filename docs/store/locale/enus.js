@@ -887,6 +887,8 @@ const L = {
   meituangroupmeals_desc: "Meituan Group Meals is a WeChat Mini Program that lets users team up to order food together for discounts and free delivery. Share a meal link, form a group, and enjoy savings on popular restaurants across China.",
   meituanwaimai_name: "Meituan Waimai (美团外卖)",
   meituanwaimai_desc: "Meituan Waimai’s WeChat Mini Program offers food delivery from nearby restaurants, milk tea, coffee, fruits, and daily essentials. Users can browse local options, place orders, and track deliveries in real time.",
+  meituanpreferred_name: "Meituan Preferred (美团优选)",
+  meituanpreferred_desc: "WeChat Mini Program for next-day grocery delivery with major discounts and convenient self-service shopping.",
   eleme_name: "Ele.me (饿了么)",
   eleme_desc: "Ele.me’s WeChat Mini Program offers food delivery, fresh groceries, supermarket items, and daily essentials. Users can browse nearby restaurants, order meals, and shop for fruits, vegetables, and household goods—all in one streamlined experience.",
   pinduoduo_name: "Pinduoduo (拼多多)",
