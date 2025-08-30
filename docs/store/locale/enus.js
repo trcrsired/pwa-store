@@ -714,7 +714,7 @@ const L = {
   azure_name: "Azure",
   azure_desc: "Azure is the cloud computing platform developed by Microsoft. It offers management, access and development of applications and services to individuals, companies, and governments through its global infrastructure.",
   legaltech_name: "LegalTech",
-  tencentesignature_name: "Tencent E-Signature",
+  tencentesignature_name: "Tencent E-Signature (腾讯电子签)",
   tencentesignature_desc: "Tencent E-Signature is a WeChat-integrated electronic signing service developed by Tencent Cloud. It supports secure contract signing, identity verification, blockchain-based evidence storage, and full lifecycle contract management. Widely used in finance, HR, legal, and enterprise workflows.",
   websitesblogs_name: "Websites & Blogs",
 
