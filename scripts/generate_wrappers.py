@@ -93,6 +93,7 @@ WRAPPERS = [
   { "name": "LeetCode (CN)", "url": "https://leetcode.cn", "keyify_name": "leetcodecn", "icon": "leetcode.webp"},
   { "name": "ISO C++", "url": "https://isocpp.org" , "keyify_name": "isocpp"},
   { "name": "WeChat Read", "url": "https://weread.qq.com" , "keyify_name": "wechatread"},
+  { "name": "Qingting FM", "url": "https://www.qtfm.cn" , "keyify_name": "qingtingfm"},
   { "name": "NVIDIA", "url": "https://www.nvidia.com" },
   { "name": "CurseForge", "url": "https://www.curseforge.com" },
   { "name": "MineCraft Forum", "url": "https://www.minecraftforum.net", "keyify_name": "minecraftforum" },
