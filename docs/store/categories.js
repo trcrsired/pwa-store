@@ -601,6 +601,13 @@ export const categories = [
         url: "https://mixi.jp",
         descriptionKey: "mixi_desc",
       },
+      {
+        name: "Rumble",
+        nameKey: "rumble_name",
+        icon: "icons/rumble.webp",
+        url: "https://rumble.com",
+        descriptionKey: "rumble_desc",
+      },
       { name: "Weibo Lite (微博Lite)", nameKey: "weibo_name", descriptionKey: "weibo_desc", icon: "icons/weibo.webp", url: "https://m.weibo.cn" },
       {
         name: "Zoosk",

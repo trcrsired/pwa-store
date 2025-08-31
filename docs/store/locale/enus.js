@@ -206,6 +206,8 @@ const L = {
   pinterest_desc: "Pinterest is your visual discovery engine for finding ideas like recipes, home and style inspiration, and more. Save what you love, organize your finds, and explore endless creativity from around the world.",
   mixi_name: "Mixi（ミクシィ）",
   mixi_desc: "A Japanese social networking service known for community forums, diary-style posts, and interest-based groups.",
+  rumble_name: "Rumble",
+  rumble_desc: "A video-sharing platform known for its free speech stance and alternative monetization options, often seen as a YouTube alternative.",
   zoosk_name: "Zoosk",
   zoosk_desc: "Zoosk is a popular online dating platform that uses behavioral matchmaking technology to connect singles worldwide. With a user-friendly interface and smart matching features, Zoosk helps people find meaningful relationships in a fun and secure environment.",
   tieba_name: "Tieba (贴吧)",
