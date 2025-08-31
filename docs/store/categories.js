@@ -989,6 +989,13 @@ export const categories = [
         url: "https://postimages.org",
       },
       {
+        name: "Photopea",
+        nameKey: "photopea_name",
+        descriptionKey: "photopea_desc",
+        icon: "icons/photopea.webp",
+        url: "https://www.photopea.com"
+      },
+      {
         name: "Canva",
         nameKey: "canva_name",
         descriptionKey: "canva_desc",

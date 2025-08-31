@@ -325,6 +325,8 @@ const L = {
   godot_desc: "使用官方的 Godot 网页编辑器，直接在浏览器中创建和原型设计 2D 与 3D 游戏。无需安装，打开即可开始构建。非常适合学习、实验和快速场景测试，支持 GDScript 和 Godot 的节点式架构。",
   postimages_name: "Postimages",
   postimages_desc: "Postimages 是一个免费的图像托管服务，支持快速匿名上传。用户可拖拽图片生成外链，轻松嵌入论坛、博客或网站，无需注册即可使用。",
+  photopea_name: "Photopea",
+  photopea_desc: "一款专业级在线图片编辑器，支持 PSD 及 40 多种格式。完全在浏览器中运行，无需上传文件。",
   canva_name: "可画",
   canva_desc: "可画是一款功能强大的在线设计平台，让任何人都能轻松创作出令人惊艳的视觉作品。无论是社交媒体内容、演示文稿、营销素材还是视频，可画都提供海量模板和直观工具，一站式满足你的设计需求。",
   news_name: "新闻",

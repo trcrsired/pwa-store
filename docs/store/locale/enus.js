@@ -323,6 +323,8 @@ const L = {
   godot_desc: "Create and prototype 2D and 3D games directly in your browser with the official Godot Web Editor. No installation required—just launch and start building. Ideal for learning, experimentation, and quick scene testing, with support for GDScript and Godot’s node-based architecture.",
   postimages_name: "Postimages",
   postimages_desc: "Postimages is a free image hosting service designed for fast, anonymous uploads. Users can drag and drop images, generate direct links, and embed them in forums, blogs, or websites—no registration required.",
+  photopea_name: "Photopea",
+  photopea_desc: "A professional-grade online photo editor supporting PSD and 40+ formats. Runs fully in-browser with no uploads required.",
   canva_name: "Canva",
   canva_desc: "Canva is a powerful online design platform that makes it easy for anyone to create stunning visuals. From social media posts and presentations to marketing materials and videos, Canva offers thousands of templates and intuitive tools—all in one place.",
   news_name: "News",
