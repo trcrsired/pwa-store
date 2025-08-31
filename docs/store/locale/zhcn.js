@@ -80,6 +80,8 @@ const L = {
   "wps_desc": "由中国金山办公软件公司开发的办公套件。",
   "wpscn_name": "WPS国内版",
   "wpscn_desc": "WPS的国内版本，由中国金山办公软件公司开发。",
+  "simplenote_name": "Simplenote",
+  "simplenote_desc": "Simplenote 是一款跨平台的笔记应用，支持 Markdown 语法和云端实时同步。界面简洁，用户可创建、编辑和管理纯文本笔记，并通过标签进行分类。支持协作功能，可通过共享笔记实现多人编辑，适用于多设备间的内容同步与轻量级记录。",
   "programming_name": "编程",
 
   open_web_advocacy_name: "开放网络倡议",

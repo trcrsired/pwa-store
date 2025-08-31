@@ -114,6 +114,13 @@ export const categories = [
         icon: "icons/wrappers/wps.webp",
         url: "/wrappers/wpscn",
         apptype: "wrapper"
+      },
+      {
+        name: "Simplenote",
+        nameKey: "simplenote_name",
+        descriptionKey: "simplenote_desc",
+        icon: "icons/simplenote.webp",
+        url: "https://app.simplenote.com"
       }
     ]
   },
