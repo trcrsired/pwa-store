@@ -588,6 +588,8 @@ const L = {
   cznull_desc: "免费的在线性能测试与基准评估工具，帮助您全面检测设备的 GPU、CPU 和内存性能。",
   redirectionio_name: "Redirection.io",
   redirectionio_desc: "一个强大的 HTTP 重定向管理平台，帮助优化 SEO，防止网站迁移期间的流量损失。",
+  humanbenchmark_name: "Human Benchmark",
+  humanbenchmark_desc: "Human Benchmark 是一个基于浏览器的平台，提供认知能力测试和反应类小游戏。用户可通过互动挑战测量记忆力、反应速度、打字速度和模式识别等能力。测试结果可本地保存或通过账户登录进行进度跟踪。",
   browserbench_name: "BrowserBench",
   browserbench_desc: "MotionMark 是一款用于测试浏览器图形系统性能的基准测试工具。",
 

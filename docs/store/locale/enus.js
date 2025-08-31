@@ -588,6 +588,8 @@ const L = {
   cznull_desc: "Free online performance tests and benchmarks for your device. Test your GPU, CPU, and memory capabilities with our comprehensive suite of tests.",
   redirectionio_name: "Redirection.io",
   redirectionio_desc: "A powerful platform for managing HTTP redirections, optimizing SEO, and preventing traffic loss during site transitions.",
+  humanbenchmark_name: "Human Benchmark",
+  humanbenchmark_desc: "Human Benchmark is a browser-based platform offering cognitive performance tests and reaction-based games. Users can measure abilities such as memory, reflexes, typing speed, and pattern recognition through interactive challenges. Results are stored locally or via account login for progress tracking.",
   browserbench_name: "BrowserBench",
   browserbench_desc: "MotionMark is a benchmark designed to put browser graphics systems to the test.",
 

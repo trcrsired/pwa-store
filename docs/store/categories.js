@@ -1471,6 +1471,13 @@ export const categories = [
         url: "https://redirection.io"
       },
       {
+        name: "Human Benchmark",
+        nameKey: "humanbenchmark_name",
+        descriptionKey: "humanbenchmark_desc",
+        icon: "icons/humanbenchmark.webp",
+        url: "https://humanbenchmark.com"
+      },
+      {
         name: "BrowserBench",
         nameKey: "browserbench_name",
         descriptionKey: "browserbench_desc",
