@@ -31,6 +31,12 @@ export const categories = [
     ]
   },
   {
+    nameKey: "alternatives_name",
+    name: "Alternatives",
+    apps: [
+    ]
+  },
+  {
     nameKey: "chabots_name",
     name: "Chatbots",
     apps: [
@@ -1559,6 +1565,13 @@ export const categories = [
         descriptionKey: "seamless_desc",
         icon: "icons/seamless.webp",
         url: "https://www.seamless.com"
+      },
+      {
+        name: "Flipkart",
+        nameKey: "flipkart_name",
+        descriptionKey: "flipkart_desc",
+        icon: "icons/flipkart.webp",
+        url: "https://www.flipkart.com",
       },
       {
         name: "Taobao (淘宝)",

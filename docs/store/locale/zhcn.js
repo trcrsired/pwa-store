@@ -45,6 +45,7 @@ const L = {
   "webscreenrecorder_desc": "Web Screen Recorder 是一款基于浏览器的录屏工具，支持用户直接在任意设备上录制屏幕、摄像头和麦克风，无需下载。适用于教程、会议或演示，提供快速轻便的录制体验，并保障隐私存储。",
   "squoosh_name": "Squoosh",
   "squoosh_desc": "Squoosh 是一个基于浏览器的图像压缩工具，支持本地调整大小、格式转换和图像优化。用户可使用高级编解码器进行实时预览和参数配置，无需将文件上传至服务器。",
+  "alternatives_name": "替代品",
   "copilot_desc": "微软推出的对话式 AI——Copilot 支持实时联网、语音交互，帮助你思考、写作和探索。",
   "deepseek_desc": "国产 AI 助手，具备强大的推理能力和多语言支持——DeepSeek 的 PWA 提供免费访问其旗舰模型。",
   "chatgpt_desc": "OpenAI 的对话助手——ChatGPT 的 PWA 提供 GPT 模型、记忆、插件和语音功能的可安装访问。",
@@ -622,6 +623,8 @@ const L = {
   samsclub_desc: "山姆会员商店 （Sam's Club）是沃尔玛旗下的高端会员制仓储超市，提供全球精选商品、大包装优惠、生鲜冷链配送及多种会员专属服务。用户可通过官网或App享受线上线下融合的购物体验，覆盖美国家庭与中国城市。",
   seamless_name: "Seamless",
   seamless_desc: "Seamless 是一个在线订餐平台，连接用户与本地餐厅，支持快速外卖或自取服务。由 Grubhub 提供技术支持，平台覆盖美国主要城市，提供数千家餐厅菜单、实时订单追踪以及专属优惠。",
+  flipkart_name: "Flipkart",
+  flipkart_desc: "印度在线购物平台，涵盖手机、电子产品、时尚、家具、杂货等。",
   taobao_name: "淘宝",
   taobao_desc: "中国主要的 C2C 电商平台，提供从时尚、电子产品到本地手工商品的多样化市场。由阿里巴巴支持，具备强大的搜索功能、移动优先体验以及物流与社交电商的深度整合。",
 
