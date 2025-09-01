@@ -1229,6 +1229,13 @@ export const categories = [
         url: "https://web.xiangyin.mobi"
       },
       {
+        name: "Physics Lab",
+        nameKey: "physicslab_name",
+        descriptionKey: "physicslab_desc",
+        icon: "icons/physicslab.webp",
+        url: "https://plweb.turtlesim.com"
+      },
+      {
         name: "Eudic Dictionary",
         nameKey: "eudic_name",
         descriptionKey: "eudic_desc",
