@@ -8,7 +8,8 @@ export const categories = [
       { name: "TReader", icon: "icons/treader.webp", url: "https://tiansh.github.io/reader", descriptionKey: "treader_desc" },
       { name: "WebVideoPlayer", icon: "icons/webvideoplayer.webp", url: "https://webvideoplayer.org", descriptionKey: "webvideoplayer_desc" },
       { nameKey: "pwaplayer_name", name: "PWA Player (My own toy)", icon: "icons/pwaplayer.webp", url: "https://pwa-player.pages.dev", descriptionKey: "pwaplayer_desc" },
-      { name: "Calculator", icon: "icons/calculator.webp", url: "https://chrisdiana.github.io/pwa-calculator", descriptionKey: "calculator_desc" },
+      { name: "Calculator", nameKey: "calculator_name", icon: "icons/calculator.webp", url: "https://chrisdiana.github.io/pwa-calculator", descriptionKey: "calculator_desc" },
+      { name: "Calculator (Chrome)", nameKey: "calculatorchrome_name", icon: "icons/calculatorchrome.webp", url: "https://calculator.apps.chrome/install", descriptionKey: "calculatorchrome_desc", nameKey: "calculatorchrome_name" },
       { name: "Weawow", icon: "icons/weawow.webp", url: "https://weawow.com", descriptionKey: "weawow_desc" },
       { name: "Screen Flashlight", icon: "icons/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", descriptionKey: "screenflashlight_desc" },
       { name: "PWA Store", nameKey: "pwastore_name", icon: "logo/logo.webp", url: ".", descriptionKey: "pwastore_desc" },
@@ -20,6 +21,19 @@ export const categories = [
         icon: "icons/webscreenrecorder.webp",
         url: "https://menglinmaker-pwa-screen-recorder.netlify.app"
       },
+      {
+        name: "Squoosh",
+        nameKey: "squoosh_name",
+        descriptionKey: "squoosh_desc",
+        icon: "icons/squoosh.webp",
+        url: "https://squoosh.app"
+      },
+    ]
+  },
+  {
+    nameKey: "alternatives_name",
+    name: "Alternatives",
+    apps: [
     ]
   },
   {
@@ -38,6 +52,9 @@ export const categories = [
       { name: "DeepSeek", icon: "icons/deepseek.webp", url: "https://deepseek.com", descriptionKey: "deepseek_desc" },
       { name: "Kimi", icon: "icons/kimi.webp", url: "https://www.kimi.com", descriptionKey: "kimi_desc" },
       { name: "Kimi+", icon: "icons/kimi.webp", url: "https://www.kimi.com/kimiplus-square", descriptionKey: "kimiplus_desc" },
+      {
+        name: "WolframAlpha", nameKey: "wolframalpha_name", icon: "icons/wolframalpha.webp", url: "https://www.wolframalpha.com", descriptionKey: "wolframalpha_desc"
+      },
       { name: "Perplexity", icon: "icons/wrappers/perplexity.webp", url: "/wrappers/perplexity", descriptionKey: "perplexity_desc", apptype: "wrapper" },
     ]
   },
@@ -46,8 +63,7 @@ export const categories = [
     name: "Cybersecurity",
     apps: [
       { name: "ScamAdviser", icon: "icons/scamadviser.webp", url: "https://www.scamadviser.com", descriptionKey: "scamadviser_desc" },
-      { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype: "wrapper" },
-    ]
+      { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype: "wrapper" },    ]
   },
   {
     nameKey: "time_name",
@@ -98,6 +114,13 @@ export const categories = [
         icon: "icons/wrappers/wps.webp",
         url: "/wrappers/wpscn",
         apptype: "wrapper"
+      },
+      {
+        name: "Simplenote",
+        nameKey: "simplenote_name",
+        descriptionKey: "simplenote_desc",
+        icon: "icons/simplenote.webp",
+        url: "https://app.simplenote.com"
       }
     ]
   },
@@ -578,6 +601,13 @@ export const categories = [
         url: "https://mixi.jp",
         descriptionKey: "mixi_desc",
       },
+      {
+        name: "Rumble",
+        nameKey: "rumble_name",
+        icon: "icons/rumble.webp",
+        url: "https://rumble.com",
+        descriptionKey: "rumble_desc",
+      },
       { name: "Weibo Lite (微博Lite)", nameKey: "weibo_name", descriptionKey: "weibo_desc", icon: "icons/weibo.webp", url: "https://m.weibo.cn" },
       {
         name: "Zoosk",
@@ -594,7 +624,15 @@ export const categories = [
         url: "/wrappers/tieba",
         descriptionKey: "tieba_desc",
         apptype: "wrapper"
-      }
+      },
+      {
+        name: "Tencent Meeting",
+        nameKey: "tencentmeeting_name",
+        icon: "icons/wechatmini/tencentmeeting.webp",
+        url: "#小程序://腾讯会议/2S7Qe4qJWnhBOCe",
+        descriptionKey: "tencentmeeting_desc",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
@@ -768,6 +806,20 @@ export const categories = [
         url: "https://www.macrumors.com"
       },
       {
+        name: "Android Sage",
+        nameKey: "androidsage_name",
+        descriptionKey: "androidsage_desc",
+        icon: "icons/androidsage.webp",
+        url: "https://www.androidsage.com"
+      },
+      {
+        name: "Android Headlines",
+        nameKey: "androidheadlines_name",
+        descriptionKey: "androidheadlines_desc",
+        icon: "icons/androidheadlines.webp",
+        url: "https://www.androidheadlines.com"
+      },
+      {
         name: "Android Authority",
         nameKey: "androidauthority_name",
         descriptionKey: "androidauthority_desc",
@@ -845,6 +897,27 @@ export const categories = [
         url: "https://www.thurrott.com"
       },
       {
+        name: "Cybernews",
+        nameKey: "cybernews_name",
+        descriptionKey: "cybernews_desc",
+        icon: "icons/cybernews.webp",
+        url: "https://cybernews.com"
+      },
+      {
+        name: "TechRadar",
+        nameKey: "techradar_name",
+        descriptionKey: "techradar_desc",
+        icon: "icons/techradar.webp",
+        url: "https://www.techradar.com"
+      },
+      {
+        name: "MEDIANAMA",
+        nameKey: "medianama_name",
+        descriptionKey: "medianama_desc",
+        icon: "icons/medianama.webp",
+        url: "https://www.medianama.com"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",
@@ -887,6 +960,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "APK Premier",
+        nameKey: "apkpremier_name",
+        icon: "icons/wrappers/apkpremier.webp",
+        url: "/wrappers/apkpremier",
+        descriptionKey: "apkpremier_desc",
+        apptype: "wrapper"
+      },
+      {
         name: "BTSOW",
         nameKey: "btsow_name",
         descriptionKey: "btsow_desc",
@@ -920,6 +1001,13 @@ export const categories = [
         descriptionKey: "postimages_desc",
         icon: "icons/postimages.webp",
         url: "https://postimages.org",
+      },
+      {
+        name: "Photopea",
+        nameKey: "photopea_name",
+        descriptionKey: "photopea_desc",
+        icon: "icons/photopea.webp",
+        url: "https://www.photopea.com"
       },
       {
         name: "Canva",
@@ -1003,10 +1091,17 @@ export const categories = [
       { name: "ViX (vix.watch)", nameKey: "vixwatch_name", descriptionKey: "vixwatch_desc", icon: "icons/vix.webp", url: "https://vix.watch" },
       { name: "ESPN", nameKey: "espn_name", descriptionKey: "espn_desc", icon: "icons/espn.webp", url: "https://www.espn.com" },
       { name: "MangaDex", nameKey: "mangadex_name", descriptionKey: "mangadex_desc", icon: "icons/mangadex.webp", url: "https://mangadex.org" },
+      { name: "Crunchyroll", nameKey: "crunchyroll_name", descriptionKey: "crunchyroll_desc", icon: "icons/crunchyroll.webp", url: "https://www.crunchyroll.com" },
+      {
+        name: "Sling", nameKey: "sling_name", descriptionKey: "sling_Desc",
+        icon: "icons/sling.webp", url: "https://www.sling.com"
+      },
       { name: "Dubok (独播库)", nameKey: "dubok_name", descriptionKey: "dubok_desc", icon: "icons/dubok.webp", url: "https://www.dubok.tv" },
       { name: "Youku (优酷)", nameKey: "youku_name", descriptionKey: "youku_desc", icon: "icons/youku.webp", url: "https://www.youku.com" },
       { name: "Lightnovel Kingdom (轻之国度)", nameKey: "lightnovel_name", descriptionKey: "lightnovel_desc", icon: "icons/wrappers/lightnovelkingdom.webp", url: "/wrappers/lightnovelkingdom", apptype: "wrapper" },
       { name: "WeChat Read (微信读书)", nameKey: "wechatread_name", descriptionKey: "wechatread_desc", icon: "icons/wrappers/wechatread.webp", url: "/wrappers/wechatread", apptype: "wrapper" },
+      { name: "Qingting FM (蜻蜓FM)", nameKey: "qingtingfm_name", descriptionKey: "qingtingfm_desc", icon:
+        "icons/wrappers/qingtingfm.webp", apptype: "wrapper" },
       { name: "TED", nameKey: "ted_name", descriptionKey: "ted_desc", icon: "icons/wrappers/ted.webp", url: "/wrappers/ted", apptype: "wrapper" },
       { name: "Netflix", nameKey: "netflix_name", descriptionKey: "netflix_desc", icon: "icons/wrappers/netflix.webp", url: "/wrappers/netflix", apptype: "wrapper" }
     ]
@@ -1390,6 +1485,13 @@ export const categories = [
         url: "https://redirection.io"
       },
       {
+        name: "Human Benchmark",
+        nameKey: "humanbenchmark_name",
+        descriptionKey: "humanbenchmark_desc",
+        icon: "icons/humanbenchmark.webp",
+        url: "https://humanbenchmark.com"
+      },
+      {
         name: "BrowserBench",
         nameKey: "browserbench_name",
         descriptionKey: "browserbench_desc",
@@ -1493,6 +1595,20 @@ export const categories = [
         url: "https://www.samsclub.com"
       },
       {
+        name: "Seamless",
+        nameKey: "seamless_name",
+        descriptionKey: "seamless_desc",
+        icon: "icons/seamless.webp",
+        url: "https://www.seamless.com"
+      },
+      {
+        name: "Flipkart",
+        nameKey: "flipkart_name",
+        descriptionKey: "flipkart_desc",
+        icon: "icons/flipkart.webp",
+        url: "https://www.flipkart.com",
+      },
+      {
         name: "Taobao (淘宝)",
         nameKey: "taobao_name",
         descriptionKey: "taobao_desc",
@@ -1548,6 +1664,29 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "KFC (CN)",
+        nameKey: "kfccn_name",
+        descriptionKey: "kfccn_desc",
+        icon: "icons/wrappers/kfc.webp",
+        url: "https://www.kfc.com.cn"
+      },
+      {
+        name: "KFC (CN)",
+        nameKey: "kfccnwechatmini_name",
+        descriptionKey: "kfccnwechatmini_desc",
+        icon: "icons/wrappers/kfc.webp",
+        url: "#小程序://肯德基自助点餐/vSpQIGDyIbM8Vsi",
+        apptype: "wechatmini"
+      },
+      {
+        name: "KFC+ (CN)",
+        nameKey: "kfcpluscnwechatmini_name",
+        descriptionKey: "kfcpluscnwechatmini_desc",
+        icon: "icons/wrappers/kfc.webp",
+        url: "#小程序://肯德基+/IET1fiA5KgBHlHG",
+        apptype: "wechatmini"
+      },
+      {
         name: "Subway",
         nameKey: "subway_name",
         descriptionKey: "subway_desc",
@@ -1601,6 +1740,14 @@ export const categories = [
         descriptionKey: "meituanwaimai_desc",
         icon: "icons/wechatmini/meituanwaimai.webp",
         url: "#小程序://美团外卖丨外卖美食奶茶咖啡水果/CV1C1oMohyBOlhr",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Meituan Preferred",
+        nameKey: "meituanpreferred_name",
+        descriptionKey: "meituanpreferred_desc",
+        icon: "icons/wechatmini/meituanpreferred.webp",
+        url: "#小程序://美团优选明日达超市真的真的省/80klD1YmciqrG7p",
         apptype: "wechatmini"
       },
       {
@@ -1810,7 +1957,47 @@ export const categories = [
         icon: "icons/wechatmini/fengchao.webp",
         url: "#小程序://丰巢/AN2aNIAnjejg3Uh",
         apptype: "wechatmini"
-      }
+      },
+      {
+        name: "Yijie Refuel",
+        nameKey: "yijie_name",
+        descriptionKey: "yijie_desc",
+        icon: "icons/wechatmini/yijie.webp",
+        url: "#小程序://易捷加油/b6claRES3P03VxC",
+        apptype: "wechatmini"
+      },
+      {
+        name: "ETC Assistant",
+        nameKey: "etc_name",
+        descriptionKey: "etc_desc",
+        icon: "icons/wechatmini/etc.webp",
+        url: "#小程序://ETC助手/KJ7AP2LwPfDSI6z",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Haluo Mobility",
+        nameKey: "haluo_name",
+        descriptionKey: "haluo_desc",
+        icon: "icons/wechatmini/haluo.webp",
+        url: "#小程序://哈啰/Lht1JKGFukQZhFG",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Tencent Maps",
+        nameKey: "tencentmaps_name",
+        descriptionKey: "tencentmaps_desc",
+        icon: "icons/wechatmini/tencentmaps.webp",
+        url: "#小程序://腾讯地图丨查路线公交步行搜周边/f3SHk1NIrkaIvet",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Didi Qingju",
+        nameKey: "didiqingju_name",
+        descriptionKey: "didiqingju_desc",
+        icon: "icons/wechatmini/didiqingju.webp",
+        url: "#小程序://青桔/0hig2G6lGATTQwb",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
@@ -1994,6 +2181,14 @@ export const categories = [
         url: "#小程序://BOSS直聘/OZRCz4jyHJOfBQk",
         apptype: "wechatmini"
       },
+      {
+        name: "Yupao Zhipin",
+        nameKey: "yupaozhipin_name",
+        descriptionKey: "yupaozhipin_desc",
+        icon: "icons/wechatmini/yupaozhipin.webp",
+        url: "#小程序://鱼泡直聘/tu6JXowI0agEQ9I",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
@@ -2054,6 +2249,13 @@ export const categories = [
         descriptionKey: "medium_desc",
         icon: "icons/medium.webp",
         url: "https://medium.com"
+      },
+      {
+        name: "Qinlili",
+        nameKey: "qinlili_name",
+        descriptionKey: "qinlili_desc",
+        icon: "icons/qinlili.webp",
+        url: "https://qinlili.bid" 
       },
       {
         name: "Herb Sutter",
@@ -2369,7 +2571,23 @@ export const categories = [
         icon: "icons/wrappers/deltadental.webp",
         url: "/wrappers/deltadental",
         apptype: "wrapper"
-      }
+      },
+      {
+        name: "Keep Fitness Assistant",
+        nameKey: "keep_name",
+        descriptionKey: "keep_desc",
+        icon: "icons/wechatmini/keep.webp",
+        url: "#小程序://Keep运动助手/uGebbOX0XuWA0Li",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Mobile Medical Insurance Payment (医保移动支付)",
+        nameKey: "ybzf_name",
+        descriptionKey: "ybzf_desc",
+        icon: "icons/wechatmini/ybzf.webp",
+        url: "#小程序://医保移动支付/VnUHHAb2ukRreIy",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
