@@ -1627,7 +1627,7 @@ export const categories = [
         nameKey: "biggo_name",
         descriptionKey: "biggo_desc",
         icon: "icons/wrappers/biggo.webp",
-        url: "https://biggo.com",
+        url: "/wrappers/biggo",
         apptype: "wrapper"
       },
       {
