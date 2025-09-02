@@ -104,6 +104,7 @@ WRAPPERS = [
   { "name": "Moomoo", "url": "https://www.moomoo.com" },
   { "name": "TheStreet", "url": "https://www.thestreet.com" },
   { "name": "MarketWatch", "url": "https://www.marketwatch.com" },
+  { "name": "WebAssembly", "url": "https://webassembly.org" },
   { "name": "GeeksForGeeks", "url": "https://www.geeksforgeeks.org" },
   { "name": "Aurora Store", "url": "https://store.auroraoss.com", "keyify_name":"aurorastore" },
   { "name": "WeChat Devs", "url": "https://developers.weixin.qq.com", "keyify_name": "wechatdevelopers"},

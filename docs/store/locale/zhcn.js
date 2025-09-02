@@ -149,6 +149,8 @@ const L = {
 
   gccmcf_name: "GCC MCF",
   gccmcf_desc: "为 Windows 定制的 GCC 分支，使用最小 C 库的线程系统（MCF）替代标准 POSIX 线程模型。",
+  webassembly_name: "WebAssembly",
+  webassembly_desc: "一种高性能的二进制指令格式，用于在网页中执行代码。支持以接近原生速度运行 C、C++、Rust 等语言编写的应用程序，并可在现代浏览器中安全运行。",
   geeksforgeeks_desc: "GeeksforGeeks 是一个综合教育平台，覆盖多个技术领域，助力学习者成长。",
   aurorastore_desc: "Aurora Store 是一个开源的 Google Play 客户端，支持匿名下载、应用浏览和无需 Google 服务的更新跟踪。",
   wechatdevelopers_name: "微信开发者平台",

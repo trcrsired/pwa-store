@@ -330,6 +330,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "WebAssembly",
+        nameKey: "webassembly_name",
+        descriptionKey: "webassembly_desc",
+        icon: "icons/wrappers/webassembly.webp",
+        url: "/wrappers/webassembly",
+        apptype: "wrapper"
+      },
+      {
         name: "GeeksForGeeks",
         icon: "icons/wrappers/geeksforgeeks.webp",
         url: "/wrappers/geeksforgeeks",

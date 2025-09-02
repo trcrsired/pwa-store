@@ -1,0 +1,17 @@
+{
+  "name": "WebAssembly",
+  "short_name": "WebAssembly",
+  "start_url": "/wrappers/webassembly/?source=pwa",
+  "scope": "/wrappers/webassembly/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for WebAssembly",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/webassembly/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

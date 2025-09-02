@@ -148,6 +148,8 @@ const L = {
 
   gccmcf_name: "GCC MCF",
   gccmcf_desc: "A customized GCC fork for Windows that replaces the standard POSIX thread model with its own minimal C library-based fiber-compatible threading system (MCF).",
+  webassembly_name: "WebAssembly",
+  webassembly_desc: "A high-performance binary instruction format for executing code on the web. Enables near-native speed for applications written in languages like C, C++, and Rust, and runs securely within modern browsers.",
   geeksforgeeks_desc: "GeeksforGeeks is a comprehensive educational portal that empowers learners across domains.",
   aurorastore_desc: "An open-source client for Google Play that supports anonymous downloads, app browsing, and update tracking without Google services.",
   wechatdevelopers_name: "WeChat Developers",
