@@ -245,6 +245,6 @@ a:hover {
 }
 
 .app-grid.expanded {
-  max-height: 9999px; /* or auto if you prefer */
+  max-height: auto; /* or auto if you prefer */
   visibility: visible;
 }
