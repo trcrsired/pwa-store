@@ -86,7 +86,8 @@ const L = {
 
   open_web_advocacy_name: "开放网络倡议",
   open_web_advocacy_desc: "我们是一群来自世界各地的软件工程师，致力于为开放网络的未来提供技术支持和政策建议。",
-
+  infrequently_name: "Infrequently",
+  infrequently_desc: "Alex Russell 的个人博客，探讨浏览器标准、平台治理以及开放网络的未来。内容包括隐私、用户自主权和软件架构政治等方面的深度文章。",
   github_desc: "支持 PWA 的代码托管平台。",
 
   vscode_name: "Visual Studio Code",

@@ -85,7 +85,8 @@ const L = {
   "programming_name": "Programming",
   open_web_advocacy_name: "Open Web Advocacy",
   open_web_advocacy_desc: "We are a group of software engineers from all over the world who have come together to advocate for the future of the open web by providing regulators, legislators and policy makers the intricate technical details that they need to understand the major anti-competitive issues in our industry and how to solve them.",
-
+  infrequently_name: "Infrequently",
+  infrequently_desc: "Alex Russell’s personal blog exploring browser standards, platform governance, and the future of the open web. Features in-depth essays on privacy, user agency, and the politics of software architecture.",
   github_desc: "Code hosting with PWA support.",
 
   vscode_name: "Visual Studio Code",

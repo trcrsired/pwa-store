@@ -136,6 +136,13 @@ export const categories = [
         descriptionKey: "open_web_advocacy_desc"
       },
       {
+        name: "Infrequently",
+        nameKey: "infrequently_name",
+        descriptionKey: "infrequently_desc",
+        icon: "icons/infrequently.webp",
+        url: "https://infrequently.org"
+      },
+      {
         name: "GitHub",
         icon: "icons/github.webp",
         url: "https://github.com",
