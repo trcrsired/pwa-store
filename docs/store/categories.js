@@ -80,7 +80,7 @@ export const categories = [
     apps: [
       { name: "Outlook", icon: "icons/outlook.webp", url: "https://outlook.live.com", descriptionKey: "outlook_desc" },
       { name: "OneDrive", icon: "icons/onedrive.webp", url: "https://onedrive.live.com", descriptionKey: "onedrive_desc" },
-      { name: "Microsoft Store", nameKey: "msstore_name", icon: "icons/msstore.webp", url: "https://apps.microsoft.com", descriptionKey: "msstore_desc" },
+      { name: "Microsoft Store", nameKey: "msstore_name", icon: "icons/wrappers/msstore.webp", url: "https://apps.microsoft.com", descriptionKey: "msstore_desc" },
       { name: "Microsoft Tech Community", nameKey: "mstechcommunity_name", icon: "icons/msft.webp", url: "https://techcommunity.microsoft.com", descriptionKey: "mstechcommunity_desc" },
       { name: "Bing", nameKey: "bing_name", icon: "icons/wrappers/bing.webp", url: "/wrappers/bing", descriptionKey: "bing_desc", apptype: "wrapper" },
       { name: "MSN", nameKey: "msn_name", icon: "icons/wrappers/msn.webp", url: "/wrappers/msn", descriptionKey: "msn_desc", apptype: "wrapper" },
@@ -975,11 +975,19 @@ export const categories = [
         url: "https://aur.archlinux.org"
       },
       {
-        name: "Windows on ARM Compatibilty List",
+        name: "Windows on ARM Compatibilty List (https://windowsonarm.org)",
         nameKey: "windowsonarm_name",
         descriptionKey: "windowsonarm_desc",
         icon: "icons/windowsonarm.webp",
         url: "https://windowsonarm.org"
+      },
+      {
+        name: "Windows ARM software (https://armrepo.ver.lt)",
+        nameKey: "armrepoverit_name",
+        descriptionKey: "armrepoverit_desc",
+        icon: "icons/wrappers/msstore.webp",
+        url: "/wrappers/armrepoverit",
+        apptype: "wrapper"
       },
       {
         name: "Internet Archive",
