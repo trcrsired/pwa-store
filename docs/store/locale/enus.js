@@ -753,6 +753,8 @@ const L = {
   medium_desc: "Online publishing platform for articles, essays, and stories from individuals and organizations.",
   qinlili_name: "Qinlili",
   qinlili_desc: "A personal project site driven by precision and vision, showcasing Qinlili (琴梨梨)'s philosophy, tool directory, announcements, and feedback portal. Currently under development, with some services not yet available.",
+  kangwenchang_name: "Kang Wenchang",
+  kangwenchang_desc: "Personal website of Kang Wenchang (康文昌), featuring the programming course Re01: The Road to Programming from Zero. Designed for beginners, the course covers web, software, app, and script development. It emphasizes practical skills, simplicity, and depth, suitable for all ages and genders, and supports independent commercial",
   herbsutter_name: "Herb Sutter",
   herbsutter_desc: "Herb Sutter (chairman of ISO C++ standard committee WG21)’s personal blog—explore thought-provoking essays, deep dives into modern C++, and insights on programming language evolution. A trusted resource for developers seeking clarity, rigor, and vision in software design.",
   bjarnestroustrup_name: "Bjarne Stroustrup",

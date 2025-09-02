@@ -2258,6 +2258,13 @@ export const categories = [
         url: "https://qinlili.bid" 
       },
       {
+        name: "Kangwenchang",
+        nameKey: "kangwenchang_name",
+        descriptionKey: "kangwenchang_desc",
+        icon: "icons/kangwenchang.webp",
+        url: "https://kangwenchang.com"
+      },
+      {
         name: "Herb Sutter",
         nameKey: "herbsutter_name",
         descriptionKey: "herbsutter_desc",
