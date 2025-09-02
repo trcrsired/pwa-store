@@ -1139,6 +1139,13 @@ export const categories = [
         url: "https://webgamer.io"
       },
       {
+        name: "Roblox",
+        nameKey: "roblox_name",
+        descriptionKey: "roblox_desc",
+        icon: "icons/roblox.webp",
+        url: "https://www.roblox.com",
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",
