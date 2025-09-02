@@ -900,6 +900,8 @@ const L = {
 
   javhdporn_name: "JavHDPorn",
   javhdporn_desc: "Free Janpanese AV HD Videos, Japanese Porn Streaming Online",
+  supjav_name: "Supjav",
+  supjav_desc: "Watch Free Jav Online, Japanese Porn HD Streaming Online",
   avdanyuwiki_name: "avdanyuwiki",
   avdanyuwiki_desc: "Avdanyuwiki is a community-driven wiki platform that catalogs profiles, filmographies, and career data of Japanese AV actors and actresses. It provides structured metadata, historical records, and cross-referenced tags for enthusiasts and researchers. Content may include images, aliases, debut dates, and studio affiliations.",
 

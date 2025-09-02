@@ -939,6 +939,8 @@ const L = {
 
   javhdporn_name: "JavHDPorn",
   javhdporn_desc: "免费日本AV片高清视频，日本色情内容在线播放",
+  supjav_name: "Supjav",
+  supjav_desc: "免费在线观看日本成人影片，高清流媒体在线播放。",
   avdanyuwiki_name: "avdanyuwiki",
   avdanyuwiki_desc: "Avdanyuwiki是一个由社区维护的百科平台，专注于收录日本AV男女优的资料、作品年表与职业信息。平台提供结构化元数据、历史记录与标签交叉索引，适合爱好者与研究者使用。内容可能包括照片、别名、出道时间与所属片商等信息。",
 

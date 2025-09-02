@@ -143,6 +143,7 @@ WRAPPERS = [
 
   { "name" : "MissAV TV", "url": "https://missavtv.com/en" },
   { "name" : "JavHDPorn", "url": "https://www4.javhdporn.net" },
+  { "name" : "Supjav", "url": "https://supjav.com" },
   { "name" : "avdanyuwiki", "url": "https://avdanyuwiki.com" },
 ]
 

@@ -2764,6 +2764,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Supjav",
+        nameKey: "supjav_name",
+        descriptionKey: "supjav_desc",
+        icon: "icons/wrappers/supjav.webp",
+        url: "/wrappers/supjav",
+        apptype: "wrapper"
+      },
+      {
         name: "avdanyuwiki",
         nameKey: "avdanyuwiki_name",
         descriptionKey: "avdanyuwiki_desc",
