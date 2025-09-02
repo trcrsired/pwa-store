@@ -1,0 +1,17 @@
+{
+  "name": "eHarmony",
+  "short_name": "eHarmony",
+  "start_url": "/wrappers/eharmony/?source=pwa",
+  "scope": "/wrappers/eharmony/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for eHarmony",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/eharmony/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -633,6 +633,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "eHarmony",
+        nameKey: "eharmony_name",
+        icon: "icons/wrappers/eharmony.webp",
+        url: "/wrappers/eharmony",
+        descriptionKey: "eharmony_desc",
+        apptype: "wrapper"
+      },
+      {
         name: "Tieba (贴吧)",
         nameKey: "tieba_name",
         icon: "icons/wrappers/tieba.webp",

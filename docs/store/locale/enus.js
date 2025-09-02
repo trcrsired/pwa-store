@@ -213,6 +213,8 @@ const L = {
   rumble_desc: "A video-sharing platform known for its free speech stance and alternative monetization options, often seen as a YouTube alternative.",
   zoosk_name: "Zoosk",
   zoosk_desc: "Zoosk is a popular online dating platform that uses behavioral matchmaking technology to connect singles worldwide. With a user-friendly interface and smart matching features, Zoosk helps people find meaningful relationships in a fun and secure environment.",
+  eharmony_name: "eHarmony",
+  eharmony_desc: "A relationship-focused platform that facilitates user connections through profile matching and communication tools.",
   tieba_name: "Tieba (贴吧)",
   tieba_desc: "Baidu’s interest-based forum network where users gather in topic-specific bars to share posts, media, and discussions. On mobile, you need to use Microsoft Edge with Android and modify the agent string by adding ArkWeb to bypass the Tieba mini app check.",
 
