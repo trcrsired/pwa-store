@@ -141,6 +141,7 @@ WRAPPERS = [
   { "name" : "Binghamton Univeristy", "url": "https://www.binghamton.edu", "keyify_name": "binghamton_edu"},
   { "name" : "Fudan University", "url": "https://www.fudan.edu.cn", "keyify_name": "fudan" },
 
+  { "name" : "MissAV TV", "url": "https://missavtv.com/en" },
   { "name" : "JavHDPorn", "url": "https://www4.javhdporn.net" },
   { "name" : "avdanyuwiki", "url": "https://avdanyuwiki.com" },
 ]
@@ -148,7 +149,7 @@ WRAPPERS = [
 
 # 🔠 Normalize name: lowercase and remove periods
 def keyify(name):
-    return name.lower().replace(".", "")
+    return name.lower().replace(".", "").replace(" ", "")
 
 # 🧩 Templates
 CONFIG_JS = """window.appConfig = {{

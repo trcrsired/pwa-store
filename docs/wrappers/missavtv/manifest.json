@@ -1,0 +1,17 @@
+{
+  "name": "MissAV TV",
+  "short_name": "MissAV TV",
+  "start_url": "/wrappers/missavtv/?source=pwa",
+  "scope": "/wrappers/missavtv/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for MissAV TV",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/missavtv/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

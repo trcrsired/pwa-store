@@ -2730,8 +2730,16 @@ export const categories = [
         name: "MissAV TV",
         nameKey: "missavtv_name",
         descriptionKey: "missavtv_desc",
-        icon: "icons/missavtv.webp",
+        icon: "icons/wrappers/missavtv.webp",
         url: "https://missavtv.com/en"
+      },
+      {
+        name: "MissAV TV",
+        nameKey: "missavtv_name",
+        descriptionKey: "missavtv_desc",
+        icon: "icons/wrappers/missavtv.webp",
+        url: "/wrappers/missavtv",
+        apptype: "wrapper"
       },
       {
         name: "XNXX.COM",
