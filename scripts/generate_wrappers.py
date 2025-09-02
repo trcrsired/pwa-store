@@ -137,6 +137,7 @@ WRAPPERS = [
   { "name": "Foreign Policy", "url": "https://foreignpolicy.com" },
   { "name": "CGTN", "url": "https://www.cgtn.com" },
   { "name": "Fortune", "url": "https://fortune.com" },
+  { "name": "Scientific American", "url": "https://www.scientificamerican.com" },
   { "name": "Canva", "url": "https://www.canva.com"},
 
   { "name" : "HotCRP", "url": "https://hotcrp.com" },

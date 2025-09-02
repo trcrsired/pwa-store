@@ -1,0 +1,17 @@
+{
+  "name": "Scientific American",
+  "short_name": "Scientific American",
+  "start_url": "/wrappers/scientificamerican/?source=pwa",
+  "scope": "/wrappers/scientificamerican/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Scientific American",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/scientificamerican/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -429,7 +429,8 @@ const L = {
 
   fortune_name: "Fortune",
   fortune_desc: "A global business media brand known for its rankings like the Fortune 500 and Global 500, offering in-depth coverage of corporate leadership, finance, and economic trends.",
-
+  scientificamerican_name: "Scientific American",
+  scientificamerican_desc: "A science and technology publication featuring articles on research, innovation, health, environment, and societal impact.",
   ifeng_name: "ifeng (凤凰网)",
   ifeng_desc: "Comprehensive Chinese news portal offering coverage of current affairs, finance, culture, and global events.",
 

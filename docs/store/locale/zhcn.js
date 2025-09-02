@@ -427,9 +427,10 @@ const L = {
   cctv_name: "央视",
   cctv_desc: "中国国家广播机构，提供新闻、纪录片和多种频道的娱乐节目。",
 
-  fortune_name: "财富杂志",
+  fortune_name: "财富杂志（Fortune）",
   fortune_desc: "一家全球商业媒体品牌，以财富500强和全球500强等排名著称，提供关于企业领导力、金融和经济趋势的深入报道。",
-
+  scientificamerican_name: "科学美国人（Scientific American）",
+  scientificamerican_desc: "一本科学与技术出版物，内容涵盖研究、创新、健康、环境及社会影响等主题。",
   ifeng_name: "凤凰网",
   ifeng_desc: "综合性中文新闻门户，涵盖时政、财经、文化及全球热点资讯。",
 
