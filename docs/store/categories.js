@@ -1616,6 +1616,14 @@ export const categories = [
         url: "https://www.taobao.com"
       },
       {
+        name: "BigGo",
+        nameKey: "biggo_name",
+        descriptionKey: "biggo_desc",
+        icon: "icons/wrappers/biggo.webp",
+        url: "https://biggo.com",
+        apptype: "wrapper"
+      },
+      {
         name: "Walmart",
         nameKey: "walmart_name",
         descriptionKey: "walmart_desc",
