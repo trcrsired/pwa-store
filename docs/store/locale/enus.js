@@ -994,6 +994,8 @@ const L = {
   dianping_desc: "Discover food, movies, fitness, travel, and tickets via Dianping.",
   youding_name: "Youding (悠订)",
   youding_desc: "A streamlined booking tool for lifestyle services.",
+  keruyun_name: "Keruyun (客如云)",
+  keruyun_desc: "A WeChat mini program for smart retail and restaurant operations. Offers digital tools for ordering, payments, membership, and marketing to help merchants streamline workflows and improve customer engagement.",
   keep_name: "Keep Fitness Assistant (Keep运动助手)",
   keep_desc: "An official Keep mini app for fitness check-ins, group tracking, data sync, and leaderboard display—boosting motivation through social workouts.",
   ybzf_name: "Mobile Medical Insurance Payment (医保移动支付)",

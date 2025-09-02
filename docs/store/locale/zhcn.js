@@ -1033,6 +1033,8 @@ const L = {
   dianping_desc: "探索美食、电影、运动、旅游与门票服务。",
   youding_name: "悠订",
   youding_desc: "一款便捷的生活服务预约工具。",
+  keruyun_name: "客如云",
+  keruyun_desc: "一款面向零售与餐饮行业的微信小程序，提供点餐、支付、会员管理与营销等数字化工具，助力商家优化运营流程，提升顾客体验。",
   keep_name: "Keep运动助手",
   keep_desc: "Keep官方推出的运动打卡小程序，支持群组打卡、数据同步、排行榜展示等功能，提升健身社交体验。",
   ybzf_name: "医保移动支付",

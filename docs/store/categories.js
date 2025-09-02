@@ -1892,6 +1892,14 @@ export const categories = [
         icon: "icons/wechatmini/youding.webp",
         url: "#小程序://悠订/scYn41jTenAGvGc",
         apptype: "wechatmini"
+      },
+      {
+        name: "Keruyun",
+        nameKey: "keruyun_name",
+        descriptionKey: "keruyun_desc",
+        icon: "icons/wechatmini/keruyun.webp",
+        url: "#小程序://客如云服务/7Bv82NUXXw9o61v",
+        apptype: "wechatmini"
       }
     ]
   },
