@@ -1548,7 +1548,7 @@ export const categories = [
         name: "iplocation.net",
         nameKey: "iplocationnet_name",
         descriptionKey: "iplocationnet_desc",
-        icon: "icons/iplocationnet",
+        icon: "icons/iplocationnet.webp",
         url: "https://www.iplocation.net"
       },
       {
