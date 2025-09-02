@@ -417,11 +417,12 @@ const L = {
 
   aljazeera_name: "半岛电视台",
   aljazeera_desc: "全球新闻和深度报道，半岛电视台以中东事务、调查性新闻和直播报道而闻名。",
-
+  foreignpolicy_name: "外交政策（Foreign Policy）",
+  foreignpolicy_desc: "一家专注于国际事务的出版物，提供关于国际关系、外交、安全与经济政策的深度分析。",
   cgtn_name: "CGTN",
   cgtn_desc: "中国国家级国际广播机构 CGTN 提供多语言的世界新闻、商业和地缘政治报道。",
 
-  cctv_name: "中国中央电视台",
+  cctv_name: "央视",
   cctv_desc: "中国国家广播机构，提供新闻、纪录片和多种频道的娱乐节目。",
 
   fortune_name: "财富杂志",

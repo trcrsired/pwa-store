@@ -1,0 +1,17 @@
+{
+  "name": "Foreign Policy",
+  "short_name": "Foreign Policy",
+  "start_url": "/wrappers/foreignpolicy/?source=pwa",
+  "scope": "/wrappers/foreignpolicy/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Foreign Policy",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/foreignpolicy/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

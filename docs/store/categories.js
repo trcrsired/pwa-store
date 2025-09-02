@@ -1092,6 +1092,7 @@ export const categories = [
       { name: "USA Today", nameKey: "usatoday_name", descriptionKey: "usatoday_desc", icon: "icons/wrappers/usatoday.webp", url: "/wrappers/usatoday", apptype: "wrapper" },
       { name: "REVCOM.US", nameKey: "revcom_name", descriptionKey: "revcom_desc", icon: "icons/wrappers/revcomus.webp", url: "/wrappers/revcomus", apptype: "wrapper" },
       { name: "Al Jazeera", nameKey: "aljazeera_name", descriptionKey: "aljazeera_desc", icon: "icons/wrappers/aljazeera.webp", url: "/wrappers/aljazeera", apptype: "wrapper" },
+      { name: "Foreign Policy", nameKey: "foreignpolicy_name", descriptionKey: "foreignpolicy_desc", icon: "icons/wrappers/foreignpolicy.webp", apptype: "wrapper"},
       { name: "CGTN", nameKey: "cgtn_name", descriptionKey: "cgtn_desc", icon: "icons/wrappers/cgtn.webp", url: "/wrappers/cgtn", apptype: "wrapper" },
       { name: "CCTV", nameKey: "cctv_name", descriptionKey: "cctv_desc", icon: "icons/wrappers/cctv.webp", url: "/wrappers/cctv", apptype: "wrapper" },
       { name: "Fortune", nameKey: "fortune_name", descriptionKey: "fortune_desc", icon: "icons/wrappers/fortune.webp", url: "/wrappers/fortune", apptype: "wrapper"},

@@ -417,7 +417,8 @@ const L = {
 
   aljazeera_name: "Al Jazeera",
   aljazeera_desc: "Stream global news and in-depth reporting from Al Jazeera, a leading international broadcaster known for its coverage of Middle Eastern affairs, investigative journalism, and live events.",
-
+  foreignpolicy_name: "Foreign Policy",
+  foreignpolicy_desc: "A global affairs publication offering analysis on international relations, diplomacy, security, and economic policy.",
   cgtn_name: "CGTN",
   cgtn_desc: "Watch international news and cultural programming from CGTN, China’s state-run global broadcaster offering multilingual coverage of world events, business, and geopolitics from a Chinese perspective.",
 
