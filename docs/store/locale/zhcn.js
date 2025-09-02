@@ -399,6 +399,10 @@ const L = {
   dw_desc: "德国之声（Deutsche Welle）是德国的国际公共广播机构，以超过30种语言提供新闻和深度分析。总部位于波恩和柏林，DW通过公正的新闻报道、文化交流以及对全球重要议题（如政治、商业、科学与人权）的关注，促进全球理解。",
   lemonde_name: "世界报",
   lemonde_desc: "《世界报》（Le Monde）是法国著名的日报，于1944年在戴高乐将军的倡议下创办。以深度分析和编辑独立性著称，被视为法国最具权威性的报纸之一。总部位于巴黎，《世界报》提供关于国内外事务、政治、文化与社会的深入报道。",
+  foreignaffairs_name: "外交事务（Foreign Affairs）",
+  foreignaffairs_desc: "由美国外交关系协会出版，专注于国际关系、外交政策与全球事务的分析与评论。",
+  scmp_name: "南华早报",
+  scmp_desc: "一家总部位于香港的新闻媒体，报道中国、亚洲及全球事务，涵盖政治、经济、科技与文化等领域。",
   hindustantimes_name: "印度斯坦时报",
   hindustantimes_desc: "《印度斯坦时报》（Hindustan Times）是印度领先的英文报纸之一，提供全面的国内外新闻、政治、商业、体育、娱乐和生活方式报道。由HT Media有限公司拥有，以其可信的新闻报道和在印度主要城市广泛的读者群体而闻名。",
   nyt_name: "纽约时报",
@@ -617,7 +621,8 @@ const L = {
 
   soundcloud_name: "声云 （SoundCloud）",
   soundcloud_desc: "声云 （SoundCloud） 是一家德国音频流媒体服务，由 SoundCloud Global Limited & Co. KG 拥有并运营。该服务允许用户上传、推广和分享音频内容。",
-
+  audiomack_name: "Audiomack",
+  audiomack_desc: "一个按需音乐流媒体平台，创作者可以上传和分享不限数量的音频内容，包括歌曲和播客。",
   ecommerece_name: "电子商务",
 
   starbucks_name: "星巴克",

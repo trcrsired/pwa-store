@@ -1070,6 +1070,20 @@ export const categories = [
       { name: "Hindustan Times", nameKey: "hindustantimes_name", descriptionKey: "hindustantimes_desc", icon: "icons/hindustantimes.webp", url: "https://www.hindustantimes.com" },
       { name: "DW", nameKey: "dw_name", descriptionKey: "dw_desc", icon: "icons/dw.webp", url: "https://www.dw.com"},
       { name: "Le Monde", nameKey: "lemonde_name", descriptionKey: "lemonde_desc", icon: "icons/lemonde.webp", url: "https://www.lemonde.fr" },
+      {
+        name: "Foreign Affairs",
+        nameKey: "foreignaffairs_name",
+        descriptionKey: "foreignaffairs_desc",
+        icon: "icons/wrappers/foreignaffairs.webp",
+        url: "https://www.foreignaffairs.com",
+      },
+      {
+        name: "South China Morning Post",
+        nameKey: "scmp_name",
+        descriptionKey: "scmp_desc",
+        icon: "icons/wrappers/scmp.webp",
+        url: "https://www.scmp.com",
+      },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url: "/wrappers/nytimes", apptype: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url: "/wrappers/washingtonpost", apptype: "wrapper" },
       { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url: "/wrappers/reuters", apptype: "wrapper" },
@@ -1570,7 +1584,14 @@ export const categories = [
         descriptionKey: "soundcloud_desc",
         icon: "icons/soundcloud.webp",
         url: "https://soundcloud.com"
-      }
+      },
+      {
+        name: "Audiomack",
+        nameKey: "audiomack_name",
+        descriptionKey: "audiomack_desc",
+        icon: "icons/audiomack.webp",
+        url: "https://audiomack.com"
+      },
     ]
   },
   {

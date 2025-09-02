@@ -399,6 +399,10 @@ const L = {
   dw_desc: "Deutsche Welle (DW) is Germany’s international public broadcaster, providing news and analysis in over 30 languages. Headquartered in Bonn and Berlin, DW promotes global understanding through impartial journalism, cultural exchange, and coverage of key global issues including politics, business, science, and human rights.",
   lemonde_name: "Le Monde",
   lemonde_desc: "Le Monde is a leading French daily newspaper founded in 1944 at the request of General Charles de Gaulle. Known for its analytical journalism and editorial independence, it is considered one of France’s newspapers of record. Headquartered in Paris, Le Monde offers in-depth coverage of national and international affairs, politics, culture, and society.",
+  foreignaffairs_name: "Foreign Affairs",
+  foreignaffairs_desc: "A publication by the Council on Foreign Relations featuring analysis and commentary on international relations, diplomacy, and global policy.",
+  scmp_name: "South China Morning Post",
+  scmp_desc: "A Hong Kong-based news outlet offering coverage of China, Asia, and global affairs, with reporting on politics, economy, technology, and culture.",
   hindustantimes_name: "Hindustan Times",
   hindustantimes_desc: "One of India's leading English-language newspapers, Hindustan Times delivers comprehensive coverage of national and international news, politics, business, sports, entertainment, and lifestyle. Owned by HT Media Ltd., it is known for its credible journalism and wide readership across major Indian cities.",
   nyt_name: "New York Times",
@@ -617,7 +621,8 @@ const L = {
 
   soundcloud_name: "SoundCloud",
   soundcloud_desc: "SoundCloud is a German audio streaming service owned and operated by SoundCloud Global Limited & Co. KG. The service enables its users to upload, promote, and share audio.",
-
+  audiomack_name: "Audiomack",
+  audiomack_desc: "An on-demand music streaming platform that allows artists and creators to share unlimited audio content, including songs and podcasts.",
   ecommerece_name: "E-commerece",
 
   starbucks_name: "Starbucks",
