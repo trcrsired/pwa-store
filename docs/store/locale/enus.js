@@ -601,7 +601,8 @@ const L = {
   humanbenchmark_desc: "Human Benchmark is a browser-based platform offering cognitive performance tests and reaction-based games. Users can measure abilities such as memory, reflexes, typing speed, and pattern recognition through interactive challenges. Results are stored locally or via account login for progress tracking.",
   browserbench_name: "BrowserBench",
   browserbench_desc: "MotionMark is a benchmark designed to put browser graphics systems to the test.",
-
+  clearwebstats_name: "ClearWebStats",
+  clearwebstats_desc: "A web analytics utility that aggregates domain-level data such as traffic estimates, ranking metrics, and hosting details.",
   musicstreaming_name: "Music Streaming",
   spotify_name: "Spotify",
   spotify_desc: "Global music streaming platform.",

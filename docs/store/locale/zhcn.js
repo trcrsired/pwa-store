@@ -600,7 +600,8 @@ const L = {
   humanbenchmark_desc: "Human Benchmark 是一个基于浏览器的平台，提供认知能力测试和反应类小游戏。用户可通过互动挑战测量记忆力、反应速度、打字速度和模式识别等能力。测试结果可本地保存或通过账户登录进行进度跟踪。",
   browserbench_name: "BrowserBench",
   browserbench_desc: "MotionMark 是一款用于测试浏览器图形系统性能的基准测试工具。",
-
+  clearwebstats_name: "ClearWebStats",
+  clearwebstats_desc: "一个网站分析工具，汇总域名级数据，包括流量估算、排名指标和主机信息。",
   musicstreaming_name: "音乐流媒体",
 
   spotify_name: "Spotify",

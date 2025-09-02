@@ -1520,6 +1520,14 @@ export const categories = [
         icon: "icons/wrappers/browserbench.webp",
         url: "/wrappers/browserbench",
         apptype: "wrapper"
+      },
+      {
+        name: "ClearWebStats",
+        nameKey: "clearwebstats_name",
+        descriptionKey: "clearwebstats_desc",
+        icon: "icons/wrappers/clearwebstats.webp",
+        url: "/wrappers/clearwebstats",
+        apptype: "wrapper"
       }
     ]
   },

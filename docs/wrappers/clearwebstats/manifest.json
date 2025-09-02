@@ -1,0 +1,17 @@
+{
+  "name": "ClearWebStats",
+  "short_name": "ClearWebStats",
+  "start_url": "/wrappers/clearwebstats/?source=pwa",
+  "scope": "/wrappers/clearwebstats/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for ClearWebStats",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/clearwebstats/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

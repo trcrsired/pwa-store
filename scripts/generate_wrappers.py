@@ -89,6 +89,7 @@ WRAPPERS = [
   { "name": "UN", "url": "https://www.un.org" },
   { "name": "Lightnovel Kingdom", "url": "https://www.lightnovel.fun/cn", "keyify_name": "lightnovelkingdom" },
   { "name": "BrowserBench", "url": "https://browserbench.org" },
+  { "name": "ClearWebStats", "url": "https://www.clearwebstats.com" },
   { "name": "NY Times", "url": "https://www.nytimes.com" , "keyify_name": "nytimes"},
   { "name": "Netflix", "url": "https://www.netflix.com" },
   { "name": "LeetCode (CN)", "url": "https://leetcode.cn", "keyify_name": "leetcodecn", "icon": "leetcode.webp"},
