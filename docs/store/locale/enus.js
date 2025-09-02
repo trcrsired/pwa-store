@@ -401,6 +401,8 @@ const L = {
   lemonde_desc: "Le Monde is a leading French daily newspaper founded in 1944 at the request of General Charles de Gaulle. Known for its analytical journalism and editorial independence, it is considered one of France’s newspapers of record. Headquartered in Paris, Le Monde offers in-depth coverage of national and international affairs, politics, culture, and society.",
   foreignaffairs_name: "Foreign Affairs",
   foreignaffairs_desc: "A publication by the Council on Foreign Relations featuring analysis and commentary on international relations, diplomacy, and global policy.",
+  timemagazine_name: "TIME Magazine",
+  timemagazine_desc: "A global news and commentary publication covering politics, science, health, climate, culture, and emerging technologies, including AI and international affairs.",
   scmp_name: "South China Morning Post",
   scmp_desc: "A Hong Kong-based news outlet offering coverage of China, Asia, and global affairs, with reporting on politics, economy, technology, and culture.",
   hindustantimes_name: "Hindustan Times",

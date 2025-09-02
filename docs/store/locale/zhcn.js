@@ -401,6 +401,8 @@ const L = {
   lemonde_desc: "《世界报》（Le Monde）是法国著名的日报，于1944年在戴高乐将军的倡议下创办。以深度分析和编辑独立性著称，被视为法国最具权威性的报纸之一。总部位于巴黎，《世界报》提供关于国内外事务、政治、文化与社会的深入报道。",
   foreignaffairs_name: "外交事务（Foreign Affairs）",
   foreignaffairs_desc: "由美国外交关系协会出版，专注于国际关系、外交政策与全球事务的分析与评论。",
+  timemagazine_name: "时代周刊（TIME Magazine）",
+  timemagazine_desc: "一家全球性新闻与评论出版物，内容涵盖政治、科学、健康、气候、文化及新兴技术（包括人工智能）与国际事务。",
   scmp_name: "南华早报",
   scmp_desc: "一家总部位于香港的新闻媒体，报道中国、亚洲及全球事务，涵盖政治、经济、科技与文化等领域。",
   hindustantimes_name: "印度斯坦时报",

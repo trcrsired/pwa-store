@@ -1078,6 +1078,13 @@ export const categories = [
         url: "https://www.foreignaffairs.com",
       },
       {
+        name: "TIME Magazine",
+        nameKey: "timemagazine_name",
+        descriptionKey: "timemagazine_desc",
+        icon: "icons/timemagazine.webp",
+        url: "https://time.com"
+      },
+      {
         name: "South China Morning Post",
         nameKey: "scmp_name",
         descriptionKey: "scmp_desc",
