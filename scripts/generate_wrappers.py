@@ -37,6 +37,7 @@ WRAPPERS = [
   { "name": "Tieba", "url": "https://tieba.baidu.com" },
   { "name": "v86", "url": "https://copy.sh/v86" },
   { "name": "Termux", "url": "https://termux.dev" },
+  { "name": "BigGo", "url": "https://biggo.com" },
   { "name": "Walmart", "url": "https://www.walmart.com" },
   { "name": "The Home Depot", "url": "https://www.homedepot.com", "keyify_name": "homedepot" },
   { "name": "WarcraftLogs", "url": "https://www.warcraftlogs.com" },

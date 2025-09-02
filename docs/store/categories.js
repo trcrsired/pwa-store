@@ -1139,6 +1139,13 @@ export const categories = [
         url: "https://webgamer.io"
       },
       {
+        name: "Roblox",
+        nameKey: "roblox_name",
+        descriptionKey: "roblox_desc",
+        icon: "icons/roblox.webp",
+        url: "https://www.roblox.com",
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",
@@ -1614,6 +1621,14 @@ export const categories = [
         descriptionKey: "taobao_desc",
         icon: "icons/taobao.webp",
         url: "https://www.taobao.com"
+      },
+      {
+        name: "BigGo",
+        nameKey: "biggo_name",
+        descriptionKey: "biggo_desc",
+        icon: "icons/wrappers/biggo.webp",
+        url: "/wrappers/biggo",
+        apptype: "wrapper"
       },
       {
         name: "Walmart",

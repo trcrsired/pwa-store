@@ -490,6 +490,8 @@ const L = {
 
   webgamer_name: "Web Gamer",
   webgamer_desc: "Portal for next-gen web games—play instantly in your browser with no installs required.",
+  roblox_name: "Roblox",
+  roblox_desc: "An online platform for creating and exploring interactive 3D environments and multiplayer experiences built by users.",
   chronodivide_name: "RA2: Chrono Divide",
   chronodivide_desc: "RA2: Chrono Divide is a fan-made, browser-based tribute to the classic Command & Conquer: Red Alert 2. It faithfully recreates the real-time strategy experience with smooth online multiplayer, iconic units, and nostalgic visuals—all without needing to install a thing. Whether you're commanding Soviet forces or leading Allied troops, Chrono Divide lets you relive the tactical thrill of chrono technology and battlefield domination, right from your browser.",
   mumu_cn_name: "MuMu Emulator (MuMu模拟器)",
@@ -636,6 +638,8 @@ const L = {
   flipkart_desc: "India online shopping platform for mobiles, electronics, fashion, furniture, groceries, and more.",
   taobao_name: "Taobao (淘宝)",
   taobao_desc: "A major consumer-to-consumer e-commerce platform in China, Taobao offers a diverse marketplace featuring everything from fashion and electronics to handmade local products. Backed by Alibaba, it’s known for powerful search tools, mobile-first features, and deep integration with logistics and social commerce.",
+  biggo_name: "BigGo",
+  biggo_desc: "A price comparison tool that helps users discover the best deals across multiple e-commerce platforms.",
   walmart_name: "Walmart",
   walmart_desc: "Multinational retail giant offering groceries, electronics, apparel, and more through supercenters and online shopping.",
 
