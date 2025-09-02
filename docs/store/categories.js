@@ -1545,6 +1545,13 @@ export const categories = [
         url: "https://redirection.io"
       },
       {
+        name: "iplocation.net",
+        nameKey: "iplocationnet_name",
+        descriptionKey: "iplocationnet_desc",
+        icon: "icons/iplocationnet",
+        url: "https://www.iplocation.net"
+      },
+      {
         name: "Human Benchmark",
         nameKey: "humanbenchmark_name",
         descriptionKey: "humanbenchmark_desc",
@@ -1565,6 +1572,14 @@ export const categories = [
         descriptionKey: "clearwebstats_desc",
         icon: "icons/wrappers/clearwebstats.webp",
         url: "/wrappers/clearwebstats",
+        apptype: "wrapper"
+      },
+      {
+        name: "China Firewall Test",
+        nameKey: "chinafirewalltest_name",
+        descriptionKey: "chinafirewalltest_desc",
+        icon: "icons/wrappers/chinafirewalltest.webp",
+        url: "/wrappers/chinafirewalltest",
         apptype: "wrapper"
       }
     ]
