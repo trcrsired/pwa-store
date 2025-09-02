@@ -975,6 +975,13 @@ export const categories = [
         url: "https://aur.archlinux.org"
       },
       {
+        name: "Windows on ARM Compatibilty List",
+        nameKey: "windowsonarm_name",
+        descriptionKey: "windowsonarm_desc",
+        icon: "icons/windowsonarm.webp",
+        url: "https://windowsonarm.org"
+      },
+      {
         name: "Internet Archive",
         nameKey: "archive_name",
         descriptionKey: "archive_desc",

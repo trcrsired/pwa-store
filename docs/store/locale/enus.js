@@ -318,7 +318,8 @@ const L = {
 
   aur_name: "Arch Linux AUR",
   aur_desc: "Explore community-maintained Arch packages.",
-
+  windowsonarm_name: "Windows on ARM Compatibility List",
+  windowsonarm_desc: "A community-maintained index of software compatibility for Windows devices running on ARM architecture. Includes native ARM64 apps, emulated x86/x64 support, and user-submitted reports to guide installation and performance expectations.",
   archive_name: "Internet Archive",
   archive_desc: "Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more.",
   apkpremier_name: "APK Premier",

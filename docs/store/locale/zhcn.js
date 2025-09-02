@@ -319,7 +319,8 @@ const L = {
 
   aur_name: "Arch Linux AUR",
   aur_desc: "探索由社区维护的 Arch Linux 软件包。",
-
+  windowsonarm_name: "Windows on ARM 兼容性列表",
+  windowsonarm_desc: "一个由社区维护的软件兼容性索引，专为运行 ARM 架构的 Windows 设备设计。涵盖原生 ARM64 应用、x86/x64 仿真支持，以及用户提交的报告，用于指导安装和性能预期。",
   archive_name: "互联网档案馆",
   archive_desc: "互联网档案馆是一个非营利数字图书馆，收藏数百万份免费文本、电影、软件、音乐、网站等资源。",
   apkpremier_name: "APK Premier",
