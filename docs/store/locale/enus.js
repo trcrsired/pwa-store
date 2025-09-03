@@ -558,6 +558,8 @@ const L = {
   xiangyin_desc: "Xiangyin is a community platform for exploring regional dialects through audio recordings of poetry, film quotes, everyday conversations, and jokes. Users can share their own dialect recordings, interact with others, and play the 'Guess the Accent' game to identify speakers' hometowns. To respect linguistic diversity, speaker locations are anonymized using ~10km grid mapping, allowing users to browse dialects across regions via an interactive map.",
   physicslab_name: "Physics Lab",
   physicslab_desc: "Interactive platform for simulating classical and modern physics experiments, including mechanics, optics, and electromagnetism. Designed for educational use with real-time visualization and configurable parameters.",
+  bestpianomethod_name: "Best Piano Method",
+  bestpianomethod_desc: "Learn piano with a proven step-by-step method designed for beginners and advancing players.",
   eudic_name: "Eudic Dictionary (欧路词典)",
   eudic_desc: "Eudic is a multilingual dictionary and translation platform offering English-Chinese lookup, daily listening practice, document translation, and AI-powered writing tools. Optimized for Apple systems, it supports Mdx extensions and caters to learners, translators, and educators.",
   forums_name: "Forums",

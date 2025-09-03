@@ -1406,6 +1406,13 @@ export const categories = [
         url: "https://plweb.turtlesim.com"
       },
       {
+        name: "Best Piano Method",
+        nameKey: "bestpianomethod_name",
+        descriptionKey: "bestpianomethod_desc",
+        icon: "icons/bestpianomethod.webp",
+        url: "https://bestpianomethod.com"
+      },
+      {
         name: "Eudic Dictionary",
         nameKey: "eudic_name",
         descriptionKey: "eudic_desc",
