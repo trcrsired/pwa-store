@@ -48,6 +48,7 @@ export const categories = [
       { name: "Google Gemini", icon: "icons/gemini.webp", url: "https://gemini.google.com", descriptionKey: "gemini_desc" },
       { name: "Claude", icon: "icons/claude.webp", url: "https://claude.ai", descriptionKey: "claude_desc" },
       { name: "Manus", icon: "icons/manus.webp", url: "https://manus.im", descriptionKey: "manus_desc" },
+      { name: "LeChat", icon: "icons/lechat.webp", url: "https://lechat.chat/chat", nameKey: "lechat_name", descriptionKey: "lechat_desc" },
       { name: "Qwen", icon: "icons/qwen.webp", url: "https://chat.qwen.ai", descriptionKey: "qwen_desc" },
       { name: "DeepSeek", icon: "icons/deepseek.webp", url: "https://deepseek.com", descriptionKey: "deepseek_desc" },
       { name: "Kimi", icon: "icons/kimi.webp", url: "https://www.kimi.com", descriptionKey: "kimi_desc" },
