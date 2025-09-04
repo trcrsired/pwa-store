@@ -254,6 +254,8 @@ const L = {
   benzinga_desc: "Benzinga 是一家金融媒体与数据技术平台，提供实时市场新闻、交易洞察与投资工具，服务于个人投资者与活跃交易者。平台致力于信息透明与技术创新，帮助用户在瞬息万变的市场中做出明智决策。",
   investopedia_name: "Investopedia",
   investopedia_desc: "Investopedia 是一个成立于 1999 年的金融教育平台，提供通俗易懂的财经概念解释、投资策略、经济术语与个人理财内容。其词典式条目与专家审核的内容广受欢迎，服务对象涵盖全球学习者、专业人士与投资者。",
+  nasdaq_name: "纳斯达克",
+  nasdaq_desc: "纳斯达克证券交易所是全球领先的电子证券交易市场，以科技和成长型公司为主，拥有超过4,000家上市公司。其代表性指数包括纳斯达克综合指数和纳斯达克100指数。",
   investorsbusinessdaily_name: "投资者商业日报",
   investorsbusinessdaily_desc: "《投资者商业日报》（IBD）是由William J. O’Neil于1984年创立的美国财经新闻与研究平台，现隶属于新闻集团旗下的道琼斯公司。平台提供独家股票列表、市场分析及基于IBD投资方法的工具，服务于个人投资者与专业人士。",
   paypal_name: "贝宝",

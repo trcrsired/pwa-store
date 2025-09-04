@@ -253,6 +253,8 @@ const L = {
   benzinga_desc: "Benzinga is a financial media and data technology platform offering real-time market news, trading insights, and investment tools for individual investors and active traders. With a focus on accessibility and innovation, Benzinga empowers users to make informed decisions in fast-moving markets.",
   investopedia_name: "Investopedia",
   investopedia_desc: "Investopedia is a leading financial education platform founded in 1999. It offers accessible explanations of financial concepts, investment strategies, economic terms, and personal finance topics. Known for its dictionary-style entries and expert-reviewed content, Investopedia serves learners, professionals, and investors worldwide.",
+  nasdaq_name: "Nasdaq",
+  nasdaq_desc: "The Nasdaq Stock Market is a global electronic marketplace for buying and selling securities, known for its high concentration of technology and growth companies. It hosts over 4,000 listings and powers major indices like the Nasdaq Composite and Nasdaq-100.",
   investorsbusinessdaily_name: "Investor's Business Daily",
   investorsbusinessdaily_desc: "Investor’s Business Daily (IBD) is a U.S.-based financial news and research platform founded in 1984 by William J. O’Neil. Now part of News Corp via Dow Jones, it offers exclusive stock lists, market analysis, and investment tools based on the IBD Methodology, serving individual investors and professionals.",
   paypal_name: "PayPal",

@@ -761,6 +761,13 @@ export const categories = [
         url: "https://www.investopedia.com"
       },
       {
+        name: "Nasdaq",
+        nameKey: "nasdaq_name",
+        descriptionKey: "nasdaq_desc",
+        icon: "icons/nasdaq.webp",
+        url: "https://www.nasdaq.com"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",
