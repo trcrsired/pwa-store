@@ -882,7 +882,7 @@ export const categories = [
         name: "Modular Forum",
         nameKey: "modularforum_name",
         descriptionKey: "modularforum_desc",
-        icon: "icons/modular.webp",
+        icon: "icons/modularforum.webp",
         url: "https://forum.modular.com"
       },
       {
