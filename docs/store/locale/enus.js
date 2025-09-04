@@ -869,7 +869,7 @@ const L = {
   idme_desc: "ID.me is a private digital identity platform trusted by U.S. government agencies for secure online access. It helps users verify their identity, access public services, and unlock exclusive benefits for verified groups like military personnel, students, and first responders.",
   cngov_name: "Chinese Government🇨🇳",
   govcn_name: "Chinese Government",
-  govcn_desc: "Official portal of China's central government, providing policy updates, news, and public services.,
+  govcn_desc: "Official portal of China's central government, providing policy updates, news, and public services.",
   organizations_name: "Organizations",
   iso_name: "ISO",
   iso_desc: "The International Organization for Standardization (ISO) is an independent, non-governmental international organization that develops and publishes global standards across a wide range of industries and sectors to ensure quality, safety, efficiency, and interoperability.",
