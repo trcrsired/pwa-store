@@ -879,6 +879,13 @@ export const categories = [
         url: "https://forum.f-droid.org"
       },
       {
+        name: "Modular Forum",
+        nameKey: "modularforum_name",
+        descriptionKey: "modularforum_desc",
+        icon: "icons/modular.webp",
+        url: "https://forum.modular.com"
+      },
+      {
         name: "AppleInsider",
         nameKey: "appleinsider_name",
         descriptionKey: "appleinsider_desc",

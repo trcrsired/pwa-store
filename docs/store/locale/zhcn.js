@@ -118,7 +118,7 @@ const L = {
   bing_webmaster_desc: "提供网站搜索性能分析、索引状态和 SEO 诊断，帮助优化 Bing 搜索可见性。",
 
   pwabuilder_name: "PWA Builder",
-  pwabuilder_desc: "由 Microsoft 开发的开源工具，简化 Progressive Web App 的部署流程。",
+  pwabuilder_desc: "由微软开发的开源工具，简化渐进式网络应用程序的部署流程。",
   leetcode_name: "LeetCode",
   leetcode_desc: "力扣（LeetCode）是一个在线编程学习平台，提供丰富的算法与数据结构题库，广泛用于技术面试准备和编程技能提升。",
   leetcodecn_name: "LeetCode （国内版）",
@@ -127,6 +127,8 @@ const L = {
   usacotraining_desc: "USACO训练入口（USACO Training Gateway）是美国计算机奥林匹克竞赛的在线训练平台，为学生提供逐步提升的编程挑战与解题指导。",
   fdroid_name: "F-Droid",
   fdroid_desc: "F-Droid 是一个可安装的自由开源软件（FOSS）应用目录，专为安卓平台打造。客户端可帮助你轻松浏览、安装应用，并跟踪设备上的更新。",
+  modularforum_name: "Modular论坛",
+  modularforum_desc: "Modular 的 AI 生态系统讨论平台，涵盖 Mojo 编程语言、MAX 引擎以及 GPU 加速工作流。",
   resilientwebdesign_name: "韧性网络设计",
   resilientwebdesign_desc: "《韧性网络设计》是 Jeremy Keith 免费撰写的一本优美的网络书籍，深入探讨构建稳健且具备未来适应性的网页的基本原则与设计理念。",
   pwadevcn_name: "PWA开发者中国站",
