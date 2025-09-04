@@ -17,7 +17,7 @@ WRAPPER_OUTPUT = ROOT / "docs" / "wrappers"
 WRAPPERS = [
   { "name": "CVS", "url": "https://www.cvs.com" },
   { "name": "Android Authority", "url": "https://www.androidauthority.com", "keyify_name": "androidauthority"},
-  { "name": "armrepo.ver.it", "url": "https://armrepo.ver.lt","keyify_name": "armrepoverit", "icon": "msstore.webp" },
+  { "name": "armrepo.ver.lt", "url": "https://armrepo.ver.lt","keyify_name": "armrepoverlt", "icon": "msstore.webp" },
   { "name": "Internet Archive", "url": "https://archive.org", "keyify_name": "archive" },
   { "name": "APK Premier", "url": "https://apkpremier.com", "keyify_name": "apkpremier" },
   { "name": "BTSOW", "url": "https://btsow.lol" },
@@ -80,6 +80,7 @@ WRAPPERS = [
   { "name": "White House", "url": "https://www.whitehouse.gov", "keyify_name": "whitehouse" },
   { "name": "ID.me", "url": "https://id.me", "keyify_name": "idme" },
 
+  { "name": "Chinese Government(中国政府网)", "url": "https://www.gov.cn", "keyify_name": "govcn" },
   { "name": "Herb Sutter", "url": "https://herbsutter.com", "keyify_name": "herbsutter" },
   { "name": "Bjarne Stroustrup", "url": "https://www.stroustrup.com", "keyify_name": "bjarnestroustrup" },
   { "name": "GCC MCF", "url": "https://gcc-mcf.lhmouse.com", "keyify_name": "gccmcf", "icon": "lhmouse.webp" },

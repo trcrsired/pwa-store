@@ -1,0 +1,17 @@
+{
+  "name": "armrepo.ver.lt",
+  "short_name": "armrepo.ver.lt",
+  "start_url": "/wrappers/armrepoverlt/?source=pwa",
+  "scope": "/wrappers/armrepoverlt/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for armrepo.ver.lt",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/armrepoverlt/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

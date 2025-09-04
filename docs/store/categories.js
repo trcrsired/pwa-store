@@ -998,10 +998,10 @@ export const categories = [
       },
       {
         name: "Windows ARM software (https://armrepo.ver.lt)",
-        nameKey: "armrepoverit_name",
-        descriptionKey: "armrepoverit_desc",
+        nameKey: "armrepoverlt_name",
+        descriptionKey: "armrepoverlt_desc",
         icon: "icons/wrappers/msstore.webp",
-        url: "/wrappers/armrepoverit",
+        url: "/wrappers/armrepoverlt",
         apptype: "wrapper"
       },
       {
@@ -2633,6 +2633,14 @@ export const categories = [
     name: "Chinese Government🇨🇳",
     nameKey: "cngov_name",
     apps : [
+      {
+        name: "Chinese Government",
+        nameKey: "govcn_name",
+        descriptionKey: "govcn_desc",
+        icon: "icons/wrappers/govcn",
+        url: "/wrappers/govcn",
+        apptype: "wrapper"
+      },
       {
         name: "National Government Service Platform",
         nameKey: "govservice_name",

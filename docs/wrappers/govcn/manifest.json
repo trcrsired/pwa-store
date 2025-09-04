@@ -1,0 +1,17 @@
+{
+  "name": "Chinese Government(\u4e2d\u56fd\u653f\u5e9c\u7f51)",
+  "short_name": "Chinese Government(\u4e2d\u56fd\u653f\u5e9c\u7f51)",
+  "start_url": "/wrappers/govcn/?source=pwa",
+  "scope": "/wrappers/govcn/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Chinese Government(\u4e2d\u56fd\u653f\u5e9c\u7f51)",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/govcn/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
