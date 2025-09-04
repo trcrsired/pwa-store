@@ -324,6 +324,8 @@ const L = {
   windowsonarm_desc: "A community-maintained index of software compatibility for Windows devices running on ARM architecture. Includes native ARM64 apps, emulated x86/x64 support, and user-submitted reports to guide installation and performance expectations.",
   armrepoverit_name: "Windows ARM Software Repository (https://armrepo.ver.lt)",
   armrepoverit_desc: "A curated wrapper site listing native ARM64 applications and compatible software for Windows on ARM devices. Includes browsers, media tools, productivity apps, and community-submitted builds optimized for ARM architecture.",
+  rutrackerorg_name: "RuTracker.org",
+  rutrackerorg_desc: "A Russian torrent tracker and forum offering a vast catalog of movies, music, software, books, and more. Known for its longevity and active user base.",
   archive_name: "Internet Archive",
   archive_desc: "Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more.",
   apkpremier_name: "APK Premier",

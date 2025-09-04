@@ -325,6 +325,8 @@ const L = {
   windowsonarm_desc: "一个由社区维护的软件兼容性索引，专为运行 ARM 架构的 Windows 设备设计。涵盖原生 ARM64 应用、x86/x64 仿真支持，以及用户提交的报告，用于指导安装和性能预期。",
   armrepoverit_name: "Windows ARM 软件仓库 (https://armrepo.ver.lt)",
   armrepoverit_desc: "一个整理好的软件包装站点，列出适用于 Windows ARM 设备的原生 ARM64 应用和兼容软件。涵盖浏览器、多媒体工具、生产力应用，以及社区提交的 ARM 架构优化版本。",
+  rutrackerorg_name: "RuTracker.org",
+  rutrackerorg_desc: "俄罗斯的种子资源论坛，提供丰富的电影、音乐、软件、书籍等内容资源，以其历史悠久和活跃社区而闻名。",
   archive_name: "互联网档案馆",
   archive_desc: "互联网档案馆是一个非营利数字图书馆，收藏数百万份免费文本、电影、软件、音乐、网站等资源。",
   apkpremier_name: "APK Premier",

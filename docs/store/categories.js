@@ -997,6 +997,13 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "RuTracker.org",
+        nameKey: "rutrackerorg_name",
+        descriptionKey: "rutrackerorg_desc",
+        icon: "icons/rutrackerorg.webp",
+        url: "https://rutracker.org"
+      },
+      {
         name: "Internet Archive",
         nameKey: "archive_name",
         descriptionKey: "archive_desc",
