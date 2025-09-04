@@ -432,6 +432,8 @@ const L = {
   aljazeera_desc: "全球新闻和深度报道，半岛电视台以中东事务、调查性新闻和直播报道而闻名。",
   foreignpolicy_name: "外交政策（Foreign Policy）",
   foreignpolicy_desc: "一家专注于国际事务的出版物，提供关于国际关系、外交、安全与经济政策的深度分析。",
+  thetelegraph_name: "每日电讯报",
+  thetelegraph_desc: "通过《每日电讯报》应用，掌握全球最新动态。每日数字版、突发新闻、深度分析、播客、益智游戏及专属订阅内容，一站式尽在掌握。",
   cgtn_name: "CGTN",
   cgtn_desc: "中国国家级国际广播机构 CGTN 提供多语言的世界新闻、商业和地缘政治报道。",
 

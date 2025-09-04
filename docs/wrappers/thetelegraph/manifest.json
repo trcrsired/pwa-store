@@ -1,0 +1,17 @@
+{
+  "name": "The Telegraph",
+  "short_name": "The Telegraph",
+  "start_url": "/wrappers/thetelegraph/?source=pwa",
+  "scope": "/wrappers/thetelegraph/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for The Telegraph",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/thetelegraph/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

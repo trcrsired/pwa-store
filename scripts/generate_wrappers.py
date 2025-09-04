@@ -138,6 +138,7 @@ WRAPPERS = [
   { "name": "USA Today", "url": "https://www.usatoday.com" },
   { "name": "Al Jazeera", "url": "https://www.aljazeera.com" },
   { "name": "Foreign Policy", "url": "https://foreignpolicy.com" },
+  { "name": "The Telegraph", "url": "https://www.telegraph.co.uk" },
   { "name": "CGTN", "url": "https://www.cgtn.com" },
   { "name": "Fortune", "url": "https://fortune.com" },
   { "name": "Scientific American", "url": "https://www.scientificamerican.com" },
