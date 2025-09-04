@@ -2637,7 +2637,7 @@ export const categories = [
         name: "Chinese Government",
         nameKey: "govcn_name",
         descriptionKey: "govcn_desc",
-        icon: "icons/wrappers/govcn",
+        icon: "icons/wrappers/govcn.webp",
         url: "/wrappers/govcn",
         apptype: "wrapper"
       },
