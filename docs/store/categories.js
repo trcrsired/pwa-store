@@ -831,11 +831,59 @@ export const categories = [
         apptype: "wrapper"
       },
       {
-        name: "ABC Microservices",
+        name: "ABC Microservices (农行微服务)",
         nameKey: "abchinamicro_name",
         descriptionKey: "abchinamicro_desc",
         icon: "icons/wechatmini/abchina.webp",
         url: "#小程序://农行微服务/hjvTK1OXuyfOkCE",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Jiangsu Bank Casual Services (苏银随心办)",
+        nameKey: "jsbchinacasual_name",
+        descriptionKey: "jsbchinacasual_desc",
+        icon: "icons/wechatmini/jsbchina.webp",
+        url: "#小程序://苏银随心办/SqepGrB6vhSndnF",
+        apptype: "wechatmini"
+      },
+      {
+        name: "BOC Microservices (中行微服务)",
+        nameKey: "bocmicro_name",
+        descriptionKey: "bocmicro_desc",
+        icon: "icons/wechatmini/boc.webp",
+        url: "#小程序://中行微服务/76l5lfU6eIyJPyD",
+        apptype: "wechatmini"
+      },
+      {
+        name: "ICBC Micro Finance (工行微金融)",
+        nameKey: "icbcfinance_name",
+        descriptionKey: "icbcfinance_desc",
+        icon: "icons/wechatmini/icbc.webp",
+        url: "#小程序://微金融/NRoUBUxgpxCFwEo",
+        apptype: "wechatmini"
+      },
+      {
+        name: "CMB Microservices (招行微服务)",
+        nameKey: "cmbmicro_name",
+        descriptionKey: "cmbmicro_desc",
+        icon: "icons/wechatmini/cmb.webp",
+        url: "#小程序://招行微服务/bdX9WAKBaOpQsjp",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Bank of Communications (交通银行)",
+        nameKey: "bocom_name",
+        descriptionKey: "bocom_desc",
+        icon: "icons/wechatmini/bocom.webp",
+        url: "#小程序://交通银行/cHRvUfRpvLrQXkj",
+        apptype: "wechatmini"
+      },
+      {
+        name: "CITIC Bank (中信银行)",
+        nameKey: "citicbank_name",
+        descriptionKey: "citicbank_desc",
+        icon: "icons/wechatmini/citicbank.webp",
+        url: "#小程序://中信银行/PMSyMFkIhpAF0Cl",
         apptype: "wechatmini"
       },
     ]
@@ -2068,13 +2116,21 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
-        name: "Keruyun",
+        name: "Keruyun (客如云)",
         nameKey: "keruyun_name",
         descriptionKey: "keruyun_desc",
         icon: "icons/wechatmini/keruyun.webp",
         url: "#小程序://客如云服务/7Bv82NUXXw9o61v",
         apptype: "wechatmini"
-      }
+      },
+      {
+        name: "吴老幺火锅 (Wu Lao Yao Hotpot)",
+        nameKey: "wulaoyaohotpot_name",
+        descriptionKey: "wulaoyaohotpot_desc",
+        icon: "icons/wechatmini/wulaoyao.webp",
+        url: "#小程序://吴老幺火锅/Y6UypThkNz1EMXF",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
