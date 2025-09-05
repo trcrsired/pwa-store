@@ -1016,7 +1016,7 @@ const L = {
   suishenban_name: "Suishenban (随申办)",
   suishenban_desc: "Suishenban is Shanghai’s official WeChat Mini Program for public services. Developed by the Shanghai Municipal Government, it provides residents with access to healthcare, social security, transportation, legal services, and more—all in one place. Whether you're booking a hospital visit or checking your housing status, Suishenban makes city life easier and more connected.",
   wowchina_name: "World of Warcraft (China)",
-  wowchina_desc: "This WeChat Mini Program provides access to World of Warcraft services in mainland China, including account management, game updates, community events, and support. Players can stay connected to Azeroth and manage their profiles on the go.",
+  wowchina_desc: "This WeChat Mini Program provides access to World of Warcraft services in mainland China (魔兽世界中国), including account management, game updates, community events, and support. Players can stay connected to Azeroth and manage their profiles on the go.",
   chinatelecom_name: "China Telecom (中国电信)",
   chinatelecom_desc: "Operated by China Telecom Corporation Limited, this Mini Program offers comprehensive account services including real-time bill inquiry, data usage tracking, recharge, electronic invoice issuance, and loyalty points management. It supports unified login via 189 account and integrates with WeChat Pay for seamless transactions.",
   chinamobile_name: "China Mobile (中国移动)",
