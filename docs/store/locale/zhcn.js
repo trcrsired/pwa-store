@@ -1116,6 +1116,10 @@ const L = {
   keep_desc: "Keep官方推出的运动打卡小程序，支持群组打卡、数据同步、排行榜展示等功能，提升健身社交体验。",
   ybzf_name: "医保移动支付",
   ybzf_desc: "医保移动支付是一项便民服务，参保人可通过手机完成医保报销与个人支付，无需携带实体卡或排队缴费，支持挂号、就诊、购药等场景的一键结算。",
+  mymedicalvoucher_name: "我的医保凭证",
+  mymedicalvoucher_desc: "用于查看和管理个人医保凭证的官方小程序，支持相关服务办理。",
+  nationalmedical_name: "国家医保",
+  nationalmedical_desc: "国家医保官方小程序，提供政策查询、服务办理等功能。",
 };
 
 registerLocale("zhcn", L);

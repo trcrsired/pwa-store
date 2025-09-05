@@ -2896,6 +2896,22 @@ export const categories = [
         url: "#小程序://医保移动支付/VnUHHAb2ukRreIy",
         apptype: "wechatmini"
       },
+      {
+        name: "My Medical Insurance Certificate (我的医保凭证)",
+        nameKey: "mymedicalvoucher_name",
+        descriptionKey: "mymedicalvoucher_desc",
+        icon: "icons/wechatmini/ybzf.webp",
+        url: "#小程序://我的医保凭证/IWNy3WqJBbIumEa",
+        apptype: "wechatmini"
+      },
+      {
+        name: "National Medical Insurance (国家医保)",
+        nameKey: "nationalmedical_name",
+        descriptionKey: "nationalmedical_desc",
+        icon: "icons/wechatmini/nationalmedical.webp",
+        url: "#小程序://国家医保/jWOQQAViWjIKErf",
+        apptype: "wechatmini"
+      },
     ]
   },
   {

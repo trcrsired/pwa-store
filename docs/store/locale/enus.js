@@ -1077,6 +1077,10 @@ const L = {
   keep_desc: "An official Keep mini app for fitness check-ins, group tracking, data sync, and leaderboard display—boosting motivation through social workouts.",
   ybzf_name: "Mobile Medical Insurance Payment (医保移动支付)",
   ybzf_desc: "This service allows insured users to settle medical expenses via mobile apps, supporting outpatient registration, consultations, and prescriptions without physical cards or queueing.",
+  mymedicalvoucher_name: "My Medical Insurance Certificate (我的医保凭证)",
+  mymedicalvoucher_desc: "Mini app for accessing your personal medical insurance certificate and related services.",
+  nationalmedical_name: "National Medical Insurance (国家医保)",
+  nationalmedical_desc: "Official mini app for China’s national medical insurance system, offering policy access and service tools.",
 };
 
 registerLocale("enus", L);
