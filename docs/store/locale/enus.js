@@ -1061,6 +1061,8 @@ const L = {
   citicbank_desc: "Official mini app from China CITIC Bank (中国中信银行) offering account services, credit card tools, and financial products.",
   spdbank_name: "SPD Bank (浦发银行)",
   spdbank_desc: "Official mini app from Shanghai Pudong Development Bank (中国上海浦东发展银行), offering account services, mobile payments, and financial tools.",
+  ccb_name: "China Construction Bank (中国建设银行)",
+  ccb_desc: "Official mini app from China Construction Bank, offering account management, payments, and financial services.",
   duoduomaicai_name: "Duoduo Maicai (多多买菜)",
   duoduomaicai_desc: "Duoduo Maicai is a grocery ordering mini program operated by Pinduoduo. It offers next-day pickup of fresh produce and daily essentials through a preorder model, with items sourced directly from agricultural regions across China.",
   dingdongmaicai_name: "Dingdong Maicai (叮咚买菜)",

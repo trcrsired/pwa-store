@@ -894,6 +894,14 @@ export const categories = [
         url: "#小程序://浦发银行/wdceHMyO9ahr5qF",
         apptype: "wechatmini"
       },
+      {
+        name: "中国建设银行",
+        nameKey: "ccb_name",
+        descriptionKey: "ccb_desc",
+        icon: "icons/wechatmini/ccb.webp",
+        url: "#小程序://中国建设银行/A9d6S4M6NM7B9Ui",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
