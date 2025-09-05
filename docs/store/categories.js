@@ -964,6 +964,13 @@ export const categories = [
         url: "https://www.techradar.com"
       },
       {
+        name: "Engadget",
+        nameKey: "engadget_name",
+        descriptionKey: "engadget_desc",
+        icon: "icons/engadget.webp",
+        url: "https://www.engadget.com"
+      },
+      {
         name: "MEDIANAMA",
         nameKey: "medianama_name",
         descriptionKey: "medianama_desc",
