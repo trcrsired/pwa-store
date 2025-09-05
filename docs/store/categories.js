@@ -831,6 +831,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Tencent Wealth Management (腾讯理财通)",
+        nameKey: "tencentwm_name",
+        descriptionKey: "tencentwm_desc",
+        icon: "icons/wechatmini/tencentwm.webp",
+        url: "#小程序://腾讯理财通/693kjGpR5MuvuZp",
+        apptype: "wechatmini"
+      },
+      {
         name: "ABC Microservices (农行微服务)",
         nameKey: "abchinamicro_name",
         descriptionKey: "abchinamicro_desc",
@@ -900,6 +908,30 @@ export const categories = [
         descriptionKey: "ccb_desc",
         icon: "icons/wechatmini/ccb.webp",
         url: "#小程序://中国建设银行/A9d6S4M6NM7B9Ui",
+        apptype: "wechatmini"
+      },
+      {
+        name: "CIB (Industrial Bank) (兴业银行)",
+        nameKey: "cib_name",
+        descriptionKey: "cib_desc",
+        icon: "icons/wechatmini/cibbank.webp",
+        url: "#小程序://兴业银行/BVwWMnh7tbz99Ns",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Ping An Bank (平安银行)",
+        nameKey: "pinganbank_name",
+        descriptionKey: "pinganbank_desc",
+        icon: "icons/wechatmini/pinganbank.webp",
+        url: "#小程序://平安银行/WbVIcXG8hyXFTSI",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Tailong Bank (泰隆银行)",
+        nameKey: "tailongbank_name",
+        descriptionKey: "tailongbank_desc",
+        icon: "icons/wechatmini/tailongbank.webp",
+        url: "#小程序://泰隆银行/PVeGljFR0Jf1ERj",
         apptype: "wechatmini"
       },
     ]
