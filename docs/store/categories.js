@@ -784,6 +784,13 @@ export const categories = [
         url: "https://www.nasdaq.com"
       },
       {
+        name: "Markets Insider",
+        nameKey: "marketsinsider_name",
+        descriptionKey: "marketsinsider_desc",
+        icon: "icons/marketsinsider.webp",
+        url: "https://markets.businessinsider.com",
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",
@@ -1149,6 +1156,13 @@ export const categories = [
         descriptionKey: "variety_desc",
         icon: "icons/variety.webp",
         url: "https://variety.com"
+      },
+      {
+        name: "The Wall Street Journal",
+        nameKey: "thewallstreetjournal_name",
+        descriptionKey: "thewallstreetjournal_desc",
+        icon: "icons/thewallstreetjournal.webp",
+        url: "https://www.wsj.com"
       },
       {
         name: "South China Morning Post",
