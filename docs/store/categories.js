@@ -2196,6 +2196,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "China EMS",
+        nameKey: "chinaems_name",
+        descriptionKey: "chinaems_desc",
+        icon: "icons/wrappers/chinaems.webp",
+        url: "/wrappers/chinaems",
+        apptype: "wrapper"
+      },
+      {
         name: "Transit Code",
         nameKey: "transitcode_name",
         descriptionKey: "transitcode_desc",

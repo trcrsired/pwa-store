@@ -768,6 +768,8 @@ const L = {
   sfexpress_desc: "SF Express—track domestic and international shipments, schedule pickups, and manage delivery services.",
   usps_name: "USPS",
   usps_desc: "United States Postal Service—track shipments, buy postage, schedule pickups, and access national mailing services and address tools through its official portal.",
+  chinaems_name: "China EMS",
+  chinaems_desc: "Official site of China Post Express Mail Service, offering domestic and international logistics tracking and delivery.",
   cars_name: "Cars",
   tesla_name: "Tesla",
   tesla_desc: "Tesla is an American electric vehicle and clean energy company founded by Elon Musk and others in 2003. It is known for its innovative EVs, autonomous driving technology, and energy solutions such as solar panels and battery storage.",

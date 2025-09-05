@@ -48,6 +48,7 @@ WRAPPERS = [
   { "name": "Doordash", "url": "https://www.doordash.com" },
   { "name": "Lyft", "url": "https://www.lyft.com" },
   { "name": "USPS", "url": "https://www.usps.com"},
+  { "name": "China EMS", "url": "https://www.ems.com.cn"},
   { "name": "UHS", "url": "https://www.uhs.com" },
   { "name": "Delta Dental", "url": "https://www.deltadental.com", "keyify_name": "deltadental" },
   { "name": "VSIGO(视客眼镜)", "url": "https://www.vsigo.cn", "keyify_name": "vsigo" },
