@@ -1,0 +1,17 @@
+{
+  "name": "ACM",
+  "short_name": "ACM",
+  "start_url": "/wrappers/acm/?source=pwa",
+  "scope": "/wrappers/acm/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for ACM",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/acm/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

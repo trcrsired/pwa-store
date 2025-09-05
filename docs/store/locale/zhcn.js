@@ -216,6 +216,8 @@ const L = {
   mixi_desc: "一个日本社交网络服务平台，以社区论坛、日记式帖子和兴趣小组为特色。",
   rumble_name: "Rumble",
   rumble_desc: "一个以言论自由立场和另类变现方式著称的视频分享平台，常被视为 YouTube 的替代选择。",
+  soul_name: "Soul",
+  soul_desc: "一款通过兴趣匹配与情感共鸣建立真实关系的社交平台，倡导“灵魂匹配”而非颜值社交。",
   zoosk_name: "Zoosk",
   zoosk_desc: "Zoosk 是一款广受欢迎的在线约会平台，采用行为匹配技术，帮助全球用户寻找理想伴侣。界面友好，匹配智能，为用户提供一个有趣且安全的交友环境，助你建立有意义的关系。",
   eharmony_name: "eHarmony",
@@ -414,6 +416,8 @@ const L = {
   foreignaffairs_desc: "由美国外交关系协会出版，专注于国际关系、外交政策与全球事务的分析与评论。",
   timemagazine_name: "时代周刊（TIME Magazine）",
   timemagazine_desc: "一家全球性新闻与评论出版物，内容涵盖政治、科学、健康、气候、文化及新兴技术（包括人工智能）与国际事务。",
+  variety_name: "综艺杂志（Variety）",
+  variety_desc: "娱乐行业的权威之声，深入报道电影、电视、戏剧与科技领域的全球动态。",
   scmp_name: "南华早报",
   scmp_desc: "一家总部位于香港的新闻媒体，报道中国、亚洲及全球事务，涵盖政治、经济、科技与文化等领域。",
   hindustantimes_name: "印度斯坦时报",
@@ -444,6 +448,10 @@ const L = {
   fortune_desc: "一家全球商业媒体品牌，以财富500强和全球500强等排名著称，提供关于企业领导力、金融和经济趋势的深入报道。",
   scientificamerican_name: "科学美国人（Scientific American）",
   scientificamerican_desc: "一本科学与技术出版物，内容涵盖研究、创新、健康、环境及社会影响等主题。",
+  sacramentobee_name: "萨克拉门托蜜蜂报（Sacramento Bee）",
+  sacramentobee_desc: "来自加州首府的突发新闻、政治动态与本地报道。",
+  politico_name: "政客杂志（POLITICO）",
+  politico_desc: "深入报道美国及全球政治、政策与权力人物的动态。",
   ifeng_name: "凤凰网",
   ifeng_desc: "综合性中文新闻门户，涵盖时政、财经、文化及全球热点资讯。",
 
@@ -536,6 +544,8 @@ const L = {
   icyveins_desc: "Icy Veins 是一个专注于《魔兽世界》及其他暴雪游戏的攻略网站，提供详尽的职业指南、副本攻略、幻化套装展示及节日活动信息。玩家可通过该平台优化天赋、技能循环、装备选择与宏命令，适用于所有职业专精与角色定位。",
   ragezone_name: "RaGEZONE",
   ragezone_desc: "RaGEZONE 是一个资深的在线论坛，专注于 MMORPG 游戏开发、私服模拟和游戏修改。论坛提供丰富的资源，包括服务器文件、教程，以及针对 MU Online、冒险岛、仙境传说等游戏的技术讨论。凭借活跃的开发者社区和用户基础，RaGEZONE 成为游戏定制与逆向工程爱好者的重要交流平台。",
+  gamerant_name: "游戏咆哮（Game Rant）",
+  gamerant_desc: "由玩家撰写的游戏新闻、评测、专题与访谈，专为游戏爱好者打造。",
   mmochampion_name: "MMO Champion",
   mmochampion_desc: "专注于魔兽世界的新闻与论坛中心，提供补丁说明、团队副本攻略和社区讨论。",
   warcraftlogs_name: "Warcraft Logs",
@@ -727,6 +737,8 @@ const L = {
   codesignal_desc: "一个用于技术评估、面试准备和技能认证的平台，广泛应用于企业招聘和求职者提升。",
   remoteok_name: "Remote OK",
   remoteok_desc: "Remote OK 是一个全球远程工作招聘平台，涵盖技术、设计、市场营销等多个领域。每日更新，提供来自支持远程工作的公司的真实职位信息。",
+  layoffsfyi_name: "Layoffs.fyi",
+  layoffsfyi_desc: "实时追踪科技行业裁员动态，整合公开数据，提升透明度并帮助失业者与招聘方建立联系。",
   mobilitylogistics_name: "出行与配送",
   uber_name: "优步",
   uber_desc: "打车与配送平台，可预订行程、点餐并通过可安装的 PWA 管理账户。",
@@ -838,7 +850,8 @@ const L = {
   bjarnestroustrup_desc: "本贾尼·斯特劳斯特卢普是丹麦计算机科学家，以设计和实现 C++ 编程语言而闻名。",
   nvidia_name: "英伟达",
   nvidia_desc: "英伟达是全球人工智能计算领域的领导者，提供用于数据中心、游戏等领域的芯片。",
-
+  ruanyifeng_name: "阮一峰",
+  ruanyifeng_desc: "知名技术博主与作家，专注于Web技术、JavaScript与软件工程的通俗教程与深度解析。",
   usgov_name: "美国政府🇺🇸",
 
   irs_name: "美国国税局（IRS）",
@@ -930,7 +943,8 @@ const L = {
 
   deltadental_name: "Delta Dental",
   deltadental_desc: "Delta Dental 是面向个人和雇主的牙科保险服务商，支持在线管理福利、查找牙医、查看理赔和获取口腔健康资源。",
-
+  vsigo_name: "视客眼镜",
+  vsigo_desc: "正品隐形眼镜、美瞳、太阳镜与近视眼镜网购平台，提供多品牌配镜服务与优惠价格。",
   research_name: "研究",
   overleaf_name: "Overleaf",
   overleaf_desc: "Overleaf 是一个基于云端的 LaTeX 编辑平台，专为学术写作和技术文档设计。它支持多人实时协作、自动编译文档，并与参考文献管理工具无缝集成，特别适合撰写论文、报告、简历和演示文稿等结构化文档。用户无需安装任何软件，即可在线编辑和预览 LaTeX 文档。",
@@ -939,7 +953,8 @@ const L = {
 
   hotcrp_name: "HotCRP",
   hotcrp_desc: "一个基于网络的会议管理系统，用于论文提交、评审和决策跟踪。",
-
+  acm_name: "ACM",
+  acm_desc: "全球最大的计算机学会，通过出版物、会议和ACM数字图书馆推动计算科学与专业发展。",
   education_name: "教育",
 
   princeton_name: "普林斯顿大学",
@@ -1057,6 +1072,8 @@ const L = {
   jingdong_desc: "京东购物是微信小程序中的电商平台，支持商品搜索、下单、支付与配送服务，涵盖生鲜、数码、日用品等品类，并提供外卖点餐与国补活动等优惠功能。",
   tencentmeeting_name: "腾讯会议",
   tencentmeeting_desc: "腾讯会议是一款视频会议工具，支持屏幕共享、日程安排，并可通过微信小程序便捷访问，适用于远程协作场景。",
+  yiqituodan_name: "一起脱单",
+  yiqituodan_desc: "微信小程序，提供婚恋交友服务，通过定制化推荐帮助用户寻找理想伴侣。",
   abchinamicro_name: "农行微服务",
   abchinamicro_desc: "农行微服务是中国农业银行官方微信小程序，提供移动银行、账户服务及多项金融工具。用户可通过微信安全查询余额、转账汇款、缴费支付及管理银行卡。小程序支持生物识别登录、微信支付，并根据用户画像和地理位置提供个性化金融推荐。",
   duoduomaicai_name: "多多买菜",

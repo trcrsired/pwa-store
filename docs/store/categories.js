@@ -624,6 +624,13 @@ export const categories = [
         url: "https://rumble.com",
         descriptionKey: "rumble_desc",
       },
+      {
+        name: "Soul",
+        nameKey: "soul_name",
+        descriptionKey: "soul_desc",
+        icon: "icons/soul.webp",
+        url: "https://login.soulapp.cn",
+      },
       { name: "Weibo Lite (微博Lite)", nameKey: "weibo_name", descriptionKey: "weibo_desc", icon: "icons/weibo.webp", url: "https://m.weibo.cn" },
       {
         name: "Zoosk",
@@ -657,6 +664,14 @@ export const categories = [
         descriptionKey: "tencentmeeting_desc",
         apptype: "wechatmini"
       },
+      {
+        name: "一起脱单",
+        nameKey: "yiqituodan_name",
+        icon: "icons/wechatmini/yiqituodan.webp",
+        url: "#小程序://一起脱单/VlpiuliP2yKM8jv",
+        descriptionKey: "yiqituodan_desc",
+        apptype: "wechatmini"
+      }
     ]
   },
   {
@@ -1122,6 +1137,13 @@ export const categories = [
         url: "https://time.com"
       },
       {
+        name: "Variety",
+        nameKey: "variety_name",
+        descriptionKey: "variety_desc",
+        icon: "icons/variety.webp",
+        url: "https://variety.com"
+      },
+      {
         name: "South China Morning Post",
         nameKey: "scmp_name",
         descriptionKey: "scmp_desc",
@@ -1149,6 +1171,9 @@ export const categories = [
         url: "/wrappers/scientificamerican",
         apptype: "wrapper"
       },
+      { name: "Sacramento Bee", nameKey: "sacramentobee_name", descriptionKey: "sacramentobee_desc", icon: "icons/wrappers/sacramentobee.webp", url: "/wrappers/sacramentobee", apptype: "wrapper"},
+      { name: "POLITICO", nameKey: "politico_name", descriptionKey: "politico_desc", icon: "icons/wrappers/politico.webp", url: "/wrappers/politico", apptype: "wrapper"},
+
       { name: "ifeng (凤凰网)", nameKey: "ifeng_name", descriptionKey: "ifeng_desc", icon: "icons/wrappers/ifeng.webp", url: "/wrappers/ifeng", apptype: "wrapper" },
       { name: "Tencent News (腾讯新闻)", nameKey: "tencent_name", descriptionKey: "tencent_desc", icon: "icons/tencent_news.webp", url: "https://news.qq.com" },
       { name: "Baidu (百度)", nameKey: "baidu_name", descriptionKey: "baidu_desc", icon: "icons/baidu.webp", url: "https://www.baidu.com" },
@@ -1300,6 +1325,13 @@ export const categories = [
         descriptionKey: "ragezone_desc",
         icon: "icons/ragezone.webp",
         url: "https://forum.ragezone.com"
+      },
+      {
+        name: "Game Rant",
+        nameKey: "gamerant_name",
+        descriptionKey: "gamerant_desc",
+        icon: "icons/gamerant.webp",
+        url: "https://gamerant.com"
       },
       {
         name: "MMO Champion",
@@ -2325,6 +2357,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Layoffs.fyi",
+        nameKey: "layoffsfyi_name",
+        descriptionKey: "layoffsfyi_desc",
+        icon: "icons/wrappers/layoffsfyi.webp",
+        url: "/wrappers/layoffsfyi",
+        apptype: "wrapper"
+      },
+      {
         name: "BOSS Zhipin",
         nameKey: "bosszhipin_name",
         descriptionKey: "bosszhipin_desc",
@@ -2438,7 +2478,15 @@ export const categories = [
         icon: "icons/wrappers/nvidia.webp",
         url: "/wrappers/nvidia",
         apptype: "wrapper"
-      }
+      },
+      {
+        name: "Ruan Yifeng(阮一峰)",
+        nameKey: "ruanyifeng_name",
+        descriptionKey: "ruanyifeng_desc",
+        icon: "icons/wrappers/ruanyifeng.webp",
+        url: "/wrappers/ruanyifeng",
+        apptype: "wrapper"
+      },
     ]
   },
   {
@@ -2739,6 +2787,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "VSIGO(视客眼镜)",
+        nameKey: "vsigo_name",
+        descriptionKey: "vsigo_desc",
+        icon: "icons/wrappers/vsigo.webp",
+        url: "/wrappers/vsigo",
+        apptype: "wrapper"
+      },
+      {
         name: "Keep Fitness Assistant",
         nameKey: "keep_name",
         descriptionKey: "keep_desc",
@@ -2780,6 +2836,14 @@ export const categories = [
         descriptionKey: "hotcrp_desc",
         icon: "icons/wrappers/hotcrp.webp",
         url: "/wrappers/hotcrp",
+        apptype: "wrapper",
+      },
+      {
+        name: "ACM",
+        nameKey: "acm_name",
+        descriptionKey: "acm_desc",
+        icon: "icons/wrappers/acm.webp",
+        url: "/wrappers/acm",
         apptype: "wrapper",
       },
     ]

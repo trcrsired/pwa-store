@@ -215,6 +215,8 @@ const L = {
   mixi_desc: "A Japanese social networking service known for community forums, diary-style posts, and interest-based groups.",
   rumble_name: "Rumble",
   rumble_desc: "A video-sharing platform known for its free speech stance and alternative monetization options, often seen as a YouTube alternative.",
+  soul_name: "Soul",
+  soul_desc: "A social networking app that connects users through shared interests and emotional resonance, fostering authentic relationships beyond appearances.",
   zoosk_name: "Zoosk",
   zoosk_desc: "Zoosk is a popular online dating platform that uses behavioral matchmaking technology to connect singles worldwide. With a user-friendly interface and smart matching features, Zoosk helps people find meaningful relationships in a fun and secure environment.",
   eharmony_name: "eHarmony",
@@ -414,6 +416,8 @@ const L = {
   foreignaffairs_desc: "A publication by the Council on Foreign Relations featuring analysis and commentary on international relations, diplomacy, and global policy.",
   timemagazine_name: "TIME Magazine",
   timemagazine_desc: "A global news and commentary publication covering politics, science, health, climate, culture, and emerging technologies, including AI and international affairs.",
+  variety_name: "Variety",
+  variety_desc: "The definitive voice of the entertainment industry, covering film, TV, theater, and tech with global insight.",
   scmp_name: "South China Morning Post",
   scmp_desc: "A Hong Kong-based news outlet offering coverage of China, Asia, and global affairs, with reporting on politics, economy, technology, and culture.",
   hindustantimes_name: "Hindustan Times",
@@ -444,6 +448,10 @@ const L = {
   fortune_desc: "A global business media brand known for its rankings like the Fortune 500 and Global 500, offering in-depth coverage of corporate leadership, finance, and economic trends.",
   scientificamerican_name: "Scientific American",
   scientificamerican_desc: "A science and technology publication featuring articles on research, innovation, health, environment, and societal impact.",
+  sacramentobee_name: "Sacramento Bee",
+  sacramentobee_desc: "Breaking news, politics, and local coverage from California's capital.",
+  politico_name: "POLITICO",
+  politico_desc: "In-depth reporting on U.S. and global politics, policy, and power players.",
   ifeng_name: "ifeng (凤凰网)",
   ifeng_desc: "Comprehensive Chinese news portal offering coverage of current affairs, finance, culture, and global events.",
 
@@ -537,6 +545,8 @@ const L = {
   icyveins_desc: "Icy Veins is a strategy guide site for World of Warcraft and other Blizzard titles. It offers in-depth class guides, raid and dungeon walkthroughs, transmogrification sets, and seasonal event coverage. The platform is widely used by players to optimize talents, rotations, gear, and macros across all specs and roles.",
   ragezone_name: "RaGEZONE",
   ragezone_desc: "RaGEZONE is a veteran online forum focused on MMORPG development, private server emulation, and game modding. It hosts a wide range of resources including server files, tutorials, and technical discussions for games like MU Online, MapleStory, and Ragnarok. With a strong developer community and active user base, RaGEZONE serves as a hub for enthusiasts exploring game customization and reverse engineering.",
+  gamerant_name: "Game Rant",
+  gamerant_desc: "Gaming news, reviews, features, and interviews written by gamers, for gamers.",
   mmochampion_name: "MMO Champion",
   mmochampion_desc: "World of Warcraft-focused news and forum hub featuring patch notes, raid strategies, and community discussions.",
   warcraftlogs_name: "Warcraft Logs",
@@ -727,6 +737,8 @@ const L = {
   codesignal_desc: "A platform for technical assessments, interview preparation, and skills certification used by companies and job seekers.",
   remoteok_name: "Remote OK",
   remoteok_desc: "Remote OK is a global job board specializing in remote work opportunities across tech, design, marketing, and more. Updated daily with verified listings from remote-friendly companies.",
+  layoffsfyi_name: "Layoffs.fyi",
+  layoffsfyi_desc: "A real-time tracker of tech industry layoffs, aggregating data from public sources to increase transparency and help affected workers connect with recruiters.",
   mobilitylogistics_name: "Mobility & Logistics",
 
   uber_name: "Uber",
@@ -799,7 +811,8 @@ const L = {
   bjarnestroustrup_desc: "Bjarne Stroustrup is a Danish computer scientist best known for designing and implementing the C++ programming language.",
   nvidia_name: "NVIDIA",
   nvidia_desc: "NVIDIA is a global leader in artificial intelligence computing and supplies chips for data centers, gaming, and more.",
-
+  ruanyifeng_name: "Ruan Yifeng",
+  ruanyifeng_desc: "A renowned Chinese tech blogger and author, known for clear tutorials on web technologies, JavaScript, and software engineering.",
   usgov_name: "United States Government🇺🇸",
 
   irs_name: "IRS",
@@ -891,7 +904,8 @@ const L = {
 
   deltadental_name: "Delta Dental",
   deltadental_desc: "Dental insurance provider serving individuals and employers—manage benefits, find dentists, view claims, and explore oral health resources online.",
-
+  vsigo_name: "VSIGO(视客眼镜)",
+  vsigo_desc: "Online eyewear store offering contact lenses, colored lenses, sunglasses, and prescription glasses from top brands.",
   research_name: "Research",
   overleaf_name: "Overleaf",
   overleaf_desc: "Overleaf is a cloud-based LaTeX editor designed for collaborative academic and technical writing. It enables real-time co-authoring, automatic document compilation, and seamless integration with citation tools, making it ideal for researchers, scientists, and students preparing structured documents such as papers, theses, and reports.",
@@ -900,7 +914,8 @@ const L = {
 
   hotcrp_name: "HotCRP",
   hotcrp_desc: "A web-based conference management system for paper submission, review, and decision tracking.",
-
+  acm_name: "ACM",
+  acm_desc: "The world's largest computing society, advancing computing as a science and profession through publications, conferences, and the ACM Digital Library.",
   education_name: "Education",
 
   princeton_name: "Princeton University",
@@ -1018,6 +1033,8 @@ const L = {
   jingdong_desc: "Jingdong is an e-commerce mini program offering product search, ordering, payment, and delivery services within WeChat. It supports groceries, electronics, daily essentials, and promotional campaigns including government subsidies.",
   tencentmeeting_name: "Tencent Meeting (腾讯会议)",
   tencentmeeting_desc: "Tencent Meeting is a video conferencing tool designed for seamless collaboration, offering screen sharing, scheduling, and mobile access via WeChat Mini Program.",
+  yiqituodan_name: "Yiqi Tuodan (一起脱单)",
+  yiqituodan_desc: "A WeChat Mini Program offering matchmaking and dating services, designed to help users find meaningful relationships through curated introductions.",
   abchinamicro_name: "ABC Microservices (农行微服务)",
   abchinamicro_desc: "ABC Microservices is a WeChat Mini Program operated by Agricultural Bank of China, offering mobile banking, account services, and financial tools. Users can check balances, transfer funds, pay bills, and manage cards securely through WeChat. It supports biometric login, WeChat Pay, and personalized financial recommendations based on user profiles and location.",
   duoduomaicai_name: "Duoduo Maicai (多多买菜)",

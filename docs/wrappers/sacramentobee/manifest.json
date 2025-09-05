@@ -1,0 +1,17 @@
+{
+  "name": "Sacramento Bee",
+  "short_name": "Sacramento Bee",
+  "start_url": "/wrappers/sacramentobee/?source=pwa",
+  "scope": "/wrappers/sacramentobee/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Sacramento Bee",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/sacramentobee/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

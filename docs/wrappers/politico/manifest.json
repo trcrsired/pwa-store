@@ -1,0 +1,17 @@
+{
+  "name": "POLITICO",
+  "short_name": "POLITICO",
+  "start_url": "/wrappers/politico/?source=pwa",
+  "scope": "/wrappers/politico/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for POLITICO",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/politico/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
