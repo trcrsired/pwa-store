@@ -887,7 +887,7 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
-        name: "浦发银行",
+        name: "SPD Bank (浦发银行)",
         nameKey: "spdbank_name",
         descriptionKey: "spdbank_desc",
         icon: "icons/wechatmini/spdbank.webp",
@@ -895,7 +895,7 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
-        name: "中国建设银行",
+        name: "China Construction Bank (中国建设银行)",
         nameKey: "ccb_name",
         descriptionKey: "ccb_desc",
         icon: "icons/wechatmini/ccb.webp",
