@@ -1,0 +1,17 @@
+{
+  "name": "Marie Claire",
+  "short_name": "Marie Claire",
+  "start_url": "/wrappers/marieclaire/?source=pwa",
+  "scope": "/wrappers/marieclaire/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Marie Claire",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/marieclaire/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

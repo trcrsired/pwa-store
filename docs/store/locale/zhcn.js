@@ -473,6 +473,8 @@ const L = {
   instyle_desc: "InStyle是时尚、美妆和流行文化领域的权威媒体。创立于1994年，现隶属于Dotdash Meredith集团，专注于数字内容，提供风格灵感、明星潮流和专业建议。",
   elle_name: "ELLE",
   elle_desc: "ELLE是创立于1945年巴黎的全球知名时尚与生活方式杂志，由Hélène Gordon-Lazareff创办。拥有45个国际版本和每月超过一亿数字访问量，内容涵盖时尚、美妆、文化及女性赋权，遍布纸媒与数字平台。",
+  marieclaire_name: "玛丽·克莱尔(Marie Claire)",
+  marieclaire_desc: "全球女性时尚杂志，涵盖时尚、美妆、明星资讯及文化、政治与女性赋权的深度报道。",
   entertainmentplatform_name: "娱乐平台",
   age_name: "AGE动漫",
   age_desc: "在线观看丰富的动漫剧集和电影，内容定期更新并配有中文字幕。",

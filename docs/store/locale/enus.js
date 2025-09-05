@@ -473,6 +473,8 @@ const L = {
   instyle_desc: "InStyle is a trusted voice in fashion, beauty, and pop culture. Founded in 1994 and now part of Dotdash Meredith, it offers style inspiration, celebrity trends, and expert advice through a digital-only format.",
   elle_name: "ELLE",
   elle_desc: "ELLE is a globally renowned fashion and lifestyle magazine founded in Paris in 1945 by Hélène Gordon-Lazareff. With 45 international editions and over 100 million monthly digital visitors, it covers fashion, beauty, culture, and women's empowerment across print and digital platforms.",
+  marieclaire_name: "Marie Claire",
+  marieclaire_desc: "A global women's magazine known for fashion, beauty, celebrity news, and award-winning journalism on culture, politics, and empowerment.",
   entertainmentplatform_name: "Entertainment Platform",
   
   age_name: "AGE Animation (AGE动漫)",

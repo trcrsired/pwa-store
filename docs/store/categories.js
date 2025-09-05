@@ -1201,6 +1201,7 @@ export const categories = [
     apps: [
       { name: "InStyle", nameKey: "instyle_name", descriptionKey: "instyle_desc", icon: "icons/instyle.webp", url: "https://www.instyle.com" },
       { name: "ELLE", nameKey: "elle_name", descriptionKey: "elle_desc", icon: "icons/elle.webp", url: "https://www.elle.com" },
+      { name: "Marie Claire", nameKey: "marieclaire_name", descriptionKey: "marieclaire_desc", icon: "icons/wrappers/marieclaire.webo", url: "/wrappers/marieclaire" , apptype: "wrapper"},
     ]
   },
   {
