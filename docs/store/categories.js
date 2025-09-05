@@ -657,7 +657,7 @@ export const categories = [
         apptype: "wrapper"
       },
       {
-        name: "Tencent Meeting",
+        name: "Tencent Meeting (腾讯会议)",
         nameKey: "tencentmeeting_name",
         icon: "icons/wechatmini/tencentmeeting.webp",
         url: "#小程序://腾讯会议/2S7Qe4qJWnhBOCe",
@@ -665,7 +665,7 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
-        name: "一起脱单",
+        name: "Yiqituodan (一起脱单)",
         nameKey: "yiqituodan_name",
         icon: "icons/wechatmini/yiqituodan.webp",
         url: "#小程序://一起脱单/VlpiuliP2yKM8jv",
