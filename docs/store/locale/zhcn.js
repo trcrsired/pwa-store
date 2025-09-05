@@ -1098,6 +1098,8 @@ const L = {
   bocom_desc: "交通银行官方小程序，支持账户服务、金融产品购买等。",
   citicbank_name: "中信银行",
   citicbank_desc: "中信银行官方小程序，提供账户服务、信用卡工具及金融产品。",
+  spdbank_name: "浦发银行",
+  spdbank_desc: "浦发银行官方小程序，提供账户服务、移动支付及金融工具。",
   duoduomaicai_name: "多多买菜",
   duoduomaicai_desc: "多多买菜是拼多多运营的买菜小程序，采用“线上下单+线下自提”模式，次日可取。商品来自全国农产区，涵盖蔬菜、水果、肉蛋、粮油等生活必需品。",
   dingdongmaicai_name: "叮咚买菜",

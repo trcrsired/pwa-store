@@ -886,6 +886,14 @@ export const categories = [
         url: "#小程序://中信银行/PMSyMFkIhpAF0Cl",
         apptype: "wechatmini"
       },
+      {
+        name: "浦发银行",
+        nameKey: "spdbank_name",
+        descriptionKey: "spdbank_desc",
+        icon: "icons/wechatmini/spdbank.webp",
+        url: "#小程序://浦发银行/wdceHMyO9ahr5qF",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
