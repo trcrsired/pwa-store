@@ -1071,6 +1071,8 @@ const L = {
   keruyun_desc: "A WeChat mini program for smart retail and restaurant operations. Offers digital tools for ordering, payments, membership, and marketing to help merchants streamline workflows and improve customer engagement.",
   wulaoyaohotpot_name: "Wulayao Hotpot (吴老幺火锅)",
   wulaoyaohotpot_desc: "Official mini app of Wulayao Hotpot, offering online ordering and store locator features.",
+  xiaolongkanhotpot_name: "Xiaolongkan Hotpot (小龙坎火锅)",
+  xiaolongkanhotpot_desc: "Official mini app of Xiaolongkan Hotpot, offering online reservations, menu browsing, and store services.",
   keep_name: "Keep Fitness Assistant (Keep运动助手)",
   keep_desc: "An official Keep mini app for fitness check-ins, group tracking, data sync, and leaderboard display—boosting motivation through social workouts.",
   ybzf_name: "Mobile Medical Insurance Payment (医保移动支付)",

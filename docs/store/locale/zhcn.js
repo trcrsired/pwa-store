@@ -1110,6 +1110,8 @@ const L = {
   keruyun_desc: "一款面向零售与餐饮行业的微信小程序，提供点餐、支付、会员管理与营销等数字化工具，助力商家优化运营流程，提升顾客体验。",
   wulaoyaohotpot_name: "吴老幺火锅",
   wulaoyaohotpot_desc: "知名火锅品牌吴老幺的官方小程序，支持在线点餐、门店查询等。",
+  xiaolongkanhotpot_name: "小龙坎火锅",
+  xiaolongkanhotpot_desc: "小龙坎火锅官方小程序，支持在线预约、菜单浏览及门店服务。",
   keep_name: "Keep运动助手",
   keep_desc: "Keep官方推出的运动打卡小程序，支持群组打卡、数据同步、排行榜展示等功能，提升健身社交体验。",
   ybzf_name: "医保移动支付",

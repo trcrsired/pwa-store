@@ -2131,6 +2131,14 @@ export const categories = [
         url: "#小程序://吴老幺火锅/Y6UypThkNz1EMXF",
         apptype: "wechatmini"
       },
+      {
+        name: "小龙坎火锅 (Xiaolongkan Hotpot)",
+        nameKey: "xiaolongkanhotpot_name",
+        descriptionKey: "xiaolongkanhotpot_desc",
+        icon: "icons/wechatmini/xiaolongkan.webp",
+        url: "#小程序://小龙坎会员中心/Im6kowk93xKVR3r",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
