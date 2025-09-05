@@ -426,6 +426,8 @@ const L = {
   thewallstreetjournal_desc: "全球知名报纸，自1889年由道琼斯公司创办，权威报道商业、金融、经济与国际事务。",
   scmp_name: "南华早报",
   scmp_desc: "一家总部位于香港的新闻媒体，报道中国、亚洲及全球事务，涵盖政治、经济、科技与文化等领域。",
+  inc_name: "Inc.",
+  inc_desc: "Inc. 杂志提供商业新闻与洞察，涵盖初创企业、领导力与创新。",
   hindustantimes_name: "印度斯坦时报",
   hindustantimes_desc: "《印度斯坦时报》（Hindustan Times）是印度领先的英文报纸之一，提供全面的国内外新闻、政治、商业、体育、娱乐和生活方式报道。由HT Media有限公司拥有，以其可信的新闻报道和在印度主要城市广泛的读者群体而闻名。",
   nyt_name: "纽约时报",

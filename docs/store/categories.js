@@ -1235,6 +1235,13 @@ export const categories = [
         icon: "icons/scmp.webp",
         url: "https://www.scmp.com",
       },
+      {
+        name: "Inc.",
+        nameKey: "inc_name",
+        descriptionKey: "inc_desc",
+        icon: "icons/inc.webp",
+        url: "https://www.inc.com"
+      },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url: "/wrappers/nytimes", apptype: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url: "/wrappers/washingtonpost", apptype: "wrapper" },
       { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url: "/wrappers/reuters", apptype: "wrapper" },

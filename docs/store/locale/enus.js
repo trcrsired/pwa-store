@@ -426,6 +426,8 @@ const L = {
   thewallstreetjournal_desc: "A leading global newspaper offering authoritative coverage of business, finance, economics, and world affairs. Published by Dow Jones & Company since 1889.",
   scmp_name: "South China Morning Post",
   scmp_desc: "A Hong Kong-based news outlet offering coverage of China, Asia, and global affairs, with reporting on politics, economy, technology, and culture.",
+  inc_name: "Inc.",
+  inc_desc: "Business news and insights from Inc. magazine, covering startups, leadership, and innovation.",
   hindustantimes_name: "Hindustan Times",
   hindustantimes_desc: "One of India's leading English-language newspapers, Hindustan Times delivers comprehensive coverage of national and international news, politics, business, sports, entertainment, and lifestyle. Owned by HT Media Ltd., it is known for its credible journalism and wide readership across major Indian cities.",
   nyt_name: "New York Times",
