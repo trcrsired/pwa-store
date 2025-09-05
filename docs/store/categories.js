@@ -2124,7 +2124,7 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
-        name: "吴老幺火锅 (Wu Lao Yao Hotpot)",
+        name: "吴老幺火锅 (Wulayao Hotpot)",
         nameKey: "wulaoyaohotpot_name",
         descriptionKey: "wulaoyaohotpot_desc",
         icon: "icons/wechatmini/wulaoyao.webp",
