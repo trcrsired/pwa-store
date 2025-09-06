@@ -934,6 +934,14 @@ export const categories = [
         url: "#小程序://泰隆银行/PVeGljFR0Jf1ERj",
         apptype: "wechatmini"
       },
+      {
+        name: "Nanjing Bank Xinweiting (南京银行鑫微厅)",
+        nameKey: "njbankxinweiting_name",
+        descriptionKey: "njbankxinweiting_desc",
+        icon: "icons/wechatmini/njbankxinweiting.webp",
+        url: "#小程序://南京银行鑫微厅/L6nDGwUvuxvVGBg",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
@@ -2541,6 +2549,14 @@ export const categories = [
         descriptionKey: "yupaozhipin_desc",
         icon: "icons/wechatmini/yupaozhipin.webp",
         url: "#小程序://鱼泡直聘/tu6JXowI0agEQ9I",
+        apptype: "wechatmini"
+      },
+      {
+        name: "12333",
+        nameKey: "gov12333_name",
+        descriptionKey: "gov12333_desc",
+        icon: "icons/wechatmini/gov12333.webp",
+        url: "#小程序://12333/Npqb1i79sqoW3UA",
         apptype: "wechatmini"
       },
     ]
