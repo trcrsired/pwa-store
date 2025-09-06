@@ -1,0 +1,17 @@
+{
+  "name": "Pixiv",
+  "short_name": "Pixiv",
+  "start_url": "/wrappers/pixiv/?source=pwa",
+  "scope": "/wrappers/pixiv/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Pixiv",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/pixiv/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

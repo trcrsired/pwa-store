@@ -525,7 +525,8 @@ const L = {
 
   netflix_name: "Netflix",
   netflix_desc: "Netflix is an American subscription video on-demand over-the-top streaming service. The service primarily distributes original and acquired films and television shows from various genres, and it is available internationally in multiple languages.",
-
+  pixiv_name: "Pixiv",
+  pixiv_desc: "One of the world's largest art communities, where users can browse and post illustrations, manga, and novels.",
   games_name: "Games",
 
   gameslol_name: "GamesLOL",

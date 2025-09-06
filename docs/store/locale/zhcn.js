@@ -523,7 +523,8 @@ const L = {
 
   netflix_name: "奈飞",
   netflix_desc: "奈飞（Netflix）是一家美国订阅制视频点播服务，主要发行原创和收购的电影及电视剧，覆盖多种类型，支持多语言，面向全球用户。",
-
+  pixiv_name: "Pixiv",
+  pixiv_desc: "全球最大的艺术创作社区之一，用户可浏览和发布插画、漫画与小说作品。",
   games_name: "游戏",
 
   gameslol_name: "GamesLOL",
