@@ -1065,7 +1065,7 @@ const L = {
   jsbchinacasual_desc: "A convenient financial service mini app by Jiangsu Bank (中国江苏银行), supporting various online transactions.",
   bocmicro_name: "BOC Microservices (中行微服务)",
   bocmicro_desc: "Official mini app from Bank of China (中国银行) offering account management, transfers, and core banking services.",
-  icbcfinance_name: "ICBC Micro Finance (工行微金融)",
+  icbcfinance_name: "ICBC Micro Finance (工银微金融)",
   icbcfinance_desc: "Microfinance platform by ICBC (中国工商银行) offering loan applications, wealth management, and more.",
   cmbmicro_name: "CMB Microservices (招行微服务)",
   cmbmicro_desc: "Mini app by China Merchants Bank (中国招商银行) for account inquiries, credit card management, and more.",

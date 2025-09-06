@@ -863,7 +863,7 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
-        name: "ICBC Micro Finance (工行微金融)",
+        name: "ICBC Micro Finance (工银微金融)",
         nameKey: "icbcfinance_name",
         descriptionKey: "icbcfinance_desc",
         icon: "icons/wechatmini/icbc.webp",

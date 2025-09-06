@@ -1102,7 +1102,7 @@ const L = {
   jsbchinacasual_desc: "江苏银行推出的便捷金融服务小程序，支持多种业务在线办理。",
   bocmicro_name: "中行微服务",
   bocmicro_desc: "中国银行官方小程序，提供账户管理、转账汇款等基础金融服务。",
-  icbcfinance_name: "工行微金融",
+  icbcfinance_name: "工银微金融",
   icbcfinance_desc: "中国工商银行推出的微金融服务平台，支持贷款申请、理财产品等。",
   cmbmicro_name: "招行微服务",
   cmbmicro_desc: "招商银行官方小程序，提供账户查询、信用卡管理等功能。",
