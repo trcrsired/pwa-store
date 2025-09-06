@@ -937,6 +937,20 @@ export const categories = [
     ]
   },
   {
+    name: "Billing",
+    nameKey: "billing_key",
+    apps: [
+      {
+        name: "Online State Grid (网上国网)",
+        nameKey: "onlinestategrid_name",
+        descriptionKey: "onlinestategrid_desc",
+        icon: "icons/wechatmini/onlinestategrid.webp",
+        url: "#小程序://网上国网/85u06YGoFlRQm7e",
+        apptype: "wechatmini"
+      },
+    ]
+  },
+  {
     name: "Tech",
     nameKey: "tech_key",
     apps: [
@@ -2856,14 +2870,6 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
-        name: "Suishenban",
-        nameKey: "suishenban_name",
-        descriptionKey: "suishenban_desc",
-        icon: "icons/wechatmini/suishenban.webp",
-        url: "#小程序://随申办/2bL7Tzu37kdlfRh",
-        apptype: "wechatmini"
-      },
-      {
         name: "12315",
         nameKey: "china12315_name",
         descriptionKey: "china12315_desc",
@@ -2871,6 +2877,22 @@ export const categories = [
         url: "#小程序://12315/bTgvVMQdjPhAHjr",
         apptype: "wechatmini"
       },
+      {
+        name: "Suishenban (随申办)",
+        nameKey: "suishenban_name",
+        descriptionKey: "suishenban_desc",
+        icon: "icons/wechatmini/suishenban.webp",
+        url: "#小程序://随申办/2bL7Tzu37kdlfRh",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Sufuban (苏服办)",
+        nameKey: "sufuban_name",
+        descriptionKey: "sufuban_desc",
+        icon: "icons/wechatmini/sufuban.webp",
+        url: "#小程序://苏服办/n4lBMMbQdOYQDJB",
+        apptype: "wechatmini"
+      }
     ]
   },
   {

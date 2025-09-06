@@ -273,6 +273,9 @@ const L = {
   marketwatch_desc: "MarketWatch is a financial news and data site operated by Dow Jones & Company. It offers real-time market coverage, investment commentary, and personal finance insights.",
   bankofamerica_name: "Bank of America",
   bankofamerica_desc: "Major US bank.",
+  billing_key: "Billing",
+  onlinestategrid_name: "Online State Grid (网上国网)",
+  onlinestategrid_desc: "Official mini app from State Grid Corporation of China, offering electricity bill payments, account services, and usage tracking.",
   tech_key: "Tech",
 
   windowscentral_name: "Windows Central",
@@ -1019,6 +1022,8 @@ const L = {
   traffic12123_desc: "Traffic Management 12123 is a WeChat Mini Program for handling vehicle and driver services across China. Users can check traffic violations, manage vehicle and license records, pay fines, and subscribe to service notifications—all without downloading a separate app.",
   suishenban_name: "Suishenban (随申办)",
   suishenban_desc: "Suishenban is Shanghai’s official WeChat Mini Program for public services. Developed by the Shanghai Municipal Government, it provides residents with access to healthcare, social security, transportation, legal services, and more—all in one place. Whether you're booking a hospital visit or checking your housing status, Suishenban makes city life easier and more connected.",
+  sufuban_name: "Sufuban (苏服办)",
+  sufuban_desc: "Official mini app of Jiangsu Province for accessing government services including healthcare, social security, housing, and public utilities.",
   wowchina_name: "World of Warcraft (China)",
   wowchina_desc: "This WeChat Mini Program provides access to World of Warcraft services in mainland China (魔兽世界中国), including account management, game updates, community events, and support. Players can stay connected to Azeroth and manage their profiles on the go.",
   chinatelecom_name: "China Telecom (中国电信)",
