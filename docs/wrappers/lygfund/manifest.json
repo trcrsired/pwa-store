@@ -1,0 +1,17 @@
+{
+  "name": "\u8fde\u4e91\u6e2f\u4f4f\u623f\u516c\u79ef\u91d1",
+  "short_name": "\u8fde\u4e91\u6e2f\u4f4f\u623f\u516c\u79ef\u91d1",
+  "start_url": "/wrappers/lygfund/?source=pwa",
+  "scope": "/wrappers/lygfund/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u8fde\u4e91\u6e2f\u4f4f\u623f\u516c\u79ef\u91d1",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/lygfund/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

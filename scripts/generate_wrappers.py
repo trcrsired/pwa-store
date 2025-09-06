@@ -83,6 +83,7 @@ WRAPPERS = [
   { "name": "ID.me", "url": "https://id.me", "keyify_name": "idme" },
 
   { "name": "中国政府网", "url": "https://www.gov.cn", "keyify_name": "govcn" },
+  { "name": "连云港住房公积金", "url": "https://12329.zfgjj.lyg.gov.cn", "keyify_name": "lygfund" },
   { "name": "Herb Sutter", "url": "https://herbsutter.com", "keyify_name": "herbsutter" },
   { "name": "Bjarne Stroustrup", "url": "https://www.stroustrup.com", "keyify_name": "bjarnestroustrup" },
   { "name": "GCC MCF", "url": "https://gcc-mcf.lhmouse.com", "keyify_name": "gccmcf", "icon": "lhmouse.webp" },

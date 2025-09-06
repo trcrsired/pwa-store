@@ -2863,7 +2863,7 @@ export const categories = [
     nameKey: "cngov_name",
     apps : [
       {
-        name: "Chinese Government",
+        name: "Chinese Government (中国政府)",
         nameKey: "govcn_name",
         descriptionKey: "govcn_desc",
         icon: "icons/wrappers/govcn.webp",
@@ -2871,7 +2871,15 @@ export const categories = [
         apptype: "wrapper"
       },
       {
-        name: "National Government Service Platform",
+        name: "Lianyungang Housing Fund (连云港住房公积金)",
+        nameKey: "lygfund_name",
+        descriptionKey: "lygfund_desc",
+        icon: "icons/wrappers/lygfund.webp",
+        url: "/wrappers/lygfund",
+        apptype: "wrapper"
+      },
+      {
+        name: "National Government Service Platform (国家政务服务平台)",
         nameKey: "govservice_name",
         descriptionKey: "govservice_desc",
         icon: "icons/wechatmini/govservice.webp",

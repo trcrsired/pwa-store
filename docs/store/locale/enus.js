@@ -1015,6 +1015,8 @@ const L = {
   tencentmaps_desc: "A versatile mapping mini app for route planning, transit lookup, walking navigation, and nearby search—accurate and nationwide.",
   didiqingju_name: "DiDi Qingju (滴滴青桔)",
   didiqingju_desc: "A shared bike and e-bike platform under Didi Chuxing, offering wide city coverage, scan-to-ride convenience, and eco-friendly mobility.",
+  lygfund_name: "Lianyungang Housing Fund (连云港住房公积金)",
+  lygfund_desc: "Official portal for Lianyungang's housing provident fund services, including account inquiries, withdrawals, and loan applications.",
   govservice_name: "National Government Service Platform (国家政务服务平台)",
   govservice_desc: "This WeChat Mini Program provides access to public services across China, including household registration, social security, healthcare, and travel documentation. It serves as a unified portal for citizens to manage official tasks and access government resources.",
   china12315_name: "12315",
