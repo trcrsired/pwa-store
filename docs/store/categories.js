@@ -122,6 +122,13 @@ export const categories = [
         descriptionKey: "simplenote_desc",
         icon: "icons/simplenote.webp",
         url: "https://app.simplenote.com"
+      },
+      {
+        name: "Notion",
+        nameKey: "notion_name",
+        descriptionKey: "notion_desc",
+        icon: "icons/notion.webp",
+        url: "https://www.notion.com"
       }
     ]
   },

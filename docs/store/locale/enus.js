@@ -84,6 +84,8 @@ const L = {
   "wpscn_desc": "Chinese localized version of WPS. WPS is an office suite developed by the Chinese company Kingsoft Office Software",
   "simplenote_name": "Simplenote",
   "simplenote_desc": "Simplenote is a cross-platform note-taking application that supports Markdown syntax and real-time cloud synchronization. Designed with a minimalist interface, it enables users to create, edit, and organize plain-text notes across devices. Collaboration is supported via shared note access, and tagging allows for efficient content management.",
+  notion_name: "Notion",
+  notion_desc: "An all-in-one workspace for notes, tasks, wikis, and databases. Notion helps individuals and teams write, plan, and organize everything in one place. It supports rich text editing, collaborative workflows, and customizable templates, making it ideal for productivity, knowledge management, and project tracking.",
   "programming_name": "Programming",
   open_web_advocacy_name: "Open Web Advocacy",
   open_web_advocacy_desc: "We are a group of software engineers from all over the world who have come together to advocate for the future of the open web by providing regulators, legislators and policy makers the intricate technical details that they need to understand the major anti-competitive issues in our industry and how to solve them.",
