@@ -1417,6 +1417,13 @@ export const categories = [
         url: "https://www.roblox.com",
       },
       {
+        name: "BlizzTrack",
+        nameKey: "blizztrack_name",
+        descriptionKey: "blizztrack_desc",
+        icon: "icons/blizztrack.webp",
+        url: "https://blizztrack.com"
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",
