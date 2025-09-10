@@ -722,6 +722,8 @@ const L = {
   taobao_desc: "A major consumer-to-consumer e-commerce platform in China, Taobao offers a diverse marketplace featuring everything from fashion and electronics to handmade local products. Backed by Alibaba, it’s known for powerful search tools, mobile-first features, and deep integration with logistics and social commerce.",
   alibaba_name: "Alibaba (阿里巴巴)",
   alibaba_desc: "A global e-commerce and technology conglomerate founded in 1999 by Jack Ma in Hangzhou, China. Operated by Alibaba Group Holding Limited, the platform connects manufacturers, wholesalers, and buyers through B2B, B2C, and C2C marketplaces. Its services span Alibaba.com, Taobao, Tmall, AliExpress, and Alibaba Cloud, powering international trade, logistics, and digital infrastructure across 35+ countries.",
+  shein_name: "Shein (希音)",
+  shein_desc: "A global fast fashion and lifestyle platform founded in 2008 by Chris Xu in Nanjing, China. Operated by Roadget Business Pte. Ltd. and backed by a supply chain network in Guangzhou, Shein offers low-cost apparel, accessories, and home goods through a digital-first model. Known for its rapid design-to-delivery cycle and popularity among Gen Z consumers, Shein serves over 150 countries and is one of the most downloaded shopping apps worldwide.",
   biggo_name: "BigGo",
   biggo_desc: "A price comparison tool that helps users discover the best deals across multiple e-commerce platforms.",
   walmart_name: "Walmart",

@@ -2021,6 +2021,13 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Shein",
+        nameKey: "shein_name",
+        descriptionKey: "shein_desc",
+        icon: "icons/shein.webp",
+        url: "https://www.shein.com",
+      },
+      {
         name: "BigGo",
         nameKey: "biggo_name",
         descriptionKey: "biggo_desc",
