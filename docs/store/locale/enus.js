@@ -720,6 +720,8 @@ const L = {
   fashionnova_desc: "A global fast fashion powerhouse known for trend-driven styles, body-inclusive sizing, and celebrity-endorsed collections. Fashion Nova offers affordable, runway-inspired clothing for women and men, with rapid drops and viral appeal. From curve-hugging dresses to streetwear sets, it’s the go-to destination for bold, expressive fashion.",
   taobao_name: "Taobao (淘宝)",
   taobao_desc: "A major consumer-to-consumer e-commerce platform in China, Taobao offers a diverse marketplace featuring everything from fashion and electronics to handmade local products. Backed by Alibaba, it’s known for powerful search tools, mobile-first features, and deep integration with logistics and social commerce.",
+  alibaba_name: "Alibaba (阿里巴巴)",
+  alibaba_desc: "A global e-commerce and technology conglomerate founded in 1999 by Jack Ma in Hangzhou, China. Operated by Alibaba Group Holding Limited, the platform connects manufacturers, wholesalers, and buyers through B2B, B2C, and C2C marketplaces. Its services span Alibaba.com, Taobao, Tmall, AliExpress, and Alibaba Cloud, powering international trade, logistics, and digital infrastructure across 35+ countries.",
   biggo_name: "BigGo",
   biggo_desc: "A price comparison tool that helps users discover the best deals across multiple e-commerce platforms.",
   walmart_name: "Walmart",

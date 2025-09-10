@@ -2006,6 +2006,13 @@ export const categories = [
         url: "https://www.taobao.com"
       },
       {
+        name: "Alibaba",
+        nameKey: "alibaba_name",
+        descriptionKey: "alibaba_desc",
+        icon: "icons/wrappers/alibaba.webp",
+        url: "/wrappers/alibaba"
+      },
+      {
         name: "BigGo",
         nameKey: "biggo_name",
         descriptionKey: "biggo_desc",

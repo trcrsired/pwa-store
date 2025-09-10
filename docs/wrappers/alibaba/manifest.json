@@ -1,0 +1,17 @@
+{
+  "name": "Alibaba",
+  "short_name": "Alibaba",
+  "start_url": "/wrappers/alibaba/?source=pwa",
+  "scope": "/wrappers/alibaba/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Alibaba",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/alibaba/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
