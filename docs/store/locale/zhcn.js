@@ -1013,7 +1013,8 @@ const L = {
 
   onlyfans_name: "OnlyFans",
   onlyfans_desc: "订阅制平台，以独家成人内容和创作者作品闻名。",
-
+  theporndude_name: "The Porn Dude",
+  theporndude_desc: "一个成人网站导航平台，提供分类清晰的点评、排名与直达链接，涵盖主流与小众内容，包括视频、直播、动漫等。界面友好，风格幽默，帮助用户高效、安全地探索成人内容生态。",
   javhdporn_name: "JavHDPorn",
   javhdporn_desc: "免费日本AV片高清视频，日本色情内容在线播放",
   supjav_name: "Supjav",

@@ -3204,6 +3204,13 @@ export const categories = [
         url: "https://onlyfans.com"
       },
       {
+        name: "The Porn Dude",
+        nameKey: "theporndude_name",
+        descriptionKey: "theporndude_desc",
+        icon: "icons/theporndude.webp",
+        url: "https://theporndude.com"
+      },
+      {
         name: "JavHDPorn",
         nameKey: "javhdporn_name",
         descriptionKey: "javhdporn_desc",
