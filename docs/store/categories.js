@@ -1117,6 +1117,13 @@ export const categories = [
         url: "https://www.medianama.com"
       },
       {
+        name: "How-To Geek",
+        nameKey: "howtogeek_name",
+        descriptionKey: "howtogeek_desc",
+        icon: "icons/howtogeek.webp",
+        url: "https://www.howtogeek.com"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",

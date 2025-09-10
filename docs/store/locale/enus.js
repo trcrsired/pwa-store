@@ -325,6 +325,8 @@ const L = {
   engadget_desc: "A leading tech media site offering daily news, reviews, and analysis on gadgets, consumer electronics, gaming, AI, and digital culture.",
   medianama_name: "MEDIANAMA",
   medianama_desc: "MEDIANAMA is a leading source for technology policy news and analysis in India. It covers AI governance, digital rights, cybersecurity, telecom regulation, and platform accountability—serving policymakers, developers, and researchers with in-depth reporting and expert commentary.",
+  howtogeek_name: "How-To Geek",
+  howtogeek_desc: "Understand technology with ease—How-To Geek breaks down complex topics into simple, practical guides for everyone.",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community.",
   juejin_name: "Juejin",

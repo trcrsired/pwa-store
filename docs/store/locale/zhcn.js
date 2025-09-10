@@ -325,6 +325,8 @@ const L = {
   engadget_desc: "知名科技媒体网站，每日报道最新数码产品、消费电子、游戏、人工智能与数字文化资讯。",
   medianama_name: "MEDIANAMA （媒体智库）",
   medianama_desc: "MediaNama是印度领先的科技政策新闻与分析平台，内容涵盖人工智能治理、数字权利、网络安全、电信监管及平台责任。为政策制定者、开发者与研究人员提供深入报道与专家评论。",
+  howtogeek_name: "How-To Geek （如何极客）",
+  howtogeek_desc: "How-To Geek 以通俗易懂的方式讲解技术知识，帮助用户轻松掌握复杂概念与实用技巧。",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO 是面向中文用户的 Linux 门户网站，提供新闻、教程、发行版信息与开源开发资源，服务于技术爱好者与专业人士。",
   juejin_name: "掘金",
