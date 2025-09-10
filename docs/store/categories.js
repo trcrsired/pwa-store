@@ -1953,6 +1953,13 @@ export const categories = [
         url: "https://www.flipkart.com",
       },
       {
+        name: "Fashion Nova",
+        nameKey: "fashionnova_name",
+        descriptionKey: "fashionnova_desc",
+        icon: "icons/fashionnova.webp",
+        url: "https://www.fashionnova.com"
+      },
+      {
         name: "Taobao (淘宝)",
         nameKey: "taobao_name",
         descriptionKey: "taobao_desc",

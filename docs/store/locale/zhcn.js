@@ -704,6 +704,8 @@ const L = {
   seamless_desc: "Seamless 是一个在线订餐平台，连接用户与本地餐厅，支持快速外卖或自取服务。由 Grubhub 提供技术支持，平台覆盖美国主要城市，提供数千家餐厅菜单、实时订单追踪以及专属优惠。",
   flipkart_name: "Flipkart",
   flipkart_desc: "印度在线购物平台，涵盖手机、电子产品、时尚、家具、杂货等。",
+  fashionnova_name: "Fashion Nova (时尚新星)",
+  fashionnova_desc: "全球知名的快时尚品牌，以潮流驱动的设计、包容性尺码和明星联名系列而闻名。Fashion Nova 提供高性价比的时尚服饰，涵盖女性与男性品类，风格大胆、更新迅速，是追求个性穿搭的首选平台。",
   taobao_name: "淘宝",
   taobao_desc: "中国主要的 C2C 电商平台，提供从时尚、电子产品到本地手工商品的多样化市场。由阿里巴巴支持，具备强大的搜索功能、移动优先体验以及物流与社交电商的深度整合。",
   biggo_name: "BigGo",
