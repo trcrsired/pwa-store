@@ -552,6 +552,8 @@ const L = {
   roblox_desc: "An online platform for creating and exploring interactive 3D environments and multiplayer experiences built by users.",
   blizztrack_name: "BlizzTrack",
   blizztrack_desc: "Track Blizzard game updates, patch notes, and server status in one place.",
+  xboxcloudgaming_name: "Xbox Cloud Gaming",
+  xboxcloudgaming_desc: "Microsoft’s cloud gaming platform that lets you stream console-quality games directly to your devices—no downloads, no console required. With Xbox Game Pass Ultimate, access hundreds of high-quality titles across phones, tablets, PCs, smart TVs, and more. Play instantly, pick up progress across devices, and experience next-gen gaming powered by the cloud.",
   chronodivide_name: "RA2: Chrono Divide",
   chronodivide_desc: "RA2: Chrono Divide is a fan-made, browser-based tribute to the classic Command & Conquer: Red Alert 2. It faithfully recreates the real-time strategy experience with smooth online multiplayer, iconic units, and nostalgic visuals—all without needing to install a thing. Whether you're commanding Soviet forces or leading Allied troops, Chrono Divide lets you relive the tactical thrill of chrono technology and battlefield domination, right from your browser.",
   mumu_cn_name: "MuMu Emulator (MuMu模拟器)",

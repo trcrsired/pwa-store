@@ -1439,6 +1439,13 @@ export const categories = [
         url: "https://blizztrack.com"
       },
       {
+        name: "Xbox Cloud Gaming",
+        nameKey: "xboxcloudgaming_name",
+        descriptionKey: "xboxcloudgaming_desc",
+        icon: "icons/xboxcloudgaming.webp",
+        url: "https://www.xbox.com/en-us/play"
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",

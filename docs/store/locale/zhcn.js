@@ -549,6 +549,8 @@ const L = {
   roblox_desc: "一个在线平台，用户可以创建并探索由社区构建的三维互动环境和多人体验。",
   blizztrack_name: "暴雪追踪 (BlizzTrack)",
   blizztrack_desc: "集中查看暴雪游戏更新、补丁说明和服务器状态。",
+  xboxcloudgaming_name: "Xbox Cloud Gaming (Xbox云游戏)",
+  xboxcloudgaming_desc: "微软推出的云游戏平台，无需下载或主机，即可在手机、平板、电脑、智能电视等设备上畅玩主机级游戏。通过 Xbox Game Pass Ultimate，可访问数百款高质量游戏，随时随地即点即玩，跨设备同步进度，体验由云端驱动的次世代游戏体验。",
   chronodivide_name: "红警2：时空分裂",
   chronodivide_desc: "《红色警戒2：时空分裂》是一款由粉丝制作的浏览器游戏，致敬经典的《命令与征服：红色警戒2》。它忠实还原了即时战略的游戏体验，支持流畅的在线多人对战，拥有标志性的单位和充满怀旧感的画面——无需安装即可畅玩。无论你是指挥苏联军队，还是领导盟军部队，《时空分裂》都能让你在浏览器中重温时空科技与战场统治的战术快感。",
   mumu_cn_name: "MuMu模拟器",
