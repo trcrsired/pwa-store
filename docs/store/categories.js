@@ -381,6 +381,22 @@ export const categories = [
         icon: "icons/wechatmini/miniprogramdemo.webp",
         url: "#小程序://小程序示例/H5Xs704fylC1Ktc",
         apptype: "wechatmini"
+      },
+      {
+        name: "llvm-releases",
+        nameKey: "llvmreleases_name",
+        descriptionKey: "llvmreleases_desc",
+        icon: "icons/native/llvm.webp",
+        url: "https://github.com/trcrsired/llvm-releases/releases",
+        apptype: "native"
+      },
+      {
+        name: "windows-msvc-sysroot",
+        nameKey: "windowsmsvcsysroot_name",
+        descriptionKey: "windowsmsvcsysroot_desc",
+        icon: "icons/native/visualstudio.webp",
+        url: "https://github.com/trcrsired/windows-msvc-sysroot",
+        apptype: "native"
       }
     ]
   },

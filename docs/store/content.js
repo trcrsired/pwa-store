@@ -106,6 +106,7 @@ const renderStore = (filterText = '') => {
 
   const showPWA = document.getElementById('filter-pwa')?.checked;
   const showWeChat = document.getElementById('filter-wechat')?.checked;
+  const showNative = document.getElementById('filter-native')?.checked;
 
   categories.forEach((category) => {
     const localizedName = category.nameKey ? L(category.nameKey) : category.name;
@@ -126,7 +127,9 @@ const renderStore = (filterText = '') => {
       const type = app.apptype || 'pwa';
       const isPWA = type === 'pwa' || type === 'wrapper';
       const isWeChatMini = type === 'wechatmini';
-      return (isPWA && showPWA) || (isWeChatMini && showWeChat);
+      const isNative = type === "native";
+      return (isPWA && showPWA) || (isWeChatMini && showWeChat) ||
+        (isNative && showNative);
     });
 
     if (filteredApps.length > 0) {
@@ -151,22 +154,25 @@ const setupSearch = () => {
   });
 };
 
+const filterPWA = document.getElementById('filter-pwa');
+const filterWeChat = document.getElementById('filter-wechat');
+const filterNative = document.getElementById('filter-native');
+const searchInput = document.getElementById('search-input');
+
 // 🚀 Initialize everything
 document.addEventListener('DOMContentLoaded', () => {
   // 🧠 Restore saved filter states, with default ON for PWA
   const savedPWA = localStorage.getItem('filter-pwa');
   const savedWeChat = localStorage.getItem('filter-wechat');
+  const savedNative = localStorage.getItem('filter-native');
 
   filterPWA.checked = savedPWA === null ? true : savedPWA === 'true';
   filterWeChat.checked = savedWeChat === 'true';
+  filterNative.checked = savedNative === 'true';
 
   renderStore(); // Initial full render
   setupSearch(); // Enable search
 });
-
-const filterPWA = document.getElementById('filter-pwa');
-const filterWeChat = document.getElementById('filter-wechat');
-const searchInput = document.getElementById('search-input');
 
 // 💾 Save state on change and re-render
 filterPWA.addEventListener('change', () => {
@@ -177,6 +183,12 @@ filterPWA.addEventListener('change', () => {
 
 filterWeChat.addEventListener('change', () => {
   localStorage.setItem('filter-wechat', filterWeChat.checked);
+  const searchText = searchInput?.value?.toLowerCase() || '';
+  renderStore(searchText);
+});
+
+filterNative.addEventListener('change', () => {
+  localStorage.setItem('filter-native', filterNative.checked);
   const searchText = searchInput?.value?.toLowerCase() || '';
   renderStore(searchText);
 });

@@ -6,11 +6,12 @@ const L = {
   "wechatmini": "WeChat Mini Program",
   "wechatminiurlcopied_succ": "Link copied! Paste it into WeChat File Transfer to open.",
   "wechatminiurlcopied_fail": "Copy failed. Please copy the link manually.",
-  "fundamental_name": "Fundamental",
   "copyurl_desc": "Copy URL",
   "open_desc": "Open",
   "Collapse All": "Collapse All",
   "Expand All": "Expand All",
+  "native": "Native",
+  "fundamental_name": "Fundamental",
   "chabots_name": "Chatbots",
   "cybersecurity_name": "Cybersecurity",
   "scamadviser_desc": "Analyze websites to check for trustworthiness and potential scams.",
@@ -1129,6 +1130,12 @@ const L = {
   mymedicalvoucher_desc: "Mini app for accessing your personal medical insurance certificate and related services.",
   nationalmedical_name: "National Medical Insurance (国家医保)",
   nationalmedical_desc: "Official mini app for China’s national medical insurance system, offering policy access and service tools.",
+
+// native
+  llvmreleases_name: "llvm-releases",
+  llvmreleases_desc: "Personal builds by the author of this PWA Store, offering a custom LLVM distribution with over 15 cross-compiled targets and bundled sysroots. Includes toolchains for aarch64-windows-msvc, aarch64-apple-darwin, riscv64-linux-gnu, loongarch64-linux-gnu, aarch64-windows-gnu, aarch64-linux-android30, and wasm. Designed for reproducible, multi-target development across platforms, this native wrapper streamlines compiler deployment and cross-platform integration.",
+  windowsmsvcsysroot_name: "windows-msvc-sysroot",
+  windowsmsvcsysroot_desc: "Custom MSVC sysroot maintained by the author of this PWA Store. Provides standardized headers and libraries for the ${ARCH}-windows-msvc triplet, following GCC/Clang-style sysroot rules. Designed to support cross-compilation and canadian-compilation workflows, this native wrapper offers a clean alternative to ${ARCH}-windows-gnu setups for developers preferring MSVC semantics.",
 };
 
 registerLocale("enus", L);

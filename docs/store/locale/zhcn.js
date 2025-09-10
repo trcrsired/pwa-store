@@ -10,6 +10,7 @@ const L = {
   "open_desc": "打开",
   "Collapse All": "全部收起",
   "Expand All": "全部展开",
+  "native": "原生",
   "fundamental_name": "基本",
   "chabots_name": "聊天机器人",
   "cybersecurity_name": "网络安全",
@@ -1163,6 +1164,12 @@ const L = {
   mymedicalvoucher_desc: "用于查看和管理个人医保凭证的官方小程序，支持相关服务办理。",
   nationalmedical_name: "国家医保",
   nationalmedical_desc: "国家医保官方小程序，提供政策查询、服务办理等功能。",
+
+// native
+  llvmreleases_name: "llvm-releases",
+  llvmreleases_desc: "本PWA商店作者亲自构建的 LLVM 发行版，支持超过 15 个跨平台编译目标，并集成对应系统根。涵盖 aarch64-windows-msvc、aarch64-apple-darwin、riscv64-linux-gnu、loongarch64-linux-gnu、aarch64-windows-gnu、aarch64-linux-android30 及 wasm 等工具链。适用于需要可复现、多平台构建的开发者，该原生封装器可简化编译器部署与跨平台集成流程。",
+  windowsmsvcsysroot_name: "windows-msvc-sysroot",
+  windowsmsvcsysroot_desc: "由本PWA商店作者维护的自定义MSVC系统根，提供符合 GCC/Clang 风格的标准化头文件与库，适用于 ${ARCH}-windows-msvc triplet。支持交叉编译与加拿大式编译流程，为偏好 MSVC 语义的开发者提供相较于 ${ARCH}-windows-gnu 的简洁替代方案。",
 };
 
 registerLocale("zhcn", L);
