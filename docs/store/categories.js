@@ -1362,6 +1362,7 @@ export const categories = [
       { name: "InStyle", nameKey: "instyle_name", descriptionKey: "instyle_desc", icon: "icons/instyle.webp", url: "https://www.instyle.com" },
       { name: "ELLE", nameKey: "elle_name", descriptionKey: "elle_desc", icon: "icons/elle.webp", url: "https://www.elle.com" },
       { name: "Marie Claire", nameKey: "marieclaire_name", descriptionKey: "marieclaire_desc", icon: "icons/wrappers/marieclaire.webp", url: "/wrappers/marieclaire" , apptype: "wrapper"},
+      { name: "Yueyanshe (悦颜社)", nameKey: "yueyanshe_name", descriptionKey: "yueyanshe_desc", icon: "icons/wrappers/yueyanshe.webp", apptype: "wrapper"},
     ]
   },
   {

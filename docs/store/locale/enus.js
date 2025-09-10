@@ -490,6 +490,8 @@ const L = {
   elle_desc: "ELLE is a globally renowned fashion and lifestyle magazine founded in Paris in 1945 by Hélène Gordon-Lazareff. With 45 international editions and over 100 million monthly digital visitors, it covers fashion, beauty, culture, and women's empowerment across print and digital platforms.",
   marieclaire_name: "Marie Claire",
   marieclaire_desc: "A global women's magazine known for fashion, beauty, celebrity news, and award-winning journalism on culture, politics, and empowerment.",
+  yueyanshe_name: "Yueyanshe (阅颜社)",
+  yueyanshe_desc: "Yueyanshe, the 'hardware softening factory'—a high-definition visual sanctuary and inspiration hub for portrait enthusiasts. Featuring premium female photosets from around the world, each frame is rendered in ultra-HD without watermarks. Direct download links offer a clean, collector-grade experience. More than just visual pleasure—Yueyanshe is where passion finds its home.",
   entertainmentplatform_name: "Entertainment Platform",
   
   age_name: "AGE Animation (AGE动漫)",

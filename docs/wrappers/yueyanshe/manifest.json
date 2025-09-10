@@ -1,0 +1,17 @@
+{
+  "name": "\u60a6\u989c\u793e",
+  "short_name": "\u60a6\u989c\u793e",
+  "start_url": "/wrappers/yueyanshe/?source=pwa",
+  "scope": "/wrappers/yueyanshe/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u60a6\u989c\u793e",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/yueyanshe/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -94,6 +94,7 @@ WRAPPERS = [
   { "name": "MumuPlayer", "url": "https://www.mumuplayer.com", "keyify_name": "mumuplayer", "icon": "mumu.webp" },
   { "name": "UN", "url": "https://www.un.org" },
   { "name": "Marie Claire", "url": "https://www.marieclaire.com" },
+  { "name": "悦颜社", "url": "https://yueyanshe.com", "keyify_name": "yueyanshe" },
   { "name": "Lightnovel Kingdom", "url": "https://www.lightnovel.fun/cn" },
   { "name": "BrowserBench", "url": "https://browserbench.org" },
   { "name": "ClearWebStats", "url": "https://www.clearwebstats.com" },
