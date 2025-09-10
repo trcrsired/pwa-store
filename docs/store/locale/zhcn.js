@@ -195,6 +195,8 @@ const L = {
   instagram_desc: "以图片为核心的社交网络。",
   facebook_name: "脸书（Facebook）",
   facebook_desc: "Meta 的主要社交平台。",
+  teaforwomen_name: "Tea For Women (为女性的茶)",
+  teaforwomen_desc: "一款专为女性打造的约会安全应用，帮助用户在见面前识别风险、验证身份。Tea 支持匿名分享约会经历、背景调查、AI 反向图像搜索与手机号查询等功能。由 Sean Cook 创立，并搭载 SafeSip 内容审核系统，Tea 已成为美国最受欢迎的女性社交安全平台之一，致力于让女性更聪明、更安全地约会。",
   tinder_desc: "基于滑动操作的约会体验。",
   truthsocial_name: "真实社交（Truth Social）",
   truthsocial_desc: "真实社交（Truth Social） 是一个另类科技社交平台，由美国媒体与科技公司 Trump Media & Technology Group（TMTG）运营，该公司由美国总统唐纳德·特朗普控股。",
@@ -536,6 +538,8 @@ const L = {
   netflix_desc: "奈飞（Netflix）是一家美国订阅制视频点播服务，主要发行原创和收购的电影及电视剧，覆盖多种类型，支持多语言，面向全球用户。",
   pixiv_name: "Pixiv",
   pixiv_desc: "全球最大的艺术创作社区之一，用户可浏览和发布插画、漫画与小说作品。",
+  dramabox_name: "DramaBox",
+  dramabox_desc: "由新加坡 STORYMATRIX PTE. LTD. 运营的免费视频平台，专注于短剧与肥皂剧片段，涵盖爱情、复仇、家庭冲突与身份误认等高情绪张力题材。DramaBox 在美国、墨西哥和印度等地广受欢迎，以快节奏剧情和移动端优化呈现方式吸引用户，常见剧情包括打脸、丑闻与反转结局。",
   games_name: "游戏",
 
   gameslol_name: "GamesLOL",
@@ -747,6 +751,8 @@ const L = {
   housing_name: "房地产",
   booking_name: "缤客",
   booking_desc: "搜索并预订来自全球供应商的酒店、度假村、公寓等住宿。可按地点、价格、评分和可订日期筛选。",
+  ticketmaster_name: "Ticketmaster（票务大师）",
+  ticketmaster_desc: "由 Live Nation Entertainment 运营的全球票务平台，Ticketmaster 提供音乐会、体育赛事、戏剧和各类现场活动的数字化购票服务，覆盖 35 个以上国家。平台支持预售通道、移动转票、VIP 升级等功能，是粉丝与主办方之间的核心连接枢纽。每年售出超过 5 亿张门票，Ticketmaster 通过实时分发与场馆合作，驱动全球现场娱乐产业。",
   airbnb_name: "爱彼迎",
   airbnb_desc: "探索由当地房东提供的特色住宿和短期租赁。可按地点、价格、房型和可订日期进行搜索。",
   zillow_name: "Zillow",
@@ -812,7 +818,8 @@ const L = {
 
   ebay_name: "eBay",
   ebay_desc: "全球电子商务平台，通过拍卖、一口价和精选商品连接买家与卖家。",
-
+  whatnot_name: "Whatnot",
+  whatnot_desc: "一个直播购物平台，用户可通过实时视频拍卖买卖收藏品、潮流服饰、电子产品等。Whatnot 成立于 2019 年，总部位于洛杉矶，融合电商与娱乐，提供快节奏拍卖、限时抢购与社区互动，覆盖 250 多个品类。深受收藏爱好者与内容创作者欢迎，是一个集发现、交易与社交于一体的新型市场。",
   taobao_name: "淘宝",
   taobao_desc: "中国主要的 C2C 电商平台，提供从时尚、电子产品到本地手工商品的多样化市场。由阿里巴巴支持，具备强大的搜索功能、移动优先体验以及物流与社交电商的深度整合。",
 

@@ -1,0 +1,17 @@
+{
+  "name": "Ticketmaster",
+  "short_name": "Ticketmaster",
+  "start_url": "/wrappers/ticketmaster/?source=pwa",
+  "scope": "/wrappers/ticketmaster/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Ticketmaster",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/ticketmaster/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

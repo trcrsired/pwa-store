@@ -539,6 +539,13 @@ export const categories = [
         descriptionKey: "facebook_desc"
       },
       {
+        name: "Tea For Women",
+        nameKey: "teaforwomen_name",
+        descriptionKey: "teaforwomen_desc",
+        icon: "icons/teaforwomen.webp",
+        url: "https://www.teaforwomen.com"
+      },
+      {
         name: "Tinder",
         icon: "icons/tinder.webp",
         url: "https://tinder.com",
@@ -1406,7 +1413,8 @@ export const categories = [
         "icons/wrappers/qingtingfm.webp", apptype: "wrapper" },
       { name: "TED", nameKey: "ted_name", descriptionKey: "ted_desc", icon: "icons/wrappers/ted.webp", url: "/wrappers/ted", apptype: "wrapper" },
       { name: "Netflix", nameKey: "netflix_name", descriptionKey: "netflix_desc", icon: "icons/wrappers/netflix.webp", url: "/wrappers/netflix", apptype: "wrapper" },
-      { name: "Pixiv", nameKey: "pixiv_name", descriptionKey: "pixiv_desc", icon: "icons/wrappers/pixiv.webp", url: "/wrappers/pixiv", apptype: "wrapper"}
+      { name: "Pixiv", nameKey: "pixiv_name", descriptionKey: "pixiv_desc", icon: "icons/wrappers/pixiv.webp", url: "/wrappers/pixiv", apptype: "wrapper"},
+      { name: "DramaBox", nameKey: "dramabox_name", descriptionKey: "dramabox_desc", icon: "icons/wrappers/dramabox.webp", url: "/wrappers/dramabox", apptype: "wrapper"}
     ]
   },
   {
@@ -1936,6 +1944,13 @@ export const categories = [
         url: "https://www.ebay.com"
       },
       {
+        name: "Whatnot",
+        nameKey: "whatnot_name",
+        descriptionKey: "whatnot_desc",
+        icons: "icons/whatnot.webp",
+        url: "https://www.whatnot.com"
+      },
+      {
         name: "Temu",
         descriptionKey: "temu_desc",
         icon: "icons/temu.webp",
@@ -2459,6 +2474,14 @@ export const categories = [
         descriptionKey: "booking_desc",
         icon: "icons/wrappers/booking.webp",
         url: "/wrappers/booking",
+        apptype: "wrapper"
+      },
+      {
+        name: "Ticketmaster",
+        nameKey: "ticketmaster_name",
+        descriptionKey: "ticketmaster_desc",
+        icon: "icons/wrappers/ticketmaster.webp",
+        url: "/wrappers/ticketmaster",
         apptype: "wrapper"
       },
       {
