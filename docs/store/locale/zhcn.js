@@ -214,6 +214,8 @@ const L = {
   flipboard_desc: "红板报（Flipboard） 是一家新闻聚合和社交网络聚合公司，总部位于加利福尼亚州帕洛阿尔托，在纽约、温哥华和北京设有办事处。",
   pinterest_name: "Pinterest",
   pinterest_desc: "Pinterest 是你的视觉发现引擎，帮助你寻找灵感点子，如食谱、家居设计、时尚风格等。保存你喜爱的内容，整理你的发现，探索来自世界各地的无限创意。",
+  linktree_name: "Linktree",
+  linktree_desc: "整合你的所有社交平台和链接，一站式展示个人或品牌的数字足迹。",
   mixi_name: "Mixi（ミクシィ）",
   mixi_desc: "一个日本社交网络服务平台，以社区论坛、日记式帖子和兴趣小组为特色。",
   rumble_name: "Rumble",

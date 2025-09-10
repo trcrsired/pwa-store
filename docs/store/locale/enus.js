@@ -213,6 +213,8 @@ const L = {
   flipboard_desc: "Flipboard is a news aggregator and social network aggregation company based in Palo Alto, California, with offices in New York, Vancouver, and Beijing.",
   pinterest_name: "Pinterest",
   pinterest_desc: "Pinterest is your visual discovery engine for finding ideas like recipes, home and style inspiration, and more. Save what you love, organize your finds, and explore endless creativity from around the world.",
+  linktree_name: "Linktree",
+  linktree_desc: "Unify all your social platforms and links—showcase your digital presence in one place.",
   mixi_name: "Mixi（ミクシィ）",
   mixi_desc: "A Japanese social networking service known for community forums, diary-style posts, and interest-based groups.",
   rumble_name: "Rumble",

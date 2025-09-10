@@ -618,6 +618,13 @@ export const categories = [
         descriptionKey: "pinterest_desc",
       },
       {
+        name: "Linktree",
+        nameKey: "linktree_name",
+        descriptionKey: "linktree_desc",
+        icon: "icons/linktree.webp",
+        url: "https://linktr.ee"
+      },
+      {
         name: "Mixi",
         nameKey: "mixi_name",
         icon: "icons/mixi.webp",
