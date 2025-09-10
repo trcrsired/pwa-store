@@ -1144,6 +1144,8 @@ const L = {
   wulaoyaohotpot_desc: "知名火锅品牌吴老幺的官方小程序，支持在线点餐、门店查询等。",
   xiaolongkanhotpot_name: "小龙坎火锅",
   xiaolongkanhotpot_desc: "小龙坎火锅官方小程序，支持在线预约、菜单浏览及门店服务。",
+  tencenthealth_name: "腾讯健康",
+  tencenthealth_desc: "腾讯健康提供健康管理、预约挂号及多种医疗服务，助您全面掌握健康状况。",
   keep_name: "Keep运动助手",
   keep_desc: "Keep官方推出的运动打卡小程序，支持群组打卡、数据同步、排行榜展示等功能，提升健身社交体验。",
   ybzf_name: "医保移动支付",

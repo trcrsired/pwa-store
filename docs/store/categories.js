@@ -3012,7 +3012,15 @@ export const categories = [
         apptype: "wrapper"
       },
       {
-        name: "Keep Fitness Assistant",
+        name: "Tencent Health (腾讯健康)",
+        nameKey: "tencenthealth_name",
+        descriptionKey: "tencenthealth_desc",
+        icon: "icons/wechatmini/tencenthealth.webp",
+        url: "#小程序://腾讯健康/TyTiKkHCVl37srC",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Keep Fitness Assistant (Keep运动助手)",
         nameKey: "keep_name",
         descriptionKey: "keep_desc",
         icon: "icons/wechatmini/keep.webp",
