@@ -50,6 +50,7 @@ export const categories = [
       { name: "Manus", icon: "icons/manus.webp", url: "https://manus.im", descriptionKey: "manus_desc" },
       { name: "LeChat", icon: "icons/lechat.webp", url: "https://lechat.chat/chat", nameKey: "lechat_name", descriptionKey: "lechat_desc" },
       { name: "Qwen", icon: "icons/qwen.webp", url: "https://chat.qwen.ai", descriptionKey: "qwen_desc" },
+      { name: "Gauth", icon: "icons/gauthmath.webp", url: "https://www.gauthmath.com", descriptionKey: "gauth_desc"},
       { name: "DeepSeek", icon: "icons/deepseek.webp", url: "https://deepseek.com", descriptionKey: "deepseek_desc" },
       { name: "Kimi", icon: "icons/kimi.webp", url: "https://www.kimi.com", descriptionKey: "kimi_desc" },
       { name: "Kimi+", icon: "icons/kimi.webp", url: "https://www.kimi.com/kimiplus-square", descriptionKey: "kimiplus_desc" },

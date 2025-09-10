@@ -56,6 +56,7 @@ const L = {
   "lechat_name": "LeChat",
   "lechat_desc": "由 Mistral AI 推出的极速多语言 AI 助手，专为隐私优先和企业级生产力而设计。Le Chat 提供实时搜索、高级推理、可定制代理和完整的记忆控制，是市场上最强大且最透明的 AI 工具之一。",
   "qwen_desc": "阿里巴巴推出的多模态 AI——Qwen 的 PWA 支持聊天、图像生成、方言语音合成和深度研究工具。",
+  gauth_desc: "由中国科技公司字节跳动（TikTok 背后团队）开发的 AI 作业助手，专注于 STEM 学科。Gauth 支持拍照识题、逐步解析，并提供专家答疑服务，涵盖数学、物理、化学、生物、经济等领域。由 GAUTHTECH PTE. LTD. 运营，广泛服务于全球用户，是学生的全能学习伙伴。",
   "grok_desc": "Grok 是由 xAI 开发的生成式人工智能聊天机器人。它于 2023 年 11 月由埃隆·马斯克推出，基于同名的大型语言模型（LLM）。",
   "metaai_desc": "Meta AI 是 Meta 公司推出的生成式人工智能助手，基于其自研的 Llama 系列语言模型。它支持自然语言对话、图像生成、实时网页搜索和语音交互，已集成于 Instagram、WhatsApp 和 Messenger 等平台。Meta AI 提供个性化助手服务、创意工具与社交功能，体现了 Meta 将智能代理融入日常数字生活的愿景。",
   "kimi_desc": "Kimi 是由 Moonshot AI 开发的人工智能助手，支持自然语言交互，可用于研究、写作、编程和文档分析。",
