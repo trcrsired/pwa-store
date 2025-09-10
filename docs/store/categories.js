@@ -2010,7 +2010,15 @@ export const categories = [
         nameKey: "alibaba_name",
         descriptionKey: "alibaba_desc",
         icon: "icons/wrappers/alibaba.webp",
-        url: "/wrappers/alibaba"
+        url: "https://www.alibaba.com",
+      },
+      {
+        name: "Alibaba",
+        nameKey: "alibaba_name",
+        descriptionKey: "alibaba_desc",
+        icon: "icons/wrappers/alibaba.webp",
+        url: "/wrappers/alibaba",
+        apptype: "wrapper"
       },
       {
         name: "BigGo",
