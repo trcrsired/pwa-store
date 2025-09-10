@@ -12,5 +12,6 @@
   "footer_license": "采用 GPL-3.0 许可",
   "footer_contribution": "欢迎贡献与支持 💖",
   "search_placeholder": "搜索应用...",
-  "filter_wechat": "微信小程序"
+  "filter_wechat": "微信小程序",
+  "filter_native": "原生"
 }

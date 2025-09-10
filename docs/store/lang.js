@@ -48,6 +48,7 @@ async function localizePage() {
     // Search
     setPlaceholder('search-input', strings.search_placeholder);
     setText('label-filter-wechat', strings.filter_wechat);
+    setText('label-filter-native', strings.filter_native);
     // Footer
     setText('footer-browser', strings.footer_browser_recommendation);
     setText('footer-extension', strings.footer_extension_tip);
