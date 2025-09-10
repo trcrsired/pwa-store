@@ -65,7 +65,9 @@ export const categories = [
     name: "Cybersecurity",
     apps: [
       { name: "ScamAdviser", icon: "icons/scamadviser.webp", url: "https://www.scamadviser.com", descriptionKey: "scamadviser_desc" },
-      { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype: "wrapper" },    ]
+      { name: "Bitwarden", nameKey: "bitwarden_name", icon: "icons/bitwarden.webp", url: "https://bitwarden.com", descriptionKey: "bitwarden_desc" },
+      { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype: "wrapper" },
+    ]
   },
   {
     nameKey: "time_name",

@@ -15,6 +15,8 @@ const L = {
   "chabots_name": "聊天机器人",
   "cybersecurity_name": "网络安全",
   "scamadviser_desc": "分析网站以评估可信度并识别潜在骗局。",
+  bitwarden_name: "Bitwarden",
+  bitwarden_desc: "面向个人和团队的安全开源密码管理器，提供端到端加密、跨平台访问和高级密码库功能。",
   "stackwatch_desc": "跟踪软件栈中的漏洞和安全更新。",
   "time_name": "时间",
   "timeis_desc": "精确查看全球任意地点的当前时间。",
