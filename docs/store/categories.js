@@ -1065,6 +1065,13 @@ export const categories = [
         url: "https://forum.f-droid.org"
       },
       {
+        name: "GNOME Discourse",
+        nameKey: "gnomediscourse_name",
+        descriptionKey: "gnomediscourse_desc",
+        icon: "icons/gnomediscourse.webp",
+        url: "https://discourse.gnome.org"
+      },
+      {
         name: "Modular Forum",
         nameKey: "modularforum_name",
         descriptionKey: "modularforum_desc",

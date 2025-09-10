@@ -132,6 +132,8 @@ const L = {
   usacotraining_desc: "USACO Training Gateway is an online learning portal from the USA Computing Olympiad, providing progressive programming problems and tutorials.",
   fdroid_name: "F-Droid",
   fdroid_desc: "F-Droid is an installable catalogue of FOSS (Free and Open Source Software) applications for the Android platform. The client makes it easy to browse, install, and keep track of updates on your device.",
+  gnomediscourse_name: "GNOME Discourse",
+  gnomediscourse_desc: "Community-powered discussion platform for the GNOME Project, focused on desktop, apps, development, and governance.",
   modularforum_name: "Modular Forum",
   modularforum_desc: "Discussion hub for Modular’s AI ecosystem, including Mojo programming, MAX engine, and GPU acceleration workflows.",
   resilientwebdesign_name: "Resilient Web Design",

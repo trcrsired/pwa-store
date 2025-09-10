@@ -133,6 +133,8 @@ const L = {
   usacotraining_desc: "USACO训练入口（USACO Training Gateway）是美国计算机奥林匹克竞赛的在线训练平台，为学生提供逐步提升的编程挑战与解题指导。",
   fdroid_name: "F-Droid",
   fdroid_desc: "F-Droid 是一个可安装的自由开源软件（FOSS）应用目录，专为安卓平台打造。客户端可帮助你轻松浏览、安装应用，并跟踪设备上的更新。",
+  gnomediscourse_name: "GNOME Discourse",
+  gnomediscourse_desc: "GNOME 项目的社区驱动讨论平台，聚焦桌面环境、应用程序、开发与治理相关话题。",
   modularforum_name: "Modular论坛",
   modularforum_desc: "Modular 的 AI 生态系统讨论平台，涵盖 Mojo 编程语言、MAX 引擎以及 GPU 加速工作流。",
   resilientwebdesign_name: "韧性网络设计",
