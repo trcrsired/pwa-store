@@ -1,0 +1,17 @@
+{
+  "name": "Level1Techs",
+  "short_name": "Level1Techs",
+  "start_url": "/wrappers/level1techs/?source=pwa",
+  "scope": "/wrappers/level1techs/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Level1Techs",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/level1techs/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

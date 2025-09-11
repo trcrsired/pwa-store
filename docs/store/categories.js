@@ -1213,6 +1213,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Level1Techs",
+        nameKey: "level1techs_name",
+        descriptionKey: "level1techs_desc",
+        icon: "icons/wrappers/level1techs.webp",
+        url: "/wrappers/level1techs",
+        apptype: "wrapper"
+      },
+      {
         name: "RuTracker.org",
         nameKey: "rutrackerorg_name",
         descriptionKey: "rutrackerorg_desc",

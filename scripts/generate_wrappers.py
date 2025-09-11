@@ -17,6 +17,7 @@ WRAPPER_OUTPUT = ROOT / "docs" / "wrappers"
 WRAPPERS = [
   { "name": "CVS", "url": "https://www.cvs.com" },
   { "name": "Android Authority", "url": "https://www.androidauthority.com", "keyify_name": "androidauthority"},
+  { "name": "Level1Techs", "url": "https://level1techs.com" },
   { "name": "armrepo.ver.lt", "url": "https://armrepo.ver.lt","keyify_name": "armrepoverlt", "icon": "msstore.webp" },
   { "name": "Internet Archive", "url": "https://archive.org", "keyify_name": "archive" },
   { "name": "APK Premier", "url": "https://apkpremier.com", "keyify_name": "apkpremier" },

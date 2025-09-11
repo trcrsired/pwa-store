@@ -355,6 +355,8 @@ const L = {
   windowsonarm_desc: "A community-maintained index of software compatibility for Windows devices running on ARM architecture. Includes native ARM64 apps, emulated x86/x64 support, and user-submitted reports to guide installation and performance expectations.",
   armrepoverlt_name: "Windows ARM Software Repository (https://armrepo.ver.lt)",
   armrepoverlt_desc: "A curated wrapper site listing native ARM64 applications and compatible software for Windows on ARM devices. Includes browsers, media tools, productivity apps, and community-submitted builds optimized for ARM architecture.",
+  level1techs_name: "Level1Techs",
+  level1techs_desc: "Tech news, hardware reviews, and deep-dive discussions from the Level1Techs team. Explore open-source advocacy, enterprise setups, and DIY server builds with a pragmatic edge.",
   rutrackerorg_name: "RuTracker.org",
   rutrackerorg_desc: "A Russian torrent tracker and forum offering a vast catalog of movies, music, software, books, and more. Known for its longevity and active user base.",
   archive_name: "Internet Archive",

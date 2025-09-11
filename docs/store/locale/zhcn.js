@@ -353,6 +353,8 @@ const L = {
   windowsonarm_desc: "一个由社区维护的软件兼容性索引，专为运行 ARM 架构的 Windows 设备设计。涵盖原生 ARM64 应用、x86/x64 仿真支持，以及用户提交的报告，用于指导安装和性能预期。",
   armrepoverlt_name: "Windows ARM 软件仓库 (https://armrepo.ver.lt)",
   armrepoverlt_desc: "一个整理好的软件包装站点，列出适用于 Windows ARM 设备的原生 ARM64 应用和兼容软件。涵盖浏览器、多媒体工具、生产力应用，以及社区提交的 ARM 架构优化版本。",
+  level1techs_name: "Level1Techs 技术频道",
+  level1techs_desc: "来自 Level1Techs 团队的技术新闻、硬件评测与深度讨论。涵盖开源倡导、企业部署与 DIY 服务器构建，风格务实、内容硬核。",
   rutrackerorg_name: "RuTracker.org",
   rutrackerorg_desc: "俄罗斯的种子资源论坛，提供丰富的电影、音乐、软件、书籍等内容资源，以其历史悠久和活跃社区而闻名。",
   archive_name: "互联网档案馆",
