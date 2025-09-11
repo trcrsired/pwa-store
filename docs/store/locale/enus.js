@@ -231,6 +231,8 @@ const L = {
   mixi_desc: "A Japanese social networking service known for community forums, diary-style posts, and interest-based groups.",
   rumble_name: "Rumble",
   rumble_desc: "A video-sharing platform known for its free speech stance and alternative monetization options, often seen as a YouTube alternative.",
+  tinychat_name: "Tinychat",
+  tinychat_desc: "A browser-based video chat platform that lets users create rooms and host live conversations. Tinychat supports group video, text chat, and social streaming with minimal setup.",
   soul_name: "Soul",
   soul_desc: "A social networking app that connects users through shared interests and emotional resonance, fostering authentic relationships beyond appearances.",
   zoosk_name: "Zoosk",

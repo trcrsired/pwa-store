@@ -672,6 +672,13 @@ export const categories = [
         descriptionKey: "rumble_desc",
       },
       {
+        name: "Tinychat",
+        nameKey: "tinychat_name",
+        icon: "icons/tinychat.webp",
+        url: "https://tinychat.com",
+        descriptionKey: "tinychat_desc",
+      },
+      {
         name: "Soul",
         nameKey: "soul_name",
         descriptionKey: "soul_desc",

@@ -230,6 +230,8 @@ const L = {
   mixi_desc: "一个日本社交网络服务平台，以社区论坛、日记式帖子和兴趣小组为特色。",
   rumble_name: "Rumble",
   rumble_desc: "一个以言论自由立场和另类变现方式著称的视频分享平台，常被视为 YouTube 的替代选择。",
+  tinychat_name: "Tinychat",
+  tinychat_desc: "一个基于浏览器的视频聊天平台，用户可创建房间并进行实时互动。支持多人视频、文字聊天与社交直播，使用简单快捷。",
   soul_name: "Soul",
   soul_desc: "一款通过兴趣匹配与情感共鸣建立真实关系的社交平台，倡导“灵魂匹配”而非颜值社交。",
   zoosk_name: "Zoosk",
