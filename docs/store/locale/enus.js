@@ -696,6 +696,8 @@ const L = {
   soundcloud_desc: "SoundCloud is a German audio streaming service owned and operated by SoundCloud Global Limited & Co. KG. The service enables its users to upload, promote, and share audio.",
   audiomack_name: "Audiomack",
   audiomack_desc: "An on-demand music streaming platform that allows artists and creators to share unlimited audio content, including songs and podcasts.",
+  roon_name: "Roon",
+  roon_desc: "A high-fidelity music player and library manager that enriches your collection with artist bios, reviews, lyrics, photos, and cross-linked credits. Explore your music with context and clarity.",
   ecommerece_name: "E-commerece",
 
   starbucks_name: "Starbucks",

@@ -694,6 +694,8 @@ const L = {
   soundcloud_desc: "声云 （SoundCloud） 是一家德国音频流媒体服务，由 SoundCloud Global Limited & Co. KG 拥有并运营。该服务允许用户上传、推广和分享音频内容。",
   audiomack_name: "Audiomack",
   audiomack_desc: "一个按需音乐流媒体平台，创作者可以上传和分享不限数量的音频内容，包括歌曲和播客。",
+  roon_name: "Roon",
+  roon_desc: "一款高保真音乐播放器与资料管理平台，为你的音乐库添加艺人简介、评论、歌词、照片及关联创作者信息。让聆听更具深度与背景。",
   ecommerece_name: "电子商务",
 
   starbucks_name: "星巴克",

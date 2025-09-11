@@ -1925,6 +1925,13 @@ export const categories = [
         icon: "icons/audiomack.webp",
         url: "https://audiomack.com"
       },
+      {
+        name: "Roon",
+        nameKey: "roon_name",
+        descriptionKey: "roon_desc",
+        icon: "icons/roon.webp",
+        url: "https://roon.app"
+      },
     ]
   },
   {
