@@ -2772,6 +2772,13 @@ export const categories = [
         url: "https://kangwenchang.com"
       },
       {
+        name: "Qualcomm",
+        nameKey: "qualcomm_name",
+        descriptionKey: "qualcomm_desc",
+        icon: "icons/qualcomm.webp",
+        url: "https://www.qualcomm.com"
+      },
+      {
         name: "Herb Sutter",
         nameKey: "herbsutter_name",
         descriptionKey: "herbsutter_desc",

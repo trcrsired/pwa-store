@@ -897,6 +897,8 @@ const L = {
   qinlili_desc: "一个追求极致的个人项目站点，展示开发者琴梨梨的理念、工具导航、公告发布与反馈通道。当前处于开发阶段，部分服务暂未启用。",
   kangwenchang_name: "康文昌",
   kangwenchang_desc: "康文昌的个人网站，展示其编程课程《Re01：从零开始的编程之路》。该课程面向零基础学习者，涵盖网站、软件、APP 和脚本开发，强调实战、简洁与深入，适合全年龄段和性别，支持独立开发商业项目。",
+  qualcomm_name: "高通",
+  qualcomm_desc: "全球领先的无线技术与半导体创新企业。高通为智能手机、物联网、汽车系统 5G 基础设施提供先进的芯片与连接解决方案。",
   herbsutter_name: "赫布·萨特（Herb Sutter）",
   herbsutter_desc: "赫布·萨特（ISO C++ 标准委员会 WG21 主席）个人博客，分享关于现代 C++ 的深度文章、编程语言演进的见解，是开发者寻求清晰性、严谨性和设计理念的重要资源。",
   bjarnestroustrup_name: "本贾尼·斯特劳斯特卢普（Bjarne Stroustrup）",
