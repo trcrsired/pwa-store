@@ -2099,6 +2099,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Whirlpool",
+        nameKey: "whirlpool_name",
+        descriptionKey: "whirlpool_desc",
+        icon: "icons/wrappers/whirlpool.webp",
+        url: "/wrappers/whirlpool",
+        apptype: "wrapper"
+      },
+      {
         name: "Doordash",
         nameKey: "doordash_name",
         descriptionKey: "doordash_desc",

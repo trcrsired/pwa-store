@@ -16,6 +16,7 @@ WRAPPER_OUTPUT = ROOT / "docs" / "wrappers"
 
 WRAPPERS = [
   { "name": "CVS", "url": "https://www.cvs.com" },
+  { "name": "Whirlpool", "url": "https://www.whirlpool.com" },
   { "name": "Android Authority", "url": "https://www.androidauthority.com", "keyify_name": "androidauthority"},
   { "name": "armrepo.ver.lt", "url": "https://armrepo.ver.lt","keyify_name": "armrepoverlt", "icon": "msstore.webp" },
   { "name": "Internet Archive", "url": "https://archive.org", "keyify_name": "archive" },
