@@ -235,6 +235,8 @@ const L = {
   tinychat_desc: "A browser-based video chat platform that lets users create rooms and host live conversations. Tinychat supports group video, text chat, and social streaming with minimal setup.",
   locals_name: "Locals",
   locals_desc: "Join independent creators and communities on Locals — a platform for exclusive content, direct support, and meaningful engagement.",
+  substack_name: "Substack",
+  substack_desc: "Publish newsletters, grow your audience, and monetize your writing with Substack — a platform for independent publishing and direct reader support.",
   soul_name: "Soul",
   soul_desc: "A social networking app that connects users through shared interests and emotional resonance, fostering authentic relationships beyond appearances.",
   zoosk_name: "Zoosk",

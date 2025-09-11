@@ -686,6 +686,13 @@ export const categories = [
         url: "https://locals.com"
       },
       {
+        name: "Substack",
+        nameKey: "substack_name",
+        descriptionKey: "substack_desc",
+        icon: "icons/substack.webp",
+        url: "https://substack.com"
+      },
+      {
         name: "Soul",
         nameKey: "soul_name",
         descriptionKey: "soul_desc",
