@@ -531,6 +531,8 @@ const L = {
   mangadex_desc: "MangaDex是一个非营利性的在线漫画阅读平台，由Hologfx于2018年创立。由翻译组打造并运营，支持多语言的漫画、韩漫和中漫的非官方译本，提供高级筛选和用户自定义书库功能。",
   crunchyroll_name: "Crunchyroll",
   crunchyroll_desc: "Crunchyroll 是一个专注于动漫的流媒体服务，提供来自日本及其他地区的数千集动画剧集。平台包含同步播出剧集、原创作品，以及涵盖多种类型的大量字幕和配音内容。",
+  animekai_name: "AnimeKai",
+  animekai_desc: "一个面向动漫爱好者的在线播放网站，提供多种类型的字幕版与配音版作品。界面简洁、播放流畅，适合轻度观众与资深粉丝。",
   sling_name: "Sling",
   sling_Desc: "Sling TV 是一项灵活的流媒体服务，提供新闻、体育和娱乐等领域的直播与点播频道。用户可根据需求定制频道组合，套餐价格实惠，无需长期合约。",
   dubok_name: "独播库",

@@ -1454,6 +1454,7 @@ export const categories = [
       { name: "ESPN", nameKey: "espn_name", descriptionKey: "espn_desc", icon: "icons/espn.webp", url: "https://www.espn.com" },
       { name: "MangaDex", nameKey: "mangadex_name", descriptionKey: "mangadex_desc", icon: "icons/mangadex.webp", url: "https://mangadex.org" },
       { name: "Crunchyroll", nameKey: "crunchyroll_name", descriptionKey: "crunchyroll_desc", icon: "icons/crunchyroll.webp", url: "https://www.crunchyroll.com" },
+      { name: "AnimeKai", nameKey: "animekai_name", descriptionKey: "animekai_desc", icon: "icons/animekai.webp" , url: "https://animekai.to" },
       {
         name: "Sling", nameKey: "sling_name", descriptionKey: "sling_Desc",
         icon: "icons/sling.webp", url: "https://www.sling.com"
