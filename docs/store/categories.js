@@ -283,6 +283,13 @@ export const categories = [
         descriptionKey: "pwadevcn_desc"
       },
       {
+        name: "Frontend Masters",
+        nameKey: "frontendmasters_name",
+        icon: "icons/frontendmasters.webp",
+        descriptionKey: "frontendmasters_desc",
+        url: "https://frontendmasters.com"
+      },
+      {
         name: "Python",
         icon: "icons/python.webp",
         url: "https://www.python.org",

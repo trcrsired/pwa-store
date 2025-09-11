@@ -142,6 +142,8 @@ const L = {
   resilientwebdesign_desc: "Resilient Web Design is a free, beautifully written web book by Jeremy Keith that explores the foundational principles and philosophies of building robust, future-proof websites.",
   pwadevcn_name: "PWA Dev China",
   pwadevcn_desc: "PWA Dev China is the official platform for China PWA Developer Day, supported by Microsoft, Intel, and Google. It features curated resources, event archives, and technical insights to promote Progressive Web Apps in China. The site showcases talks from industry leaders, best practices, and tools for building secure, installable, and cross-platform web applications.",
+  frontendmasters_name: "Frontend Masters",
+  frontendmasters_desc: "High-quality courses on web development, JavaScript, CSS, React, and more—taught by industry experts.",
   python_desc: "Python is a programming language that lets you work quickly and integrate systems more effectively.",
 
   rust_desc: "A language empowering everyone to build reliable and efficient software.",

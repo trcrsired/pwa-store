@@ -143,6 +143,8 @@ const L = {
   resilientwebdesign_desc: "《韧性网络设计》是 Jeremy Keith 免费撰写的一本优美的网络书籍，深入探讨构建稳健且具备未来适应性的网页的基本原则与设计理念。",
   pwadevcn_name: "PWA开发者中国站",
   pwadevcn_desc: "PWA开发者中国站是中国PWA开发者日的官方平台，由微软、英特尔、谷歌等联合支持，致力于推动渐进式网络应用在中国的发展与落地。网站提供精选资源、活动回顾和技术洞察，展示业界专家的演讲、最佳实践及构建安全、可安装、跨平台Web应用的工具。",
+  frontendmasters_name: "前端大师 （Frontend Masters）",
+  frontendmasters_desc: "由行业专家授课的高质量 Web 开发课程，涵盖 JavaScript、CSS、React 等热门技术。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
 
   rust_desc: "一门可靠且高效的软件开发语言。",
