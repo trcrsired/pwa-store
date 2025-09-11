@@ -679,6 +679,13 @@ export const categories = [
         descriptionKey: "tinychat_desc",
       },
       {
+        name: "Locals",
+        nameKey: "locals_name",
+        descriptionKey: "locals_desc",
+        icon: "icons/locals.webp",
+        url: "https://locals.com"
+      },
+      {
         name: "Soul",
         nameKey: "soul_name",
         descriptionKey: "soul_desc",

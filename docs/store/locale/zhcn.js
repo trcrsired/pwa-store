@@ -232,6 +232,8 @@ const L = {
   rumble_desc: "一个以言论自由立场和另类变现方式著称的视频分享平台，常被视为 YouTube 的替代选择。",
   tinychat_name: "Tinychat",
   tinychat_desc: "一个基于浏览器的视频聊天平台，用户可创建房间并进行实时互动。支持多人视频、文字聊天与社交直播，使用简单快捷。",
+  locals_name: "Locals",
+  locals_desc: "在 Locals 上加入独立创作者和社区，获取专属内容、直接支持和深度互动。",
   soul_name: "Soul",
   soul_desc: "一款通过兴趣匹配与情感共鸣建立真实关系的社交平台，倡导“灵魂匹配”而非颜值社交。",
   zoosk_name: "Zoosk",

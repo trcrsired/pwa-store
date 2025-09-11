@@ -233,6 +233,8 @@ const L = {
   rumble_desc: "A video-sharing platform known for its free speech stance and alternative monetization options, often seen as a YouTube alternative.",
   tinychat_name: "Tinychat",
   tinychat_desc: "A browser-based video chat platform that lets users create rooms and host live conversations. Tinychat supports group video, text chat, and social streaming with minimal setup.",
+  locals_name: "Locals",
+  locals_desc: "Join independent creators and communities on Locals — a platform for exclusive content, direct support, and meaningful engagement.",
   soul_name: "Soul",
   soul_desc: "A social networking app that connects users through shared interests and emotional resonance, fostering authentic relationships beyond appearances.",
   zoosk_name: "Zoosk",
