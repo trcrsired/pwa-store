@@ -353,8 +353,10 @@ const L = {
   windowsonarm_desc: "一个由社区维护的软件兼容性索引，专为运行 ARM 架构的 Windows 设备设计。涵盖原生 ARM64 应用、x86/x64 仿真支持，以及用户提交的报告，用于指导安装和性能预期。",
   armrepoverlt_name: "Windows ARM 软件仓库 (https://armrepo.ver.lt)",
   armrepoverlt_desc: "一个整理好的软件包装站点，列出适用于 Windows ARM 设备的原生 ARM64 应用和兼容软件。涵盖浏览器、多媒体工具、生产力应用，以及社区提交的 ARM 架构优化版本。",
-  level1techs_name: "Level1Techs 技术频道",
+  level1techs_name: "Level1Techs",
   level1techs_desc: "来自 Level1Techs 团队的技术新闻、硬件评测与深度讨论。涵盖开源倡导、企业部署与 DIY 服务器构建，风格务实、内容硬核。",
+  gamersnexus_name: "游戏者枢纽",
+  gamersnexus_desc: "由 Gamers Nexus 团队提供的硬件深度评测、散热测试与技术调查。以严谨测试流程与公开透明的 PC 组件分析著称。"。
   rutrackerorg_name: "RuTracker.org",
   rutrackerorg_desc: "俄罗斯的种子资源论坛，提供丰富的电影、音乐、软件、书籍等内容资源，以其历史悠久和活跃社区而闻名。",
   archive_name: "互联网档案馆",
@@ -741,7 +743,8 @@ const L = {
   homedepot_desc: "家得宝（The Home Depot）是一家美国跨国家居改善零售公司，销售工具、建筑产品、家用电器及相关服务，包括燃料和交通租赁服务。",
   cvs_name: "CVS",
   cvs_desc: "美国药房与零售连锁，提供处方药、健康产品、美妆用品及日常食品，支持门店与线上服务。",
-
+  whirlpool_name: "惠而浦（Whirlpool）",
+  whirlpool_desc: "全球知名的家用电器制造商，产品涵盖洗衣机、冰箱、烘干机及厨房解决方案。惠而浦以创新技术与日常可靠性著称。",
   doordash_name: "Doordash",
   doordash_desc: "餐饮配送与物流平台，连接用户与餐厅、便利店和超市，支持在线或 App 下单即时送达。",
 

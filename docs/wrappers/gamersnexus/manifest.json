@@ -1,0 +1,17 @@
+{
+  "name": "Gamers Nexus",
+  "short_name": "Gamers Nexus",
+  "start_url": "/wrappers/gamersnexus/?source=pwa",
+  "scope": "/wrappers/gamersnexus/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Gamers Nexus",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/gamersnexus/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

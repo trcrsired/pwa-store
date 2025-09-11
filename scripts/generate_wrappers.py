@@ -23,6 +23,7 @@ WRAPPERS = [
   { "name": "APK Premier", "url": "https://apkpremier.com", "keyify_name": "apkpremier" },
   { "name": "BTSOW", "url": "https://btsow.lol" },
   { "name": "Level1Techs", "url": "https://level1techs.com" },
+  { "name": "Gamers Nexus", "url": "https://gamersnexus.net" },
   { "name": "perplexity", "url": "https://www.perplexity.ai" },
   { "name": "stack.watch", "url": "https://stack.watch", "keyify_name": "stackwatch" },
   { "name": "NIST Time", "url": "https://www.time.gov", "keyify_name": "timegov" },

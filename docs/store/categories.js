@@ -1164,6 +1164,22 @@ export const categories = [
         url: "https://www.howtogeek.com"
       },
       {
+        name: "Level1Techs",
+        nameKey: "level1techs_name",
+        descriptionKey: "level1techs_desc",
+        icon: "icons/wrappers/level1techs.webp",
+        url: "/wrappers/level1techs",
+        apptype: "wrapper"
+      },
+      {
+        name: "Gamers Nexus",
+        nameKey: "gamersnexus_name",
+        descriptionKey: "gamersnexus_desc",
+        icon: "icons/wrappers/gamersnexus.webp",
+        url: "/wrappers/gamersnexus",
+        apptype: "wrapper"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",
@@ -1241,14 +1257,6 @@ export const categories = [
         descriptionKey: "btsow_desc",
         icon: "icons/wrappers/btsow.webp",
         url: "/wrappers/btsow",
-        apptype: "wrapper"
-      },
-      {
-        name: "Level1Techs",
-        nameKey: "level1techs_name",
-        descriptionKey: "level1techs_desc",
-        icon: "icons/wrappers/level1techs.webp",
-        url: "/wrappers/level1techs",
         apptype: "wrapper"
       },
     ]

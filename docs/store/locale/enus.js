@@ -357,6 +357,8 @@ const L = {
   armrepoverlt_desc: "A curated wrapper site listing native ARM64 applications and compatible software for Windows on ARM devices. Includes browsers, media tools, productivity apps, and community-submitted builds optimized for ARM architecture.",
   level1techs_name: "Level1Techs",
   level1techs_desc: "Tech news, hardware reviews, and deep-dive discussions from the Level1Techs team. Explore open-source advocacy, enterprise setups, and DIY server builds with a pragmatic edge.",
+  gamersnexus_name: "Gamers Nexus",
+  gamersnexus_desc: "In-depth hardware reviews, thermal benchmarks, and investigative reporting from the Gamers Nexus team. Known for rigorous testing and transparency in PC component analysis.",
   rutrackerorg_name: "RuTracker.org",
   rutrackerorg_desc: "A Russian torrent tracker and forum offering a vast catalog of movies, music, software, books, and more. Known for its longevity and active user base.",
   archive_name: "Internet Archive",
@@ -745,7 +747,8 @@ const L = {
   homedepot_desc: "The Home Depot is an American multinational home improvement retail corporation that sells tools, construction products, appliances, and services, including fuel and transportation rentals.",
   cvs_name: "CVS",
   cvs_desc: "U.S. pharmacy and retail chain offering prescriptions, health and wellness products, beauty essentials, and everyday groceries—available in-store and online.",
-
+  whirlpool_name: "Whirlpool",
+  whirlpool_desc: "A leading global manufacturer of home appliances, known for durable washing machines, refrigerators, dryers, and kitchen solutions. Whirlpool combines innovation with everyday reliability.",
   doordash_name: "Doordash",
   doordash_desc: "Food delivery and logistics platform connecting users with restaurants, convenience stores, and groceries—order online or via app for on-demand service.",
 
