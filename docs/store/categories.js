@@ -1978,7 +1978,7 @@ export const categories = [
         name: "Whatnot",
         nameKey: "whatnot_name",
         descriptionKey: "whatnot_desc",
-        icons: "icons/whatnot.webp",
+        icon: "icons/whatnot.webp",
         url: "https://www.whatnot.com"
       },
       {
