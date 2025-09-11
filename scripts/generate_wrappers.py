@@ -17,11 +17,11 @@ WRAPPER_OUTPUT = ROOT / "docs" / "wrappers"
 WRAPPERS = [
   { "name": "CVS", "url": "https://www.cvs.com" },
   { "name": "Android Authority", "url": "https://www.androidauthority.com", "keyify_name": "androidauthority"},
-  { "name": "Level1Techs", "url": "https://level1techs.com" },
   { "name": "armrepo.ver.lt", "url": "https://armrepo.ver.lt","keyify_name": "armrepoverlt", "icon": "msstore.webp" },
   { "name": "Internet Archive", "url": "https://archive.org", "keyify_name": "archive" },
   { "name": "APK Premier", "url": "https://apkpremier.com", "keyify_name": "apkpremier" },
   { "name": "BTSOW", "url": "https://btsow.lol" },
+  { "name": "Level1Techs", "url": "https://level1techs.com" },
   { "name": "perplexity", "url": "https://www.perplexity.ai" },
   { "name": "stack.watch", "url": "https://stack.watch", "keyify_name": "stackwatch" },
   { "name": "NIST Time", "url": "https://www.time.gov", "keyify_name": "timegov" },
