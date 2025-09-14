@@ -393,6 +393,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "DontKillMyApp",
+        nameKey: "dontkillmyapp_name",
+        descriptionKey: "dontkillmyapp_desc",
+        icon: "icons/wrappers/dontkillmyapp.webp",
+        url: "/wrappers/dontkillmyapp",
+        apptype: "wrapper"
+      },
+      {
         name: "Mini Program Demo",
         nameKey: "miniprogramdemo_name",
         descriptionKey: "miniprogramdemo_desc",

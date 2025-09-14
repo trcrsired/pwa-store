@@ -171,6 +171,8 @@ const L = {
   aurorastore_desc: "An open-source client for Google Play that supports anonymous downloads, app browsing, and update tracking without Google services.",
   wechatdevelopers_name: "WeChat Developers",
   wechatdevelopers_desc: "WeChat Developers is Tencent’s official development portal for building Mini Programs, Official Accounts, and integrations using WeChat’s APIs and SDKs. It provides documentation, tools, and resources for developers to create applications across the WeChat ecosystem, including payments, messaging, and social features.",
+  dontkillmyapp_name: "DontKillMyApp",
+  dontkillmyapp_desc: "Lists how different Android manufacturers handle background apps and offers guidance to improve reliability.",
   cloudflare_desc: "Cloudflare is a widely adopted platform that provides networking, security, and performance services to enhance the functionality of websites, applications, and online services. It is used by a diverse range of users, from individual developers to large enterprises, due to its robust features and global infrastructure.",
   yandex_name: "Yandex",
   yandex_desc: "Founded by Arkady Volozh, Arkady Borkovsky, and Ilya Segalovich, Yandex is a Russian technology company headquartered in Moscow. It offers a wide range of services including search, maps, cloud computing, streaming media, e-commerce, and ridesharing. Yandex Search is the dominant engine in Russia, supporting text, voice, and image queries with its own independent infrastructure. While Yandex does not use Bing’s API for search results, it collaborates with Bing via the IndexNow protocol to accelerate URL indexing across platforms.",
