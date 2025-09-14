@@ -1208,6 +1208,13 @@ export const categories = [
         url: "https://www.howtogeek.com"
       },
       {
+        name: "Readhub",
+        nameKey: "readhub_name",
+        descriptionKey: "readhub_desc",
+        icon: "icons/readhub.webp",
+        url: "https://readhub.cn"
+      },
+      {
         name: "Level1Techs",
         nameKey: "level1techs_name",
         descriptionKey: "level1techs_desc",

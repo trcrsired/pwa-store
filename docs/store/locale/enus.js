@@ -313,6 +313,8 @@ const L = {
   medianama_desc: "MEDIANAMA is a leading source for technology policy news and analysis in India. It covers AI governance, digital rights, cybersecurity, telecom regulation, and platform accountability—serving policymakers, developers, and researchers with in-depth reporting and expert commentary.",
   howtogeek_name: "How-To Geek",
   howtogeek_desc: "Understand technology with ease—How-To Geek breaks down complex topics into simple, practical guides for everyone.",
+  readhub_name: "Readhub",
+  readhub_desc: "A Chinese tech news aggregator offering concise updates on startups, AI, blockchain, and more",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community.",
   juejin_name: "Juejin",
