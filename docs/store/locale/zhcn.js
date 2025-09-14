@@ -98,34 +98,24 @@ const L = {
   infrequently_name: "Infrequently",
   infrequently_desc: "Alex Russell 的个人博客，探讨浏览器标准、平台治理以及开放网络的未来。内容包括隐私、用户自主权和软件架构政治等方面的深度文章。",
   github_desc: "支持 PWA 的代码托管平台。",
-
   vscode_name: "Visual Studio Code",
   vscode_desc: "在线代码编辑器，集成 GitHub。",
-
   vscode_insider_name: "VS Code Insider",
   vscode_insider_desc: "Visual Studio Code Web 的预览版本。",
-
   v2ray_desc: "Project V 是一套帮助你构建隐私网络的工具。核心组件 V2Ray 负责网络协议和通信，可独立运行或与其他工具组合使用。",
-
   gitlab_desc: "功能强大的 DevOps 平台，支持完整的 Git 仓库管理、CI/CD 流程和团队协作，原生支持 PWA。",
-
   gitee_desc: "中国领先的代码托管平台，原生支持 PWA，提供 Git 项目管理、团队协作和本地化 CI/CD 流程。",
-
   stackoverflow_name: "Stack Overflow",
   stackoverflow_desc: "全球最大的开发者社区，提供编程知识分享和职业发展支持。",
-
   mdn_name: "MDN Web 文档",
   mdn_desc: "MDN Web 文档是 Mozilla 提供的开发者资源库，包含丰富的 Web 技术文档和学习材料。",
-
   chrome_dev_name: "Chrome 开发者平台",
   chrome_dev_desc: "谷歌官方的 Chrome 开发者资源中心，提供文档、工具和现代 Web 开发指南，包括 WebAssembly、WebGPU 和 PWA。",
-
   webdev_desc: "web.dev 是由谷歌创建的资源平台，旨在帮助开发者构建现代化、高速且易访问的网站。它提供教程、工具和最佳实践，涵盖网站性能、SEO、安全性和用户体验等方面。无论是初学者还是资深开发者，web.dev 都提供基于真实数据和开放标准的实用指导。",
   googledevelopers_name: "谷歌开发者平台",
   googledevelopers_desc: "谷歌开发者平台是官方资源中心，提供文档、API、工具和支持，帮助开发者构建高质量的 Web、移动和云端应用程序。",
   bing_webmaster_name: "Bing 站长工具",
   bing_webmaster_desc: "提供网站搜索性能分析、索引状态和 SEO 诊断，帮助优化 Bing 搜索可见性。",
-
   pwabuilder_name: "PWA Builder",
   pwabuilder_desc: "由微软开发的开源工具，简化渐进式网络应用程序的部署流程。",
   leetcode_name: "LeetCode",
@@ -147,22 +137,16 @@ const L = {
   frontendmasters_name: "前端大师 （Frontend Masters）",
   frontendmasters_desc: "由行业专家授课的高质量 Web 开发课程，涵盖 JavaScript、CSS、React 等热门技术。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
-
   rust_desc: "一门可靠且高效的软件开发语言。",
-
   isocpp_name: "ISO C++",
   isocpp_desc: "isocpp.org 是 C++ 标准基金会的官方网站，致力于推广现代 C++ 的理解与应用。",
-
   linuxdie_name: "Linux.die",
   linuxdie_desc: "Linux 文档、man 页面和 HOWTO 指南的综合档案库，适合开发者和系统管理员快速查阅。",
-
   godbolt_desc: "交互式编译器探索工具，支持 C、C++、Rust 等语言，可视化汇编输出并比较不同工具链的优化效果。",
-
   v86_desc: "基于 WebAssembly 的虚拟 x86 模拟器，可在浏览器中运行 Windows 95 和 Linux 等旧系统。",
   termux_desc: "Termux是一个适用于安卓的终端模拟器，其环境类似于 Linux 环境。 无需Root或设置即可使用。 Termux 会自动进行最小安装 - 使用 APT 包管理器即可获得其他软件包。",
   fsf_name: "自由软件基金会",
   fsf_desc: "自由软件基金会（FSF）是一个全球性非营利组织，致力于推广用户自由和开源软件。",
-
   gccmcf_name: "GCC MCF",
   gccmcf_desc: "为 Windows 定制的 GCC 分支，使用最小 C 库的线程系统（MCF）替代标准 POSIX 线程模型。",
   webassembly_name: "WebAssembly",
@@ -181,21 +165,15 @@ const L = {
   getnomad_name: "Nomad",
   getnomad_desc: "全球 eSIM 服务商，提供覆盖 200+ 地区的高性价比移动数据计划，支持即时激活。",
   mail_name: "邮箱",
-
   qqmail_name: "QQ 邮箱",
   qqmail_desc: "QQ 邮箱是腾讯推出的流行邮件服务，提供快速、安全、适配移动设备的个人和企业邮箱访问。它与 QQ 生态系统深度集成，支持网页和 App 使用。",
-
   netease163_name: "网易 163 邮箱",
   netease163_desc: "网易 163 邮箱是中国最广泛使用的邮件平台之一，以稳定性、大容量和简洁界面著称。支持个人和企业账户，适配移动和桌面访问。",
-
   netease126_name: "网易 126 邮箱",
   netease126_desc: "网易 126 邮箱是 163 邮箱的姊妹服务，功能类似但使用不同域名。提供稳定的邮件访问、垃圾邮件过滤，并与网易其他服务无缝集成。",
-
   yeahnet_name: "yeah.net 邮箱",
   yeahnet_desc: "网易 yeah.net 邮箱是 163 邮箱的姊妹服务，功能类似但使用不同域名。提供稳定的邮件访问、垃圾邮件过滤，并与网易其他服务无缝集成。",
-
   socialmedia_name: "社交媒体",
-
   youtube_name: "油管（YouTube）",
   youtube_desc: "Google 推出的在线视频平台。",
   reddit_desc: "社区驱动的讨论论坛。",
@@ -249,28 +227,21 @@ const L = {
   eharmony_desc: "一个以关系为导向的平台，通过资料匹配和交流工具帮助用户建立联系。",
   tieba_name: "贴吧",
   tieba_desc: "百度的兴趣社区平台，用户在特定主题的贴吧中分享帖子、媒体和讨论。在移动端需使用安卓版微软Edge浏览器，并通过添加 ArkWeb 到 UA 字符串来绕过贴吧小程序的检测。",
-
   finance_name: "金融",
-
   chase_name: "摩根大通",
   chase_desc: "美国最大的银行之一，提供全面的金融服务，包括储蓄、贷款和信用卡。",
-
   bitcoinwell_name: "比特币井 （Bitcoin Well）",
   bitcoinwell_desc: "加拿大和美国最快捷、最安全的比特币购买平台，支持链上和闪电网络交易。",
-
   eastmoney_name: "东方财富网",
   eastmoney_desc: "中国领先的财经资讯与数据门户，涵盖股票、基金、债券等金融信息。",
-
   tradingview_name: "TradingView",
   tradingview_desc: "提供高级市场分析工具和交互式图表，支持全球股票、加密货币和外汇交易。",
-
   yahoofinance_name: "雅虎财经",
   yahoofinance_desc: "全球金融新闻、股票报价和市场趋势的综合平台。",
   stockanalysis_name: "股票分析",
   stockanalysis_desc: "股票分析（Stock Analysis）是一个在线平台，提供详尽的财务数据、图表、新闻和洞察，帮助投资者研究和评估上市公司。",
   longforecast_name: "LongForecast",
   longforecast_desc: "提供股票、加密货币和经济趋势的长期预测图表，适合中长期投资者参考。",
-
   investing_name: "英为财情",
   investing_desc: "追踪全球金融市场，查看实时行情，浏览股票、外汇、加密货币等领域的新闻、分析与工具。",
   stripe_name: "Stripe Dashboard",
@@ -305,7 +276,6 @@ const L = {
   tech_key: "科技",
   windowscentral_name: "Windows中心 （Windows Central）",
   windowscentral_desc: "专注于微软生态系统的新闻报道与使用指南，包括 Windows、Surface、Xbox 等产品。",
-
   macrumors_name: "麦克传闻 （Mac Rumors）",
   macrumors_desc: "聚焦苹果产品的科技新闻与深度分析，涵盖 Mac、iPhone、iOS 等相关内容。",
   androidsage_name: "安卓智者 （Android Sage）",
@@ -314,23 +284,18 @@ const L = {
   androidheadlines_desc: "Android Headlines是一个专注于安卓、谷歌、三星及移动创新的科技新闻网站，提供智能手机发布、AI功能、Pixel评测与行业动态，服务于关注移动生态的读者群体。",
   androidauthority_name: "安卓权威（Android Authority）",
   androidauthority_desc: "提供关于 Android 和 Google 技术的新闻、评测与深入解析。",
-
   tomshardware_name: "汤姆的硬件（Tom's Hardware）",
   tomshardware_desc: "面向 PC 爱好者与硬件专业人士的深度评测、技术新闻与 DIY 指南。",
-
   arsopenforum_name: "Ars 开放论坛（Ars OpenForum）",
   arsopenforum_desc: "由 Ars Technica 主办的长期技术社区，涵盖硬件、软件、政治与极客文化。论坛采用 XenForo 架构，支持 BBCode、Markdown、语法高亮、多重引用、图片缩放与帖子追踪，是自 1999 年以来尊重讨论与深入交流的技术避风港。",
-
   xdaforums_name: "XDA 论坛",
   xdaforums_desc: "XDA 论坛是一个专注于移动设备（尤其是 Android）开发、配件、指南与讨论的技术社区。",
   fdroidforum_name: "F-Droid 论坛",
   fdroidforum_desc: "这是 F-Droid 用户和开发者的官方社区论坛，用于讨论应用、问题和创意。",
   appleinsider_name: "AppleInsider",
   appleinsider_desc: "一个专注于苹果产品、传闻、评测和行业分析的新闻网站。",
-
   pcmag_name: "PCMag",
   pcmag_desc: "一个提供消费电子产品和软件评测、购买指南及分析的科技媒体。",
-
   zdnet_name: "ZDNET",
   zdnet_desc: "ZDNET 是一家由 Ziff Davis 运营的商业科技新闻网站，面向 IT、商业和数字化转型领域的专业人士，提供创新趋势与技术产品的深度分析与见解。",
   techspot_desc: "TechSpot 是一家专注于计算机技术的科技媒体，内容涵盖硬件评测、软件推荐、行业动态与深度分析，深受技术爱好者与专业用户的信赖。",
@@ -354,10 +319,8 @@ const L = {
   juejin_desc: "掘金是一个面向开发者的中文技术社区与内容平台，涵盖前端、后端、移动开发、人工智能等多个领域，提供高质量文章、教程与技术讨论。平台聚集了工程师、设计师与产品经理，致力于技术成长、开源分享与职业发展。",
   internetservices_name: "互联网服务",
   resourcedistributions_name: "资源分发",
-
   apkpure_name: "APKPure",
   apkpure_desc: "发现并下载 Android APK 文件。",
-
   aur_name: "Arch Linux AUR",
   aur_desc: "探索由社区维护的 Arch Linux 软件包。",
   windowsonarm_name: "Windows on ARM 兼容性列表 (https://windowsonarm.org)",
@@ -390,25 +353,18 @@ const L = {
   news_name: "新闻",
   rt_name: "今日俄罗斯",
   rt_desc: "俄罗斯国际新闻媒体。",
-
   presstv_name: "PressTV",
   presstv_desc: "伊朗的英文广播机构。",
-
   bloomberg_name: "彭博社",
   bloomberg_desc: "全球金融媒体公司，提供实时市场数据、商业新闻和经济分析。",
-
   firstpost_name: "Firstpost",
   firstpost_desc: "印度新闻门户网站，涵盖政治、商业、体育和娱乐，并提供社论和观点内容。",
-
   forbes_name: "福布斯",
   forbes_desc: "全球知名媒体，专注于商业新闻、财经洞察，以及如福布斯富豪榜等权威排名。",
-
   pbs_name: "PBS",
   pbs_desc: "美国公共广播机构，通过成员台网络提供教育、文化和纪录片节目。",
-
   bbc_name: "BBC",
   bbc_desc: "全球新闻与媒体中心，BBC 提供突发新闻、直播报道以及政治、文化和科学的深度报道。",
-
   ap_name: "美联社",
   ap_desc: "美联社是一家总部位于纽约市的美国非营利新闻机构。",
   independent_name: "独立报",
@@ -423,10 +379,8 @@ const L = {
   usatoday_desc: "一家美国全国性报纸，提供新闻、生活方式和娱乐内容，覆盖数字和印刷平台。",
   marxism_name: "保卫马克思主义",
   marxism_desc: "提供全球事件、政治理论和革命历史的马克思主义分析的在线平台。",
-
   abcnews_name: "美国广播公司新闻",
   abcnews_desc: "美国新闻机构，报道国内外政治、健康、商业和文化等领域的新闻。",
-
   usnews_name: "美国新闻",
   usnews_desc: "美国知名媒体机构，以教育、健康、政治和国家事务的排名与分析报道而闻名。",
   cbsnews_name: "CBS新闻",
@@ -469,10 +423,8 @@ const L = {
   washingtonpost_desc: "《华盛顿邮报》（Washington Post）是美国主要报纸之一，总部位于华盛顿特区，以深度调查报道和政治新闻著称。创刊于1877年，该报在塑造公共舆论方面发挥了重要作用，尤其以揭露水门事件而闻名。自2013年由亚马逊创始人杰夫·贝索斯收购以来，《华盛顿邮报》继续作为国家和国际新闻、评论与分析的重要来源。",
   reuters_name: "路透社",
   reuters_desc: "一家国际新闻机构，以及时、客观报道政治、商业和全球事务而闻名。",
-
   revcom_name: "REVCOM.US",
   revcom_desc: "REVCOM.US 是美国革命共产党官方网站，提供关于革命变革、社会正义和对资本主义与帝国主义批判的新闻、分析和理论文章。",
-
   aljazeera_name: "半岛电视台",
   aljazeera_desc: "全球新闻和深度报道，半岛电视台以中东事务、调查性新闻和直播报道而闻名。",
   foreignpolicy_name: "外交政策（Foreign Policy）",
@@ -481,10 +433,8 @@ const L = {
   thetelegraph_desc: "通过《每日电讯报》应用，掌握全球最新动态。每日数字版、突发新闻、深度分析、播客、益智游戏及专属订阅内容，一站式尽在掌握。",
   cgtn_name: "CGTN",
   cgtn_desc: "中国国家级国际广播机构 CGTN 提供多语言的世界新闻、商业和地缘政治报道。",
-
   cctv_name: "央视",
   cctv_desc: "中国国家广播机构，提供新闻、纪录片和多种频道的娱乐节目。",
-
   fortune_name: "财富杂志（Fortune）",
   fortune_desc: "一家全球商业媒体品牌，以财富500强和全球500强等排名著称，提供关于企业领导力、金融和经济趋势的深入报道。",
   scientificamerican_name: "科学美国人（Scientific American）",
@@ -495,16 +445,12 @@ const L = {
   politico_desc: "深入报道美国及全球政治、政策与权力人物的动态。",
   ifeng_name: "凤凰网",
   ifeng_desc: "综合性中文新闻门户，涵盖时政、财经、文化及全球热点资讯。",
-
   tencent_name: "腾讯新闻",
   tencent_desc: "腾讯综合新闻门户，涵盖中国各地的头条、生活资讯和热门报道。",
-
   baidu_name: "百度",
   baidu_desc: "中国领先的搜索引擎，集成新闻、搜索结果和类应用浏览体验。",
-
   sohu_name: "搜狐",
   sohu_desc: "多元化媒体平台，提供社论报道、突发新闻和多媒体故事。",
-
   weibo_name: "微博Lite",
   weibo_desc: "微博Lite 是中国流行微博服务的轻量级移动入口，提供热门帖子、话题标签和明星动态的快速访问。",
   fashion_name: "时尚",
@@ -519,17 +465,14 @@ const L = {
   entertainmentplatform_name: "娱乐平台",
   age_name: "AGE动漫",
   age_desc: "在线观看丰富的动漫剧集和电影，内容定期更新并配有中文字幕。",
-
   disneyplus_name: "Disney+",
   disneyplus_desc: "Disney+ 是由迪士尼流媒体部门运营的美国订阅制视频点播服务，隶属于迪士尼娱乐，是华特迪士尼公司的重要业务板块之一。",
   hulu_name: "Hulu",
   hulu_desc: "Hulu 是一家美国的订阅制流媒体服务平台，提供丰富的电视剧、电影、原创内容以及直播电视服务，涵盖新闻、体育和娱乐等多个领域。",
   vixcom_name: "ViX (vix.com)",
   vixcom_desc: "ViX 是西班牙语娱乐的官方平台，提供直播电视、点播电影、体育赛事和原创节目，面向美国和拉美的西语观众。",
-
   vixwatch_name: "ViX (vix.watch)",
   vixwatch_desc: "ViX 的另一个入口，提供跨地区的电视剧、电影和系列剧，适用于重定向或地理定位用户流程。",
-
   espn_name: "ESPN",
   espn_desc: "综合体育网络，ESPN 报道各类联赛和项目的直播赛事、运动员动态、排名和分析。",
   mangadex_name: "MangaDex",
@@ -542,13 +485,10 @@ const L = {
   sling_Desc: "Sling TV 是一项灵活的流媒体服务，提供新闻、体育和娱乐等领域的直播与点播频道。用户可根据需求定制频道组合，套餐价格实惠，无需长期合约。",
   dubok_name: "独播库",
   dubok_desc: "独播库是一个专注于独家和冷门剧集的中国流媒体网站，聚合多个来源内容，更新迅速，提供大量带字幕的剧集，适合小众观众。",
-
   youku_name: "优酷",
   youku_desc: "优酷是由阿里巴巴集团旗下运营的视频流媒体服务，前身为视频分享网站，总部位于北京。",
-
   lightnovel_name: "轻之国度",
   lightnovel_desc: "中国最早的轻小说社区之一，提供连载翻译、作者档案和动漫风格文学，界面简洁，适合移动浏览。",
-
   wechatread_name: "微信读书",
   wechatread_desc: "微信读书是腾讯官方阅读平台，提供电子书、社交阅读体验，并与微信生态无缝集成。",
   qingtingfm_name: "蜻蜓FM",
@@ -564,14 +504,12 @@ const L = {
   dramabox_name: "DramaBox",
   dramabox_desc: "由新加坡 STORYMATRIX PTE. LTD. 运营的免费视频平台，专注于短剧与肥皂剧片段，涵盖爱情、复仇、家庭冲突与身份误认等高情绪张力题材。DramaBox 在美国、墨西哥和印度等地广受欢迎，以快节奏剧情和移动端优化呈现方式吸引用户，常见剧情包括打脸、丑闻与反转结局。",
   games_name: "游戏",
-
   gameslol_name: "GamesLOL",
   gameslol_desc: "GamesLOL 提供多种类型的游戏，包括动作、冒险、益智、体育等，种类丰富。",
   classicgamesgg_name: "ClassicGames.gg",
   classicgamesgg_desc: "免费在线畅玩经典游戏！数百款复古街机、主机和PC游戏，无需下载，直接在浏览器中尽情享受。立即重温童年回忆！",
   crazygames_name: "CrazyGames",
   crazygames_desc: "CrazyGames 提供基于浏览器的游戏，涵盖动作、益智、多人等类型，无需下载即可畅玩。",
-
   webgamer_name: "Web Gamer",
   webgamer_desc: "Web Gamer 是新一代网页游戏门户，无需安装，直接在浏览器中畅玩。",
   roblox_name: "Roblox",
@@ -582,12 +520,12 @@ const L = {
   xboxcloudgaming_desc: "微软推出的云游戏平台，无需下载或主机，即可在手机、平板、电脑、智能电视等设备上畅玩主机级游戏。通过 Xbox Game Pass Ultimate，可访问数百款高质量游戏，随时随地即点即玩，跨设备同步进度，体验由云端驱动的次世代游戏体验。",
   chronodivide_name: "红警2：时空分裂",
   chronodivide_desc: "《红色警戒2：时空分裂》是一款由粉丝制作的浏览器游戏，致敬经典的《命令与征服：红色警戒2》。它忠实还原了即时战略的游戏体验，支持流畅的在线多人对战，拥有标志性的单位和充满怀旧感的画面——无需安装即可畅玩。无论你是指挥苏联军队，还是领导盟军部队，《时空分裂》都能让你在浏览器中重温时空科技与战场统治的战术快感。",
+  floppybird_name: "Floppy Bird",
+  floppybird_desc: "受原版 Flappy Bird 启发的网页复刻版，玩法相似但并非完全一致。",
   mumu_cn_name: "MuMu模拟器",
   mumu_cn_desc: "网易 MuMu 安卓模拟器的中国本地化版本，面向国内用户，深度集成大陆游戏生态，简化 PC 端操作。",
-
   mumu_global_name: "MuMuPlayer",
   mumu_global_desc: "MuMu 的国际版，提供全球下载镜像、多语言支持，并针对 Windows 和 macOS 优化跨平台模拟体验。",
-
   gamingcommunity_name: "游戏社区",
   murlok_name: "Murlok.io",
   murlok_desc: "提供魔兽世界天赋与构建指南。",
@@ -637,24 +575,17 @@ const L = {
   eudic_name: "欧路词典",
   eudic_desc: "欧路词典是一款多语种词典与翻译平台，提供英汉查词、每日听力练习、文档翻译及 AI 写作辅助工具。特别优化于苹果系统，支持 Mdx 扩展词库，适合语言学习者、翻译人员与教育工作者使用。",
   forums_name: "论坛",
-
   incelsis_name: "非自愿独身者论坛",
   incelsis_desc: "Incel.is 是一个围绕非自愿独身者亚文化的在线讨论论坛。用户可在此分享观点、参与交流，并探讨与情感排斥、社会关系及身份认同相关的主题。",
-
   fourchan_name: "4chan",
   fourchan_desc: "4chan 是一个匿名图片讨论平台，用户可在多个主题板块中分享图片与文字，涵盖科技、动漫、游戏、健身、政治等多种话题。帖子通常具有时效性，平台强调匿名性与开放参与，无需用户注册即可发言。",
-
   knowledgespedia_name: "知识和百科",
-
   wikipedia_name: "维基百科",
   wikipedia_desc: "免费的在线百科全书。",
-
   baidubaike_name: "百度百科",
   baidubaike_desc: "中国的协作式知识平台。",
-
   liquipedia_name: "Liquipedia",
   liquipedia_desc: "Liquipedia 是专注于电子竞技的在线百科全书。",
-
   incelwiki_name: "非自愿独身者百科",
   incelwiki_desc: "非自愿独身者百科是一个由社区维护的百科全书，专注于“非自愿独身者”（Incel）这一网络亚文化。",
   wowdevwiki_name: "WoWDev维基",
@@ -664,18 +595,13 @@ const L = {
   osdevorg_name: "OSDev.org",
   osdevorg_desc: "一个专注于操作系统开发的技术社区，提供教程、论坛和资源。",
   religion_name: "宗教",
-
   qurancom_name: "古兰经 （Quran.com）",
   qurancom_desc: "简洁、适配移动设备的网站，可阅读和收听《古兰经》，支持多种语言翻译和注释（Tafsir）。",
-
   biblecom_name: "YouVersion 圣经",
   biblecom_desc: "提供多种译本的圣经全文，包含阅读计划、有声版本和移动应用。",
-
   analytics_name: "分析",
-
   pwastats_name: "PWA 统计",
   pwastats_desc: "PWA 统计是一个精选仪表板，展示渐进式网络应用在各行业的影响力，包含真实案例、性能指标和采用趋势。",
-
   statcounter_name: "StatCounter GS",
   statcounter_desc: "跟踪搜索引擎、浏览器和操作系统的使用份额。",
   speedtest_name: "Speedtest by Ookla",
@@ -697,16 +623,12 @@ const L = {
   chinafirewalltest_name: "中国防火墙测试",
   chinafirewalltest_desc: "由 ViewDNS.info 提供支持的实时工具，用于检测网站是否被中国防火墙屏蔽。",
   musicstreaming_name: "音乐流媒体",
-
   spotify_name: "Spotify",
   spotify_desc: "全球音乐流媒体平台。",
-
   applemusic_name: "苹果音乐",
   applemusic_desc: "苹果提供的高品质音乐服务。",
-
   youtubemusic_name: "油管音乐 （YouTube Music）",
   youtubemusic_desc: "可串流播放超过一亿首歌曲、专辑、混音和现场表演——YouTube Music 的渐进式网页应用（PWA）支持个性化播放列表、播客功能，并在多设备间无缝播放。",
-
   soundcloud_name: "声云 （SoundCloud）",
   soundcloud_desc: "声云 （SoundCloud） 是一家德国音频流媒体服务，由 SoundCloud Global Limited & Co. KG 拥有并运营。该服务允许用户上传、推广和分享音频内容。",
   audiomack_name: "Audiomack",
@@ -714,18 +636,16 @@ const L = {
   roon_name: "Roon",
   roon_desc: "一款高保真音乐播放器与资料管理平台，为你的音乐库添加艺人简介、评论、歌词、照片及关联创作者信息。让聆听更具深度与背景。",
   ecommerece_name: "电子商务",
-
   starbucks_name: "星巴克",
   starbucks_desc: "咖啡点单与会员积分管理。",
-
   amazon_name: "亚马逊",
   amazon_desc: "购物、订单跟踪与账户管理，涵盖数百万种商品。",
-
   bestbuy_name: "Best Buy",
   bestbuy_desc: "电子产品与家电零售平台。",
-
   ebay_name: "eBay",
   ebay_desc: "全球电子商务平台，通过拍卖、一口价和精选商品连接买家与卖家。",
+  whatnot_name: "Whatnot",
+  whatnot_desc: "一个直播购物平台，用户可通过实时视频拍卖买卖收藏品、潮流服饰、电子产品等。Whatnot 成立于 2019 年，总部位于洛杉矶，融合电商与娱乐，提供快节奏拍卖、限时抢购与社区互动，覆盖 250 多个品类。深受收藏爱好者与内容创作者欢迎，是一个集发现、交易与社交于一体的新型市场。",
   temu_desc: "Temu 是由电商公司拼多多控股运营的在线购物平台。该平台旨在帮助本地卖家触达更多本地消费者，提供更符合本地需求的商品，并提升用户购物体验。",
   shopify_name: "Shopify",
   shopify_desc: "使用可定制工具和安全结账系统创建并管理您的在线商店。",
@@ -749,7 +669,6 @@ const L = {
   biggo_desc: "一个价格比较工具，帮助用户在多个电商平台上发现最优惠的商品。",
   walmart_name: "沃尔玛",
   walmart_desc: "跨国零售巨头，提供食品、电子产品、服饰等商品，支持超市与线上购物。",
-
   target_name: "Target",
   target_desc: "美国零售连锁店，销售食品、电子产品、服装和家居用品，支持门店与线上购物。",
   homedepot_name: "家得宝",
@@ -760,7 +679,6 @@ const L = {
   whirlpool_desc: "全球知名的家用电器制造商，产品涵盖洗衣机、冰箱、烘干机及厨房解决方案。惠而浦以创新技术与日常可靠性著称。",
   doordash_name: "Doordash",
   doordash_desc: "餐饮配送与物流平台，连接用户与餐厅、便利店和超市，支持在线或 App 下单即时送达。",
-
   kfc_name: "肯德基",
   kfc_desc: "全球知名快餐连锁，以炸鸡闻名，支持在线点餐、优惠活动和门店查询。",
   kfccn_name: "肯德基（中国）",
@@ -771,7 +689,6 @@ const L = {
   kfcpluscnwechatmini_desc: "肯德基+ 微信小程序，在中国提供会员专属权益、积分兑换、个性化推荐与互动活动。",
   subway_name: "赛百味",
   subway_desc: "国际三明治连锁店，提供可定制的潜艇堡、卷饼和沙拉，支持在线点餐、会员奖励和门店定位。",
-
   mcdonalds_name: "麦当劳",
   mcdonalds_desc: "全球最大的快餐连锁，提供汉堡、薯条、早餐和饮品，支持 App 或网站点餐、积分奖励和门店查询。",
   applestore_name: "苹果商店",
@@ -791,7 +708,6 @@ const L = {
   redfin_desc: "实时搜索房产列表，获取经纪人提供的专业见解。比较房价、预约看房，并跟踪市场趋势。",
   auctioncom_name: "Auction.com",
   auctioncom_desc: "发现可供拍卖的住宅和商业房产。在线竞标，查看止赎信息，探索投资机会。",
-
   jobs_name: "工作",
   linkedin_name: "领英",
   linkedin_desc: "与职场人士建立联系，探索工作机会，完善职业档案。关注企业，加入行业社群，分享见解。",
@@ -808,19 +724,14 @@ const L = {
   mobilitylogistics_name: "出行与配送",
   uber_name: "优步",
   uber_desc: "打车与配送平台，可预订行程、点餐并通过可安装的 PWA 管理账户。",
-
   amtrak_name: "Amtrak",
   amtrak_desc: "预订火车票、查看时刻表并跟踪行程——Amtrak 的 PWA 支持覆盖美国 500 多个目的地的便捷旅行规划。",
-
   delta_name: "达美航空",
   delta_desc: "管理航班、办理登机手续并跟踪状态——达美航空的 PWA 提供移动友好工具并集成 SkyMiles 会员系统。",
-
   united_name: "美联航",
   united_desc: "预订航班、管理订单并跟踪行程状态——美联航的 PWA 覆盖全球 300 多个目的地，支持 MileagePlus 奖励、移动登机和实时更新。",
-
   flixbus_name: "FlixBus",
   flixbus_desc: "探索美国及其他地区的 1800 多个目的地——FlixBus 的 PWA 支持实时购票与行程跟踪，提供 Wi-Fi、电源插座和宽敞座位。",
-
   sfexpress_name: "顺丰速运",
   sfexpress_desc: "顺丰速运——支持国内外快递查询、预约取件与配送服务管理。",
   usps_name: "美国邮政",
@@ -836,51 +747,7 @@ const L = {
   dongchedi_desc: "懂车帝是总部位于中国重庆的汽车信息平台，提供智能选车推荐、价格数据、新闻资讯、测评视频等内容，帮助用户了解新车与二手车，做出理性购车决策。",
   jiakaobaodian_name: "驾考宝典",
   jiakaobaodian_desc: "中国领先的驾考平台，提供最新题库、多语言考试准备与全流程学习指导。在安卓版微软Edge浏览器中，请先登录账户，登录后可安装为 PWA 应用。",
-
-  starbucks_name: "星巴克",
-  starbucks_desc: "咖啡点单与会员积分管理。",
-
-  amazon_name: "亚马逊",
-  amazon_desc: "购物、订单跟踪与账户管理，涵盖数百万种商品。",
-
-  bestbuy_name: "Best Buy",
-  bestbuy_desc: "电子产品与家电零售平台。",
-
-  ebay_name: "eBay",
-  ebay_desc: "全球电子商务平台，通过拍卖、一口价和精选商品连接买家与卖家。",
-  whatnot_name: "Whatnot",
-  whatnot_desc: "一个直播购物平台，用户可通过实时视频拍卖买卖收藏品、潮流服饰、电子产品等。Whatnot 成立于 2019 年，总部位于洛杉矶，融合电商与娱乐，提供快节奏拍卖、限时抢购与社区互动，覆盖 250 多个品类。深受收藏爱好者与内容创作者欢迎，是一个集发现、交易与社交于一体的新型市场。",
-  taobao_name: "淘宝",
-  taobao_desc: "中国主要的 C2C 电商平台，提供从时尚、电子产品到本地手工商品的多样化市场。由阿里巴巴支持，具备强大的搜索功能、移动优先体验以及物流与社交电商的深度整合。",
-
-  walmart_name: "沃尔玛",
-  walmart_desc: "跨国零售巨头，提供食品、电子产品、服饰等商品，支持超市与线上购物。",
-
-  target_name: "Target",
-  target_desc: "美国零售连锁店，销售食品、电子产品、服装和家居用品，支持门店与线上购物。",
-
-  cvs_name: "CVS",
-  cvs_desc: "美国药房与零售连锁，提供处方药、健康产品、美妆用品及日常食品，支持门店与线上服务。",
-
-  doordash_name: "Doordash",
-  doordash_desc: "餐饮配送与物流平台，连接用户与餐厅、便利店和超市，支持在线或 App 下单即时送达。",
-
-  kfc_name: "肯德基",
-  kfc_desc: "全球知名快餐连锁，以炸鸡闻名，支持在线点餐、优惠活动和门店查询。",
-
-  subway_name: "赛百味",
-  subway_desc: "国际三明治连锁店，提供可定制的潜艇堡、卷饼和沙拉，支持在线点餐、会员奖励和门店定位。",
-
-  mcdonalds_name: "麦当劳",
-  mcdonalds_desc: "全球最大的快餐连锁，提供汉堡、薯条、早餐和饮品，支持 App 或网站点餐、积分奖励和门店查询。",
-
-  hotels_name: "酒店",
-
-  airbnb_name: "爱彼迎",
-  airbnb_desc: "探索由当地房东提供的特色住宿和短期租赁。可按地点、价格、房型和可订日期进行搜索。",
-
   tickets_name: "票",
-
   ctrip_name: "携程",
   ctrip_desc: "预订国内及全球的机票、酒店、火车票和度假套餐。支持比价、查找空位并轻松管理行程。",
   taopiaopiao_name: "淘票票",
@@ -891,20 +758,16 @@ const L = {
   maoyan_name: "猫眼",
   maoyan_desc: "涵盖电影排片、演唱会门票及各类演出活动的实时信息与购票功能，服务覆盖中国境内。",
   cloud_name: "云(就是别人的电脑)",
-
   linode_name: "Linode",
   linode_desc: "由 Akamai 提供支持的云托管服务，包含虚拟机和开发工具。",
-
   azure_name: "Azure",
   azure_desc: "Azure 是微软开发的云计算平台，通过其全球基础设施为个人、企业和政府提供应用和服务的管理、访问与开发能力。",
   legaltech_name: "法律科技",
   tencentesignature_name: "腾讯电子签",
   tencentesignature_desc: "腾讯电子签是由腾讯云推出的微信生态电子签约服务，支持合同签署、身份认证、区块链存证与合同全生命周期管理，广泛应用于金融、人力、法务及企业办公场景。",
   websitesblogs_name: "网站和博客",
-
   wordpress_name: "WordPress",
   wordpress_desc: "开源内容管理系统，可用于构建博客、网站和在线商店，支持数千种主题和插件，高度可定制。",
-
   adactio_name: "Adactio",
   adactio_desc: "Adactio 是 Jeremy Keith 的线上主页，他是一位居住并工作在英国布莱顿的网络开发者和作家。",
   medium_name: "Medium",
@@ -924,70 +787,48 @@ const L = {
   ruanyifeng_name: "阮一峰",
   ruanyifeng_desc: "知名技术博主与作家，专注于Web技术、JavaScript与软件工程的通俗教程与深度解析。",
   usgov_name: "美国政府🇺🇸",
-
   irs_name: "美国国税局（IRS）",
   irs_desc: "美国国税局官方网站——获取税表、申报退税、管理付款，并了解联邦税收法规和最新动态。",
-
   uscis_name: "美国公民及移民服务局（USCIS）",
   uscis_desc: "管理移民申请、查询案件状态、获取表格，并了解公民身份、绿卡和庇护相关资源。",
-
   ssa_name: "社会保障局（SSA）",
   ssa_desc: "访问退休、残疾和医疗保险福利，管理账户，并获取规划和申请相关资源。",
-
   tsa_name: "运输安全管理局（TSA）",
   tsa_desc: "获取旅行建议、申请 TSA PreCheck、查看机场安检等待时间，并了解禁带物品。",
-
   dos_name: "美国国务院（DOS）",
   dos_desc: "申请护照、查看旅行警示、获取领事服务，并了解外交政策资源。",
-
   usagov_name: "USA.gov",
   usagov_desc: "USA.gov——美国政府服务和信息的官方指南。查找福利、联系机构、探索税收、移民、健康等主题，一站式访问。",
-
   identitytheft_name: "身份盗窃资源中心",
   identitytheft_desc: "联邦贸易委员会为身份盗窃受害者提供的一站式资源——报告欺诈、制定恢复计划、获取模板信件，并通过个性化步骤跟踪进度。",
-
   ftc_name: "联邦贸易委员会（FTC）",
   ftc_desc: "通过执法、教育和倡导保护消费者并促进竞争。访问欺诈举报工具、商业指南以及有关诈骗、隐私和身份盗窃的资源。",
-
   fda_name: "美国食品药品监督管理局（FDA）",
   fda_desc: "通过确保食品、药品、医疗器械、化妆品和辐射产品的安全性、有效性和可靠性来保护公众健康。访问召回信息、批准记录、研究成果和消费者指南。",
-
   fed_name: "美国联邦储备系统（FED）",
   fed_desc: "制定货币政策、监管金融机构、促进金融稳定，并为银行系统提供服务。访问经济数据、政策更新和监管资源。",
-
   dol_name: "美国劳工部（DOL）",
   dol_desc: "执行联邦劳动法，确保公平、安全和健康的工作环境。访问工资标准、失业资源、工作安全指南和就业培训项目。",
-
   dod_name: "美国国防部（DOD）",
   dod_desc: "协调和监督国家军事力量，包括陆军、海军、空军、海军陆战队、太空军和海岸警卫队。访问国防新闻、政策更新、军人资源和官方出版物。",
-
   gsa_name: "总务管理局（GSA）",
   gsa_desc: "管理联邦财产、采购和技术服务。访问拍卖、合同和政府范围的项目。",
-
   dhs_name: "国土安全部（DHS）",
   dhs_desc: "通过边境安全、移民执法、网络安全和应急响应保护美国免受威胁。",
-
   dea_name: "缉毒局（DEA）",
   dea_desc: "执行管制物质法律、打击毒品贩运，并支持预防和教育工作。",
-
   eeoc_name: "平等就业机会委员会（EEOC）",
   eeoc_desc: "执行反职场歧视法律，并为员工和雇主提供资源。",
-
   nsa_name: "国家安全局（NSA）",
   nsa_desc: "提供信号情报和网络安全服务，以保护国家安全并支持军事行动。",
-
   cia_name: "中央情报局（CIA）",
   cia_desc: "收集和分析外国情报、执行秘密行动，并为美国国家安全政策提供信息。",
-
   doj_name: "司法部（DOJ）",
   doj_desc: "执行联邦法律、维护美国利益，并确保公正和公平的司法管理。",
-
   omb_name: "管理与预算办公室（OMB）",
   omb_desc: "监督联邦预算制定、机构绩效和行政部门的监管政策。",
-
   nasa_name: "美国国家航空航天局（NASA）",
   nasa_desc: "探索太空与航空技术，开展科学研究，领导地球、太阳系和宇宙的探索任务。访问新闻、图片、视频以及发射和发现的实时报道。",
-
   whitehouse_name: "白宫",
   whitehouse_desc: "美国总统的官邸与办公地点——了解行政部门的政策、新闻发布、历史档案和国家重点事务。访问总统办公室资源，掌握国家最新动态。",
   idme_name: "ID.me",
@@ -998,10 +839,8 @@ const L = {
   organizations_name: "组织",
   iso_name: "国际标准化组织（ISO）",
   iso_desc: "国际标准化组织（ISO）是一个独立的非政府国际组织，负责制定和发布全球各行业的标准，以确保质量、安全、效率和互操作性。",
-
   olympics_name: "奥林匹克运动会",
   olympics_desc: "现代奥林匹克运动会是全球最具影响力的国际体育赛事。",
-
   un_name: "联合国",
   un_desc: "联合国是全球唯一一个所有国家汇聚一堂，共同探讨问题并寻求造福全人类解决方案的组织。",
   healthinsurance_name: "健康和保险",
@@ -1011,7 +850,6 @@ const L = {
   calm_desc: "Calm 是一款主打心理健康的应用，提供冥想指导、睡眠故事、呼吸练习与放松音乐，帮助用户缓解压力、改善睡眠并培养正念习惯。支持网页与移动端使用，适合个人与企业日常心理健康管理。",
   uhs_name: "UHS",
   uhs_desc: "UHS（Universal Health Services）是一家医院管理和医疗服务提供商，在美国提供行为健康、急性护理和综合医疗服务。",
-
   deltadental_name: "Delta Dental",
   deltadental_desc: "Delta Dental 是面向个人和雇主的牙科保险服务商，支持在线管理福利、查找牙医、查看理赔和获取口腔健康资源。",
   vsigo_name: "视客眼镜",
@@ -1021,39 +859,29 @@ const L = {
   overleaf_desc: "Overleaf 是一个基于云端的 LaTeX 编辑平台，专为学术写作和技术文档设计。它支持多人实时协作、自动编译文档，并与参考文献管理工具无缝集成，特别适合撰写论文、报告、简历和演示文稿等结构化文档。用户无需安装任何软件，即可在线编辑和预览 LaTeX 文档。",
   secdeadlines_name: "安全与隐私会议截止时间",
   secdeadlines_desc: "顶级安全与隐私会议的截止时间倒计时。",
-
   hotcrp_name: "HotCRP",
   hotcrp_desc: "一个基于网络的会议管理系统，用于论文提交、评审和决策跟踪。",
   acm_name: "ACM",
   acm_desc: "全球最大的计算机学会，通过出版物、会议和ACM数字图书馆推动计算科学与专业发展。",
   education_name: "教育",
-
   princeton_name: "普林斯顿大学",
   princeton_desc: "普林斯顿大学是位于新泽西州普林斯顿的私立常春藤研究型大学，成立于 1746 年，是美国第四古老的高等教育机构，也是美国独立战争前九所殖民地学院之一。普林斯顿以卓越的本科和博士教育而闻名，致力于通过世界一流的学术研究和教学培养学生应对未来挑战，追求有意义的人生。",
-
-  binghamton_name: "宾汉姆顿大学",
-  binghamton_desc: "宾汉姆顿大学是一所世界级学府，提供具有国际视野的跨学科教育，并拥有全美最具活力的研究项目之一。",
-
+  binghamton_name: "纽约州立大学宾汉姆顿分校",
+  binghamton_desc: "纽约州立大学宾汉姆顿分校是一所世界级学府，提供具有国际视野的跨学科教育，并拥有全美最具活力的研究项目之一。",
   fudan_name: "复旦大学",
   fudan_desc: "复旦大学是一所位于中国上海的综合性研究型大学，成立于 1905 年，是中国人创办的第一所高等教育机构。",
-
+  otherpwastores_name: "其他PWA商店",
   adult_name: "成人",
-
   pornhub_name: "Pornhub",
   pornhub_desc: "成人娱乐门户网站。",
-
   spankbang_name: "SpankBang",
   spankbang_desc: "免费成人视频流媒体平台。",
-
   hentaihaven_name: "Hentai Haven",
   hentaihaven_desc: "专注于本子类内容的成人媒体平台。",
-
   missavtv_name: "MissAV TV",
   missavtv_desc: "日本成人影片索引平台。",
-
   xnxx_name: "XNXX.COM",
   xnxx_desc: "成立于 1997 年的捷克-法国成人视频网站，服务器遍布全球。",
-
   onlyfans_name: "OnlyFans",
   onlyfans_desc: "订阅制平台，以独家成人内容和创作者作品闻名。",
   theporndude_name: "The Porn Dude",
@@ -1064,7 +892,6 @@ const L = {
   supjav_desc: "免费在线观看日本成人影片，高清流媒体在线播放。",
   avdanyuwiki_name: "avdanyuwiki",
   avdanyuwiki_desc: "Avdanyuwiki是一个由社区维护的百科平台，专注于收录日本AV男女优的资料、作品年表与职业信息。平台提供结构化元数据、历史记录与标签交叉索引，适合爱好者与研究者使用。内容可能包括照片、别名、出道时间与所属片商等信息。",
-
 // WeChat Mini Programs
   miniprogramdemo_name: "小程序示例",
   miniprogramdemo_desc: "这是一个微信小程序示例，展示了基础功能如页面跳转、组件使用和接口调用，适合开发者学习和参考微信小程序开发框架。",
@@ -1204,13 +1031,10 @@ const L = {
   mymedicalvoucher_desc: "用于查看和管理个人医保凭证的官方小程序，支持相关服务办理。",
   nationalmedical_name: "国家医保",
   nationalmedical_desc: "国家医保官方小程序，提供政策查询、服务办理等功能。",
-
 // native
   llvmreleases_name: "llvm-releases",
   llvmreleases_desc: "本PWA商店作者亲自构建的 LLVM 发行版，支持超过 15 个跨平台编译目标，并集成对应系统根。涵盖 aarch64-windows-msvc、aarch64-apple-darwin、riscv64-linux-gnu、loongarch64-linux-gnu、aarch64-windows-gnu、aarch64-linux-android30 及 wasm 等工具链。适用于需要可复现、多平台构建的开发者，该原生封装器可简化编译器部署与跨平台集成流程。",
   windowsmsvcsysroot_name: "windows-msvc-sysroot",
   windowsmsvcsysroot_desc: "由本PWA商店作者维护的自定义MSVC系统根，提供符合 GCC/Clang 风格的标准化头文件与库，适用于 ${ARCH}-windows-msvc triplet。支持交叉编译与加拿大式编译流程，为偏好 MSVC 语义的开发者提供相较于 ${ARCH}-windows-gnu 的简洁替代方案。",
 };
-
 registerLocale("zhcn", L);
-

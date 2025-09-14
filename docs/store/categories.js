@@ -1556,6 +1556,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Floppy Bird",
+        nameKey: "floppybird_name",
+        descriptionKey: "floppybird_desc",
+        icon: "icons/wrappers/floppybird.webp",
+        url: "/wrappers/floppybird",
+        apptype: "wrapper"
+      },
+      {
         name: "MuMu Emulator (MuMu模拟器)",
         nameKey: "mumu_cn_name",
         descriptionKey: "mumu_cn_desc",
@@ -3315,6 +3323,13 @@ export const categories = [
         url: "#小程序://复旦校友卡/WkzRPCcrzcjCxTp",
         apptype: "wechatmini"
       },
+    ]
+  },
+  {
+    name: "Other PWA Stores",
+    nameKey: "otherpwastores_name",
+    app: [
+      
     ]
   },
   {
