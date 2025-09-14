@@ -176,6 +176,8 @@ const L = {
   yandex_desc: "Yandex 由 Arkady Volozh、Arkady Borkovsky 和 Ilya Segalovich 创立，总部位于俄罗斯莫斯科，是一家提供搜索、地图、云计算、流媒体、电商和网约车等多种服务的科技公司。Yandex 搜索在俄罗斯市场占据主导地位，支持文本、语音和图像查询，并拥有自主的搜索基础设施。虽然 Yandex 不使用必应的 API 获取搜索结果，但它通过 IndexNow 协议与必应合作，实现跨平台的 URL 快速索引。",
   duckduckgo_name: "DuckDuckGo",
   duckduckgo_desc: "DuckDuckGo 由 Gabriel Weinberg 创立，总部位于美国宾夕法尼亚州的 Paoli，是一个注重隐私的搜索引擎和浏览器平台，致力于屏蔽追踪器、保护用户数据，并避免信息茧房。它提供匿名搜索、无广告视频播放，以及通过 Privacy Pro 订阅服务提供的内置 VPN。支持 Windows、macOS、iOS 和 Android 等平台，DuckDuckGo 因其安全、无追踪的浏览体验而受到全球用户信赖。其网页搜索结果基于必应的搜索 API，同时严格遵守隐私保护原则。",
+  nomad_name: "Nomad",
+  nomad_desc: "全球 eSIM 服务商，提供覆盖 200+ 地区的高性价比移动数据计划，支持即时激活。",
   mail_name: "邮箱",
 
   qqmail_name: "QQ 邮箱",

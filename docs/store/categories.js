@@ -443,6 +443,13 @@ export const categories = [
         icon: "icons/duckduckgo.webp"
       },
       {
+        name: "Nomad",
+        url: "https://www.getnomad.app",
+        nameKey: "nomad_name",
+        descriptionKey: "nomad_desc",
+        icon: "icons/nomad.webp"
+      },
+      {
         name: "China Telecom",
         nameKey: "chinatelecom_name",
         descriptionKey: "chinatelecom_desc",
