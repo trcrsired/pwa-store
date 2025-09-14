@@ -132,7 +132,15 @@ export const categories = [
         descriptionKey: "notion_desc",
         icon: "icons/notion.webp",
         url: "https://www.notion.com"
-      }
+      },
+      {
+        name: "DingTalk (钉钉)",
+        nameKey: "dingtalk_name",
+        descriptionKey: "dingtalk_desc",
+        icon: "icons/wrappers/dingtalk.webp",
+        url: "/wrappers/dingtalk",
+        apptype: "wrapper"
+      },
     ]
   },
   {
