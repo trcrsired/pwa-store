@@ -445,9 +445,9 @@ export const categories = [
       {
         name: "Nomad",
         url: "https://www.getnomad.app",
-        nameKey: "nomad_name",
-        descriptionKey: "nomad_desc",
-        icon: "icons/nomad.webp"
+        nameKey: "getnomad_name",
+        descriptionKey: "getnomad_desc",
+        icon: "icons/getnomad.webp"
       },
       {
         name: "China Telecom",
