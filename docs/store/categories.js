@@ -3328,7 +3328,7 @@ export const categories = [
   {
     name: "Other PWA Stores",
     nameKey: "otherpwastores_name",
-    app: [
+    apps: [
       {
         name: "progressivewebapp.store",
         nameKey: "progressivewebappstore_name",
