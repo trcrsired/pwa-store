@@ -3329,7 +3329,34 @@ export const categories = [
     name: "Other PWA Stores",
     nameKey: "otherpwastores_name",
     app: [
-      
+      {
+        name: "progressivewebapp.store",
+        nameKey: "progressivewebappstore_name",
+        descriptionKey: "progressivewebappstore_desc",
+        icon: "icons/progressivewebappstore.webp",
+        url: "https://progressivewebapp.store"
+      },
+      {
+        name: "store.app",
+        nameKey: "storeapp_name",
+        descriptionKey: "storeapp_desc",
+        icon: "icons/storeapp.webp",
+        url: "https://store.app"
+      },
+      {
+        name: "PWA Marketplace",
+        nameKey: "pwamarketplace_name",
+        descriptionKey: "pwamarketplace_desc",
+        icon: "icons/pwamarketplace.webp",
+        url: "https://www.pwa.com"
+      },
+      {
+        name: "PWA Jisandi (PWA集散地)",
+        nameKey: "pwappnet_name",
+        descriptionKey: "pwappnet_desc",
+        icon: "icons/pwappnet.webp",
+        url: "https://www.pwapp.net"
+      }
     ]
   },
   {
