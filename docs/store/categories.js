@@ -1430,6 +1430,13 @@ export const categories = [
         icon: "icons/inc.webp",
         url: "https://www.inc.com"
       },
+      {
+        name: "IndieWire",
+        nameKey: "indiewire_name",
+        descriptionKey: "indiewire_desc",
+        icon: "icons/indiewire.webp",
+        url: "https://www.indiewire.com"
+      },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url: "/wrappers/nytimes", apptype: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url: "/wrappers/washingtonpost", apptype: "wrapper" },
       { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url: "/wrappers/reuters", apptype: "wrapper" },

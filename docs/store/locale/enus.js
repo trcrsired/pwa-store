@@ -419,6 +419,8 @@ const L = {
   scmp_desc: "A Hong Kong-based news outlet offering coverage of China, Asia, and global affairs, with reporting on politics, economy, technology, and culture.",
   inc_name: "Inc.",
   inc_desc: "Business news and insights from Inc. magazine, covering startups, leadership, and innovation.",
+  indiewire_name: "IndieWire",
+  indiewire_desc: "IndieWire delivers in-depth coverage of independent film, television, and streaming — from festival buzz to industry analysis and critical reviews.",
   hindustantimes_name: "Hindustan Times",
   hindustantimes_desc: "One of India's leading English-language newspapers, Hindustan Times delivers comprehensive coverage of national and international news, politics, business, sports, entertainment, and lifestyle. Owned by HT Media Ltd., it is known for its credible journalism and wide readership across major Indian cities.",
   nyt_name: "New York Times",
