@@ -34,6 +34,13 @@ export const categories = [
     nameKey: "alternatives_name",
     name: "Alternatives",
     apps: [
+      {
+        name: "QR Code Tools",
+        nameKey: "qrcodetools_name",
+        descriptionKey: "qrcodetools_desc",
+        icon: "icons/qrcodetools.webp",
+        url: "https://qrct.buhzzi.com"
+      }
     ]
   },
   {

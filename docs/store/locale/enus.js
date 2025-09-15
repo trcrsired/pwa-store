@@ -49,6 +49,8 @@ const L = {
   "squoosh_name": "Squoosh",
   "squoosh_desc": "Squoosh is a browser-based image compression tool that lets users resize, convert, and optimize images locally using advanced codecs. It supports real-time previews and customizable settings without uploading files to a server.",
   "alternatives_name": "Alternatives",
+  qrcodetools_name: "QR Code Tools",
+  qrcodetools_desc: "Generate, scan, and manage QR codes with ease. Ideal for developers, marketers, and everyday users.",
   "copilot_desc": "Conversational AI by Microsoft—Copilot helps you think, write, and explore with real-time web access and voice support.",
   "deepseek_desc": "Chinese-developed AI assistant with powerful reasoning and multilingual support—DeepSeek’s PWA offers free access to its flagship models.",
   "chatgpt_desc": "OpenAI’s conversational assistant—ChatGPT’s PWA delivers installable access to GPT models, memory, plugins, and voice features.",
