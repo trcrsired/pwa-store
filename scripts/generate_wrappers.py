@@ -136,6 +136,7 @@ WRAPPERS = [
   { "name": "Auction.com", "url": "https://www.auction.com", "keyify_name": "auctioncom" },
   { "name": "Airbnb", "url": "https://www.airbnb.com" },
   { "name": "Booking", "url": "https://www.booking.com" },
+  { "name": "驾考宝典", "url": "https://www.jiakaobaodian.com", "keyify_name": "jiakaobaodian" },
   { "name": "Ticketmaster", "url": "https://www.ticketmaster.com" },
   { "name": "Ctrip", "url": "https://www.ctrip.com" },
   { "name": "Tao Piao Piao", "url": "https://www.taopiaopiao.com", "keyify_name":"taopiaopiao" },

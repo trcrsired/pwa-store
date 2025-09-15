@@ -2594,8 +2594,16 @@ export const categories = [
         name: "Jiakaobaodian (驾考宝典)",
         nameKey: "jiakaobaodian_name",
         descriptionKey: "jiakaobaodian_desc",
-        icon: "icons/jiakaobaodian.webp",
+        icon: "icons/wrappers/jiakaobaodian.webp",
         url: "https://www.jiakaobaodian.com"
+      },
+      {
+        name: "Jiakaobaodian (驾考宝典)",
+        nameKey: "jiakaobaodian_name",
+        descriptionKey: "jiakaobaodian_desc",
+        icon: "icons/wrappers/jiakaobaodian.webp",
+        url: "/wrappers/jiakaobaodian",
+        apptype: "wrapper"
       },
     ]
   },

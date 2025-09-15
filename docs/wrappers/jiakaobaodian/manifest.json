@@ -1,0 +1,17 @@
+{
+  "name": "\u9a7e\u8003\u5b9d\u5178",
+  "short_name": "\u9a7e\u8003\u5b9d\u5178",
+  "start_url": "/wrappers/jiakaobaodian/?source=pwa",
+  "scope": "/wrappers/jiakaobaodian/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u9a7e\u8003\u5b9d\u5178",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/jiakaobaodian/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
