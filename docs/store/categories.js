@@ -304,6 +304,13 @@ export const categories = [
         descriptionKey: "v86_desc",
       },
       {
+        name: "What PWA Can Do Today",
+        namekey: "whatpwacandotoday_name",
+        icon: "icons/whatpwacandotoday.webp",
+        url: "https://whatpwacando.today",
+        descriptionKey: "whatpwacandotoday_desc"
+      },
+      {
         name: "Python",
         icon: "icons/python.webp",
         url: "https://www.python.org",
