@@ -40,7 +40,6 @@ WRAPPERS = [
   { "name": "Zoosk", "url": "https://zoosk.com" },
   { "name": "eHarmony", "url": "https://www.eharmony.com" },
   { "name": "Tieba", "url": "https://tieba.baidu.com" },
-  { "name": "v86", "url": "https://copy.sh/v86" },
   { "name": "Termux", "url": "https://termux.dev" },
   { "name": "Alibaba", "url": "https://www.alibaba.com" },
   { "name": "BigGo", "url": "https://biggo.com" },

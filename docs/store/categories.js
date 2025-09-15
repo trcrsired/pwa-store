@@ -298,6 +298,12 @@ export const categories = [
         url: "https://frontendmasters.com"
       },
       {
+        name: "v86",
+        icon: "icons/v86.webp",
+        url: "https://copy.sh/v86/",
+        descriptionKey: "v86_desc",
+      },
+      {
         name: "Python",
         icon: "icons/python.webp",
         url: "https://www.python.org",
@@ -330,13 +336,6 @@ export const categories = [
         icon: "icons/wrappers/godbolt.webp",
         url: "/wrappers/godbolt",
         descriptionKey: "godbolt_desc",
-        apptype: "wrapper"
-      },
-      {
-        name: "v86",
-        icon: "icons/wrappers/v86.webp",
-        url: "/wrappers/v86",
-        descriptionKey: "v86_desc",
         apptype: "wrapper"
       },
       {
@@ -1213,6 +1212,13 @@ export const categories = [
         descriptionKey: "readhub_desc",
         icon: "icons/readhub.webp",
         url: "https://readhub.cn"
+      },
+      {
+        name: "Frandroid",
+        nameKey: "frandroid_name",
+        descriptionKey: "frandroid_desc",
+        icon: "icons/frandroid.webp",
+        url: "https://www.frandroid.com"
       },
       {
         name: "Level1Techs",
