@@ -463,6 +463,8 @@ const L = {
   sohu_desc: "多元化媒体平台，提供社论报道、突发新闻和多媒体故事。",
   weibo_name: "微博Lite",
   weibo_desc: "微博Lite 是中国流行微博服务的轻量级移动入口，提供热门帖子、话题标签和明星动态的快速访问。",
+  guanchazhe_name: "观察者网",
+  guanchazhe_desc: "一家与中国官方立场高度一致的媒体平台，以民族主义宣传和大量误导性信息著称。内容常常体现官方叙事，缺乏独立编辑监督。",
   fashion_name: "时尚",
   instyle_name: "InStyle",
   instyle_desc: "InStyle是时尚、美妆和流行文化领域的权威媒体。创立于1994年，现隶属于Dotdash Meredith集团，专注于数字内容，提供风格灵感、明星潮流和专业建议。",

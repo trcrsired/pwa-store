@@ -31,6 +31,7 @@ WRAPPERS = [
   { "name": "MSN", "url": "https://www.msn.com" },
   { "name": "CCTV", "url": "https://tv.cctv.com" },
   { "name": "ifeng", "url": "https://www.ifeng.com" },
+  { "name": "观察者网", "url": "https://www.guancha.cn", "keyify_name": "guanchazhe" },
   { "name": "cppreference", "url": "https://en.cppreference.com" },
   { "name": "Compiler Explorer", "url": "https://godbolt.org", "keyify_name": "godbolt" },
   { "name": "linux.die", "url": "https://linux.die.net" },

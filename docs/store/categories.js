@@ -1472,13 +1472,20 @@ export const categories = [
         url: "/wrappers/scientificamerican",
         apptype: "wrapper"
       },
-      { name: "Sacramento Bee", nameKey: "sacramentobee_name", descriptionKey: "sacramentobee_desc", icon: "icons/wrappers/sacramentobee.webp", url: "/wrappers/sacramentobee", apptype: "wrapper"},
-      { name: "POLITICO", nameKey: "politico_name", descriptionKey: "politico_desc", icon: "icons/wrappers/politico.webp", url: "/wrappers/politico", apptype: "wrapper"},
+      { name: "Sacramento Bee", nameKey: "sacramentobee_name", descriptionKey: "sacramentobee_desc", icon: "icons/wrappers/sacramentobee.webp", url: "/wrappers/sacramentobee", apptype: "wrapper"},      { name: "POLITICO", nameKey: "politico_name", descriptionKey: "politico_desc", icon: "icons/wrappers/politico.webp", url: "/wrappers/politico", apptype: "wrapper"},
 
       { name: "ifeng (凤凰网)", nameKey: "ifeng_name", descriptionKey: "ifeng_desc", icon: "icons/wrappers/ifeng.webp", url: "/wrappers/ifeng", apptype: "wrapper" },
       { name: "Tencent News (腾讯新闻)", nameKey: "tencent_name", descriptionKey: "tencent_desc", icon: "icons/tencent_news.webp", url: "https://news.qq.com" },
       { name: "Baidu (百度)", nameKey: "baidu_name", descriptionKey: "baidu_desc", icon: "icons/baidu.webp", url: "https://www.baidu.com" },
       { name: "Sohu (搜狐)", nameKey: "sohu_name", descriptionKey: "sohu_desc", icon: "icons/sohu.webp", url: "https://www.sohu.com" },
+      {
+        name: "Guanchazhe (观察者网)",
+        nameKey: "guanchazhe_name",
+        descriptionKey: "guanchazhe_desc",
+        icon: "icons/wrappers/guanchazhe.webp",
+        url: "/wrappers/guanchazhe",
+        apptype: "wrapper"
+      },
       {
         name: "Lianyungang Daily",
         nameKey: "lygdaily_name",
