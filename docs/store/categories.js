@@ -1996,6 +1996,13 @@ export const categories = [
         url: "https://humanbenchmark.com"
       },
       {
+        name: "Online Mic Test",
+        nameKey: "onlinemictest_name",
+        descriptionKey: "onlinemictest_desc",
+        icon: "icons/onlinemictest.webp",
+        url: "https://www.onlinemictest.com"
+      },
+      {
         name: "BrowserBench",
         nameKey: "browserbench_name",
         descriptionKey: "browserbench_desc",

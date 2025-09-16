@@ -636,6 +636,8 @@ const L = {
   iplocationnet_desc: "A free tool for IP geolocation lookup, showing country, region, ISP, and privacy-related data from multiple providers.",
   humanbenchmark_name: "Human Benchmark",
   humanbenchmark_desc: "Human Benchmark is a browser-based platform offering cognitive performance tests and reaction-based games. Users can measure abilities such as memory, reflexes, typing speed, and pattern recognition through interactive challenges. Results are stored locally or via account login for progress tracking.",
+  onlinemictest_name: "Online Mic Test",
+  onlinemictest_desc: "Instantly test your microphone online with no downloads required. Useful for troubleshooting audio input on any device.",
   browserbench_name: "BrowserBench",
   browserbench_desc: "MotionMark is a benchmark designed to put browser graphics systems to the test.",
   clearwebstats_name: "ClearWebStats",

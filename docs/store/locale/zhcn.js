@@ -636,6 +636,8 @@ const L = {
   iplocationnet_desc: "一个免费的IP地理位置查询工具，可显示国家、地区、运营商及隐私相关信息，支持多数据源比对。",
   humanbenchmark_name: "Human Benchmark",
   humanbenchmark_desc: "Human Benchmark 是一个基于浏览器的平台，提供认知能力测试和反应类小游戏。用户可通过互动挑战测量记忆力、反应速度、打字速度和模式识别等能力。测试结果可本地保存或通过账户登录进行进度跟踪。",
+  onlinemictest_name: "Online Mic Test（在线麦克风测试）",
+  onlinemictest_desc: "无需下载，即可在线测试麦克风。适用于排查各类设备的音频输入问题。",
   browserbench_name: "BrowserBench",
   browserbench_desc: "MotionMark 是一款用于测试浏览器图形系统性能的基准测试工具。",
   clearwebstats_name: "ClearWebStats",
