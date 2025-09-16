@@ -13,8 +13,10 @@ self.addEventListener("install", (event) => {
         "/store/lang.js",
         "/store/style.css",
         "/store/how/en/",
-        "/store/how/zh/",
-        "/store/lang/zh.json",
+        "/store/how/zh-hans/",
+        "/store/how/zh-hant/",
+        "/store/lang/zh-hans.json",
+        "/store/lang/zh-hant.json",
       ]);
     })
   );
