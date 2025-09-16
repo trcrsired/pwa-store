@@ -165,6 +165,7 @@ WRAPPERS = [
   { "name": "Scientific American", "url": "https://www.scientificamerican.com" },
   { "name": "Canva", "url": "https://www.canva.com"},
   { "name": "Sacramento Bee", "url": "https://www.sacbee.com"},
+  { "name": "FreightWaves", "url": "https://www.freightwaves.com" },
   { "name": "POLITICO", "url": "https://www.politico.com"},
 
   { "name" : "HotCRP", "url": "https://hotcrp.com" },
