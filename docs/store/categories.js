@@ -1487,7 +1487,31 @@ export const categories = [
         apptype: "wrapper"
       },
       {
-        name: "Lianyungang Daily",
+        name: "Wuyouzhixiang (乌有之乡)",
+        nameKey: "wuyouzhixiang_name",
+        descriptionKey: "wuyouzhixiang_desc",
+        icon: "icons/wrappers/wuyouzhixiang.webp",
+        url: "/wrappers/wuyouzhixiang",
+        apptype: "wrapper"
+      },
+      {
+        name: "Honggehui (红歌会)",
+        nameKey: "honggehui_name",
+        descriptionKey: "honggehui_desc",
+        icon: "icons/wrappers/honggehui.webp",
+        url: "/wrappers/honggehui",
+        apptype: "wrapper"
+      },
+      {
+        name: "Xinyusi (新语丝)",
+        nameKey: "xinyusi_name",
+        descriptionKey: "xinyusi_desc",
+        icon: "icons/wrappers/xinyusi.webp",
+        url: "https://xinyusi.org",
+        apptype: "wrapper"
+      },
+      {
+        name: "Lianyungang Daily (连云港日报)",
         nameKey: "lygdaily_name",
         descriptionKey: "lygdaily_desc",
         icon: "icons/wechatmini/lygdaily.webp",

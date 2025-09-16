@@ -1,0 +1,17 @@
+{
+  "name": "\u7ea2\u6b4c\u4f1a",
+  "short_name": "\u7ea2\u6b4c\u4f1a",
+  "start_url": "/wrappers/honggehui/?source=pwa",
+  "scope": "/wrappers/honggehui/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u7ea2\u6b4c\u4f1a",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/honggehui/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
