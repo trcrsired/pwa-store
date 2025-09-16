@@ -451,6 +451,8 @@ const L = {
   fortune_desc: "一家全球商业媒体品牌，以财富500强和全球500强等排名著称，提供关于企业领导力、金融和经济趋势的深入报道。",
   scientificamerican_name: "科学美国人（Scientific American）",
   scientificamerican_desc: "一本科学与技术出版物，内容涵盖研究、创新、健康、环境及社会影响等主题。",
+  freightwaves_name: "FreightWaves",
+  freightwaves_desc: "领先的货运市场情报、物流新闻和供应链分析平台。FreightWaves 为运输行业专业人士和分析师提供数据驱动的洞察。",
   sacramentobee_name: "萨克拉门托蜜蜂报（Sacramento Bee）",
   sacramentobee_desc: "来自加州首府的突发新闻、政治动态与本地报道。",
   politico_name: "政客杂志（POLITICO）",

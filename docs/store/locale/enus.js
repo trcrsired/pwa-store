@@ -453,6 +453,8 @@ const L = {
   scientificamerican_desc: "A science and technology publication featuring articles on research, innovation, health, environment, and societal impact.",
   sacramentobee_name: "Sacramento Bee",
   sacramentobee_desc: "Breaking news, politics, and local coverage from California's capital.",
+  freightwaves_name: "FreightWaves",
+  freightwaves_desc: "A leading source for real-time freight market intelligence, logistics news, and supply chain analytics. FreightWaves delivers data-driven insights for transportation professionals and industry analysts.",
   politico_name: "POLITICO",
   politico_desc: "In-depth reporting on U.S. and global politics, policy, and power players.",
   ifeng_name: "ifeng (凤凰网)",
