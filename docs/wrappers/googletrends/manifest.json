@@ -1,0 +1,17 @@
+{
+  "name": "Google Trends",
+  "short_name": "Google Trends",
+  "start_url": "/wrappers/googletrends/?source=pwa",
+  "scope": "/wrappers/googletrends/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Google Trends",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/googletrends/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

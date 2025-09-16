@@ -84,6 +84,8 @@ const L = {
   "googlenews_name": "谷歌新闻",
   "googlenews_desc": "一个新闻聚合平台，从数千个来源整理头条新闻，并以个性化方式呈现。",
   "gmail_desc": "谷歌的邮件服务。",
+  "googletrends_name": "谷歌趋势",
+  "googletrends_desc": "按地区和主题探索实时搜索趋势。谷歌趋势展示全球关注的热点，从爆炸性新闻到新兴兴趣。",
   "officesuites_name": "办公套件",
   "wps_desc": "由中国金山办公软件公司开发的办公套件。",
   "wpscn_name": "WPS国内版",

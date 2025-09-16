@@ -84,6 +84,8 @@ const L = {
   "googlenews_name": "Google News",
   "googlenews_desc": "A news aggregator that organizes headlines from thousands of sources and presents them in a personalized feed.",
   "gmail_desc": "Google's Mail Services",
+  "googletrends_name": "Google Trends",
+  "googletrends_desc": "Explore real-time search trends across regions and topics. Google Trends reveals what the world is curious about, from viral news to emerging interests.",
   "officesuites_name": "Office Suites",
   "wps_desc": "WPS is an office suite developed by the Chinese company Kingsoft Office Software",
   "wpscn_name": "WPS (CN)",

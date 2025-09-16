@@ -105,6 +105,7 @@ export const categories = [
       { nameKey: "googlemaps_name", name: "Google Maps", icon: "icons/googlemaps.webp", url: "https://maps.google.com", descriptionKey: "googlemaps_desc" },
       { nameKey: "googlenews_name", name: "Google News", icon: "icons/googlenews.webp", url: "https://news.google.com", descriptionKey: "googlenews_desc" },
       { name: "Gmail", icon: "icons/wrappers/gmail.webp", url: "/wrappers/gmail", descriptionKey: "gmail_desc", apptype: "wrapper" },
+      { name: "Google Trends", icon: "icons/wrappers/googletrends.webp", url: "/wrappers/googletrends", descriptionKey: "googletrends_desc", apptype: "wrapper"},
     ]
   },
   {
