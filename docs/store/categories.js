@@ -45,7 +45,7 @@ export const categories = [
         name: "Base64.Guru",
         nameKey: "base64guru_name",
         descriptionKey: "base64guru_desc",
-        icon: "icons/base64guru.webp",
+        icon: "icons/wrappers/base64guru.webp",
         url: "/wrappers/base64guru",
         apptype: "wrapper"
       },
