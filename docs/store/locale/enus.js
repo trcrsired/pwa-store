@@ -325,6 +325,8 @@ const L = {
   readhub_desc: "A Chinese tech news aggregator offering concise updates on startups, AI, blockchain, and more",
   frandroid_name: "Frandroid",
   frandroid_desc: "Stay ahead with Frandroid — your go-to source for Android news, smartphone reviews, and tech insights from the French-speaking world.",
+  lemmy_name: "Lemmy",
+  lemmy_desc: "A federated link aggregator and discussion platform built on ActivityPub. Lemmy offers decentralized communities, Reddit-style threads, and open-source moderation tools.",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community.",
   juejin_name: "Juejin",

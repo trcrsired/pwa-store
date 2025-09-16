@@ -1244,6 +1244,13 @@ export const categories = [
         url: "https://www.frandroid.com"
       },
       {
+        name: "Lemmy",
+        nameKey: "lemmy_name",
+        descriptionKey: "lemmy_desc",
+        icon: "icons/lemmy.webp",
+        url: "https://lemmy.ml"
+      },
+      {
         name: "Level1Techs",
         nameKey: "level1techs_name",
         descriptionKey: "level1techs_desc",

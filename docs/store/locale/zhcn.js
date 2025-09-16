@@ -325,6 +325,8 @@ const L = {
   readhub_desc: "中国科技新闻聚合平台，快速呈现创业、人工智能、区块链等领域的简要动态。",
   frandroid_name: "Frandroid",
   frandroid_desc: "Frandroid 是法语科技媒体，专注于安卓新闻、智能手机评测和最新科技趋势，助你掌握前沿资讯。",
+  lemmy_name: "Lemmy",
+  lemmy_desc: "一个基于 ActivityPub 协议的联邦式链接聚合与讨论平台。Lemmy 提供去中心化社区、类 Reddit 的讨论串，以及开源的内容管理工具。",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO 是面向中文用户的 Linux 门户网站，提供新闻、教程、发行版信息与开源开发资源，服务于技术爱好者与专业人士。",
   juejin_name: "掘金",
