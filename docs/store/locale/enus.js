@@ -51,6 +51,8 @@ const L = {
   "alternatives_name": "Alternatives",
   qrcodetools_name: "QR Code Tools",
   qrcodetools_desc: "Generate, scan, and manage QR codes with ease. Ideal for developers, marketers, and everyday users.",
+  base64guru_name: "Base64.Guru",
+  base64guru_desc: "A comprehensive reference site for Base64 encoding, decoding, and data conversion. Includes tutorials, tools, and technical explanations for developers and analysts.",
   "copilot_desc": "Conversational AI by Microsoft—Copilot helps you think, write, and explore with real-time web access and voice support.",
   "deepseek_desc": "Chinese-developed AI assistant with powerful reasoning and multilingual support—DeepSeek’s PWA offers free access to its flagship models.",
   "chatgpt_desc": "OpenAI’s conversational assistant—ChatGPT’s PWA delivers installable access to GPT models, memory, plugins, and voice features.",

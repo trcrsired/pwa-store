@@ -1,0 +1,17 @@
+{
+  "name": "Base64.Guru",
+  "short_name": "Base64.Guru",
+  "start_url": "/wrappers/base64guru/?source=pwa",
+  "scope": "/wrappers/base64guru/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Base64.Guru",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/base64guru/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

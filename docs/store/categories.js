@@ -40,7 +40,15 @@ export const categories = [
         descriptionKey: "qrcodetools_desc",
         icon: "icons/qrcodetools.webp",
         url: "https://qrct.buhzzi.com"
-      }
+      },
+      {
+        name: "Base64.Guru",
+        nameKey: "base64guru_name",
+        descriptionKey: "base64guru_desc",
+        icon: "icons/base64guru.webp",
+        url: "/wrappers/base64guru",
+        apptype: "wrapper"
+      },
     ]
   },
   {

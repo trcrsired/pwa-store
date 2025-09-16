@@ -15,6 +15,7 @@ ICONS_DIR = ROOT / "docs" / "store" / "icons" / "wrappers"
 WRAPPER_OUTPUT = ROOT / "docs" / "wrappers"
 
 WRAPPERS = [
+  { "name": "Base64.Guru", "url": "https://base64.guru", "keyify_name": "base64guru" },
   { "name": "CVS", "url": "https://www.cvs.com" },
   { "name": "Whirlpool", "url": "https://www.whirlpool.com" },
   { "name": "Android Authority", "url": "https://www.androidauthority.com", "keyify_name": "androidauthority"},
