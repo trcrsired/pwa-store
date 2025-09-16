@@ -936,6 +936,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Hurun Report (胡润百富)",
+        nameKey: "hurun_name",
+        descriptionKey: "hurun_desc",
+        icon: "icons/wrappers/hurun.webp",
+        url: "/wrappers/hurun",
+        apptype: "wrapper"
+      },
+      {
         name: "Tencent Wealth Management (腾讯理财通)",
         nameKey: "tencentwm_name",
         descriptionKey: "tencentwm_desc",

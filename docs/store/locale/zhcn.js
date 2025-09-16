@@ -276,6 +276,8 @@ const L = {
   marketwatch_desc: "MarketWatch 是由道琼斯公司运营的金融新闻与数据网站，提供实时市场报道、投资评论及个人理财内容。",
   bankofamerica_name: "美国银行",
   bankofamerica_desc: "美国主要银行之一，提供个人和企业金融服务。",
+  hurun_name: "胡润百富",
+  hurun_desc: "以中国富豪榜闻名的财富与商业资讯平台。胡润百富发布关于企业家、奢侈品趋势和慈善事业的排行榜、调研与洞察，覆盖中国及全球市场。",
   billing_key: "账单",
   onlinestategrid_name: "网上国网",
   onlinestategrid_desc: "国家电网官方小程序，提供电费缴纳、账户服务及用电信息查询功能。",

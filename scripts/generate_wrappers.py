@@ -95,6 +95,7 @@ WRAPPERS = [
   { "name": "Bjarne Stroustrup", "url": "https://www.stroustrup.com", "keyify_name": "bjarnestroustrup" },
   { "name": "GCC MCF", "url": "https://gcc-mcf.lhmouse.com", "keyify_name": "gccmcf", "icon": "lhmouse.webp" },
   { "name": "Bank of America", "url": "https://www.bankofamerica.com", "keyify_name": "bankofamerica" },
+  { "name": "胡润百富", "url": "https://www.hurun.net", "keyify_name": "hurun" },
   { "name": "Free Software Foundations", "url": "https://www.fsf.org", "keyify_name": "fsf" },
   { "name": "RA2: Chrono Divide", "url": "https://game.chronodivide.com", "keyify_name": "chronodivide" },
   { "name": "Floppy Bird", "url": "https://nebezb.com/floppybird" },

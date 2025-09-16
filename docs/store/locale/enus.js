@@ -276,6 +276,8 @@ const L = {
   marketwatch_desc: "MarketWatch is a financial news and data site operated by Dow Jones & Company. It offers real-time market coverage, investment commentary, and personal finance insights.",
   bankofamerica_name: "Bank of America",
   bankofamerica_desc: "Major US bank.",
+  hurun_name: "Hurun Report (胡润百富)",
+  hurun_desc: "A wealth and business intelligence platform best known for its China Rich List. Hurun Report publishes rankings, research, and insights on entrepreneurs, luxury trends, and philanthropy in China and globally.",
   billing_key: "Billing",
   onlinestategrid_name: "Online State Grid (网上国网)",
   onlinestategrid_desc: "Official mini app from State Grid Corporation of China, offering electricity bill payments, account services, and usage tracking.",

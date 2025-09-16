@@ -1,0 +1,17 @@
+{
+  "name": "\u80e1\u6da6\u767e\u5bcc",
+  "short_name": "\u80e1\u6da6\u767e\u5bcc",
+  "start_url": "/wrappers/hurun/?source=pwa",
+  "scope": "/wrappers/hurun/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u80e1\u6da6\u767e\u5bcc",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/hurun/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
