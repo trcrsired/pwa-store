@@ -1507,7 +1507,7 @@ export const categories = [
         nameKey: "xinyusi_name",
         descriptionKey: "xinyusi_desc",
         icon: "icons/wrappers/xinyusi.webp",
-        url: "https://xinyusi.org",
+        url: "/wrappers/xinyusi",
         apptype: "wrapper"
       },
       {

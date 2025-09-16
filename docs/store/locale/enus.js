@@ -466,7 +466,7 @@ const L = {
   guanchazhe_name: "Guanchazhe (观察者网)",
   guanchazhe_desc: "A Chinese state-aligned outlet known for nationalist propaganda and frequent dissemination of misleading or false information. Content often reflects official narratives and lacks independent editorial oversight.",
   wuyouzhixiang_name: "Wuyouzhixiang (乌有之乡)",
-  wuyouzhixiang_desc: "A Chinese commentary platform focused on socialist thought, historical analysis, and political critique. 乌有之乡 features essays, debates, and archival materials exploring Marxist theory, Maoist legacy, and contemporary issues from a leftist perspective.",
+  wuyouzhixiang_desc: "A Chinese commentary platform focused on socialist thought, historical analysis, and political critique. Wuyouzhixiang features essays, debates, and archival materials exploring Marxist theory, Maoist legacy, and contemporary issues from a leftist perspective.",
   honggehui_name: "Honggehui (红歌会)",
   honggehui_desc: "A Chinese platform dedicated to promoting red culture, revolutionary songs, and leftist thought. Honggehui curates classic socialist media, political commentary, and historical retrospectives to preserve collective memory and revolutionary spirit.",
   xinyusi_name: "Xinyusi (新语丝)",
