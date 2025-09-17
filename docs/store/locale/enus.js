@@ -227,6 +227,8 @@ const L = {
   locals_desc: "Join independent creators and communities on Locals — a platform for exclusive content, direct support, and meaningful engagement.",
   substack_name: "Substack",
   substack_desc: "Publish newsletters, grow your audience, and monetize your writing with Substack — a platform for independent publishing and direct reader support.",
+  flickr_name: "Flickr",
+  flickr_desc: "Photo-sharing platform for hosting, organizing, and discovering images and videos. Popular among photographers and hobbyists for its community features and licensing options.",
   soul_name: "Soul",
   soul_desc: "A social networking app that connects users through shared interests and emotional resonance, fostering authentic relationships beyond appearances.",
   zoosk_name: "Zoosk",

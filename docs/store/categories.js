@@ -738,6 +738,13 @@ export const categories = [
         url: "https://substack.com"
       },
       {
+        name: "Flickr",
+        nameKey: "flickr_name",
+        descriptionKey: "flickr_desc",
+        icon: "icons/flickr.webp",
+        url: "https://www.flickr.com"
+      },
+      {
         name: "Soul",
         nameKey: "soul_name",
         descriptionKey: "soul_desc",
