@@ -153,7 +153,7 @@ export const categories = [
         name: "Draw.io",
         nameKey: "drawio_name",
         descriptionKey: "drawio_desc",
-        icon: "icon/drawio.webp",
+        icon: "icons/drawio.webp",
         url: "https://app.diagrams.net"
       },
       {
