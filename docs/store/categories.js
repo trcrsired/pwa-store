@@ -918,6 +918,13 @@ export const categories = [
         url: "https://messari.io"
       },
       {
+        name: "CoinMarketCap",
+        nameKey: "coinmarketcap_name",
+        descriptionKey: "coinmarketcap_desc",
+        icon: "icons/coinmarketcap.webp",
+        url: "https://coinmarketcap.com"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",

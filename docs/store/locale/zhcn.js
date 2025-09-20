@@ -272,6 +272,8 @@ const L = {
   investorsbusinessdaily_desc: "《投资者商业日报》（IBD）是由William J. O’Neil于1984年创立的美国财经新闻与研究平台，现隶属于新闻集团旗下的道琼斯公司。平台提供独家股票列表、市场分析及基于IBD投资方法的工具，服务于个人投资者与专业人士。",
   messari_name: "Messari",
   messari_desc: "Messari 是领先的加密数据与研究平台，提供实时市场洞察、资产概况和深入分析。投资者、分析师和开发者信赖 Messari，以清晰和信心驾驭数字资产生态。",
+  coinmarketcap_name: "CoinMarketCap",
+  coinmarketcap_desc: "CoinMarketCap 是全球最受信赖的加密货币市场数据平台，追踪数千种数字资产的价格、交易量、市值和趋势。是交易者、分析师和加密爱好者的首选工具。",
   paypal_name: "贝宝",
   paypal_desc: "全球数字支付平台，支持安全的在线交易、转账、订阅和电商结算服务。",
   moomoo_name: "富途牛牛",
