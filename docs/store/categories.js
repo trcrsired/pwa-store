@@ -150,6 +150,13 @@ export const categories = [
         url: "https://www.notion.com"
       },
       {
+        name: "Draw.io",
+        nameKey: "drawio_name",
+        descriptionKey: "drawio_desc",
+        icon: "icon/drawio.webp",
+        url: "https://app.diagrams.net"
+      },
+      {
         name: "DingTalk (钉钉)",
         nameKey: "dingtalk_name",
         descriptionKey: "dingtalk_desc",

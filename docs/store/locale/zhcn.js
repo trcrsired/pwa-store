@@ -96,6 +96,8 @@ const L = {
   "simplenote_desc": "Simplenote 是一款跨平台的笔记应用，支持 Markdown 语法和云端实时同步。界面简洁，用户可创建、编辑和管理纯文本笔记，并通过标签进行分类。支持协作功能，可通过共享笔记实现多人编辑，适用于多设备间的内容同步与轻量级记录。",
   notion_name: "Notion",
   notion_desc: "一个集笔记、任务、知识库和数据库于一体的多功能工作空间。Notion 帮助个人和团队在一个平台上进行写作、规划和组织，支持富文本编辑、协同工作流和可定制模板，适用于办公效率、知识管理和项目跟踪。",
+  drawio_name: "Draw.io",
+  drawio_desc: "Draw.io（diagrams.net）是一款免费的浏览器图表工具，可用于创建流程图、网络图、UML 模型等。支持云端存储与实时协作，适合团队与个人使用。",
   dingtalk_name: "钉钉",
   dingtalk_desc: "阿里巴巴推出的企业沟通与协作平台，集成消息、会议和工作流程工具。",
   "programming_name": "编程",
