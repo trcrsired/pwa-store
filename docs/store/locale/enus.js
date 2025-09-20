@@ -98,6 +98,8 @@ const L = {
   notion_desc: "An all-in-one workspace for notes, tasks, wikis, and databases. Notion helps individuals and teams write, plan, and organize everything in one place. It supports rich text editing, collaborative workflows, and customizable templates, making it ideal for productivity, knowledge management, and project tracking.",
   drawio_name: "Draw.io",
   drawio_desc: "Draw.io (diagrams.net) is a free, browser-based diagramming tool for creating flowcharts, network diagrams, UML models, and more. It integrates with cloud storage and supports real-time collaboration for teams and individuals.",
+  excalidraw_name: "Excalidraw",
+  excalidraw_desc: "Excalidraw is a virtual whiteboard for sketching diagrams with a hand-drawn feel. It’s fast, collaborative, and privacy-first—ideal for brainstorming, teaching, and visual thinking.",
   dingtalk_name: "DingTalk",
   dingtalk_desc: "Enterprise communication and collaboration platform by Alibaba, integrating messaging, meetings, and workflow tools.",
   "programming_name": "Programming",

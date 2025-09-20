@@ -157,6 +157,13 @@ export const categories = [
         url: "https://app.diagrams.net"
       },
       {
+        name: "Excalidraw",
+        nameKey: "excalidraw_name",
+        descriptionKey: "excalidraw_desc",
+        icon: "icons/excalidraw.webp",
+        url: "https://excalidraw.com"
+      },
+      {
         name: "DingTalk (钉钉)",
         nameKey: "dingtalk_name",
         descriptionKey: "dingtalk_desc",

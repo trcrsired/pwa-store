@@ -98,6 +98,8 @@ const L = {
   notion_desc: "一个集笔记、任务、知识库和数据库于一体的多功能工作空间。Notion 帮助个人和团队在一个平台上进行写作、规划和组织，支持富文本编辑、协同工作流和可定制模板，适用于办公效率、知识管理和项目跟踪。",
   drawio_name: "Draw.io",
   drawio_desc: "Draw.io（diagrams.net）是一款免费的浏览器图表工具，可用于创建流程图、网络图、UML 模型等。支持云端存储与实时协作，适合团队与个人使用。",
+  excalidraw_name: "Excalidraw",
+  excalidraw_desc: "Excalidraw 是一款具有手绘风格的虚拟白板，适合头脑风暴、教学和可视化思维。支持快速协作，注重隐私保护。",
   dingtalk_name: "钉钉",
   dingtalk_desc: "阿里巴巴推出的企业沟通与协作平台，集成消息、会议和工作流程工具。",
   "programming_name": "编程",
