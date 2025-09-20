@@ -6,10 +6,13 @@ async function localizePage() {
 */
 
   const languageMap = {
-    'zh': 'zh',
-    'zh-cn': 'zh',
-    'zh-hans': 'zh',
-    'zh-tw': 'zh'
+    'zh': 'zh-hans',
+    'zh-hans': 'zh-hans',
+    'zh-cn': 'zh-hans',
+    'zh-hant': 'zh-hant',
+    'zh-tw': 'zh-hant',
+    'zh-hk': 'zh-hant',
+    'zh-mo': 'zh-hant',
   };
 
   const langKey = languageMap[browserLang] || languageMap[browserLang.split('-')[0]];

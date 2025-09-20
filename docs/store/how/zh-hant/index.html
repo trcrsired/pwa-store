@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>如何安裝漸進式網頁應用程式</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+    /* 🌙 Dark mode support */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+        color: #e0e0e0;
+      }
+
+      h1, h2 {
+        color: #ffffff;
+      }
+
+      code {
+        background: #1e1e1e;
+        color: #ffcc99;
+      }
+
+      a {
+        color: #80cbc4;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>📦 如何安裝漸進式網頁應用程式（PWA）</h1>
+  <p>PWA 應用可直接以瀏覽器安裝、提供接近原生應用之體驗。以下爲各主流平臺之安裝方法：</p>
+
+  <h2>🧭 Chrome（Windows・macOS・Linux・Android）</h2>
+  <ul>
+    <li>訪問 PWA 網站。</li>
+    <li>于地址欄中査找 <strong>安裝圖示</strong>（一帶箭頭之顯示器）。</li>
+    <li>點擊 <strong>安裝</strong>、即可添加至桌面或主熒幕。</li>
+    <li>于 Android 上、点击 <strong>三點菜單</strong> → <strong>安裝應用程式</strong>。</li>
+  </ul>
+
+  <h2>🦊 Firefox</h2>
+  <ul>
+    <li>Firefox 當前不支持原生 PWA 安裝。</li>
+    <li>可使用 <a href="https://github.com/filips123/PWAsForFirefox">PWAsForFirefox</a> 插件插件實現桌面支持。</li>
+  </ul>
+
+  <h2>🧑‍💻 Edge（Windows・macOS・Android）</h2>
+  <ul>
+    <li>訪問 PWA 網站。</li>
+    <li>點選地址欄中之 <strong>安裝圖示</strong>、或進入 <strong>設定 → 應用程式 → 將此網站安装爲應用程式</strong>。</li>
+    <li>Android 上之安裝方式與 Chrome 相同。</li>
+  </ul>
+
+  <h2>🍎 Safari（iOS・macOS）</h2>
+  <ul>
+    <li>在 iOS 上：點選 <strong>分享</strong> 圖示 → <strong>添加至主熒幕</strong>。</li>
+    <li>macOS 上：Safari 不支援原生 PWA 安裝。</li>
+    <li>建议使用 Chrome 或 Edge 瀏覽器以獲得完整支援。</li>
+  </ul>
+
+  <h2>📱 Android（所有瀏覽器）</h2>
+  <ul>
+    <li>大多數現代瀏覽器均支援 PWA 安裝。</li>
+    <li>于瀏覽器菜單中査找 <strong>安裝</strong> 或 <strong>添加至主熒幕</strong> 選項。</li>
+  </ul>
+
+  <h2>🧩 技术提示</h2>
+  <ul>
+    <li>PWA 必須通過 HTTPS 提供服務、並包含有效的 <code>manifest.json</code> 文件。</li>
+    <li>可通過 Chrome DevTools → <strong>Application</strong> 標籤頁測試可安裝性。</li>
+    <li>安裝後之 PWA 可像原生應用一樣從操作系統中啓動。</li>
+  </ul>
+
+  <p>想瞭解更多？請訪問 <a href="https://web.dev/progressive-web-apps/">Google 之 PWA 指南</a>。</p>
+
+  <h2>💚 安裝微信小程序</h2>
+  <ul>
+    <li>于微信中開啓你希望使用之小程序。</li>
+    <li>點選右上角之<strong>三點菜單</strong>。</li>
+    <li>選擇<strong>添加至主熒幕</strong>或者<strong>添加至桌面</strong>。</li>
+    <li>如果未有该選項或添加失敗、請檢査微信設定中是否啓用了<strong>桌面捷徑權限</strong>。</li>
+    <li>成功添加後、小程序會像PWA一樣顯示于你之設備主熒幕上、方便快速訪問。</li>
+  </ul>
+</body>
+</html>

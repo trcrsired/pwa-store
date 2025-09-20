@@ -1,0 +1,17 @@
+{
+  "site_title": "PWA商店",
+  "site_subtitle": "安裝並探索漸進式網頁應用",
+  "how_link": "如何安装渐进式网络应用",
+  "how_href": "how/zh-hant/",
+  "footer_browser_recommendation": "于安卓設備上、我們推薦使用微軟 Edge 瀏覽器以獲得最佳體驗。由于兼容性限制、不建議使用 Firefox。我們強烈不推薦使用限制用戶自由與應用靈活性之封閉系統、例如 iOS・ChromeOS・Windows S 模式以及一切華爲設備。",
+  "footer_extension_tip": "如果您正在使用安卓瀏覽器、建議安裝 NoForceDownload 插件程式。許多網站會強制提示用戶下載APP、而此插件可有效屏蔽最具干擾性之提示。",
+  "footer_link_store": "于微軟商店中獲取 NoForceDownload",
+  "footer_link_crx": "下載 NoForceDownload.crx",
+  "footer_link_repo": "查看插件專案倉庫",
+  "footer_repo_link": "PWA商店 GitHub 項目",
+  "footer_license": "採用 GPL-3.0 許可",
+  "footer_contribution": "歡迎貢獻與支持 💖",
+  "search_placeholder": "搜索應用...",
+  "filter_wechat": "微信小程序",
+  "filter_native": "原生"
+}
