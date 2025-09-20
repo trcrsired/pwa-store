@@ -911,6 +911,13 @@ export const categories = [
         url: "https://markets.businessinsider.com",
       },
       {
+        name: "Messari",
+        nameKey: "messari_name",
+        descriptionKey: "messari_desc",
+        icon: "icons/messari.webp",
+        url: "https://messari.io"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",

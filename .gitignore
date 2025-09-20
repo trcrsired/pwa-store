@@ -1,3 +1,4 @@
 .icons/*
 .scripts/.input/*
 .scripts/.output/*
+*.DS_Store

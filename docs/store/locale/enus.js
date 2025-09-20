@@ -272,6 +272,8 @@ const L = {
   investorsbusinessdaily_desc: "Investor’s Business Daily (IBD) is a U.S.-based financial news and research platform founded in 1984 by William J. O’Neil. Now part of News Corp via Dow Jones, it offers exclusive stock lists, market analysis, and investment tools based on the IBD Methodology, serving individual investors and professionals.",
   paypal_name: "PayPal",
   paypal_desc: "PayPal is a global digital payment platform that enables secure online transactions, money transfers, and merchant services for individuals and businesses. It supports personal payments, subscriptions, and e-commerce checkout across millions of sites.",
+  "messari_name": "Messari",
+  "messari_desc": "Messari is a leading crypto data and research platform offering real-time market insights, asset profiles, and in-depth analytics. Trusted by investors, analysts, and builders to navigate the digital asset ecosystem with clarity and confidence.",
   moomoo_name: "Moomoo",
   moomoo_desc: "Trade U.S., Hong Kong, and China stocks with real-time data and advanced tools. Analyze markets, manage portfolios, and access financial news.",
   thestreet_name: "TheStreet",
