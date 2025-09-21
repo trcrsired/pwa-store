@@ -1606,6 +1606,7 @@ export const categories = [
         name: "Sling", nameKey: "sling_name", descriptionKey: "sling_Desc",
         icon: "icons/sling.webp", url: "https://www.sling.com"
       },
+      { name: "Bilinovel", nameKey: "bilinovel_name", descriptionKey: "bilinovel_desc", icon: "icons/bilinovel.webp", url: "https://www.bilinovel.com/" },
       { name: "Dubok (独播库)", nameKey: "dubok_name", descriptionKey: "dubok_desc", icon: "icons/dubok.webp", url: "https://www.dubok.tv" },
       { name: "Youku (优酷)", nameKey: "youku_name", descriptionKey: "youku_desc", icon: "icons/youku.webp", url: "https://www.youku.com" },
       { name: "Lightnovel Kingdom (轻之国度)", nameKey: "lightnovel_name", descriptionKey: "lightnovel_desc", icon: "icons/wrappers/lightnovelkingdom.webp", url: "/wrappers/lightnovelkingdom", apptype: "wrapper" },
