@@ -51,6 +51,8 @@ const L = {
   "alternatives_name": "替代品",
   qrcodetools_name: "二维码工具",
   qrcodetools_desc: "轻松生成、扫描和管理二维码，适用于开发者、市场人员和日常用户。",
+  typhoonsltzj_name: "实时台风消息",
+  typhoonsltzj_desc: "由浙江省水利厅提供，本系统发布最新台风数据，包括实时路径、预报信息和历史记录。",
   base64guru_name: "Base64.Guru",
   base64guru_desc: "一个全面的 Base64 编码、解码与数据转换参考网站，提供教程、工具和技术解析，适合开发者与数据分析人员使用。",
   "copilot_desc": "微软推出的对话式 AI——Copilot 支持实时联网、语音交互，帮助你思考、写作和探索。",

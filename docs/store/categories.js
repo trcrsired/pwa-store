@@ -42,6 +42,13 @@ export const categories = [
         url: "https://qrct.buhzzi.com"
       },
       {
+        name: "Real-Time Typhoon Information (实时台风消息)",
+        nameKey: "typhoonsltzj_name",
+        descriptionKey: "typhoonsltzj_desc",
+        icon: "icons/typhoonsltzj.webp",
+        url: "https://typhoon.slt.zj.gov.cn"
+      },
+      {
         name: "Base64.Guru",
         nameKey: "base64guru_name",
         descriptionKey: "base64guru_desc",
