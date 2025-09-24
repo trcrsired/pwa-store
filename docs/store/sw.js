@@ -1,4 +1,4 @@
-const CACHE_NAME = "pwa-store-cache-v30";
+const CACHE_NAME = "pwa-store-cache-v31";
 const IMAGE_CACHE = "pwa-store-images-v1";
 
 self.addEventListener("install", (event) => {
