@@ -42,6 +42,13 @@ export const categories = [
         url: "https://qrct.buhzzi.com"
       },
       {
+        name: "Readset",
+        nameKey: "readset_name",
+        descriptionKey: "readset_desc",
+        icon: "icons/readset.webp",
+        url: "https://web.readest.com"
+      },
+      {
         name: "Real-Time Typhoon Information (实时台风消息)",
         nameKey: "typhoonsltzj_name",
         descriptionKey: "typhoonsltzj_desc",

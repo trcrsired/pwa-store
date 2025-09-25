@@ -51,6 +51,8 @@ const L = {
   "alternatives_name": "替代品",
   qrcodetools_name: "二维码工具",
   qrcodetools_desc: "轻松生成、扫描和管理二维码，适用于开发者、市场人员和日常用户。",
+  readset_name: "Readset",
+  readset_desc: "Readset 是一款现代化的自由软件电子书阅读器，采用 AGPL 许可证，专为沉浸式阅读体验而设计。它可在 macOS、Windows、Linux、Android、iOS 和 Web 平台之间同步您的阅读进度、笔记、高亮和书库，跨设备提供无缝且尊重隐私的使用体验。",
   typhoonsltzj_name: "实时台风消息",
   typhoonsltzj_desc: "由浙江省水利厅提供，本系统发布最新台风数据，包括实时路径、预报信息和历史记录。",
   base64guru_name: "Base64.Guru",

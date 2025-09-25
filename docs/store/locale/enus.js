@@ -51,6 +51,8 @@ const L = {
   "alternatives_name": "Alternatives",
   qrcodetools_name: "QR Code Tools",
   qrcodetools_desc: "Generate, scan, and manage QR codes with ease. Ideal for developers, marketers, and everyday users.",
+  readset_name: "Readset",
+  readset_desc: "Readset is a modern, AGPL-licensed free software ebook reader built for immersive reading. It syncs your progress, notes, highlights, and library across macOS, Windows, Linux, Android, iOS, and the Web—delivering a seamless, privacy-respecting experience across platforms.",
   typhoonsltzj_name: "Real-Time Typhoon Information (实时台风消息)",
   typhoonsltzj_desc: "Provided by the Zhejiang Provincial Department of Water Resources, this system delivers up-to-date typhoon data including live tracking, forecasts, and historical paths.",
   base64guru_name: "Base64.Guru",
