@@ -794,6 +794,8 @@ const L = {
   jiakaobaodian_name: "Jiakaobaodian (驾考宝典)",
   jiakaobaodian_desc: "China’s leading driving test platform—offers up-to-date question banks, multilingual exam prep, and full-process guidance for learners. On Microsoft Edge for Android, please log in first via the browser. The option to install as a Progressive Web App (PWA) becomes available after authentication.",
   tickets_name: "Tickets",
+  fandango_name: "Fandango",
+  fandango_desc: "Fandango is your go-to platform for movie tickets, showtimes, trailers, and reviews. Discover what's playing near you, reserve seats in advance, and explore the latest in cinema—all in one place.",
   ctrip_name: "Ctrip (携程)",
   ctrip_desc: "Book flights, hotels, trains, and vacation packages across China and worldwide. Compare prices, check availability, and manage your travel plans easily.",
   taopiaopiao_name: "Tao Piao Piao (淘票票)",

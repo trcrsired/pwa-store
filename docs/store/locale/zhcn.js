@@ -794,6 +794,8 @@ const L = {
   jiakaobaodian_name: "驾考宝典",
   jiakaobaodian_desc: "中国领先的驾考平台，提供最新题库、多语言考试准备与全流程学习指导。在安卓版微软Edge浏览器中，请先登录账户，登录后可安装为 PWA 应用。",
   tickets_name: "票",
+  fandango_name: "Fandango",
+  fandango_desc: "Fandango 是领先的电影票务与娱乐平台。您可以浏览放映时间、观看预告片、阅读影评，并提前预订美国各地影院的座位。无论是计划外出观影，还是追看最新大片，Fandango 都能让您的观影体验更加轻松便捷。",
   ctrip_name: "携程",
   ctrip_desc: "预订国内及全球的机票、酒店、火车票和度假套餐。支持比价、查找空位并轻松管理行程。",
   taopiaopiao_name: "淘票票",

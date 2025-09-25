@@ -2745,6 +2745,13 @@ export const categories = [
     nameKey: "tickets_name",
     apps: [
       {
+        name: "Fandango",
+        nameKey: "fandango_name",
+        descriptionKey: "fandango_desc",
+        icon: "icons/fandango.webp",
+        url: "https://www.fandango.com"
+      },
+      {
         name: "Booking",
         nameKey: "booking_name",
         descriptionKey: "booking_desc",
