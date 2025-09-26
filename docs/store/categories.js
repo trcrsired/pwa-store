@@ -348,6 +348,13 @@ export const categories = [
         descriptionKey: "v86_desc",
       },
       {
+        name: "Meson Build",
+        nameKey: "meson_name",
+        icon: "icons/wrappers/meson.webp",
+        url: "https://mesonbuild.com",
+        descriptionKey: "meson_desc"
+      },
+      {
         name: "What PWA Can Do Today",
         namekey: "whatpwacandotoday_name",
         icon: "icons/whatpwacandotoday.webp",

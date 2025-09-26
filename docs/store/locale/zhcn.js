@@ -151,6 +151,8 @@ const L = {
   frontendmasters_name: "前端大师 （Frontend Masters）",
   frontendmasters_desc: "由行业专家授课的高质量 Web 开发课程，涵盖 JavaScript、CSS、React 等热门技术。",
   v86_desc: "基于 WebAssembly 的虚拟 x86 模拟器，可在浏览器中运行 Windows 95 和 Linux 等旧系统。",
+  meson_name: "Meson 构建系统",
+  meson_desc: "一个快速且易用的构建系统，专注于简洁性、性能和可复现性。",
   whatpwacandotoday_name: "PWA 当前能做什么",
   whatpwacandotoday_desc: "探索渐进式网络应用在各平台上的功能，包括设备 API、离线访问和可安装性。实时展示当前可实现的技术能力。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",

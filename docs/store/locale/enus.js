@@ -151,6 +151,8 @@ const L = {
   frontendmasters_name: "Frontend Masters",
   frontendmasters_desc: "High-quality courses on web development, JavaScript, CSS, React, and more—taught by industry experts.",
   v86_desc: "Virtual x86 emulator running legacy operating systems like Windows 95 and Linux directly in the browser using WebAssembly.",
+  meson_name: "Meson Build",
+  meson_desc: "A fast and user-friendly build system focused on simplicity, performance, and reproducibility.",
   whatpwacandotoday_name: "What PWA Can Do Today",
   whatpwacandotoday_desc: "Explore the capabilities of Progressive Web Apps across platforms, including device APIs, offline access, and installability. A live showcase of what's possible right now.",
   python_desc: "Python is a programming language that lets you work quickly and integrate systems more effectively.",
