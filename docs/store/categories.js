@@ -1316,9 +1316,9 @@ export const categories = [
       },
       {
         name: "Phoronix Forums",
-        nameKey: "phoronix_name",
-        descriptionKey: "phoronix_desc",
-        icon: "icons/phoronix.webp",
+        nameKey: "phoronixforums_name",
+        descriptionKey: "phoronixforums_desc",
+        icon: "icons/phoronixforums.webp",
         url: "https://www.phoronix.com/forums",
       },
       {
