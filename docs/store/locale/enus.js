@@ -345,6 +345,8 @@ const L = {
   frandroid_desc: "Stay ahead with Frandroid — your go-to source for Android news, smartphone reviews, and tech insights from the French-speaking world.",
   lemmy_name: "Lemmy",
   lemmy_desc: "A federated link aggregator and discussion platform built on ActivityPub. Lemmy offers decentralized communities, Reddit-style threads, and open-source moderation tools.",
+  phoronix_name: "Phoronix Forums",
+  phoronix_desc: "A community forum focused on Linux hardware reviews and technical discussions.",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community.",
   juejin_name: "Juejin",

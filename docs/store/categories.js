@@ -1315,6 +1315,13 @@ export const categories = [
         url: "https://lemmy.ml"
       },
       {
+        name: "Phoronix Forums",
+        nameKey: "phoronix_name",
+        descriptionKey: "phoronix_desc",
+        icon: "icons/phoronix.webp",
+        url: "https://www.phoronix.com/forums",
+      },
+      {
         name: "Level1Techs",
         nameKey: "level1techs_name",
         descriptionKey: "level1techs_desc",

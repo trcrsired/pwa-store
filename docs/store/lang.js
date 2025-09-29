@@ -51,6 +51,7 @@ async function localizePage() {
     setText('label-filter-native', strings.filter_native);
     // Footer
     setText('footer-browser', strings.footer_browser_recommendation);
+    setText('footer-warning', strings.footer_warning);
     setText('footer-extension', strings.footer_extension_tip);
     setText('footer-store-link', strings.footer_link_store);
     setText('footer-crx-link', strings.footer_link_crx);
