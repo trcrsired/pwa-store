@@ -3069,6 +3069,14 @@ export const categories = [
         url: "/wrappers/ruanyifeng",
         apptype: "wrapper"
       },
+      {
+        name: "Veritasium",
+        nameKey: "veritasium_name",
+        descriptionKey: "veritasium_desc",
+        icon: "icons/wrappers/veritasium.webp",
+        url: "/wrappers/veritasium",
+        apptype: "wrapper"
+      },
     ]
   },
   {

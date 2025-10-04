@@ -119,6 +119,7 @@ WRAPPERS = [
   { "name": "Qingting FM", "url": "https://www.qtfm.cn" , "keyify_name": "qingtingfm"},
   { "name": "NVIDIA", "url": "https://www.nvidia.com" },
   { "name": "阮一峰", "url": "https://www.ruanyifeng.com", "keyify_name": "ruanyifeng" },
+  { "name": "Veritasium", "url": "https://www.veritasium.com" },
   { "name": "CurseForge", "url": "https://www.curseforge.com" },
   { "name": "MineCraft Forum", "url": "https://www.minecraftforum.net", "keyify_name": "minecraftforum" },
   { "name": "IGN", "url": "https://www.ign.com" },

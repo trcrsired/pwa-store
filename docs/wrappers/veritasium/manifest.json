@@ -1,0 +1,17 @@
+{
+  "name": "Veritasium",
+  "short_name": "Veritasium",
+  "start_url": "/wrappers/veritasium/?source=pwa",
+  "scope": "/wrappers/veritasium/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Veritasium",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/veritasium/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -842,6 +842,8 @@ const L = {
   nvidia_desc: "NVIDIA is a global leader in artificial intelligence computing and supplies chips for data centers, gaming, and more.",
   ruanyifeng_name: "Ruan Yifeng",
   ruanyifeng_desc: "A renowned Chinese tech blogger and author, known for clear tutorials on web technologies, JavaScript, and software engineering.",
+  veritasium_name: "Veritasium",
+  veritasium_desc: "Engaging science and engineering videos that explore complex ideas with clarity and curiosity.",
   usgov_name: "United States Government🇺🇸",
   irs_name: "IRS",
   irs_desc: "Official site of the U.S. Internal Revenue Service—access tax forms, file returns, track refunds, manage payments, and stay updated on federal tax regulations and news.",
