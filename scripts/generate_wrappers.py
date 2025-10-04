@@ -55,6 +55,7 @@ WRAPPERS = [
   { "name": "MapleStory", "url": "https://www.nexon.com/maplestory" },
   { "name": "Doordash", "url": "https://www.doordash.com" },
   { "name": "Lyft", "url": "https://www.lyft.com" },
+  { "name": "Delish", "url": "https://www.delish.com" },
   { "name": "USPS", "url": "https://www.usps.com"},
   { "name": "China EMS", "url": "https://www.ems.com.cn"},
   { "name": "UHS", "url": "https://www.uhs.com" },

@@ -2592,6 +2592,19 @@ export const categories = [
     ]
   },
   {
+    name: "Food",
+    nameKey: "food_name",
+    apps: [
+      {
+        name: "Delish",
+        namekey: "delish_name",
+        descriptionKey: "delish_desc",
+        icon: "icons/wrappers/delish.webp",
+        url: "/wrappers/delish"
+      }
+    ]
+  },
+  {
     name: "Mobility & Logistics",
     nameKey: "mobilitylogistics_name",
     apps: [

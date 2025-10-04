@@ -1,0 +1,17 @@
+{
+  "name": "Delish",
+  "short_name": "Delish",
+  "start_url": "/wrappers/delish/?source=pwa",
+  "scope": "/wrappers/delish/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Delish",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/delish/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
