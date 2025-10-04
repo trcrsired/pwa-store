@@ -2006,6 +2006,14 @@ export const categories = [
         url: "/wrappers/osdevorg",
         apptype: "wrapper"
       },
+      {
+        name: "Consumer Rights Wiki",
+        nameKey: "consumerrightswiki_name",
+        descriptionKey: "consumerrightswiki_desc",
+        icon: "icons/wrappers/consumerrightswiki.webp",
+        url: "/wrappers/consumerrightswiki",
+        apptype: "wrapper"
+      },
     ]
   },
   {

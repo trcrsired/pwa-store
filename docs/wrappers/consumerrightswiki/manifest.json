@@ -1,0 +1,17 @@
+{
+  "name": "Consumer Rights Wiki",
+  "short_name": "Consumer Rights Wiki",
+  "start_url": "/wrappers/consumerrightswiki/?source=pwa",
+  "scope": "/wrappers/consumerrightswiki/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Consumer Rights Wiki",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/consumerrightswiki/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

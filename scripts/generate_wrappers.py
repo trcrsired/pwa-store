@@ -152,6 +152,7 @@ WRAPPERS = [
   { "name": "Eudic", "url": "https://dict.eudic.net" },
   { "name": "Marxists Internet Archive", "url": "https://www.marxists.org", "keyify_name": "marxistsorg" },
   { "name": "OSDev.org" , "url": "https://wiki.osdev.org", "keyify_name": "osdevorg" },
+  { "name": "Consumer Rights Wiki", "url": "https://consumerrights.wiki" },
   { "name": "REVCOM.US", "url": "https://revcom.us/en", "keyify_name": "revcomus" },
   { "name": "YouVersion Bible", "url": "https://bible.com", "keyify_name": "biblecom" },
   { "name": "Reuters", "url": "https://www.reuters.com" },

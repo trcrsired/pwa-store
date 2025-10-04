@@ -644,6 +644,8 @@ const L = {
   marxistsorg_desc: "马克思主义互联网文库是一个非营利的在线百科全书，自1990年起收录了多语言版本的共产主义、无政府主义和社会主义思想家的著作，包括马克思、恩格斯、列宁、托洛茨基、斯大林、毛泽东、卢森堡、巴枯宁、克鲁泡特金、蒲鲁东，以及相关甚至无关思想家的作品（如孙子）。",
   osdevorg_name: "OSDev.org",
   osdevorg_desc: "一个专注于操作系统开发的技术社区，提供教程、论坛和资源。",
+  consumerrights_name: "消费者权益百科",
+  consumerrights_desc: "了解全球消费者保护法规、纠纷解决机制及各行业的买方权益。",
   religion_name: "宗教",
   qurancom_name: "古兰经 （Quran.com）",
   qurancom_desc: "简洁、适配移动设备的网站，可阅读和收听《古兰经》，支持多种语言翻译和注释（Tafsir）。",
