@@ -1708,6 +1708,13 @@ export const categories = [
         url: "https://www.xbox.com/en-us/play"
       },
       {
+        name: "Sexual Repression Index Calculator (性压抑指数计算器) SRI Calculator",
+        nameKey: "sricalculator_name",
+        descriptionKey: "sricalculator_desc",
+        icon: "icons/sricalculator.webp",
+        url: "https://xyy.gta4.bio"
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",
@@ -3388,13 +3395,6 @@ export const categories = [
         descriptionKey: "calm_desc",
         icon: "icons/calm.webp",
         url: "https://www.calm.com"
-      },
-      {
-        name: "Sexual Repression Index Calculator (性压抑指数计算器) SRI Calculator",
-        nameKey: "sricalculator_name",
-        descriptionKey: "sricalculator_desc",
-        icon: "icons/sricalculator.webp",
-        url: "https://xyy.gta4.bio"
       },
       {
         name: "UHS",
