@@ -909,6 +909,8 @@ const L = {
   digitalexpertgehealthcare_desc: "Digital Expert 是 GE HealthCare 推出的云端平台，可为临床医生提供实时支持、培训和专家指导。该平台旨在提升诊断信心与工作效率，使医疗专业人员能够按需访问临床专长与数字工具。",
   calm_name: "Calm",
   calm_desc: "Calm 是一款主打心理健康的应用，提供冥想指导、睡眠故事、呼吸练习与放松音乐，帮助用户缓解压力、改善睡眠并培养正念习惯。支持网页与移动端使用，适合个人与企业日常心理健康管理。",
+  sricalculator_name: "性压抑指数计算器",
+  sricalculator_desc: "基于行为、文化与心理指标量化个人或社会的性压抑程度，适用于比较建模、社会分析与人口预测。",
   uhs_name: "UHS",
   uhs_desc: "UHS（Universal Health Services）是一家医院管理和医疗服务提供商，在美国提供行为健康、急性护理和综合医疗服务。",
   deltadental_name: "Delta Dental",

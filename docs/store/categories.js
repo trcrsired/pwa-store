@@ -3390,6 +3390,13 @@ export const categories = [
         url: "https://www.calm.com"
       },
       {
+        name: "Sexual Repression Index Calculator (性压抑指数计算器)",
+        nameKey: "sricalculator_name",
+        descriptionKey: "sricalculator_desc",
+        icon: "icons/sricalculator.webp",
+        url: "https://xyy.gta4.bio"
+      },
+      {
         name: "UHS",
         nameKey: "uhs_name",
         descriptionKey: "uhs_desc",

@@ -909,6 +909,8 @@ const L = {
   digitalexpertgehealthcare_desc: "Digital Expert by GE HealthCare is a cloud-based platform that connects clinicians with real-time support, training, and expert guidance. Designed to enhance diagnostic confidence and workflow efficiency, it empowers healthcare professionals with on-demand access to clinical expertise and digital tools.",
   calm_name: "Calm",
   calm_desc: "Calm is a leading mental wellness app offering guided meditations, sleep stories, breathing exercises, and music to help users reduce stress, improve sleep, and build mindfulness habits. Available on web and mobile, Calm supports daily mental health routines for individuals and workplaces.",
+  sricalculator_name: "Sexual Repression Index Calculator (性压抑指数计算器)",
+  sricalculator_desc: "Quantifies individual or societal sexual repression based on behavioral, cultural, and psychological indicators. Useful for comparative modeling, social analysis, and demographic forecasting.",
   uhs_name: "UHS",
   uhs_desc: "Universal Health Services—hospital management and healthcare provider offering behavioral health, acute care, and medical services across the U.S.",
   deltadental_name: "Delta Dental",
