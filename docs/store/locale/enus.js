@@ -533,6 +533,8 @@ const L = {
   sling_Desc: "Sling TV is a flexible streaming service offering live and on-demand channels across news, sports, and entertainment. Users can customize their lineup with affordable packages and no long-term contracts.",
   bilinovel_name: "Bilinovel",
   bilinovel_desc: "A Chinese light novel site offering Japanese anime-style web novels, rankings, tags, and downloadable formats. Features include full-series archives, user-curated popularity lists, and fast updates.",
+  nebula_name: "Nebula",
+  nebula_desc: "A creator-driven streaming platform offering smart, independent video content beyond the algorithm.",
   dubok_name: "Dubok (独播库)",
   dubok_desc: "Dubok is a Chinese streaming site specializing in exclusive and hard-to-find TV dramas, anime, and variety shows. It aggregates content from multiple sources, offering fast updates and a wide selection of subtitled episodes for niche audiences.",
   youku_name: "Youku (优酷)",
