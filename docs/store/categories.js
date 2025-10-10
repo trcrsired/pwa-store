@@ -42,10 +42,10 @@ export const categories = [
         url: "https://qrct.buhzzi.com"
       },
       {
-        name: "Readset",
-        nameKey: "readset_name",
-        descriptionKey: "readset_desc",
-        icon: "icons/readset.webp",
+        name: "Readest",
+        nameKey: "readest_name",
+        descriptionKey: "readest_desc",
+        icon: "icons/readest.webp",
         url: "https://web.readest.com"
       },
       {
