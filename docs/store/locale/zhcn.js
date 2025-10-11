@@ -292,6 +292,8 @@ const L = {
   thestreet_desc: "TheStreet 是一个金融新闻与理财教育平台，由 Jim Cramer 和 Marty Peretz 于 1996 年创立。平台提供市场分析、个人理财建议与投资评论，服务对象涵盖新手与资深投资者。内容包括免费文章与付费服务（如 TheStreet Pro），涵盖股票、退休规划与经济趋势。",
   marketwatch_name: "MarketWatch",
   marketwatch_desc: "MarketWatch 是由道琼斯公司运营的金融新闻与数据网站，提供实时市场报道、投资评论及个人理财内容。",
+  webull_name: "Webull",
+  webull_desc: "一个科技驱动的交易平台，提供免佣金的股票、ETF交易及高级分析工具。",
   bankofamerica_name: "美国银行",
   bankofamerica_desc: "美国主要银行之一，提供个人和企业金融服务。",
   hurun_name: "胡润百富",

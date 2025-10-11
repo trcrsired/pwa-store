@@ -292,6 +292,8 @@ const L = {
   thestreet_desc: "TheStreet is a financial news and literacy platform founded in 1996 by Jim Cramer and Marty Peretz. It provides market analysis, personal finance insights, and investment commentary for both novice and experienced investors. The site offers free articles and premium services like TheStreet Pro, covering stocks, retirement, and economic trends.",
   marketwatch_name: "MarketWatch",
   marketwatch_desc: "MarketWatch is a financial news and data site operated by Dow Jones & Company. It offers real-time market coverage, investment commentary, and personal finance insights.",
+  webull_name: "Webull",
+  webull_desc: "A tech-driven trading platform offering commission-free stocks, ETFs, and advanced analytics tools.",
   bankofamerica_name: "Bank of America",
   bankofamerica_desc: "Major US bank.",
   hurun_name: "Hurun Report (胡润百富)",

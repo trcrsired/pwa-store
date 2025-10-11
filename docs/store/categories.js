@@ -992,6 +992,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Webull",
+        nameKey: "webull_name",
+        descriptionKey: "webull_desc",
+        icon: "icons/wrappers/webull.webp",
+        url: "/wrappers/webull",
+        apptype: "wrapper"
+      },
+      {
         name: "Bank of America",
         nameKey: "bankofamerica_name",
         descriptionKey: "bankofamerica_desc",
