@@ -1938,11 +1938,19 @@ export const categories = [
         url: "https://bestpianomethod.com"
       },
       {
-        name: "Eudic Dictionary",
+        name: "Eudic Dictionary (欧路词典)",
         nameKey: "eudic_name",
         descriptionKey: "eudic_desc",
         icon: "icons/wrappers/eudic.webp",
         url: "/wrappers/eudic",
+        apptype: "wrapper"
+      },
+      {
+        name: "Quanxue (劝学)",
+        nameKey: "quanxue_name",
+        descriptionKey: "quanxue_desc",
+        icon: "icons/wrappers/quanxue.webp",
+        url: "/wrappers/quanxue",
         apptype: "wrapper"
       },
     ]

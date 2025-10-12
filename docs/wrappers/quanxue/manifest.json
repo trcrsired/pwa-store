@@ -1,0 +1,17 @@
+{
+  "name": "\u529d\u5b66",
+  "short_name": "\u529d\u5b66",
+  "start_url": "/wrappers/quanxue/?source=pwa",
+  "scope": "/wrappers/quanxue/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u529d\u5b66",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/quanxue/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
