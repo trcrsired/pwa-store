@@ -2938,6 +2938,13 @@ export const categories = [
         url: "https://app.joinhandshake.com",
       },
       {
+        name: "Wellfound",
+        nameKey: "wellfound_name",
+        descriptionKey: "wellfound_desc",
+        icon: "icons/wellfound.webp",
+        url: "https://wellfound.com/login"
+      },
+      {
         name: "IGUOPIN",
         nameKey: "iguopin_name",
         descriptionKey: "iguopin_desc",
