@@ -1554,7 +1554,7 @@ export const categories = [
         url: "https://www.france24.com",
       },
       {
-        name: "News 18",
+        name: "News18",
         nameKey: "news18_name",
         descriptionKey: "news18_desc",
         icon: "icons/news18.webp",
