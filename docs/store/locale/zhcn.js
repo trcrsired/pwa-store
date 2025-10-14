@@ -455,6 +455,8 @@ const L = {
   indiewire_desc: "IndieWire 专注于独立电影、电视和流媒体的深度报道，涵盖影展动态、行业分析与专业影评。",
   france24_name: "法国24",
   france24_desc: "全球新闻频道，全天候多语言播报，重点关注国际事务、政治动态与文化报道。",
+  news18_name: "News18",
+  news18_desc: "印度主流新闻平台，提供政治、娱乐、体育与国际事件的实时报道。",
   hindustantimes_name: "印度斯坦时报",
   hindustantimes_desc: "《印度斯坦时报》（Hindustan Times）是印度领先的英文报纸之一，提供全面的国内外新闻、政治、商业、体育、娱乐和生活方式报道。由HT Media有限公司拥有，以其可信的新闻报道和在印度主要城市广泛的读者群体而闻名。",
   nyt_name: "纽约时报",

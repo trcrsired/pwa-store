@@ -1553,6 +1553,13 @@ export const categories = [
         icon: "icons/france24.webp",
         url: "https://www.france24.com",
       },
+      {
+        name: "News 18",
+        nameKey: "news18_name",
+        descriptionKey: "news18_desc",
+        icon: "icons/news18.webp",
+        url: "https://www.news18.com"
+      },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url: "/wrappers/nytimes", apptype: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url: "/wrappers/washingtonpost", apptype: "wrapper" },
       { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url: "/wrappers/reuters", apptype: "wrapper" },
