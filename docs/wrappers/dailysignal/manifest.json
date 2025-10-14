@@ -1,0 +1,17 @@
+{
+  "name": "The Daily Signal",
+  "short_name": "The Daily Signal",
+  "start_url": "/wrappers/dailysignal/?source=pwa",
+  "scope": "/wrappers/dailysignal/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for The Daily Signal",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/dailysignal/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

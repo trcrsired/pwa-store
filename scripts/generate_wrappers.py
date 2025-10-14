@@ -172,8 +172,9 @@ WRAPPERS = [
   { "name": "Scientific American", "url": "https://www.scientificamerican.com" },
   { "name": "Canva", "url": "https://www.canva.com"},
   { "name": "Sacramento Bee", "url": "https://www.sacbee.com"},
-  { "name": "FreightWaves", "url": "https://www.freightwaves.com" },
   { "name": "POLITICO", "url": "https://www.politico.com"},
+  { "name": "The Daily Signal", "url": "https://www.dailysignal.com", "keyify_name": "dailysignal" },
+  { "name": "FreightWaves", "url": "https://www.freightwaves.com" },
 
   { "name" : "HotCRP", "url": "https://hotcrp.com" },
   { "name": "ACM", "url": "https://www.acm.org" },
