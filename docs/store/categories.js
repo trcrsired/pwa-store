@@ -465,6 +465,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Microsoft Clarity",
+        nameKey: "microsoftclarity_name",
+        descriptionKey: "microsoftclarity_desc",
+        icon: "icons/wrappers/microsoftclarity.webp",
+        url: "/wrappers/microsoftclarity",
+        apptype: "wrapper"
+      },
+      {
         name: "Mini Program Demo",
         nameKey: "miniprogramdemo_name",
         descriptionKey: "miniprogramdemo_desc",

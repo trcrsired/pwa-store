@@ -1,0 +1,17 @@
+{
+  "name": "Microsoft Clarity",
+  "short_name": "Microsoft Clarity",
+  "start_url": "/wrappers/microsoftclarity/?source=pwa",
+  "scope": "/wrappers/microsoftclarity/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Microsoft Clarity",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/microsoftclarity/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
