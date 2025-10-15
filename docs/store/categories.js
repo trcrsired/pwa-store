@@ -87,6 +87,7 @@ export const categories = [
         name: "WolframAlpha", nameKey: "wolframalpha_name", icon: "icons/wolframalpha.webp", url: "https://www.wolframalpha.com", descriptionKey: "wolframalpha_desc"
       },
       { name: "Perplexity", icon: "icons/wrappers/perplexity.webp", url: "/wrappers/perplexity", descriptionKey: "perplexity_desc", apptype: "wrapper" },
+      { name: "G2 AI", nameKey: "g2ai_name", icon: "icons/wrappers/g2ai.webp", url: "/wrappers/g2ai", descriptionKey: "g2ai_desc" },
     ]
   },
   {
@@ -1126,6 +1127,26 @@ export const categories = [
         icon: "icons/wechatmini/njbankxinweiting.webp",
         url: "#小程序://南京银行鑫微厅/L6nDGwUvuxvVGBg",
         apptype: "wechatmini"
+      },
+    ]
+  },
+  {
+    name: "Business",
+    nameKey: "business_key",
+    apps: [
+      {
+        name: "Capterra",
+        nameKey: "capterra_name",
+        icon: "icons/capterra.webp",
+        url: "https://www.capterra.com",
+        descriptionKey: "capterra_desc"
+      },
+      {
+        name: "G2",
+        nameKey: "g2_name",
+        icon: "icons/g2.webp",
+        url: "https://www.g2.com",
+        descriptionKey: "g2_desc"
       },
     ]
   },

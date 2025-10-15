@@ -26,6 +26,7 @@ WRAPPERS = [
   { "name": "Level1Techs", "url": "https://level1techs.com" },
   { "name": "Gamers Nexus", "url": "https://gamersnexus.net" },
   { "name": "perplexity", "url": "https://www.perplexity.ai" },
+  { "name": "G2 AI", "url": "https://ai.g2.com" },
   { "name": "stack.watch", "url": "https://stack.watch", "keyify_name": "stackwatch" },
   { "name": "NIST Time", "url": "https://www.time.gov", "keyify_name": "timegov" },
   { "name": "Bing", "url": "https://www.bing.com" },
