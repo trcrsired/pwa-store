@@ -1,0 +1,17 @@
+{
+  "name": "Bing Flights",
+  "short_name": "Bing Flights",
+  "start_url": "/wrappers/bingflights/?source=pwa",
+  "scope": "/wrappers/bingflights/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Bing Flights",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/bingflights/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

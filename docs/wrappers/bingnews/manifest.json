@@ -1,0 +1,17 @@
+{
+  "name": "Bing News",
+  "short_name": "Bing News",
+  "start_url": "/wrappers/bingnews/?source=pwa",
+  "scope": "/wrappers/bingnews/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Bing News",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/bingnews/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

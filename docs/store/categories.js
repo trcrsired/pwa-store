@@ -116,8 +116,14 @@ export const categories = [
       { name: "OneDrive", icon: "icons/onedrive.webp", url: "https://onedrive.live.com", descriptionKey: "onedrive_desc" },
       { name: "Microsoft Store", nameKey: "msstore_name", icon: "icons/wrappers/msstore.webp", url: "https://apps.microsoft.com", descriptionKey: "msstore_desc" },
       { name: "Microsoft Tech Community", nameKey: "mstechcommunity_name", icon: "icons/msft.webp", url: "https://techcommunity.microsoft.com", descriptionKey: "mstechcommunity_desc" },
-      { name: "Bing", nameKey: "bing_name", icon: "icons/wrappers/bing.webp", url: "/wrappers/bing", descriptionKey: "bing_desc", apptype: "wrapper" },
       { name: "MSN", nameKey: "msn_name", icon: "icons/wrappers/msn.webp", url: "/wrappers/msn", descriptionKey: "msn_desc", apptype: "wrapper" },
+      { name: "Bing", nameKey: "bing_name", icon: "icons/wrappers/bing.webp", url: "/wrappers/bing", descriptionKey: "bing_desc", apptype: "wrapper" },
+      { name: "Bing Images", nameKey: "bingimages_name", descriptionKey: "bingimages_desc", icon: "icons/wrappers/bing.webp", url: "/wrappers/bingimages", descriptionKey: "bingimages_desc", apptype: "wrapper" },
+      { name: "Bing Videos", nameKey: "bingvideos_name", descriptionKey: "bingvideos_desc", icon: "icons/wrappers/bing.webp", url: "/wrappers/bingvideos", descriptionKey: "bingvideo_desc", apptype: "wrapper" },
+      { name: "Bing News", nameKey: "bingnews_name", descriptionKey: "bingsnews_desc", icon: "icons/wrappers/bing.webp", url: "/wrappers/bingnews", descriptionKey: "bingnews_desc", apptype: "wrapper" },
+      { name: "Bing Shop", nameKey: "bingshop_name", descriptionKey: "bingshop_desc", icon: "icons/wrappers/bing.webp", url: "/wrappers/bingshop", descriptionKey: "bingshop_desc", apptype: "wrapper" },
+      { name: "Bing Travel", nameKey: "bingtravel_name", descriptionKey: "bingtravel_desc", icon: "icons/wrappers/bing.webp", url: "/wrappers/bingtravel", descriptionKey: "bingtravel_desc", apptype: "wrapper" },
+      { name: "Bing Flights", nameKey: "bingflights_name", descriptionKey: "bingflights_desc", icon: "icons/wrappers/bing.webp", url: "/wrappers/bingflights", descriptionKey: "bingflights_desc", apptype: "wrapper" },
     ]
   },
   {

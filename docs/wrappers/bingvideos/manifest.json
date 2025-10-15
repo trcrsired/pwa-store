@@ -1,0 +1,17 @@
+{
+  "name": "Bing Videos",
+  "short_name": "Bing Videos",
+  "start_url": "/wrappers/bingvideos/?source=pwa",
+  "scope": "/wrappers/bingvideos/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Bing Videos",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/bingvideos/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
