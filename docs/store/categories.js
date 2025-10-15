@@ -119,7 +119,7 @@ export const categories = [
       { name: "MSN", nameKey: "msn_name", icon: "icons/wrappers/msn.webp", url: "/wrappers/msn", descriptionKey: "msn_desc", apptype: "wrapper" },
       { name: "Bing", nameKey: "bing_name", icon: "icons/wrappers/bing.webp", url: "/wrappers/bing", descriptionKey: "bing_desc", apptype: "wrapper" },
       { name: "Bing Images", nameKey: "bingimages_name", descriptionKey: "bingimages_desc", icon: "icons/wrappers/bing.webp", url: "/wrappers/bingimages", descriptionKey: "bingimages_desc", apptype: "wrapper" },
-      { name: "Bing Videos", nameKey: "bingvideos_name", descriptionKey: "bingvideos_desc", icon: "icons/wrappers/bing.webp", url: "/wrappers/bingvideos", descriptionKey: "bingvideo_desc", apptype: "wrapper" },
+      { name: "Bing Videos", nameKey: "bingvideos_name", descriptionKey: "bingvideos_desc", icon: "icons/wrappers/bing.webp", url: "/wrappers/bingvideos", descriptionKey: "bingvideos_desc", apptype: "wrapper" },
       { name: "Bing News", nameKey: "bingnews_name", descriptionKey: "bingsnews_desc", icon: "icons/wrappers/bing.webp", url: "/wrappers/bingnews", descriptionKey: "bingnews_desc", apptype: "wrapper" },
       { name: "Bing Shop", nameKey: "bingshop_name", descriptionKey: "bingshop_desc", icon: "icons/wrappers/bing.webp", url: "/wrappers/bingshop", descriptionKey: "bingshop_desc", apptype: "wrapper" },
       { name: "Bing Travel", nameKey: "bingtravel_name", descriptionKey: "bingtravel_desc", icon: "icons/wrappers/bing.webp", url: "/wrappers/bingtravel", descriptionKey: "bingtravel_desc", apptype: "wrapper" },
