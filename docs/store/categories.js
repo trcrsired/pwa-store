@@ -2626,8 +2626,8 @@ export const categories = [
       },
       {
         name: "Luckin Coffee",
-        nameKey: "luckin_name",
-        descriptionKey: "luckin_desc",
+        nameKey: "luckinwechatmini_name",
+        descriptionKey: "luckinwechatmini_desc",
         icon: "icons/wechatmini/luckin.webp",
         url: "#小程序://瑞幸咖啡/yI3YsmuVZEDSN9z",
         apptype: "wechatmini"
