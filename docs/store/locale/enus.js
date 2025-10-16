@@ -80,6 +80,8 @@ const L = {
   "cursor_desc": "Cursor is an AI-powered coding assistant that helps developers write, refactor, and debug code across platforms. Its autonomous agents can generate files, run terminal commands, and analyze entire codebases—available via web, CLI, and Slack.",
   "outlook_desc": "Webmail and calendar by Microsoft.",
   "onedrive_desc": "Cloud storage with robust PWA features.",
+  "microsoftaccount_name": "Microsoft Account",
+  "microsoftaccount_desc": "A unified identity system for accessing Microsoft services, syncing preferences, and managing connected apps securely.",
   "msn_name": "MSN",
   "msn_desc": "A web portal offering news, entertainment, lifestyle content, and access to Microsoft services.",
   "bing_name": "Bing",

@@ -80,6 +80,8 @@ const L = {
   "cursor_desc": "Cursor 是一款由 AI 驱动的编程助手，支持跨平台代码编写、重构与调试。其智能代理可生成文件、执行终端命令、分析完整代码库，并可通过网页、命令行和 Slack 使用。",
   "outlook_desc": "微软的网页邮箱和日历服务。",
   "onedrive_desc": "具备强大 PWA 功能的云存储服务。",
+  "microsoftaccount_name": "微软账户",
+  "microsoftaccount_desc": "用于访问微软服务的统一身份系统，支持同步偏好设置并安全管理已连接的应用。",
   "msn_name": "MSN",
   "msn_desc": "一个提供新闻、娱乐、生活方式内容以及微软服务入口的网络门户。",
   "bing_name": "必应",
