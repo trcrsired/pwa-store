@@ -3156,6 +3156,13 @@ export const categories = [
         url: "https://www.qualcomm.com"
       },
       {
+        name: "PWA Pilipinas",
+        nameKey: "pwapilipinas_name",
+        descriptionKey: "pwapilipinas_desc",
+        icon: "icons/pwapilipinas.webp",
+        url: "https://app.pwapilipinas.org"
+      },
+      {
         name: "Herb Sutter",
         nameKey: "herbsutter_name",
         descriptionKey: "herbsutter_desc",
