@@ -181,6 +181,7 @@ WRAPPERS = [
   { "name": "CGTN", "url": "https://www.cgtn.com" },
   { "name": "Fortune", "url": "https://fortune.com" },
   { "name": "Scientific American", "url": "https://www.scientificamerican.com" },
+  { "name": "Popular Mechanics" , "url": "https://www.popularmechanics.com" },
   { "name": "Canva", "url": "https://www.canva.com"},
   { "name": "Sacramento Bee", "url": "https://www.sacbee.com"},
   { "name": "POLITICO", "url": "https://www.politico.com"},

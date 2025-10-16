@@ -512,6 +512,8 @@ const L = {
   fortune_desc: "A global business media brand known for its rankings like the Fortune 500 and Global 500, offering in-depth coverage of corporate leadership, finance, and economic trends.",
   scientificamerican_name: "Scientific American",
   scientificamerican_desc: "A science and technology publication featuring articles on research, innovation, health, environment, and societal impact.",
+  popularmechanics_name: "Popular Mechanics",
+  popularmechanics_desc: "A long-running magazine covering science, technology, DIY, automotive, and engineering topics in an accessible format.",
   sacramentobee_name: "Sacramento Bee",
   sacramentobee_desc: "Breaking news, politics, and local coverage from California's capital.",
   politico_name: "POLITICO",

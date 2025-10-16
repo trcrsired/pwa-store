@@ -1,0 +1,17 @@
+{
+  "name": "Popular Mechanics",
+  "short_name": "Popular Mechanics",
+  "start_url": "/wrappers/popularmechanics/?source=pwa",
+  "scope": "/wrappers/popularmechanics/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Popular Mechanics",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/popularmechanics/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -1639,6 +1639,14 @@ export const categories = [
         url: "/wrappers/scientificamerican",
         apptype: "wrapper"
       },
+      {
+        name: "Popular Mechanics",
+        nameKey: "popularmechanics_name",
+        descriptionKey: "popularmechanics_desc",
+        icon: "icons/wrappers/popularmechanics.webp",
+        url: "/wrappers/popularmechanics",
+        apptype: "wrapper"
+      },
       { name: "Sacramento Bee", nameKey: "sacramentobee_name", descriptionKey: "sacramentobee_desc", icon: "icons/wrappers/sacramentobee.webp", url: "/wrappers/sacramentobee", apptype: "wrapper"},
       { name: "POLITICO", nameKey: "politico_name", descriptionKey: "politico_desc", icon: "icons/wrappers/politico.webp", url: "/wrappers/politico", apptype: "wrapper"},
       { name: "The Daily Signal", nameKey: "dailysignal_name", descriptionKey: "dailysignal_desec", icon: "icons/wrappers/dailysignal.webp" , url: "/wrappers/dailysignal", apptype: "wrapper" },

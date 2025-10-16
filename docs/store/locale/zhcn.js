@@ -512,6 +512,8 @@ const L = {
   fortune_desc: "一家全球商业媒体品牌，以财富500强和全球500强等排名著称，提供关于企业领导力、金融和经济趋势的深入报道。",
   scientificamerican_name: "科学美国人（Scientific American）",
   scientificamerican_desc: "一本科学与技术出版物，内容涵盖研究、创新、健康、环境及社会影响等主题。",
+  popularmechanics_name: "大众机械（Popular Mechanics）",
+  popularmechanics_desc: "一本历史悠久的杂志，以通俗易懂的方式介绍科学、技术、DIY、汽车和工程等主题。",
   sacramentobee_name: "萨克拉门托蜜蜂报（Sacramento Bee）",
   sacramentobee_desc: "来自加州首府的突发新闻、政治动态与本地报道。",
   politico_name: "政客杂志（POLITICO）",
