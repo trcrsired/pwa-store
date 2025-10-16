@@ -2529,6 +2529,14 @@ export const categories = [
         apptype: "wrapper",
       },
       {
+        name: "Luckin Coffee",
+        nameKey: "luckin_name",
+        descriptionKey: "luckin_desc",
+        icon: "icons/wrappers/luckin.webp",
+        url: "/wrappers/luckin",
+        apptype: "wrapper"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",
