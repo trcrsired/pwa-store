@@ -87,7 +87,7 @@ export const categories = [
         name: "WolframAlpha", nameKey: "wolframalpha_name", icon: "icons/wolframalpha.webp", url: "https://www.wolframalpha.com", descriptionKey: "wolframalpha_desc"
       },
       { name: "Perplexity", icon: "icons/wrappers/perplexity.webp", url: "/wrappers/perplexity", descriptionKey: "perplexity_desc", apptype: "wrapper" },
-      { name: "G2 AI", nameKey: "g2ai_name", icon: "icons/wrappers/g2ai.webp", url: "/wrappers/g2ai", descriptionKey: "g2ai_desc" },
+      { name: "G2 AI", nameKey: "g2ai_name", icon: "icons/wrappers/g2ai.webp", url: "/wrappers/g2ai", descriptionKey: "g2ai_desc", apptype: "wrapper" },
     ]
   },
   {
