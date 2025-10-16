@@ -358,7 +358,7 @@ export const categories = [
       {
         name: "Meson Build",
         nameKey: "meson_name",
-        icon: "icons/wrappers/meson.webp",
+        icon: "icons/meson.webp",
         url: "https://mesonbuild.com",
         descriptionKey: "meson_desc"
       },
