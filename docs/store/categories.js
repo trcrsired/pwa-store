@@ -2222,8 +2222,8 @@ export const categories = [
     ]
   },
   {
-    name: "Music Streaming",
-    nameKey: "musicstreaming_name",
+    name: "Streaming",
+    nameKey: "streaming_name",
     apps: [
       {
         name: "Spotify",
@@ -2266,6 +2266,13 @@ export const categories = [
         descriptionKey: "roon_desc",
         icon: "icons/roon.webp",
         url: "https://roon.app"
+      },
+      {
+        name: "Pocket Casts",
+        nameKey: "pocketcasts_name",
+        descriptionKey: "pocketcasts_desc",
+        icon: "icons/pocketcasts.webp",
+        url: "https://pocketcasts.com"
       },
     ]
   },
