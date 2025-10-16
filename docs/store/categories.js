@@ -1373,6 +1373,13 @@ export const categories = [
         url: "https://www.phoronix.com/forums",
       },
       {
+        name: "Lifehacker",
+        nameKey: "lifehacker_name",
+        descriptionKey: "lifehacker_desc",
+        icon: "icons/lifehacker.webp",
+        url: "https://lifehacker.com"
+      },
+      {
         name: "Level1Techs",
         nameKey: "level1techs_name",
         descriptionKey: "level1techs_desc",

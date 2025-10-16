@@ -374,6 +374,8 @@ const L = {
   lemmy_desc: "A federated link aggregator and discussion platform built on ActivityPub. Lemmy offers decentralized communities, Reddit-style threads, and open-source moderation tools.",
   phoronixforums_name: "Phoronix Forums",
   phoronixforums_desc: "A community forum focused on Linux hardware reviews and technical discussions.",
+  lifehacker_name: "Lifehacker",
+  lifehacker_desc: "Lifehacker offers practical tips, productivity hacks, and tech advice to help you work smarter and live better.",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community.",
   juejin_name: "Juejin",
