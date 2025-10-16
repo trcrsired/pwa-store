@@ -370,6 +370,13 @@ export const categories = [
         descriptionKey: "whatpwacandotoday_desc"
       },
       {
+        name: "Labuladong Algo Notes",
+        nameKey: "labuladong_name",
+        descriptionKey: "labuladong_desc",
+        icon: "icons/labuladong.webp",
+        url: "https://labuladong.online"
+      },
+      {
         name: "Python",
         icon: "icons/python.webp",
         url: "https://www.python.org",

@@ -171,6 +171,8 @@ const L = {
   meson_desc: "一个快速且易用的构建系统，专注于简洁性、性能和可复现性。",
   whatpwacandotoday_name: "PWA 当前能做什么",
   whatpwacandotoday_desc: "探索渐进式网络应用在各平台上的功能，包括设备 API、离线访问和可安装性。实时展示当前可实现的技术能力。",
+  labuladong_name: "labuladong 算法笔记",
+  labuladong_desc: "labuladong 算法笔记是一个专注于算法思维与编程模式的精选指南，特别适合刷题和准备技术面试。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
   rust_desc: "一门可靠且高效的软件开发语言。",
   isocpp_name: "ISO C++",
