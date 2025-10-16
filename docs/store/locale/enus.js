@@ -568,6 +568,8 @@ const L = {
   bilinovel_desc: "A Chinese light novel site offering Japanese anime-style web novels, rankings, tags, and downloadable formats. Features include full-series archives, user-curated popularity lists, and fast updates.",
   nebula_name: "Nebula",
   nebula_desc: "A creator-driven streaming platform offering smart, independent video content beyond the algorithm.",
+  tubitv_name: "Tubi",
+  tubitv_desc: "A free streaming service offering thousands of movies and TV shows with no subscription required.",
   dubok_name: "Dubok (独播库)",
   dubok_desc: "Dubok is a Chinese streaming site specializing in exclusive and hard-to-find TV dramas, anime, and variety shows. It aggregates content from multiple sources, offering fast updates and a wide selection of subtitled episodes for niche audiences.",
   youku_name: "Youku (优酷)",
