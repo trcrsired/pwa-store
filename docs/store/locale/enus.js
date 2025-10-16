@@ -173,6 +173,8 @@ const L = {
   whatpwacandotoday_desc: "Explore the capabilities of Progressive Web Apps across platforms, including device APIs, offline access, and installability. A live showcase of what's possible right now.",
   labuladong_name: "Labuladong Algo Notes",
   labuladong_desc: "Labuladong Algo Notes is a curated guide to algorithmic thinking and coding patterns, especially useful for mastering LeetCode problems and technical interviews.",
+  indietools_name: "Indie Tools",
+  indietools_desc: "A curated toolkit for indie creators offering templates, resources, and guidance to build and launch projects.",
   python_desc: "Python is a programming language that lets you work quickly and integrate systems more effectively.",
   rust_desc: "A language empowering everyone to build reliable and efficient software.",
   isocpp_name: "ISO C++",

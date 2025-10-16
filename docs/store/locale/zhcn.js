@@ -173,6 +173,8 @@ const L = {
   whatpwacandotoday_desc: "探索渐进式网络应用在各平台上的功能，包括设备 API、离线访问和可安装性。实时展示当前可实现的技术能力。",
   labuladong_name: "labuladong 算法笔记",
   labuladong_desc: "labuladong 算法笔记是一个专注于算法思维与编程模式的精选指南，特别适合刷题和准备技术面试。",
+  indietools_name: "Indie Tools",
+  indietools_desc: "为独立创作者精心打造的工具平台，提供模板、资源和项目启动指南。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
   rust_desc: "一门可靠且高效的软件开发语言。",
   isocpp_name: "ISO C++",

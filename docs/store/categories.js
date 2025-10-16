@@ -377,6 +377,13 @@ export const categories = [
         url: "https://labuladong.online"
       },
       {
+        name: "Indie Tools",
+        nameKey: "indietools_name",
+        descriptionKey: "indietools_desc",
+        icon: "icons/indietools.webp",
+        url: "https://www.indietools.work"
+      },
+      {
         name: "Python",
         icon: "icons/python.webp",
         url: "https://www.python.org",
