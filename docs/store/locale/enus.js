@@ -683,6 +683,8 @@ const L = {
   osdevorg_desc: "A technical community focused on operating system development, offering tutorials, forums, and resources.",
   consumerrightswiki_name: "Consumer Rights Wiki",
   consumerrightswiki_desc: "Explore global consumer protection laws, dispute resolution processes, and buyer rights across industries.",
+  animewiki_name: "Anime Wiki (anibase.net)",
+  animewiki_desc: "Anime Wiki on anibase.net is a community-driven encyclopedia for anime, characters, studios, and episode guides—ideal for fans and researchers alike.",
   religion_name: "Religion",
   qurancom_name: "Quran.com",
   qurancom_desc: "Clean, mobile-optimized site for reading and listening to the Quran. Includes translations and tafsir.",

@@ -1,0 +1,17 @@
+{
+  "name": "Anime Wiki",
+  "short_name": "Anime Wiki",
+  "start_url": "/wrappers/animewiki/?source=pwa",
+  "scope": "/wrappers/animewiki/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Anime Wiki",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/animewiki/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

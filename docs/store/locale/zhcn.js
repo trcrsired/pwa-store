@@ -683,6 +683,8 @@ const L = {
   osdevorg_desc: "一个专注于操作系统开发的技术社区，提供教程、论坛和资源。",
   consumerrightswiki_name: "消费者权益百科",
   consumerrightswiki_desc: "了解全球消费者保护法规、纠纷解决机制及各行业的买方权益。",
+  animewiki_name: "Anime Wiki（anibase.net）",
+  animewiki_desc: "Anime Wiki 是 anibase.net 上的动漫百科，由社区共同维护，涵盖角色、制作公司和剧集指南，适合动漫爱好者与研究者使用。",
   religion_name: "宗教",
   qurancom_name: "古兰经 （Quran.com）",
   qurancom_desc: "简洁、适配移动设备的网站，可阅读和收听《古兰经》，支持多种语言翻译和注释（Tafsir）。",

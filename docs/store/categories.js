@@ -2090,6 +2090,14 @@ export const categories = [
         url: "/wrappers/consumerrightswiki",
         apptype: "wrapper"
       },
+      {
+        name: "Anime Wiki (anibase.net)",
+        nameKey: "animewiki_name",
+        descriptionKey: "animewiki_desc",
+        icon: "icons/wrappers/animewiki.webp",
+        url: "/wrappers/animewiki",
+        apptype: "wrapper"
+      },
     ]
   },
   {
