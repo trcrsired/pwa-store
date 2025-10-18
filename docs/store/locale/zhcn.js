@@ -183,6 +183,8 @@ const L = {
   labuladong_desc: "labuladong 算法笔记是一个专注于算法思维与编程模式的精选指南，特别适合刷题和准备技术面试。",
   indietools_name: "Indie Tools",
   indietools_desc: "为独立创作者精心打造的工具平台，提供模板、资源和项目启动指南。",
+  deepwiki_name: "DeepWiki",
+  deepwiki_desc: "DeepWiki 是由 Cognition AI 开发的 AI 驱动文档平台，可将任意公开 GitHub 仓库转化为交互式对话文档，帮助开发者通过聊天、图示和结构化摘要深入理解代码库。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
   rust_desc: "一门可靠且高效的软件开发语言。",
   isocpp_name: "ISO C++",

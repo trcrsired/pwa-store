@@ -388,6 +388,13 @@ export const categories = [
         url: "https://www.indietools.work"
       },
       {
+        name: "DeepWiki",
+        nameKey: "deepwiki_name",
+        descriptionKey: "deepwiki_desc",
+        icon: "icons/deepwiki.webp",
+        url: "https://deepwiki.com"
+      },
+      {
         name: "Python",
         icon: "icons/python.webp",
         url: "https://www.python.org",

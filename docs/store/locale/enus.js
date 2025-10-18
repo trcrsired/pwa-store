@@ -183,6 +183,8 @@ const L = {
   labuladong_desc: "Labuladong Algo Notes is a curated guide to algorithmic thinking and coding patterns, especially useful for mastering LeetCode problems and technical interviews.",
   indietools_name: "Indie Tools",
   indietools_desc: "A curated toolkit for indie creators offering templates, resources, and guidance to build and launch projects.",
+  deepwiki_name: "DeepWiki",
+  deepwiki_desc: "DeepWiki is an AI-powered documentation platform developed by Cognition AI. It transforms any public GitHub repository into interactive, conversational documentation, enabling developers to explore codebases through chat, diagrams, and structured summaries.",
   python_desc: "Python is a programming language that lets you work quickly and integrate systems more effectively.",
   rust_desc: "A language empowering everyone to build reliable and efficient software.",
   isocpp_name: "ISO C++",
