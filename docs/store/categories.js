@@ -84,6 +84,7 @@ export const categories = [
       { name: "Kimi", icon: "icons/kimi.webp", url: "https://www.kimi.com", descriptionKey: "kimi_desc" },
       { name: "Kimi+", icon: "icons/kimi.webp", url: "https://www.kimi.com/kimiplus-square", descriptionKey: "kimiplus_desc" },
       { name: "Z.ai", icon: "icons/z_ai.webp", url: "https://chat.z.ai", nameKey: "z_ai_name", descriptionKey: "z_ai_desc" },
+      { name: "longcat", icon: "icons/longcat.webp", url: "https://longcat.chat", nameKey: "longcat_name", descriptionKey: "longcat_desc" },
       {
         name: "WolframAlpha", nameKey: "wolframalpha_name", icon: "icons/wolframalpha.webp", url: "https://www.wolframalpha.com", descriptionKey: "wolframalpha_desc"
       },

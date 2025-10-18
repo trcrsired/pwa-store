@@ -73,6 +73,8 @@ const L = {
   "kimiplus_desc": "Kimi+ offers enhanced features for professional users, including long-context processing, multimodal input support, and advanced reasoning capabilities for complex tasks.",
   z_ai_name: "Z.ai",
   z_ai_desc: "Z.ai is a conversational AI platform developed by Beijing Zhipu Huazhang Technology Co., Ltd., specializing in large language models like GLM-4.6.",
+  longcat_name: "LongCat",
+  longcat_desc: "LongCat is an open-source large language model developed by Meituan, featuring a Mixture-of-Experts architecture and agentic capabilities. It powers fast, efficient inference across diverse tasks.",
   wolframalpha_name: "WolframAlpha",
   wolframalpha_desc: "WolframAlpha is a computational knowledge engine that provides expert-level answers by combining curated data, algorithms, and symbolic computation. It powers intelligent search, math solving, and data analysis across science, finance, and everyday queries.",
   "perplexity_desc": "Perplexity is an AI-powered search and answer engine that combines large language models with real-time web browsing. It delivers concise, cited responses to user queries, making it ideal for research, fact-checking, and exploration. Users can interact conversationally, follow up with related questions, and access features like Spaces, Pages, and Pro Search for deeper investigations.",
