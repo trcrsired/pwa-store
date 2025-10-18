@@ -188,6 +188,7 @@ WRAPPERS = [
   { "name": "POLITICO", "url": "https://www.politico.com"},
   { "name": "The Daily Signal", "url": "https://www.dailysignal.com", "keyify_name": "dailysignal" },
   { "name": "FreightWaves", "url": "https://www.freightwaves.com" },
+  { "name": "ADWEEK", "url": "https://www.adweek.com" },
 
   { "name" : "HotCRP", "url": "https://hotcrp.com" },
   { "name": "ACM", "url": "https://www.acm.org" },

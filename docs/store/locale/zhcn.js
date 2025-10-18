@@ -528,6 +528,8 @@ const L = {
   dailysignal_desec: "一个关注政策、政治与文化的新闻平台，立场偏向保守派观点。",
   freightwaves_name: "FreightWaves",
   freightwaves_desc: "领先的货运市场情报、物流新闻和供应链分析平台。FreightWaves 为运输行业专业人士和分析师提供数据驱动的洞察。",
+  adweek_name: "ADWEEK",
+  adweek_desc: "ADWEEK 是一个媒体包装器，聚焦广告、营销和品牌战略洞察，通过 AI 生成摘要与评论，快速呈现 ADWEEK 编辑内容的核心观点。",
   ifeng_name: "凤凰网",
   ifeng_desc: "综合性中文新闻门户，涵盖时政、财经、文化及全球热点资讯。",
   tencent_name: "腾讯新闻",

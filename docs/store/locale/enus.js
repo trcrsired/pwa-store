@@ -528,6 +528,8 @@ const L = {
   dailysignal_desec: "A news platform focused on policy, politics, and culture from a conservative perspective.",
   freightwaves_name: "FreightWaves",
   freightwaves_desc: "A leading source for real-time freight market intelligence, logistics news, and supply chain analytics. FreightWaves delivers data-driven insights for transportation professionals and industry analysts.",
+  adweek_name: "ADWEEK",
+  adweek_desc: "ADWEEK is a media wrapper focused on advertising, marketing, and brand strategy insights. It aggregates AI-generated summaries and commentary from ADWEEK’s editorial content for fast, contextual access.",
   ifeng_name: "ifeng (凤凰网)",
   ifeng_desc: "Comprehensive Chinese news portal offering coverage of current affairs, finance, culture, and global events.",
   tencent_name: "Tencent News (腾讯新闻)",
