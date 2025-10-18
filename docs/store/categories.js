@@ -120,6 +120,7 @@ export const categories = [
       { name: "Microsoft Store", nameKey: "msstore_name", icon: "icons/wrappers/msstore.webp", url: "https://apps.microsoft.com", descriptionKey: "msstore_desc" },
       { name: "Microsoft Tech Community", nameKey: "mstechcommunity_name", icon: "icons/msft.webp", url: "https://techcommunity.microsoft.com", descriptionKey: "mstechcommunity_desc" },
       { name: "Microsoft Account",  nameKey: "microsoftaccount_name", descriptionKey: "microsoftaccount_desc", icon: "icons/wrappers/microsoft.webp", url: "/wrappers/microsoftaccount", apptype: "wrapper" },
+      { name: "Microsoft Partner",  nameKey: "microsoftpartner_name", descriptionKey: "microsoftpartner_desc", icon: "icons/wrappers/microsoft.webp", url: "/wrappers/microsoftpartner", apptype: "wrapper" },
       { name: "MSN", nameKey: "msn_name", icon: "icons/wrappers/msn.webp", url: "/wrappers/msn", descriptionKey: "msn_desc", apptype: "wrapper" },
       { name: "Bing", nameKey: "bing_name", icon: "icons/wrappers/bing.webp", url: "/wrappers/bing", descriptionKey: "bing_desc", apptype: "wrapper" },
       { name: "Bing Videos", nameKey: "bingvideos_name", descriptionKey: "bingvideos_desc", icon: "icons/wrappers/bing.webp", url: "/wrappers/bingvideos", descriptionKey: "bingvideos_desc", apptype: "wrapper" },

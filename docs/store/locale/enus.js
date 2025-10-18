@@ -88,6 +88,8 @@ const L = {
   "onedrive_desc": "Cloud storage with robust PWA features.",
   "microsoftaccount_name": "Microsoft Account",
   "microsoftaccount_desc": "A unified identity system for accessing Microsoft services, syncing preferences, and managing connected apps securely.",
+  microsoftpartner_name: "Microsoft Partner",
+  microsoftpartner_desc: "Microsoft Partner is a gateway to certified solutions, services, and providers within the Microsoft ecosystem—ideal for businesses seeking trusted technology partners.",
   "msn_name": "MSN",
   "msn_desc": "A web portal offering news, entertainment, lifestyle content, and access to Microsoft services.",
   "bing_name": "Bing",

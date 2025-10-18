@@ -88,6 +88,8 @@ const L = {
   "onedrive_desc": "具备强大 PWA 功能的云存储服务。",
   "microsoftaccount_name": "微软账户",
   "microsoftaccount_desc": "用于访问微软服务的统一身份系统，支持同步偏好设置并安全管理已连接的应用。",
+  microsoftpartner_name: "微软合作伙伴",
+  microsoftpartner_desc: "微软合作伙伴平台是连接微软生态系统中认证解决方案、服务和提供商的门户，适合寻求可信技术合作方的企业用户。",
   "msn_name": "MSN",
   "msn_desc": "一个提供新闻、娱乐、生活方式内容以及微软服务入口的网络门户。",
   "bing_name": "必应",

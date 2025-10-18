@@ -1,0 +1,17 @@
+{
+  "name": "Microsoft Partner",
+  "short_name": "Microsoft Partner",
+  "start_url": "/wrappers/microsoftpartner/?source=pwa",
+  "scope": "/wrappers/microsoftpartner/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Microsoft Partner",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/microsoftpartner/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

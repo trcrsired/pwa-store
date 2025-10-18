@@ -30,6 +30,7 @@ WRAPPERS = [
   { "name": "stack.watch", "url": "https://stack.watch", "keyify_name": "stackwatch" },
   { "name": "NIST Time", "url": "https://www.time.gov", "keyify_name": "timegov" },
   { "name": "Microsoft Account", "url": "https://account.microsoft.com", "icon": "microsoft.webp" },
+  { "name": "Microsoft Partner", "url": "https://partner.microsoft.com", "icon": "microsoft.webp" },
   { "name": "MSN", "url": "https://www.msn.com" },
   { "name": "Bing", "url": "https://www.bing.com" },
   { "name": "Bing Videos", "url": "https://www.bing.com/videos", "icon": "bing.webp" },
