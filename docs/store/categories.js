@@ -1002,6 +1002,13 @@ export const categories = [
         url: "https://coinmarketcap.com"
       },
       {
+        name: "CoinStats",
+        nameKey: "coinstats_name",
+        descriptionKey: "coinstats_desc",
+        icon: "icons/coinstats.webp",
+        url: "https://coinstats.app"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",
