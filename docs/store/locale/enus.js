@@ -78,6 +78,8 @@ const L = {
   wolframalpha_name: "WolframAlpha",
   wolframalpha_desc: "WolframAlpha is a computational knowledge engine that provides expert-level answers by combining curated data, algorithms, and symbolic computation. It powers intelligent search, math solving, and data analysis across science, finance, and everyday queries.",
   "perplexity_desc": "Perplexity is an AI-powered search and answer engine that combines large language models with real-time web browsing. It delivers concise, cited responses to user queries, making it ideal for research, fact-checking, and exploration. Users can interact conversationally, follow up with related questions, and access features like Spaces, Pages, and Pro Search for deeper investigations.",
+  lmarena_name: "LMArena",
+  lmarena_desc: "LMArena is an open evaluation platform for large language models, created by researchers at UC Berkeley. It enables public comparison of AI responses through prompting, voting, and leaderboard rankings.",
   g2ai_name: "G2 AI",
   g2ai_desc: "G2 AI is an AI-first software search tool powered by G2’s review data. It helps users discover, compare, and evaluate software through natural language queries and intelligent recommendations. Visit ai.g2.com to explore.",
   "cursor_name": "Cursor",

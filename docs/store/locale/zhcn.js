@@ -78,6 +78,8 @@ const L = {
   wolframalpha_name: "WolframAlpha",
   wolframalpha_desc: "WolframAlpha 是一个计算知识引擎，通过整合数据、算法和符号计算，为科学、金融及日常问题提供专业级答案。广泛应用于智能搜索、数学求解和数据分析。",
   "perplexity_desc": "Perplexity 是一款由人工智能驱动的搜索与问答引擎，结合大型语言模型与实时网页浏览功能，能够快速生成带有引用的精准答案。它支持对话式查询、深度研究、文档分析和图像识别，适用于学术探索、信息检索和专业内容整合。高级用户还可使用 Pro 模式进行多模态搜索与定制化报告生成。",
+  lmarena_name: "LMArena",
+  lmarena_desc: "LMArena 是由加州大学伯克利分校研究人员创建的开放评测平台，通过提示、投票和排行榜对大型语言模型进行公开比较。",
   g2ai_name: "G2 AI",
   g2ai_desc: "G2 AI 是一个以人工智能为核心的软件搜索工具，基于 G2 的评价数据驱动。用户可以通过自然语言提问，智能获取软件推荐与对比分析。访问 ai.g2.com 了解更多。",
   "cursor_name": "Cursor",
