@@ -1,11 +1,11 @@
 {
-  "name": "tencentyuanbao",
-  "short_name": "tencentyuanbao",
+  "name": "Tencent Yuanbao",
+  "short_name": "Tencent Yuanbao",
   "start_url": "/wrappers/tencentyuanbao/?source=pwa",
   "scope": "/wrappers/tencentyuanbao/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "PWA Wrapper for tencentyuanbao",
+  "description": "PWA Wrapper for Tencent Yuanbao",
   "display": "standalone",
   "icons": [
     {
