@@ -924,6 +924,8 @@ const L = {
   ruanyifeng_desc: "A renowned Chinese tech blogger and author, known for clear tutorials on web technologies, JavaScript, and software engineering.",
   veritasium_name: "Veritasium",
   veritasium_desc: "Engaging science and engineering videos that explore complex ideas with clarity and curiosity.",
+  thelundukejournal_name: "The Lunduke Journal",
+  thelundukejournal_desc: "The Lunduke Journal features independent tech commentary, open source insights, and cultural analysis by Bryan Lunduke.",
   usgov_name: "United States Government🇺🇸",
   irs_name: "IRS",
   irs_desc: "Official site of the U.S. Internal Revenue Service—access tax forms, file returns, track refunds, manage payments, and stay updated on federal tax regulations and news.",

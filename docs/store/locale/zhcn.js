@@ -924,6 +924,8 @@ const L = {
   ruanyifeng_desc: "知名技术博主与作家，专注于Web技术、JavaScript与软件工程的通俗教程与深度解析。",
   veritasium_name: "Veritasium",
   veritasium_desc: "用清晰而富有好奇心的方式探索科学与工程的复杂概念。",
+  thelundukejournal_name: "The Lunduke Journal",
+  thelundukejournal_desc: "The Lunduke Journal 提供 Bryan Lunduke 的独立技术评论、开源观点与文化分析。",
   usgov_name: "美国政府🇺🇸",
   irs_name: "美国国税局（IRS）",
   irs_desc: "美国国税局官方网站——获取税表、申报退税、管理付款，并了解联邦税收法规和最新动态。",

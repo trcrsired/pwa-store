@@ -3261,6 +3261,14 @@ export const categories = [
         url: "/wrappers/veritasium",
         apptype: "wrapper"
       },
+      {
+        name: "The Lunduke Journal",
+        nameKey: "thelundukejournal_name",
+        descriptionKey: "thelundukejournal_desc",
+        icon: "icons/wrappers/thelundukejournal.webp",
+        url: "/wrappers/thelundukejournal",
+        apptype: "wrapper"
+      },
     ]
   },
   {
