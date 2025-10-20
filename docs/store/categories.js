@@ -258,6 +258,13 @@ export const categories = [
         descriptionKey: "gitee_desc"
       },
       {
+        name: "GitFlic",
+        nameKey: "gitflic_name",
+        icon: "icons/gitflic.webp",
+        url: "https://gitflic.ru",
+        descriptionKey: "gitflic_desc"
+      },
+      {
         name: "Stack Overflow",
         nameKey: "stackoverflow_name",
         icon: "icons/stackoverflow.webp",

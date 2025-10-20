@@ -147,6 +147,8 @@ const L = {
   v2ray_desc: "Project V is a set of tools to help you build your own privacy network over internet. The core of Project V, named V2Ray, is responsible for network protocols and communications. It can work alone, as well as combine with other tools.",
   gitlab_desc: "DevOps powerhouse with full-stack Git repository management and robust PWA support. Enables seamless code hosting, issue tracking, CI/CD workflows, and real-time collaboration across teams.",
   gitee_desc: "China’s leading code hosting platform with native PWA support. Offers Git-based project management, team collaboration tools, and integrated CI/CD pipelines tailored to local developers and enterprises.",
+  gitflic_name: "GitFlic",
+  gitflic_desc: "A Russian-based Git hosting platform supporting open-source collaboration, code management, and decentralized development workflows.",
   stackoverflow_name: "Stack Overflow",
   stackoverflow_desc: "Stack Overflow is the largest, most trusted online community for developers to learn, share their programming knowledge, and build their careers.",
   mdn_name: "MDN Web Docs",

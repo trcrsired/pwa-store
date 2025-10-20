@@ -147,6 +147,8 @@ const L = {
   v2ray_desc: "Project V 是一套帮助你构建隐私网络的工具。核心组件 V2Ray 负责网络协议和通信，可独立运行或与其他工具组合使用。",
   gitlab_desc: "功能强大的 DevOps 平台，支持完整的 Git 仓库管理、CI/CD 流程和团队协作，原生支持 PWA。",
   gitee_desc: "中国领先的代码托管平台，原生支持 PWA，提供 Git 项目管理、团队协作和本地化 CI/CD 流程。",
+  gitflic_name: "GitFlic",
+  gitflic_desc: "GitFlic 是一个俄罗斯开发的 Git 托管平台，支持开源协作、代码管理与去中心化开发流程。",
   stackoverflow_name: "Stack Overflow",
   stackoverflow_desc: "全球最大的开发者社区，提供编程知识分享和职业发展支持。",
   mdn_name: "MDN Web 文档",
