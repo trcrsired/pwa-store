@@ -1,0 +1,17 @@
+{
+  "name": "tencentyuanbao",
+  "short_name": "tencentyuanbao",
+  "start_url": "/wrappers/tencentyuanbao/?source=pwa",
+  "scope": "/wrappers/tencentyuanbao/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for tencentyuanbao",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/tencentyuanbao/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

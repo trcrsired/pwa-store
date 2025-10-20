@@ -82,6 +82,8 @@ const L = {
   lmarena_desc: "LMArena 是由加州大学伯克利分校研究人员创建的开放评测平台，通过提示、投票和排行榜对大型语言模型进行公开比较。",
   g2ai_name: "G2 AI",
   g2ai_desc: "G2 AI 是一个以人工智能为核心的软件搜索工具，基于 G2 的评价数据驱动。用户可以通过自然语言提问，智能获取软件推荐与对比分析。访问 ai.g2.com 了解更多。",
+  tencentyuanbao_name: "腾讯元宝",
+  tencentyuanbao_desc: "腾讯元宝是腾讯基于自家混元模型推出的 AI 助手应用。",
   "cursor_name": "Cursor",
   "cursor_desc": "Cursor 是一款由 AI 驱动的编程助手，支持跨平台代码编写、重构与调试。其智能代理可生成文件、执行终端命令、分析完整代码库，并可通过网页、命令行和 Slack 使用。",
   "outlook_desc": "微软的网页邮箱和日历服务。",

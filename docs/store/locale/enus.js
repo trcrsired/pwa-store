@@ -82,6 +82,8 @@ const L = {
   lmarena_desc: "LMArena is an open evaluation platform for large language models, created by researchers at UC Berkeley. It enables public comparison of AI responses through prompting, voting, and leaderboard rankings.",
   g2ai_name: "G2 AI",
   g2ai_desc: "G2 AI is an AI-first software search tool powered by G2’s review data. It helps users discover, compare, and evaluate software through natural language queries and intelligent recommendations. Visit ai.g2.com to explore.",
+  tencentyuanbao_name: "Tencent Yuanbao",
+  tencentyuanbao_desc: "Tencent Yuanbao is an AI assistant app developed by Tencent, based on its Hunyuan model.",
   "cursor_name": "Cursor",
   "cursor_desc": "Cursor is an AI-powered coding assistant that helps developers write, refactor, and debug code across platforms. Its autonomous agents can generate files, run terminal commands, and analyze entire codebases—available via web, CLI, and Slack.",
   "outlook_desc": "Webmail and calendar by Microsoft.",
