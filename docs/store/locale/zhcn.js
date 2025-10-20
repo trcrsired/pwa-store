@@ -635,6 +635,8 @@ const L = {
   chronodivide_desc: "《红色警戒2：时空分裂》是一款由粉丝制作的浏览器游戏，致敬经典的《命令与征服：红色警戒2》。它忠实还原了即时战略的游戏体验，支持流畅的在线多人对战，拥有标志性的单位和充满怀旧感的画面——无需安装即可畅玩。无论你是指挥苏联军队，还是领导盟军部队，《时空分裂》都能让你在浏览器中重温时空科技与战场统治的战术快感。",
   floppybird_name: "Floppy Bird",
   floppybird_desc: "受原版 Flappy Bird 启发的网页复刻版，玩法相似但并非完全一致。",
+  eaglercraft_name: "Eaglercraft",
+  eaglercraft_desc: "在浏览器中畅玩经典 Minecraft，无需安装。Eaglercraft 让你随时随地开启像素冒险之旅。",
   mumu_cn_name: "MuMu模拟器",
   mumu_cn_desc: "网易 MuMu 安卓模拟器的中国本地化版本，面向国内用户，深度集成大陆游戏生态，简化 PC 端操作。",
   mumu_global_name: "MuMuPlayer",

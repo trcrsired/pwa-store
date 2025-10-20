@@ -635,6 +635,8 @@ const L = {
   chronodivide_desc: "RA2: Chrono Divide is a fan-made, browser-based tribute to the classic Command & Conquer: Red Alert 2. It faithfully recreates the real-time strategy experience with smooth online multiplayer, iconic units, and nostalgic visuals—all without needing to install a thing. Whether you're commanding Soviet forces or leading Allied troops, Chrono Divide lets you relive the tactical thrill of chrono technology and battlefield domination, right from your browser.",
   floppybird_name: "Floppy Bird",
   floppybird_desc: "A web-based remake inspired by the original Flappy Bird, with similar gameplay but not identical.",
+  eaglercraft_name: "Eaglercraft",
+  eaglercraft_desc: "Enjoy classic Minecraft gameplay directly in your browser. Eaglercraft brings the blocky adventure to any device—no installation needed.",
   mumu_cn_name: "MuMu Emulator (MuMu模拟器)",
   mumu_cn_desc: "Chinese-localized version of NetEase’s MuMu Android emulator, designed for domestic users with deep integration into mainland gaming ecosystems and simplified PC-side control.",
   mumu_global_name: "MuMuPlayer",

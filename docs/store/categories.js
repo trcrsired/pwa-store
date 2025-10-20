@@ -1843,6 +1843,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Eaglercraft",
+        nameKey: "eaglercraft_name",
+        descriptionKey: "eaglercraft_desc",
+        icon: "icons/wrappers/eaglercraft.webp",
+        url: "/wrappers/eaglercraft",
+        apptype: "wrapper"
+      },
+      {
         name: "MuMu Emulator (MuMu模拟器)",
         nameKey: "mumu_cn_name",
         descriptionKey: "mumu_cn_desc",
