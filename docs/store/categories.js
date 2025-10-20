@@ -1049,6 +1049,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "24/7 Wall St.",
+        nameKey: "247wallst_name",
+        descriptionKey: "247wallst_desc",
+        icon: "icons/wrappers/247wallst.webp",
+        url: "/wrappers/247wallst",
+        apptype: "wrapper"
+      },
+      {
         name: "Webull",
         nameKey: "webull_name",
         descriptionKey: "webull_desc",
@@ -1678,6 +1686,8 @@ export const categories = [
       { name: "The Daily Signal", nameKey: "dailysignal_name", descriptionKey: "dailysignal_desec", icon: "icons/wrappers/dailysignal.webp" , url: "/wrappers/dailysignal", apptype: "wrapper" },
       { name: "FreightWaves", nameKey: "freightwaves_name", descriptionKey: "freightwaves_desc", icon: "icons/wrappers/freightwaves.webp", url: "/wrappers/freightwaves", apptype: "wrapper" },
       { name: "ADWEEK", nameKey: "adweek_name", descriptionKey: "adweek_desc", url: "/wrappers/adweek", icon: "icons/wrappers/adweek.webp", apptype: "wrapper" },
+      { name: "HuffPost", nameKey: "huffpost_name", descriptionKey: "huffpost_desc", url: "/wrappers/huffpost", icon: "icons/wrappers/huffpost.webp", apptype: "wrapper" },
+      { name: "Miami Herald", nameKey: "miamiherald_name", descriptionKey: "miamiherald_desc", url: "/wrappers/miamiherald", icon: "icons/wrappers/miamiherald.webp", apptype: "wrapper" },
       { name: "ifeng (凤凰网)", nameKey: "ifeng_name", descriptionKey: "ifeng_desc", icon: "icons/wrappers/ifeng.webp", url: "/wrappers/ifeng", apptype: "wrapper" },
       { name: "Tencent News (腾讯新闻)", nameKey: "tencent_name", descriptionKey: "tencent_desc", icon: "icons/tencent_news.webp", url: "https://news.qq.com" },
       { name: "Baidu (百度)", nameKey: "baidu_name", descriptionKey: "baidu_desc", icon: "icons/baidu.webp", url: "https://www.baidu.com" },
@@ -3597,6 +3607,13 @@ export const categories = [
         descriptionKey: "deltadental_desc",
         icon: "icons/wrappers/deltadental.webp",
         url: "/wrappers/deltadental",
+        apptype: "wrapper"
+      },
+      {
+        name: "Women's Health",
+        nameKey: "womenshealth_name",
+        descriptionKey: "womenshealth_desc",
+        url: "/wrappers/womenshealth",
         apptype: "wrapper"
       },
       {
