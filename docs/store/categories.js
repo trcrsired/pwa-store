@@ -2156,10 +2156,10 @@ export const categories = [
       url: "https://quran.com"
       },
       {
-        name: "BibleGateway",
-        nameKey: "biblegateway_name",
-        descriptionKey: "biblegateway_desc",
-        icon: "icons/biblegateway.webp",
+        name: "BibleGateway.com",
+        nameKey: "biblegatewaycom_name",
+        descriptionKey: "biblegatewaycom_desc",
+        icon: "icons/biblegatewaycom.webp",
         url: "https://www.biblegateway.com"
       },
       {
