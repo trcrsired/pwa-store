@@ -3614,6 +3614,7 @@ export const categories = [
         nameKey: "womenshealth_name",
         descriptionKey: "womenshealth_desc",
         url: "/wrappers/womenshealth",
+        icon: "icons/wrappers/womenshealth.webp",
         apptype: "wrapper"
       },
       {
