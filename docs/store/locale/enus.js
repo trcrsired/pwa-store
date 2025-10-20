@@ -714,6 +714,8 @@ const L = {
   religion_name: "Religion",
   qurancom_name: "Quran.com",
   qurancom_desc: "Clean, mobile-optimized site for reading and listening to the Quran. Includes translations and tafsir.",
+  biblegateway_name: "BibleGateway",
+  biblegateway_desc: "Search, read, and compare Bible translations with ease. BibleGateway offers study tools, audio Bibles, and verse lookups in a clean, searchable interface.",
   biblecom_name: "YouVersion Bible",
   biblecom_desc: "Offers full text of the Bible in many translations. Includes reading plans, audio, and mobile apps.",
   analytics_name: "Analytics",
