@@ -2034,6 +2034,13 @@ export const categories = [
         url: "https://bestpianomethod.com"
       },
       {
+        name: "Gushiwen (古诗文网)",
+        nameKey: "gushiwen_name",
+        descriptionKey: "gushiwen_desc",
+        icon: "icons/gushiwen.webp",
+        url: "https://www.gushiwen.cn"
+      },
+      {
         name: "Eudic Dictionary (欧路词典)",
         nameKey: "eudic_name",
         descriptionKey: "eudic_desc",

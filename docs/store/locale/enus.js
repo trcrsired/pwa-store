@@ -683,6 +683,8 @@ const L = {
   physicslab_desc: "Interactive platform for simulating classical and modern physics experiments, including mechanics, optics, and electromagnetism. Designed for educational use with real-time visualization and configurable parameters.",
   bestpianomethod_name: "Best Piano Method",
   bestpianomethod_desc: "Learn piano with a proven step-by-step method designed for beginners and advancing players.",
+  gushiwen_name: "Gushiwen (古诗文网)",
+  gushiwen_desc: "Explore classical Chinese poetry and prose with Gushiwen—an extensive archive of annotated texts, author bios, and literary analysis.",
   eudic_name: "Eudic Dictionary (欧路词典)",
   eudic_desc: "Eudic is a multilingual dictionary and translation platform offering English-Chinese lookup, daily listening practice, document translation, and AI-powered writing tools. Optimized for Apple systems, it supports Mdx extensions and caters to learners, translators, and educators.",
   quanxue_name: "Quanxue (劝学)",
