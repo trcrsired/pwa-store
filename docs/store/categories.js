@@ -2296,6 +2296,13 @@ export const categories = [
         url: "https://www.onlinemictest.com"
       },
       {
+        name: "StatsCrop",
+        namekey: "statscrop_name",
+        descriptionKey: "statscrop_desc",
+        icon: "icons/statscrop.webp",
+        url: "https://www.statscrop.com"
+      },
+      {
         name: "BrowserBench",
         nameKey: "browserbench_name",
         descriptionKey: "browserbench_desc",

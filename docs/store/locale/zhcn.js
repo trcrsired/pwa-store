@@ -757,6 +757,8 @@ const L = {
   humanbenchmark_desc: "Human Benchmark 是一个基于浏览器的平台，提供认知能力测试和反应类小游戏。用户可通过互动挑战测量记忆力、反应速度、打字速度和模式识别等能力。测试结果可本地保存或通过账户登录进行进度跟踪。",
   onlinemictest_name: "Online Mic Test（在线麦克风测试）",
   onlinemictest_desc: "无需下载，即可在线测试麦克风。适用于排查各类设备的音频输入问题。",
+  statscrop_name: "StatsCrop",
+  statscrop_desc: "一个网站分析平台，提供流量估算、域名信息和SEO性能数据。",
   browserbench_name: "BrowserBench",
   browserbench_desc: "MotionMark 是一款用于测试浏览器图形系统性能的基准测试工具。",
   clearwebstats_name: "ClearWebStats",

@@ -757,6 +757,8 @@ const L = {
   humanbenchmark_desc: "Human Benchmark is a browser-based platform offering cognitive performance tests and reaction-based games. Users can measure abilities such as memory, reflexes, typing speed, and pattern recognition through interactive challenges. Results are stored locally or via account login for progress tracking.",
   onlinemictest_name: "Online Mic Test",
   onlinemictest_desc: "Instantly test your microphone online with no downloads required. Useful for troubleshooting audio input on any device.",
+  statscrop_name: "StatsCrop",
+  statscrop_desc: "A website analytics platform offering traffic estimates, domain insights, and SEO performance data.",
   browserbench_name: "BrowserBench",
   browserbench_desc: "MotionMark is a benchmark designed to put browser graphics systems to the test.",
   clearwebstats_name: "ClearWebStats",
