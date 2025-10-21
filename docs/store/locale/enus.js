@@ -772,7 +772,7 @@ const L = {
   roon_desc: "A high-fidelity music player and library manager that enriches your collection with artist bios, reviews, lyrics, photos, and cross-linked credits. Explore your music with context and clarity.",
   pocketcasts_name: "Pocket Casts",
   pocketcasts_desc: "A powerful podcast player offering smart recommendations, cross-device syncing, and a sleek interface.",
-  tonzhon_name: "Tonzhon",
+  tonzhon_name: "Tonzhon (铜钟)",
   tonzhon_desc: "A music web app focused on listening, offering rich music resources, refreshing UI, and intuitive interaction.",
   ecommerece_name: "E-commerece",
   starbucks_name: "Starbucks",
