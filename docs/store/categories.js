@@ -2188,6 +2188,14 @@ export const categories = [
         url: "/wrappers/animewiki",
         apptype: "wrapper"
       },
+      {
+        name: "Wikisource",
+        nameKey: "wikisource_name",
+        descriptionKey: "wikisource_desc",
+        icon: "icons/wrappers/wikisource.webp",
+        url: "/wrappers/wikisource",
+        apptype: "wrapper"
+      },
     ]
   },
   {

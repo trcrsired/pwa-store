@@ -1,0 +1,17 @@
+{
+  "name": "Wikisource",
+  "short_name": "Wikisource",
+  "start_url": "/wrappers/wikisource/?source=pwa",
+  "scope": "/wrappers/wikisource/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Wikisource",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/wikisource/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
