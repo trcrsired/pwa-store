@@ -508,6 +508,8 @@ const L = {
   france24_desc: "Global news channel offering 24/7 coverage in multiple languages, with a focus on international affairs, politics, and culture.",
   news18_name: "News18",
   news18_desc: "A leading Indian news platform offering real-time coverage of politics, entertainment, sports, and global events.",
+  japantoday_name: "Japan Today",
+  japantoday_desc: "An English-language news site covering current events, culture, and lifestyle in Japan.",
   hindustantimes_name: "Hindustan Times",
   hindustantimes_desc: "One of India's leading English-language newspapers, Hindustan Times delivers comprehensive coverage of national and international news, politics, business, sports, entertainment, and lifestyle. Owned by HT Media Ltd., it is known for its credible journalism and wide readership across major Indian cities.",
   nyt_name: "New York Times",
