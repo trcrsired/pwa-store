@@ -2357,6 +2357,13 @@ export const categories = [
         icon: "icons/pocketcasts.webp",
         url: "https://pocketcasts.com"
       },
+      {
+        name: "Tonzhon (铜钟)",
+        nameKey: "tonzhon_name",
+        descriptionKey: "tonzhon_desc",
+        icon: "icons/tonzhon.webp",
+        url: "https://tonzhon.whamon.com"
+      },
     ]
   },
   {

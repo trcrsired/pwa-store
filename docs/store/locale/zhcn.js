@@ -772,6 +772,8 @@ const L = {
   roon_desc: "一款高保真音乐播放器与资料管理平台，为你的音乐库添加艺人简介、评论、歌词、照片及关联创作者信息。让聆听更具深度与背景。",
   pocketcasts_name: "Pocket Casts",
   pocketcasts_desc: "功能强大的播客播放器，提供智能推荐、设备间同步和简洁界面。",
+  tonzhon_name: "铜钟",
+  tonzhon_desc: "一个专注于聆听的音乐网页应用，拥有丰富的音乐资源、清爽的界面和便捷的交互体验。",
   ecommerece_name: "电子商务",
   starbucks_name: "星巴克",
   starbucks_desc: "咖啡点单与会员积分管理。",
