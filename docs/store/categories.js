@@ -2143,6 +2143,13 @@ export const categories = [
         url: "https://wowdev.wiki"
       },
       {
+        name: "Emojis Wiki",
+        nameKey: "emojiswiki_name",
+        descriptionKey: "emojiswiki_desc",
+        icon: "icons/emojiswiki.webp",
+        url: "https://emojis.wiki"
+      },
+      {
         name: "Baidu Baike (百度百科)",
         nameKey: "baidubaike_name",
         descriptionKey: "baidubaike_desc",
