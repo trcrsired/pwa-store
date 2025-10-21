@@ -281,6 +281,8 @@ const L = {
   soul_desc: "A social networking app that connects users through shared interests and emotional resonance, fostering authentic relationships beyond appearances.",
   zoosk_name: "Zoosk",
   zoosk_desc: "Zoosk is a popular online dating platform that uses behavioral matchmaking technology to connect singles worldwide. With a user-friendly interface and smart matching features, Zoosk helps people find meaningful relationships in a fun and secure environment.",
+  mgtowtv_name: "MGTOW.TV",
+  mgtowtv_desc: "Independent video platform centered on men's issues, free speech, and uncensored creator content.",
   eharmony_name: "eHarmony",
   eharmony_desc: "A relationship-focused platform that facilitates user connections through profile matching and communication tools.",
   tieba_name: "Tieba (贴吧)",

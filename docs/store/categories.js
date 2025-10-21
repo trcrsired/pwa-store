@@ -846,6 +846,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "MGTOW.TV",
+        nameKey: "mgtowtv_name",
+        descriptionKey: "mgtowtv_desc",
+        icon: "icons/wrappers/mgtowtv.webp",
+        url: "/wrappers/mgtowtv",
+        apptype: "wrapper"
+      },
+      {
         name: "eHarmony",
         nameKey: "eharmony_name",
         icon: "icons/wrappers/eharmony.webp",
