@@ -281,6 +281,8 @@ const L = {
   soul_desc: "一款通过兴趣匹配与情感共鸣建立真实关系的社交平台，倡导“灵魂匹配”而非颜值社交。",
   zoosk_name: "Zoosk",
   zoosk_desc: "Zoosk 是一款广受欢迎的在线约会平台，采用行为匹配技术，帮助全球用户寻找理想伴侣。界面友好，匹配智能，为用户提供一个有趣且安全的交友环境，助你建立有意义的关系。",
+  mgtowtv_name: "MGTOW.TV",
+  mgtowtv_desc: "一个专注于男性话题的独立视频平台，提供言论自由和非审查的创作者内容。",
   eharmony_name: "eHarmony",
   eharmony_desc: "一个以关系为导向的平台，通过资料匹配和交流工具帮助用户建立联系。",
   tieba_name: "贴吧",
