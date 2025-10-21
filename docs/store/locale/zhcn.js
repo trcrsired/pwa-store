@@ -860,6 +860,8 @@ const L = {
   wellfound_desc: "Wellfound 是一个连接初创企业与求职者的平台，原名 AngelList Talent。用户可以浏览数千个科技和远程职位，直接向创始人或招聘经理申请，并集中管理自己的初创公司求职流程。",
   iguopin_name: "国聘",
   iguopin_desc: "由中国国家人才网运营的央企招聘平台，提供职位搜索、校园招聘、社会招聘、高端人才服务等功能。其PWA支持移动端访问、简历投递、在线测评及云宣讲会，适合高校毕业生及职场人士寻找央企及大型企业岗位。",
+  commonfloor_name: "CommonFloor.com",
+  commonfloor_desc: "一个印度房地产平台，提供房产信息、公寓管理工具和社区互动功能。",
   codesignal_name: "CodeSignal",
   codesignal_desc: "一个用于技术评估、面试准备和技能认证的平台，广泛应用于企业招聘和求职者提升。",
   remoteok_name: "Remote OK",

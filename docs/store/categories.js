@@ -3131,6 +3131,13 @@ export const categories = [
         url: "https://www.iguopin.com",
       },
       {
+        name: "CommonFloor.com",
+        nameKey: "commonfloor_name",
+        descriptionKey: "commonfloor_desc",
+        icon: "icons/commonfloor.webp",
+        url: "https://www.commonfloor.com"
+      },
+      {
         name: "CodeSignal",
         nameKey: "codesignal_name",
         descriptionKey: "codesignal_desc",
