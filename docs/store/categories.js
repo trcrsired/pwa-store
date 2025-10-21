@@ -1618,6 +1618,13 @@ export const categories = [
         url: "https://www.wsj.com"
       },
       {
+        name: "Washington Times",
+        nameKey: "washingtontimes_name",
+        descriptionKey: "washingtontimes_desc",
+        icon: "icons/washingtontimes.webp",
+        url: "https://www.washingtontimes.com"
+      },
+      {
         name: "South China Morning Post",
         nameKey: "scmp_name",
         descriptionKey: "scmp_desc",

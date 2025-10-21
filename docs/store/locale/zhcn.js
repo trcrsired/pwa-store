@@ -496,6 +496,8 @@ const L = {
   variety_desc: "娱乐行业的权威之声，深入报道电影、电视、戏剧与科技领域的全球动态。",
   thewallstreetjournal_name: "华尔街日报（The Wall Street Journal）",
   thewallstreetjournal_desc: "全球知名报纸，自1889年由道琼斯公司创办，权威报道商业、金融、经济与国际事务。",
+  washingtontimes_name: "华盛顿时报（Washington Times）",
+  washingtontimes_desc: "一家倾向保守派的美国日报，以政治报道、评论文章和国家新闻闻名。",
   scmp_name: "南华早报",
   scmp_desc: "一家总部位于香港的新闻媒体，报道中国、亚洲及全球事务，涵盖政治、经济、科技与文化等领域。",
   inc_name: "Inc.",
