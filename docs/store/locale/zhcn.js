@@ -1034,6 +1034,8 @@ const L = {
   overleaf_desc: "Overleaf 是一个基于云端的 LaTeX 编辑平台，专为学术写作和技术文档设计。它支持多人实时协作、自动编译文档，并与参考文献管理工具无缝集成，特别适合撰写论文、报告、简历和演示文稿等结构化文档。用户无需安装任何软件，即可在线编辑和预览 LaTeX 文档。",
   secdeadlines_name: "安全与隐私会议截止时间",
   secdeadlines_desc: "顶级安全与隐私会议的截止时间倒计时。",
+  pewresearch_name: "皮尤研究中心（Pew Research Center）",
+  pewresearch_desc: "皮尤研究中心（Pew Research Center）是一个非党派的事实研究机构，专注于民意调查、人口统计与社会科学研究，旨在丰富公共对话并支持理性决策。",
   hotcrp_name: "HotCRP",
   hotcrp_desc: "一个基于网络的会议管理系统，用于论文提交、评审和决策跟踪。",
   acm_name: "ACM",

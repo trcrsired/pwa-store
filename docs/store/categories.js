@@ -3768,6 +3768,13 @@ export const categories = [
         url: "https://sec-deadlines.github.io",
       },
       {
+        name: "Pew Research Center",
+        nameKey: "pewresearch_name",
+        descriptionKey: "pewresearch_desc",
+        icon: "icons/pewresearch.webp",
+        url: "https://www.pewresearch.org"
+      },
+      {
         name: "HotCRP",
         nameKey: "hotcrp_name",
         descriptionKey: "hotcrp_desc",

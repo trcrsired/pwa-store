@@ -1034,6 +1034,8 @@ const L = {
   overleaf_desc: "Overleaf is a cloud-based LaTeX editor designed for collaborative academic and technical writing. It enables real-time co-authoring, automatic document compilation, and seamless integration with citation tools, making it ideal for researchers, scientists, and students preparing structured documents such as papers, theses, and reports.",
   secdeadlines_name: "Security and Privacy Conference Deadlines",
   secdeadlines_desc: "Countdowns to top Security and Privacy conference deadlines.",
+  pewresearch_name: "Pew Research Center",
+  pewresearch_desc: "A nonpartisan fact tank that conducts public opinion polling, demographic studies, and social science research to inform public dialogue and decision-making.",
   hotcrp_name: "HotCRP",
   hotcrp_desc: "A web-based conference management system for paper submission, review, and decision tracking.",
   acm_name: "ACM",
