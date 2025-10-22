@@ -846,14 +846,6 @@ export const categories = [
         apptype: "wrapper"
       },
       {
-        name: "MGTOW.TV",
-        nameKey: "mgtowtv_name",
-        descriptionKey: "mgtowtv_desc",
-        icon: "icons/wrappers/mgtowtv.webp",
-        url: "/wrappers/mgtowtv",
-        apptype: "wrapper"
-      },
-      {
         name: "eHarmony",
         nameKey: "eharmony_name",
         icon: "icons/wrappers/eharmony.webp",
@@ -3352,6 +3344,36 @@ export const categories = [
         descriptionKey: "thelundukejournal_desc",
         icon: "icons/wrappers/thelundukejournal.webp",
         url: "/wrappers/thelundukejournal",
+        apptype: "wrapper"
+      },
+    ]
+  },
+  {
+    name: "Manosphere",
+    nameKey: "manosphere_name",
+    apps : [
+      {
+        name: "MGTOW.TV",
+        nameKey: "mgtowtv_name",
+        descriptionKey: "mgtowtv_desc",
+        icon: "icons/wrappers/mgtowtv.webp",
+        url: "/wrappers/mgtowtv",
+        apptype: "wrapper"
+      },
+      {
+        name: "Better Bachelor",
+        nameKey: "betterbachelor_name",
+        descriptionKey: "betterbachelor_desc",
+        icon: "icons/wrappers/batterbachelor.webp",
+        url: "/wrappers/betterbachelor",
+        apptype: "wrapper"
+      },
+      {
+        name: "The33Secrets",
+        nameKey: "the33secrets_name",
+        descriptionKey: "the33secrets_desc",
+        icon: "icons/wrappers/the33secrects.webp",
+        url: "/wrappers/the33secrects",
         apptype: "wrapper"
       },
     ]

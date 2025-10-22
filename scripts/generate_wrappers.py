@@ -137,6 +137,11 @@ WRAPPERS = [
   { "name": "阮一峰", "url": "https://www.ruanyifeng.com", "keyify_name": "ruanyifeng" },
   { "name": "Veritasium", "url": "https://www.veritasium.com" },
   { "name": "The Lunduke Journal", "url": "https://lunduke.com" },
+
+  { "name": "MGTOW.TV", "url": "https://www.mgtow.tv" },
+  { "name": "Better Bachelor", "url": "https://betterbachelor.locals.com" },
+  { "name": "The33Secrets", "url": "https://www.the33secrets.com"},
+
   { "name": "CurseForge", "url": "https://www.curseforge.com" },
   { "name": "MineCraft Forum", "url": "https://www.minecraftforum.net", "keyify_name": "minecraftforum" },
   { "name": "IGN", "url": "https://www.ign.com" },

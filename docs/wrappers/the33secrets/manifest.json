@@ -1,0 +1,17 @@
+{
+  "name": "The33Secrets",
+  "short_name": "The33Secrets",
+  "start_url": "/wrappers/the33secrets/?source=pwa",
+  "scope": "/wrappers/the33secrets/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for The33Secrets",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/the33secrets/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

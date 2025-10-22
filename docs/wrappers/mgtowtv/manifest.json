@@ -1,0 +1,17 @@
+{
+  "name": "MGTOW.TV",
+  "short_name": "MGTOW.TV",
+  "start_url": "/wrappers/mgtowtv/?source=pwa",
+  "scope": "/wrappers/mgtowtv/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for MGTOW.TV",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/mgtowtv/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

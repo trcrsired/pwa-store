@@ -1,0 +1,17 @@
+{
+  "name": "Better Bachelor",
+  "short_name": "Better Bachelor",
+  "start_url": "/wrappers/betterbachelor/?source=pwa",
+  "scope": "/wrappers/betterbachelor/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Better Bachelor",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/betterbachelor/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
