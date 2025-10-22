@@ -1430,6 +1430,13 @@ export const categories = [
         url: "https://lifehacker.com"
       },
       {
+        name: "Durov's Code",
+        nameKey: "durovscode_name",
+        descriptionKey: "durovscode_desc",
+        icon: "icons/durovscode.webp",
+        url: "https://durovscode.com"
+      },
+      {
         name: "Level1Techs",
         nameKey: "level1techs_name",
         descriptionKey: "level1techs_desc",

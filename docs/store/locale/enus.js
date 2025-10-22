@@ -400,6 +400,8 @@ const L = {
   phoronixforums_desc: "A community forum focused on Linux hardware reviews and technical discussions.",
   lifehacker_name: "Lifehacker",
   lifehacker_desc: "Lifehacker offers practical tips, productivity hacks, and tech advice to help you work smarter and live better.",
+  durovscode_name: "Durov's Code",
+  durovscode_desc: "Durov's Code covers tech, geopolitics, and digital freedom—offering sharp analysis and Telegram-centric news from a Russian perspective.",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community.",
   juejin_name: "Juejin",

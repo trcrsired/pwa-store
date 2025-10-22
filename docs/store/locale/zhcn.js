@@ -400,6 +400,8 @@ const L = {
   phoronixforums_desc: "一个专注于 Linux 硬件评测和技术讨论的社区论坛。",
   lifehacker_name: "Lifehacker",
   lifehacker_desc: "Lifehacker 提供实用技巧、效率提升方法和科技建议，帮助你更聪明地工作、更高效地生活。",
+  durovscode_name: "Durov's Code",
+  durovscode_desc: "Durov's Code 提供关于科技、地缘政治与数字自由的深度报道，聚焦 Telegram 生态与俄罗斯视角的分析。",
   linuxdo_name: "LINUX DO",
   linuxdo_desc: "LINUX DO 是面向中文用户的 Linux 门户网站，提供新闻、教程、发行版信息与开源开发资源，服务于技术爱好者与专业人士。",
   juejin_name: "掘金",
