@@ -3372,8 +3372,8 @@ export const categories = [
         name: "The33Secrets",
         nameKey: "the33secrets_name",
         descriptionKey: "the33secrets_desc",
-        icon: "icons/wrappers/the33secrects.webp",
-        url: "/wrappers/the33secrects",
+        icon: "icons/wrappers/the33secrets.webp",
+        url: "/wrappers/the33secrets",
         apptype: "wrapper"
       },
     ]
