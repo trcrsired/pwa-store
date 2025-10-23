@@ -3884,6 +3884,8 @@ export const categories = [
     name: "Adult",
     nameKey: "adult_name",
     apps: [
+      { name: "CrashOn.AI", icon: "icons/crushonai.webp", url: "https://crushon.ai", nameKey: "crushonai_name", descriptionKey: "crushonai_desc" },
+      { name: "Girlfriend AI", icon: "icons/girlfriendai.webp", url: "https://girlfriend.ai", nameKey: "girlfriendai_name", descriptionKey: "girlfriendai_desc" },
       {
         name: "Pornhub",
         nameKey: "pornhub_name",
@@ -3941,8 +3943,6 @@ export const categories = [
         icon: "icons/theporndude.webp",
         url: "https://theporndude.com"
       },
-      { name: "CrashOn.AI", icon: "icons/crushonai.webp", url: "https://crushon.ai", nameKey: "crushonai_name", descriptionKey: "crushonai_desc" },
-      { name: "Girlfriend AI", icon: "icons/girlfriendai.webp", url: "https://girlfriend.ai", nameKey: "girlfriendai_name", descriptionKey: "girlfriendai_desc" },
       {
         name: "JavHDPorn",
         nameKey: "javhdporn_name",
