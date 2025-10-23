@@ -242,6 +242,8 @@ const L = {
   facebook_desc: "Meta’s primary social platform.",
   teaforwomen_name: "Tea For Women",
   teaforwomen_desc: "A women-only dating safety app designed to expose red flags and verify identities before meeting someone new. Tea lets users anonymously share dating experiences, run background checks, and use AI tools like reverse image search and phone number lookup. Founded by Sean Cook and powered by SafeSip moderation, Tea has become a viral platform for women to protect each other and date smarter—now one of the top-rated lifestyle apps in the U.S.",
+  teaonher_name: "TeaOnHer",
+  teaonher_desc: "A male-oriented dating review platform where men anonymously share experiences and ratings about women.",
   tinder_desc: "Swipe-based dating experience.",
   truthsocial_name: "Truth Social",
   truthsocial_desc: "Truth Social is an alt-tech social media platform owned by Trump Media & Technology Group (TMTG), an American media and technology company majority-owned by U.S. president Donald Trump.",

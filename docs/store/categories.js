@@ -678,6 +678,13 @@ export const categories = [
         descriptionKey: "facebook_desc"
       },
       {
+        name: "Tinder",
+        icon: "icons/tinder.webp",
+        url: "https://tinder.com",
+        descriptionKey: "tinder_desc"
+      },
+/*
+      {
         name: "Tea For Women",
         nameKey: "teaforwomen_name",
         descriptionKey: "teaforwomen_desc",
@@ -685,11 +692,13 @@ export const categories = [
         url: "https://www.teaforwomen.com"
       },
       {
-        name: "Tinder",
-        icon: "icons/tinder.webp",
-        url: "https://tinder.com",
-        descriptionKey: "tinder_desc"
+        name: "TeaOnHer",
+        nameKey: "teaonher_name",
+        descriptionKey: "teaonher_desc",
+        icon: "icons/teaonher.webp",
+        url: "https://www.teaonher.com"
       },
+*/
       {
         name: "Truth Social",
         nameKey: "truthsocial_name",

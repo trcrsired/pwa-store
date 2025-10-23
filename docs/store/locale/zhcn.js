@@ -242,6 +242,8 @@ const L = {
   facebook_desc: "Meta 的主要社交平台。",
   teaforwomen_name: "Tea For Women (为女性的茶)",
   teaforwomen_desc: "一款专为女性打造的约会安全应用，帮助用户在见面前识别风险、验证身份。Tea 支持匿名分享约会经历、背景调查、AI 反向图像搜索与手机号查询等功能。由 Sean Cook 创立，并搭载 SafeSip 内容审核系统，Tea 已成为美国最受欢迎的女性社交安全平台之一，致力于让女性更聪明、更安全地约会。",
+  teaonher_name: "TeaOnHer",
+  teaonher_desc: "一个面向男性的约会评价平台，用户可匿名分享与女性的交往经历和评分。",
   tinder_desc: "基于滑动操作的约会体验。",
   truthsocial_name: "真实社交（Truth Social）",
   truthsocial_desc: "真实社交（Truth Social） 是一个另类科技社交平台，由美国媒体与科技公司 Trump Media & Technology Group（TMTG）运营，该公司由美国总统唐纳德·特朗普控股。",
