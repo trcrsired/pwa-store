@@ -89,6 +89,7 @@ export const categories = [
         name: "WolframAlpha", nameKey: "wolframalpha_name", icon: "icons/wolframalpha.webp", url: "https://www.wolframalpha.com", descriptionKey: "wolframalpha_desc"
       },
       { name: "LMArena", icon: "icons/lmarena.webp", url: "https://lmarena.ai", nameKey: "lmarena_name", descriptionKey: "lmarena_desc" },
+      { name: "CrashOn.AI", icon: "icons/crashonai.webp", url: "https://crushon.ai", nameKey: "crushonai_name", descriptionKey: "crushonai_desc" },
       { name: "Perplexity", icon: "icons/wrappers/perplexity.webp", url: "/wrappers/perplexity", descriptionKey: "perplexity_desc", apptype: "wrapper" },
       { name: "G2 AI", nameKey: "g2ai_name", icon: "icons/wrappers/g2ai.webp", url: "/wrappers/g2ai", descriptionKey: "g2ai_desc", apptype: "wrapper" },
       { name: "Tencent Yuanbao (腾讯元宝)", nameKey: "tencentyuanbao_name", descriptionKey: "tencentyuanbao_desc", apptype: "wrapper", icon: "icons/wrappers/tencentyuanbao.webp", url: "/wrappers/tencentyuanbao" },
