@@ -82,6 +82,8 @@ const L = {
   lmarena_desc: "LMArena is an open evaluation platform for large language models, created by researchers at UC Berkeley. It enables public comparison of AI responses through prompting, voting, and leaderboard rankings.",
   crushonai_name: "CrushOn.AI",
   crushonai_desc: "An unfiltered AI chat platform where users create and interact with custom characters for storytelling, romance, or roleplay.",
+  girlfriendai_name: "Girlfriend AI",
+  girlfriendai_desc: "A virtual companion platform where men interact with AI-generated girlfriends for chat, emotional support, and roleplay.",
   g2ai_name: "G2 AI",
   g2ai_desc: "G2 AI is an AI-first software search tool powered by G2’s review data. It helps users discover, compare, and evaluate software through natural language queries and intelligent recommendations. Visit ai.g2.com to explore.",
   tencentyuanbao_name: "Tencent Yuanbao (腾讯元宝)",

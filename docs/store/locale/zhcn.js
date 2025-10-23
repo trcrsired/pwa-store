@@ -82,6 +82,8 @@ const L = {
   lmarena_desc: "LMArena 是由加州大学伯克利分校研究人员创建的开放评测平台，通过提示、投票和排行榜对大型语言模型进行公开比较。",
   crushonai_name: "CrushOn.AI",
   crushonai_desc: "一个开放式AI聊天平台，用户可创建并与自定义角色互动，用于故事创作、恋爱模拟或角色扮演。",
+  girlfriendai_name: "Girlfriend AI",
+  girlfriendai_desc: "一个虚拟伴侣平台，男性用户可与AI生成的女友进行聊天、情感交流和角色扮演。",
   g2ai_name: "G2 AI",
   g2ai_desc: "G2 AI 是一个以人工智能为核心的软件搜索工具，基于 G2 的评价数据驱动。用户可以通过自然语言提问，智能获取软件推荐与对比分析。访问 ai.g2.com 了解更多。",
   tencentyuanbao_name: "腾讯元宝",
