@@ -3941,7 +3941,7 @@ export const categories = [
         icon: "icons/theporndude.webp",
         url: "https://theporndude.com"
       },
-      { name: "CrashOn.AI", icon: "icons/crashonai.webp", url: "https://crushon.ai", nameKey: "crushonai_name", descriptionKey: "crushonai_desc" },
+      { name: "CrashOn.AI", icon: "icons/crushonai.webp", url: "https://crushon.ai", nameKey: "crushonai_name", descriptionKey: "crushonai_desc" },
       {
         name: "JavHDPorn",
         nameKey: "javhdporn_name",
