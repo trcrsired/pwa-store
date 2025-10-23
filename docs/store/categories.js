@@ -2168,6 +2168,13 @@ export const categories = [
         url: "https://emojis.wiki"
       },
       {
+        name: "The Apple Wiki",
+        nameKey: "theapplewiki_name",
+        descriptionKey: "theapplewiki_desc",
+        icon: "icons/theapplewiki.webp",
+        url: "https://theapplewiki.com"
+      },
+      {
         name: "Baidu Baike (百度百科)",
         nameKey: "baidubaike_name",
         descriptionKey: "baidubaike_desc",

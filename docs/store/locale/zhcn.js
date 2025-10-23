@@ -729,6 +729,8 @@ const L = {
   wowdevwiki_desc: "WoWDev维基（WoWDev wiki）是一个专注于《魔兽世界》技术文档的社区平台，涵盖游戏文件格式、内存结构与客户端行为分析。内容涉及多个版本（如经典旧世、巫妖王之怒、德拉诺之王），并收录 ADT、WMO、M2、DBC、CASC 等格式的详细说明。该站由社区维护，适用于开发者、模组作者及逆向工程人员进行工具开发与数据研究。",
   emojiswiki_name: "Emojis维基（Emojis Wiki）",
   emojiswiki_desc: "一个全面的表情符号维基，提供每个表情的含义、分类和使用示例。",
+  theapplewiki_name: "苹果维基（EmojisThe Apple Wiki）",
+  theapplewiki_desc: "关于苹果硬件、软件及内部文档的全面资源库。",
   marxistsorg_name: "马克思主义互联网文库",
   marxistsorg_desc: "马克思主义互联网文库是一个非营利的在线百科全书，自1990年起收录了多语言版本的共产主义、无政府主义和社会主义思想家的著作，包括马克思、恩格斯、列宁、托洛茨基、斯大林、毛泽东、卢森堡、巴枯宁、克鲁泡特金、蒲鲁东，以及相关甚至无关思想家的作品（如孙子）。",
   osdevorg_name: "OSDev.org",
