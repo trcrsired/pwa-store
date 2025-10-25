@@ -854,14 +854,6 @@ export const categories = [
         apptype: "wrapper"
       },
       {
-        name: "Tieba (贴吧)",
-        nameKey: "tieba_name",
-        icon: "icons/wrappers/tieba.webp",
-        url: "/wrappers/tieba",
-        descriptionKey: "tieba_desc",
-        apptype: "wrapper"
-      },
-      {
         name: "Tencent Meeting (腾讯会议)",
         nameKey: "tencentmeeting_name",
         icon: "icons/wechatmini/tencentmeeting.webp",
