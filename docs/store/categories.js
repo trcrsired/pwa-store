@@ -678,6 +678,13 @@ export const categories = [
         descriptionKey: "facebook_desc"
       },
       {
+        name: "Tinder",
+        icon: "icons/tinder.webp",
+        url: "https://tinder.com",
+        descriptionKey: "tinder_desc"
+      },
+/*
+      {
         name: "Tea For Women",
         nameKey: "teaforwomen_name",
         descriptionKey: "teaforwomen_desc",
@@ -685,11 +692,13 @@ export const categories = [
         url: "https://www.teaforwomen.com"
       },
       {
-        name: "Tinder",
-        icon: "icons/tinder.webp",
-        url: "https://tinder.com",
-        descriptionKey: "tinder_desc"
+        name: "TeaOnHer",
+        nameKey: "teaonher_name",
+        descriptionKey: "teaonher_desc",
+        icon: "icons/teaonher.webp",
+        url: "https://www.teaonher.com"
       },
+*/
       {
         name: "Truth Social",
         nameKey: "truthsocial_name",
@@ -2163,6 +2172,13 @@ export const categories = [
         descriptionKey: "emojiswiki_desc",
         icon: "icons/emojiswiki.webp",
         url: "https://emojis.wiki"
+      },
+      {
+        name: "The Apple Wiki",
+        nameKey: "theapplewiki_name",
+        descriptionKey: "theapplewiki_desc",
+        icon: "icons/theapplewiki.webp",
+        url: "https://theapplewiki.com"
       },
       {
         name: "Baidu Baike (百度百科)",
@@ -3881,6 +3897,8 @@ export const categories = [
     name: "Adult",
     nameKey: "adult_name",
     apps: [
+      { name: "CrashOn.AI", icon: "icons/crushonai.webp", url: "https://crushon.ai", nameKey: "crushonai_name", descriptionKey: "crushonai_desc" },
+      { name: "Girlfriend AI", icon: "icons/girlfriendai.webp", url: "https://girlfriend.ai", nameKey: "girlfriendai_name", descriptionKey: "girlfriendai_desc" },
       {
         name: "Pornhub",
         nameKey: "pornhub_name",
