@@ -1450,6 +1450,13 @@ export const categories = [
         url: "https://juejin.cn",
         descriptionKey: "juejin_desc"
       },
+      {
+        name: "V2EX",
+        nameKey: "v2ex_name",
+        descriptionKey: "v2ex_desc",
+        icon: "icons/v2ex.webp",
+        url: "https://global.v2ex.co"
+      },
     ]
   },
   {
@@ -1995,6 +2002,13 @@ export const categories = [
         icon: "icons/wrappers/wowhead.webp",
         url: "/wrappers/wowhead",
         apptype: "wrapper"
+      },
+      {
+        name: "NGA",
+        nameKey: "ngacn_name",
+        descriptionKey: "ngacn_desc",
+        icon: "icons/ngacn.webp",
+        url: "/wrappers/ngacn"
       },
       {
         name: "World of Warcraft (China)",
