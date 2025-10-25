@@ -2016,7 +2016,7 @@ export const categories = [
         name: "NGA",
         nameKey: "ngacn_name",
         descriptionKey: "ngacn_desc",
-        icon: "icons/ngacn.webp",
+        icon: "icons/wrappers/ngacn.webp",
         url: "/wrappers/ngacn"
       },
       {
