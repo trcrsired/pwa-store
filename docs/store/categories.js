@@ -3336,6 +3336,13 @@ export const categories = [
         url: "https://app.pwapilipinas.org"
       },
       {
+        name: "Richard Dawkins",
+        nameKey: "richarddawkins_name",
+        descriptionKey: "richarddawkins_desc",
+        icon: "icons/richarddawkins.webp",
+        url: "https://www.richarddawkins.com"
+      },
+      {
         name: "Herb Sutter",
         nameKey: "herbsutter_name",
         descriptionKey: "herbsutter_desc",
