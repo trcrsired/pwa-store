@@ -206,6 +206,7 @@ WRAPPERS = [
   { "name": "ADWEEK", "url": "https://www.adweek.com" },
   { "name": "HuffPost", "url": "https://www.huffpost.com" },
   { "name": "Miami Herald", "url": "https://www.miamiherald.com" },
+  { "name": "Financial Times", "url": "https://www.ft.com" },
 
   { "name" : "HotCRP", "url": "https://hotcrp.com" },
   { "name": "ACM", "url": "https://www.acm.org" },

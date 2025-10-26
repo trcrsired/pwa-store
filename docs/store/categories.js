@@ -1690,7 +1690,6 @@ export const categories = [
         url: "https://www.news18.com"
       },
       { name: "Japan Today", nameKey: "japantoday_name", descriptionKey: "japantoday_desc", url: "https://japantoday.com", icon: "icons/japantoday.webp" },
-
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url: "/wrappers/nytimes", apptype: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url: "/wrappers/washingtonpost", apptype: "wrapper" },
       { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url: "/wrappers/reuters", apptype: "wrapper" },
@@ -1727,6 +1726,7 @@ export const categories = [
       { name: "ADWEEK", nameKey: "adweek_name", descriptionKey: "adweek_desc", url: "/wrappers/adweek", icon: "icons/wrappers/adweek.webp", apptype: "wrapper" },
       { name: "HuffPost", nameKey: "huffpost_name", descriptionKey: "huffpost_desc", url: "/wrappers/huffpost", icon: "icons/wrappers/huffpost.webp", apptype: "wrapper" },
       { name: "Miami Herald", nameKey: "miamiherald_name", descriptionKey: "miamiherald_desc", url: "/wrappers/miamiherald", icon: "icons/wrappers/miamiherald.webp", apptype: "wrapper" },
+      { name: "Financial Times", nameKey: "financialtimes_name", descriptionKey: "financialtimes_desc", url: "/wrappers/financialtimes", icon: "icons/wrappers/financialtimes.webp", apptype: "wrapper" },
       { name: "ifeng (凤凰网)", nameKey: "ifeng_name", descriptionKey: "ifeng_desc", icon: "icons/wrappers/ifeng.webp", url: "/wrappers/ifeng", apptype: "wrapper" },
       { name: "Tencent News (腾讯新闻)", nameKey: "tencent_name", descriptionKey: "tencent_desc", icon: "icons/tencent_news.webp", url: "https://news.qq.com" },
       { name: "Baidu (百度)", nameKey: "baidu_name", descriptionKey: "baidu_desc", icon: "icons/baidu.webp", url: "https://www.baidu.com" },

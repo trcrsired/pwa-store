@@ -1,0 +1,17 @@
+{
+  "name": "Financial Times",
+  "short_name": "Financial Times",
+  "start_url": "/wrappers/financialtimes/?source=pwa",
+  "scope": "/wrappers/financialtimes/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Financial Times",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/financialtimes/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
