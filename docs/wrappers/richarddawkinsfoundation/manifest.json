@@ -1,0 +1,17 @@
+{
+  "name": "Richard Dawkins Foundation",
+  "short_name": "Richard Dawkins Foundation",
+  "start_url": "/wrappers/richarddawkinsfoundation/?source=pwa",
+  "scope": "/wrappers/richarddawkinsfoundation/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Richard Dawkins Foundation",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/richarddawkinsfoundation/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

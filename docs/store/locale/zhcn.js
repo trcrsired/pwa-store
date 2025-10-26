@@ -960,6 +960,8 @@ const L = {
   pwapilipinas_desc: "一个由社区推动的平台，通过教育、活动和倡导在菲律宾推广渐进式网络应用程序。",
   richarddawkins_name: "理查德·道金斯（Richard Dawkins）",
   richarddawkins_desc: "进化生物学家与作家，以《自私的基因》、模因概念及其对科学与世俗主义的倡导而闻名。",
+  richarddawkinsfoundation_name: "理查德·道金斯基金会（Richard Dawkins Foundation）",
+  richarddawkinsfoundation_desc: "一个通过教育与倡导推动科学素养、世俗主义和批判性思维的组织。",
   herbsutter_name: "赫布·萨特（Herb Sutter）",
   herbsutter_desc: "赫布·萨特（ISO C++ 标准委员会 WG21 主席）个人博客，分享关于现代 C++ 的深度文章、编程语言演进的见解，是开发者寻求清晰性、严谨性和设计理念的重要资源。",
   bjarnestroustrup_name: "本贾尼·斯特劳斯特卢普（Bjarne Stroustrup）",

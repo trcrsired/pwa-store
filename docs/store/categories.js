@@ -3343,6 +3343,13 @@ export const categories = [
         url: "https://www.richarddawkins.com"
       },
       {
+        name: "Richard Dawkins Foundation",
+        nameKey: "richarddawkinsfoundation_name",
+        descriptionKey: "richarddawkinsfoundation_desc",
+        icon: "icons/wrappers/richarddawkinsfoundation.webp",
+        url: "https://richarddawkins.net"
+      },
+      {
         name: "Herb Sutter",
         nameKey: "herbsutter_name",
         descriptionKey: "herbsutter_desc",
