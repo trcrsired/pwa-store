@@ -3797,6 +3797,13 @@ export const categories = [
         url: "https://www.pewresearch.org"
       },
       {
+        name: "Communications of the ACM",
+        nameKey: "cacm_name",
+        descriptionKey: "cacm_desc",
+        icon: "icons/cacm.webp",
+        url: "https://cacm.acm.org"
+      },
+      {
         name: "HotCRP",
         nameKey: "hotcrp_name",
         descriptionKey: "hotcrp_desc",

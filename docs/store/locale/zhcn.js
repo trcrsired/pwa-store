@@ -1048,6 +1048,8 @@ const L = {
   secdeadlines_desc: "顶级安全与隐私会议的截止时间倒计时。",
   pewresearch_name: "皮尤研究中心（Pew Research Center）",
   pewresearch_desc: "皮尤研究中心（Pew Research Center）是一个非党派的事实研究机构，专注于民意调查、人口统计与社会科学研究，旨在丰富公共对话并支持理性决策。",
+  cacm_name: "ACM通讯（Communications of the ACM）",
+  cacm_desc: "ACM的旗舰期刊，聚焦计算领域的研究、趋势与创新洞察。",
   hotcrp_name: "HotCRP",
   hotcrp_desc: "一个基于网络的会议管理系统，用于论文提交、评审和决策跟踪。",
   acm_name: "ACM",

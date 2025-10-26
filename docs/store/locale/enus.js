@@ -1048,6 +1048,8 @@ const L = {
   secdeadlines_desc: "Countdowns to top Security and Privacy conference deadlines.",
   pewresearch_name: "Pew Research Center",
   pewresearch_desc: "A nonpartisan fact tank that conducts public opinion polling, demographic studies, and social science research to inform public dialogue and decision-making.",
+  cacm_name: "Communications of the ACM",
+  cacm_desc: "The flagship magazine of the ACM, featuring insights into computing research, trends, and innovations.",
   hotcrp_name: "HotCRP",
   hotcrp_desc: "A web-based conference management system for paper submission, review, and decision tracking.",
   acm_name: "ACM",
