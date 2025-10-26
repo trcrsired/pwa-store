@@ -1437,6 +1437,13 @@ export const categories = [
         url: "https://9to5mac.com",
       },
       {
+        name: "European Digital Rights (EDRi)",
+        nameKey: "edri_name",
+        descriptionKey: "edri_desc",
+        icon: "icons/edri.webp",
+        url: "https://edri.org"
+      },
+      {
         name: "Level1Techs",
         nameKey: "level1techs_name",
         descriptionKey: "level1techs_desc",
