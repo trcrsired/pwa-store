@@ -1446,6 +1446,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "9to5mac",
+        nameKey: "9to5mac_name",
+        descriptionKey: "9to5mac_desc",
+        icon: "icons/wrappers/9to5mac.webp",
+        url: "/wrappers/9to5mac",
+        apptype: "wrapper"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",

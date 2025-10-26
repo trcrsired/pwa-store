@@ -424,6 +424,8 @@ const L = {
   level1techs_desc: "Tech news, hardware reviews, and deep-dive discussions from the Level1Techs team. Explore open-source advocacy, enterprise setups, and DIY server builds with a pragmatic edge.",
   gamersnexus_name: "Gamers Nexus",
   gamersnexus_desc: "In-depth hardware reviews, thermal benchmarks, and investigative reporting from the Gamers Nexus team. Known for rigorous testing and transparency in PC component analysis.",
+  "9to5mac_name": "9to5Mac",
+  "9to5mac_desc": "A news site covering Apple products, software updates, and ecosystem developments.",
   rutrackerorg_name: "RuTracker.org",
   rutrackerorg_desc: "A Russian torrent tracker and forum offering a vast catalog of movies, music, software, books, and more. Known for its longevity and active user base.",
   archive_name: "Internet Archive",

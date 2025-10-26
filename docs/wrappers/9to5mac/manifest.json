@@ -1,0 +1,17 @@
+{
+  "name": "9to5mac",
+  "short_name": "9to5mac",
+  "start_url": "/wrappers/9to5mac/?source=pwa",
+  "scope": "/wrappers/9to5mac/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for 9to5mac",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/9to5mac/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
