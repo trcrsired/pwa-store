@@ -1430,6 +1430,13 @@ export const categories = [
         url: "https://durovscode.com"
       },
       {
+        name: "9to5mac",
+        nameKey: "9to5mac_name",
+        descriptionKey: "9to5mac_desc",
+        icon: "icons/9to5mac.webp",
+        url: "https://9to5mac.com",
+      },
+      {
         name: "Level1Techs",
         nameKey: "level1techs_name",
         descriptionKey: "level1techs_desc",
@@ -1443,14 +1450,6 @@ export const categories = [
         descriptionKey: "gamersnexus_desc",
         icon: "icons/wrappers/gamersnexus.webp",
         url: "/wrappers/gamersnexus",
-        apptype: "wrapper"
-      },
-      {
-        name: "9to5mac",
-        nameKey: "9to5mac_name",
-        descriptionKey: "9to5mac_desc",
-        icon: "icons/wrappers/9to5mac.webp",
-        url: "/wrappers/9to5mac",
         apptype: "wrapper"
       },
       {
