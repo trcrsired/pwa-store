@@ -430,6 +430,8 @@ const L = {
   "9to5mac_desc": "A news site covering Apple products, software updates, and ecosystem developments.",
   edri_name: "European Digital Rights (EDRi)",
   edri_desc: "An organization advocating for digital rights, privacy, and freedom of expression across Europe.",
+  techxplore_name: "Tech Xplore",
+  techxplore_desc: "Daily coverage of emerging technologies in computing, engineering, electronics, and energy innovation.",
   rutrackerorg_name: "RuTracker.org",
   rutrackerorg_desc: "A Russian torrent tracker and forum offering a vast catalog of movies, music, software, books, and more. Known for its longevity and active user base.",
   archive_name: "Internet Archive",

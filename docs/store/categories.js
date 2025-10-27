@@ -1445,6 +1445,13 @@ export const categories = [
         url: "https://edri.org"
       },
       {
+        name: "Tech Xplore",
+        nameKey: "techxplore_name",
+        descriptionKey: "techxplore_desc",
+        icon: "icons/techxplore.webp",
+        url: "https://techxplore.com"
+      },
+      {
         name: "Level1Techs",
         nameKey: "level1techs_name",
         descriptionKey: "level1techs_desc",

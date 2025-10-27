@@ -430,6 +430,8 @@ const L = {
   "9to5mac_desc": "一个报道苹果产品、软件更新和生态系统动态的新闻网站。",
   edri_name: "欧洲数字权利组织（EDRi）",
   edri_desc: "一个倡导数字权利、隐私和言论自由的欧洲组织。",
+  techxplore_name: "科技探索（Tech Xplore）",
+  techxplore_desc: "每日报道计算、工程、电子与能源领域的新兴技术与创新成果。",
   rutrackerorg_name: "RuTracker.org",
   rutrackerorg_desc: "俄罗斯的种子资源论坛，提供丰富的电影、音乐、软件、书籍等内容资源，以其历史悠久和活跃社区而闻名。",
   archive_name: "互联网档案馆",
