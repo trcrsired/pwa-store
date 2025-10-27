@@ -285,6 +285,8 @@ const L = {
   substack_desc: "Publish newsletters, grow your audience, and monetize your writing with Substack — a platform for independent publishing and direct reader support.",
   flickr_name: "Flickr",
   flickr_desc: "Photo-sharing platform for hosting, organizing, and discovering images and videos. Popular among photographers and hobbyists for its community features and licensing options.",
+  quora_name: "Quora",
+  quora_desc: "A global Q&A platform where users share insights, experiences, and expert knowledge across topics.",
   soul_name: "Soul",
   soul_desc: "A social networking app that connects users through shared interests and emotional resonance, fostering authentic relationships beyond appearances.",
   zoosk_name: "Zoosk",

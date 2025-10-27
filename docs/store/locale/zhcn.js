@@ -285,6 +285,8 @@ const L = {
   substack_desc: "通过 Substack 发布新闻通讯、拓展读者群并实现写作变现 —— 一个面向独立出版和读者支持的平台。",
   flickr_name: "Flickr",
   flickr_desc: "图片分享平台，用于托管、整理和发现照片与视频。因其社区互动和授权选项而受到摄影师与爱好者的欢迎。",
+  quora_name: "Quora",
+  quora_desc: "全球问答平台，用户在此分享见解、经验与各领域的专业知识。",
   soul_name: "Soul",
   soul_desc: "一款通过兴趣匹配与情感共鸣建立真实关系的社交平台，倡导“灵魂匹配”而非颜值社交。",
   zoosk_name: "Zoosk",

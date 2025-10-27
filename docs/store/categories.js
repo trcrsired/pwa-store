@@ -840,6 +840,13 @@ export const categories = [
         url: "https://www.flickr.com"
       },
       {
+        name: "Quora",
+        nameKey: "quora_name",
+        descriptionKey: "quora_desc",
+        icon: "icons/quora.webp",
+        url: "https://www.quora.com"
+      },
+      {
         name: "Soul",
         nameKey: "soul_name",
         descriptionKey: "soul_desc",
