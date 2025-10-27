@@ -2032,7 +2032,8 @@ export const categories = [
         nameKey: "ngacn_name",
         descriptionKey: "ngacn_desc",
         icon: "icons/wrappers/ngacn.webp",
-        url: "/wrappers/ngacn"
+        url: "/wrappers/ngacn",
+        apptype: "wrapper"
       },
       {
         name: "World of Warcraft (China)",
@@ -2899,6 +2900,13 @@ export const categories = [
         descriptionKey: "united_desc",
         icon: "icons/united.webp",
         url: "https://united.com"
+      },
+      {
+        name: "JetBlue",
+        nameKey: "jetblue_name",
+        descriptionKey: "jetblue_desc",
+        icon: "icons/jetblue.webp",
+        url: "https://www.jetblue.com"
       },
       {
         name: "FlixBus",

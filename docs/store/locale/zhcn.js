@@ -906,6 +906,8 @@ const L = {
   delta_desc: "管理航班、办理登机手续并跟踪状态——达美航空的 PWA 提供移动友好工具并集成 SkyMiles 会员系统。",
   united_name: "美联航",
   united_desc: "预订航班、管理订单并跟踪行程状态——美联航的 PWA 覆盖全球 300 多个目的地，支持 MileagePlus 奖励、移动登机和实时更新。",
+  jetblue_name: "JetBlue",
+  jetblue_desc: "一家总部位于美国的低成本航空公司，以实惠票价、机上娱乐和客户服务著称。",
   flixbus_name: "FlixBus",
   flixbus_desc: "探索美国及其他地区的 1800 多个目的地——FlixBus 的 PWA 支持实时购票与行程跟踪，提供 Wi-Fi、电源插座和宽敞座位。",
   sfexpress_name: "顺丰速运",

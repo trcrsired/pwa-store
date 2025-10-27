@@ -906,6 +906,8 @@ const L = {
   delta_desc: "Manage flights, check in, and track status—Delta’s installable PWA streamlines your journey with mobile-friendly tools and SkyMiles integration.",
   united_name: "United Airlines",
   united_desc: "Book flights, manage reservations, and track travel status—United’s installable PWA connects you to over 300 destinations worldwide with MileagePlus rewards, mobile check-in, and real-time updates.",
+  jetblue_name: "JetBlue",
+  jetblue_desc: "A U.S.-based low-cost airline known for affordable fares, in-flight entertainment, and customer service.",
   flixbus_name: "FlixBus",
   flixbus_desc: "Explore 1,800+ destinations across the US and beyond—FlixBus’s PWA lets you book tickets, track your ride in real time, and travel comfortably with Wi-Fi, outlets, and extra legroom.",
   sfexpress_name: "SF Express (顺丰速运)",
