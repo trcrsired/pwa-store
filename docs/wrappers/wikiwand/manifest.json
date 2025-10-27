@@ -1,0 +1,17 @@
+{
+  "name": "Wikiwand",
+  "short_name": "Wikiwand",
+  "start_url": "/wrappers/wikiwand/?source=pwa",
+  "scope": "/wrappers/wikiwand/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Wikiwand",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/wikiwand/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

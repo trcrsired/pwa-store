@@ -2204,6 +2204,13 @@ export const categories = [
         url: "https://theapplewiki.com"
       },
       {
+        name: "Uncyclopedia",
+        nameKey: "uncyclopedia_name",
+        descriptionKey: "uncyclopedia_desc",
+        icon: "icons/uncyclopedia.webp",
+        url: "https://en.uncyclopedia.co"
+      },
+      {
         name: "Baidu Baike (百度百科)",
         nameKey: "baidubaike_name",
         descriptionKey: "baidubaike_desc",
@@ -2248,6 +2255,14 @@ export const categories = [
         descriptionKey: "wikisource_desc",
         icon: "icons/wrappers/wikisource.webp",
         url: "/wrappers/wikisource",
+        apptype: "wrapper"
+      },
+      {
+        name: "Wikiwand",
+        nameKey: "wikiwand_name",
+        descriptionKey: "wikiwand_desc",
+        icon: "icons/wrappers/wikiwand.webp",
+        url: "/wrappers/wikiwand",
         apptype: "wrapper"
       },
     ]
