@@ -709,6 +709,8 @@ const L = {
   xiangyin_desc: "在“乡音”，您可以聆听各地朋友朗读诗词、影视台词、日常对话与笑话段子的方言录音，也可以分享自己的家乡话，与方言爱好者交流互动。平台还提供“乡音猜”游戏，挑战您识别录音者家乡的能力。为尊重方言细节差异，录音者位置采用约10公里网格匿名化处理，用户可在地图上浏览不同地区的方言分布。",
   bestpianomethod_name: "最佳钢琴教学法 (Best Piano Method)",
   bestpianomethod_desc: "采用循序渐进的教学法，适合初学者和进阶者的钢琴学习平台。",
+  studycountry_name: "国家学习 (StudyCountry)",
+  studycountry_desc: "全面了解世界各国的文化、教育、经济等信息，一站式国家资料平台。",
   gushiwen_name: "古诗文网",
   gushiwen_desc: "古诗文网收录大量中国古典诗词与文言文，提供注释、译文、赏析及作者资料，是学习传统文学的宝贵资源。",
   physicslab_name: "物理实验室",

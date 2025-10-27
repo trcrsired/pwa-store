@@ -711,6 +711,8 @@ const L = {
   physicslab_desc: "Interactive platform for simulating classical and modern physics experiments, including mechanics, optics, and electromagnetism. Designed for educational use with real-time visualization and configurable parameters.",
   bestpianomethod_name: "Best Piano Method",
   bestpianomethod_desc: "Learn piano with a proven step-by-step method designed for beginners and advancing players.",
+  studycountry_name: "StudyCountry",
+  studycountry_desc: "Explore comprehensive profiles of every nation—culture, education, economy, and more in one place.",
   gushiwen_name: "Gushiwen (古诗文网)",
   gushiwen_desc: "Explore classical Chinese poetry and prose with Gushiwen—an extensive archive of annotated texts, author bios, and literary analysis.",
   eudic_name: "Eudic Dictionary (欧路词典)",

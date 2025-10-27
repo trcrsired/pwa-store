@@ -2106,6 +2106,13 @@ export const categories = [
         url: "https://bestpianomethod.com"
       },
       {
+        name: "StudyCountry",
+        nameKey: "studycountry_name",
+        descriptionKey: "studycountry_desc",
+        icon: "icons/studycountry.webp",
+        url: "https://www.studycountry.com"
+      },
+      {
         name: "Gushiwen (古诗文网)",
         nameKey: "gushiwen_name",
         descriptionKey: "gushiwen_desc",
@@ -3423,7 +3430,7 @@ export const categories = [
         name: "Better Bachelor",
         nameKey: "betterbachelor_name",
         descriptionKey: "betterbachelor_desc",
-        icon: "icons/wrappers/batterbachelor.webp",
+        icon: "icons/wrappers/betterbachelor.webp",
         url: "/wrappers/betterbachelor",
         apptype: "wrapper"
       },
