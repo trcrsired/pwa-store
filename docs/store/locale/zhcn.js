@@ -719,6 +719,8 @@ const L = {
   studycountry_desc: "全面了解世界各国的文化、教育、经济等信息，一站式国家资料平台。",
   gushiwen_name: "古诗文网",
   gushiwen_desc: "古诗文网收录大量中国古典诗词与文言文，提供注释、译文、赏析及作者资料，是学习传统文学的宝贵资源。",
+  hellotyping_name: "打字侠",
+  hellotyping_desc: "一个专为学生设计的在线打字平台，提供趣味化和系统化课程，提升打字速度与准确率。",
   physicslab_name: "物理实验室",
   physicslab_desc: "一个用于模拟经典与现代物理实验的交互式平台，涵盖力学、光学、电磁学等领域。支持实时可视化和参数配置，专为教学用途设计。",
   eudic_name: "欧路词典",

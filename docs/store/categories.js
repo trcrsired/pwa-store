@@ -2142,6 +2142,13 @@ export const categories = [
         url: "https://www.gushiwen.cn"
       },
       {
+        name: "Hellotying (打字侠)",
+        nameKey: "hellotyping_name",
+        descriptionKey: "hellotyping_desc",
+        icon: "icons/hellotyping.webp",
+        url: "https://www.hellotyping.com"
+      },
+      {
         name: "Eudic Dictionary (欧路词典)",
         nameKey: "eudic_name",
         descriptionKey: "eudic_desc",

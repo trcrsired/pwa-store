@@ -721,6 +721,8 @@ const L = {
   studycountry_desc: "Explore comprehensive profiles of every nation—culture, education, economy, and more in one place.",
   gushiwen_name: "Gushiwen (古诗文网)",
   gushiwen_desc: "Explore classical Chinese poetry and prose with Gushiwen—an extensive archive of annotated texts, author bios, and literary analysis.",
+  hellotyping_name: "Hellotyping (打字侠)",
+  hellotyping_desc: "An online typing platform designed for students, offering fun and structured lessons to improve speed and accuracy.",
   eudic_name: "Eudic Dictionary (欧路词典)",
   eudic_desc: "Eudic is a multilingual dictionary and translation platform offering English-Chinese lookup, daily listening practice, document translation, and AI-powered writing tools. Optimized for Apple systems, it supports Mdx extensions and caters to learners, translators, and educators.",
   quanxue_name: "Quanxue (劝学)",
