@@ -586,6 +586,8 @@ const L = {
   honggehui_desc: "A Chinese platform dedicated to promoting red culture, revolutionary songs, and leftist thought. Honggehui curates classic socialist media, political commentary, and historical retrospectives to preserve collective memory and revolutionary spirit.",
   xinyusi_name: "Xinyusi (新语丝)",
   xinyusi_desc: "A Chinese-language platform founded by Fang Zhouzi (方舟子), known for independent commentary, cultural critique, and intellectual discourse. It features sharp essays and exposes on academic fraud, social issues, and political controversies.",
+  thechosundaily_name: "The Chosun Daily (조선일보)",
+  thechosundaily_desc: "A leading South Korean newspaper offering national and international news, opinion, and analysis.",
   fashion_name: "Fashion",
   instyle_name: "InStyle",
   instyle_desc: "InStyle is a trusted voice in fashion, beauty, and pop culture. Founded in 1994 and now part of Dotdash Meredith, it offers style inspiration, celebrity trends, and expert advice through a digital-only format.",

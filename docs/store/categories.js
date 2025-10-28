@@ -1778,6 +1778,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "The Chosun Daily (조선일보)",
+        nameKey: "thechosundaily_name",
+        descriptionKey: "thechosundaily_desc",
+        icon: "icons/wrappers/thechosundaily.webp",
+        url: "/wrappers/thechosundaily",
+        apptype: "wrapper"
+      },
+      {
         name: "Lianyungang Daily (连云港日报)",
         nameKey: "lygdaily_name",
         descriptionKey: "lygdaily_desc",
