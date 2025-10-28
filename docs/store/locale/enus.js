@@ -528,6 +528,8 @@ const L = {
   news18_desc: "A leading Indian news platform offering real-time coverage of politics, entertainment, sports, and global events.",
   japantoday_name: "Japan Today",
   japantoday_desc: "An English-language news site covering current events, culture, and lifestyle in Japan.",
+  theconversation_name: "The Conversation",
+  theconversation_desc: "An independent platform where academics share research-based insights and analysis on current affairs.",
   hindustantimes_name: "Hindustan Times",
   hindustantimes_desc: "One of India's leading English-language newspapers, Hindustan Times delivers comprehensive coverage of national and international news, politics, business, sports, entertainment, and lifestyle. Owned by HT Media Ltd., it is known for its credible journalism and wide readership across major Indian cities.",
   nyt_name: "New York Times",

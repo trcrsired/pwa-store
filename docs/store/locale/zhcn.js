@@ -528,6 +528,8 @@ const L = {
   news18_desc: "印度主流新闻平台，提供政治、娱乐、体育与国际事件的实时报道。",
   japantoday_name: "Japan Today",
   japantoday_desc: "一个英文新闻网站，报道日本的时事、文化和生活方式。",
+  theconversation_name: "The Conversation",
+  theconversation_desc: "一个独立平台，学者在此分享基于研究的洞见与时事分析。",
   hindustantimes_name: "印度斯坦时报",
   hindustantimes_desc: "《印度斯坦时报》（Hindustan Times）是印度领先的英文报纸之一，提供全面的国内外新闻、政治、商业、体育、娱乐和生活方式报道。由HT Media有限公司拥有，以其可信的新闻报道和在印度主要城市广泛的读者群体而闻名。",
   nyt_name: "纽约时报",
