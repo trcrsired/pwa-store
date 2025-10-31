@@ -1459,6 +1459,13 @@ export const categories = [
         url: "https://techxplore.com"
       },
       {
+        name: "Beebom Gadgets",
+        nammeKey: "beebomgadgets_name",
+        descriptionKey: "beebomgadgets_desc",
+        icon: "icons/wrappers/beebom.webp",
+        url: "https://gadgets.beebom.com"
+      },
+      {
         name: "Level1Techs",
         nameKey: "level1techs_name",
         descriptionKey: "level1techs_desc",
@@ -1472,6 +1479,14 @@ export const categories = [
         descriptionKey: "gamersnexus_desc",
         icon: "icons/wrappers/gamersnexus.webp",
         url: "/wrappers/gamersnexus",
+        apptype: "wrapper"
+      },
+      {
+        name: "Beebom",
+        nameKey: "beebom_name",
+        descriptionKey: "beebom_desc",
+        icon: "icons/wrappers/beebom.webp",
+        url: "https://beebom.com",
         apptype: "wrapper"
       },
       {
