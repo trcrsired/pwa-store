@@ -1,0 +1,17 @@
+{
+  "name": "Influencersplace",
+  "short_name": "Influencersplace",
+  "start_url": "/wrappers/influencersplace/?source=pwa",
+  "scope": "/wrappers/influencersplace/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Influencersplace",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/influencersplace/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -1221,6 +1221,14 @@ export const categories = [
         url: "https://www.g2.com",
         descriptionKey: "g2_desc"
       },
+      {
+        name: "Influencersplace",
+        nameKey: "influencersplace_name",
+        descriptionKey: "influencersplace_desc",
+        icon: "icons/wrappers/influencersplace.webp",
+        url: "/wrappers/influencersplace",
+        apptype: "wrapper"
+      },
     ]
   },
   {
@@ -1486,7 +1494,7 @@ export const categories = [
         nameKey: "beebom_name",
         descriptionKey: "beebom_desc",
         icon: "icons/wrappers/beebom.webp",
-        url: "https://beebom.com",
+        url: "/wrappers/beebom",
         apptype: "wrapper"
       },
       {

@@ -355,6 +355,8 @@ const L = {
   capterra_desc: "Capterra 是一个帮助企业寻找合适软件的平台，提供用户评价、评分和各类工具的对比信息。",
   g2_name: "G2",
   g2_desc: "G2 是一个值得信赖的软件评价平台，用户分享真实使用体验，帮助他人选择最适合的工具。",
+  influencersplace_name: "Influencersplace",
+  influencersplace_desc: "一个连接品牌方与网红、艺人和演讲嘉宾的平台，支持活动合作与出席邀请。",
   billing_key: "账单",
   onlinestategrid_name: "网上国网",
   onlinestategrid_desc: "国家电网官方小程序，提供电费缴纳、账户服务及用电信息查询功能。",

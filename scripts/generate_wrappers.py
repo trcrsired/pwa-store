@@ -26,6 +26,7 @@ WRAPPERS = [
   { "name": "Level1Techs", "url": "https://level1techs.com" },
   { "name": "Gamers Nexus", "url": "https://gamersnexus.net" },
   { "name": "Beebom", "url": "https://beebom.com" },
+  { "name": "Influencersplace", "url": "https://influencersplace.com" },
   { "name": "perplexity", "url": "https://www.perplexity.ai" },
   { "name": "G2 AI", "url": "https://ai.g2.com" },
   { "name": "Tencent Yuanbao", "url": "https://yuanbao.tencent.com/chat" },
