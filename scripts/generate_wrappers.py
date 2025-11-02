@@ -218,6 +218,7 @@ WRAPPERS = [
   { "name" : "Binghamton Univeristy", "url": "https://www.binghamton.edu", "keyify_name": "binghamton_edu"},
   { "name" : "Fudan University", "url": "https://www.fudan.edu.cn", "keyify_name": "fudan" },
 
+  { "name" : "Yande", "url": "https://yande.re" },
   { "name" : "MissAV TV", "url": "https://missavtv.com/en" },
   { "name" : "JavHDPorn", "url": "https://www4.javhdporn.net" },
   { "name" : "Supjav", "url": "https://supjav.com" },

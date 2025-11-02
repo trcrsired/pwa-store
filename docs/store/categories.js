@@ -2201,13 +2201,6 @@ export const categories = [
         icon: "icons/incel.webp",
         url: "https://incels.is"
       },
-      {
-        name: "4chan",
-        nameKey: "fourchan_name",
-        descriptionKey: "fourchan_desc",
-        icon: "icons/4chan.webp",
-        url: "https://4chan.org"
-      },
     ]
   },
   {
@@ -4009,6 +4002,34 @@ export const categories = [
         descriptionKey: "pwappnet_desc",
         icon: "icons/pwappnet.webp",
         url: "https://www.pwapp.net"
+      }
+    ]
+  },
+  {
+    name: "Boards",
+    nameKey: "boards_name",
+    apps: [
+      {
+        name: "4chan",
+        nameKey: "fourchan_name",
+        descriptionKey: "fourchan_desc",
+        icon: "icons/4chan.webp",
+        url: "https://4chan.org"
+      },
+      {
+        name: "Danbooru",
+        nameKey: "danbooru_name",
+        descriptionKey: "danbooru_desc",
+        icon: "icons/danbooru.webp",
+        url: "https://danbooru.donmai.us"
+      },
+      {
+        name: "Yande",
+        nameKey: "yande_name",
+        descriptionKey: "yande_desc",
+        icon: "icons/wrappers/yande.webp",
+        url: "/wrapper/yande",
+        apptype: "wrapper"
       }
     ]
   },
