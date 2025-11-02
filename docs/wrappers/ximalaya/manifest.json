@@ -1,0 +1,17 @@
+{
+  "name": "Ximalaya",
+  "short_name": "Ximalaya",
+  "start_url": "/wrappers/ximalaya/?source=pwa",
+  "scope": "/wrappers/ximalaya/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Ximalaya",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/ximalaya/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

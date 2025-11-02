@@ -644,6 +644,8 @@ const L = {
   wechatread_desc: "A sleek wrapper for WeChat Read (微信读书), Tencent's official reading platform offering ebooks, social reading insights, and seamless integration with the WeChat ecosystem.",
   qingtingfm_name: "Qingting FM (蜻蜓FM)",
   qingtingfm_desc: "Qingting FM is a leading Chinese audio platform offering podcasts, audiobooks, radio dramas, and talk shows. With over 4.5 billion users, it features content from 1500+ radio stations and 350,000 certified hosts, spanning culture, finance, history, and entertainment.",
+  ximalaya_name: "Ximalaya (喜马拉雅)",
+  ximalaya_desc: "China’s leading audio platform offering podcasts, audiobooks, radio dramas, and educational content across all age groups.",
   ted_name: "TED",
   ted_desc: "TED is a global platform where thinkers, creators, and doers share powerful, concise talks on topics ranging from science and tech to art, education, and social change. Whether it's a mind-blowing discovery or a fresh way to look at the world, TED showcases ideas that inspire and spark conversation.",
   lygfund_name: "Lianyungang Housing Fund (连云港住房公积金)",

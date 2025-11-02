@@ -1861,8 +1861,8 @@ export const categories = [
       { name: "Youku (优酷)", nameKey: "youku_name", descriptionKey: "youku_desc", icon: "icons/youku.webp", url: "https://www.youku.com" },
       { name: "Lightnovel Kingdom (轻之国度)", nameKey: "lightnovel_name", descriptionKey: "lightnovel_desc", icon: "icons/wrappers/lightnovelkingdom.webp", url: "/wrappers/lightnovelkingdom", apptype: "wrapper" },
       { name: "WeChat Read (微信读书)", nameKey: "wechatread_name", descriptionKey: "wechatread_desc", icon: "icons/wrappers/wechatread.webp", url: "/wrappers/wechatread", apptype: "wrapper" },
-      { name: "Qingting FM (蜻蜓FM)", nameKey: "qingtingfm_name", descriptionKey: "qingtingfm_desc", icon:
-        "icons/wrappers/qingtingfm.webp", apptype: "wrapper" },
+      { name: "Qingting FM (蜻蜓FM)", nameKey: "qingtingfm_name", descriptionKey: "qingtingfm_desc", icon: "icons/wrappers/qingtingfm.webp", apptype: "wrapper" },
+      { name: "Ximalaya (喜马拉雅)", nameKey: "ximalaya_name", descriptionKey: "ximalaya_desc", icon: "icons/wrappers/ximalaya.webp", url: "/wrappers/ximalaya", apptype: "wrapper" },
       { name: "TED", nameKey: "ted_name", descriptionKey: "ted_desc", icon: "icons/wrappers/ted.webp", url: "/wrappers/ted", apptype: "wrapper" },
       { name: "Netflix", nameKey: "netflix_name", descriptionKey: "netflix_desc", icon: "icons/wrappers/netflix.webp", url: "/wrappers/netflix", apptype: "wrapper" },
       { name: "Pixiv", nameKey: "pixiv_name", descriptionKey: "pixiv_desc", icon: "icons/wrappers/pixiv.webp", url: "/wrappers/pixiv", apptype: "wrapper"},
