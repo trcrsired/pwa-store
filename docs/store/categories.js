@@ -4028,7 +4028,7 @@ export const categories = [
         nameKey: "yande_name",
         descriptionKey: "yande_desc",
         icon: "icons/wrappers/yande.webp",
-        url: "/wrapper/yande",
+        url: "/wrappers/yande",
         apptype: "wrapper"
       }
     ]
