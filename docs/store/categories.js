@@ -1626,6 +1626,14 @@ export const categories = [
         url: "/wrappers/canva",
         apptype: "wrapper"
       },
+      {
+        name: "Meituxiuxiu (美图秀秀)",
+        nameKey: "meituxiuxiu_name",
+        descriptionKey: "meituxiuxiu_desc",
+        icon: "icons/wechatmini/meituxiuxiu.webp",
+        url: "#小程序://美图秀秀/slEOyrYdYezLVJp",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
@@ -3031,7 +3039,7 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
-        name: "Fengchao",
+        name: "Fengchao (丰巢)",
         nameKey: "fengchao_name",
         descriptionKey: "fengchao_desc",
         icon: "icons/wechatmini/fengchao.webp",

@@ -459,6 +459,8 @@ const L = {
   photopea_desc: "A professional-grade online photo editor supporting PSD and 40+ formats. Runs fully in-browser with no uploads required.",
   canva_name: "Canva",
   canva_desc: "Canva is a powerful online design platform that makes it easy for anyone to create stunning visuals. From social media posts and presentations to marketing materials and videos, Canva offers thousands of templates and intuitive tools—all in one place.",
+  meituxiuxiu_name: "Meituxiuxiu (美图秀秀)",
+  meituxiuxiu_desc: "A popular Chinese image editing app offering filters, retouching, collage tools, and AI-powered features like background removal and generative design.",
   news_name: "News",
   rt_name: "RT",
   rt_desc: "Russian international news outlet.",
