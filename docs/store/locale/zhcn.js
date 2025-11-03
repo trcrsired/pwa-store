@@ -578,6 +578,8 @@ const L = {
   huffpost_desc: "HuffPost 提供以人为本的新闻报道，涵盖政治、娱乐、生活方式与文化，展现多元声音与全球视角。",
   miamiherald_name: "Miami Herald",
   miamiherald_desc: "Miami Herald 创刊于 1903 年，是一家屡获普利策奖的报纸，专注报道南佛罗里达、拉美及加勒比地区的本地与国际新闻。",
+  rtaaf_name: "阿富汗国家广播电视台 (RTA)",
+  rtaaf_desc: "阿富汗的国家公共广播机构，提供新闻、文化节目以及电视和广播直播。",
   ifeng_name: "凤凰网",
   ifeng_desc: "综合性中文新闻门户，涵盖时政、财经、文化及全球热点资讯。",
   tencent_name: "腾讯新闻",

@@ -578,6 +578,8 @@ const L = {
   huffpost_desc: "HuffPost delivers people-first journalism across politics, entertainment, lifestyle, and culture—featuring diverse voices and global perspectives.",
   miamiherald_name: "Miami Herald",
   miamiherald_desc: "Founded in 1903, the Miami Herald is a Pulitzer-winning newspaper covering South Florida, Latin America, and the Caribbean with trusted local and international reporting.",
+  rtaaf_name: "Radio Television of Afghanistan (RTA)",
+  rtaaf_desc: "Afghanistan’s national public broadcaster offering news, cultural programming, and live TV and radio coverage.",
   ifeng_name: "ifeng (凤凰网)",
   ifeng_desc: "Comprehensive Chinese news portal offering coverage of current affairs, finance, culture, and global events.",
   tencent_name: "Tencent News (腾讯新闻)",

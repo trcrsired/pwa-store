@@ -1773,6 +1773,7 @@ export const categories = [
       { name: "HuffPost", nameKey: "huffpost_name", descriptionKey: "huffpost_desc", url: "/wrappers/huffpost", icon: "icons/wrappers/huffpost.webp", apptype: "wrapper" },
       { name: "Miami Herald", nameKey: "miamiherald_name", descriptionKey: "miamiherald_desc", url: "/wrappers/miamiherald", icon: "icons/wrappers/miamiherald.webp", apptype: "wrapper" },
       { name: "Financial Times", nameKey: "financialtimes_name", descriptionKey: "financialtimes_desc", url: "/wrappers/financialtimes", icon: "icons/wrappers/financialtimes.webp", apptype: "wrapper" },
+      { name: "Radio Television of Afghanistan (RTA)", nameKey: "rtaaf_name", descriptionKey: "rtaaf_desc", url: "/wrappers/rtaaf", icon: "icons/wrappers/rtaaf", apptype: "wrapper" },
       { name: "ifeng (凤凰网)", nameKey: "ifeng_name", descriptionKey: "ifeng_desc", icon: "icons/wrappers/ifeng.webp", url: "/wrappers/ifeng", apptype: "wrapper" },
       { name: "Tencent News (腾讯新闻)", nameKey: "tencent_name", descriptionKey: "tencent_desc", icon: "icons/tencent_news.webp", url: "https://news.qq.com" },
       { name: "Baidu (百度)", nameKey: "baidu_name", descriptionKey: "baidu_desc", icon: "icons/baidu.webp", url: "https://www.baidu.com" },
