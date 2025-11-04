@@ -3102,6 +3102,14 @@ export const categories = [
         icon: "icons/wechatmini/gangchengxing.webp",
         url: "#小程序://港城行/ZDQiyabYkugcPfE",
         apptype: "wechatmini"
+      },
+      {
+        name: "exingbao (e行宝)",
+        nameKey: "exingbao_name",
+        descriptionKey: "exingbao_desc",
+        icon: "icons/wechatmini/exingbao.webp",
+        url: "#小程序://e行宝/KSAhqf8mbuBcVgI",
+        apptype: "wechatmini"        
       }
     ]
   },

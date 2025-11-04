@@ -1185,6 +1185,8 @@ const L = {
   shanghaimetroqrcode_desc: "上海地铁官方乘车码微信小程序，支持扫码进站，便捷无现金出行。",
   gangchengxing_name: "港城行",
   gangchengxing_desc: "江苏连云港的城市服务微信小程序，支持扫码乘车与本地新闻资讯浏览。",
+  exingbao_name: "e行宝",
+  exingbao_desc: "由易行宝智慧交通科技有限公司推出的智慧出行微信小程序，提供ETC办理、车主工具及高速出行服务。",
   govservice_name: "国家政务服务平台",
   govservice_desc: "国家政务服务平台微信小程序，提供全国范围的公共服务，包括户籍办理、社保查询、医疗服务和出行证件等。为用户提供统一入口，便捷办理各类政务事项。",
   china12315_name: "12315",

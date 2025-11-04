@@ -1185,6 +1185,8 @@ const L = {
   shanghaimetroqrcode_desc: "A WeChat mini app for scanning QR codes to ride the Shanghai Metro, offering fast and cashless access.",
   gangchengxing_name: "Gangcheng Xing (港城行)",
   gangchengxing_desc: "A public service mini app for Lianyungang, Jiangsu (连云港, 江苏), offering metro QR code access and local news updates.",
+  exingbao_name: "exingbao (e行宝)",
+  exingbao_desc: "A smart mobility mini app by exingbao Intelligent Transportation Technology Co., Ltd., offering ETC services, vehicle tools, and highway travel support.",
   govservice_name: "National Government Service Platform (国家政务服务平台)",
   govservice_desc: "This WeChat Mini Program provides access to public services across China, including household registration, social security, healthcare, and travel documentation. It serves as a unified portal for citizens to manage official tasks and access government resources.",
   china12315_name: "12315",
