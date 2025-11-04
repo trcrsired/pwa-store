@@ -4010,6 +4010,14 @@ export const categories = [
         url: "#小程序://复旦智慧体育/RCIezHlBakAmR0z",
         apptype: "wechatmini"
       },
+      {
+        name: "Renmin University of China (中国人民大学)",
+        nameKey: "rucminiapp_name",
+        descriptionKey: "rucminiapp_desc",
+        icon: "icons/wechatmini/rucminiapp.webp",
+        url: "#小程序://中国人民大学/bDOYIXgDmHRivyx",
+        apptype: "wechatmini"
+      }
     ]
   },
   {

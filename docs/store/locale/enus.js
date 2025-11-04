@@ -1211,6 +1211,8 @@ const L = {
   fudanalumnicard_desc: "Developed by Fudan University’s Alumni Association and IT Office, this Mini Program enables alumni to verify their identity, access campus services, and enjoy exclusive benefits. Features include campus entry via QR code, dining access, library reservations, and future perks in travel, finance, and shopping.",
   fudansmartsports_name: "Fudan Smart Sports (复旦智慧体育)",
   fudansmartsports_desc: "A campus fitness platform for Fudan University students and faculty, offering exercise tracking, facility booking, and health data integration.",
+  rucminiapp_name: "Renmin University of China (中国人民大学)",
+  rucminiapp_desc: "The official WeChat mini app of Renmin University of China, offering campus services, news, and academic tools.",
   bosszhipin_name: "BOSS Zhipin (BOSS直聘)",
   bosszhipin_desc: "BOSS Zhipin is a direct-chat recruitment Mini Program that connects job seekers with hiring managers in real time. Users can browse openings, filter by location and role, and initiate conversations instantly—without intermediaries. The platform uses intelligent matching to recommend jobs based on resume and preferences.",
   yupaozhipin_name: "Yupao Zhipin (鱼泡直聘)",
