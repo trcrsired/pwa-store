@@ -138,6 +138,7 @@ WRAPPERS = [
   { "name": "ISO C++", "url": "https://isocpp.org" , "keyify_name": "isocpp"},
   { "name": "WeChat Read", "url": "https://weread.qq.com" , "keyify_name": "wechatread"},
   { "name": "Qingting FM", "url": "https://www.qtfm.cn" , "keyify_name": "qingtingfm"},
+  { "name": "Ximalaya", "url": "https://www.ximalaya.com" },
   { "name": "NVIDIA", "url": "https://www.nvidia.com" },
   { "name": "阮一峰", "url": "https://www.ruanyifeng.com", "keyify_name": "ruanyifeng" },
   { "name": "Veritasium", "url": "https://www.veritasium.com" },
@@ -211,6 +212,7 @@ WRAPPERS = [
   { "name": "HuffPost", "url": "https://www.huffpost.com" },
   { "name": "Miami Herald", "url": "https://www.miamiherald.com" },
   { "name": "Financial Times", "url": "https://www.ft.com" },
+  { "name": "Radio Television of Afghanistan", "url": "https://rta.af", "keyify_name": "rtaaf"},
 
   { "name" : "HotCRP", "url": "https://hotcrp.com" },
   { "name": "ACM", "url": "https://www.acm.org" },

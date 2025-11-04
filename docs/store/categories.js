@@ -1626,6 +1626,14 @@ export const categories = [
         url: "/wrappers/canva",
         apptype: "wrapper"
       },
+      {
+        name: "Meituxiuxiu (美图秀秀)",
+        nameKey: "meituxiuxiu_name",
+        descriptionKey: "meituxiuxiu_desc",
+        icon: "icons/wechatmini/meituxiuxiu.webp",
+        url: "#小程序://美图秀秀/slEOyrYdYezLVJp",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
@@ -1765,6 +1773,7 @@ export const categories = [
       { name: "HuffPost", nameKey: "huffpost_name", descriptionKey: "huffpost_desc", url: "/wrappers/huffpost", icon: "icons/wrappers/huffpost.webp", apptype: "wrapper" },
       { name: "Miami Herald", nameKey: "miamiherald_name", descriptionKey: "miamiherald_desc", url: "/wrappers/miamiherald", icon: "icons/wrappers/miamiherald.webp", apptype: "wrapper" },
       { name: "Financial Times", nameKey: "financialtimes_name", descriptionKey: "financialtimes_desc", url: "/wrappers/financialtimes", icon: "icons/wrappers/financialtimes.webp", apptype: "wrapper" },
+      { name: "Radio Television of Afghanistan (RTA)", nameKey: "rtaaf_name", descriptionKey: "rtaaf_desc", url: "/wrappers/rtaaf", icon: "icons/wrappers/rtaaf", apptype: "wrapper" },
       { name: "ifeng (凤凰网)", nameKey: "ifeng_name", descriptionKey: "ifeng_desc", icon: "icons/wrappers/ifeng.webp", url: "/wrappers/ifeng", apptype: "wrapper" },
       { name: "Tencent News (腾讯新闻)", nameKey: "tencent_name", descriptionKey: "tencent_desc", icon: "icons/tencent_news.webp", url: "https://news.qq.com" },
       { name: "Baidu (百度)", nameKey: "baidu_name", descriptionKey: "baidu_desc", icon: "icons/baidu.webp", url: "https://www.baidu.com" },
@@ -1853,8 +1862,8 @@ export const categories = [
       { name: "Youku (优酷)", nameKey: "youku_name", descriptionKey: "youku_desc", icon: "icons/youku.webp", url: "https://www.youku.com" },
       { name: "Lightnovel Kingdom (轻之国度)", nameKey: "lightnovel_name", descriptionKey: "lightnovel_desc", icon: "icons/wrappers/lightnovelkingdom.webp", url: "/wrappers/lightnovelkingdom", apptype: "wrapper" },
       { name: "WeChat Read (微信读书)", nameKey: "wechatread_name", descriptionKey: "wechatread_desc", icon: "icons/wrappers/wechatread.webp", url: "/wrappers/wechatread", apptype: "wrapper" },
-      { name: "Qingting FM (蜻蜓FM)", nameKey: "qingtingfm_name", descriptionKey: "qingtingfm_desc", icon:
-        "icons/wrappers/qingtingfm.webp", apptype: "wrapper" },
+      { name: "Qingting FM (蜻蜓FM)", nameKey: "qingtingfm_name", descriptionKey: "qingtingfm_desc", icon: "icons/wrappers/qingtingfm.webp", apptype: "wrapper" },
+      { name: "Ximalaya (喜马拉雅)", nameKey: "ximalaya_name", descriptionKey: "ximalaya_desc", icon: "icons/wrappers/ximalaya.webp", url: "/wrappers/ximalaya", apptype: "wrapper" },
       { name: "TED", nameKey: "ted_name", descriptionKey: "ted_desc", icon: "icons/wrappers/ted.webp", url: "/wrappers/ted", apptype: "wrapper" },
       { name: "Netflix", nameKey: "netflix_name", descriptionKey: "netflix_desc", icon: "icons/wrappers/netflix.webp", url: "/wrappers/netflix", apptype: "wrapper" },
       { name: "Pixiv", nameKey: "pixiv_name", descriptionKey: "pixiv_desc", icon: "icons/wrappers/pixiv.webp", url: "/wrappers/pixiv", apptype: "wrapper"},
@@ -3031,7 +3040,7 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
-        name: "Fengchao",
+        name: "Fengchao (丰巢)",
         nameKey: "fengchao_name",
         descriptionKey: "fengchao_desc",
         icon: "icons/wechatmini/fengchao.webp",

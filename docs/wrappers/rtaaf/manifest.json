@@ -1,0 +1,17 @@
+{
+  "name": "Radio Television of Afghanistan",
+  "short_name": "Radio Television of Afghanistan",
+  "start_url": "/wrappers/rtaaf/?source=pwa",
+  "scope": "/wrappers/rtaaf/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Radio Television of Afghanistan",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/rtaaf/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
