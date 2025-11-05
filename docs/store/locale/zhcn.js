@@ -538,6 +538,8 @@ const L = {
   japantoday_desc: "一个英文新闻网站，报道日本的时事、文化和生活方式。",
   theconversation_name: "The Conversation",
   theconversation_desc: "一个独立平台，学者在此分享基于研究的洞见与时事分析。",
+  theamericanprospect_name: "美国瞭望（The American Prospect）",
+  theamericanprospect_desc: "创刊于1990年的美国进步派杂志，聚焦政治、公共政策与思想评论，致力于通过叙事性报道与深度分析推动自由主义理念与公共讨论。",
   hindustantimes_name: "印度斯坦时报",
   hindustantimes_desc: "《印度斯坦时报》（Hindustan Times）是印度领先的英文报纸之一，提供全面的国内外新闻、政治、商业、体育、娱乐和生活方式报道。由HT Media有限公司拥有，以其可信的新闻报道和在印度主要城市广泛的读者群体而闻名。",
   nyt_name: "纽约时报",

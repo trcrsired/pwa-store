@@ -538,6 +538,8 @@ const L = {
   japantoday_desc: "An English-language news site covering current events, culture, and lifestyle in Japan.",
   theconversation_name: "The Conversation",
   theconversation_desc: "An independent platform where academics share research-based insights and analysis on current affairs.",
+  theamericanprospect_name: "The American Prospect",
+  theamericanprospect_desc: "A progressive magazine covering U.S. politics, public policy, and ideas. Founded in 1990, it features narrative journalism and analysis aimed at advancing liberal thought and informed debate.",
   hindustantimes_name: "Hindustan Times",
   hindustantimes_desc: "One of India's leading English-language newspapers, Hindustan Times delivers comprehensive coverage of national and international news, politics, business, sports, entertainment, and lifestyle. Owned by HT Media Ltd., it is known for its credible journalism and wide readership across major Indian cities.",
   nyt_name: "New York Times",

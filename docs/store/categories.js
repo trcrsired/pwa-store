@@ -1744,6 +1744,7 @@ export const categories = [
       },
       { name: "Japan Today", nameKey: "japantoday_name", descriptionKey: "japantoday_desc", url: "https://japantoday.com", icon: "icons/japantoday.webp" },
       { name: "The Conversation", nameKey: "theconversation_name", descriptionKey: "theconversation_desc", url: "https://theconversation.com", icon: "icons/theconversation.webp" },
+      { name: "The American Prospect", nameKey: "theamericanprospect_name", descriptionKey: "theamericanprospect_desc", url: "https://prospect.org", icon: "icons/theamericanprospect.webp" },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url: "/wrappers/nytimes", apptype: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url: "/wrappers/washingtonpost", apptype: "wrapper" },
       { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url: "/wrappers/reuters", apptype: "wrapper" },
