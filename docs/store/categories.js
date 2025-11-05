@@ -531,7 +531,15 @@ export const categories = [
         icon: "icons/native/visualstudio.webp",
         url: "https://github.com/trcrsired/windows-msvc-sysroot",
         apptype: "native"
-      }
+      },
+      {
+        name: "gcc-releases",
+        nameKey: "gccreleases_name",
+        descriptionKey: "gccreleases_desc",
+        icon: "icons/native/gcc.webp",
+        url: "https://github.com/trcrsired/gcc-releases/releases",
+        apptype: "native"
+      },
     ]
   },
   {
@@ -1929,6 +1937,13 @@ export const categories = [
         descriptionKey: "sricalculator_desc",
         icon: "icons/sricalculator.webp",
         url: "https://xyy.gta4.bio"
+      },
+      {
+        name: "2048 PWA",
+        nameKey: "pwa2048_name",
+        descriptionKey: "pwa2048_desc",
+        icon: "icons/pwa2048.webp",
+        url: "https://2048.skyafar.com"
       },
       {
         name: "Red Alert 2: Chrono Divide",

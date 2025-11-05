@@ -675,6 +675,8 @@ const L = {
   xboxcloudgaming_desc: "Microsoft’s cloud gaming platform that lets you stream console-quality games directly to your devices—no downloads, no console required. With Xbox Game Pass Ultimate, access hundreds of high-quality titles across phones, tablets, PCs, smart TVs, and more. Play instantly, pick up progress across devices, and experience next-gen gaming powered by the cloud.",
   sricalculator_name: "Sexual Repression Index Calculator (性压抑指数计算器)",
   sricalculator_desc: "Quantifies individual or societal sexual repression based on behavioral, cultural, and psychological indicators. Useful for comparative modeling, social analysis, and demographic forecasting.",
+  pwa2048_name: "2048 PWA",
+  pwa2048_desc: "A lightweight progressive web app version of the classic 2048 puzzle game, playable in any browser.",
   chronodivide_name: "RA2: Chrono Divide",
   chronodivide_desc: "RA2: Chrono Divide is a fan-made, browser-based tribute to the classic Command & Conquer: Red Alert 2. It faithfully recreates the real-time strategy experience with smooth online multiplayer, iconic units, and nostalgic visuals—all without needing to install a thing. Whether you're commanding Soviet forces or leading Allied troops, Chrono Divide lets you relive the tactical thrill of chrono technology and battlefield domination, right from your browser.",
   floppybird_name: "Floppy Bird",
@@ -1280,5 +1282,7 @@ const L = {
   llvmreleases_desc: "Personal builds by the author of this PWA Store, offering a custom LLVM distribution with over 15 cross-compiled targets and bundled sysroots. Includes toolchains for aarch64-windows-msvc, aarch64-apple-darwin, riscv64-linux-gnu, loongarch64-linux-gnu, aarch64-windows-gnu, aarch64-linux-android30, and wasm. Designed for reproducible, multi-target development across platforms, this native wrapper streamlines compiler deployment and cross-platform integration.",
   windowsmsvcsysroot_name: "windows-msvc-sysroot",
   windowsmsvcsysroot_desc: "Custom MSVC sysroot maintained by the author of this PWA Store. Provides standardized headers and libraries for the ${ARCH}-windows-msvc triplet, following GCC/Clang-style sysroot rules. Designed to support cross-compilation and canadian-compilation workflows, this native wrapper offers a clean alternative to ${ARCH}-windows-gnu setups for developers preferring MSVC semantics.",
+  gccreleases_name: "gcc-releases",
+  gccreleases_desc: "Personal builds by the author of this PWA Store, offering a custom GCC distribution with cross-compiled toolchains for x86_64-linux-gnu, x86_64-w64-mingw32, x86_64-elf, x86_64-freebsd, aarch64-linux-gnu, riscv64-linux-gnu, loongarch64-linux-gnu, and i586-msdosdjgpp. Designed for reproducible builds and multi-target development, this native wrapper simplifies compiler deployment across embedded, desktop, and legacy platforms.",
 };
 registerLocale("enus", L);

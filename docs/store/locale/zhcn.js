@@ -675,6 +675,8 @@ const L = {
   xboxcloudgaming_desc: "微软推出的云游戏平台，无需下载或主机，即可在手机、平板、电脑、智能电视等设备上畅玩主机级游戏。通过 Xbox Game Pass Ultimate，可访问数百款高质量游戏，随时随地即点即玩，跨设备同步进度，体验由云端驱动的次世代游戏体验。",
   sricalculator_name: "性压抑指数计算器",
   sricalculator_desc: "基于行为、文化与心理指标量化个人或社会的性压抑程度，适用于比较建模、社会分析与人口预测。",
+  pwa2048_name: "2048 PWA",
+  pwa2048_desc: "经典数字拼图游戏2048的轻量级渐进式网络应用，可在任意浏览器中畅玩。",
   chronodivide_name: "红警2：时空分裂",
   chronodivide_desc: "《红色警戒2：时空分裂》是一款由粉丝制作的浏览器游戏，致敬经典的《命令与征服：红色警戒2》。它忠实还原了即时战略的游戏体验，支持流畅的在线多人对战，拥有标志性的单位和充满怀旧感的画面——无需安装即可畅玩。无论你是指挥苏联军队，还是领导盟军部队，《时空分裂》都能让你在浏览器中重温时空科技与战场统治的战术快感。",
   floppybird_name: "Floppy Bird",
@@ -1280,5 +1282,7 @@ const L = {
   llvmreleases_desc: "本PWA商店作者亲自构建的 LLVM 发行版，支持超过 15 个跨平台编译目标，并集成对应系统根。涵盖 aarch64-windows-msvc、aarch64-apple-darwin、riscv64-linux-gnu、loongarch64-linux-gnu、aarch64-windows-gnu、aarch64-linux-android30 及 wasm 等工具链。适用于需要可复现、多平台构建的开发者，该原生封装器可简化编译器部署与跨平台集成流程。",
   windowsmsvcsysroot_name: "windows-msvc-sysroot",
   windowsmsvcsysroot_desc: "由本PWA商店作者维护的自定义MSVC系统根，提供符合 GCC/Clang 风格的标准化头文件与库，适用于 ${ARCH}-windows-msvc triplet。支持交叉编译与加拿大式编译流程，为偏好 MSVC 语义的开发者提供相较于 ${ARCH}-windows-gnu 的简洁替代方案。",
+  gccreleases_name: "gcc-releases",
+  gccreleases_desc: "本PWA商店作者提供的 GCC 个性化构建版本，支持多平台交叉编译工具链，包括 x86_64-linux-gnu、x86_64-w64-mingw32、x86_64-elf、x86_64-freebsd、aarch64-linux-gnu、riscv64-linux-gnu、loongarch64-linux-gnu 及 i586-msdosdjgpp。该原生封装旨在实现可复现构建与多平台开发，覆盖嵌入式、桌面及传统系统场景。"
 };
 registerLocale("zhcn", L);
