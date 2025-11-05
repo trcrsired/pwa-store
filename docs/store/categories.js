@@ -1947,6 +1947,13 @@ export const categories = [
         url: "https://2048.skyafar.com"
       },
       {
+        name: "Vimm's Lair",
+        nameKey: "vimmslair_name",
+        descriptionKey: "vimmslair_desc",
+        icon: "icons/vimmslair",
+        url: "https://vimm.net"
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",
