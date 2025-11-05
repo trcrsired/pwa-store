@@ -3095,13 +3095,37 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
-        name: "Didi Qingju",
+        name: "Didi Qingju (滴滴青桔)",
         nameKey: "didiqingju_name",
         descriptionKey: "didiqingju_desc",
         icon: "icons/wechatmini/didiqingju.webp",
         url: "#小程序://青桔/0hig2G6lGATTQwb",
         apptype: "wechatmini"
       },
+      {
+        name: "Shanghai Metro QR Code (上海地铁Metro大都会乘车码)",
+        nameKey: "shanghaimetroqrcode_name",
+        descriptionKey: "shanghaimetroqrcode_desc",
+        icon: "icons/wechatmini/shanghaimetroqrcode.webp",
+        url: "#小程序://上海地铁Metro大都会乘车码/ogoUjcvINdP4g6I",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Gangcheng Xing (港城行)",
+        nameKey: "gangchengxing_name",
+        descriptionKey: "gangchengxing_desc",
+        icon: "icons/wechatmini/gangchengxing.webp",
+        url: "#小程序://港城行/ZDQiyabYkugcPfE",
+        apptype: "wechatmini"
+      },
+      {
+        name: "exingbao (e行宝)",
+        nameKey: "exingbao_name",
+        descriptionKey: "exingbao_desc",
+        icon: "icons/wechatmini/exingbao.webp",
+        url: "#小程序://e行宝/KSAhqf8mbuBcVgI",
+        apptype: "wechatmini"        
+      }
     ]
   },
   {
@@ -3970,7 +3994,7 @@ export const categories = [
         apptype: "wrapper"
       },
       {
-        name: "Fudan University",
+        name: "Fudan University (复旦大学)",
         nameKey: "fudan_name",
         descriptionKey: "fudan_desc",
         icon: "icons/wrappers/fudan.webp",
@@ -3978,7 +4002,7 @@ export const categories = [
         apptype: "wrapper"
       },
       {
-        name: "Fudan eCard",
+        name: "Fudan eCard (复旦eCard)",
         nameKey: "fudanecard_name",
         descriptionKey: "fudanecard_desc",
         icon: "icons/wechatmini/fudanecard.webp",
@@ -3986,13 +4010,29 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
-        name: "Fudan Alumni Card",
+        name: "Fudan Alumni Card (复旦校友卡)",
         nameKey: "fudanalumnicard_name",
         descriptionKey: "fudanalumnicard_desc",
         icon: "icons/wechatmini/fudanalumnicard.webp",
         url: "#小程序://复旦校友卡/WkzRPCcrzcjCxTp",
         apptype: "wechatmini"
       },
+      {
+        name: "Fudan Smart Sports (复旦智慧体育)",
+        nameKey: "fudansmartsports_name",
+        descriptionKey: "fudansmartsports_desc",
+        icon: "icons/wechatmini/fudansmartsports.webp",
+        url: "#小程序://复旦智慧体育/RCIezHlBakAmR0z",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Renmin University of China (中国人民大学)",
+        nameKey: "rucminiapp_name",
+        descriptionKey: "rucminiapp_desc",
+        icon: "icons/wechatmini/rucminiapp.webp",
+        url: "#小程序://中国人民大学/bDOYIXgDmHRivyx",
+        apptype: "wechatmini"
+      }
     ]
   },
   {
