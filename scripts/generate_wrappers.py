@@ -212,6 +212,7 @@ WRAPPERS = [
   { "name": "HuffPost", "url": "https://www.huffpost.com" },
   { "name": "Miami Herald", "url": "https://www.miamiherald.com" },
   { "name": "Financial Times", "url": "https://www.ft.com" },
+  { "name": "Delaware Online", "url": "https://www.delawareonline.com" },
   { "name": "Radio Television of Afghanistan", "url": "https://rta.af", "keyify_name": "rtaaf"},
 
   { "name" : "HotCRP", "url": "https://hotcrp.com" },
