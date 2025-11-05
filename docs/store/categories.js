@@ -3,29 +3,29 @@ export const categories = [
     nameKey: "fundamental_name",
     name: "Fundamental",
     apps: [
-      { name: "SnaePlayer", icon: "icons/snaeplayer.webp", url: "https://snaeplayer.com", descriptionKey: "snaeplayer_desc" },
-      { name: "Flow", icon: "icons/flow.webp", url: "https://www.flowoss.com", descriptionKey: "flow_desc" },
-      { name: "TReader", icon: "icons/treader.webp", url: "https://tiansh.github.io/reader", descriptionKey: "treader_desc" },
-      { name: "WebVideoPlayer", icon: "icons/webvideoplayer.webp", url: "https://webvideoplayer.org", descriptionKey: "webvideoplayer_desc" },
-      { nameKey: "pwaplayer_name", name: "PWA Player (My own toy)", icon: "icons/pwaplayer.webp", url: "https://pwa-player.pages.dev", descriptionKey: "pwaplayer_desc" },
-      { name: "Calculator", nameKey: "calculator_name", icon: "icons/calculator.webp", url: "https://chrisdiana.github.io/pwa-calculator", descriptionKey: "calculator_desc" },
-      { name: "Calculator (Chrome)", nameKey: "calculatorchrome_name", icon: "icons/calculatorchrome.webp", url: "https://calculator.apps.chrome/install", descriptionKey: "calculatorchrome_desc", nameKey: "calculatorchrome_name" },
-      { name: "Weawow", icon: "icons/weawow.webp", url: "https://weawow.com", descriptionKey: "weawow_desc" },
-      { name: "Screen Flashlight", icon: "icons/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", descriptionKey: "screenflashlight_desc" },
+      { name: "SnaePlayer", icon: "icons/pwa/snaeplayer.webp", url: "https://snaeplayer.com", descriptionKey: "snaeplayer_desc" },
+      { name: "Flow", icon: "icons/pwa/flow.webp", url: "https://www.flowoss.com", descriptionKey: "flow_desc" },
+      { name: "TReader", icon: "icons/pwa/treader.webp", url: "https://tiansh.github.io/reader", descriptionKey: "treader_desc" },
+      { name: "WebVideoPlayer", icon: "icons/pwa/webvideoplayer.webp", url: "https://webvideoplayer.org", descriptionKey: "webvideoplayer_desc" },
+      { nameKey: "pwaplayer_name", name: "PWA Player (My own toy)", icon: "icons/pwa/pwaplayer.webp", url: "https://pwa-player.pages.dev", descriptionKey: "pwaplayer_desc" },
+      { name: "Calculator", nameKey: "calculator_name", icon: "icons/pwa/calculator.webp", url: "https://chrisdiana.github.io/pwa-calculator", descriptionKey: "calculator_desc" },
+      { name: "Calculator (Chrome)", nameKey: "calculatorchrome_name", icon: "icons/pwa/calculatorchrome.webp", url: "https://calculator.apps.chrome/install", descriptionKey: "calculatorchrome_desc", nameKey: "calculatorchrome_name" },
+      { name: "Weawow", icon: "icons/pwa/weawow.webp", url: "https://weawow.com", descriptionKey: "weawow_desc" },
+      { name: "Screen Flashlight", icon: "icons/pwa/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", descriptionKey: "screenflashlight_desc" },
       { name: "PWA Store", nameKey: "pwastore_name", icon: "logo/logo.webp", url: ".", descriptionKey: "pwastore_desc" },
-      { name: "Wavacity", nameKey: "wavacity_name", icon: "icons/wavacity.webp", url: "https://wavacity.com", descriptionKey: "wavacity_desc" },
+      { name: "Wavacity", nameKey: "wavacity_name", icon: "icons/pwa/wavacity.webp", url: "https://wavacity.com", descriptionKey: "wavacity_desc" },
       {
         name: "Web Screen Recorder",
         nameKey: "webscreenrecorder_name",
         descriptionKey: "webscreenrecorder_desc",
-        icon: "icons/webscreenrecorder.webp",
+        icon: "icons/pwa/webscreenrecorder.webp",
         url: "https://menglinmaker-pwa-screen-recorder.netlify.app"
       },
       {
         name: "Squoosh",
         nameKey: "squoosh_name",
         descriptionKey: "squoosh_desc",
-        icon: "icons/squoosh.webp",
+        icon: "icons/pwa/squoosh.webp",
         url: "https://squoosh.app"
       },
     ]
@@ -38,21 +38,21 @@ export const categories = [
         name: "QR Code Tools",
         nameKey: "qrcodetools_name",
         descriptionKey: "qrcodetools_desc",
-        icon: "icons/qrcodetools.webp",
+        icon: "icons/pwa/qrcodetools.webp",
         url: "https://qrct.buhzzi.com"
       },
       {
         name: "Readest",
         nameKey: "readest_name",
         descriptionKey: "readest_desc",
-        icon: "icons/readest.webp",
+        icon: "icons/pwa/readest.webp",
         url: "https://web.readest.com"
       },
       {
         name: "Real-Time Typhoon Information (实时台风消息)",
         nameKey: "typhoonsltzj_name",
         descriptionKey: "typhoonsltzj_desc",
-        icon: "icons/typhoonsltzj.webp",
+        icon: "icons/pwa/typhoonsltzj.webp",
         url: "https://typhoon.slt.zj.gov.cn"
       },
       {
@@ -69,26 +69,26 @@ export const categories = [
     nameKey: "chabots_name",
     name: "Chatbots",
     apps: [
-      { name: "Microsoft Copilot", icon: "icons/copilot.webp", url: "https://copilot.microsoft.com", descriptionKey: "copilot_desc" },
-      { name: "ChatGPT", icon: "icons/chatgpt.webp", url: "https://chat.openai.com", descriptionKey: "chatgpt_desc" },
-      { name: "Grok", icon: "icons/grok.webp", url: "https://grok.com", descriptionKey: "grok_desc"},
-      { name: "Meta AI", icon: "icons/metaai.webp", url: "https://www.meta.ai", descriptionKey: "metaai_desc" }, 
-      { name: "Cursor", icon: "icons/cursor.webp", url: "https://cursor.com/agents", descriptionKey: "cursor_desc" },
-      { name: "Google Gemini", icon: "icons/gemini.webp", url: "https://gemini.google.com", descriptionKey: "gemini_desc" },
-      { name: "Claude", icon: "icons/claude.webp", url: "https://claude.ai", descriptionKey: "claude_desc" },
-      { name: "Manus", icon: "icons/manus.webp", url: "https://manus.im", descriptionKey: "manus_desc" },
-      { name: "LeChat", icon: "icons/lechat.webp", url: "https://lechat.chat/chat", nameKey: "lechat_name", descriptionKey: "lechat_desc" },
-      { name: "Qwen", icon: "icons/qwen.webp", url: "https://chat.qwen.ai", descriptionKey: "qwen_desc" },
-      { name: "Gauth", icon: "icons/gauthmath.webp", url: "https://www.gauthmath.com", descriptionKey: "gauth_desc"},
-      { name: "DeepSeek", icon: "icons/deepseek.webp", url: "https://deepseek.com", descriptionKey: "deepseek_desc" },
-      { name: "Kimi", icon: "icons/kimi.webp", url: "https://www.kimi.com", descriptionKey: "kimi_desc" },
-      { name: "Kimi+", icon: "icons/kimi.webp", url: "https://www.kimi.com/kimiplus-square", descriptionKey: "kimiplus_desc" },
-      { name: "Z.ai", icon: "icons/z_ai.webp", url: "https://chat.z.ai", nameKey: "z_ai_name", descriptionKey: "z_ai_desc" },
-      { name: "longcat", icon: "icons/longcat.webp", url: "https://longcat.chat", nameKey: "longcat_name", descriptionKey: "longcat_desc" },
+      { name: "Microsoft Copilot", icon: "icons/pwa/copilot.webp", url: "https://copilot.microsoft.com", descriptionKey: "copilot_desc" },
+      { name: "ChatGPT", icon: "icons/pwa/chatgpt.webp", url: "https://chat.openai.com", descriptionKey: "chatgpt_desc" },
+      { name: "Grok", icon: "icons/pwa/grok.webp", url: "https://grok.com", descriptionKey: "grok_desc"},
+      { name: "Meta AI", icon: "icons/pwa/metaai.webp", url: "https://www.meta.ai", descriptionKey: "metaai_desc" }, 
+      { name: "Cursor", icon: "icons/pwa/cursor.webp", url: "https://cursor.com/agents", descriptionKey: "cursor_desc" },
+      { name: "Google Gemini", icon: "icons/pwa/gemini.webp", url: "https://gemini.google.com", descriptionKey: "gemini_desc" },
+      { name: "Claude", icon: "icons/pwa/claude.webp", url: "https://claude.ai", descriptionKey: "claude_desc" },
+      { name: "Manus", icon: "icons/pwa/manus.webp", url: "https://manus.im", descriptionKey: "manus_desc" },
+      { name: "LeChat", icon: "icons/pwa/lechat.webp", url: "https://lechat.chat/chat", nameKey: "lechat_name", descriptionKey: "lechat_desc" },
+      { name: "Qwen", icon: "icons/pwa/qwen.webp", url: "https://chat.qwen.ai", descriptionKey: "qwen_desc" },
+      { name: "Gauth", icon: "icons/pwa/gauthmath.webp", url: "https://www.gauthmath.com", descriptionKey: "gauth_desc"},
+      { name: "DeepSeek", icon: "icons/pwa/deepseek.webp", url: "https://deepseek.com", descriptionKey: "deepseek_desc" },
+      { name: "Kimi", icon: "icons/pwa/kimi.webp", url: "https://www.kimi.com", descriptionKey: "kimi_desc" },
+      { name: "Kimi+", icon: "icons/pwa/kimi.webp", url: "https://www.kimi.com/kimiplus-square", descriptionKey: "kimiplus_desc" },
+      { name: "Z.ai", icon: "icons/pwa/z_ai.webp", url: "https://chat.z.ai", nameKey: "z_ai_name", descriptionKey: "z_ai_desc" },
+      { name: "longcat", icon: "icons/pwa/longcat.webp", url: "https://longcat.chat", nameKey: "longcat_name", descriptionKey: "longcat_desc" },
       {
-        name: "WolframAlpha", nameKey: "wolframalpha_name", icon: "icons/wolframalpha.webp", url: "https://www.wolframalpha.com", descriptionKey: "wolframalpha_desc"
+        name: "WolframAlpha", nameKey: "wolframalpha_name", icon: "icons/pwa/wolframalpha.webp", url: "https://www.wolframalpha.com", descriptionKey: "wolframalpha_desc"
       },
-      { name: "LMArena", icon: "icons/lmarena.webp", url: "https://lmarena.ai", nameKey: "lmarena_name", descriptionKey: "lmarena_desc" },
+      { name: "LMArena", icon: "icons/pwa/lmarena.webp", url: "https://lmarena.ai", nameKey: "lmarena_name", descriptionKey: "lmarena_desc" },
       { name: "Perplexity", icon: "icons/wrappers/perplexity.webp", url: "/wrappers/perplexity", descriptionKey: "perplexity_desc", apptype: "wrapper" },
       { name: "G2 AI", nameKey: "g2ai_name", icon: "icons/wrappers/g2ai.webp", url: "/wrappers/g2ai", descriptionKey: "g2ai_desc", apptype: "wrapper" },
       { name: "Tencent Yuanbao (腾讯元宝)", nameKey: "tencentyuanbao_name", descriptionKey: "tencentyuanbao_desc", apptype: "wrapper", icon: "icons/wrappers/tencentyuanbao.webp", url: "/wrappers/tencentyuanbao" },
@@ -99,8 +99,8 @@ export const categories = [
     nameKey: "cybersecurity_name",
     name: "Cybersecurity",
     apps: [
-      { name: "ScamAdviser", icon: "icons/scamadviser.webp", url: "https://www.scamadviser.com", descriptionKey: "scamadviser_desc" },
-      { name: "Bitwarden", nameKey: "bitwarden_name", icon: "icons/bitwarden.webp", url: "https://bitwarden.com", descriptionKey: "bitwarden_desc" },
+      { name: "ScamAdviser", icon: "icons/pwa/scamadviser.webp", url: "https://www.scamadviser.com", descriptionKey: "scamadviser_desc" },
+      { name: "Bitwarden", nameKey: "bitwarden_name", icon: "icons/pwa/bitwarden.webp", url: "https://bitwarden.com", descriptionKey: "bitwarden_desc" },
       { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype: "wrapper" },
     ]
   },
@@ -108,8 +108,8 @@ export const categories = [
     nameKey: "time_name",
     name: "Time",
     apps: [
-      { name: "Time.is", icon: "icons/timeis.webp", url: "https://time.is", descriptionKey: "timeis_desc" },
-      { name: "Every Time Zone", icon: "icons/everytimezone.webp", url: "https://everytimezone.com", descriptionKey: "everytimezone_desc" },
+      { name: "Time.is", icon: "icons/pwa/timeis.webp", url: "https://time.is", descriptionKey: "timeis_desc" },
+      { name: "Every Time Zone", icon: "icons/pwa/everytimezone.webp", url: "https://everytimezone.com", descriptionKey: "everytimezone_desc" },
       { name: "NIST Time", icon: "icons/wrappers/timegov.webp", url: "/wrappers/timegov", descriptionKey: "timegov_desc", apptype: "wrapper" },
     ]
   },
@@ -117,10 +117,10 @@ export const categories = [
     nameKey: "microsoft_services_name",
     name: "Microsoft Services",
     apps: [
-      { name: "Outlook", icon: "icons/outlook.webp", url: "https://outlook.live.com", descriptionKey: "outlook_desc" },
-      { name: "OneDrive", icon: "icons/onedrive.webp", url: "https://onedrive.live.com", descriptionKey: "onedrive_desc" },
+      { name: "Outlook", icon: "icons/pwa/outlook.webp", url: "https://outlook.live.com", descriptionKey: "outlook_desc" },
+      { name: "OneDrive", icon: "icons/pwa/onedrive.webp", url: "https://onedrive.live.com", descriptionKey: "onedrive_desc" },
       { name: "Microsoft Store", nameKey: "msstore_name", icon: "icons/wrappers/msstore.webp", url: "https://apps.microsoft.com", descriptionKey: "msstore_desc" },
-      { name: "Microsoft Tech Community", nameKey: "mstechcommunity_name", icon: "icons/msft.webp", url: "https://techcommunity.microsoft.com", descriptionKey: "mstechcommunity_desc" },
+      { name: "Microsoft Tech Community", nameKey: "mstechcommunity_name", icon: "icons/pwa/msft.webp", url: "https://techcommunity.microsoft.com", descriptionKey: "mstechcommunity_desc" },
       { name: "Microsoft Account",  nameKey: "microsoftaccount_name", descriptionKey: "microsoftaccount_desc", icon: "icons/wrappers/microsoft.webp", url: "/wrappers/microsoftaccount", apptype: "wrapper" },
       { name: "Microsoft Partner",  nameKey: "microsoftpartner_name", descriptionKey: "microsoftpartner_desc", icon: "icons/wrappers/microsoft.webp", url: "/wrappers/microsoftpartner", apptype: "wrapper" },
       { name: "MSN", nameKey: "msn_name", icon: "icons/wrappers/msn.webp", url: "/wrappers/msn", descriptionKey: "msn_desc", apptype: "wrapper" },
@@ -137,10 +137,10 @@ export const categories = [
   {
     nameKey: "google_services_name",
     apps: [
-      { name: "Google", icon: "icons/google.webp", url: "https://www.google.com", descriptionKey: "google_desc" },
-      { nameKey: "googlevoice_name", name: "Google Voice", icon: "icons/googlevoice.webp", url: "https://voice.google.com", descriptionKey: "googlevoice_desc" },
-      { nameKey: "googlemaps_name", name: "Google Maps", icon: "icons/googlemaps.webp", url: "https://maps.google.com", descriptionKey: "googlemaps_desc" },
-      { nameKey: "googlenews_name", name: "Google News", icon: "icons/googlenews.webp", url: "https://news.google.com", descriptionKey: "googlenews_desc" },
+      { name: "Google", icon: "icons/pwa/google.webp", url: "https://www.google.com", descriptionKey: "google_desc" },
+      { nameKey: "googlevoice_name", name: "Google Voice", icon: "icons/pwa/googlevoice.webp", url: "https://voice.google.com", descriptionKey: "googlevoice_desc" },
+      { nameKey: "googlemaps_name", name: "Google Maps", icon: "icons/pwa/googlemaps.webp", url: "https://maps.google.com", descriptionKey: "googlemaps_desc" },
+      { nameKey: "googlenews_name", name: "Google News", icon: "icons/pwa/googlenews.webp", url: "https://news.google.com", descriptionKey: "googlenews_desc" },
       { name: "Gmail", icon: "icons/wrappers/gmail.webp", url: "/wrappers/gmail", descriptionKey: "gmail_desc", apptype: "wrapper" },
       { name: "Google Trends", icon: "icons/wrappers/googletrends.webp", url: "/wrappers/googletrends", descriptionKey: "googletrends_desc", apptype: "wrapper"},
     ]
@@ -168,28 +168,28 @@ export const categories = [
         name: "Simplenote",
         nameKey: "simplenote_name",
         descriptionKey: "simplenote_desc",
-        icon: "icons/simplenote.webp",
+        icon: "icons/pwa/simplenote.webp",
         url: "https://app.simplenote.com"
       },
       {
         name: "Notion",
         nameKey: "notion_name",
         descriptionKey: "notion_desc",
-        icon: "icons/notion.webp",
+        icon: "icons/pwa/notion.webp",
         url: "https://www.notion.com"
       },
       {
         name: "Draw.io",
         nameKey: "drawio_name",
         descriptionKey: "drawio_desc",
-        icon: "icons/drawio.webp",
+        icon: "icons/pwa/drawio.webp",
         url: "https://app.diagrams.net"
       },
       {
         name: "Excalidraw",
         nameKey: "excalidraw_name",
         descriptionKey: "excalidraw_desc",
-        icon: "icons/excalidraw.webp",
+        icon: "icons/pwa/excalidraw.webp",
         url: "https://excalidraw.com"
       },
       {
@@ -209,7 +209,7 @@ export const categories = [
       {
         name: "Open Web Advocacy",
         nameKey: "open_web_advocacy_name",
-        icon: "icons/open-web-advocacy.webp",
+        icon: "icons/pwa/open-web-advocacy.webp",
         url: "https://open-web-advocacy.org",
         descriptionKey: "open_web_advocacy_desc"
       },
@@ -217,85 +217,85 @@ export const categories = [
         name: "Infrequently",
         nameKey: "infrequently_name",
         descriptionKey: "infrequently_desc",
-        icon: "icons/infrequently.webp",
+        icon: "icons/pwa/infrequently.webp",
         url: "https://infrequently.org"
       },
       {
         name: "GitHub",
-        icon: "icons/github.webp",
+        icon: "icons/pwa/github.webp",
         url: "https://github.com",
         descriptionKey: "github_desc"
       },
       {
         name: "Visual Studio Code",
         nameKey: "vscode_name",
-        icon: "icons/vscode.webp",
+        icon: "icons/pwa/vscode.webp",
         url: "https://vscode.dev",
         descriptionKey: "vscode_desc"
       },
       {
         name: "VS Code Insider",
         nameKey: "vscode_insider_name",
-        icon: "icons/vscode-insiders.webp",
+        icon: "icons/pwa/vscode-insiders.webp",
         url: "https://insiders.vscode.dev",
         descriptionKey: "vscode_insider_desc"
       },
       {
         name: "v2ray",
-        icon: "icons/v2ray.webp",
+        icon: "icons/pwa/v2ray.webp",
         url: "https://www.v2ray.com",
         descriptionKey: "v2ray_desc"
       },
       {
         name: "GitLab",
-        icon: "icons/gitlab.webp",
+        icon: "icons/pwa/gitlab.webp",
         url: "https://gitlab.com",
         descriptionKey: "gitlab_desc"
       },
       {
         name: "Gitee",
-        icon: "icons/gitee.webp",
+        icon: "icons/pwa/gitee.webp",
         url: "https://gitee.com",
         descriptionKey: "gitee_desc"
       },
       {
         name: "GitFlic",
         nameKey: "gitflic_name",
-        icon: "icons/gitflic.webp",
+        icon: "icons/pwa/gitflic.webp",
         url: "https://gitflic.ru",
         descriptionKey: "gitflic_desc"
       },
       {
         name: "Stack Overflow",
         nameKey: "stackoverflow_name",
-        icon: "icons/stackoverflow.webp",
+        icon: "icons/pwa/stackoverflow.webp",
         url: "https://stackoverflow.com",
         descriptionKey: "stackoverflow_desc"
       },
       {
         name: "MDN Web Docs",
         nameKey: "mdn_name",
-        icon: "icons/mdnwebdocs.webp",
+        icon: "icons/pwa/mdnwebdocs.webp",
         url: "https://developer.mozilla.org",
         descriptionKey: "mdn_desc"
       },
       {
         name: "Chrome for developers",
         nameKey: "chrome_dev_name",
-        icon: "icons/chrome.webp",
+        icon: "icons/pwa/chrome.webp",
         url: "https://developer.chrome.com",
         descriptionKey: "chrome_dev_desc"
       },
       {
         name: "web.dev",
-        icon: "icons/webdev.webp",
+        icon: "icons/pwa/webdev.webp",
         url: "https://web.dev",
         descriptionKey: "webdev_desc"
       },
       {
         name: "Google for Developers",
         nameKey: "googledevelopers_name",
-        icon: "icons/google.webp",
+        icon: "icons/pwa/google.webp",
         url: "https://developers.google.com",
         descriptionKey: "googledevelopers_desc"
       },
@@ -309,7 +309,7 @@ export const categories = [
       {
         name: "PWA Builder",
         nameKey: "pwabuilder_name",
-        icon: "icons/pwabuilder.webp",
+        icon: "icons/pwa/pwabuilder.webp",
         url: "https://www.pwabuilder.com",
         descriptionKey: "pwabuilder_desc"
       },
@@ -331,55 +331,55 @@ export const categories = [
       {
         name: "USACO Training Gateway",
         nameKey: "usacotraining_name",
-        icon: "icons/usacotraining.webp",
+        icon: "icons/pwa/usacotraining.webp",
         url: "https://usaco.training",
         descriptionKey: "usacotraining_desc"
       },
       {
         name: "F-Droid",
         nameKey: "fdroid_name",
-        icon: "icons/fdroid.webp",
+        icon: "icons/pwa/fdroid.webp",
         url: "https://f-droid.org",
         descriptionKey: "fdroid_desc"
       },
       {
         name: "Resilient Web Design",
         nameKey: "resilientwebdesign_name",
-        icon: "icons/resilientwebdesign.webp",
+        icon: "icons/pwa/resilientwebdesign.webp",
         url: "https://resilientwebdesign.com",
         descriptionKey: "resilientwebdesign_desc"
       },
       {
         name: "PWA Dev China",
         nameKey: "pwadevcn_name",
-        icon: "icons/pwadevcn.webp",
+        icon: "icons/pwa/pwadevcn.webp",
         url: "https://pwadev.cn",
         descriptionKey: "pwadevcn_desc"
       },
       {
         name: "Frontend Masters",
         nameKey: "frontendmasters_name",
-        icon: "icons/frontendmasters.webp",
+        icon: "icons/pwa/frontendmasters.webp",
         descriptionKey: "frontendmasters_desc",
         url: "https://frontendmasters.com"
       },
       {
         name: "v86",
-        icon: "icons/v86.webp",
+        icon: "icons/pwa/v86.webp",
         url: "https://copy.sh/v86/",
         descriptionKey: "v86_desc",
       },
       {
         name: "Meson Build",
         nameKey: "meson_name",
-        icon: "icons/meson.webp",
+        icon: "icons/pwa/meson.webp",
         url: "https://mesonbuild.com",
         descriptionKey: "meson_desc"
       },
       {
         name: "What PWA Can Do Today",
         namekey: "whatpwacandotoday_name",
-        icon: "icons/whatpwacandotoday.webp",
+        icon: "icons/pwa/whatpwacandotoday.webp",
         url: "https://whatpwacando.today",
         descriptionKey: "whatpwacandotoday_desc"
       },
@@ -387,32 +387,32 @@ export const categories = [
         name: "Labuladong Algo Notes",
         nameKey: "labuladong_name",
         descriptionKey: "labuladong_desc",
-        icon: "icons/labuladong.webp",
+        icon: "icons/pwa/labuladong.webp",
         url: "https://labuladong.online"
       },
       {
         name: "Indie Tools",
         nameKey: "indietools_name",
         descriptionKey: "indietools_desc",
-        icon: "icons/indietools.webp",
+        icon: "icons/pwa/indietools.webp",
         url: "https://www.indietools.work"
       },
       {
         name: "DeepWiki",
         nameKey: "deepwiki_name",
         descriptionKey: "deepwiki_desc",
-        icon: "icons/deepwiki.webp",
+        icon: "icons/pwa/deepwiki.webp",
         url: "https://deepwiki.com"
       },
       {
         name: "Python",
-        icon: "icons/python.webp",
+        icon: "icons/pwa/python.webp",
         url: "https://www.python.org",
         descriptionKey: "python_desc"
       },
       {
         name: "Rust",
-        icon: "icons/rustlang.webp",
+        icon: "icons/pwa/rustlang.webp",
         url: "https://www.rust-lang.org",
         descriptionKey: "rust_desc"
       },
@@ -548,14 +548,14 @@ export const categories = [
     apps: [
       {
         name: "Cloudflare",
-        icon: "icons/cloudflare.webp",
+        icon: "icons/pwa/cloudflare.webp",
         url: "https://dash.cloudflare.com",
         descriptionKey: "cloudflare_desc",
       },
       {
         name: "Yandex",
         nameKey: "yandex_name",
-        icon: "icons/yandex.webp",
+        icon: "icons/pwa/yandex.webp",
         url: "https://yandex.com",
         descriptionKey: "yandex_desc",
       },
@@ -564,14 +564,14 @@ export const categories = [
         url: "https://duckduckgo.com",
         nameKey: "duckduckgo_name",
         descriptionKey: "duckduckgo_desc",
-        icon: "icons/duckduckgo.webp"
+        icon: "icons/pwa/duckduckgo.webp"
       },
       {
         name: "Nomad",
         url: "https://www.getnomad.app",
         nameKey: "getnomad_name",
         descriptionKey: "getnomad_desc",
-        icon: "icons/getnomad.webp"
+        icon: "icons/pwa/getnomad.webp"
       },
       {
         name: "China Telecom",
@@ -644,51 +644,51 @@ export const categories = [
       {
         name: "YouTube",
         nameKey: "youtube_name",
-        icon: "icons/youtube.webp",
+        icon: "icons/pwa/youtube.webp",
         url: "https://youtube.com",
         descriptionKey: "youtube_desc"
       },
       {
         name: "Reddit",
-        icon: "icons/reddit.webp",
+        icon: "icons/pwa/reddit.webp",
         url: "https://reddit.com",
         descriptionKey: "reddit_desc"
       },
       {
         name: "X (Twitter)",
         nameKey: "x_name",
-        icon: "icons/x.webp",
+        icon: "icons/pwa/x.webp",
         url: "https://x.com",
         descriptionKey: "x_desc"
       },
       {
         name: "Mastodon",
-        icon: "icons/mastodon.webp",
+        icon: "icons/pwa/mastodon.webp",
         url: "https://mastodon.social",
         descriptionKey: "mastodon_desc"
       },
       {
         name: "Threads",
-        icon: "icons/threads.webp",
+        icon: "icons/pwa/threads.webp",
         url: "https://www.threads.com",
         descriptionKey: "threads_desc"
       },
       {
         name: "Instagram",
-        icon: "icons/instagram.webp",
+        icon: "icons/pwa/instagram.webp",
         url: "https://instagram.com",
         descriptionKey: "instagram_desc"
       },
       {
         name: "Facebook",
         nameKey: "facebook_name",
-        icon: "icons/facebook.webp",
+        icon: "icons/pwa/facebook.webp",
         url: "https://facebook.com",
         descriptionKey: "facebook_desc"
       },
       {
         name: "Tinder",
-        icon: "icons/tinder.webp",
+        icon: "icons/pwa/tinder.webp",
         url: "https://tinder.com",
         descriptionKey: "tinder_desc"
       },
@@ -697,104 +697,104 @@ export const categories = [
         name: "Tea For Women",
         nameKey: "teaforwomen_name",
         descriptionKey: "teaforwomen_desc",
-        icon: "icons/teaforwomen.webp",
+        icon: "icons/pwa/teaforwomen.webp",
         url: "https://www.teaforwomen.com"
       },
       {
         name: "TeaOnHer",
         nameKey: "teaonher_name",
         descriptionKey: "teaonher_desc",
-        icon: "icons/teaonher.webp",
+        icon: "icons/pwa/teaonher.webp",
         url: "https://www.teaonher.com"
       },
 */
       {
         name: "Truth Social",
         nameKey: "truthsocial_name",
-        icon: "icons/truthsocial.webp",
+        icon: "icons/pwa/truthsocial.webp",
         url: "https://truthsocial.com",
         descriptionKey: "truthsocial_desc",
       },
       {
         name: "Bluesky",
         nameKey: "bluesky_name",
-        icon: "icons/bluesky.webp",
+        icon: "icons/pwa/bluesky.webp",
         url: "https://bsky.app",
         descriptionKey: "bluesky_desc"
       },
       {
         name: "Twitch",
-        icon: "icons/twitch.webp",
+        icon: "icons/pwa/twitch.webp",
         url: "https://www.twitch.tv",
         descriptionKey: "twitch_desc"
       },
       {
         name: "Patreon",
-        icon: "icons/patreon.webp",
+        icon: "icons/pwa/patreon.webp",
         url: "https://www.patreon.com",
         descriptionKey: "patreon_desc"
       },
       {
         name: "Tumblr",
-        icon: "icons/tumblr.webp",
+        icon: "icons/pwa/tumblr.webp",
         url: "https://www.tumblr.com",
         descriptionKey: "tumblr_desc"
       },
       {
         name: "Elk",
-        icon: "icons/elk.webp",
+        icon: "icons/pwa/elk.webp",
         url: "https://elk.zone",
         descriptionKey: "elk_desc",
       },
       {
         name: "GroupMe",
-        icon: "icons/groupme.webp",
+        icon: "icons/pwa/groupme.webp",
         url: "https://web.groupme.com",
         descriptionKey: "groupme_desc"
       },
       {
         name: "Discord",
-        icon: "icons/discord.webp",
+        icon: "icons/pwa/discord.webp",
         url: "https://discord.com/app",
         descriptionKey: "discord_desc"
       },
       {
         name: "Telegram",
         nameKey: "telegram_name",
-        icon: "icons/telegram.webp",
+        icon: "icons/pwa/telegram.webp",
         url: "https://web.telegram.org",
         descriptionKey: "telegram_desc"
       },
       {
         name: "Zoom",
-        icon: "icons/zoom.webp",
+        icon: "icons/pwa/zoom.webp",
         url: "https://zoom.us/join",
         descriptionKey: "zoom_desc"
       },
       {
         name: "Hacker News",
         nameKey: "hackernews_name",
-        icon: "icons/hackernews.webp",
+        icon: "icons/pwa/hackernews.webp",
         url: "https://hackernews.com",
         descriptionKey: "hackernews_desc"
       },
       {
         name: "Lobsters",
-        icon: "icons/lobsters.webp",
+        icon: "icons/pwa/lobsters.webp",
         url: "https://lobste.rs",
         descriptionKey: "lobsters_desc"
       },
       {
         name: "Flipboard",
         nameKey: "flipboard_name",
-        icon: "icons/flipboard.webp",
+        icon: "icons/pwa/flipboard.webp",
         url: "https://flipboard.com",
         descriptionKey: "flipboard_desc"
       },
       {
         name: "Pinterest",
         nameKey: "pinterest_name",
-        icon: "icons/pinterest.webp",
+        icon: "icons/pwa/pinterest.webp",
         url: "https://www.pinterest.com",
         descriptionKey: "pinterest_desc",
       },
@@ -802,27 +802,27 @@ export const categories = [
         name: "Linktree",
         nameKey: "linktree_name",
         descriptionKey: "linktree_desc",
-        icon: "icons/linktree.webp",
+        icon: "icons/pwa/linktree.webp",
         url: "https://linktr.ee"
       },
       {
         name: "Mixi",
         nameKey: "mixi_name",
-        icon: "icons/mixi.webp",
+        icon: "icons/pwa/mixi.webp",
         url: "https://mixi.jp",
         descriptionKey: "mixi_desc",
       },
       {
         name: "Rumble",
         nameKey: "rumble_name",
-        icon: "icons/rumble.webp",
+        icon: "icons/pwa/rumble.webp",
         url: "https://rumble.com",
         descriptionKey: "rumble_desc",
       },
       {
         name: "Tinychat",
         nameKey: "tinychat_name",
-        icon: "icons/tinychat.webp",
+        icon: "icons/pwa/tinychat.webp",
         url: "https://tinychat.com",
         descriptionKey: "tinychat_desc",
       },
@@ -830,38 +830,38 @@ export const categories = [
         name: "Locals",
         nameKey: "locals_name",
         descriptionKey: "locals_desc",
-        icon: "icons/locals.webp",
+        icon: "icons/pwa/locals.webp",
         url: "https://locals.com"
       },
       {
         name: "Substack",
         nameKey: "substack_name",
         descriptionKey: "substack_desc",
-        icon: "icons/substack.webp",
+        icon: "icons/pwa/substack.webp",
         url: "https://substack.com"
       },
       {
         name: "Flickr",
         nameKey: "flickr_name",
         descriptionKey: "flickr_desc",
-        icon: "icons/flickr.webp",
+        icon: "icons/pwa/flickr.webp",
         url: "https://www.flickr.com"
       },
       {
         name: "Quora",
         nameKey: "quora_name",
         descriptionKey: "quora_desc",
-        icon: "icons/quora.webp",
+        icon: "icons/pwa/quora.webp",
         url: "https://www.quora.com"
       },
       {
         name: "Soul",
         nameKey: "soul_name",
         descriptionKey: "soul_desc",
-        icon: "icons/soul.webp",
+        icon: "icons/pwa/soul.webp",
         url: "https://login.soulapp.cn",
       },
-      { name: "Weibo Lite (微博Lite)", nameKey: "weibo_name", descriptionKey: "weibo_desc", icon: "icons/weibo.webp", url: "https://m.weibo.cn" },
+      { name: "Weibo Lite (微博Lite)", nameKey: "weibo_name", descriptionKey: "weibo_desc", icon: "icons/pwa/weibo.webp", url: "https://m.weibo.cn" },
       {
         name: "Zoosk",
         nameKey: "zoosk_name",
@@ -904,133 +904,133 @@ export const categories = [
         name: "Chase",
         nameKey: "chase_name",
         descriptionKey: "chase_desc",
-        icon: "icons/chase.webp",
+        icon: "icons/pwa/chase.webp",
         url: "https://chase.com"
       },
       {
         name: "Bitcoin Well",
         nameKey: "bitcoinwell_name",
         descriptionKey: "bitcoinwell_desc",
-        icon: "icons/bitcoinwell.webp",
+        icon: "icons/pwa/bitcoinwell.webp",
         url: "https://bitcoinwell.com"
       },
       {
         name: "East Money (东方财经)",
         nameKey: "eastmoney_name",
         descriptionKey: "eastmoney_desc",
-        icon: "icons/eastmoney.webp",
+        icon: "icons/pwa/eastmoney.webp",
         url: "https://eastmoney.com"
       },
       {
         name: "TradingView",
         nameKey: "tradingview_name",
         descriptionKey: "tradingview_desc",
-        icon: "icons/tradingview.webp",
+        icon: "icons/pwa/tradingview.webp",
         url: "https://www.tradingview.com"
       },
       {
         name: "Yahoo Finance",
         nameKey: "yahoofinance_name",
         descriptionKey: "yahoofinance_desc",
-        icon: "icons/yahoofinance.webp",
+        icon: "icons/pwa/yahoofinance.webp",
         url: "https://finance.yahoo.com"
       },
       {
         name: "Stock Analysis",
         nameKey: "stockanalysis_name",
         descriptionKey: "stockanalysis_desc",
-        icon: "icons/stockanalysis.webp",
+        icon: "icons/pwa/stockanalysis.webp",
         url: "https://stockanalysis.com"
       },
       {
         name: "LongForecast",
         nameKey: "longforecast_name",
         descriptionKey: "longforecast_desc",
-        icon: "icons/longforecast.webp",
+        icon: "icons/pwa/longforecast.webp",
         url: "https://longforecast.com"
       },
       {
         name: "Investing",
         nameKey: "investing_name",
         descriptionKey: "investing_desc",
-        icon: "icons/investing.webp",
+        icon: "icons/pwa/investing.webp",
         url: "https://www.investing.com"
       },
       {
         name: "Stripe Dashboard",
         nameKey: "stripe_name",
         descriptionKey: "stripe_desc",
-        icon: "icons/stripe.webp",
+        icon: "icons/pwa/stripe.webp",
         url: "https://dashboard.stripe.com"
       },
       {
         name: "Investor's Business Daily",
         nameKey: "investorsbusinessdaily_name",
         descriptionKey: "investorsbusinessdaily_desc",
-        icon: "icons/investorsbusinessdaily.webp",
+        icon: "icons/pwa/investorsbusinessdaily.webp",
         url: "https://www.investors.com"
       },
       {
         name: "Seeking Alpha",
         nameKey: "seekingalpha_name",
         descriptionKey: "seekingalpha_desc",
-        icon: "icons/seekingalpha.webp",
+        icon: "icons/pwa/seekingalpha.webp",
         url: "https://seekingalpha.com"
       },
       {
         name: "Motley Fool",
         nameKey: "motleyfool_name",
         descriptionKey: "motleyfool_desc",
-        icon: "icons/motleyfool.webp",
+        icon: "icons/pwa/motleyfool.webp",
         url: "https://www.fool.com"
       },
       {
         name: "Benzinga",
         nameKey: "benzinga_name",
         descriptionKey: "benzinga_desc",
-        icon: "icons/benzinga.webp",
+        icon: "icons/pwa/benzinga.webp",
         url: "https://www.benzinga.com"
       },
       {
         name: "Investopedia",
         nameKey: "investopedia_name",
         descriptionKey: "investopedia_desc",
-        icon: "icons/investopedia.webp",
+        icon: "icons/pwa/investopedia.webp",
         url: "https://www.investopedia.com"
       },
       {
         name: "Nasdaq",
         nameKey: "nasdaq_name",
         descriptionKey: "nasdaq_desc",
-        icon: "icons/nasdaq.webp",
+        icon: "icons/pwa/nasdaq.webp",
         url: "https://www.nasdaq.com"
       },
       {
         name: "Markets Insider",
         nameKey: "marketsinsider_name",
         descriptionKey: "marketsinsider_desc",
-        icon: "icons/marketsinsider.webp",
+        icon: "icons/pwa/marketsinsider.webp",
         url: "https://markets.businessinsider.com",
       },
       {
         name: "Messari",
         nameKey: "messari_name",
         descriptionKey: "messari_desc",
-        icon: "icons/messari.webp",
+        icon: "icons/pwa/messari.webp",
         url: "https://messari.io"
       },
       {
         name: "CoinMarketCap",
         nameKey: "coinmarketcap_name",
         descriptionKey: "coinmarketcap_desc",
-        icon: "icons/coinmarketcap.webp",
+        icon: "icons/pwa/coinmarketcap.webp",
         url: "https://coinmarketcap.com"
       },
       {
         name: "CoinStats",
         nameKey: "coinstats_name",
         descriptionKey: "coinstats_desc",
-        icon: "icons/coinstats.webp",
+        icon: "icons/pwa/coinstats.webp",
         url: "https://coinstats.app"
       },
       {
@@ -1218,14 +1218,14 @@ export const categories = [
       {
         name: "Capterra",
         nameKey: "capterra_name",
-        icon: "icons/capterra.webp",
+        icon: "icons/pwa/capterra.webp",
         url: "https://www.capterra.com",
         descriptionKey: "capterra_desc"
       },
       {
         name: "G2",
         nameKey: "g2_name",
-        icon: "icons/g2.webp",
+        icon: "icons/pwa/g2.webp",
         url: "https://www.g2.com",
         descriptionKey: "g2_desc"
       },
@@ -1261,28 +1261,28 @@ export const categories = [
         name: "Windows Central",
         nameKey: "windowscentral_name",
         descriptionKey: "windowscentral_desc",
-        icon: "icons/windowscentral.webp",
+        icon: "icons/pwa/windowscentral.webp",
         url: "https://www.windowscentral.com"
       },
       {
         name: "Mac Rumors",
         nameKey: "macrumors_name",
         descriptionKey: "macrumors_desc",
-        icon: "icons/macrumors.webp",
+        icon: "icons/pwa/macrumors.webp",
         url: "https://www.macrumors.com"
       },
       {
         name: "Android Sage",
         nameKey: "androidsage_name",
         descriptionKey: "androidsage_desc",
-        icon: "icons/androidsage.webp",
+        icon: "icons/pwa/androidsage.webp",
         url: "https://www.androidsage.com"
       },
       {
         name: "Android Headlines",
         nameKey: "androidheadlines_name",
         descriptionKey: "androidheadlines_desc",
-        icon: "icons/androidheadlines.webp",
+        icon: "icons/pwa/androidheadlines.webp",
         url: "https://www.androidheadlines.com"
       },
       {
@@ -1297,181 +1297,181 @@ export const categories = [
         name: "Tom's Hardware",
         nameKey: "tomshardware_name",
         descriptionKey: "tomshardware_desc",
-        icon: "icons/tomshardware.webp",
+        icon: "icons/pwa/tomshardware.webp",
         url: "https://www.tomshardware.com"
       },
       {
         name: "Ars OpenForum",
         nameKey: "arsopenforum_name",
         descriptionKey: "arsopenforum_desc",
-        icon: "icons/ars-open-forum.webp",
+        icon: "icons/pwa/ars-open-forum.webp",
         url: "https://arstechnica.com/civis"
       },
       {
         name: "XDA Forums",
         nameKey: "xdaforums_name",
         descriptionKey: "xdaforums_desc",
-        icon: "icons/xdaforums.webp",
+        icon: "icons/pwa/xdaforums.webp",
         url: "https://xdaforums.com"
       },
       {
         name: "F-Droid Forum",
         nameKey: "fdroidforum_name",
         descriptionKey: "fdroidforum_desc",
-        icon: "icons/fdroid.webp",
+        icon: "icons/pwa/fdroid.webp",
         url: "https://forum.f-droid.org"
       },
       {
         name: "GNOME Discourse",
         nameKey: "gnomediscourse_name",
         descriptionKey: "gnomediscourse_desc",
-        icon: "icons/gnomediscourse.webp",
+        icon: "icons/pwa/gnomediscourse.webp",
         url: "https://discourse.gnome.org"
       },
       {
         name: "Modular Forum",
         nameKey: "modularforum_name",
         descriptionKey: "modularforum_desc",
-        icon: "icons/modularforum.webp",
+        icon: "icons/pwa/modularforum.webp",
         url: "https://forum.modular.com"
       },
       {
         name: "AppleInsider",
         nameKey: "appleinsider_name",
         descriptionKey: "appleinsider_desc",
-        icon: "icons/appleinsider.webp",
+        icon: "icons/pwa/appleinsider.webp",
         url: "https://appleinsider.com",
       },
       {
         name: "PCMag",
         nameKey: "pcmag_name",
         descriptionKey: "pcmag_desc",
-        icon: "icons/pcmag.webp",
+        icon: "icons/pwa/pcmag.webp",
         url: "https://www.pcmag.com",
       },
       {
         name: "ZDNET",
         nameKey: "zdnet_name",
         descriptionKey: "zdnet_desc",
-        icon: "icons/zdnet.webp",
+        icon: "icons/pwa/zdnet.webp",
         url: "https://www.zdnet.com",
       },
       {
         name: "TechSpot",
         descriptionKey: "techspot_desc",
-        icon: "icons/techspot.webp",
+        icon: "icons/pwa/techspot.webp",
         url: "https://www.techspot.com"
       },
       {
         name: "The Verge",
         nameKey: "theverge_name",
         descriptionKey: "theverge_desc",
-        icon: "icons/theverge.webp",
+        icon: "icons/pwa/theverge.webp",
         url: "https://www.theverge.com",
       },
       {
         name: "Thurrott",
         nameKey: "thurrott_name",
         descriptionKey: "thurrott_desc",
-        icon: "icons/thurrott.webp",
+        icon: "icons/pwa/thurrott.webp",
         url: "https://www.thurrott.com"
       },
       {
         name: "Cybernews",
         nameKey: "cybernews_name",
         descriptionKey: "cybernews_desc",
-        icon: "icons/cybernews.webp",
+        icon: "icons/pwa/cybernews.webp",
         url: "https://cybernews.com"
       },
       {
         name: "TechRadar",
         nameKey: "techradar_name",
         descriptionKey: "techradar_desc",
-        icon: "icons/techradar.webp",
+        icon: "icons/pwa/techradar.webp",
         url: "https://www.techradar.com"
       },
       {
         name: "Engadget",
         nameKey: "engadget_name",
         descriptionKey: "engadget_desc",
-        icon: "icons/engadget.webp",
+        icon: "icons/pwa/engadget.webp",
         url: "https://www.engadget.com"
       },
       {
         name: "MEDIANAMA",
         nameKey: "medianama_name",
         descriptionKey: "medianama_desc",
-        icon: "icons/medianama.webp",
+        icon: "icons/pwa/medianama.webp",
         url: "https://www.medianama.com"
       },
       {
         name: "How-To Geek",
         nameKey: "howtogeek_name",
         descriptionKey: "howtogeek_desc",
-        icon: "icons/howtogeek.webp",
+        icon: "icons/pwa/howtogeek.webp",
         url: "https://www.howtogeek.com"
       },
       {
         name: "Readhub",
         nameKey: "readhub_name",
         descriptionKey: "readhub_desc",
-        icon: "icons/readhub.webp",
+        icon: "icons/pwa/readhub.webp",
         url: "https://readhub.cn"
       },
       {
         name: "Frandroid",
         nameKey: "frandroid_name",
         descriptionKey: "frandroid_desc",
-        icon: "icons/frandroid.webp",
+        icon: "icons/pwa/frandroid.webp",
         url: "https://www.frandroid.com"
       },
       {
         name: "Lemmy",
         nameKey: "lemmy_name",
         descriptionKey: "lemmy_desc",
-        icon: "icons/lemmy.webp",
+        icon: "icons/pwa/lemmy.webp",
         url: "https://lemmy.ml"
       },
       {
         name: "Phoronix Forums",
         nameKey: "phoronixforums_name",
         descriptionKey: "phoronixforums_desc",
-        icon: "icons/phoronixforums.webp",
+        icon: "icons/pwa/phoronixforums.webp",
         url: "https://www.phoronix.com/forums",
       },
       {
         name: "Lifehacker",
         nameKey: "lifehacker_name",
         descriptionKey: "lifehacker_desc",
-        icon: "icons/lifehacker.webp",
+        icon: "icons/pwa/lifehacker.webp",
         url: "https://lifehacker.com"
       },
       {
         name: "Durov's Code",
         nameKey: "durovscode_name",
         descriptionKey: "durovscode_desc",
-        icon: "icons/durovscode.webp",
+        icon: "icons/pwa/durovscode.webp",
         url: "https://durovscode.com"
       },
       {
         name: "9to5mac",
         nameKey: "9to5mac_name",
         descriptionKey: "9to5mac_desc",
-        icon: "icons/9to5mac.webp",
+        icon: "icons/pwa/9to5mac.webp",
         url: "https://9to5mac.com",
       },
       {
         name: "European Digital Rights (EDRi)",
         nameKey: "edri_name",
         descriptionKey: "edri_desc",
-        icon: "icons/edri.webp",
+        icon: "icons/pwa/edri.webp",
         url: "https://edri.org"
       },
       {
         name: "Tech Xplore",
         nameKey: "techxplore_name",
         descriptionKey: "techxplore_desc",
-        icon: "icons/techxplore.webp",
+        icon: "icons/pwa/techxplore.webp",
         url: "https://techxplore.com"
       },
       {
@@ -1509,13 +1509,13 @@ export const categories = [
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",
-        icon: "icons/linuxdo.webp",
+        icon: "icons/pwa/linuxdo.webp",
         url: "https://linux.do"
       },
       {
         name: "Juejin",
         nameKey: "juejin_name",
-        icon: "icons/juejin.webp",
+        icon: "icons/pwa/juejin.webp",
         url: "https://juejin.cn",
         descriptionKey: "juejin_desc"
       },
@@ -1523,7 +1523,7 @@ export const categories = [
         name: "V2EX",
         nameKey: "v2ex_name",
         descriptionKey: "v2ex_desc",
-        icon: "icons/v2ex.webp",
+        icon: "icons/pwa/v2ex.webp",
         url: "https://global.v2ex.co"
       },
     ]
@@ -1536,21 +1536,21 @@ export const categories = [
         name: "APKPure",
         nameKey: "apkpure_name",
         descriptionKey: "apkpure_desc",
-        icon: "icons/apkpure.webp",
+        icon: "icons/pwa/apkpure.webp",
         url: "https://apkpure.com"
       },
       {
         name: "Arch Linux AUR",
         nameKey: "aur_name",
         descriptionKey: "aur_desc",
-        icon: "icons/aur.webp",
+        icon: "icons/pwa/aur.webp",
         url: "https://aur.archlinux.org"
       },
       {
         name: "Windows on ARM Compatibilty List (https://windowsonarm.org)",
         nameKey: "windowsonarm_name",
         descriptionKey: "windowsonarm_desc",
-        icon: "icons/windowsonarm.webp",
+        icon: "icons/pwa/windowsonarm.webp",
         url: "https://windowsonarm.org"
       },
       {
@@ -1565,7 +1565,7 @@ export const categories = [
         name: "RuTracker.org",
         nameKey: "rutrackerorg_name",
         descriptionKey: "rutrackerorg_desc",
-        icon: "icons/rutrackerorg.webp",
+        icon: "icons/pwa/rutrackerorg.webp",
         url: "https://rutracker.org"
       },
       {
@@ -1602,28 +1602,28 @@ export const categories = [
         name: "Spline",
         nameKey: "spline_name",
         descriptionKey: "spline_desc",
-        icon: "icons/spline.webp",
+        icon: "icons/pwa/spline.webp",
         url: "https://spline.design"
       },
       {
         name: "Godot",
         nameKey: "godot_name",
         descriptionKey: "godot_desc",
-        icon: "icons/godot.webp",
+        icon: "icons/pwa/godot.webp",
         url: "https://editor.godotengine.org"
       },
       {
         name: "Postimages",
         nameKey: "postimages_name",
         descriptionKey: "postimages_desc",
-        icon: "icons/postimages.webp",
+        icon: "icons/pwa/postimages.webp",
         url: "https://postimages.org",
       },
       {
         name: "Photopea",
         nameKey: "photopea_name",
         descriptionKey: "photopea_desc",
-        icon: "icons/photopea.webp",
+        icon: "icons/pwa/photopea.webp",
         url: "https://www.photopea.com"
       },
       {
@@ -1648,103 +1648,103 @@ export const categories = [
     name: "News",
     nameKey: "news_name",
     apps: [
-      { name: "RT", nameKey: "rt_name", descriptionKey: "rt_desc", icon: "icons/rt.webp", url: "https://www.rt.com" },
-      { name: "PressTV", nameKey: "presstv_name", descriptionKey: "presstv_desc", icon: "icons/presstv.webp", url: "https://www.presstv.ir" },
-      { name: "Bloomberg", nameKey: "bloomberg_name", descriptionKey: "bloomberg_desc", icon: "icons/bloomberg.webp", url: "https://www.bloomberg.com" },
-      { name: "Firstpost", nameKey: "firstpost_name", descriptionKey: "firstpost_desc", icon: "icons/firstpost.webp", url: "https://www.firstpost.com" },
-      { name: "Forbes", nameKey: "forbes_name", descriptionKey: "forbes_desc", icon: "icons/forbes.webp", url: "https://www.forbes.com" },
-      { name: "PBS", nameKey: "pbs_name", descriptionKey: "pbs_desc", icon: "icons/pbs.webp", url: "https://www.pbs.org" },
-      { name: "BBC", nameKey: "bbc_name", descriptionKey: "bbc_desc", icon: "icons/bbc.webp", url: "https://www.bbc.com" },
-      { name: "Associated Press", nameKey: "ap_name", descriptionKey: "ap_desc", icon: "icons/associatedpress.webp", url: "https://apnews.com" },
-      { name: "In Defence of Marxism", nameKey: "marxism_name", descriptionKey: "marxism_desc", icon: "icons/indefenseofmarxism.webp", url: "https://marxist.com" },
-      { name: "ABC News", nameKey: "abcnews_name", descriptionKey: "abcnews_desc", icon: "icons/abcnews.webp", url: "https://abcnews.go.com" },
-      { name: "US News", nameKey: "usnews_name", descriptionKey: "usnews_desc", icon: "icons/usnews.webp", url: "https://www.usnews.com" },
-      { name: "CBS News", nameKey: "cbsnews_name", descriptionKey: "cbsnews_desc", icon: "icons/cbs.webp", url: "https://www.cbsnews.com" },
-      { name: "NBC", nameKey: "nbc_name", descriptionKey: "nbc_desc", icon: "icons/nbc.webp", url: "https://www.nbc.com" },
-      { name: "CNBC", nameKey: "cnbc_name", descriptionKey: "cnbc_desc", icon: "icons/nbc.webp", url: "https://www.cnbc.com" },
-      { name: "MSNBC", nameKey: "msnbc_name", descriptionKey: "msnbc_desc", icon: "icons/nbc.webp", url: "https://www.msnbc.com" },
-      { name: "Newsweek", nameKey: "newsweek_name", descriptionKey: "newsweek_desc", icon: "icons/newsweek.webp", url: "https://www.newsweek.com" },
-      { name: "The Hill", nameKey: "thehill_name", descriptionKey: "thehill_desc", icon: "icons/thehill.webp", url: "https://thehill.com" },
-      { name: "The Independent", nameKey: "independent_name", descriptionKey: "independent_desc", icon: "icons/independent.webp", url: "https://www.independent.co.uk" },
-      { name: "The Guardian", nameKey: "theguardian_name", descriptionKey: "theguardian_desc", icon: "icons/theguardian.webp", url: "https://www.theguardian.com" },
-      { name: "Nippon TV NEWS (日テレNEWS)", nameKey: "nittele_name", descriptionKey: "nittele_desc", icon: "icons/nittele.webp", url: "https://news.ntv.co.jp" },
-      { name: "Economic Times", nameKey: "economictimes_name", descriptionKey: "economictimes_desc", icon: "icons/economictimes.webp", url: "https://economictimes.indiatimes.com" },
-      { name: "Hindustan Times", nameKey: "hindustantimes_name", descriptionKey: "hindustantimes_desc", icon: "icons/hindustantimes.webp", url: "https://www.hindustantimes.com" },
-      { name: "DW", nameKey: "dw_name", descriptionKey: "dw_desc", icon: "icons/dw.webp", url: "https://www.dw.com"},
-      { name: "Le Monde", nameKey: "lemonde_name", descriptionKey: "lemonde_desc", icon: "icons/lemonde.webp", url: "https://www.lemonde.fr" },
+      { name: "RT", nameKey: "rt_name", descriptionKey: "rt_desc", icon: "icons/pwa/rt.webp", url: "https://www.rt.com" },
+      { name: "PressTV", nameKey: "presstv_name", descriptionKey: "presstv_desc", icon: "icons/pwa/presstv.webp", url: "https://www.presstv.ir" },
+      { name: "Bloomberg", nameKey: "bloomberg_name", descriptionKey: "bloomberg_desc", icon: "icons/pwa/bloomberg.webp", url: "https://www.bloomberg.com" },
+      { name: "Firstpost", nameKey: "firstpost_name", descriptionKey: "firstpost_desc", icon: "icons/pwa/firstpost.webp", url: "https://www.firstpost.com" },
+      { name: "Forbes", nameKey: "forbes_name", descriptionKey: "forbes_desc", icon: "icons/pwa/forbes.webp", url: "https://www.forbes.com" },
+      { name: "PBS", nameKey: "pbs_name", descriptionKey: "pbs_desc", icon: "icons/pwa/pbs.webp", url: "https://www.pbs.org" },
+      { name: "BBC", nameKey: "bbc_name", descriptionKey: "bbc_desc", icon: "icons/pwa/bbc.webp", url: "https://www.bbc.com" },
+      { name: "Associated Press", nameKey: "ap_name", descriptionKey: "ap_desc", icon: "icons/pwa/associatedpress.webp", url: "https://apnews.com" },
+      { name: "In Defence of Marxism", nameKey: "marxism_name", descriptionKey: "marxism_desc", icon: "icons/pwa/indefenseofmarxism.webp", url: "https://marxist.com" },
+      { name: "ABC News", nameKey: "abcnews_name", descriptionKey: "abcnews_desc", icon: "icons/pwa/abcnews.webp", url: "https://abcnews.go.com" },
+      { name: "US News", nameKey: "usnews_name", descriptionKey: "usnews_desc", icon: "icons/pwa/usnews.webp", url: "https://www.usnews.com" },
+      { name: "CBS News", nameKey: "cbsnews_name", descriptionKey: "cbsnews_desc", icon: "icons/pwa/cbs.webp", url: "https://www.cbsnews.com" },
+      { name: "NBC", nameKey: "nbc_name", descriptionKey: "nbc_desc", icon: "icons/pwa/nbc.webp", url: "https://www.nbc.com" },
+      { name: "CNBC", nameKey: "cnbc_name", descriptionKey: "cnbc_desc", icon: "icons/pwa/nbc.webp", url: "https://www.cnbc.com" },
+      { name: "MSNBC", nameKey: "msnbc_name", descriptionKey: "msnbc_desc", icon: "icons/pwa/nbc.webp", url: "https://www.msnbc.com" },
+      { name: "Newsweek", nameKey: "newsweek_name", descriptionKey: "newsweek_desc", icon: "icons/pwa/newsweek.webp", url: "https://www.newsweek.com" },
+      { name: "The Hill", nameKey: "thehill_name", descriptionKey: "thehill_desc", icon: "icons/pwa/thehill.webp", url: "https://thehill.com" },
+      { name: "The Independent", nameKey: "independent_name", descriptionKey: "independent_desc", icon: "icons/pwa/independent.webp", url: "https://www.independent.co.uk" },
+      { name: "The Guardian", nameKey: "theguardian_name", descriptionKey: "theguardian_desc", icon: "icons/pwa/theguardian.webp", url: "https://www.theguardian.com" },
+      { name: "Nippon TV NEWS (日テレNEWS)", nameKey: "nittele_name", descriptionKey: "nittele_desc", icon: "icons/pwa/nittele.webp", url: "https://news.ntv.co.jp" },
+      { name: "Economic Times", nameKey: "economictimes_name", descriptionKey: "economictimes_desc", icon: "icons/pwa/economictimes.webp", url: "https://economictimes.indiatimes.com" },
+      { name: "Hindustan Times", nameKey: "hindustantimes_name", descriptionKey: "hindustantimes_desc", icon: "icons/pwa/hindustantimes.webp", url: "https://www.hindustantimes.com" },
+      { name: "DW", nameKey: "dw_name", descriptionKey: "dw_desc", icon: "icons/pwa/dw.webp", url: "https://www.dw.com"},
+      { name: "Le Monde", nameKey: "lemonde_name", descriptionKey: "lemonde_desc", icon: "icons/pwa/lemonde.webp", url: "https://www.lemonde.fr" },
       {
         name: "Foreign Affairs",
         nameKey: "foreignaffairs_name",
         descriptionKey: "foreignaffairs_desc",
-        icon: "icons/foreignaffairs.webp",
+        icon: "icons/pwa/foreignaffairs.webp",
         url: "https://www.foreignaffairs.com",
       },
       {
         name: "TIME Magazine",
         nameKey: "timemagazine_name",
         descriptionKey: "timemagazine_desc",
-        icon: "icons/timemagazine.webp",
+        icon: "icons/pwa/timemagazine.webp",
         url: "https://time.com"
       },
       {
         name: "Variety",
         nameKey: "variety_name",
         descriptionKey: "variety_desc",
-        icon: "icons/variety.webp",
+        icon: "icons/pwa/variety.webp",
         url: "https://variety.com"
       },
       {
         name: "The Wall Street Journal",
         nameKey: "thewallstreetjournal_name",
         descriptionKey: "thewallstreetjournal_desc",
-        icon: "icons/thewallstreetjournal.webp",
+        icon: "icons/pwa/thewallstreetjournal.webp",
         url: "https://www.wsj.com"
       },
       {
         name: "Washington Times",
         nameKey: "washingtontimes_name",
         descriptionKey: "washingtontimes_desc",
-        icon: "icons/washingtontimes.webp",
+        icon: "icons/pwa/washingtontimes.webp",
         url: "https://www.washingtontimes.com"
       },
       {
         name: "South China Morning Post",
         nameKey: "scmp_name",
         descriptionKey: "scmp_desc",
-        icon: "icons/scmp.webp",
+        icon: "icons/pwa/scmp.webp",
         url: "https://www.scmp.com",
       },
       {
         name: "Inc.",
         nameKey: "inc_name",
         descriptionKey: "inc_desc",
-        icon: "icons/inc.webp",
+        icon: "icons/pwa/inc.webp",
         url: "https://www.inc.com"
       },
       {
         name: "IndieWire",
         nameKey: "indiewire_name",
         descriptionKey: "indiewire_desc",
-        icon: "icons/indiewire.webp",
+        icon: "icons/pwa/indiewire.webp",
         url: "https://www.indiewire.com"
       },
       {
         name: "France 24",
         nameKey: "france24_name",
         descriptionKey: "france24_desc",
-        icon: "icons/france24.webp",
+        icon: "icons/pwa/france24.webp",
         url: "https://www.france24.com",
       },
       {
         name: "News18",
         nameKey: "news18_name",
         descriptionKey: "news18_desc",
-        icon: "icons/news18.webp",
+        icon: "icons/pwa/news18.webp",
         url: "https://www.news18.com"
       },
-      { name: "Japan Today", nameKey: "japantoday_name", descriptionKey: "japantoday_desc", url: "https://japantoday.com", icon: "icons/japantoday.webp" },
-      { name: "The Conversation", nameKey: "theconversation_name", descriptionKey: "theconversation_desc", url: "https://theconversation.com", icon: "icons/theconversation.webp" },
-      { name: "The American Prospect", nameKey: "theamericanprospect_name", descriptionKey: "theamericanprospect_desc", url: "https://prospect.org", icon: "icons/theamericanprospect.webp" },
+      { name: "Japan Today", nameKey: "japantoday_name", descriptionKey: "japantoday_desc", url: "https://japantoday.com", icon: "icons/pwa/japantoday.webp" },
+      { name: "The Conversation", nameKey: "theconversation_name", descriptionKey: "theconversation_desc", url: "https://theconversation.com", icon: "icons/pwa/theconversation.webp" },
+      { name: "The American Prospect", nameKey: "theamericanprospect_name", descriptionKey: "theamericanprospect_desc", url: "https://prospect.org", icon: "icons/pwa/theamericanprospect.webp" },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url: "/wrappers/nytimes", apptype: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url: "/wrappers/washingtonpost", apptype: "wrapper" },
       { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url: "/wrappers/reuters", apptype: "wrapper" },
@@ -1784,9 +1784,9 @@ export const categories = [
       { name: "Financial Times", nameKey: "financialtimes_name", descriptionKey: "financialtimes_desc", url: "/wrappers/financialtimes", icon: "icons/wrappers/financialtimes.webp", apptype: "wrapper" },
       { name: "Delaware Online", nameKey: "delawareonline_name", descriptionKey: "delawareonline_desc", url: "/wrappers/delawareonline", icon: "icons/wrappers/delawareonline.webp", apptype: "wrapper"},
       { name: "ifeng (凤凰网)", nameKey: "ifeng_name", descriptionKey: "ifeng_desc", icon: "icons/wrappers/ifeng.webp", url: "/wrappers/ifeng", apptype: "wrapper" },
-      { name: "Tencent News (腾讯新闻)", nameKey: "tencent_name", descriptionKey: "tencent_desc", icon: "icons/tencent_news.webp", url: "https://news.qq.com" },
-      { name: "Baidu (百度)", nameKey: "baidu_name", descriptionKey: "baidu_desc", icon: "icons/baidu.webp", url: "https://www.baidu.com" },
-      { name: "Sohu (搜狐)", nameKey: "sohu_name", descriptionKey: "sohu_desc", icon: "icons/sohu.webp", url: "https://www.sohu.com" },
+      { name: "Tencent News (腾讯新闻)", nameKey: "tencent_name", descriptionKey: "tencent_desc", icon: "icons/pwa/tencent_news.webp", url: "https://news.qq.com" },
+      { name: "Baidu (百度)", nameKey: "baidu_name", descriptionKey: "baidu_desc", icon: "icons/pwa/baidu.webp", url: "https://www.baidu.com" },
+      { name: "Sohu (搜狐)", nameKey: "sohu_name", descriptionKey: "sohu_desc", icon: "icons/pwa/sohu.webp", url: "https://www.sohu.com" },
       {
         name: "Guanchazhe (观察者网)",
         nameKey: "guanchazhe_name",
@@ -1842,8 +1842,8 @@ export const categories = [
     name: "Fashion",
     nameKey: "fashion_name",
     apps: [
-      { name: "InStyle", nameKey: "instyle_name", descriptionKey: "instyle_desc", icon: "icons/instyle.webp", url: "https://www.instyle.com" },
-      { name: "ELLE", nameKey: "elle_name", descriptionKey: "elle_desc", icon: "icons/elle.webp", url: "https://www.elle.com" },
+      { name: "InStyle", nameKey: "instyle_name", descriptionKey: "instyle_desc", icon: "icons/pwa/instyle.webp", url: "https://www.instyle.com" },
+      { name: "ELLE", nameKey: "elle_name", descriptionKey: "elle_desc", icon: "icons/pwa/elle.webp", url: "https://www.elle.com" },
       { name: "Marie Claire", nameKey: "marieclaire_name", descriptionKey: "marieclaire_desc", icon: "icons/wrappers/marieclaire.webp", url: "/wrappers/marieclaire" , apptype: "wrapper"},
       { name: "Yueyanshe (悦颜社)", nameKey: "yueyanshe_name", descriptionKey: "yueyanshe_desc", icon: "icons/wrappers/yueyanshe.webp", url: "/wrappers/yueyanshe" , apptype: "wrapper"},
     ]
@@ -1852,24 +1852,24 @@ export const categories = [
     name: "Entertainment Platform",
     nameKey: "entertainmentplatform_name",
     apps : [
-      { name: "AGE Animation (AGE动漫)", nameKey: "age_name", descriptionKey: "age_desc", icon: "icons/ageanimation.webp", url: "https://www.agedm.vip" },
-      { name: "Disney+", nameKey: "disneyplus_name", descriptionKey: "disneyplus_desc", icon: "icons/disneyplus.webp", url: "https://www.disneyplus.com" },
-      { name: "Hulu", nameKey: "hulu_name", descriptionKey: "hulu_desc", icon: "icons/hulu.webp", url: "https://www.hulu.com" },
-      { name: "ViX (vix.com)", nameKey: "vixcom_name", descriptionKey: "vixcom_desc", icon: "icons/vix.webp", url: "https://www.vix.com" },
-      { name: "ViX (vix.watch)", nameKey: "vixwatch_name", descriptionKey: "vixwatch_desc", icon: "icons/vix.webp", url: "https://vix.watch" },
-      { name: "ESPN", nameKey: "espn_name", descriptionKey: "espn_desc", icon: "icons/espn.webp", url: "https://www.espn.com" },
-      { name: "MangaDex", nameKey: "mangadex_name", descriptionKey: "mangadex_desc", icon: "icons/mangadex.webp", url: "https://mangadex.org" },
-      { name: "Crunchyroll", nameKey: "crunchyroll_name", descriptionKey: "crunchyroll_desc", icon: "icons/crunchyroll.webp", url: "https://www.crunchyroll.com" },
-      { name: "AnimeKai", nameKey: "animekai_name", descriptionKey: "animekai_desc", icon: "icons/animekai.webp" , url: "https://animekai.to" },
+      { name: "AGE Animation (AGE动漫)", nameKey: "age_name", descriptionKey: "age_desc", icon: "icons/pwa/ageanimation.webp", url: "https://www.agedm.vip" },
+      { name: "Disney+", nameKey: "disneyplus_name", descriptionKey: "disneyplus_desc", icon: "icons/pwa/disneyplus.webp", url: "https://www.disneyplus.com" },
+      { name: "Hulu", nameKey: "hulu_name", descriptionKey: "hulu_desc", icon: "icons/pwa/hulu.webp", url: "https://www.hulu.com" },
+      { name: "ViX (vix.com)", nameKey: "vixcom_name", descriptionKey: "vixcom_desc", icon: "icons/pwa/vix.webp", url: "https://www.vix.com" },
+      { name: "ViX (vix.watch)", nameKey: "vixwatch_name", descriptionKey: "vixwatch_desc", icon: "icons/pwa/vix.webp", url: "https://vix.watch" },
+      { name: "ESPN", nameKey: "espn_name", descriptionKey: "espn_desc", icon: "icons/pwa/espn.webp", url: "https://www.espn.com" },
+      { name: "MangaDex", nameKey: "mangadex_name", descriptionKey: "mangadex_desc", icon: "icons/pwa/mangadex.webp", url: "https://mangadex.org" },
+      { name: "Crunchyroll", nameKey: "crunchyroll_name", descriptionKey: "crunchyroll_desc", icon: "icons/pwa/crunchyroll.webp", url: "https://www.crunchyroll.com" },
+      { name: "AnimeKai", nameKey: "animekai_name", descriptionKey: "animekai_desc", icon: "icons/pwa/animekai.webp" , url: "https://animekai.to" },
       {
         name: "Sling", nameKey: "sling_name", descriptionKey: "sling_Desc",
-        icon: "icons/sling.webp", url: "https://www.sling.com"
+        icon: "icons/pwa/sling.webp", url: "https://www.sling.com"
       },
-      { name: "Bilinovel", nameKey: "bilinovel_name", descriptionKey: "bilinovel_desc", icon: "icons/bilinovel.webp", url: "https://www.bilinovel.com/" },
-      { name: "Nebula", nameKey: "nebula_name", descriptionKey: "nebula_desc", icon: "icons/nebula.webp", url: "https://nebula.tv" },
-      { name: "Tubi", nameKey: "tubitv_name", descriptionKey: "tubitv_desc", icon: "icons/tubitv.webp", url: "https://tubitv.com" },
-      { name: "Dubok (独播库)", nameKey: "dubok_name", descriptionKey: "dubok_desc", icon: "icons/dubok.webp", url: "https://www.dubok.tv" },
-      { name: "Youku (优酷)", nameKey: "youku_name", descriptionKey: "youku_desc", icon: "icons/youku.webp", url: "https://www.youku.com" },
+      { name: "Bilinovel", nameKey: "bilinovel_name", descriptionKey: "bilinovel_desc", icon: "icons/pwa/bilinovel.webp", url: "https://www.bilinovel.com/" },
+      { name: "Nebula", nameKey: "nebula_name", descriptionKey: "nebula_desc", icon: "icons/pwa/nebula.webp", url: "https://nebula.tv" },
+      { name: "Tubi", nameKey: "tubitv_name", descriptionKey: "tubitv_desc", icon: "icons/pwa/tubitv.webp", url: "https://tubitv.com" },
+      { name: "Dubok (独播库)", nameKey: "dubok_name", descriptionKey: "dubok_desc", icon: "icons/pwa/dubok.webp", url: "https://www.dubok.tv" },
+      { name: "Youku (优酷)", nameKey: "youku_name", descriptionKey: "youku_desc", icon: "icons/pwa/youku.webp", url: "https://www.youku.com" },
       { name: "Lightnovel Kingdom (轻之国度)", nameKey: "lightnovel_name", descriptionKey: "lightnovel_desc", icon: "icons/wrappers/lightnovelkingdom.webp", url: "/wrappers/lightnovelkingdom", apptype: "wrapper" },
       { name: "WeChat Read (微信读书)", nameKey: "wechatread_name", descriptionKey: "wechatread_desc", icon: "icons/wrappers/wechatread.webp", url: "/wrappers/wechatread", apptype: "wrapper" },
       { name: "Qingting FM (蜻蜓FM)", nameKey: "qingtingfm_name", descriptionKey: "qingtingfm_desc", icon: "icons/wrappers/qingtingfm.webp", apptype: "wrapper" },
@@ -1888,70 +1888,70 @@ export const categories = [
         name: "GamesLOL",
         nameKey: "gameslol_name",
         descriptionKey: "gameslol_desc",
-        icon: "icons/gameslol.webp",
+        icon: "icons/pwa/gameslol.webp",
         url: "https://en.gameslol.net"
       },
       {
         name: "ClassicGames.gg",
         nameKey: "classicgamesgg_name",
         descriptionKey: "classicgamesgg_desc",
-        icon: "icons/classicgamesgg.webp",
+        icon: "icons/pwa/classicgamesgg.webp",
         url: "https://classicgames.gg",
       },
       {
         name: "CrazyGames",
         nameKey: "crazygames_name",
         descriptionKey: "crazygames_desc",
-        icon: "icons/crazygames.webp",
+        icon: "icons/pwa/crazygames.webp",
         url: "https://www.crazygames.com"
       },
       {
         name: "Web Gamer",
         nameKey: "webgamer_name",
         descriptionKey: "webgamer_desc",
-        icon: "icons/webgamer.webp",
+        icon: "icons/pwa/webgamer.webp",
         url: "https://webgamer.io"
       },
       {
         name: "Roblox",
         nameKey: "roblox_name",
         descriptionKey: "roblox_desc",
-        icon: "icons/roblox.webp",
+        icon: "icons/pwa/roblox.webp",
         url: "https://www.roblox.com",
       },
       {
         name: "BlizzTrack",
         nameKey: "blizztrack_name",
         descriptionKey: "blizztrack_desc",
-        icon: "icons/blizztrack.webp",
+        icon: "icons/pwa/blizztrack.webp",
         url: "https://blizztrack.com"
       },
       {
         name: "Xbox Cloud Gaming",
         nameKey: "xboxcloudgaming_name",
         descriptionKey: "xboxcloudgaming_desc",
-        icon: "icons/xboxcloudgaming.webp",
+        icon: "icons/pwa/xboxcloudgaming.webp",
         url: "https://www.xbox.com/en-us/play"
       },
       {
         name: "Sexual Repression Index Calculator (性压抑指数计算器) SRI Calculator",
         nameKey: "sricalculator_name",
         descriptionKey: "sricalculator_desc",
-        icon: "icons/sricalculator.webp",
+        icon: "icons/pwa/sricalculator.webp",
         url: "https://xyy.gta4.bio"
       },
       {
         name: "2048 PWA",
         nameKey: "pwa2048_name",
         descriptionKey: "pwa2048_desc",
-        icon: "icons/pwa2048.webp",
+        icon: "icons/pwa/pwa2048.webp",
         url: "https://2048.skyafar.com"
       },
       {
         name: "Vimm's Lair",
         nameKey: "vimmslair_name",
         descriptionKey: "vimmslair_desc",
-        icon: "icons/vimmslair",
+        icon: "icons/pwa/vimmslair",
         url: "https://vimm.net"
       },
       {
@@ -2004,42 +2004,42 @@ export const categories = [
         name: "Murlok.io",
         nameKey: "murlok_name",
         descriptionKey: "murlok_desc",
-        icon: "icons/murlok.webp",
+        icon: "icons/pwa/murlok.webp",
         url: "https://murlok.io"
       },
       {
         name: "World of Warcraft Forums (US)",
         nameKey: "wowforums_name",
         descriptionKey: "wowforums_desc",
-        icon: "icons/wow.webp",
+        icon: "icons/pwa/wow.webp",
         url: "https://us.forums.blizzard.com/en/wow"
       },
       {
         name: "WoWAnalyzer",
         nameKey: "wowanalyzer_name",
         descriptionKey: "wowanalyzer_desc",
-        icon: "icons/wowanalyzer.webp",
+        icon: "icons/pwa/wowanalyzer.webp",
         url: "https://wowanalyzer.com"
       },
       {
         name: "Icy Veins",
         nameKey: "icyveins_name",
         descriptionKey: "icyveins_desc",
-        icon: "icons/icyveins.webp",
+        icon: "icons/pwa/icyveins.webp",
         url: "https://www.icy-veins.com"
       },
       {
         name: "RaGEZONE",
         nameKey: "ragezone_name",
         descriptionKey: "ragezone_desc",
-        icon: "icons/ragezone.webp",
+        icon: "icons/pwa/ragezone.webp",
         url: "https://forum.ragezone.com"
       },
       {
         name: "Game Rant",
         nameKey: "gamerant_name",
         descriptionKey: "gamerant_desc",
-        icon: "icons/gamerant.webp",
+        icon: "icons/pwa/gamerant.webp",
         url: "https://gamerant.com"
       },
       {
@@ -2118,7 +2118,7 @@ export const categories = [
         name: "World of Warcraft (China)",
         nameKey: "wowchina_name",
         descriptionKey: "wowchina_desc",
-        icon: "icons/wow.webp",
+        icon: "icons/pwa/wow.webp",
         url: "#小程序://魔兽世界/vyIwtNlzGN4iYEz",
         apptype: "wechatmini"
       },
@@ -2132,77 +2132,77 @@ export const categories = [
         name: "Duolingo",
         nameKey: "duolingo_global_name",
         descriptionKey: "duolingo_global_desc",
-        icon: "icons/duolingo.webp",
+        icon: "icons/pwa/duolingo.webp",
         url: "https://duolingo.com"
       },
       {
         name: "Duolingo (多邻国)",
         nameKey: "duolingo_cn_name",
         descriptionKey: "duolingo_cn_desc",
-        icon: "icons/duolingo.webp",
+        icon: "icons/pwa/duolingo.webp",
         url: "https://cn.duolingo.com"
       },
       {
         name: "Oxford English Dictionary",
         nameKey: "oed_name",
         descriptionKey: "oed_desc",
-        icon: "icons/oed.webp",
+        icon: "icons/pwa/oed.webp",
         url: "https://www.oed.com"
       },
       {
         name: "Duoreader",
         nameKey: "duoreader_name",
         descriptionKey: "duoreader_desc",
-        icon: "icons/duoreader.webp",
+        icon: "icons/pwa/duoreader.webp",
         url: "https://web.duoreader.cn"
       },
       {
         name: "Dudianji (读典籍)",
         nameKey: "dudianji_name",
         descriptionKey: "dudianji_desc",
-        icon: "icons/dudianji.webp",
+        icon: "icons/pwa/dudianji.webp",
         url: "https://web.dudianji.com"
       },
       {
         name: "Xiangyin (乡音)",
         nameKey: "xiangyin_name",
         descriptionKey: "xiangyin_desc",
-        icon: "icons/xiangyin.webp",
+        icon: "icons/pwa/xiangyin.webp",
         url: "https://web.xiangyin.mobi"
       },
       {
         name: "Physics Lab",
         nameKey: "physicslab_name",
         descriptionKey: "physicslab_desc",
-        icon: "icons/physicslab.webp",
+        icon: "icons/pwa/physicslab.webp",
         url: "https://plweb.turtlesim.com"
       },
       {
         name: "Best Piano Method",
         nameKey: "bestpianomethod_name",
         descriptionKey: "bestpianomethod_desc",
-        icon: "icons/bestpianomethod.webp",
+        icon: "icons/pwa/bestpianomethod.webp",
         url: "https://bestpianomethod.com"
       },
       {
         name: "StudyCountry",
         nameKey: "studycountry_name",
         descriptionKey: "studycountry_desc",
-        icon: "icons/studycountry.webp",
+        icon: "icons/pwa/studycountry.webp",
         url: "https://www.studycountry.com"
       },
       {
         name: "Gushiwen (古诗文网)",
         nameKey: "gushiwen_name",
         descriptionKey: "gushiwen_desc",
-        icon: "icons/gushiwen.webp",
+        icon: "icons/pwa/gushiwen.webp",
         url: "https://www.gushiwen.cn"
       },
       {
         name: "Hellotying (打字侠)",
         nameKey: "hellotyping_name",
         descriptionKey: "hellotyping_desc",
-        icon: "icons/hellotyping.webp",
+        icon: "icons/pwa/hellotyping.webp",
         url: "https://www.hellotyping.com"
       },
       {
@@ -2231,7 +2231,7 @@ export const categories = [
         name: "Incels.is",
         nameKey: "incelsis_name",
         descriptionKey: "incelsis_desc",
-        icon: "icons/incel.webp",
+        icon: "icons/pwa/incel.webp",
         url: "https://incels.is"
       },
     ]
@@ -2244,56 +2244,56 @@ export const categories = [
         name: "Wikipedia",
         nameKey: "wikipedia_name",
         descriptionKey: "wikipedia_desc",
-        icon: "icons/wikipedia.webp",
+        icon: "icons/pwa/wikipedia.webp",
         url: "https://wikipedia.org"
       },
       {
         name: "Liquipedia",
         nameKey: "liquipedia_name",
         descriptionKey: "liquipedia_desc",
-        icon: "icons/liquipedia.webp",
+        icon: "icons/pwa/liquipedia.webp",
         url: "https://liquipedia.net"
       },
       {
         name: "Incel Wiki",
         nameKey: "incelwiki_name",
         descriptionKey: "incelwiki_desc",
-        icon: "icons/incelwiki.webp",
+        icon: "icons/pwa/incelwiki.webp",
         url: "https://incels.wiki"
       },
       {
         name: "WoWDev wiki",
         nameKey: "wowdevwiki_name",
         descriptionKey: "wowdevwiki_desc",
-        icon: "icons/wowdevwiki.webp",
+        icon: "icons/pwa/wowdevwiki.webp",
         url: "https://wowdev.wiki"
       },
       {
         name: "Emojis Wiki",
         nameKey: "emojiswiki_name",
         descriptionKey: "emojiswiki_desc",
-        icon: "icons/emojiswiki.webp",
+        icon: "icons/pwa/emojiswiki.webp",
         url: "https://emojis.wiki"
       },
       {
         name: "The Apple Wiki",
         nameKey: "theapplewiki_name",
         descriptionKey: "theapplewiki_desc",
-        icon: "icons/theapplewiki.webp",
+        icon: "icons/pwa/theapplewiki.webp",
         url: "https://theapplewiki.com"
       },
       {
         name: "Uncyclopedia",
         nameKey: "uncyclopedia_name",
         descriptionKey: "uncyclopedia_desc",
-        icon: "icons/uncyclopedia.webp",
+        icon: "icons/pwa/uncyclopedia.webp",
         url: "https://en.uncyclopedia.co"
       },
       {
         name: "Baidu Baike (百度百科)",
         nameKey: "baidubaike_name",
         descriptionKey: "baidubaike_desc",
-        icon: "icons/baike.webp",
+        icon: "icons/pwa/baike.webp",
         url: "https://baike.baidu.com"
       },
       {
@@ -2354,14 +2354,14 @@ export const categories = [
       name: "Quran.com",
       nameKey: "qurancom_name",
       descriptionKey: "qurancom_desc",
-      icon: "icons/qurancom.webp",
+      icon: "icons/pwa/qurancom.webp",
       url: "https://quran.com"
       },
       {
         name: "BibleGateway.com",
         nameKey: "biblegatewaycom_name",
         descriptionKey: "biblegatewaycom_desc",
-        icon: "icons/biblegatewaycom.webp",
+        icon: "icons/pwa/biblegatewaycom.webp",
         url: "https://www.biblegateway.com"
       },
       {
@@ -2382,70 +2382,70 @@ export const categories = [
         name: "PWA Stats",
         nameKey: "pwastats_name",
         descriptionKey: "pwastats_desc",
-        icon: "icons/pwastats.webp",
+        icon: "icons/pwa/pwastats.webp",
         url: "https://www.pwastats.com"
       },
       {
         name: "StatCounter GS",
         nameKey: "statcounter_name",
         descriptionKey: "statcounter_desc",
-        icon: "icons/statcounter.webp",
+        icon: "icons/pwa/statcounter.webp",
         url: "https://gs.statcounter.com"
       },
       {
         name: "Speedtest by Ookla",
         nameKey: "speedtest_name",
         descriptionKey: "speedtest_desc",
-        icon: "icons/speedtest.webp",
+        icon: "icons/pwa/speedtest.webp",
         url: "https://www.speedtest.net"
       },
       {
         name: "Basemark Web",
         nameKey: "basemarkweb_name",
         descriptionKey: "basemarkweb_desc",
-        icon: "icons/basemarkweb.webp",
+        icon: "icons/pwa/basemarkweb.webp",
         url: "https://web.basemark.com"
       },
       {
         name: "CZNull",
         nameKey: "cznull_name",
         descriptionKey: "cznull_desc",
-        icon: "icons/cznull.webp",
+        icon: "icons/pwa/cznull.webp",
         url: "https://cznull.com"
       },
       {
         name: "Redirection.io",
         nameKey: "redirectionio_name",
         descriptionKey: "redirectionio_desc",
-        icon: "icons/redirectionio.webp",
+        icon: "icons/pwa/redirectionio.webp",
         url: "https://redirection.io"
       },
       {
         name: "iplocation.net",
         nameKey: "iplocationnet_name",
         descriptionKey: "iplocationnet_desc",
-        icon: "icons/iplocationnet.webp",
+        icon: "icons/pwa/iplocationnet.webp",
         url: "https://www.iplocation.net"
       },
       {
         name: "Human Benchmark",
         nameKey: "humanbenchmark_name",
         descriptionKey: "humanbenchmark_desc",
-        icon: "icons/humanbenchmark.webp",
+        icon: "icons/pwa/humanbenchmark.webp",
         url: "https://humanbenchmark.com"
       },
       {
         name: "Online Mic Test",
         nameKey: "onlinemictest_name",
         descriptionKey: "onlinemictest_desc",
-        icon: "icons/onlinemictest.webp",
+        icon: "icons/pwa/onlinemictest.webp",
         url: "https://www.onlinemictest.com"
       },
       {
         name: "StatsCrop",
         namekey: "statscrop_name",
         descriptionKey: "statscrop_desc",
-        icon: "icons/statscrop.webp",
+        icon: "icons/pwa/statscrop.webp",
         url: "https://www.statscrop.com"
       },
       {
@@ -2482,56 +2482,56 @@ export const categories = [
         name: "Spotify",
         nameKey: "spotify_name",
         descriptionKey: "spotify_desc",
-        icon: "icons/spotify.webp",
+        icon: "icons/pwa/spotify.webp",
         url: "https://open.spotify.com"
       },
       {
         name: "Apple Music",
         nameKey: "applemusic_name",
         descriptionKey: "applemusic_desc",
-        icon: "icons/applemusic.webp",
+        icon: "icons/pwa/applemusic.webp",
         url: "https://music.apple.com"
       },
       {
         name: "YouTube Music",
         nameKey: "youtubemusic_name",
         descriptionKey: "youtubemusic_desc",
-        icon: "icons/youtubemusic.webp",
+        icon: "icons/pwa/youtubemusic.webp",
         url: "https://music.youtube.com"
       },
       {
         name: "SoundCloud",
         nameKey: "soundcloud_name",
         descriptionKey: "soundcloud_desc",
-        icon: "icons/soundcloud.webp",
+        icon: "icons/pwa/soundcloud.webp",
         url: "https://soundcloud.com"
       },
       {
         name: "Audiomack",
         nameKey: "audiomack_name",
         descriptionKey: "audiomack_desc",
-        icon: "icons/audiomack.webp",
+        icon: "icons/pwa/audiomack.webp",
         url: "https://audiomack.com"
       },
       {
         name: "Roon",
         nameKey: "roon_name",
         descriptionKey: "roon_desc",
-        icon: "icons/roon.webp",
+        icon: "icons/pwa/roon.webp",
         url: "https://roon.app"
       },
       {
         name: "Pocket Casts",
         nameKey: "pocketcasts_name",
         descriptionKey: "pocketcasts_desc",
-        icon: "icons/pocketcasts.webp",
+        icon: "icons/pwa/pocketcasts.webp",
         url: "https://pocketcasts.com"
       },
       {
         name: "Tonzhon (铜钟)",
         nameKey: "tonzhon_name",
         descriptionKey: "tonzhon_desc",
-        icon: "icons/tonzhon.webp",
+        icon: "icons/pwa/tonzhon.webp",
         url: "https://tonzhon.whamon.com"
       },
     ]
@@ -2544,90 +2544,90 @@ export const categories = [
         name: "Starbucks",
         nameKey: "starbucks_name",
         descriptionKey: "starbucks_desc",
-        icon: "icons/starbucks.webp",
+        icon: "icons/pwa/starbucks.webp",
         url: "https://www.starbucks.com"
       },
       {
         name: "Amazon",
         nameKey: "amazon_name",
         descriptionKey: "amazon_desc",
-        icon: "icons/amazon.webp",
+        icon: "icons/pwa/amazon.webp",
         url: "https://www.amazon.com"
       },
       {
         name: "Best Buy",
         nameKey: "bestbuy_name",
         descriptionKey: "bestbuy_desc",
-        icon: "icons/bestbuy.webp",
+        icon: "icons/pwa/bestbuy.webp",
         url: "https://www.bestbuy.com"
       },
       {
         name: "eBay",
         nameKey: "ebay_name",
         descriptionKey: "ebay_desc",
-        icon: "icons/ebay.webp",
+        icon: "icons/pwa/ebay.webp",
         url: "https://www.ebay.com"
       },
       {
         name: "Whatnot",
         nameKey: "whatnot_name",
         descriptionKey: "whatnot_desc",
-        icon: "icons/whatnot.webp",
+        icon: "icons/pwa/whatnot.webp",
         url: "https://www.whatnot.com"
       },
       {
         name: "Temu",
         descriptionKey: "temu_desc",
-        icon: "icons/temu.webp",
+        icon: "icons/pwa/temu.webp",
         url: "https://www.temu.com/login.html"
       },
       {
         name: "Shopify",
         nameKey: "shopify_name",
         descriptionKey: "shopify_desc",
-        icon: "icons/shopify.webp",
+        icon: "icons/pwa/shopify.webp",
         url: "https://www.shopify.com"
       },
       {
         name: "Dunkin' Donuts",
         nameKey: "dunkindonuts_name",
         descriptionKey: "dunkindonuts_desc",
-        icon: "icons/dunkindonuts.webp",
+        icon: "icons/pwa/dunkindonuts.webp",
         url: "https://www.dunkindonuts.com"
       },
       {
         name: "Sam's Club",
         nameKey: "samsclub_name",
         descriptionKey: "samsclub_desc",
-        icon: "icons/samsclub.webp",
+        icon: "icons/pwa/samsclub.webp",
         url: "https://www.samsclub.com"
       },
       {
         name: "Seamless",
         nameKey: "seamless_name",
         descriptionKey: "seamless_desc",
-        icon: "icons/seamless.webp",
+        icon: "icons/pwa/seamless.webp",
         url: "https://www.seamless.com"
       },
       {
         name: "Flipkart",
         nameKey: "flipkart_name",
         descriptionKey: "flipkart_desc",
-        icon: "icons/flipkart.webp",
+        icon: "icons/pwa/flipkart.webp",
         url: "https://www.flipkart.com",
       },
       {
         name: "Fashion Nova",
         nameKey: "fashionnova_name",
         descriptionKey: "fashionnova_desc",
-        icon: "icons/fashionnova.webp",
+        icon: "icons/pwa/fashionnova.webp",
         url: "https://www.fashionnova.com"
       },
       {
         name: "Taobao (淘宝)",
         nameKey: "taobao_name",
         descriptionKey: "taobao_desc",
-        icon: "icons/taobao.webp",
+        icon: "icons/pwa/taobao.webp",
         url: "https://www.taobao.com"
       },
       {
@@ -2649,7 +2649,7 @@ export const categories = [
         name: "Shein",
         nameKey: "shein_name",
         descriptionKey: "shein_desc",
-        icon: "icons/shein.webp",
+        icon: "icons/pwa/shein.webp",
         url: "https://www.shein.com",
       },
       {
@@ -2847,7 +2847,7 @@ export const categories = [
         name: "Sam's Club (CN)",
         nameKey: "samsclubwechatmini_name",
         descriptionKey: "samsclubwechatmini_desc",
-        icon: "icons/samsclub.webp",
+        icon: "icons/pwa/samsclub.webp",
         url: "#小程序://山姆会员商店SamsClub/TeZ2pCNStN24TDy",
         apptype: "wechatmini"
       },
@@ -2978,49 +2978,49 @@ export const categories = [
         name: "Uber",
         nameKey: "uber_name",
         descriptionKey: "uber_desc",
-        icon: "icons/uber.webp",
+        icon: "icons/pwa/uber.webp",
         url: "https://uber.com"
       },
       {
         name: "Amtrak",
         nameKey: "amtrak_name",
         descriptionKey: "amtrak_desc",
-        icon: "icons/amtrak.webp",
+        icon: "icons/pwa/amtrak.webp",
         url: "https://amtrak.com"
       },
       {
         name: "Delta",
         nameKey: "delta_name",
         descriptionKey: "delta_desc",
-        icon: "icons/delta.webp",
+        icon: "icons/pwa/delta.webp",
         url: "https://delta.com"
       },
       {
         name: "United Airlines",
         nameKey: "united_name",
         descriptionKey: "united_desc",
-        icon: "icons/united.webp",
+        icon: "icons/pwa/united.webp",
         url: "https://united.com"
       },
       {
         name: "JetBlue",
         nameKey: "jetblue_name",
         descriptionKey: "jetblue_desc",
-        icon: "icons/jetblue.webp",
+        icon: "icons/pwa/jetblue.webp",
         url: "https://www.jetblue.com"
       },
       {
         name: "FlixBus",
         nameKey: "flixbus_name",
         descriptionKey: "flixbus_desc",
-        icon: "icons/flixbus.webp",
+        icon: "icons/pwa/flixbus.webp",
         url: "https://flixbus.com"
       },
       {
         name: "SF Express (顺丰速运)",
         nameKey: "sfexpress_name",
         descriptionKey: "sfexpress_desc",
-        icon: "icons/shunfeng.webp",
+        icon: "icons/pwa/shunfeng.webp",
         url: "https://www.sf-express.com"
       },
       {
@@ -3145,21 +3145,21 @@ export const categories = [
         name: "Tesla",
         nameKey: "tesla_name",
         descriptionKey: "tesla_desc",
-        icon: "icons/tesla.webp",
+        icon: "icons/pwa/tesla.webp",
         url: "https://www.tesla.com"
       },
       {
         name: "Autosport",
         nameKey: "autosport_name",
         descriptionKey: "autosport_desc",
-        icon: "icons/autosport.webp",
+        icon: "icons/pwa/autosport.webp",
         url: "https://www.autosport.com"
       },
       {
         name: "Dongchedi",
         nameKey: "dongchedi_name",
         descriptionKey: "dongchedi_desc",
-        icon: "icons/dongchedi.webp",
+        icon: "icons/pwa/dongchedi.webp",
         url: "https://www.dongchedi.com"
       },
       {
@@ -3187,7 +3187,7 @@ export const categories = [
         name: "Fandango",
         nameKey: "fandango_name",
         descriptionKey: "fandango_desc",
-        icon: "icons/fandango.webp",
+        icon: "icons/pwa/fandango.webp",
         url: "https://www.fandango.com"
       },
       {
@@ -3256,14 +3256,14 @@ export const categories = [
         name: "Zillow",
         nameKey: "zillow_name",
         descriptionKey: "zillow_desc",
-        icon: "icons/zillow.webp",
+        icon: "icons/pwa/zillow.webp",
         url: "https://www.zillow.com",
       },
       {
         name: "Redfin",
         nameKey: "redfin_name",
         descriptionKey: "redfin_desc",
-        icon: "icons/redfin.webp",
+        icon: "icons/pwa/redfin.webp",
         url: "https://www.redfin.com",
       },
       {
@@ -3300,35 +3300,35 @@ export const categories = [
         name: "LinkedIn",
         nameKey: "linkedin_name",
         descriptionKey: "linkedin_desc",
-        icon: "icons/linkedin.webp",
+        icon: "icons/pwa/linkedin.webp",
         url: "https://www.linkedin.com",
       },
       {
         name: "Handshake",
         nameKey: "handshake_name",
         descriptionKey: "handshake_desc",
-        icon: "icons/handshake.webp",
+        icon: "icons/pwa/handshake.webp",
         url: "https://app.joinhandshake.com",
       },
       {
         name: "Wellfound",
         nameKey: "wellfound_name",
         descriptionKey: "wellfound_desc",
-        icon: "icons/wellfound.webp",
+        icon: "icons/pwa/wellfound.webp",
         url: "https://wellfound.com/login"
       },
       {
         name: "IGUOPIN",
         nameKey: "iguopin_name",
         descriptionKey: "iguopin_desc",
-        icon: "icons/iguopin.webp",
+        icon: "icons/pwa/iguopin.webp",
         url: "https://www.iguopin.com",
       },
       {
         name: "CommonFloor.com",
         nameKey: "commonfloor_name",
         descriptionKey: "commonfloor_desc",
-        icon: "icons/commonfloor.webp",
+        icon: "icons/pwa/commonfloor.webp",
         url: "https://www.commonfloor.com"
       },
       {
@@ -3389,14 +3389,14 @@ export const categories = [
         name: "Linode",
         nameKey: "linode_name",
         descriptionKey: "linode_desc",
-        icon: "icons/linode.webp",
+        icon: "icons/pwa/linode.webp",
         url: "https://www.linode.com"
       },
       {
         name: "Azure",
         nameKey: "azure_name",
         descriptionKey: "azure_desc",
-        icon: "icons/azure.webp",
+        icon: "icons/pwa/azure.webp",
         url: "https://portal.azure.com"
       },
     ]
@@ -3423,56 +3423,56 @@ export const categories = [
         name: "WordPress",
         nameKey: "wordpress_name",
         descriptionKey: "wordpress_desc",
-        icon: "icons/wordpress.webp",
+        icon: "icons/pwa/wordpress.webp",
         url: "https://wordpress.org"
       },
       {
         name: "Adactio",
         nameKey: "adactio_name",
         descriptionKey: "adactio_desc",
-        icon: "icons/adactio.webp",
+        icon: "icons/pwa/adactio.webp",
         url: "https://adactio.com"
       },
       {
         name: "Medium",
         nameKey: "medium_name",
         descriptionKey: "medium_desc",
-        icon: "icons/medium.webp",
+        icon: "icons/pwa/medium.webp",
         url: "https://medium.com"
       },
       {
         name: "Qinlili",
         nameKey: "qinlili_name",
         descriptionKey: "qinlili_desc",
-        icon: "icons/qinlili.webp",
+        icon: "icons/pwa/qinlili.webp",
         url: "https://qinlili.bid" 
       },
       {
         name: "Kangwenchang",
         nameKey: "kangwenchang_name",
         descriptionKey: "kangwenchang_desc",
-        icon: "icons/kangwenchang.webp",
+        icon: "icons/pwa/kangwenchang.webp",
         url: "https://kangwenchang.com"
       },
       {
         name: "Qualcomm",
         nameKey: "qualcomm_name",
         descriptionKey: "qualcomm_desc",
-        icon: "icons/qualcomm.webp",
+        icon: "icons/pwa/qualcomm.webp",
         url: "https://www.qualcomm.com"
       },
       {
         name: "PWA Pilipinas",
         nameKey: "pwapilipinas_name",
         descriptionKey: "pwapilipinas_desc",
-        icon: "icons/pwapilipinas.webp",
+        icon: "icons/pwa/pwapilipinas.webp",
         url: "https://app.pwapilipinas.org"
       },
       {
         name: "Richard Dawkins",
         nameKey: "richarddawkins_name",
         descriptionKey: "richarddawkins_desc",
-        icon: "icons/richarddawkins.webp",
+        icon: "icons/pwa/richarddawkins.webp",
         url: "https://www.richarddawkins.com"
       },
       {
@@ -3705,7 +3705,7 @@ export const categories = [
       {
         name: "CIA",
         nameKey: "cia_name",
-        icon: "icons/cia.webp",
+        icon: "icons/pwa/cia.webp",
         url: "https://www.cia.gov",
         descriptionKey: "cia_desc"
       },
@@ -3821,14 +3821,14 @@ export const categories = [
         name: "ISO",
         nameKey: "iso_name",
         descriptionKey: "iso_desc",
-        icon: "icons/iso.webp",
+        icon: "icons/pwa/iso.webp",
         url: "https://www.iso.org"
       },
       {
         name: "Olympics",
         nameKey: "olympics_name",
         descriptionKey: "olympics_desc",
-        icon: "icons/olympics.webp",
+        icon: "icons/pwa/olympics.webp",
         url: "https://www.iso.org"
       },
       {
@@ -3849,14 +3849,14 @@ export const categories = [
         name: "GE HealthCare Digital Expert",
         nameKey: "digitalexpertgehealthcare_name",
         descriptionKey: "digitalexpertgehealthcare_desc",
-        icon: "icons/digitalexpertgehealthcare.webp",
+        icon: "icons/pwa/digitalexpertgehealthcare.webp",
         url: "https://digitalexpert.gehealthcare.com",
       },
       {
         name: "Calm",
         nameKey: "calm_name",
         descriptionKey: "calm_desc",
-        icon: "icons/calm.webp",
+        icon: "icons/pwa/calm.webp",
         url: "https://www.calm.com"
       },
       {
@@ -3941,28 +3941,28 @@ export const categories = [
         name: "Overleaf",
         nameKey: "overleaf_name",
         descriptionKey: "overleaf_desc",
-        icon: "icons/overleaf.webp",
+        icon: "icons/pwa/overleaf.webp",
         url: "https://www.overleaf.com"
       },
       {
         name: "Security and Privacy Conference Deadlines",
         nameKey: "secdeadlines_name",
         descriptionKey: "secdeadlines_desc",
-        icon: "icons/secdeadlines.webp",
+        icon: "icons/pwa/secdeadlines.webp",
         url: "https://sec-deadlines.github.io",
       },
       {
         name: "Pew Research Center",
         nameKey: "pewresearch_name",
         descriptionKey: "pewresearch_desc",
-        icon: "icons/pewresearch.webp",
+        icon: "icons/pwa/pewresearch.webp",
         url: "https://www.pewresearch.org"
       },
       {
         name: "Communications of the ACM",
         nameKey: "cacm_name",
         descriptionKey: "cacm_desc",
-        icon: "icons/cacm.webp",
+        icon: "icons/pwa/cacm.webp",
         url: "https://cacm.acm.org"
       },
       {
@@ -3991,7 +3991,7 @@ export const categories = [
         name: "Princeton University",
         nameKey: "princeton_name",
         descriptionKey: "princeton_desc",
-        icon: "icons/princeton.webp",
+        icon: "icons/pwa/princeton.webp",
         url: "https://www.princeton.edu"
       },
       {
@@ -4052,28 +4052,28 @@ export const categories = [
         name: "progressivewebapp.store",
         nameKey: "progressivewebappstore_name",
         descriptionKey: "progressivewebappstore_desc",
-        icon: "icons/progressivewebappstore.webp",
+        icon: "icons/pwa/progressivewebappstore.webp",
         url: "https://progressivewebapp.store"
       },
       {
         name: "store.app",
         nameKey: "storeapp_name",
         descriptionKey: "storeapp_desc",
-        icon: "icons/storeapp.webp",
+        icon: "icons/pwa/storeapp.webp",
         url: "https://store.app"
       },
       {
         name: "PWA Marketplace",
         nameKey: "pwamarketplace_name",
         descriptionKey: "pwamarketplace_desc",
-        icon: "icons/pwamarketplace.webp",
+        icon: "icons/pwa/pwamarketplace.webp",
         url: "https://www.pwa.com"
       },
       {
         name: "PWA Jisandi (PWA集散地)",
         nameKey: "pwappnet_name",
         descriptionKey: "pwappnet_desc",
-        icon: "icons/pwappnet.webp",
+        icon: "icons/pwa/pwappnet.webp",
         url: "https://www.pwapp.net"
       }
     ]
@@ -4086,14 +4086,14 @@ export const categories = [
         name: "4chan",
         nameKey: "fourchan_name",
         descriptionKey: "fourchan_desc",
-        icon: "icons/4chan.webp",
+        icon: "icons/pwa/4chan.webp",
         url: "https://4chan.org"
       },
       {
         name: "Danbooru",
         nameKey: "danbooru_name",
         descriptionKey: "danbooru_desc",
-        icon: "icons/danbooru.webp",
+        icon: "icons/pwa/danbooru.webp",
         url: "https://danbooru.donmai.us"
       },
       {
@@ -4110,27 +4110,27 @@ export const categories = [
     name: "Adult",
     nameKey: "adult_name",
     apps: [
-      { name: "CrashOn.AI", icon: "icons/crushonai.webp", url: "https://crushon.ai", nameKey: "crushonai_name", descriptionKey: "crushonai_desc" },
-      { name: "Girlfriend AI", icon: "icons/girlfriendai.webp", url: "https://girlfriend.ai", nameKey: "girlfriendai_name", descriptionKey: "girlfriendai_desc" },
+      { name: "CrashOn.AI", icon: "icons/pwa/crushonai.webp", url: "https://crushon.ai", nameKey: "crushonai_name", descriptionKey: "crushonai_desc" },
+      { name: "Girlfriend AI", icon: "icons/pwa/girlfriendai.webp", url: "https://girlfriend.ai", nameKey: "girlfriendai_name", descriptionKey: "girlfriendai_desc" },
       {
         name: "Pornhub",
         nameKey: "pornhub_name",
         descriptionKey: "pornhub_desc",
-        icon: "icons/pornhub.webp",
+        icon: "icons/pwa/pornhub.webp",
         url: "https://www.pornhub.com"
       },
       {
         name: "SpankBang",
         nameKey: "spankbang_name",
         descriptionKey: "spankbang_desc",
-        icon: "icons/spankbang.webp",
+        icon: "icons/pwa/spankbang.webp",
         url: "https://spankbang.com"
       },
       {
         name: "Hentai Haven",
         nameKey: "hentaihaven_name",
         descriptionKey: "hentaihaven_desc",
-        icon: "icons/hentaihaven.webp",
+        icon: "icons/pwa/hentaihaven.webp",
         url: "https://hentaihaven.xxx"
       },
       {
@@ -4152,21 +4152,21 @@ export const categories = [
         name: "XNXX.COM",
         nameKey: "xnxx_name",
         descriptionKey: "xnxx_desc",
-        icon: "icons/xnxx.webp",
+        icon: "icons/pwa/xnxx.webp",
         url: "https://www.xnxx.com"
       },
       {
         name: "OnlyFans",
         nameKey: "onlyfans_name",
         descriptionKey: "onlyfans_desc",
-        icon: "icons/onlyfans.webp",
+        icon: "icons/pwa/onlyfans.webp",
         url: "https://onlyfans.com"
       },
       {
         name: "The Porn Dude",
         nameKey: "theporndude_name",
         descriptionKey: "theporndude_desc",
-        icon: "icons/theporndude.webp",
+        icon: "icons/pwa/theporndude.webp",
         url: "https://theporndude.com"
       },
       {
