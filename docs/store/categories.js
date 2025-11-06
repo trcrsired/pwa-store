@@ -855,6 +855,13 @@ export const categories = [
         url: "https://www.quora.com"
       },
       {
+        name: "Element",
+        nameKey: "element_name",
+        descriptionKey: "element_desc",
+        icon: "icons/pwa/element.webp",
+        url: "https://app.element.io"
+      },
+      {
         name: "Soul",
         nameKey: "soul_name",
         descriptionKey: "soul_desc",

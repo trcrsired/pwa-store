@@ -287,6 +287,8 @@ const L = {
   flickr_desc: "Photo-sharing platform for hosting, organizing, and discovering images and videos. Popular among photographers and hobbyists for its community features and licensing options.",
   quora_name: "Quora",
   quora_desc: "A global Q&A platform where users share insights, experiences, and expert knowledge across topics.",
+  element_name: "Element",
+  element_desc: "A secure, decentralized messaging client built on the Matrix protocol. Supports end-to-end encryption, group collaboration, and cross-platform access via web, mobile, and desktop.",
   soul_name: "Soul",
   soul_desc: "A social networking app that connects users through shared interests and emotional resonance, fostering authentic relationships beyond appearances.",
   zoosk_name: "Zoosk",

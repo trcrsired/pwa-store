@@ -287,6 +287,8 @@ const L = {
   flickr_desc: "图片分享平台，用于托管、整理和发现照片与视频。因其社区互动和授权选项而受到摄影师与爱好者的欢迎。",
   quora_name: "Quora",
   quora_desc: "全球问答平台，用户在此分享见解、经验与各领域的专业知识。",
+  element_name: "Element",
+  element_desc: "基于 Matrix 协议构建的安全去中心化通信客户端，支持端到端加密、群组协作及跨平台访问（网页、移动端与桌面端）。",
   soul_name: "Soul",
   soul_desc: "一款通过兴趣匹配与情感共鸣建立真实关系的社交平台，倡导“灵魂匹配”而非颜值社交。",
   zoosk_name: "Zoosk",
