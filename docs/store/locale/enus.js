@@ -1267,6 +1267,8 @@ const L = {
   tailongbank_desc: "Mini app from Tailong Bank focused on SME financial services, account management, and mobile banking.",
   njbankxinweiting_name: "Nanjing Bank Xinweiting (南京银行鑫微厅)",
   njbankxinweiting_desc: "Official mini app from Bank of Nanjing (中国南京银行), your digital wealth concierge for investment, loans, deposits, and credit card services.",
+  unionpayquickpass_name: "UnionPay Cloud QuickPass (云闪付)",
+  unionpayquickpass_desc: "A mobile payment mini app by China UnionPay, supporting QR code payments, card binding, and financial services across merchants and transit systems.",
   duoduomaicai_name: "Duoduo Maicai (多多买菜)",
   duoduomaicai_desc: "Duoduo Maicai is a grocery ordering mini program operated by Pinduoduo. It offers next-day pickup of fresh produce and daily essentials through a preorder model, with items sourced directly from agricultural regions across China.",
   dingdongmaicai_name: "Dingdong Maicai (叮咚买菜)",
