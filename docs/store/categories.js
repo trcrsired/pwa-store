@@ -1216,6 +1216,14 @@ export const categories = [
         url: "#小程序://南京银行鑫微厅/L6nDGwUvuxvVGBg",
         apptype: "wechatmini"
       },
+      {
+        name: "UnionPay Cloud QuickPass (云闪付)",
+        nameKey: "unionpayquickpass_name",
+        descriptionKey: "unionpayquickpass_desc",
+        icon: "icons/wechatmini/unionpayquickpass.webp",
+        url: "#小程序://云闪付/lvZcI1UO0hpQJJf",
+        apptype: "wechatmini"
+      }
     ]
   },
   {
