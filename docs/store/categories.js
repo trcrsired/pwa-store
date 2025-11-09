@@ -1990,8 +1990,15 @@ export const categories = [
         name: "Vimm's Lair",
         nameKey: "vimmslair_name",
         descriptionKey: "vimmslair_desc",
-        icon: "icons/pwa/vimmslair",
+        icon: "icons/pwa/vimmslair.webp",
         url: "https://vimm.net"
+      },
+      {
+        name: "Chess",
+        nameKey: "chess_name",
+        descriptionKey: "chess_desc",
+        icon: "icons/pwa/chess.webp",
+        url: "https://www.chess.com"
       },
       {
         name: "Red Alert 2: Chrono Divide",
