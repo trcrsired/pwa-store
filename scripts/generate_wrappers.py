@@ -186,6 +186,7 @@ WRAPPERS = [
   { "name": "Layoffs.fyi", "url": "https://layoffs.fyi", "keyify_name": "layoffsfyi"},
   { "name": "Eudic", "url": "https://dict.eudic.net" },
   { "name": "劝学", "url": "https://www.quanxue.cn", "keyify_name": "quanxue" },
+  { "name": "新东方", "url": "https://www.xdf.cn", "keyify_name": "xdf" },
   { "name": "Marxists Internet Archive", "url": "https://www.marxists.org", "keyify_name": "marxistsorg" },
   { "name": "OSDev.org" , "url": "https://wiki.osdev.org", "keyify_name": "osdevorg" },
   { "name": "Consumer Rights Wiki", "url": "https://consumerrights.wiki" },

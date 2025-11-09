@@ -2296,6 +2296,14 @@ export const categories = [
         url: "/wrappers/quanxue",
         apptype: "wrapper"
       },
+      {
+        name: "xdf (新东方)",
+        nameKey: "xdf_name",
+        descriptionKey: "xdf_desc",
+        icon: "icons/wrappers/xdf.webp",
+        url: "/wrappers/xdf",
+        apptype: "wrapper"
+      },
     ]
   },
   {

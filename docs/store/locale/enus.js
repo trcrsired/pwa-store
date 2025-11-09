@@ -769,6 +769,8 @@ const L = {
   eudic_desc: "Eudic is a multilingual dictionary and translation platform offering English-Chinese lookup, daily listening practice, document translation, and AI-powered writing tools. Optimized for Apple systems, it supports Mdx extensions and caters to learners, translators, and educators.",
   quanxue_name: "Quanxue (劝学)",
   quanxue_desc: "A curated library of classical Chinese texts, spanning philosophy, history, literature, and moral teachings.",
+  xdf_name: "xdf (新东方)",
+  xdf_desc: "An education platform offering language training, test prep, and online courses across academic subjects in China.",
   forums_name: "Forums",
   incelsis_name: "Incel.is",
   incelsis_desc: "Incel.is is an online discussion forum centered around the incel subculture. It provides a space for users to share perspectives, engage in dialogue, and explore topics related to romantic exclusion, social dynamics, and identity.",
