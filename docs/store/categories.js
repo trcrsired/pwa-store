@@ -1105,6 +1105,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Binance",
+        nameKey: "binance_name",
+        descriptionKey: "binance_desc",
+        icon: "icons/wrappers/binance.webp",
+        url: "/wrappers/binance",
+        apptype: "wrapper"
+      },
+      {
         name: "Hurun Report (胡润百富)",
         nameKey: "hurun_name",
         descriptionKey: "hurun_desc",

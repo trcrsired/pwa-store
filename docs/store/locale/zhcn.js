@@ -354,6 +354,8 @@ const L = {
   webull_desc: "一个科技驱动的交易平台，提供免佣金的股票、ETF交易及高级分析工具。",
   bankofamerica_name: "美国银行",
   bankofamerica_desc: "美国主要银行之一，提供个人和企业金融服务。",
+  binance_name: "币安（Binance）",
+  binance_desc: "一个全球性的加密货币交易平台，提供现货、合约与杠杆交易，支持数百种数字资产，并配备质押、理财与资产管理工具。",
   hurun_name: "胡润百富",
   hurun_desc: "以中国富豪榜闻名的财富与商业资讯平台。胡润百富发布关于企业家、奢侈品趋势和慈善事业的排行榜、调研与洞察，覆盖中国及全球市场。",
   business_key: "商务",

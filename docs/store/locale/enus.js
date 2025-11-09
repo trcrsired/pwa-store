@@ -354,6 +354,8 @@ const L = {
   webull_desc: "A tech-driven trading platform offering commission-free stocks, ETFs, and advanced analytics tools.",
   bankofamerica_name: "Bank of America",
   bankofamerica_desc: "Major US bank.",
+  binance_name: "Binance",
+  binance_desc: "A global cryptocurrency exchange offering spot, futures, and margin trading. Supports hundreds of digital assets, with tools for staking, savings, and portfolio management.",
   hurun_name: "Hurun Report (胡润百富)",
   hurun_desc: "A wealth and business intelligence platform best known for its China Rich List. Hurun Report publishes rankings, research, and insights on entrepreneurs, luxury trends, and philanthropy in China and globally.",
   business_key: "Business",
