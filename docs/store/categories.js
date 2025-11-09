@@ -1303,6 +1303,13 @@ export const categories = [
         url: "https://www.windowscentral.com"
       },
       {
+        name: "Windows Central Forum",
+        nameKey: "windowscentralforum_name",
+        descriptionKey: "windowscentralforum_desc",
+        icon: "icons/pwa/windowscentralforum.webp",
+        url: "https://forums.windowscentral.com"
+      },
+      {
         name: "Mac Rumors",
         nameKey: "macrumors_name",
         descriptionKey: "macrumors_desc",

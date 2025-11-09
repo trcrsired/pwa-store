@@ -373,6 +373,8 @@ const L = {
   tech_key: "科技",
   windowscentral_name: "Windows中心 （Windows Central）",
   windowscentral_desc: "专注于微软生态系统的新闻报道与使用指南，包括 Windows、Surface、Xbox 等产品。",
+  windowscentralforum_name: "Windows中心论坛（Windows Central Forum）",
+  windowscentralforum_desc: "一个面向 Windows 爱好者的社区论坛，讨论设备、软件、更新与故障排查，涵盖微软产品、Surface 硬件与移动平台。",
   macrumors_name: "麦克传闻 （Mac Rumors）",
   macrumors_desc: "聚焦苹果产品的科技新闻与深度分析，涵盖 Mac、iPhone、iOS 等相关内容。",
   androidsage_name: "安卓智者 （Android Sage）",

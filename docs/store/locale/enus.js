@@ -373,6 +373,8 @@ const L = {
   tech_key: "Tech",
   windowscentral_name: "Windows Central",
   windowscentral_desc: "Microsoft ecosystem coverage and guides.",
+  windowscentralforum_name: "Windows Central Forum",
+  windowscentralforum_desc: "A community forum for Windows enthusiasts to discuss devices, software, updates, and troubleshooting. Covers Microsoft products, Surface hardware, and mobile platforms.",
   macrumors_name: "MacRumors",
   macrumors_desc: "Apple-focused tech reporting and insights.",
   androidsage_name: "Android Sage",
