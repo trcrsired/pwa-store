@@ -199,6 +199,8 @@ const L = {
   indietools_desc: "为独立创作者精心打造的工具平台，提供模板、资源和项目启动指南。",
   deepwiki_name: "DeepWiki",
   deepwiki_desc: "DeepWiki 是由 Cognition AI 开发的 AI 驱动文档平台，可将任意公开 GitHub 仓库转化为交互式对话文档，帮助开发者通过聊天、图示和结构化摘要深入理解代码库。",
+  linear_name: "Linear",
+  linear_desc: "一款现代化产品研发平台，支持高效的问题追踪、项目规划与团队协作。注重速度与清晰度，并可与 GitHub、Slack、Figma 等工具无缝集成。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
   rust_desc: "一门可靠且高效的软件开发语言。",
   isocpp_name: "ISO C++",

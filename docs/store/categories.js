@@ -406,6 +406,13 @@ export const categories = [
         url: "https://deepwiki.com"
       },
       {
+        name: "Linear",
+        nameKey: "linear_name",
+        descriptionKey: "linear_desc",
+        icon: "icons/pwa/linear.webp",
+        url: "https://linear.app"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",

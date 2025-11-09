@@ -199,6 +199,8 @@ const L = {
   indietools_desc: "A curated toolkit for indie creators offering templates, resources, and guidance to build and launch projects.",
   deepwiki_name: "DeepWiki",
   deepwiki_desc: "DeepWiki is an AI-powered documentation platform developed by Cognition AI. It transforms any public GitHub repository into interactive, conversational documentation, enabling developers to explore codebases through chat, diagrams, and structured summaries.",
+  linear_name: "Linear",
+  linear_desc: "A modern product development platform for fast issue tracking, project planning, and team collaboration. Built for speed, clarity, and seamless integration with tools like GitHub, Slack, and Figma.",
   python_desc: "Python is a programming language that lets you work quickly and integrate systems more effectively.",
   rust_desc: "A language empowering everyone to build reliable and efficient software.",
   isocpp_name: "ISO C++",
