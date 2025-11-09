@@ -856,6 +856,13 @@ export const categories = [
         url: "https://www.quora.com"
       },
       {
+        name: "Element",
+        nameKey: "element_name",
+        descriptionKey: "element_desc",
+        icon: "icons/pwa/element.webp",
+        url: "https://app.element.io"
+      },
+      {
         name: "Soul",
         nameKey: "soul_name",
         descriptionKey: "soul_desc",
@@ -1769,6 +1776,7 @@ export const categories = [
       { name: "Japan Today", nameKey: "japantoday_name", descriptionKey: "japantoday_desc", url: "https://japantoday.com", icon: "icons/pwa/japantoday.webp" },
       { name: "The Conversation", nameKey: "theconversation_name", descriptionKey: "theconversation_desc", url: "https://theconversation.com", icon: "icons/pwa/theconversation.webp" },
       { name: "The American Prospect", nameKey: "theamericanprospect_name", descriptionKey: "theamericanprospect_desc", url: "https://prospect.org", icon: "icons/pwa/theamericanprospect.webp" },
+      { name: "African Diaspora News Channel", nameKey: "africandiasporanewschannel_name", descriptionKey: "africandiasporanewschannel_desc", url: "https://africandiasporanews.org", icon: "icons/pwa/africandiasporanewschannel.webp" },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url: "/wrappers/nytimes", apptype: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url: "/wrappers/washingtonpost", apptype: "wrapper" },
       { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url: "/wrappers/reuters", apptype: "wrapper" },
@@ -3289,6 +3297,13 @@ export const categories = [
         descriptionKey: "redfin_desc",
         icon: "icons/pwa/redfin.webp",
         url: "https://www.redfin.com",
+      },
+      {
+        name: "Properstar",
+        nameKey: "properstar_name",
+        descriptionKey: "properstar_desc",
+        icon: "icons/pwa/properstar.webp",
+        url: "https://www.properstar.com"
       },
       {
         name: "Airbnb",
