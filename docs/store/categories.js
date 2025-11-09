@@ -1049,6 +1049,13 @@ export const categories = [
         url: "https://coinstats.app"
       },
       {
+        name: "Bitget",
+        nameKey: "bitget_name",
+        descriptionKey: "bitget_desc",
+        icon: "icons/pwa/bitget.webp",
+        url: "https://www.bitget.com"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",

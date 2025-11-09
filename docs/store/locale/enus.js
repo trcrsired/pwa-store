@@ -342,6 +342,8 @@ const L = {
   coinmarketcap_desc: "CoinMarketCap is a world's trusted source for cryptocurrency market data, tracking prices, volume, market cap, and trends across thousands of digital assets. A go-to platform for traders, analysts, and enthusiasts.",
   coinstats_name: "CoinStats",
   coinstats_desc: "CoinStats is a crypto portfolio tracker and analytics platform that helps users manage assets, monitor market trends, and make informed decisions across exchanges and wallets.",
+  bitget_name: "Bitget",
+  bitget_desc: "A cryptocurrency exchange offering spot and derivatives trading, copy trading, and asset management tools. Supports a wide range of digital assets with global access and mobile apps.",
   moomoo_name: "Moomoo",
   moomoo_desc: "Trade U.S., Hong Kong, and China stocks with real-time data and advanced tools. Analyze markets, manage portfolios, and access financial news.",
   thestreet_name: "TheStreet",

@@ -340,6 +340,8 @@ const L = {
   coinmarketcap_desc: "CoinMarketCap 是一个全球受信赖的加密货币市场数据平台，追踪数千种数字资产的价格、交易量、市值和趋势。是交易者、分析师和加密爱好者的首选工具。",
   coinstats_name: "CoinStats",
   coinstats_desc: "CoinStats 是一个加密资产组合追踪与分析平台，帮助用户管理资产、监控市场动态，并在多个交易所和钱包中做出明智决策。",
+  bitget_name: "Bitget",
+  bitget_desc: "一个加密货币交易平台，提供现货与衍生品交易、跟单交易及资产管理工具，支持多种数字资产，可全球访问并配备移动应用。",
   paypal_name: "贝宝",
   paypal_desc: "全球数字支付平台，支持安全的在线交易、转账、订阅和电商结算服务。",
   moomoo_name: "富途牛牛",
