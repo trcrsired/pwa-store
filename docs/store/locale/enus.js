@@ -781,6 +781,8 @@ const L = {
   theapplewiki_desc: "A comprehensive resource for Apple hardware, software, and internal documentation.",
   uncyclopedia_name: "Uncyclopedia",
   uncyclopedia_desc: "A satirical encyclopedia parodying Wikipedia—absurd, irreverent, and proudly unreliable.",
+  logodix_name: "LogoDix",
+  logodix_desc: "A searchable logo archive featuring thousands of brand and organization logos. Useful for design reference, brand research, and visual inspiration.",
   marxistsorg_name: "Marxists Internet Archive",
   marxistsorg_desc: "Marxists Internet Archive is a non-profit online encyclopedia that hosts a multilingual library (created in 1990) of the works of communist, anarchist, and socialist writers, such as Karl Marx, Friedrich Engels, Vladimir Lenin, Leon Trotsky, Joseph Stalin, Mao Zedong, Rosa Luxemburg, Mikhail Bakunin, Peter Kropotkin, and Pierre-Joseph Proudhon, as well as that of writers of related ideologies, and even unrelated ones (for instance, Sun Tzu).",
   osdevorg_name: "OSDev.org",

@@ -781,6 +781,8 @@ const L = {
   theapplewiki_desc: "关于苹果硬件、软件及内部文档的全面资源库。",
   uncyclopedia_name: "伪基百科（Uncyclopedia）",
   uncyclopedia_desc: "一个讽刺性的百科全书，模仿维基百科，内容荒诞不经，故意不靠谱。",
+  logodix_name: "LogoDix",
+  logodix_desc: "一个可搜索的标志档案库，收录数千个品牌与机构的徽标，适用于设计参考、品牌研究与视觉灵感获取。",
   marxistsorg_name: "马克思主义互联网文库",
   marxistsorg_desc: "马克思主义互联网文库是一个非营利的在线百科全书，自1990年起收录了多语言版本的共产主义、无政府主义和社会主义思想家的著作，包括马克思、恩格斯、列宁、托洛茨基、斯大林、毛泽东、卢森堡、巴枯宁、克鲁泡特金、蒲鲁东，以及相关甚至无关思想家的作品（如孙子）。",
   osdevorg_name: "OSDev.org",

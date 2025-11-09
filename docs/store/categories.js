@@ -2322,6 +2322,13 @@ export const categories = [
         url: "https://en.uncyclopedia.co"
       },
       {
+        name: "LogoDix",
+        nameKey: "logodix_name",
+        descriptionKey: "logodix_desc",
+        icon: "icons/pwa/logodix.webp",
+        url: "https://logodix.com"
+      },
+      {
         name: "Baidu Baike (百度百科)",
         nameKey: "baidubaike_name",
         descriptionKey: "baidubaike_desc",
