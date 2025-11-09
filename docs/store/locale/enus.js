@@ -695,6 +695,8 @@ const L = {
   vimmslair_desc: "A retro gaming archive preserving classic console games since 1997. Features ROMs, emulators, manuals, and user reviews for over 30 systems.",
   chess_name: "Chess",
   chess_desc: "An online chess platform for playing, learning, and watching chess. Offers real-time games, puzzles, lessons, and global tournaments for all skill levels.",
+  lichess_name: "lichess",
+  lichess_desc: "A free, open-source chess platform offering online play, puzzles, training tools, and tournaments. Designed for players of all levels with no ads or paywalls.",
   chronodivide_name: "RA2: Chrono Divide",
   chronodivide_desc: "RA2: Chrono Divide is a fan-made, browser-based tribute to the classic Command & Conquer: Red Alert 2. It faithfully recreates the real-time strategy experience with smooth online multiplayer, iconic units, and nostalgic visuals—all without needing to install a thing. Whether you're commanding Soviet forces or leading Allied troops, Chrono Divide lets you relive the tactical thrill of chrono technology and battlefield domination, right from your browser.",
   floppybird_name: "Floppy Bird",

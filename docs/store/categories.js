@@ -2001,6 +2001,13 @@ export const categories = [
         url: "https://www.chess.com"
       },
       {
+        name: "lichess",
+        nameKey: "lichess_name",
+        descriptionKey: "lichess_desc",
+        icon: "icons/pwa/lichess.webp",
+        url: "https://lichess.org"
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",
