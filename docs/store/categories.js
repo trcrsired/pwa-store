@@ -111,6 +111,7 @@ export const categories = [
       { name: "Time.is", icon: "icons/pwa/timeis.webp", url: "https://time.is", descriptionKey: "timeis_desc" },
       { name: "Every Time Zone", icon: "icons/pwa/everytimezone.webp", url: "https://everytimezone.com", descriptionKey: "everytimezone_desc" },
       { name: "NIST Time", icon: "icons/wrappers/timegov.webp", url: "/wrappers/timegov", descriptionKey: "timegov_desc", apptype: "wrapper" },
+      { name: "aTimerLogger", nameKey: "atimelogger_name", icon: "icons/wrappers/atimelogger.webp", url: "/wrappers/atimelogger", descriptionKey: "atimelogger_desc", apptype: "wrapper" },
     ]
   },
   {
@@ -1577,6 +1578,13 @@ export const categories = [
         url: "https://rutracker.org"
       },
       {
+        name: "AppBrain",
+        nameKey: "appbrain_name",
+        descriptionKey: "appbrain_desc",
+        icon: "icons/pwa/appbrain.webp",
+        url: "https://www.appbrain.com"
+      },
+      {
         name: "Internet Archive",
         nameKey: "archive_name",
         descriptionKey: "archive_desc",
@@ -1590,6 +1598,14 @@ export const categories = [
         icon: "icons/wrappers/apkpremier.webp",
         url: "/wrappers/apkpremier",
         descriptionKey: "apkpremier_desc",
+        apptype: "wrapper"
+      },
+      {
+        name: "Apple App Store",
+        nameKey: "appleappstore_name",
+        descriptionKey: "appleappstore_desc",
+        icon: "icons/wrappers/appleappstore.webp",
+        url: "/wrappers/appleappstore",
         apptype: "wrapper"
       },
       {
