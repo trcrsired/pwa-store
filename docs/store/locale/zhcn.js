@@ -50,6 +50,8 @@ const L = {
   "webscreenrecorder_desc": "Web Screen Recorder 是一款基于浏览器的录屏工具，支持用户直接在任意设备上录制屏幕、摄像头和麦克风，无需下载。适用于教程、会议或演示，提供快速轻便的录制体验，并保障隐私存储。",
   "squoosh_name": "Squoosh",
   "squoosh_desc": "Squoosh 是一个基于浏览器的图像压缩工具，支持本地调整大小、格式转换和图像优化。用户可使用高级编解码器进行实时预览和参数配置，无需将文件上传至服务器。",
+  ffmpegwasm_name: "ffmpeg.wasm",
+  ffmpegwasm_desc: "一个 FFmpeg 的 WebAssembly 移植版本，可在浏览器中处理音视频，实现无需服务器的媒体转换、剪辑与编码。",
   "alternatives_name": "替代品",
   qrcodetools_name: "二维码工具",
   qrcodetools_desc: "轻松生成、扫描和管理二维码，适用于开发者、市场人员和日常用户。",

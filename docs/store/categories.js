@@ -28,6 +28,13 @@ export const categories = [
         icon: "icons/pwa/squoosh.webp",
         url: "https://squoosh.app"
       },
+      {
+        name: "ffmpeg.wasm",
+        nameKey: "ffmpegwasm_name",
+        descriptionKey: "ffmpegwasm_desc",
+        icon: "icons/pwa/ffmpeg.webp",
+        url: "https://ffmpegwasm.netlify.app"
+      },
     ]
   },
   {

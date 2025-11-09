@@ -50,6 +50,8 @@ const L = {
   "webscreenrecorder_desc": "Web Screen Recorder is a browser-based tool that lets users record their screen, webcam, and microphone directly from any device—no downloads required. Ideal for tutorials, meetings, or demos, it offers a fast and lightweight recording experience with instant access and privacy-friendly storage.",
   "squoosh_name": "Squoosh",
   "squoosh_desc": "Squoosh is a browser-based image compression tool that lets users resize, convert, and optimize images locally using advanced codecs. It supports real-time previews and customizable settings without uploading files to a server.",
+  ffmpegwasm_name: "ffmpeg.wasm",
+  ffmpegwasm_desc: "A WebAssembly port of FFmpeg for in-browser audio and video processing. Enables media conversion, trimming, and encoding without server-side dependencies.",
   "alternatives_name": "Alternatives",
   qrcodetools_name: "QR Code Tools",
   qrcodetools_desc: "Generate, scan, and manage QR codes with ease. Ideal for developers, marketers, and everyday users.",
