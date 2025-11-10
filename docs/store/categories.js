@@ -2333,6 +2333,14 @@ export const categories = [
         url: "/wrappers/xdf",
         apptype: "wrapper"
       },
+      {
+        name: "Chegg",
+        nameKey: "chegg_name",
+        descriptionKey: "chegg_desc",
+        icon: "icons/wrappers/chegg.webp",
+        url: "/wrappers/chegg",
+        apptype: "wrapper"
+      },
     ]
   },
   {

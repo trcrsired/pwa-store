@@ -781,6 +781,8 @@ const L = {
   quanxue_desc: "A curated library of classical Chinese texts, spanning philosophy, history, literature, and moral teachings.",
   xdf_name: "xdf (新东方)",
   xdf_desc: "An education platform offering language training, test prep, and online courses across academic subjects in China.",
+  chegg_name: "Chegg",
+  chegg_desc: "An academic support platform offering textbook solutions, expert Q&A, study tools, and homework help across subjects.",
   forums_name: "Forums",
   incelsis_name: "Incel.is",
   incelsis_desc: "Incel.is is an online discussion forum centered around the incel subculture. It provides a space for users to share perspectives, engage in dialogue, and explore topics related to romantic exclusion, social dynamics, and identity.",
