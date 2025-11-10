@@ -28,6 +28,13 @@ export const categories = [
         icon: "icons/pwa/squoosh.webp",
         url: "https://squoosh.app"
       },
+      {
+        name: "ffmpeg.wasm",
+        nameKey: "ffmpegwasm_name",
+        descriptionKey: "ffmpegwasm_desc",
+        icon: "icons/pwa/ffmpegwasm.webp",
+        url: "https://ffmpegwasm.netlify.app"
+      },
     ]
   },
   {
@@ -1049,6 +1056,13 @@ export const categories = [
         url: "https://coinstats.app"
       },
       {
+        name: "Bitget",
+        nameKey: "bitget_name",
+        descriptionKey: "bitget_desc",
+        icon: "icons/pwa/bitget.webp",
+        url: "https://www.bitget.com"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",
@@ -1102,6 +1116,14 @@ export const categories = [
         descriptionKey: "bankofamerica_desc",
         icon: "icons/wrappers/bankofamerica.webp",
         url: "/wrappers/bankofamerica",
+        apptype: "wrapper"
+      },
+      {
+        name: "Binance",
+        nameKey: "binance_name",
+        descriptionKey: "binance_desc",
+        icon: "icons/wrappers/binance.webp",
+        url: "/wrappers/binance",
         apptype: "wrapper"
       },
       {
@@ -1286,6 +1308,13 @@ export const categories = [
         descriptionKey: "windowscentral_desc",
         icon: "icons/pwa/windowscentral.webp",
         url: "https://www.windowscentral.com"
+      },
+      {
+        name: "Windows Central Forum",
+        nameKey: "windowscentralforum_name",
+        descriptionKey: "windowscentralforum_desc",
+        icon: "icons/pwa/windowscentralforum.webp",
+        url: "https://forums.windowscentral.com"
       },
       {
         name: "Mac Rumors",
@@ -2001,6 +2030,13 @@ export const categories = [
         url: "https://www.chess.com"
       },
       {
+        name: "lichess",
+        nameKey: "lichess_name",
+        descriptionKey: "lichess_desc",
+        icon: "icons/pwa/lichess.webp",
+        url: "https://lichess.org"
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",
@@ -2265,6 +2301,14 @@ export const categories = [
         descriptionKey: "quanxue_desc",
         icon: "icons/wrappers/quanxue.webp",
         url: "/wrappers/quanxue",
+        apptype: "wrapper"
+      },
+      {
+        name: "xdf (新东方)",
+        nameKey: "xdf_name",
+        descriptionKey: "xdf_desc",
+        icon: "icons/wrappers/xdf.webp",
+        url: "/wrappers/xdf",
         apptype: "wrapper"
       },
     ]
