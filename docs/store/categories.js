@@ -3371,6 +3371,13 @@ export const categories = [
         url: "https://www.properstar.com"
       },
       {
+        name: "CommonFloor.com",
+        nameKey: "commonfloor_name",
+        descriptionKey: "commonfloor_desc",
+        icon: "icons/pwa/commonfloor.webp",
+        url: "https://www.commonfloor.com"
+      },
+      {
         name: "Airbnb",
         nameKey: "airbnb_name",
         descriptionKey: "airbnb_desc",
@@ -3427,13 +3434,6 @@ export const categories = [
         descriptionKey: "iguopin_desc",
         icon: "icons/pwa/iguopin.webp",
         url: "https://www.iguopin.com",
-      },
-      {
-        name: "CommonFloor.com",
-        nameKey: "commonfloor_name",
-        descriptionKey: "commonfloor_desc",
-        icon: "icons/pwa/commonfloor.webp",
-        url: "https://www.commonfloor.com"
       },
       {
         name: "CodeSignal",
