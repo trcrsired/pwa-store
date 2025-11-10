@@ -778,6 +778,8 @@ const L = {
   forums_name: "论坛",
   incelsis_name: "非自愿独身者论坛",
   incelsis_desc: "Incel.is 是一个围绕非自愿独身者亚文化的在线讨论论坛。用户可在此分享观点、参与交流，并探讨与情感排斥、社会关系及身份认同相关的主题。",
+  ra2diy_name: "红警DIY",
+  ra2diy_desc: "一个专注于《红色警戒2》修改与定制的社区论坛，提供工具、教程与玩家作品分享。",
   v2ex_name: "V2EX",
   v2ex_desc: "一个面向技术爱好者、开发者和创意人的社区，讨论编程、创业和互联网文化。",
   ngacn_name: "NGA",

@@ -778,6 +778,8 @@ const L = {
   forums_name: "Forums",
   incelsis_name: "Incel.is",
   incelsis_desc: "Incel.is is an online discussion forum centered around the incel subculture. It provides a space for users to share perspectives, engage in dialogue, and explore topics related to romantic exclusion, social dynamics, and identity.",
+  ra2diy_name: "RA2 DIY",
+  ra2diy_desc: "A community forum focused on modding and customizing Red Alert 2. Includes tools, tutorials, and user creations.",
   v2ex_name: "V2EX",
   v2ex_desc: "A community of tech enthusiasts, developers, and creatives discussing programming, startups, and internet culture.",
   ngacn_name: "NGA",

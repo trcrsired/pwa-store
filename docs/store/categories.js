@@ -2324,6 +2324,14 @@ export const categories = [
         icon: "icons/pwa/incel.webp",
         url: "https://incels.is"
       },
+      {
+        name: "RA2 DIY",
+        nameKey: "ra2diy_name",
+        descriptionKey: "ra2diy_desc",
+        icon: "icons/wrappers/ra2diy.webp",
+        url: "/wrappers/ra2diy",
+        apptype: "wrapper",
+      }
     ]
   },
   {
