@@ -1304,6 +1304,14 @@ export const categories = [
         url: "/wrappers/influencersplace",
         apptype: "wrapper"
       },
+      {
+        name: "Zscalar",
+        nameKey: "zscalar_name",
+        descriptionKey: "zscalar_desc",
+        icon: "icons/wrappers/zscalar.webp",
+        url: "/wrappers/zscalar",
+        apptype: "wrapper"
+      },
     ]
   },
   {

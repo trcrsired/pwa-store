@@ -373,6 +373,8 @@ const L = {
   g2_desc: "G2 is a trusted platform for software reviews and insights, where users share real-world experiences to help others choose the best tools for their needs.",
   influencersplace_name: "Influencersplace",
   influencersplace_desc: "A platform that connects brands and event organizers with influencers, artists, and speakers for collaborations and appearances.",
+  zscalar_name: "Zscaler",
+  zscalar_desc: "A cloud security platform providing zero trust access, secure web gateways, and data protection for enterprises.",
   billing_key: "Billing",
   onlinestategrid_name: "Online State Grid (网上国网)",
   onlinestategrid_desc: "Official mini app from State Grid Corporation of China, offering electricity bill payments, account services, and usage tracking.",

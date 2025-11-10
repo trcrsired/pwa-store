@@ -1,0 +1,17 @@
+{
+  "name": "Zscalar",
+  "short_name": "Zscalar",
+  "start_url": "/wrappers/zscalar/?source=pwa",
+  "scope": "/wrappers/zscalar/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Zscalar",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/zscalar/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
