@@ -3797,9 +3797,8 @@ export const categories = [
         name: "White House",
         nameKey: "whitehouse_name",
         icon: "icons/wrappers/whitehouse.webp",
-        url: "/wrappers/whitehouse",
+        url: "https://www.whitehouse.gov",
         descriptionKey: "whitehouse_desc",
-        apptype: "wrapper"
       },
       {
         name: "ID.me",
