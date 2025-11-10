@@ -1063,6 +1063,13 @@ export const categories = [
         url: "https://www.bitget.com"
       },
       {
+        name: "Xueqiu (雪球)",
+        nameKey: "xueqiu_name",
+        descriptionKey: "xueqiu_desc",
+        url: "https://xueqiu.com",
+        icon: "icons/pwa/xueqiu.webp"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",

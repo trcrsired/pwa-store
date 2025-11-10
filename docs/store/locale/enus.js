@@ -430,6 +430,8 @@ const L = {
   linuxdo_desc: "LINUX DO is a Chinese-language portal focused on Linux news, tutorials, distributions, and open-source development, serving enthusiasts and professionals across the Chinese-speaking tech community.",
   juejin_name: "Juejin",
   juejin_desc: "Juejin is a Chinese developer community and content platform offering high-quality articles, tutorials, and discussions across frontend, backend, mobile, AI, and more. It serves as a hub for technical growth, open-source sharing, and career development, with active contributions from engineers, designers, and product managers.",
+  xueqiu_name: "Xueqiu (雪球)",
+  xueqiu_desc: "A Chinese investment platform offering market data, portfolio tracking, and community insights across stocks, funds, and financial news.",
   internetservices_name: "Internet Services",
   resourcedistributions_name: "Resource Distributions",
   apkpure_name: "APKPure",
