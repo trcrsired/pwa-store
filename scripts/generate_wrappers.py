@@ -61,6 +61,7 @@ WRAPPERS = [
   { "name": "TED", "url": "https://www.ted.com" },
   { "name": "Zoosk", "url": "https://zoosk.com" },
   { "name": "eHarmony", "url": "https://www.eharmony.com" },
+  { "name": "ShareChat", "url": "https://sharechat.com" },
   { "name": "Tieba", "url": "https://tieba.baidu.com" },
   { "name": "Termux", "url": "https://termux.dev" },
   { "name": "Alibaba", "url": "https://www.alibaba.com" },

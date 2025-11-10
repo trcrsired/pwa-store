@@ -883,6 +883,13 @@ export const categories = [
         icon: "icons/pwa/soul.webp",
         url: "https://login.soulapp.cn",
       },
+      {
+        name: "Moj",
+        nameKey: "moj_name",
+        descriptionKey: "moj_desc",
+        icon: "icons/pwa/moj.webp",
+        url: "https://mojapp.in"
+      },
       { name: "Weibo Lite (微博Lite)", nameKey: "weibo_name", descriptionKey: "weibo_desc", icon: "icons/pwa/weibo.webp", url: "https://m.weibo.cn" },
       {
         name: "Zoosk",
@@ -899,6 +906,14 @@ export const categories = [
         url: "/wrappers/eharmony",
         descriptionKey: "eharmony_desc",
         apptype: "wrapper"
+      },
+      {
+        name: "ShareChat",
+        url: "/wrappers/sharechat",
+        icon: "icons/wrappers/sharechat.webp",
+        nameKey: "sharechat_name",
+        descriptionKey: "sharechat_desc",
+        apptype: "wrapper" 
       },
       {
         name: "Tencent Meeting (腾讯会议)",
