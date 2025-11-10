@@ -462,6 +462,8 @@ const L = {
   archive_desc: "Internet Archive is a non-profit library of millions of free texts, movies, software, music, websites, and more.",
   apkpremier_name: "APK Premier",
   apkpremier_desc: "APK Premier provides free APK downloads for Android apps and games, including entertainment, communication, and productivity tools. It offers direct access to updated packages and app listings.",
+  appleappstore_name: "Apple App Store",
+  appleappstore_desc: "The official app marketplace for iOS and iPadOS, offering millions of apps across categories with curated recommendations and secure downloads.",
   btsow_name: "BTSOW",
   btsow_desc: "BTSOW is a magnet link indexing platform based on the BitTorrent protocol. It enables fast keyword search for publicly shared torrent resources, including movies, software, music, and more. The site operates on a distributed architecture without central servers, and domain changes may occur due to compliance issues.",
   mediatools_name: "Media Tools",

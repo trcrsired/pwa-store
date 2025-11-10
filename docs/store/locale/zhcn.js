@@ -462,6 +462,8 @@ const L = {
   archive_desc: "互联网档案馆是一个非营利数字图书馆，收藏数百万份免费文本、电影、软件、音乐、网站等资源。",
   apkpremier_name: "APK Premier",
   apkpremier_desc: "APK Premier提供安卓应用与游戏的免费APK下载，涵盖娱乐、通讯与效率工具，支持直接获取最新安装包与应用列表。",
+  appleappstore_name: "苹果应用商店",
+  appleappstore_desc: "iOS 与 iPadOS 的官方应用商店，提供数百万款应用，涵盖各类分类，支持安全下载与精选推荐。",
   btsow_name: "BTSOW",
   btsow_desc: "BTSOW 是一个基于 BitTorrent 协议的磁力链接索引平台，支持通过关键词快速检索公开分享的种子资源，包括影视、软件、音乐等。该站点采用分布式架构，无需中心服务器，域名可能因合规问题不定期变更。",
   mediatools_name: "媒体工具",
