@@ -32,7 +32,7 @@ export const categories = [
         name: "ffmpeg.wasm",
         nameKey: "ffmpegwasm_name",
         descriptionKey: "ffmpegwasm_desc",
-        icon: "icons/pwa/ffmpeg.webp",
+        icon: "icons/pwa/ffmpegwasm.webp",
         url: "https://ffmpegwasm.netlify.app"
       },
     ]
