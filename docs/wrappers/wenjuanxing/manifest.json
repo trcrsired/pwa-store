@@ -1,0 +1,17 @@
+{
+  "name": "\u95ee\u5377\u661f",
+  "short_name": "\u95ee\u5377\u661f",
+  "start_url": "/wrappers/wenjuanxing/?source=pwa",
+  "scope": "/wrappers/wenjuanxing/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u95ee\u5377\u661f",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/wenjuanxing/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

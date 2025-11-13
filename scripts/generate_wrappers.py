@@ -225,6 +225,7 @@ WRAPPERS = [
 
   { "name" : "HotCRP", "url": "https://hotcrp.com" },
   { "name": "ACM", "url": "https://www.acm.org" },
+  { "name": "问卷星", "url": "https://www.wjx.cn", "keyify_name": "wenjuanxing" },
 
   { "name" : "Binghamton Univeristy", "url": "https://www.binghamton.edu", "keyify_name": "binghamton_edu"},
   { "name" : "Fudan University", "url": "https://www.fudan.edu.cn", "keyify_name": "fudan" },
