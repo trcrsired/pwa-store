@@ -617,7 +617,7 @@ export const categories = [
         nameKey: "proxyswitchyomegav3_name",
         descriptionKey: "proxyswitchyomegav3_desc",
         icon: "icons/extensions/proxyswitchyomegav3.webp",
-        url: "/wrappers/proxyswitchyomegav3"
+        url: "/extensions/proxyswitchyomegav3"
 //        apptype: "extension",
       },
     ]
