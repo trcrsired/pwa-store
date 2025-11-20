@@ -420,6 +420,13 @@ export const categories = [
         url: "https://linear.app"
       },
       {
+        name: "permission.site",
+        name: "permissionsite_name",
+        descriptionKey: "permissionsite_desc",
+        icon: "icons/pwa/permissionsite.webp",
+        url: "https://permission.site"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",
