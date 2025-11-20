@@ -17,6 +17,8 @@ const L = {
   "scamadviser_desc": "Analyze websites to check for trustworthiness and potential scams.",
   bitwarden_name: "Bitwarden",
   bitwarden_desc: "Secure, open-source password manager for individuals and teams. Offers end-to-end encryption, cross-platform access, and advanced vault features.",
+  privacyguidescommunity_name: "Privacy Guides Community",
+  privacyguidescommunity_desc: "An online forum for discussing digital privacy, security tools, and best practices with the Privacy Guides community.",
   "time_name": "Time",
   "timeis_desc": "Check the current time anywhere in the world with precision.",
   "everytimezone_desc": "Visualize time zones across the globe in a simple layout.",
