@@ -421,7 +421,7 @@ export const categories = [
       },
       {
         name: "permission.site",
-        name: "permissionsite_name",
+        nameKey: "permissionsite_name",
         descriptionKey: "permissionsite_desc",
         icon: "icons/pwa/permissionsite.webp",
         url: "https://permission.site"
