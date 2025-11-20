@@ -466,6 +466,8 @@ const L = {
   edri_desc: "一个倡导数字权利、隐私和言论自由的欧洲组织。",
   techxplore_name: "科技探索（Tech Xplore）",
   techxplore_desc: "每日报道计算、工程、电子与能源领域的新兴技术与创新成果。",
+  windowsforum_name: "Windows论坛（Windows Forum）",
+  windowsforum_desc: "一个面向 Windows 用户的在线社区，用于讨论故障排查、技巧、更新与科技新闻。",
   rutrackerorg_name: "RuTracker.org",
   rutrackerorg_desc: "俄罗斯的种子资源论坛，提供丰富的电影、音乐、软件、书籍等内容资源，以其历史悠久和活跃社区而闻名。",
   appbrain_name: "AppBrain",

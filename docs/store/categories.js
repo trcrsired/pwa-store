@@ -1579,6 +1579,13 @@ export const categories = [
         url: "https://techxplore.com"
       },
       {
+        name: "Windows Forum",
+        nameKey: "windowsforum_name",
+        descriptionKey: "windowsforum_desc",
+        icon: "icons/pwa/windowsforum.webp",
+        url: "https://windowsforum.com"
+      },
+      {
         name: "Beebom Gadgets",
         nammeKey: "beebomgadgets_name",
         descriptionKey: "beebomgadgets_desc",

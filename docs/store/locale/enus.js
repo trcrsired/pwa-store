@@ -466,6 +466,8 @@ const L = {
   edri_desc: "An organization advocating for digital rights, privacy, and freedom of expression across Europe.",
   techxplore_name: "Tech Xplore",
   techxplore_desc: "Daily coverage of emerging technologies in computing, engineering, electronics, and energy innovation.",
+  windowsforum_name: "Windows Forum",
+  windowsforum_desc: "An online community for Windows users to discuss troubleshooting, tips, updates, and technology news.",
   rutrackerorg_name: "RuTracker.org",
   rutrackerorg_desc: "A Russian torrent tracker and forum offering a vast catalog of movies, music, software, books, and more. Known for its longevity and active user base.",
   appbrain_name: "AppBrain",
