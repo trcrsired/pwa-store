@@ -612,14 +612,14 @@ export const categories = [
         url: "#小程序://中国联通营业厅/nMjhTIVG5fmrslA",
         apptype: "wechatmini"
       },
-      {
+/*      {
         name: "Proxy SwitchyOmega (V3)",
         nameKey: "proxyswitchyomegav3_name",
         descriptionKey: "proxyswitchyomegav3_desc",
         icon: "icons/extensions/proxyswitchyomegav3.webp",
         url: "/extensions/proxyswitchyomegav3"
-//        apptype: "extension",
-      },
+        apptype: "extension",
+      },*/
     ]
   },
   {
