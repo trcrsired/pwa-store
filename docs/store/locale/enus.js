@@ -1133,6 +1133,8 @@ const L = {
   deltadental_desc: "Dental insurance provider serving individuals and employers—manage benefits, find dentists, view claims, and explore oral health resources online.",
   womenshealth_name: "Women's Health",
   womenshealth_desc: "Stay informed and inspired with Women's Health—covering fitness, nutrition, wellness, and lifestyle tips tailored for modern women.",
+  humanlifeinternational_name: "Human Life International",
+  humanlifeinternational_desc: "A global Catholic organization focused on pro-life advocacy, education, and support for life-affirming initiatives.",
   vsigo_name: "VSIGO(视客眼镜)",
   vsigo_desc: "Online eyewear store offering contact lenses, colored lenses, sunglasses, and prescription glasses from top brands.",
   research_name: "Research",

@@ -1133,6 +1133,8 @@ const L = {
   deltadental_desc: "Delta Dental 是面向个人和雇主的牙科保险服务商，支持在线管理福利、查找牙医、查看理赔和获取口腔健康资源。",
   womenshealth_name: "健康女性（Women's Health）",
   womenshealth_desc: "健康女性（Women's Health）提供女性健康资讯，包括健身、营养、生活方式与心理健康，助你活出精彩人生。",
+  humanlifeinternational_name: "人类生命国际（Human Life International）",
+  humanlifeinternational_desc: "一个全球性的天主教组织，致力于生命倡导、教育与支持维护生命的行动。",
   vsigo_name: "视客眼镜",
   vsigo_desc: "正品隐形眼镜、美瞳、太阳镜与近视眼镜网购平台，提供多品牌配镜服务与优惠价格。",
   research_name: "研究",

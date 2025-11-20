@@ -4056,6 +4056,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Human Life International",
+        url: "/wrappers/humanlifeinternational",
+        nameKey: "humanlifeinternational_name",
+        descriptionKey: "humanlifeinternational_desc",
+        icon: "icons/wrappers/humanlifeinternational.webp",
+        apptype: "wrapper"
+      },
+      {
         name: "VSIGO(视客眼镜)",
         nameKey: "vsigo_name",
         descriptionKey: "vsigo_desc",
