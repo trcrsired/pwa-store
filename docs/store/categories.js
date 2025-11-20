@@ -3649,6 +3649,13 @@ export const categories = [
         url: "https://richarddawkins.net"
       },
       {
+        name: "Lyc8503's blog",
+        nameKey: "lyc8503blog_name",
+        descriptionKey: "lyc8503blog_desc",
+        icon: "icons/pwa/lyc8503blog.webp",
+        url: "https://blog.lyc8503.net"
+      },
+      {
         name: "Herb Sutter",
         nameKey: "herbsutter_name",
         descriptionKey: "herbsutter_desc",
