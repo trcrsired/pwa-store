@@ -616,6 +616,8 @@ const L = {
   huffpost_desc: "HuffPost 提供以人为本的新闻报道，涵盖政治、娱乐、生活方式与文化，展现多元声音与全球视角。",
   miamiherald_name: "Miami Herald",
   miamiherald_desc: "Miami Herald 创刊于 1903 年，是一家屡获普利策奖的报纸，专注报道南佛罗里达、拉美及加勒比地区的本地与国际新闻。",
+  financialtimes_name: "金融时报（Financial Times）",
+  financialtimes_desc: "一家全球性的商业与经济新闻机构，提供分析、市场洞察与财经报道。",
   delawareonline_name: "特拉华在线（Delaware Online）",
   delawareonline_desc: "《新闻日报》（The News Journal）的数字版，提供特拉华州的新闻、政治、体育及社区动态。",
   ifeng_name: "凤凰网",

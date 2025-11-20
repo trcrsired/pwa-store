@@ -616,6 +616,8 @@ const L = {
   huffpost_desc: "HuffPost delivers people-first journalism across politics, entertainment, lifestyle, and culture—featuring diverse voices and global perspectives.",
   miamiherald_name: "Miami Herald",
   miamiherald_desc: "Founded in 1903, the Miami Herald is a Pulitzer-winning newspaper covering South Florida, Latin America, and the Caribbean with trusted local and international reporting.",
+  financialtimes_name: "Financial Times",
+  financialtimes_desc: "A global business and economic news organization providing analysis, market insights, and financial reporting.",
   delawareonline_name: "Delaware Online",
   delawareonline_desc: "The digital edition of The News Journal, covering Delaware news, politics, sports, and community updates.",
   ifeng_name: "ifeng (凤凰网)",
