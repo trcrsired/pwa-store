@@ -1688,6 +1688,20 @@ export const categories = [
         url: "https://www.appbrain.com"
       },
       {
+        name: "Wood Box (一个木函)",
+        nameKey: "woobx_name",
+        descriptionKey: "woobx_desc",
+        icon: "icons/pwa/woobx.webp",
+        url: "https://ol.woobx.cn"
+      },
+      {
+        name: "AppAgg",
+        nameKey: "appagg_name",
+        descriptionKey: "appagg_desc",
+        icon: "icons/pwa/appagg.webp",
+        url: "https://appagg.com"
+      },
+      {
         name: "Internet Archive",
         nameKey: "archive_name",
         descriptionKey: "archive_desc",
