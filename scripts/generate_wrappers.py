@@ -10,9 +10,21 @@ if len(sys.argv) != 2:
     sys.exit(1)
 
 ROOT = Path(sys.argv[1])
+
+# Shared files are common to both
 SHARED_DIR = ROOT / "wrappers_shared"
-ICONS_DIR = ROOT / "docs" / "store" / "icons" / "wrappers"
-WRAPPER_OUTPUT = ROOT / "docs" / "wrappers"
+
+# Icons: separate dirs for wrappers vs extensions
+ICONS_DIRS = {
+    "wrapper": ROOT / "docs" / "store" / "icons" / "wrappers",
+    "extension": ROOT / "docs" / "store" / "icons" / "extensions",
+}
+
+# Output: separate dirs for wrappers vs extensions
+OUTPUT_DIRS = {
+    "wrapper": ROOT / "docs" / "wrappers",
+    "extension": ROOT / "docs" / "extensions",
+}
 
 WRAPPERS = [
   { "name": "Base64.Guru", "url": "https://base64.guru", "keyify_name": "base64guru" },
@@ -235,6 +247,8 @@ WRAPPERS = [
   { "name" : "JavHDPorn", "url": "https://www4.javhdporn.net" },
   { "name" : "Supjav", "url": "https://supjav.com" },
   { "name" : "avdanyuwiki", "url": "https://avdanyuwiki.com" },
+
+  { "name" : "Proxy SwitchyOmega (V3)", "url": "extension://fnbemgdobbciiofjfaoaajboakejkdbo/options.html", "keyify_name": "proxyswitchyomegav3" , "apptype": "extension" },
 ]
 
 
@@ -284,44 +298,49 @@ INDEX_HTML = """<!DOCTYPE html>
 def encode(text):
     return text.encode("utf-8")
 
-def build_manifest(name, key):
+def build_manifest(name, key, apptype="wrapper"):
+    base = "extensions" if apptype == "extension" else "wrappers"
     manifest = {
         "name": name,
         "short_name": name,
-        "start_url": f"/wrappers/{key}/?source=pwa",
-        "scope": f"/wrappers/{key}/",
+        "start_url": f"/{base}/{key}/?source=pwa",
+        "scope": f"/{base}/{key}/",
         "background_color": "black",
         "theme_color": "black",
-        "description": f"PWA Wrapper for {name}",
+        "description": f"PWA {apptype.capitalize()} for {name}",
         "display": "standalone",
         "icons": [{
-            "src": f"/wrappers/{key}/icons/icon.webp",
+            "src": f"/{base}/{key}/icons/icon.webp",
             "type": "image/webp",
             "sizes": "512x512"
         }]
     }
     return json.dumps(manifest, indent=2).encode("utf-8")
 
-# 🚮 Clean existing wrappers
-if WRAPPER_OUTPUT.exists():
-    shutil.rmtree(WRAPPER_OUTPUT)
+# 🚮 Clean existing outputs
+for outdir in [OUTPUT_DIRS["wrapper"], OUTPUT_DIRS["extension"]]:
+    if outdir.exists():
+        shutil.rmtree(outdir)
 
-# 🛠️ Wrapper generation loop
+# 🛠️ Generation loop
 for wrapper in WRAPPERS:
     name = wrapper["name"]
+    apptype = wrapper.get("apptype", "wrapper")  # default to wrapper
+    base_output = OUTPUT_DIRS[apptype]
+    icons_dir = ICONS_DIRS[apptype]
 
     # Enforce keyify_name
     key = wrapper.get("keyify_name", keyify(name))
-    wrapper["keyify_name"] = key  # Ensure it's available for icons and beyond
+    wrapper["keyify_name"] = key
 
     url = wrapper["url"]
     icon_file = wrapper.get("icon", f"{key}.webp")
 
-    dest = WRAPPER_OUTPUT / key
+    dest = base_output / key
     icons_dest = dest / "icons"
     icons_dest.mkdir(parents=True, exist_ok=True)
 
-    # Copy shared wrapper files
+    # Copy shared files
     for item in SHARED_DIR.iterdir():
         target = dest / item.name
         if item.is_file():
@@ -330,12 +349,12 @@ for wrapper in WRAPPERS:
             shutil.copytree(item, target, dirs_exist_ok=True)
 
     # Copy icon
-    icon_src = ICONS_DIR / icon_file
+    icon_src = icons_dir / icon_file
     icon_dst = icons_dest / "icon.webp"
     if icon_src.exists():
         shutil.copy(icon_src, icon_dst)
     else:
-        print(f"⚠️ Warning: icon not found → {icon_file} for wrapper: {name}")
+        print(f"⚠️ Warning: icon not found → {icon_file} for {apptype}: {name}")
 
     # Generate config.js
     with open(dest / "config.js", "wb") as f:
@@ -347,6 +366,6 @@ for wrapper in WRAPPERS:
 
     # Generate manifest.json
     with open(dest / "manifest.json", "wb") as f:
-        f.write(build_manifest(name, key))
+        f.write(build_manifest(name, key, apptype))
 
-    print(f"✅ Generated wrapper: {name} → {key} → icon: {icon_file}")
+    print(f"✅ Generated {apptype}: {name} → {key} → icon: {icon_file}")

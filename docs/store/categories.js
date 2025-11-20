@@ -612,6 +612,14 @@ export const categories = [
         url: "#小程序://中国联通营业厅/nMjhTIVG5fmrslA",
         apptype: "wechatmini"
       },
+      {
+        name: "Proxy SwitchyOmega (V3)",
+        nameKey: "proxyswitchyomegav3_name",
+        descriptionKey: "proxyswitchyomegav3_desc",
+        icon: "icons/extensions/proxyswitchyomegav3.webp",
+        url: "/wrappers/proxyswitchyomegav3"
+//        apptype: "extension",
+      },
     ]
   },
   {
@@ -889,6 +897,13 @@ export const categories = [
         descriptionKey: "moj_desc",
         icon: "icons/pwa/moj.webp",
         url: "https://mojapp.in"
+      },
+      {
+        name: "Spectra Video",
+        nameKey: "spectravideo_name",
+        descriptionKey: "spectravideo_desc",
+        icon: "icons/pwa/spectravideo.webp",
+        url: "https://spectra.video"
       },
       { name: "Weibo Lite (微博Lite)", nameKey: "weibo_name", descriptionKey: "weibo_desc", icon: "icons/pwa/weibo.webp", url: "https://m.weibo.cn" },
       {
