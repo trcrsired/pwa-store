@@ -3183,6 +3183,13 @@ export const categories = [
         url: "https://www.sf-express.com"
       },
       {
+        name: "Trip.com",
+        nameKey: "tripcom_name",
+        descriptionKey: "tripcom_desc",
+        icon: "icons/pwa/tripcom.webp",
+        url: "https://us.trip.com"
+      },
+      {
         name: "USPS",
         nameKey: "usps_name",
         descriptionKey: "usps_desc",

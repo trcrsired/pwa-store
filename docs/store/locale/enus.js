@@ -992,6 +992,8 @@ const L = {
   flixbus_desc: "Explore 1,800+ destinations across the US and beyond—FlixBus’s PWA lets you book tickets, track your ride in real time, and travel comfortably with Wi-Fi, outlets, and extra legroom.",
   sfexpress_name: "SF Express (顺丰速运)",
   sfexpress_desc: "SF Express—track domestic and international shipments, schedule pickups, and manage delivery services.",
+  tripcom_name: "Trip.com",
+  tripcom_desc: "An international travel service platform offering flight tickets, hotels, train bookings, car rentals, and vacation packages.",
   usps_name: "USPS",
   usps_desc: "United States Postal Service—track shipments, buy postage, schedule pickups, and access national mailing services and address tools through its official portal.",
   chinaems_name: "China EMS",

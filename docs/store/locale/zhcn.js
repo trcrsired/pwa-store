@@ -992,6 +992,8 @@ const L = {
   flixbus_desc: "探索美国及其他地区的 1800 多个目的地——FlixBus 的 PWA 支持实时购票与行程跟踪，提供 Wi-Fi、电源插座和宽敞座位。",
   sfexpress_name: "顺丰速运",
   sfexpress_desc: "顺丰速运——支持国内外快递查询、预约取件与配送服务管理。",
+  tripcom_name: "Trip.com",
+  tripcom_desc: "一个国际旅行服务平台，提供机票、酒店、火车票、租车与度假套餐。",
   usps_name: "美国邮政",
   usps_desc: "美国邮政服务——支持快递查询、邮资购买、预约取件及地址工具等国家邮政服务。",
   chinaems_name: "中国邮政速递物流",
