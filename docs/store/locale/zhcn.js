@@ -444,6 +444,8 @@ const L = {
   juejin_desc: "掘金是一个面向开发者的中文技术社区与内容平台，涵盖前端、后端、移动开发、人工智能等多个领域，提供高质量文章、教程与技术讨论。平台聚集了工程师、设计师与产品经理，致力于技术成长、开源分享与职业发展。",
   xueqiu_name: "雪球",
   xueqiu_desc: "一个中国投资平台，提供股票、基金与财经资讯的市场数据、资产跟踪与社区观点。",
+  cryptocom_name: "Crypto.com",
+  cryptocom_desc: "Crypto.com是一家位于新加坡的加密货币交易所。据报道，截至2022年5月，Crypto.com拥有5000万客户和4000名员工。",
   internetservices_name: "互联网服务",
   resourcedistributions_name: "资源分发",
   apkpure_name: "APKPure",

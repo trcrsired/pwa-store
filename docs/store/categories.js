@@ -1113,6 +1113,13 @@ export const categories = [
         descriptionKey: "xueqiu_desc",
         url: "https://xueqiu.com",
         icon: "icons/pwa/xueqiu.webp"
+       },
+       {
+        name: "Crypto.com",
+        namekey: "cryptocom_name",
+        descriptionKey: "cryptocom_desc",
+        url: "https://crypto.com",
+        icon: "icons/pwa/cryptocom.webp"
       },
       {
         name: "Paypal",
