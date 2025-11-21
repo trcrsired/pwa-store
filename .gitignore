@@ -2,3 +2,4 @@
 .scripts/.input/*
 .scripts/.output/*
 *.DS_Store
+.vs/

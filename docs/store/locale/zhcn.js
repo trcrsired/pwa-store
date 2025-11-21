@@ -582,6 +582,8 @@ const L = {
   africandiasporanewschannel_desc: "一个聚焦非洲侨民视角的全球新闻平台，报道政治、文化与社会正义议题，倡导泛非主义立场。",
   distractify_name: "Distractify",
   distractify_desc: "一个数字媒体网站，聚焦热门新闻、流行文化、娱乐与网络趣闻，内容具有病毒式传播特点。",
+  latimes_name: "洛杉矶时报（Los Angeles Times）",
+  latimes_desc: "一家总部位于加州的美国主要报纸，报道本地、全国与国际新闻、政治和文化。",
   hindustantimes_name: "印度斯坦时报",
   hindustantimes_desc: "《印度斯坦时报》（Hindustan Times）是印度领先的英文报纸之一，提供全面的国内外新闻、政治、商业、体育、娱乐和生活方式报道。由HT Media有限公司拥有，以其可信的新闻报道和在印度主要城市广泛的读者群体而闻名。",
   nyt_name: "纽约时报",

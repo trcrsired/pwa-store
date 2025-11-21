@@ -1888,6 +1888,7 @@ export const categories = [
       { name: "The American Prospect", nameKey: "theamericanprospect_name", descriptionKey: "theamericanprospect_desc", url: "https://prospect.org", icon: "icons/pwa/theamericanprospect.webp" },
       { name: "African Diaspora News Channel", nameKey: "africandiasporanewschannel_name", descriptionKey: "africandiasporanewschannel_desc", url: "https://africandiasporanews.org", icon: "icons/pwa/africandiasporanewschannel.webp" },
       { name: "Distractify", nameKey: "distractify_name", descriptionKey: "distractify_desc", url: "https://www.distractify.com", icon: "icons/pwa/distractify.webp" },
+      { name: "Los Angeles Times", nameKey: "latimes_name", descriptionKey: "latimes_desc", url: "https://www.latimes.com", icon: "icons/pwa/latimes.webp" },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url: "/wrappers/nytimes", apptype: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url: "/wrappers/washingtonpost", apptype: "wrapper" },
       { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url: "/wrappers/reuters", apptype: "wrapper" },
