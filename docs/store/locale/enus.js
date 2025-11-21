@@ -444,6 +444,8 @@ const L = {
   juejin_desc: "Juejin is a Chinese developer community and content platform offering high-quality articles, tutorials, and discussions across frontend, backend, mobile, AI, and more. It serves as a hub for technical growth, open-source sharing, and career development, with active contributions from engineers, designers, and product managers.",
   xueqiu_name: "Xueqiu (雪球)",
   xueqiu_desc: "A Chinese investment platform offering market data, portfolio tracking, and community insights across stocks, funds, and financial news.",
+  cryptocom_name: "Crypto.com",
+  cryptocom_desc: "Crypto.com is a cryptocurrency exchange company based in Singapore that offers various financial services, including an app, exchange, and noncustodial DeFi wallet, NFT marketplace, and direct payment service in cryptocurrency. As of June 2023, the company reportedly had 100 million customers and 4,000 employees.",
   internetservices_name: "Internet Services",
   resourcedistributions_name: "Resource Distributions",
   apkpure_name: "APKPure",
