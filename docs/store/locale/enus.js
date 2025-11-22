@@ -590,6 +590,8 @@ const L = {
   distractify_desc: "A digital media site covering trending news, pop culture, entertainment, and internet stories with a viral twist.",
   latimes_name: "Los Angeles Times",
   latimes_desc: "A major U.S. newspaper based in California, covering local, national, and international news, politics, and culture.",
+  thewitchitaeagle_name: "The Wichita Eagle",
+  thewitchitaeagle_desc: "A regional newspaper based in Wichita, Kansas, covering local news, sports, business, and community stories.",
   hindustantimes_name: "Hindustan Times",
   hindustantimes_desc: "One of India's leading English-language newspapers, Hindustan Times delivers comprehensive coverage of national and international news, politics, business, sports, entertainment, and lifestyle. Owned by HT Media Ltd., it is known for its credible journalism and wide readership across major Indian cities.",
   nyt_name: "New York Times",
