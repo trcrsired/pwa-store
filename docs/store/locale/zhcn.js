@@ -644,6 +644,8 @@ const L = {
   delawareonline_desc: "《新闻日报》（The News Journal）的数字版，提供特拉华州的新闻、政治、体育及社区动态。",
   scrippsnews_name: "Scripps News",
   scrippsnews_desc: "一家美国新闻网络，全天候报道国内与国际事件，涵盖政治、商业与文化。",
+  sfchronicle_name: "San Francisco Chronicle",
+  sfchronicle_desc: "一家总部位于旧金山的重要地区性报纸，报道湾区新闻、政治、商业与文化。",
   ifeng_name: "凤凰网",
   ifeng_desc: "综合性中文新闻门户，涵盖时政、财经、文化及全球热点资讯。",
   tencent_name: "腾讯新闻",

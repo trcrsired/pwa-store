@@ -644,6 +644,8 @@ const L = {
   delawareonline_desc: "The digital edition of The News Journal, covering Delaware news, politics, sports, and community updates.",
   scrippsnews_name: "Scripps News",
   scrippsnews_desc: "A U.S. news network delivering 24/7 coverage of national and international events, politics, business, and culture.",
+  sfchronicle_name: "San Francisco Chronicle",
+  sfchronicle_desc: "A major regional newspaper based in San Francisco, covering Bay Area news, politics, business, and culture.",
   ifeng_name: "ifeng (凤凰网)",
   ifeng_desc: "Comprehensive Chinese news portal offering coverage of current affairs, finance, culture, and global events.",
   tencent_name: "Tencent News (腾讯新闻)",
