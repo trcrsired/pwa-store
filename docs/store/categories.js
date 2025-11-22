@@ -4174,6 +4174,19 @@ export const categories = [
     ]
   },
   {
+    name: "Sports",
+    nameKey: "sports_name",
+    apps: [
+      {
+        name: "NBA",
+        nameKey: "nba_name",
+        descriptionKey: "nba_desc",
+        icon: "icons/pwa/nba.webp",
+        url: "https://www.nba.com"
+      }
+    ]
+  },
+  {
     name: "Research",
     nameKey: "research_name",
     apps: [
