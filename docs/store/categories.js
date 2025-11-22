@@ -1186,6 +1186,14 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Barron's",
+        nameKey: "barrons_name",
+        descriptionKey: "barrons_desc",
+        icon: "icons/wrappers/barrons.webp",
+        url: "/wrappers/barrons",
+        apptype: "wrapper"
+      },
+      {
         name: "Hurun Report (胡润百富)",
         nameKey: "hurun_name",
         descriptionKey: "hurun_desc",
@@ -1601,11 +1609,19 @@ export const categories = [
         url: "https://windowsforum.com"
       },
       {
+        name: "Futurism",
+        nameKey: "futurism_name",
+        descriptionKey: "futurism_desc",
+        icon: "icons/pwa/futurism.webp",
+        url: "https://futurism.com"
+      },
+      {
         name: "Beebom Gadgets",
         nammeKey: "beebomgadgets_name",
         descriptionKey: "beebomgadgets_desc",
         icon: "icons/wrappers/beebom.webp",
-        url: "https://gadgets.beebom.com"
+        url: "https://gadgets.beebom.com",
+        apptype: "wrapper"
       },
       {
         name: "Level1Techs",
