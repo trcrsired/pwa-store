@@ -1623,6 +1623,13 @@ export const categories = [
         url: "https://www.slashgear.com"
       },
       {
+        name: "Mashable",
+        nameKey: "mashable_name",
+        descriptionKey: "mashable_desc",
+        icon: "icons/pwa/mashable.webp",
+        url: "https://mashable.com"
+      },
+      {
         name: "Beebom Gadgets",
         nammeKey: "beebomgadgets_name",
         descriptionKey: "beebomgadgets_desc",
@@ -1967,6 +1974,15 @@ export const categories = [
       { name: "Miami Herald", nameKey: "miamiherald_name", descriptionKey: "miamiherald_desc", url: "/wrappers/miamiherald", icon: "icons/wrappers/miamiherald.webp", apptype: "wrapper" },
       { name: "Financial Times", nameKey: "financialtimes_name", descriptionKey: "financialtimes_desc", url: "/wrappers/financialtimes", icon: "icons/wrappers/financialtimes.webp", apptype: "wrapper" },
       { name: "Delaware Online", nameKey: "delawareonline_name", descriptionKey: "delawareonline_desc", url: "/wrappers/delawareonline", icon: "icons/wrappers/delawareonline.webp", apptype: "wrapper"},
+      {
+        name: "Scripps News",
+        nameKey: "scrippsnews_name",
+        descriptionKey: "scrippsnews_desc",
+        icon: "icons/wrappers/scrippsnews.webp",
+        url: "/wrappers/scrippsnews",
+        urlDisplay: "https://www.scrippsnews.com",
+        apptype: "wrapper"
+      },
       { name: "ifeng (凤凰网)", nameKey: "ifeng_name", descriptionKey: "ifeng_desc", icon: "icons/wrappers/ifeng.webp", url: "/wrappers/ifeng", apptype: "wrapper" },
       { name: "Tencent News (腾讯新闻)", nameKey: "tencent_name", descriptionKey: "tencent_desc", icon: "icons/pwa/tencent_news.webp", url: "https://news.qq.com" },
       { name: "Baidu (百度)", nameKey: "baidu_name", descriptionKey: "baidu_desc", icon: "icons/pwa/baidu.webp", url: "https://www.baidu.com" },
