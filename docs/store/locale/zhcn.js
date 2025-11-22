@@ -484,6 +484,8 @@ const L = {
   archive_desc: "互联网档案馆是一个非营利数字图书馆，收藏数百万份免费文本、电影、软件、音乐、网站等资源。",
   apkpremier_name: "APK Premier",
   apkpremier_desc: "APK Premier提供安卓应用与游戏的免费APK下载，涵盖娱乐、通讯与效率工具，支持直接获取最新安装包与应用列表。",
+  appadvice_name: "AppAdvice",
+  appadvice_desc: "一个移动应用发现与推荐平台，提供评测、指南和精选应用列表。",
   appleappstore_name: "苹果应用商店",
   appleappstore_desc: "iOS 与 iPadOS 的官方应用商店，提供数百万款应用，涵盖各类分类，支持安全下载与精选推荐。",
   btsow_name: "BTSOW",

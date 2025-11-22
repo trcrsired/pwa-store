@@ -35,6 +35,7 @@ WRAPPERS = [
   { "name": "Internet Archive", "url": "https://archive.org", "keyify_name": "archive" },
   { "name": "APK Premier", "url": "https://apkpremier.com", "keyify_name": "apkpremier" },
   { "name": "App Store", "url": "https://apps.apple.com", "keyify_name": "appleappstore" },
+  { "name": "AppAdvice", "url": "https://appadvice.com" },
   { "name": "BTSOW", "url": "https://btsow.lol" },
   { "name": "Level1Techs", "url": "https://level1techs.com" },
   { "name": "Gamers Nexus", "url": "https://gamersnexus.net" },

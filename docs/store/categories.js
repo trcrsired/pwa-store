@@ -1749,6 +1749,15 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "AppAdvice",
+        nameKey: "appadvice_name",
+        descriptionKey: "appadvice_desc",
+        icon: "icons/wrappers/appadvice.webp",
+        url: "/wrappers/appadvice",
+        urlDisplay: "https://appadvice.com",
+        apptype: "wrapper"
+      },
+      {
         name: "BTSOW",
         nameKey: "btsow_name",
         descriptionKey: "btsow_desc",
