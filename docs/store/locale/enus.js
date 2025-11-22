@@ -476,6 +476,8 @@ const L = {
   windowsforum_desc: "An online community for Windows users to discuss troubleshooting, tips, updates, and technology news.",
   futurism_name: "Futurism",
   futurism_desc: "A digital media platform covering science, technology, and the future of humanity with news and analysis.",
+  slashgear_name: "SlashGear",
+  slashgear_desc: "A technology news site covering gadgets, consumer electronics, automotive, science, and digital lifestyle trends.",
   rutrackerorg_name: "RuTracker.org",
   rutrackerorg_desc: "A Russian torrent tracker and forum offering a vast catalog of movies, music, software, books, and more. Known for its longevity and active user base.",
   appbrain_name: "AppBrain",

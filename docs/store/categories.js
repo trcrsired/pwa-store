@@ -1616,6 +1616,13 @@ export const categories = [
         url: "https://futurism.com"
       },
       {
+        name: "SlashGear",
+        nameKey: "slashgear_name",
+        descriptionKey: "slashgear_desc",
+        icon: "icons/pwa/slashgear.webp",
+        url: "https://www.slashgear.com"
+      },
+      {
         name: "Beebom Gadgets",
         nammeKey: "beebomgadgets_name",
         descriptionKey: "beebomgadgets_desc",
