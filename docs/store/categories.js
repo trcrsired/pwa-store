@@ -1936,6 +1936,20 @@ export const categories = [
       { name: "Distractify", nameKey: "distractify_name", descriptionKey: "distractify_desc", url: "https://www.distractify.com", icon: "icons/pwa/distractify.webp" },
       { name: "Los Angeles Times", nameKey: "latimes_name", descriptionKey: "latimes_desc", url: "https://www.latimes.com", icon: "icons/pwa/latimes.webp" },
       { name: "The Wichita Eagle", nameKey: "thewitchitaeagle_name", descriptionKey: "thewitchitaeagle_desc", icon: "icons/pwa/thewitchitaeagle.webp", url: "https://www.kansas.com" },
+      {
+        name: "Sankei News (産経ニュース)",
+        nameKey: "sankei_name",
+        descriptionKey: "sankei_desc",
+        icon: "icons/pwa/sankei.webp",
+        url: "https://www.sankei.com"
+      },
+      {
+        name: "Ameba Blog (アメーバブログ)",
+        nameKey: "ameblo_name",
+        descriptionKey: "ameblo_desc",
+        icon: "icons/pwa/ameblo.webp",
+        url: "https://ameblo.jp"
+      },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url: "/wrappers/nytimes", apptype: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url: "/wrappers/washingtonpost", apptype: "wrapper" },
       { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url: "/wrappers/reuters", apptype: "wrapper" },
@@ -4398,6 +4412,13 @@ export const categories = [
         descriptionKey: "danbooru_desc",
         icon: "icons/pwa/danbooru.webp",
         url: "https://danbooru.donmai.us"
+      },
+      {
+        name: "Bakusai",
+        nameKey: "bakusai_name",
+        descriptionKey: "bakusai_desc",
+        icon: "icons/pwa/bakusai.webp",
+        url: "https://bakusai.com"
       },
       {
         name: "Yande",
