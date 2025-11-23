@@ -3308,6 +3308,13 @@ export const categories = [
         url: "https://us.trip.com"
       },
       {
+        name: "Girls Heavens",
+        nameKey: "girlsheavens_name",
+        descriptionKey: "girlsheavens_desc",
+        icon: "icons/pwa/girlsheavens.webp",
+        url: "https://girlsheavens.com"
+      },
+      {
         name: "USPS",
         nameKey: "usps_name",
         descriptionKey: "usps_desc",
@@ -4319,6 +4326,13 @@ export const categories = [
         descriptionKey: "princeton_desc",
         icon: "icons/pwa/princeton.webp",
         url: "https://www.princeton.edu"
+      },
+      {
+        name: "NYU Press",
+        nameKey: "nyupress_name",
+        descriptionKey: "nyupress_desc",
+        icon: "icons/pwa/nyupress.webp",
+        url: "https://nyupress.org"
       },
       {
         name: "Binghamton University",
