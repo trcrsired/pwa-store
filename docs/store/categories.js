@@ -1129,6 +1129,13 @@ export const categories = [
         icon: "icons/pwa/cryptocom.webp"
       },
       {
+        name: "International Business Times",
+        nameKey: "ibtimes_name",
+        descriptionKey: "ibtimes_desc",
+        icon: "icons/pwa/ibtimes.webp",
+        url: "https://www.ibtimes.com"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",

@@ -450,6 +450,8 @@ const L = {
   xueqiu_desc: "一个中国投资平台，提供股票、基金与财经资讯的市场数据、资产跟踪与社区观点。",
   cryptocom_name: "Crypto.com",
   cryptocom_desc: "Crypto.com是一家位于新加坡的加密货币交易所。据报道，截至2022年5月，Crypto.com拥有5000万客户和4000名员工。",
+  ibtimes_name: "国际财经时报",
+  ibtimes_desc: "全球数字新闻媒体，报道商业、市场、科技与国际事务。",
   internetservices_name: "互联网服务",
   resourcedistributions_name: "资源分发",
   apkpure_name: "APKPure",

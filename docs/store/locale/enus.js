@@ -450,6 +450,8 @@ const L = {
   xueqiu_desc: "A Chinese investment platform offering market data, portfolio tracking, and community insights across stocks, funds, and financial news.",
   cryptocom_name: "Crypto.com",
   cryptocom_desc: "Crypto.com is a cryptocurrency exchange company based in Singapore that offers various financial services, including an app, exchange, and noncustodial DeFi wallet, NFT marketplace, and direct payment service in cryptocurrency. As of June 2023, the company reportedly had 100 million customers and 4,000 employees.",
+  ibtimes_name: "International Business Times",
+  ibtimes_desc: "A global digital news publication covering business, markets, technology, and world affairs.",
   internetservices_name: "Internet Services",
   resourcedistributions_name: "Resource Distributions",
   apkpure_name: "APKPure",
