@@ -843,6 +843,8 @@ const L = {
   wikipedia_desc: "免费的在线百科全书。",
   baidubaike_name: "百度百科",
   baidubaike_desc: "中国的协作式知识平台。",
+  ifixit_name: "iFixit",
+  ifixit_desc: "全球维修社区，提供免费的维修指南，并销售工具与替换零件。",
   liquipedia_name: "Liquipedia",
   liquipedia_desc: "Liquipedia 是专注于电子竞技的在线百科全书。",
   incelwiki_name: "非自愿独身者维基",

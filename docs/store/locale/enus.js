@@ -843,6 +843,8 @@ const L = {
   wikipedia_desc: "Free online encyclopedia.",
   baidubaike_name: "Baidu Baike (百度百科)",
   baidubaike_desc: "Chinese collaborative knowledge base.",
+  ifixit_name: "iFixit",
+  ifixit_desc: "A global repair community offering free repair guides, plus tools and replacement parts for purchase.",
   liquipedia_name: "Liquipedia",
   liquipedia_desc: "Liquipedia is an online encyclopedia focused on esports.",
   incelwiki_name: "Incel Wiki",

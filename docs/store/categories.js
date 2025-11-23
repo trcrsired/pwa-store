@@ -2581,6 +2581,13 @@ export const categories = [
         url: "https://baike.baidu.com"
       },
       {
+        name: "iFixit",
+        nameKey: "ifixit_name",
+        descriptionKey: "ifixit_desc",
+        icon: "icons/pwa/ifixit.webp",
+        url: "https://www.ifixit.com"
+      },
+      {
         name: "Marxists Internet Archive",
         nameKey: "marxistsorg_name",
         descriptionKey: "marxistsorg_desc",
