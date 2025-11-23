@@ -374,6 +374,8 @@ const L = {
   barrons_desc: "A leading U.S. financial magazine providing market analysis, investment insights, and economic news.",
   hurun_name: "Hurun Report (胡润百富)",
   hurun_desc: "A wealth and business intelligence platform best known for its China Rich List. Hurun Report publishes rankings, research, and insights on entrepreneurs, luxury trends, and philanthropy in China and globally.",
+  mkcokr_name: "Maeil Business Newspaper (매일경제)",
+  mkcokr_desc: "A leading South Korean economic daily providing business, finance, and market news.",
   business_key: "Business",
   capterra_name: "Capterra",
   capterra_desc: "Capterra helps businesses find the right software by offering user reviews, ratings, and comparisons across thousands of tools in various categories.",

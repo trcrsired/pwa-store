@@ -374,6 +374,8 @@ const L = {
   barrons_desc: "一家美国知名财经杂志，提供市场分析、投资见解与经济新闻。",
   hurun_name: "胡润百富",
   hurun_desc: "以中国富豪榜闻名的财富与商业资讯平台。胡润百富发布关于企业家、奢侈品趋势和慈善事业的排行榜、调研与洞察，覆盖中国及全球市场。",
+  mkcokr_name: "每日经济新闻（매일경제）",
+  mkcokr_desc: "韩国主要经济日报，提供商业、金融与市场新闻。",
   business_key: "商务",
   capterra_name: "Capterra",
   capterra_desc: "Capterra 是一个帮助企业寻找合适软件的平台，提供用户评价、评分和各类工具的对比信息。",

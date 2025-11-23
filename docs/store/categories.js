@@ -922,6 +922,13 @@ export const categories = [
       },
       { name: "Weibo Lite (微博Lite)", nameKey: "weibo_name", descriptionKey: "weibo_desc", icon: "icons/pwa/weibo.webp", url: "https://m.weibo.cn" },
       {
+        name: "Ameba Blog (アメーバブログ)",
+        nameKey: "ameblo_name",
+        descriptionKey: "ameblo_desc",
+        icon: "icons/pwa/ameblo.webp",
+        url: "https://ameblo.jp"
+      },
+      {
         name: "Zoosk",
         nameKey: "zoosk_name",
         icon: "icons/wrappers/zoosk.webp",
@@ -1199,6 +1206,15 @@ export const categories = [
         descriptionKey: "hurun_desc",
         icon: "icons/wrappers/hurun.webp",
         url: "/wrappers/hurun",
+        apptype: "wrapper"
+      },
+      {
+        name: "Maeil Business Newspaper (매일경제)",
+        nameKey: "mkcokr_name",
+        descriptionKey: "mkcokr_desc",
+        icon: "icons/wrappers/mkcokr.webp",
+        url: "/wrappers/mk",
+        urlDisplay: "https://www.mk.co.kr",
         apptype: "wrapper"
       },
       {
@@ -1942,13 +1958,6 @@ export const categories = [
         descriptionKey: "sankei_desc",
         icon: "icons/pwa/sankei.webp",
         url: "https://www.sankei.com"
-      },
-      {
-        name: "Ameba Blog (アメーバブログ)",
-        nameKey: "ameblo_name",
-        descriptionKey: "ameblo_desc",
-        icon: "icons/pwa/ameblo.webp",
-        url: "https://ameblo.jp"
       },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url: "/wrappers/nytimes", apptype: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url: "/wrappers/washingtonpost", apptype: "wrapper" },

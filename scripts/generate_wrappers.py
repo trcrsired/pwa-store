@@ -137,6 +137,7 @@ WRAPPERS = [
   { "name": "Binance", "url": "https://www.binance.com" },
   { "name": "Barron's", "url": "https://www.barrons.com", "keyify_name": "barrons" },
   { "name": "胡润百富", "url": "https://www.hurun.net", "keyify_name": "hurun" },
+  { "name": "매일경제", "url": "https://www.mk.co.kr", "keyify_name": "mkcokr" },
   { "name": "Free Software Foundations", "url": "https://www.fsf.org", "keyify_name": "fsf" },
   { "name": "RA2: Chrono Divide", "url": "https://game.chronodivide.com", "keyify_name": "chronodivide" },
   { "name": "Floppy Bird", "url": "https://nebezb.com/floppybird" },
