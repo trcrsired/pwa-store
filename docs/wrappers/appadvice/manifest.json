@@ -1,0 +1,17 @@
+{
+  "name": "AppAdvice",
+  "short_name": "AppAdvice",
+  "start_url": "/wrappers/appadvice/?source=pwa",
+  "scope": "/wrappers/appadvice/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for AppAdvice",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/appadvice/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -35,6 +35,7 @@ WRAPPERS = [
   { "name": "Internet Archive", "url": "https://archive.org", "keyify_name": "archive" },
   { "name": "APK Premier", "url": "https://apkpremier.com", "keyify_name": "apkpremier" },
   { "name": "App Store", "url": "https://apps.apple.com", "keyify_name": "appleappstore" },
+  { "name": "AppAdvice", "url": "https://appadvice.com" },
   { "name": "BTSOW", "url": "https://btsow.lol" },
   { "name": "Level1Techs", "url": "https://level1techs.com" },
   { "name": "Gamers Nexus", "url": "https://gamersnexus.net" },
@@ -134,7 +135,9 @@ WRAPPERS = [
   { "name": "Webull", "url": "https://www.webull.com" },
   { "name": "Bank of America", "url": "https://www.bankofamerica.com" },
   { "name": "Binance", "url": "https://www.binance.com" },
+  { "name": "Barron's", "url": "https://www.barrons.com", "keyify_name": "barrons" },
   { "name": "胡润百富", "url": "https://www.hurun.net", "keyify_name": "hurun" },
+  { "name": "매일경제", "url": "https://www.mk.co.kr", "keyify_name": "mkcokr" },
   { "name": "Free Software Foundations", "url": "https://www.fsf.org", "keyify_name": "fsf" },
   { "name": "RA2: Chrono Divide", "url": "https://game.chronodivide.com", "keyify_name": "chronodivide" },
   { "name": "Floppy Bird", "url": "https://nebezb.com/floppybird" },
@@ -234,6 +237,9 @@ WRAPPERS = [
   { "name": "Miami Herald", "url": "https://www.miamiherald.com" },
   { "name": "Financial Times", "url": "https://www.ft.com" },
   { "name": "Delaware Online", "url": "https://www.delawareonline.com" },
+  { "name": "Scripps News", "url": "https://www.scrippsnews.com" },
+  { "name": "San Francisco Chronicle", "url": "https://www.sfchronicle.com", "keyify_name": "sfchronicle" },
+
   { "name": "Radio Television of Afghanistan", "url": "https://rta.af", "keyify_name": "rtaaf"},
 
   { "name" : "HotCRP", "url": "https://hotcrp.com" },

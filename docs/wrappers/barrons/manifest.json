@@ -1,0 +1,17 @@
+{
+  "name": "Barron's",
+  "short_name": "Barron's",
+  "start_url": "/wrappers/barrons/?source=pwa",
+  "scope": "/wrappers/barrons/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Barron's",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/barrons/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "San Francisco Chronicle",
+  "short_name": "San Francisco Chronicle",
+  "start_url": "/wrappers/sfchronicle/?source=pwa",
+  "scope": "/wrappers/sfchronicle/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for San Francisco Chronicle",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/sfchronicle/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

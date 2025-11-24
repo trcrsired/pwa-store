@@ -922,6 +922,13 @@ export const categories = [
       },
       { name: "Weibo Lite (微博Lite)", nameKey: "weibo_name", descriptionKey: "weibo_desc", icon: "icons/pwa/weibo.webp", url: "https://m.weibo.cn" },
       {
+        name: "Ameba Blog (アメーバブログ)",
+        nameKey: "ameblo_name",
+        descriptionKey: "ameblo_desc",
+        icon: "icons/pwa/ameblo.webp",
+        url: "https://ameblo.jp"
+      },
+      {
         name: "Zoosk",
         nameKey: "zoosk_name",
         icon: "icons/wrappers/zoosk.webp",
@@ -1113,6 +1120,20 @@ export const categories = [
         descriptionKey: "xueqiu_desc",
         url: "https://xueqiu.com",
         icon: "icons/pwa/xueqiu.webp"
+       },
+       {
+        name: "Crypto.com",
+        namekey: "cryptocom_name",
+        descriptionKey: "cryptocom_desc",
+        url: "https://crypto.com",
+        icon: "icons/pwa/cryptocom.webp"
+      },
+      {
+        name: "International Business Times",
+        nameKey: "ibtimes_name",
+        descriptionKey: "ibtimes_desc",
+        icon: "icons/pwa/ibtimes.webp",
+        url: "https://www.ibtimes.com"
       },
       {
         name: "Paypal",
@@ -1179,11 +1200,28 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Barron's",
+        nameKey: "barrons_name",
+        descriptionKey: "barrons_desc",
+        icon: "icons/wrappers/barrons.webp",
+        url: "/wrappers/barrons",
+        apptype: "wrapper"
+      },
+      {
         name: "Hurun Report (胡润百富)",
         nameKey: "hurun_name",
         descriptionKey: "hurun_desc",
         icon: "icons/wrappers/hurun.webp",
         url: "/wrappers/hurun",
+        apptype: "wrapper"
+      },
+      {
+        name: "Maeil Business Newspaper (매일경제)",
+        nameKey: "mkcokr_name",
+        descriptionKey: "mkcokr_desc",
+        icon: "icons/wrappers/mkcokr.webp",
+        url: "/wrappers/mk",
+        urlDisplay: "https://www.mk.co.kr",
         apptype: "wrapper"
       },
       {
@@ -1594,11 +1632,33 @@ export const categories = [
         url: "https://windowsforum.com"
       },
       {
+        name: "Futurism",
+        nameKey: "futurism_name",
+        descriptionKey: "futurism_desc",
+        icon: "icons/pwa/futurism.webp",
+        url: "https://futurism.com"
+      },
+      {
+        name: "SlashGear",
+        nameKey: "slashgear_name",
+        descriptionKey: "slashgear_desc",
+        icon: "icons/pwa/slashgear.webp",
+        url: "https://www.slashgear.com"
+      },
+      {
+        name: "Mashable",
+        nameKey: "mashable_name",
+        descriptionKey: "mashable_desc",
+        icon: "icons/pwa/mashable.webp",
+        url: "https://mashable.com"
+      },
+      {
         name: "Beebom Gadgets",
         nammeKey: "beebomgadgets_name",
         descriptionKey: "beebomgadgets_desc",
         icon: "icons/wrappers/beebom.webp",
-        url: "https://gadgets.beebom.com"
+        url: "https://gadgets.beebom.com",
+        apptype: "wrapper"
       },
       {
         name: "Level1Techs",
@@ -1723,6 +1783,15 @@ export const categories = [
         descriptionKey: "appleappstore_desc",
         icon: "icons/wrappers/appleappstore.webp",
         url: "/wrappers/appleappstore",
+        apptype: "wrapper"
+      },
+      {
+        name: "AppAdvice",
+        nameKey: "appadvice_name",
+        descriptionKey: "appadvice_desc",
+        icon: "icons/wrappers/appadvice.webp",
+        url: "/wrappers/appadvice",
+        urlDisplay: "https://appadvice.com",
         apptype: "wrapper"
       },
       {
@@ -1888,6 +1957,15 @@ export const categories = [
       { name: "The American Prospect", nameKey: "theamericanprospect_name", descriptionKey: "theamericanprospect_desc", url: "https://prospect.org", icon: "icons/pwa/theamericanprospect.webp" },
       { name: "African Diaspora News Channel", nameKey: "africandiasporanewschannel_name", descriptionKey: "africandiasporanewschannel_desc", url: "https://africandiasporanews.org", icon: "icons/pwa/africandiasporanewschannel.webp" },
       { name: "Distractify", nameKey: "distractify_name", descriptionKey: "distractify_desc", url: "https://www.distractify.com", icon: "icons/pwa/distractify.webp" },
+      { name: "Los Angeles Times", nameKey: "latimes_name", descriptionKey: "latimes_desc", url: "https://www.latimes.com", icon: "icons/pwa/latimes.webp" },
+      { name: "The Wichita Eagle", nameKey: "thewitchitaeagle_name", descriptionKey: "thewitchitaeagle_desc", icon: "icons/pwa/thewitchitaeagle.webp", url: "https://www.kansas.com" },
+      {
+        name: "Sankei News (産経ニュース)",
+        nameKey: "sankei_name",
+        descriptionKey: "sankei_desc",
+        icon: "icons/pwa/sankei.webp",
+        url: "https://www.sankei.com"
+      },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url: "/wrappers/nytimes", apptype: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url: "/wrappers/washingtonpost", apptype: "wrapper" },
       { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url: "/wrappers/reuters", apptype: "wrapper" },
@@ -1926,6 +2004,24 @@ export const categories = [
       { name: "Miami Herald", nameKey: "miamiherald_name", descriptionKey: "miamiherald_desc", url: "/wrappers/miamiherald", icon: "icons/wrappers/miamiherald.webp", apptype: "wrapper" },
       { name: "Financial Times", nameKey: "financialtimes_name", descriptionKey: "financialtimes_desc", url: "/wrappers/financialtimes", icon: "icons/wrappers/financialtimes.webp", apptype: "wrapper" },
       { name: "Delaware Online", nameKey: "delawareonline_name", descriptionKey: "delawareonline_desc", url: "/wrappers/delawareonline", icon: "icons/wrappers/delawareonline.webp", apptype: "wrapper"},
+      {
+        name: "Scripps News",
+        nameKey: "scrippsnews_name",
+        descriptionKey: "scrippsnews_desc",
+        icon: "icons/wrappers/scrippsnews.webp",
+        url: "/wrappers/scrippsnews",
+        urlDisplay: "https://www.scrippsnews.com",
+        apptype: "wrapper"
+      },
+      {
+        name: "San Francisco Chronicle",
+        nameKey: "sfchronicle_name",
+        descriptionKey: "sfchronicle_desc",
+        icon: "icons/wrappers/sfchronicle.webp",
+        url: "/wrappers/sfchronicle",
+        urlDisplay: "https://www.sfchronicle.com",
+        apptype: "wrapper"
+      },
       { name: "ifeng (凤凰网)", nameKey: "ifeng_name", descriptionKey: "ifeng_desc", icon: "icons/wrappers/ifeng.webp", url: "/wrappers/ifeng", apptype: "wrapper" },
       { name: "Tencent News (腾讯新闻)", nameKey: "tencent_name", descriptionKey: "tencent_desc", icon: "icons/pwa/tencent_news.webp", url: "https://news.qq.com" },
       { name: "Baidu (百度)", nameKey: "baidu_name", descriptionKey: "baidu_desc", icon: "icons/pwa/baidu.webp", url: "https://www.baidu.com" },
@@ -2483,6 +2579,13 @@ export const categories = [
         descriptionKey: "baidubaike_desc",
         icon: "icons/pwa/baike.webp",
         url: "https://baike.baidu.com"
+      },
+      {
+        name: "iFixit",
+        nameKey: "ifixit_name",
+        descriptionKey: "ifixit_desc",
+        icon: "icons/pwa/ifixit.webp",
+        url: "https://www.ifixit.com"
       },
       {
         name: "Marxists Internet Archive",
@@ -3217,6 +3320,13 @@ export const categories = [
         descriptionKey: "tripcom_desc",
         icon: "icons/pwa/tripcom.webp",
         url: "https://us.trip.com"
+      },
+      {
+        name: "Girls Heavens",
+        nameKey: "girlsheavens_name",
+        descriptionKey: "girlsheavens_desc",
+        icon: "icons/pwa/girlsheavens.webp",
+        url: "https://girlsheavens.com"
       },
       {
         name: "USPS",
@@ -4182,6 +4292,19 @@ export const categories = [
     ]
   },
   {
+    name: "Sports",
+    nameKey: "sports_name",
+    apps: [
+      {
+        name: "NBA",
+        nameKey: "nba_name",
+        descriptionKey: "nba_desc",
+        icon: "icons/pwa/nba.webp",
+        url: "https://www.nba.com"
+      }
+    ]
+  },
+  {
     name: "Research",
     nameKey: "research_name",
     apps: [
@@ -4249,6 +4372,13 @@ export const categories = [
         descriptionKey: "princeton_desc",
         icon: "icons/pwa/princeton.webp",
         url: "https://www.princeton.edu"
+      },
+      {
+        name: "NYU Press",
+        nameKey: "nyupress_name",
+        descriptionKey: "nyupress_desc",
+        icon: "icons/pwa/nyupress.webp",
+        url: "https://nyupress.org"
       },
       {
         name: "Binghamton University",
@@ -4351,6 +4481,13 @@ export const categories = [
         descriptionKey: "danbooru_desc",
         icon: "icons/pwa/danbooru.webp",
         url: "https://danbooru.donmai.us"
+      },
+      {
+        name: "Bakusai",
+        nameKey: "bakusai_name",
+        descriptionKey: "bakusai_desc",
+        icon: "icons/pwa/bakusai.webp",
+        url: "https://bakusai.com"
       },
       {
         name: "Yande",
