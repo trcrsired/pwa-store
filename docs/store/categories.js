@@ -3329,7 +3329,15 @@ export const categories = [
         icon: "icons/wechatmini/exingbao.webp",
         url: "#小程序://e行宝/KSAhqf8mbuBcVgI",
         apptype: "wechatmini"        
-      }
+      },
+      {
+        name: "EMS China Post Express Logistics (EMS中国邮政速递物流)",
+        nameKey: "chinaems_name",
+        descriptionKey: "chinaems_desc",
+        icon: "icons/wechatmini/chinaems.webp",
+        url: "#小程序://EMS中国邮政速递物流/as1h1us3nlbaPbF",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
@@ -3492,11 +3500,19 @@ export const categories = [
         apptype: "wrapper"
       },
       {
-        name: "H World Club",
+        name: "H World Club (华住会)",
         nameKey: "hworldclub_name",
         descriptionKey: "hworldclub_desc",
         icon: "icons/wechatmini/hworldclub.webp",
         url: "#小程序://华住会酒店预订汉庭全季桔子/wgSElQcmKxKYYLl",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Shengdu Full Decoration (圣都整装)",
+        nameKey: "shengdu_name",
+        descriptionKey: "shengdu_desc",
+        icon: "icons/wechatmini/shengdu.webp",
+        url: "#小程序://圣都整装/VZrtqHn4BBQowok",
         apptype: "wechatmini"
       },
     ]
@@ -4017,6 +4033,22 @@ export const categories = [
         descriptionKey: "sufuban_desc",
         icon: "icons/wechatmini/sufuban.webp",
         url: "#小程序://苏服办/n4lBMMbQdOYQDJB",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Public Security One‑Stop Service (公安一网通办)",
+        nameKey: "gonganyiwang_name",
+        descriptionKey: "gonganyiwang_desc",
+        icon: "icons/wechatmini/gongan.webp",
+        url: "#小程序://公安一网通办/75Bf8U1h6huRlKI",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Yueshengshi (粤省事)",
+        nameKey: "yueshengshi_name",
+        descriptionKey: "yueshengshi_desc",
+        icon: "icons/wechatmini/yueshengshi.webp",
+        url: "#小程序://粤省事/8YjIca7Izt3So3w",
         apptype: "wechatmini"
       }
     ]
