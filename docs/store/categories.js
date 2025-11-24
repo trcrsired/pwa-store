@@ -3246,6 +3246,14 @@ export const categories = [
         url: "#小程序://小龙坎会员中心/Im6kowk93xKVR3r",
         apptype: "wechatmini"
       },
+      {
+        name: "Xiaoxiang Supermarket (小象超市)",
+        nameKey: "xiaoxiang_name",
+        descriptionKey: "xiaoxiang_desc",
+        icon: "icons/wechatmini/xiaoxiang.webp",
+        url: "#小程序://小象超市/7dDGE9akeD35Azv",
+        apptype: "wechatmini"
+      },
     ]
   },
   {

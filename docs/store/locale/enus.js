@@ -1400,6 +1400,8 @@ const L = {
   wulaoyaohotpot_desc: "Official mini app of Wulayao Hotpot, offering online ordering and store locator features.",
   xiaolongkanhotpot_name: "Xiaolongkan Hotpot (小龙坎火锅)",
   xiaolongkanhotpot_desc: "Official mini app of Xiaolongkan Hotpot, offering online reservations, menu browsing, and store services.",
+  xiaoxiang_name: "Xiaoxiang Supermarket (小象超市)",
+  xiaoxiang_desc: "Meituan’s self-operated instant retail service, upgraded from Meituan Maicai.",
   tencenthealth_name: "Tencent Health (腾讯健康)",
   tencenthealth_desc: "Track your health, manage appointments, and access wellness services with Tencent Health.",
   keep_name: "Keep Fitness Assistant (Keep运动助手)",
