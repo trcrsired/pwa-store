@@ -1,0 +1,17 @@
+{
+  "name": "International Competition Network",
+  "short_name": "International Competition Network",
+  "start_url": "/wrappers/internationalcompetitionnetwork/?source=pwa",
+  "scope": "/wrappers/internationalcompetitionnetwork/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for International Competition Network",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/internationalcompetitionnetwork/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

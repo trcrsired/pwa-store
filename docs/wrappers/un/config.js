@@ -1,6 +1,6 @@
 window.appConfig = {
-  title: "UN",
+  title: "United Nations",
   url: "https://www.un.org",
-  cacheName: "pwa-un",
-  localStorageKey: "un_installed"
+  cacheName: "pwa-UN",
+  localStorageKey: "UN_installed"
 };

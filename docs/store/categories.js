@@ -4190,13 +4190,22 @@ export const categories = [
         url: "https://www.iso.org"
       },
       {
-        name: "UN",
+        name: "United Nations",
         nameKey: "un_name",
         descriptionKey: "un_desc",
         icon: "icons/wrappers/un.webp",
         url: "/wrappers/un",
         apptype: "wrapper"
-      }
+      },
+      {
+        name: "International Competition Network",
+        nameKey: "internationalcompetitionnetwork_name",
+        descriptionKey: "internationalcompetitionnetwork_desc",
+        icon: "icons/wrapper/internationalcompetitionnetwork.webp",
+        url: "/wrappers/internationalcompetitionnetwork",
+        urlDisplay: "https://www.internationalcompetitionnetwork.org",
+        apptype: "wrapper"
+      },
     ]
   },
   {
