@@ -608,6 +608,8 @@ const L = {
   sankei_desc: "日本主要新闻媒体，报道国内外政治、商业与社会新闻。",
   ameblo_name: "Ameba博客 (アメーバブログ)",
   ameblo_desc: "日本流行的博客平台，提供个人日记、明星动态与社区互动功能。",
+  friend_name: "Friend",
+  friend_desc: "一个生活方式平台，以“创造你的新朋友”为口号，提供陪伴与社交体验。",
   hindustantimes_name: "印度斯坦时报",
   hindustantimes_desc: "《印度斯坦时报》（Hindustan Times）是印度领先的英文报纸之一，提供全面的国内外新闻、政治、商业、体育、娱乐和生活方式报道。由HT Media有限公司拥有，以其可信的新闻报道和在印度主要城市广泛的读者群体而闻名。",
   nyt_name: "纽约时报",

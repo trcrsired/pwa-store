@@ -936,6 +936,13 @@ export const categories = [
         url: "https://ameblo.jp"
       },
       {
+        name: "Friend",
+        nameKey: "friend_name",
+        descriptionKey: "friend_desc",
+        icon: "icons/pwa/friend.webp",
+        url: "https://friend.com"
+      },
+      {
         name: "Zoosk",
         nameKey: "zoosk_name",
         icon: "icons/wrappers/zoosk.webp",
