@@ -428,6 +428,13 @@ export const categories = [
         url: "https://linear.app"
       },
       {
+        name: "Codeberg",
+        nameKey: "codeberg_name",
+        descriptionKey: "codeberg_desc",
+        icon: "icons/pwa/codeberg.webp",
+        url: "https://codeberg.org"
+      },
+      {
         name: "permission.site",
         nameKey: "permissionsite_name",
         descriptionKey: "permissionsite_desc",

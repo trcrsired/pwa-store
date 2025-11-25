@@ -205,6 +205,8 @@ const L = {
   deepwiki_desc: "DeepWiki is an AI-powered documentation platform developed by Cognition AI. It transforms any public GitHub repository into interactive, conversational documentation, enabling developers to explore codebases through chat, diagrams, and structured summaries.",
   linear_name: "Linear",
   linear_desc: "A modern product development platform for fast issue tracking, project planning, and team collaboration. Built for speed, clarity, and seamless integration with tools like GitHub, Slack, and Figma.",
+  codeberg_name: "Codeberg",
+  codeberg_desc: "A community-driven platform for hosting Git repositories, built on Gitea and focused on free software.",
   permissionsite_name: "permission.site",
   permissionsite_desc: "A demo site for testing browser permission requests such as geolocation, notifications, and camera access.",
   python_desc: "Python is a programming language that lets you work quickly and integrate systems more effectively.",
