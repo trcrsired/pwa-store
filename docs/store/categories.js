@@ -4580,6 +4580,13 @@ export const categories = [
         url: "https://theporndude.com"
       },
       {
+        name: "JavHDPorn Live",
+        nameKey: "javhdpornlive_name",
+        descriptionKey: "javhdpornlive_desc",
+        icon: "icons/wrappers/javhdporn.webp",
+        url: "https://javhdporn.live"
+      },
+      {
         name: "JavHDPorn",
         nameKey: "javhdporn_name",
         descriptionKey: "javhdporn_desc",

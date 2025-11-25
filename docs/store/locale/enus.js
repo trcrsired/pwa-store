@@ -1245,6 +1245,8 @@ const L = {
   onlyfans_desc: "Subscription-based platform known for exclusive adult and creator content.",
   theporndude_name: "The Porn Dude",
   theporndude_desc: "A curated adult site index offering categorized reviews, rankings, and direct links to thousands of adult platforms. The Porn Dude serves as a gateway to mainstream and niche adult content, covering streaming, cams, hentai, and more. Known for its humorous tone and user-friendly layout, it helps users navigate the adult web safely and efficiently.",
+  javhdpornlive_name: "JavHDPorn Live",
+  javhdpornlive_desc: "Free Japanese AV HD videos and Japanese porn streaming online.",
   javhdporn_name: "JavHDPorn",
   javhdporn_desc: "Free Janpanese AV HD Videos, Japanese Porn Streaming Online",
   supjav_name: "Supjav",
