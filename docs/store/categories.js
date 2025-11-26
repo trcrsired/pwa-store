@@ -4238,7 +4238,7 @@ export const categories = [
         name: "International Competition Network",
         nameKey: "internationalcompetitionnetwork_name",
         descriptionKey: "internationalcompetitionnetwork_desc",
-        icon: "icons/wrapper/internationalcompetitionnetwork.webp",
+        icon: "icons/wrappers/internationalcompetitionnetwork.webp",
         url: "/wrappers/internationalcompetitionnetwork",
         urlDisplay: "https://www.internationalcompetitionnetwork.org",
         apptype: "wrapper"
