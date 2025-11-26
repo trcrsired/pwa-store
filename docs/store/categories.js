@@ -2958,6 +2958,22 @@ export const categories = [
         url: "https://www.shein.com",
       },
       {
+        name: "Rossmann Group",
+        nameKey: "rossmann_name",
+        descriptionKey: "rossmann_desc",
+        icon: "icons/pwa/rossmann.webp",
+        url: "https://rossmanngroup.com",
+        apptype: "desk",
+      },
+      {
+        name: "Yelp",
+        nameKey: "yelp_name",
+        descriptionKey: "yelp_desc",
+        icon: "icons/pwa/yelp.webp",
+        url: "https://www.yelp.com",
+        apptype: "desk",
+      },
+      {
         name: "BigGo",
         nameKey: "biggo_name",
         descriptionKey: "biggo_desc",
