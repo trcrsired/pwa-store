@@ -2970,7 +2970,7 @@ export const categories = [
         descriptionKey: "rossmann_desc",
         icon: "icons/pwa/rossmann.webp",
         url: "https://rossmanngroup.com",
-        apptype: "desk",
+//        apptype: "desk",
       },
       {
         name: "Yelp",
@@ -2978,7 +2978,7 @@ export const categories = [
         descriptionKey: "yelp_desc",
         icon: "icons/pwa/yelp.webp",
         url: "https://www.yelp.com",
-        apptype: "desk",
+//        apptype: "desk",
       },
       {
         name: "BigGo",
