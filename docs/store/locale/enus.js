@@ -454,6 +454,8 @@ const L = {
   cryptocom_desc: "Crypto.com is a cryptocurrency exchange company based in Singapore that offers various financial services, including an app, exchange, and noncustodial DeFi wallet, NFT marketplace, and direct payment service in cryptocurrency. As of June 2023, the company reportedly had 100 million customers and 4,000 employees.",
   ibtimes_name: "International Business Times",
   ibtimes_desc: "A global digital news publication covering business, markets, technology, and world affairs.",
+  metamask_name: "MetaMask",
+  metamask_desc: "A leading crypto wallet and gateway to blockchain apps, enabling secure Ethereum and Web3 access.",
   internetservices_name: "Internet Services",
   resourcedistributions_name: "Resource Distributions",
   apkpure_name: "APKPure",

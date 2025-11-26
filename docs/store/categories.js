@@ -1150,6 +1150,13 @@ export const categories = [
         url: "https://www.ibtimes.com"
       },
       {
+        name: "MetaMask",
+        nameKey: "metamask_name",
+        descriptionKey: "metamask_desc",
+        icon: "icons/pwa/metamask.webp",
+        url: "https://metamask.io"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",
