@@ -851,6 +851,8 @@ const L = {
   baidubaike_desc: "中国的协作式知识平台。",
   ifixit_name: "iFixit",
   ifixit_desc: "全球维修社区，提供免费的维修指南，并销售工具与替换零件。",
+  webthree_name: "WebThree Wiki",
+  webthree_desc: "开放的知识平台，聚焦Web3、区块链与去中心化技术。",
   liquipedia_name: "Liquipedia",
   liquipedia_desc: "Liquipedia 是专注于电子竞技的在线百科全书。",
   incelwiki_name: "非自愿独身者维基",

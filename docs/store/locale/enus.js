@@ -851,6 +851,8 @@ const L = {
   baidubaike_desc: "Chinese collaborative knowledge base.",
   ifixit_name: "iFixit",
   ifixit_desc: "A global repair community offering free repair guides, plus tools and replacement parts for purchase.",
+  webthree_name: "WebThree Wiki",
+  webthree_desc: "An open knowledge hub focused on Web3, blockchain, and decentralized technologies.",
   liquipedia_name: "Liquipedia",
   liquipedia_desc: "Liquipedia is an online encyclopedia focused on esports.",
   incelwiki_name: "Incel Wiki",

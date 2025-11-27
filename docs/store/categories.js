@@ -2608,6 +2608,14 @@ export const categories = [
         icon: "icons/pwa/ifixit.webp",
         url: "https://www.ifixit.com"
       },
+/*      {
+        name: "WebThree Wiki",
+        nameKey: "webthree_name",
+        descriptionKey: "webthree_desc",
+        icon: "icons/pwa/webthree.webp",
+        url: "https://webthree.wiki",
+//apptype:desk
+      },*/
       {
         name: "Marxists Internet Archive",
         nameKey: "marxistsorg_name",
