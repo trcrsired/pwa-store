@@ -788,6 +788,8 @@ const L = {
   ragezone_desc: "RaGEZONE is a veteran online forum focused on MMORPG development, private server emulation, and game modding. It hosts a wide range of resources including server files, tutorials, and technical discussions for games like MU Online, MapleStory, and Ragnarok. With a strong developer community and active user base, RaGEZONE serves as a hub for enthusiasts exploring game customization and reverse engineering.",
   gamerant_name: "Game Rant",
   gamerant_desc: "Gaming news, reviews, features, and interviews written by gamers, for gamers.",
+  warcraft3_name: "Warcraft III Forum",
+  warcraft3_desc: "Blizzard’s official community forum for Warcraft III discussions, updates, and player support.",
   mmochampion_name: "MMO Champion",
   mmochampion_desc: "World of Warcraft-focused news and forum hub featuring patch notes, raid strategies, and community discussions.",
   warcraftlogs_name: "Warcraft Logs",

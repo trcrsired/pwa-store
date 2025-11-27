@@ -786,6 +786,8 @@ const L = {
   icyveins_desc: "Icy Veins 是一个专注于《魔兽世界》及其他暴雪游戏的攻略网站，提供详尽的职业指南、副本攻略、幻化套装展示及节日活动信息。玩家可通过该平台优化天赋、技能循环、装备选择与宏命令，适用于所有职业专精与角色定位。",
   ragezone_name: "RaGEZONE",
   ragezone_desc: "RaGEZONE 是一个资深的在线论坛，专注于 MMORPG 游戏开发、私服模拟和游戏修改。论坛提供丰富的资源，包括服务器文件、教程，以及针对 MU Online、冒险岛、仙境传说等游戏的技术讨论。凭借活跃的开发者社区和用户基础，RaGEZONE 成为游戏定制与逆向工程爱好者的重要交流平台。",
+  warcraft3_name: "Warcraft III论坛",
+  warcraft3_desc: "暴雪官方的Warcraft III社区论坛，用于讨论、更新与玩家支持。",
   gamerant_name: "游戏咆哮（Game Rant）",
   gamerant_desc: "由玩家撰写的游戏新闻、评测、专题与访谈，专为游戏爱好者打造。",
   mmochampion_name: "MMO Champion",

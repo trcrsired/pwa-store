@@ -2317,6 +2317,13 @@ export const categories = [
         url: "https://gamerant.com"
       },
       {
+        name: "Warcraft III Forum",
+        nameKey: "warcraft3_name",
+        descriptionKey: "warcraft3_desc",
+        icon: "icons/pwa/warcraft3.webp",
+        url: "https://us.forums.blizzard.com/en/warcraft3"
+      },
+      {
         name: "MMO Champion",
         nameKey: "mmochampion_name",
         descriptionKey: "mmochampion_desc",
