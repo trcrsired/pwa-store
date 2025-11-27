@@ -488,6 +488,8 @@ const L = {
   slashgear_desc: "一个科技新闻网站，报道数码产品、消费电子、汽车、科学与数字生活趋势。",
   mashable_name: "Mashable",
   mashable_desc: "一个全球媒体与娱乐平台，报道科技、数字文化、社交媒体与生活方式新闻。",
+  windowslatest_name: "Windows Latest",
+  windowslatest_desc: "科技新闻网站，报道微软Windows、更新、应用与PC行业动态。",
   rutrackerorg_name: "RuTracker.org",
   rutrackerorg_desc: "俄罗斯的种子资源论坛，提供丰富的电影、音乐、软件、书籍等内容资源，以其历史悠久和活跃社区而闻名。",
   appbrain_name: "AppBrain",

@@ -488,6 +488,8 @@ const L = {
   slashgear_desc: "A technology news site covering gadgets, consumer electronics, automotive, science, and digital lifestyle trends.",
   mashable_name: "Mashable",
   mashable_desc: "A global media and entertainment platform covering technology, digital culture, social media, and lifestyle news.",
+  windowslatest_name: "Windows Latest",
+  windowslatest_desc: "A technology news site covering Microsoft Windows, updates, apps, and PC industry trends.",
   rutrackerorg_name: "RuTracker.org",
   rutrackerorg_desc: "A Russian torrent tracker and forum offering a vast catalog of movies, music, software, books, and more. Known for its longevity and active user base.",
   appbrain_name: "AppBrain",

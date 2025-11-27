@@ -1674,6 +1674,14 @@ export const categories = [
         url: "https://mashable.com"
       },
       {
+        name: "Windows Latest",
+        nameKey: "windowslatest_name",
+        descriptionKey: "windowslatest_desc",
+        icon: "icons/pwa/windowslatest.webp",
+        url: "https://www.windowslatest.com",
+//      apptype: "desk"
+      },
+      {
         name: "Beebom Gadgets",
         nammeKey: "beebomgadgets_name",
         descriptionKey: "beebomgadgets_desc",
