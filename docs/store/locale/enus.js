@@ -1124,7 +1124,7 @@ const L = {
   bjarnestroustrup_desc: "Bjarne Stroustrup is a Danish computer scientist best known for designing and implementing the C++ programming language.",
   nvidia_name: "NVIDIA",
   nvidia_desc: "NVIDIA is a global leader in artificial intelligence computing and supplies chips for data centers, gaming, and more.",
-  ruanyifeng_name: "Ruan Yifeng",
+  ruanyifeng_name: "Ruan Yifeng (阮一峰)",
   ruanyifeng_desc: "A renowned Chinese tech blogger and author, known for clear tutorials on web technologies, JavaScript, and software engineering.",
   veritasium_name: "Veritasium",
   veritasium_desc: "Engaging science and engineering videos that explore complex ideas with clarity and curiosity.",

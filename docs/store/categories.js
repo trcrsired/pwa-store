@@ -133,8 +133,8 @@ export const categories = [
     apps: [
       { name: "Time.is", icon: "icons/pwa/timeis.webp", url: "https://time.is", descriptionKey: "timeis_desc" },
       { name: "Every Time Zone", icon: "icons/pwa/everytimezone.webp", url: "https://everytimezone.com", descriptionKey: "everytimezone_desc" },
-      { name: "NIST Time", icon: "icons/wrappers/timegov.webp", url: "/wrappers/timegov", descriptionKey: "timegov_desc", apptype: "wrapper" },
-      { name: "aTimerLogger", nameKey: "atimelogger_name", icon: "icons/wrappers/atimelogger.webp", url: "/wrappers/atimelogger", descriptionKey: "atimelogger_desc", apptype: "wrapper" },
+      { name: "NIST Time", icon: "icons/wrappers/timegov.webp", url: "/wrappers/timegov", urlDisplay: "https://www.time.gov", descriptionKey: "timegov_desc", apptype: "wrapper" },
+      { name: "aTimerLogger", nameKey: "atimelogger_name", icon: "icons/wrappers/atimelogger.webp", url: "/wrappers/atimelogger", urlDisplay: "https://app.atimelogger.com", descriptionKey: "atimelogger_desc", apptype: "wrapper" },
     ]
   },
   {
@@ -350,6 +350,7 @@ export const categories = [
         nameKey: "leetcodecn_name",
         icon: "icons/wrappers/leetcode.webp",
         url: "/wrappers/leetcodecn",
+        urlDisplay: "https://leetcode.cn",
         descriptionKey: "leetcodecn_desc",
         apptype: "wrapper"
       },
@@ -2445,6 +2446,7 @@ export const categories = [
         descriptionKey: "minecraftforum_desc",
         icon: "icons/wrappers/minecraftforum.webp",
         url: "/wrappers/minecraftforum",
+        urlDisplay: "https://www.minecraftforum.net",
         apptype: "wrapper"
       },
       {
@@ -3980,11 +3982,12 @@ export const categories = [
         apptype: "wrapper"
       },
       {
-        name: "Ruan Yifeng(阮一峰)",
+        name: "Ruan Yifeng (阮一峰)",
         nameKey: "ruanyifeng_name",
         descriptionKey: "ruanyifeng_desc",
         icon: "icons/wrappers/ruanyifeng.webp",
         url: "/wrappers/ruanyifeng",
+        urlDisplay: "https://www.ruanyifeng.com",
         apptype: "wrapper"
       },
       {
