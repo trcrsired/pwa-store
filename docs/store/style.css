@@ -68,6 +68,12 @@ body {
   margin-bottom: 8px;
 }
 
+.app-url {
+  font-size: 0.9rem;
+  color: inherit;
+  margin-bottom: 8px;
+}
+
 /* Wrapper badge */
 .apptype-badge {
   display: inline-block;

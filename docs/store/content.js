@@ -30,6 +30,15 @@ const renderAppCard = (app) => {
     ${showBadge ? `<span class="apptype-badge">${L(app.apptype)}</span>` : ''}
   `;
 
+  // Add raw URL line (copyable by long press/right click)
+  const urlLine = document.createElement('div');
+  urlLine.className = 'app-url';
+
+  // Prefer app.urlDisplay if defined, else fallback to app.url
+  urlLine.textContent = app.urlDisplay ? app.urlDisplay : app.url;
+
+  container.appendChild(urlLine);
+
   // Add install button separately to bind event safely
   const button = document.createElement(isWeChatMini ? 'button' : 'a');
   button.className = 'install-button';
