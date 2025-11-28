@@ -4251,7 +4251,7 @@ export const categories = [
         name: "Public Security One‑Stop Service (公安一网通办)",
         nameKey: "gonganyiwang_name",
         descriptionKey: "gonganyiwang_desc",
-        icon: "icons/wechatmini/gongan.webp",
+        icon: "icons/wechatmini/gonganyiwang.webp",
         url: "#小程序://公安一网通办/75Bf8U1h6huRlKI",
         apptype: "wechatmini"
       },
