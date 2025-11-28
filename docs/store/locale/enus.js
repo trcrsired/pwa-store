@@ -529,6 +529,8 @@ const L = {
   postimages_desc: "Postimages is a free image hosting service designed for fast, anonymous uploads. Users can drag and drop images, generate direct links, and embed them in forums, blogs, or websites—no registration required.",
   photopea_name: "Photopea",
   photopea_desc: "A professional-grade online photo editor supporting PSD and 40+ formats. Runs fully in-browser with no uploads required.",
+  maskableapp_name: "Maskable.app",
+  maskableapp_desc: "A tool for generating and testing maskable icons for progressive web apps.",
   woobx_name: "Wood Box (一个木函)",
   woobx_desc: "A multifunctional utility app offering tools for daily use, including text, image, and system utilities.",
   appagg_name: "AppAgg",

@@ -529,6 +529,8 @@ const L = {
   postimages_desc: "Postimages 是一个免费的图像托管服务，支持快速匿名上传。用户可拖拽图片生成外链，轻松嵌入论坛、博客或网站，无需注册即可使用。",
   photopea_name: "Photopea",
   photopea_desc: "一款专业级在线图片编辑器，支持 PSD 及 40 多种格式。完全在浏览器中运行，无需上传文件。",
+  maskableapp_name: "Maskable.app",
+  maskableapp_desc: "用于生成和测试渐进式网页应用可遮罩图标的工具。",
   woobx_name: "一个木函",
   woobx_desc: "一个多功能工具应用，提供文本、图片与系统相关的日常实用功能。",
   appagg_name: "AppAgg",

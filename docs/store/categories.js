@@ -1980,6 +1980,13 @@ export const categories = [
         url: "https://www.photopea.com"
       },
       {
+        name: "Maskable.app",
+        nameKey: "maskableapp_name",
+        descriptionKey: "maskableapp_desc",
+        icon: "icons/pwa/maskableapp.webp",
+        url: "https://maskable.app"
+      },
+      {
         name: "Canva",
         nameKey: "canva_name",
         descriptionKey: "canva_desc",
