@@ -1739,13 +1739,21 @@ export const categories = [
         url: "https://windowsreport.com",
 //      apptype: "desk"
       },
+/*
+      {
+        name: "Tech Evangelist SEO",
+        nameKey: "techevangelistseo_name",
+        descriptionKey: "techevangelistseo_desc",
+        icon: "icons/pwa/techevangelistseo.webp",
+        url: "https://techevangelistseo.com"
+      },
+*/
       {
         name: "Beebom Gadgets",
         nammeKey: "beebomgadgets_name",
         descriptionKey: "beebomgadgets_desc",
         icon: "icons/wrappers/beebom.webp",
-        url: "https://gadgets.beebom.com",
-        apptype: "wrapper"
+        url: "https://gadgets.beebom.com"
       },
       {
         name: "Level1Techs",
