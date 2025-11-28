@@ -35,6 +35,13 @@ export const categories = [
         icon: "icons/pwa/ffmpegwasm.webp",
         url: "https://ffmpegwasm.netlify.app"
       },
+      {
+        name: "Paint",
+        nameKey: "paintjs_name",
+        descriptionKey: "paintjs_desc",
+        icon: "icons/pwa/paintjs.webp",
+        url: "https://paint.js.org"
+      },
     ]
   },
   {

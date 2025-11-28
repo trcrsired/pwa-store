@@ -56,6 +56,8 @@ const L = {
   "squoosh_desc": "Squoosh 是一个基于浏览器的图像压缩工具，支持本地调整大小、格式转换和图像优化。用户可使用高级编解码器进行实时预览和参数配置，无需将文件上传至服务器。",
   ffmpegwasm_name: "ffmpeg.wasm",
   ffmpegwasm_desc: "一个 FFmpeg 的 WebAssembly 移植版本，可在浏览器中处理音视频，实现无需服务器的媒体转换、剪辑与编码。",
+  paintjs_name: "Paint",
+  paintjs_desc: "开源的微软画图重制版，基于Web Components并利用现代Web功能。",
   "alternatives_name": "替代品",
   qrcodetools_name: "二维码工具",
   qrcodetools_desc: "轻松生成、扫描和管理二维码，适用于开发者、市场人员和日常用户。",
