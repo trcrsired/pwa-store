@@ -63,6 +63,8 @@ const L = {
   qrcodetools_desc: "Generate, scan, and manage QR codes with ease. Ideal for developers, marketers, and everyday users.",
   readest_name: "Readest",
   readest_desc: "Readest is a modern, AGPL-licensed free software ebook reader built for immersive reading. It syncs your progress, notes, highlights, and library across macOS, Windows, Linux, Android, iOS, and the Web—delivering a seamless, privacy-respecting experience across platforms.",
+  notepadpwa_name: "Notepad",
+  notepadpwa_desc: "A lightweight progressive web app for writing, editing, and saving notes directly in the browser.",
   typhoonsltzj_name: "Real-Time Typhoon Information (实时台风消息)",
   typhoonsltzj_desc: "Provided by the Zhejiang Provincial Department of Water Resources, this system delivers up-to-date typhoon data including live tracking, forecasts, and historical paths.",
   base64guru_name: "Base64.Guru",

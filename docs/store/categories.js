@@ -63,6 +63,13 @@ export const categories = [
         url: "https://web.readest.com"
       },
       {
+        name: "Notepad",
+        nameKey: "notepadpwa_name",
+        descriptionKey: "notepadpwa_desc",
+        icon: "icons/pwa/notepadpwa.webp",
+        url: "https://notepad-pwa.vercel.app"
+      },
+      {
         name: "Real-Time Typhoon Information (实时台风消息)",
         nameKey: "typhoonsltzj_name",
         descriptionKey: "typhoonsltzj_desc",
