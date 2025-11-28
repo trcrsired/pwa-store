@@ -1394,6 +1394,14 @@ export const categories = [
         descriptionKey: "g2_desc"
       },
       {
+        name: "LiveMint",
+        nameKey: "livemint_name",
+        descriptionKey: "livemint_desc",
+        icon: "icons/pwa/livemint.webp",
+        url: "https://www.livemint.com",
+//      apptype: "desk"
+      },
+      {
         name: "Influencersplace",
         nameKey: "influencersplace_name",
         descriptionKey: "influencersplace_desc",
@@ -1687,6 +1695,14 @@ export const categories = [
         descriptionKey: "windowslatest_desc",
         icon: "icons/pwa/windowslatest.webp",
         url: "https://www.windowslatest.com",
+//      apptype: "desk"
+      },
+      {
+        name: "Windows Report",
+        nameKey: "windowsreport_name",
+        descriptionKey: "windowsreport_desc",
+        icon: "icons/pwa/windowsreport.webp",
+        url: "https://windowsreport.com",
 //      apptype: "desk"
       },
       {
