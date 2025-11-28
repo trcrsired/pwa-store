@@ -12,7 +12,7 @@ export const categories = [
       { name: "Calculator (Chrome)", nameKey: "calculatorchrome_name", icon: "icons/pwa/calculatorchrome.webp", url: "https://calculator.apps.chrome/install", descriptionKey: "calculatorchrome_desc", nameKey: "calculatorchrome_name" },
       { name: "Weawow", icon: "icons/pwa/weawow.webp", url: "https://weawow.com", descriptionKey: "weawow_desc" },
       { name: "Screen Flashlight", icon: "icons/pwa/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", descriptionKey: "screenflashlight_desc" },
-      { name: "PWA Store", nameKey: "pwastore_name", icon: "logo/logo.webp", url: ".", descriptionKey: "pwastore_desc" },
+      { name: "PWA Store", nameKey: "pwastore_name", icon: "logo/logo.webp", url: ".", urlDisplay: "https://pwa-store-7x5.pages.dev", descriptionKey: "pwastore_desc" },
       { name: "Wavacity", nameKey: "wavacity_name", icon: "icons/pwa/wavacity.webp", url: "https://wavacity.com", descriptionKey: "wavacity_desc" },
       {
         name: "Web Screen Recorder",
@@ -75,6 +75,7 @@ export const categories = [
         descriptionKey: "base64guru_desc",
         icon: "icons/wrappers/base64guru.webp",
         url: "/wrappers/base64guru",
+        urlDisplay: "https://base64.guru",
         apptype: "wrapper"
       },
     ]
@@ -103,10 +104,10 @@ export const categories = [
         name: "WolframAlpha", nameKey: "wolframalpha_name", icon: "icons/pwa/wolframalpha.webp", url: "https://www.wolframalpha.com", descriptionKey: "wolframalpha_desc"
       },
       { name: "LMArena", icon: "icons/pwa/lmarena.webp", url: "https://lmarena.ai", nameKey: "lmarena_name", descriptionKey: "lmarena_desc" },
-      { name: "Perplexity", icon: "icons/wrappers/perplexity.webp", url: "/wrappers/perplexity", descriptionKey: "perplexity_desc", apptype: "wrapper" },
-      { name: "G2 AI", nameKey: "g2ai_name", icon: "icons/wrappers/g2ai.webp", url: "/wrappers/g2ai", descriptionKey: "g2ai_desc", apptype: "wrapper" },
-      { name: "Tencent Yuanbao (腾讯元宝)", nameKey: "tencentyuanbao_name", descriptionKey: "tencentyuanbao_desc", apptype: "wrapper", icon: "icons/wrappers/tencentyuanbao.webp", url: "/wrappers/tencentyuanbao" },
-      { name: "Doubao (豆包)", nameKey: "doubao_name", descriptionKey: "doubao_desc", apptype: "wrapper", icon: "icons/wrappers/doubao.webp", url: "/wrappers/doubao" },
+      { name: "Perplexity", icon: "icons/wrappers/perplexity.webp", url: "/wrappers/perplexity", urlDisplay:"https://www.perplexity.ai", descriptionKey: "perplexity_desc", apptype: "wrapper" },
+      { name: "G2 AI", nameKey: "g2ai_name", icon: "icons/wrappers/g2ai.webp", url: "/wrappers/g2ai", urlDisplay: "https://ai.g2.com", descriptionKey: "g2ai_desc", apptype: "wrapper" },
+      { name: "Tencent Yuanbao (腾讯元宝)", nameKey: "tencentyuanbao_name", descriptionKey: "tencentyuanbao_desc", apptype: "wrapper", icon: "icons/wrappers/tencentyuanbao.webp", url: "/wrappers/tencentyuanbao", urlDisplay: "https://yuanbao.tencent.com/chat" },
+      { name: "Doubao (豆包)", nameKey: "doubao_name", descriptionKey: "doubao_desc", apptype: "wrapper", icon: "icons/wrappers/doubao.webp", url: "/wrappers/doubao", urlDisplay: "https://www.doubao.com/chat" },
     ]
   },
   {
@@ -123,7 +124,7 @@ export const categories = [
         icon: "icons/pwa/trustpilot.webp",
         url: "https://www.trustpilot.com"
       },
-      { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype: "wrapper" },
+      { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype: "wrapper", urlDisplay: "https://stack.watch" },
     ]
   },
   {
@@ -221,6 +222,7 @@ export const categories = [
         descriptionKey: "dingtalk_desc",
         icon: "icons/wrappers/dingtalk.webp",
         url: "/wrappers/dingtalk",
+        urlDisplay: "https://workspace.dingtalk.com",
         apptype: "wrapper"
       },
     ]
@@ -1798,6 +1800,7 @@ export const categories = [
         descriptionKey: "armrepoverlt_desc",
         icon: "icons/wrappers/msstore.webp",
         url: "/wrappers/armrepoverlt",
+        urlDisplay: "https://armrepo.ver.lt",
         apptype: "wrapper"
       },
       {
