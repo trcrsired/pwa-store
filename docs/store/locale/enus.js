@@ -56,7 +56,7 @@ const L = {
   "squoosh_desc": "Squoosh is a browser-based image compression tool that lets users resize, convert, and optimize images locally using advanced codecs. It supports real-time previews and customizable settings without uploading files to a server.",
   ffmpegwasm_name: "ffmpeg.wasm",
   ffmpegwasm_desc: "A WebAssembly port of FFmpeg for in-browser audio and video processing. Enables media conversion, trimming, and encoding without server-side dependencies.",
-  paintjs_name: "Paint",
+  paintjs_name: "Paint.js",
   paintjs_desc: "Open-source, Web Components-based remake of Microsoft Paint using modern web capabilities.",
   "alternatives_name": "Alternatives",
   qrcodetools_name: "QR Code Tools",
