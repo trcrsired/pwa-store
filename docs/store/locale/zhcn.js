@@ -217,6 +217,8 @@ const L = {
   permissionsite_desc: "一个用于测试浏览器权限请求的演示网站，例如地理位置、通知和摄像头访问。",
   dockerhub_name: "Docker Hub",
   dockerhub_desc: "Docker官方的容器镜像库与注册中心，用于应用的共享与部署。",
+  webcomponents_name: "WebComponents.org",
+  webcomponents_desc: "Web Components社区平台，提供资源、库与最佳实践。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
   rust_desc: "一门可靠且高效的软件开发语言。",
   isocpp_name: "ISO C++",

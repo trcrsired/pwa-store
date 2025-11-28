@@ -476,6 +476,13 @@ export const categories = [
 //      apptype: "desk"
       },
       {
+        name: "WebComponents.org",
+        nameKey: "webcomponents_name",
+        descriptionKey: "webcomponents_desc",
+        icon: "icons/pwa/webcomponents.webp",
+        url: "https://www.webcomponents.org"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",

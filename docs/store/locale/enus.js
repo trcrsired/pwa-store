@@ -217,6 +217,8 @@ const L = {
   permissionsite_desc: "A demo site for testing browser permission requests such as geolocation, notifications, and camera access.",
   dockerhub_name: "Docker Hub",
   dockerhub_desc: "The official container image library and registry for Docker, enabling sharing and deployment of applications.",
+  webcomponents_name: "WebComponents.org",
+  webcomponents_desc: "A community-driven hub for Web Components, featuring resources, libraries, and best practices.",
   python_desc: "Python is a programming language that lets you work quickly and integrate systems more effectively.",
   rust_desc: "A language empowering everyone to build reliable and efficient software.",
   isocpp_name: "ISO C++",
