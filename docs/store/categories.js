@@ -4497,7 +4497,8 @@ export const categories = [
         descriptionKey: "binghamton_desc",
         icon: "icons/wrappers/binghamton_edu.webp",
         url: "/wrappers/binghamton_edu",
-        apptype: "wrapper"
+        apptype: "wrapper",
+        urlDisplay: "https://www.binghamton.edu",
       },
       {
         name: "Fudan University (复旦大学)",
@@ -4505,7 +4506,8 @@ export const categories = [
         descriptionKey: "fudan_desc",
         icon: "icons/wrappers/fudan.webp",
         url: "/wrappers/fudan",
-        apptype: "wrapper"
+        apptype: "wrapper",
+        urlDisplay: "https://www.fudan.edu.cn"
       },
       {
         name: "Fudan eCard (复旦eCard)",
@@ -4587,13 +4589,6 @@ export const categories = [
         url: "https://4chan.org"
       },
       {
-        name: "Danbooru",
-        nameKey: "danbooru_name",
-        descriptionKey: "danbooru_desc",
-        icon: "icons/pwa/danbooru.webp",
-        url: "https://danbooru.donmai.us"
-      },
-      {
         name: "Bakusai",
         nameKey: "bakusai_name",
         descriptionKey: "bakusai_desc",
@@ -4601,11 +4596,19 @@ export const categories = [
         url: "https://bakusai.com"
       },
       {
+        name: "Danbooru",
+        nameKey: "danbooru_name",
+        descriptionKey: "danbooru_desc",
+        icon: "icons/pwa/danbooru.webp",
+        url: "https://danbooru.donmai.us"
+      },
+      {
         name: "Yande",
         nameKey: "yande_name",
         descriptionKey: "yande_desc",
         icon: "icons/wrappers/yande.webp",
         url: "/wrappers/yande",
+        urlDisplay: "https://yande.re",
         apptype: "wrapper"
       }
     ]
@@ -4650,6 +4653,7 @@ export const categories = [
         descriptionKey: "missavtv_desc",
         icon: "icons/wrappers/missavtv.webp",
         url: "/wrappers/missavtv",
+        urlDisplay: "https://missavtv.com/en",
         apptype: "wrapper"
       },
       {
@@ -4686,7 +4690,8 @@ export const categories = [
         descriptionKey: "javhdporn_desc",
         icon: "icons/wrappers/javhdporn.webp",
         url: "/wrappers/javhdporn",
-        apptype: "wrapper"
+        apptype: "wrapper",
+        urlDisplay: "https://www4.javhdporn.net",
       },
       {
         name: "Supjav",
@@ -4694,7 +4699,8 @@ export const categories = [
         descriptionKey: "supjav_desc",
         icon: "icons/wrappers/supjav.webp",
         url: "/wrappers/supjav",
-        apptype: "wrapper"
+        apptype: "wrapper",
+        urlDisplay: "https://supjav.com",
       },
       {
         name: "avdanyuwiki",
@@ -4702,7 +4708,8 @@ export const categories = [
         descriptionKey: "avdanyuwiki_desc",
         icon: "icons/wrappers/avdanyuwiki.webp",
         url: "/wrappers/avdanyuwiki",
-        apptype: "wrapper"
+        apptype: "wrapper",
+        urlDisplay: "https://avdanyuwiki.com",
       },
     ]
   }
