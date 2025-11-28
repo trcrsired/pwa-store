@@ -475,7 +475,17 @@ export const categories = [
         nameKey: "isocpp_name",
         icon: "icons/wrappers/isocpp.webp",
         url: "/wrappers/isocpp",
+        urlDisplay: "https://isocpp.org",
         descriptionKey: "isocpp_desc",
+        apptype: "wrapper"
+      },
+      {
+        name: "Java",
+        nameKey: "java_name",
+        icon: "icons/wrappers/java.webp",
+        url: "/wrappers/java",
+        urlDisplay: "https://www.java.com",
+        descriptionKey: "java_desc",
         apptype: "wrapper"
       },
       {

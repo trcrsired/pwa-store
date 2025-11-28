@@ -158,6 +158,7 @@ WRAPPERS = [
   { "name": "DramaBox", "url": "https://www.dramaboxapp.com" },
   { "name": "LeetCode (CN)", "url": "https://leetcode.cn", "keyify_name": "leetcodecn", "icon": "leetcode.webp"},
   { "name": "ISO C++", "url": "https://isocpp.org" , "keyify_name": "isocpp"},
+  { "name": "Java", "url": "https://www.java.com" },
   { "name": "WeChat Read", "url": "https://weread.qq.com" , "keyify_name": "wechatread"},
   { "name": "Qingting FM", "url": "https://www.qtfm.cn" , "keyify_name": "qingtingfm"},
   { "name": "Ximalaya", "url": "https://www.ximalaya.com" },
