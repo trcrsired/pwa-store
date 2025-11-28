@@ -209,6 +209,8 @@ const L = {
   codeberg_desc: "A community-driven platform for hosting Git repositories, built on Gitea and focused on free software.",
   permissionsite_name: "permission.site",
   permissionsite_desc: "A demo site for testing browser permission requests such as geolocation, notifications, and camera access.",
+  dockerhub_name: "Docker Hub",
+  dockerhub_desc: "The official container image library and registry for Docker, enabling sharing and deployment of applications.",
   python_desc: "Python is a programming language that lets you work quickly and integrate systems more effectively.",
   rust_desc: "A language empowering everyone to build reliable and efficient software.",
   isocpp_name: "ISO C++",

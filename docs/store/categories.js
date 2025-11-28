@@ -442,6 +442,14 @@ export const categories = [
         url: "https://permission.site"
       },
       {
+        name: "Docker Hub",
+        nameKey: "dockerhub_name",
+        descriptionKey: "dockerhub_desc",
+        icon: "icons/pwa/dockerhub.webp",
+        url: "https://hub.docker.com",
+//      apptype: "desk"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",

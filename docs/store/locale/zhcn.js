@@ -209,6 +209,8 @@ const L = {
   codeberg_desc: "社区驱动的Git代码托管平台，基于Gitea，专注于自由软件。",
   permissionsite_name: "permission.site",
   permissionsite_desc: "一个用于测试浏览器权限请求的演示网站，例如地理位置、通知和摄像头访问。",
+  dockerhub_name: "Docker Hub",
+  dockerhub_desc: "Docker官方的容器镜像库与注册中心，用于应用的共享与部署。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
   rust_desc: "一门可靠且高效的软件开发语言。",
   isocpp_name: "ISO C++",
