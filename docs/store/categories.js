@@ -35,6 +35,13 @@ export const categories = [
         icon: "icons/pwa/ffmpegwasm.webp",
         url: "https://ffmpegwasm.netlify.app"
       },
+      {
+        name: "Paint.js",
+        nameKey: "paintjs_name",
+        descriptionKey: "paintjs_desc",
+        icon: "icons/pwa/paintjs.webp",
+        url: "https://paint.js.org"
+      },
     ]
   },
   {
@@ -54,6 +61,13 @@ export const categories = [
         descriptionKey: "readest_desc",
         icon: "icons/pwa/readest.webp",
         url: "https://web.readest.com"
+      },
+      {
+        name: "Notepad",
+        nameKey: "notepadpwa_name",
+        descriptionKey: "notepadpwa_desc",
+        icon: "icons/pwa/notepadpwa.webp",
+        url: "https://notepad-pwa.vercel.app"
       },
       {
         name: "Real-Time Typhoon Information (实时台风消息)",
@@ -1758,14 +1772,21 @@ export const categories = [
         url: "https://windowsreport.com",
 //      apptype: "desk"
       },
+/*
+      {
+        name: "Tech Evangelist SEO",
+        nameKey: "techevangelistseo_name",
+        descriptionKey: "techevangelistseo_desc",
+        icon: "icons/pwa/techevangelistseo.webp",
+        url: "https://techevangelistseo.com"
+      },
+*/
       {
         name: "Beebom Gadgets",
         nammeKey: "beebomgadgets_name",
         descriptionKey: "beebomgadgets_desc",
         icon: "icons/wrappers/beebom.webp",
-        url: "https://gadgets.beebom.com",
-        apptype: "wrapper",
-        urlDisplay: "https://gadgets.beebom.com"
+        url: "https://gadgets.beebom.com"
       },
       {
         name: "Level1Techs",
