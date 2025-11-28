@@ -116,6 +116,13 @@ export const categories = [
       { name: "ScamAdviser", icon: "icons/pwa/scamadviser.webp", url: "https://www.scamadviser.com", descriptionKey: "scamadviser_desc" },
       { name: "Bitwarden", nameKey: "bitwarden_name", icon: "icons/pwa/bitwarden.webp", url: "https://bitwarden.com", descriptionKey: "bitwarden_desc" },
       { name: "Privacy Guides Community", nameKey: "privacyguidescommunity_name", icon: "icons/pwa/privacyguidescommunity.webp", descriptionKey: "privacyguidescommunity_desc", url: "https://discuss.privacyguides.net" },
+      {
+        name: "Trustpilot",
+        nameKey: "trustpilot_name",
+        descriptionKey: "trustpilot_desc",
+        icon: "icons/pwa/trustpilot.webp",
+        url: "https://www.trustpilot.com"
+      },
       { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype: "wrapper" },
     ]
   },

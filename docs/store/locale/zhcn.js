@@ -19,6 +19,8 @@ const L = {
   bitwarden_desc: "面向个人和团队的安全开源密码管理器，提供端到端加密、跨平台访问和高级密码库功能。",
   privacyguidescommunity_name: "隐私指南社区（Privacy Guides Community）",
   privacyguidescommunity_desc: "一个在线社区论坛，用于与隐私指南社区讨论数字隐私、安全工具与最佳实践。",
+  trustpilot_name: "Trustpilot",
+  trustpilot_desc: "全球消费者点评平台，用户可分享体验并对企业进行在线评分。",
   "stackwatch_desc": "跟踪软件栈中的漏洞和安全更新。",
   "time_name": "时间",
   "timeis_desc": "精确查看全球任意地点的当前时间。",

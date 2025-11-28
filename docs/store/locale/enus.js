@@ -19,6 +19,8 @@ const L = {
   bitwarden_desc: "Secure, open-source password manager for individuals and teams. Offers end-to-end encryption, cross-platform access, and advanced vault features.",
   privacyguidescommunity_name: "Privacy Guides Community",
   privacyguidescommunity_desc: "An online forum for discussing digital privacy, security tools, and best practices with the Privacy Guides community.",
+  trustpilot_name: "Trustpilot",
+  trustpilot_desc: "A global consumer review platform where people share experiences and rate businesses online.",
   "time_name": "Time",
   "timeis_desc": "Check the current time anywhere in the world with precision.",
   "everytimezone_desc": "Visualize time zones across the globe in a simple layout.",
