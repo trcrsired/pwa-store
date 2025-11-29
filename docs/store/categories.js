@@ -501,7 +501,7 @@ export const categories = [
         nameKey: "pwafastio_name",
         descriptionKey: "pwafastio_desc",
         icon: "icons/pwa/pwawasmexample.webp",
-        url: "https://pwa-wasm-fast-io-demo.pages.dev"
+        url: "https://pwa-wasm-fast-io-demo.pages.dev" 
       },
       {
         name: "Python",
