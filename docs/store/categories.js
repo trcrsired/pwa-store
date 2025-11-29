@@ -497,6 +497,13 @@ export const categories = [
         url: "https://trcrsired.github.io/pwa-wasm-example"
       },
       {
+        name: "PWA fast_io Demo",
+        nameKey: "pwafastio_name",
+        descriptionKey: "pwafastio_desc",
+        icon: "icons/pwa/pwawasmexample.webp",
+        url: "https://pwa-wasm-fast-io-demo.pages.dev"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",
