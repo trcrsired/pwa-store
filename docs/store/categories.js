@@ -4709,7 +4709,7 @@ export const categories = [
         name: "California Institute of Technology (Caltech)",
         nameKey: "caltech_name",
         descriptionKey: "caltech_desc",
-        icon: "icons/pwa/caltech.webp",
+        icon: "icons/msedge/caltech.webp",
         url: "https://www.caltech.edu",
         apptype: "msedge",
         url2: "/msedge/caltech",

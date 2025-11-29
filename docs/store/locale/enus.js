@@ -4,6 +4,7 @@ import { registerLocale } from './localization.js';
 const L = {
   "wrapper": "wrapper",
   "wechatmini": "WeChat Mini Program",
+  "msedge": "Microsoft Edge",
   "wechatminiurlcopied_succ": "Link copied! Paste it into WeChat File Transfer to open.",
   "wechatminiurlcopied_fail": "Copy failed. Please copy the link manually.",
   "copyurl_desc": "Copy URL",
