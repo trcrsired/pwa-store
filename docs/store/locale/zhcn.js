@@ -222,6 +222,8 @@ const L = {
   dockerhub_desc: "Docker官方的容器镜像库与注册中心，用于应用的共享与部署。",
   webcomponents_name: "WebComponents.org",
   webcomponents_desc: "Web Components社区平台，提供资源、库与最佳实践。",
+  pwawasmexample_name: "PWA WASM 示例(PWA WASM Example)",
+  pwawasmexample_desc: "由本 PWA 商店的作者开发的渐进式网络应用演示。它加载 WebAssembly 模块，从 C++ 原始字符串注入 DOM 片段，并通过 Service Worker 展示离线缓存功能。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
   rust_desc: "一门可靠且高效的软件开发语言。",
   isocpp_name: "ISO C++",

@@ -490,6 +490,13 @@ export const categories = [
         url: "https://www.webcomponents.org"
       },
       {
+        name: "PWA WASM Example",
+        nameKey: "pwawasmexample_name",
+        descriptionKey: "pwawasmexample_desc",
+        icon: "icons/pwa/pwawasmexample.webp",
+        url: "https://trcrsired.github.io/pwa-wasm-example"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",

@@ -222,6 +222,8 @@ const L = {
   dockerhub_desc: "The official container image library and registry for Docker, enabling sharing and deployment of applications.",
   webcomponents_name: "WebComponents.org",
   webcomponents_desc: "A community-driven hub for Web Components, featuring resources, libraries, and best practices.",
+  pwawasmexample_name: "PWA WASM Example",
+  pwawasmexample_desc: "A progressive web app demo developed by the author of this PWA store. It loads a WebAssembly module, injects DOM fragments from C++ raw strings, and showcases offline caching with a service worker.",
   python_desc: "Python is a programming language that lets you work quickly and integrate systems more effectively.",
   rust_desc: "A language empowering everyone to build reliable and efficient software.",
   isocpp_name: "ISO C++",
