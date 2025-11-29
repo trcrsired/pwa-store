@@ -65,6 +65,8 @@ const L = {
   readest_desc: "Readest is a modern, AGPL-licensed free software ebook reader built for immersive reading. It syncs your progress, notes, highlights, and library across macOS, Windows, Linux, Android, iOS, and the Web—delivering a seamless, privacy-respecting experience across platforms.",
   notepadpwa_name: "Notepad",
   notepadpwa_desc: "A lightweight progressive web app for writing, editing, and saving notes directly in the browser.",
+  jspaint_name: "JS Paint",
+  jspaint_desc: "A web-based remake of Microsoft Paint, built with JavaScript and modern web technologies.",
   typhoonsltzj_name: "Real-Time Typhoon Information (实时台风消息)",
   typhoonsltzj_desc: "Provided by the Zhejiang Provincial Department of Water Resources, this system delivers up-to-date typhoon data including live tracking, forecasts, and historical paths.",
   base64guru_name: "Base64.Guru",
@@ -1246,6 +1248,67 @@ const L = {
   binghamton_desc: "State University of New York at Binghamton is a world-class institution offering interdisciplinary education with an international perspective and one of the most vibrant research programs in the U.S.",
   fudan_name: "Fudan University (复旦大学)",
   fudan_desc: "Fudan University is a comprehensive research university in Shanghai, China, founded in 1905 as the first higher education institution established by a Chinese person.",
+
+  mit_name: "Massachusetts Institute of Technology (MIT)",
+  mit_desc: "Founded in 1861 in Cambridge, Massachusetts, MIT is a world leader in science, engineering, and innovation, renowned for its cutting-edge research and entrepreneurial culture.",
+
+  yale_name: "Yale University",
+  yale_desc: "Established in 1701 in New Haven, Connecticut, Yale is an Ivy League university known for its historic campus, strong liberal arts tradition, and influential alumni.",
+
+  caltech_name: "California Institute of Technology (Caltech)",
+  caltech_desc: "Founded in 1891 in Pasadena, California, Caltech is a premier science and engineering institute, famous for its small size, Nobel Prize-winning faculty, and leadership in space exploration.",
+  
+  uchicago_name: "University of Chicago (UChicago)",
+  uchicago_desc: "Founded in 1890 in Chicago, Illinois, the University of Chicago is a private research university renowned for its rigorous academics, influential economic theories, and contributions across sciences, law, and humanities.",
+
+  oxford_name: "University of Oxford",
+  oxford_desc: "Dating back to 1096, Oxford is the oldest university in the English-speaking world, famous for its collegiate system, global research excellence, and alumni including world leaders, Nobel laureates, and renowned scholars.",
+
+  harvard_name: "Harvard University",
+  harvard_desc: "Established in 1636 in Cambridge, Massachusetts, Harvard is the oldest higher education institution in the United States, globally recognized for its innovation, vast resources, and distinguished alumni across politics, science, and culture.",
+
+  stanford_name: "Stanford University",
+  stanford_desc: "Founded in 1891 in California’s Silicon Valley, Stanford is a leading private research university known for entrepreneurship, cutting-edge technology, and interdisciplinary excellence across seven schools.",
+
+  berkeley_name: "University of California, Berkeley",
+  berkeley_desc: "UC Berkeley, established in 1868, is a top public research university in California, celebrated for its Free Speech Movement, Nobel Prize-winning faculty, and leadership in science, engineering, and social change.",
+
+  columbia_name: "Columbia University",
+  columbia_desc: "Founded in 1754 in New York City, Columbia is an Ivy League university recognized for its Core Curriculum, global research impact, and vibrant urban campus at the heart of Manhattan.",
+
+  cornell_name: "Cornell University",
+  cornell_desc: "Established in 1865 in Ithaca, New York, Cornell uniquely combines Ivy League prestige with land-grant responsibilities, offering diverse programs from veterinary medicine to engineering and global campuses in New York City and Qatar.",
+
+  umich_name: "University of Michigan",
+  umich_desc: "Founded in 1817, the University of Michigan in Ann Arbor is a premier public research university, known for its extensive academic programs, pioneering research, and strong traditions in athletics and public service.",
+
+  upenn_name: "University of Pennsylvania",
+  upenn_desc: "Established in 1740 by Benjamin Franklin, Penn is an Ivy League university in Philadelphia, distinguished by its interdisciplinary approach, Wharton School of Business, and leadership in medicine, law, and social sciences.",
+
+  cambridge_name: "University of Cambridge",
+  cambridge_desc: "Founded in 1209, Cambridge is one of the world’s oldest universities, renowned for its 31 colleges, historic contributions to science and mathematics, and alumni including Isaac Newton, Charles Darwin, and Stephen Hawking.",
+
+  nus_name: "National University of Singapore (NUS)",
+  nus_desc: "Established in 1905, NUS is Singapore’s flagship university, globally recognized for research excellence, innovation, and interdisciplinary education across 16 faculties and schools.",
+
+  utokyo_name: "University of Tokyo (東京大学)",
+  utokyo_desc: "Founded in 1877, UTokyo is Japan’s first national university, celebrated for its leadership in research, comprehensive academic programs, and pivotal role in Japan’s modernization.",
+
+  tsinghua_name: "Tsinghua University (清华大学)",
+  tsinghua_desc: "Established in 1911 in Beijing, Tsinghua is one of China’s most prestigious universities, known for engineering, technology, and cultivating leaders in science, politics, and business.",
+
+  peking_name: "Peking University (北京大学)",
+  peking_desc: "Founded in 1898, Peking University in Beijing is a leading Chinese institution, famous for its liberal tradition, Yanyuan campus gardens, and contributions to modern Chinese education and society.",
+
+  sjtu_name: "Shanghai Jiao Tong University (上海交通大学)",
+  sjtu_desc: "Established in 1896, SJTU is a top Chinese university in Shanghai, recognized for engineering, medicine, and global collaborations, with a history of cultivating influential scientists and entrepreneurs.",
+
+  zju_name: "Zhejiang University (浙江大学)",
+  zju_desc: "Tracing its roots to 1897, Zhejiang University in Hangzhou is one of China’s oldest and largest universities, known for its motto 'Seeking Truth and Pursuing Innovation' and excellence across sciences and humanities.",
+
+  nju_name: "Nanjing University (南京大学)",
+  nju_desc: "Founded in 1902, Nanjing University is a prestigious Chinese institution with a legacy of academic excellence in humanities, sciences, and social sciences, and a strong emphasis on research and innovation.",
+
   otherpwastores_name: "Other PWA Stores",
   progressivewebappstore_name: "progressivewebapp.store",
   progressivewebappstore_desc: "A curated directory of Progressive Web Apps across categories, highlighting installable and high-quality experiences.",

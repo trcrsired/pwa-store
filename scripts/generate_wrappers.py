@@ -18,12 +18,14 @@ SHARED_DIR = ROOT / "wrappers_shared"
 ICONS_DIRS = {
     "wrapper": ROOT / "docs" / "store" / "icons" / "wrappers",
     "extension": ROOT / "docs" / "store" / "icons" / "extensions",
+    "msedge": ROOT / "docs" / "store" / "icons" / "msedge",
 }
 
 # Output: separate dirs for wrappers vs extensions
 OUTPUT_DIRS = {
     "wrapper": ROOT / "docs" / "wrappers",
     "extension": ROOT / "docs" / "extensions",
+    "msedge": ROOT / "docs" / "msedge",
 }
 
 WRAPPERS = [
@@ -248,14 +250,33 @@ WRAPPERS = [
   { "name": "ACM", "url": "https://www.acm.org" },
   { "name": "问卷星", "url": "https://www.wjx.cn", "keyify_name": "wenjuanxing" },
 
+  { "name" : "Caltech", "url": "https://www.caltech.edu", "apptype": "msedge" },
+  { "name" : "UChicago", "url": "https://www.uchicago.edu", "apptype": "msedge" },
+  { "name" : "University of Oxford", "url": "https://www.ox.ac.uk", "keyify_name": "oxford", "apptype": "msedge" },
+  { "name" : "Cornell University", "url": "https://www.cornell.edu", "keyify_name": "cornell", "apptype": "msedge" },
   { "name" : "Binghamton Univeristy", "url": "https://www.binghamton.edu", "keyify_name": "binghamton_edu"},
   { "name" : "Fudan University", "url": "https://www.fudan.edu.cn", "keyify_name": "fudan" },
+  { "name" : "Harvard University", "url": "https://www.harvard.edu", "keyify_name": "harvard" },
+  { "name" : "Stanford University", "url": "https://www.stanford.edu", "keyify_name": "stanford" },
+  { "name" : "University of California, Berkeley", "url": "https://www.berkeley.edu", "keyify_name": "berkeley" },
+  { "name" : "Columbia University", "url": "https://www.columbia.edu", "keyify_name": "columbia" },
+  { "name" : "University of Michigan", "url": "https://umich.edu", "keyify_name": "umich" },
+  { "name" : "University of Pennsylvania", "url": "https://www.upenn.edu", "keyify_name": "upenn" },
+  { "name" : "University of Cambridge", "url": "https://www.cam.ac.uk", "keyify_name": "cambridge" },
+  { "name" : "National University of Singapore (NUS)", "url": "https://nus.edu.sg", "keyify_name": "nus" },
+  { "name" : "University of Tokyo (東京大学)", "url": "https://www.u-tokyo.ac.jp", "keyify_name": "utokyo" },
+  { "name" : "Tsinghua University (清华大学)", "url": "https://www.tsinghua.edu.cn", "keyify_name": "tsinghua" },
+  { "name" : "Peking University (北京大学)", "url": "https://www.pku.edu.cn", "keyify_name": "peking" },
+  { "name" : "Shanghai Jiao Tong University (上海交通大学)", "url": "https://www.sjtu.edu.cn", "keyify_name": "sjtu" },
+  { "name" : "Zhejiang University (浙江大学)", "url": "https://www.zju.edu.cn", "keyify_name": "zju" },
+  { "name" : "Nanjing University (南京大学)", "url": "https://www.nju.edu.cn", "keyify_name": "nju" },
 
   { "name" : "Yande", "url": "https://yande.re" },
   { "name" : "MissAV TV", "url": "https://missavtv.com/en" },
   { "name" : "JavHDPorn", "url": "https://www4.javhdporn.net" },
   { "name" : "Supjav", "url": "https://supjav.com" },
   { "name" : "avdanyuwiki", "url": "https://avdanyuwiki.com" },
+
 
 #  { "name" : "Proxy SwitchyOmega (V3)", "url": "extension://fnbemgdobbciiofjfaoaajboakejkdbo/options.html", "keyify_name": "proxyswitchyomegav3" , "apptype": "extension" },
 ]

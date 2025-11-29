@@ -1,0 +1,17 @@
+{
+  "name": "Nanjing University (\u5357\u4eac\u5927\u5b66)",
+  "short_name": "Nanjing University (\u5357\u4eac\u5927\u5b66)",
+  "start_url": "/wrappers/nju/?source=pwa",
+  "scope": "/wrappers/nju/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Nanjing University (\u5357\u4eac\u5927\u5b66)",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/nju/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

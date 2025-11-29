@@ -27,8 +27,9 @@ const renderAppCard = (app) => {
     <img src="${app.icon}" alt="${localizedName}" class="app-icon" />
     <div class="app-name">${localizedName}</div>
     <div class="app-description">${localizedDescription}</div>
-    ${showBadge ? `<span class="apptype-badge">${L(app.apptype)}</span>` : ''}
+    ${showBadge ? `<span class="apptype-badge">${L(app.apptype) || app.apptype}</span>` : ''}
   `;
+
 
   // Add raw URL line (copyable by long press/right click)
   const urlLine = document.createElement('div');

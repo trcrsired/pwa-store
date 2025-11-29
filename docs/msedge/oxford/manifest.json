@@ -1,0 +1,17 @@
+{
+  "name": "University of Oxford",
+  "short_name": "University of Oxford",
+  "start_url": "/wrappers/oxford/?source=pwa",
+  "scope": "/wrappers/oxford/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Msedge for University of Oxford",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/oxford/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

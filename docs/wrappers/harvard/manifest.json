@@ -1,0 +1,17 @@
+{
+  "name": "Harvard University",
+  "short_name": "Harvard University",
+  "start_url": "/wrappers/harvard/?source=pwa",
+  "scope": "/wrappers/harvard/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Harvard University",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/harvard/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

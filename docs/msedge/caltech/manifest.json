@@ -1,0 +1,17 @@
+{
+  "name": "Caltech",
+  "short_name": "Caltech",
+  "start_url": "/wrappers/caltech/?source=pwa",
+  "scope": "/wrappers/caltech/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Msedge for Caltech",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/caltech/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

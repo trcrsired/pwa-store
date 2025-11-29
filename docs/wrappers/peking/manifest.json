@@ -1,0 +1,17 @@
+{
+  "name": "Peking University (\u5317\u4eac\u5927\u5b66)",
+  "short_name": "Peking University (\u5317\u4eac\u5927\u5b66)",
+  "start_url": "/wrappers/peking/?source=pwa",
+  "scope": "/wrappers/peking/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Peking University (\u5317\u4eac\u5927\u5b66)",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/peking/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

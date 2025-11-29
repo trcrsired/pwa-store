@@ -1,0 +1,17 @@
+{
+  "name": "University of Michigan",
+  "short_name": "University of Michigan",
+  "start_url": "/wrappers/umich/?source=pwa",
+  "scope": "/wrappers/umich/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for University of Michigan",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/umich/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

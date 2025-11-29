@@ -1,0 +1,17 @@
+{
+  "name": "Stanford University",
+  "short_name": "Stanford University",
+  "start_url": "/wrappers/stanford/?source=pwa",
+  "scope": "/wrappers/stanford/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Stanford University",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/stanford/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

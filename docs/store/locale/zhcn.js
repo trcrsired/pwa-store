@@ -65,6 +65,8 @@ const L = {
   readest_desc: "Readest 是一款现代化的自由软件电子书阅读器，采用 AGPL 许可证，专为沉浸式阅读体验而设计。它可在 macOS、Windows、Linux、Android、iOS 和 Web 平台之间同步您的阅读进度、笔记、高亮和书库，跨设备提供无缝且尊重隐私的使用体验。",
   notepadpwa_name: "记事本 (Notepad)",
   notepadpwa_desc: "轻量级渐进式网页应用，可在浏览器中直接编写、编辑和保存笔记。",
+  jspaint_name: "JS Paint",
+  jspaint_desc: "基于JavaScript的微软画图网页版重制版，利用现代Web技术实现。",
   typhoonsltzj_name: "实时台风消息",
   typhoonsltzj_desc: "由浙江省水利厅提供，本系统发布最新台风数据，包括实时路径、预报信息和历史记录。",
   base64guru_name: "Base64.Guru",
@@ -1246,6 +1248,66 @@ const L = {
   binghamton_desc: "纽约州立大学宾汉姆顿分校是一所世界级学府，提供具有国际视野的跨学科教育，并拥有全美最具活力的研究项目之一。",
   fudan_name: "复旦大学",
   fudan_desc: "复旦大学是一所位于中国上海的综合性研究型大学，成立于 1905 年，是中国人创办的第一所高等教育机构。",
+
+  mit_name: "麻省理工学院 (Massachusetts Institute of Technology)",
+  mit_desc: "麻省理工学院成立于1861年，位于马萨诸塞州剑桥市，是全球领先的科学、工程和创新中心，以尖端研究和创业文化著称。",
+
+  yale_name: "耶鲁大学 (Yale University)",
+  yale_desc: "耶鲁大学成立于1701年，位于康涅狄格州纽黑文，是常春藤盟校之一，以悠久的校园历史、强大的文科传统和杰出校友闻名。",
+
+  caltech_name: "加州理工学院 (California Institute of Technology)",
+  caltech_desc: "加州理工学院成立于1891年，位于加利福尼亚州帕萨迪纳，是顶尖的科学与工程学府，以小规模、诺贝尔奖得主师资和在太空探索中的领导地位著称。",
+
+  uchicago_name: "芝加哥大学 (University of Chicago)",
+  uchicago_desc: "芝加哥大学成立于1890年，是美国著名的私立研究型大学，以严谨的学术、经济学理论以及在科学、人文、法律等领域的贡献而闻名。",
+
+  oxford_name: "牛津大学 (University of Oxford)",
+  oxford_desc: "牛津大学可追溯至1096年，是英语世界最古老的大学，以学院制、全球科研卓越和众多杰出校友著称。",
+
+  harvard_name: "哈佛大学 (Harvard University)",
+  harvard_desc: "哈佛大学成立于1636年，是美国最古老的高等学府，以创新精神、丰富资源和在政治、科学、文化领域的杰出校友而享誉全球。",
+
+  stanford_name: "斯坦福大学 (Stanford University)",
+  stanford_desc: "斯坦福大学成立于1891年，位于加州硅谷，是全球顶尖的私立研究型大学，以创业精神、尖端科技和跨学科卓越著称。",
+
+  berkeley_name: "加州大学伯克利分校 (University of California, Berkeley)",
+  berkeley_desc: "伯克利分校成立于1868年，是美国顶尖公立研究型大学，以言论自由运动、诺贝尔奖得主和在科学、工程、社会变革方面的领导力闻名。",
+
+  columbia_name: "哥伦比亚大学 (Columbia University)",
+  columbia_desc: "哥伦比亚大学成立于1754年，位于纽约市，是常春藤盟校之一，以核心课程、全球科研影响力和曼哈顿中心的活力校园著称。",
+
+  cornell_name: "康奈尔大学 (Cornell University)",
+  cornell_desc: "康奈尔大学成立于1865年，位于纽约州伊萨卡，兼具常春藤盟校声望和公立土地赠与大学使命，学科涵盖广泛，并在纽约市和卡塔尔设有校区。",
+
+  umich_name: "密歇根大学 (University of Michigan)",
+  umich_desc: "密歇根大学成立于1817年，位于安娜堡，是美国顶尖公立研究型大学，以丰富的学术项目、开创性研究和体育及公共服务传统著称。",
+
+  upenn_name: "宾夕法尼亚大学 (University of Pennsylvania)",
+  upenn_desc: "宾夕法尼亚大学由本杰明·富兰克林于1740年创立，是常春藤盟校之一，以跨学科教育、沃顿商学院以及在医学、法律和社会科学领域的领导力著称。",
+
+  cambridge_name: "剑桥大学 (University of Cambridge)",
+  cambridge_desc: "剑桥大学成立于1209年，是世界上最古老的大学之一，以31个学院、在科学和数学上的历史性贡献以及众多杰出校友著称。",
+
+  nus_name: "新加坡国立大学 (National University of Singapore)",
+  nus_desc: "新加坡国立大学成立于1905年，是新加坡的旗舰大学，以科研卓越、创新和跨学科教育而享誉全球。",
+
+  utokyo_name: "东京大学 (東京大学)",
+  utokyo_desc: "东京大学成立于1877年，是日本第一所国立大学，以科研领先、全面的学科设置以及在日本现代化中的重要作用而著称。",
+
+  tsinghua_name: "清华大学",
+  tsinghua_desc: "清华大学成立于1911年，位于北京，是中国最负盛名的大学之一，以工程、科技和培养科学、政治、商业领袖而闻名。",
+
+  peking_name: "北京大学",
+  peking_desc: "北京大学成立于1898年，是中国最重要的高等学府之一，以自由传统、燕园校园和在现代中国教育与社会中的贡献著称。",
+
+  sjtu_name: "上海交通大学",
+  sjtu_desc: "上海交通大学成立于1896年，是中国顶尖大学之一，以工程、医学和全球合作著称，培养了众多科学家和企业家。",
+
+  zju_name: "浙江大学",
+  zju_desc: "浙江大学可追溯至1897年，位于杭州，是中国最古老和规模最大的大学之一，以“求是创新”的校训和在科学、人文领域的卓越表现而闻名。",
+
+  nju_name: "南京大学",
+  nju_desc: "南京大学成立于1902年，是中国著名的高等学府之一，在人文、科学和社会科学领域具有卓越的学术传统和研究实力。",
   otherpwastores_name: "其他PWA商店",
   progressivewebappstore_name: "progressivewebapp.store",
   progressivewebappstore_desc: "一个精选 Progressive Web App 目录，按类别展示可安装的高质量应用体验。",

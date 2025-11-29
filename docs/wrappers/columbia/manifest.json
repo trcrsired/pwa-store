@@ -1,0 +1,17 @@
+{
+  "name": "Columbia University",
+  "short_name": "Columbia University",
+  "start_url": "/wrappers/columbia/?source=pwa",
+  "scope": "/wrappers/columbia/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Columbia University",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/columbia/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

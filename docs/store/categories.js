@@ -70,6 +70,13 @@ export const categories = [
         url: "https://notepad-pwa.vercel.app"
       },
       {
+        name: "JS Paint",
+        nameKey: "jspaint_name",
+        descriptionKey: "jspaint_desc",
+        icon: "icons/pwa/jspaint.webp",
+        url: "https://jspaint.app"
+      },
+      {
         name: "Real-Time Typhoon Information (实时台风消息)",
         nameKey: "typhoonsltzj_name",
         descriptionKey: "typhoonsltzj_desc",
@@ -4685,6 +4692,56 @@ export const categories = [
         url: "https://nyupress.org"
       },
       {
+        name: "Massachusetts Institute of Technology (MIT)",
+        nameKey: "mit_name",
+        descriptionKey: "mit_desc",
+        icon: "icons/pwa/mit.webp",
+        url: "https://www.mit.edu"
+      },
+      {
+        name: "Yale University",
+        nameKey: "yale_name",
+        descriptionKey: "yale_desc",
+        icon: "icons/pwa/yale.webp",
+        url: "https://www.yale.edu"
+      },
+      {
+        name: "California Institute of Technology (Caltech)",
+        nameKey: "caltech_name",
+        descriptionKey: "caltech_desc",
+        icon: "icons/pwa/caltech.webp",
+        url: "https://www.caltech.edu",
+        apptype: "msedge",
+        url2: "/msedge/caltech"
+      },
+      {
+        name: "University of Chicago (UChicago)",
+        nameKey: "uchicago_name",
+        descriptionKey: "uchicago_desc",
+        icon: "icons/msedge/uchicago.webp",
+        url: "https://www.uchicago.edu",
+        apptype: "msedge",
+        url2: "/msedge/uchicago"
+      },
+      {
+        name: "University of Oxford",
+        nameKey: "oxford_name",
+        descriptionKey: "oxford_desc",
+        icon: "icons/msedge/oxford.webp",
+        url: "https://www.ox.ac.uk",
+        apptype: "msedge",
+        url2: "/msedge/oxford"
+      },
+      {
+        name: "Cornell University",
+        nameKey: "cornell_name",
+        descriptionKey: "cornell_desc",
+        icon: "icons/msedge/cornell.webp",
+        url: "https://www.cornell.edu",
+        url2: "/msedge/cornell",
+        apptype: "msedge",
+      },
+      {
         name: "Binghamton University",
         nameKey: "binghamton_name",
         descriptionKey: "binghamton_desc",
@@ -4701,6 +4758,132 @@ export const categories = [
         url: "/wrappers/fudan",
         apptype: "wrapper",
         urlDisplay: "https://www.fudan.edu.cn"
+      },
+      {
+        name: "Harvard University",
+        nameKey: "harvard_name",
+        descriptionKey: "harvard_desc",
+        icon: "icons/wrappers/harvard.webp",
+        url: "/wrappers/harvard",
+        apptype: "wrapper",
+        urlDisplay: "https://www.harvard.edu"
+      },
+      {
+        name: "Stanford University",
+        nameKey: "stanford_name",
+        descriptionKey: "stanford_desc",
+        icon: "icons/wrappers/stanford.webp",
+        url: "/wrappers/stanford",
+        apptype: "wrapper",
+        urlDisplay: "https://www.stanford.edu"
+      },
+      {
+        name: "University of California, Berkeley",
+        nameKey: "berkeley_name",
+        descriptionKey: "berkeley_desc",
+        icon: "icons/wrappers/berkeley.webp",
+        url: "/wrappers/berkeley",
+        apptype: "wrapper",
+        urlDisplay: "https://www.berkeley.edu"
+      },
+      {
+        name: "Columbia University",
+        nameKey: "columbia_name",
+        descriptionKey: "columbia_desc",
+        icon: "icons/wrappers/columbia.webp",
+        url: "/wrappers/columbia",
+        apptype: "wrapper",
+        urlDisplay: "https://www.columbia.edu"
+      },
+      {
+        name: "University of Michigan",
+        nameKey: "umich_name",
+        descriptionKey: "umich_desc",
+        icon: "icons/wrappers/umich.webp",
+        url: "/wrappers/umich",
+        apptype: "wrapper",
+        urlDisplay: "https://umich.edu"
+      },
+      {
+        name: "University of Pennsylvania",
+        nameKey: "upenn_name",
+        descriptionKey: "upenn_desc",
+        icon: "icons/wrappers/upenn.webp",
+        url: "/wrappers/upenn",
+        apptype: "wrapper",
+        urlDisplay: "https://www.upenn.edu"
+      },
+      {
+        name: "University of Cambridge",
+        nameKey: "cambridge_name",
+        descriptionKey: "cambridge_desc",
+        icon: "icons/wrappers/cambridge.webp",
+        url: "/wrappers/cambridge",
+        apptype: "wrapper",
+        urlDisplay: "https://www.cam.ac.uk"
+      },
+      {
+        name: "National University of Singapore (NUS)",
+        nameKey: "nus_name",
+        descriptionKey: "nus_desc",
+        icon: "icons/wrappers/nus.webp",
+        url: "/wrappers/nus",
+        apptype: "wrapper",
+        urlDisplay: "https://nus.edu.sg"
+      },
+      {
+        name: "University of Tokyo (東京大学)",
+        nameKey: "utokyo_name",
+        descriptionKey: "utokyo_desc",
+        icon: "icons/wrappers/utokyo.webp",
+        url: "/wrappers/utokyo",
+        apptype: "wrapper",
+        urlDisplay: "https://www.u-tokyo.ac.jp"
+      },
+      {
+        name: "Tsinghua University (清华大学)",
+        nameKey: "tsinghua_name",
+        descriptionKey: "tsinghua_desc",
+        icon: "icons/wrappers/tsinghua.webp",
+        url: "/wrappers/tsinghua",
+        apptype: "wrapper",
+        urlDisplay: "https://www.tsinghua.edu.cn"
+      },
+      {
+        name: "Peking University (北京大学)",
+        nameKey: "peking_name",
+        descriptionKey: "peking_desc",
+        icon: "icons/wrappers/peking.webp",
+        url: "/wrappers/peking",
+        apptype: "wrapper",
+        urlDisplay: "https://www.pku.edu.cn"
+      },
+      {
+        name: "Shanghai Jiao Tong University (上海交通大学)",
+        nameKey: "sjtu_name",
+        descriptionKey: "sjtu_desc",
+        icon: "icons/wrappers/sjtu.webp",
+        url: "/wrappers/sjtu",
+        apptype: "wrapper",
+        urlDisplay: "https://www.sjtu.edu.cn"
+      },
+      {
+        name: "Zhejiang University (浙江大学)",
+        nameKey: "zju_name",
+        descriptionKey: "zju_desc",
+        icon: "icons/wrappers/zju.webp",
+        url: "/wrappers/zju",
+        apptype: "wrapper",
+        urlDisplay: "https://www.zju.edu.cn"
+      },
+      {
+        name: "Nanjing University (南京大学)",
+        nameKey: "nju_name",
+        descriptionKey: "nju_desc",
+        icon: "icons/wrappers/nju.webp",
+        url: "/wrappers/nju",
+        apptype: "wrapper",
+        urlDisplay: "https://www.nju.edu.cn"
       },
       {
         name: "Fudan eCard (复旦eCard)",

@@ -1,0 +1,17 @@
+{
+  "name": "UChicago",
+  "short_name": "UChicago",
+  "start_url": "/wrappers/uchicago/?source=pwa",
+  "scope": "/wrappers/uchicago/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Msedge for UChicago",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/uchicago/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

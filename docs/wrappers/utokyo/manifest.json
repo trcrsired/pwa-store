@@ -1,0 +1,17 @@
+{
+  "name": "University of Tokyo (\u6771\u4eac\u5927\u5b66)",
+  "short_name": "University of Tokyo (\u6771\u4eac\u5927\u5b66)",
+  "start_url": "/wrappers/utokyo/?source=pwa",
+  "scope": "/wrappers/utokyo/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for University of Tokyo (\u6771\u4eac\u5927\u5b66)",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/utokyo/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

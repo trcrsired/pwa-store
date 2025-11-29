@@ -1,0 +1,17 @@
+{
+  "name": "Zhejiang University (\u6d59\u6c5f\u5927\u5b66)",
+  "short_name": "Zhejiang University (\u6d59\u6c5f\u5927\u5b66)",
+  "start_url": "/wrappers/zju/?source=pwa",
+  "scope": "/wrappers/zju/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Zhejiang University (\u6d59\u6c5f\u5927\u5b66)",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/zju/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

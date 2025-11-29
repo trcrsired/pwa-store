@@ -1,0 +1,17 @@
+{
+  "name": "University of Pennsylvania",
+  "short_name": "University of Pennsylvania",
+  "start_url": "/wrappers/upenn/?source=pwa",
+  "scope": "/wrappers/upenn/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for University of Pennsylvania",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/upenn/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
