@@ -224,7 +224,7 @@ const L = {
   webcomponents_desc: "Web Components社区平台，提供资源、库与最佳实践。",
   pwawasmexample_name: "PWA WASM 示例(PWA WASM Example)",
   pwawasmexample_desc: "由本 PWA 商店的作者开发的渐进式网络应用演示。它加载 WebAssembly 模块，从 C++ 原始字符串注入 DOM 片段，并通过 Service Worker 展示离线缓存功能。",
-  pwafastio_name: "PWA WASM fast_io 示例",
+  pwafastio_name: "PWA fast_io 示例(PWA fast_io Demo)",
   pwafastio_desc: "由本 PWA 商店的作者开发的渐进式 Web 应用演示。展示了在 WebAssembly 中使用 fast_io C++ 库进行高效字符串处理、指针 + 长度交互，以及通过 Service Worker 的离线缓存功能。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
   rust_desc: "一门可靠且高效的软件开发语言。",
