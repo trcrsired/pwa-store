@@ -30,20 +30,24 @@ const renderAppCard = (app) => {
     ${showBadge ? `<span class="apptype-badge">${L(app.apptype) || app.apptype}</span>` : ''}
   `;
 
+  // Primary URL line
+  // Show urlDisplay if it exists
+  if (app.urlDisplay) {
+    const urlLineDisplay = document.createElement('div');
+    urlLineDisplay.className = 'app-url';
+    urlLineDisplay.textContent = app.urlDisplay;
+    container.appendChild(urlLineDisplay);
+  }
 
-  // Add raw URL line (copyable by long press/right click)
+  // Always show raw url
   const urlLine = document.createElement('div');
   urlLine.className = 'app-url';
-
-  // Prefer app.urlDisplay if defined, else fallback to app.url
-  urlLine.textContent = app.urlDisplay ? app.urlDisplay : app.url;
-
+  urlLine.textContent = app.url;
   container.appendChild(urlLine);
 
-  // Add install button separately to bind event safely
+  // Primary button
   const button = document.createElement(isWeChatMini ? 'button' : 'a');
   button.className = 'install-button';
-
   if (isWeChatMini) {
     button.textContent = L('copyurl_desc');
     button.addEventListener('click', () => copyToClipboard(app.url));
@@ -52,8 +56,54 @@ const renderAppCard = (app) => {
     button.href = app.url;
     button.target = '_blank';
   }
-
   container.appendChild(button);
+
+  // Secondary URL logic
+  if (app.url2) {
+    // Always show secondary button
+    const apptype2 = app.apptype2 || app.apptype;
+    // Show apptype2 badge only if different from primary apptype
+    if (apptype2) {
+      const badge2 = document.createElement('span');
+      badge2.className = 'apptype-badge';
+      badge2.textContent = L(apptype2) || apptype2;
+      container.appendChild(badge2);
+    }
+
+    const urlDisplay1 = app.urlDisplay || app.url;
+    const urlDisplay2 = app.urlDisplay2 || app.url2;
+
+    // Show urlDisplay2 if it exists and is different from primary
+    if (urlDisplay2 && urlDisplay2 !== urlDisplay1) {
+      const urlLineDisplay2 = document.createElement('div');
+      urlLineDisplay2.className = 'app-url';
+      urlLineDisplay2.textContent = urlDisplay2;
+      container.appendChild(urlLineDisplay2);
+    }
+
+    // Always show raw url2
+    if (app.url2 && urlDisplay2 != app.url2) {
+      const urlLineRaw2 = document.createElement('div');
+      urlLineRaw2.className = 'app-url';
+      urlLineRaw2.textContent = app.url2;
+      container.appendChild(urlLineRaw2);
+    }
+
+    const isWeChatMini2 = apptype2 === 'wechatmini';
+
+    const button2 = document.createElement(isWeChatMini2 ? 'button' : 'a');
+    button2.className = 'install-button';
+    if (isWeChatMini2) {
+      button2.textContent = L('copyurl_desc');
+      button2.addEventListener('click', () => copyToClipboard(app.url2));
+    } else {
+      button2.textContent = L('open_desc');
+      button2.href = app.url2;
+      button2.target = '_blank';
+    }
+    container.appendChild(button2);
+  }
+
   return container;
 };
 
@@ -123,24 +173,36 @@ const renderStore = (filterText = '') => {
     const categoryText = `${localizedName} ${category.name}`.toLowerCase();
 
     let filteredApps = categoryText.includes(filterText)
-      ? category.apps
-      : category.apps.filter(app => {
-          const nameKey = app.nameKey ? L(app.nameKey) : '';
-          const name = app.name || '';
-          const descKey = app.descriptionKey ? L(app.descriptionKey) : '';
-          const desc = app.description || '';
-          const combined = `${nameKey} ${name} ${descKey} ${desc}`.toLowerCase();
-          return combined.includes(filterText);
-        });
+    ? category.apps
+    : category.apps.filter(app => {
+        const nameKey = app.nameKey ? L(app.nameKey) : '';
+        const name = app.name || '';
+        const descKey = app.descriptionKey ? L(app.descriptionKey) : '';
+        const desc = app.description || '';
+        const url1 = app.url || '';
+        const url2 = app.url2 || '';
+        const urlDisplay1 = app.urlDisplay || '';
+        const urlDisplay2 = app.urlDisplay2 || '';
 
-    filteredApps = filteredApps.filter(app => {
-      const type = app.apptype || 'pwa';
-      const isPWA = type === 'pwa' || type === 'wrapper';
-      const isWeChatMini = type === 'wechatmini';
-      const isNative = type === "native";
-      return (isPWA && showPWA) || (isWeChatMini && showWeChat) ||
-        (isNative && showNative);
-    });
+        const combined = `${nameKey} ${name} ${descKey} ${desc} ${url1} ${url2} ${urlDisplay1} ${urlDisplay2}`.toLowerCase();
+        return combined.includes(filterText);
+      });
+
+      filteredApps = filteredApps.filter(app => {
+        const type1 = app.apptype || 'pwa';
+        const type2 = app.apptype2 || null;
+
+        const isPWA1 = type1 !== 'wechatmini' && type1 !== 'native';
+        const isWeChatMini1 = type1 === 'wechatmini';
+        const isNative1 = type1 === 'native';
+
+        const isPWA2 = type2 && type2 !== 'wechatmini' && type2 !== 'native';
+        const isWeChatMini2 = type2 === 'wechatmini';
+        const isNative2 = type2 === 'native';
+
+        return (isPWA1 && showPWA) || (isWeChatMini1 && showWeChat) || (isNative1 && showNative) ||
+              (isPWA2 && showPWA) || (isWeChatMini2 && showWeChat) || (isNative2 && showNative);
+      });
 
     if (filteredApps.length > 0) {
       totalMatches += filteredApps.length;

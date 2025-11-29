@@ -2116,7 +2116,7 @@ export const categories = [
       { name: "African Diaspora News Channel", nameKey: "africandiasporanewschannel_name", descriptionKey: "africandiasporanewschannel_desc", url: "https://africandiasporanews.org", icon: "icons/pwa/africandiasporanewschannel.webp" },
       { name: "Distractify", nameKey: "distractify_name", descriptionKey: "distractify_desc", url: "https://www.distractify.com", icon: "icons/pwa/distractify.webp" },
       { name: "Los Angeles Times", nameKey: "latimes_name", descriptionKey: "latimes_desc", url: "https://www.latimes.com", icon: "icons/pwa/latimes.webp" },
-      { name: "The Wichita Eagle", nameKey: "thewitchitaeagle_name", descriptionKey: "thewitchitaeagle_desc", icon: "icons/pwa/thewitchitaeagle.webp", url: "https://www.kansas.com" },
+      { name: "The Wichita Eagle", nameKey: "thewitchitaeagle_name", descriptionKey: "thewitchitaeagle_desc", icon: "icons/msedge/thewitchitaeagle.webp", url: "https://www.kansas.com", apptype: "msedge" },
       {
         name: "Sankei News (産経ニュース)",
         nameKey: "sankei_name",
@@ -2231,7 +2231,7 @@ export const categories = [
         urlDisplay: "https://www.chosun.com",
         apptype: "wrapper"
       },
-      { name: "Radio Television of Afghanistan (RTA)", nameKey: "rtaaf_name", descriptionKey: "rtaaf_desc", url: "/wrappers/rtaaf", urlDisplay: "https://rta.af", icon: "icons/wrappers/rtaaf", apptype: "wrapper" },
+      { name: "Radio Television of Afghanistan (RTA)", nameKey: "rtaaf_name", descriptionKey: "rtaaf_desc", url: "/wrappers/rtaaf", urlDisplay: "https://rta.af", icon: "icons/wrappers/rtaaf.webp", apptype: "wrapper" },
       {
         name: "Lianyungang Daily (连云港日报)",
         nameKey: "lygdaily_name",
@@ -4712,7 +4712,8 @@ export const categories = [
         icon: "icons/pwa/caltech.webp",
         url: "https://www.caltech.edu",
         apptype: "msedge",
-        url2: "/msedge/caltech"
+        url2: "/msedge/caltech",
+        apptype2: "wrapper"
       },
       {
         name: "University of Chicago (UChicago)",
@@ -4721,7 +4722,8 @@ export const categories = [
         icon: "icons/msedge/uchicago.webp",
         url: "https://www.uchicago.edu",
         apptype: "msedge",
-        url2: "/msedge/uchicago"
+        url2: "/msedge/uchicago",
+        apptype2: "wrapper"
       },
       {
         name: "University of Oxford",
@@ -4730,7 +4732,8 @@ export const categories = [
         icon: "icons/msedge/oxford.webp",
         url: "https://www.ox.ac.uk",
         apptype: "msedge",
-        url2: "/msedge/oxford"
+        url2: "/msedge/oxford",
+        apptype2: "wrapper"
       },
       {
         name: "Cornell University",
@@ -4738,8 +4741,9 @@ export const categories = [
         descriptionKey: "cornell_desc",
         icon: "icons/msedge/cornell.webp",
         url: "https://www.cornell.edu",
-        url2: "/msedge/cornell",
         apptype: "msedge",
+        url2: "/msedge/cornell",
+        apptype2: "wrapper"
       },
       {
         name: "Binghamton University",
