@@ -152,6 +152,13 @@ export const categories = [
         icon: "icons/pwa/trustpilot.webp",
         url: "https://www.trustpilot.com"
       },
+      {
+        name: "GenPass",
+        nameKey: "genpass_name",
+        descriptionKey: "genpass_desc",
+        icon: "icons/pwa/genpass.webp",
+        url: "https://genpass.net"
+      },
       { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype: "wrapper", urlDisplay: "https://stack.watch" },
     ]
   },
