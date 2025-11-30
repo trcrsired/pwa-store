@@ -43,11 +43,11 @@ export const categories = [
         url: "https://paint.js.org"
       },
       {
-        name: "GenPass",
-        nameKey: "genpass_name",
-        descriptionKey: "genpass_desc",
-        icon: "icons/pwa/genpass.webp",
-        url: "https://genpass-9r6.pages.dev"
+        name: "WasmPass",
+        nameKey: "wasmpass_name",
+        descriptionKey: "wasmpass_desc",
+        icon: "icons/pwa/wasmpass.webp",
+        url: "https://wasmpass.pages.dev"
       },
     ]
   },
