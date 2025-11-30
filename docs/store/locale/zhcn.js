@@ -513,6 +513,8 @@ const L = {
   windowslatest_desc: "科技新闻网站，报道微软Windows、更新、应用与PC行业动态。",
   windowsreport_name: "Windows Report",
   windowsreport_desc: "科技新闻网站，提供微软Windows及软件的更新、指南与故障排除技巧。",
+  laptopmag_name: "Laptop Mag",
+  laptopmag_desc: "Laptop Mag 是值得信赖的笔记本电脑评测与购买指南网站，提供专家分析、性能测试和推荐，帮助用户选择最佳的笔记本电脑及配件。",
   rutrackerorg_name: "RuTracker.org",
   rutrackerorg_desc: "俄罗斯的种子资源论坛，提供丰富的电影、音乐、软件、书籍等内容资源，以其历史悠久和活跃社区而闻名。",
   appbrain_name: "AppBrain",

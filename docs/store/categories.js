@@ -1817,6 +1817,16 @@ export const categories = [
         url: "https://gadgets.beebom.com"
       },
       {
+        name: "Laptop Mag",
+        nameKey: "laptopmag_name",
+        descriptionKey: "laptopmag_desc",
+        icon: "icons/msedge/laptopmag.webp",
+        url: "https://www.laptopmag.com",
+        apptype: "msedge",
+        url: "/msedge/laptopmag",
+        apptype2: "wrapper",
+      },
+      {
         name: "Level1Techs",
         nameKey: "level1techs_name",
         descriptionKey: "level1techs_desc",

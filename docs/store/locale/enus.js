@@ -513,6 +513,8 @@ const L = {
   windowslatest_desc: "A technology news site covering Microsoft Windows, updates, apps, and PC industry trends.",
   windowsreport_name: "Windows Report",
   windowsreport_desc: "A technology news site delivering updates, guides, and troubleshooting tips for Microsoft Windows and software.",
+  laptopmag_name: "Laptop Mag",
+  laptopmag_desc: "Laptop Mag is a trusted source for laptop reviews, buying guides, and tech news. It provides expert analysis, performance benchmarks, and recommendations to help users choose the best laptops and accessories.",
   rutrackerorg_name: "RuTracker.org",
   rutrackerorg_desc: "A Russian torrent tracker and forum offering a vast catalog of movies, music, software, books, and more. Known for its longevity and active user base.",
   appbrain_name: "AppBrain",

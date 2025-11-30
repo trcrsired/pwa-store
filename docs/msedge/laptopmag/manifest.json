@@ -1,0 +1,17 @@
+{
+  "name": "Laptop Mag",
+  "short_name": "Laptop Mag",
+  "start_url": "/wrappers/laptopmag/?source=pwa",
+  "scope": "/wrappers/laptopmag/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Msedge for Laptop Mag",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/laptopmag/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
