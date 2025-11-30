@@ -42,6 +42,13 @@ export const categories = [
         icon: "icons/pwa/paintjs.webp",
         url: "https://paint.js.org"
       },
+      {
+        name: "GenPass",
+        nameKey: "genpass_name",
+        descriptionKey: "genpass_desc",
+        icon: "icons/pwa/genpass.webp",
+        url: "https://genpass-9r6.pages.dev"
+      },
     ]
   },
   {
@@ -154,6 +161,13 @@ export const categories = [
     apps: [
       { name: "Time.is", icon: "icons/pwa/timeis.webp", url: "https://time.is", descriptionKey: "timeis_desc" },
       { name: "Every Time Zone", icon: "icons/pwa/everytimezone.webp", url: "https://everytimezone.com", descriptionKey: "everytimezone_desc" },
+      {
+        name: "Epoch Converter",
+        nameKey: "epochconverter_name",
+        descriptionKey: "epochconverter_desc",
+        icon: "icons/pwa/epochconverter.webp",
+        url: "https://www.epochconverter.com"
+      },
       { name: "NIST Time", icon: "icons/wrappers/timegov.webp", url: "/wrappers/timegov", urlDisplay: "https://www.time.gov", descriptionKey: "timegov_desc", apptype: "wrapper" },
       { name: "aTimerLogger", nameKey: "atimelogger_name", icon: "icons/wrappers/atimelogger.webp", url: "/wrappers/atimelogger", urlDisplay: "https://app.atimelogger.com", descriptionKey: "atimelogger_desc", apptype: "wrapper" },
     ]
