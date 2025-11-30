@@ -1075,6 +1075,8 @@ const L = {
   flixbus_desc: "Explore 1,800+ destinations across the US and beyond—FlixBus’s PWA lets you book tickets, track your ride in real time, and travel comfortably with Wi-Fi, outlets, and extra legroom.",
   sfexpress_name: "SF Express (顺丰速运)",
   sfexpress_desc: "SF Express—track domestic and international shipments, schedule pickups, and manage delivery services.",
+  myus_name: "MyUS",
+  myus_desc: "A global shipping and package forwarding service. MyUS provides US and UK addresses, consolidates packages, and offers discounted international shipping to over 220 countries.",
   tripcom_name: "Trip.com",
   tripcom_desc: "An international travel service platform offering flight tickets, hotels, train bookings, car rentals, and vacation packages.",
   girlsheavens_name: "Girls Heavens",

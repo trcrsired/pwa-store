@@ -3578,6 +3578,13 @@ export const categories = [
         url: "https://www.sf-express.com"
       },
       {
+        name: "MyUS",
+        nameKey: "myus_name",
+        descriptionKey: "myus_desc",
+        icon: "icons/pwa/myus.webp",
+        url: "https://www.myus.com"
+      },
+      {
         name: "Trip.com",
         nameKey: "tripcom_name",
         descriptionKey: "tripcom_desc",
