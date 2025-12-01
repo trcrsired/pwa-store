@@ -2452,6 +2452,15 @@ export const categories = [
         urlDisplay: "https://eaglercraft.com"
       },
       {
+        name: "D3Wasm Doom",
+        nameKey: "d3wasm_name",
+        descriptionKey: "d3wasm_desc",
+        icon: "icons/wrapper/d3wasm.webp",
+        apptype: "wrapper",
+        url: "/wrappers/d3wasm",
+        urlDisplay: "https://wasm.continuation-labs.com/d3demo"
+      },
+      {
         name: "MuMu Emulator (MuMu模拟器)",
         nameKey: "mumu_cn_name",
         descriptionKey: "mumu_cn_desc",

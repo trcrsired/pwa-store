@@ -145,6 +145,7 @@ WRAPPERS = [
   { "name": "RA2: Chrono Divide", "url": "https://game.chronodivide.com", "keyify_name": "chronodivide" },
   { "name": "Floppy Bird", "url": "https://nebezb.com/floppybird" },
   { "name": "Eaglercraft", "url": "https://eaglercraft.com" },
+  { "name": "D3Wasm Doom", "url": "https://wasm.continuation-labs.com/d3demo", "keyify_name": "d3wasm" },
   { "name": "Mumu Emulator(模拟器)", "url": "https://mumu.163.com", "keyify_name": "mumu" },
   { "name": "MumuPlayer", "url": "https://www.mumuplayer.com", "keyify_name": "mumuplayer", "icon": "mumu.webp" },
   { "name": "United Nations", "url": "https://www.un.org", "keyify_name": "UN" },
