@@ -2455,7 +2455,7 @@ export const categories = [
         name: "D3Wasm Doom",
         nameKey: "d3wasm_name",
         descriptionKey: "d3wasm_desc",
-        icon: "icons/wrapper/d3wasm.webp",
+        icon: "icons/wrapper/s.webp",
         apptype: "wrapper",
         url: "/wrappers/d3wasm",
         urlDisplay: "https://wasm.continuation-labs.com/d3demo"
@@ -2464,7 +2464,7 @@ export const categories = [
         name: "DOOM Shareware",
         nameKey: "doomshareware_name",
         descriptionKey: "doomshareware_desc",
-        icon: "icons/wrapper/doomshareware.webp",
+        icon: "icons/wrappers/doomshareware.webp",
         url: "/wrappers/doomshareware",
         urlDisplay: "https://silentspacemarine.com",
         apptype: "wrapper",
