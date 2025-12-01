@@ -866,6 +866,8 @@ const L = {
   gushiwen_desc: "Explore classical Chinese poetry and prose with Gushiwen—an extensive archive of annotated texts, author bios, and literary analysis.",
   hellotyping_name: "Hellotyping (打字侠)",
   hellotyping_desc: "An online typing platform designed for students, offering fun and structured lessons to improve speed and accuracy.",
+  onethousandonline_name: "11000.online (七星英语背单词)",
+  onethousandonline_desc: "11000.online is a free, browser-based English vocabulary learning app. It integrates an anti-forgetting algorithm and a 30-day schedule to help students efficiently memorize exam words such as CET-4, CET-6, TOEFL, IELTS, SAT, and more.",
   eudic_name: "Eudic Dictionary (欧路词典)",
   eudic_desc: "Eudic is a multilingual dictionary and translation platform offering English-Chinese lookup, daily listening practice, document translation, and AI-powered writing tools. Optimized for Apple systems, it supports Mdx extensions and caters to learners, translators, and educators.",
   quanxue_name: "Quanxue (劝学)",

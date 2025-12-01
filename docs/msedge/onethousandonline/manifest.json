@@ -1,0 +1,17 @@
+{
+  "name": "11000.online",
+  "short_name": "11000.online",
+  "start_url": "/wrappers/onethousandonline/?source=pwa",
+  "scope": "/wrappers/onethousandonline/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Msedge for 11000.online",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/onethousandonline/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

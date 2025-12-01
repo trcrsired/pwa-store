@@ -864,6 +864,8 @@ const L = {
   gushiwen_desc: "古诗文网收录大量中国古典诗词与文言文，提供注释、译文、赏析及作者资料，是学习传统文学的宝贵资源。",
   hellotyping_name: "打字侠",
   hellotyping_desc: "一个专为学生设计的在线打字平台，提供趣味化和系统化课程，提升打字速度与准确率。",
+  onethousandonline_name: "11000.online (七星英语背单词)",
+  onethousandonline_desc: "11000.online 是一个免费的浏览器英语背单词应用，集成抗遗忘算法，采用 30 天排期计划，帮助学生高效记忆中考、高考、四级、六级、考研、雅思、托福、SAT、专八等考试词汇。",
   physicslab_name: "物理实验室",
   physicslab_desc: "一个用于模拟经典与现代物理实验的交互式平台，涵盖力学、光学、电磁学等领域。支持实时可视化和参数配置，专为教学用途设计。",
   eudic_name: "欧路词典",

@@ -207,6 +207,7 @@ WRAPPERS = [
   { "name": "CodeSignal", "url": "https://codesignal.com" },
   { "name": "Remote OK", "url": "https://remoteok.com", "keyify_name": "remoteok" },
   { "name": "Layoffs.fyi", "url": "https://layoffs.fyi", "keyify_name": "layoffsfyi"},
+  { "name": "11000.online", "url": "https://www.11000.online", "keyify_name": "onethousandonline", "apptype": "msedge" },
   { "name": "Eudic", "url": "https://dict.eudic.net" },
   { "name": "劝学", "url": "https://www.quanxue.cn", "keyify_name": "quanxue" },
   { "name": "新东方", "url": "https://www.xdf.cn", "keyify_name": "xdf" },

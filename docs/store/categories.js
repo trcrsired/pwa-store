@@ -2697,6 +2697,16 @@ export const categories = [
         url: "https://www.hellotyping.com"
       },
       {
+        name: "11000.online (七星英语背单词)",
+        nameKey: "onethousandonline_name",
+        descriptionKey: "onethousandonline_desc",
+        icon: "icons/msedge/11000.webp",
+        url: "https://www.11000.online",
+        apptype: "msedge",
+        url2: "/msedge/onethousandonline",
+        apptype2: "wrapper"
+      },
+      {
         name: "Eudic Dictionary (欧路词典)",
         nameKey: "eudic_name",
         descriptionKey: "eudic_desc",
