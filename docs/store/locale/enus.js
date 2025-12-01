@@ -810,6 +810,8 @@ const L = {
   eaglercraft_desc: "Enjoy classic Minecraft gameplay directly in your browser. Eaglercraft brings the blocky adventure to any device—no installation needed.",
   d3wasm_name: "D3Wasm Doom",
   d3wasm_desc: "D3Wasm is a port of the Doom 3 video game to WebAssembly, featuring a full WebGL renderer backend. Its goal is to demonstrate the power of WebAssembly while bringing the idTech4 engine to the web. Technical details and build instructions are available on the Continuation Labs project page.",
+  doomshareware_name: "DOOM Shareware",
+  doomshareware_desc: "DOOM Shareware is a WebAssembly port of the classic Doom shareware, based on Chocolate Doom with WebSockets support, playable directly in the browser.",
   mumu_cn_name: "MuMu Emulator (MuMu模拟器)",
   mumu_cn_desc: "Chinese-localized version of NetEase’s MuMu Android emulator, designed for domestic users with deep integration into mainland gaming ecosystems and simplified PC-side control.",
   mumu_global_name: "MuMuPlayer",

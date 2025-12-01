@@ -810,6 +810,8 @@ const L = {
   eaglercraft_desc: "在浏览器中畅玩经典 Minecraft，无需安装。Eaglercraft 让你随时随地开启像素冒险之旅。",
   d3wasm_name: "D3Wasm Doom",
   d3wasm_desc: "D3Wasm 是 Doom 3 游戏的 WebAssembly 移植版本，具有完整的 WebGL 渲染后端。其目标是展示 WebAssembly 的强大能力，并将 idTech4 引擎带到网页平台。技术细节和构建说明可在 Continuation Labs 项目页面查看。",
+  doomshareware_name: "DOOM Shareware",
+  doomshareware_desc: "DOOM Shareware 是经典 Doom Shareware 的 WebAssembly 移植版本，基于 Chocolate Doom 并支持 WebSockets，可直接在浏览器中运行。",
   mumu_cn_name: "MuMu模拟器",
   mumu_cn_desc: "网易 MuMu 安卓模拟器的中国本地化版本，面向国内用户，深度集成大陆游戏生态，简化 PC 端操作。",
   mumu_global_name: "MuMuPlayer",

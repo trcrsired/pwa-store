@@ -1,0 +1,17 @@
+{
+  "name": "DOOM Shareware",
+  "short_name": "DOOM Shareware",
+  "start_url": "/wrappers/doomshareware/?source=pwa",
+  "scope": "/wrappers/doomshareware/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for DOOM Shareware",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/doomshareware/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

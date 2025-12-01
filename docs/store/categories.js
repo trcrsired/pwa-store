@@ -2461,6 +2461,15 @@ export const categories = [
         urlDisplay: "https://wasm.continuation-labs.com/d3demo"
       },
       {
+        name: "DOOM Shareware",
+        nameKey: "doomshareware_name",
+        descriptionKey: "doomshareware_desc",
+        icon: "icons/wrapper/doomshareware.webp",
+        url: "/wrappers/doomshareware",
+        urlDisplay: "https://silentspacemarine.com",
+        apptype: "wrapper",
+      },
+      {
         name: "MuMu Emulator (MuMu模拟器)",
         nameKey: "mumu_cn_name",
         descriptionKey: "mumu_cn_desc",
