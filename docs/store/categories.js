@@ -49,6 +49,13 @@ export const categories = [
         icon: "icons/pwa/wasmpass.webp",
         url: "https://wasmpass.pages.dev"
       },
+      {
+        name: "Online Compass",
+        nameKey: "onlinecompass_name",
+        descriptionKey: "onlinecompass_desc",
+        icon: "icons/pwa/onlinecompass.webp",
+        url: "https://onlinecompass.app"
+      },
     ]
   },
   {
