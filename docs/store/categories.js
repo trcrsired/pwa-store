@@ -4586,7 +4586,7 @@ export const categories = [
         nameKey: "olympics_name",
         descriptionKey: "olympics_desc",
         icon: "icons/pwa/olympics.webp",
-        url: "https://www.iso.org"
+        url: "https://www.olympics.com"
       },
       {
         name: "United Nations",
