@@ -816,6 +816,8 @@ const L = {
   doomshareware_desc: "DOOM Shareware 是经典 Doom Shareware 的 WebAssembly 移植版本，基于 Chocolate Doom 并支持 WebSockets，可直接在浏览器中运行。",
   geforcenow_name: "GeForce NOW",
   geforcenow_desc: "GeForce NOW 是 NVIDIA 官方的云游戏服务，通过云端串流 PC 游戏，让玩家无需下载或安装即可即时畅玩。",
+  "4399_name": "4399游戏",
+  "4399_desc": "4399游戏是中国知名的在线游戏平台，提供丰富的网页小游戏、手机游戏以及社区互动功能。",
   mumu_cn_name: "MuMu模拟器",
   mumu_cn_desc: "网易 MuMu 安卓模拟器的中国本地化版本，面向国内用户，深度集成大陆游戏生态，简化 PC 端操作。",
   mumu_global_name: "MuMuPlayer",

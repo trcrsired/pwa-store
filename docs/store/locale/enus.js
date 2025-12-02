@@ -815,6 +815,8 @@ const L = {
   doomshareware_desc: "DOOM Shareware is a WebAssembly port of the classic Doom shareware, based on Chocolate Doom with WebSockets support, playable directly in the browser.",
   geforcenow_name: "GeForce NOW",
   geforcenow_desc: "GeForce NOW is NVIDIA's official cloud gaming service. It streams PC games from the cloud, allowing instant access without downloads or installations.",
+  "4399_name": "4399",
+  "4399_desc": "4399 is a popular Chinese online gaming platform offering browser-based mini games, mobile titles, and community features.",
   mumu_cn_name: "MuMu Emulator (MuMu模拟器)",
   mumu_cn_desc: "Chinese-localized version of NetEase’s MuMu Android emulator, designed for domestic users with deep integration into mainland gaming ecosystems and simplified PC-side control.",
   mumu_global_name: "MuMuPlayer",

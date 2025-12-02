@@ -2488,6 +2488,15 @@ export const categories = [
         apptype2: "wrapper"
       },
       {
+        name: "4399",
+        nameKey: "4399_name",
+        descriptionKey: "4399_desc",
+        icon: "icons/wrappers/4399.webp",
+        url: "/wrapper/4399",
+        apptype: "wrapper",
+        urlDisplay: "https://www.4399.com"
+      },
+      {
         name: "MuMu Emulator (MuMu模拟器)",
         nameKey: "mumu_cn_name",
         descriptionKey: "mumu_cn_desc",

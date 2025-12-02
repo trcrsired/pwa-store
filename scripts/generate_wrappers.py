@@ -148,6 +148,7 @@ WRAPPERS = [
   { "name": "D3Wasm Doom", "url": "https://wasm.continuation-labs.com/d3demo", "keyify_name": "d3wasm" },
   { "name": "DOOM Shareware", "url": "https://silentspacemarine.com" },
   { "name": "Geforce Now", "url": "https://play.geforcenow.com", "icon": "nvidia.webp" },
+  { "name": "4399", "url": "https://www.4399.com" },
   { "name": "Mumu Emulator(模拟器)", "url": "https://mumu.163.com", "keyify_name": "mumu" },
   { "name": "MumuPlayer", "url": "https://www.mumuplayer.com", "keyify_name": "mumuplayer", "icon": "mumu.webp" },
   { "name": "United Nations", "url": "https://www.un.org", "keyify_name": "UN" },
