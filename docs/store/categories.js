@@ -2463,7 +2463,7 @@ export const categories = [
         name: "D3Wasm Doom",
         nameKey: "d3wasm_name",
         descriptionKey: "d3wasm_desc",
-        icon: "icons/wrapper/s.webp",
+        icon: "icons/wrappers/d3wasm.webp",
         apptype: "wrapper",
         url: "/wrappers/d3wasm",
         urlDisplay: "https://wasm.continuation-labs.com/d3demo"
