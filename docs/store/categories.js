@@ -2492,7 +2492,7 @@ export const categories = [
         nameKey: "4399_name",
         descriptionKey: "4399_desc",
         icon: "icons/wrappers/4399.webp",
-        url: "/wrapper/4399",
+        url: "/wrappers/4399",
         apptype: "wrapper",
         urlDisplay: "https://www.4399.com"
       },
