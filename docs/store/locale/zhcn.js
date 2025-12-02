@@ -552,6 +552,8 @@ const L = {
   woobx_desc: "一个多功能工具应用，提供文本、图片与系统相关的日常实用功能。",
   appagg_name: "AppAgg",
   appagg_desc: "一个应用聚合平台，汇总各大商店的应用、游戏与软件优惠信息。",
+  annasarchive_name: "Anna's Archive",
+  annasarchive_desc: "Anna's Archive 是一个开源的数字图书馆索引，聚合并镜像了多个影子图书馆（如 Library Genesis、Z-Library），提供书籍、学术论文和杂志的访问。",
   canva_name: "可画",
   canva_desc: "可画是一款功能强大的在线设计平台，让任何人都能轻松创作出令人惊艳的视觉作品。无论是社交媒体内容、演示文稿、营销素材还是视频，可画都提供海量模板和直观工具，一站式满足你的设计需求。",
   meituxiuxiu_name: "美图秀秀",

@@ -552,6 +552,8 @@ const L = {
   woobx_desc: "A multifunctional utility app offering tools for daily use, including text, image, and system utilities.",
   appagg_name: "AppAgg",
   appagg_desc: "An application aggregator platform that lists apps, games, and software deals across multiple stores.",
+  annasarchive_name: "Anna's Archive",
+  annasarchive_desc: "Anna's Archive is an open-source digital library index that aggregates and mirrors shadow libraries such as Library Genesis and Z-Library, providing access to books, papers, and magazines.",
   canva_name: "Canva",
   canva_desc: "Canva is a powerful online design platform that makes it easy for anyone to create stunning visuals. From social media posts and presentations to marketing materials and videos, Canva offers thousands of templates and intuitive tools—all in one place.",
   meituxiuxiu_name: "Meituxiuxiu (美图秀秀)",

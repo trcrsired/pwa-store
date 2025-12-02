@@ -1960,6 +1960,13 @@ export const categories = [
         url: "https://appagg.com"
       },
       {
+        name: "Anna's Archive",
+        nameKey: "annasarchive_name",
+        descriptionKey: "annasarchive_desc",
+        icon: "icons/pwa/annasarchive.webp",
+        url: "https://annas-archive.org"
+      },
+      {
         name: "Internet Archive",
         nameKey: "archive_name",
         descriptionKey: "archive_desc",
