@@ -2478,6 +2478,16 @@ export const categories = [
         apptype: "wrapper",
       },
       {
+        name: "GeForce NOW",
+        nameKey: "geforcenow_name",
+        descriptionKey: "geforcenow_desc",
+        icon: "icons/wrappers/nvdia.webp",
+        url: "https://play.geforcenow.com",
+        apptype: "msedge",
+        url2: "/wrappers/geforcenow",
+        apptype2: "wrapper"
+      },
+      {
         name: "MuMu Emulator (MuMu模拟器)",
         nameKey: "mumu_cn_name",
         descriptionKey: "mumu_cn_desc",

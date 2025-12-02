@@ -813,6 +813,8 @@ const L = {
   d3wasm_desc: "D3Wasm is a port of the Doom 3 video game to WebAssembly, featuring a full WebGL renderer backend. Its goal is to demonstrate the power of WebAssembly while bringing the idTech4 engine to the web. Technical details and build instructions are available on the Continuation Labs project page.",
   doomshareware_name: "DOOM Shareware",
   doomshareware_desc: "DOOM Shareware is a WebAssembly port of the classic Doom shareware, based on Chocolate Doom with WebSockets support, playable directly in the browser.",
+  geforcenow_name: "GeForce NOW",
+  geforcenow_desc: "GeForce NOW is NVIDIA's official cloud gaming service. It streams PC games from the cloud, allowing instant access without downloads or installations.",
   mumu_cn_name: "MuMu Emulator (MuMu模拟器)",
   mumu_cn_desc: "Chinese-localized version of NetEase’s MuMu Android emulator, designed for domestic users with deep integration into mainland gaming ecosystems and simplified PC-side control.",
   mumu_global_name: "MuMuPlayer",

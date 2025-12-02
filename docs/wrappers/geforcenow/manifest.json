@@ -1,0 +1,17 @@
+{
+  "name": "Geforce Now",
+  "short_name": "Geforce Now",
+  "start_url": "/wrappers/geforcenow/?source=pwa",
+  "scope": "/wrappers/geforcenow/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Geforce Now",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/geforcenow/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
