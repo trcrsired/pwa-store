@@ -2501,7 +2501,7 @@ export const categories = [
         nameKey: "mumu_cn_name",
         descriptionKey: "mumu_cn_desc",
         icon: "icons/wrappers/mumu.webp",
-        url: "https://mumu.163.com",
+        url: "/wrappers/mumu",
         apptype: "wrapper",
         urlDisplay: "https://mumu.163.com"
       },
@@ -2510,7 +2510,7 @@ export const categories = [
         nameKey: "mumu_global_name",
         descriptionKey: "mumu_global_desc",
         icon: "icons/wrappers/mumu.webp",
-        url: "https://www.mumuplayer.com",
+        url: "/wrappers/mumuplayer",
         apptype: "wrapper",
         urlDisplay: "https://www.mumuplayer.com"
       }
