@@ -1967,6 +1967,13 @@ export const categories = [
         url: "https://annas-archive.org"
       },
       {
+        name: "Anna's Archive (Chinese)",
+        nameKey: "annasarchivezh_name",
+        descriptionKey: "annasarchivezh_desc",
+        icon: "icons/pwa/annasarchive.webp",
+        url: "https://zh.annas-archive.se"
+      },
+      {
         name: "Internet Archive",
         nameKey: "archive_name",
         descriptionKey: "archive_desc",
@@ -2793,6 +2800,24 @@ export const categories = [
         url: "/wrappers/chegg",
         apptype: "wrapper",
         urlDisplay: "https://www.chegg.com"
+      },
+      {
+        name: "Mingku Literature (名库文学)",
+        nameKey: "mingku_name",
+        descriptionKey: "mingku_desc",
+        icon: "icons/wrappers/mingku.webp",
+        urlDisplay: "https://www.mingku.cc",
+        apptype: "wrapper",
+        url: "/wrappers/mingku"
+      },
+      {
+        name: "Shuzhaige (书斋阁)",
+        nameKey: "shuzhaige_name",
+        descriptionKey: "shuzhaige_desc",
+        icon: "icons/wrappers/shuzhaige.webp",
+        urlDisplay: "https://www.shuzhaige.com",
+        apptype: "wrapper",
+        url: "/wrappers/shuzhaige"
       },
     ]
   },
