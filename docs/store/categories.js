@@ -2481,7 +2481,7 @@ export const categories = [
         name: "GeForce NOW",
         nameKey: "geforcenow_name",
         descriptionKey: "geforcenow_desc",
-        icon: "icons/wrappers/nvdia.webp",
+        icon: "icons/wrappers/nvidia.webp",
         url: "https://play.geforcenow.com",
         apptype: "msedge",
         url2: "/wrappers/geforcenow",
