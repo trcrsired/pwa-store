@@ -780,6 +780,8 @@ const L = {
   games_name: "游戏",
   gameslol_name: "GamesLOL",
   gameslol_desc: "GamesLOL 提供多种类型的游戏，包括动作、冒险、益智、体育等，种类丰富。",
+  genshincloud_name: "云原神",
+  genshincloud_desc: "云原神是米哈游官方推出的基于云端的渐进式网络应用版本，无需下载和安装即可在浏览器中即时体验开放世界动作角色扮演游戏《原神》。",
   classicgamesgg_name: "ClassicGames.gg",
   classicgamesgg_desc: "免费在线畅玩经典游戏！数百款复古街机、主机和PC游戏，无需下载，直接在浏览器中尽情享受。立即重温童年回忆！",
   crazygames_name: "CrazyGames",

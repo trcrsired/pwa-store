@@ -2348,6 +2348,14 @@ export const categories = [
         url: "https://en.gameslol.net"
       },
       {
+        name: "Genshin Impact Cloud (云原神)",
+        nameKey: "genshincloud_name",
+        descriptionKey: "genshincloud_desc",
+        icon: "icons/pwa/genshincloud.webp",
+        url: "https://ys.mihoyo.com/cloud",
+        apptype: "pwa"
+      },
+      {
         name: "ClassicGames.gg",
         nameKey: "classicgamesgg_name",
         descriptionKey: "classicgamesgg_desc",
