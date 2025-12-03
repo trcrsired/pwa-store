@@ -649,6 +649,8 @@ const L = {
   thewitchitaeagle_desc: "A regional newspaper based in Wichita, Kansas, covering local news, sports, business, and community stories.",
   sankei_name: "Sankei News (産経ニュース)",
   sankei_desc: "A major Japanese news outlet offering national and international coverage in politics, business, and society.",
+  rferl_name: "Radio Free Europe / Radio Liberty",
+  rferl_desc: "RFE/RL provides uncensored news and analysis in 26 languages across 22 countries where press freedom is restricted.",
   ameblo_name: "Ameba Blog (アメーバブログ)",
   ameblo_desc: "A popular Japanese blogging platform for personal diaries, celebrity updates, and community interaction.",
   friend_name: "Friend",

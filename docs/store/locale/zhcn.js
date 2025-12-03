@@ -649,6 +649,8 @@ const L = {
   thewitchitaeagle_desc: "一家总部位于堪萨斯州威奇托的地区性报纸，报道本地新闻、体育、商业与社区故事。",
   sankei_name: "产经新闻(産経ニュース)",
   sankei_desc: "日本主要新闻媒体，报道国内外政治、商业与社会新闻。",
+  rferl_name: "自由欧洲电台(Radio Free Europe / Radio Liberty)",
+  rferl_desc: "自由欧洲电台(RFE/RL)以26种语言在22个新闻受限国家提供未经审查的新闻与分析。",
   ameblo_name: "Ameba博客 (アメーバブログ)",
   ameblo_desc: "日本流行的博客平台，提供个人日记、明星动态与社区互动功能。",
   friend_name: "Friend",
