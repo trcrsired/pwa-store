@@ -323,6 +323,13 @@ export const categories = [
         descriptionKey: "v2ray_desc"
       },
       {
+        name: "V2RayA",
+        nameKey: "v2raya_name",
+        descriptionKey: "v2raya_desc",
+        icon: "icons/pwa/v2raya.webp",
+        url: "https://v2raya.top",
+      },
+      {
         name: "GitLab",
         icon: "icons/pwa/gitlab.webp",
         url: "https://gitlab.com",

@@ -174,6 +174,8 @@ const L = {
   vscode_insider_name: "VS Code Insider",
   vscode_insider_desc: "Preview build of Visual Studio Code Web.",
   v2ray_desc: "Project V is a set of tools to help you build your own privacy network over internet. The core of Project V, named V2Ray, is responsible for network protocols and communications. It can work alone, as well as combine with other tools.",
+  v2raya_name: "V2RayA",
+  v2raya_desc: "V2RayA is an open-source web-based management platform for V2Ray, providing a user-friendly interface to configure and control proxy services.",
   gitlab_desc: "DevOps powerhouse with full-stack Git repository management and robust PWA support. Enables seamless code hosting, issue tracking, CI/CD workflows, and real-time collaboration across teams.",
   gitee_desc: "China’s leading code hosting platform with native PWA support. Offers Git-based project management, team collaboration tools, and integrated CI/CD pipelines tailored to local developers and enterprises.",
   gitflic_name: "GitFlic",
