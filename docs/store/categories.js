@@ -1092,6 +1092,14 @@ export const categories = [
         urlDisplay: "https://sharechat.com"
       },
       {
+        name: "Dzen(Дзен)",
+        nameKey: "dzen_name",
+        descriptionKey: "dzen_desc",
+        icon: "icons/dzen.webp",
+        url: "/wrappers/dzenru",
+        apptype: "wrapper",
+      },
+      {
         name: "Tencent Meeting (腾讯会议)",
         nameKey: "tencentmeeting_name",
         icon: "icons/wechatmini/tencentmeeting.webp",
