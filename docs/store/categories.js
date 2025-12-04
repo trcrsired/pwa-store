@@ -144,7 +144,7 @@ export const categories = [
       { name: "Tencent Yuanbao (腾讯元宝)", nameKey: "tencentyuanbao_name", descriptionKey: "tencentyuanbao_desc", apptype: "wrapper", icon: "icons/wrappers/tencentyuanbao.webp", url: "/wrappers/tencentyuanbao", urlDisplay: "https://yuanbao.tencent.com/chat" },
       { name: "Doubao (豆包)", nameKey: "doubao_name", descriptionKey: "doubao_desc", apptype: "wrapper", icon: "icons/wrappers/doubao.webp", url: "/wrappers/doubao", urlDisplay: "https://www.doubao.com/chat" },
       {
-        name: "Alice(Алиса)",
+        name: "Alice (Алиса)",
         nameKey: "alice_name",
         descriptionKey: "alice_desc",
         icon: "icons/wrappers/alice.webp",
@@ -1102,10 +1102,10 @@ export const categories = [
         urlDisplay: "https://sharechat.com"
       },
       {
-        name: "Dzen(Дзен)",
+        name: "Dzen (Дзен)",
         nameKey: "dzen_name",
         descriptionKey: "dzen_desc",
-        icon: "icons/dzen.webp",
+        icon: "icons/wrappers/dzen.webp",
         url: "/wrappers/dzenru",
         urlDisplay: "https://dzen.ru",
         apptype: "wrapper",
