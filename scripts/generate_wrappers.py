@@ -49,6 +49,7 @@ WRAPPERS = [
   { "name": "G2 AI", "url": "https://ai.g2.com" },
   { "name": "Tencent Yuanbao", "url": "https://yuanbao.tencent.com/chat" },
   { "name": "豆包", "url": "https://www.doubao.com/chat", "keyify_name": "doubao" },
+  { "name": "Алиса", "url": "https://alice.yandex.ru", "keyify_name": "alice"},
   { "name": "stack.watch", "url": "https://stack.watch", "keyify_name": "stackwatch" },
   { "name": "NIST Time", "url": "https://www.time.gov", "keyify_name": "timegov" },
   { "name": "aTimeLogger", "url": "https://app.atimelogger.com" },

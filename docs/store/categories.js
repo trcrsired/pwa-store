@@ -143,6 +143,16 @@ export const categories = [
       { name: "G2 AI", nameKey: "g2ai_name", icon: "icons/wrappers/g2ai.webp", url: "/wrappers/g2ai", urlDisplay: "https://ai.g2.com", descriptionKey: "g2ai_desc", apptype: "wrapper" },
       { name: "Tencent Yuanbao (腾讯元宝)", nameKey: "tencentyuanbao_name", descriptionKey: "tencentyuanbao_desc", apptype: "wrapper", icon: "icons/wrappers/tencentyuanbao.webp", url: "/wrappers/tencentyuanbao", urlDisplay: "https://yuanbao.tencent.com/chat" },
       { name: "Doubao (豆包)", nameKey: "doubao_name", descriptionKey: "doubao_desc", apptype: "wrapper", icon: "icons/wrappers/doubao.webp", url: "/wrappers/doubao", urlDisplay: "https://www.doubao.com/chat" },
+      {
+        name: "Alice(Алиса)",
+        nameKey: "alice_name",
+        descriptionKey: "alice_desc",
+        icon: "icons/wrappers/alice.webp",
+        urlDisplay: "https://alice.yandex.ru",
+        apptype: "wrapper",
+        url: "/wrappers/alice"
+      },
+
     ]
   },
   {
@@ -1097,6 +1107,7 @@ export const categories = [
         descriptionKey: "dzen_desc",
         icon: "icons/dzen.webp",
         url: "/wrappers/dzenru",
+        urlDisplay: "https://dzen.ru",
         apptype: "wrapper",
       },
       {

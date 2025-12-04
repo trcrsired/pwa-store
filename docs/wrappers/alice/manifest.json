@@ -1,0 +1,17 @@
+{
+  "name": "\u0410\u043b\u0438\u0441\u0430",
+  "short_name": "\u0410\u043b\u0438\u0441\u0430",
+  "start_url": "/wrappers/alice/?source=pwa",
+  "scope": "/wrappers/alice/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u0410\u043b\u0438\u0441\u0430",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/alice/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

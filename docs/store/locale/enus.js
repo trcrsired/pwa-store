@@ -113,6 +113,8 @@ const L = {
   tencentyuanbao_desc: "Tencent Yuanbao is an AI assistant app developed by Tencent, based on its Hunyuan model.",
   doubao_name: "Doubao (豆包)",
   doubao_desc: "An AI chatbot platform developed by ByteDance, offering conversational services and productivity tools in Chinese.",
+  alice_name: "Alice",
+  alice_desc: "Alice (Алиса) is Yandex's Russian generative AI assistant, offering chat, text, image, and file analysis features integrated with Yandex services.",
   "cursor_name": "Cursor",
   "cursor_desc": "Cursor is an AI-powered coding assistant that helps developers write, refactor, and debug code across platforms. Its autonomous agents can generate files, run terminal commands, and analyze entire codebases—available via web, CLI, and Slack.",
   "outlook_desc": "Webmail and calendar by Microsoft.",
