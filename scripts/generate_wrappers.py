@@ -144,6 +144,7 @@ WRAPPERS = [
   { "name": "胡润百富", "url": "https://www.hurun.net", "keyify_name": "hurun" },
   { "name": "매일경제", "url": "https://www.mk.co.kr", "keyify_name": "mkcokr" },
   { "name": "Free Software Foundations", "url": "https://www.fsf.org", "keyify_name": "fsf" },
+  { "name": "librephone", "url": "https://librephone.fsf.org", "icon": "fsf.webp" },
   { "name": "RA2: Chrono Divide", "url": "https://game.chronodivide.com", "keyify_name": "chronodivide" },
   { "name": "Floppy Bird", "url": "https://nebezb.com/floppybird" },
   { "name": "Eaglercraft", "url": "https://eaglercraft.com" },

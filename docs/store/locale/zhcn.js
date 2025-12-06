@@ -250,6 +250,8 @@ const L = {
   termux_desc: "Termux是一个适用于安卓的终端模拟器，其环境类似于 Linux 环境。 无需Root或设置即可使用。 Termux 会自动进行最小安装 - 使用 APT 包管理器即可获得其他软件包。",
   fsf_name: "自由软件基金会",
   fsf_desc: "自由软件基金会(FSF)是一个全球性非营利组织，致力于推广用户自由和开源软件。",
+  librephone_name: "LibrePhone",
+  librephone_desc: "LibrePhone 是自由软件基金会的长期项目，旨在让移动计算摆脱专有软件的束缚。它并不是另一个 Android 发行版，而是专注于研究和逆向工程当今几乎所有 SoC 中的非自由组件，从而为真正自由的移动操作系统铺路。",
   gccmcf_name: "GCC MCF",
   gccmcf_desc: "为 Windows 定制的 GCC 分支，使用最小 C 库的线程系统(MCF)替代标准 POSIX 线程模型。",
   webassembly_name: "WebAssembly",

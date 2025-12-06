@@ -613,6 +613,15 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Librephone",
+        nameKey: "librephone_name",
+        icon: "icons/wrappers/fsf.webp",
+        url: "/wrappers/librephone",
+        urlDisplay: "https://librephone.fsf.org",
+        descriptionKey: "librephone_desc",
+        apptype: "wrapper"
+      },
+      {
         name: "GCC MCF",
         nameKey: "gccmcf_name",
         icon: "icons/wrappers/lhmouse.webp",

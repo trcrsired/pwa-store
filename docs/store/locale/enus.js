@@ -250,6 +250,8 @@ const L = {
   termux_desc: "Termux is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required. A minimal base system is installed automatically - additional packages are available using the APT package manager.",
   fsf_name: "Free Software Foundations",
   fsf_desc: "The Free Software Foundation (FSF) is a nonprofit with a worldwide mission to promote computer user freedom.",
+  librephone_name: "Librephone",
+  librephone_desc: "LibrePhone is the Free Software Foundation's long-term project to liberate mobile computing from proprietary software blobs. Unlike another Android distribution, its goal is to study and reverse-engineer the nonfree components embedded in modern SoCs, paving the way for truly free mobile operating systems.",
   gccmcf_name: "GCC MCF",
   gccmcf_desc: "A customized GCC fork for Windows that replaces the standard POSIX thread model with its own minimal C library-based fiber-compatible threading system (MCF).",
   webassembly_name: "WebAssembly",

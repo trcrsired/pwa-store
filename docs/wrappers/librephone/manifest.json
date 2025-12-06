@@ -1,0 +1,17 @@
+{
+  "name": "librephone",
+  "short_name": "librephone",
+  "start_url": "/wrappers/librephone/?source=pwa",
+  "scope": "/wrappers/librephone/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for librephone",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/librephone/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
