@@ -1310,6 +1310,13 @@ export const categories = [
         url: "https://metamask.io"
       },
       {
+        name: "BITCLOCK",
+        nameKey: "bitclock_name",
+        icon: "icons/pwa/bitclock.webp",
+        url: "https://bitclock.vercel.app",
+        descriptionKey: "bitclock_desc",
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",

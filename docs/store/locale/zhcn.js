@@ -31,6 +31,8 @@ const L = {
   epochconverter_name: "Epoch Converter",
   epochconverter_desc: "Epoch Converter 是一个实用工具网站，可将 Unix 时间戳转换为可读日期，反之亦然。它还提供时区、夏令时和当前时间戳相关工具。",
   "timegov_desc": "获取美国国家标准技术研究院提供的官方时间。",
+  bitclock_name: "BITCLOCK",
+  bitclock_desc: "BITCLOCK 是一个极简加密货币看板，实时显示比特币、以太坊和 Solana 的价格，并提供捐赠支持选项。",
   atimelogger_name: "aTimerLogger",
   atimelogger_desc: "一款时间记录应用，用于追踪日常活动、习惯与效率表现。支持自定义分类、图表分析及导出功能，适用于个人或专业场景。",
   "microsoft_services_name": "微软服务",
