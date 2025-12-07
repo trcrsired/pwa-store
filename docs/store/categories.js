@@ -5149,7 +5149,14 @@ export const categories = [
         descriptionKey: "pwappnet_desc",
         icon: "icons/pwa/pwappnet.webp",
         url: "https://www.pwapp.net"
-      }
+      },
+      {
+        name: "PWAStore.io",
+        nameKey: "pwastoreio_name",
+        icon: "icons/pwa/pwastoreio.webp",
+        url: "https://www.pwastore.io",
+        descriptionKey: "pwastoreio_desc"
+      },
     ]
   },
   {

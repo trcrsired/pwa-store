@@ -13,6 +13,52 @@ function copyToClipboard(text) {
   });
 }
 
+const has_navigator_install = typeof navigator.install === 'function';
+
+function sanitize_install_url(url) {
+  // If no URL is provided, return an empty string
+  if (!url) return "";
+
+  // If the URL starts with "/" or ".", it means it's a relative path
+  if (url.startsWith("/") || url.startsWith(".")) {
+    if (url === ".") {
+      return window.location.origin + "/";
+    }
+    // Use window.location.origin as the base and construct a full absolute URL
+    // new URL(relative, base) automatically resolves "./" and "../" paths
+    return new URL(url, window.location.origin).href;
+  }
+
+  // Otherwise, assume it's already an absolute URL and return it directly
+  return url;
+}
+
+async function install_callback(e)
+{
+  let sanitizedUrl="";
+  try {
+    const targetUrl = e.currentTarget.dataset.url;
+    sanitizedUrl = sanitize_install_url(targetUrl);
+    await navigator.install(sanitizedUrl);
+    alert( `${L('installsucc_desc')}\n${sanitizedUrl}`);
+  } catch (err) {
+    alert( `${L('installfailed_desc')}${err}\n${sanitizedUrl}\n${L('tryinstallmanually_desc')}`);
+  }
+}
+
+function add_install_button(container, url)
+{
+  if (has_navigator_install)
+  {
+    const installBtn = document.createElement('button');
+    installBtn.className = 'install-button';
+    installBtn.textContent = L('install_desc');
+    installBtn.dataset.url = url;
+    installBtn.addEventListener('click', install_callback);
+    container.appendChild(installBtn);
+  }
+}
+
 const renderAppCard = (app) => {
   const container = document.createElement('div');
   container.className = 'app-card';
@@ -57,6 +103,11 @@ const renderAppCard = (app) => {
     button.target = '_blank';
   }
   container.appendChild(button);
+  const isNative = app.apptype === 'native';
+  if (!isWeChatMini && !isNative )
+  {
+    add_install_button(container, app.url);
+  }
 
   // Secondary URL logic
   if (app.url2) {
@@ -102,6 +153,12 @@ const renderAppCard = (app) => {
       button2.target = '_blank';
     }
     container.appendChild(button2);
+
+    const isNative2 = apptype2 === 'native';
+    if (!isWeChatMini2 && !isNative2 )
+    {
+      add_install_button(container, app.url2);
+    }
   }
 
   return container;
