@@ -4,7 +4,7 @@ import fs from "fs";
 import { categories } from "../docs/store/categories.js";
 
 // Utility function: fetch a site and try to extract its manifest URL
-async function getManifestUrl(siteUrl, timeout = 3000) {
+async function getManifestUrl(siteUrl, timeout = 10000) {
   try {
     const res = await fetch(siteUrl, { signal: AbortSignal.timeout(timeout) });
     if (!res.ok) return null;
@@ -26,7 +26,7 @@ async function getManifestUrl(siteUrl, timeout = 3000) {
 }
 
 // Fetch a manifest file and return its "id" property, with timeout protection
-async function getManifestId(manifestUrl, timeout = 3000) {
+async function getManifestId(manifestUrl, timeout = 10000) {
   // Create an AbortController to enforce timeout
     try {
 
