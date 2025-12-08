@@ -214,13 +214,13 @@ const renderCategory = (category, forceExpand = false) => {
 };
 
 
-// 🔄 Render the app store with search and type filters
+// 🔄 Render the app store with search, type filters, and hide flag
 const renderStore = (filterText = '') => {
   const root = document.getElementById('app-store');
   const resultCount = document.getElementById('result-count');
   if (!root || !resultCount) return;
 
-  const isSearching = filterText.trim() !== ''; // ✅ Normalize whitespace too
+  const isSearching = filterText.trim() !== ''; // ✅ Normalize whitespace
   root.innerHTML = '';
   let totalMatches = 0;
 
@@ -232,42 +232,47 @@ const renderStore = (filterText = '') => {
     const localizedName = category.nameKey ? L(category.nameKey) : category.name;
     const categoryText = `${localizedName} ${category.name}`.toLowerCase();
 
-    let filteredApps = categoryText.includes(filterText)
-    ? category.apps
-    : category.apps.filter(app => {
-        const nameKey = app.nameKey ? L(app.nameKey) : '';
-        const name = app.name || '';
-        const descKey = app.descriptionKey ? L(app.descriptionKey) : '';
-        const desc = app.description || '';
-        const url1 = app.url || '';
-        const url2 = app.url2 || '';
-        const urlDisplay1 = app.urlDisplay || '';
-        const urlDisplay2 = app.urlDisplay2 || '';
+    const filteredApps = category.apps.filter(app => {
+      // 🚫 Skip hidden apps immediately
+      if (app.hide) return false;
 
-        const combined = `${nameKey} ${name} ${descKey} ${desc} ${url1} ${url2} ${urlDisplay1} ${urlDisplay2}`.toLowerCase();
-        return combined.includes(filterText);
-      });
+      // 🔍 Search condition
+      const nameKey = app.nameKey ? L(app.nameKey) : '';
+      const name = app.name || '';
+      const descKey = app.descriptionKey ? L(app.descriptionKey) : '';
+      const desc = app.description || '';
+      const url1 = app.url || '';
+      const url2 = app.url2 || '';
+      const urlDisplay1 = app.urlDisplay || '';
+      const urlDisplay2 = app.urlDisplay2 || '';
+      const combined = `${nameKey} ${name} ${descKey} ${desc} ${url1} ${url2} ${urlDisplay1} ${urlDisplay2}`.toLowerCase();
 
-      filteredApps = filteredApps.filter(app => {
-        const type1 = app.apptype || 'pwa';
-        const type2 = app.apptype2 || null;
+      const matchesSearch = categoryText.includes(filterText) || combined.includes(filterText);
 
-        const isPWA1 = type1 !== 'wechatmini' && type1 !== 'native';
-        const isWeChatMini1 = type1 === 'wechatmini';
-        const isNative1 = type1 === 'native';
+      // 🔎 Type condition
+      const type1 = app.apptype || 'pwa';
+      const type2 = app.apptype2 || null;
 
-        const isPWA2 = type2 && type2 !== 'wechatmini' && type2 !== 'native';
-        const isWeChatMini2 = type2 === 'wechatmini';
-        const isNative2 = type2 === 'native';
+      const isPWA1 = type1 !== 'wechatmini' && type1 !== 'native';
+      const isWeChatMini1 = type1 === 'wechatmini';
+      const isNative1 = type1 === 'native';
 
-        return (isPWA1 && showPWA) || (isWeChatMini1 && showWeChat) || (isNative1 && showNative) ||
-              (isPWA2 && showPWA) || (isWeChatMini2 && showWeChat) || (isNative2 && showNative);
-      });
+      const isPWA2 = type2 && type2 !== 'wechatmini' && type2 !== 'native';
+      const isWeChatMini2 = type2 === 'wechatmini';
+      const isNative2 = type2 === 'native';
+
+      const matchesType =
+        (isPWA1 && showPWA) || (isWeChatMini1 && showWeChat) || (isNative1 && showNative) ||
+        (isPWA2 && showPWA) || (isWeChatMini2 && showWeChat) || (isNative2 && showNative);
+
+      // ✅ Combine all conditions
+      return matchesSearch && matchesType;
+    });
 
     if (filteredApps.length > 0) {
       totalMatches += filteredApps.length;
       const filteredCategory = { ...category, apps: filteredApps };
-      root.appendChild(renderCategory(filteredCategory, isSearching)); // ✅ Use flag
+      root.appendChild(renderCategory(filteredCategory, isSearching));
     }
   });
 
