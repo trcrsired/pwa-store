@@ -1,48 +1,37 @@
 //import fetch from "node-fetch";   // For Node.js < 18; Node.js 18+ has global fetch
-import { JSDOM } from "jsdom";    // For parsing HTML
+import * as cheerio from "cheerio";
 import fs from "fs";
 import { categories } from "../docs/store/categories.js";
 
 // Utility function: fetch a site and try to extract its manifest URL
-async function getManifestUrl(siteUrl, timeout = 10000) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeout);
-
+async function getManifestUrl(siteUrl, timeout = 3000) {
   try {
-    const res = await fetch(siteUrl, { signal: controller.signal });
+    const res = await fetch(siteUrl, { signal: AbortSignal.timeout(timeout) });
     if (!res.ok) return null;
 
     const html = await res.text();
-    const dom = new JSDOM(html);
-
-    const manifestLink = dom.window.document.querySelector('link[rel="manifest"]');
-    if (!manifestLink) return null;
-
-    // Get raw href attribute
-    const href = manifestLink.getAttribute("href");
+    const $ = cheerio.load(html);
+    const href = $('link[rel="manifest"]').attr('href');
+    if (!href)
+      return null;
 
     // Resolve relative path against siteUrl
     return new URL(href, siteUrl).href;
-  } catch (err) {
-    if (err.name === 'AbortError') {
+  } catch (error) {
+    if (error.name === 'TimeoutError' || error.name === 'AbortError') {
       console.error('Request timed out');
     }
     return null;
-  } finally {
-    clearTimeout(timer);
   }
 }
 
 // Fetch a manifest file and return its "id" property, with timeout protection
-async function getManifestId(manifestUrl, timeout = 10000) {
+async function getManifestId(manifestUrl, timeout = 3000) {
   // Create an AbortController to enforce timeout
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeout);
-
-  try {
+    try {
 
     // Fetch the manifest JSON file with timeout signal
-    const res = await fetch(manifestUrl, { signal: controller.signal });
+    const res = await fetch(manifestUrl, { signal: AbortSignal.timeout(timeout) });
     if (!res.ok) return null;
 
     // Parse JSON content locally
@@ -56,9 +45,6 @@ async function getManifestId(manifestUrl, timeout = 10000) {
       console.error('Manifest request timed out');
     }
     return null;
-  } finally {
-    // Clear timeout to avoid memory leaks
-    clearTimeout(timer);
   }
 }
 
