@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/gamersnexus",
   "name": "Gamers Nexus",
   "short_name": "Gamers Nexus",
   "start_url": "/wrappers/gamersnexus/?source=pwa",

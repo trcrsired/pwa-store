@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/wowhead",
   "name": "Wowhead",
   "short_name": "Wowhead",
   "start_url": "/wrappers/wowhead/?source=pwa",

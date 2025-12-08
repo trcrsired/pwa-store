@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/auctioncom",
   "name": "Auction.com",
   "short_name": "Auction.com",
   "start_url": "/wrappers/auctioncom/?source=pwa",

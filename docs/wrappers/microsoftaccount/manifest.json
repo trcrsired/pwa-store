@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/microsoftaccount",
   "name": "Microsoft Account",
   "short_name": "Microsoft Account",
   "start_url": "/wrappers/microsoftaccount/?source=pwa",

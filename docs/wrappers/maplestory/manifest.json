@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/maplestory",
   "name": "MapleStory",
   "short_name": "MapleStory",
   "start_url": "/wrappers/maplestory/?source=pwa",

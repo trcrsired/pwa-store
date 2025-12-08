@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/fed",
   "name": "FED",
   "short_name": "FED",
   "start_url": "/wrappers/fed/?source=pwa",

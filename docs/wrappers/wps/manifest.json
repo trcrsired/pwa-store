@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/wps",
   "name": "WPS",
   "short_name": "WPS",
   "start_url": "/wrappers/wps/?source=pwa",

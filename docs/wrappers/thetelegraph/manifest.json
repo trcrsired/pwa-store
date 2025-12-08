@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/thetelegraph",
   "name": "The Telegraph",
   "short_name": "The Telegraph",
   "start_url": "/wrappers/thetelegraph/?source=pwa",

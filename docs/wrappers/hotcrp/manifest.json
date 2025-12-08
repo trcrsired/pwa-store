@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/hotcrp",
   "name": "HotCRP",
   "short_name": "HotCRP",
   "start_url": "/wrappers/hotcrp/?source=pwa",

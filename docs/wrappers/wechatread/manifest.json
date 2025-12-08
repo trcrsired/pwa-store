@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/wechatread",
   "name": "WeChat Read",
   "short_name": "WeChat Read",
   "start_url": "/wrappers/wechatread/?source=pwa",

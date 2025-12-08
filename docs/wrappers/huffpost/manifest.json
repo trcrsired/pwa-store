@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/huffpost",
   "name": "HuffPost",
   "short_name": "HuffPost",
   "start_url": "/wrappers/huffpost/?source=pwa",

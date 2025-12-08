@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/paypal",
   "name": "Paypal",
   "short_name": "Paypal",
   "start_url": "/wrappers/paypal/?source=pwa",

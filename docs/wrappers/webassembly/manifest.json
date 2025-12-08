@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/webassembly",
   "name": "WebAssembly",
   "short_name": "WebAssembly",
   "start_url": "/wrappers/webassembly/?source=pwa",

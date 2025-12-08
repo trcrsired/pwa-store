@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/bankofamerica",
   "name": "Bank of America",
   "short_name": "Bank of America",
   "start_url": "/wrappers/bankofamerica/?source=pwa",

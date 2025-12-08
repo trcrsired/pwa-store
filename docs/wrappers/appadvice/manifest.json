@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/appadvice",
   "name": "AppAdvice",
   "short_name": "AppAdvice",
   "start_url": "/wrappers/appadvice/?source=pwa",

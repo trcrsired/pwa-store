@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/usagov",
   "name": "USA.gov",
   "short_name": "USA.gov",
   "start_url": "/wrappers/usagov/?source=pwa",

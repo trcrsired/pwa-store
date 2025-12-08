@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/target",
   "name": "Target",
   "short_name": "Target",
   "start_url": "/wrappers/target/?source=pwa",

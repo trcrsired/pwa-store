@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/laptopmag",
   "name": "Laptop Mag",
   "short_name": "Laptop Mag",
   "start_url": "/wrappers/laptopmag/?source=pwa",

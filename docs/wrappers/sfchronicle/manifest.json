@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/sfchronicle",
   "name": "San Francisco Chronicle",
   "short_name": "San Francisco Chronicle",
   "start_url": "/wrappers/sfchronicle/?source=pwa",

@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/gccmcf",
   "name": "GCC MCF",
   "short_name": "GCC MCF",
   "start_url": "/wrappers/gccmcf/?source=pwa",

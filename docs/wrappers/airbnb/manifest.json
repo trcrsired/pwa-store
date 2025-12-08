@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/airbnb",
   "name": "Airbnb",
   "short_name": "Airbnb",
   "start_url": "/wrappers/airbnb/?source=pwa",

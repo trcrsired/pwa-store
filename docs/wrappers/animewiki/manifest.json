@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/animewiki",
   "name": "Anime Wiki",
   "short_name": "Anime Wiki",
   "start_url": "/wrappers/animewiki/?source=pwa",

@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/eaglercraft",
   "name": "Eaglercraft",
   "short_name": "Eaglercraft",
   "start_url": "/wrappers/eaglercraft/?source=pwa",

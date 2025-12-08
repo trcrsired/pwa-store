@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/washingtonpost",
   "name": "Washington Post",
   "short_name": "Washington Post",
   "start_url": "/wrappers/washingtonpost/?source=pwa",

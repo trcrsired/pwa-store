@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/nvidia",
   "name": "NVIDIA",
   "short_name": "NVIDIA",
   "start_url": "/wrappers/nvidia/?source=pwa",

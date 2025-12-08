@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/cctv",
   "name": "CCTV",
   "short_name": "CCTV",
   "start_url": "/wrappers/cctv/?source=pwa",

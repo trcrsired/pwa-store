@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/whitehouse",
   "name": "White House",
   "short_name": "White House",
   "start_url": "/wrappers/whitehouse/?source=pwa",

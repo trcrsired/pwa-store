@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/acm",
   "name": "ACM",
   "short_name": "ACM",
   "start_url": "/wrappers/acm/?source=pwa",

@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/dhs",
   "name": "DHS",
   "short_name": "DHS",
   "start_url": "/wrappers/dhs/?source=pwa",

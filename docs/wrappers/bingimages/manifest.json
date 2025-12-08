@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/bingimages",
   "name": "Bing Images",
   "short_name": "Bing Images",
   "start_url": "/wrappers/bingimages/?source=pwa",

@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/reuters",
   "name": "Reuters",
   "short_name": "Reuters",
   "start_url": "/wrappers/reuters/?source=pwa",

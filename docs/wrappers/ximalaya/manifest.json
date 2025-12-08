@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/ximalaya",
   "name": "Ximalaya",
   "short_name": "Ximalaya",
   "start_url": "/wrappers/ximalaya/?source=pwa",

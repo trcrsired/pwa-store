@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/netflix",
   "name": "Netflix",
   "short_name": "Netflix",
   "start_url": "/wrappers/netflix/?source=pwa",

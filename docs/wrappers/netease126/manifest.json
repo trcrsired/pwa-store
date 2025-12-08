@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/netease126",
   "name": "126 Mail",
   "short_name": "126 Mail",
   "start_url": "/wrappers/netease126/?source=pwa",

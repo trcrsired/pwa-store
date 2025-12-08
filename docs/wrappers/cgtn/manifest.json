@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/cgtn",
   "name": "CGTN",
   "short_name": "CGTN",
   "start_url": "/wrappers/cgtn/?source=pwa",

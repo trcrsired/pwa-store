@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/usps",
   "name": "USPS",
   "short_name": "USPS",
   "start_url": "/wrappers/usps/?source=pwa",

@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/missavtv",
   "name": "MissAV TV",
   "short_name": "MissAV TV",
   "start_url": "/wrappers/missavtv/?source=pwa",

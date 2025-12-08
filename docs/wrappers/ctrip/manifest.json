@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/ctrip",
   "name": "Ctrip",
   "short_name": "Ctrip",
   "start_url": "/wrappers/ctrip/?source=pwa",

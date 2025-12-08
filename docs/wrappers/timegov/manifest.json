@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/timegov",
   "name": "NIST Time",
   "short_name": "NIST Time",
   "start_url": "/wrappers/timegov/?source=pwa",

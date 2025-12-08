@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/whirlpool",
   "name": "Whirlpool",
   "short_name": "Whirlpool",
   "start_url": "/wrappers/whirlpool/?source=pwa",

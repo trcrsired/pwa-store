@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/dailysignal",
   "name": "The Daily Signal",
   "short_name": "The Daily Signal",
   "start_url": "/wrappers/dailysignal/?source=pwa",

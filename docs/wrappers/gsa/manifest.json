@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/gsa",
   "name": "GSA",
   "short_name": "GSA",
   "start_url": "/wrappers/gsa/?source=pwa",

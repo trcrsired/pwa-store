@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/kfc",
   "name": "KFC",
   "short_name": "KFC",
   "start_url": "/wrappers/kfc/?source=pwa",

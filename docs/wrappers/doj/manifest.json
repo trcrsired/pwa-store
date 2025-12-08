@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/doj",
   "name": "DOJ",
   "short_name": "DOJ",
   "start_url": "/wrappers/doj/?source=pwa",

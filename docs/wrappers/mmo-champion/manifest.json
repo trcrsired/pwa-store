@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/mmo-champion",
   "name": "MMO Champion",
   "short_name": "MMO Champion",
   "start_url": "/wrappers/mmo-champion/?source=pwa",

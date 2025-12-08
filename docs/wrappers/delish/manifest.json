@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/delish",
   "name": "Delish",
   "short_name": "Delish",
   "start_url": "/wrappers/delish/?source=pwa",

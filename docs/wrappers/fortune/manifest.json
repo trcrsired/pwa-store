@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/fortune",
   "name": "Fortune",
   "short_name": "Fortune",
   "start_url": "/wrappers/fortune/?source=pwa",

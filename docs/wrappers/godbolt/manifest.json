@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/godbolt",
   "name": "Compiler Explorer",
   "short_name": "Compiler Explorer",
   "start_url": "/wrappers/godbolt/?source=pwa",

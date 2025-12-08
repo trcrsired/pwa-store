@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/apkpremier",
   "name": "APK Premier",
   "short_name": "APK Premier",
   "start_url": "/wrappers/apkpremier/?source=pwa",

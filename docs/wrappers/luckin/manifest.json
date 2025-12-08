@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/luckin",
   "name": "Luckin Coffee",
   "short_name": "Luckin Coffee",
   "start_url": "/wrappers/luckin/?source=pwa",

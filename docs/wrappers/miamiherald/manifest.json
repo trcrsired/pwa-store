@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/miamiherald",
   "name": "Miami Herald",
   "short_name": "Miami Herald",
   "start_url": "/wrappers/miamiherald/?source=pwa",

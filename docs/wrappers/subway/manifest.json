@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/subway",
   "name": "Subway",
   "short_name": "Subway",
   "start_url": "/wrappers/subway/?source=pwa",

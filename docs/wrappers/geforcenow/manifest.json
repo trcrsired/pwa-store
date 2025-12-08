@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/geforcenow",
   "name": "Geforce Now",
   "short_name": "Geforce Now",
   "start_url": "/wrappers/geforcenow/?source=pwa",

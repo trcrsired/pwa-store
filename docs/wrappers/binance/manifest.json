@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/binance",
   "name": "Binance",
   "short_name": "Binance",
   "start_url": "/wrappers/binance/?source=pwa",

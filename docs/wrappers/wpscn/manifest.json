@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/wpscn",
   "name": "WPS (CN)",
   "short_name": "WPS (CN)",
   "start_url": "/wrappers/wpscn/?source=pwa",

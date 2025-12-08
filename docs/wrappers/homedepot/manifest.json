@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/homedepot",
   "name": "The Home Depot",
   "short_name": "The Home Depot",
   "start_url": "/wrappers/homedepot/?source=pwa",

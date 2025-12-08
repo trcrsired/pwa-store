@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/g2ai",
   "name": "G2 AI",
   "short_name": "G2 AI",
   "start_url": "/wrappers/g2ai/?source=pwa",

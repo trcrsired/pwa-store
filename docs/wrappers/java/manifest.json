@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/java",
   "name": "Java",
   "short_name": "Java",
   "start_url": "/wrappers/java/?source=pwa",

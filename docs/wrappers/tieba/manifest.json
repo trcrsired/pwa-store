@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/tieba",
   "name": "Tieba",
   "short_name": "Tieba",
   "start_url": "/wrappers/tieba/?source=pwa",

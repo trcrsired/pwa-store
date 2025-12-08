@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/bingtravel",
   "name": "Bing Travel",
   "short_name": "Bing Travel",
   "start_url": "/wrappers/bingtravel/?source=pwa",

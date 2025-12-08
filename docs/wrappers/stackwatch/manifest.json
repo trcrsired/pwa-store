@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/stackwatch",
   "name": "stack.watch",
   "short_name": "stack.watch",
   "start_url": "/wrappers/stackwatch/?source=pwa",

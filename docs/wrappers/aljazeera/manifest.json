@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/aljazeera",
   "name": "Al Jazeera",
   "short_name": "Al Jazeera",
   "start_url": "/wrappers/aljazeera/?source=pwa",

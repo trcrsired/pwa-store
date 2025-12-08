@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/codesignal",
   "name": "CodeSignal",
   "short_name": "CodeSignal",
   "start_url": "/wrappers/codesignal/?source=pwa",

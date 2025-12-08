@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/sacramentobee",
   "name": "Sacramento Bee",
   "short_name": "Sacramento Bee",
   "start_url": "/wrappers/sacramentobee/?source=pwa",

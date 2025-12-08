@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/canva",
   "name": "Canva",
   "short_name": "Canva",
   "start_url": "/wrappers/canva/?source=pwa",

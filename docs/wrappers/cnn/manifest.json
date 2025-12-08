@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/cnn",
   "name": "CNN",
   "short_name": "CNN",
   "start_url": "/wrappers/cnn/?source=pwa",

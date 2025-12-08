@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/perplexity",
   "name": "perplexity",
   "short_name": "perplexity",
   "start_url": "/wrappers/perplexity/?source=pwa",

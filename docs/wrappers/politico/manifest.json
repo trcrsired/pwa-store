@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/politico",
   "name": "POLITICO",
   "short_name": "POLITICO",
   "start_url": "/wrappers/politico/?source=pwa",

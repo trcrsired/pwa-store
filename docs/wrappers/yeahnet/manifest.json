@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/yeahnet",
   "name": "yeah.net Mail",
   "short_name": "yeah.net Mail",
   "start_url": "/wrappers/yeahnet/?source=pwa",

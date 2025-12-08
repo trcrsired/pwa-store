@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/booking",
   "name": "Booking",
   "short_name": "Booking",
   "start_url": "/wrappers/booking/?source=pwa",

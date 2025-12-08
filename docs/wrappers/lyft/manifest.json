@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/lyft",
   "name": "Lyft",
   "short_name": "Lyft",
   "start_url": "/wrappers/lyft/?source=pwa",

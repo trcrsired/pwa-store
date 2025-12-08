@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/foxnews",
   "name": "Fox News",
   "short_name": "Fox News",
   "start_url": "/wrappers/foxnews/?source=pwa",

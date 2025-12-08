@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/thestreet",
   "name": "TheStreet",
   "short_name": "TheStreet",
   "start_url": "/wrappers/thestreet/?source=pwa",

@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/googletrends",
   "name": "Google Trends",
   "short_name": "Google Trends",
   "start_url": "/wrappers/googletrends/?source=pwa",

@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/usatoday",
   "name": "USA Today",
   "short_name": "USA Today",
   "start_url": "/wrappers/usatoday/?source=pwa",

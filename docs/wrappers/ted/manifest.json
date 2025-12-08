@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/ted",
   "name": "TED",
   "short_name": "TED",
   "start_url": "/wrappers/ted/?source=pwa",

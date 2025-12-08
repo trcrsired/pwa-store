@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/uchicago",
   "name": "UChicago",
   "short_name": "UChicago",
   "start_url": "/wrappers/uchicago/?source=pwa",

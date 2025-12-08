@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/biblecom",
   "name": "YouVersion Bible",
   "short_name": "YouVersion Bible",
   "start_url": "/wrappers/biblecom/?source=pwa",

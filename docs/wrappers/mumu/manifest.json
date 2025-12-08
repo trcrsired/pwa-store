@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/mumu",
   "name": "Mumu Emulator(\u6a21\u62df\u5668)",
   "short_name": "Mumu Emulator(\u6a21\u62df\u5668)",
   "start_url": "/wrappers/mumu/?source=pwa",

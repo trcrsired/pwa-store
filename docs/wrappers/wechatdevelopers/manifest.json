@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/wechatdevelopers",
   "name": "WeChat Devs",
   "short_name": "WeChat Devs",
   "start_url": "/wrappers/wechatdevelopers/?source=pwa",

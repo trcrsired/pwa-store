@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/termux",
   "name": "Termux",
   "short_name": "Termux",
   "start_url": "/wrappers/termux/?source=pwa",

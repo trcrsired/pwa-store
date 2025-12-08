@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/tencentyuanbao",
   "name": "Tencent Yuanbao",
   "short_name": "Tencent Yuanbao",
   "start_url": "/wrappers/tencentyuanbao/?source=pwa",

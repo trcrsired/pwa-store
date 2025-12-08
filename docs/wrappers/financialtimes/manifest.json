@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/financialtimes",
   "name": "Financial Times",
   "short_name": "Financial Times",
   "start_url": "/wrappers/financialtimes/?source=pwa",

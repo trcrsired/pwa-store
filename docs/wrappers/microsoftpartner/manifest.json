@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/microsoftpartner",
   "name": "Microsoft Partner",
   "short_name": "Microsoft Partner",
   "start_url": "/wrappers/microsoftpartner/?source=pwa",

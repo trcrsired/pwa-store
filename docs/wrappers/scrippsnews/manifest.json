@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/scrippsnews",
   "name": "Scripps News",
   "short_name": "Scripps News",
   "start_url": "/wrappers/scrippsnews/?source=pwa",

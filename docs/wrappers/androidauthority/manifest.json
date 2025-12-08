@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/androidauthority",
   "name": "Android Authority",
   "short_name": "Android Authority",
   "start_url": "/wrappers/androidauthority/?source=pwa",

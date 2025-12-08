@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/qqmail",
   "name": "QQ Mail",
   "short_name": "QQ Mail",
   "start_url": "/wrappers/qqmail/?source=pwa",

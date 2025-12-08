@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/walmart",
   "name": "Walmart",
   "short_name": "Walmart",
   "start_url": "/wrappers/walmart/?source=pwa",

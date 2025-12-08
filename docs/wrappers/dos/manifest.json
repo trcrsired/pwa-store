@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/dos",
   "name": "DOS",
   "short_name": "DOS",
   "start_url": "/wrappers/dos/?source=pwa",

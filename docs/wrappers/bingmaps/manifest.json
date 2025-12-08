@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/bingmaps",
   "name": "Bing Maps",
   "short_name": "Bing Maps",
   "start_url": "/wrappers/bingmaps/?source=pwa",

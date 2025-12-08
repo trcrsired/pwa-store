@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/alibaba",
   "name": "Alibaba",
   "short_name": "Alibaba",
   "start_url": "/wrappers/alibaba/?source=pwa",

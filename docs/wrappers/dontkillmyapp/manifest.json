@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/dontkillmyapp",
   "name": "DontKillMyApp",
   "short_name": "DontKillMyApp",
   "start_url": "/wrappers/dontkillmyapp/?source=pwa",

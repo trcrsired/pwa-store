@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/uscis",
   "name": "USCIS",
   "short_name": "USCIS",
   "start_url": "/wrappers/uscis/?source=pwa",

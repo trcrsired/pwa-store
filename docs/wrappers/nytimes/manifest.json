@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/nytimes",
   "name": "NY Times",
   "short_name": "NY Times",
   "start_url": "/wrappers/nytimes/?source=pwa",

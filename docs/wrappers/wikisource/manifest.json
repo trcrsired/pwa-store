@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/wikisource",
   "name": "Wikisource",
   "short_name": "Wikisource",
   "start_url": "/wrappers/wikisource/?source=pwa",

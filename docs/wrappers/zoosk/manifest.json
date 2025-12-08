@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/zoosk",
   "name": "Zoosk",
   "short_name": "Zoosk",
   "start_url": "/wrappers/zoosk/?source=pwa",

@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/ftc",
   "name": "FTC",
   "short_name": "FTC",
   "start_url": "/wrappers/ftc/?source=pwa",

@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/archive",
   "name": "Internet Archive",
   "short_name": "Internet Archive",
   "start_url": "/wrappers/archive/?source=pwa",

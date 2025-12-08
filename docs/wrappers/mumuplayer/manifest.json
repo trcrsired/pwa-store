@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/mumuplayer",
   "name": "MumuPlayer",
   "short_name": "MumuPlayer",
   "start_url": "/wrappers/mumuplayer/?source=pwa",

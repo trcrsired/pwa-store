@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/cvs",
   "name": "CVS",
   "short_name": "CVS",
   "start_url": "/wrappers/cvs/?source=pwa",

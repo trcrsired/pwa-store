@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/dingtalk",
   "name": "DingTalk",
   "short_name": "DingTalk",
   "start_url": "/wrappers/dingtalk/?source=pwa",

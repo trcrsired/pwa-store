@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/chinafirewalltest",
   "name": "China Firewall Test",
   "short_name": "China Firewall Test",
   "start_url": "/wrappers/chinafirewalltest/?source=pwa",

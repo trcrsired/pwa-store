@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/sharechat",
   "name": "ShareChat",
   "short_name": "ShareChat",
   "start_url": "/wrappers/sharechat/?source=pwa",

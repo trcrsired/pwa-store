@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/bingvideos",
   "name": "Bing Videos",
   "short_name": "Bing Videos",
   "start_url": "/wrappers/bingvideos/?source=pwa",

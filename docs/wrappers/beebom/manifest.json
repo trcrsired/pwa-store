@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/beebom",
   "name": "Beebom",
   "short_name": "Beebom",
   "start_url": "/wrappers/beebom/?source=pwa",

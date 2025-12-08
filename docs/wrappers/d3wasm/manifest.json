@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/d3wasm",
   "name": "D3Wasm Doom",
   "short_name": "D3Wasm Doom",
   "start_url": "/wrappers/d3wasm/?source=pwa",

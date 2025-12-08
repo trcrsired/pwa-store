@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/osdevorg",
   "name": "OSDev.org",
   "short_name": "OSDev.org",
   "start_url": "/wrappers/osdevorg/?source=pwa",

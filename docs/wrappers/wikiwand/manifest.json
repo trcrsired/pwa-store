@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/wikiwand",
   "name": "Wikiwand",
   "short_name": "Wikiwand",
   "start_url": "/wrappers/wikiwand/?source=pwa",

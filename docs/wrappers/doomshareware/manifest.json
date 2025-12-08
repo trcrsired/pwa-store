@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/doomshareware",
   "name": "DOOM Shareware",
   "short_name": "DOOM Shareware",
   "start_url": "/wrappers/doomshareware/?source=pwa",

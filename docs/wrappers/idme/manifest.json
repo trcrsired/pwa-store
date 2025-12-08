@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/idme",
   "name": "ID.me",
   "short_name": "ID.me",
   "start_url": "/wrappers/idme/?source=pwa",

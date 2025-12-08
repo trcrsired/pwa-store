@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/webull",
   "name": "Webull",
   "short_name": "Webull",
   "start_url": "/wrappers/webull/?source=pwa",

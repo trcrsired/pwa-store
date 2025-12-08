@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/pixiv",
   "name": "Pixiv",
   "short_name": "Pixiv",
   "start_url": "/wrappers/pixiv/?source=pwa",

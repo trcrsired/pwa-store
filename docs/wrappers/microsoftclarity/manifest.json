@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/microsoftclarity",
   "name": "Microsoft Clarity",
   "short_name": "Microsoft Clarity",
   "start_url": "/wrappers/microsoftclarity/?source=pwa",

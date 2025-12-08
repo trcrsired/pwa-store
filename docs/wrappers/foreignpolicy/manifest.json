@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/foreignpolicy",
   "name": "Foreign Policy",
   "short_name": "Foreign Policy",
   "start_url": "/wrappers/foreignpolicy/?source=pwa",

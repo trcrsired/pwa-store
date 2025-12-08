@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/warcraftlogs",
   "name": "WarcraftLogs",
   "short_name": "WarcraftLogs",
   "start_url": "/wrappers/warcraftlogs/?source=pwa",

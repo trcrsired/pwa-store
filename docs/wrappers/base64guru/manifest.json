@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/base64guru",
   "name": "Base64.Guru",
   "short_name": "Base64.Guru",
   "start_url": "/wrappers/base64guru/?source=pwa",

@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/chinaems",
   "name": "China EMS",
   "short_name": "China EMS",
   "start_url": "/wrappers/chinaems/?source=pwa",

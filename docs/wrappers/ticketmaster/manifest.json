@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/ticketmaster",
   "name": "Ticketmaster",
   "short_name": "Ticketmaster",
   "start_url": "/wrappers/ticketmaster/?source=pwa",

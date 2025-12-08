@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/curseforge",
   "name": "CurseForge",
   "short_name": "CurseForge",
   "start_url": "/wrappers/curseforge/?source=pwa",

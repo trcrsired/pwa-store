@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/chegg",
   "name": "Chegg",
   "short_name": "Chegg",
   "start_url": "/wrappers/chegg/?source=pwa",

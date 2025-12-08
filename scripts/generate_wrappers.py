@@ -342,6 +342,7 @@ def encode(text):
 def build_manifest(name, key, apptype="wrapper"):
     base = "extensions" if apptype == "extension" else "wrappers"
     manifest = {
+        "id": f"/{base}/{key}",
         "name": name,
         "short_name": name,
         "start_url": f"/{base}/{key}/?source=pwa",

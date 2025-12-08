@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/aurorastore",
   "name": "Aurora Store",
   "short_name": "Aurora Store",
   "start_url": "/wrappers/aurorastore/?source=pwa",

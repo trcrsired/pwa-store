@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/minecraftforum",
   "name": "MineCraft Forum",
   "short_name": "MineCraft Forum",
   "start_url": "/wrappers/minecraftforum/?source=pwa",

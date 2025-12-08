@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/veritasium",
   "name": "Veritasium",
   "short_name": "Veritasium",
   "start_url": "/wrappers/veritasium/?source=pwa",

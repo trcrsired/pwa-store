@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/appleappstore",
   "name": "App Store",
   "short_name": "App Store",
   "start_url": "/wrappers/appleappstore/?source=pwa",

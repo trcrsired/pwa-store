@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/appleretail",
   "name": "Apple Retail Store",
   "short_name": "Apple Retail Store",
   "start_url": "/wrappers/appleretail/?source=pwa",

@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/floppybird",
   "name": "Floppy Bird",
   "short_name": "Floppy Bird",
   "start_url": "/wrappers/floppybird/?source=pwa",

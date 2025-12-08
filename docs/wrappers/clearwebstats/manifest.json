@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/clearwebstats",
   "name": "ClearWebStats",
   "short_name": "ClearWebStats",
   "start_url": "/wrappers/clearwebstats/?source=pwa",

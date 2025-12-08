@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/browserbench",
   "name": "BrowserBench",
   "short_name": "BrowserBench",
   "start_url": "/wrappers/browserbench/?source=pwa",

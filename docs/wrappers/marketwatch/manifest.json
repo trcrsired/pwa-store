@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/marketwatch",
   "name": "MarketWatch",
   "short_name": "MarketWatch",
   "start_url": "/wrappers/marketwatch/?source=pwa",

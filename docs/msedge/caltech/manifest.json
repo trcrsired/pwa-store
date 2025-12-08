@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/caltech",
   "name": "Caltech",
   "short_name": "Caltech",
   "start_url": "/wrappers/caltech/?source=pwa",

@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/omb",
   "name": "OMB",
   "short_name": "OMB",
   "start_url": "/wrappers/omb/?source=pwa",

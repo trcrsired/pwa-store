@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/popularmechanics",
   "name": "Popular Mechanics",
   "short_name": "Popular Mechanics",
   "start_url": "/wrappers/popularmechanics/?source=pwa",

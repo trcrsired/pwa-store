@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/mcdonalds",
   "name": "McDonald's",
   "short_name": "McDonald's",
   "start_url": "/wrappers/mcdonalds/?source=pwa",

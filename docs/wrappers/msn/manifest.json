@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/msn",
   "name": "MSN",
   "short_name": "MSN",
   "start_url": "/wrappers/msn/?source=pwa",

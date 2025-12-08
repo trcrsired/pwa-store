@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/ign",
   "name": "IGN",
   "short_name": "IGN",
   "start_url": "/wrappers/ign/?source=pwa",

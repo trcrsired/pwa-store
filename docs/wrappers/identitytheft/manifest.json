@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/identitytheft",
   "name": "IdentityTheft",
   "short_name": "IdentityTheft",
   "start_url": "/wrappers/identitytheft/?source=pwa",

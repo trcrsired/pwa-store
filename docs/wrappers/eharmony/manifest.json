@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/eharmony",
   "name": "eHarmony",
   "short_name": "eHarmony",
   "start_url": "/wrappers/eharmony/?source=pwa",

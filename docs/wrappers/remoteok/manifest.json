@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/remoteok",
   "name": "Remote OK",
   "short_name": "Remote OK",
   "start_url": "/wrappers/remoteok/?source=pwa",

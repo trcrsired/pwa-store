@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/dramabox",
   "name": "DramaBox",
   "short_name": "DramaBox",
   "start_url": "/wrappers/dramabox/?source=pwa",

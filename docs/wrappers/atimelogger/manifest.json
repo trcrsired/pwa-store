@@ -1,4 +1,5 @@
 {
+  "id": "/wrappers/atimelogger",
   "name": "aTimeLogger",
   "short_name": "aTimeLogger",
   "start_url": "/wrappers/atimelogger/?source=pwa",
