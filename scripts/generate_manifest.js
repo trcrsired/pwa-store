@@ -1,7 +1,7 @@
 //import fetch from "node-fetch";   // For Node.js < 18; Node.js 18+ has global fetch
 import * as cheerio from "cheerio";
 import fs from "fs";
-import { categories } from "../docs/store/categories.js";
+import { categories } from "./categories_with_manifest.js";
 
 // Utility function: fetch a site and try to extract its manifest URL
 async function getManifestUrl(siteUrl, timeout = 10000) {
@@ -144,7 +144,7 @@ async function processCategories(forceUpdate = false, skipNetwork = false) {
   }
 
   fs.writeFileSync(
-    "categories_with_manifest.js",
+    "categories.js",
     "export const categories = " + JSON.stringify(newCategories, null, 2)
   );
 }

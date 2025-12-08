@@ -22,11 +22,16 @@ function sanitize_install_url(url) {
   // If the URL starts with "/" or ".", it means it's a relative path
   if (url.startsWith("/") || url.startsWith(".")) {
     if (url === ".") {
-      return window.location.origin + window.location.origin.pathname;
+      return window.location.href;
     }
     // Use window.location.origin as the base and construct a full absolute URL
     // new URL(relative, base) automatically resolves "./" and "../" paths
-    return new URL(url, window.location.origin).href;
+    let newurl = window.location.origin+url;
+    if (!newurl.endsWith("/"))
+    {
+      newurl = newurl + "/";
+    }
+    return newurl;
   }
 
   // Otherwise, assume it's already an absolute URL and return it directly
@@ -40,7 +45,6 @@ async function install_callback(e)
     const targetUrl = e.currentTarget.dataset.url;
     sanitizedUrl = sanitize_install_url(targetUrl);
     await navigator.install(sanitizedUrl);
-    alert( `${L('installsucc_desc')}\n${sanitizedUrl}`);
   } catch (err) {
     alert( `${L('installfailed_desc')}${err}\n${sanitizedUrl}\n${L('tryinstallmanually_desc')}`);
   }
