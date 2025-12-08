@@ -1894,7 +1894,7 @@ export const categories = [
         icon: "icons/msedge/laptopmag.webp",
         url: "https://www.laptopmag.com",
         apptype: "msedge",
-        url: "/msedge/laptopmag",
+        url2: "/msedge/laptopmag",
         apptype2: "wrapper",
       },
       {
