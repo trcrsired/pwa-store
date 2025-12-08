@@ -332,13 +332,14 @@ export const categories = [
         url: "https://www.v2ray.com",
         descriptionKey: "v2ray_desc"
       },
-/*      {
+      {
         name: "V2RayA",
         nameKey: "v2raya_name",
         descriptionKey: "v2raya_desc",
         icon: "icons/pwa/v2raya.webp",
         url: "https://v2raya.top",
-      },*/
+        hide: true
+      },
       {
         name: "GitLab",
         icon: "icons/pwa/gitlab.webp",
@@ -771,14 +772,15 @@ export const categories = [
         url: "#小程序://中国联通营业厅/nMjhTIVG5fmrslA",
         apptype: "wechatmini"
       },
-/*      {
+      {
         name: "Proxy SwitchyOmega (V3)",
         nameKey: "proxyswitchyomegav3_name",
         descriptionKey: "proxyswitchyomegav3_desc",
         icon: "icons/extensions/proxyswitchyomegav3.webp",
-        url: "/extensions/proxyswitchyomegav3"
+        url: "/extensions/proxyswitchyomegav3",
         apptype: "extension",
-      },*/
+        hide: true
+      },
     ]
   },
   {
@@ -878,22 +880,22 @@ export const categories = [
         url: "https://tinder.com",
         descriptionKey: "tinder_desc"
       },
-/*
       {
         name: "Tea For Women",
         nameKey: "teaforwomen_name",
         descriptionKey: "teaforwomen_desc",
         icon: "icons/pwa/teaforwomen.webp",
-        url: "https://www.teaforwomen.com"
+        url: "https://www.teaforwomen.com",
+        hide: true,
       },
       {
         name: "TeaOnHer",
         nameKey: "teaonher_name",
         descriptionKey: "teaonher_desc",
         icon: "icons/pwa/teaonher.webp",
-        url: "https://www.teaonher.com"
+        url: "https://www.teaonher.com",
+        hide: true,
       },
-*/
       {
         name: "Truth Social",
         nameKey: "truthsocial_name",
@@ -1870,15 +1872,14 @@ export const categories = [
         url: "https://windowsreport.com",
 //      apptype: "desk"
       },
-/*
       {
         name: "Tech Evangelist SEO",
         nameKey: "techevangelistseo_name",
         descriptionKey: "techevangelistseo_desc",
         icon: "icons/pwa/techevangelistseo.webp",
-        url: "https://techevangelistseo.com"
+        url: "https://techevangelistseo.com",
+        hide: true
       },
-*/
       {
         name: "Beebom Gadgets",
         nammeKey: "beebomgadgets_name",
@@ -2966,14 +2967,15 @@ export const categories = [
         icon: "icons/pwa/ifixit.webp",
         url: "https://www.ifixit.com"
       },
-/*      {
+      {
         name: "WebThree Wiki",
         nameKey: "webthree_name",
         descriptionKey: "webthree_desc",
         icon: "icons/pwa/webthree.webp",
         url: "https://webthree.wiki",
+        hide: true
 //apptype:desk
-      },*/
+      },
       {
         name: "Marxists Internet Archive",
         nameKey: "marxistsorg_name",

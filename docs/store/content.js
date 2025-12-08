@@ -22,7 +22,7 @@ function sanitize_install_url(url) {
   // If the URL starts with "/" or ".", it means it's a relative path
   if (url.startsWith("/") || url.startsWith(".")) {
     if (url === ".") {
-      return window.location.origin + "/";
+      return window.location.origin + window.location.origin.pathname;
     }
     // Use window.location.origin as the base and construct a full absolute URL
     // new URL(relative, base) automatically resolves "./" and "../" paths
@@ -201,7 +201,10 @@ const renderCategory = (category, forceExpand = false) => {
 
   // Render each app card inside the grid
   category.apps.forEach((app) => {
-    grid.appendChild(renderAppCard(app));
+    if (!app.hide)
+    {
+      grid.appendChild(renderAppCard(app));
+    }
   });
 
   // Append heading and grid to section
