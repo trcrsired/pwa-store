@@ -1086,6 +1086,13 @@ export const categories = [
         url: "https://friend.com"
       },
       {
+        name: "Jitsi Meet",
+        icon: "icons/pwa/jitsi.webp",
+        url: "https://meet.jit.si",
+        nameKey: "jitsi_name",
+        descriptionKey: "jitsi_desc",
+      },
+      {
         name: "Zoosk",
         nameKey: "zoosk_name",
         icon: "icons/wrappers/zoosk.webp",

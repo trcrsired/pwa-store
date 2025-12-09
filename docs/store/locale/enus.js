@@ -669,6 +669,8 @@ const L = {
   ameblo_desc: "A popular Japanese blogging platform for personal diaries, celebrity updates, and community interaction.",
   friend_name: "Friend",
   friend_desc: "A lifestyle platform introducing companionship with the tagline 'Creating your new friend.'",
+  jitsi_name: "Jitsi Meet",
+  jitsi_desc: "Jitsi Meet is a free, open-source video conferencing platform that runs in your browser using WebRTC. It allows instant meetings without accounts, supports screen sharing, chat, and can be installed as a Progressive Web App.",
   hindustantimes_name: "Hindustan Times",
   hindustantimes_desc: "One of India's leading English-language newspapers, Hindustan Times delivers comprehensive coverage of national and international news, politics, business, sports, entertainment, and lifestyle. Owned by HT Media Ltd., it is known for its credible journalism and wide readership across major Indian cities.",
   nyt_name: "New York Times",
