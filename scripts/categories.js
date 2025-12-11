@@ -6,7 +6,7 @@ export const categories = [
       {
         "name": "SnaePlayer",
         "icon": "icons/pwa/snaeplayer.webp",
-        "url": "https://snaeplayer.com",
+        "url": "https://snaeplayer.com/library/tracks",
         "descriptionKey": "snaeplayer_desc",
         "manifestUrl": "https://snaeplayer.com/manifest.webmanifest"
       },
