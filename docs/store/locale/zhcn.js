@@ -665,6 +665,8 @@ const L = {
   sankei_desc: "日本主要新闻媒体，报道国内外政治、商业与社会新闻。",
   rferl_name: "自由欧洲电台(Radio Free Europe / Radio Liberty)",
   rferl_desc: "自由欧洲电台(RFE/RL)以26种语言在22个新闻受限国家提供未经审查的新闻与分析。",
+  govfacts_name: "GovFacts",
+  govfacts_desc: "GovFacts 是一个无党派网站，致力于帮助公众更容易理解政府概念和政策。它提供清晰可信的解读、实时跟踪国会和政府机构动态，并提供工具以促进公民参与。",
   ameblo_name: "Ameba博客 (アメーバブログ)",
   ameblo_desc: "日本流行的博客平台，提供个人日记、明星动态与社区互动功能。",
   friend_name: "Friend",

@@ -665,6 +665,8 @@ const L = {
   sankei_desc: "A major Japanese news outlet offering national and international coverage in politics, business, and society.",
   rferl_name: "Radio Free Europe / Radio Liberty",
   rferl_desc: "RFE/RL provides uncensored news and analysis in 26 languages across 22 countries where press freedom is restricted.",
+  govfacts_name: "GovFacts",
+  govfacts_desc: "GovFacts is a nonpartisan site dedicated to making government concepts and policies easier to understand. It provides clear, trustworthy explanations of programs, real-time tracking of Congress and agencies, and tools to strengthen civic engagement.",
   ameblo_name: "Ameba Blog (アメーバブログ)",
   ameblo_desc: "A popular Japanese blogging platform for personal diaries, celebrity updates, and community interaction.",
   friend_name: "Friend",
