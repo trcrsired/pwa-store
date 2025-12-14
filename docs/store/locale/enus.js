@@ -244,6 +244,8 @@ const L = {
   pwawasmexample_desc: "A progressive web app demo developed by the author of this PWA store. It loads a WebAssembly module, injects DOM fragments from C++ raw strings, and showcases offline caching with a service worker.",
   pwafastio_name: "PWA fast_io Demo",
   pwafastio_desc: "A progressive web app demo developed by the author of this PWA store. It showcases the fast_io C++ library in WebAssembly, demonstrating efficient string handling, pointer + length interop, and offline caching with a service worker.",
+  fastio_name: "fast_io",
+  fastio_desc: "fast_io is a modern C++20 library focused on high-performance and safe I/O operations. It provides efficient abstractions for file, console, and network I/O, designed to minimize overhead and maximize speed while maintaining type safety.",
   python_desc: "Python is a programming language that lets you work quickly and integrate systems more effectively.",
   rust_desc: "A language empowering everyone to build reliable and efficient software.",
   isocpp_name: "ISO C++",

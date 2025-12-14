@@ -550,6 +550,13 @@ export const categories = [
         url: "https://pwa-wasm-fast-io-demo.pages.dev"
       },
       {
+        name: "fast_io",
+        nameKey: "fastio_name",
+        descriptionKey: "fastio_desc",
+        icon: "icons/pwa/fastio.webp",
+        url: "https://fastio.pages.dev"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",
