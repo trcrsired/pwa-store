@@ -3481,6 +3481,24 @@ export const categories = [
         urlDisplay: "https://www.dollargeneral.com"
       },
       {
+        name: "Costco",
+        nameKey: "costco_name",
+        descriptionKey: "costco_desc",
+        icon: "icons/wrappers/costco.webp",
+        url: "/wrappers/costco",
+        apptype: "wrapper",
+        urlDisplay: "https://www.costco.com"
+      },
+      {
+        name: "Costco",
+        nameKey: "costco_name",
+        descriptionKey: "costco_desc",
+        icon: "icons/wrappers/costco.webp",
+        url: "/wrappers/costco",
+        apptype: "wrapper",
+        urlDisplay: "https://www.costco.com"
+      },
+      {
         name: "KFC",
         nameKey: "kfc_name",
         descriptionKey: "kfc_desc",

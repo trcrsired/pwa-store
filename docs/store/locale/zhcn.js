@@ -1067,6 +1067,8 @@ const L = {
   dollartree_desc: "Dollar Tree 是一家折扣零售连锁店，提供各类日用品、食品、派对用品和季节性商品，价格通常为 1 美元或略高。用户可以通过其网站进行线上购物、送货或到店自取。",
   dollargeneral_name: "Dollar General",
   dollargeneral_desc: "Dollar General 是一家折扣零售连锁店，提供价格实惠的日用品、食品、清洁用品、健康产品和季节性商品。用户可以通过其网站进行线上购物或到店购买，并享受每周优惠和数字优惠券。",
+  costco_name: "开市客(Costco)",
+  costco_desc: "开市客(Costco)是一家会员制的批发零售商，提供大包装食品、日用品、电子产品等优惠商品。会员可在线或到店购物，享受专属优惠，并使用药房、眼镜和旅行等配套服务。",
   kfc_name: "肯德基",
   kfc_desc: "全球知名快餐连锁，以炸鸡闻名，支持在线点餐、优惠活动和门店查询。",
   kfccn_name: "肯德基(中国)",

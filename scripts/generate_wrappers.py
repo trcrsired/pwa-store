@@ -94,6 +94,7 @@ WRAPPERS = [
   { "name": "Safeway", "url": "https://www.safeway.com" },
   { "name": "Dollar Tree", "url": "https://www.dollartree.com" },
   { "name": "Dollar General", "url": "https://www.dollargeneral.com" },
+  { "name": "Costco", "url": "https://www.costco.com" },
   { "name": "Lyft", "url": "https://www.lyft.com" },
   { "name": "Delish", "url": "https://www.delish.com" },
   { "name": "USPS", "url": "https://www.usps.com"},

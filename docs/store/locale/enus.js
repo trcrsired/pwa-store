@@ -1066,6 +1066,8 @@ const L = {
   dollartree_desc: "Dollar Tree is a discount retail chain offering a wide variety of household goods, groceries, party supplies, and seasonal items, all typically priced at $1 or slightly above. Customers can shop online for delivery or in-store pickup.",
   dollargeneral_name: "Dollar General",
   dollargeneral_desc: "Dollar General is a discount retail chain offering affordable household goods, groceries, cleaning supplies, health products, and seasonal items. Customers can shop online or in-store, with weekly deals and digital coupons available through its website.",
+  costco_name: "Costco",
+  costco_desc: "Costco is a membership-based wholesale retailer offering bulk groceries, household goods, electronics, and more at discounted prices. Customers can shop online or in-store, access exclusive member deals, and enjoy services such as pharmacy, optical, and travel.",
   kfc_name: "KFC",
   kfc_desc: "Global fast food chain known for its fried chicken—order meals, explore deals, and find locations through its app or website.",
   kfccn_name: "KFC (CN)",
