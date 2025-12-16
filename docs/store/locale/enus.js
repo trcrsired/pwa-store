@@ -1068,6 +1068,8 @@ const L = {
   dollargeneral_desc: "Dollar General is a discount retail chain offering affordable household goods, groceries, cleaning supplies, health products, and seasonal items. Customers can shop online or in-store, with weekly deals and digital coupons available through its website.",
   costco_name: "Costco",
   costco_desc: "Costco is a membership-based wholesale retailer offering bulk groceries, household goods, electronics, and more at discounted prices. Customers can shop online or in-store, access exclusive member deals, and enjoy services such as pharmacy, optical, and travel.",
+  costcocn_name: "Costco(CN)",
+  costcocn_desc: "Costco(CN) is the official WeChat Mini Program for Costco China, providing members with access to online shopping, exclusive deals, and store services. Customers can browse bulk groceries, household goods, and electronics, and manage their membership conveniently through the app.",
   kfc_name: "KFC",
   kfc_desc: "Global fast food chain known for its fried chicken—order meals, explore deals, and find locations through its app or website.",
   kfccn_name: "KFC (CN)",

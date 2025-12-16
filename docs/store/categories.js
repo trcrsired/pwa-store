@@ -3490,13 +3490,12 @@ export const categories = [
         urlDisplay: "https://www.costco.com"
       },
       {
-        name: "Costco",
-        nameKey: "costco_name",
-        descriptionKey: "costco_desc",
-        icon: "icons/wrappers/costco.webp",
-        url: "/wrappers/costco",
-        apptype: "wrapper",
-        urlDisplay: "https://www.costco.com"
+        name: "Costco(CN)",
+        nameKey: "costcocn_name",
+        descriptionKey: "costcocn_desc",
+        icon: "icons/wechatmini/costcocn.webp",
+        url: "#小程序://Costco开市客/HKbhfdCirKRe20a",
+        apptype: "wechatmini"
       },
       {
         name: "KFC",
