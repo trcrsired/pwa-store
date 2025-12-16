@@ -3454,6 +3454,33 @@ export const categories = [
         urlDisplay: "https://www.doordash.com"
       },
       {
+        name: "Safeway",
+        nameKey: "safeway_name",
+        descriptionKey: "safeway_desc",
+        icon: "icons/wrappers/safeway.webp",
+        url: "/wrappers/safeway",
+        apptype: "wrapper",
+        urlDisplay: "https://www.safeway.com"
+      },
+      {
+        name: "Dollar Tree",
+        nameKey: "dollartree_name",
+        descriptionKey: "dollartree_desc",
+        icon: "icons/wrappers/dollartree.webp",
+        url: "/wrappers/dollartree",
+        apptype: "wrapper",
+        urlDisplay: "https://www.dollartree.com"
+      },
+      {
+        name: "Dollar General",
+        nameKey: "dollargeneral_name",
+        descriptionKey: "dollargeneral_desc",
+        icon: "icons/wrappers/dollargeneral.webp",
+        url: "/wrappers/dollargeneral",
+        apptype: "wrapper",
+        urlDisplay: "https://www.dollargeneral.com"
+      },
+      {
         name: "KFC",
         nameKey: "kfc_name",
         descriptionKey: "kfc_desc",

@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/dollargeneral",
+  "name": "Dollar General",
+  "short_name": "Dollar General",
+  "start_url": "/wrappers/dollargeneral/?source=pwa",
+  "scope": "/wrappers/dollargeneral/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Dollar General",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/dollargeneral/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
