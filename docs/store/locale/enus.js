@@ -933,6 +933,8 @@ const L = {
   ifixit_desc: "A global repair community offering free repair guides, plus tools and replacement parts for purchase.",
   webthree_name: "WebThree Wiki",
   webthree_desc: "An open knowledge hub focused on Web3, blockchain, and decentralized technologies.",
+  wowtoolsarchive_name: "WoW.tools Archive",
+  wowtoolsarchive_desc: "WoW.tools Archive is a companion site to WoW.tools, providing access to archived World of Warcraft data files. It allows browsing, searching, and downloading historical game assets, useful for research, modding, and community projects.",
   liquipedia_name: "Liquipedia",
   liquipedia_desc: "Liquipedia is an online encyclopedia focused on esports.",
   incelwiki_name: "Incel Wiki",

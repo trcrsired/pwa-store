@@ -934,6 +934,8 @@ const L = {
   ifixit_desc: "全球维修社区，提供免费的维修指南，并销售工具与替换零件。",
   webthree_name: "WebThree Wiki",
   webthree_desc: "开放的知识平台，聚焦Web3、区块链与去中心化技术。",
+  wowtoolsarchive_name: "WoW.tools Archive",
+  wowtoolsarchive_desc: "WoW.tools Archive 是 WoW.tools 的配套站点，提供对《魔兽世界》历史数据文件的访问。用户可以浏览、搜索和下载旧版本的游戏资源，用于研究、模组开发和社区项目。",
   liquipedia_name: "Liquipedia",
   liquipedia_desc: "Liquipedia 是专注于电子竞技的在线百科全书。",
   incelwiki_name: "非自愿独身者维基",

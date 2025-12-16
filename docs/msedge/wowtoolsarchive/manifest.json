@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/wowtoolsarchive",
+  "name": "WoW.tools Archive",
+  "short_name": "WoW.tools Archive",
+  "start_url": "/wrappers/wowtoolsarchive/?source=pwa",
+  "scope": "/wrappers/wowtoolsarchive/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Msedge for WoW.tools Archive",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/wowtoolsarchive/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

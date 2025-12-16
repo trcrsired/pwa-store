@@ -2998,6 +2998,16 @@ export const categories = [
 //apptype:desk
       },
       {
+        name: "WoW.tools Archive",
+        nameKey: "wowtoolsarchive_name",
+        descriptionKey: "wowtoolsarchive_desc",
+        icon: "icons/msedge/wowtoolsarchive.webp",
+        url: "https://archive.wow.tools",
+        apptype: "msedge",
+        url2: "/msedge/wowtoolsarchive",
+        apptype2: "wrapper",
+      },
+      {
         name: "Marxists Internet Archive",
         nameKey: "marxistsorg_name",
         descriptionKey: "marxistsorg_desc",
