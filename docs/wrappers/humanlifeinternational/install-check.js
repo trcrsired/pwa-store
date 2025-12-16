@@ -1,7 +1,3 @@
-function hasBeenInstalled(key) {
-  return localStorage.getItem(key) === "true";
-}
-
 function isStandalone() {
   return window.matchMedia("(display-mode: standalone)").matches ||
          window.navigator.standalone === true;
@@ -14,7 +10,7 @@ function isFromPWA() {
 }
 
 // Setup install prompt UI
-function setupInstallUI(statusEl, installBtn, localStorageKey) {
+function setupInstallUI(statusEl, installBtn) {
   if (!statusEl) return;
 
   if (isStandalone()) {
@@ -42,7 +38,8 @@ function setupInstallUI(statusEl, installBtn, localStorageKey) {
 // Main logic: jump if launched from PWA, otherwise show install UI
 function install_or_jump() {
   if (!window.appConfig) return;
-  const { url, localStorageKey } = window.appConfig;
+  const { url } = window.appConfig;
+  if (!url) return;
   const statusEl = document.getElementById("status");
   const installBtn = document.getElementById("install");
 
@@ -51,7 +48,7 @@ function install_or_jump() {
     window.location.href = url;
   } else {
     // Otherwise, show install prompt UI
-    setupInstallUI(statusEl, installBtn, localStorageKey);
+    setupInstallUI(statusEl, installBtn);
   }
 }
 

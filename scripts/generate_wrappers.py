@@ -301,9 +301,7 @@ def keyify(name):
 # 🧩 Templates
 CONFIG_JS = """window.appConfig = {{
   title: "{title}",
-  url: "{url}",
-  cacheName: "pwa-{key}",
-  localStorageKey: "{key}_installed"
+  url: "{url}"
 }};
 """
 
