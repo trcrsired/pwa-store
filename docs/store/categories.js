@@ -5132,6 +5132,14 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
+        name: "Fudan eHall (复旦eHall)",
+        nameKey: "fudanehall_name",
+        descriptionKey: "fudanehall_desc",
+        icon: "icons/wechatmini/fudanehall.webp",
+        url: "#小程序://复旦eHall/c660ygF7AshnrSk",
+        apptype: "wechatmini"
+      },
+      {
         name: "Renmin University of China (中国人民大学)",
         nameKey: "rucminiapp_name",
         descriptionKey: "rucminiapp_desc",

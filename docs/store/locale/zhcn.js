@@ -1493,6 +1493,8 @@ const L = {
   fudanalumnicard_desc: "由复旦大学校友总会与信息化办公室联合开发，复旦校友卡微信小程序支持校友身份认证，返校扫码通行，食堂就餐，图书馆预约等功能。未来将陆续推出出行、金融、购物等专属福利，打造校友与母校之间的数字纽带。",
   fudansmartsports_name: "复旦智慧体育",
   fudansmartsports_desc: "复旦大学师生专属的校园健身平台，支持运动记录、场馆预约与健康数据整合。",
+  fudanehall_name: "复旦eHall",
+  fudanehall_desc: "复旦eHall是复旦大学的综合服务平台，通过微信小程序为师生提供教务、行政和校园事务办理入口。",
   rucminiapp_name: "中国人民大学",
   rucminiapp_desc: "中国人民大学官方微信小程序，提供校园服务、新闻资讯与教学工具。",
   bosszhipin_name: "BOSS直聘",
