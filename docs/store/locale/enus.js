@@ -1277,6 +1277,8 @@ const L = {
   internationalcompetitionnetwork_name: "International Competition Network",
   internationalcompetitionnetwork_desc: "A global network of competition authorities promoting antitrust enforcement and policy cooperation.",
   healthinsurance_name: "Health & Insurance",
+  teethtalkgirl_name: "Teeth Talk Girl",
+  teethtalkgirl_desc: "Teeth Talk Girl is a dental health education site created by Whitney DiFoggio, RDH. It offers evidence-based articles, oral care tips, product reviews, and resources to help people improve their oral hygiene and make informed dental decisions.",
   digitalexpertgehealthcare_name: "Digital Expert GE HealthCare",
   digitalexpertgehealthcare_desc: "Digital Expert by GE HealthCare is a cloud-based platform that connects clinicians with real-time support, training, and expert guidance. Designed to enhance diagnostic confidence and workflow efficiency, it empowers healthcare professionals with on-demand access to clinical expertise and digital tools.",
   calm_name: "Calm",

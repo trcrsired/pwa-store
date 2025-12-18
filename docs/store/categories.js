@@ -4771,6 +4771,13 @@ export const categories = [
     nameKey: "healthinsurance_name",
     apps : [
       {
+        name: "Teeth Talk Girl",
+        nameKey: "teethtalkgirl_name",
+        descriptionKey: "teethtalkgirl_desc",
+        icon: "icons/pwa/teethtalkgirl.webp",
+        url: "https://www.teethtalkgirl.com"
+      },
+      {
         name: "GE HealthCare Digital Expert",
         nameKey: "digitalexpertgehealthcare_name",
         descriptionKey: "digitalexpertgehealthcare_desc",

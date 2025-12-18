@@ -1278,6 +1278,8 @@ const L = {
   internationalcompetitionnetwork_name: "国际竞争网络(International Competition Network)",
   internationalcompetitionnetwork_desc: "全球竞争执法机构网络，推动反垄断执法与政策合作。",
   healthinsurance_name: "健康和保险",
+  teethtalkgirl_name: "Teeth Talk Girl",
+  teethtalkgirl_desc: "Teeth Talk Girl 是由注册牙科卫生师 Whitney DiFoggio 创建的牙科健康教育网站。它提供循证文章、口腔护理技巧、产品评测和资源，帮助人们改善口腔卫生并做出明智的牙科选择。",
   digitalexpertgehealthcare_name: "Digital Expert GE HealthCare",
   digitalexpertgehealthcare_desc: "Digital Expert 是 GE HealthCare 推出的云端平台，可为临床医生提供实时支持、培训和专家指导。该平台旨在提升诊断信心与工作效率，使医疗专业人员能够按需访问临床专长与数字工具。",
   calm_name: "Calm",
