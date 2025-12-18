@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/chipsandcheese",
+  "name": "Chips and Cheese",
+  "short_name": "Chips and Cheese",
+  "start_url": "/wrappers/chipsandcheese/?source=pwa",
+  "scope": "/wrappers/chipsandcheese/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Msedge for Chips and Cheese",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/chipsandcheese/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

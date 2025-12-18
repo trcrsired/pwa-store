@@ -537,6 +537,8 @@ const L = {
   windowslatest_desc: "A technology news site covering Microsoft Windows, updates, apps, and PC industry trends.",
   windowsreport_name: "Windows Report",
   windowsreport_desc: "A technology news site delivering updates, guides, and troubleshooting tips for Microsoft Windows and software.",
+  chipsandcheese_name: "Chips and Cheese",
+  chipsandcheese_desc: "Chips and Cheese is a technology blog focused on computer architecture, semiconductors, and performance analysis. It provides in-depth articles on CPUs, GPUs, memory systems, and industry trends, written by enthusiasts with a passion for hardware and engineering.",
   laptopmag_name: "Laptop Mag",
   laptopmag_desc: "Laptop Mag is a trusted source for laptop reviews, buying guides, and tech news. It provides expert analysis, performance benchmarks, and recommendations to help users choose the best laptops and accessories.",
   rutrackerorg_name: "RuTracker.org",

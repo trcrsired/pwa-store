@@ -39,6 +39,7 @@ WRAPPERS = [
   { "name": "App Store", "url": "https://apps.apple.com", "keyify_name": "appleappstore" },
   { "name": "AppAdvice", "url": "https://appadvice.com" },
   { "name": "BTSOW", "url": "https://btsow.lol" },
+  { "name": "Chips and Cheese", "url": "https://chipsandcheese.com", "apptype": "msedge" },
   { "name": "Laptop Mag", "url": "https://www.laptopmag.com", "apptype": "msedge" },
   { "name": "Level1Techs", "url": "https://level1techs.com" },
   { "name": "Gamers Nexus", "url": "https://gamersnexus.net" },

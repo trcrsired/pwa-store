@@ -1902,6 +1902,15 @@ export const categories = [
         url: "https://gadgets.beebom.com"
       },
       {
+        name: "Chips and Cheese",
+        nameKey: "chipsandcheese_name",
+        descriptionKey: "chipsandcheese_desc",
+        icon: "icons/msedge/chipsandcheese.webp",
+        apptype: "msedge",
+        url: "https://chipsandcheese.com",
+        url2: "/msedge/chipsandcheese",
+      },
+      {
         name: "Laptop Mag",
         nameKey: "laptopmag_name",
         descriptionKey: "laptopmag_desc",
