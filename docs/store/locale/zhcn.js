@@ -1581,6 +1581,8 @@ const L = {
   xiaolongkanhotpot_desc: "小龙坎火锅官方小程序，支持在线预约、菜单浏览及门店服务。",
   xiaoxiang_name: "小象超市",
   xiaoxiang_desc: "美团自营的即时零售服务，前身为美团买菜。",
+  hemafresh_name: "盒马鲜生",
+  hemafresh_desc: "盒马鲜生是阿里巴巴旗下的新零售生鲜超市，通过微信小程序提供生鲜配送、到店自提、熟食餐饮和日常用品等服务，主打便捷与高品质。",
   tencenthealth_name: "腾讯健康",
   tencenthealth_desc: "腾讯健康提供健康管理、预约挂号及多种医疗服务，助您全面掌握健康状况。",
   keep_name: "Keep运动助手",

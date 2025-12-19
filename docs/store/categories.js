@@ -3767,6 +3767,14 @@ export const categories = [
         url: "#小程序://小象超市/7dDGE9akeD35Azv",
         apptype: "wechatmini"
       },
+      {
+        name: "Hema Fresh (盒马鲜生)",
+        nameKey: "hemafresh_name",
+        descriptionKey: "hemafresh_desc",
+        icon: "icons/wechatmini/hemafresh.webp",
+        url: "#小程序://盒马鲜生/VKVFl07noDybKUc",
+        apptype: "wechatmini"
+      },
     ]
   },
   {

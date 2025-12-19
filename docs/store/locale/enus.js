@@ -1581,6 +1581,8 @@ const L = {
   xiaolongkanhotpot_desc: "Official mini app of Xiaolongkan Hotpot, offering online reservations, menu browsing, and store services.",
   xiaoxiang_name: "Xiaoxiang Supermarket (小象超市)",
   xiaoxiang_desc: "Meituan’s self-operated instant retail service, upgraded from Meituan Maicai.",
+  hemafresh_name: "Hema Fresh (盒马鲜生)",
+  hemafresh_desc: "Hema Fresh is Alibaba’s smart grocery and fresh food retail platform, offering fast delivery, in‑store pickup, and a wide selection of fresh produce, prepared meals, and daily essentials through its WeChat Mini Program.",
   tencenthealth_name: "Tencent Health (腾讯健康)",
   tencenthealth_desc: "Track your health, manage appointments, and access wellness services with Tencent Health.",
   keep_name: "Keep Fitness Assistant (Keep运动助手)",
