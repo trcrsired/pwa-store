@@ -691,6 +691,15 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "LearnCpp",
+        nameKey: "learncpp_name",
+        descriptionKey: "learncpp_desc",
+        icon: "icons/wrappers/learncpp.webp",
+        url: "/wrappers/learncpp",
+        apptype: "wrapper",
+        urlDisplay: "https://www.learncpp.com"
+      },
+      {
         name: "Mini Program Demo",
         nameKey: "miniprogramdemo_name",
         descriptionKey: "miniprogramdemo_desc",

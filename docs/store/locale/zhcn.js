@@ -272,6 +272,8 @@ const L = {
   dontkillmyapp_desc: "列出各大安卓厂商对后台应用的管理方式，并提供改善稳定性的设置建议。",
   microsoftclarity_name: "微软Clarity",
   microsoftclarity_desc: "微软Clarity是一款免费的分析工具，通过热图、会话回放和行为洞察，帮助您优化网站的用户体验。",
+  learncpp_name: "LearnCpp",
+  learncpp_desc: "LearnCpp 是一个系统化的现代 C++ 在线学习网站，提供结构化课程、示例和讲解，涵盖 C++ 基础、面向对象编程、模板、内存管理以及高级语言特性。",
   cloudflare_desc: "Cloudflare 是一个被广泛采用的平台，提供网络、安全和性能服务，以提升网站、应用程序和在线服务的功能。由于其强大的功能和全球基础设施，从个人开发者到大型企业的各类用户都在使用它。",
   yandex_name: "Yandex",
   yandex_desc: "Yandex 由 Arkady Volozh、Arkady Borkovsky 和 Ilya Segalovich 创立，总部位于俄罗斯莫斯科，是一家提供搜索、地图、云计算、流媒体、电商和网约车等多种服务的科技公司。Yandex 搜索在俄罗斯市场占据主导地位，支持文本、语音和图像查询，并拥有自主的搜索基础设施。虽然 Yandex 不使用必应的 API 获取搜索结果，但它通过 IndexNow 协议与必应合作，实现跨平台的 URL 快速索引。",

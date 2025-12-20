@@ -272,6 +272,8 @@ const L = {
   dontkillmyapp_desc: "Lists how different Android manufacturers handle background apps and offers guidance to improve reliability.",
   microsoftclarity_name: "Microsoft Clarity",
   microsoftclarity_desc: "Microsoft Clarity is a free analytics tool that helps you understand user behavior through heatmaps, session recordings, and insights to improve website usability.",
+  learncpp_name: "LearnCpp",
+  learncpp_desc: "LearnCpp is a comprehensive online resource for learning modern C++. It provides structured lessons, examples, and explanations covering C++ fundamentals, object‑oriented programming, templates, memory management, and advanced language features.",
   cloudflare_desc: "Cloudflare is a widely adopted platform that provides networking, security, and performance services to enhance the functionality of websites, applications, and online services. It is used by a diverse range of users, from individual developers to large enterprises, due to its robust features and global infrastructure.",
   yandex_name: "Yandex",
   yandex_desc: "Founded by Arkady Volozh, Arkady Borkovsky, and Ilya Segalovich, Yandex is a Russian technology company headquartered in Moscow. It offers a wide range of services including search, maps, cloud computing, streaming media, e-commerce, and ridesharing. Yandex Search is the dominant engine in Russia, supporting text, voice, and image queries with its own independent infrastructure. While Yandex does not use Bing’s API for search results, it collaborates with Bing via the IndexNow protocol to accelerate URL indexing across platforms.",

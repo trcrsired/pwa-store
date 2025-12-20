@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/learncpp",
+  "name": "LearnCpp",
+  "short_name": "LearnCpp",
+  "start_url": "/wrappers/learncpp/?source=pwa",
+  "scope": "/wrappers/learncpp/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for LearnCpp",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/learncpp/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
