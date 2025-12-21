@@ -2279,6 +2279,13 @@ export const categories = [
         url: "https://govfacts.org",
         descriptionKey: "govfacts_desc"
       },
+      {
+        name: "WION News",
+        nameKey: "wionews_name",
+        descriptionKey: "wionews_desc",
+        icon: "icons/pwa/wionews.webp",
+        url: "https://www.wionews.com"
+      },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url: "/wrappers/nytimes", urlDisplay: "https://www.nytimes.com", apptype: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url: "/wrappers/washingtonpost", urlDisplay: "https://www.washingtonpost.com", apptype: "wrapper" },
       { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url: "/wrappers/reuters", urlDisplay: "https://www.reuters.com", apptype: "wrapper" },

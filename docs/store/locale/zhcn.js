@@ -673,6 +673,8 @@ const L = {
   rferl_desc: "自由欧洲电台(RFE/RL)以26种语言在22个新闻受限国家提供未经审查的新闻与分析。",
   govfacts_name: "GovFacts",
   govfacts_desc: "GovFacts 是一个无党派网站，致力于帮助公众更容易理解政府概念和政策。它提供清晰可信的解读、实时跟踪国会和政府机构动态，并提供工具以促进公民参与。",
+  wionews_name: "WION News",
+  wionews_desc: "WION News 是印度 Zee Media 旗下的国际新闻媒体，总部位于印度。它提供全球政治、商业、科技、科学和国际事务的报道，并以印度视角呈现国际新闻。",
   ameblo_name: "Ameba博客 (アメーバブログ)",
   ameblo_desc: "日本流行的博客平台，提供个人日记、明星动态与社区互动功能。",
   friend_name: "Friend",
