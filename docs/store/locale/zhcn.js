@@ -246,6 +246,8 @@ const L = {
   pwafastio_desc: "由本 PWA 商店的作者开发的渐进式网络应用演示。展示了在 WebAssembly 中使用 fast_io C++ 库进行高效字符串处理、指针 + 长度交互，以及通过 Service Worker 的离线缓存功能。",
   fastio_name: "fast_io",
   fastio_desc: "fast_io 是一个现代化的 C++20 库，专注于高性能和安全的输入输出操作。它为文件、控制台和网络 I/O 提供高效抽象，旨在减少开销、提升速度，同时保持类型安全。",
+  webassemblysh_name: "WebAssembly.sh",
+  webassemblysh_desc: "WebAssembly.sh 是一个在线 WebAssembly 实验环境，允许用户在浏览器中运行编译为 WASM 的 Linux Shell 命令。它提供轻量级的环境，用于测试基于 WASM 的工具和命令行程序。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
   rust_desc: "一门可靠且高效的软件开发语言。",
   isocpp_name: "ISO C++",

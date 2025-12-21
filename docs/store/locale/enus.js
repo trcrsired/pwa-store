@@ -246,6 +246,8 @@ const L = {
   pwafastio_desc: "A progressive web app demo developed by the author of this PWA store. It showcases the fast_io C++ library in WebAssembly, demonstrating efficient string handling, pointer + length interop, and offline caching with a service worker.",
   fastio_name: "fast_io",
   fastio_desc: "fast_io is a modern C++20 library focused on high-performance and safe I/O operations. It provides efficient abstractions for file, console, and network I/O, designed to minimize overhead and maximize speed while maintaining type safety.",
+  webassemblysh_name: "WebAssembly.sh",
+  webassemblysh_desc: "WebAssembly.sh is an online WebAssembly playground that lets users run Linux shell commands compiled to WebAssembly directly in the browser. It provides a lightweight environment for experimenting with WASM-based tooling and command-line utilities.",
   python_desc: "Python is a programming language that lets you work quickly and integrate systems more effectively.",
   rust_desc: "A language empowering everyone to build reliable and efficient software.",
   isocpp_name: "ISO C++",

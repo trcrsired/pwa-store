@@ -557,6 +557,13 @@ export const categories = [
         url: "https://fastio.pages.dev"
       },
       {
+        name: "WebAssembly.sh",
+        nameKey: "webassemblysh_name",
+        descriptionKey: "webassemblysh_desc",
+        icon: "icons/pwa/webassemblysh.webp",
+        url: "https://webassembly.sh"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",
