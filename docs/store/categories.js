@@ -56,6 +56,13 @@ export const categories = [
         icon: "icons/pwa/onlinecompass.webp",
         url: "https://onlinecompass.app"
       },
+      {
+        name: "Media Analyzer & Audio Extractor",
+        nameKey: "mediaanalyzer_name",
+        descriptionKey: "mediaanalyzer_desc",
+        icon: "icons/pwa/mediaanalyzer.webp",
+        url: "icons/pwa/mediaanalyzer",
+      },
     ]
   },
   {

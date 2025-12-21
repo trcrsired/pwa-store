@@ -73,6 +73,8 @@ const L = {
   wasmpass_desc: "WasmPass is a progressive web app written by the author of this PWA store. It is powered by the C++ fast_io library compiled to WebAssembly, and is based on an example from the fast_io library itself. WasmPass generates secure credentials including passwords, usernames, and PINs of various lengths with options for special characters. Data can be saved locally, and the project is licensed under GPLv3.",
   onlinecompass_name: "Online Compass",
   onlinecompass_desc: "Online Compass is a progressive web app that provides a digital compass in your browser. It uses device orientation and geolocation to show accurate directions without requiring installation.",
+  mediaanalyzer_name: "Media Analyzer & Audio Extractor",
+  mediaanalyzer_desc: "A free online tool that extracts audio from video files and displays media metadata locally, without uploading your files to a server.",
   "alternatives_name": "Alternatives",
   qrcodetools_name: "QR Code Tools",
   qrcodetools_desc: "Generate, scan, and manage QR codes with ease. Ideal for developers, marketers, and everyday users.",
