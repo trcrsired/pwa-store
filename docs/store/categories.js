@@ -3676,6 +3676,15 @@ export const categories = [
         urlDisplay: "https://in.luckincoffee.com"
       },
       {
+        name: "Samsung",
+        nameKey: "samsung_name",
+        descriptionKey: "samsung_desc",
+        icon: "icons/wrappers/samsung.webp",
+        url: "/wrappers/samsung",
+        apptype: "wrapper",
+        urlDisplay: "https://www.samsung.com"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",
@@ -5472,6 +5481,13 @@ export const categories = [
         descriptionKey: "theporndude_desc",
         icon: "icons/pwa/theporndude.webp",
         url: "https://theporndude.com"
+      },
+      {
+        name: "xHamster",
+        nameKey: "xhamster_name",
+        descriptionKey: "xhamster_desc",
+        icon: "icons/pwa/xhamster.webp",
+        urlDisplay: "https://xhamster.com"
       },
       {
         name: "JavHDPorn Live",
