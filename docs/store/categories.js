@@ -1693,11 +1693,18 @@ export const categories = [
         url: "https://forums.windowscentral.com"
       },
       {
-        name: "Mac Rumors",
+        name: "MacRumors",
         nameKey: "macrumors_name",
         descriptionKey: "macrumors_desc",
         icon: "icons/pwa/macrumors.webp",
         url: "https://www.macrumors.com"
+      },
+      {
+        name: "MacRumors Forums",
+        nameKey: "macrumorsforums_name",
+        descriptionKey: "macrumorsforums_desc",
+        icon: "icons/pwa/macrumorsforums.webp",
+        url: "https://forums.macrumors.com"
       },
       {
         name: "Android Sage",

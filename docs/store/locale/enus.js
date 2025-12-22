@@ -454,6 +454,8 @@ const L = {
   windowscentralforum_desc: "A community forum for Windows enthusiasts to discuss devices, software, updates, and troubleshooting. Covers Microsoft products, Surface hardware, and mobile platforms.",
   macrumors_name: "MacRumors",
   macrumors_desc: "Apple-focused tech reporting and insights.",
+  macrumorsforums_name: "MacRumors Forums",
+  macrumorsforums_desc: "MacRumors Forums is a large online community focused on Apple news, rumors, software, hardware, and user discussions. It includes sections for iPhone, iPad, Mac, iOS, macOS, troubleshooting, accessories, and general tech conversations.",
   androidsage_name: "Android Sage",
   androidsage_desc: "Android Sage is a tech blog dedicated to Android updates, downloads, tutorials, and app development. It covers topics like Samsung One UI, Android Auto, Pixel Watch apps, and AI features—serving both enthusiasts and developers with practical guides and APK links.",
   androidheadlines_name: "Android Headlines",
