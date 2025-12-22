@@ -4776,11 +4776,11 @@ export const categories = [
         name: "analytics.usa.gov",
         nameKey: "analyticsusagov_name",
         descriptionKey: "analyticsusagov_desc",
-        icon: "icons/wrappers/analyticsusagov.webp",
+        icon: "icons/msedge/analyticsusagov.webp",
         apptype: "msedge",
         url: "https://analytics.usa.gov",
         apptype2: "wrapper",
-        url2: "/wrappers/analyticsusagov"
+        url2: "/msedge/analyticsusagov"
       },
       {
         name: "ID.me",
