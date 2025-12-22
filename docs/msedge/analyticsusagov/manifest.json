@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/analyticsusagov",
+  "name": "analytics.usa.gov",
+  "short_name": "analytics.usa.gov",
+  "start_url": "/wrappers/analyticsusagov/?source=pwa",
+  "scope": "/wrappers/analyticsusagov/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Msedge for analytics.usa.gov",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/analyticsusagov/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

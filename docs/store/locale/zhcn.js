@@ -1295,6 +1295,8 @@ const L = {
   nasa_desc: "探索太空与航空技术，开展科学研究，领导地球、太阳系和宇宙的探索任务。访问新闻、图片、视频以及发射和发现的实时报道。",
   whitehouse_name: "白宫",
   whitehouse_desc: "美国总统的官邸与办公地点——了解行政部门的政策、新闻发布、历史档案和国家重点事务。访问总统办公室资源，掌握国家最新动态。",
+  analyticsusagov_name: "analytics.usa.gov",
+  analyticsusagov_desc: "analytics.usa.gov 提供美国联邦政府网站的实时与历史访问数据，由 GSA 的数字分析项目（DAP）运营，汇总活跃用户、页面浏览量、文件下载量以及各政府机构的访问分析等指标。",
   idme_name: "ID.me",
   idme_desc: "ID.me 是一个私人数字身份平台，受到美国政府机构的信任，用于安全的在线访问。它帮助用户验证身份，访问公共服务，并为军人、学生、急救人员等认证群体提供专属福利。",
   cngov_name: "中国政府🇨🇳",

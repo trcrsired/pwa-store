@@ -136,6 +136,7 @@ WRAPPERS = [
   { "name": "OMB", "url": "https://www.whitehouse.gov/omb" },
   { "name": "NASA", "url": "https://www.nasa.gov" },
   { "name": "White House", "url": "https://www.whitehouse.gov", "keyify_name": "whitehouse" },
+  { "name": "analytics.usa.gov", "url": "https://analytics.usa.gov", "keyify_name": "analyticsusagov", "apptype": "msedge" },
   { "name": "ID.me", "url": "https://id.me", "keyify_name": "idme" },
 
   { "name": "中国政府网", "url": "https://www.gov.cn", "keyify_name": "govcn" },

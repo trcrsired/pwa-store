@@ -1294,6 +1294,8 @@ const L = {
   nasa_desc: "National Aeronautics and Space Administration—explores space and aeronautics, conducts scientific research, and leads missions to study Earth, the solar system, and the universe. Access news, images, videos, and live coverage of launches and discoveries.",
   whitehouse_name: "White House",
   whitehouse_desc: "Official residence and workplace of the President of the United States—explore executive branch initiatives, press releases, policy updates, and historical archives. Access resources from the Office of the President and stay informed on national priorities.",
+  analyticsusagov_name: "analytics.usa.gov",
+  analyticsusagov_desc: "analytics.usa.gov provides real‑time and historical web traffic data for U.S. federal government websites. It is operated by the GSA’s Digital Analytics Program and aggregates metrics such as active users, page views, downloads, and agency‑specific analytics across government domains.",
   idme_name: "ID.me",
   idme_desc: "ID.me is a private digital identity platform trusted by U.S. government agencies for secure online access. It helps users verify their identity, access public services, and unlock exclusive benefits for verified groups like military personnel, students, and first responders.",
   cngov_name: "Chinese Government🇨🇳",

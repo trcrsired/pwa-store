@@ -4773,6 +4773,16 @@ export const categories = [
         descriptionKey: "whitehouse_desc",
       },
       {
+        name: "analytics.usa.gov",
+        nameKey: "analyticsusagov_name",
+        descriptionKey: "analyticsusagov_desc",
+        icon: "icons/wrappers/analyticsusagov.webp",
+        apptype: "msedge",
+        url: "https://analytics.usa.gov",
+        apptype: "wrapper",
+        url2: "/wrappers/analyticsusagov"
+      },
+      {
         name: "ID.me",
         nameKey: "idme_name",
         icon: "icons/wrappers/idme.webp",
