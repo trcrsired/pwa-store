@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pwa-store-7x5.pages.dev/sitemap.xml
