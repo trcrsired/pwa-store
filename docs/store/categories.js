@@ -571,6 +571,13 @@ export const categories = [
         url: "https://webassembly.sh"
       },
       {
+        name: "Love2Dev",
+        nameKey: "love2dev_name",
+        descriptionKey: "love2dev_desc",
+        icon: "icons/pwa/love2dev.webp",
+        url: "https://love2dev.com"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",
@@ -1121,6 +1128,13 @@ export const categories = [
         url: "https://meet.jit.si",
         nameKey: "jitsi_name",
         descriptionKey: "jitsi_desc",
+      },
+      {
+        name: "CCred",
+        nameKey: "ccred_name",
+        descriptionKey: "ccred_desc",
+        icon: "icons/pwa/ccred.webp",
+        url: "https://ccred.xyz"
       },
       {
         name: "Zoosk",
@@ -2477,7 +2491,6 @@ export const categories = [
         descriptionKey: "genshincloud_desc",
         icon: "icons/pwa/genshincloud.webp",
         url: "https://ys.mihoyo.com/cloud",
-        apptype: "pwa"
       },
       {
         name: "ClassicGames.gg",
@@ -2569,6 +2582,20 @@ export const categories = [
         descriptionKey: "impresstochess_desc",
         icon: "icons/pwa/impresstochess.webp",
         url: "https://impressto.ca/chess"
+      },
+      {
+        name: "TrySolitaire",
+        nameKey: "trysolitaire_name",
+        descriptionKey: "trysolitaire_desc",
+        icon: "icons/pwa/trysolitaire.webp",
+        url: "https://trysolitaire.com"
+      },
+      {
+        name: "Gokuro",
+        nameKey: "gokuro_name",
+        descriptionKey: "gokuro_desc",
+        icon: "icons/pwa/gokuro.webp",
+        url: "https://gokuro.net"
       },
       {
         name: "Red Alert 2: Chrono Divide",
