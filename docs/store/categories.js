@@ -4779,7 +4779,7 @@ export const categories = [
         icon: "icons/wrappers/analyticsusagov.webp",
         apptype: "msedge",
         url: "https://analytics.usa.gov",
-        apptype: "wrapper",
+        apptype2: "wrapper",
         url2: "/wrappers/analyticsusagov"
       },
       {
