@@ -63,6 +63,13 @@ export const categories = [
         icon: "icons/pwa/mediaanalyzer.webp",
         url: "icons/pwa/mediaanalyzer",
       },
+      {
+        name: "Project Sekai Stickers",
+        nameKey: "pjskstickers_name",
+        descriptionKey: "pjskstickers_desc",
+        icon: "icons/pwa/pjskstickers.webp",
+        url: "https://st.ayaka.one/",
+      },
     ]
   },
   {
@@ -2004,6 +2011,13 @@ export const categories = [
         descriptionKey: "v2ex_desc",
         icon: "icons/pwa/v2ex.webp",
         url: "https://global.v2ex.co"
+      },
+      {
+        name: "Emacs China",
+        namekey: "emacschina_name",
+        descriptionKey: "emacschina_desc",
+        icon: "icons/pwa/emacschina.webp",
+        url: "https://emacs-china.org"
       },
     ]
   },
