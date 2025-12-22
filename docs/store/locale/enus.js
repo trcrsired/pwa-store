@@ -945,6 +945,8 @@ const L = {
   mingku_desc: "Mingku Literature is an online reading platform offering world classics, Chinese ancient masterpieces, modern literary works, and popular novels.",
   shuzhaige_name: "Shuzhaige (书斋阁)",
   shuzhaige_desc: "Shuzhaige is an online literature platform featuring classical Chinese works, world classics, film originals, and author collections.",
+  getkana_name: "Get Kana!",
+  getkana_desc: "Get Kana! is a learning app focused on teaching Japanese kana, including both hiragana and katakana. It provides progressive character lessons, reading practice, and simple drills designed to help learners master the Japanese syllabaries efficiently.",
   forums_name: "Forums",
   incelsis_name: "Incel.is",
   incelsis_desc: "Incel.is is an online discussion forum centered around the incel subculture. It provides a space for users to share perspectives, engage in dialogue, and explore topics related to romantic exclusion, social dynamics, and identity.",

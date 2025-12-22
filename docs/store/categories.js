@@ -3008,6 +3008,13 @@ export const categories = [
         apptype: "wrapper",
         url: "/wrappers/shuzhaige"
       },
+      {
+        name: "Get Kana!",
+        nameKey: "getkana_name",
+        descriptionKey: "getkana_desc",
+        icon: "icons/pwa/getkana.webp",
+        url: "https://getkana.com/app/"
+      },
     ]
   },
   {
