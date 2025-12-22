@@ -501,6 +501,8 @@ const L = {
   linuxdo_desc: "LINUX DO 是面向中文用户的 Linux 门户网站，提供新闻、教程、发行版信息与开源开发资源，服务于技术爱好者与专业人士。",
   juejin_name: "掘金",
   juejin_desc: "掘金是一个面向开发者的中文技术社区与内容平台，涵盖前端、后端、移动开发、人工智能等多个领域，提供高质量文章、教程与技术讨论。平台聚集了工程师、设计师与产品经理，致力于技术成长、开源分享与职业发展。",
+  emacschina_name: "Emacs China",
+  emacschina_desc: "可能是最好的 Emacs 中文论坛",
   xueqiu_name: "雪球",
   xueqiu_desc: "一个中国投资平台，提供股票、基金与财经资讯的市场数据、资产跟踪与社区观点。",
   cryptocom_name: "Crypto.com",

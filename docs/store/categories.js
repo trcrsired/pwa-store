@@ -1998,6 +1998,13 @@ export const categories = [
         icon: "icons/pwa/v2ex.webp",
         url: "https://global.v2ex.co"
       },
+      {
+        name: "Emacs China",
+        namekey: "emacschina_name",
+        descriptionKey: "emacschina_desc",
+        icon: "icons/pwa/emacschina.webp",
+        url: "https://emacs-china.org"
+      },
     ]
   },
   {
