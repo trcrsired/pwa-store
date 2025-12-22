@@ -1605,6 +1605,9 @@ const L = {
   mymedicalvoucher_desc: "用于查看和管理个人医保凭证的官方小程序，支持相关服务办理。",
   nationalmedical_name: "国家医保",
   nationalmedical_desc: "国家医保官方小程序，提供政策查询、服务办理等功能。",
+  life_name: "生活",
+  chibicart_name: "ChibiCart",
+  chibicart_desc: "ChibiCart 是一款充满日漫风格的购物清单 PWA，提供 AI 图像生成、智能物品推荐等功能，让日常购物变得更有趣、更具视觉吸引力。",
 // native
   llvmreleases_name: "llvm-releases",
   llvmreleases_desc: "本PWA商店作者亲自构建的 LLVM 发行版，支持超过 15 个跨平台编译目标，并集成对应系统根。涵盖 aarch64-windows-msvc、aarch64-apple-darwin、riscv64-linux-gnu、loongarch64-linux-gnu、aarch64-windows-gnu、aarch64-linux-android30 及 wasm 等工具链。适用于需要可复现、多平台构建的开发者，该原生封装器可简化编译器部署与跨平台集成流程。",

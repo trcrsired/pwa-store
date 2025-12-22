@@ -1605,6 +1605,9 @@ const L = {
   mymedicalvoucher_desc: "Mini app for accessing your personal medical insurance certificate and related services.",
   nationalmedical_name: "National Medical Insurance (国家医保)",
   nationalmedical_desc: "Official mini app for China’s national medical insurance system, offering policy access and service tools.",
+  life_name: "Life",
+  chibicart_name: "ChibiCart",
+  chibicart_desc: "ChibiCart is a delightful shopping list PWA featuring AI-powered image generation, smart item suggestions, and a charming Japanese manga-inspired interface. It transforms everyday shopping into a visually engaging and personalized experience.",
 // native
   llvmreleases_name: "llvm-releases",
   llvmreleases_desc: "Personal builds by the author of this PWA Store, offering a custom LLVM distribution with over 15 cross-compiled targets and bundled sysroots. Includes toolchains for aarch64-windows-msvc, aarch64-apple-darwin, riscv64-linux-gnu, loongarch64-linux-gnu, aarch64-windows-gnu, aarch64-linux-android30, and wasm. Designed for reproducible, multi-target development across platforms, this native wrapper streamlines compiler deployment and cross-platform integration.",

@@ -4940,6 +4940,19 @@ export const categories = [
     ]
   },
   {
+    name: "Life",
+    nameKey: "life_name",
+    apps: [
+      {
+        name: "ChibiCart",
+        nameKey: "chibicart_name",
+        descriptionKey: "chibicart_desc",
+        icon: "icons/pwa/chibicart.webp",
+        url: "https://chibicart.com"
+      },
+    ]
+  },
+  {
     name: "Sports",
     nameKey: "sports_name",
     apps: [
