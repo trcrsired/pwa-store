@@ -3268,6 +3268,13 @@ export const categories = [
         url: "https://www.statscrop.com"
       },
       {
+        name: "Semrush",
+        nameKey: "semrush_name",
+        descriptionKey: "semrush_desc",
+        icon: "icons/pwa/semrush.webp",
+        url: "https://www.semrush.com"
+      },
+      {
         name: "BrowserBench",
         nameKey: "browserbench_name",
         descriptionKey: "browserbench_desc",

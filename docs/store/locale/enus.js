@@ -1015,6 +1015,8 @@ const L = {
   onlinemictest_desc: "Instantly test your microphone online with no downloads required. Useful for troubleshooting audio input on any device.",
   statscrop_name: "StatsCrop",
   statscrop_desc: "A website analytics platform offering traffic estimates, domain insights, and SEO performance data.",
+  semrush_name: "Semrush",
+  semrush_desc: "Semrush is a data‑driven SEO and digital marketing platform offering keyword research, competitor analysis, site audits, backlink tracking, and online visibility insights. It provides a comprehensive toolkit used by marketers, businesses, and enterprises to grow search performance and digital reach.",
   browserbench_name: "BrowserBench",
   browserbench_desc: "MotionMark is a benchmark designed to put browser graphics systems to the test.",
   clearwebstats_name: "ClearWebStats",

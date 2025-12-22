@@ -1016,6 +1016,8 @@ const L = {
   onlinemictest_desc: "无需下载，即可在线测试麦克风。适用于排查各类设备的音频输入问题。",
   statscrop_name: "StatsCrop",
   statscrop_desc: "一个网站分析平台，提供流量估算、域名信息和SEO性能数据。",
+  semrush_name: "Semrush",
+  semrush_desc: "Semrush 是一款数据驱动的 SEO 与数字营销平台，提供关键词研究、竞争分析、网站审计、反向链接跟踪以及在线可见性洞察等工具，被广泛用于提升搜索表现和数字营销效果。",
   browserbench_name: "BrowserBench",
   browserbench_desc: "MotionMark 是一款用于测试浏览器图形系统性能的基准测试工具。",
   clearwebstats_name: "ClearWebStats",
