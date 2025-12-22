@@ -105,6 +105,7 @@ WRAPPERS = [
   { "name": "Delta Dental", "url": "https://www.deltadental.com", "keyify_name": "deltadental" },
   { "name": "Women's Health", "url": "https://www.womenshealthmag.com", "keyify_name": "womenshealth" },
   { "name": "Human Life International", "url": "https://www.hli.org" },
+  { "name": "NY Dental", "url": "https://www.nydentalgroup.com", "keyify_name": "nydentalgroup" },
   { "name": "VSIGO(视客眼镜)", "url": "https://www.vsigo.cn", "keyify_name": "vsigo" },
   { "name": "KFC", "url": "https://www.kfc.com" },
   { "name": "Subway", "url": "https://www.subway.com" },

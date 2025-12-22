@@ -1325,6 +1325,8 @@ const L = {
   womenshealth_desc: "Stay informed and inspired with Women's Health—covering fitness, nutrition, wellness, and lifestyle tips tailored for modern women.",
   humanlifeinternational_name: "Human Life International",
   humanlifeinternational_desc: "A global Catholic organization focused on pro-life advocacy, education, and support for life-affirming initiatives.",
+  nydentalgroup_name: "New York Dental Group",
+  nydentalgroup_desc: "New York Dental Group is a dental practice located in Vestal, NY, providing general, cosmetic, and restorative dentistry services including cleanings, implants, crowns, emergency care, and personalized treatment options.",
   vsigo_name: "VSIGO(视客眼镜)",
   vsigo_desc: "Online eyewear store offering contact lenses, colored lenses, sunglasses, and prescription glasses from top brands.",
   sports_name: "Sports",

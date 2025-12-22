@@ -4973,6 +4973,15 @@ export const categories = [
         urlDisplay: "https://www.hli.org"
       },
       {
+        name: "New York Dental Group",
+        nameKey: "nydentalgroup_name",
+        descriptionKey: "nydentalgroup_desc",
+        icon: "icons/wrappers/nydentalgroup.webp",
+        url: "/wrappers/nydentalgroup",
+        apptype: "wrapper",
+        urlDisplay: "https://www.nydentalgroup.com"
+      },
+      {
         name: "VSIGO(视客眼镜)",
         nameKey: "vsigo_name",
         descriptionKey: "vsigo_desc",

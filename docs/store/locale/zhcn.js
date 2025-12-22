@@ -1326,6 +1326,8 @@ const L = {
   womenshealth_desc: "健康女性(Women's Health)提供女性健康资讯，包括健身、营养、生活方式与心理健康，助你活出精彩人生。",
   humanlifeinternational_name: "人类生命国际(Human Life International)",
   humanlifeinternational_desc: "一个全球性的天主教组织，致力于生命倡导、教育与支持维护生命的行动。",
+  nydentalgroup_name: "纽约牙科集团(New York Dental Group)",
+  nydentalgroup_desc: "纽约牙科集团(New York Dental Group)位于纽约州 Vestal，提供常规、美容及修复类牙科服务，包括洁牙、种植牙、牙冠、急诊治疗等，并强调个性化的诊疗方式。",
   vsigo_name: "视客眼镜",
   vsigo_desc: "正品隐形眼镜、美瞳、太阳镜与近视眼镜网购平台，提供多品牌配镜服务与优惠价格。",
   sports_name: "体育",
