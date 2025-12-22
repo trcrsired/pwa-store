@@ -695,6 +695,8 @@ const L = {
   jitsi_desc: "Jitsi Meet 是一个免费的开源视频会议平台，基于 WebRTC 在浏览器中运行。它支持即时会议，无需账号，提供屏幕共享、聊天功能，并可作为渐进式 Web 应用安装。",
   ccred_name: "CCred",
   ccred_desc: "CCred 是一款安全的端到端加密消息应用，使用量子安全的 AES 加密保护通信。消息密钥以不可导出的 CryptoKey 形式存储，并在支持的设备上通过基于 Passkey PRF 派生的密钥进一步加密，从而显著增强本地安全性。",
+  mailru_name: "Mail.ru",
+  mailru_desc: "Mail.ru 是一项免费的电子邮件与云服务，提供邮箱、云存储、日历和笔记等功能。支持密码、二维码、VK ID 以及政府账号等多种登录方式，并提供强大的搜索功能、移动端访问和界面主题自定义。",
   hindustantimes_name: "印度斯坦时报",
   hindustantimes_desc: "《印度斯坦时报》(Hindustan Times)是印度领先的英文报纸之一，提供全面的国内外新闻、政治、商业、体育、娱乐和生活方式报道。由HT Media有限公司拥有，以其可信的新闻报道和在印度主要城市广泛的读者群体而闻名。",
   nyt_name: "纽约时报",

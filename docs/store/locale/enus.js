@@ -695,6 +695,8 @@ const L = {
   jitsi_desc: "Jitsi Meet is a free, open-source video conferencing platform that runs in your browser using WebRTC. It allows instant meetings without accounts, supports screen sharing, chat, and can be installed as a Progressive Web App.",
   ccred_name: "CCred",
   ccred_desc: "CCred is a secure end-to-end encrypted messaging application using quantum-safe AES encryption. Message keys are stored as non-exportable CryptoKeys and, when supported, are additionally protected with a passkey-derived PRF key for significantly enhanced local security.",
+  mailru_name: "Mail.ru",
+  mailru_desc: "Mail.ru is a free email and cloud service offering mailbox access, cloud storage, calendars, and notes. It supports multiple sign‑in methods including passwords, QR codes, VK ID, and government ID integration, and provides advanced search, mobile access, and customizable themes.",
   hindustantimes_name: "Hindustan Times",
   hindustantimes_desc: "One of India's leading English-language newspapers, Hindustan Times delivers comprehensive coverage of national and international news, politics, business, sports, entertainment, and lifestyle. Owned by HT Media Ltd., it is known for its credible journalism and wide readership across major Indian cities.",
   nyt_name: "New York Times",

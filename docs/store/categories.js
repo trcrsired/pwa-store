@@ -1151,6 +1151,16 @@ export const categories = [
         url: "https://ccred.xyz"
       },
       {
+        name: "Mail.ru",
+        nameKey: "mailru_name",
+        descriptionKey: "mailru_desc",
+        icon: "icons/msedge/mailru.webp",
+        apptype: "msedge",
+        url: "https://mail.ru",
+        apptype2: "wrapper",
+        url2: "/msedge/mailru",
+      },
+      {
         name: "Zoosk",
         nameKey: "zoosk_name",
         icon: "icons/wrappers/zoosk.webp",

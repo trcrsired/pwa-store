@@ -78,6 +78,7 @@ WRAPPERS = [
   { "name": "MMO Champion", "url": "https://www.mmo-champion.com", "keyify_name": "mmo-champion" },
   { "name": "Target", "url": "https://www.target.com" },
   { "name": "TED", "url": "https://www.ted.com" },
+  { "name": "Mail.ru", "url": "https://mail.ru", "keyify_name": "mailru", "apptype": "msedge" },
   { "name": "Zoosk", "url": "https://zoosk.com" },
   { "name": "eHarmony", "url": "https://www.eharmony.com" },
   { "name": "ShareChat", "url": "https://sharechat.com" },
