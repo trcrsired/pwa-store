@@ -2356,7 +2356,7 @@ export const categories = [
       { name: "Foreign Policy", nameKey: "foreignpolicy_name", descriptionKey: "foreignpolicy_desc", icon: "icons/wrappers/foreignpolicy.webp", url: "/wrappers/foreignpolicy", urlDisplay: "https://foreignpolicy.com", apptype: "wrapper"},
       { name: "The Telegraph", nameKey: "thetelegraph_name", descriptionKey: "thetelegraph_desc", icon: "icons/wrappers/thetelegraph.webp", url: "/wrappers/thetelegraph", apptype: "wrapper", urlDisplay: "https://www.telegraph.co.uk" },
       { name: "CGTN", nameKey: "cgtn_name", descriptionKey: "cgtn_desc", icon: "icons/wrappers/cgtn.webp", url: "/wrappers/cgtn", apptype: "wrapper", urlDisplay: "https://www.cgtn.com" },
-      { name: "CCTV", nameKey: "cctv_name", descriptionKey: "cctv_desc", icon: "icons/wrappers/cctv.webp", url: "/wrappers/cctv", apptype: "wrapper", urlDisplay: "https://tv.cctv.com" },
+      { name: "CCTV", nameKey: "cctv_name", descriptionKey: "cctv_desc", icon: "icons/wrappers/cctv.webp", url2: "/wrappers/cctv", apptype2: "wrapper", apptype: "msedge", url: "https://tv.cctv.com" },
       { name: "Fortune", nameKey: "fortune_name", descriptionKey: "fortune_desc", icon: "icons/wrappers/fortune.webp", url: "/wrappers/fortune", apptype: "wrapper", urlDisplay: "https://fortune.com"},
       {
         name: "Scientific American",
