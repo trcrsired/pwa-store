@@ -2557,6 +2557,20 @@ export const categories = [
         url: "https://lichess.org"
       },
       {
+        name: "WordWalker",
+        nameKey: "wordwalker_name",
+        descriptionKey: "wordwalker_desc",
+        icon: "icons/pwa/wordwalker.webp",
+        url: "https://impressto.ca/wordwalker"
+      },
+      {
+        name: "Impressto Chess",
+        nameKey: "impresstochess_name",
+        descriptionKey: "impresstochess_desc",
+        icon: "icons/pwa/impresstochess.webp",
+        url: "https://impressto.ca/chess"
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",
