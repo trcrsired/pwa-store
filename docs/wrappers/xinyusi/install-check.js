@@ -28,7 +28,6 @@ function setupInstallUI(statusEl, installBtn) {
     e.preventDefault();
     installBtn.onclick = () => {
       e.prompt();
-      localStorage.setItem(localStorageKey, "true");
       statusEl.textContent = "Thanks! You can now launch the PWA from your home screen.";
       installBtn.style.display = "none";
     };
