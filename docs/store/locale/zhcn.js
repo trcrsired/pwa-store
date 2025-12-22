@@ -254,6 +254,8 @@ const L = {
   webassemblysh_desc: "WebAssembly.sh 是一个在线 WebAssembly 实验环境，允许用户在浏览器中运行编译为 WASM 的 Linux Shell 命令。它提供轻量级的环境，用于测试基于 WASM 的工具和命令行程序。",
   love2dev_name: "Love2Dev",
   love2dev_desc: "Love2Dev 是一个专注于渐进式网络应用开发与优化的网站，提供高性能 Web 应用构建、SEO 和现代 Web 技术的专业指导与工具，帮助开发者打造快速、可靠、体验出色的 PWA。",
+  freebsdforums_name: "FreeBSD 论坛",
+  freebsdforums_desc: "FreeBSD 论坛是 FreeBSD 操作系统的官方社区讨论区，提供新闻公告、技术支持以及用户之间的交流，涵盖 FreeBSD 的各类主题。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
   rust_desc: "一门可靠且高效的软件开发语言。",
   isocpp_name: "ISO C++",

@@ -68,7 +68,7 @@ export const categories = [
         nameKey: "pjskstickers_name",
         descriptionKey: "pjskstickers_desc",
         icon: "icons/pwa/pjskstickers.webp",
-        url: "https://st.ayaka.one/",
+        url: "https://st.ayaka.one",
       },
     ]
   },
@@ -475,7 +475,7 @@ export const categories = [
       {
         name: "v86",
         icon: "icons/pwa/v86.webp",
-        url: "https://copy.sh/v86/",
+        url: "https://copy.sh/v86",
         descriptionKey: "v86_desc",
       },
       {
@@ -583,6 +583,13 @@ export const categories = [
         descriptionKey: "love2dev_desc",
         icon: "icons/pwa/love2dev.webp",
         url: "https://love2dev.com"
+      },
+      {
+        name: "FreeBSD Forums",
+        nameKey: "freebsdforums_name",
+        descriptionKey: "freebsdforums_desc",
+        icon: "icons/pwa/freebsdforums.webp",
+        url: "https://forums.freebsd.org"
       },
       {
         name: "Python",
@@ -2473,7 +2480,7 @@ export const categories = [
         name: "Sling", nameKey: "sling_name", descriptionKey: "sling_Desc",
         icon: "icons/pwa/sling.webp", url: "https://www.sling.com"
       },
-      { name: "Bilinovel", nameKey: "bilinovel_name", descriptionKey: "bilinovel_desc", icon: "icons/pwa/bilinovel.webp", url: "https://www.bilinovel.com/" },
+      { name: "Bilinovel", nameKey: "bilinovel_name", descriptionKey: "bilinovel_desc", icon: "icons/pwa/bilinovel.webp", url: "https://www.bilinovel.com" },
       { name: "Nebula", nameKey: "nebula_name", descriptionKey: "nebula_desc", icon: "icons/pwa/nebula.webp", url: "https://nebula.tv" },
       { name: "Tubi", nameKey: "tubitv_name", descriptionKey: "tubitv_desc", icon: "icons/pwa/tubitv.webp", url: "https://tubitv.com" },
       { name: "Dubok (独播库)", nameKey: "dubok_name", descriptionKey: "dubok_desc", icon: "icons/pwa/dubok.webp", url: "https://www.dubok.tv" },
