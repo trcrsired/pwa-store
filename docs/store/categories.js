@@ -63,6 +63,13 @@ export const categories = [
         icon: "icons/pwa/mediaanalyzer.webp",
         url: "icons/pwa/mediaanalyzer",
       },
+      {
+        name: "Project Sekai Stickers",
+        nameKey: "pjskstickers_name",
+        descriptionKey: "pjskstickers_desc",
+        icon: "icons/pwa/pjskstickers.webp",
+        url: "https://st.ayaka.one/",
+      },
     ]
   },
   {

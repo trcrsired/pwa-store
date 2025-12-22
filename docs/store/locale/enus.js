@@ -75,6 +75,8 @@ const L = {
   onlinecompass_desc: "Online Compass is a progressive web app that provides a digital compass in your browser. It uses device orientation and geolocation to show accurate directions without requiring installation.",
   mediaanalyzer_name: "Media Analyzer & Audio Extractor",
   mediaanalyzer_desc: "A free online tool that extracts audio from video files and displays media metadata locally, without uploading your files to a server.",
+  pjskstickers_name: "Project Sekai Stickers",
+  pjskstickers_desc: "An easy-to-use online generator for creating custom stamps in the iconic art style of the game *Project SEKAI COLORFUL STAGE! feat. Hatsune Miku*.",
   "alternatives_name": "Alternatives",
   qrcodetools_name: "QR Code Tools",
   qrcodetools_desc: "Generate, scan, and manage QR codes with ease. Ideal for developers, marketers, and everyday users.",

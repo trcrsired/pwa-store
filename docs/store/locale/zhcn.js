@@ -75,6 +75,8 @@ const L = {
   onlinecompass_desc: "在线指南针是一个渐进式网络应用，可在浏览器中提供数字指南针。它利用设备方向和地理定位来显示准确的方向，无需安装。",
   mediaanalyzer_name: "媒体分析与音频提取器(Media Analyzer & Audio Extractor)",
   mediaanalyzer_desc: "一个免费的在线工具，可从视频文件中提取音频，并在本地显示媒体元数据，无需将文件上传到服务器。",
+  pjskstickers_name: "Project Sekai Stickers",
+  pjskstickers_desc: "一个用于在线制作《世界计划 缤纷舞台！ feat. 初音未来》（Project SEKAI）游戏风格同款角色表情包的简易生成器。",
   "alternatives_name": "替代品",
   qrcodetools_name: "二维码工具",
   qrcodetools_desc: "轻松生成、扫描和管理二维码，适用于开发者、市场人员和日常用户。",
