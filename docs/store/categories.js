@@ -592,6 +592,13 @@ export const categories = [
         url: "https://forums.freebsd.org"
       },
       {
+        name: "CMake Discourse",
+        nameKey: "cmakediscourse_name",
+        descriptionKey: "cmakediscourse_desc",
+        icon: "icons/pwa/cmakediscourse.webp",
+        url: "https://discourse.cmake.org"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",

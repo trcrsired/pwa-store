@@ -256,6 +256,8 @@ const L = {
   love2dev_desc: "Love2Dev is a Progressive Web App development and optimization site specializing in high‑performance web apps, SEO, and modern web capabilities. It provides expert guidance, tools, and resources for building fast, reliable, and engaging PWAs.",
   freebsdforums_name: "FreeBSD Forums",
   freebsdforums_desc: "The FreeBSD Forums are the official community discussion boards for the FreeBSD operating system, featuring news, announcements, technical help, and user-to-user support across all areas of FreeBSD.",
+  cmakediscourse_name: "CMake Discourse",
+  cmakediscourse_desc: "CMake Discourse is the official community forum for discussing CMake, including help with writing CMake code, usage questions, CTest and CPack, development discussions, announcements, and community projects.",
   python_desc: "Python is a programming language that lets you work quickly and integrate systems more effectively.",
   rust_desc: "A language empowering everyone to build reliable and efficient software.",
   isocpp_name: "ISO C++",

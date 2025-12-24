@@ -256,6 +256,8 @@ const L = {
   love2dev_desc: "Love2Dev 是一个专注于渐进式网络应用开发与优化的网站，提供高性能 Web 应用构建、SEO 和现代 Web 技术的专业指导与工具，帮助开发者打造快速、可靠、体验出色的 PWA。",
   freebsdforums_name: "FreeBSD 论坛",
   freebsdforums_desc: "FreeBSD 论坛是 FreeBSD 操作系统的官方社区讨论区，提供新闻公告、技术支持以及用户之间的交流，涵盖 FreeBSD 的各类主题。",
+  cmakediscourse_name: "CMake Discourse",
+  cmakediscourse_desc: "CMake Discourse 是 CMake 官方社区论坛，用于讨论 CMake 代码编写、使用问题、CTest 与 CPack、开发讨论、官方公告以及社区相关项目。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
   rust_desc: "一门可靠且高效的软件开发语言。",
   isocpp_name: "ISO C++",
