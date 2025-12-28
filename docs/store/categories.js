@@ -3749,6 +3749,23 @@ export const categories = [
         urlDisplay: "https://www.nordstrom.com"
       },
       {
+        name: "adidas",
+        nameKey: "adidas_name",
+        descriptionKey: "adidas_desc",
+        icon: "icons/wrappers/adidas.webp",
+        url: "/wrappers/adidas",
+        apptype: "wrapper",
+        urlDisplay: "https://www.adidas.com"
+      },
+      {
+        name: "adiClub 阿迪达斯会员中心",
+        nameKey: "adiclubmini_name",
+        descriptionKey: "adiclubmini_desc",
+        icon: "icons/wrappers/adidas.webp",
+        url: "#小程序://adiClub阿迪达斯会员中心/m8uniyqgIhWCZje",
+        apptype: "wechatmini",
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",
