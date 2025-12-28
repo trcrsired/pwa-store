@@ -1131,6 +1131,8 @@ const L = {
   luckin_desc: "一家以科技驱动的咖啡品牌，通过移动优先的点单方式和无现金自提服务，提供高品质且价格亲民的饮品。",
   samsung_name: "三星(Samsung)",
   samsung_desc: "三星是一家全球科技公司，提供手机、电视、家用电子产品和家电。其官方网站提供产品信息、在线购买、技术支持以及 Samsung 账户生态系统的入口。",
+  nordstrom_name: "诺德斯特龙(Nordstrom)",
+  nordstrom_desc: "诺德斯特龙是美国大型时尚零售商，提供服装、鞋履、配饰、美妆及家居用品。网站支持线上与门店购物、免费配送与退货，并提供设计师品牌及季节性促销(如 Half‑Yearly Sale)。",
   bosideng_name: "波司登",
   bosideng_desc: "波司登是其官方线上商店，提供高端羽绒服及男女童季节性服饰，涵盖国际系列、保暖等级说明，并支持全球配送。",
   housing_name: "房地产",

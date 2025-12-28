@@ -3740,6 +3740,15 @@ export const categories = [
         urlDisplay: "https://www.samsung.com"
       },
       {
+        name: "Nordstrom",
+        nameKey: "nordstrom_name",
+        descriptionKey: "nordstrom_desc",
+        icon: "icons/wrappers/nordstrom.webp",
+        url: "/wrappers/nordstrom",
+        apptype: "wrapper",
+        urlDisplay: "https://www.nordstrom.com"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",

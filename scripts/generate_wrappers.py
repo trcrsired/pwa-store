@@ -114,6 +114,7 @@ WRAPPERS = [
   { "name": "Apple Store", "url": "https://www.apple.com/store", "keyify_name": "applestore", "icon": "apple.webp" },
   { "name": "Apple Retail Store", "url": "https://www.apple.com/retail", "keyify_name": "appleretail", "icon": "apple.webp" },
   { "name": "Samsung", "url": "https://www.samsung.com" },
+  { "name": "Nordstrom", "url": "https://www.nordstrom.com" },
   { "name": "Luckin Coffee", "url": "https://in.luckincoffee.com", "keyify_name": "luckin" },
   { "name": "Bosideng", "url": "https://www.bosidengfashion.com" },
   { "name": "Gmail", "url": "https://mail.google.com" },

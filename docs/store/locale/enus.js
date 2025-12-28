@@ -1130,6 +1130,8 @@ const L = {
   luckin_desc: "A technology-driven coffee brand offering high-quality, affordable drinks through mobile-first ordering and cashier-less pickup.",
   samsung_name: "Samsung",
   samsung_desc: "Samsung is a global technology company offering mobile devices, TVs, home electronics, and appliances. The official site provides product information, shopping, support services, and access to the Samsung account ecosystem.",
+  nordstrom_name: "Nordstrom",
+  nordstrom_desc: "Nordstrom is a major U.S. fashion retailer offering clothing, shoes, accessories, beauty products, and home goods. The site features online and in‑store shopping, free shipping and returns, designer brands, and seasonal sales such as the Half‑Yearly Sale.",
   bosideng_name: "Bosideng",
   bosideng_desc: "Bosideng is the official online store of the global down‑apparel brand, offering premium down jackets and seasonal clothing for men, women, and kids. The site features international collections, cold‑weather performance ratings, and worldwide shipping options.",
   housing_name: "Housing",
