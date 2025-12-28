@@ -288,6 +288,13 @@ export const categories = [
         url: "https://www.notion.com"
       },
       {
+        name: "Next AI Draw.io",
+        nameKey: "nextaidrawio_name",
+        descriptionKey: "nextaidrawio_desc",
+        icon: "icons/pwa/nextaidrawio.webp",
+        url: "https://next-ai-drawio.jiang.jp"
+      },
+      {
         name: "Draw.io",
         nameKey: "drawio_name",
         descriptionKey: "drawio_desc",

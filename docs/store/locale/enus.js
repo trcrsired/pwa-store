@@ -171,6 +171,8 @@ const L = {
   "simplenote_desc": "Simplenote is a cross-platform note-taking application that supports Markdown syntax and real-time cloud synchronization. Designed with a minimalist interface, it enables users to create, edit, and organize plain-text notes across devices. Collaboration is supported via shared note access, and tagging allows for efficient content management.",
   notion_name: "Notion",
   notion_desc: "An all-in-one workspace for notes, tasks, wikis, and databases. Notion helps individuals and teams write, plan, and organize everything in one place. It supports rich text editing, collaborative workflows, and customizable templates, making it ideal for productivity, knowledge management, and project tracking.",
+  nextaidrawio_name: "Next AI Draw.io",
+  nextaidrawio_desc: "Next AI Draw.io is a self‑hosted deployment of the open‑source Next.js application that integrates AI with draw.io. It allows users to generate, edit, and optimize diagrams through natural‑language commands, supporting architecture diagrams, flowcharts, and AI‑assisted visualization.",
   drawio_name: "Draw.io",
   drawio_desc: "Draw.io (diagrams.net) is a free, browser-based diagramming tool for creating flowcharts, network diagrams, UML models, and more. It integrates with cloud storage and supports real-time collaboration for teams and individuals.",
   excalidraw_name: "Excalidraw",
