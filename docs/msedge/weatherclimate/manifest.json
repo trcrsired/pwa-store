@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/weatherclimate",
+  "name": "Weather & Climate",
+  "short_name": "Weather & Climate",
+  "start_url": "/wrappers/weatherclimate/?source=pwa",
+  "scope": "/wrappers/weatherclimate/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Msedge for Weather & Climate",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/weatherclimate/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

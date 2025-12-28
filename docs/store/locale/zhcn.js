@@ -88,6 +88,8 @@ const L = {
   jspaint_desc: "基于JavaScript的微软画图网页版重制版，利用现代Web技术实现。",
   typhoonsltzj_name: "实时台风消息",
   typhoonsltzj_desc: "由浙江省水利厅提供，本系统发布最新台风数据，包括实时路径、预报信息和历史记录。",
+  weatherclimate_name: "天气与气候 (Weather & Climate)",
+  weatherclimate_desc: "Weather‑and‑Climate.com 提供全球各地的气候平均值、天气预报、降雨图表、温度数据以及适合旅行的气候概览，帮助用户比较长期气候趋势与短期天气状况。",
   base64guru_name: "Base64.Guru",
   base64guru_desc: "一个全面的 Base64 编码、解码与数据转换参考网站，提供教程、工具和技术解析，适合开发者与数据分析人员使用。",
   "copilot_desc": "微软推出的对话式 AI——Copilot 支持实时联网、语音交互，帮助你思考、写作和探索。",

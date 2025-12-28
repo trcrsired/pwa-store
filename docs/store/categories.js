@@ -61,7 +61,7 @@ export const categories = [
         nameKey: "mediaanalyzer_name",
         descriptionKey: "mediaanalyzer_desc",
         icon: "icons/pwa/mediaanalyzer.webp",
-        url: "icons/pwa/mediaanalyzer",
+        url: "https://video.rtstatistics.com",
       },
       {
         name: "Project Sekai Stickers",
@@ -117,6 +117,16 @@ export const categories = [
         descriptionKey: "woobx_desc",
         icon: "icons/pwa/woobx.webp",
         url: "https://ol.woobx.cn"
+      },
+      {
+        name: "Weather & Climate",
+        nameKey: "weatherclimate_name",
+        descriptionKey: "weatherclimate_desc",
+        icon: "icons/msedge/weatherclimate.webp",
+        url: "https://weather-and-climate.com",
+        apptype: "msedge",
+        url2: "/msedge/weatherclimate",
+        apptype2: "wrapper",
       },
       {
         name: "Base64.Guru",

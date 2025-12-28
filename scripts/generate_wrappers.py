@@ -29,6 +29,7 @@ OUTPUT_DIRS = {
 }
 
 WRAPPERS = [
+  { "name": "Weather & Climate", "url": "https://weather-and-climate.com", "keyify_name": "weatherclimate", "apptype": "msedge" },
   { "name": "Base64.Guru", "url": "https://base64.guru", "keyify_name": "base64guru" },
   { "name": "CVS", "url": "https://www.cvs.com" },
   { "name": "Whirlpool", "url": "https://www.whirlpool.com" },

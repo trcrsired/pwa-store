@@ -88,6 +88,8 @@ const L = {
   jspaint_desc: "A web-based remake of Microsoft Paint, built with JavaScript and modern web technologies.",
   typhoonsltzj_name: "Real-Time Typhoon Information (实时台风消息)",
   typhoonsltzj_desc: "Provided by the Zhejiang Provincial Department of Water Resources, this system delivers up-to-date typhoon data including live tracking, forecasts, and historical paths.",
+  weatherclimate_name: "Weather & Climate",
+  weatherclimate_desc: "Weather‑and‑Climate.com provides climate averages, weather forecasts, rainfall charts, temperature data, and travel‑friendly climate summaries for destinations worldwide. It helps users compare long‑term climate patterns and short‑term weather conditions.",
   base64guru_name: "Base64.Guru",
   base64guru_desc: "A comprehensive reference site for Base64 encoding, decoding, and data conversion. Includes tutorials, tools, and technical explanations for developers and analysts.",
   "copilot_desc": "Conversational AI by Microsoft—Copilot helps you think, write, and explore with real-time web access and voice support.",
