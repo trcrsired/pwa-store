@@ -239,6 +239,15 @@ export const categories = [
       { name: "Bing Shop", nameKey: "bingshop_name", descriptionKey: "bingshop_desc", icon: "icons/wrappers/bing.webp", url: "/wrappers/bingshop", descriptionKey: "bingshop_desc", apptype: "wrapper", urlDisplay: "https://www.bing.com/shop" },
       { name: "Bing Travel", nameKey: "bingtravel_name", descriptionKey: "bingtravel_desc", icon: "icons/wrappers/bing.webp", url: "/wrappers/bingtravel", descriptionKey: "bingtravel_desc", apptype: "wrapper", urlDisplay: "https://www.bing.com/travel" },
       { name: "Bing Flights", nameKey: "bingflights_name", descriptionKey: "bingflights_desc", icon: "icons/wrappers/bing.webp", url: "/wrappers/bingflights", descriptionKey: "bingflights_desc", apptype: "wrapper", urlDisplay: "https://www.bing.com/flights" },
+      {
+        name: "Microsoft Edge Add-ons",
+        nameKey: "msedgeaddons_name",
+        descriptionKey: "msedgeaddons_desc",
+        icon: "icons/wrappers/msedge.webp",
+        url: "/wrappers/msedgeaddons",
+        apptype: "wrapper",
+        urlDisplay: "https://microsoftedge.microsoft.com/addons"
+      },
     ]
   },
   {

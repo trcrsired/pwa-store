@@ -153,6 +153,8 @@ const L = {
   bingtravel_desc: "Plan your next trip with Bing Travel—explore destinations, hotels, and travel tips all in one place.",
   bingflights_name: "Bing Flights",
   bingflights_desc: "Search and compare flight options quickly with Bing Flights, powered by real-time travel data.",
+  msedgeaddons_name: "Microsoft Edge Add-ons",
+  msedgeaddons_desc: "Microsoft Edge Add-ons is the official extension marketplace for the Edge browser, offering productivity tools, AI-powered extensions, security utilities, shopping helpers, and customization features such as new tab pages and translation tools.",
   "google_desc": "Global search and service hub offering instant access to Search, Gmail, Drive, Translate, and other tools via a fast, unified web interface optimized across devices.",
   "googlevoice_name": "Google Voice",
   "googlevoice_desc": "Get a free U.S. phone number for calls, texts, and voicemail—syncs across devices and works on web or mobile.",

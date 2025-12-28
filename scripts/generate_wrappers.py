@@ -66,6 +66,7 @@ WRAPPERS = [
   { "name": "Bing Shop", "url": "https://www.bing.com/shop", "icon": "bing.webp" },
   { "name": "Bing Travel", "url": "https://www.bing.com/travel", "icon": "bing.webp" },
   { "name": "Bing Flights", "url": "https://www.bing.com/flights", "icon": "bing.webp" },
+  { "name": "Microsoft Edge Add-ons", "url": "https://microsoftedge.microsoft.com/addons", "icon": "msedge.webp", "keyify_name": "msedgeaddons" },
   { "name": "CCTV", "url": "https://tv.cctv.com" },
   { "name": "ifeng", "url": "https://www.ifeng.com" },
   { "name": "观察者网", "url": "https://www.guancha.cn", "keyify_name": "guanchazhe" },

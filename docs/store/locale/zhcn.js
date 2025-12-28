@@ -153,6 +153,8 @@ const L = {
   bingtravel_desc: "使用必应旅行规划您的下一次出行，探索目的地、酒店和旅行建议。",
   bingflights_name: "必应航班",
   bingflights_desc: "通过必应航班快速搜索和比较实时航班选项。",
+  msedgeaddons_name: "微软Edge插件商店(Microsoft Edge Add-ons)",
+  msedgeaddons_desc: "微软Edge插件商店是微软Edge浏览器的官方扩展平台，提供生产力工具、AI 扩展、安全插件、购物助手以及新标签页和翻译等个性化功能。",
   "google_desc": "全球搜索与服务中心，快速统一的网页界面，可访问搜索、Gmail、云端硬盘、翻译等工具，适配多设备。",
   "googlevoice_name": "谷歌语音",
   "googlevoice_desc": "免费美国电话号码，支持通话、短信和语音信箱——可跨设备同步，支持网页和移动端。",
