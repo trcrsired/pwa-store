@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/bosideng",
+  "name": "Bosideng",
+  "short_name": "Bosideng",
+  "start_url": "/wrappers/bosideng/?source=pwa",
+  "scope": "/wrappers/bosideng/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Bosideng",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/bosideng/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

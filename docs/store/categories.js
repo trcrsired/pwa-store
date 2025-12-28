@@ -3931,6 +3931,23 @@ export const categories = [
         url: "#小程序://盒马鲜生/VKVFl07noDybKUc",
         apptype: "wechatmini"
       },
+      {
+        name: "Bosideng Mall (波司登商城)",
+        nameKey: "bosidengmall_name",
+        descriptionKey: "bosidengmall_desc",
+        icon: "icons/wrappers/bosidengfashion.webp",
+        apptype: "wechatmini",
+        url: "#小程序://波司登商城/hqolyc94Gp3fSiv"
+      },
+      {
+        name: "Bosideng",
+        nameKey: "bosideng_name",
+        descriptionKey: "bosideng_desc",
+        icon: "icons/wrappers/bosideng.webp",
+        url: "/wrappers/bosideng",
+        apptype: "wrapper",
+        urlDisplay: "https://www.bosidengfashion.com"
+      },
     ]
   },
   {
