@@ -212,6 +212,7 @@ WRAPPERS = [
   { "name": "DontKillMyApp", "url": "https://dontkillmyapp.com" },
   { "name": "Microsoft Clarity" , "url": "https://clarity.microsoft.com" },
   { "name": "LearnCpp", "url": "https://www.learncpp.com" },
+  { "name": "ModelScope", "url": "https://modelscope.cn" },
   { "name": "WPS", "url": "https://www.wps.com/wpsdocs" },
   { "name": "WPS (CN)", "url": "https://www.kdocs.cn", "keyify_name":"wpscn", "icon":"wps.webp" },
   { "name": "DingTalk", "url": "https://workspace.dingtalk.com" },

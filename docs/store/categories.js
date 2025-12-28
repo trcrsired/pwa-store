@@ -768,6 +768,16 @@ export const categories = [
         urlDisplay: "https://www.learncpp.com"
       },
       {
+        name: "ModelScope (魔搭社区)",
+        nameKey: "modelscope_name",
+        descriptionKey: "modelscope_desc",
+        icon: "icons/wrappers/modelscope.webp",
+        apptype: "msedge",
+        url: "https://modelscope.cn",
+        apptype2: "wrapper",
+        url2: "/wrappers/modelscope",
+      },
+      {
         name: "Mini Program Demo",
         nameKey: "miniprogramdemo_name",
         descriptionKey: "miniprogramdemo_desc",
