@@ -563,6 +563,8 @@ const L = {
   windowslatest_desc: "A technology news site covering Microsoft Windows, updates, apps, and PC industry trends.",
   windowsreport_name: "Windows Report",
   windowsreport_desc: "A technology news site delivering updates, guides, and troubleshooting tips for Microsoft Windows and software.",
+  socialkernelorg_name: "social.kernel.org",
+  socialkernelorg_desc: "social.kernel.org is the official Fediverse microblogging service operated by the Linux Kernel Organization, running on Akkoma. It provides timelines, public posts, and accounts for kernel developers and contributors, following the Linux Kernel Code of Conduct.",
   chipsandcheese_name: "Chips and Cheese",
   chipsandcheese_desc: "Chips and Cheese is a technology blog focused on computer architecture, semiconductors, and performance analysis. It provides in-depth articles on CPUs, GPUs, memory systems, and industry trends, written by enthusiasts with a passion for hardware and engineering.",
   laptopmag_name: "Laptop Mag",

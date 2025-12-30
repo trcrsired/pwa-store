@@ -1998,6 +1998,13 @@ export const categories = [
 //      apptype: "desk"
       },
       {
+        name: "social.kernel.org",
+        nameKey: "socialkernelorg_name",
+        descriptionKey: "socialkernelorg_desc",
+        icon: "icons/pwa/socialkernelorg.webp",
+        url: "https://social.kernel.org"
+      },
+      {
         name: "Tech Evangelist SEO",
         nameKey: "techevangelistseo_name",
         descriptionKey: "techevangelistseo_desc",

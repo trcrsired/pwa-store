@@ -563,6 +563,8 @@ const L = {
   windowslatest_desc: "科技新闻网站，报道微软Windows、更新、应用与PC行业动态。",
   windowsreport_name: "Windows Report",
   windowsreport_desc: "科技新闻网站，提供微软Windows及软件的更新、指南与故障排除技巧。",
+  socialkernel_name: "social.kernel.org",
+  socialkernel_desc: "social.kernel.org 是由 Linux Kernel Organization 运营的官方联邦宇宙（Fediverse）微博平台，基于 Akkoma 构建，提供时间线、公开动态，并面向内核开发者与贡献者，遵循 Linux Kernel 行为准则。",
   chipsandcheese_name: "Chips and Cheese",
   chipsandcheese_desc: "Chips and Cheese 是一个专注于计算机架构、半导体和性能分析的技术博客。它提供关于 CPU、GPU、内存系统和行业趋势的深入文章，由热爱硬件和工程的作者撰写。",
   laptopmag_name: "Laptop Mag",
