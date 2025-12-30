@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/fossforce",
+  "name": "FOSS Force",
+  "short_name": "FOSS Force",
+  "start_url": "/wrappers/fossforce/?source=pwa",
+  "scope": "/wrappers/fossforce/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for FOSS Force",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/fossforce/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

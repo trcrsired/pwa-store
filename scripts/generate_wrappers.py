@@ -45,6 +45,7 @@ WRAPPERS = [
   { "name": "Level1Techs", "url": "https://level1techs.com" },
   { "name": "Gamers Nexus", "url": "https://gamersnexus.net" },
   { "name": "Beebom", "url": "https://beebom.com" },
+  { "name": "FOSS Force", "url": "https://fossforce.com" },
   { "name": "Influencersplace", "url": "https://influencersplace.com" },
   { "name": "Zscalar", "url": "https://www.zscaler.com"},
   { "name": "perplexity", "url": "https://www.perplexity.ai" },

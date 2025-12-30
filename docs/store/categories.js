@@ -2066,6 +2066,15 @@ export const categories = [
         urlDisplay: "https://beebom.com"
       },
       {
+        name: "FOSS Force",
+        nameKey: "fossforce_name",
+        descriptionKey: "fossforce_desc",
+        icon: "icons/wrappers/fossforce.webp",
+        url: "/wrappers/fossforce",
+        apptype: "wrapper",
+        urlDisplay: "https://fossforce.com"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",

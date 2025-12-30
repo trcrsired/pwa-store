@@ -545,6 +545,8 @@ const L = {
   gamersnexus_desc: "In-depth hardware reviews, thermal benchmarks, and investigative reporting from the Gamers Nexus team. Known for rigorous testing and transparency in PC component analysis.",
   beebom_name: "Beebom",
   beebom_desc: "A tech media platform delivering news, reviews, and explainers on gadgets, apps, and digital trends.",
+  fossforce_name: "FOSS Force",
+  fossforce_desc: "FOSS Force is an online publication covering news, commentary, and events related to Linux, free software, and the open‑source community. It features articles, reviews, interviews, and updates on major FOSS conferences and projects.",
   "9to5mac_name": "9to5Mac",
   "9to5mac_desc": "A news site covering Apple products, software updates, and ecosystem developments.",
   edri_name: "European Digital Rights (EDRi)",

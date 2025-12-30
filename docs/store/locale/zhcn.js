@@ -545,6 +545,8 @@ const L = {
   gamersnexus_desc: "由 Gamers Nexus 团队提供的硬件深度评测、散热测试与技术调查。以严谨测试流程与公开透明的 PC 组件分析著称。",
   beebom_name: "Beebom",
   beebom_desc: "一个科技媒体平台，提供关于数码产品、应用程序和数字趋势的新闻、评测与解析。",
+  fossforce_name: "FOSS Force",
+  fossforce_desc: "FOSS Force 是一个专注于 Linux、自由软件和开源社区的在线媒体，提供新闻、评论、评测、访谈以及各类开源大会与项目的最新动态。",
   "9to5mac_name": "9to5Mac",
   "9to5mac_desc": "一个报道苹果产品、软件更新和生态系统动态的新闻网站。",
   edri_name: "欧洲数字权利组织(EDRi)",
