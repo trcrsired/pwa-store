@@ -110,7 +110,6 @@ const renderAppCard = (app) => {
   } else {
     button.textContent = L('open_desc');
     button.href = appurl;
-    button.target = '_blank';
   }
   container.appendChild(button);
   const isNative = app.apptype === 'native';
@@ -166,7 +165,6 @@ const renderAppCard = (app) => {
     } else {
       button2.textContent = L('open_desc');
       button2.href = appurl2;
-      button2.target = '_blank';
     }
     container.appendChild(button2);
 
