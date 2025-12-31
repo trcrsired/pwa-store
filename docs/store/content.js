@@ -269,13 +269,14 @@ const renderStore = (filterText = '') => {
       const type1 = app.apptype || 'pwa';
       const type2 = app.apptype2 || null;
 
-      const isPWA1 = type1 !== 'wechatmini' && type1 !== 'native';
-      const isWeChatMini1 = type1 === 'wechatmini' || type1=='wechat';
-      const isNative1 = type1 === 'native';
 
-      const isPWA2 = type2 && type2 !== 'wechatmini' && type2 !== 'native';
-      const isWeChatMini2 = type2 === 'wechatmini' || type2=='wechat';
+      const isWeChatMini1 = type1 === 'wechatmini' || type1 === 'wechat';
+      const isNative1 = type1 === 'native';
+      const isPWA1 = !isWeChatMini1 && !isNative1 ;
+
+      const isWeChatMini2 = type2 === 'wechatmini' || type2 === 'wechat';
       const isNative2 = type2 === 'native';
+      const isPWA2 = type2 && !isWeChatMini2 &&  !isNative2;
 
       const matchesType =
         (isPWA1 && showPWA) || (isWeChatMini1 && showWeChat) || (isNative1 && showNative) ||
