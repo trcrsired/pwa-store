@@ -1213,6 +1213,8 @@ const L = {
   girlsheavens_desc: "A travel-oriented site offering guides on nightlife, dating, and meeting women across regions.",
   usps_name: "USPS",
   usps_desc: "United States Postal Service—track shipments, buy postage, schedule pickups, and access national mailing services and address tools through its official portal.",
+  mta_name: "MTA",
+  mta_desc: "Opens the official MTA website for New York City transit updates, maps, schedules, and service alerts.",
   chinaems_name: "China EMS",
   chinaems_desc: "Official site of China Post Express Mail Service, offering domestic and international logistics tracking and delivery.",
   cars_name: "Cars",

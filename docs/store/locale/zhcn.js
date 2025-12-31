@@ -1214,6 +1214,8 @@ const L = {
   girlsheavens_desc: "面向男性旅行者的攻略网站，介绍各地夜生活、交友方式与文化差异。",
   usps_name: "美国邮政",
   usps_desc: "美国邮政服务——支持快递查询、邮资购买、预约取件及地址工具等国家邮政服务。",
+  mta_name: "MTA纽约大都会运输署",
+  mta_desc: "打开 MTA 官方网站，查看纽约市公共交通的实时信息、线路图、时刻表和服务提醒。",
   chinaems_name: "中国邮政速递物流",
   chinaems_desc: "中国邮政EMS官网，提供国内外物流快递查询与寄递服务。",
   cars_name: "汽车",
