@@ -1214,6 +1214,8 @@ const L = {
   autosport_desc: "Autosport 成立于1950年，是领先的赛车媒体品牌，涵盖 F1、MotoGP、WEC 等赛事的新闻、分析与现场报道，通过网站、杂志及相关活动提供专业内容。",
   dongchedi_name: "懂车帝",
   dongchedi_desc: "懂车帝是总部位于中国重庆的汽车信息平台，提供智能选车推荐、价格数据、新闻资讯、测评视频等内容，帮助用户了解新车与二手车，做出理性购车决策。",
+  carnewschina_name: "CarNewsChina",
+  carnewschina_desc: "CarNewsChina 专注于中国汽车行业资讯，内容涵盖电动车动态、新车发布、评测，以及比亚迪、小米、特斯拉、名爵、蔚来等品牌的发展情况。",
   jiakaobaodian_name: "驾考宝典",
   jiakaobaodian_desc: "中国领先的驾考平台，提供最新题库、多语言考试准备与全流程学习指导。在安卓版微软Edge浏览器中，请先登录账户，登录后可安装为 PWA 应用。",
   tickets_name: "票",

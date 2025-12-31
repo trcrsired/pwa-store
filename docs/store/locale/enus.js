@@ -1213,6 +1213,8 @@ const L = {
   autosport_desc: "Autosport is a leading motorsport media brand founded in 1950. It provides news, analysis, and live coverage of Formula 1, MotoGP, WEC, and other racing series through its website, magazine, and events.",
   dongchedi_name: "Dongchedi (懂车帝)",
   dongchedi_desc: "Dongchedi is an automotive information platform based in Chongqing, China. It provides intelligent car recommendations, pricing data, news, reviews, and video content, helping users make informed decisions about new and used vehicles.",
+  carnewschina_name: "CarNewsChina",
+  carnewschina_desc: "CarNewsChina covers news and analysis about China’s automotive industry, including EV updates, new model releases, reviews, and brand developments from companies such as BYD, Xiaomi, Tesla, MG, and Nio.",
   jiakaobaodian_name: "Jiakaobaodian (驾考宝典)",
   jiakaobaodian_desc: "China’s leading driving test platform—offers up-to-date question banks, multilingual exam prep, and full-process guidance for learners. On Microsoft Edge for Android, please log in first via the browser. The option to install as a Progressive Web App (PWA) becomes available after authentication.",
   tickets_name: "Tickets",

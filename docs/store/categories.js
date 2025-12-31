@@ -4250,6 +4250,15 @@ export const categories = [
         url: "https://www.dongchedi.com"
       },
       {
+        name: "CarNewsChina",
+        nameKey: "carnewschina_name",
+        descriptionKey: "carnewschina_desc",
+        icon: "icons/wrappers/carnewschina.webp",
+        url: "/wrappers/carnewschina",
+        apptype: "wrapper",
+        urlDisplay: "https://carnewschina.com"
+      },
+      {
         name: "Jiakaobaodian (驾考宝典)",
         nameKey: "jiakaobaodian_name",
         descriptionKey: "jiakaobaodian_desc",
