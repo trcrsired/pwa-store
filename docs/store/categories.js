@@ -870,7 +870,7 @@ export const categories = [
         icon: "icons/pwa/getnomad.webp"
       },
       {
-        name: "China Telecom",
+        name: "China Telecom (中国电信)",
         nameKey: "chinatelecom_name",
         descriptionKey: "chinatelecom_desc",
         icon: "icons/wechatmini/chinatelecom.webp",
@@ -878,7 +878,7 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
-        name: "China Mobile",
+        name: "China Mobile (中国移动)",
         nameKey: "chinamobile_name",
         descriptionKey: "chinamobile_desc",
         icon: "icons/wechatmini/chinamobile.webp",
@@ -886,7 +886,7 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
-        name: "China Unicom",
+        name: "China Unicom (中国联通)",
         nameKey: "chinaunicom_name",
         descriptionKey: "chinaunicom_desc",
         icon: "icons/wechatmini/chinaunicom.webp",
@@ -4036,6 +4036,38 @@ export const categories = [
         url: "/wrappers/bosideng",
         apptype: "wrapper",
         urlDisplay: "https://www.bosidengfashion.com"
+      },
+      {
+        name: "Vipshop Deals (唯品会特卖)",
+        nameKey: "vipshop_name",
+        descriptionKey: "vipshop_desc",
+        icon: "icons/wechatmini/vipshop.webp",
+        url: "#小程序://唯品会特卖/CyDeZdJlGel5xyF",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Apple Store (AppleStore官方在线商店)",
+        nameKey: "applestorewechat_name",
+        descriptionKey: "applestorewechat_desc",
+        icon: "icons/wrappers/apple.webp",
+        url: "#小程序://AppleStore官方在线商店/ob9z4DI8XxQFu4G",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Microsoft Store (微软官方商城)",
+        nameKey: "microsoftstorewechat_name",
+        descriptionKey: "microsoftstorewechat_desc",
+        icon: "icons/wrappers/msstore.webp",
+        url: "#小程序://微软官方商城/ZYepBp4zLyg7pIi",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Xiaomi Lite (小米Lite)",
+        nameKey: "xiaomilite_name",
+        descriptionKey: "xiaomilite_desc",
+        icon: "icons/wechatmini/xiaomilite.webp",
+        url: "#小程序://小米Lite/Ucz9WAJA9dTOalA",
+        apptype: "wechatmini"
       },
     ]
   },
