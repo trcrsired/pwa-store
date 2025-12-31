@@ -92,7 +92,7 @@ const renderAppCard = (app) => {
   // Always show raw url
   const urlLine = document.createElement('div');
   urlLine.className = 'app-url';
-  const appurl = app.url;
+  var appurl = app.url;
   const isWeChat = app.apptype === 'wechat';
   if (isWeChat)
   {
@@ -114,16 +114,21 @@ const renderAppCard = (app) => {
   }
   container.appendChild(button);
   const isNative = app.apptype === 'native';
-  if (!isWeChatMini && !isNative )
+  if (!isWeChatMini && !isNative && !isWeChat)
   {
     add_install_button(container, app.url);
   }
 
-  const appurl2 = app.url2;
+  const apptype2 = app.apptype2;
   // Secondary URL logic
-  if (appurl2) {
+  if (apptype2) {
+    var appurl2 = app.url2;
+    const isWeChat2 = apptype2 === "wechat";
+    if (isWeChat2)
+    {
+      appurl2 = `/store/wechat/${L("lang")}/`;
+    }
     // Always show secondary button
-    const apptype2 = app.apptype2 || app.apptype;
     // Show apptype2 badge only if different from primary apptype
     if (apptype2) {
       const badge2 = document.createElement('span');
@@ -166,7 +171,7 @@ const renderAppCard = (app) => {
     container.appendChild(button2);
 
     const isNative2 = apptype2 === 'native';
-    if (!isWeChatMini2 && !isNative2 )
+    if (!isWeChatMini2 && !isNative2 && !isWeChat2)
     {
       add_install_button(container, appurl2);
     }

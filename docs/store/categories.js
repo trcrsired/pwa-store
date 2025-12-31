@@ -144,21 +144,21 @@ export const categories = [
     nameKey: "wechatbuiltins_name",
     apps: [
       {
-        name: "My QR Code",
+        name: "My QR Code (我的二维码)",
         nameKey: "wechatmyqrcode_name",
         descriptionKey: "wechatmyqrcode_desc",
         apptype: "wechat",
         icon: "icons/wechat/myqrcode.webp",
       },
       {
-        name: "Money",
+        name: "Money (收付款)",
         nameKey: "wechatmoney_name",
         descriptionKey: "wechatmoney_desc",
         apptype: "wechat",
         icon: "icons/wechat/money.webp",
       },
       {
-        name: "Scan",
+        name: "Scan (扫一扫)",
         nameKey: "wechatscan_name",
         descriptionKey: "wechatscan_desc",
         apptype: "wechat",
@@ -2053,6 +2053,7 @@ export const categories = [
         icon: "icons/msedge/chipsandcheese.webp",
         apptype: "msedge",
         url: "https://chipsandcheese.com",
+        apptype2: "wrapper",
         url2: "/msedge/chipsandcheese",
       },
       {

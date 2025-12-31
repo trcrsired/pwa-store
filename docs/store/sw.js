@@ -1,4 +1,4 @@
-const CACHE_NAME = "pwa-store-cache-v37";
+const CACHE_NAME = "pwa-store-cache-v38";
 const IMAGE_CACHE = "pwa-store-images-v1";
 
 self.addEventListener("install", (event) => {
@@ -16,6 +16,9 @@ self.addEventListener("install", (event) => {
         "/store/how/zh/",
         "/store/wechat/en/",
         "/store/wechat/zh/",
+        "/store/wechat/en/01.webp",
+        "/store/wechat/en/02.webp",
+        "/store/wechat/en/03.webp",
         "/store/lang/zh.json",
       ]);
     })
