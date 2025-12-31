@@ -140,6 +140,33 @@ export const categories = [
     ]
   },
   {
+    name: "WeChat Builtins",
+    nameKey: "wechatbuiltins_name",
+    apps: [
+      {
+        name: "My QR Code",
+        nameKey: "wechatmyqrcode_name",
+        descriptionKey: "wechatmyqrcode_desc",
+        apptype: "wechat",
+        icon: "icons/wechat/myqrcode.webp",
+      },
+      {
+        name: "Money",
+        nameKey: "wechatmoney_name",
+        descriptionKey: "wechatmoney_desc",
+        apptype: "wechat",
+        icon: "icons/wechat/money.webp",
+      },
+      {
+        name: "Scan",
+        nameKey: "wechatscan_name",
+        descriptionKey: "wechatscan_desc",
+        apptype: "wechat",
+        icon: "icons/wechat/scan.webp",
+      },
+    ]
+  },
+  {
     nameKey: "chabots_name",
     name: "Chatbots",
     apps: [

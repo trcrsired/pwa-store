@@ -2,8 +2,11 @@
 import { registerLocale } from './localization.js';
 
 const L = {
+  "lang": "enus",
   "wrapper": "wrapper",
   "wechatmini": "WeChat Mini Program",
+  "wechat": "WeChat",
+  wechatbuiltins_name: "WeChat Builtins",
   "msedge": "Microsoft Edge",
   "wechatminiurlcopied_succ": "Link copied! Paste it into WeChat File Transfer to open.",
   "wechatminiurlcopied_fail": "Copy failed. Please copy the link manually.",
@@ -92,6 +95,12 @@ const L = {
   weatherclimate_desc: "Weather‑and‑Climate.com provides climate averages, weather forecasts, rainfall charts, temperature data, and travel‑friendly climate summaries for destinations worldwide. It helps users compare long‑term climate patterns and short‑term weather conditions.",
   base64guru_name: "Base64.Guru",
   base64guru_desc: "A comprehensive reference site for Base64 encoding, decoding, and data conversion. Includes tutorials, tools, and technical explanations for developers and analysts.",
+  wechatmyqrcode_name: "My QR Code",
+  wechatmyqrcode_desc: "Opens your personal WeChat QR code for adding contacts or sharing your profile.",
+  wechatmoney_name: "Money",
+  wechatmoney_desc: "Provides access to WeChat Pay features including balance, cards, transactions, and payment tools.",
+  wechatscan_name: "Scan",
+  wechatscan_desc: "Launches WeChat’s built‑in scanner for QR codes, barcodes, and visual search.",
   "copilot_desc": "Conversational AI by Microsoft—Copilot helps you think, write, and explore with real-time web access and voice support.",
   "deepseek_desc": "Chinese-developed AI assistant with powerful reasoning and multilingual support—DeepSeek’s PWA offers free access to its flagship models.",
   "chatgpt_desc": "OpenAI’s conversational assistant—ChatGPT’s PWA delivers installable access to GPT models, memory, plugins, and voice features.",

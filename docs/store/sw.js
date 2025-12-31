@@ -14,6 +14,8 @@ self.addEventListener("install", (event) => {
         "/store/style.css",
         "/store/how/en/",
         "/store/how/zh/",
+        "/store/wechat/en/",
+        "/store/wechat/zh/",
         "/store/lang/zh.json",
       ]);
     })

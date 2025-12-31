@@ -2,8 +2,11 @@
 import { registerLocale } from './localization.js';
 
 const L = {
+  "lang": "zhcn",
   "wrapper": "包装",
   "wechatmini": "微信小程序",
+  "wechat": "微信",
+  wechatbuiltins_name: "微信内置",
   "msedge": "微软Edge",
   "wechatminiurlcopied_succ": "链接已复制！请粘贴到微信文件传输助手中打开。",
   "wechatminiurlcopied_fail": "复制失败。请手动复制该链接。",
@@ -92,6 +95,12 @@ const L = {
   weatherclimate_desc: "Weather‑and‑Climate.com 提供全球各地的气候平均值、天气预报、降雨图表、温度数据以及适合旅行的气候概览，帮助用户比较长期气候趋势与短期天气状况。",
   base64guru_name: "Base64.Guru",
   base64guru_desc: "一个全面的 Base64 编码、解码与数据转换参考网站，提供教程、工具和技术解析，适合开发者与数据分析人员使用。",
+  wechatmyqrcode_name: "我的二维码",
+  wechatmyqrcode_desc: "打开你的微信个人二维码，用于添加好友或分享个人信息。",
+  wechatmoney_name: "钱包",
+  wechatmoney_desc: "进入微信支付相关功能，包括零钱、银行卡、交易记录和支付工具。",
+  wechatscan_name: "扫一扫",
+  wechatscan_desc: "启动微信内置扫描器，可扫描二维码、条形码并支持识物搜索。",
   "copilot_desc": "微软推出的对话式 AI——Copilot 支持实时联网、语音交互，帮助你思考、写作和探索。",
   "deepseek_desc": "国产 AI 助手，具备强大的推理能力和多语言支持——DeepSeek 的 PWA 提供免费访问其旗舰模型。",
   "chatgpt_desc": "OpenAI 的对话助手——ChatGPT 的 PWA 提供 GPT 模型、记忆、插件和语音功能的可安装访问。",
