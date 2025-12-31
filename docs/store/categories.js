@@ -4024,7 +4024,7 @@ export const categories = [
         name: "Bosideng Mall (波司登商城)",
         nameKey: "bosidengmall_name",
         descriptionKey: "bosidengmall_desc",
-        icon: "icons/wrappers/bosidengfashion.webp",
+        icon: "icons/wrappers/bosideng.webp",
         apptype: "wechatmini",
         url: "#小程序://波司登商城/hqolyc94Gp3fSiv"
       },
