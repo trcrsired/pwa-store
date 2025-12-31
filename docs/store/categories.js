@@ -4057,7 +4057,7 @@ export const categories = [
         name: "Microsoft Store (微软官方商城)",
         nameKey: "microsoftstorewechat_name",
         descriptionKey: "microsoftstorewechat_desc",
-        icon: "icons/wrappers/msstore.webp",
+        icon: "icons/wrappers/microsoft.webp",
         url: "#小程序://微软官方商城/ZYepBp4zLyg7pIi",
         apptype: "wechatmini"
       },
