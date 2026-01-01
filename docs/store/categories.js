@@ -140,6 +140,33 @@ export const categories = [
     ]
   },
   {
+    name: "WeChat Builtins",
+    nameKey: "wechatbuiltins_name",
+    apps: [
+      {
+        name: "My QR Code (我的二维码)",
+        nameKey: "wechatmyqrcode_name",
+        descriptionKey: "wechatmyqrcode_desc",
+        apptype: "wechat",
+        icon: "icons/wechat/myqrcode.webp",
+      },
+      {
+        name: "Money (收付款)",
+        nameKey: "wechatmoney_name",
+        descriptionKey: "wechatmoney_desc",
+        apptype: "wechat",
+        icon: "icons/wechat/money.webp",
+      },
+      {
+        name: "Scan (扫一扫)",
+        nameKey: "wechatscan_name",
+        descriptionKey: "wechatscan_desc",
+        apptype: "wechat",
+        icon: "icons/wechat/scan.webp",
+      },
+    ]
+  },
+  {
     nameKey: "chabots_name",
     name: "Chatbots",
     apps: [
@@ -843,7 +870,7 @@ export const categories = [
         icon: "icons/pwa/getnomad.webp"
       },
       {
-        name: "China Telecom",
+        name: "China Telecom (中国电信)",
         nameKey: "chinatelecom_name",
         descriptionKey: "chinatelecom_desc",
         icon: "icons/wechatmini/chinatelecom.webp",
@@ -851,7 +878,7 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
-        name: "China Mobile",
+        name: "China Mobile (中国移动)",
         nameKey: "chinamobile_name",
         descriptionKey: "chinamobile_desc",
         icon: "icons/wechatmini/chinamobile.webp",
@@ -859,7 +886,7 @@ export const categories = [
         apptype: "wechatmini"
       },
       {
-        name: "China Unicom",
+        name: "China Unicom (中国联通)",
         nameKey: "chinaunicom_name",
         descriptionKey: "chinaunicom_desc",
         icon: "icons/wechatmini/chinaunicom.webp",
@@ -1998,6 +2025,13 @@ export const categories = [
 //      apptype: "desk"
       },
       {
+        name: "social.kernel.org",
+        nameKey: "socialkernelorg_name",
+        descriptionKey: "socialkernelorg_desc",
+        icon: "icons/pwa/socialkernelorg.webp",
+        url: "https://social.kernel.org"
+      },
+      {
         name: "Tech Evangelist SEO",
         nameKey: "techevangelistseo_name",
         descriptionKey: "techevangelistseo_desc",
@@ -2019,6 +2053,7 @@ export const categories = [
         icon: "icons/msedge/chipsandcheese.webp",
         apptype: "msedge",
         url: "https://chipsandcheese.com",
+        apptype2: "wrapper",
         url2: "/msedge/chipsandcheese",
       },
       {
@@ -2057,6 +2092,15 @@ export const categories = [
         url: "/wrappers/beebom",
         apptype: "wrapper",
         urlDisplay: "https://beebom.com"
+      },
+      {
+        name: "FOSS Force",
+        nameKey: "fossforce_name",
+        descriptionKey: "fossforce_desc",
+        icon: "icons/wrappers/fossforce.webp",
+        url: "/wrappers/fossforce",
+        apptype: "wrapper",
+        urlDisplay: "https://fossforce.com"
       },
       {
         name: "LINUX DO",
@@ -3989,7 +4033,7 @@ export const categories = [
         name: "Bosideng Mall (波司登商城)",
         nameKey: "bosidengmall_name",
         descriptionKey: "bosidengmall_desc",
-        icon: "icons/wrappers/bosidengfashion.webp",
+        icon: "icons/wrappers/bosideng.webp",
         apptype: "wechatmini",
         url: "#小程序://波司登商城/hqolyc94Gp3fSiv"
       },
@@ -4001,6 +4045,38 @@ export const categories = [
         url: "/wrappers/bosideng",
         apptype: "wrapper",
         urlDisplay: "https://www.bosidengfashion.com"
+      },
+      {
+        name: "Vipshop Deals (唯品会特卖)",
+        nameKey: "vipshop_name",
+        descriptionKey: "vipshop_desc",
+        icon: "icons/wechatmini/vipshop.webp",
+        url: "#小程序://唯品会特卖/CyDeZdJlGel5xyF",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Apple Store (AppleStore官方在线商店)",
+        nameKey: "applestorewechat_name",
+        descriptionKey: "applestorewechat_desc",
+        icon: "icons/wrappers/apple.webp",
+        url: "#小程序://AppleStore官方在线商店/ob9z4DI8XxQFu4G",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Microsoft Store (微软官方商城)",
+        nameKey: "microsoftstorewechat_name",
+        descriptionKey: "microsoftstorewechat_desc",
+        icon: "icons/wrappers/microsoft.webp",
+        url: "#小程序://微软官方商城/ZYepBp4zLyg7pIi",
+        apptype: "wechatmini"
+      },
+      {
+        name: "Xiaomi Lite (小米Lite)",
+        nameKey: "xiaomilite_name",
+        descriptionKey: "xiaomilite_desc",
+        icon: "icons/wechatmini/xiaomilite.webp",
+        url: "#小程序://小米Lite/Ucz9WAJA9dTOalA",
+        apptype: "wechatmini"
       },
     ]
   },
@@ -4101,6 +4177,15 @@ export const categories = [
         url: "/wrappers/usps",
         apptype: "wrapper",
         urlDisplay: "https://www.usps.com"
+      },
+      {
+        name: "MTA",
+        nameKey: "mta_name",
+        descriptionKey: "mta_desc",
+        icon: "icons/wrappers/mta.webp",
+        url: "/wrappers/mta",
+        apptype: "wrapper",
+        urlDisplay: "https://www.mta.info"
       },
       {
         name: "China EMS",
@@ -4241,6 +4326,15 @@ export const categories = [
         descriptionKey: "dongchedi_desc",
         icon: "icons/pwa/dongchedi.webp",
         url: "https://www.dongchedi.com"
+      },
+      {
+        name: "CarNewsChina",
+        nameKey: "carnewschina_name",
+        descriptionKey: "carnewschina_desc",
+        icon: "icons/wrappers/carnewschina.webp",
+        url: "/wrappers/carnewschina",
+        apptype: "wrapper",
+        urlDisplay: "https://carnewschina.com"
       },
       {
         name: "Jiakaobaodian (驾考宝典)",

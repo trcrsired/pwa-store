@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/mta",
+  "name": "MTA",
+  "short_name": "MTA",
+  "start_url": "/wrappers/mta/?source=pwa",
+  "scope": "/wrappers/mta/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for MTA",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/mta/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
