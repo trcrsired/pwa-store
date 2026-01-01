@@ -3367,7 +3367,16 @@ export const categories = [
         url: "/wrappers/chinafirewalltest",
         apptype: "wrapper",
         urlDisplay: "https://www.chinafirewalltest.com"
-      }
+      },
+      {
+        name: "Counterpoint Research",
+        nameKey: "counterpointresearch_name",
+        descriptionKey: "counterpointresearch_desc",
+        icon: "icons/wrappers/counterpointresearch.webp",
+        url: "/wrappers/counterpointresearch",
+        apptype: "wrapper",
+        urlDisplay: "https://www.counterpointresearch.com"
+      },
     ]
   },
   {

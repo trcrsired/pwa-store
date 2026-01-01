@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/counterpointresearch",
+  "name": "Counterpoint Research",
+  "short_name": "Counterpoint Research",
+  "start_url": "/wrappers/counterpointresearch/?source=pwa",
+  "scope": "/wrappers/counterpointresearch/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Counterpoint Research",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/counterpointresearch/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

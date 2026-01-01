@@ -1039,6 +1039,8 @@ const L = {
   clearwebstats_desc: "A web analytics utility that aggregates domain-level data such as traffic estimates, ranking metrics, and hosting details.",
   chinafirewalltest_name: "China Firewall Test",
   chinafirewalltest_desc: "Real-time tool to check if a website is blocked by the Great Firewall of China, powered by ViewDNS.info.",
+  counterpointresearch_name: "Counterpoint Research",
+  counterpointresearch_desc: "Opens Counterpoint Research, a global technology market research firm offering insights on mobile, consumer electronics, semiconductors, and more.",
   streaming_name: "Streaming",
   spotify_name: "Spotify",
   spotify_desc: "Global music streaming platform.",

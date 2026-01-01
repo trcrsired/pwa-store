@@ -1040,6 +1040,8 @@ const L = {
   clearwebstats_desc: "一个网站分析工具，汇总域名级数据，包括流量估算、排名指标和主机信息。",
   chinafirewalltest_name: "中国防火墙测试",
   chinafirewalltest_desc: "由 ViewDNS.info 提供支持的实时工具，用于检测网站是否被中国防火墙屏蔽。",
+  counterpointresearch_name: "Counterpoint Research",
+  counterpointresearch_desc: "打开 Counterpoint Research 官网，这是一家提供移动、消费电子、半导体等领域洞察的全球科技市场研究机构。",
   streaming_name: "流媒体",
   spotify_name: "Spotify",
   spotify_desc: "全球音乐流媒体平台。",
