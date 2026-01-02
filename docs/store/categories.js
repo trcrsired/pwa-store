@@ -4838,7 +4838,7 @@ export const categories = [
       {
         name: "ToddV Dating",
         nameKey: "toddvdating_name",
-        descriptionKey: "toddv_desc",
+        descriptionKey: "toddvdating_desc",
         icon: "icons/wrappers/toddvdating.webp",
         url: "/wrappers/toddvdating",
         apptype: "wrapper",
