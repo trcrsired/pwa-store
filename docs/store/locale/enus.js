@@ -792,6 +792,8 @@ const L = {
   honggehui_desc: "A Chinese platform dedicated to promoting red culture, revolutionary songs, and leftist thought. Honggehui curates classic socialist media, political commentary, and historical retrospectives to preserve collective memory and revolutionary spirit.",
   xinyusi_name: "Xinyusi (新语丝)",
   xinyusi_desc: "A Chinese-language platform founded by Fang Zhouzi (方舟子), known for independent commentary, cultural critique, and intellectual discourse. It features sharp essays and exposes on academic fraud, social issues, and political controversies.",
+  "21jingji_name": "21jingji (21经济)",
+  "21jingji_desc": "Opens 21jingji, the official site of 21st Century Business Herald, offering business, finance, macroeconomic, and global news.",
   thechosundaily_name: "The Chosun Daily (조선일보)",
   thechosundaily_desc: "A leading South Korean newspaper offering national and international news, opinion, and analysis.",
   rtaaf_name: "Radio Television of Afghanistan (RTA)",

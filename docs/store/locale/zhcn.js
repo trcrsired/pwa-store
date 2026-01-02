@@ -792,6 +792,8 @@ const L = {
   honggehui_desc: "一个弘扬红色文化、传播革命歌曲与左翼思想的中文平台。红歌会汇集红色经典、政治评论与历史回顾，致力于传承社会主义精神与集体记忆。",
   xinyusi_name: "新语丝",
   xinyusi_desc: "由方舟子创办的中文平台，专注于独立评论、文化批评和思想交流。以犀利文章和揭露学术造假、社会问题及政治争议而著称。",
+  jingji21_name: "21经济网",
+  jingji21_desc: "打开21经济网(21世纪经济报道)官网，提供宏观、公司、金融、证券、全球等财经资讯。",
   thechosundaily_name: "朝鲜日报 (The Chosun Daily)",
   thechosundaily_desc: "韩国主流报纸之一，提供国内外新闻、评论与深度分析。",
   rtaaf_name: "阿富汗国家广播电视台 (RTA)",

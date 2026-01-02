@@ -2556,6 +2556,16 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "21jingji (21经济)",
+        nameKey: "21jingji_name",
+        descriptionKey: "21jingji_desc",
+        icon: "icons/msedge/21jingji.webp",
+        url: "https://www.21jingji.com",
+        apptype: "msedge",
+        url2: "/msedge/21jingji",
+        apptype2: "wrapper",
+      },
+      {
         name: "The Chosun Daily (조선일보)",
         nameKey: "thechosundaily_name",
         descriptionKey: "thechosundaily_desc",

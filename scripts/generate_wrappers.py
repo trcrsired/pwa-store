@@ -74,6 +74,7 @@ WRAPPERS = [
   { "name": "乌有之乡", "url": "https://www.wyzxwk.com", "keyify_name": "wuyouzhixiang" },
   { "name": "红歌会", "url": "https://www.szhgh.com", "keyify_name": "honggehui" },
   { "name": "新语丝", "url": "https://xinyusi.org", "keyify_name": "xinyusi" },
+  { "name": "21经济", "url": "https://www.21jingji.com", "keyify_name": "21jingji", "apptype": "msedge" },
   { "name": "조선일보", "url": "https://www.chosun.com", "keyify_name": "thechosundaily" },
   { "name": "cppreference", "url": "https://en.cppreference.com" },
   { "name": "Compiler Explorer", "url": "https://godbolt.org", "keyify_name": "godbolt" },
