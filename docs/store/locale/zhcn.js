@@ -1116,6 +1116,8 @@ const L = {
   rossmann_desc: "Louis Rossmann的维修业务与倡导网站，专注于维修权与电子产品服务。",
   yelp_name: "Yelp",
   yelp_desc: "知名的本地商户点评平台，提供评价与推荐。",
+  cocacola_name: "可口可乐 (Coca‑Cola)",
+  cocacola_desc: "打开可口可乐官方网站，查看饮品产品、品牌信息、活动促销及公司动态。",
   biggo_name: "BigGo",
   biggo_desc: "一个价格比较工具，帮助用户在多个电商平台上发现最优惠的商品。",
   walmart_name: "沃尔玛",

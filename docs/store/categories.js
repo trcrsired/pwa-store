@@ -3663,6 +3663,13 @@ export const categories = [
 //        apptype: "desk",
       },
       {
+        name: "Coca-Cola",
+        nameKey: "cocacola_name",
+        descriptionKey: "cocacola_desc",
+        icon: "icons/pwa/cocacola.webp",
+        url: "https://www.coca-cola.com"
+      },
+      {
         name: "BigGo",
         nameKey: "biggo_name",
         descriptionKey: "biggo_desc",

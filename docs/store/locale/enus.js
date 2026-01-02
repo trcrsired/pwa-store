@@ -1115,6 +1115,8 @@ const L = {
   rossmann_desc: "Louis Rossmann’s repair business and advocacy site, focused on right-to-repair and electronics services.",
   yelp_name: "Yelp",
   yelp_desc: "A popular platform for local business reviews, ratings, and recommendations.",
+  cocacola_name: "Coca‑Cola",
+  cocacola_desc: "Opens the official Coca‑Cola website featuring beverages, promotions, brand information, and company updates.",
   biggo_name: "BigGo",
   biggo_desc: "A price comparison tool that helps users discover the best deals across multiple e-commerce platforms.",
   walmart_name: "Walmart",
