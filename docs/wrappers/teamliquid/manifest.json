@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/teamliquid",
+  "name": "Team Liquid",
+  "short_name": "Team Liquid",
+  "start_url": "/wrappers/teamliquid/?source=pwa",
+  "scope": "/wrappers/teamliquid/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Team Liquid",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/teamliquid/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -2976,6 +2976,15 @@ export const categories = [
         urlDisplay: "https://bbs.nga.cn"
       },
       {
+        name: "Team Liquid",
+        nameKey: "teamliquid_name",
+        descriptionKey: "teamliquid_desc",
+        icon: "icons/wrappers/teamliquid.webp",
+        url: "/wrappers/teamliquid",
+        apptype: "wrapper",
+        urlDisplay: "https://teamliquid.com"
+      },
+      {
         name: "World of Warcraft (China)",
         nameKey: "wowchina_name",
         descriptionKey: "wowchina_desc",
@@ -4825,6 +4834,15 @@ export const categories = [
         url: "/wrappers/the33secrets",
         apptype: "wrapper",
         urlDisplay: "https://www.the33secrets.com"
+      },
+      {
+        name: "ToddV Dating",
+        nameKey: "toddvdating_name",
+        descriptionKey: "toddv_desc",
+        icon: "icons/wrappers/toddvdating.webp",
+        url: "/wrappers/toddvdating",
+        apptype: "wrapper",
+        urlDisplay: "https://toddvdating.com"
       },
     ]
   },
