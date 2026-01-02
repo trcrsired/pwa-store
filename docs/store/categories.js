@@ -70,6 +70,13 @@ export const categories = [
         icon: "icons/pwa/pjskstickers.webp",
         url: "https://st.ayaka.one",
       },
+      {
+        name: "White Noise Generator",
+        nameKey: "whitenoisegenerator_name",
+        descriptionKey: "whitenoisegenerator_desc",
+        icon: "icons/pwa/whitenoisegenerator.webp",
+        url: "https://white-noise-generator.org"
+      },
     ]
   },
   {

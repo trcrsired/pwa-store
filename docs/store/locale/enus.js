@@ -80,6 +80,8 @@ const L = {
   mediaanalyzer_desc: "A free online tool that extracts audio from video files and displays media metadata locally, without uploading your files to a server.",
   pjskstickers_name: "Project Sekai Stickers",
   pjskstickers_desc: "An easy-to-use online generator for creating custom stamps in the iconic art style of the game *Project SEKAI COLORFUL STAGE! feat. Hatsune Miku*.",
+  whitenoisegen_name: "White Noise Generator",
+  whitenoisegen_desc: "Opens a free online white noise generator offering white, brown, pink, grey, blue, and violet noise plus nature sounds for focus, relaxation, and sleep.",
   "alternatives_name": "Alternatives",
   qrcodetools_name: "QR Code Tools",
   qrcodetools_desc: "Generate, scan, and manage QR codes with ease. Ideal for developers, marketers, and everyday users.",
