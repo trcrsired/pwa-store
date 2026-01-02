@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/archyde",
+  "name": "Archyde",
+  "short_name": "Archyde",
+  "start_url": "/wrappers/archyde/?source=pwa",
+  "scope": "/wrappers/archyde/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Archyde",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/archyde/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

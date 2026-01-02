@@ -2498,6 +2498,15 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Archyde",
+        nameKey: "archyde_name",
+        descriptionKey: "archyde_desc",
+        icon: "icons/wrappers/archyde.webp",
+        url: "/wrappers/archyde",
+        apptype: "wrapper",
+        urlDisplay: "https://www.archyde.com"
+      },
+      {
         name: "Zaobao (联合早报)",
         nameKey: "zaobao_name",
         descriptionKey: "zaobao_desc",

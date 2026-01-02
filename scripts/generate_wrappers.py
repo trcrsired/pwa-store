@@ -275,6 +275,7 @@ WRAPPERS = [
   { "name": "Delaware Online", "url": "https://www.delawareonline.com" },
   { "name": "Scripps News", "url": "https://www.scrippsnews.com" },
   { "name": "San Francisco Chronicle", "url": "https://www.sfchronicle.com", "keyify_name": "sfchronicle" },
+  { "name": "Archyde", "url": "https://www.archyde.com" },
   { "name": "联合早报", "url": "https://www.zaobao.com.sg", "keyify_name": "zaobao" },
 
   { "name": "Radio Television of Afghanistan", "url": "https://rta.af", "keyify_name": "rtaaf"},
