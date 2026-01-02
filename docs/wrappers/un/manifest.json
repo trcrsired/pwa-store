@@ -1,16 +1,16 @@
 {
-  "id": "/wrappers/UN",
+  "id": "/wrappers/un",
   "name": "United Nations",
   "short_name": "United Nations",
-  "start_url": "/wrappers/UN/?source=pwa",
-  "scope": "/wrappers/UN/",
+  "start_url": "/wrappers/un/?source=pwa",
+  "scope": "/wrappers/un/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for United Nations",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/UN/icons/icon.webp",
+      "src": "/wrappers/un/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -1,16 +1,16 @@
 {
-  "id": "/wrappers/caltech",
+  "id": "/msedge/caltech",
   "name": "Caltech",
   "short_name": "Caltech",
-  "start_url": "/wrappers/caltech/?source=pwa",
-  "scope": "/wrappers/caltech/",
+  "start_url": "/msedge/caltech/?source=pwa",
+  "scope": "/msedge/caltech/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "PWA Msedge for Caltech",
+  "description": "PWA Wrapper for Caltech",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/caltech/icons/icon.webp",
+      "src": "/msedge/caltech/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

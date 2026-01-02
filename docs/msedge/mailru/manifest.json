@@ -1,16 +1,16 @@
 {
-  "id": "/wrappers/mailru",
+  "id": "/msedge/mailru",
   "name": "Mail.ru",
   "short_name": "Mail.ru",
-  "start_url": "/wrappers/mailru/?source=pwa",
-  "scope": "/wrappers/mailru/",
+  "start_url": "/msedge/mailru/?source=pwa",
+  "scope": "/msedge/mailru/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "PWA Msedge for Mail.ru",
+  "description": "PWA Wrapper for Mail.ru",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/mailru/icons/icon.webp",
+      "src": "/msedge/mailru/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

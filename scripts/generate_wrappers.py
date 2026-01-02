@@ -14,6 +14,13 @@ ROOT = Path(sys.argv[1])
 # Shared files are common to both
 SHARED_DIR = ROOT / "wrappers_shared"
 
+# Categories: separate categories
+CATEGORIES_DIRS = {
+    "wrapper": "wrappers",
+    "extension": "extensions",
+    "msedge": "msedge",
+}
+
 # Icons: separate dirs for wrappers vs extensions
 ICONS_DIRS = {
     "wrapper": ROOT / "docs" / "store" / "icons" / "wrappers",
@@ -171,7 +178,7 @@ WRAPPERS = [
   { "name": "4399", "url": "https://www.4399.com" },
   { "name": "Mumu Emulator(模拟器)", "url": "https://mumu.163.com", "keyify_name": "mumu" },
   { "name": "MumuPlayer", "url": "https://www.mumuplayer.com", "keyify_name": "mumuplayer", "icon": "mumu.webp" },
-  { "name": "United Nations", "url": "https://www.un.org", "keyify_name": "UN" },
+  { "name": "United Nations", "url": "https://www.un.org", "keyify_name": "un" },
   { "name": "International Competition Network", "url": "https://www.internationalcompetitionnetwork.org" },
   { "name": "Marie Claire", "url": "https://www.marieclaire.com" },
   { "name": "悦颜社", "url": "https://yueyanshe.com", "keyify_name": "yueyanshe" },
@@ -363,7 +370,7 @@ def encode(text):
     return text.encode("utf-8")
 
 def build_manifest(name, key, apptype="wrapper"):
-    base = "extensions" if apptype == "extension" else "wrappers"
+    base = CATEGORIES_DIRS[apptype]
     manifest = {
         "id": f"/{base}/{key}",
         "name": name,
@@ -372,7 +379,7 @@ def build_manifest(name, key, apptype="wrapper"):
         "scope": f"/{base}/{key}/",
         "background_color": "black",
         "theme_color": "black",
-        "description": f"PWA {apptype.capitalize()} for {name}",
+        "description": f"PWA Wrapper for {name}",
         "display": "standalone",
         "icons": [{
             "src": f"/{base}/{key}/icons/icon.webp",
@@ -383,7 +390,7 @@ def build_manifest(name, key, apptype="wrapper"):
     return json.dumps(manifest, indent=2).encode("utf-8")
 
 # 🚮 Clean existing outputs
-for outdir in [OUTPUT_DIRS["wrapper"], OUTPUT_DIRS["extension"]]:
+for outdir in [OUTPUT_DIRS["wrapper"], OUTPUT_DIRS["extension"], OUTPUT_DIRS["msedge"]]:
     if outdir.exists():
         shutil.rmtree(outdir)
 

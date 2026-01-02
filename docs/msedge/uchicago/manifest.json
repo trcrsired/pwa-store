@@ -1,16 +1,16 @@
 {
-  "id": "/wrappers/uchicago",
+  "id": "/msedge/uchicago",
   "name": "UChicago",
   "short_name": "UChicago",
-  "start_url": "/wrappers/uchicago/?source=pwa",
-  "scope": "/wrappers/uchicago/",
+  "start_url": "/msedge/uchicago/?source=pwa",
+  "scope": "/msedge/uchicago/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "PWA Msedge for UChicago",
+  "description": "PWA Wrapper for UChicago",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/uchicago/icons/icon.webp",
+      "src": "/msedge/uchicago/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

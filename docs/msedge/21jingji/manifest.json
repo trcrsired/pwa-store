@@ -1,16 +1,16 @@
 {
-  "id": "/wrappers/21jingji",
+  "id": "/msedge/21jingji",
   "name": "21\u7ecf\u6d4e",
   "short_name": "21\u7ecf\u6d4e",
-  "start_url": "/wrappers/21jingji/?source=pwa",
-  "scope": "/wrappers/21jingji/",
+  "start_url": "/msedge/21jingji/?source=pwa",
+  "scope": "/msedge/21jingji/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "PWA Msedge for 21\u7ecf\u6d4e",
+  "description": "PWA Wrapper for 21\u7ecf\u6d4e",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/21jingji/icons/icon.webp",
+      "src": "/msedge/21jingji/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

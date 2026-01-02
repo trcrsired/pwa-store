@@ -1,16 +1,16 @@
 {
-  "id": "/wrappers/wowtoolsarchive",
+  "id": "/msedge/wowtoolsarchive",
   "name": "WoW.tools Archive",
   "short_name": "WoW.tools Archive",
-  "start_url": "/wrappers/wowtoolsarchive/?source=pwa",
-  "scope": "/wrappers/wowtoolsarchive/",
+  "start_url": "/msedge/wowtoolsarchive/?source=pwa",
+  "scope": "/msedge/wowtoolsarchive/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "PWA Msedge for WoW.tools Archive",
+  "description": "PWA Wrapper for WoW.tools Archive",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/wowtoolsarchive/icons/icon.webp",
+      "src": "/msedge/wowtoolsarchive/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }
