@@ -241,6 +241,7 @@ WRAPPERS = [
   { "name": "Chegg", "url": "https://www.chegg.com" },
   { "name": "名库文学", "url": "https://www.mingku.cc", "keyify_name": "mingku" },
   { "name": "书斋阁", "url": "https://www.shuzhaige.com", "keyify_name": "Shuzhaige" },
+  { "name": "一起读历史", "url": "https://www.dulishi.cn", "keyify_name": "dulishi" },
   { "name": "红警DIY", "url": "https://bbs.ra2diy.com", "keyify_name": "ra2diy" },
   { "name": "WoW.tools Archive", "url": "https://archive.wow.tools", "keyify_name": "wowtoolsarchive", "apptype": "msedge" },
   { "name": "Marxists Internet Archive", "url": "https://www.marxists.org", "keyify_name": "marxistsorg" },

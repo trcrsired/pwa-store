@@ -972,6 +972,8 @@ const L = {
   mingku_desc: "Mingku Literature is an online reading platform offering world classics, Chinese ancient masterpieces, modern literary works, and popular novels.",
   shuzhaige_name: "Shuzhaige (书斋阁)",
   shuzhaige_desc: "Shuzhaige is an online literature platform featuring classical Chinese works, world classics, film originals, and author collections.",
+  dulishi_name: "Dulishi (一起读历史)",
+  dulishi_desc: "Opens Dulishi, a Chinese history site featuring dynasties, historical figures, major events, and encyclopedic articles.",
   getkana_name: "Get Kana!",
   getkana_desc: "Get Kana! is a learning app focused on teaching Japanese kana, including both hiragana and katakana. It provides progressive character lessons, reading practice, and simple drills designed to help learners master the Japanese syllabaries efficiently.",
   forums_name: "Forums",

@@ -3114,6 +3114,15 @@ export const categories = [
         url: "/wrappers/shuzhaige"
       },
       {
+        name: "Dulishi (一起读历史)",
+        nameKey: "dulishi_name",
+        descriptionKey: "dulishi_desc",
+        icon: "icons/wrappers/dulishi.webp",
+        url: "/wrappers/dulishi",
+        apptype: "wrapper",
+        urlDisplay: "https://www.dulishi.cn"
+      },
+      {
         name: "Get Kana!",
         nameKey: "getkana_name",
         descriptionKey: "getkana_desc",

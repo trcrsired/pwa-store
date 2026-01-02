@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/dulishi",
+  "name": "\u4e00\u8d77\u8bfb\u5386\u53f2",
+  "short_name": "\u4e00\u8d77\u8bfb\u5386\u53f2",
+  "start_url": "/wrappers/dulishi/?source=pwa",
+  "scope": "/wrappers/dulishi/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u4e00\u8d77\u8bfb\u5386\u53f2",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/dulishi/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
