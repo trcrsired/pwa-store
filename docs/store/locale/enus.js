@@ -770,6 +770,8 @@ const L = {
   scrippsnews_desc: "A U.S. news network delivering 24/7 coverage of national and international events, politics, business, and culture.",
   sfchronicle_name: "San Francisco Chronicle",
   sfchronicle_desc: "A major regional newspaper based in San Francisco, covering Bay Area news, politics, business, and culture.",
+  zaobao_name: "Zaobao (联合早报)",
+  zaobao_desc: "Opens Zaobao, Singapore’s leading Chinese-language news outlet offering local, international, and China news coverage.",
   ifeng_name: "ifeng (凤凰网)",
   ifeng_desc: "Comprehensive Chinese news portal offering coverage of current affairs, finance, culture, and global events.",
   tencent_name: "Tencent News (腾讯新闻)",

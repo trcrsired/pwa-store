@@ -770,6 +770,8 @@ const L = {
   scrippsnews_desc: "一家美国新闻网络，全天候报道国内与国际事件，涵盖政治、商业与文化。",
   sfchronicle_name: "San Francisco Chronicle",
   sfchronicle_desc: "一家总部位于旧金山的重要地区性报纸，报道湾区新闻、政治、商业与文化。",
+  zaobao_name: "联合早报",
+  zaobao_desc: "打开《联合早报》官网，新加坡主要华文新闻媒体，提供本地、国际及中国新闻。",
   ifeng_name: "凤凰网",
   ifeng_desc: "综合性中文新闻门户，涵盖时政、财经、文化及全球热点资讯。",
   tencent_name: "腾讯新闻",

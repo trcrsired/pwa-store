@@ -2497,6 +2497,15 @@ export const categories = [
         urlDisplay: "https://www.sfchronicle.com",
         apptype: "wrapper"
       },
+      {
+        name: "Zaobao (联合早报)",
+        nameKey: "zaobao_name",
+        descriptionKey: "zaobao_desc",
+        icon: "icons/wrappers/zaobao.webp",
+        url: "/wrappers/zaobao",
+        apptype: "wrapper",
+        urlDisplay: "https://www.zaobao.com.sg"
+      },
       { name: "ifeng (凤凰网)", nameKey: "ifeng_name", descriptionKey: "ifeng_desc", icon: "icons/wrappers/ifeng.webp", url: "/wrappers/ifeng", urlDisplay: "https://www.ifeng.com", apptype: "wrapper" },
       { name: "Tencent News (腾讯新闻)", nameKey: "tencent_name", descriptionKey: "tencent_desc", icon: "icons/pwa/tencent_news.webp", url: "https://news.qq.com" },
       { name: "Baidu (百度)", nameKey: "baidu_name", descriptionKey: "baidu_desc", icon: "icons/pwa/baidu.webp", url: "https://www.baidu.com" },
