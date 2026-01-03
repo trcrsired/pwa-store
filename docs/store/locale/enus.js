@@ -718,6 +718,8 @@ const L = {
   govfacts_desc: "GovFacts is a nonpartisan site dedicated to making government concepts and policies easier to understand. It provides clear, trustworthy explanations of programs, real-time tracking of Congress and agencies, and tools to strengthen civic engagement.",
   wionews_name: "WION News",
   wionews_desc: "WION News is an India-based international news network operated by Zee Media. It provides global coverage across politics, business, technology, science, and world affairs, offering international reporting from an Indian perspective.",
+  rfi_name: "RFI",
+  rfi_desc: "Opens RFI (Radio France Internationale), a global news outlet offering international reporting in multiple languages.",
   ameblo_name: "Ameba Blog (アメーバブログ)",
   ameblo_desc: "A popular Japanese blogging platform for personal diaries, celebrity updates, and community interaction.",
   friend_name: "Friend",
