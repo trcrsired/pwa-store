@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/komoai",
+  "name": "Komo AI",
+  "short_name": "Komo AI",
+  "start_url": "/msedge/komoai/?source=pwa",
+  "scope": "/msedge/komoai/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Komo AI",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/komoai/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

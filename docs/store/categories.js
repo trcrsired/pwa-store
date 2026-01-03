@@ -199,6 +199,23 @@ export const categories = [
       { name: "LMArena", icon: "icons/pwa/lmarena.webp", url: "https://lmarena.ai", nameKey: "lmarena_name", descriptionKey: "lmarena_desc" },
       { name: "Perplexity", icon: "icons/wrappers/perplexity.webp", url: "/wrappers/perplexity", urlDisplay:"https://www.perplexity.ai", descriptionKey: "perplexity_desc", apptype: "wrapper" },
       { name: "G2 AI", nameKey: "g2ai_name", icon: "icons/wrappers/g2ai.webp", url: "/wrappers/g2ai", urlDisplay: "https://ai.g2.com", descriptionKey: "g2ai_desc", apptype: "wrapper" },
+      {
+        name: "Andi",
+        nameKey: "andi_name",
+        descriptionKey: "andi_desc",
+        icon: "icons/pwa/andi.webp",
+        urlDisplay: "https://andisearch.com"
+      },
+      {
+        name: "Komo AI",
+        nameKey: "komoai_name",
+        descriptionKey: "komoai_desc",
+        icon: "icons/msedge/komoai.webp",
+        apptype: "msedge",
+        url: "https://komo.ai",
+        apptype2: "wrapper",
+        url2: "/msedge/komoai",
+      },
       { name: "Tencent Yuanbao (腾讯元宝)", nameKey: "tencentyuanbao_name", descriptionKey: "tencentyuanbao_desc", apptype: "wrapper", icon: "icons/wrappers/tencentyuanbao.webp", url: "/wrappers/tencentyuanbao", urlDisplay: "https://yuanbao.tencent.com/chat" },
       { name: "Doubao (豆包)", nameKey: "doubao_name", descriptionKey: "doubao_desc", apptype: "wrapper", icon: "icons/wrappers/doubao.webp", url: "/wrappers/doubao", urlDisplay: "https://www.doubao.com/chat" },
       {

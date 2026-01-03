@@ -57,6 +57,7 @@ WRAPPERS = [
   { "name": "Zscalar", "url": "https://www.zscaler.com"},
   { "name": "perplexity", "url": "https://www.perplexity.ai" },
   { "name": "G2 AI", "url": "https://ai.g2.com" },
+  { "name": "Komo AI", "url": "https://komo.ai" , "apptype": "msedge"},
   { "name": "Tencent Yuanbao", "url": "https://yuanbao.tencent.com/chat" },
   { "name": "豆包", "url": "https://www.doubao.com/chat", "keyify_name": "doubao" },
   { "name": "Алиса", "url": "https://alice.yandex.ru", "keyify_name": "alice"},
