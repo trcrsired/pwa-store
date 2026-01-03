@@ -2607,6 +2607,15 @@ export const categories = [
       },
       { name: "Radio Television of Afghanistan (RTA)", nameKey: "rtaaf_name", descriptionKey: "rtaaf_desc", url: "/wrappers/rtaaf", urlDisplay: "https://rta.af", icon: "icons/wrappers/rtaaf.webp", apptype: "wrapper" },
       {
+        name: "Qstheory (求是)",
+        nameKey: "qstheory_name",
+        descriptionKey: "qstheory_desc",
+        icon: "icons/wrappers/qstheory.webp",
+        url: "/wrappers/qstheory",
+        apptype: "wrapper",
+        urlDisplay: "https://www.qstheory.cn"
+      },
+      {
         name: "Lianyungang Daily (连云港日报)",
         nameKey: "lygdaily_name",
         descriptionKey: "lygdaily_desc",

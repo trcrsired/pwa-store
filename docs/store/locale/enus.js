@@ -1530,6 +1530,8 @@ const L = {
 // WeChat Mini Programs
   miniprogramdemo_name: "Mini Program Demo (小程序示例)",
   miniprogramdemo_desc: "This is a demonstration Mini Program showcasing basic WeChat Mini Program capabilities, including navigation, UI components, and API integration. It serves as a reference for developers exploring the Mini Program framework.",
+  qstheory_name: "Qstheory (求是)",
+  qstheory_name: "Opens Qstheory, an official theory and commentary website providing articles on policy, governance, and current affairs.",
   lygdaily_name: "Lianyungang Daily (连云港日报)",
   lygdaily_desc: "Lianyungang Daily’s WeChat Mini Program provides local news, policy updates, and public service information for residents of Lianyungang. It serves as a digital portal for staying informed about city affairs, government announcements, and community events.",
   meituan_name: "Meituan (美团)",

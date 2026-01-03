@@ -291,6 +291,7 @@ WRAPPERS = [
   { "name": "联合早报", "url": "https://www.zaobao.com.sg", "keyify_name": "zaobao" },
 
   { "name": "Radio Television of Afghanistan", "url": "https://rta.af", "keyify_name": "rtaaf"},
+  { "name": "求是", "url": "https://www.qstheory.cn", "keyify_name": "qstheory"},
 
   { "name" : "HotCRP", "url": "https://hotcrp.com" },
   { "name": "ACM", "url": "https://www.acm.org" },

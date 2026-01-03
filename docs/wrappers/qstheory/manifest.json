@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/qstheory",
+  "name": "\u6c42\u662f",
+  "short_name": "\u6c42\u662f",
+  "start_url": "/wrappers/qstheory/?source=pwa",
+  "scope": "/wrappers/qstheory/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u6c42\u662f",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/qstheory/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
