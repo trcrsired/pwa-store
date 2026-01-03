@@ -214,6 +214,7 @@ WRAPPERS = [
   { "name": "Wowhead", "url": "https://www.wowhead.com" },
   { "name": "NGA", "url": "https://bbs.nga.cn", "keyify_name": "ngacn" },
   { "name": "Team Liquid", "url": "https://teamliquid.com" },
+  { "name": "Steam Community", "url": "https://steamcommunity.com" },
   { "name": "Paypal", "url": "https://www.paypal.com" },
   { "name": "Moomoo", "url": "https://www.moomoo.com" },
   { "name": "TheStreet", "url": "https://www.thestreet.com" },

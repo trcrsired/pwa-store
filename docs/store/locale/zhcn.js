@@ -1000,6 +1000,8 @@ const L = {
   ngacn_desc: "一个中文游戏论坛，专注于MMORPG、策略游戏和流行文化的讨论。",
   teamliquid_name: "Team Liquid",
   teamliquid_desc: "打开 Team Liquid 官网，查看战队资讯、选手阵容、比赛日程及社区内容。",
+  steamcommunity_name: "Steam 社区",
+  steamcommunity_desc: "打开 Steam 社区，查看游戏社区、玩家资料、指南、讨论区和创意工坊内容。",
   knowledgespedia_name: "知识和百科",
   wikipedia_name: "维基百科",
   wikipedia_desc: "免费的在线百科全书。",

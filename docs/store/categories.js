@@ -2607,7 +2607,7 @@ export const categories = [
       },
       { name: "Radio Television of Afghanistan (RTA)", nameKey: "rtaaf_name", descriptionKey: "rtaaf_desc", url: "/wrappers/rtaaf", urlDisplay: "https://rta.af", icon: "icons/wrappers/rtaaf.webp", apptype: "wrapper" },
       {
-        name: "Qstheory (求是)",
+        name: "QStheory (求是)",
         nameKey: "qstheory_name",
         descriptionKey: "qstheory_desc",
         icon: "icons/wrappers/qstheory.webp",
@@ -3023,6 +3023,15 @@ export const categories = [
         url: "/wrappers/teamliquid",
         apptype: "wrapper",
         urlDisplay: "https://teamliquid.com"
+      },
+      {
+        name: "Steam Community",
+        nameKey: "steamcommunity_name",
+        descriptionKey: "steamcommunity_desc",
+        icon: "icons/wrappers/steamcommunity.webp",
+        url: "/wrappers/steamcommunity",
+        apptype: "wrapper",
+        urlDisplay: "https://steamcommunity.com"
       },
       {
         name: "World of Warcraft (China)",
