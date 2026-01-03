@@ -844,6 +844,8 @@ const L = {
   dubok_desc: "Dubok is a Chinese streaming site specializing in exclusive and hard-to-find TV dramas, anime, and variety shows. It aggregates content from multiple sources, offering fast updates and a wide selection of subtitled episodes for niche audiences.",
   youku_name: "Youku (优酷)",
   youku_desc: "Youku Tudou Inc., doing business as Youku, is a video streaming service and former video sharing website based in Beijing, China. It operates as a subsidiary of Alibaba Group Holding Limited.",
+  eightbook_name: "8book",
+  eightbook_desc: "Opens 8book, a Chinese online fiction site offering fantasy, wuxia, romance, and other genres.",
   lightnovel_name: "Lightnovel Kingdom (轻之国度)",
   lightnovel_desc: "One of China’s longest-running light novel communities, offering serialized fan translations, author archives, and anime-inspired literature in a minimalist interface optimized for mobile browsing.",
   wechatread_name: "WeChat Read (微信读书)",

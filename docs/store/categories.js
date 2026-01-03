@@ -2641,6 +2641,13 @@ export const categories = [
       { name: "Tubi", nameKey: "tubitv_name", descriptionKey: "tubitv_desc", icon: "icons/pwa/tubitv.webp", url: "https://tubitv.com" },
       { name: "Dubok (独播库)", nameKey: "dubok_name", descriptionKey: "dubok_desc", icon: "icons/pwa/dubok.webp", url: "https://www.dubok.tv" },
       { name: "Youku (优酷)", nameKey: "youku_name", descriptionKey: "youku_desc", icon: "icons/pwa/youku.webp", url: "https://www.youku.com" },
+      {
+        name: "8book",
+        nameKey: "eightbook_name",
+        descriptionKey: "eightbook_desc",
+        icon: "icons/pwa/8book.webp",
+        url: "https://8book.com"
+      },
       { name: "Lightnovel Kingdom (轻之国度)", nameKey: "lightnovel_name", descriptionKey: "lightnovel_desc", icon: "icons/wrappers/lightnovelkingdom.webp", url: "/wrappers/lightnovelkingdom", apptype: "wrapper", urlDisplay: "https://www.lightnovel.fun/cn" },
       { name: "WeChat Read (微信读书)", nameKey: "wechatread_name", descriptionKey: "wechatread_desc", icon: "icons/wrappers/wechatread.webp", url: "/wrappers/wechatread", apptype: "wrapper", urlDisplay: "https://weread.qq.com" },
       { name: "Qingting FM (蜻蜓FM)", nameKey: "qingtingfm_name", descriptionKey: "qingtingfm_desc", icon: "icons/wrappers/qingtingfm.webp", apptype: "wrapper", urlDisplay: "https://www.qtfm.cn" },

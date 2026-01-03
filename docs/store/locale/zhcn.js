@@ -844,6 +844,8 @@ const L = {
   dubok_desc: "独播库是一个专注于独家和冷门剧集的中国流媒体网站，聚合多个来源内容，更新迅速，提供大量带字幕的剧集，适合小众观众。",
   youku_name: "优酷",
   youku_desc: "优酷是由阿里巴巴集团旗下运营的视频流媒体服务，前身为视频分享网站，总部位于北京。",
+  eightbook_name: "8book",
+  eightbook_desc: "打开 8book 小说网站，提供玄幻、武侠、言情等多类型网络小说阅读。",
   lightnovel_name: "轻之国度",
   lightnovel_desc: "中国最早的轻小说社区之一，提供连载翻译、作者档案和动漫风格文学，界面简洁，适合移动浏览。",
   wechatread_name: "微信读书",
