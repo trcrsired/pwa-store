@@ -204,7 +204,7 @@ export const categories = [
         nameKey: "andi_name",
         descriptionKey: "andi_desc",
         icon: "icons/pwa/andi.webp",
-        urlDisplay: "https://andisearch.com"
+        url: "https://andisearch.com"
       },
       {
         name: "Komo AI",
