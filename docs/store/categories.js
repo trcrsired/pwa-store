@@ -1488,6 +1488,13 @@ export const categories = [
         descriptionKey: "bitclock_desc",
       },
       {
+        name: "Polymarket",
+        nameKey: "polymarket_name",
+        descriptionKey: "polymarket_desc",
+        icon: "icons/pwa/polymarket.webp",
+        url: "https://polymarket.com"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",

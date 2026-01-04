@@ -39,6 +39,8 @@ const L = {
   "timegov_desc": "Access official U.S. time from the National Institute of Standards and Technology.",
   bitclock_name: "BITCLOCK",
   bitclock_desc: "BITCLOCK is a minimalist crypto dashboard that tracks live Bitcoin, Ethereum, and Solana prices, with donation options to support the project.",
+  polymarket_name: "Polymarket",
+  polymarket_desc: "Opens Polymarket, a cryptocurrency‑based prediction market where users trade on real‑world events.",
   atimelogger_name: "aTimerLogger",
   atimelogger_desc: "A time tracking app for logging daily activities, habits, and productivity. Supports custom categories, charts, and export options for personal or professional use.",
   "stackwatch_desc": "Track vulnerabilities and security updates across software stacks.",

@@ -40,6 +40,8 @@ const L = {
   "timegov_desc": "获取美国国家标准技术研究院提供的官方时间。",
   bitclock_name: "BITCLOCK",
   bitclock_desc: "BITCLOCK 是一个极简加密货币看板，实时显示比特币、以太坊和 Solana 的价格，并提供捐赠支持选项。",
+  polymarket_name: "Polymarket",
+  polymarket_desc: "打开 Polymarket，加密货币预测市场，可就真实世界事件进行交易。",
   atimelogger_name: "aTimerLogger",
   atimelogger_desc: "一款时间记录应用，用于追踪日常活动、习惯与效率表现。支持自定义分类、图表分析及导出功能，适用于个人或专业场景。",
   "microsoft_services_name": "微软服务",
