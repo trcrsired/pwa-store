@@ -1630,6 +1630,8 @@ const L = {
   hworldclub_desc: "华住会是H World Group Limited(华住集团有限公司)官方酒店预订微信小程序，覆盖全国1000多个城市、5000余家门店，支持实时预订、地理位置搜索、会员专属优惠及跨品牌积分兑换，旗下品牌包括汉庭、全季、桔子等。",
   shengdu_name: "圣都整装",
   shengdu_desc: "圣都官方微信小程序，提供一站式家装与装修服务。",
+  zmnfix_name: "啄木鸟家庭维修",
+  zmnfix_desc: "打开啄木鸟家庭维修小程序，提供家电维修、水电维修、管道疏通等上门服务。",
   luckinwechatmini_name: "瑞幸咖啡",
   luckinwechatmini_desc: "瑞幸咖啡是官方微信小程序，提供移动点单、会员优惠和全国门店快速取餐服务。用户可浏览时令菜单、积分兑换、微信支付，并享受外送、自取及基于位置和偏好的个性化推荐。",
   shouqianba_name: "收钱吧",

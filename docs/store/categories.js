@@ -4609,6 +4609,14 @@ export const categories = [
         url: "#小程序://圣都整装/VZrtqHn4BBQowok",
         apptype: "wechatmini"
       },
+      {
+        name: "Zhuomuniao Home Repair (啄木鸟家庭维修)",
+        nameKey: "zmnfix_name",
+        descriptionKey: "zmnfix_desc",
+        icon: "icons/wechatmini/zmnfix.webp",
+        url: "#小程序://啄木鸟家庭维修/f7JFUkYXPIn2swr",
+        apptype: "wechatmini",
+      },
     ]
   },
   {

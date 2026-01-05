@@ -1630,6 +1630,8 @@ const L = {
   hworldclub_desc: "H World Club is the official hotel booking Mini Program by H World Group Limited, offering real-time reservations across 5,000+ hotels in 1,000+ cities. Members enjoy location-based search, instant booking, exclusive discounts, and unified loyalty points across brands like Hanting, Ji Hotel, and Orange Hotel.",
   shengdu_name: "Shengdu Full Decoration (圣都整装)",
   shengdu_desc: "Official WeChat Mini Program for Shengdu, offering integrated home decoration and renovation services.",
+  zmnfix_name: "Zhuomuniao Home Repair (啄木鸟家庭维修)",
+  zmnfix_desc: "Opens the Zhuomuniao home repair mini‑program for appliance repair, plumbing, electrical services, and more.",
   luckinwechatmini_name: "Luckin Coffee (瑞幸咖啡)",
   luckinwechatmini_desc: "Luckin Coffee is a WeChat Mini Program offering mobile ordering, membership discounts, and fast pickup across thousands of stores in China. Users can browse seasonal menus, earn points, and pay via WeChat Pay. The program supports delivery, self-pickup, and personalized recommendations based on location and preferences.",
   shouqianba_name: "Shouqianba (收钱吧)",
