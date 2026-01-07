@@ -41,6 +41,8 @@ const L = {
   bitclock_desc: "BITCLOCK is a minimalist crypto dashboard that tracks live Bitcoin, Ethereum, and Solana prices, with donation options to support the project.",
   polymarket_name: "Polymarket",
   polymarket_desc: "Opens Polymarket, a cryptocurrency‑based prediction market where users trade on real‑world events.",
+  tipranks_name: "TipRanks",
+  tipranks_desc: "Opens TipRanks, a stock‑market research platform offering analyst rankings, insider‑trading data, Smart Scores, and financial news.",
   atimelogger_name: "aTimerLogger",
   atimelogger_desc: "A time tracking app for logging daily activities, habits, and productivity. Supports custom categories, charts, and export options for personal or professional use.",
   "stackwatch_desc": "Track vulnerabilities and security updates across software stacks.",

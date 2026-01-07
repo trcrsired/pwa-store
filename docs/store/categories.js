@@ -1495,6 +1495,13 @@ export const categories = [
         url: "https://polymarket.com"
       },
       {
+        name: "TipRanks",
+        nameKey: "tipranks_name",
+        descriptionKey: "tipranks_desc",
+        icon: "icons/pwa/tipranks.webp",
+        url: "https://www.tipranks.com"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",
