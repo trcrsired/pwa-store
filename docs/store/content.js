@@ -15,6 +15,24 @@ function copyToClipboard(text) {
 
 const has_navigator_install = typeof navigator.install === 'function';
 
+function updateToggleAllButtonLabel() {
+  const toggleAllButton = document.getElementById('toggle-all-btn');
+  if (!toggleAllButton) return;
+
+  const headings = document.querySelectorAll('.category-heading');
+  if (headings.length === 0) {
+    toggleAllButton.disabled = true;
+    toggleAllButton.textContent = L('Expand All');
+    return;
+  }
+
+  toggleAllButton.disabled = false;
+  const allExpanded = Array.from(headings).every((h) =>
+    h.classList.contains('expanded')
+  );
+  toggleAllButton.textContent = allExpanded ? L('Collapse All') : L('Expand All');
+}
+
 function sanitize_install_url(url) {
   // If no URL is provided, return an empty string
   if (!url) return "";
@@ -74,7 +92,7 @@ const renderAppCard = (app) => {
 
   // Build static elements
   container.innerHTML = `
-    <img src="${app.icon}" alt="${localizedName}" class="app-icon" />
+    <img src="${app.icon}" alt="${localizedName}" class="app-icon" loading="lazy" decoding="async" />
     <div class="app-name">${localizedName}</div>
     <div class="app-description">${localizedDescription}</div>
     ${showBadge ? `<span class="apptype-badge">${L(app.apptype) || app.apptype}</span>` : ''}
@@ -211,6 +229,7 @@ const renderCategory = (category, forceExpand = false) => {
     grid.classList.toggle('collapsed', !newState);
     heading.classList.toggle('expanded', newState);
     localStorage.setItem(storageKey, newState);
+    updateToggleAllButtonLabel();
   });
 
   // Render each app card inside the grid
@@ -292,6 +311,7 @@ const renderStore = (filterText = '') => {
   });
 
   resultCount.textContent = `${totalMatches} APP${totalMatches !== 1 ? 's' : ''}`;
+  updateToggleAllButtonLabel();
 };
 
 
@@ -346,40 +366,21 @@ filterNative.addEventListener('change', () => {
 });
 
 const toggleAllButton = document.getElementById('toggle-all-btn');
-const allHeadings = document.querySelectorAll('.category-heading');
+updateToggleAllButtonLabel();
 
-let allExpanded = true;
+toggleAllButton?.addEventListener('click', () => {
+  const headings = document.querySelectorAll('.category-heading');
+  if (headings.length === 0) return;
 
-allHeadings.forEach((heading) => {
-  const categoryName = heading.textContent;
-  const storageKey = `category-expanded-${categoryName}`;
-  const isExpanded = localStorage.getItem(storageKey) === 'true';
-
-  if (!isExpanded) {
-    allExpanded = false;
-  }
-
-  const grid = heading.nextElementSibling;
-  grid.classList.toggle('expanded', isExpanded);
-  grid.classList.toggle('collapsed', !isExpanded);
-  heading.classList.toggle('expanded', isExpanded);
-});
-
-toggleAllButton.textContent = allExpanded ? L('Collapse All') : L('Expand All');
-
-toggleAllButton.addEventListener('click', () => {
-  const allHeadings = document.querySelectorAll('.category-heading');
-
-  const allExpanded = Array.from(allHeadings).every((heading) => {
-    const categoryName = heading.textContent;
-    const storageKey = `category-expanded-${categoryName}`;
-    return localStorage.getItem(storageKey) === 'true';
-  });
-
+  const allExpanded = Array.from(headings).every((heading) =>
+    heading.classList.contains('expanded')
+  );
   const expand = !allExpanded;
 
-  allHeadings.forEach((heading) => {
+  headings.forEach((heading) => {
     const grid = heading.nextElementSibling;
+    if (!(grid instanceof HTMLElement)) return;
+
     const categoryName = heading.textContent;
     const storageKey = `category-expanded-${categoryName}`;
 
@@ -389,5 +390,5 @@ toggleAllButton.addEventListener('click', () => {
     localStorage.setItem(storageKey, expand);
   });
 
-  toggleAllButton.textContent = expand ? L('Collapse All') : L('Expand All');
+  updateToggleAllButtonLabel();
 });
