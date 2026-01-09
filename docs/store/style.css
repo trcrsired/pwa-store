@@ -479,24 +479,25 @@ a:hover {
   justify-content: center;
   gap: 8px;
   padding: 10px 12px;
-  border-radius: 12px;
-  border: 1px solid transparent;
-  background: linear-gradient(135deg, var(--brand), var(--brand-2));
-  color: #fff;
+  border-radius: 999px;
+  border: 1.5px solid #111;
+  background: #fff;
+  color: #111;
   text-decoration: none;
   font-weight: 800;
   letter-spacing: -0.01em;
   font-size: 0.95rem;
   line-height: 1.15;
   cursor: pointer;
-  transition: transform 140ms ease, filter 140ms ease, box-shadow 140ms ease;
+  transition: transform 140ms ease, box-shadow 140ms ease,
+    background-color 140ms ease;
 }
 
 .install-button:hover {
   text-decoration: none;
-  filter: brightness(1.05);
   transform: translateY(-1px);
-  box-shadow: 0 12px 28px rgba(37, 99, 235, 0.22);
+  background: #f5f5f5;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
 }
 
 .install-button:active {
@@ -504,12 +505,12 @@ a:hover {
 }
 
 .install-button:focus-visible {
-  box-shadow: 0 0 0 4px var(--ring), 0 12px 28px rgba(37, 99, 235, 0.22);
+  box-shadow: 0 0 0 4px var(--ring), 0 10px 20px rgba(0, 0, 0, 0.12);
 }
 
 .install-button:link,
 .install-button:visited {
-  color: #fff;
+  color: #111;
 }
 
 /* Footer */
