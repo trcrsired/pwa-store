@@ -444,13 +444,11 @@ a:hover {
   margin: 0 0 10px;
 }
 
-.app-url {
-  font-family: var(--font-mono);
-  font-size: 0.82rem;
-  color: var(--muted);
-  word-break: break-word;
-  overflow-wrap: anywhere;
-  margin: 0 0 10px;
+.app-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 12px;
 }
 
 .apptype-badge {
@@ -464,7 +462,14 @@ a:hover {
   font-size: 0.75rem;
   font-weight: 800;
   letter-spacing: 0.02em;
-  margin: 0 0 10px;
+  margin: 0;
+}
+
+.card-actions {
+  margin-top: auto;
+  width: 100%;
+  display: grid;
+  gap: 10px;
 }
 
 .install-button {
