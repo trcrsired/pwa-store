@@ -634,18 +634,18 @@ export const categories = [
         url: "https://trcrsired.github.io/pwa-wasm-example"
       },
       {
-        name: "PWA fast_io Demo",
-        nameKey: "pwafastio_name",
-        descriptionKey: "pwafastio_desc",
-        icon: "icons/pwa/pwawasmexample.webp",
-        url: "https://pwa-wasm-fast-io-demo.pages.dev"
-      },
-      {
         name: "fast_io",
         nameKey: "fastio_name",
         descriptionKey: "fastio_desc",
         icon: "icons/pwa/fastio.webp",
         url: "https://fastio.pages.dev"
+      },
+      {
+        name: "PWA fast_io Demo",
+        nameKey: "pwafastio_name",
+        descriptionKey: "pwafastio_desc",
+        icon: "icons/pwa/pwawasmexample.webp",
+        url: "https://pwa-wasm-fast-io-demo.pages.dev"
       },
       {
         name: "WebAssembly.sh",
