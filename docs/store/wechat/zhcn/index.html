@@ -7,81 +7,47 @@
 
   <link rel="icon" href="/store/logo/logo.webp" />
   <link rel="manifest" href="/store/manifest.json" />
-
-  <style>
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Helvetica, Arial, sans-serif;
-      margin: 0 auto;
-      padding: 24px;
-      max-width: 720px;
-      line-height: 1.6;
-      color: #222;
-    }
-    h1 {
-      font-size: 1.8rem;
-      margin-bottom: 0.5em;
-    }
-    h2 {
-      font-size: 1.3rem;
-      margin-top: 2em;
-    }
-    img {
-      width: 100%;
-      border-radius: 12px;
-      margin: 16px 0;
-    }
-    .note {
-      background: #f5f5f5;
-      padding: 16px;
-      border-radius: 8px;
-      margin-top: 32px;
-      font-size: 0.95rem;
-    }
-    @media (prefers-color-scheme: dark) {
-        body {
-            background: #111;
-            color: #eee;
-        }
-        .note {
-            background: #222;
-        }
-    }
-  </style>
+  <link rel="stylesheet" href="/store/style.css" />
 </head>
-<body>
+<body class="content-page">
+  <header class="subpage-header">
+    <div class="page">
+      <a class="back-link" href="/store/">← PWA Store</a>
+    </div>
+  </header>
 
-  <h1>将微信快捷功能添加到主屏幕</h1>
+  <main class="content">
+    <h1>将微信快捷功能添加到主屏幕</h1>
 
-  <p>
-    微信提供官方快捷方式：<strong>我的二维码</strong>、<strong>收付款</strong>、<strong>扫一扫</strong>。  
-    你可以把它们直接放到主屏幕，打开速度会更快。
-  </p>
+    <p>
+      微信提供官方快捷方式：<strong>我的二维码</strong>、<strong>收付款</strong>、<strong>扫一扫</strong>。
+      你可以把它们直接放到主屏幕，打开速度会更快。
+    </p>
 
-  <h2>1. 长按微信图标</h2>
-  <p>
-    会弹出快捷菜单，显示 <strong>我的二维码</strong>、<strong>收付款</strong> 和 <strong>扫一扫</strong>。
-  </p>
-  <img src="/store/wechat/enus/01.webp" alt="微信快捷菜单" />
+    <h2>1. 长按微信图标</h2>
+    <p>
+      会弹出快捷菜单，显示 <strong>我的二维码</strong>、<strong>收付款</strong> 和 <strong>扫一扫</strong>。
+    </p>
+    <img src="/store/wechat/enus/01.webp" alt="微信快捷菜单" loading="lazy" decoding="async" />
 
-  <h2>2. 长按其中一个功能</h2>
-  <p>
-    例如长按 <strong>我的二维码</strong>，即可拖动到主屏幕。
-  </p>
-  <img src="/store/wechat/enus/02.webp" alt="拖动我的二维码到主屏幕" />
+    <h2>2. 长按其中一个功能</h2>
+    <p>
+      例如长按 <strong>我的二维码</strong>，即可拖动到主屏幕。
+    </p>
+    <img src="/store/wechat/enus/02.webp" alt="拖动我的二维码到主屏幕" loading="lazy" decoding="async" />
 
-  <h2>3. 放到主屏幕上</h2>
-  <p>
-    将图标拖到主屏幕任意位置即可。  
-    现在你可以一键打开该功能。
-  </p>
-  <img src="/store/wechat/enus/03.webp" alt="我的二维码已添加到主屏幕" />
+    <h2>3. 放到主屏幕上</h2>
+    <p>
+      将图标拖到主屏幕任意位置即可。
+      现在你可以一键打开该功能。
+    </p>
+    <img src="/store/wechat/enus/03.webp" alt="我的二维码已添加到主屏幕" loading="lazy" decoding="async" />
 
-  <div class="note">
-    <strong>提示：</strong><br />
-    如果无法拖动，请检查手机是否允许应用创建桌面快捷方式。  
-    部分国产安卓手机默认关闭了此权限。
-  </div>
-
+    <div class="note">
+      <strong>提示：</strong><br />
+      如果无法拖动，请检查手机是否允许应用创建桌面快捷方式。
+      部分国产安卓手机默认关闭了此权限。
+    </div>
+  </main>
 </body>
 </html>

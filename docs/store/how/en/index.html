@@ -5,103 +5,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="/store/logo/logo.webp" />
   <link rel="manifest" href="/store/manifest.json" />
+  <link rel="stylesheet" href="/store/style.css" />
 
   <title>How to Install PWAs</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      line-height: 1.6;
-    }
-    h1, h2 {
-      color: #333;
-    }
-    ul {
-      padding-left: 1.2rem;
-    }
-    code {
-      background: #f4f4f4;
-      padding: 2px 4px;
-      border-radius: 4px;
-    }
-    /* 🌙 Dark mode support */
-    @media (prefers-color-scheme: dark) {
-      body {
-        background-color: #121212;
-        color: #e0e0e0;
-      }
-
-      h1, h2 {
-        color: #ffffff;
-      }
-
-      code {
-        background: #1e1e1e;
-        color: #ffcc99;
-      }
-
-      a {
-        color: #80cbc4;
-      }
-    }
-  </style>
 </head>
-<body>
-  <h1>📦 How to Install Progressive Web Apps (PWAs)</h1>
-  <p>PWAs can be installed directly from your browser for a native-like experience. Here's how to do it on each major platform:</p>
+<body class="content-page">
+  <header class="subpage-header">
+    <div class="page">
+      <a class="back-link" href="/store/">← PWA Store</a>
+    </div>
+  </header>
 
-  <h2>🧭 Chrome (Windows, macOS, Linux, Android)</h2>
-  <ul>
-    <li>Visit the PWA site.</li>
-    <li>Look for the <strong>install icon</strong> in the address bar (a monitor with a down arrow).</li>
-    <li>Click <strong>Install</strong> to add it to your desktop or home screen.</li>
-    <li>On Android, tap the <strong>three-dot menu</strong> → <strong>Install app</strong>.</li>
-  </ul>
+  <main class="content">
+    <h1>📦 How to Install Progressive Web Apps (PWAs)</h1>
+    <p>PWAs can be installed directly from your browser for a native-like experience. Here's how to do it on each major platform:</p>
 
-  <h2>🦊 Firefox</h2>
-  <ul>
-    <li>Firefox does not currently support PWA installation natively.</li>
-    <li>Use <a href="https://github.com/filips123/PWAsForFirefox">PWAsForFirefox</a> extension for desktop support.</li>
-  </ul>
+    <h2>🧭 Chrome (Windows, macOS, Linux, Android)</h2>
+    <ul>
+      <li>Visit the PWA site.</li>
+      <li>Look for the <strong>install icon</strong> in the address bar (a monitor with a down arrow).</li>
+      <li>Click <strong>Install</strong> to add it to your desktop or home screen.</li>
+      <li>On Android, tap the <strong>three-dot menu</strong> → <strong>Install app</strong>.</li>
+    </ul>
 
-  <h2>🧑‍💻 Edge (Windows, macOS, Android)</h2>
-  <ul>
-    <li>Visit the PWA site.</li>
-    <li>Click the <strong>install icon</strong> in the address bar or go to <strong>Settings → Apps → Install this site as an app</strong>.</li>
-    <li>On Android, use the same method as Chrome.</li>
-  </ul>
+    <h2>🦊 Firefox</h2>
+    <ul>
+      <li>Firefox does not currently support PWA installation natively.</li>
+      <li>Use <a href="https://github.com/filips123/PWAsForFirefox">PWAsForFirefox</a> extension for desktop support.</li>
+    </ul>
 
-  <h2>🍎 Safari (iOS, macOS)</h2>
-  <ul>
-    <li>On iOS: Tap the <strong>Share</strong> icon → <strong>Add to Home Screen</strong>.</li>
-    <li>On macOS: Safari does not support PWA installation natively.</li>
-    <li>Use Chrome or Edge on macOS for full PWA support.</li>
-  </ul>
+    <h2>🧑‍💻 Edge (Windows, macOS, Android)</h2>
+    <ul>
+      <li>Visit the PWA site.</li>
+      <li>Click the <strong>install icon</strong> in the address bar or go to <strong>Settings → Apps → Install this site as an app</strong>.</li>
+      <li>On Android, use the same method as Chrome.</li>
+    </ul>
 
-  <h2>📱 Android (All Browsers)</h2>
-  <ul>
-    <li>Most modern browsers support PWA installation.</li>
-    <li>Look for <strong>Install</strong> or <strong>Add to Home Screen</strong> options in the browser menu.</li>
-  </ul>
+    <h2>🍎 Safari (iOS, macOS)</h2>
+    <ul>
+      <li>On iOS: Tap the <strong>Share</strong> icon → <strong>Add to Home Screen</strong>.</li>
+      <li>On macOS: Safari does not support PWA installation natively.</li>
+      <li>Use Chrome or Edge on macOS for full PWA support.</li>
+    </ul>
 
-  <h2>🧩 Tips</h2>
-  <ul>
-    <li>PWAs must be served over HTTPS and include a valid <code>manifest.json</code>.</li>
-    <li>To test installability, use Chrome DevTools → <strong>Application</strong> tab.</li>
-    <li>Installed PWAs can be launched from your OS like native apps.</li>
-  </ul>
+    <h2>📱 Android (All Browsers)</h2>
+    <ul>
+      <li>Most modern browsers support PWA installation.</li>
+      <li>Look for <strong>Install</strong> or <strong>Add to Home Screen</strong> options in the browser menu.</li>
+    </ul>
 
-  <p>Want to learn more? Check out <a href="https://web.dev/progressive-web-apps/">Google’s PWA guide</a>.</p>
+    <h2>🧩 Tips</h2>
+    <ul>
+      <li>PWAs must be served over HTTPS and include a valid <code>manifest.json</code>.</li>
+      <li>To test installability, use Chrome DevTools → <strong>Application</strong> tab.</li>
+      <li>Installed PWAs can be launched from your OS like native apps.</li>
+    </ul>
 
-  <h2>💚 WeChat Mini Programs</h2>
-  <ul>
-    <li>Open the Mini Program inside WeChat.</li>
-    <li>Tap the <strong>three-dot menu</strong> in the upper-right corner.</li>
-    <li>Select <strong>Add to Home Screen</strong> or <strong>Add to Desktop</strong>.</li>
-    <li>If the option is missing or fails, check whether <strong>Desktop Shortcut Permissions</strong> are enabled in WeChat settings.</li>
-    <li>Once added, the Mini Program will appear on your device’s home screen like a progressive web app.</li>
-  </ul>
+    <p>Want to learn more? Check out <a href="https://web.dev/progressive-web-apps/">Google’s PWA guide</a>.</p>
+
+    <h2>💚 WeChat Mini Programs</h2>
+    <ul>
+      <li>Open the Mini Program inside WeChat.</li>
+      <li>Tap the <strong>three-dot menu</strong> in the upper-right corner.</li>
+      <li>Select <strong>Add to Home Screen</strong> or <strong>Add to Desktop</strong>.</li>
+      <li>If the option is missing or fails, check whether <strong>Desktop Shortcut Permissions</strong> are enabled in WeChat settings.</li>
+      <li>Once added, the Mini Program will appear on your device’s home screen like a progressive web app.</li>
+    </ul>
+  </main>
 </body>
 </html>
