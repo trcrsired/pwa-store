@@ -632,6 +632,8 @@ const L = {
   rt_desc: "Russian international news outlet.",
   presstv_name: "PressTV",
   presstv_desc: "Iranian English-language broadcaster.",
+  presstvcouk_name: "PressTV(co.uk)",
+  presstvcouk_desc: "Mirror of PressTV hosted under a UK domain.",
   bloomberg_name: "Bloomberg",
   bloomberg_desc: "Global financial media company delivering real-time market data, business news, and economic analysis.",
   firstpost_name: "Firstpost",

@@ -632,6 +632,8 @@ const L = {
   rt_desc: "俄罗斯国际新闻媒体。",
   presstv_name: "PressTV",
   presstv_desc: "伊朗的英文广播机构。",
+  presstvcouk_name: "PressTV(co.uk)",
+  presstvcouk_desc: "PressTV 的英国域名镜像站点。",
   bloomberg_name: "彭博社",
   bloomberg_desc: "全球金融媒体公司，提供实时市场数据、商业新闻和经济分析。",
   firstpost_name: "Firstpost",

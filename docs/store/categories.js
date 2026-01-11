@@ -2350,6 +2350,7 @@ export const categories = [
     apps: [
       { name: "RT", nameKey: "rt_name", descriptionKey: "rt_desc", icon: "icons/pwa/rt.webp", url: "https://www.rt.com" },
       { name: "PressTV", nameKey: "presstv_name", descriptionKey: "presstv_desc", icon: "icons/pwa/presstv.webp", url: "https://www.presstv.ir" },
+      { name: "PressTV(co.uk)", nameKey: "presstvcouk_name", descriptionKey: "presstvcouk_desc", icon: "icons/pwa/presstv.webp", url: "https://www.presstv.co.uk" },
       { name: "Bloomberg", nameKey: "bloomberg_name", descriptionKey: "bloomberg_desc", icon: "icons/pwa/bloomberg.webp", url: "https://www.bloomberg.com" },
       { name: "Firstpost", nameKey: "firstpost_name", descriptionKey: "firstpost_desc", icon: "icons/pwa/firstpost.webp", url: "https://www.firstpost.com" },
       { name: "Forbes", nameKey: "forbes_name", descriptionKey: "forbes_desc", icon: "icons/pwa/forbes.webp", url: "https://www.forbes.com" },
