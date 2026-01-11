@@ -274,6 +274,7 @@ WRAPPERS = [
   { "name": "The Telegraph", "url": "https://www.telegraph.co.uk" },
   { "name": "CGTN", "url": "https://www.cgtn.com" },
   { "name": "Fortune", "url": "https://fortune.com" },
+  { "name": "FactCheck.org", "url": "https://www.factcheck.org", "apptype": "msedge", "keyify_name": "factcheck" },
   { "name": "Scientific American", "url": "https://www.scientificamerican.com" },
   { "name": "Popular Mechanics" , "url": "https://www.popularmechanics.com" },
   { "name": "Canva", "url": "https://www.canva.com"},

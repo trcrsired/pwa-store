@@ -2499,6 +2499,16 @@ export const categories = [
       { name: "CCTV", nameKey: "cctv_name", descriptionKey: "cctv_desc", icon: "icons/wrappers/cctv.webp", url2: "/wrappers/cctv", apptype2: "wrapper", apptype: "msedge", url: "https://tv.cctv.com" },
       { name: "Fortune", nameKey: "fortune_name", descriptionKey: "fortune_desc", icon: "icons/wrappers/fortune.webp", url: "/wrappers/fortune", apptype: "wrapper", urlDisplay: "https://fortune.com"},
       {
+        name: "FactCheck.org",
+        nameKey: "factcheck_name",
+        descriptionKey: "factcheck_desc",
+        icon: "icons/msedge/factcheck.webp",
+        url2: "/msedge/factcheck",
+        apptype: "msedge",
+        url: "https://www.factcheck.org",
+        apptype2: "msedge"
+      },
+      {
         name: "Scientific American",
         nameKey: "scientificamerican_name",
         descriptionKey: "scientificamerican_desc",
