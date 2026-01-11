@@ -125,6 +125,8 @@ const renderAppCard = (app) => {
   const localizedDescription = app.descriptionKey ? L(app.descriptionKey) : app.description;
   const showBadge = app.apptype && app.apptype !== "pwa";
   const isWeChatMini = app.apptype === 'wechatmini';
+  const isWeChat = app.apptype === 'wechat';
+  const isNative = app.apptype === 'native';
 
   // Build static elements
   container.innerHTML = `
@@ -147,13 +149,16 @@ const renderAppCard = (app) => {
   const urlLine = document.createElement('div');
   urlLine.className = 'app-url';
   var appurl = app.url;
-  const isWeChat = app.apptype === 'wechat';
   if (isWeChat)
   {
     appurl = `/store/wechat/${L("lang")}/`;
   }
   urlLine.textContent = appurl;
   container.appendChild(urlLine);
+
+  // Collect all action buttons in a dedicated container so they stay pinned to the bottom.
+  const actions = document.createElement('div');
+  actions.className = 'card-actions';
 
   // Primary button
   const button = document.createElement(isWeChatMini ? 'button' : 'a');
@@ -165,11 +170,11 @@ const renderAppCard = (app) => {
     button.textContent = L('open_desc');
     button.href = appurl;
   }
-  container.appendChild(button);
-  const isNative = app.apptype === 'native';
+  actions.appendChild(button);
+
   if (!isWeChatMini && !isNative && !isWeChat)
   {
-    add_install_button(container, app.url);
+    add_install_button(actions, app.url);
   }
 
   const apptype2 = app.apptype2;
@@ -220,14 +225,17 @@ const renderAppCard = (app) => {
       button2.textContent = L('open_desc');
       button2.href = appurl2;
     }
-    container.appendChild(button2);
+    actions.appendChild(button2);
 
     const isNative2 = apptype2 === 'native';
     if (!isWeChatMini2 && !isNative2 && !isWeChat2)
     {
-      add_install_button(container, appurl2);
+      add_install_button(actions, appurl2);
     }
   }
+
+  // Append actions last so `.card-actions { margin-top: auto; }` keeps buttons at bottom.
+  container.appendChild(actions);
 
   return container;
 };
