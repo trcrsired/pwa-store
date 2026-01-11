@@ -650,3 +650,7 @@ a:hover {
   box-shadow: var(--shadow-sm);
   color: var(--muted);
 }
+
+.app-url {
+  overflow-wrap: anywhere;
+}

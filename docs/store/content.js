@@ -131,22 +131,29 @@ const renderAppCard = (app) => {
     <img src="${app.icon}" alt="${localizedName}" class="app-icon" loading="lazy" decoding="async" />
     <div class="app-name">${localizedName}</div>
     <div class="app-description">${localizedDescription}</div>
-    <div class="app-meta">
-      ${showBadge ? `<span class="apptype-badge">${L(app.apptype) || app.apptype}</span>` : ''}
-    </div>
+    ${showBadge ? `<span class="apptype-badge">${L(app.apptype) || app.apptype}</span>` : ''}
   `;
 
-  const meta = container.querySelector('.app-meta');
-  const actions = document.createElement('div');
-  actions.className = 'card-actions';
-  container.appendChild(actions);
+  // Primary URL line
+  // Show urlDisplay if it exists
+  if (app.urlDisplay) {
+    const urlLineDisplay = document.createElement('div');
+    urlLineDisplay.className = 'app-url';
+    urlLineDisplay.textContent = app.urlDisplay;
+    container.appendChild(urlLineDisplay);
+  }
 
-  // Primary URL (not displayed)
-  let appurl = app.url;
+  // Always show raw url
+  const urlLine = document.createElement('div');
+  urlLine.className = 'app-url';
+  var appurl = app.url;
   const isWeChat = app.apptype === 'wechat';
-  if (isWeChat) {
+  if (isWeChat)
+  {
     appurl = `/store/wechat/${L("lang")}/`;
   }
+  urlLine.textContent = appurl;
+  container.appendChild(urlLine);
 
   // Primary button
   const button = document.createElement(isWeChatMini ? 'button' : 'a');
@@ -158,17 +165,17 @@ const renderAppCard = (app) => {
     button.textContent = L('open_desc');
     button.href = appurl;
   }
+  container.appendChild(button);
   const isNative = app.apptype === 'native';
   if (!isWeChatMini && !isNative && !isWeChat)
   {
-    add_install_button(actions, app.url);
+    add_install_button(container, app.url);
   }
-  actions.appendChild(button);
 
   const apptype2 = app.apptype2;
   // Secondary URL logic
   if (apptype2) {
-    let appurl2 = app.url2;
+    var appurl2 = app.url2;
     const isWeChat2 = apptype2 === "wechat";
     if (isWeChat2)
     {
@@ -180,7 +187,26 @@ const renderAppCard = (app) => {
       const badge2 = document.createElement('span');
       badge2.className = 'apptype-badge';
       badge2.textContent = L(apptype2) || apptype2;
-      meta?.appendChild(badge2);
+      container.appendChild(badge2);
+    }
+
+    const urlDisplay1 = app.urlDisplay || appurl;
+    const urlDisplay2 = app.urlDisplay2 || appurl2;
+
+    // Show urlDisplay2 if it exists and is different from primary
+    if (urlDisplay2 && urlDisplay2 !== urlDisplay1) {
+      const urlLineDisplay2 = document.createElement('div');
+      urlLineDisplay2.className = 'app-url';
+      urlLineDisplay2.textContent = urlDisplay2;
+      container.appendChild(urlLineDisplay2);
+    }
+
+    // Always show raw url2
+    if (appurl2 && urlDisplay2 != appurl2) {
+      const urlLineRaw2 = document.createElement('div');
+      urlLineRaw2.className = 'app-url';
+      urlLineRaw2.textContent = appurl2;
+      container.appendChild(urlLineRaw2);
     }
 
     const isWeChatMini2 = apptype2 === 'wechatmini';
@@ -188,19 +214,19 @@ const renderAppCard = (app) => {
     const button2 = document.createElement(isWeChatMini2 ? 'button' : 'a');
     button2.className = 'install-button';
     if (isWeChatMini2) {
-      button2.textContent = `${L('copyurl_desc')} (${L(apptype2) || apptype2})`;
+      button2.textContent = L('copyurl_desc');
       button2.addEventListener('click', () => copyToClipboard(appurl2));
     } else {
-      button2.textContent = `${L('open_desc')} (${L(apptype2) || apptype2})`;
+      button2.textContent = L('open_desc');
       button2.href = appurl2;
     }
+    container.appendChild(button2);
 
     const isNative2 = apptype2 === 'native';
     if (!isWeChatMini2 && !isNative2 && !isWeChat2)
     {
-      add_install_button(actions, appurl2);
+      add_install_button(container, appurl2);
     }
-    actions.appendChild(button2);
   }
 
   return container;

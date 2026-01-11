@@ -746,7 +746,7 @@ const L = {
   reuters_desc: "一家国际新闻机构，以及时、客观报道政治、商业和全球事务而闻名。",
   revcom_name: "REVCOM.US",
   revcom_desc: "REVCOM.US 是美国革命共产党官方网站，提供关于革命变革、社会正义和对资本主义与帝国主义批判的新闻、分析和理论文章。",
-  aljazeera_name: "半岛电视台",
+  aljazeera_name: "半岛电视台(Al Jazeera)",
   aljazeera_desc: "全球新闻和深度报道，半岛电视台以中东事务、调查性新闻和直播报道而闻名。",
   foreignpolicy_name: "外交政策(Foreign Policy)",
   foreignpolicy_desc: "一家专注于国际事务的出版物，提供关于国际关系、外交、安全与经济政策的深度分析。",
