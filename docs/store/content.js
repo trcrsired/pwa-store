@@ -3,7 +3,44 @@ import './locale/enus.js';
 import './locale/zhcn.js';
 import { setLocale, L } from './locale/localization.js';
 
-setLocale(navigator.language.toLowerCase().replace('-', ''));
+function resolveStoreLocale() {
+  const raw = (navigator.language || 'en').toLowerCase();
+  // Keep this in sync with supported locale files under `docs/store/locale/`.
+  const map = {
+    zh: 'zhcn',
+    'zh-cn': 'zhcn',
+    'zh-hans': 'zhcn',
+    'zh-tw': 'zhcn',
+  };
+
+  return map[raw] || map[raw.split('-')[0]] || raw.replace(/-/g, '');
+}
+
+setLocale(resolveStoreLocale());
+
+let searchIndexPrepared = false;
+function prepareSearchIndex() {
+  if (searchIndexPrepared) return;
+
+  for (const category of categories) {
+    const localizedCategoryName = category.nameKey ? L(category.nameKey) : category.name;
+    category.__searchText = `${localizedCategoryName} ${category.name}`.toLowerCase();
+
+    for (const app of category.apps) {
+      const nameKey = app.nameKey ? L(app.nameKey) : '';
+      const name = app.name || '';
+      const descKey = app.descriptionKey ? L(app.descriptionKey) : '';
+      const desc = app.description || '';
+      const url1 = app.url || '';
+      const url2 = app.url2 || '';
+      const urlDisplay1 = app.urlDisplay || '';
+      const urlDisplay2 = app.urlDisplay2 || '';
+      app.__searchText = `${nameKey} ${name} ${descKey} ${desc} ${url1} ${url2} ${urlDisplay1} ${urlDisplay2}`.toLowerCase();
+    }
+  }
+
+  searchIndexPrepared = true;
+}
 
 function copyToClipboard(text) {
   navigator.clipboard.writeText(text).then(() => {
@@ -15,27 +52,44 @@ function copyToClipboard(text) {
 
 const has_navigator_install = typeof navigator.install === 'function';
 
-function sanitize_install_url(url) {
-  // If no URL is provided, return an empty string
-  if (!url) return "";
+function updateToggleAllButtonLabel() {
+  const toggleAllButton = document.getElementById('toggle-all-btn');
+  if (!toggleAllButton) return;
 
-  // If the URL starts with "/" or ".", it means it's a relative path
-  if (url.startsWith("/") || url.startsWith(".")) {
-    if (url === ".") {
-      return window.location.href;
-    }
-    // Use window.location.origin as the base and construct a full absolute URL
-    // new URL(relative, base) automatically resolves "./" and "../" paths
-    let newurl = window.location.origin+url;
-    if (!newurl.endsWith("/"))
-    {
-      newurl = newurl + "/";
-    }
-    return newurl;
+  const headings = document.querySelectorAll('.category-heading');
+  if (headings.length === 0) {
+    toggleAllButton.disabled = true;
+    toggleAllButton.textContent = L('Expand All');
+    return;
   }
 
-  // Otherwise, assume it's already an absolute URL and return it directly
-  return url;
+  toggleAllButton.disabled = false;
+  const allExpanded = Array.from(headings).every((h) =>
+    h.classList.contains('expanded')
+  );
+  toggleAllButton.textContent = allExpanded ? L('Collapse All') : L('Expand All');
+}
+
+function sanitize_install_url(url) {
+  if (!url) return "";
+  if (url === ".") return window.location.href;
+
+  const shouldForceTrailingSlash =
+    (url.startsWith("/") || url.startsWith(".")) &&
+    !url.endsWith("/") &&
+    !url.includes("?") &&
+    !url.includes("#") &&
+    !url.split("/").pop().includes(".");
+
+  try {
+    const resolved = new URL(url, window.location.href);
+    if (shouldForceTrailingSlash && !resolved.pathname.endsWith("/")) {
+      resolved.pathname += "/";
+    }
+    return resolved.toString();
+  } catch {
+    return url;
+  }
 }
 
 async function install_callback(e)
@@ -71,10 +125,12 @@ const renderAppCard = (app) => {
   const localizedDescription = app.descriptionKey ? L(app.descriptionKey) : app.description;
   const showBadge = app.apptype && app.apptype !== "pwa";
   const isWeChatMini = app.apptype === 'wechatmini';
+  const isWeChat = app.apptype === 'wechat';
+  const isNative = app.apptype === 'native';
 
   // Build static elements
   container.innerHTML = `
-    <img src="${app.icon}" alt="${localizedName}" class="app-icon" />
+    <img src="${app.icon}" alt="${localizedName}" class="app-icon" loading="lazy" decoding="async" />
     <div class="app-name">${localizedName}</div>
     <div class="app-description">${localizedDescription}</div>
     ${showBadge ? `<span class="apptype-badge">${L(app.apptype) || app.apptype}</span>` : ''}
@@ -93,13 +149,16 @@ const renderAppCard = (app) => {
   const urlLine = document.createElement('div');
   urlLine.className = 'app-url';
   var appurl = app.url;
-  const isWeChat = app.apptype === 'wechat';
   if (isWeChat)
   {
     appurl = `/store/wechat/${L("lang")}/`;
   }
   urlLine.textContent = appurl;
   container.appendChild(urlLine);
+
+  // Collect all action buttons in a dedicated container so they stay pinned to the bottom.
+  const actions = document.createElement('div');
+  actions.className = 'card-actions';
 
   // Primary button
   const button = document.createElement(isWeChatMini ? 'button' : 'a');
@@ -111,11 +170,11 @@ const renderAppCard = (app) => {
     button.textContent = L('open_desc');
     button.href = appurl;
   }
-  container.appendChild(button);
-  const isNative = app.apptype === 'native';
+  actions.appendChild(button);
+
   if (!isWeChatMini && !isNative && !isWeChat)
   {
-    add_install_button(container, app.url);
+    add_install_button(actions, app.url);
   }
 
   const apptype2 = app.apptype2;
@@ -166,14 +225,17 @@ const renderAppCard = (app) => {
       button2.textContent = L('open_desc');
       button2.href = appurl2;
     }
-    container.appendChild(button2);
+    actions.appendChild(button2);
 
     const isNative2 = apptype2 === 'native';
     if (!isWeChatMini2 && !isNative2 && !isWeChat2)
     {
-      add_install_button(container, appurl2);
+      add_install_button(actions, appurl2);
     }
   }
+
+  // Append actions last so `.card-actions { margin-top: auto; }` keeps buttons at bottom.
+  container.appendChild(actions);
 
   return container;
 };
@@ -187,30 +249,43 @@ const renderCategory = (category, forceExpand = false) => {
   const localizedCategoryName = category.nameKey ? L(category.nameKey) : category.name;
   heading.textContent = localizedCategoryName;
   heading.className = 'category-heading';
-  heading.style.cursor = 'pointer';
 
   // Create container for app cards
   const grid = document.createElement('div');
   grid.className = 'app-grid';
 
   // Use category name as localStorage key
-  const storageKey = `category-expanded-${localizedCategoryName}`;
+  const storageKeyBase = category.nameKey || category.name;
+  const storageKey = `category-expanded-${storageKeyBase}`;
+  heading.dataset.storageKey = storageKey;
   const storedState = localStorage.getItem(storageKey) === 'true';
   const isExpanded = forceExpand || storedState;
 
   // Set initial visibility based on saved state or forced expansion
   grid.classList.add(isExpanded ? 'expanded' : 'collapsed');
   heading.classList.toggle('expanded', isExpanded);
+  heading.setAttribute('role', 'button');
+  heading.tabIndex = 0;
+  heading.setAttribute('aria-expanded', String(isExpanded));
 
   // Toggle visibility and save state on click
-  heading.addEventListener('click', () => {
+  const toggleCategory = () => {
     const currentlyExpanded = grid.classList.contains('expanded');
     const newState = !currentlyExpanded;
 
     grid.classList.toggle('expanded', newState);
     grid.classList.toggle('collapsed', !newState);
     heading.classList.toggle('expanded', newState);
+    heading.setAttribute('aria-expanded', String(newState));
     localStorage.setItem(storageKey, newState);
+    updateToggleAllButtonLabel();
+  };
+  heading.addEventListener('click', toggleCategory);
+  heading.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      toggleCategory();
+    }
   });
 
   // Render each app card inside the grid
@@ -230,6 +305,7 @@ const renderCategory = (category, forceExpand = false) => {
 
 // 🔄 Render the app store with search, type filters, and hide flag
 const renderStore = (filterText = '') => {
+  prepareSearchIndex();
   const root = document.getElementById('app-store');
   const resultCount = document.getElementById('result-count');
   if (!root || !resultCount) return;
@@ -243,23 +319,14 @@ const renderStore = (filterText = '') => {
   const showNative = document.getElementById('filter-native')?.checked;
 
   categories.forEach((category) => {
-    const localizedName = category.nameKey ? L(category.nameKey) : category.name;
-    const categoryText = `${localizedName} ${category.name}`.toLowerCase();
+    const categoryText = category.__searchText || `${(category.nameKey ? L(category.nameKey) : category.name)} ${category.name}`.toLowerCase();
 
     const filteredApps = category.apps.filter(app => {
       // 🚫 Skip hidden apps immediately
       if (app.hide) return false;
 
       // 🔍 Search condition
-      const nameKey = app.nameKey ? L(app.nameKey) : '';
-      const name = app.name || '';
-      const descKey = app.descriptionKey ? L(app.descriptionKey) : '';
-      const desc = app.description || '';
-      const url1 = app.url || '';
-      const url2 = app.url2 || '';
-      const urlDisplay1 = app.urlDisplay || '';
-      const urlDisplay2 = app.urlDisplay2 || '';
-      const combined = `${nameKey} ${name} ${descKey} ${desc} ${url1} ${url2} ${urlDisplay1} ${urlDisplay2}`.toLowerCase();
+      const combined = app.__searchText || '';
 
       const matchesSearch = categoryText.includes(filterText) || combined.includes(filterText);
 
@@ -292,6 +359,7 @@ const renderStore = (filterText = '') => {
   });
 
   resultCount.textContent = `${totalMatches} APP${totalMatches !== 1 ? 's' : ''}`;
+  updateToggleAllButtonLabel();
 };
 
 
@@ -346,48 +414,29 @@ filterNative.addEventListener('change', () => {
 });
 
 const toggleAllButton = document.getElementById('toggle-all-btn');
-const allHeadings = document.querySelectorAll('.category-heading');
+updateToggleAllButtonLabel();
 
-let allExpanded = true;
+toggleAllButton?.addEventListener('click', () => {
+  const headings = document.querySelectorAll('.category-heading');
+  if (headings.length === 0) return;
 
-allHeadings.forEach((heading) => {
-  const categoryName = heading.textContent;
-  const storageKey = `category-expanded-${categoryName}`;
-  const isExpanded = localStorage.getItem(storageKey) === 'true';
-
-  if (!isExpanded) {
-    allExpanded = false;
-  }
-
-  const grid = heading.nextElementSibling;
-  grid.classList.toggle('expanded', isExpanded);
-  grid.classList.toggle('collapsed', !isExpanded);
-  heading.classList.toggle('expanded', isExpanded);
-});
-
-toggleAllButton.textContent = allExpanded ? L('Collapse All') : L('Expand All');
-
-toggleAllButton.addEventListener('click', () => {
-  const allHeadings = document.querySelectorAll('.category-heading');
-
-  const allExpanded = Array.from(allHeadings).every((heading) => {
-    const categoryName = heading.textContent;
-    const storageKey = `category-expanded-${categoryName}`;
-    return localStorage.getItem(storageKey) === 'true';
-  });
-
+  const allExpanded = Array.from(headings).every((heading) =>
+    heading.classList.contains('expanded')
+  );
   const expand = !allExpanded;
 
-  allHeadings.forEach((heading) => {
+  headings.forEach((heading) => {
     const grid = heading.nextElementSibling;
-    const categoryName = heading.textContent;
-    const storageKey = `category-expanded-${categoryName}`;
+    if (!(grid instanceof HTMLElement)) return;
+
+    const storageKey = heading.dataset.storageKey || `category-expanded-${heading.textContent}`;
 
     grid.classList.toggle('expanded', expand);
     grid.classList.toggle('collapsed', !expand);
     heading.classList.toggle('expanded', expand);
+    heading.setAttribute('aria-expanded', String(expand));
     localStorage.setItem(storageKey, expand);
   });
 
-  toggleAllButton.textContent = expand ? L('Collapse All') : L('Expand All');
+  updateToggleAllButtonLabel();
 });

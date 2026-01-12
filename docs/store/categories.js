@@ -634,18 +634,18 @@ export const categories = [
         url: "https://trcrsired.github.io/pwa-wasm-example"
       },
       {
-        name: "PWA fast_io Demo",
-        nameKey: "pwafastio_name",
-        descriptionKey: "pwafastio_desc",
-        icon: "icons/pwa/pwawasmexample.webp",
-        url: "https://pwa-wasm-fast-io-demo.pages.dev"
-      },
-      {
         name: "fast_io",
         nameKey: "fastio_name",
         descriptionKey: "fastio_desc",
         icon: "icons/pwa/fastio.webp",
         url: "https://fastio.pages.dev"
+      },
+      {
+        name: "PWA fast_io Demo",
+        nameKey: "pwafastio_name",
+        descriptionKey: "pwafastio_desc",
+        icon: "icons/pwa/pwawasmexample.webp",
+        url: "https://pwa-wasm-fast-io-demo.pages.dev"
       },
       {
         name: "WebAssembly.sh",
@@ -2357,6 +2357,7 @@ export const categories = [
     apps: [
       { name: "RT", nameKey: "rt_name", descriptionKey: "rt_desc", icon: "icons/pwa/rt.webp", url: "https://www.rt.com" },
       { name: "PressTV", nameKey: "presstv_name", descriptionKey: "presstv_desc", icon: "icons/pwa/presstv.webp", url: "https://www.presstv.ir" },
+      { name: "PressTV(co.uk)", nameKey: "presstvcouk_name", descriptionKey: "presstvcouk_desc", icon: "icons/pwa/presstv.webp", url: "https://www.presstv.co.uk" },
       { name: "Bloomberg", nameKey: "bloomberg_name", descriptionKey: "bloomberg_desc", icon: "icons/pwa/bloomberg.webp", url: "https://www.bloomberg.com" },
       { name: "Firstpost", nameKey: "firstpost_name", descriptionKey: "firstpost_desc", icon: "icons/pwa/firstpost.webp", url: "https://www.firstpost.com" },
       { name: "Forbes", nameKey: "forbes_name", descriptionKey: "forbes_desc", icon: "icons/pwa/forbes.webp", url: "https://www.forbes.com" },
@@ -2504,6 +2505,16 @@ export const categories = [
       { name: "CGTN", nameKey: "cgtn_name", descriptionKey: "cgtn_desc", icon: "icons/wrappers/cgtn.webp", url: "/wrappers/cgtn", apptype: "wrapper", urlDisplay: "https://www.cgtn.com" },
       { name: "CCTV", nameKey: "cctv_name", descriptionKey: "cctv_desc", icon: "icons/wrappers/cctv.webp", url2: "/wrappers/cctv", apptype2: "wrapper", apptype: "msedge", url: "https://tv.cctv.com" },
       { name: "Fortune", nameKey: "fortune_name", descriptionKey: "fortune_desc", icon: "icons/wrappers/fortune.webp", url: "/wrappers/fortune", apptype: "wrapper", urlDisplay: "https://fortune.com"},
+      {
+        name: "FactCheck.org",
+        nameKey: "factcheck_name",
+        descriptionKey: "factcheck_desc",
+        icon: "icons/msedge/factcheck.webp",
+        url2: "/msedge/factcheck",
+        apptype: "msedge",
+        url: "https://www.factcheck.org",
+        apptype2: "msedge"
+      },
       {
         name: "Scientific American",
         nameKey: "scientificamerican_name",

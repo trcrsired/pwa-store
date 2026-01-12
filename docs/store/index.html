@@ -27,82 +27,90 @@
     })(window, document, "clarity", "script", "t7jnxvgazh");
   </script>
 </head>
-<body>
+<body class="store-page">
   <header class="site-header">
-    <h1>
-      <a href="/" class="site-title-link" id="site-title">PWA Store</a>
-    </h1>
-    <p id="site-subtitle">
-      Install and explore Progressive Web Apps.
-    </p>
-    <nav>
-      <a id="how-link" href="how/en/">How to Install PWAs</a>
-    </nav>
-  </header>
+    <div class="page">
+      <div class="site-header__inner">
+        <div class="brand">
+          <img class="brand__logo" src="logo/logo.webp" alt="" width="44" height="44" loading="eager" decoding="async" />
+          <div class="brand__title">
+            <a href="/" class="site-title-link" id="site-title">PWA Store</a>
+            <p class="site-subtitle" id="site-subtitle">Install and explore Progressive Web Apps.</p>
+          </div>
+        </div>
 
-  <div id="search-container">
-    <input type="text" id="search-input" placeholder="Search apps..." />
-    <span id="result-count" style="margin-left: 10px; font-weight: bold;"></span>
+        <nav class="site-nav">
+          <a id="how-link" class="nav-link" href="how/en/">How to Install PWAs</a>
+        </nav>
 
-    <!-- 🔍 App type filters -->
-    <div style="margin-top: 10px;">
-      <label style="margin-right: 20px;">
-        <input type="checkbox" id="filter-pwa" checked />
-        <span id="label-filter-pwa">PWA</span>
-      </label>
-      <label>
-        <input type="checkbox" id="filter-wechat" />
-        <span id="label-filter-wechat">WeChat Mini Programs</span>
-      </label>
-      <label>
-        <input type="checkbox" id="filter-native" />
-        <span id="label-filter-native">Native</span>
-      </label>
-      <!--label>
-        <input type="checkbox" id="filter-extension" />
-        <span id="label-filter-extension">Extension</span>
-      </label-->
+        <section class="toolbar" aria-label="Search and filters">
+          <div class="toolbar-card">
+            <div class="search-row">
+              <label class="sr-only" for="search-input">Search apps</label>
+              <input type="search" id="search-input" placeholder="Search apps..." autocomplete="off" />
+              <span id="result-count" class="result-count" aria-live="polite"></span>
+            </div>
+
+            <div class="filter-row" role="group" aria-label="App types">
+              <label class="filter-pill">
+                <input type="checkbox" id="filter-pwa" checked />
+                <span id="label-filter-pwa">PWA</span>
+              </label>
+              <label class="filter-pill">
+                <input type="checkbox" id="filter-wechat" />
+                <span id="label-filter-wechat">WeChat Mini Programs</span>
+              </label>
+              <label class="filter-pill">
+                <input type="checkbox" id="filter-native" />
+                <span id="label-filter-native">Native</span>
+              </label>
+            </div>
+
+            <div class="actions-row">
+              <button id="toggle-all-btn" type="button">Expand All</button>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
-  </div>
-
-  <!-- 🌐 Global category toggle button -->
-  <div style="margin: 20px 0; text-align: left;">
-    <button id="toggle-all-btn">Expand All</button>
-  </div>
+  </header>
 
   <main id="app-store" class="store-container">
     <!-- Dynamic content loads here from content.js -->
   </main>
 
   <footer class="site-footer">
-    <p id="footer-browser">
-      For an optimal experience on Android, we recommend using the Microsoft Edge browser. We advise against Firefox due to limited compatibility, and strongly discourage the use of locked-down operating systems like iOS, ChromeOS, Windows S mode and anything from Huawei, which restrict user freedom and app flexibility.
-    </p>
-    <p id="footer-warning">
-      This store (like any other, including the Apple App Store) does not guarantee security and is not responsible for any issues caused by installed PWAs or visited websites—please proceed with caution.
-    </p>
-    <p id="footer-extension">
-      If you're browsing on Android, consider installing the NoForceDownload Chromium extension. Many websites aggressively prompt mobile users to download apps, and this extension helps block the most intrusive ones.
-    </p>
-    <a id="footer-store-link" href="https://microsoftedge.microsoft.com/addons/detail/noforcedownload/dcfmfnemndhobghklljikelapjlnkpgp">
-      NoForceDownload in Microsoft Store
-    </a><br>
-    <a id="footer-crx-link" href="extensions/NoForceDownload.crx">
-      Download NoForceDownload.crx
-    </a><br>
-    <a id="footer-repo-link" href="https://github.com/trcrsired/NoForceDownload" target="_blank">
-      View Extension Repository
-    </a>
+    <div class="page">
+      <p id="footer-browser">
+        For an optimal experience on Android, we recommend using the Microsoft Edge browser. We advise against Firefox due to limited compatibility, and strongly discourage the use of locked-down operating systems like iOS, ChromeOS, Windows S mode and anything from Huawei, which restrict user freedom and app flexibility.
+      </p>
+      <p id="footer-warning">
+        This store (like any other, including the Apple App Store) does not guarantee security and is not responsible for any issues caused by installed PWAs or visited websites—please proceed with caution.
+      </p>
+      <p id="footer-extension">
+        If you're browsing on Android, consider installing the NoForceDownload Chromium extension. Many websites aggressively prompt mobile users to download apps, and this extension helps block the most intrusive ones.
+      </p>
+      <a id="footer-store-link" href="https://microsoftedge.microsoft.com/addons/detail/noforcedownload/dcfmfnemndhobghklljikelapjlnkpgp">
+        NoForceDownload in Microsoft Store
+      </a><br>
+      <a id="footer-crx-link" href="extensions/NoForceDownload.crx">
+        Download NoForceDownload.crx
+      </a><br>
+      <a id="footer-repo-link" href="https://github.com/trcrsired/NoForceDownload" target="_blank" rel="noopener noreferrer">
+        View Extension Repository
+      </a>
 
-    <hr>
+      <hr>
 
-    <a id="footer-github-link" href="https://github.com/trcrsired/pwa-store" target="_blank">
-      PWA Store on GitHub
-    </a> · 
-    <span id="footer-license"><strong>GPL-3.0</strong></span> · 
-    <span id="footer-contribution">Contributions and donations welcome 💖</span>
+      <a id="footer-github-link" href="https://github.com/trcrsired/pwa-store" target="_blank" rel="noopener noreferrer">
+        PWA Store on GitHub
+      </a> ·
+      <span id="footer-license"><strong>GPL-3.0</strong></span> ·
+      <span id="footer-contribution">Contributions and donations welcome 💖</span>
+    </div>
   </footer>
+
   <!-- 🔝 Back to Top button -->
-  <button id="backToTop">↑</button>
+  <button id="backToTop" type="button" aria-label="Back to top">↑</button>
 </body>
 </html>
