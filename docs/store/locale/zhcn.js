@@ -1425,6 +1425,8 @@ const L = {
   hotcrp_desc: "一个基于网络的会议管理系统，用于论文提交、评审和决策跟踪。",
   acm_name: "ACM",
   acm_desc: "全球最大的计算机学会，通过出版物、会议和ACM数字图书馆推动计算科学与专业发展。",
+  oupacademic_name: "牛津学术(Oxford Academic)",
+  oupacademic_desc: "打开牛津学术，牛津大学出版社的学术出版平台，提供期刊与研究论文。",
   education_name: "教育",
   princeton_name: "普林斯顿大学(Princeton University)",
   princeton_desc: "普林斯顿大学是位于新泽西州普林斯顿的私立常春藤研究型大学，成立于 1746 年，是美国第四古老的高等教育机构，也是美国独立战争前九所殖民地学院之一。普林斯顿以卓越的本科和博士教育而闻名，致力于通过世界一流的学术研究和教学培养学生应对未来挑战，追求有意义的人生。",

@@ -5480,6 +5480,16 @@ export const categories = [
         apptype: "wrapper",
       },
       {
+        name: "Oxford Academic",
+        nameKey: "oupacademic_name",
+        descriptionKey: "oupacademic_desc",
+        icon: "icons/msedge/oup.webp",
+        apptype: "msedge",
+        url: "https://academic.oup.com",
+        apptype2: "wrapper",
+        url2: "/msedge/oupacademic",
+      },
+      {
         name: "Wenjuanxing (问卷星)",
         nameKey: "wenjuanxingcn_name",
         descriptionKey: "wenjuanxing_desc",

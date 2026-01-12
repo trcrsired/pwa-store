@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/oxfordacademic",
+  "name": "Oxford Academic",
+  "short_name": "Oxford Academic",
+  "start_url": "/msedge/oxfordacademic/?source=pwa",
+  "scope": "/msedge/oxfordacademic/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Oxford Academic",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/oxfordacademic/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

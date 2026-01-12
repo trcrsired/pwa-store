@@ -296,8 +296,9 @@ WRAPPERS = [
   { "name": "Radio Television of Afghanistan", "url": "https://rta.af", "keyify_name": "rtaaf"},
   { "name": "求是", "url": "https://www.qstheory.cn", "keyify_name": "qstheory"},
 
-  { "name" : "HotCRP", "url": "https://hotcrp.com" },
+  { "name": "HotCRP", "url": "https://hotcrp.com" },
   { "name": "ACM", "url": "https://www.acm.org" },
+  { "name": "Oxford Academic", "url": "https://academic.oup.com", "apptype": "msedge", "icon": "oup.webp" },
   { "name": "问卷星", "url": "https://www.wjx.cn", "keyify_name": "wenjuanxing" },
 
   { "name" : "Caltech", "url": "https://www.caltech.edu", "apptype": "msedge" },
