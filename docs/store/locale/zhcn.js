@@ -792,6 +792,8 @@ const L = {
   salon_desc: "打开 Salon，提供新闻、政治、文化与评论内容的在线杂志。",
   npr_name: "美国全国公共广播电台(NPR)",
   npr_desc: "打开 NPR，美国公共广播电台，提供新闻、分析与文化节目。",
+  futurity_name: "Futurity",
+  futurity_desc: "打开 Futurity，来自顶尖大学的科学、健康、文化与环境研究新闻平台。",
   zaobao_name: "联合早报",
   zaobao_desc: "打开《联合早报》官网，新加坡主要华文新闻媒体，提供本地、国际及中国新闻。",
   ifeng_name: "凤凰网",

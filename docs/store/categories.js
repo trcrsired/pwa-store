@@ -2585,9 +2585,18 @@ export const categories = [
         descriptionKey: "npr_desc",
         icon: "icons/msedge/npr.webp",
         url2: "/msedge/npr",
-        apptype: "wrapper",
+        apptype2: "wrapper",
         url: "https://www.npr.org",
-        apptype2: "msedge",
+        apptype: "msedge",
+      },
+      {
+        name: "Futurity",
+        nameKey: "futurity_name",
+        descriptionKey: "futurity_desc",
+        icon: "icons/wrappers/futurity.webp",
+        url: "/wrappers/futurity",
+        apptype: "wrapper",
+        urlDisplay: "https://www.futurity.org"
       },
       {
         name: "Zaobao (联合早报)",

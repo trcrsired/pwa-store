@@ -292,6 +292,7 @@ WRAPPERS = [
   { "name": "Archyde", "url": "https://www.archyde.com" },
   { "name": "Salon", "url": "https://www.salon.com", "apptype": "msedge" },
   { "name": "NPR", "url": "https://www.npr.org", "apptype": "msedge" },
+  { "name": "Futurity", "url": "https://www.futurity.org" },
   { "name": "联合早报", "url": "https://www.zaobao.com.sg", "keyify_name": "zaobao" },
 
   { "name": "Radio Television of Afghanistan", "url": "https://rta.af", "keyify_name": "rtaaf"},

@@ -792,6 +792,8 @@ const L = {
   salon_desc: "Opens Salon, an online magazine featuring news, politics, culture, and commentary.",
   npr_name: "NPR",
   npr_desc: "Opens NPR, a nonprofit media organization offering news, analysis, and cultural programming.",
+  futurity_name: "Futurity",
+  futurity_desc: "Opens Futurity, a research‑news site featuring science, health, culture, and environment stories from top universities.",
   zaobao_name: "Zaobao (联合早报)",
   zaobao_desc: "Opens Zaobao, Singapore’s leading Chinese-language news outlet offering local, international, and China news coverage.",
   ifeng_name: "ifeng (凤凰网)",
