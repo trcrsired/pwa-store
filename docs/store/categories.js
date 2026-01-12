@@ -2580,6 +2580,16 @@ export const categories = [
         apptype2: "wrapper"
       },
       {
+        name: "NPR",
+        nameKey: "npr_name",
+        descriptionKey: "npr_desc",
+        icon: "icons/msedge/npr.webp",
+        url2: "/msedge/npr",
+        apptype: "wrapper",
+        url: "https://www.npr.org",
+        apptype2: "msedge",
+      },
+      {
         name: "Zaobao (联合早报)",
         nameKey: "zaobao_name",
         descriptionKey: "zaobao_desc",

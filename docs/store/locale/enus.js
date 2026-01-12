@@ -790,6 +790,8 @@ const L = {
   archyde_desc: "Opens Archyde, an online news site covering global headlines, entertainment, technology, health, and more.",
   salon_name: "Salon",
   salon_desc: "Opens Salon, an online magazine featuring news, politics, culture, and commentary.",
+  npr_name: "NPR",
+  npr_desc: "Opens NPR, a nonprofit media organization offering news, analysis, and cultural programming.",
   zaobao_name: "Zaobao (联合早报)",
   zaobao_desc: "Opens Zaobao, Singapore’s leading Chinese-language news outlet offering local, international, and China news coverage.",
   ifeng_name: "ifeng (凤凰网)",

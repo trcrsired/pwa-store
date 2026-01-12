@@ -790,6 +790,8 @@ const L = {
   archyde_desc: "打开 Archyde 新闻网站，提供全球资讯、娱乐、科技、健康等内容。",
   salon_name: "Salon",
   salon_desc: "打开 Salon，提供新闻、政治、文化与评论内容的在线杂志。",
+  npr_name: "美国全国公共广播电台(NPR)",
+  npr_desc: "打开 NPR，美国公共广播电台，提供新闻、分析与文化节目。",
   zaobao_name: "联合早报",
   zaobao_desc: "打开《联合早报》官网，新加坡主要华文新闻媒体，提供本地、国际及中国新闻。",
   ifeng_name: "凤凰网",
