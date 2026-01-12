@@ -1245,6 +1245,13 @@ export const categories = [
         url: "https://ccred.xyz"
       },
       {
+        name: "Odysee",
+        nameKey: "odysee_name",
+        descriptionKey: "odysee_desc",
+        icon: "icons/pwa/odysee.webp",
+        url: "https://odysee.com"
+      },
+      {
         name: "Mail.ru",
         nameKey: "mailru_name",
         descriptionKey: "mailru_desc",
