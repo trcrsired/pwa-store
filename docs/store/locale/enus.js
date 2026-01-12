@@ -786,6 +786,8 @@ const L = {
   sfchronicle_desc: "A major regional newspaper based in San Francisco, covering Bay Area news, politics, business, and culture.",
   archyde_name: "Archyde",
   archyde_desc: "Opens Archyde, an online news site covering global headlines, entertainment, technology, health, and more.",
+  salon_name: "Salon",
+  salon_desc: "Opens Salon, an online magazine featuring news, politics, culture, and commentary.",
   zaobao_name: "Zaobao (联合早报)",
   zaobao_desc: "Opens Zaobao, Singapore’s leading Chinese-language news outlet offering local, international, and China news coverage.",
   ifeng_name: "ifeng (凤凰网)",

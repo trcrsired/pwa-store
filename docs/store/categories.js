@@ -2559,6 +2559,16 @@ export const categories = [
         urlDisplay: "https://www.archyde.com"
       },
       {
+        name: "Salon",
+        nameKey: "salon_name",
+        descriptionKey: "salon_desc",
+        icon: "icons/msedge/salon.webp",
+        url2: "/msedge/salon",
+        apptype: "msedge",
+        url: "https://www.salon.com",
+        apptype2: "wrapper"
+      },
+      {
         name: "Zaobao (联合早报)",
         nameKey: "zaobao_name",
         descriptionKey: "zaobao_desc",
