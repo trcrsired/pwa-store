@@ -916,7 +916,7 @@ const L = {
   trysolitaire_name: "TrySolitaire",
   trysolitaire_desc: "TrySolitaire 是一个免费且无广告的在线纸牌网站，提供经典克朗代克纸牌及多种玩法。界面流畅、卡面精美，可全屏游玩，无需下载或注册即可在浏览器中立即开始游戏。",
   gokuro_name: "Gokuro",
-  gokuro_desc: "打开 Gokuro，提供文本、图像与数据转换等轻量级在线工具集合。",
+  gokuro_desc: "打开 Gokuro，一款极简风格的浏览器益智游戏，设计简洁、节奏轻快。",
   chronodivide_name: "红警2：时空分裂",
   chronodivide_desc: "《红色警戒2：时空分裂》是一款由粉丝制作的浏览器游戏，致敬经典的《命令与征服：红色警戒2》。它忠实还原了即时战略的游戏体验，支持流畅的在线多人对战，拥有标志性的单位和充满怀旧感的画面——无需安装即可畅玩。无论你是指挥苏联军队，还是领导盟军部队，《时空分裂》都能让你在浏览器中重温时空科技与战场统治的战术快感。",
   floppybird_name: "Floppy Bird",

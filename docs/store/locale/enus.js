@@ -915,7 +915,7 @@ const L = {
   trysolitaire_name: "TrySolitaire",
   trysolitaire_desc: "TrySolitaire is a free, ad‑free online solitaire site offering classic Klondike and multiple variations. It features smooth animations, beautiful cards, full‑screen play, and works instantly in the browser with no downloads or sign‑ups required.",
   gokuro_name: "Gokuro",
-  gokuro_desc: "Opens Gokuro, a lightweight online tool suite offering utilities like text, image, and data converters.",
+  gokuro_desc: "Opens Gokuro, a minimalist browser puzzle game focused on clean design and quick play sessions.",
   chronodivide_name: "RA2: Chrono Divide",
   chronodivide_desc: "RA2: Chrono Divide is a fan-made, browser-based tribute to the classic Command & Conquer: Red Alert 2. It faithfully recreates the real-time strategy experience with smooth online multiplayer, iconic units, and nostalgic visuals—all without needing to install a thing. Whether you're commanding Soviet forces or leading Allied troops, Chrono Divide lets you relive the tactical thrill of chrono technology and battlefield domination, right from your browser.",
   floppybird_name: "Floppy Bird",
