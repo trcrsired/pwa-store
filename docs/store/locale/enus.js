@@ -1024,6 +1024,8 @@ const L = {
   baidubaike_desc: "Chinese collaborative knowledge base.",
   ifixit_name: "iFixit",
   ifixit_desc: "A global repair community offering free repair guides, plus tools and replacement parts for purchase.",
+  linustechtips_name: "LinusTechTips",
+  linustechtips_desc: "Opens the Linus Tech Tips community forum for hardware discussions, troubleshooting, and tech news.",
   webthree_name: "WebThree Wiki",
   webthree_desc: "An open knowledge hub focused on Web3, blockchain, and decentralized technologies.",
   wowtoolsarchive_name: "WoW.tools Archive",

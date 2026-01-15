@@ -1025,6 +1025,8 @@ const L = {
   baidubaike_desc: "中国的协作式知识平台。",
   ifixit_name: "iFixit",
   ifixit_desc: "全球维修社区，提供免费的维修指南，并销售工具与替换零件。",
+  linustechtips_name: "LinusTechTips",
+  linustechtips_desc: "打开 Linus Tech Tips 社区论坛，参与硬件讨论、技术支持与科技新闻交流。",
   webthree_name: "WebThree Wiki",
   webthree_desc: "开放的知识平台，聚焦Web3、区块链与去中心化技术。",
   wowtoolsarchive_name: "WoW.tools Archive",

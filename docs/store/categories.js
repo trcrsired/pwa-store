@@ -3373,6 +3373,13 @@ export const categories = [
         url: "https://www.ifixit.com"
       },
       {
+        name: "LinusTechTips",
+        nameKey: "linustechtips_name",
+        descriptionKey: "linustechtips_desc",
+        icon: "icons/pwa/linustechtips.webp",
+        URL: "https://linustechtips.com"
+      },
+      {
         name: "WebThree Wiki",
         nameKey: "webthree_name",
         descriptionKey: "webthree_desc",
