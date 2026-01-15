@@ -1,4 +1,4 @@
 window.appConfig = {
   title: "NUKEMAP",
-  url: "https://base64.guru"
+  url: "https://nuclearsecrecy.com/nukemap"
 };
