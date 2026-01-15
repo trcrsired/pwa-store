@@ -1095,6 +1095,8 @@ const L = {
   chinafirewalltest_desc: "由 ViewDNS.info 提供支持的实时工具，用于检测网站是否被中国防火墙屏蔽。",
   counterpointresearch_name: "Counterpoint Research",
   counterpointresearch_desc: "打开 Counterpoint Research 官网，这是一家提供移动、消费电子、半导体等领域洞察的全球科技市场研究机构。",
+  nukemap_name: "NUKEMAP",
+  nukemap_desc: "打开 NUKEMAP，用于可视化历史核爆炸影响的教育工具。",
   streaming_name: "流媒体",
   spotify_name: "Spotify",
   spotify_desc: "全球音乐流媒体平台。",

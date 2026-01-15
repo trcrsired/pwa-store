@@ -188,6 +188,7 @@ WRAPPERS = [
   { "name": "ClearWebStats", "url": "https://www.clearwebstats.com" },
   { "name": "China Firewall Test", "url": "https://www.chinafirewalltest.com" },
   { "name": "Counterpoint Research", "url": "https://counterpointresearch.com" },
+  { "name": "NUKEMAP", "url": "https://base64.guru" },
   { "name": "NY Times", "url": "https://www.nytimes.com" , "keyify_name": "nytimes"},
   { "name": "Netflix", "url": "https://www.netflix.com" },
   { "name": "Pixiv", "url": "https://www.pixiv.net" },

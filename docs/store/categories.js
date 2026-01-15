@@ -3600,6 +3600,15 @@ export const categories = [
         apptype: "wrapper",
         urlDisplay: "https://www.counterpointresearch.com"
       },
+      {
+        name: "NUKEMAP",
+        nameKey: "nukemap_name",
+        descriptionKey: "nukemap_desc",
+        icon: "icons/wrappers/nukemap.webp",
+        url: "/wrappers/nukemap",
+        apptype: "wrapper",
+        urlDisplay: "https://nuclearsecrecy.com/nukemap"
+      },
     ]
   },
   {
