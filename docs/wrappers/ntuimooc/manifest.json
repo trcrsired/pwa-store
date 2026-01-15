@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/ntuimooc",
+  "name": "\u5357\u901a\u5927\u5b66 iMooc",
+  "short_name": "\u5357\u901a\u5927\u5b66 iMooc",
+  "start_url": "/wrappers/ntuimooc/?source=pwa",
+  "scope": "/wrappers/ntuimooc/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u5357\u901a\u5927\u5b66 iMooc",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/ntuimooc/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

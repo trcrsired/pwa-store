@@ -3274,6 +3274,24 @@ export const categories = [
         icon: "icons/pwa/getkana.webp",
         url: "https://getkana.com/app/"
       },
+      {
+        name: "Chaoxing V8 (超星V8)",
+        nameKey: "chaoxingv8_name",
+        descriptionKey: "chaoxingv8_desc",
+        icon: "icons/wrappers/chaoxingv8.webp",
+        url: "/wrappers/chaoxingv8",
+        apptype: "wrapper",
+        urlDisplay: "https://v8.chaoxing.com"
+      },
+      {
+        name: "Chaoxing iMooc (超星iMooc)",
+        nameKey: "ntuimooc_name",
+        descriptionKey: "ntuimooc_desc",
+        icon: "icons/wrappers/chaoxingv8.webp",
+        url: "/wrappers/ntuimooc",
+        apptype: "wrapper",
+        urlDisplay: "https://imooc.ntu.edu.cn"
+      },
     ]
   },
   {
