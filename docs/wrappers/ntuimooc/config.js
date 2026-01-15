@@ -1,4 +1,4 @@
 window.appConfig = {
-  title: "南通大学 iMooc",
+  title: "超星iMooc",
   url: "https://imooc.ntu.edu.cn"
 };
