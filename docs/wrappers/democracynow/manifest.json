@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/democracynow",
+  "name": "Democracy Now!",
+  "short_name": "Democracy Now!",
+  "start_url": "/wrappers/democracynow/?source=pwa",
+  "scope": "/wrappers/democracynow/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Democracy Now!",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/democracynow/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

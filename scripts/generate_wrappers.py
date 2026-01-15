@@ -290,7 +290,9 @@ WRAPPERS = [
   { "name": "Scripps News", "url": "https://www.scrippsnews.com" },
   { "name": "San Francisco Chronicle", "url": "https://www.sfchronicle.com", "keyify_name": "sfchronicle" },
   { "name": "Archyde", "url": "https://www.archyde.com" },
+  { "name": "Democracy Now!", "url": "https://www.democracynow.org", "keyify_name": "democracynow" },
   { "name": "联合早报", "url": "https://www.zaobao.com.sg", "keyify_name": "zaobao" },
+  { "name": "Pluralistic", "url": "https://pluralistic.net" },
 
   { "name": "Radio Television of Afghanistan", "url": "https://rta.af", "keyify_name": "rtaaf"},
   { "name": "求是", "url": "https://www.qstheory.cn", "keyify_name": "qstheory"},

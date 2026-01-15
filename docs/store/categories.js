@@ -2563,6 +2563,15 @@ export const categories = [
         urlDisplay: "https://www.archyde.com"
       },
       {
+        name: "Democracy Now!",
+        nameKey: "democracynow_name",
+        descriptionKey: "democracynow_desc",
+        icon: "icons/wrappers/democracynow.webp",
+        url: "/wrappers/democracynow",
+        apptype: "wrapper",
+        urlDisplay: "https://www.democracynow.org"
+      },
+      {
         name: "Zaobao (联合早报)",
         nameKey: "zaobao_name",
         descriptionKey: "zaobao_desc",
@@ -4883,6 +4892,15 @@ export const categories = [
         url: "/wrappers/thelundukejournal",
         apptype: "wrapper",
         urlDisplay: "https://lunduke.com"
+      },
+      {
+        name: "Pluralistic",
+        nameKey: "pluralistic_name",
+        descriptionKey: "pluralistic_desc",
+        icon: "icons/wrappers/pluralistic.webp",
+        url: "/wrappers/pluralistic",
+        apptype: "wrapper",
+        urlDisplay: "https://pluralistic.net"
       },
     ]
   },
