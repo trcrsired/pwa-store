@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/futurity",
+  "name": "Futurity",
+  "short_name": "Futurity",
+  "start_url": "/wrappers/futurity/?source=pwa",
+  "scope": "/wrappers/futurity/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Futurity",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/futurity/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

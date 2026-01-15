@@ -1245,6 +1245,13 @@ export const categories = [
         url: "https://ccred.xyz"
       },
       {
+        name: "Odysee",
+        nameKey: "odysee_name",
+        descriptionKey: "odysee_desc",
+        icon: "icons/pwa/odysee.webp",
+        url: "https://odysee.com"
+      },
+      {
         name: "Mail.ru",
         nameKey: "mailru_name",
         descriptionKey: "mailru_desc",
@@ -2570,6 +2577,35 @@ export const categories = [
         url: "/wrappers/democracynow",
         apptype: "wrapper",
         urlDisplay: "https://www.democracynow.org"
+      },
+      {
+        name: "Salon",
+        nameKey: "salon_name",
+        descriptionKey: "salon_desc",
+        icon: "icons/msedge/salon.webp",
+        url2: "/msedge/salon",
+        apptype: "msedge",
+        url: "https://www.salon.com",
+        apptype2: "wrapper"
+      },
+      {
+        name: "NPR",
+        nameKey: "npr_name",
+        descriptionKey: "npr_desc",
+        icon: "icons/msedge/npr.webp",
+        url2: "/msedge/npr",
+        apptype2: "wrapper",
+        url: "https://www.npr.org",
+        apptype: "msedge",
+      },
+      {
+        name: "Futurity",
+        nameKey: "futurity_name",
+        descriptionKey: "futurity_desc",
+        icon: "icons/wrappers/futurity.webp",
+        url: "/wrappers/futurity",
+        apptype: "wrapper",
+        urlDisplay: "https://www.futurity.org"
       },
       {
         name: "Zaobao (联合早报)",
@@ -5479,6 +5515,16 @@ export const categories = [
         url: "/wrappers/acm",
         urlDisplay: "https://www.acm.org",
         apptype: "wrapper",
+      },
+      {
+        name: "Oxford Academic",
+        nameKey: "oupacademic_name",
+        descriptionKey: "oupacademic_desc",
+        icon: "icons/msedge/oup.webp",
+        apptype: "msedge",
+        url: "https://academic.oup.com",
+        apptype2: "wrapper",
+        url2: "/msedge/oupacademic",
       },
       {
         name: "Wenjuanxing (问卷星)",

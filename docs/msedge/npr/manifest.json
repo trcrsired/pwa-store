@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/npr",
+  "name": "NPR",
+  "short_name": "NPR",
+  "start_url": "/msedge/npr/?source=pwa",
+  "scope": "/msedge/npr/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for NPR",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/npr/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
