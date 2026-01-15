@@ -3377,7 +3377,7 @@ export const categories = [
         nameKey: "linustechtips_name",
         descriptionKey: "linustechtips_desc",
         icon: "icons/pwa/linustechtips.webp",
-        URL: "https://linustechtips.com"
+        url: "https://linustechtips.com"
       },
       {
         name: "WebThree Wiki",
