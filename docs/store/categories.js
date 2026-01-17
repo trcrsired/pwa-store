@@ -2579,6 +2579,15 @@ export const categories = [
         urlDisplay: "https://www.archyde.com"
       },
       {
+        name: "Democracy Now!",
+        nameKey: "democracynow_name",
+        descriptionKey: "democracynow_desc",
+        icon: "icons/wrappers/democracynow.webp",
+        url: "/wrappers/democracynow",
+        apptype: "wrapper",
+        urlDisplay: "https://www.democracynow.org"
+      },
+      {
         name: "Salon",
         nameKey: "salon_name",
         descriptionKey: "salon_desc",
@@ -3292,6 +3301,24 @@ export const categories = [
         icon: "icons/pwa/getkana.webp",
         url: "https://getkana.com/app/"
       },
+      {
+        name: "Chaoxing V8 (超星V8)",
+        nameKey: "chaoxingv8_name",
+        descriptionKey: "chaoxingv8_desc",
+        icon: "icons/wrappers/chaoxingv8.webp",
+        url: "/wrappers/chaoxingv8",
+        apptype: "wrapper",
+        urlDisplay: "https://v8.chaoxing.com"
+      },
+      {
+        name: "Chaoxing iMooc (超星iMooc)",
+        nameKey: "ntuimooc_name",
+        descriptionKey: "ntuimooc_desc",
+        icon: "icons/wrappers/chaoxingv8.webp",
+        url: "/wrappers/ntuimooc",
+        apptype: "wrapper",
+        urlDisplay: "https://imooc.ntu.edu.cn"
+      },
     ]
   },
   {
@@ -3389,6 +3416,13 @@ export const categories = [
         descriptionKey: "ifixit_desc",
         icon: "icons/pwa/ifixit.webp",
         url: "https://www.ifixit.com"
+      },
+      {
+        name: "LinusTechTips",
+        nameKey: "linustechtips_name",
+        descriptionKey: "linustechtips_desc",
+        icon: "icons/pwa/linustechtips.webp",
+        url: "https://linustechtips.com"
       },
       {
         name: "WebThree Wiki",
@@ -3610,6 +3644,15 @@ export const categories = [
         url: "/wrappers/counterpointresearch",
         apptype: "wrapper",
         urlDisplay: "https://www.counterpointresearch.com"
+      },
+      {
+        name: "NUKEMAP",
+        nameKey: "nukemap_name",
+        descriptionKey: "nukemap_desc",
+        icon: "icons/wrappers/nukemap.webp",
+        url: "/wrappers/nukemap",
+        apptype: "wrapper",
+        urlDisplay: "https://nuclearsecrecy.com/nukemap"
       },
     ]
   },
@@ -4946,6 +4989,15 @@ export const categories = [
         url: "/wrappers/thelundukejournal",
         apptype: "wrapper",
         urlDisplay: "https://lunduke.com"
+      },
+      {
+        name: "Pluralistic",
+        nameKey: "pluralistic_name",
+        descriptionKey: "pluralistic_desc",
+        icon: "icons/wrappers/pluralistic.webp",
+        url: "/wrappers/pluralistic",
+        apptype: "wrapper",
+        urlDisplay: "https://pluralistic.net"
       },
     ]
   },

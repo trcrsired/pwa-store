@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/ntuimooc",
+  "name": "\u8d85\u661fiMooc",
+  "short_name": "\u8d85\u661fiMooc",
+  "start_url": "/wrappers/ntuimooc/?source=pwa",
+  "scope": "/wrappers/ntuimooc/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u8d85\u661fiMooc",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/ntuimooc/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
