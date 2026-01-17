@@ -13,9 +13,7 @@ export const categories = [
         nameKey: "calculite_name",
         descriptionKey: "calculite_desc",
         icon: "icons/pwa/calculite.webp",
-        url: "/wrappers/calculite",
-        apptype: "wrapper",
-        urlDisplay: "https://calculite.ingstudios.dev"
+        url: "https://calculite.ingstudios.dev"
       },
       { name: "Weawow", icon: "icons/pwa/weawow.webp", url: "https://weawow.com", descriptionKey: "weawow_desc" },
       { name: "Screen Flashlight", icon: "icons/pwa/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", descriptionKey: "screenflashlight_desc" },
