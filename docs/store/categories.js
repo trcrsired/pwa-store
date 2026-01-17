@@ -8,8 +8,15 @@ export const categories = [
       { name: "TReader", icon: "icons/pwa/treader.webp", url: "https://tiansh.github.io/reader", descriptionKey: "treader_desc" },
       { name: "WebVideoPlayer", icon: "icons/pwa/webvideoplayer.webp", url: "https://webvideoplayer.org", descriptionKey: "webvideoplayer_desc" },
       { nameKey: "pwaplayer_name", name: "PWA Player (My own toy)", icon: "icons/pwa/pwaplayer.webp", url: "https://pwa-player.pages.dev", descriptionKey: "pwaplayer_desc" },
-      { name: "Calculator", nameKey: "calculator_name", icon: "icons/pwa/calculator.webp", url: "https://chrisdiana.github.io/pwa-calculator", descriptionKey: "calculator_desc" },
-      { name: "Calculator (Chrome)", nameKey: "calculatorchrome_name", icon: "icons/pwa/calculatorchrome.webp", url: "https://calculator.apps.chrome/install", descriptionKey: "calculatorchrome_desc", nameKey: "calculatorchrome_name" },
+      {
+        name: "Calculite",
+        nameKey: "calculite_name",
+        descriptionKey: "calculite_desc",
+        icon: "icons/pwa/calculite.webp",
+        url: "/wrappers/calculite",
+        apptype: "wrapper",
+        urlDisplay: "https://calculite.ingstudios.dev"
+      },
       { name: "Weawow", icon: "icons/pwa/weawow.webp", url: "https://weawow.com", descriptionKey: "weawow_desc" },
       { name: "Screen Flashlight", icon: "icons/pwa/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", descriptionKey: "screenflashlight_desc" },
       { name: "PWA Store", nameKey: "pwastore_name", icon: "logo/logo.webp", url: ".", urlDisplay: "https://pwa-store-7x5.pages.dev", descriptionKey: "pwastore_desc" },
@@ -111,6 +118,8 @@ export const categories = [
         icon: "icons/pwa/jspaint.webp",
         url: "https://jspaint.app"
       },
+      { name: "Calculator", nameKey: "calculator_name", icon: "icons/pwa/calculator.webp", url: "https://chrisdiana.github.io/pwa-calculator", descriptionKey: "calculator_desc" },
+      { name: "Calculator (Chrome)", nameKey: "calculatorchrome_name", icon: "icons/pwa/calculatorchrome.webp", url: "https://calculator.apps.chrome/install", descriptionKey: "calculatorchrome_desc", nameKey: "calculatorchrome_name" },
       {
         name: "Real-Time Typhoon Information (实时台风消息)",
         nameKey: "typhoonsltzj_name",
@@ -2599,6 +2608,15 @@ export const categories = [
         urlDisplay: "https://www.futurity.org"
       },
       {
+        name: "People",
+        nameKey: "people_name",
+        descriptionKey: "people_desc",
+        icon: "icons/wrappers/people.webp",
+        url: "/wrappers/people",
+        apptype: "wrapper",
+        urlDisplay: "https://people.com"
+      },
+      {
         name: "Zaobao (联合早报)",
         nameKey: "zaobao_name",
         descriptionKey: "zaobao_desc",
@@ -3093,6 +3111,15 @@ export const categories = [
         url: "/wrappers/steamcommunity",
         apptype: "wrapper",
         urlDisplay: "https://steamcommunity.com"
+      },
+      {
+        name: "Warcraft Tavern",
+        nameKey: "warcrafttavern_name",
+        descriptionKey: "warcrafttavern_desc",
+        icon: "icons/wrappers/warcrafttavern.webp",
+        url: "/wrappers/warcrafttavern",
+        apptype: "wrapper",
+        urlDisplay: "https://www.warcrafttavern.com"
       },
       {
         name: "World of Warcraft (China)",

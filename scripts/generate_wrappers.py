@@ -215,6 +215,7 @@ WRAPPERS = [
   { "name": "NGA", "url": "https://bbs.nga.cn", "keyify_name": "ngacn" },
   { "name": "Team Liquid", "url": "https://teamliquid.com" },
   { "name": "Steam Community", "url": "https://steamcommunity.com" },
+  { "name": "Warcraft Tavern", "url": "https://www.warcrafttavern.com" },
   { "name": "Paypal", "url": "https://www.paypal.com" },
   { "name": "Moomoo", "url": "https://www.moomoo.com" },
   { "name": "TheStreet", "url": "https://www.thestreet.com" },
@@ -293,6 +294,7 @@ WRAPPERS = [
   { "name": "Salon", "url": "https://www.salon.com", "apptype": "msedge" },
   { "name": "NPR", "url": "https://www.npr.org", "apptype": "msedge" },
   { "name": "Futurity", "url": "https://www.futurity.org" },
+  { "name": "People", "url": "https://people.com" },
   { "name": "联合早报", "url": "https://www.zaobao.com.sg", "keyify_name": "zaobao" },
 
   { "name": "Radio Television of Afghanistan", "url": "https://rta.af", "keyify_name": "rtaaf"},

@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/warcrafttavern",
+  "name": "Warcraft Tavern",
+  "short_name": "Warcraft Tavern",
+  "start_url": "/wrappers/warcrafttavern/?source=pwa",
+  "scope": "/wrappers/warcrafttavern/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Warcraft Tavern",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/warcrafttavern/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
