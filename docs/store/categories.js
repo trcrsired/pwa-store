@@ -2766,13 +2766,13 @@ export const categories = [
       { name: "Pixiv", nameKey: "pixiv_name", descriptionKey: "pixiv_desc", icon: "icons/wrappers/pixiv.webp", url: "/wrappers/pixiv", apptype: "wrapper", urlDisplay: "https://www.pixiv.net" },
       { name: "DramaBox", nameKey: "dramabox_name", descriptionKey: "dramabox_desc", icon: "icons/wrappers/dramabox.webp", url: "/wrappers/dramabox", apptype: "wrapper", urlDisplay: "https://www.dramaboxapp.com" },
       {
-        name: "Yinghua Anime (樱花动漫)",
+        name: "Yinghua Anime (樱花动漫)⚠️💣",
         nameKey: "yinghuafabu_name",
         descriptionKey: "yinghuafabu_desc",
         icon: "icons/wrappers/yinghuafabu.webp",
         url: "/wrappers/yinghuafabu",
         apptype: "wrapper",
-        urlDisplay: "https://www.yinghuafabu.com/"
+        urlDisplay: "https://www.yinghuafabu.com"
       },
     ]
   },
