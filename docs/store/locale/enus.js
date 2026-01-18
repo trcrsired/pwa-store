@@ -888,6 +888,8 @@ const L = {
   pixiv_desc: "One of the world's largest art communities, where users can browse and post illustrations, manga, and novels.",
   dramabox_name: "DramaBox",
   dramabox_desc: "A free drama streaming platform operated by STORYMATRIX PTE. LTD., based in Singapore. DramaBox specializes in short-form soap operas and viral drama clips, offering fast-paced storytelling across romance, revenge, family conflict, and mistaken identity themes. Popular in the U.S., Mexico, and India, it delivers bite-sized episodes optimized for mobile viewing and emotional impact—often featuring dramatic twists, slaps, scandals, and cliffhangers",
+  yinghuafabu_name: "Yinghua Anime (樱花动漫)",
+  yinghuafabu_desc: "Opens the release and entry site for Yinghua Anime.",
   games_name: "Games",
   gameslol_name: "GamesLOL",
   gameslol_desc: "GamesLOL is a website that offers a wide range of games in various genres, such as action, adventure, puzzle, sports, and more.",

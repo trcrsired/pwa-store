@@ -888,6 +888,8 @@ const L = {
   pixiv_desc: "全球最大的艺术创作社区之一，用户可浏览和发布插画、漫画与小说作品。",
   dramabox_name: "DramaBox",
   dramabox_desc: "由新加坡 STORYMATRIX PTE. LTD. 运营的免费视频平台，专注于短剧与肥皂剧片段，涵盖爱情、复仇、家庭冲突与身份误认等高情绪张力题材。DramaBox 在美国、墨西哥和印度等地广受欢迎，以快节奏剧情和移动端优化呈现方式吸引用户，常见剧情包括打脸、丑闻与反转结局。",
+  yinghuafabu_name: "樱花动漫",
+  yinghuafabu_desc: "打开樱花动漫的发布站，用于获取最新入口与更新信息。",
   games_name: "游戏",
   gameslol_name: "GamesLOL",
   gameslol_desc: "GamesLOL 提供多种类型的游戏，包括动作、冒险、益智、体育等，种类丰富。",

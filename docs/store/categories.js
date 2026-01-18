@@ -2764,7 +2764,16 @@ export const categories = [
       { name: "TED", nameKey: "ted_name", descriptionKey: "ted_desc", icon: "icons/wrappers/ted.webp", url: "/wrappers/ted", apptype: "wrapper", urlDisplay: "https://www.ted.com" },
       { name: "Netflix", nameKey: "netflix_name", descriptionKey: "netflix_desc", icon: "icons/wrappers/netflix.webp", url: "/wrappers/netflix", apptype: "wrapper", urlDisplay: "https://www.netflix.com" },
       { name: "Pixiv", nameKey: "pixiv_name", descriptionKey: "pixiv_desc", icon: "icons/wrappers/pixiv.webp", url: "/wrappers/pixiv", apptype: "wrapper", urlDisplay: "https://www.pixiv.net" },
-      { name: "DramaBox", nameKey: "dramabox_name", descriptionKey: "dramabox_desc", icon: "icons/wrappers/dramabox.webp", url: "/wrappers/dramabox", apptype: "wrapper", urlDisplay: "https://www.dramaboxapp.com" }
+      { name: "DramaBox", nameKey: "dramabox_name", descriptionKey: "dramabox_desc", icon: "icons/wrappers/dramabox.webp", url: "/wrappers/dramabox", apptype: "wrapper", urlDisplay: "https://www.dramaboxapp.com" },
+      {
+        name: "Yinghua Anime (樱花动漫)",
+        nameKey: "yinghuafabu_name",
+        descriptionKey: "yinghuafabu_desc",
+        icon: "icons/wrappers/yinghuafabu.webp",
+        url: "/wrappers/yinghuafabu",
+        apptype: "wrapper",
+        urlDisplay: "https://www.yinghuafabu.com/"
+      },
     ]
   },
   {
