@@ -1,12 +1,12 @@
 {
   "id": "/wrappers/yinghuafabu",
-  "name": "\u6a31\u82b1\u52a8\u6f2b",
-  "short_name": "\u6a31\u82b1\u52a8\u6f2b",
+  "name": "\u6a31\u82b1\u52a8\u6f2b\u26a0\ufe0f\ud83d\udca3",
+  "short_name": "\u6a31\u82b1\u52a8\u6f2b\u26a0\ufe0f\ud83d\udca3",
   "start_url": "/wrappers/yinghuafabu/?source=pwa",
   "scope": "/wrappers/yinghuafabu/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "PWA Wrapper for \u6a31\u82b1\u52a8\u6f2b",
+  "description": "PWA Wrapper for \u6a31\u82b1\u52a8\u6f2b\u26a0\ufe0f\ud83d\udca3",
   "display": "standalone",
   "icons": [
     {
