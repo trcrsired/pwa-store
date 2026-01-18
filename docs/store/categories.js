@@ -2772,6 +2772,7 @@ export const categories = [
         icon: "icons/wrappers/yinghuafabu.webp",
         url: "/wrappers/yinghuafabu",
         apptype: "wrapper",
+        hide: true,
         urlDisplay: "https://www.yinghuafabu.com"
       },
     ]
