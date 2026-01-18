@@ -285,6 +285,8 @@ const L = {
   freebsdforums_desc: "The FreeBSD Forums are the official community discussion boards for the FreeBSD operating system, featuring news, announcements, technical help, and user-to-user support across all areas of FreeBSD.",
   cmakediscourse_name: "CMake Discourse",
   cmakediscourse_desc: "CMake Discourse is the official community forum for discussing CMake, including help with writing CMake code, usage questions, CTest and CPack, development discussions, announcements, and community projects.",
+  needhelp_name: "NeedHelp",
+  needhelp_desc: "Opens NeedHelp(你的海波), a Chinese developer‑oriented technical navigation hub with tools, resources, and full PWA support.",
   python_desc: "Python is a programming language that lets you work quickly and integrate systems more effectively.",
   rust_desc: "A language empowering everyone to build reliable and efficient software.",
   isocpp_name: "ISO C++",

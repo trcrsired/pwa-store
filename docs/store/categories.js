@@ -683,6 +683,13 @@ export const categories = [
         url: "https://discourse.cmake.org"
       },
       {
+        name: "NeedHelp",
+        nameKey: "needhelp_name",
+        descriptionKey: "needhelp_desc",
+        icon: "icons/pwa/needhelp.webp",
+        url: "https://needhelp.icu"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",

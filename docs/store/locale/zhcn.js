@@ -285,6 +285,8 @@ const L = {
   freebsdforums_desc: "FreeBSD 论坛是 FreeBSD 操作系统的官方社区讨论区，提供新闻公告、技术支持以及用户之间的交流，涵盖 FreeBSD 的各类主题。",
   cmakediscourse_name: "CMake Discourse",
   cmakediscourse_desc: "CMake Discourse 是 CMake 官方社区论坛，用于讨论 CMake 代码编写、使用问题、CTest 与 CPack、开发讨论、官方公告以及社区相关项目。",
+  needhelp_name: "NeedHelp",
+  needhelp_desc: "打开 NeedHelp(你的海波)，一个面向开发者的中文技术导航站，提供工具、资源与完整 PWA 支持。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
   rust_desc: "一门可靠且高效的软件开发语言。",
   isocpp_name: "ISO C++",
