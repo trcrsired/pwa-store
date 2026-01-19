@@ -338,6 +338,8 @@ const L = {
   youtube_desc: "Video streaming platform by Google.",
   nadeko_name: "Nadeko Invidious",
   nadeko_desc: "Opens Nadeko’s Invidious instance, a privacy‑friendly YouTube front‑end with no ads or tracking.",
+  yewtube_name: "Yewtu.be",
+  yewtube_desc: "Opens Yewtu.be, a privacy‑friendly Invidious YouTube front‑end with no ads or tracking.",
   reddit_desc: "Community-driven discussion forums.",
   x_name: "X (Twitter)",
   x_desc: "Text-based social updates and chatter.",

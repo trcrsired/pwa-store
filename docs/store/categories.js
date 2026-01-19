@@ -1003,6 +1003,13 @@ export const categories = [
         url: "https://inv.nadeko.net"
       },
       {
+        name: "Yewtu.be",
+        nameKey: "yewtube_name",
+        descriptionKey: "yewtube_desc",
+        icon: "icons/pwa/nadeko.webp",
+        url: "https://yewtu.be"
+      },
+      {
         name: "Reddit",
         icon: "icons/pwa/reddit.webp",
         url: "https://reddit.com",
