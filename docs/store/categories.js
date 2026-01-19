@@ -2655,6 +2655,15 @@ export const categories = [
         urlDisplay: "https://people.com"
       },
       {
+        name: "Hello Partner",
+        nameKey: "hellopartner_name",
+        descriptionKey: "hellopartner_desc",
+        icon: "icons/wrappers/hellopartner.webp",
+        url: "/wrappers/hellopartner",
+        apptype: "wrapper",
+        urlDisplay: "https://hellopartner.com"
+      },
+      {
         name: "Zaobao (联合早报)",
         nameKey: "zaobao_name",
         descriptionKey: "zaobao_desc",

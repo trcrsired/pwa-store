@@ -301,6 +301,7 @@ WRAPPERS = [
   { "name": "NPR", "url": "https://www.npr.org", "apptype": "msedge" },
   { "name": "Futurity", "url": "https://www.futurity.org" },
   { "name": "People", "url": "https://people.com" },
+  { "name": "Hello Partner", "url": "https://hellopartner.com" },
   { "name": "联合早报", "url": "https://www.zaobao.com.sg", "keyify_name": "zaobao" },
   { "name": "Pluralistic", "url": "https://pluralistic.net" },
 

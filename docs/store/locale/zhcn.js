@@ -808,6 +808,8 @@ const L = {
   futurity_desc: "打开 Futurity，来自顶尖大学的科学、健康、文化与环境研究新闻平台。",
   people_name: "人物(People)",
   people_desc: "打开 People.com，提供名人新闻、娱乐资讯以及人文故事的媒体网站。",
+  hellopartner_name: "Hello Partner",
+  hellopartner_desc: "打开 Hello Partner，一个专注于联盟营销、合作伙伴关系与行业资讯的媒体平台。",
   zaobao_name: "联合早报",
   zaobao_desc: "打开《联合早报》官网，新加坡主要华文新闻媒体，提供本地、国际及中国新闻。",
   ifeng_name: "凤凰网",
