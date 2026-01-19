@@ -996,6 +996,13 @@ export const categories = [
         descriptionKey: "youtube_desc"
       },
       {
+        name: "Nadeko Invidious",
+        nameKey: "nadeko_name",
+        descriptionKey: "nadeko_desc",
+        icon: "icons/pwa/nadeko.webp",
+        url: "https://inv.nadeko.net"
+      },
+      {
         name: "Reddit",
         icon: "icons/pwa/reddit.webp",
         url: "https://reddit.com",

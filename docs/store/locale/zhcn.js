@@ -336,6 +336,8 @@ const L = {
   socialmedia_name: "社交媒体",
   youtube_name: "油管(YouTube)",
   youtube_desc: "Google 推出的在线视频平台。",
+  nadeko_name: "Nadeko Invidious",
+  nadeko_desc: "打开 Nadeko 的 Invidious 实例，一个无广告、无跟踪的隐私友好型 YouTube 前端。",
   reddit_desc: "社区驱动的讨论论坛。",
   x_name: "X(推特)",
   x_desc: "以文本为主的社交更新与交流平台。",
