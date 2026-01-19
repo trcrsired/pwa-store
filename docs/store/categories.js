@@ -1003,13 +1003,6 @@ export const categories = [
         url: "https://inv.nadeko.net"
       },
       {
-        name: "Yewtu.be",
-        nameKey: "yewtube_name",
-        descriptionKey: "yewtube_desc",
-        icon: "icons/pwa/nadeko.webp",
-        url: "https://yewtu.be"
-      },
-      {
         name: "Reddit",
         icon: "icons/pwa/reddit.webp",
         url: "https://reddit.com",
@@ -1280,6 +1273,13 @@ export const categories = [
         url: "https://odysee.com"
       },
       {
+        name: "Yewtu.be",
+        nameKey: "yewtube_name",
+        descriptionKey: "yewtube_desc",
+        icon: "icons/pwa/nadeko.webp",
+        url: "https://yewtu.be",
+      },
+      {
         name: "Mail.ru",
         nameKey: "mailru_name",
         descriptionKey: "mailru_desc",
@@ -1535,6 +1535,16 @@ export const categories = [
         descriptionKey: "tipranks_desc",
         icon: "icons/pwa/tipranks.webp",
         url: "https://www.tipranks.com"
+      },
+      {
+        name: "Capital One",
+        nameKey: "capitalone_name",
+        descriptionKey: "capitalone_desc",
+        apptype: "msedge",
+        url: "https://verified.capitalone.com",
+        icon: "icons/msedge/capitalone.webp",
+        apptype2: "wrapper",
+        url2: "/msedge/capitalone",
       },
       {
         name: "Paypal",
