@@ -746,6 +746,8 @@ const L = {
   ccred_desc: "CCred 是一款安全的端到端加密消息应用，使用量子安全的 AES 加密保护通信。消息密钥以不可导出的 CryptoKey 形式存储，并在支持的设备上通过基于 Passkey PRF 派生的密钥进一步加密，从而显著增强本地安全性。",
   odysee_name: "Odysee",
   odysee_desc: "打开 Odysee，基于 LBRY 协议的去中心化视频与内容分享平台。",
+  framatube_name: "Framatube",
+  framatube_desc: "打开 Framatube，Framasoft 的 PeerTube 实例，用于去中心化、无广告的视频托管。",
   mailru_name: "Mail.ru",
   mailru_desc: "Mail.ru 是一项免费的电子邮件与云服务，提供邮箱、云存储、日历和笔记等功能。支持密码、二维码、VK ID 以及政府账号等多种登录方式，并提供强大的搜索功能、移动端访问和界面主题自定义。",
   hindustantimes_name: "印度斯坦时报",

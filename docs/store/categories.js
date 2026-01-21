@@ -1273,6 +1273,13 @@ export const categories = [
         url: "https://odysee.com"
       },
       {
+        name: "Framatube",
+        nameKey: "framatube_name",
+        descriptionKey: "framatube_desc",
+        icon: "icons/pwa/framatube.webp",
+        url: "https://framatube.org"
+      },
+      {
         name: "Yewtu.be",
         nameKey: "yewtube_name",
         descriptionKey: "yewtube_desc",
