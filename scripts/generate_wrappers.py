@@ -95,6 +95,7 @@ WRAPPERS = [
   { "name": "eHarmony", "url": "https://www.eharmony.com" },
   { "name": "ShareChat", "url": "https://sharechat.com" },
   { "name": "Дзен", "url": "https://dzen.ru", "keyify_name": "dzenru" },
+  { "name": "Kick", "url": "https://kick.com", "apptype": "msedge" },
   { "name": "Tieba", "url": "https://tieba.baidu.com" },
   { "name": "Termux", "url": "https://termux.dev" },
   { "name": "Alibaba", "url": "https://www.alibaba.com" },

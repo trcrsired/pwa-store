@@ -1326,6 +1326,16 @@ export const categories = [
         apptype: "wrapper",
       },
       {
+        name: "Kick",
+        nameKey: "kick_name",
+        descriptionKey: "kick_desc",
+        icon: "icons/msedge/kick.webp",
+        url2: "/msedge/kick",
+        apptype2: "wrapper",
+        url: "https://kick.com",
+        apptype: "msedge"
+      },
+      {
         name: "Tencent Meeting (腾讯会议)",
         nameKey: "tencentmeeting_name",
         icon: "icons/wechatmini/tencentmeeting.webp",
