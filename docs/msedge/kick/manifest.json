@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/kick",
+  "name": "Kick",
+  "short_name": "Kick",
+  "start_url": "/msedge/kick/?source=pwa",
+  "scope": "/msedge/kick/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Kick",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/kick/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

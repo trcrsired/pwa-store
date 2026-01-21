@@ -104,13 +104,13 @@ async function install_callback(e)
   }
 }
 
-function add_install_button(container, url)
+function add_install_button(container, url, apptype)
 {
   if (has_navigator_install)
   {
     const installBtn = document.createElement('button');
     installBtn.className = 'install-button';
-    installBtn.textContent = L('install_desc');
+    installBtn.textContent = L(apptype=="wrapper"?'install_wrapper_desc':'install_desc');
     installBtn.dataset.url = url;
     installBtn.addEventListener('click', install_callback);
     container.appendChild(installBtn);
@@ -123,10 +123,11 @@ const renderAppCard = (app) => {
 
   const localizedName = app.nameKey ? L(app.nameKey) : app.name;
   const localizedDescription = app.descriptionKey ? L(app.descriptionKey) : app.description;
-  const showBadge = app.apptype && app.apptype !== "pwa";
-  const isWeChatMini = app.apptype === 'wechatmini';
-  const isWeChat = app.apptype === 'wechat';
-  const isNative = app.apptype === 'native';
+  const apptype = app.apptype;
+  const showBadge = apptype && apptype !== "pwa";
+  const isWeChatMini = apptype === 'wechatmini';
+  const isWeChat = apptype === 'wechat';
+  const isNative = apptype === 'native';
 
   // Build static elements
   container.innerHTML = `
@@ -167,14 +168,14 @@ const renderAppCard = (app) => {
     button.textContent = L('copyurl_desc');
     button.addEventListener('click', () => copyToClipboard(app.url));
   } else {
-    button.textContent = L('open_desc');
+    button.textContent = L(apptype == "wrapper"?'open_wrapper_desc': 'open_desc');
     button.href = appurl;
   }
   actions.appendChild(button);
 
   if (!isWeChatMini && !isNative && !isWeChat)
   {
-    add_install_button(actions, app.url);
+    add_install_button(actions, app.url, apptype);
   }
 
   const apptype2 = app.apptype2;
@@ -222,7 +223,7 @@ const renderAppCard = (app) => {
       button2.textContent = L('copyurl_desc');
       button2.addEventListener('click', () => copyToClipboard(appurl2));
     } else {
-      button2.textContent = L('open_desc');
+      button2.textContent = L(apptype2 == "wrapper"?'open_wrapper_desc': 'open_desc');
       button2.href = appurl2;
     }
     actions.appendChild(button2);
@@ -230,7 +231,7 @@ const renderAppCard = (app) => {
     const isNative2 = apptype2 === 'native';
     if (!isWeChatMini2 && !isNative2 && !isWeChat2)
     {
-      add_install_button(actions, appurl2);
+      add_install_button(actions, appurl2, apptype2);
     }
   }
 
