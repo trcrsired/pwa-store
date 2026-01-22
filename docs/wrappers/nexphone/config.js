@@ -1,4 +1,4 @@
 window.appConfig = {
-  title: "nexphone",
+  title: "NexPhone",
   url: "https://nexphone.com"
 };
