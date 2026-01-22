@@ -1229,6 +1229,8 @@ const L = {
   adidas_desc: "adidas is the official global online store for footwear, sportswear, and lifestyle apparel, offering sneakers, clothing, accessories, and exclusive collections including Originals, Performance, and adiClub member releases.",
   adiclubmini_name: "adiClub Membership Center (adiClub 阿迪达斯会员中心)",
   adiclubmini_desc: "The adiClub Membership Center is adidas’s official WeChat Mini Program offering points, rewards, exclusive drops, purchase history, and personalized member benefits within the WeChat ecosystem.",
+  nexphone_name: "NexPhone",
+  nexphone_desc: "Opens NexPhone, a multi‑boot smartphone capable of running Android, Linux, and Windows 11.",
   bosideng_name: "Bosideng",
   bosideng_desc: "Bosideng is the official online store of the global down‑apparel brand, offering premium down jackets and seasonal clothing for men, women, and kids. The site features international collections, cold‑weather performance ratings, and worldwide shipping options.",
   housing_name: "Housing",

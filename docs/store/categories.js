@@ -4143,6 +4143,15 @@ export const categories = [
         apptype: "wechatmini",
       },
       {
+        name: "NexPhone",
+        nameKey: "nexphone_name",
+        descriptionKey: "nexphone_desc",
+        icon: "icons/wrappers/nexphone.webp",
+        url: "/wrappers/nexphone",
+        apptype: "wrapper",
+        urlDisplay: "https://nexphone.com"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",

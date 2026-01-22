@@ -1232,6 +1232,8 @@ const L = {
   adidas_desc: "adidas 官方线上商店，提供运动鞋、运动服、生活方式服饰及配件，涵盖 Originals、Performance 等系列以及 adiClub 会员专属新品。",
   adiclubmini_name: "adiClub 阿迪达斯会员中心",
   adiclubmini_desc: "adiClub 阿迪达斯会员中心是阿迪达斯官方微信小程序，提供会员积分、奖励、专属新品、购买记录及个性化权益等服务。",
+  nexphone_name: "NexPhone",
+  nexphone_desc: "打开 NexPhone，一款可运行 Android、Linux 与 Windows 11 的多系统智能手机。",
   housing_name: "房地产",
   booking_name: "缤客",
   booking_desc: "搜索并预订来自全球供应商的酒店、度假村、公寓等住宿。可按地点、价格、评分和可订日期筛选。",
