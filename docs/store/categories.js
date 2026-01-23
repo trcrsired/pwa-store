@@ -2397,6 +2397,13 @@ export const categories = [
         url: "https://maskable.app"
       },
       {
+        name: "Storyblocks",
+        nameKey: "storyblocks_name",
+        descriptionKey: "storyblocks_desc",
+        icon: "icons/pwa/storyblocks.webp",
+        url: "https://www.storyblocks.com"
+      },
+      {
         name: "Canva",
         nameKey: "canva_name",
         descriptionKey: "canva_desc",
@@ -3403,6 +3410,15 @@ export const categories = [
         apptype: "wrapper",
         urlDisplay: "https://imooc.ntu.edu.cn"
       },
+      {
+        name: "NUKEMAP",
+        nameKey: "nukemap_name",
+        descriptionKey: "nukemap_desc",
+        icon: "icons/wrappers/nukemap.webp",
+        url: "/wrappers/nukemap",
+        apptype: "wrapper",
+        urlDisplay: "https://nuclearsecrecy.com/nukemap"
+      },
     ]
   },
   {
@@ -3740,13 +3756,13 @@ export const categories = [
         urlDisplay: "https://www.counterpointresearch.com"
       },
       {
-        name: "NUKEMAP",
-        nameKey: "nukemap_name",
-        descriptionKey: "nukemap_desc",
-        icon: "icons/wrappers/nukemap.webp",
-        url: "/wrappers/nukemap",
+        name: "OpenBenchmarking.org",
+        nameKey: "openbenchmarking_name",
+        descriptionKey: "openbenchmarking_desc",
+        icon: "icons/wrappers/openbenchmarking.webp",
+        url: "/wrappers/openbenchmarking",
         apptype: "wrapper",
-        urlDisplay: "https://nuclearsecrecy.com/nukemap"
+        urlDisplay: "https://openbenchmarking.org"
       },
     ]
   },
