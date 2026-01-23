@@ -2140,6 +2140,13 @@ export const categories = [
         hide: true
       },
       {
+        name: "Wccftech",
+        nameKey: "wccftech_name",
+        descriptionKey: "wccftech_desc",
+        icon: "icons/pwa/wccftech.webp",
+        url: "https://wccftech.com"
+      },
+      {
         name: "Beebom Gadgets",
         nammeKey: "beebomgadgets_name",
         descriptionKey: "beebomgadgets_desc",
@@ -2203,6 +2210,15 @@ export const categories = [
         urlDisplay: "https://fossforce.com"
       },
       {
+        name: "Tom's Guide",
+        nameKey: "tomsguide_name",
+        descriptionKey: "tomsguide_desc",
+        icon: "icons/wrappers/tomsguide.webp",
+        url: "/wrappers/tomsguide",
+        apptype: "wrapper",
+        urlDisplay: "https://www.tomsguide.com"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",
@@ -2229,13 +2245,6 @@ export const categories = [
         descriptionKey: "emacschina_desc",
         icon: "icons/pwa/emacschina.webp",
         url: "https://emacs-china.org"
-      },
-      {
-        name: "Wccftech",
-        nameKey: "wccftech_name",
-        descriptionKey: "wccftech_desc",
-        icon: "icons/pwa/wccftech.webp",
-        url: "https://wccftech.com"
       },
     ]
   },

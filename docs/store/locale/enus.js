@@ -554,6 +554,8 @@ const L = {
   emacschina_desc: "Probably the best Chinese forum for Emacs.",
   wccftech_name: "Wccftech",
   wccftech_desc: "Opens Wccftech, a site covering technology news, hardware reviews, gaming, and industry updates.",
+  tomsguide_name: "Tom's Guide",
+  tomsguide_desc: "Opens Tom's Guide, a site offering tech reviews, buying guides, and consumer electronics recommendations.",
   xueqiu_name: "Xueqiu (雪球)",
   xueqiu_desc: "A Chinese investment platform offering market data, portfolio tracking, and community insights across stocks, funds, and financial news.",
   cryptocom_name: "Crypto.com",

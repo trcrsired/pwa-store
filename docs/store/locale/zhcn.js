@@ -554,6 +554,8 @@ const L = {
   emacschina_desc: "可能是最好的 Emacs 中文论坛",
   wccftech_name: "Wccftech",
   wccftech_desc: "打开 Wccftech，一个提供科技新闻、硬件评测、游戏与行业动态的网站。",
+  tomsguide_name: "Tom's Guide",
+  tomsguide_desc: "打开 Tom's Guide，一个提供科技评测、购买指南和消费电子推荐的网站。",
   xueqiu_name: "雪球",
   xueqiu_desc: "一个中国投资平台，提供股票、基金与财经资讯的市场数据、资产跟踪与社区观点。",
   cryptocom_name: "Crypto.com",
