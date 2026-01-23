@@ -2230,6 +2230,13 @@ export const categories = [
         icon: "icons/pwa/emacschina.webp",
         url: "https://emacs-china.org"
       },
+      {
+        name: "Wccftech",
+        nameKey: "wccftech_name",
+        descriptionKey: "wccftech_desc",
+        icon: "icons/pwa/wccftech.webp",
+        url: "https://wccftech.com"
+      },
     ]
   },
   {
