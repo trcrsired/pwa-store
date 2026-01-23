@@ -1087,6 +1087,8 @@ const L = {
   wikisource_desc: "一个免费的在线文献库，收录历史文献、文学作品和参考资料等原始文本。",
   wikiwand_name: "维基魔改版(Wikiwand)",
   wikiwand_desc: "一个现代化的维基百科界面，提升阅读体验、导航效率与视觉呈现。",
+  wikihow_name: "wikiHow",
+  wikihow_desc: "打开 wikiHow，一个提供成千上万主题分步骤指南的协作式教程网站。",
   religion_name: "宗教",
   qurancom_name: "古兰经 (Quran.com)",
   qurancom_desc: "简洁、适配移动设备的网站，可阅读和收听《古兰经》，支持多种语言翻译和注释(Tafsir)。",

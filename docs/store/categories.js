@@ -3572,6 +3572,16 @@ export const categories = [
         apptype: "wrapper",
         urlDisplay: "https://www.wikiwand.com"
       },
+      {
+        name: "wikiHow",
+        nameKey: "wikihow_name",
+        descriptionKey: "wikihow_desc",
+        icon: "icons/msedge/wikihow.webp",
+        url2: "/msedge/wikihow",
+        apptype_hide: "msedge",
+        apptype2: "wrapper",
+        url: "https://www.wikihow.com"
+      },
     ]
   },
   {

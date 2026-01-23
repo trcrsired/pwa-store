@@ -1086,6 +1086,8 @@ const L = {
   wikisource_desc: "A free online library of original texts, including historical documents, literature, and reference works.",
   wikiwand_name: "Wikiwand",
   wikiwand_desc: "A modern interface for Wikipedia, enhancing readability, navigation, and visual presentation.",
+  wikihow_name: "wikiHow",
+  wikihow_desc: "Opens wikiHow, a collaborative how‑to website with step‑by‑step guides on thousands of topics.",
   religion_name: "Religion",
   qurancom_name: "Quran.com",
   qurancom_desc: "Clean, mobile-optimized site for reading and listening to the Quran. Includes translations and tafsir.",
