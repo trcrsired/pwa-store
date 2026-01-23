@@ -1590,6 +1590,8 @@ const L = {
   miniprogramdemo_desc: "This is a demonstration Mini Program showcasing basic WeChat Mini Program capabilities, including navigation, UI components, and API integration. It serves as a reference for developers exploring the Mini Program framework.",
   qstheory_name: "QStheory (求是)",
   qstheory_desc: "Opens QStheory, an official theory and commentary website providing articles on policy, governance, and current affairs.",
+  cpimlm_name: "Communist Party of Iran (Marxist–Leninist–Maoist) (حزب کمونیست ایران مارکسیست لنینیست مائوئیست)",
+  cpimlm_desc: "Opens the site of the Communist Party of Iran (Marxist–Leninist–Maoist).",
   lygdaily_name: "Lianyungang Daily (连云港日报)",
   lygdaily_desc: "Lianyungang Daily’s WeChat Mini Program provides local news, policy updates, and public service information for residents of Lianyungang. It serves as a digital portal for staying informed about city affairs, government announcements, and community events.",
   meituan_name: "Meituan (美团)",

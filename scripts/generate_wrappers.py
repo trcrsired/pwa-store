@@ -309,7 +309,7 @@ WRAPPERS = [
 
   { "name": "Radio Television of Afghanistan", "url": "https://rta.af", "keyify_name": "rtaaf"},
   { "name": "求是", "url": "https://www.qstheory.cn", "keyify_name": "qstheory"},
-
+  { "name": "حزب کمونیست ایران مارکسیست لنینیست مائوئیست", "url": "https://cpimlm.org", "apptype": "msedge", "keyify_name": "cpimlm"},
   { "name": "HotCRP", "url": "https://hotcrp.com" },
   { "name": "ACM", "url": "https://www.acm.org" },
   { "name": "Oxford Academic", "url": "https://academic.oup.com", "apptype": "msedge", "icon": "oup.webp" },

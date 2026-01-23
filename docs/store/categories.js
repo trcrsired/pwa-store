@@ -2759,6 +2759,16 @@ export const categories = [
         urlDisplay: "https://www.qstheory.cn"
       },
       {
+        name: "Communist Party of Iran (Marxist–Leninist–Maoist) (حزب کمونیست ایران مارکسیست لنینیست مائوئیست)",
+        nameKey: "cpimlm_name",
+        descriptionKey: "cpimlm_desc",
+        icon: "icons/msedge/cpimlm.webp",
+        url2: "/msedge/cpimlm",
+        apptype_hide: "msedge",
+        apptype2: "wrapper",
+        url: "https://cpimlm.org"
+      },
+      {
         name: "Lianyungang Daily (连云港日报)",
         nameKey: "lygdaily_name",
         descriptionKey: "lygdaily_desc",
