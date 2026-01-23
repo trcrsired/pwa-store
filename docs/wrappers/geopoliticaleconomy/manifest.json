@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/geopoliticaleconomy",
+  "name": "Geopolitical Economy Report",
+  "short_name": "Geopolitical Economy Report",
+  "start_url": "/wrappers/geopoliticaleconomy/?source=pwa",
+  "scope": "/wrappers/geopoliticaleconomy/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Geopolitical Economy Report",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/geopoliticaleconomy/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

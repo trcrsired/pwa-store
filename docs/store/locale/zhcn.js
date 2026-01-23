@@ -1600,6 +1600,8 @@ const L = {
   qstheory_desc: "打开求是，提供政策理论、时事评论及权威文章的官方网站。",
   cpimlm_name: "伊朗共产党（马列毛）(حزب کمونیست ایران مارکسیست لنینیست مائوئیست)",
   cpimlm_desc: "打开伊朗共产党（马列毛）的网站。",
+  geopoliticaleconomy_name: "地缘政治经济报告(Geopolitical Economy Report)",
+  geopoliticaleconomy_desc: "打开 Geopolitical Economy Report，一个关注全球政治、经济与国际关系分析的网站。",
   lygdaily_name: "连云港日报",
   lygdaily_desc: "连云港日报微信小程序，面向本地居民提供新闻资讯、政策动态及公共服务信息。用户可通过小程序了解城市要闻、政务发布和社区活动，掌握连云港最新动态。",
   meituan_name: "美团",

@@ -2785,6 +2785,15 @@ export const categories = [
         url: "https://cpimlm.org"
       },
       {
+        name: "Geopolitical Economy Report",
+        nameKey: "geopoliticaleconomy_name",
+        descriptionKey: "geopoliticaleconomy_desc",
+        icon: "icons/wrappers/geopoliticaleconomy.webp",
+        url: "/wrappers/geopoliticaleconomy",
+        apptype: "wrapper",
+        urlDisplay: "https://geopoliticaleconomy.com"
+      },
+      {
         name: "Lianyungang Daily (连云港日报)",
         nameKey: "lygdaily_name",
         descriptionKey: "lygdaily_desc",
