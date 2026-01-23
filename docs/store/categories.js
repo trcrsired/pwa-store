@@ -2348,10 +2348,10 @@ export const categories = [
       },
       {
         name: "The Pirate Bay",
-        nameKey: "tpb_name",
-        descriptionKey: "tpb_desc",
-        icon: "icons/wrappers/tpb.webp",
-        url: "/wrappers/tpb",
+        nameKey: "thepiratebay_name",
+        descriptionKey: "thepiratebay_desc",
+        icon: "icons/wrappers/thepiratebay.webp",
+        url: "/wrappers/thepiratebay",
         apptype: "wrapper",
         urlDisplay: "https://thepiratebay.org"
       },
