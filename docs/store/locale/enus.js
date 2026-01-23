@@ -1243,6 +1243,8 @@ const L = {
   adiclubmini_desc: "The adiClub Membership Center is adidas’s official WeChat Mini Program offering points, rewards, exclusive drops, purchase history, and personalized member benefits within the WeChat ecosystem.",
   nexphone_name: "NexPhone",
   nexphone_desc: "Opens NexPhone, a multi‑boot smartphone capable of running Android, Linux, and Windows 11.",
+  modani_name: "Modani",
+  modani_desc: "Opens Modani, a retailer offering modern furniture and contemporary home décor.",
   bosideng_name: "Bosideng",
   bosideng_desc: "Bosideng is the official online store of the global down‑apparel brand, offering premium down jackets and seasonal clothing for men, women, and kids. The site features international collections, cold‑weather performance ratings, and worldwide shipping options.",
   housing_name: "Housing",

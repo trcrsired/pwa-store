@@ -4222,6 +4222,15 @@ export const categories = [
         urlDisplay: "https://nexphone.com"
       },
       {
+        name: "Modani",
+        nameKey: "modani_name",
+        descriptionKey: "modani_desc",
+        icon: "icons/wrappers/modani.webp",
+        url: "/wrappers/modani",
+        apptype: "wrapper",
+        urlDisplay: "https://modani.com"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",

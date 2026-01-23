@@ -1246,6 +1246,8 @@ const L = {
   adiclubmini_desc: "adiClub 阿迪达斯会员中心是阿迪达斯官方微信小程序，提供会员积分、奖励、专属新品、购买记录及个性化权益等服务。",
   nexphone_name: "NexPhone",
   nexphone_desc: "打开 NexPhone，一款可运行 Android、Linux 与 Windows 11 的多系统智能手机。",
+  modani_name: "Modani",
+  modani_desc: "打开 Modani，一个提供现代家具与当代家居装饰的零售网站。",
   housing_name: "房地产",
   booking_name: "缤客",
   booking_desc: "搜索并预订来自全球供应商的酒店、度假村、公寓等住宿。可按地点、价格、评分和可订日期筛选。",

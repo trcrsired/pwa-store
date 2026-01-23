@@ -132,6 +132,7 @@ WRAPPERS = [
   { "name": "Nordstrom", "url": "https://www.nordstrom.com" },
   { "name": "adidas", "url": "https://www.adidas.com" },
   { "name": "NexPhone", "url": "https://nexphone.com" },
+  { "name": "Modani", "url": "https://modani.com" },
   { "name": "Luckin Coffee", "url": "https://in.luckincoffee.com", "keyify_name": "luckin" },
   { "name": "Bosideng", "url": "https://www.bosidengfashion.com" },
   { "name": "Gmail", "url": "https://mail.google.com" },
