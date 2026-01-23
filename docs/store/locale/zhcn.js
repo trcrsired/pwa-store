@@ -618,6 +618,8 @@ const L = {
   appleappstore_desc: "iOS 与 iPadOS 的官方应用商店，提供数百万款应用，涵盖各类分类，支持安全下载与精选推荐。",
   btsow_name: "BTSOW",
   btsow_desc: "BTSOW 是一个基于 BitTorrent 协议的磁力链接索引平台，支持通过关键词快速检索公开分享的种子资源，包括影视、软件、音乐等。该站点采用分布式架构，无需中心服务器，域名可能因合规问题不定期变更。",
+  tpb_name: "海盗湾(The Pirate Bay)",
+  tpb_desc: "打开 The Pirate Bay，一个知名的种子索引与搜索网站。",
   mediatools_name: "媒体工具",
   spline_name: "Spline",
   spline_desc: "Spline 是一款基于浏览器的 3D 设计工具，支持实时协作和交互式场景创建。用户可以直接在网页中建模、制作动画并导出 3D 内容，无需安装任何软件。它支持拖放式交互、物理模拟，并可与 React 和 Webflow 等平台集成。Spline 是专有软件，并不采用 GPL 许可。",

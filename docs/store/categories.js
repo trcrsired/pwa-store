@@ -2346,6 +2346,15 @@ export const categories = [
         apptype: "wrapper",
         urlDisplay: "https://btsow.lol"
       },
+      {
+        name: "The Pirate Bay",
+        nameKey: "tpb_name",
+        descriptionKey: "tpb_desc",
+        icon: "icons/wrappers/tpb.webp",
+        url: "/wrappers/tpb",
+        apptype: "wrapper",
+        urlDisplay: "https://thepiratebay.org"
+      },
     ]
   },
   {
