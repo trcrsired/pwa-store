@@ -4231,6 +4231,13 @@ export const categories = [
         urlDisplay: "https://modani.com"
       },
       {
+        name: "UGG",
+        nameKey: "ugg_name",
+        descriptionKey: "ugg_desc",
+        icon: "icons/pwa/ugg.webp",
+        url: "https://www.ugg.com"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",
