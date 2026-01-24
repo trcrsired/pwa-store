@@ -289,6 +289,8 @@ const L = {
   cmakediscourse_desc: "CMake Discourse is the official community forum for discussing CMake, including help with writing CMake code, usage questions, CTest and CPack, development discussions, announcements, and community projects.",
   needhelp_name: "NeedHelp",
   needhelp_desc: "Opens NeedHelp(你的海波), a Chinese developer‑oriented technical navigation hub with tools, resources, and full PWA support.",
+  grapheneos_name: "GrapheneOS",
+  grapheneos_desc: "Opens GrapheneOS, a privacy and security-focused mobile operating system project.",
   python_desc: "Python is a programming language that lets you work quickly and integrate systems more effectively.",
   rust_desc: "A language empowering everyone to build reliable and efficient software.",
   isocpp_name: "ISO C++",

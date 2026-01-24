@@ -690,6 +690,13 @@ export const categories = [
         url: "https://needhelp.icu"
       },
       {
+        name: "GrapheneOS",
+        nameKey: "grapheneos_name",
+        descriptionKey: "grapheneos_desc",
+        icon: "icons/pwa/grapheneos.webp",
+        url: "https://grapheneos.org"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",
