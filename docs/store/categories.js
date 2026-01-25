@@ -82,6 +82,14 @@ export const categories = [
         icon: "icons/pwa/whitenoisegenerator.webp",
         url: "https://white-noise-generator.org"
       },
+      {
+        name: "Notepad (itamarom)",
+        nameKey: "notepaditamarom_name",
+        descriptionKey: "notepaditamarom_desc",
+        icon: "icons/pwa/notepaditamarom.webp",
+        url: "https://itamarom.github.io/notepadjs"
+      },
+
     ]
   },
   {
@@ -108,6 +116,13 @@ export const categories = [
         descriptionKey: "notepadpwa_desc",
         icon: "icons/pwa/notepadpwa.webp",
         url: "https://notepad-pwa.vercel.app"
+      },
+      {
+        name: "Notepad.js",
+        nameKey: "notepadjs_name",
+        descriptionKey: "notepadjs_desc",
+        icon: "icons/pwa/notepadjs.webp",
+        url: "https://notepad.js.org"
       },
       {
         name: "JS Paint",
