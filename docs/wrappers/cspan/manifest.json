@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/cspan",
+  "name": "C-SPAN",
+  "short_name": "C-SPAN",
+  "start_url": "/wrappers/cspan/?source=pwa",
+  "scope": "/wrappers/cspan/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for C-SPAN",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/cspan/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

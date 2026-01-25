@@ -834,6 +834,8 @@ const L = {
   people_desc: "Opens People.com, a celebrity news and entertainment site covering culture, lifestyle, and human‑interest stories.",
   hellopartner_name: "Hello Partner",
   hellopartner_desc: "Opens Hello Partner, a media platform covering affiliate marketing, partnerships, and industry news.",
+  cspan_name: "C-SPAN",
+  cspan_desc: "Opens C-SPAN, a public affairs network providing live coverage of government proceedings and civic events.",
   zaobao_name: "Zaobao (联合早报)",
   zaobao_desc: "Opens Zaobao, Singapore’s leading Chinese-language news outlet offering local, international, and China news coverage.",
   ifeng_name: "ifeng (凤凰网)",

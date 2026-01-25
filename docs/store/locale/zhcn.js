@@ -834,6 +834,8 @@ const L = {
   people_desc: "打开 People.com，提供名人新闻、娱乐资讯以及人文故事的媒体网站。",
   hellopartner_name: "Hello Partner",
   hellopartner_desc: "打开 Hello Partner，一个专注于联盟营销、合作伙伴关系与行业资讯的媒体平台。",
+  cspan_name: "C-SPAN",
+  cspan_desc: "打开 C-SPAN，一个提供政府会议与公共事务活动直播的公共事务网络。",
   zaobao_name: "联合早报",
   zaobao_desc: "打开《联合早报》官网，新加坡主要华文新闻媒体，提供本地、国际及中国新闻。",
   ifeng_name: "凤凰网",

@@ -2756,6 +2756,15 @@ export const categories = [
         urlDisplay: "https://hellopartner.com"
       },
       {
+        name: "C-SPAN",
+        nameKey: "cspan_name",
+        descriptionKey: "cspan_desc",
+        icon: "icons/wrappers/cspan.webp",
+        url2: "/wrappers/cspan",
+        apptype2: "wrapper",
+        url: "https://www.c-span.org"
+      },
+      {
         name: "Zaobao (联合早报)",
         nameKey: "zaobao_name",
         descriptionKey: "zaobao_desc",
