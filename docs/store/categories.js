@@ -879,6 +879,15 @@ export const categories = [
         url: "https://www.slingacademy.com"
       },
       {
+        name: "Linux.toys",
+        nameKey: "linuxtoys_name",
+        descriptionKey: "linuxtoys_desc",
+        icon: "icons/wrappers/linuxtoys.webp",
+        url2: "/wrappers/linuxtoys",
+        apptype2: "wrapper",
+        url: "https://linux.toys"
+      },
+      {
         name: "ModelScope (魔搭社区)",
         nameKey: "modelscope_name",
         descriptionKey: "modelscope_desc",

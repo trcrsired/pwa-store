@@ -243,6 +243,7 @@ WRAPPERS = [
   { "name": "Microsoft Clarity" , "url": "https://clarity.microsoft.com" },
   { "name": "LearnCpp", "url": "https://www.learncpp.com" },
   { "name": "SlingAcademy", "url": "https://www.slingacademy.com" },
+  { "name": "Linux.toys", "url": "https://linux.toys", "keyify_name": "linuxtoys" },
   { "name": "ModelScope", "url": "https://modelscope.cn" },
   { "name": "WPS", "url": "https://www.wps.com/wpsdocs" },
   { "name": "WPS (CN)", "url": "https://www.kdocs.cn", "keyify_name":"wpscn", "icon":"wps.webp" },
