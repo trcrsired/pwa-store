@@ -206,6 +206,8 @@ const L = {
   nextaidrawio_desc: "Next AI Draw.io 是一个自托管版本，基于开源的 Next.js 应用构建，将 AI 与 draw.io 图表功能结合，可通过自然语言生成、编辑和优化流程图、架构图等可视化内容。",
   drawio_name: "Draw.io",
   drawio_desc: "Draw.io(diagrams.net)是一款免费的浏览器图表工具，可用于创建流程图、网络图、UML 模型等。支持云端存储与实时协作，适合团队与个人使用。",
+  pasteepad_name: "Pasteepad",
+  pasteepad_desc: "打开 Pasteepad，一个用于分享文本和笔记的在线粘贴工具。",
   excalidraw_name: "Excalidraw",
   excalidraw_desc: "Excalidraw 是一款具有手绘风格的虚拟白板，适合头脑风暴、教学和可视化思维。支持快速协作，注重隐私保护。",
   dingtalk_name: "钉钉",

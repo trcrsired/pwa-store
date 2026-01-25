@@ -208,6 +208,8 @@ const L = {
   drawio_desc: "Draw.io (diagrams.net) is a free, browser-based diagramming tool for creating flowcharts, network diagrams, UML models, and more. It integrates with cloud storage and supports real-time collaboration for teams and individuals.",
   excalidraw_name: "Excalidraw",
   excalidraw_desc: "Excalidraw is a virtual whiteboard for sketching diagrams with a hand-drawn feel. It’s fast, collaborative, and privacy-first—ideal for brainstorming, teaching, and visual thinking.",
+  pasteepad_name: "Pasteepad",
+  pasteepad_desc: "Opens Pasteepad, a simple online paste tool for sharing text and notes.",
   dingtalk_name: "DingTalk",
   dingtalk_desc: "Enterprise communication and collaboration platform by Alibaba, integrating messaging, meetings, and workflow tools.",
   "programming_name": "Programming",

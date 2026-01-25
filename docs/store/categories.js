@@ -89,7 +89,6 @@ export const categories = [
         icon: "icons/pwa/notepaditamarom.webp",
         url: "https://itamarom.github.io/notepadjs"
       },
-
     ]
   },
   {
@@ -158,15 +157,6 @@ export const categories = [
         apptype2: "wrapper",
       },
       {
-        name: "GBMB",
-        nameKey: "gbmb_name",
-        descriptionKey: "gbmb_desc",
-        icon: "icons/wrappers/gbmb.webp",
-        url2: "/wrappers/gbmb",
-        apptype2: "wrapper",
-        url: "https://www.gbmb.org"
-      },
-      {
         name: "Base64.Guru",
         nameKey: "base64guru_name",
         descriptionKey: "base64guru_desc",
@@ -174,6 +164,15 @@ export const categories = [
         url: "/wrappers/base64guru",
         urlDisplay: "https://base64.guru",
         apptype: "wrapper"
+      },
+      {
+        name: "GBMB",
+        nameKey: "gbmb_name",
+        descriptionKey: "gbmb_desc",
+        icon: "icons/wrappers/gbmb.webp",
+        url2: "/wrappers/gbmb",
+        apptype2: "wrapper",
+        url: "https://www.gbmb.org"
       },
     ]
   },
@@ -398,6 +397,13 @@ export const categories = [
         descriptionKey: "excalidraw_desc",
         icon: "icons/pwa/excalidraw.webp",
         url: "https://excalidraw.com"
+      },
+      {
+        name: "Pasteepad",
+        nameKey: "pasteepad_name",
+        descriptionKey: "pasteepad_desc",
+        icon: "icons/pwa/pasteepad.webp",
+        url: "https://pasteepad.com"
       },
       {
         name: "DingTalk (钉钉)",
