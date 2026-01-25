@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/robinhood",
+  "name": "Robinhood",
+  "short_name": "Robinhood",
+  "start_url": "/wrappers/robinhood/?source=pwa",
+  "scope": "/wrappers/robinhood/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Robinhood",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/robinhood/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

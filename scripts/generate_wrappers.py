@@ -174,6 +174,8 @@ WRAPPERS = [
   { "name": "Bank of America", "url": "https://www.bankofamerica.com" },
   { "name": "Binance", "url": "https://www.binance.com" },
   { "name": "Barron's", "url": "https://www.barrons.com", "keyify_name": "barrons" },
+  { "name": "StockCharts", "url": "https://stockcharts.com", "keyify_name": "stockcharts", "apptype": "msedge" },
+  { "name": "Robinhood", "url": "https://robinhood.com" },
   { "name": "胡润百富", "url": "https://www.hurun.net", "keyify_name": "hurun" },
   { "name": "매일경제", "url": "https://www.mk.co.kr", "keyify_name": "mkcokr" },
   { "name": "Free Software Foundations", "url": "https://www.fsf.org", "keyify_name": "fsf" },

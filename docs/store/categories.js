@@ -1661,6 +1661,24 @@ export const categories = [
         urlDisplay: "https://www.barrons.com"
       },
       {
+        name: "StockCharts",
+        nameKey: "stockcharts_name",
+        descriptionKey: "stockcharts_desc",
+        icon: "icons/msedge/stockcharts.webp",
+        url2: "/msedge/stockcharts",
+        apptype2: "wrapper",
+        url: "https://stockcharts.com"
+      },
+      {
+        name: "Robinhood",
+        nameKey: "robinhood_name",
+        descriptionKey: "robinhood_desc",
+        icon: "icons/wrappers/robinhood.webp",
+        url: "/wrappers/robinhood",
+        apptype: "wrapper",
+        urlDisplay: "https://robinhood.com"
+      },
+      {
         name: "Hurun Report (胡润百富)",
         nameKey: "hurun_name",
         descriptionKey: "hurun_desc",
