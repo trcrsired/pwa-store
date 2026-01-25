@@ -1674,9 +1674,9 @@ export const categories = [
         nameKey: "robinhood_name",
         descriptionKey: "robinhood_desc",
         icon: "icons/wrappers/robinhood.webp",
-        url: "/wrappers/robinhood",
-        apptype: "wrapper",
-        urlDisplay: "https://robinhood.com"
+        url2: "/wrappers/robinhood",
+        apptype2: "wrapper",
+        url: "https://robinhood.com"
       },
       {
         name: "Hurun Report (胡润百富)",
