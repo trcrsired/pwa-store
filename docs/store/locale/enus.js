@@ -103,6 +103,8 @@ const L = {
   typhoonsltzj_desc: "Provided by the Zhejiang Provincial Department of Water Resources, this system delivers up-to-date typhoon data including live tracking, forecasts, and historical paths.",
   weatherclimate_name: "Weather & Climate",
   weatherclimate_desc: "Weather‑and‑Climate.com provides climate averages, weather forecasts, rainfall charts, temperature data, and travel‑friendly climate summaries for destinations worldwide. It helps users compare long‑term climate patterns and short‑term weather conditions.",
+  gbmb_name: "GBMB",
+  gbmb_desc: "Opens GBMB, a site offering calculators and unit converters for data, storage, and measurement values.",
   base64guru_name: "Base64.Guru",
   base64guru_desc: "A comprehensive reference site for Base64 encoding, decoding, and data conversion. Includes tutorials, tools, and technical explanations for developers and analysts.",
   wechatmyqrcode_name: "My QR Code (我的二维码)",

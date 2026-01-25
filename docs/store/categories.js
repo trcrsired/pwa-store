@@ -143,6 +143,15 @@ export const categories = [
         apptype2: "wrapper",
       },
       {
+        name: "GBMB",
+        nameKey: "gbmb_name",
+        descriptionKey: "gbmb_desc",
+        icon: "icons/wrappers/gbmb.webp",
+        url2: "/wrappers/gbmb",
+        apptype2: "wrapper",
+        url: "https://www.gbmb.org"
+      },
+      {
         name: "Base64.Guru",
         nameKey: "base64guru_name",
         descriptionKey: "base64guru_desc",

@@ -1,16 +1,16 @@
 {
-  "id": "/wrappers/Shuzhaige",
+  "id": "/wrappers/shuzhaige",
   "name": "\u4e66\u658b\u9601",
   "short_name": "\u4e66\u658b\u9601",
-  "start_url": "/wrappers/Shuzhaige/?source=pwa",
-  "scope": "/wrappers/Shuzhaige/",
+  "start_url": "/wrappers/shuzhaige/?source=pwa",
+  "scope": "/wrappers/shuzhaige/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u4e66\u658b\u9601",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/Shuzhaige/icons/icon.webp",
+      "src": "/wrappers/shuzhaige/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

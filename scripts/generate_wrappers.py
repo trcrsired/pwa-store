@@ -37,6 +37,7 @@ OUTPUT_DIRS = {
 
 WRAPPERS = [
   { "name": "Weather & Climate", "url": "https://weather-and-climate.com", "keyify_name": "weatherclimate", "apptype": "msedge" },
+  { "name": "GBMB", "url": "https://www.gbmb.org" },
   { "name": "Base64.Guru", "url": "https://base64.guru", "keyify_name": "base64guru" },
   { "name": "CVS", "url": "https://www.cvs.com" },
   { "name": "Whirlpool", "url": "https://www.whirlpool.com" },
@@ -262,7 +263,7 @@ WRAPPERS = [
   { "name": "新东方", "url": "https://www.xdf.cn", "keyify_name": "xdf" },
   { "name": "Chegg", "url": "https://www.chegg.com" },
   { "name": "名库文学", "url": "https://www.mingku.cc", "keyify_name": "mingku" },
-  { "name": "书斋阁", "url": "https://www.shuzhaige.com", "keyify_name": "Shuzhaige" },
+  { "name": "书斋阁", "url": "https://www.shuzhaige.com", "keyify_name": "shuzhaige" },
   { "name": "一起读历史", "url": "https://www.dulishi.cn", "keyify_name": "dulishi" },
   { "name": "超星V8", "url": "https://v8.chaoxing.com", "keyify_name": "chaoxingv8" },
   { "name": "超星iMooc", "url": "https://imooc.ntu.edu.cn", "keyify_name": "ntuimooc", "icon": "chaoxingv8.webp" },
