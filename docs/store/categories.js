@@ -4254,6 +4254,25 @@ export const categories = [
         url: "https://www.ugg.com"
       },
       {
+        name: "Wawa",
+        nameKey: "wawa_name",
+        descriptionKey: "wawa_desc",
+        icon: "icons/wrappers/wawa.webp",
+        url2: "/wrappers/wawa",
+        apptype2: "wrapper",
+        url: "https://www.wawa.com"
+      },
+      {
+        name: "Casey's",
+        nameKey: "caseys_name",
+        descriptionKey: "caseys_desc",
+        icon: "icons/msedge/caseys.webp",
+        url2: "/msedge/caseys",
+        apptype2: "wrapper",
+        url: "https://www.caseys.com",
+        apptype_hide: "msedge"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",
