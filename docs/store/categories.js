@@ -849,6 +849,15 @@ export const categories = [
         urlDisplay: "https://www.learncpp.com"
       },
       {
+        name: "SlingAcademy",
+        nameKey: "slingacademy_name",
+        descriptionKey: "slingacademy_desc",
+        icon: "icons/wrappers/slingacademy.webp",
+        url2: "/wrappers/slingacademy",
+        apptype2: "wrapper",
+        url: "https://www.slingacademy.com"
+      },
+      {
         name: "ModelScope (魔搭社区)",
         nameKey: "modelscope_name",
         descriptionKey: "modelscope_desc",
