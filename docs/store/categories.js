@@ -1752,6 +1752,31 @@ export const categories = [
         url: "https://wise.com"
       },
       {
+        name: "Barchart",
+        nameKey: "barchart_name",
+        descriptionKey: "barchart_desc",
+        icon: "icons/wrappers/barchart.webp",
+        url2: "/wrappers/barchart",
+        apptype2: "wrapper",
+        url: "https://www.barchart.com"
+      },
+      {
+        name: "Xe",
+        nameKey: "xe_name",
+        descriptionKey: "xe_desc",
+        icon: "icons/pwa/xe.webp",
+        url: "https://www.xe.com"
+      },
+      {
+        name: "Exchange‑Rates.org",
+        nameKey: "exchangerates_name",
+        descriptionKey: "exchangerates_desc",
+        icon: "icons/wrappers/exchangerates.webp",
+        url2: "/wrappers/exchangerates",
+        apptype2: "wrapper",
+        url: "https://www.exchange-rates.org"
+      },
+      {
         name: "Hurun Report (胡润百富)",
         nameKey: "hurun_name",
         descriptionKey: "hurun_desc",

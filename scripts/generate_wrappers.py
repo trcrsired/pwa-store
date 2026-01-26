@@ -178,6 +178,8 @@ WRAPPERS = [
   { "name": "StockCharts", "url": "https://stockcharts.com", "keyify_name": "stockcharts", "apptype": "msedge" },
   { "name": "Robinhood", "url": "https://robinhood.com" },
   { "name": "Capital.com", "url": "https://capital.com", "keyify_name": "capitalcom" },
+  { "name": "Barchart", "url": "https://www.barchart.com" },
+  { "name": "Exchange‑Rates.org", "url": "https://www.exchange-rates.org", "keyify_name": "exchangerates" },
   { "name": "Wise", "url": "https://wise.com" },
   { "name": "胡润百富", "url": "https://www.hurun.net", "keyify_name": "hurun" },
   { "name": "매일경제", "url": "https://www.mk.co.kr", "keyify_name": "mkcokr" },

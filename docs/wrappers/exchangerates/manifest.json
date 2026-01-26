@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/exchangerates",
+  "name": "Exchange\u2011Rates.org",
+  "short_name": "Exchange\u2011Rates.org",
+  "start_url": "/wrappers/exchangerates/?source=pwa",
+  "scope": "/wrappers/exchangerates/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Exchange\u2011Rates.org",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/exchangerates/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
