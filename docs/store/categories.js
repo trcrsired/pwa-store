@@ -2227,6 +2227,13 @@ export const categories = [
         url: "https://wccftech.com"
       },
       {
+        name: "404 Media",
+        nameKey: "404media_name",
+        descriptionKey: "404media_desc",
+        icon: "icons/pwa/404media.webp",
+        urlDisplay: "https://www.404media.co"
+      },
+      {
         name: "Beebom Gadgets",
         nammeKey: "beebomgadgets_name",
         descriptionKey: "beebomgadgets_desc",
