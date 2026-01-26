@@ -496,6 +496,8 @@ const L = {
   robinhood_desc: "Opens Robinhood, a commission-free investing platform for stocks, ETFs, crypto, and more.",
   capitalcom_name: "Capital.com",
   capitalcom_desc: "Opens Capital.com, a global trading platform offering CFDs, market data, and financial education resources.",
+  wise_name: "Wise",
+  wise_desc: "Opens Wise, a global platform for low-cost international money transfers and multi-currency accounts.",
   hurun_name: "Hurun Report (胡润百富)",
   hurun_desc: "A wealth and business intelligence platform best known for its China Rich List. Hurun Report publishes rankings, research, and insights on entrepreneurs, luxury trends, and philanthropy in China and globally.",
   mkcokr_name: "Maeil Business Newspaper (매일경제)",

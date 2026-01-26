@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/wise",
+  "name": "Wise",
+  "short_name": "Wise",
+  "start_url": "/wrappers/wise/?source=pwa",
+  "scope": "/wrappers/wise/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Wise",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/wise/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

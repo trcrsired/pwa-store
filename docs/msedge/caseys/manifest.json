@@ -1,16 +1,16 @@
 {
-  "id": "/msedge/casey's",
+  "id": "/msedge/caseys",
   "name": "Casey's",
   "short_name": "Casey's",
-  "start_url": "/msedge/casey's/?source=pwa",
-  "scope": "/msedge/casey's/",
+  "start_url": "/msedge/caseys/?source=pwa",
+  "scope": "/msedge/caseys/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Casey's",
   "display": "standalone",
   "icons": [
     {
-      "src": "/msedge/casey's/icons/icon.webp",
+      "src": "/msedge/caseys/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

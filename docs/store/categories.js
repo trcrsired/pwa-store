@@ -1743,6 +1743,15 @@ export const categories = [
         url: "https://capital.com"
       },
       {
+        name: "Wise",
+        nameKey: "wise_name",
+        descriptionKey: "wise_desc",
+        icon: "icons/wrappers/wise.webp",
+        url2: "/wrappers/wise",
+        apptype2: "wrapper",
+        url: "https://wise.com"
+      },
+      {
         name: "Hurun Report (胡润百富)",
         nameKey: "hurun_name",
         descriptionKey: "hurun_desc",
