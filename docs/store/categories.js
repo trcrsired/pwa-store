@@ -6277,7 +6277,7 @@ export const categories = [
         nameKey: "xhamster_name",
         descriptionKey: "xhamster_desc",
         icon: "icons/pwa/xhamster.webp",
-        urlDisplay: "https://xhamster.com"
+        url: "https://xhamster.com"
       },
       {
         name: "JavHDPorn Live",
