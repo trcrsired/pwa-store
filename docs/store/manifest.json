@@ -6,8 +6,8 @@
   "start_url": "/store/?source=pwa",
   "scope": "/store",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "background_color": "#000000",
+  "theme_color": "#000000",
   "orientation": "any",
   "lang": "en",
   "icons": [
