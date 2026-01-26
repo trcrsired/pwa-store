@@ -1641,6 +1641,8 @@ const L = {
   cpimlm_desc: "Opens the site of the Communist Party of Iran (Marxist–Leninist–Maoist).",
   geopoliticaleconomy_name: "Geopolitical Economy Report",
   geopoliticaleconomy_desc: "Opens Geopolitical Economy Report, an analysis site covering global politics, economics, and international relations.",
+  worldaffairsincontext_name: "World Affairs in Context",
+  worldaffairsincontext_desc: "Opens World Affairs in Context, a site offering analysis and commentary on global politics, international relations, and world events.",
   lygdaily_name: "Lianyungang Daily (连云港日报)",
   lygdaily_desc: "Lianyungang Daily’s WeChat Mini Program provides local news, policy updates, and public service information for residents of Lianyungang. It serves as a digital portal for staying informed about city affairs, government announcements, and community events.",
   meituan_name: "Meituan (美团)",

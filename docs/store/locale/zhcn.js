@@ -1640,6 +1640,8 @@ const L = {
   cpimlm_desc: "打开伊朗共产党（马列毛）的网站。",
   geopoliticaleconomy_name: "地缘政治经济报告(Geopolitical Economy Report)",
   geopoliticaleconomy_desc: "打开 Geopolitical Economy Report，一个关注全球政治、经济与国际关系分析的网站。",
+  worldaffairsincontext_name: "World Affairs in Context",
+  worldaffairsincontext_desc: "打开 World Affairs in Context，一个提供全球政治、国际关系与世界事件分析的网站。",
   lygdaily_name: "连云港日报",
   lygdaily_desc: "连云港日报微信小程序，面向本地居民提供新闻资讯、政策动态及公共服务信息。用户可通过小程序了解城市要闻、政务发布和社区活动，掌握连云港最新动态。",
   meituan_name: "美团",

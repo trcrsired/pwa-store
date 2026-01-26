@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/worldaffairsincontext",
+  "name": "World Affairs In Context",
+  "short_name": "World Affairs In Context",
+  "start_url": "/wrappers/worldaffairsincontext/?source=pwa",
+  "scope": "/wrappers/worldaffairsincontext/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for World Affairs In Context",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/worldaffairsincontext/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

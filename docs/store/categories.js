@@ -2910,9 +2910,18 @@ export const categories = [
         nameKey: "geopoliticaleconomy_name",
         descriptionKey: "geopoliticaleconomy_desc",
         icon: "icons/wrappers/geopoliticaleconomy.webp",
-        url: "/wrappers/geopoliticaleconomy",
-        apptype: "wrapper",
-        urlDisplay: "https://geopoliticaleconomy.com"
+        url2: "/wrappers/geopoliticaleconomy",
+        apptype2: "wrapper",
+        url: "https://geopoliticaleconomy.com"
+      },
+      {
+        name: "World Affairs in Context",
+        nameKey: "worldaffairsincontext_name",
+        descriptionKey: "worldaffairsincontext_desc",
+        icon: "icons/wrappers/worldaffairsincontext.webp",
+        url2: "/wrappers/worldaffairsincontext",
+        apptype2: "wrapper",
+        url: "https://www.worldaffairsincontext.com"
       },
       {
         name: "Lianyungang Daily (连云港日报)",
