@@ -4432,6 +4432,15 @@ export const categories = [
         apptype_hide: "msedge"
       },
       {
+        name: "Moon Star",
+        nameKey: "moonstar_name",
+        descriptionKey: "moonstar_desc",
+        icon: "icons/wrappers/moonstar.webp",
+        url2: "/wrappers/moonstar",
+        apptype2: "wrapper",
+        url: "https://moonstarendicott.com"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",

@@ -1292,6 +1292,8 @@ const L = {
   wawa_desc: "Opens Wawa, a convenience store chain offering food, beverages, and retail services.",
   caseys_name: "Casey's",
   caseys_desc: "Opens Casey's, a convenience store and gas station chain offering food, beverages, and services.",
+  moonstar_name: "Moon Star",
+  moonstar_desc: "Opens Moon Star, an Asian restaurant in Endicott, NY offering dine-in, pickup, and delivery.",
   bosideng_name: "Bosideng",
   bosideng_desc: "Bosideng is the official online store of the global down‑apparel brand, offering premium down jackets and seasonal clothing for men, women, and kids. The site features international collections, cold‑weather performance ratings, and worldwide shipping options.",
   housing_name: "Housing",

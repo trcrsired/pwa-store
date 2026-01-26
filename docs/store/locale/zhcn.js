@@ -1294,6 +1294,8 @@ const L = {
   wawa_desc: "打开 Wawa，一个提供食品、饮料和零售服务的便利店连锁品牌。",
   caseys_name: "Casey's",
   caseys_desc: "打开 Casey's，一个提供食品、饮料和服务的便利店与加油站连锁品牌。",
+  moonstar_name: "Moon Star",
+  moonstar_desc: "打开Moon Star(月星)，这是一家位于美国纽约州Endicott的亚洲餐厅，提供堂食、自取与外送服务。",
   housing_name: "房地产",
   booking_name: "缤客",
   booking_desc: "搜索并预订来自全球供应商的酒店、度假村、公寓等住宿。可按地点、价格、评分和可订日期筛选。",

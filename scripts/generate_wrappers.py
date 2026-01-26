@@ -138,6 +138,7 @@ WRAPPERS = [
   { "name": "Modani", "url": "https://modani.com" },
   { "name": "Wawa", "url": "https://www.wawa.com" },
   { "name": "Casey's", "url": "https://www.caseys.com", "apptype": "msedge", "keyify_name": "caseys" },
+  { "name": "Moon Star", "url": "https://moonstarendicott.com", "keyify_name": "moonstarendicott" },
   { "name": "Luckin Coffee", "url": "https://in.luckincoffee.com", "keyify_name": "luckin" },
   { "name": "Bosideng", "url": "https://www.bosidengfashion.com" },
   { "name": "Gmail", "url": "https://mail.google.com" },
