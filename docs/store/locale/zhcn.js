@@ -1422,6 +1422,8 @@ const L = {
   pluralistic_desc: "打开 Pluralistic，Cory Doctorow 的博客，关注科技、政策与数字权利评论。",
   michaelhudson_name: "迈克尔·赫德森(Michael Hudson)",
   michaelhudson_desc: "打开 Michael Hudson 的官方网站，提供经济分析、债务批判与政治经济评论。",
+  judgenap_name: "Judge Nap",
+  judgenap_desc: "打开 Judge Nap，Andrew Napolitano 的网站，提供关于公民自由、宪法法律与公共事务的评论。",
   manosphere_name: "男性圈(Manosphere)",
   mgtowtv_name: "MGTOW.TV",
   mgtowtv_desc: "一个专注于男性话题的独立视频平台，提供言论自由和非审查的创作者内容。",

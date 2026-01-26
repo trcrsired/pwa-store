@@ -325,6 +325,7 @@ WRAPPERS = [
   { "name": "联合早报", "url": "https://www.zaobao.com.sg", "keyify_name": "zaobao" },
   { "name": "Pluralistic", "url": "https://pluralistic.net" },
   { "name": "Michael Hudson", "url": "https://michael-hudson.com" },
+  { "name": "Judge Nap", "url": "https://judgenap.com" },
 
   { "name": "Radio Television of Afghanistan", "url": "https://rta.af", "keyify_name": "rtaaf"},
   { "name": "求是", "url": "https://www.qstheory.cn", "keyify_name": "qstheory"},

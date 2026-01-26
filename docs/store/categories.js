@@ -5353,6 +5353,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://michael-hudson.com"
       },
+      {
+        name: "Judge Nap",
+        nameKey: "judgenap_name",
+        descriptionKey: "judgenap_desc",
+        icon: "icons/wrappers/judgenap.webp",
+        url2: "/wrappers/judgenap",
+        apptype2: "wrapper",
+        url: "https://judgenap.com"
+      },
     ]
   },
   {

@@ -1420,6 +1420,8 @@ const L = {
   pluralistic_desc: "Opens Pluralistic, Cory Doctorow’s blog featuring commentary on technology, policy, and digital rights.",
   michaelhudson_name: "Michael Hudson",
   michaelhudson_desc: "Opens Michael Hudson's official site featuring economic analysis, debt critiques, and political economy commentary.",
+  judgenap_name: "Judge Nap",
+  judgenap_desc: "Opens Judge Nap, Andrew Napolitano's site featuring commentary on civil liberties, constitutional law, and public affairs.",
   manosphere_name: "Manosphere",
   mgtowtv_name: "MGTOW.TV",
   mgtowtv_desc: "Independent video platform centered on men's issues, free speech, and uncensored creator content.",
