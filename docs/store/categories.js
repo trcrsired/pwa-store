@@ -1414,6 +1414,15 @@ export const categories = [
         url: "https://ko-fi.com"
       },
       {
+        name: "Vimeo",
+        nameKey: "vimeo_name",
+        descriptionKey: "vimeo_desc",
+        icon: "icons/wrappers/vimeo.webp",
+        url2: "/wrappers/vimeo",
+        apptype2: "wrapper",
+        url: "https://vimeo.com"
+      },
+      {
         name: "Tencent Meeting (腾讯会议)",
         nameKey: "tencentmeeting_name",
         icon: "icons/wechatmini/tencentmeeting.webp",
@@ -5951,6 +5960,15 @@ export const categories = [
         url2: "/msedge/oupacademic",
       },
       {
+        name: "ORCID",
+        nameKey: "orcid_name",
+        descriptionKey: "orcid_desc",
+        icon: "icons/wrappers/orcid.webp",
+        url2: "/wrappers/orcid",
+        apptype2: "wrapper",
+        url: "https://orcid.org"
+      },
+      {
         name: "Wenjuanxing (问卷星)",
         nameKey: "wenjuanxingcn_name",
         descriptionKey: "wenjuanxing_desc",
@@ -5958,7 +5976,7 @@ export const categories = [
         url: "/wrappers/wenjuanxing",
         urlDisplay: "https://www.wjx.cn",
         apptype: "wrapper" 
-      }
+      },
     ]
   },
   {

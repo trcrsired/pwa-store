@@ -100,6 +100,7 @@ WRAPPERS = [
   { "name": "Дзен", "url": "https://dzen.ru", "keyify_name": "dzenru" },
   { "name": "Kick", "url": "https://kick.com", "apptype": "msedge" },
   { "name": "Ko-fi", "url": "https://ko-fi.com", "keyify_name": "kofi" },
+  { "name": "Vimeo", "url": "https://vimeo.com" },
   { "name": "Tieba", "url": "https://tieba.baidu.com" },
   { "name": "Termux", "url": "https://termux.dev" },
   { "name": "Alibaba", "url": "https://www.alibaba.com" },
@@ -335,7 +336,8 @@ WRAPPERS = [
   { "name": "Democracy at Work", "url": "https://www.democracyatwork.info" },
   { "name": "HotCRP", "url": "https://hotcrp.com" },
   { "name": "ACM", "url": "https://www.acm.org" },
-  { "name": "Oxford Academic", "url": "https://academic.oup.com", "apptype": "msedge", "icon": "oup.webp" },
+  { "name": "Oxford Academic", "url": "https://academic.oup.com", "apptype": "msedge", "keyify_name": "oupacademic", "icon": "oup.webp" },
+  { "name": "ORCID", "url": "https://orcid.org" },
   { "name": "问卷星", "url": "https://www.wjx.cn", "keyify_name": "wenjuanxing" },
 
   { "name" : "Caltech", "url": "https://www.caltech.edu", "apptype": "msedge" },

@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/vimeo",
+  "name": "Vimeo",
+  "short_name": "Vimeo",
+  "start_url": "/wrappers/vimeo/?source=pwa",
+  "scope": "/wrappers/vimeo/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Vimeo",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/vimeo/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/orcid",
+  "name": "ORCID",
+  "short_name": "ORCID",
+  "start_url": "/wrappers/orcid/?source=pwa",
+  "scope": "/wrappers/orcid/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for ORCID",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/orcid/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
