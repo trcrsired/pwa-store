@@ -338,6 +338,13 @@ export const categories = [
       { nameKey: "googlevoice_name", name: "Google Voice", icon: "icons/pwa/googlevoice.webp", url: "https://voice.google.com", descriptionKey: "googlevoice_desc" },
       { nameKey: "googlemaps_name", name: "Google Maps", icon: "icons/pwa/googlemaps.webp", url: "https://maps.google.com", descriptionKey: "googlemaps_desc" },
       { nameKey: "googlenews_name", name: "Google News", icon: "icons/pwa/googlenews.webp", url: "https://news.google.com", descriptionKey: "googlenews_desc" },
+      {
+        name: "NotebookLM",
+        nameKey: "notebooklm_name",
+        descriptionKey: "notebooklm_desc",
+        icon: "icons/pwa/notebooklm.webp",
+        url: "https://notebooklm.google.com"
+      },
       { name: "Gmail", icon: "icons/wrappers/gmail.webp", url: "/wrappers/gmail", descriptionKey: "gmail_desc", apptype: "wrapper", urlDisplay: "https://mail.google.com" },
       { name: "Google Trends", icon: "icons/wrappers/googletrends.webp", url: "/wrappers/googletrends", descriptionKey: "googletrends_desc", apptype: "wrapper", urlDisplay: "https://trends.google.com" },
     ]

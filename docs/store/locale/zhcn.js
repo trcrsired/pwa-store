@@ -191,6 +191,8 @@ const L = {
   "googlemaps_desc": "使用谷歌地图探索世界——支持查找地点、获取路线、浏览周边商家，并查看实时交通、公交和卫星图层。",
   "googlenews_name": "谷歌新闻",
   "googlenews_desc": "一个新闻聚合平台，从数千个来源整理头条新闻，并以个性化方式呈现。",
+  notebooklm_name: "NotebookLM",
+  notebooklm_desc: "打开 NotebookLM，Google 的 AI 驱动研究与笔记助手，可用于总结和探索文档内容。",
   "gmail_desc": "谷歌的邮件服务。",
   "googletrends_name": "谷歌趋势",
   "googletrends_desc": "按地区和主题探索实时搜索趋势。谷歌趋势展示全球关注的热点，从爆炸性新闻到新兴兴趣。",

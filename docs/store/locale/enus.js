@@ -191,6 +191,8 @@ const L = {
   "googlemaps_desc": "Navigate the world with Google Maps—find places, get directions, explore nearby businesses, and view real-time traffic, transit, and satellite layers.",
   "googlenews_name": "Google News",
   "googlenews_desc": "A news aggregator that organizes headlines from thousands of sources and presents them in a personalized feed.",
+  notebooklm_name: "NotebookLM",
+  notebooklm_desc: "Opens NotebookLM, Google's AI-powered research and note-taking assistant for summarizing and exploring documents.",
   "gmail_desc": "Google's Mail Services",
   "googletrends_name": "Google Trends",
   "googletrends_desc": "Explore real-time search trends across regions and topics. Google Trends reveals what the world is curious about, from viral news to emerging interests.",
