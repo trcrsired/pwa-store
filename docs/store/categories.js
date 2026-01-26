@@ -2924,6 +2924,15 @@ export const categories = [
         url: "https://www.worldaffairsincontext.com"
       },
       {
+        name: "Democracy at Work",
+        nameKey: "democracyatwork_name",
+        descriptionKey: "democracyatwork_desc",
+        icon: "icons/wrappers/democracyatwork.webp",
+        url2: "/wrappers/democracyatwork",
+        apptype2: "wrapper",
+        url: "https://www.democracyatwork.info"
+      },
+      {
         name: "Lianyungang Daily (连云港日报)",
         nameKey: "lygdaily_name",
         descriptionKey: "lygdaily_desc",
@@ -5291,6 +5300,15 @@ export const categories = [
         url: "/wrappers/pluralistic",
         apptype: "wrapper",
         urlDisplay: "https://pluralistic.net"
+      },
+      {
+        name: "Michael Hudson",
+        nameKey: "michaelhudson_name",
+        descriptionKey: "michaelhudson_desc",
+        icon: "icons/wrappers/michaelhudson.webp",
+        url2: "/wrappers/michaelhudson",
+        apptype2: "wrapper",
+        url: "https://michael-hudson.com"
       },
     ]
   },

@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/democracyatwork",
+  "name": "Democracy at Work",
+  "short_name": "Democracy at Work",
+  "start_url": "/wrappers/democracyatwork/?source=pwa",
+  "scope": "/wrappers/democracyatwork/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Democracy at Work",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/democracyatwork/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
