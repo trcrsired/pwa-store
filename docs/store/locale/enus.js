@@ -1426,6 +1426,8 @@ const L = {
   michaelhudson_desc: "Opens Michael Hudson's official site featuring economic analysis, debt critiques, and political economy commentary.",
   judgenap_name: "Judge Nap",
   judgenap_desc: "Opens Judge Nap, Andrew Napolitano's site featuring commentary on civil liberties, constitutional law, and public affairs.",
+  chriswilliamson_name: "Chris Williamson",
+  chriswilliamson_desc: "Opens Chris Williamson's official site, home of the Modern Wisdom podcast and his work as a podcaster and creator.",
   manosphere_name: "Manosphere",
   mgtowtv_name: "MGTOW.TV",
   mgtowtv_desc: "Independent video platform centered on men's issues, free speech, and uncensored creator content.",

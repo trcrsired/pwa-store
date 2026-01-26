@@ -5371,6 +5371,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://judgenap.com"
       },
+      {
+        name: "ChrisWillX",
+        nameKey: "chriswillx_name",
+        descriptionKey: "chriswillx_desc",
+        icon: "icons/wrappers/chriswillx.webp",
+        url2: "/wrappers/chriswillx",
+        apptype2: "wrapper",
+        url: "https://chriswillx.com"
+      },
     ]
   },
   {

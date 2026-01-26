@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/chriswilliamson",
+  "name": "Chris Williamson",
+  "short_name": "Chris Williamson",
+  "start_url": "/wrappers/chriswilliamson/?source=pwa",
+  "scope": "/wrappers/chriswilliamson/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Chris Williamson",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/chriswilliamson/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
