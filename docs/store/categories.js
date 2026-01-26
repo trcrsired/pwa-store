@@ -1725,6 +1725,15 @@ export const categories = [
         url: "https://robinhood.com"
       },
       {
+        name: "Capital.com",
+        nameKey: "capitalcom_name",
+        descriptionKey: "capitalcom_desc",
+        icon: "icons/wrappers/capitalcom.webp",
+        url2: "/wrappers/capitalcom",
+        apptype2: "wrapper",
+        url: "https://capital.com"
+      },
+      {
         name: "Hurun Report (胡润百富)",
         nameKey: "hurun_name",
         descriptionKey: "hurun_desc",

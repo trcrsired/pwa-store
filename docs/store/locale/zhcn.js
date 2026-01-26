@@ -492,6 +492,8 @@ const L = {
   stockcharts_desc: "打开 StockCharts，一个用于金融图表、技术分析和市场数据可视化的平台。",
   robinhood_name: "Robinhood",
   robinhood_desc: "打开 Robinhood，一个提供免佣金股票、ETF、加密货币等投资的平台。",
+  capitalcom_name: "Capital.com",
+  capitalcom_desc: "打开 Capital.com，一个提供差价合约交易、市场数据和金融教育资源的全球交易平台。",
   hurun_name: "胡润百富",
   hurun_desc: "以中国富豪榜闻名的财富与商业资讯平台。胡润百富发布关于企业家、奢侈品趋势和慈善事业的排行榜、调研与洞察，覆盖中国及全球市场。",
   mkcokr_name: "每日经济新闻(매일경제)",

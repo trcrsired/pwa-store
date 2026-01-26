@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/capitalcom",
+  "name": "Capital.com",
+  "short_name": "Capital.com",
+  "start_url": "/wrappers/capitalcom/?source=pwa",
+  "scope": "/wrappers/capitalcom/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Capital.com",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/capitalcom/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
