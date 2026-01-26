@@ -99,6 +99,7 @@ WRAPPERS = [
   { "name": "ShareChat", "url": "https://sharechat.com" },
   { "name": "Дзен", "url": "https://dzen.ru", "keyify_name": "dzenru" },
   { "name": "Kick", "url": "https://kick.com", "apptype": "msedge" },
+  { "name": "Ko-fi", "url": "https://ko-fi.com", "keyify_name": "kofi" },
   { "name": "Tieba", "url": "https://tieba.baidu.com" },
   { "name": "Termux", "url": "https://termux.dev" },
   { "name": "Alibaba", "url": "https://www.alibaba.com" },

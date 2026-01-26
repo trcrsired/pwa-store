@@ -1405,6 +1405,15 @@ export const categories = [
         apptype_hide: "msedge"
       },
       {
+        name: "Ko-fi",
+        nameKey: "kofi_name",
+        descriptionKey: "kofi_desc",
+        icon: "icons/wrappers/kofi.webp",
+        url2: "/wrappers/kofi",
+        apptype2: "wrapper",
+        url: "https://ko-fi.com"
+      },
+      {
         name: "Tencent Meeting (腾讯会议)",
         nameKey: "tencentmeeting_name",
         icon: "icons/wechatmini/tencentmeeting.webp",

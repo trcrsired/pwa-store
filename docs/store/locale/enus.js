@@ -425,6 +425,8 @@ const L = {
   dzen_desc: "Dzen is a Russian content recommendation and news aggregation platform, originally developed by Yandex and now owned by VK. It offers personalized feeds of articles, videos, and blogs.",
   kick_name: "Kick",
   kick_desc: "Opens Kick, a live‑streaming platform for gaming, music, and creator content.",
+  kofi_name: "Ko-fi",
+  kofi_desc: "Opens Ko-fi, a platform where creators can receive donations, memberships, and support from fans.",
   tieba_name: "Tieba (贴吧)",
   tieba_desc: "Baidu’s interest-based forum network where users gather in topic-specific bars to share posts, media, and discussions. On mobile, you need to use Microsoft Edge with Android and modify the agent string by adding ArkWeb to bypass the Tieba mini app check.",
   finance_name: "Finance",

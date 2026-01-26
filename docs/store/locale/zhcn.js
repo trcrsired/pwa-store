@@ -425,6 +425,8 @@ const L = {
   dzen_desc: "Dzen (Дзен) 是俄罗斯的内容推荐与新闻聚合平台，最初由 Yandex 开发，现归 VK 所有。它通过算法为用户提供个性化的文章、视频和博客推荐。",
   kick_name: "Kick",
   kick_desc: "打开 Kick，一个专注于游戏、音乐与创作者内容的直播平台。",
+  kofi_name: "Ko-fi",
+  kofi_desc: "打开 Ko-fi，一个让创作者获得粉丝打赏、会员订阅与支持的平台。",
   tieba_name: "贴吧",
   tieba_desc: "百度的兴趣社区平台，用户在特定主题的贴吧中分享帖子、媒体和讨论。在移动端需使用安卓版微软Edge浏览器，并通过添加 ArkWeb 到 UA 字符串来绕过贴吧小程序的检测。",
   finance_name: "金融",
