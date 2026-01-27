@@ -6175,6 +6175,15 @@ export const categories = [
         urlDisplay: "https://www.upenn.edu"
       },
       {
+        name: "Johns Hopkins University",
+        nameKey: "jhu_name",
+        descriptionKey: "jhu_desc",
+        icon: "icons/msedge/jhu.webp",
+        url2: "/msedge/jhu",
+        apptype2: "wrapper",
+        url: "https://www.jhu.edu"
+      },
+      {
         name: "University of Cambridge",
         nameKey: "cambridge_name",
         descriptionKey: "cambridge_desc",
@@ -6362,7 +6371,7 @@ export const categories = [
         url: "/wrappers/yande",
         urlDisplay: "https://yande.re",
         apptype: "wrapper"
-      }
+      },
     ]
   },
   {

@@ -1595,6 +1595,9 @@ const L = {
   upenn_name: "宾夕法尼亚大学 (University of Pennsylvania)",
   upenn_desc: "宾夕法尼亚大学由本杰明·富兰克林于1740年创立，是常春藤盟校之一，以跨学科教育、沃顿商学院以及在医学、法律和社会科学领域的领导力著称。",
 
+  jhu_name: "约翰斯·霍普金斯大学 (Johns Hopkins University)",
+  jhu_desc: "打开约翰斯·霍普金斯大学官网，这是一所以医学、公共卫生与科研著称的顶尖研究型大学。",
+
   cambridge_name: "剑桥大学 (University of Cambridge)",
   cambridge_desc: "剑桥大学成立于1209年，是世界上最古老的大学之一，以31个学院、在科学和数学上的历史性贡献以及众多杰出校友著称。",
 

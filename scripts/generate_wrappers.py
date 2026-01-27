@@ -357,6 +357,7 @@ WRAPPERS = [
   { "name" : "Columbia University", "url": "https://www.columbia.edu", "keyify_name": "columbia" },
   { "name" : "University of Michigan", "url": "https://umich.edu", "keyify_name": "umich" },
   { "name" : "University of Pennsylvania", "url": "https://www.upenn.edu", "keyify_name": "upenn" },
+  { "name" : "Johns Hopkins University", "url": "https://www.jhu.edu", "keyify_name": "jhu", "apptype": "msedge" },
   { "name" : "University of Cambridge", "url": "https://www.cam.ac.uk", "keyify_name": "cambridge" },
   { "name" : "National University of Singapore (NUS)", "url": "https://nus.edu.sg", "keyify_name": "nus" },
   { "name" : "University of Tokyo (東京大学)", "url": "https://www.u-tokyo.ac.jp", "keyify_name": "utokyo" },

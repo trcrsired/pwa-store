@@ -1593,6 +1593,9 @@ const L = {
   upenn_name: "University of Pennsylvania",
   upenn_desc: "Established in 1740 by Benjamin Franklin, Penn is an Ivy League university in Philadelphia, distinguished by its interdisciplinary approach, Wharton School of Business, and leadership in medicine, law, and social sciences.",
 
+  jhu_name: "Johns Hopkins University",
+  jhu_desc: "Opens Johns Hopkins University, a leading U.S. research university known for medicine, public health, and global research.",
+
   cambridge_name: "University of Cambridge",
   cambridge_desc: "Founded in 1209, Cambridge is one of the world’s oldest universities, renowned for its 31 colleges, historic contributions to science and mathematics, and alumni including Isaac Newton, Charles Darwin, and Stephen Hawking.",
 
