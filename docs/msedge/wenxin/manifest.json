@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/wenxin",
+  "name": "\u6587\u5fc3\u52a9\u624b",
+  "short_name": "\u6587\u5fc3\u52a9\u624b",
+  "start_url": "/msedge/wenxin/?source=pwa",
+  "scope": "/msedge/wenxin/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u6587\u5fc3\u52a9\u624b",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/wenxin/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

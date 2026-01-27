@@ -156,6 +156,8 @@ const L = {
   doubao_desc: "由字节跳动开发的中文AI聊天平台，提供对话服务和效率工具。",
   alice_name: "Alice (Алиса)",
   alice_desc: "Alice (Алиса)是 Yandex 推出的俄罗斯生成式人工智能助手，支持聊天、文本生成、图像生成和文件分析，并与 Yandex 服务深度整合。",
+  wenxin_name: "文心助手",
+  wenxin_desc: "打开文心助手，百度推出的多模态 AI 平台，支持写作、生图、编程、翻译等功能。",
   "cursor_name": "Cursor",
   "cursor_desc": "Cursor 是一款由 AI 驱动的编程助手，支持跨平台代码编写、重构与调试。其智能代理可生成文件、执行终端命令、分析完整代码库，并可通过网页、命令行和 Slack 使用。",
   "outlook_desc": "微软的网页邮箱和日历服务。",

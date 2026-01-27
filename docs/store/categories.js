@@ -257,7 +257,15 @@ export const categories = [
         apptype: "wrapper",
         url: "/wrappers/alice"
       },
-
+      {
+        name: "Wenxin (文心助手)",
+        nameKey: "wenxin_name",
+        descriptionKey: "wenxin_desc",
+        icon: "icons/msedge/wenxin.webp",
+        url2: "/msedge/wenxin",
+        apptype2: "wrapper",
+        url: "https://chat.baidu.com"
+      },
     ]
   },
   {
