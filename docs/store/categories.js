@@ -1440,6 +1440,15 @@ export const categories = [
         url: "https://vimeo.com"
       },
       {
+        name: "Kook",
+        nameKey: "kook_name",
+        descriptionKey: "kook_desc",
+        icon: "icons/wrappers/kook.webp",
+        url2: "/wrappers/kook",
+        apptype2: "wrapper",
+        url: "https://www.kookapp.cn/app"
+      },
+      {
         name: "Tencent Meeting (腾讯会议)",
         nameKey: "tencentmeeting_name",
         icon: "icons/wechatmini/tencentmeeting.webp",
