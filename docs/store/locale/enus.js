@@ -1045,6 +1045,8 @@ const L = {
   oed_desc: "The Oxford English Dictionary is the definitive historical dictionary of the English language. It traces the meaning, usage, and evolution of over 500,000 words and phrases, offering unparalleled insight for scholars, writers, and language enthusiasts worldwide.",
   orcid_name: "ORCID",
   orcid_desc: "Opens ORCID, a global researcher identifier system providing unique IDs and profiles for scholars.",
+  ncbi_name: "NCBI",
+  ncbi_desc: "Opens NCBI, a major biomedical and genomic information resource including PubMed, GenBank, and BLAST.",
   duoreader_name: "Duoreader",
   duoreader_desc: "Duoreader is a multilingual reading platform focused on original texts. It offers synchronized translation, voice playback, dictionary lookup, and customizable reading modes. Ideal for learners and scholars engaging with classic literature, philosophy, and historical documents in their original form.",
   dudianji_name: "Dudianji (读典籍)",

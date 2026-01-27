@@ -1547,6 +1547,8 @@ const L = {
   oupacademic_desc: "打开牛津学术，牛津大学出版社的学术出版平台，提供期刊与研究论文。",
   orcid_name: "ORCID",
   orcid_desc: "打开 ORCID，一个为研究人员提供唯一身份识别与学术档案的全球系统。",
+  ncbi_name: "美国国家生物技术信息中心(NCBI)",
+  ncbi_desc: "打开美国国家生物技术信息中心(NCBI)，提供 PubMed、GenBank、BLAST 等生命科学数据库。",
   education_name: "教育",
   princeton_name: "普林斯顿大学(Princeton University)",
   princeton_desc: "普林斯顿大学是位于新泽西州普林斯顿的私立常春藤研究型大学，成立于 1746 年，是美国第四古老的高等教育机构，也是美国独立战争前九所殖民地学院之一。普林斯顿以卓越的本科和博士教育而闻名，致力于通过世界一流的学术研究和教学培养学生应对未来挑战，追求有意义的人生。",

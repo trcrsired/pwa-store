@@ -6011,6 +6011,15 @@ export const categories = [
         url: "https://orcid.org"
       },
       {
+        name: "NCBI",
+        nameKey: "ncbi_name",
+        descriptionKey: "ncbi_desc",
+        icon: "icons/wrappers/ncbi.webp",
+        url2: "/wrappers/ncbi",
+        apptype2: "wrapper",
+        url: "https://www.ncbi.nlm.nih.gov"
+      },
+      {
         name: "Wenjuanxing (问卷星)",
         nameKey: "wenjuanxingcn_name",
         descriptionKey: "wenjuanxing_desc",

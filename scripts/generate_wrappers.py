@@ -342,6 +342,7 @@ WRAPPERS = [
   { "name": "ACM", "url": "https://www.acm.org" },
   { "name": "Oxford Academic", "url": "https://academic.oup.com", "apptype": "msedge", "keyify_name": "oupacademic", "icon": "oup.webp" },
   { "name": "ORCID", "url": "https://orcid.org" },
+  { "name": "NCBI", "url": "https://www.ncbi.nlm.nih.gov" },
   { "name": "问卷星", "url": "https://www.wjx.cn", "keyify_name": "wenjuanxing" },
 
   { "name" : "Caltech", "url": "https://www.caltech.edu", "apptype": "msedge" },
