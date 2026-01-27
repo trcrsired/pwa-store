@@ -3422,6 +3422,15 @@ export const categories = [
         urlDisplay: "https://www.warcrafttavern.com"
       },
       {
+        name: "Netease DD (网易DD)",
+        nameKey: "neteasedd_name",
+        descriptionKey: "neteasedd_desc",
+        icon: "icons/msedge/neteasedd.webp",
+        url2: "/msedge/neteasedd",
+        apptype2: "wrapper",
+        url: "https://dd.163.com/room/100100"
+      },
+      {
         name: "World of Warcraft (China)",
         nameKey: "wowchina_name",
         descriptionKey: "wowchina_desc",

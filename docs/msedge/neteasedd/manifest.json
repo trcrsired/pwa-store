@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/neteasedd",
+  "name": "\u7f51\u6613DD",
+  "short_name": "\u7f51\u6613DD",
+  "start_url": "/msedge/neteasedd/?source=pwa",
+  "scope": "/msedge/neteasedd/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u7f51\u6613DD",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/neteasedd/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

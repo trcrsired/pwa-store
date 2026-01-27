@@ -236,6 +236,7 @@ WRAPPERS = [
   { "name": "Team Liquid", "url": "https://teamliquid.com" },
   { "name": "Steam Community", "url": "https://steamcommunity.com" },
   { "name": "Warcraft Tavern", "url": "https://www.warcrafttavern.com" },
+  { "name": "网易DD", "url": "https://dd.163.com/room/100100", "apptype": "msedge", "keyify_name": "neteasedd" },
   { "name": "Capital One", "url": "https://verified.capitalone.com", "apptype": "msedge" },
   { "name": "Paypal", "url": "https://www.paypal.com" },
   { "name": "Moomoo", "url": "https://www.moomoo.com" },

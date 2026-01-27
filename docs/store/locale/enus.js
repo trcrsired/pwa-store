@@ -1096,6 +1096,8 @@ const L = {
   steamcommunity_desc: "Opens the Steam Community, featuring game hubs, profiles, guides, discussions, and workshop content.",
   warcrafttavern_name: "Warcraft Tavern",
   warcrafttavern_desc: "Opens Warcraft Tavern, a community site offering WoW guides, tools, news, and class resources.",
+  neteasedd_name: "Netease DD (网易DD)",
+  neteasedd_desc: "Opens Netease DD, a NetEase live-streaming and interactive room platform.",
   knowledgespedia_name: "Knowledge & Pedias",
   wikipedia_name: "Wikipedia",
   wikipedia_desc: "Free online encyclopedia.",

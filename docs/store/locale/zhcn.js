@@ -1096,6 +1096,8 @@ const L = {
   steamcommunity_desc: "打开 Steam 社区，查看游戏社区、玩家资料、指南、讨论区和创意工坊内容。",
   warcrafttavern_name: "魔兽酒馆(Warcraft Tavern)",
   warcrafttavern_desc: "打开 Warcraft Tavern，提供魔兽世界指南、工具、新闻与职业资源的社区网站。",
+  neteasedd_name: "网易DD",
+  neteasedd_desc: "打开网易DD，一个由网易提供的直播与互动房间平台。",
   knowledgespedia_name: "知识和百科",
   wikipedia_name: "维基百科",
   wikipedia_desc: "免费的在线百科全书。",
