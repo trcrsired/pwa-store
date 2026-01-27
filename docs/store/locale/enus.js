@@ -148,6 +148,8 @@ const L = {
   g2ai_desc: "G2 AI is an AI-first software search tool powered by G2’s review data. It helps users discover, compare, and evaluate software through natural language queries and intelligent recommendations. Visit ai.g2.com to explore.",
   andi_name: "Andi",
   andi_desc: "Opens Andi, an AI‑powered search engine that provides visual, conversational answers instead of traditional links.",
+  duckai_name: "Duck.ai",
+  duckai_desc: "Opens Duck.ai, DuckDuckGo’s privacy-focused AI chat and search assistant.",
   komoai_name: "Komo AI",
   komoai_desc: "Opens Komo AI, a conversational search engine designed for fast, privacy‑focused answers and exploration.",
   tencentyuanbao_name: "Tencent Yuanbao (腾讯元宝)",

@@ -237,6 +237,15 @@ export const categories = [
         url: "https://andisearch.com"
       },
       {
+        name: "Duck.ai",
+        nameKey: "duckai_name",
+        descriptionKey: "duckai_desc",
+        icon: "icons/msedge/duckai.webp",
+        url2: "/msedge/duckai",
+        apptype2: "wrapper",
+        url: "https://duck.ai"
+      },
+      {
         name: "Komo AI",
         nameKey: "komoai_name",
         descriptionKey: "komoai_desc",
