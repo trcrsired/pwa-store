@@ -6350,6 +6350,19 @@ export const categories = [
     ]
   },
   {
+    name: "Bluetooth Devices",
+    nameKey: "bluetoothdevices_name",
+    apps : [
+      {
+        name: "faovo-app",
+        nameKey: "faovoapp_name",
+        descriptionKey: "faovoapp_desc",
+        icon: "icons/pwa/faovoapp.webp",
+        url: "https://alexiii.github.io/faovo-app",
+      }
+    ]
+  },
+  {
     name: "Adult",
     nameKey: "adult_name",
     apps: [
