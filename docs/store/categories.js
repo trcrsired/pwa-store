@@ -5813,6 +5813,13 @@ export const categories = [
         url: "https://www.calm.com"
       },
       {
+        name: "Pfizer",
+        nameKey: "pfizer_name",
+        descriptionKey: "pfizer_desc",
+        icon: "icons/pwa/pfizer.webp",
+        url: "https://www.pfizer.com"
+      },
+      {
         name: "UHS",
         nameKey: "uhs_name",
         descriptionKey: "uhs_desc",
