@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/propublica",
+  "name": "ProPublica",
+  "short_name": "ProPublica",
+  "start_url": "/wrappers/propublica/?source=pwa",
+  "scope": "/wrappers/propublica/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for ProPublica",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/propublica/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

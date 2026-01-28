@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/hibp",
+  "name": "Have I Been Pwned",
+  "short_name": "Have I Been Pwned",
+  "start_url": "/wrappers/hibp/?source=pwa",
+  "scope": "/wrappers/hibp/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Have I Been Pwned",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/hibp/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

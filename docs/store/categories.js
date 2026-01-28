@@ -289,6 +289,15 @@ export const categories = [
         icon: "icons/pwa/genpass.webp",
         url: "https://genpass.net"
       },
+      {
+        name: "Have I Been Pwned",
+        nameKey: "hibp_name",
+        descriptionKey: "hibp_desc",
+        icon: "icons/msedge/hibp.webp",
+        url2: "/msedge/hibp",
+        apptype2: "wrapper",
+        url: "https://haveibeenpwned.com"
+      },
       { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype: "wrapper", urlDisplay: "https://stack.watch" },
     ]
   },
@@ -2991,6 +3000,15 @@ export const categories = [
         url2: "/wrappers/democracyatwork",
         apptype2: "wrapper",
         url: "https://www.democracyatwork.info"
+      },
+      {
+        name: "ProPublica",
+        nameKey: "propublica_name",
+        descriptionKey: "propublica_desc",
+        icon: "icons/wrappers/propublica.webp",
+        url2: "/wrappers/propublica",
+        apptype2: "wrapper",
+        url: "https://www.propublica.org"
       },
       {
         name: "Lianyungang Daily (连云港日报)",
