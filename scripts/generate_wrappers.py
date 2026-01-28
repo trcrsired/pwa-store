@@ -104,7 +104,7 @@ WRAPPERS = [
   { "name": "Kick", "url": "https://kick.com", "apptype": "msedge" },
   { "name": "Ko-fi", "url": "https://ko-fi.com", "keyify_name": "kofi" },
   { "name": "Vimeo", "url": "https://vimeo.com" },
-  { "name": "Kook", "url": "https://www.kookapp.cn/app" },
+  { "name": "Kook", "url": "https://www.kookapp.cn/app/" },
   { "name": "Tieba", "url": "https://tieba.baidu.com" },
   { "name": "Termux", "url": "https://termux.dev" },
   { "name": "Alibaba", "url": "https://www.alibaba.com" },

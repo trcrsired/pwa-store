@@ -1,4 +1,4 @@
 window.appConfig = {
   title: "Kook",
-  url: "https://www.kookapp.cn/app"
+  url: "https://www.kookapp.cn/app/"
 };
