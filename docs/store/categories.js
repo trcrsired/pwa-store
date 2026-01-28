@@ -237,6 +237,15 @@ export const categories = [
         url: "https://andisearch.com"
       },
       {
+        name: "Duck.ai",
+        nameKey: "duckai_name",
+        descriptionKey: "duckai_desc",
+        icon: "icons/msedge/duckai.webp",
+        url2: "/msedge/duckai",
+        apptype2: "wrapper",
+        url: "https://duck.ai"
+      },
+      {
         name: "Komo AI",
         nameKey: "komoai_name",
         descriptionKey: "komoai_desc",
@@ -1438,6 +1447,15 @@ export const categories = [
         url2: "/wrappers/vimeo",
         apptype2: "wrapper",
         url: "https://vimeo.com"
+      },
+      {
+        name: "Kook",
+        nameKey: "kook_name",
+        descriptionKey: "kook_desc",
+        icon: "icons/wrappers/kook.webp",
+        url2: "/wrappers/kook",
+        apptype2: "wrapper",
+        url: "https://www.kookapp.cn/app"
       },
       {
         name: "Tencent Meeting (腾讯会议)",
@@ -5831,6 +5849,13 @@ export const categories = [
         url: "https://www.calm.com"
       },
       {
+        name: "Pfizer",
+        nameKey: "pfizer_name",
+        descriptionKey: "pfizer_desc",
+        icon: "icons/pwa/pfizer.webp",
+        url: "https://www.pfizer.com"
+      },
+      {
         name: "UHS",
         nameKey: "uhs_name",
         descriptionKey: "uhs_desc",
@@ -6022,6 +6047,15 @@ export const categories = [
         url: "https://orcid.org"
       },
       {
+        name: "NCBI",
+        nameKey: "ncbi_name",
+        descriptionKey: "ncbi_desc",
+        icon: "icons/wrappers/ncbi.webp",
+        url2: "/wrappers/ncbi",
+        apptype2: "wrapper",
+        url: "https://www.ncbi.nlm.nih.gov"
+      },
+      {
         name: "Wenjuanxing (问卷星)",
         nameKey: "wenjuanxingcn_name",
         descriptionKey: "wenjuanxing_desc",
@@ -6175,6 +6209,15 @@ export const categories = [
         url: "/wrappers/upenn",
         apptype: "wrapper",
         urlDisplay: "https://www.upenn.edu"
+      },
+      {
+        name: "Johns Hopkins University",
+        nameKey: "jhu_name",
+        descriptionKey: "jhu_desc",
+        icon: "icons/msedge/jhu.webp",
+        url2: "/msedge/jhu",
+        apptype2: "wrapper",
+        url: "https://www.jhu.edu"
       },
       {
         name: "University of Cambridge",
@@ -6364,6 +6407,19 @@ export const categories = [
         url: "/wrappers/yande",
         urlDisplay: "https://yande.re",
         apptype: "wrapper"
+      },
+    ]
+  },
+  {
+    name: "Bluetooth Devices",
+    nameKey: "bluetoothdevices_name",
+    apps : [
+      {
+        name: "faovo-app",
+        nameKey: "faovoapp_name",
+        descriptionKey: "faovoapp_desc",
+        icon: "icons/pwa/faovoapp.webp",
+        url: "https://alexiii.github.io/faovo-app",
       }
     ]
   },

@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/ncbi",
+  "name": "NCBI",
+  "short_name": "NCBI",
+  "start_url": "/wrappers/ncbi/?source=pwa",
+  "scope": "/wrappers/ncbi/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for NCBI",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/ncbi/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
