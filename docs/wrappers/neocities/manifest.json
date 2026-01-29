@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/neocities",
+  "name": "Neocities",
+  "short_name": "Neocities",
+  "start_url": "/wrappers/neocities/?source=pwa",
+  "scope": "/wrappers/neocities/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Neocities",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/neocities/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -341,6 +341,8 @@ const L = {
   modelscope_desc: "魔搭社区是一个一站式 AI 平台，提供先进的机器学习模型、数据集、在线推理、训练与部署，构建统一的模型即服务（MaaS）生态，覆盖 NLP、CV、语音、多模态及科学计算等领域。",
   linuxtoys_name: "Linux.toys",
   linuxtoys_desc: "打开 Linux.toys，一个收集与 Linux 相关的小工具、玩具和实验的网站。",
+  neocities_name: "Neocities",
+  neocities_desc: "打开 Neocities，一个致敬早期互联网精神的免费静态网站托管平台。",
   cloudflare_desc: "Cloudflare 是一个被广泛采用的平台，提供网络、安全和性能服务，以提升网站、应用程序和在线服务的功能。由于其强大的功能和全球基础设施，从个人开发者到大型企业的各类用户都在使用它。",
   yandex_name: "Yandex",
   yandex_desc: "Yandex 由 Arkady Volozh、Arkady Borkovsky 和 Ilya Segalovich 创立，总部位于俄罗斯莫斯科，是一家提供搜索、地图、云计算、流媒体、电商和网约车等多种服务的科技公司。Yandex 搜索在俄罗斯市场占据主导地位，支持文本、语音和图像查询，并拥有自主的搜索基础设施。虽然 Yandex 不使用必应的 API 获取搜索结果，但它通过 IndexNow 协议与必应合作，实现跨平台的 URL 快速索引。",

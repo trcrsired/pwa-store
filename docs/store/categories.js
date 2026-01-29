@@ -921,6 +921,15 @@ export const categories = [
         url: "https://linux.toys"
       },
       {
+        name: "Neocities",
+        nameKey: "neocities_name",
+        descriptionKey: "neocities_desc",
+        icon: "icons/wrappers/neocities.webp",
+        url2: "/wrappers/neocities",
+        apptype2: "wrapper",
+        url: "https://neocities.org"
+      },
+      {
         name: "ModelScope (魔搭社区)",
         nameKey: "modelscope_name",
         descriptionKey: "modelscope_desc",
