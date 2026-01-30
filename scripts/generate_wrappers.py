@@ -187,7 +187,7 @@ WRAPPERS = [
   { "name": "Barchart", "url": "https://www.barchart.com" },
   { "name": "Exchange‑Rates.org", "url": "https://www.exchange-rates.org", "keyify_name": "exchangerates" },
   { "name": "Coinglass", "url": "https://www.coinglass.com" },
-  { "name": "Coinglass Liquidations", "url": "https://www.coinglass.com/liquidations", "icon": "coinglass.webp" },
+  { "name": "Coinglass Liquidations", "url": "https://www.coinglass.com/liquidations", "keyify_name": "coinglassliq", "icon": "coinglass.webp" },
   { "name": "Wise", "url": "https://wise.com" },
   { "name": "胡润百富", "url": "https://www.hurun.net", "keyify_name": "hurun" },
   { "name": "매일경제", "url": "https://www.mk.co.kr", "keyify_name": "mkcokr" },
