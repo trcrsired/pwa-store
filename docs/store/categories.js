@@ -1678,6 +1678,13 @@ export const categories = [
         url: "https://www.tipranks.com"
       },
       {
+        name: "COMEX Live",
+        nameKey: "comexlive_name",
+        descriptionKey: "comexlive_desc",
+        icon: "icons/pwa/comexlive.webp",
+        url: "https://comexlive.org"
+      },
+      {
         name: "Capital One",
         nameKey: "capitalone_name",
         descriptionKey: "capitalone_desc",

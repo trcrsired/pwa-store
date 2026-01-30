@@ -47,6 +47,8 @@ const L = {
   polymarket_desc: "Opens Polymarket, a cryptocurrency‑based prediction market where users trade on real‑world events.",
   tipranks_name: "TipRanks",
   tipranks_desc: "Opens TipRanks, a stock‑market research platform offering analyst rankings, insider‑trading data, Smart Scores, and financial news.",
+  comexlive_name: "COMEX Live",
+  comexlive_desc: "Opens COMEX Live, a site providing live gold, silver, copper, and other commodity prices and charts.",
   atimelogger_name: "aTimerLogger",
   atimelogger_desc: "A time tracking app for logging daily activities, habits, and productivity. Supports custom categories, charts, and export options for personal or professional use.",
   "stackwatch_desc": "Track vulnerabilities and security updates across software stacks.",

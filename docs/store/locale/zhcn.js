@@ -48,6 +48,8 @@ const L = {
   polymarket_desc: "打开 Polymarket，加密货币预测市场，可就真实世界事件进行交易。",
   tipranks_name: "TipRanks",
   tipranks_desc: "打开 TipRanks，提供分析师评级、内部交易数据、Smart Score 评分及股票市场研究工具的平台。",
+  comexlive_name: "COMEX Live",
+  comexlive_desc: "打开 COMEX Live，提供黄金、白银、铜等大宗商品的实时价格与图表。",
   atimelogger_name: "aTimerLogger",
   atimelogger_desc: "一款时间记录应用，用于追踪日常活动、习惯与效率表现。支持自定义分类、图表分析及导出功能，适用于个人或专业场景。",
   "microsoft_services_name": "微软服务",
