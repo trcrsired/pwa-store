@@ -1837,6 +1837,24 @@ export const categories = [
         url: "https://www.exchange-rates.org"
       },
       {
+        name: "Coinglass",
+        nameKey: "coinglass_name",
+        descriptionKey: "coinglass_desc",
+        icon: "icons/wrappers/coinglass.webp",
+        url2: "/wrappers/coinglass",
+        apptype2: "wrapper",
+        url: "https://www.coinglass.com"
+      },
+      {
+        name: "Coinglass Liquidations",
+        nameKey: "coinglassliq_name",
+        descriptionKey: "coinglassliq_desc",
+        icon: "icons/wrappers/coinglass.webp",
+        url2: "/wrappers/coinglassliq",
+        apptype2: "wrapper",
+        url: "https://www.coinglass.com/liquidations"
+      },
+      {
         name: "Hurun Report (胡润百富)",
         nameKey: "hurun_name",
         descriptionKey: "hurun_desc",
