@@ -3720,6 +3720,13 @@ export const categories = [
         url: "https://incels.is"
       },
       {
+        name: "Home Assistant Community",
+        nameKey: "hacommunity_name",
+        descriptionKey: "hacommunity_desc",
+        icon: "icons/pwa/hacommunity.webp",
+        url: "https://community.home-assistant.io"
+      },
+      {
         name: "RA2 DIY",
         nameKey: "ra2diy_name",
         descriptionKey: "ra2diy_desc",

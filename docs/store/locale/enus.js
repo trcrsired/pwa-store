@@ -1102,6 +1102,8 @@ const L = {
   forums_name: "Forums",
   incelsis_name: "Incel.is",
   incelsis_desc: "Incel.is is an online discussion forum centered around the incel subculture. It provides a space for users to share perspectives, engage in dialogue, and explore topics related to romantic exclusion, social dynamics, and identity.",
+  hacommunity_name: "Home Assistant Community",
+  hacommunity_desc: "Opens the Home Assistant Community Forum for discussions on automations, integrations, add-ons, and troubleshooting.",
   ra2diy_name: "RA2 DIY",
   ra2diy_desc: "A community forum focused on modding and customizing Red Alert 2. Includes tools, tutorials, and user creations.",
   v2ex_name: "V2EX",
