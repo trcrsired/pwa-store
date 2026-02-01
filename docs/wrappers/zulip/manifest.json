@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/zulip",
+  "name": "Zulip",
+  "short_name": "Zulip",
+  "start_url": "/wrappers/zulip/?source=pwa",
+  "scope": "/wrappers/zulip/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Zulip",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/zulip/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

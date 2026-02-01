@@ -441,6 +441,8 @@ const L = {
   vimeo_desc: "Opens Vimeo, a professional video hosting and creator platform known for high-quality content.",
   kook_name: "Kook",
   kook_desc: "Opens Kook, a community and voice-chat platform similar to Discord with channels, voice rooms, and bots.",
+  zulip_name: "Zulip",
+  zulip_desc: "Opens Zulip, an open-source team chat platform with topic-based threaded conversations.",
   tieba_name: "Tieba (贴吧)",
   tieba_desc: "Baidu’s interest-based forum network where users gather in topic-specific bars to share posts, media, and discussions. On mobile, you need to use Microsoft Edge with Android and modify the agent string by adding ArkWeb to bypass the Tieba mini app check.",
   finance_name: "Finance",

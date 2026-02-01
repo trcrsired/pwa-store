@@ -1467,6 +1467,15 @@ export const categories = [
         url: "https://www.kookapp.cn/app/"
       },
       {
+        name: "Zulip",
+        nameKey: "zulip_name",
+        descriptionKey: "zulip_desc",
+        icon: "icons/wrappers/zulip.webp",
+        url2: "/wrappers/zulip",
+        apptype2: "wrapper",
+        url: "https://zulip.com"
+      },
+      {
         name: "Tencent Meeting (腾讯会议)",
         nameKey: "tencentmeeting_name",
         icon: "icons/wechatmini/tencentmeeting.webp",
