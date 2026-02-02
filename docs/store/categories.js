@@ -930,6 +930,15 @@ export const categories = [
         url: "https://neocities.org"
       },
       {
+        name: "AgentSkills",
+        nameKey: "agentskills_name",
+        descriptionKey: "agentskills_desc",
+        icon: "icons/wrappers/agentskills.webp",
+        url2: "/wrappers/agentskills",
+        apptype2: "wrapper",
+        url: "https://agentskills.io"
+      },
+      {
         name: "ModelScope (魔搭社区)",
         nameKey: "modelscope_name",
         descriptionKey: "modelscope_desc",

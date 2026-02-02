@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/agentskills",
+  "name": "AgentSkills",
+  "short_name": "AgentSkills",
+  "start_url": "/wrappers/agentskills/?source=pwa",
+  "scope": "/wrappers/agentskills/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for AgentSkills",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/agentskills/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

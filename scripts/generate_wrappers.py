@@ -260,6 +260,7 @@ WRAPPERS = [
   { "name": "SlingAcademy", "url": "https://www.slingacademy.com" },
   { "name": "Linux.toys", "url": "https://linux.toys", "keyify_name": "linuxtoys" },
   { "name": "Neocities", "url": "https://neocities.org" },
+  { "name": "AgentSkills", "url": "https://agentskills.io" },
   { "name": "ModelScope", "url": "https://modelscope.cn" },
   { "name": "WPS", "url": "https://www.wps.com/wpsdocs" },
   { "name": "WPS (CN)", "url": "https://www.kdocs.cn", "keyify_name":"wpscn", "icon":"wps.webp" },
