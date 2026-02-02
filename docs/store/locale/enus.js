@@ -1458,6 +1458,8 @@ const L = {
   chriswillx_desc: "Opens Chris Williamson's official site, home of the Modern Wisdom podcast and his work as a podcaster and creator.",
   donaldjtrump_name: "Donald J. Trump",
   donaldjtrump_desc: "Opens the official website of Donald J. Trump, featuring announcements, statements, and campaign information.",
+  winred_name: "WinRed",
+  winred_desc: "Opens WinRed, an online fundraising platform used for political campaigns and donations.",
   manosphere_name: "Manosphere",
   mgtowtv_name: "MGTOW.TV",
   mgtowtv_desc: "Independent video platform centered on men's issues, free speech, and uncensored creator content.",
