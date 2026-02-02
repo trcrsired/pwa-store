@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/winred",
+  "name": "WinRed",
+  "short_name": "WinRed",
+  "start_url": "/wrappers/winred/?source=pwa",
+  "scope": "/wrappers/winred/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for WinRed",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/winred/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

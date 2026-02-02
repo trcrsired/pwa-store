@@ -339,6 +339,8 @@ WRAPPERS = [
   { "name": "Michael Hudson", "url": "https://michael-hudson.com" },
   { "name": "Judge Nap", "url": "https://judgenap.com" },
   { "name": "Chris Williamson", "url": "https://chriswillx.com", "keyify_name": "chriswillx" },
+  { "name": "Donald J. Trump", "url": "https://www.donaldjtrump.com", "keyify_name": "donaldjtrump" },
+  { "name": "WinRed", "url": "https://winred.com" },
 
   { "name": "Radio Television of Afghanistan", "url": "https://rta.af", "keyify_name": "rtaaf"},
   { "name": "求是", "url": "https://www.qstheory.cn", "keyify_name": "qstheory"},

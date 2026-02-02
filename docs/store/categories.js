@@ -5501,6 +5501,24 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://chriswillx.com"
       },
+      {
+        name: "Donald J. Trump",
+        nameKey: "trump_name",
+        descriptionKey: "trump_desc",
+        icon: "icons/wrappers/trump.webp",
+        url2: "/wrappers/trump",
+        apptype2: "wrapper",
+        url: "https://www.donaldjtrump.com"
+      },
+      {
+        name: "WinRed",
+        nameKey: "winred_name",
+        descriptionKey: "winred_desc",
+        icon: "icons/wrappers/winred.webp",
+        url2: "/wrappers/winred",
+        apptype2: "wrapper",
+        url: "https://winred.com"
+      },
     ]
   },
   {
