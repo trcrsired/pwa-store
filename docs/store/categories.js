@@ -5503,9 +5503,9 @@ export const categories = [
       },
       {
         name: "Donald J. Trump",
-        nameKey: "trump_name",
-        descriptionKey: "trump_desc",
-        icon: "icons/wrappers/trump.webp",
+        nameKey: "donaldjtrump_name",
+        descriptionKey: "donaldjtrump_desc",
+        icon: "icons/wrappers/donaldjtrump.webp",
         url2: "/wrappers/trump",
         apptype2: "wrapper",
         url: "https://www.donaldjtrump.com"
