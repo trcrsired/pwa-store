@@ -6497,7 +6497,15 @@ export const categories = [
         descriptionKey: "faovoapp_desc",
         icon: "icons/pwa/faovoapp.webp",
         url: "https://alexiii.github.io/faovo-app",
-      }
+      },
+      {
+        name: "Tuya Smart (涂鸦智能)",
+        nameKey: "tuyasmartwechatmini_name",
+        descriptionKey: "tuyasmartwechatmini_desc",
+        icon: "icons/wechatmini/tuyasmartwechatmini.webp",
+        apptype: "wechatmini",
+        url: "#小程序://涂鸦智能/rcxv5yfMGMx2zoG"
+      },
     ]
   },
   {

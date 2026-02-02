@@ -1668,6 +1668,8 @@ const L = {
   bluetoothdevices_name: "蓝牙设备",
   faovoapp_name: "faovo-app",
   faovoapp_desc: "打开 faovo-app，一个基于浏览器的 AOVO Pro M1 克隆车替代应用，支持蓝牙遥测与控制功能。",
+  tuyasmartwechatmini_name: "涂鸦智能",
+  tuyasmartwechatmini_desc: "打开涂鸦智能微信小程序，通过其深度链接跳转。",
   adult_name: "成人",
   pornhub_name: "Pornhub",
   pornhub_desc: "成人娱乐门户网站。",

@@ -1665,6 +1665,8 @@ const L = {
   bluetoothdevices_name: "Bluetooth Devices",
   faovoapp_name: "faovo-app",
   faovoapp_desc: "Opens faovo-app, a browser-based alternative app for fake AOVO Pro M1 scooters with BLE telemetry and controls.",
+  tuyasmartwechatmini_name: "Tuya Smart (涂鸦智能)",
+  tuyasmartwechatmini_desc: "Opens the Tuya Smart WeChat Mini Program via its deep link.",
   adult_name: "Adult",
   pornhub_name: "Pornhub",
   pornhub_desc: "Adult entertainment portal.",
