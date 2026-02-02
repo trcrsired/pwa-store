@@ -1379,6 +1379,13 @@ export const categories = [
         url: "https://odysee.com"
       },
       {
+        name: "Nostter",
+        nameKey: "nostter_name",
+        descriptionKey: "nostter_desc",
+        icon: "icons/pwa/nostter.webp",
+        url: "https://nostter.app"
+      },
+      {
         name: "Framatube",
         nameKey: "framatube_name",
         descriptionKey: "framatube_desc",

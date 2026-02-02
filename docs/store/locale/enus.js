@@ -815,6 +815,8 @@ const L = {
   ccred_desc: "CCred is a secure end-to-end encrypted messaging application using quantum-safe AES encryption. Message keys are stored as non-exportable CryptoKeys and, when supported, are additionally protected with a passkey-derived PRF key for significantly enhanced local security.",
   odysee_name: "Odysee",
   odysee_desc: "Opens Odysee, a decentralized video and content‑sharing platform built on the LBRY protocol.",
+  nostter_name: "Nostter",
+  nostter_desc: "Opens Nostter, a Nostr web client for decentralized social networking.",
   framatube_name: "Framatube",
   framatube_desc: "Opens Framatube, Framasoft’s PeerTube instance for decentralized, ad‑free video hosting.",
   mailru_name: "Mail.ru",

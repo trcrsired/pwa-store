@@ -814,6 +814,8 @@ const L = {
   ccred_desc: "CCred 是一款安全的端到端加密消息应用，使用量子安全的 AES 加密保护通信。消息密钥以不可导出的 CryptoKey 形式存储，并在支持的设备上通过基于 Passkey PRF 派生的密钥进一步加密，从而显著增强本地安全性。",
   odysee_name: "Odysee",
   odysee_desc: "打开 Odysee，基于 LBRY 协议的去中心化视频与内容分享平台。",
+  nostter_name: "Nostter",
+  nostter_desc: "打开 Nostter，一个基于 Nostr 协议的去中心化社交网络 Web 客户端。",
   framatube_name: "Framatube",
   framatube_desc: "打开 Framatube，Framasoft 的 PeerTube 实例，用于去中心化、无广告的视频托管。",
   mailru_name: "Mail.ru",
