@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/reprap",
+  "name": "RepRap",
+  "short_name": "RepRap",
+  "start_url": "/wrappers/reprap/?source=pwa",
+  "scope": "/wrappers/reprap/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for RepRap",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/reprap/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

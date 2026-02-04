@@ -299,6 +299,7 @@ WRAPPERS = [
   { "name": "Wikisource", "url": "https://en.wikisource.org" },
   { "name": "Wikiwand", "url": "https://www.wikiwand.com" },
   { "name": "wikiHow", "url": "https://www.wikihow.com", "apptype": "msedge" },
+  { "name": "RepRap", "url": "https://reprap.org" },
   { "name": "REVCOM.US", "url": "https://revcom.us/en", "keyify_name": "revcomus" },
   { "name": "YouVersion Bible", "url": "https://bible.com", "keyify_name": "biblecom" },
   { "name": "Reuters", "url": "https://www.reuters.com" },

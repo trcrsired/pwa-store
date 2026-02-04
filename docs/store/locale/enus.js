@@ -1165,6 +1165,8 @@ const L = {
   wikiwand_desc: "A modern interface for Wikipedia, enhancing readability, navigation, and visual presentation.",
   wikihow_name: "wikiHow",
   wikihow_desc: "Opens wikiHow, a collaborative how‑to website with step‑by‑step guides on thousands of topics.",
+  reprap_name: "RepRap",
+  reprap_desc: "Opens RepRap, the open-source self-replicating 3D printer project and community wiki.",
   religion_name: "Religion",
   qurancom_name: "Quran.com",
   qurancom_desc: "Clean, mobile-optimized site for reading and listening to the Quran. Includes translations and tafsir.",

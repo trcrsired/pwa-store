@@ -1165,6 +1165,8 @@ const L = {
   wikiwand_desc: "一个现代化的维基百科界面，提升阅读体验、导航效率与视觉呈现。",
   wikihow_name: "wikiHow",
   wikihow_desc: "打开 wikiHow，一个提供成千上万主题分步骤指南的协作式教程网站。",
+  reprap_name: "RepRap",
+  reprap_desc: "打开 RepRap，一个开源的自我复制 3D 打印机项目与社区 Wiki。",
   religion_name: "宗教",
   qurancom_name: "古兰经 (Quran.com)",
   qurancom_desc: "简洁、适配移动设备的网站，可阅读和收听《古兰经》，支持多种语言翻译和注释(Tafsir)。",

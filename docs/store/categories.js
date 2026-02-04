@@ -3926,6 +3926,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.wikihow.com"
       },
+      {
+        name: "RepRap",
+        nameKey: "reprap_name",
+        descriptionKey: "reprap_desc",
+        icon: "icons/wrappers/reprap.webp",
+        url2: "/wrappers/reprap",
+        apptype2: "wrapper",
+        url: "https://reprap.org"
+      },
     ]
   },
   {
