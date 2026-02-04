@@ -3944,6 +3944,25 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://reprap.org"
       },
+      {
+        name: "PopulationPyramid.net",
+        nameKey: "poppyramidnet_name",
+        descriptionKey: "poppyramidnet_desc",
+        icon: "icons/wrappers/poppyramidnet.webp",
+        url2: "/wrappers/poppyramidnet",
+        apptype2: "wrapper",
+        url: "https://www.populationpyramid.net"
+      },
+      {
+        name: "PopulationPyramids.org",
+        nameKey: "poppyramidsorg_name",
+        descriptionKey: "poppyramidsorg_desc",
+        icon: "icons/wrappers/poppyramidsorg.webp",
+        url2: "/wrappers/poppyramidsorg",
+        apptype2: "wrapper",
+        url: "https://www.populationpyramids.org",
+        comment: "scamadviser gives a low score, but i don't see how is this website insecure"
+      },
     ]
   },
   {

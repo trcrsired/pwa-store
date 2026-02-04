@@ -301,6 +301,8 @@ WRAPPERS = [
   { "name": "Wikiwand", "url": "https://www.wikiwand.com" },
   { "name": "wikiHow", "url": "https://www.wikihow.com", "apptype": "msedge" },
   { "name": "RepRap", "url": "https://reprap.org" },
+  { "name": "PopulationPyramids.org", "url": "https://www.populationpyramids.org", "keyify_name": "poppyramidsorg" },
+  { "name": "PopulationPyramid.net", "url": "https://www.populationpyramid.net", "keyify_name": "poppyramidsorg" },
   { "name": "REVCOM.US", "url": "https://revcom.us/en", "keyify_name": "revcomus" },
   { "name": "YouVersion Bible", "url": "https://bible.com", "keyify_name": "biblecom" },
   { "name": "Reuters", "url": "https://www.reuters.com" },
