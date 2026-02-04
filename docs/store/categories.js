@@ -3097,6 +3097,15 @@ export const categories = [
         url: "https://www.propublica.org"
       },
       {
+        name: "Bar & Bench",
+        nameKey: "barbench_name",
+        descriptionKey: "barbench_desc",
+        icon: "icons/wrappers/barbench.webp",
+        url2: "/wrappers/barbench",
+        apptype2: "wrapper",
+        url: "https://www.barandbench.com"
+      },
+      {
         name: "Lianyungang Daily (连云港日报)",
         nameKey: "lygdaily_name",
         descriptionKey: "lygdaily_desc",

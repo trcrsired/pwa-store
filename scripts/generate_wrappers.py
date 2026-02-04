@@ -353,6 +353,7 @@ WRAPPERS = [
   { "name": "World Affairs In Context", "url": "https://www.worldaffairsincontext.com" },
   { "name": "Democracy at Work", "url": "https://www.democracyatwork.info" },
   { "name": "ProPublica", "url": "https://www.propublica.org" },
+  { "name": "Bar & Bench", "url": "https://www.barandbench.com", "keyify_name": "barbench" },
   { "name": "HotCRP", "url": "https://hotcrp.com" },
   { "name": "ACM", "url": "https://www.acm.org" },
   { "name": "Oxford Academic", "url": "https://academic.oup.com", "apptype": "msedge", "keyify_name": "oupacademic", "icon": "oup.webp" },

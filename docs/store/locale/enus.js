@@ -1719,6 +1719,8 @@ const L = {
   democracyatwork_desc: "Opens Democracy at Work, an organization promoting worker cooperatives, economic democracy, and alternative economic analysis.",
   propublica_name: "ProPublica",
   propublica_desc: "Opens ProPublica, a nonprofit newsroom focused on investigative journalism and public-interest reporting.",
+  barbench_name: "Bar & Bench",
+  barbench_desc: "Opens Bar & Bench, a legal news platform covering courts, judgments, and developments in the Indian legal system.",
   lygdaily_name: "Lianyungang Daily (连云港日报)",
   lygdaily_desc: "Lianyungang Daily’s WeChat Mini Program provides local news, policy updates, and public service information for residents of Lianyungang. It serves as a digital portal for staying informed about city affairs, government announcements, and community events.",
   meituan_name: "Meituan (美团)",

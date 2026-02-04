@@ -878,6 +878,8 @@ const L = {
   democracyatwork_desc: "打开 Democracy at Work，一个倡导工人合作社、经济民主与替代经济分析的组织。",
   propublica_name: "ProPublica",
   propublica_desc: "打开 ProPublica，一个专注调查报道与公共利益新闻的非营利新闻机构。",
+  barbench_name: "Bar & Bench",
+  barbench_desc: "打开 Bar & Bench，一个报道法院判决、法律行业动态与案件进展的印度法律新闻平台。",
   salon_name: "Salon",
   salon_desc: "打开 Salon，提供新闻、政治、文化与评论内容的在线杂志。",
   npr_name: "美国全国公共广播电台(NPR)",
