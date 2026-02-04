@@ -1,4 +1,4 @@
 window.appConfig = {
-  title: "PopulationPyramid.net",
-  url: "https://www.populationpyramid.net"
+  title: "PopulationPyramids.org",
+  url: "https://www.populationpyramids.org"
 };

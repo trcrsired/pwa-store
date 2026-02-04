@@ -1,12 +1,12 @@
 {
   "id": "/wrappers/poppyramidsorg",
-  "name": "PopulationPyramid.net",
-  "short_name": "PopulationPyramid.net",
+  "name": "PopulationPyramids.org",
+  "short_name": "PopulationPyramids.org",
   "start_url": "/wrappers/poppyramidsorg/?source=pwa",
   "scope": "/wrappers/poppyramidsorg/",
   "background_color": "black",
   "theme_color": "black",
-  "description": "PWA Wrapper for PopulationPyramid.net",
+  "description": "PWA Wrapper for PopulationPyramids.org",
   "display": "standalone",
   "icons": [
     {
