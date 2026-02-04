@@ -706,6 +706,8 @@ const L = {
   annasarchivezh_desc: "Anna's Archive (Chinese) is a localized mirror of the open-source digital library index, offering access to books, papers, and magazines in a simplified Chinese interface.",
   canva_name: "Canva",
   canva_desc: "Canva is a powerful online design platform that makes it easy for anyone to create stunning visuals. From social media posts and presentations to marketing materials and videos, Canva offers thousands of templates and intuitive tools—all in one place.",
+  figma_name: "Figma",
+  figma_desc: "Opens Figma, a collaborative interface design platform for UI/UX, prototyping, and team workflows.",
   meituxiuxiu_name: "Meituxiuxiu (美图秀秀)",
   meituxiuxiu_desc: "A popular Chinese image editing app offering filters, retouching, collage tools, and AI-powered features like background removal and generative design.",
   news_name: "News",

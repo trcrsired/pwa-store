@@ -2680,6 +2680,15 @@ export const categories = [
         apptype: "wrapper"
       },
       {
+        name: "Figma",
+        nameKey: "figma_name",
+        descriptionKey: "figma_desc",
+        icon: "icons/msedge/figma.webp",
+        url: "/msedge/figma",
+        apptype: "wrapper",
+        urlDisplay: "https://www.figma.com"
+      },
+      {
         name: "Meituxiuxiu (美图秀秀)",
         nameKey: "meituxiuxiu_name",
         descriptionKey: "meituxiuxiu_desc",
