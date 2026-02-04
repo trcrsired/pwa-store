@@ -2618,9 +2618,9 @@ export const categories = [
         nameKey: "thepiratebay_name",
         descriptionKey: "thepiratebay_desc",
         icon: "icons/wrappers/thepiratebay.webp",
-        url: "/wrappers/thepiratebay",
-        apptype: "wrapper",
-        urlDisplay: "https://thepiratebay.org"
+        url2: "/wrappers/thepiratebay",
+        apptype2: "wrapper",
+        url: "https://thepiratebay.org"
       },
     ]
   },
@@ -2675,18 +2675,18 @@ export const categories = [
         nameKey: "canva_name",
         descriptionKey: "canva_desc",
         icon: "icons/wrappers/canva.webp",
-        url: "/wrappers/canva",
-        urlDisplay: "https://www.canva.com",
-        apptype: "wrapper"
+        url2: "/wrappers/canva",
+        url: "https://www.canva.com",
+        apptype2: "wrapper"
       },
       {
         name: "Figma",
         nameKey: "figma_name",
         descriptionKey: "figma_desc",
         icon: "icons/msedge/figma.webp",
-        url: "/msedge/figma",
-        apptype: "wrapper",
-        urlDisplay: "https://www.figma.com"
+        url2: "/msedge/figma",
+        apptype2: "wrapper",
+        url: "https://www.figma.com"
       },
       {
         name: "Meituxiuxiu (美图秀秀)",
