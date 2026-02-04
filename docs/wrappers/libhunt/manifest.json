@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/libhunt",
+  "name": "LibHunt",
+  "short_name": "LibHunt",
+  "start_url": "/wrappers/libhunt/?source=pwa",
+  "scope": "/wrappers/libhunt/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for LibHunt",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/libhunt/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

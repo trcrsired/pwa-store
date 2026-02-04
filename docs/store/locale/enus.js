@@ -345,6 +345,8 @@ const L = {
   neocities_desc: "Opens Neocities, a free static website hosting platform inspired by the spirit of the early web.",
   agentskills_name: "AgentSkills",
   agentskills_desc: "Opens AgentSkills, a platform for AI agent skills, workflows, and automation tools.",
+  libhunt_name: "LibHunt",
+  libhunt_desc: "Opens LibHunt, a platform for discovering open‑source libraries, tools, and alternatives across programming ecosystems.",
   modelscope_name: "ModelScope (魔搭社区)",
   modelscope_desc: "ModelScope is a one‑stop AI platform offering advanced machine learning models, datasets, online inference, training, deployment, and a unified Model‑as‑a‑Service ecosystem. It hosts tens of thousands of models across NLP, CV, speech, multimodal, and scientific domains.",
   cloudflare_desc: "Cloudflare is a widely adopted platform that provides networking, security, and performance services to enhance the functionality of websites, applications, and online services. It is used by a diverse range of users, from individual developers to large enterprises, due to its robust features and global infrastructure.",

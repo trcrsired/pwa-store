@@ -939,6 +939,15 @@ export const categories = [
         url: "https://agentskills.io"
       },
       {
+        name: "LibHunt",
+        nameKey: "libhunt_name",
+        descriptionKey: "libhunt_desc",
+        icon: "icons/wrappers/libhunt.webp",
+        url2: "/wrappers/libhunt",
+        apptype2: "wrapper",
+        url: "https://www.libhunt.com"
+      },
+      {
         name: "ModelScope (魔搭社区)",
         nameKey: "modelscope_name",
         descriptionKey: "modelscope_desc",
