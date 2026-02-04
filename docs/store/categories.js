@@ -3,11 +3,15 @@ export const categories = [
     nameKey: "fundamental_name",
     name: "Fundamental",
     apps: [
-      { name: "SnaePlayer", icon: "icons/pwa/snaeplayer.webp", url: "https://snaeplayer.com/library/tracks", descriptionKey: "snaeplayer_desc" },
-      { name: "Flow", icon: "icons/pwa/flow.webp", url: "https://www.flowoss.com", descriptionKey: "flow_desc" },
-      { name: "TReader", icon: "icons/pwa/treader.webp", url: "https://tiansh.github.io/reader", descriptionKey: "treader_desc" },
-      { name: "WebVideoPlayer", icon: "icons/pwa/webvideoplayer.webp", url: "https://webvideoplayer.org", descriptionKey: "webvideoplayer_desc" },
       { nameKey: "pwaplayer_name", name: "PWA Player (My own toy)", icon: "icons/pwa/pwaplayer.webp", url: "https://pwa-player.pages.dev", descriptionKey: "pwaplayer_desc" },
+      { name: "SnaePlayer", icon: "icons/pwa/snaeplayer.webp", url: "https://snaeplayer.com/library/tracks", descriptionKey: "snaeplayer_desc" },
+      {
+        name: "Readest",
+        nameKey: "readest_name",
+        descriptionKey: "readest_desc",
+        icon: "icons/pwa/readest.webp",
+        url: "https://web.readest.com"
+      },
       {
         name: "Calculite",
         nameKey: "calculite_name",
@@ -102,13 +106,9 @@ export const categories = [
         icon: "icons/pwa/qrcodetools.webp",
         url: "https://qrct.buhzzi.com"
       },
-      {
-        name: "Readest",
-        nameKey: "readest_name",
-        descriptionKey: "readest_desc",
-        icon: "icons/pwa/readest.webp",
-        url: "https://web.readest.com"
-      },
+      { name: "WebVideoPlayer", icon: "icons/pwa/webvideoplayer.webp", url: "https://webvideoplayer.org", descriptionKey: "webvideoplayer_desc" },
+      { name: "Flow", icon: "icons/pwa/flow.webp", url: "https://www.flowoss.com", descriptionKey: "flow_desc" },
+      { name: "TReader", icon: "icons/pwa/treader.webp", url: "https://tiansh.github.io/reader", descriptionKey: "treader_desc" },
       {
         name: "Notepad",
         nameKey: "notepadpwa_name",
