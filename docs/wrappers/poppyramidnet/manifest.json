@@ -1,16 +1,16 @@
 {
-  "id": "/wrappers/poppyramidsnet",
+  "id": "/wrappers/poppyramidnet",
   "name": "PopulationPyramid.net",
   "short_name": "PopulationPyramid.net",
-  "start_url": "/wrappers/poppyramidsnet/?source=pwa",
-  "scope": "/wrappers/poppyramidsnet/",
+  "start_url": "/wrappers/poppyramidnet/?source=pwa",
+  "scope": "/wrappers/poppyramidnet/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for PopulationPyramid.net",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/poppyramidsnet/icons/icon.webp",
+      "src": "/wrappers/poppyramidnet/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }
