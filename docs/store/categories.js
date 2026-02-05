@@ -1428,7 +1428,7 @@ export const categories = [
         descriptionKey: "loopsvideo_desc",
         icon: "icons/msedge/loopsvideo.webp",
         url2: "/msedge/loopsvideo",
-        apptype: "wrapper",
+        apptype2: "wrapper",
         url: "https://loops.video"
       },
       {
