@@ -3836,6 +3836,13 @@ export const categories = [
         url: "https://emojis.wiki"
       },
       {
+        name: "emoj.info",
+        nameKey: "emojinfo_name",
+        descriptionKey: "emojinfo_desc",
+        icon: "icons/pwa/emojinfo.webp",
+        url: "https://emoj.info"
+      },
+      {
         name: "The Apple Wiki",
         nameKey: "theapplewiki_name",
         descriptionKey: "theapplewiki_desc",

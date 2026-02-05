@@ -1151,6 +1151,8 @@ const L = {
   wowdevwiki_desc: "WoWDev wiki is a technical documentation hub for World of Warcraft’s internal file formats, memory structures, and client behavior. It catalogs data from multiple game versions, including Vanilla, WotLK, and WoD, and provides insights into formats like ADT, WMO, M2, DBC, and CASC. The site is maintained by community contributors and serves developers, modders, and reverse engineers working on WoW-related tools and analysis.",
   emojiswiki_name: "Emojis Wiki",
   emojiswiki_desc: "A comprehensive emoji encyclopedia offering meanings, categories, and usage examples for every emoji.",
+  emojinfo_name: "emoj.info",
+  emojinfo_desc: "Opens emoj.info, a simple emoji lookup and Unicode reference site.",
   theapplewiki_name: "The Apple Wiki",
   theapplewiki_desc: "A comprehensive resource for Apple hardware, software, and internal documentation.",
   uncyclopedia_name: "Uncyclopedia",

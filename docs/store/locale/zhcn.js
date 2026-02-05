@@ -1153,6 +1153,8 @@ const L = {
   wowdevwiki_desc: "WoWDev维基(WoWDev wiki)是一个专注于《魔兽世界》技术文档的社区平台，涵盖游戏文件格式、内存结构与客户端行为分析。内容涉及多个版本(如经典旧世、巫妖王之怒、德拉诺之王)，并收录 ADT、WMO、M2、DBC、CASC 等格式的详细说明。该站由社区维护，适用于开发者、模组作者及逆向工程人员进行工具开发与数据研究。",
   emojiswiki_name: "Emojis维基(Emojis Wiki)",
   emojiswiki_desc: "一个全面的表情符号维基，提供每个表情的含义、分类和使用示例。",
+  emojinfo_name: "emoj.info",
+  emojinfo_desc: "打开 emoj.info，一个简洁的 Emoji 查询与 Unicode 信息网站。",
   theapplewiki_name: "苹果维基(EmojisThe Apple Wiki)",
   theapplewiki_desc: "关于苹果硬件、软件及内部文档的全面资源库。",
   uncyclopedia_name: "伪基百科(Uncyclopedia)",
