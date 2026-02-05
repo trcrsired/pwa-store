@@ -1416,6 +1416,31 @@ export const categories = [
         url: "https://yewtu.be",
       },
       {
+        name: "Pixelfed",
+        nameKey: "pixelfed_name",
+        descriptionKey: "pixelfed_desc",
+        icon: "icons/pwa/pixelfed.webp",
+        url: "https://pixelfed.social"
+      },
+      {
+        name: "Loops.video",
+        nameKey: "loopsvideo_name",
+        descriptionKey: "loopsvideo_desc",
+        icon: "icons/msedge/loopsvideo.webp",
+        url2: "/msedge/loopsvideo",
+        apptype: "wrapper",
+        url: "https://loops.video"
+      },
+      {
+        name: "Piefed",
+        nameKey: "piefed_name",
+        descriptionKey: "piefed_desc",
+        icon: "icons/msedge/piefed.webp",
+        url2: "/msedge/piefed",
+        apptype2: "wrapper",
+        url: "https://piefed.social"
+      },
+      {
         name: "Mail.ru",
         nameKey: "mailru_name",
         descriptionKey: "mailru_desc",

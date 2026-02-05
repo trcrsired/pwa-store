@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/piefed",
+  "name": "Piefed",
+  "short_name": "Piefed",
+  "start_url": "/msedge/piefed/?source=pwa",
+  "scope": "/msedge/piefed/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Piefed",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/piefed/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
