@@ -45,11 +45,11 @@ export const categories = [
         url: "https://ffmpegwasm.netlify.app"
       },
       {
-        name: "Paint.js",
-        nameKey: "paintjs_name",
-        descriptionKey: "paintjs_desc",
-        icon: "icons/pwa/paintjs.webp",
-        url: "https://paint.js.org"
+        name: "JS Paint",
+        nameKey: "jspaint_name",
+        descriptionKey: "jspaint_desc",
+        icon: "icons/pwa/jspaint.webp",
+        url: "https://jspaint.app"
       },
       {
         name: "WasmPass",
@@ -124,11 +124,11 @@ export const categories = [
         url: "https://notepad.js.org"
       },
       {
-        name: "JS Paint",
-        nameKey: "jspaint_name",
-        descriptionKey: "jspaint_desc",
-        icon: "icons/pwa/jspaint.webp",
-        url: "https://jspaint.app"
+        name: "Paint.js",
+        nameKey: "paintjs_name",
+        descriptionKey: "paintjs_desc",
+        icon: "icons/pwa/paintjs.webp",
+        url: "https://paint.js.org"
       },
       { name: "Calculator", nameKey: "calculator_name", icon: "icons/pwa/calculator.webp", url: "https://chrisdiana.github.io/pwa-calculator", descriptionKey: "calculator_desc" },
       { name: "Calculator (Chrome)", nameKey: "calculatorchrome_name", icon: "icons/pwa/calculatorchrome.webp", url: "https://calculator.apps.chrome/install", descriptionKey: "calculatorchrome_desc", nameKey: "calculatorchrome_name" },
@@ -2567,6 +2567,13 @@ export const categories = [
         descriptionKey: "annasarchivezh_desc",
         icon: "icons/pwa/annasarchive.webp",
         url: "https://zh.annas-archive.se"
+      },
+      {
+        name: "iptv-org",
+        nameKey: "iptvorg_name",
+        descriptionKey: "iptvorg_desc",
+        icon: "icons/pwa/iptvorg.webp",
+        url: "https://iptv-org.github.io"
       },
       {
         name: "Internet Archive",
