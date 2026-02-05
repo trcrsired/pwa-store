@@ -760,6 +760,13 @@ export const categories = [
         url: "https://grapheneos.org"
       },
       {
+        name: "StackEdit",
+        nameKey: "stackedit_name",
+        descriptionKey: "stackedit_desc",
+        icon: "icons/pwa/stackedit.webp",
+        url: "https://stackedit.io/app"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",
@@ -4106,6 +4113,13 @@ export const categories = [
         descriptionKey: "semrush_desc",
         icon: "icons/pwa/semrush.webp",
         url: "https://www.semrush.com"
+      },
+      {
+        name: "PeerTube",
+        nameKey: "peertube_name",
+        descriptionKey: "peertube_desc",
+        icon: "icons/pwa/peertube.webp",
+        url: "https://peertube.tv"
       },
       {
         name: "BrowserBench",
