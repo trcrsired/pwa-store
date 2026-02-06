@@ -500,6 +500,8 @@ const L = {
   bitget_desc: "一个加密货币交易平台，提供现货与衍生品交易、跟单交易及资产管理工具，支持多种数字资产，可全球访问并配备移动应用。",
   capitalone_name: "第一资本(Capital One)",
   capitalone_desc: "打开 Capital One，美国主要银行之一，提供信用卡、银行业务与安全账户访问。",
+  eightmarketcap_name: "8marketcap",
+  eightmarketcap_desc: "打开 8marketcap，一个提供全球股票、加密资产、ETF 与指数市值排名的平台。",
   paypal_name: "贝宝 (Paypal)",
   paypal_desc: "全球数字支付平台，支持安全的在线交易、转账、订阅和电商结算服务。",
   moomoo_name: "富途牛牛 (Moomoo)",

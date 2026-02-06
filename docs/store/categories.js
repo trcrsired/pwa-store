@@ -1761,6 +1761,15 @@ export const categories = [
         url2: "/msedge/capitalone",
       },
       {
+        name: "8marketcap",
+        nameKey: "eightmarketcap_name",
+        descriptionKey: "eightmarketcap_desc",
+        icon: "icons/msedge/eightmarketcap.webp",
+        url2: "/msedge/eightmarketcap",
+        apptype2: "wrapper",
+        url: "https://8marketcap.com"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",

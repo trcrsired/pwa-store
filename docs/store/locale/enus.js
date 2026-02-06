@@ -492,6 +492,8 @@ const L = {
   investorsbusinessdaily_desc: "Investor’s Business Daily (IBD) is a U.S.-based financial news and research platform founded in 1984 by William J. O’Neil. Now part of News Corp via Dow Jones, it offers exclusive stock lists, market analysis, and investment tools based on the IBD Methodology, serving individual investors and professionals.",
   capitalone_name: "Capital One",
   capitalone_desc: "Opens Capital One, a major U.S. bank offering credit cards, banking, and secure account access.",
+  eightmarketcap_name: "8marketcap",
+  eightmarketcap_desc: "Opens 8marketcap, a platform that ranks global assets by market capitalization across stocks, crypto, ETFs, and indices.",
   paypal_name: "PayPal",
   paypal_desc: "PayPal is a global digital payment platform that enables secure online transactions, money transfers, and merchant services for individuals and businesses. It supports personal payments, subscriptions, and e-commerce checkout across millions of sites.",
   messari_name: "Messari",
