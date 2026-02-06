@@ -1930,6 +1930,15 @@ export const categories = [
         url: "https://www.coinglass.com/liquidations"
       },
       {
+        name: "Vanguard",
+        nameKey: "vanguardinvestor_name",
+        descriptionKey: "vanguardinvestor_desc",
+        icon: "icons/wrappers/vanguardinvestor.webp",
+        url2: "/wrappers/vanguardinvestor",
+        apptype2: "wrapper",
+        url: "https://investor.vanguard.com"
+      },
+      {
         name: "Hurun Report (胡润百富)",
         nameKey: "hurun_name",
         descriptionKey: "hurun_desc",

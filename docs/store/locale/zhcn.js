@@ -538,6 +538,8 @@ const L = {
   coinglass_desc: "打开 Coinglass，一个提供期货数据、资金费率、持仓量与市场看板的加密货币分析平台。",
   coinglassliq_name: "Coinglass 清算数据",
   coinglassliq_desc: "打开 Coinglass 清算页面，查看主要交易所的实时加密货币爆仓数据。",
+  vanguardinvestor_name: "先锋领行 (Vanguard)",
+  vanguardinvestor_desc: "打开先锋领行投资人，先锋集团的官方投资者门户，用于管理 ETF、共同基金与投资账户。",
   hurun_name: "胡润百富",
   hurun_desc: "以中国富豪榜闻名的财富与商业资讯平台。胡润百富发布关于企业家、奢侈品趋势和慈善事业的排行榜、调研与洞察，覆盖中国及全球市场。",
   mkcokr_name: "每日经济新闻(매일경제)",
