@@ -3410,6 +3410,15 @@ export const categories = [
         url: "https://www.4399.com"
       },
       {
+        name: "PizzINT",
+        nameKey: "pizzint_name",
+        descriptionKey: "pizzint_desc",
+        icon: "icons/wrappers/pizzint.webp",
+        url2: "/wrappers/pizzint",
+        apptype2: "wrapper",
+        url: "https://www.pizzint.watch"
+      },
+      {
         name: "MuMu Emulator (MuMu模拟器)",
         nameKey: "mumu_cn_name",
         descriptionKey: "mumu_cn_desc",
@@ -3797,6 +3806,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://nuclearsecrecy.com/nukemap"
       },
+      {
+        name: "Pizzint",
+        nameKey: "pizzint_name",
+        descriptionKey: "pizzint_desc",
+        icon: "icons/wrappers/pizzint.webp",
+        url: "/wrappers/pizzint",
+        apptype: "wrapper",
+        urlDisplay: "https://www.pizzint.watch"
+      },
     ]
   },
   {
@@ -4048,6 +4066,13 @@ export const categories = [
         url: "https://www.biblegateway.com"
       },
       {
+        name: "Sefaria",
+        nameKey: "sefaria_name",
+        descriptionKey: "sefaria_desc",
+        icon: "icons/pwa/sefaria.webp",
+        url: "https://www.sefaria.org"
+      },
+      {
         name: "YouVersion Bible",
         nameKey: "biblecom_name",
         descriptionKey: "biblecom_desc",
@@ -4055,6 +4080,24 @@ export const categories = [
         url2: "/wrappers/biblecom",
         apptype2: "wrapper",
         url: "https://bible.com"
+      },
+      {
+        name: "Veducation",
+        nameKey: "veducation_name",
+        descriptionKey: "veducation_desc",
+        icon: "icons/wrappers/veducation.webp",
+        url2: "/wrappers/veducation",
+        apptype2: "wrapper",
+        url: "https://www.veducation.world"
+      },
+      {
+        name: "Wanyou Zhenyuan (万有真源)",
+        nameKey: "wanyouzhenyuan_name",
+        descriptionKey: "wanyouzhenyuan_desc",
+        icon: "icons/wrappers/wanyouzhenyuan.webp",
+        url2: "/wrappers/wanyouzhenyuan",
+        apptype2: "wrapper",
+        url: "https://www.wanyouzhenyuan.cn"
       },
     ]
   },

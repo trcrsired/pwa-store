@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veducation</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="icons/icon.webp" type="image/webp">
+  <script src="config.js"></script>
+  <script src="sw-register.js"></script>
+  <script src="install-check.js"></script>
+</head>
+<body>
+  <h1>Veducation</h1>
+  <p id="status">Checking app status...</p>
+  <button id="install">Install App</button>
+    <div>
+        URL of this website (you may need to copy it manually into your browser if the browser interface doesn’t allow you to open it directly): 
+        <a href="#" id="self-link" target="_blank" rel="noopener"></a>
+    </div>
+    <div>
+        Jump to: 
+        <a href="#" id="jump-link" target="_blank" rel="noopener"></a>
+    </div>
+  <script src="detectssa.js"></script>
+</body>
+</html>
