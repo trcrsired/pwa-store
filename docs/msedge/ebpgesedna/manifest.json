@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/ebpgesedna",
+  "name": "\u6682\u505c\u5b9e\u9a8c\u5ba4",
+  "short_name": "\u6682\u505c\u5b9e\u9a8c\u5ba4",
+  "start_url": "/msedge/ebpgesedna/?source=pwa",
+  "scope": "/msedge/ebpgesedna/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u6682\u505c\u5b9e\u9a8c\u5ba4",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/ebpgesedna/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -1573,6 +1573,8 @@ const L = {
   calm_desc: "Calm is a leading mental wellness app offering guided meditations, sleep stories, breathing exercises, and music to help users reduce stress, improve sleep, and build mindfulness habits. Available on web and mobile, Calm supports daily mental health routines for individuals and workplaces.",
   pfizer_name: "Pfizer",
   pfizer_desc: "Opens Pfizer, a global biopharmaceutical company focused on medicines, vaccines, and health research.",
+  ebpgesedna_name: "PauseLab (暂停实验室)",
+  ebpgesedna_desc: "Opens PauseLab’s EBP module, a psychology-based training exercise built on evidence‑based behavioral practices.",
   uhs_name: "UHS",
   uhs_desc: "Universal Health Services—hospital management and healthcare provider offering behavioral health, acute care, and medical services across the U.S.",
   deltadental_name: "Delta Dental",

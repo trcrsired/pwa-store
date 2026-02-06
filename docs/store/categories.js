@@ -6145,6 +6145,15 @@ export const categories = [
         url: "https://www.vsigo.cn"
       },
       {
+        name: "PauseLab (暂停实验室)",
+        nameKey: "ebpgesedna_name",
+        descriptionKey: "ebpgesedna_desc",
+        icon: "icons/msedge/ebpgesedna.webp",
+        url2: "/msedge/ebpgesedna",
+        apptype2: "wrapper",
+        url: "https://ebp.gesedna.com"
+      },
+      {
         name: "Tencent Health (腾讯健康)",
         nameKey: "tencenthealth_name",
         descriptionKey: "tencenthealth_desc",

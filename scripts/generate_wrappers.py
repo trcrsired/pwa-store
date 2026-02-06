@@ -133,6 +133,7 @@ WRAPPERS = [
   { "name": "Human Life International", "url": "https://www.hli.org" },
   { "name": "NY Dental", "url": "https://www.nydentalgroup.com", "keyify_name": "nydentalgroup" },
   { "name": "VSIGO(视客眼镜)", "url": "https://www.vsigo.cn", "keyify_name": "vsigo" },
+  { "name": "暂停实验室", "url": "https://ebp.gesedna.com", "keyify_name": "ebpgesedna", "apptype": "msedge" },
   { "name": "KFC", "url": "https://www.kfc.com" },
   { "name": "Subway", "url": "https://www.subway.com" },
   { "name": "McDonald's", "url": "https://www.mcdonalds.com", "keyify_name": "mcdonalds" },
