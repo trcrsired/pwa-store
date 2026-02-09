@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/eightmarketcap",
+  "name": "8marketcap",
+  "short_name": "8marketcap",
+  "start_url": "/msedge/eightmarketcap/?source=pwa",
+  "scope": "/msedge/eightmarketcap/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for 8marketcap",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/eightmarketcap/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

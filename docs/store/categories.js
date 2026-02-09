@@ -1761,6 +1761,15 @@ export const categories = [
         url2: "/msedge/capitalone",
       },
       {
+        name: "8marketcap",
+        nameKey: "eightmarketcap_name",
+        descriptionKey: "eightmarketcap_desc",
+        icon: "icons/msedge/eightmarketcap.webp",
+        url2: "/msedge/eightmarketcap",
+        apptype2: "wrapper",
+        url: "https://8marketcap.com"
+      },
+      {
         name: "Paypal",
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",
@@ -1919,6 +1928,15 @@ export const categories = [
         url2: "/wrappers/coinglassliq",
         apptype2: "wrapper",
         url: "https://www.coinglass.com/liquidations"
+      },
+      {
+        name: "Vanguard",
+        nameKey: "vanguardinvestor_name",
+        descriptionKey: "vanguardinvestor_desc",
+        icon: "icons/wrappers/vanguard.webp",
+        url2: "/wrappers/vanguard",
+        apptype2: "wrapper",
+        url: "https://investor.vanguard.com"
       },
       {
         name: "AlphaSpread",
@@ -6152,6 +6170,15 @@ export const categories = [
         url2: "/wrappers/vsigo",
         apptype2: "wrapper",
         url: "https://www.vsigo.cn"
+      },
+      {
+        name: "PauseLab (暂停实验室)",
+        nameKey: "ebpgesedna_name",
+        descriptionKey: "ebpgesedna_desc",
+        icon: "icons/msedge/ebpgesedna.webp",
+        url2: "/msedge/ebpgesedna",
+        apptype2: "wrapper",
+        url: "https://ebp.gesedna.com"
       },
       {
         name: "Tencent Health (腾讯健康)",

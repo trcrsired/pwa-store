@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/vanguard",
+  "name": "Vanguard",
+  "short_name": "Vanguard",
+  "start_url": "/wrappers/vanguard/?source=pwa",
+  "scope": "/wrappers/vanguard/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Vanguard",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/vanguard/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
