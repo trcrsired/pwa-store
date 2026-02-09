@@ -1921,6 +1921,15 @@ export const categories = [
         url: "https://www.coinglass.com/liquidations"
       },
       {
+        name: "AlphaSpread",
+        nameKey: "alphaspread_name",
+        descriptionKey: "alphaspread_desc",
+        icon: "icons/msedge/alphaspread.webp",
+        url2: "/msedge/alphaspread",
+        apptype2: "wrapper",
+        url: "https://www.alphaspread.com"
+      },
+      {
         name: "Hurun Report (胡润百富)",
         nameKey: "hurun_name",
         descriptionKey: "hurun_desc",

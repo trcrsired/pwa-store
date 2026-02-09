@@ -536,6 +536,8 @@ const L = {
   coinglass_desc: "Opens Coinglass, a crypto analytics platform offering futures data, funding rates, open interest, and market dashboards.",
   coinglassliq_name: "Coinglass Liquidations",
   coinglassliq_desc: "Opens Coinglass Liquidations, showing real‑time crypto liquidation data across major exchanges.",
+  alphaspread_name: "AlphaSpread",
+  alphaspread_desc: "Opens AlphaSpread, a valuation analysis platform offering intrinsic value estimates, DCF models, comparables, and financial risk scoring.",
   hurun_name: "Hurun Report (胡润百富)",
   hurun_desc: "A wealth and business intelligence platform best known for its China Rich List. Hurun Report publishes rankings, research, and insights on entrepreneurs, luxury trends, and philanthropy in China and globally.",
   mkcokr_name: "Maeil Business Newspaper (매일경제)",

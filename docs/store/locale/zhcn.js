@@ -536,6 +536,8 @@ const L = {
   coinglass_desc: "打开 Coinglass，一个提供期货数据、资金费率、持仓量与市场看板的加密货币分析平台。",
   coinglassliq_name: "Coinglass 清算数据",
   coinglassliq_desc: "打开 Coinglass 清算页面，查看主要交易所的实时加密货币爆仓数据。",
+  alphaspread_name: "AlphaSpread",
+  alphaspread_desc: "打开 AlphaSpread，一个提供内在价值估算、DCF 模型、可比公司分析与风险评分的估值分析平台。",
   hurun_name: "胡润百富",
   hurun_desc: "以中国富豪榜闻名的财富与商业资讯平台。胡润百富发布关于企业家、奢侈品趋势和慈善事业的排行榜、调研与洞察，覆盖中国及全球市场。",
   mkcokr_name: "每日经济新闻(매일경제)",
