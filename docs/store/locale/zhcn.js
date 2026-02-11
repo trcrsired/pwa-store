@@ -315,6 +315,8 @@ const L = {
   grapheneos_desc: "打开 GrapheneOS，一个专注隐私与安全的移动操作系统项目。",
   stackedit_name: "StackEdit",
   stackedit_desc: "打开 StackEdit，一个支持离线与云同步的强大浏览器端 Markdown 编辑器。",
+  webapis_name: "Web APIs",
+  webapis_desc: "探索现代 Web API，通过示例与演示学习和实验 JavaScript Web API，发现浏览器的更多可能。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
   rust_desc: "一门可靠且高效的软件开发语言。",
   isocpp_name: "ISO C++",

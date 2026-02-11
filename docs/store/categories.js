@@ -781,6 +781,13 @@ export const categories = [
         url: "https://stackedit.io/app"
       },
       {
+        name: "Web APIs",
+        nameKey: "webapis_name",
+        descriptionKey: "webapis_desc",
+        icon: "icons/pwa/webapis.webp",
+        url: "https://webapis.co"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",
