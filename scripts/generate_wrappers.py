@@ -270,6 +270,7 @@ WRAPPERS = [
   { "name": "AgentSkills", "url": "https://agentskills.io" },
   { "name": "LibHunt", "url": "https://www.libhunt.com"},
   { "name": "ModelScope", "url": "https://modelscope.cn" },
+  { "name": "Public Apis", "url": "https://publicapis.io" },
   { "name": "WPS", "url": "https://www.wps.com/wpsdocs" },
   { "name": "WPS (CN)", "url": "https://www.kdocs.cn", "keyify_name":"wpscn", "icon":"wps.webp" },
   { "name": "DingTalk", "url": "https://workspace.dingtalk.com" },

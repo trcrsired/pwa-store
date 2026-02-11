@@ -347,6 +347,8 @@ const L = {
   slingacademy_desc: "打开 SlingAcademy，一个提供编程教程、开发指南和学习资源的网站。",
   modelscope_name: "魔搭社区",
   modelscope_desc: "魔搭社区是一个一站式 AI 平台，提供先进的机器学习模型、数据集、在线推理、训练与部署，构建统一的模型即服务（MaaS）生态，覆盖 NLP、CV、语音、多模态及科学计算等领域。",
+  publicapis_name: "Public APIs",
+  publicapis_desc: "打开 Public APIs，一个收录各类免费公开 API 的索引平台，涵盖 AI、数据、工具等多种类别。",
   linuxtoys_name: "Linux.toys",
   linuxtoys_desc: "打开 Linux.toys，一个收集与 Linux 相关的小工具、玩具和实验的网站。",
   neocities_name: "Neocities",

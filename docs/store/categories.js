@@ -979,6 +979,15 @@ export const categories = [
         url2: "/wrappers/modelscope",
       },
       {
+        name: "Public APIs",
+        nameKey: "publicapis_name",
+        descriptionKey: "publicapis_desc",
+        icon: "icons/wrappers/publicapis.webp",
+        url2: "/wrappers/publicapis",
+        apptype2: "wrapper",
+        url: "https://publicapis.io"
+      },
+      {
         name: "Mini Program Demo",
         nameKey: "miniprogramdemo_name",
         descriptionKey: "miniprogramdemo_desc",

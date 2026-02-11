@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/publicapis",
+  "name": "Public Apis",
+  "short_name": "Public Apis",
+  "start_url": "/wrappers/publicapis/?source=pwa",
+  "scope": "/wrappers/publicapis/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Public Apis",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/publicapis/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
