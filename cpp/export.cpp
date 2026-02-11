@@ -94,11 +94,11 @@ inline void render_app_card(pwa_store::app_entry const &app) noexcept {
   //
   if (app.apptype2 == pwa_store::app_type::none) {
     print(oref, u8R"(<div class="app-card" data-apptype=")",
-          static_cast<::std::uint_least8_t>(app.apptype1), u8R"(">)");
+          static_cast<int>(app.apptype1), u8R"(">)");
   } else {
     print(oref, u8R"(<div class="app-card" data-apptype=")",
-          static_cast<::std::uint_least8_t>(app.apptype1), u8R"(" data-apptype2=")",
-          static_cast<::std::uint_least8_t>(app.apptype2), u8R"(">)");
+          static_cast<int>(app.apptype1), u8R"(" data-apptype2=")",
+          static_cast<int>(app.apptype2), u8R"(">)");
   }
 
   //
@@ -119,7 +119,7 @@ inline void render_app_card(pwa_store::app_entry const &app) noexcept {
   //
   if (app.apptype1 != pwa_store::app_type::pwa) {
     print(oref, u8R"(<span class="apptype-badge" data-apptype=")",
-          static_cast<::std::uint_least8_t>(app.apptype1), u8R"("></span>)");
+          static_cast<int>(app.apptype1), u8R"("></span>)");
   }
 
   //
@@ -139,7 +139,7 @@ inline void render_app_card(pwa_store::app_entry const &app) noexcept {
   //
   if (!empty_strlit(app.url1)) {
     print(oref, u8R"(<a class="install-button" data-apptype=")",
-          static_cast<::std::uint_least8_t>(app.apptype1), u8R"(" href=")", app.url1,
+          static_cast<int>(app.apptype1), u8R"(" href=")", app.url1,
           u8R"(">Open</a>)");
   }
 
@@ -149,14 +149,14 @@ inline void render_app_card(pwa_store::app_entry const &app) noexcept {
   if (app.apptype2 != pwa_store::app_type::none && !empty_strlit(app.url2)) {
     // Secondary badge
     print(oref, u8R"(<span class="apptype-badge" data-apptype=")",
-          static_cast<::std::uint_least8_t>(app.apptype2), u8R"("></span>)");
+          static_cast<int>(app.apptype2), u8R"("></span>)");
 
     // Secondary URL line
     print(oref, u8R"(<div class="app-url">)", app.url2, u8"</div>");
 
     // Secondary button
     print(oref, u8R"(<a class="install-button" data-apptype=")",
-          static_cast<::std::uint_least8_t>(app.apptype2), u8R"(" href=")", app.url2,
+          static_cast<int>(app.apptype2), u8R"(" href=")", app.url2,
           u8R"(">Open</a>)");
   }
 
@@ -166,7 +166,6 @@ inline void render_app_card(pwa_store::app_entry const &app) noexcept {
   print(oref, u8"</div></div>");
 }
 
-inline constinit ::std::size_t found_count{};
 inline void render_category(pwa_store::category_entry const &cat) noexcept {
   ::fast_io::u8ostring_ref_fast_io oref{__builtin_addressof(generated_dom)};
 
@@ -177,7 +176,6 @@ inline void render_category(pwa_store::category_entry const &cat) noexcept {
   for (std::size_t i{}; i != cat.app_entry_size; ++i) {
     auto const &app = cat.app_entry_data[i];
     if (app_matches_filter(app)) {
-      ++found_count;
       render_app_card(app);
     }
   }
@@ -209,7 +207,7 @@ void *resize_search_text(::std::size_t n) noexcept {
 void *generate_dom(bool empty_str) noexcept {
   if (empty_str || search_text.empty())
     search_text.clear();
-  found_count = 0;
+
   prepare_search_lower();
   build_dom();
   return generated_dom.data();
@@ -223,10 +221,5 @@ void *get_generated_dom_data() noexcept {
 [[__gnu__::__visibility__("default")]]
 ::std::size_t get_generated_dom_size() noexcept {
   return generated_dom.size();
-}
-
-[[__gnu__::__visibility__("default")]]
-::std::size_t get_last_found_entries_count() noexcept {
-  return found_count;
 }
 }
