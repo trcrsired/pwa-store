@@ -227,6 +227,13 @@ export const categories = [
         name: "WolframAlpha", nameKey: "wolframalpha_name", icon: "icons/pwa/wolframalpha.webp", url: "https://www.wolframalpha.com", descriptionKey: "wolframalpha_desc"
       },
       { name: "LMArena", icon: "icons/pwa/lmarena.webp", url: "https://lmarena.ai", nameKey: "lmarena_name", descriptionKey: "lmarena_desc" },
+      {
+        name: "OpenRouter",
+        nameKey: "openrouter_name",
+        descriptionKey: "openrouter_desc",
+        icon: "icons/pwa/openrouter.webp",
+        url: "https://openrouter.ai"
+      },
       { name: "Perplexity", icon: "icons/wrappers/perplexity.webp", url2: "/wrappers/perplexity", urlDisplay:"https://www.perplexity.ai", descriptionKey: "perplexity_desc", apptype2: "wrapper" },
       { name: "G2 AI", nameKey: "g2ai_name", icon: "icons/wrappers/g2ai.webp", url2: "/wrappers/g2ai", url: "https://ai.g2.com", descriptionKey: "g2ai_desc", apptype2: "wrapper" },
       {

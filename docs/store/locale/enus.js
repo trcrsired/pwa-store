@@ -144,6 +144,8 @@ const L = {
   "perplexity_desc": "Perplexity is an AI-powered search and answer engine that combines large language models with real-time web browsing. It delivers concise, cited responses to user queries, making it ideal for research, fact-checking, and exploration. Users can interact conversationally, follow up with related questions, and access features like Spaces, Pages, and Pro Search for deeper investigations.",
   lmarena_name: "LMArena",
   lmarena_desc: "LMArena is an open evaluation platform for large language models, created by researchers at UC Berkeley. It enables public comparison of AI responses through prompting, voting, and leaderboard rankings.",
+  openrouter_name: "OpenRouter",
+  openrouter_desc: "Opens OpenRouter, a unified API and model hub that aggregates multiple AI models for developers.",
   crushonai_name: "CrushOn.AI",
   crushonai_desc: "An unfiltered AI chat platform where users create and interact with custom characters for storytelling, romance, or roleplay.",
   girlfriendai_name: "Girlfriend AI",
