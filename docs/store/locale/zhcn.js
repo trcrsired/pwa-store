@@ -107,6 +107,8 @@ const L = {
   "calculator_desc": "简单的可安装计算器 PWA，支持离线使用并针对移动设备优化。",
   calculatorchrome_name: "计算器(Chrome)",
   calculatorchrome_desc: "最初为 ChromeOS 构建的网页计算器，现已作为渐进式网络应用跨平台提供。支持基础与科学计算、离线使用，并可在不同平台中流畅运行。",
+  batterystatus_name: "电池状态(Battery Status)",
+  batterystatus_desc: "一个简单的 PWA，通过 Battery Status API 显示设备电量信息，并提供探索现代 Web API 的演示示例。",
   typhoonsltzj_name: "实时台风消息",
   typhoonsltzj_desc: "由浙江省水利厅提供，本系统发布最新台风数据，包括实时路径、预报信息和历史记录。",
   weatherclimate_name: "天气与气候 (Weather & Climate)",

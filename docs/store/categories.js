@@ -133,6 +133,13 @@ export const categories = [
       { name: "Calculator", nameKey: "calculator_name", icon: "icons/pwa/calculator.webp", url: "https://chrisdiana.github.io/pwa-calculator", descriptionKey: "calculator_desc" },
       { name: "Calculator (Chrome)", nameKey: "calculatorchrome_name", icon: "icons/pwa/calculatorchrome.webp", url: "https://calculator.apps.chrome/install", descriptionKey: "calculatorchrome_desc", nameKey: "calculatorchrome_name" },
       {
+        name: "Battery Status",
+        nameKey: "batterystatus_name",
+        descriptionKey: "batterystatus_desc",
+        icon: "icons/pwa/batterystatus.webp",
+        url: "https://irekrog.github.io/battery-status-progressive-web-app"
+      },
+      {
         name: "Real-Time Typhoon Information (实时台风消息)",
         nameKey: "typhoonsltzj_name",
         descriptionKey: "typhoonsltzj_desc",

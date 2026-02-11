@@ -107,6 +107,8 @@ const L = {
   "calculator_desc": "Simple, installable calculator PWA—works offline and optimized for mobile.",
   calculatorchrome_name: "Calculator (Chrome)",
   calculatorchrome_desc: "A web-based calculator originally built for ChromeOS, now available as a Progressive Web App. Offers basic and scientific functions, offline support, and smooth integration across platforms.",
+  batterystatus_name: "Battery Status",
+  batterystatus_desc: "A simple Progressive Web App that displays your device’s battery information using the Battery Status API. Includes demos for exploring modern Web APIs.",
   typhoonsltzj_name: "Real-Time Typhoon Information (实时台风消息)",
   typhoonsltzj_desc: "Provided by the Zhejiang Provincial Department of Water Resources, this system delivers up-to-date typhoon data including live tracking, forecasts, and historical paths.",
   weatherclimate_name: "Weather & Climate",
