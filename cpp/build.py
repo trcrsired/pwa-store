@@ -37,15 +37,11 @@ LDFLAGS = [
     "-flto=thin",
     "-fuse-ld=lld",
     "-s",
-    "-nostartfiles",
     "-Wl,--no-entry",
-    "-Wl,--export=__wasm_call_ctors",
-    "-Wl,--export=__wasm_call_dtors",
     "-Wl,--export=resize_search_text",
     "-Wl,--export=generate_dom",
     "-Wl,--export=get_generated_dom_data",
     "-Wl,--export=get_generated_dom_size",
-    "-Wl,--export=get_last_found_entries_count"
 ]
 
 # ------------------------------------------------------------

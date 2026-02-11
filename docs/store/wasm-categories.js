@@ -1,6 +1,4 @@
-import './localewasm/enus.js';
-import './localewasm/zhcn.js';
-import { setLocale, L } from './localewasm/localization.js';
+import { L } from './locale/localization.js';
 
 // ------------------------------------------------------------
 // Supported locales (WASM files you actually ship)
@@ -40,15 +38,18 @@ let wasmExports = null;
 // ------------------------------------------------------------
 async function loadLocaleWasmOnce() {
   const locale = resolveStoreLocale();
-  const wasmUrl = `/store/wasm/${locale}.wasm`;
+  const wasmUrl = `/store/locale/${locale}.wasm`;
 
   const response = await fetch(wasmUrl);
   if (!response.ok) {
-    console.error(`FATAL: WASM missing: ${wasmUrl}`);
+    console.error(`FATAL: Locale WASM missing: ${wasmUrl}`);
     return;
   }
 
+  const memory = new WebAssembly.Memory({ initial: 8 });
+
   const importObject = {
+    env: { memory },
     wasi_snapshot_preview1: {
       proc_exit: (code) => {
         throw new WebAssembly.RuntimeError('WASM exited with code ' + code);
@@ -57,12 +58,51 @@ async function loadLocaleWasmOnce() {
   };
 
   const { instance } = await WebAssembly.instantiateStreaming(response, importObject);
-  wasmExports = instance.exports;
-  wasmExports.__wasm_call_ctors();
+
+  if (instance.exports.__wasm_call_ctors) {
+    instance.exports.__wasm_call_ctors();
+  }
 
   // Expose exports + memory for rendering
+  wasmExports = {
+    ...instance.exports,
+    memory,
+  };
 
   console.log(`Loaded locale WASM: ${locale}`);
+}
+
+// ------------------------------------------------------------
+// WASM-driven store rendering
+// ------------------------------------------------------------
+async function renderStoreWasm(filterText = '') {
+  if (!wasmExports) return;
+
+  const root = document.getElementById('app-store');
+  const resultCount = document.getElementById('result-count');
+  if (!root || !resultCount) return;
+
+  const encoder = new TextEncoder();
+  const bytes = encoder.encode(filterText);
+
+  const ptr = wasmExports.resize_search_text(bytes.length);
+  const mem = new Uint8Array(wasmExports.memory.buffer, ptr, bytes.length);
+  mem.set(bytes);
+
+  wasmExports.generate_dom();
+
+  const dataPtr = wasmExports.get_generated_dom_data();
+  const dataLen = wasmExports.get_generated_dom_size();
+
+  const htmlBytes = new Uint8Array(wasmExports.memory.buffer, dataPtr, dataLen);
+  const html = new TextDecoder().decode(htmlBytes);
+
+  root.innerHTML = html;
+
+  const count = wasmExports.get_last_found_entries_count();
+  resultCount.textContent = `${count} APP${count !== 1 ? 's' : ''}`;
+
+  updateToggleAllButtonLabel();
 }
 
 // ------------------------------------------------------------
@@ -156,54 +196,11 @@ const filterPWA = document.getElementById('filter-pwa');
 const filterWeChat = document.getElementById('filter-wechat');
 const filterNative = document.getElementById('filter-native');
 const searchInput = document.getElementById('search-input');
-// ------------------------------------------------------------
-// WASM-driven store rendering
-// ------------------------------------------------------------
-
-async function renderStoreWasm(filterText = '') {
-  if (!wasmExports) return;
-
-  const root = document.getElementById('app-store');
-  const resultCount = document.getElementById('result-count');
-  if (!root || !resultCount) return;
-
-  const encoder = new TextEncoder();
-  const bytes = encoder.encode(filterText);
-
-  const nosearchtext = (filterText.length === 0);
-
-  if (!nosearchtext) {
-    const ptr = wasmExports.resize_search_text(bytes.length);
-    const mem = new Uint8Array(wasmExports.memory.buffer, ptr, bytes.length);
-    mem.set(bytes);
-  }
-
-  const mask =
-    (nosearchtext ? 1 : 0) |          // bit 0: empty search
-    (filterPWA.checked ? 2 : 0) |      // bit 1: PWA/wrapper/msedge
-    (filterWeChat.checked ? 4 : 0) |   // bit 2: WeChat/WeChatMini
-    (filterNative.checked ? 8 : 0) |   // bit 3: Native
-    (has_navigator_install ? 16 : 0);  // bit 4: install available
-
-  const dataPtr = wasmExports.generate_dom(mask);
-  const dataLen = wasmExports.get_generated_dom_size();
-
-  const htmlBytes = new Uint8Array(wasmExports.memory.buffer, dataPtr, dataLen);
-  const html = new TextDecoder().decode(htmlBytes);
-
-  root.innerHTML = html;
-
-  const count = wasmExports.get_last_found_entries_count();
-  resultCount.textContent = `${count} APP${count !== 1 ? 's' : ''}`;
-
-  updateToggleAllButtonLabel();
-}
 
 // ------------------------------------------------------------
 // Initialize everything
 // ------------------------------------------------------------
-
-async function initStore() {
+document.addEventListener('DOMContentLoaded', async () => {
   if (!wasmExports) return;
 
   const savedPWA = localStorage.getItem('filter-pwa');
@@ -222,10 +219,8 @@ async function initStore() {
 
   await renderStoreWasm('');
   setupSearch();
-}
+});
 
-initStore();
-//document.addEventListener('DOMContentLoaded', initStore);
 // ------------------------------------------------------------
 // Filter change handlers
 // ------------------------------------------------------------

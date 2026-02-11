@@ -1,5 +1,4 @@
 import './content.js';
-//import './wasm-categories.js';
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
