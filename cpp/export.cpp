@@ -13,6 +13,7 @@ print_alias_define(::fast_io::io_alias_t, ::pwa_store::strlit str) noexcept {
 namespace {
 
 ::fast_io::u8string search_text;
+::fast_io::u8string search_text_lower;
 ::fast_io::u8string generated_dom;
 ::fast_io::u8string temp_buffer;
 
@@ -27,13 +28,18 @@ inline constexpr bool empty_strlit(::pwa_store::strlit s) noexcept {
 inline constexpr void to_lower_inplace(::fast_io::u8string &s) noexcept {
   ::fast_io::char_category::ranges::to_c_lower(s);
 }
+
+inline void prepare_search_lower() noexcept {
+  search_text_lower = search_text;
+  to_lower_inplace(search_text_lower);
+}
 // ------------------------------------------------------------
 // Search logic
 // ------------------------------------------------------------
 
 inline constexpr bool contains_ci(::fast_io::u8string_view haystack_lower,
-                                  ::fast_io::u8string_view needle_lower) {
-  if (needle_lower.is_empty())
+                        ::fast_io::u8string_view needle_lower) {
+  if (needle_lower.empty())
     return true;
 
   return std::search(haystack_lower.begin(), haystack_lower.end(),
@@ -41,74 +47,46 @@ inline constexpr bool contains_ci(::fast_io::u8string_view haystack_lower,
                      needle_lower.end()) != haystack_lower.end();
 }
 
-inline constexpr bool field_matches(pwa_store::strlit s) noexcept {
-  if (empty_strlit(s))
-    return false;
+inline constexpr bool field_matches(pwa_store::strlit s) noexcept
+{
+    if (empty_strlit(s))
+        return false;
 
-  // copy field into temp_buffer
-  temp_buffer.clear();
-  temp_buffer.append(s.ptr, s.ptr + s.len);
+    // copy field into temp_buffer
+    temp_buffer.clear();
+    temp_buffer.append(s.ptr, s.ptr + s.len);
 
-  // lowercase in-place
-  to_lower_inplace(temp_buffer);
+    // lowercase in-place
+    to_lower_inplace(temp_buffer);
 
-  // compare
-  return contains_ci(
-      ::fast_io::u8string_view(temp_buffer.data(), temp_buffer.size()),
-      ::fast_io::u8string_view(search_text.data(), search_text.size()));
+    // compare
+    return contains_ci(
+        ::fast_io::u8string_view(temp_buffer.data(), temp_buffer.size()),
+        ::fast_io::u8string_view(search_text_lower.data(), search_text_lower.size())
+    );
 }
 
-inline constexpr bool type_allowed(pwa_store::app_type t,
-                                   ::std::uint_least32_t mask) noexcept {
-  switch (t) {
-  case pwa_store::app_type::pwa:
-  case pwa_store::app_type::wrapper:
-  case pwa_store::app_type::msedge:
-    return (mask & 1u);
+inline bool app_matches_filter(pwa_store::app_entry const& app) noexcept
+{
+    if (search_text_lower.empty())
+        return true;
 
-  case pwa_store::app_type::wechat:
-  case pwa_store::app_type::wechatmini:
-    return (mask & 2u);
+    // match each field individually
+    if (field_matches(app.name_localized)) return true;
+    if (field_matches(app.name)) return true;
+    if (field_matches(app.description_localized)) return true;
+    if (field_matches(app.url1)) return true;
+    if (field_matches(app.url2)) return true;
 
-  case pwa_store::app_type::native:
-    return (mask & 4u);
-
-  default:
     return false;
-  }
 }
 
-inline constexpr bool app_matches_filter(pwa_store::app_entry const &app,
-                                         ::std::uint_least32_t mask) noexcept {
-  if (!type_allowed(app.apptype1, mask) && !type_allowed(app.apptype2, mask)) {
-    return false;
-  }
-
-  if (search_text.is_empty()) {
-    return true;
-  }
-
-  // match each field individually
-  if (field_matches(app.name_localized))
-    return true;
-  if (field_matches(app.name))
-    return true;
-  if (field_matches(app.description_localized))
-    return true;
-  if (field_matches(app.url1))
-    return true;
-  if (field_matches(app.url2))
-    return true;
-
-  return false;
-}
 
 // ------------------------------------------------------------
 // DOM rendering
 // ------------------------------------------------------------
 
-inline constexpr void
-render_app_card(pwa_store::app_entry const &app) noexcept {
+inline void render_app_card(pwa_store::app_entry const &app) noexcept {
   ::fast_io::u8ostring_ref_fast_io oref{__builtin_addressof(generated_dom)};
 
   //
@@ -119,8 +97,7 @@ render_app_card(pwa_store::app_entry const &app) noexcept {
           static_cast<::std::uint_least8_t>(app.apptype1), u8R"(">)");
   } else {
     print(oref, u8R"(<div class="app-card" data-apptype=")",
-          static_cast<::std::uint_least8_t>(app.apptype1),
-          u8R"(" data-apptype2=")",
+          static_cast<::std::uint_least8_t>(app.apptype1), u8R"(" data-apptype2=")",
           static_cast<::std::uint_least8_t>(app.apptype2), u8R"(">)");
   }
 
@@ -128,14 +105,14 @@ render_app_card(pwa_store::app_entry const &app) noexcept {
   // Icon
   //
   print(oref, u8R"(<img src=")", app.icon, u8R"(" alt=")", app.name_localized,
-        u8R"(" class="app-icon" loading="lazy" decoding="async" />)"
+        u8R"(" class="app-icon" loading="lazy" decoding="async" />)");
 
-        //
-        // Name + description
-        //
-        u8R"(<div class="app-name">)",
-        app.name_localized, u8"</div>", u8R"(<div class="app-description">)",
-        app.description_localized, u8"</div>");
+  //
+  // Name + description
+  //
+  print(oref, u8R"(<div class="app-name">)", app.name_localized, u8"</div>",
+        u8R"(<div class="app-description">)", app.description_localized,
+        u8"</div>");
 
   //
   // Badge for primary apptype (numeric)
@@ -162,8 +139,8 @@ render_app_card(pwa_store::app_entry const &app) noexcept {
   //
   if (!empty_strlit(app.url1)) {
     print(oref, u8R"(<a class="install-button" data-apptype=")",
-          static_cast<::std::uint_least8_t>(app.apptype1), u8R"(" href=")",
-          app.url1, u8R"(">Open</a>)");
+          static_cast<::std::uint_least8_t>(app.apptype1), u8R"(" href=")", app.url1,
+          u8R"(">Open</a>)");
   }
 
   //
@@ -172,18 +149,15 @@ render_app_card(pwa_store::app_entry const &app) noexcept {
   if (app.apptype2 != pwa_store::app_type::none && !empty_strlit(app.url2)) {
     // Secondary badge
     print(oref, u8R"(<span class="apptype-badge" data-apptype=")",
-          static_cast<::std::uint_least8_t>(app.apptype2),
-          u8R"("></span>)"
+          static_cast<::std::uint_least8_t>(app.apptype2), u8R"("></span>)");
 
-          // Secondary URL line
-          u8R"(<div class="app-url">)",
-          app.url2,
-          u8"</div>"
+    // Secondary URL line
+    print(oref, u8R"(<div class="app-url">)", app.url2, u8"</div>");
 
-          // Secondary button
-          u8R"(<a class="install-button" data-apptype=")",
-          static_cast<::std::uint_least8_t>(app.apptype2), u8R"(" href=")",
-          app.url2, u8R"(">Open</a>)");
+    // Secondary button
+    print(oref, u8R"(<a class="install-button" data-apptype=")",
+          static_cast<::std::uint_least8_t>(app.apptype2), u8R"(" href=")", app.url2,
+          u8R"(">Open</a>)");
   }
 
   //
@@ -193,8 +167,7 @@ render_app_card(pwa_store::app_entry const &app) noexcept {
 }
 
 inline constinit ::std::size_t found_count{};
-inline constexpr void render_category(pwa_store::category_entry const &cat,
-                                      ::std::uint_least32_t mask) noexcept {
+inline void render_category(pwa_store::category_entry const &cat) noexcept {
   ::fast_io::u8ostring_ref_fast_io oref{__builtin_addressof(generated_dom)};
 
   print(oref, u8R"(<section class="category-block">)",
@@ -203,7 +176,7 @@ inline constexpr void render_category(pwa_store::category_entry const &cat,
 
   for (std::size_t i{}; i != cat.app_entry_size; ++i) {
     auto const &app = cat.app_entry_data[i];
-    if (app_matches_filter(app, mask)) {
+    if (app_matches_filter(app)) {
       ++found_count;
       render_app_card(app);
     }
@@ -212,12 +185,11 @@ inline constexpr void render_category(pwa_store::category_entry const &cat,
   print(oref, u8"</div></section>");
 }
 
-inline void build_dom(::std::uint_least32_t mask) noexcept {
+inline void build_dom() noexcept {
   generated_dom.clear();
 
-  for (auto const &cat : pwa_store::categories) {
-    render_category(cat, mask);
-  }
+  for (auto const &cat : pwa_store::categories)
+    render_category(cat);
 }
 
 } // anonymous namespace
@@ -234,11 +206,12 @@ void *resize_search_text(::std::size_t n) noexcept {
 }
 
 [[__gnu__::__visibility__("default")]]
-void *generate_dom(bool empty_str, ::std::uint_least32_t mask) noexcept {
+void *generate_dom(bool empty_str) noexcept {
   if (empty_str || search_text.empty())
     search_text.clear();
   found_count = 0;
-  build_dom(mask);
+  prepare_search_lower();
+  build_dom();
   return generated_dom.data();
 }
 
