@@ -93,6 +93,13 @@ export const categories = [
         icon: "icons/pwa/notepaditamarom.webp",
         url: "https://itamarom.github.io/notepadjs"
       },
+      {
+        name: "OpenStreetMap",
+        nameKey: "openstreetmap_name",
+        descriptionKey: "openstreetmap_desc",
+        icon: "icons/pwa/openstreetmap.svg",
+        url: "https://www.openstreetmap.org"
+      },
     ]
   },
   {

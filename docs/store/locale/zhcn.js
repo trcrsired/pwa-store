@@ -92,6 +92,8 @@ const L = {
   whitenoisegenerator_desc: "打开在线白噪声生成器，提供白噪声、棕噪声、粉噪声、灰噪声、蓝噪声、紫噪声及多种自然声音，适合专注、放松和助眠。",
   notepaditamarom_name: "Notepad (itamarom)",
   notepaditamarom_desc: "打开 Notepad (itamarom)，一个外观与 Windows 记事本极为相似的浏览器文本编辑器。",
+  openstreetmap_name: "OpenStreetMap",
+  openstreetmap_desc: "打开 OpenStreetMap，一个由全球社区共同构建和维护的开源世界地图项目。",
   "alternatives_name": "替代品",
   qrcodetools_name: "二维码工具",
   qrcodetools_desc: "轻松生成、扫描和管理二维码，适用于开发者、市场人员和日常用户。",

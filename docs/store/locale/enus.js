@@ -92,6 +92,8 @@ const L = {
   whitenoisegenerator_desc: "Opens a free online white noise generator offering white, brown, pink, grey, blue, and violet noise plus nature sounds for focus, relaxation, and sleep.",
   notepaditamarom_name: "Notepad (itamarom)",
   notepaditamarom_desc: "Opens Notepad (itamarom), a browser-based text editor that closely resembles Windows Notepad.",
+  openstreetmap_name: "OpenStreetMap",
+  openstreetmap_desc: "Opens OpenStreetMap, a collaborative open‑source world map built and edited by a global community.",
   "alternatives_name": "Alternatives",
   qrcodetools_name: "QR Code Tools",
   qrcodetools_desc: "Generate, scan, and manage QR codes with ease. Ideal for developers, marketers, and everyday users.",
