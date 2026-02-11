@@ -203,6 +203,8 @@ const L = {
   "googlenews_desc": "一个新闻聚合平台，从数千个来源整理头条新闻，并以个性化方式呈现。",
   notebooklm_name: "NotebookLM",
   notebooklm_desc: "打开 NotebookLM，Google 的 AI 驱动研究与笔记助手，可用于总结和探索文档内容。",
+  googledev_name: "Google Developers",
+  googledev_desc: "打开 Google Developers，谷歌官方的开发者文档中心，提供 API、SDK 与开发工具。",
   "gmail_desc": "谷歌的邮件服务。",
   "googletrends_name": "谷歌趋势",
   "googletrends_desc": "按地区和主题探索实时搜索趋势。谷歌趋势展示全球关注的热点，从爆炸性新闻到新兴兴趣。",

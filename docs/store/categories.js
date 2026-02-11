@@ -378,6 +378,13 @@ export const categories = [
         icon: "icons/pwa/notebooklm.webp",
         url: "https://notebooklm.google.com"
       },
+      {
+        name: "Google Developers",
+        nameKey: "googledev_name",
+        descriptionKey: "googledev_desc",
+        icon: "icons/pwa/googledev.webp",
+        url: "https://developers.google.com"
+      },
       { name: "Gmail", icon: "icons/wrappers/gmail.webp", url2: "/wrappers/gmail", descriptionKey: "gmail_desc", apptype2: "wrapper", url: "https://mail.google.com" },
       { name: "Google Trends", icon: "icons/wrappers/googletrends.webp", url2: "/wrappers/googletrends", descriptionKey: "googletrends_desc", apptype2: "wrapper", url: "https://trends.google.com" },
     ]
