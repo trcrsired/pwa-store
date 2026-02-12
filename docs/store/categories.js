@@ -1034,6 +1034,15 @@ export const categories = [
         url: "https://publicapis.io"
       },
       {
+        name: "GitHub Status",
+        nameKey: "githubstatus_name",
+        descriptionKey: "githubstatus_desc",
+        icon: "icons/wrappers/githubstatus.webp",
+        url2: "/wrappers/githubstatus",
+        apptype2: "wrapper",
+        url: "https://www.githubstatus.com"
+      },
+      {
         name: "Mini Program Demo",
         nameKey: "miniprogramdemo_name",
         descriptionKey: "miniprogramdemo_desc",
@@ -3010,6 +3019,13 @@ export const categories = [
         icon: "icons/pwa/rfi.webp",
         url: "https://www.rfi.fr"
       },
+      {
+        name: "NDTV",
+        nameKey: "ndtv_name",
+        descriptionKey: "ndtv_desc",
+        icon: "icons/pwa/ndtv.webp",
+        url: "https://www.ndtv.com"
+      },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url2: "/wrappers/nytimes", url: "https://www.nytimes.com", apptype2: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url2: "/wrappers/washingtonpost", url: "https://www.washingtonpost.com", apptype2: "wrapper" },
       { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url2: "/wrappers/reuters", url: "https://www.reuters.com", apptype2: "wrapper" },
@@ -3293,6 +3309,24 @@ export const categories = [
         url2: "/wrappers/barbench",
         apptype2: "wrapper",
         url: "https://www.barandbench.com"
+      },
+      {
+        name: "MPR News",
+        nameKey: "mprnews_name",
+        descriptionKey: "mprnews_desc",
+        icon: "icons/wrappers/mprnews.webp",
+        url2: "/wrappers/mprnews",
+        apptype2: "wrapper",
+        url: "https://www.mprnews.org"
+      },
+      {
+        name: "Xinhua English",
+        nameKey: "xinhuanews_name",
+        descriptionKey: "xinhuanews_desc",
+        icon: "icons/wrappers/xinhuanews.webp",
+        url2: "/wrappers/xinhuanews",
+        apptype2: "wrapper",
+        url: "https://english.news.cn"
       },
       {
         name: "Lianyungang Daily (连云港日报)",
