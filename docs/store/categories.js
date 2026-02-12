@@ -2571,6 +2571,15 @@ export const categories = [
         url: "https://fossforce.com"
       },
       {
+        name: "FOSS Daily",
+        nameKey: "fossdaily_name",
+        descriptionKey: "fossdaily_desc",
+        icon: "icons/msedge/fossdaily.webp",
+        url2: "/msedge/fossdaily",
+        apptype2: "wrapper",
+        url: "https://foss-daily.org"
+      },
+      {
         name: "Tom's Guide",
         nameKey: "tomsguide_name",
         descriptionKey: "tomsguide_desc",
@@ -5305,6 +5314,16 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://carnewschina.com"
       },
+      {
+        name: "CleanTechnica",
+        nameKey: "cleantechnica_name",
+        descriptionKey: "cleantechnica_desc",
+        icon: "icons/wrappers/cleantechnica.webp",
+        url2: "/wrappers/cleantechnica",
+        apptype2: "wrapper",
+        url: "https://cleantechnica.com"
+      },
+
       {
         name: "Jiakaobaodian (驾考宝典)",
         nameKey: "jiakaobaodian_name",
