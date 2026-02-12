@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/pcguide",
+  "name": "PCGuide",
+  "short_name": "PCGuide",
+  "start_url": "/wrappers/pcguide/?source=pwa",
+  "scope": "/wrappers/pcguide/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for PCGuide",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/pcguide/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

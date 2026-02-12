@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/businessstandard",
+  "name": "Business Standard",
+  "short_name": "Business Standard",
+  "start_url": "/wrappers/businessstandard/?source=pwa",
+  "scope": "/wrappers/businessstandard/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Business Standard",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/businessstandard/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

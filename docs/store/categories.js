@@ -1052,6 +1052,15 @@ export const categories = [
         url: "https://www.githubstatus.com"
       },
       {
+        name: "UseBottles",
+        nameKey: "usebottles_name",
+        descriptionKey: "usebottles_desc",
+        icon: "icons/wrappers/usebottles.webp",
+        url2: "/wrappers/usebottles",
+        apptype2: "wrapper",
+        url: "https://usebottles.com"
+      },
+      {
         name: "Mini Program Demo",
         nameKey: "miniprogramdemo_name",
         descriptionKey: "miniprogramdemo_desc",
@@ -2053,6 +2062,15 @@ export const categories = [
         apptype2: "wrapper"
       },
       {
+        name: "Moneycontrol",
+        nameKey: "moneycontrol_name",
+        descriptionKey: "moneycontrol_desc",
+        icon: "icons/wrappers/moneycontrol.webp",
+        url2: "/wrappers/moneycontrol",
+        apptype2: "wrapper",
+        url: "https://www.moneycontrol.com"
+      },
+      {
         name: "Tencent Wealth Management (腾讯理财通)",
         nameKey: "tencentwm_name",
         descriptionKey: "tencentwm_desc",
@@ -2226,6 +2244,34 @@ export const categories = [
         url: "https://www.zscaler.com",
         apptype2: "wrapper"
       },
+      {
+        name: "Business Standard",
+        nameKey: "businessstandard_name",
+        descriptionKey: "businessstandard_desc",
+        icon: "icons/wrappers/businessstandard.webp",
+        url2: "/wrappers/businessstandard",
+        apptype2: "wrapper",
+        url: "https://www.business-standard.com"
+      },
+      {
+        name: "Cryptopolitan",
+        nameKey: "cryptopolitan_name",
+        descriptionKey: "cryptopolitan_desc",
+        icon: "icons/wrappers/cryptopolitan.webp",
+        url2: "/wrappers/cryptopolitan",
+        apptype2: "wrapper",
+        url: "https://www.cryptopolitan.com"
+      },
+      {
+        name: "UseBottles",
+        nameKey: "usebottles_name",
+        descriptionKey: "usebottles_desc",
+        icon: "icons/wrappers/usebottles.webp",
+        url2: "/wrappers/usebottles",
+        apptype2: "wrapper",
+        url: "https://usebottles.com"
+      },
+
     ]
   },
   {
@@ -2667,6 +2713,15 @@ export const categories = [
         url2: "/wrappers/makeuseof",
         apptype2: "wrapper",
         url: "https://www.makeuseof.com"
+      },
+      {
+        name: "PCGuide",
+        nameKey: "pcguide_name",
+        descriptionKey: "pcguide_desc",
+        icon: "icons/wrappers/pcguide.webp",
+        url2: "/wrappers/pcguide",
+        apptype2: "wrapper",
+        url: "https://www.pcguide.com"
       },
       {
         name: "LINUX DO",
@@ -3430,6 +3485,16 @@ export const categories = [
         hide: true,
         url: "https://www.yinghuafabu.com"
       },
+      {
+        name: "GYING (观影)",
+        nameKey: "gying_name",
+        descriptionKey: "gying_desc",
+        icon: "icons/wrappers/gying.webp",
+        url2: "/wrappers/gying",
+        apptype2: "wrapper",
+        url: "https://www.gying.si"
+      },
+
     ]
   },
   {

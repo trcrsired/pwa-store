@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/gying",
+  "name": "GYING (\u89c2\u5f71)",
+  "short_name": "GYING (\u89c2\u5f71)",
+  "start_url": "/wrappers/gying/?source=pwa",
+  "scope": "/wrappers/gying/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for GYING (\u89c2\u5f71)",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/gying/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

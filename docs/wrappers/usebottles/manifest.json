@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/usebottles",
+  "name": "UseBottles",
+  "short_name": "UseBottles",
+  "start_url": "/wrappers/usebottles/?source=pwa",
+  "scope": "/wrappers/usebottles/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for UseBottles",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/usebottles/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
