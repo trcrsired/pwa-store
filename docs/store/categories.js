@@ -376,6 +376,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://microsoftedge.microsoft.com/addons"
       },
+      {
+        name: "Microsoft News",
+        nameKey: "msnews_name",
+        descriptionKey: "msnews_desc",
+        icon: "icons/wrappers/microsoft.webp",
+        url2: "/wrappers/msnews",
+        apptype2: "wrapper",
+        url: "https://news.microsoft.com"
+      },
     ]
   },
   {
@@ -401,6 +410,15 @@ export const categories = [
       },
       { name: "Gmail", icon: "icons/wrappers/gmail.webp", url2: "/wrappers/gmail", descriptionKey: "gmail_desc", apptype2: "wrapper", url: "https://mail.google.com" },
       { name: "Google Trends", icon: "icons/wrappers/googletrends.webp", url2: "/wrappers/googletrends", descriptionKey: "googletrends_desc", apptype2: "wrapper", url: "https://trends.google.com" },
+      {
+        name: "Google Blog",
+        nameKey: "googleblog_name",
+        descriptionKey: "googleblog_desc",
+        icon: "icons/wrappers/google.webp",
+        url2: "/wrappers/googleblog",
+        apptype2: "wrapper",
+        url: "https://blog.google"
+      },
     ]
   },
   {
@@ -3133,6 +3151,15 @@ export const categories = [
         url2: "/wrappers/cspan",
         apptype2: "wrapper",
         url: "https://www.c-span.org"
+      },
+      {
+        name: "ICIJ",
+        nameKey: "icij_name",
+        descriptionKey: "icij_desc",
+        icon: "icons/wrappers/icij.webp",
+        url2: "/wrappers/icij",
+        apptype2: "wrapper",
+        url: "https://www.icij.org"
       },
       {
         name: "Zaobao (联合早报)",
@@ -6594,6 +6621,15 @@ export const categories = [
         url2: "/msedge/jhu",
         apptype2: "wrapper",
         url: "https://www.jhu.edu"
+      },
+      {
+        name: "Yale E360",
+        nameKey: "yalee360_name",
+        descriptionKey: "yalee360_desc",
+        icon: "icons/wrappers/yalee360.webp",
+        url2: "/wrappers/yalee360",
+        apptype2: "wrapper",
+        url: "https://e360.yale.edu"
       },
       {
         name: "University of Cambridge",

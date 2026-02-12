@@ -198,6 +198,8 @@ const L = {
   bingflights_desc: "Search and compare flight options quickly with Bing Flights, powered by real-time travel data.",
   msedgeaddons_name: "Microsoft Edge Add-ons",
   msedgeaddons_desc: "Microsoft Edge Add-ons is the official extension marketplace for the Edge browser, offering productivity tools, AI-powered extensions, security utilities, shopping helpers, and customization features such as new tab pages and translation tools.",
+  msnews_name: "Microsoft News",
+  msnews_desc: "Opens Microsoft News Center, the official source for Microsoft announcements, product updates, AI news, and corporate stories.",
   "google_desc": "Global search and service hub offering instant access to Search, Gmail, Drive, Translate, and other tools via a fast, unified web interface optimized across devices.",
   "googlevoice_name": "Google Voice",
   "googlevoice_desc": "Get a free U.S. phone number for calls, texts, and voicemail—syncs across devices and works on web or mobile.",
@@ -212,6 +214,8 @@ const L = {
   "gmail_desc": "Google's Mail Services",
   "googletrends_name": "Google Trends",
   "googletrends_desc": "Explore real-time search trends across regions and topics. Google Trends reveals what the world is curious about, from viral news to emerging interests.",
+  googleblog_name: "Google Blog",
+  googleblog_desc: "Opens the official Google Blog featuring product updates, AI news, company announcements, and insights from across Google.",
   "officesuites_name": "Office Suites",
   "wps_desc": "WPS is an office suite developed by the Chinese company Kingsoft Office Software",
   "wpscn_name": "WPS (CN)",
@@ -927,6 +931,8 @@ const L = {
   hellopartner_desc: "Opens Hello Partner, a media platform covering affiliate marketing, partnerships, and industry news.",
   cspan_name: "C-SPAN",
   cspan_desc: "Opens C-SPAN, a public affairs network providing live coverage of government proceedings and civic events.",
+  icij_name: "ICIJ",
+  icij_desc: "Opens the International Consortium of Investigative Journalists, known for global investigative reporting such as the Panama Papers and Pandora Papers.",
   zaobao_name: "Zaobao (联合早报)",
   zaobao_desc: "Opens Zaobao, Singapore’s leading Chinese-language news outlet offering local, international, and China news coverage.",
   ifeng_name: "ifeng (凤凰网)",
@@ -1687,6 +1693,9 @@ const L = {
 
   jhu_name: "Johns Hopkins University",
   jhu_desc: "Opens Johns Hopkins University, a leading U.S. research university known for medicine, public health, and global research.",
+
+  yalee360_name: "Yale E360",
+  yalee360_desc: "Opens Yale Environment 360, a Yale University publication offering in‑depth reporting and analysis on climate, energy, ecology, and global environmental issues.",
 
   cambridge_name: "University of Cambridge",
   cambridge_desc: "Founded in 1209, Cambridge is one of the world’s oldest universities, renowned for its 31 colleges, historic contributions to science and mathematics, and alumni including Isaac Newton, Charles Darwin, and Stephen Hawking.",

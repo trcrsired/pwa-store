@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/yalee360",
+  "name": "Yale E360",
+  "short_name": "Yale E360",
+  "start_url": "/wrappers/yalee360/?source=pwa",
+  "scope": "/wrappers/yalee360/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Yale E360",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/yalee360/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
