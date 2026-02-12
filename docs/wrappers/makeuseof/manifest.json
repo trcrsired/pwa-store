@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/makeuseof",
+  "name": "MakeUseOf",
+  "short_name": "MakeUseOf",
+  "start_url": "/wrappers/makeuseof/?source=pwa",
+  "scope": "/wrappers/makeuseof/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for MakeUseOf",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/makeuseof/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/digitalsurvival",
+  "name": "Digital Survival Challenge",
+  "short_name": "Digital Survival Challenge",
+  "start_url": "/wrappers/digitalsurvival/?source=pwa",
+  "scope": "/wrappers/digitalsurvival/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Digital Survival Challenge",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/digitalsurvival/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -329,6 +329,15 @@ export const categories = [
         url: "https://haveibeenpwned.com"
       },
       { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url2: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype2: "wrapper", url: "https://stack.watch" },
+      {
+        name: "Digital Survival Challenge",
+        nameKey: "digitalsurvival_name",
+        descriptionKey: "digitalsurvival_desc",
+        icon: "icons/wrappers/digitalsurvival.webp",
+        url2: "/wrappers/digitalsurvival",
+        apptype2: "wrapper",
+        url: "https://digital-survival-challenge-beta.vercel.app"
+      },
     ]
   },
   {
@@ -2643,6 +2652,15 @@ export const categories = [
         url: "https://videocardz.com"
       },
       {
+        name: "MakeUseOf",
+        nameKey: "makeuseof_name",
+        descriptionKey: "makeuseof_desc",
+        icon: "icons/wrappers/makeuseof.webp",
+        url2: "/wrappers/makeuseof",
+        apptype2: "wrapper",
+        url: "https://www.makeuseof.com"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",
@@ -3176,6 +3194,15 @@ export const categories = [
         url2: "/wrappers/icij",
         apptype2: "wrapper",
         url: "https://www.icij.org"
+      },
+      {
+        name: "The Atlantic",
+        nameKey: "theatlantic_name",
+        descriptionKey: "theatlantic_desc",
+        icon: "icons/wrappers/theatlantic.webp",
+        url2: "/wrappers/theatlantic",
+        apptype2: "wrapper",
+        url: "https://www.theatlantic.com"
       },
       {
         name: "Zaobao (联合早报)",
