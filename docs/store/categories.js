@@ -2573,6 +2573,15 @@ export const categories = [
         url: "https://www.tomsguide.com"
       },
       {
+        name: "9to5Google",
+        nameKey: "ninetofivegoogle_name",
+        descriptionKey: "ninetofivegoogle_desc",
+        icon: "icons/wrappers/ninetofivegoogle.webp",
+        url2: "/wrappers/ninetofivegoogle",
+        apptype2: "wrapper",
+        url: "https://9to5google.com"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",
