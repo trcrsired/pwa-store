@@ -287,6 +287,7 @@ WRAPPERS = [
   { "name": "Booking", "url": "https://www.booking.com" },
   { "name": "CarNewsChina", "url": "https://carnewschina.com" },
   { "name": "CleanTechnica", "url": "https://cleantechnica.com" },
+  { "name": "The Drive", "url": "https://www.thedrive.com" },
   { "name": "驾考宝典", "url": "https://www.jiakaobaodian.com", "keyify_name": "jiakaobaodian" },
   { "name": "Ticketmaster", "url": "https://www.ticketmaster.com" },
   { "name": "Ctrip", "url": "https://www.ctrip.com" },

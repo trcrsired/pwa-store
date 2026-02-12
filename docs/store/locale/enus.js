@@ -1457,6 +1457,8 @@ const L = {
   carnewschina_desc: "CarNewsChina covers news and analysis about China’s automotive industry, including EV updates, new model releases, reviews, and brand developments from companies such as BYD, Xiaomi, Tesla, MG, and Nio.",
   cleantechnica_name: "CleanTechnica",
   cleantechnica_desc: "Opens CleanTechnica, a leading publication covering clean energy, electric vehicles, sustainability, and green technology news.",
+  thedrive_name: "The Drive",
+  thedrive_desc: "Opens The Drive, a publication covering cars, EVs, transportation technology, automotive culture, and industry news.",
   jiakaobaodian_name: "Jiakaobaodian (驾考宝典)",
   jiakaobaodian_desc: "China’s leading driving test platform—offers up-to-date question banks, multilingual exam prep, and full-process guidance for learners. On Microsoft Edge for Android, please log in first via the browser. The option to install as a Progressive Web App (PWA) becomes available after authentication.",
   tickets_name: "Tickets",

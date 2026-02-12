@@ -5332,7 +5332,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://cleantechnica.com"
       },
-
+      {
+        name: "The Drive",
+        nameKey: "thedrive_name",
+        descriptionKey: "thedrive_desc",
+        icon: "icons/wrappers/thedrive.webp",
+        url2: "/wrappers/thedrive",
+        apptype2: "wrapper",
+        url: "https://www.thedrive.com"
+      },
       {
         name: "Jiakaobaodian (驾考宝典)",
         nameKey: "jiakaobaodian_name",

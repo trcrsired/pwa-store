@@ -1459,6 +1459,8 @@ const L = {
   carnewschina_desc: "CarNewsChina 专注于中国汽车行业资讯，内容涵盖电动车动态、新车发布、评测，以及比亚迪、小米、特斯拉、名爵、蔚来等品牌的发展情况。",
   cleantechnica_name: "CleanTechnica",
   cleantechnica_desc: "打开 CleanTechnica，一个专注于清洁能源、电动车、可持续发展与绿色科技新闻的领先媒体。",
+  thedrive_name: "The Drive",
+  thedrive_desc: "打开 The Drive，一个专注汽车、电动车、交通科技、汽车文化与行业新闻的媒体平台。",
   jiakaobaodian_name: "驾考宝典",
   jiakaobaodian_desc: "中国领先的驾考平台，提供最新题库、多语言考试准备与全流程学习指导。在安卓版微软Edge浏览器中，请先登录账户，登录后可安装为 PWA 应用。",
   tickets_name: "票",
