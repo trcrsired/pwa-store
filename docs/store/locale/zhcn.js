@@ -993,6 +993,8 @@ const L = {
   mprnews_desc: "打开 MPR News，明尼苏达公共广播的新闻服务，提供地区报道、全国新闻与深度分析。",
   xinhuanews_name: "新华社英文版",
   xinhuanews_desc: "打开新华社英文版，提供以中国为重点的新闻、全球报道与官方资讯。",
+  thefluctus_name: "The Fluctus",
+  thefluctus_desc: "打开 The Fluctus，一个展示海军工程、海事科技、军事系统与海洋相关内容的网站。",
   fashion_name: "时尚",
   instyle_name: "InStyle",
   instyle_desc: "InStyle是时尚、美妆和流行文化领域的权威媒体。创立于1994年，现隶属于Dotdash Meredith集团，专注于数字内容，提供风格灵感、明星潮流和专业建议。",

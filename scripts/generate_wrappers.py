@@ -386,6 +386,7 @@ WRAPPERS = [
   { "name": "Bar & Bench", "url": "https://www.barandbench.com", "keyify_name": "barbench" },
   { "name": "MPR News", "url": "https://www.mprnews.org" },
   { "name": "Xinhua English", "url": "https://english.news.cn", "icon": "xinhuanews.webp" },
+  { "name": "The Fluctus", "url": "https://www.thefluctus.com" },
   { "name": "HotCRP", "url": "https://hotcrp.com" },
   { "name": "ACM", "url": "https://www.acm.org" },
   { "name": "Oxford Academic", "url": "https://academic.oup.com", "apptype": "msedge", "keyify_name": "oupacademic", "icon": "oup.webp" },

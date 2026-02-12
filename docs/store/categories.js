@@ -3419,6 +3419,15 @@ export const categories = [
         url: "https://english.news.cn"
       },
       {
+        name: "The Fluctus",
+        nameKey: "thefluctus_name",
+        descriptionKey: "thefluctus_desc",
+        icon: "icons/wrappers/thefluctus.webp",
+        url2: "/wrappers/thefluctus",
+        apptype2: "wrapper",
+        url: "https://www.thefluctus.com"
+      },
+      {
         name: "Lianyungang Daily (连云港日报)",
         nameKey: "lygdaily_name",
         descriptionKey: "lygdaily_desc",

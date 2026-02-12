@@ -999,6 +999,8 @@ const L = {
   mprnews_desc: "Opens MPR News, Minnesota Public Radio’s news service featuring regional reporting, national coverage, and in‑depth analysis.",
   xinhuanews_name: "Xinhua English",
   xinhuanews_desc: "Opens Xinhua News Agency’s English edition, featuring China-focused news, global coverage, and official reports.",
+  thefluctus_name: "The Fluctus",
+  thefluctus_desc: "Opens The Fluctus, a site featuring content on naval engineering, maritime technology, military systems, and ocean‑related phenomena.",
   fashion_name: "Fashion",
   instyle_name: "InStyle",
   instyle_desc: "InStyle is a trusted voice in fashion, beauty, and pop culture. Founded in 1994 and now part of Dotdash Meredith, it offers style inspiration, celebrity trends, and expert advice through a digital-only format.",

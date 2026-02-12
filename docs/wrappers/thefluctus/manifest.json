@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/thefluctus",
+  "name": "The Fluctus",
+  "short_name": "The Fluctus",
+  "start_url": "/wrappers/thefluctus/?source=pwa",
+  "scope": "/wrappers/thefluctus/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for The Fluctus",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/thefluctus/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
