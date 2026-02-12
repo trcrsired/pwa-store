@@ -3428,6 +3428,33 @@ export const categories = [
         url: "https://www.thefluctus.com"
       },
       {
+        name: "Law & Crime",
+        nameKey: "lawandcrime_name",
+        descriptionKey: "lawandcrime_desc",
+        icon: "icons/wrappers/lawandcrime.webp",
+        url2: "/wrappers/lawandcrime",
+        apptype2: "wrapper",
+        url: "https://lawandcrime.com"
+      },
+      {
+        name: "LiveScience",
+        nameKey: "livescience_name",
+        descriptionKey: "livescience_desc",
+        icon: "icons/wrappers/livescience.webp",
+        url2: "/wrappers/livescience",
+        apptype2: "wrapper",
+        url: "https://www.livescience.com"
+      },
+      {
+        name: "WBKO",
+        nameKey: "wbko_name",
+        descriptionKey: "wbko_desc",
+        icon: "icons/wrappers/wbko.webp",
+        url2: "/wrappers/wbko",
+        apptype2: "wrapper",
+        url: "https://www.wbko.com"
+      },
+      {
         name: "Lianyungang Daily (连云港日报)",
         nameKey: "lygdaily_name",
         descriptionKey: "lygdaily_desc",
@@ -3445,6 +3472,15 @@ export const categories = [
       { name: "ELLE", nameKey: "elle_name", descriptionKey: "elle_desc", icon: "icons/pwa/elle.webp", url: "https://www.elle.com" },
       { name: "Marie Claire", nameKey: "marieclaire_name", descriptionKey: "marieclaire_desc", icon: "icons/wrappers/marieclaire.webp", url2: "/wrappers/marieclaire", apptype2: "wrapper", url: "https://www.marieclaire.com" },
       { name: "Yueyanshe (悦颜社)", nameKey: "yueyanshe_name", descriptionKey: "yueyanshe_desc", icon: "icons/wrappers/yueyanshe.webp", url2: "/wrappers/yueyanshe", apptype2: "wrapper", url: "https://yueyanshe.com" },
+      {
+        name: "WWD",
+        nameKey: "wwd_name",
+        descriptionKey: "wwd_desc",
+        icon: "icons/wrappers/wwd.webp",
+        url2: "/wrappers/wwd",
+        apptype2: "wrapper",
+        url: "https://wwd.com"
+      },
     ]
   },
   {
@@ -3503,7 +3539,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.gying.si"
       },
-
+      {
+        name: "AFV",
+        nameKey: "afv_name",
+        descriptionKey: "afv_desc",
+        icon: "icons/wrappers/afv.webp",
+        url2: "/wrappers/afv",
+        apptype2: "wrapper",
+        url: "https://www.afv.com"
+      },
     ]
   },
   {
@@ -5249,7 +5293,16 @@ export const categories = [
         url2: "/wrappers/delish",
         apptype2: "wrapper",
         url: "https://www.delish.com"
-      }
+      },
+      {
+        name: "Allrecipes",
+        nameKey: "allrecipes_name",
+        descriptionKey: "allrecipes_desc",
+        icon: "icons/wrappers/allrecipes.webp",
+        url2: "/wrappers/allrecipes",
+        apptype2: "wrapper",
+        url: "https://www.allrecipes.com"
+      },
     ]
   },
   {
@@ -6520,7 +6573,16 @@ export const categories = [
         descriptionKey: "nba_desc",
         icon: "icons/pwa/nba.webp",
         url: "https://www.nba.com"
-      }
+      },
+      {
+        name: "Sporting News",
+        nameKey: "sportingnews_name",
+        descriptionKey: "sportingnews_desc",
+        icon: "icons/wrappers/sportingnews.webp",
+        url2: "/wrappers/sportingnews",
+        apptype2: "wrapper",
+        url: "https://www.sportingnews.com"
+      },
     ]
   },
   {

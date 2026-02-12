@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/wbko",
+  "name": "WBKO",
+  "short_name": "WBKO",
+  "start_url": "/wrappers/wbko/?source=pwa",
+  "scope": "/wrappers/wbko/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for WBKO",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/wbko/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

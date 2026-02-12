@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/wwd",
+  "name": "WWD",
+  "short_name": "WWD",
+  "start_url": "/wrappers/wwd/?source=pwa",
+  "scope": "/wrappers/wwd/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for WWD",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/wwd/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
