@@ -3114,6 +3114,20 @@ export const categories = [
         icon: "icons/pwa/newsbreak.webp",
         url: "https://www.newsbreak.com"
       },
+      {
+        name: "Express UK",
+        nameKey: "expressuk_name",
+        descriptionKey: "expressuk_desc",
+        icon: "icons/pwa/expressuk.webp",
+        url: "https://www.express.co.uk"
+      },
+      {
+        name: "The Express",
+        nameKey: "theexpress_name",
+        descriptionKey: "theexpress_desc",
+        icon: "icons/pwa/theexpress.webp",
+        url: "https://www.the-express.com"
+      },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url2: "/wrappers/nytimes", url: "https://www.nytimes.com", apptype2: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url2: "/wrappers/washingtonpost", url: "https://www.washingtonpost.com", apptype2: "wrapper" },
       { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url2: "/wrappers/reuters", url: "https://www.reuters.com", apptype2: "wrapper" },
@@ -3563,6 +3577,15 @@ export const categories = [
         url2: "/wrappers/afv",
         apptype2: "wrapper",
         url: "https://www.afv.com"
+      },
+      {
+        name: "Daily Mail",
+        nameKey: "dailymail_name",
+        descriptionKey: "dailymail_desc",
+        icon: "icons/wrappers/dailymail.webp",
+        url2: "/wrappers/dailymail",
+        apptype2: "wrapper",
+        url: "https://www.dailymail.co.uk"
       },
     ]
   },
@@ -6532,6 +6555,15 @@ export const categories = [
         url2: "/msedge/ebpgesedna",
         apptype2: "wrapper",
         url: "https://ebp.gesedna.com"
+      },
+      {
+        name: "Prevention",
+        nameKey: "prevention_name",
+        descriptionKey: "prevention_desc",
+        icon: "icons/wrappers/prevention.webp",
+        url2: "/wrappers/prevention",
+        apptype2: "wrapper",
+        url: "https://www.prevention.com"
       },
       {
         name: "Tencent Health (腾讯健康)",

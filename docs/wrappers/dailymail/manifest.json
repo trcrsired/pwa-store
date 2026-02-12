@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/dailymail",
+  "name": "Daily Mail",
+  "short_name": "Daily Mail",
+  "start_url": "/wrappers/dailymail/?source=pwa",
+  "scope": "/wrappers/dailymail/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Daily Mail",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/dailymail/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

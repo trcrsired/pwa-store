@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/prevention",
+  "name": "Prevention",
+  "short_name": "Prevention",
+  "start_url": "/wrappers/prevention/?source=pwa",
+  "scope": "/wrappers/prevention/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Prevention",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/prevention/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
