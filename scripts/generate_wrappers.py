@@ -376,7 +376,7 @@ WRAPPERS = [
   { "name": "ProPublica", "url": "https://www.propublica.org" },
   { "name": "Bar & Bench", "url": "https://www.barandbench.com", "keyify_name": "barbench" },
   { "name": "MPR News", "url": "https://www.mprnews.org" },
-  { "name": "Xinhua English", "url": "https://english.news.cn" },
+  { "name": "Xinhua English", "url": "https://english.news.cn", "icon": "xinhuanews.webp" },
   { "name": "HotCRP", "url": "https://hotcrp.com" },
   { "name": "ACM", "url": "https://www.acm.org" },
   { "name": "Oxford Academic", "url": "https://academic.oup.com", "apptype": "msedge", "keyify_name": "oupacademic", "icon": "oup.webp" },

@@ -3324,7 +3324,7 @@ export const categories = [
         nameKey: "xinhuanews_name",
         descriptionKey: "xinhuanews_desc",
         icon: "icons/wrappers/xinhuanews.webp",
-        url2: "/wrappers/xinhuanews",
+        url2: "/wrappers/xinhuaenglish",
         apptype2: "wrapper",
         url: "https://english.news.cn"
       },
