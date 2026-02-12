@@ -321,6 +321,8 @@ const L = {
   stackedit_desc: "打开 StackEdit，一个支持离线与云同步的强大浏览器端 Markdown 编辑器。",
   webapis_name: "Web APIs",
   webapis_desc: "探索现代 Web API，通过示例与演示学习和实验 JavaScript Web API，发现浏览器的更多可能。",
+  chromiumdash_name: "Chromium Dash",
+  chromiumdash_desc: "打开 Chromium Dash，一个用于查看 Chromium 发布计划、版本时间线、分支状态与里程碑进度的官方仪表盘。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
   rust_desc: "一门可靠且高效的软件开发语言。",
   isocpp_name: "ISO C++",

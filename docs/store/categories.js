@@ -802,6 +802,13 @@ export const categories = [
         url: "https://webapis.co"
       },
       {
+        name: "Chromium Dash",
+        nameKey: "chromiumdash_name",
+        descriptionKey: "chromiumdash_desc",
+        icon: "icons/pwa/chromiumdash.webp",
+        url: "https://chromiumdash.appspot.com"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",
