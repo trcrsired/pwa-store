@@ -2171,7 +2171,7 @@ export const categories = [
         icon: "icons/wechatmini/unionpayquickpass.webp",
         url: "#小程序://云闪付/lvZcI1UO0hpQJJf",
         apptype: "wechatmini"
-      }
+      },
       {
         name: "Tencent Stocks (腾讯自选股)",
         nameKey: "tencentstocks_name",
