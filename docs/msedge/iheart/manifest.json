@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/iheart",
+  "name": "iHeart",
+  "short_name": "iHeart",
+  "start_url": "/msedge/iheart/?source=pwa",
+  "scope": "/msedge/iheart/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for iHeart",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/iheart/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

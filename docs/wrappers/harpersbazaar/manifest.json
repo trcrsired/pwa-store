@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/harpersbazaar",
+  "name": "Harper's Bazaar",
+  "short_name": "Harper's Bazaar",
+  "start_url": "/wrappers/harpersbazaar/?source=pwa",
+  "scope": "/wrappers/harpersbazaar/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Harper's Bazaar",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/harpersbazaar/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

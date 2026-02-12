@@ -3481,6 +3481,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://wwd.com"
       },
+      {
+        name: "Harper's Bazaar",
+        nameKey: "harpersbazaar_name",
+        descriptionKey: "harpersbazaar_desc",
+        icon: "icons/wrappers/harpersbazaar.webp",
+        url2: "/wrappers/harpersbazaar",
+        apptype2: "wrapper",
+        url: "https://www.harpersbazaar.com"
+      },
     ]
   },
   {
@@ -4623,6 +4632,15 @@ export const categories = [
         descriptionKey: "tonzhon_desc",
         icon: "icons/pwa/tonzhon.webp",
         url: "https://tonzhon.whamon.com"
+      },
+      {
+        name: "iHeart",
+        nameKey: "iheart_name",
+        descriptionKey: "iheart_desc",
+        icon: "icons/msedge/iheart.webp",
+        url2: "/msedge/iheart",
+        apptype: "wrapper",
+        url: "https://www.iheart.com"
       },
     ]
   },
