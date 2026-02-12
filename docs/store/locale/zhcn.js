@@ -865,6 +865,8 @@ const L = {
   rfi_desc: "打开 RFI 法国国际广播电台官网，提供多语言的国际新闻与深度报道。",
   ndtv_name: "NDTV",
   ndtv_desc: "打开 NDTV，一个报道印度与国际新闻、政治、商业、科技与文化的新闻媒体。",
+  newsbreak_name: "NewsBreak",
+  newsbreak_desc: "打开 NewsBreak，一个以本地新闻为核心的平台，提供社区动态、突发新闻、天气与美国各地的地区报道。",
   ameblo_name: "Ameba博客 (アメーバブログ)",
   ameblo_desc: "日本流行的博客平台，提供个人日记、明星动态与社区互动功能。",
   friend_name: "Friend",

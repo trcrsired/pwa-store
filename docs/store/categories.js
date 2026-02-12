@@ -3107,6 +3107,13 @@ export const categories = [
         icon: "icons/pwa/ndtv.webp",
         url: "https://www.ndtv.com"
       },
+      {
+        name: "NewsBreak",
+        nameKey: "newsbreak_name",
+        descriptionKey: "newsbreak_desc",
+        icon: "icons/pwa/newsbreak.webp",
+        url: "https://www.newsbreak.com"
+      },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url2: "/wrappers/nytimes", url: "https://www.nytimes.com", apptype2: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url2: "/wrappers/washingtonpost", url: "https://www.washingtonpost.com", apptype2: "wrapper" },
       { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url2: "/wrappers/reuters", url: "https://www.reuters.com", apptype2: "wrapper" },

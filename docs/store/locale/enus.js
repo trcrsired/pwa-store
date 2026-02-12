@@ -871,6 +871,8 @@ const L = {
   rfi_desc: "Opens RFI (Radio France Internationale), a global news outlet offering international reporting in multiple languages.",
   ndtv_name: "NDTV",
   ndtv_desc: "Opens NDTV, an Indian news outlet covering national and international news, politics, business, technology, and culture.",
+  newsbreak_name: "NewsBreak",
+  newsbreak_desc: "Opens NewsBreak, a local‑first news platform featuring community updates, breaking news, weather, and neighborhood reports across the U.S.",
   ameblo_name: "Ameba Blog (アメーバブログ)",
   ameblo_desc: "A popular Japanese blogging platform for personal diaries, celebrity updates, and community interaction.",
   friend_name: "Friend",
