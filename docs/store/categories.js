@@ -2607,6 +2607,15 @@ export const categories = [
         url: "https://www.pcgamer.com"
       },
       {
+        name: "VideoCardz",
+        nameKey: "videocardz_name",
+        descriptionKey: "videocardz_desc",
+        icon: "icons/wrappers/videocardz.webp",
+        url2: "/wrappers/videocardz",
+        apptype2: "wrapper",
+        url: "https://videocardz.com"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",
