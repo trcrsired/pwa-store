@@ -643,6 +643,8 @@ const L = {
   tomsguide_desc: "Opens Tom's Guide, a site offering tech reviews, buying guides, and consumer electronics recommendations.",
   ninetofivegoogle_name: "9to5Google",
   ninetofivegoogle_desc: "Opens 9to5Google, a news site covering Google, Android, Pixel devices, Chrome, and the broader Google ecosystem.",
+  pcgamer_name: "PC Gamer",
+  pcgamer_desc: "Opens PC Gamer, a leading publication for PC gaming news, reviews, hardware coverage, and guides.",
   xueqiu_name: "Xueqiu (雪球)",
   xueqiu_desc: "A Chinese investment platform offering market data, portfolio tracking, and community insights across stocks, funds, and financial news.",
   cryptocom_name: "Crypto.com",

@@ -57,6 +57,7 @@ WRAPPERS = [
   { "name": "FOSS Force", "url": "https://fossforce.com" },
   { "name": "Tom's Guide", "url": "https://www.tomsguide.com", "keyify_name": "tomsguide" },
   { "name": "9to5Google", "url": "https://9to5google.com", "keyify_name": "ninetofivegoogle" },
+  { "name": "PC Gamer", "url": "https://www.pcgamer.com" },
   { "name": "Influencersplace", "url": "https://influencersplace.com" },
   { "name": "Zscalar", "url": "https://www.zscaler.com"},
   { "name": "perplexity", "url": "https://www.perplexity.ai" },

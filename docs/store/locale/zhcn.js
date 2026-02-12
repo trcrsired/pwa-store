@@ -642,6 +642,8 @@ const L = {
   tomsguide_desc: "打开 Tom's Guide，一个提供科技评测、购买指南和消费电子推荐的网站。",
   ninetofivegoogle_name: "9to5Google",
   ninetofivegoogle_desc: "打开 9to5Google，一个专注于 Google、Android、Pixel、Chrome 等生态新闻与深度报道的科技媒体。",
+  pcgamer_name: "PC Gamer",
+  pcgamer_desc: "打开 PC Gamer，一个提供 PC 游戏新闻、评测、硬件内容与指南的知名游戏媒体。",
   xueqiu_name: "雪球",
   xueqiu_desc: "一个中国投资平台，提供股票、基金与财经资讯的市场数据、资产跟踪与社区观点。",
   cryptocom_name: "Crypto.com",

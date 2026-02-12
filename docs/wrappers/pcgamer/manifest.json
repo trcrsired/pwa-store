@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/pcgamer",
+  "name": "PC Gamer",
+  "short_name": "PC Gamer",
+  "start_url": "/wrappers/pcgamer/?source=pwa",
+  "scope": "/wrappers/pcgamer/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for PC Gamer",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/pcgamer/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

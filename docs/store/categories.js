@@ -2582,6 +2582,15 @@ export const categories = [
         url: "https://9to5google.com"
       },
       {
+        name: "PC Gamer",
+        nameKey: "pcgamer_name",
+        descriptionKey: "pcgamer_desc",
+        icon: "icons/wrappers/pcgamer.webp",
+        url2: "/wrappers/pcgamer",
+        apptype2: "wrapper",
+        url: "https://www.pcgamer.com"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",
