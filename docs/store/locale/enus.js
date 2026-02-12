@@ -1939,6 +1939,8 @@ const L = {
   njbankxinweiting_desc: "Official mini app from Bank of Nanjing (中国南京银行), your digital wealth concierge for investment, loans, deposits, and credit card services.",
   unionpayquickpass_name: "UnionPay Cloud QuickPass (云闪付)",
   unionpayquickpass_desc: "A mobile payment mini app by China UnionPay, supporting QR code payments, card binding, and financial services across merchants and transit systems.",
+  tencentstocks_name: "Tencent Stocks (腾讯自选股)",
+  tencentstocks_desc: "Opens the Tencent Stocks WeChat Mini Program for market data, watchlists, financial news, and stock tracking.",
   duoduomaicai_name: "Duoduo Maicai (多多买菜)",
   duoduomaicai_desc: "Duoduo Maicai is a grocery ordering mini program operated by Pinduoduo. It offers next-day pickup of fresh produce and daily essentials through a preorder model, with items sourced directly from agricultural regions across China.",
   dingdongmaicai_name: "Dingdong Maicai (叮咚买菜)",

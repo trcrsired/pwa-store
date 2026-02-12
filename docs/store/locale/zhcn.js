@@ -1938,6 +1938,8 @@ const L = {
   njbankxinweiting_desc: "南京银行官方小程序，您的财富管家，提供投资理财、贷款、存款、信用卡申请等综合金融服务。",
   unionpayquickpass_name: "云闪付",
   unionpayquickpass_desc: "中国银联推出的移动支付微信小程序，支持扫码支付、银行卡绑定及商户与交通场景的金融服务。",
+  tencentstocks_name: "腾讯自选股",
+  tencentstocks_desc: "打开腾讯自选股微信小程序，查看行情、自选列表、财经资讯与股票跟踪。",
   duoduomaicai_name: "多多买菜",
   duoduomaicai_desc: "多多买菜是拼多多运营的买菜小程序，采用“线上下单+线下自提”模式，次日可取。商品来自全国农产区，涵盖蔬菜、水果、肉蛋、粮油等生活必需品。",
   dingdongmaicai_name: "叮咚买菜",

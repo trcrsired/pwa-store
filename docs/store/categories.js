@@ -2172,6 +2172,14 @@ export const categories = [
         url: "#小程序://云闪付/lvZcI1UO0hpQJJf",
         apptype: "wechatmini"
       }
+      {
+        name: "Tencent Stocks (腾讯自选股)",
+        nameKey: "tencentstocks_name",
+        descriptionKey: "tencentstocks_desc",
+        icon: "icons/wechatmini/tencentstocks.webp",
+        url: "#小程序://腾讯自选股/uAuJu0zFDpXlNpd",
+        apptype: "wechatmini",
+      },
     ]
   },
   {
