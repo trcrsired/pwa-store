@@ -1681,6 +1681,8 @@ const L = {
   nba_desc: "美国职业篮球联赛官方网站，提供比分、赛程、新闻与球员动态。",
   sportingnews_name: "体育新闻 (Sporting News)",
   sportingnews_desc: "打开 Sporting News，一个报道全球体育赛事、比分、分析与运动员新闻的媒体。",
+  si_name: "体育画报 (Sports Illustrated)",
+  si_desc: "打开 Sports Illustrated（体育画报），一家提供全球体育新闻、分析、运动员报道与深度文章的主要体育媒体。",
   research_name: "研究",
   overleaf_name: "Overleaf",
   overleaf_desc: "Overleaf 是一个基于云端的 LaTeX 编辑平台，专为学术写作和技术文档设计。它支持多人实时协作、自动编译文档，并与参考文献管理工具无缝集成，特别适合撰写论文、报告、简历和演示文稿等结构化文档。用户无需安装任何软件，即可在线编辑和预览 LaTeX 文档。",

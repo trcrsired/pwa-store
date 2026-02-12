@@ -397,6 +397,7 @@ WRAPPERS = [
   { "name": "WBKO", "url": "https://www.wbko.com" },
 
   { "name": "Sporting News", "url": "https://www.sportingnews.com" },
+  { "name": "Sports Illustrated", "url": "https://www.si.com", "keyify_name": "si" },
   { "name": "HotCRP", "url": "https://hotcrp.com" },
   { "name": "ACM", "url": "https://www.acm.org" },
   { "name": "Oxford Academic", "url": "https://academic.oup.com", "apptype": "msedge", "keyify_name": "oupacademic", "icon": "oup.webp" },

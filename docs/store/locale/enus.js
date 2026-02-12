@@ -1690,6 +1690,8 @@ const L = {
   nba_desc: "The official site of the National Basketball Association, featuring scores, schedules, news, and player updates.",
   sportingnews_name: "Sporting News",
   sportingnews_desc: "Opens Sporting News, a sports media outlet covering global sports, scores, analysis, and athlete news.",
+  si_name: "Sports Illustrated",
+  si_desc: "Opens Sports Illustrated, a major sports media outlet featuring news, analysis, athlete coverage, and in‑depth reporting across global sports.",
   research_name: "Research",
   overleaf_name: "Overleaf",
   overleaf_desc: "Overleaf is a cloud-based LaTeX editor designed for collaborative academic and technical writing. It enables real-time co-authoring, automatic document compilation, and seamless integration with citation tools, making it ideal for researchers, scientists, and students preparing structured documents such as papers, theses, and reports.",

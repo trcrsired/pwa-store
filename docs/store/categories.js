@@ -6601,6 +6601,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.sportingnews.com"
       },
+      {
+        name: "Sports Illustrated",
+        nameKey: "si_name",
+        descriptionKey: "si_desc",
+        icon: "icons/wrappers/si.webp",
+        url2: "/wrappers/si",
+        apptype2: "wrapper",
+        url: "https://www.si.com"
+      },
     ]
   },
   {

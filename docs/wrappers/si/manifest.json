@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/si",
+  "name": "Sports Illustrated",
+  "short_name": "Sports Illustrated",
+  "start_url": "/wrappers/si/?source=pwa",
+  "scope": "/wrappers/si/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Sports Illustrated",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/si/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
