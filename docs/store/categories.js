@@ -3058,6 +3058,13 @@ export const categories = [
         icon: "icons/pwa/news18.webp",
         url: "https://www.news18.com"
       },
+      {
+        name: "Irish Star",
+        nameKey: "irishstar_name",
+        descriptionKey: "irishstar_desc",
+        icon: "icons/pwa/irishstar.webp",
+        url: "https://www.irishstar.com"
+      },
       { name: "Japan Today", nameKey: "japantoday_name", descriptionKey: "japantoday_desc", url: "https://japantoday.com", icon: "icons/pwa/japantoday.webp" },
       { name: "The Conversation", nameKey: "theconversation_name", descriptionKey: "theconversation_desc", url: "https://theconversation.com", icon: "icons/pwa/theconversation.webp" },
       { name: "The American Prospect", nameKey: "theamericanprospect_name", descriptionKey: "theamericanprospect_desc", url: "https://prospect.org", icon: "icons/pwa/theamericanprospect.webp" },
@@ -3476,6 +3483,15 @@ export const categories = [
         url: "https://www.wbko.com"
       },
       {
+        name: "Western Journal",
+        nameKey: "westernjournal_name",
+        descriptionKey: "westernjournal_desc",
+        icon: "icons/wrappers/westernjournal.webp",
+        url2: "/wrappers/westernjournal",
+        apptype2: "wrapper",
+        url: "https://www.westernjournal.com"
+      },
+      {
         name: "Lianyungang Daily (连云港日报)",
         nameKey: "lygdaily_name",
         descriptionKey: "lygdaily_desc",
@@ -3510,6 +3526,15 @@ export const categories = [
         url2: "/wrappers/harpersbazaar",
         apptype2: "wrapper",
         url: "https://www.harpersbazaar.com"
+      },
+      {
+        name: "The List",
+        nameKey: "thelist_name",
+        descriptionKey: "thelist_desc",
+        icon: "icons/wrappers/thelist.webp",
+        url2: "/wrappers/thelist",
+        apptype2: "wrapper",
+        url: "https://www.thelist.com"
       },
     ]
   },
@@ -6649,6 +6674,16 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.si.com"
       },
+      {
+        name: "The Spun",
+        nameKey: "thespun_name",
+        descriptionKey: "thespun_desc",
+        icon: "icons/wrappers/thespun.webp",
+        url2: "/wrappers/thespun",
+        apptype2: "wrapper",
+        url: "https://thespun.com"
+      },
+
     ]
   },
   {
