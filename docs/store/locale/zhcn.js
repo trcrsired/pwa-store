@@ -1797,6 +1797,10 @@ const L = {
 
   nju_name: "南京大学",
   nju_desc: "南京大学成立于1902年，是中国著名的高等学府之一，在人文、科学和社会科学领域具有卓越的学术传统和研究实力。",
+
+  webportal_name: "网络门户",
+  hao123_name: "hao123",
+  hao123_desc: "打开 hao123，一个经典的中文门户网站，提供分类网址导航与门户式上网入口。",
   otherpwastores_name: "其他PWA商店",
   progressivewebappstore_name: "progressivewebapp.store",
   progressivewebappstore_desc: "一个精选渐进式网络应用目录，按类别展示可安装的高质量应用体验。",

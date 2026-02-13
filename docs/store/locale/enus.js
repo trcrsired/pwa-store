@@ -1804,6 +1804,9 @@ const L = {
   nju_name: "Nanjing University (南京大学)",
   nju_desc: "Founded in 1902, Nanjing University is a prestigious Chinese institution with a legacy of academic excellence in humanities, sciences, and social sciences, and a strong emphasis on research and innovation.",
 
+  webportal_name: "Web Portal",
+  hao123_name: "hao123",
+  hao123_desc: "Opens hao123, a classic Chinese web portal offering categorized navigation links and a portal-style homepage.",
   otherpwastores_name: "Other PWA Stores",
   progressivewebappstore_name: "progressivewebapp.store",
   progressivewebappstore_desc: "A curated directory of Progressive Web Apps across categories, highlighting installable and high-quality experiences.",

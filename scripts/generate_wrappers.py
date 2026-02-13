@@ -433,6 +433,8 @@ WRAPPERS = [
   { "name" : "Zhejiang University (浙江大学)", "url": "https://www.zju.edu.cn", "keyify_name": "zju" },
   { "name" : "Nanjing University (南京大学)", "url": "https://www.nju.edu.cn", "keyify_name": "nju" },
 
+  { "name" : "hao123", "url": "https://www.hao123.com" },
+
   { "name" : "Yande", "url": "https://yande.re" },
   { "name" : "MissAV TV", "url": "https://missavtv.com/en" },
   { "name" : "JavHDPorn", "url": "https://www4.javhdporn.net" },

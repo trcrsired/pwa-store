@@ -7052,6 +7052,21 @@ export const categories = [
     ]
   },
   {
+    name: "Web Portal",
+    nameKey: "webportal_name",
+    apps: [
+      {
+        name: "hao123",
+        nameKey: "hao123_name",
+        descriptionKey: "hao123_desc",
+        icon: "icons/wrappers/hao123.webp",
+        url2: "/wrappers/hao123",
+        apptype2: "wrapper",
+        url: "https://www.hao123.com"
+      },
+    ]
+  },
+  {
     name: "Other PWA Stores",
     nameKey: "otherpwastores_name",
     apps: [
