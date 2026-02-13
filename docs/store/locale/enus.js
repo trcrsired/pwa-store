@@ -123,6 +123,8 @@ const L = {
   gbmb_desc: "Opens GBMB, a site offering calculators and unit converters for data, storage, and measurement values.",
   base64guru_name: "Base64.Guru",
   base64guru_desc: "A comprehensive reference site for Base64 encoding, decoding, and data conversion. Includes tutorials, tools, and technical explanations for developers and analysts.",
+  palform_name: "Palform",
+  palform_desc: "Opens Palform, the encrypted survey platform that protects all responses with end‑to‑end encryption, offering secure, modern, AI‑assisted form creation.",
   wechatmyqrcode_name: "My QR Code (我的二维码)",
   wechatmyqrcode_desc: "Opens your personal WeChat QR code for adding contacts or sharing your profile.",
   wechatmoney_name: "Money (收付款)",

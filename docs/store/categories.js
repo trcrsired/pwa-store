@@ -195,6 +195,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.gbmb.org"
       },
+      {
+        name: "Palform",
+        nameKey: "palform_name",
+        descriptionKey: "palform_desc",
+        icon: "icons/wrappers/palform.webp",
+        url2: "/wrappers/palform",
+        apptype2: "wrapper",
+        url: "https://palform.app"
+      },
     ]
   },
   {
