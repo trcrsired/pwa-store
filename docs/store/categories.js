@@ -100,6 +100,13 @@ export const categories = [
         icon: "icons/pwa/openstreetmap.svg",
         url: "https://www.openstreetmap.org"
       },
+      {
+        name: "Wormhole",
+        nameKey: "wormhole_name",
+        descriptionKey: "wormhole_desc",
+        icon: "icons/pwa/wormhole.webp",
+        url: "https://wormhole.app"
+      },
     ]
   },
   {

@@ -96,6 +96,8 @@ const L = {
   notepaditamarom_desc: "Opens Notepad (itamarom), a browser-based text editor that closely resembles Windows Notepad.",
   openstreetmap_name: "OpenStreetMap",
   openstreetmap_desc: "Opens OpenStreetMap, a collaborative open‑source world map built and edited by a global community.",
+  wormhole_name: "Wormhole",
+  wormhole_desc: "Opens Wormhole, a secure end‑to‑end encrypted file‑sharing service for fast, temporary, link‑based transfers.",
   "alternatives_name": "Alternatives",
   qrcodetools_name: "QR Code Tools",
   qrcodetools_desc: "Generate, scan, and manage QR codes with ease. Ideal for developers, marketers, and everyday users.",
