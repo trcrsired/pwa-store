@@ -883,7 +883,8 @@ const L = {
   expressuk_desc: "Opens Express UK, a British news outlet covering politics, entertainment, sports, lifestyle, and breaking stories.",
   theexpress_name: "The Express",
   theexpress_desc: "Opens The Express, a U.S. news site featuring national stories, entertainment, sports, and lifestyle coverage.",
-
+  themirror_name: "The Mirror",
+  themirror_desc: "Opens The Mirror, the U.S. edition of the Mirror brand featuring entertainment, celebrity news, lifestyle stories, and trending American topics.",
   ameblo_name: "Ameba Blog (アメーバブログ)",
   ameblo_desc: "A popular Japanese blogging platform for personal diaries, celebrity updates, and community interaction.",
   friend_name: "Friend",

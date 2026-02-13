@@ -877,6 +877,8 @@ const L = {
   expressuk_desc: "打开 Express UK，一个报道政治、娱乐、体育、生活方式与突发新闻的英国媒体。",
   theexpress_name: "The Express",
   theexpress_desc: "打开 The Express，一个提供美国新闻、娱乐、体育与生活方式内容的媒体网站。",
+  themirror_name: "The Mirror",
+  themirror_desc: "打开 The Mirror（美国版），提供娱乐、名人新闻、生活方式内容与美国热门话题的媒体网站。",
   ameblo_name: "Ameba博客 (アメーバブログ)",
   ameblo_desc: "日本流行的博客平台，提供个人日记、明星动态与社区互动功能。",
   friend_name: "Friend",
