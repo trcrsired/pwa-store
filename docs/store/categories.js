@@ -3372,7 +3372,6 @@ export const categories = [
         descriptionKey: "21jingji_desc",
         icon: "icons/msedge/21jingji.webp",
         url: "https://www.21jingji.com",
-        apptype_hide: "msedge",
         url2: "/msedge/21jingji",
         apptype2: "wrapper",
       },
