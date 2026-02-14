@@ -3177,9 +3177,8 @@ export const categories = [
         descriptionKey: "factcheck_desc",
         icon: "icons/msedge/factcheck.webp",
         url2: "/msedge/factcheck",
-        apptype_hide: "msedge",
         url: "https://www.factcheck.org",
-        apptype2: "msedge"
+        apptype2: "wrapper"
       },
       {
         name: "Scientific American",
