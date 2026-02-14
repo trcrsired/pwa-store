@@ -5501,6 +5501,15 @@ export const categories = [
         url: "https://www.ems.com.cn"
       },
       {
+        name: "Tripadvisor",
+        nameKey: "tripadvisor_name",
+        descriptionKey: "tripadvisor_desc",
+        icon: "icons/wrappers/tripadvisor.webp",
+        url2: "/wrappers/tripadvisor",
+        apptype2: "wrapper",
+        url: "https://www.tripadvisor.com"
+      },
+      {
         name: "Transit Code",
         nameKey: "transitcode_name",
         descriptionKey: "transitcode_desc",

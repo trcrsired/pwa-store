@@ -1525,6 +1525,8 @@ const L = {
   mta_desc: "打开 MTA 官方网站，查看纽约市公共交通的实时信息、线路图、时刻表和服务提醒。",
   chinaems_name: "中国邮政速递物流",
   chinaems_desc: "中国邮政EMS官网，提供国内外物流快递查询与寄递服务。",
+  tripadvisor_name: "Tripadvisor",
+  tripadvisor_desc: "打开 Tripadvisor，一个提供全球酒店、餐厅、景点与旅行目的地点评和推荐的旅游平台。",
   cars_name: "汽车",
   tesla_name: "特斯拉",
   tesla_desc: "特斯拉是一家美国电动汽车与清洁能源公司，由埃隆·马斯克等人于 2003 年创立。公司以其创新的电动车、自主驾驶技术以及太阳能和电池储能解决方案而闻名。",

@@ -1534,6 +1534,8 @@ const L = {
   mta_desc: "Opens the official MTA website for New York City transit updates, maps, schedules, and service alerts.",
   chinaems_name: "China EMS",
   chinaems_desc: "Official site of China Post Express Mail Service, offering domestic and international logistics tracking and delivery.",
+  tripadvisor_name: "Tripadvisor",
+  tripadvisor_desc: "Opens Tripadvisor, a global travel platform offering reviews, ratings, and recommendations for hotels, restaurants, attractions, and destinations worldwide.",
   cars_name: "Cars",
   tesla_name: "Tesla",
   tesla_desc: "Tesla is an American electric vehicle and clean energy company founded by Elon Musk and others in 2003. It is known for its innovative EVs, autonomous driving technology, and energy solutions such as solar panels and battery storage.",

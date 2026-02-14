@@ -140,6 +140,7 @@ WRAPPERS = [
   { "name": "USPS", "url": "https://www.usps.com"},
   { "name": "MTA", "url": "https://www.mta.info" },
   { "name": "China EMS", "url": "https://www.ems.com.cn"},
+  { "name": "Tripadvisor", "url": "https://www.tripadvisor.com"},
   { "name": "UHS", "url": "https://www.uhs.com" },
   { "name": "Delta Dental", "url": "https://www.deltadental.com", "keyify_name": "deltadental" },
   { "name": "Women's Health", "url": "https://www.womenshealthmag.com", "keyify_name": "womenshealth" },
