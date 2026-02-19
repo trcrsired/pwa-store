@@ -1116,7 +1116,7 @@ export const categories = [
     apps: [
       {
         name: "Cloudflare",
-        icon: "icons/pwa/cloudflare.webp",
+        icon: "icons/wrappers/cloudflare.webp",
         url: "https://dash.cloudflare.com",
         descriptionKey: "cloudflare_desc",
       },
@@ -3759,6 +3759,13 @@ export const categories = [
         url: "https://gokuro.net"
       },
       {
+        name: "Star Rail Cloud (星穹铁道云游戏)",
+        nameKey: "srcloud_name",
+        descriptionKey: "srcloud_desc",
+        icon: "icons/pwa/srcloud.webp",
+        url: "https://sr.mihoyo.com/cloud"
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",
@@ -4646,6 +4653,15 @@ export const categories = [
         url2: "/wrappers/openbenchmarking",
         apptype2: "wrapper",
         url: "https://openbenchmarking.org"
+      },
+      {
+        name: "Cloudflare Speed Test",
+        nameKey: "cloudflarespeed_name",
+        descriptionKey: "cloudflarespeed_desc",
+        icon: "icons/wrappers/cloudflare.webp",
+        url2: "/wrappers/cloudflarespeed",
+        apptype2: "wrapper",
+        url: "https://speed.cloudflare.com"
       },
     ]
   },
