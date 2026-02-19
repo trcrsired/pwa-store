@@ -240,6 +240,7 @@ WRAPPERS = [
   { "name": "Counterpoint Research", "url": "https://counterpointresearch.com" },
   { "name": "OpenBenchmarking.org", "url": "https://openbenchmarking.org", "keyify_name": "openbenchmarking"},
   { "name": "Cloudflare Speed Test", "url": "https://speed.cloudflare.com", "keyify_name": "cloudflare" },
+  { "name": "My Location", "url": "https://my-location.org" },
   { "name": "NUKEMAP", "url": "https://nuclearsecrecy.com/nukemap" },
   { "name": "NY Times", "url": "https://www.nytimes.com" , "keyify_name": "nytimes"},
   { "name": "Netflix", "url": "https://www.netflix.com" },

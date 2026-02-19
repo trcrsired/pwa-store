@@ -4663,6 +4663,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://speed.cloudflare.com"
       },
+      {
+        name: "My Location",
+        nameKey: "mylocation_name",
+        descriptionKey: "mylocation_desc",
+        icon: "icons/wrappers/mylocation.webp",
+        url2: "/wrappers/mylocation",
+        apptype2: "wrapper",
+        url: "https://my-location.org"
+      },
     ]
   },
   {

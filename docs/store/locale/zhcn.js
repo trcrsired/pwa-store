@@ -1344,6 +1344,8 @@ const L = {
   openbenchmarking_desc: "打开 OpenBenchmarking.org，Phoronix Test Suite 基准测试的公开结果平台。",
   cloudflarespeed_name: "Cloudflare Speed Test",
   cloudflarespeed_desc: "打开 Cloudflare Speed Test，一个通过 Cloudflare 全球边缘网络测试延迟、抖动、带宽与路由质量的网络诊断工具。",
+  mylocation_name: "我的位置 (My Location)",
+  mylocation_desc: "打开 my‑Location.org，一个基于浏览器的定位工具，可使用设备定位服务或 IP 作为后备来显示坐标与位置信息。",
   nukemap_name: "NUKEMAP",
   nukemap_desc: "打开 NUKEMAP，用于可视化历史核爆炸影响的教育工具。",
   streaming_name: "流媒体",
