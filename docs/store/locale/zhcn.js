@@ -754,6 +754,8 @@ const L = {
   maskableapp_desc: "用于生成和测试渐进式网页应用可遮罩图标的工具。",
   storyblocks_name: "Storyblocks",
   storyblocks_desc: "打开 Storyblocks，一个提供免版税视频、图片和音频素材的素材库。",
+  cartes_name: "Cartes",
+  cartes_desc: "打开 Cartes，一个基于 OpenStreetMap 的现代主权地图平台，尊重隐私，提供搜索、商家、旅游、街景照片以及步行、骑行、公交、火车等多种绿色路线规划（目前覆盖法国本土）。",
   woobx_name: "一个木函",
   woobx_desc: "一个多功能工具应用，提供文本、图片与系统相关的日常实用功能。",
   appagg_name: "AppAgg",

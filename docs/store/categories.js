@@ -94,13 +94,6 @@ export const categories = [
         url: "https://itamarom.github.io/notepadjs"
       },
       {
-        name: "OpenStreetMap",
-        nameKey: "openstreetmap_name",
-        descriptionKey: "openstreetmap_desc",
-        icon: "icons/pwa/openstreetmap.svg",
-        url: "https://www.openstreetmap.org"
-      },
-      {
         name: "Wormhole",
         nameKey: "wormhole_name",
         descriptionKey: "wormhole_desc",
@@ -173,6 +166,13 @@ export const categories = [
         descriptionKey: "woobx_desc",
         icon: "icons/pwa/woobx.webp",
         url: "https://ol.woobx.cn"
+      },
+      {
+        name: "OpenStreetMap",
+        nameKey: "openstreetmap_name",
+        descriptionKey: "openstreetmap_desc",
+        icon: "icons/pwa/openstreetmap.svg",
+        url: "https://www.openstreetmap.org"
       },
       {
         name: "Cartes",

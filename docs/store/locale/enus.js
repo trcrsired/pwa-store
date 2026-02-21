@@ -762,6 +762,8 @@ const L = {
   storyblocks_desc: "Opens Storyblocks, a stock library offering royalty‑free videos, images, and audio.",
   woobx_name: "Wood Box (一个木函)",
   woobx_desc: "A multifunctional utility app offering tools for daily use, including text, image, and system utilities.",
+  cartes_name: "Cartes",
+  cartes_desc: "Opens Cartes, a sovereign, privacy‑respecting modern map platform built on OpenStreetMap, offering search, commerce, tourism, street photos, and eco‑friendly routing across France.",
   appagg_name: "AppAgg",
   appagg_desc: "An application aggregator platform that lists apps, games, and software deals across multiple stores.",
   annasarchive_name: "Anna's Archive",
