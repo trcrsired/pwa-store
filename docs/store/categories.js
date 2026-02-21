@@ -100,6 +100,20 @@ export const categories = [
         icon: "icons/pwa/openstreetmap.svg",
         url: "https://www.openstreetmap.org"
       },
+      {
+        name: "Wormhole",
+        nameKey: "wormhole_name",
+        descriptionKey: "wormhole_desc",
+        icon: "icons/pwa/wormhole.webp",
+        url: "https://wormhole.app"
+      },
+      {
+        name: "PWA Geolocation",
+        nameKey: "pwageolocation_name",
+        descriptionKey: "pwageolocation_desc",
+        icon: "icons/pwa/pwageolocation.webp",
+        url: "https://pwa-geolocation.pages.dev"
+      },
     ]
   },
   {
@@ -194,6 +208,15 @@ export const categories = [
         url2: "/wrappers/gbmb",
         apptype2: "wrapper",
         url: "https://www.gbmb.org"
+      },
+      {
+        name: "Palform",
+        nameKey: "palform_name",
+        descriptionKey: "palform_desc",
+        icon: "icons/wrappers/palform.webp",
+        url2: "/wrappers/palform",
+        apptype2: "wrapper",
+        url: "https://palform.app"
       },
     ]
   },
@@ -1107,7 +1130,7 @@ export const categories = [
     apps: [
       {
         name: "Cloudflare",
-        icon: "icons/pwa/cloudflare.webp",
+        icon: "icons/wrappers/cloudflare.webp",
         url: "https://dash.cloudflare.com",
         descriptionKey: "cloudflare_desc",
       },
@@ -3142,6 +3165,13 @@ export const categories = [
         icon: "icons/pwa/theexpress.webp",
         url: "https://www.the-express.com"
       },
+      {
+        name: "The Mirror",
+        nameKey: "themirror_name",
+        descriptionKey: "themirror_desc",
+        icon: "icons/pwa/themirror.webp",
+        url: "https://www.themirror.com"
+      },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url2: "/wrappers/nytimes", url: "https://www.nytimes.com", apptype2: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url2: "/wrappers/washingtonpost", url: "https://www.washingtonpost.com", apptype2: "wrapper" },
       { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url2: "/wrappers/reuters", url: "https://www.reuters.com", apptype2: "wrapper" },
@@ -3161,9 +3191,8 @@ export const categories = [
         descriptionKey: "factcheck_desc",
         icon: "icons/msedge/factcheck.webp",
         url2: "/msedge/factcheck",
-        apptype_hide: "msedge",
         url: "https://www.factcheck.org",
-        apptype2: "msedge"
+        apptype2: "wrapper"
       },
       {
         name: "Scientific American",
@@ -3357,7 +3386,6 @@ export const categories = [
         descriptionKey: "21jingji_desc",
         icon: "icons/msedge/21jingji.webp",
         url: "https://www.21jingji.com",
-        apptype_hide: "msedge",
         url2: "/msedge/21jingji",
         apptype2: "wrapper",
       },
@@ -3743,6 +3771,13 @@ export const categories = [
         descriptionKey: "gokuro_desc",
         icon: "icons/pwa/gokuro.webp",
         url: "https://gokuro.net"
+      },
+      {
+        name: "Star Rail Cloud (星穹铁道云游戏)",
+        nameKey: "srcloud_name",
+        descriptionKey: "srcloud_desc",
+        icon: "icons/pwa/srcloud.webp",
+        url: "https://sr.mihoyo.com/cloud"
       },
       {
         name: "Red Alert 2: Chrono Divide",
@@ -4633,6 +4668,24 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://openbenchmarking.org"
       },
+      {
+        name: "Cloudflare Speed Test",
+        nameKey: "cloudflarespeed_name",
+        descriptionKey: "cloudflarespeed_desc",
+        icon: "icons/wrappers/cloudflare.webp",
+        url2: "/wrappers/cloudflarespeed",
+        apptype2: "wrapper",
+        url: "https://speed.cloudflare.com"
+      },
+      {
+        name: "My Location",
+        nameKey: "mylocation_name",
+        descriptionKey: "mylocation_desc",
+        icon: "icons/wrappers/mylocation.webp",
+        url2: "/wrappers/mylocation",
+        apptype2: "wrapper",
+        url: "https://my-location.org"
+      },
     ]
   },
   {
@@ -5485,6 +5538,15 @@ export const categories = [
         url2: "/wrappers/chinaems",
         apptype2: "wrapper",
         url: "https://www.ems.com.cn"
+      },
+      {
+        name: "Tripadvisor",
+        nameKey: "tripadvisor_name",
+        descriptionKey: "tripadvisor_desc",
+        icon: "icons/wrappers/tripadvisor.webp",
+        url2: "/wrappers/tripadvisor",
+        apptype2: "wrapper",
+        url: "https://www.tripadvisor.com"
       },
       {
         name: "Transit Code",
@@ -7056,6 +7118,21 @@ export const categories = [
         url: "#小程序://中国人民大学/bDOYIXgDmHRivyx",
         apptype: "wechatmini"
       }
+    ]
+  },
+  {
+    name: "Web Portal",
+    nameKey: "webportal_name",
+    apps: [
+      {
+        name: "hao123",
+        nameKey: "hao123_name",
+        descriptionKey: "hao123_desc",
+        icon: "icons/wrappers/hao123.webp",
+        url2: "/wrappers/hao123",
+        apptype2: "wrapper",
+        url: "https://www.hao123.com"
+      },
     ]
   },
   {

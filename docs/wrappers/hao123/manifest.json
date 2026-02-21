@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/hao123",
+  "name": "hao123",
+  "short_name": "hao123",
+  "start_url": "/wrappers/hao123/?source=pwa",
+  "scope": "/wrappers/hao123/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for hao123",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/hao123/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

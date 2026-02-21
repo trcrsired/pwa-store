@@ -39,6 +39,7 @@ WRAPPERS = [
   { "name": "Weather & Climate", "url": "https://weather-and-climate.com", "keyify_name": "weatherclimate", "apptype": "msedge" },
   { "name": "GBMB", "url": "https://www.gbmb.org" },
   { "name": "Base64.Guru", "url": "https://base64.guru", "keyify_name": "base64guru" },
+  { "name": "Palform", "url": "https://palform.app" },
   { "name": "CVS", "url": "https://www.cvs.com" },
   { "name": "Whirlpool", "url": "https://www.whirlpool.com" },
   { "name": "Android Authority", "url": "https://www.androidauthority.com", "keyify_name": "androidauthority"},
@@ -139,6 +140,7 @@ WRAPPERS = [
   { "name": "USPS", "url": "https://www.usps.com"},
   { "name": "MTA", "url": "https://www.mta.info" },
   { "name": "China EMS", "url": "https://www.ems.com.cn"},
+  { "name": "Tripadvisor", "url": "https://www.tripadvisor.com"},
   { "name": "UHS", "url": "https://www.uhs.com" },
   { "name": "Delta Dental", "url": "https://www.deltadental.com", "keyify_name": "deltadental" },
   { "name": "Women's Health", "url": "https://www.womenshealthmag.com", "keyify_name": "womenshealth" },
@@ -237,6 +239,8 @@ WRAPPERS = [
   { "name": "China Firewall Test", "url": "https://www.chinafirewalltest.com" },
   { "name": "Counterpoint Research", "url": "https://counterpointresearch.com" },
   { "name": "OpenBenchmarking.org", "url": "https://openbenchmarking.org", "keyify_name": "openbenchmarking"},
+  { "name": "Cloudflare Speed Test", "url": "https://speed.cloudflare.com", "keyify_name": "cloudflare" },
+  { "name": "My Location", "url": "https://my-location.org" },
   { "name": "NUKEMAP", "url": "https://nuclearsecrecy.com/nukemap" },
   { "name": "NY Times", "url": "https://www.nytimes.com" , "keyify_name": "nytimes"},
   { "name": "Netflix", "url": "https://www.netflix.com" },
@@ -432,6 +436,8 @@ WRAPPERS = [
   { "name" : "Shanghai Jiao Tong University (上海交通大学)", "url": "https://www.sjtu.edu.cn", "keyify_name": "sjtu" },
   { "name" : "Zhejiang University (浙江大学)", "url": "https://www.zju.edu.cn", "keyify_name": "zju" },
   { "name" : "Nanjing University (南京大学)", "url": "https://www.nju.edu.cn", "keyify_name": "nju" },
+
+  { "name" : "hao123", "url": "https://www.hao123.com" },
 
   { "name" : "Yande", "url": "https://yande.re" },
   { "name" : "MissAV TV", "url": "https://missavtv.com/en" },

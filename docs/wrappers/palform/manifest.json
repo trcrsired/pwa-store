@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/palform",
+  "name": "Palform",
+  "short_name": "Palform",
+  "start_url": "/wrappers/palform/?source=pwa",
+  "scope": "/wrappers/palform/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Palform",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/palform/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
