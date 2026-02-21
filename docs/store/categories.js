@@ -161,6 +161,13 @@ export const categories = [
         url: "https://ol.woobx.cn"
       },
       {
+        name: "Cartes",
+        nameKey: "cartes_name",
+        descriptionKey: "cartes_desc",
+        icon: "icons/pwa/cartes.webp",
+        url: "https://cartes.app"
+      },
+      {
         name: "Weather & Climate",
         nameKey: "weatherclimate_name",
         descriptionKey: "weatherclimate_desc",
