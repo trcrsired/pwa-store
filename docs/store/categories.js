@@ -107,6 +107,13 @@ export const categories = [
         icon: "icons/pwa/wormhole.webp",
         url: "https://wormhole.app"
       },
+      {
+        name: "PWA Geolocation",
+        nameKey: "pwageolocation_name",
+        descriptionKey: "pwageolocation_desc",
+        icon: "icons/pwa/pwageolocation.webp",
+        url: "https://pwa-geolocation.pages.dev"
+      },
     ]
   },
   {

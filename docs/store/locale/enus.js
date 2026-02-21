@@ -98,6 +98,8 @@ const L = {
   openstreetmap_desc: "Opens OpenStreetMap, a collaborative open‑source world map built and edited by a global community.",
   wormhole_name: "Wormhole",
   wormhole_desc: "Opens Wormhole, a secure end‑to‑end encrypted file‑sharing service for fast, temporary, link‑based transfers.",
+  pwageolocation_name: "PWA Geolocation",
+  pwageolocation_desc: "Opens PWA Geolocation, a lightweight Progressive Web App that displays real‑time coordinates, speed, altitude, and accuracy using the Web Geolocation API.",
   "alternatives_name": "Alternatives",
   qrcodetools_name: "QR Code Tools",
   qrcodetools_desc: "Generate, scan, and manage QR codes with ease. Ideal for developers, marketers, and everyday users.",
