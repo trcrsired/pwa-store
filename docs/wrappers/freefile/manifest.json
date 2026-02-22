@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/freefile",
+  "name": "Free File",
+  "short_name": "Free File",
+  "start_url": "/wrappers/freefile/?source=pwa",
+  "scope": "/wrappers/freefile/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Free File",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/freefile/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

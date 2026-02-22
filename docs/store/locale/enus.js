@@ -1684,6 +1684,8 @@ const L = {
   analyticsusagov_desc: "analytics.usa.gov provides real‑time and historical web traffic data for U.S. federal government websites. It is operated by the GSA’s Digital Analytics Program and aggregates metrics such as active users, page views, downloads, and agency‑specific analytics across government domains.",
   idme_name: "ID.me",
   idme_desc: "ID.me is a private digital identity platform trusted by U.S. government agencies for secure online access. It helps users verify their identity, access public services, and unlock exclusive benefits for verified groups like military personnel, students, and first responders.",
+  freefile_name: "Free File Fillable Forms",
+  freefile_desc: "Opens Free File Fillable Forms, the IRS-supported platform that lets you complete and e-file federal tax forms online for free using digital versions of standard IRS documents.",
   cngov_name: "Chinese Government🇨🇳",
   govcn_name: "Chinese Government",
   govcn_desc: "Official portal of China's central government, providing policy updates, news, and public services.",

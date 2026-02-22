@@ -1675,6 +1675,8 @@ const L = {
   analyticsusagov_desc: "analytics.usa.gov 提供美国联邦政府网站的实时与历史访问数据，由 GSA 的数字分析项目（DAP）运营，汇总活跃用户、页面浏览量、文件下载量以及各政府机构的访问分析等指标。",
   idme_name: "ID.me",
   idme_desc: "ID.me 是一个私人数字身份平台，受到美国政府机构的信任，用于安全的在线访问。它帮助用户验证身份，访问公共服务，并为军人、学生、急救人员等认证群体提供专属福利。",
+  freefile_name: "Free File Fillable Forms",
+  freefile_desc: "打开 Free File Fillable Forms，这是美国国税局支持的在线平台，可免费填写并电子申报联邦税表，提供 IRS 标准表格的可填写数字版本。",
   cngov_name: "中国政府🇨🇳",
   govcn_name: "中国政府网",
   govcn_desc: "中国中央政府的官方网站，提供政策发布、新闻资讯和政务服务。",

@@ -6434,7 +6434,16 @@ export const categories = [
         descriptionKey: "idme_desc",
         apptype2: "wrapper",
         url: "https://id.me"
-      }
+      },
+      {
+        name: "Free File Fillable Forms",
+        nameKey: "freefile_name",
+        descriptionKey: "freefile_desc",
+        icon: "icons/wrappers/freefile.webp",
+        url2: "/wrappers/freefile",
+        apptype2: "wrapper",
+        url: "https://www.freefilefillableforms.com"
+      },
     ]
   },
   {
