@@ -4270,6 +4270,13 @@ export const categories = [
         url: "https://community.home-assistant.io"
       },
       {
+        name: "ChinWag",
+        nameKey: "chinwag_name",
+        descriptionKey: "chinwag_desc",
+        icon: "icons/pwa/chinwag.webp",
+        url: "https://chinwag.pluralistic.net"
+      },
+      {
         name: "RA2 DIY",
         nameKey: "ra2diy_name",
         descriptionKey: "ra2diy_desc",
