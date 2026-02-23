@@ -8,8 +8,6 @@
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
-  "orientation": "any",
-  "lang": "en",
   "icons": [
     {
       "src": "/store/logo/logo.webp",
