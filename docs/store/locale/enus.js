@@ -432,6 +432,8 @@ const L = {
   tumblr_desc: "Tumblr is a microblogging and social media platform founded by David Karp in 2007 and is owned by American company Automattic. The service allows users to post multimedia and other content to a short-form blog.",
   elk_desc: "Elk is a nimble Mastodon web client with a clean and modern interface, support for multiple accounts, posting in rich text, and more. Plus, it's free and open source!",
   groupme_desc: "GroupMe — the free and simple way to stay in touch with friends and family, quickly and easily",
+  fluxer_name: "Fluxer",
+  fluxer_desc: "Opens Fluxer, a free and open source instant messaging and VoIP platform built for friends, groups, and communities.",
   discord_desc: "Voice, video, and text platform for communities, creators, and friends — organized around invite-only servers and topic-based channels.",
   telegram_name: "Telegram",
   telegram_desc: "Cloud-based messaging app offering fast, secure communication with support for large groups, media sharing, and cross-device sync.",
