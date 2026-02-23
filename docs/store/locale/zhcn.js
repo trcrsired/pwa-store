@@ -432,6 +432,8 @@ const L = {
   tumblr_desc: "Tumblr 是一个由 David Karp 于 2007 年创立的微博客和社交媒体平台，目前由美国公司 Automattic 所拥有。用户可以在平台上发布多媒体内容及其他信息，创建简洁的博客。",
   elk_desc: "Elk 是一款轻巧灵活的 Mastodon 网页客户端，拥有简洁现代的界面，支持多账户、富文本发布等功能。而且，它是免费且开源的！",
   groupme_desc: "GroupMe — 免费且简单的方式，让你快速轻松地与亲朋好友保持联系。",
+  fluxer_name: "Fluxer",
+  fluxer_desc: "打开 Fluxer，一个为朋友、群组和社区打造的免费开源即时通讯与语音通话平台。",
   discord_desc: "为社区、创作者和朋友提供语音、视频和文本交流的平台，基于邀请制服务器和主题频道组织。",
   telegram_name: "电报(Telegram)",
   telegram_desc: "基于云的消息应用，提供快速、安全的通信，支持大型群组、媒体分享和跨设备同步。",

@@ -1355,6 +1355,13 @@ export const categories = [
         descriptionKey: "groupme_desc"
       },
       {
+        name: "Fluxer",
+        nameKey: "fluxer_name",
+        descriptionKey: "fluxer_desc",
+        icon: "icons/pwa/fluxer.webp",
+        url: "https://web.fluxer.app"
+      },
+      {
         name: "Discord",
         icon: "icons/pwa/discord.webp",
         url: "https://discord.com/app",
