@@ -1075,6 +1075,8 @@ const L = {
   youku_desc: "优酷是由阿里巴巴集团旗下运营的视频流媒体服务，前身为视频分享网站，总部位于北京。",
   eightbook_name: "8book",
   eightbook_desc: "打开 8book 小说网站，提供玄幻、武侠、言情等多类型网络小说阅读。",
+  weebcentral_name: "WeebCentral",
+  weebcentral_desc: "打开 WeebCentral，一个面向二次元、动漫与同好社区的社交平台，用于聊天、分享与交流。",
   lightnovel_name: "轻之国度",
   lightnovel_desc: "中国最早的轻小说社区之一，提供连载翻译、作者档案和动漫风格文学，界面简洁，适合移动浏览。",
   wechatread_name: "微信读书",

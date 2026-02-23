@@ -3618,6 +3618,13 @@ export const categories = [
         icon: "icons/pwa/8book.webp",
         url: "https://8book.com"
       },
+      {
+        name: "WeebCentral",
+        nameKey: "weebcentral_name",
+        descriptionKey: "weebcentral_desc",
+        icon: "icons/pwa/weebcentral.webp",
+        url: "https://weebcentral.com"
+      },
       { name: "Lightnovel Kingdom (轻之国度)", nameKey: "lightnovel_name", descriptionKey: "lightnovel_desc", icon: "icons/wrappers/lightnovelkingdom.webp", url2: "/wrappers/lightnovelkingdom", apptype2: "wrapper", url: "https://www.lightnovel.fun/cn" },
       { name: "WeChat Read (微信读书)", nameKey: "wechatread_name", descriptionKey: "wechatread_desc", icon: "icons/wrappers/wechatread.webp", url2: "/wrappers/wechatread", apptype2: "wrapper", url: "https://weread.qq.com" },
       { name: "Qingting FM (蜻蜓FM)", nameKey: "qingtingfm_name", descriptionKey: "qingtingfm_desc", icon: "icons/wrappers/qingtingfm.webp", apptype2: "wrapper", url: "https://www.qtfm.cn" },

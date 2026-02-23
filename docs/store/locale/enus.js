@@ -1081,6 +1081,8 @@ const L = {
   youku_desc: "Youku Tudou Inc., doing business as Youku, is a video streaming service and former video sharing website based in Beijing, China. It operates as a subsidiary of Alibaba Group Holding Limited.",
   eightbook_name: "8book",
   eightbook_desc: "Opens 8book, a Chinese online fiction site offering fantasy, wuxia, romance, and other genres.",
+  weebcentral_name: "WeebCentral",
+  weebcentral_desc: "Opens WeebCentral, a social platform for anime, manga, and fandom communities to chat, share, and connect.",
   lightnovel_name: "Lightnovel Kingdom (轻之国度)",
   lightnovel_desc: "One of China’s longest-running light novel communities, offering serialized fan translations, author archives, and anime-inspired literature in a minimalist interface optimized for mobile browsing.",
   wechatread_name: "WeChat Read (微信读书)",
