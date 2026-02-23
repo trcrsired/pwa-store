@@ -5435,6 +5435,14 @@ export const categories = [
         url: "#小程序://小米Lite/Ucz9WAJA9dTOalA",
         apptype: "wechatmini"
       },
+      {
+        name: "Eastkaokao (东方一串)",
+        nameKey: "eastkaokao_name",
+        descriptionKey: "eastkaokao_desc",
+        icon: "icons/wechatmini/eastkaokao.webp",
+        apptype: "wechatmini",
+        url: "#小程序://东方一串/lpPCacMREe9d51q"
+      },
     ]
   },
   {

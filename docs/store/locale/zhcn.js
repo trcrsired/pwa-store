@@ -2050,6 +2050,8 @@ const L = {
   microsoftstorewechat_desc: "打开微软官方商城小程序，可查看并购买微软设备与配件。",
   xiaomilite_name: "小米Lite",
   xiaomilite_desc: "打开小米Lite小程序，可浏览和购买小米产品。",
+  eastkaokao_name: "东方一串",
+  eastkaokao_desc: "通过其微信小程序链接打开东方一串。",
   tencenthealth_name: "腾讯健康",
   tencenthealth_desc: "腾讯健康提供健康管理、预约挂号及多种医疗服务，助您全面掌握健康状况。",
   keep_name: "Keep运动助手",
