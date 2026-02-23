@@ -485,6 +485,8 @@ const L = {
   kook_desc: "打开开黑啦，一个支持频道、语音房、直播与 Bot 的社群聊天平台。",
   zulip_name: "Zulip",
   zulip_desc: "打开 Zulip，一个以话题化线程为核心的开源团队沟通平台。",
+  spaccamient_name: "Spaccamient",
+  spaccamient_desc: "打开 Spaccamient，一个基于 Element Web 的移动优先 Matrix 客户端，专注于稳定性、性能与更佳的移动端体验。",
   tieba_name: "贴吧",
   tieba_desc: "百度的兴趣社区平台，用户在特定主题的贴吧中分享帖子、媒体和讨论。在移动端需使用安卓版微软Edge浏览器，并通过添加 ArkWeb 到 UA 字符串来绕过贴吧小程序的检测。",
   finance_name: "金融",

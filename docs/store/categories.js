@@ -1659,6 +1659,15 @@ export const categories = [
         url: "https://zulip.com"
       },
       {
+        name: "Spaccamient",
+        nameKey: "spaccamient_name",
+        descriptionKey: "spaccamient_desc",
+        icon: "icons/wrappers/spaccamient.webp",
+        url2: "/wrappers/spaccamient",
+        apptype2: "wrapper",
+        url: "https://spacc-inc.github.io/Spaccamient"
+      },
+      {
         name: "Tencent Meeting (腾讯会议)",
         nameKey: "tencentmeeting_name",
         icon: "icons/wechatmini/tencentmeeting.webp",
