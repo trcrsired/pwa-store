@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/mobilede",
+  "name": "mobile.de",
+  "short_name": "mobile.de",
+  "start_url": "/wrappers/mobilede/?source=pwa",
+  "scope": "/wrappers/mobilede/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for mobile.de",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/mobilede/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

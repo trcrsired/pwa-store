@@ -314,6 +314,7 @@ WRAPPERS = [
   { "name": "CleanTechnica", "url": "https://cleantechnica.com" },
   { "name": "The Drive", "url": "https://www.thedrive.com" },
   { "name": "驾考宝典", "url": "https://www.jiakaobaodian.com", "keyify_name": "jiakaobaodian" },
+  { "name": "mobile.de", "url": "https://www.mobile.de", "keyify_name": "mobilede" },
   { "name": "Ticketmaster", "url": "https://www.ticketmaster.com" },
   { "name": "Ctrip", "url": "https://www.ctrip.com" },
   { "name": "Tao Piao Piao", "url": "https://www.taopiaopiao.com", "keyify_name":"taopiaopiao" },

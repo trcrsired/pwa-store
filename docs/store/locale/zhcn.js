@@ -1560,6 +1560,8 @@ const L = {
   thedrive_desc: "打开 The Drive，一个专注汽车、电动车、交通科技、汽车文化与行业新闻的媒体平台。",
   jiakaobaodian_name: "驾考宝典",
   jiakaobaodian_desc: "中国领先的驾考平台，提供最新题库、多语言考试准备与全流程学习指导。在安卓版微软Edge浏览器中，请先登录账户，登录后可安装为 PWA 应用。",
+  mobilede_name: "mobile.de",
+  mobilede_desc: "打开 mobile.de，德国最大的汽车、摩托车及商用车在线交易平台。",
   tickets_name: "票",
   fandango_name: "Fandango",
   fandango_desc: "Fandango 是领先的电影票务与娱乐平台。您可以浏览放映时间、观看预告片、阅读影评，并提前预订美国各地影院的座位。无论是计划外出观影，还是追看最新大片，Fandango 都能让您的观影体验更加轻松便捷。",

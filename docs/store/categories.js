@@ -5760,6 +5760,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.jiakaobaodian.com"
       },
+      {
+        name: "mobile.de",
+        nameKey: "mobilede_name",
+        descriptionKey: "mobilede_desc",
+        icon: "icons/wrappers/mobilede.webp",
+        url2: "/wrappers/mobilede",
+        apptype2: "wrapper",
+        url: "https://www.mobile.de"
+      },
     ]
   },
   {
