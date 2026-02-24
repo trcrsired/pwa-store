@@ -406,6 +406,8 @@ const L = {
   yewtube_desc: "Opens Yewtu.be, a privacy‑friendly Invidious YouTube front‑end with no ads or tracking.",
   pixelfed_name: "Pixelfed",
   pixelfed_desc: "Opens Pixelfed.social, a decentralized photo‑sharing platform built on ActivityPub.",
+  stoat_name: "Stoat",
+  stoat_desc: "Opens Stoat, an open‑source chat platform built to be secure, customizable, and community‑focused, with a mission to reinvent communication.",
   loopsvideo_name: "Loops.video",
   loopsvideo_desc: "Opens Loops.video, a platform for creating and sharing short looping videos.",
   piefed_name: "Piefed",

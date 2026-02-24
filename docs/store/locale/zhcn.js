@@ -406,6 +406,8 @@ const L = {
   yewtube_desc: "打开 Yewtu.be，一个无广告、无跟踪的隐私友好型 Invidious YouTube 前端。",
   pixelfed_name: "Pixelfed",
   pixelfed_desc: "打开 Pixelfed.social，一个基于 ActivityPub 的去中心化照片分享平台。",
+  stoat_name: "Stoat",
+  stoat_desc: "打开 Stoat，一个开源、注重安全与可定制性的聊天平台，以社区为核心，致力于重新定义沟通方式。",
   loopsvideo_name: "Loops.video",
   loopsvideo_desc: "打开 Loops.video，一个用于创建与分享短循环视频的平台。",
   piefed_name: "Piefed",

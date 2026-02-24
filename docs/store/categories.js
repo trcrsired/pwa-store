@@ -1556,6 +1556,13 @@ export const categories = [
         url: "https://pixelfed.social"
       },
       {
+        name: "Stoat",
+        nameKey: "stoat_name",
+        descriptionKey: "stoat_desc",
+        icon: "icons/pwa/stoat.webp",
+        url: "https://stoat.chat/app"
+      },
+      {
         name: "Loops.video",
         nameKey: "loopsvideo_name",
         descriptionKey: "loopsvideo_desc",
