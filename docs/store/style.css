@@ -654,3 +654,19 @@ a:hover {
 .app-url {
   overflow-wrap: anywhere;
 }
+
+.nsfw-badge {
+    margin-left: 6px;
+    padding: 2px 4px;
+    font-size: 10px;
+    background: #b30000;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.category-title {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* optional, but looks clean */
+}

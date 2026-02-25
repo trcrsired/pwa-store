@@ -134,6 +134,7 @@ const renderAppCard = (app) => {
     <img src="${app.icon}" alt="${localizedName}" class="app-icon" loading="lazy" decoding="async" />
     <div class="app-name">${localizedName}</div>
     <div class="app-description">${localizedDescription}</div>
+    ${app.nsfw ? `<span class="nsfw-badge">NSFW</span>` : ''}
     ${showBadge ? `<span class="apptype-badge">${L(app.apptype) || app.apptype}</span>` : ''}
   `;
 
@@ -248,7 +249,12 @@ const renderCategory = (category, forceExpand = false) => {
   // Create category heading
   const heading = document.createElement('h2');
   const localizedCategoryName = category.nameKey ? L(category.nameKey) : category.name;
-  heading.textContent = localizedCategoryName;
+  heading.innerHTML = `
+    <span class="category-title">
+      ${localizedCategoryName}
+      ${category.nsfw ? '<span class="nsfw-badge">NSFW</span>' : ''}
+    </span>
+  `;
   heading.className = 'category-heading';
 
   // Create container for app cards
