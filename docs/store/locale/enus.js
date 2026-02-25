@@ -1874,6 +1874,8 @@ const L = {
   spankbang_desc: "Free adult video streaming site.",
   hentaihaven_name: "Hentai Haven",
   hentaihaven_desc: "Hentai-focused adult media platform.",
+  txxx_name: "TXXX",
+  txxx_desc: "Watch adult videos online on desktop or mobile devices. The platform offers a wide range of full‑length HD content, and users can upload their own videos to the community.",
   missavtv_name: "MissAV TV",
   missavtv_desc: "Japanese adult video index.",
   xnxx_name: "XNXX.COM",

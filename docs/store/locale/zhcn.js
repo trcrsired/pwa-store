@@ -1869,6 +1869,8 @@ const L = {
   spankbang_desc: "免费成人视频流媒体平台。",
   hentaihaven_name: "Hentai Haven",
   hentaihaven_desc: "专注于本子类内容的成人媒体平台。",
+  txxx_name: "TXXX",
+  txxx_desc: "在电脑或移动设备上在线观看成人视频。该平台提供各种高清完整版内容，用户还可以将自己的视频上传到社区。",
   missavtv_name: "MissAV TV",
   missavtv_desc: "日本成人影片索引平台。",
   xnxx_name: "XNXX.COM",

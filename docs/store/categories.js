@@ -7332,6 +7332,13 @@ export const categories = [
         url: "https://hentaihaven.xxx"
       },
       {
+        name: "TXXX",
+        nameKey: "txxx_name",
+        descriptionKey: "txxx_desc",
+        icon: "icons/pwa/txxx.webp",
+        url: "https://txxx.com"
+      },
+      {
         name: "MissAV TV",
         nameKey: "missavtv_name",
         descriptionKey: "missavtv_desc",
