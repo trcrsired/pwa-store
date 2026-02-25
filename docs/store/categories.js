@@ -2883,6 +2883,13 @@ export const categories = [
         url: "https://iptv-org.github.io"
       },
       {
+        name: "IPTV HD Player",
+        nameKey: "iptvhdplayer_name",
+        descriptionKey: "iptvhdplayer_desc",
+        icon: "icons/pwa/iptvhdplayer.webp",
+        url: "https://iptvhdplayer.com"
+      },
+      {
         name: "Internet Archive",
         nameKey: "archive_name",
         descriptionKey: "archive_desc",

@@ -778,6 +778,8 @@ const L = {
   annasarchivezh_desc: "Anna's Archive (Chinese) is a localized mirror of the open-source digital library index, offering access to books, papers, and magazines in a simplified Chinese interface.",
   iptvorg_name: "iptv-org",
   iptvorg_desc: "Opens iptv-org, a community-driven index of global IPTV channels and playlists.",
+  iptvhdplayer_name: "IPTV HD Player",
+  iptvhdplayer_desc: "Opens IPTV HD Player, a web-based IPTV streaming player for loading and watching IPTV playlists.",
   canva_name: "Canva",
   canva_desc: "Canva is a powerful online design platform that makes it easy for anyone to create stunning visuals. From social media posts and presentations to marketing materials and videos, Canva offers thousands of templates and intuitive tools—all in one place.",
   figma_name: "Figma",

@@ -772,6 +772,8 @@ const L = {
   annasarchivezh_desc: "安娜的档案(中文)是该开源数字图书馆索引的中文镜像，提供简体中文界面下的书籍、论文和杂志访问服务。",
   iptvorg_name: "iptv-org",
   iptvorg_desc: "打开 iptv-org，一个由社区维护的全球 IPTV 频道与播放源索引平台。",
+  iptvhdplayer_name: "IPTV HD Player",
+  iptvhdplayer_desc: "打开 IPTV HD Player，一个用于加载和观看 IPTV 播放列表的网页播放器。",
   canva_name: "可画",
   canva_desc: "可画是一款功能强大的在线设计平台，让任何人都能轻松创作出令人惊艳的视觉作品。无论是社交媒体内容、演示文稿、营销素材还是视频，可画都提供海量模板和直观工具，一站式满足你的设计需求。",
   figma_name: "Figma",
