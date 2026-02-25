@@ -178,6 +178,8 @@ const L = {
   alice_desc: "Alice (Алиса) is Yandex's Russian generative AI assistant, offering chat, text, image, and file analysis features integrated with Yandex services.",
   wenxin_name: "Wenxin (文心助手)",
   wenxin_desc: "Opens Baidu's Wenxin, a multimodal AI platform for writing, images, coding, translation, and more.",
+  antafu_name: "Antafu (蚂蚁阿福)",
+  antafu_desc: "Opens Antafu (蚂蚁阿福), an AI health assistant from Ant Group offering free health Q&A, report interpretation, and digital medical services.",
   "cursor_name": "Cursor",
   "cursor_desc": "Cursor is an AI-powered coding assistant that helps developers write, refactor, and debug code across platforms. Its autonomous agents can generate files, run terminal commands, and analyze entire codebases—available via web, CLI, and Slack.",
   "outlook_desc": "Webmail and calendar by Microsoft.",

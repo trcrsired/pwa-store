@@ -326,6 +326,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://chat.baidu.com"
       },
+      {
+        name: "Antafu (蚂蚁阿福)",
+        nameKey: "antafu_name",
+        descriptionKey: "antafu_desc",
+        icon: "icons/msedge/antafu.webp",
+        url2: "/msedge/antafu",
+        apptype2: "wrapper",
+        url: "https://chat.antafu.com/?source=https://pwa-store-7x5.pages.dev"
+      },
     ]
   },
   {

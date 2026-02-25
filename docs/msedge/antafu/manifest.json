@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/antafu",
+  "name": "\u8682\u8681\u963f\u798f",
+  "short_name": "\u8682\u8681\u963f\u798f",
+  "start_url": "/msedge/antafu/?source=pwa",
+  "scope": "/msedge/antafu/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u8682\u8681\u963f\u798f",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/antafu/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
