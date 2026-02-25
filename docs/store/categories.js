@@ -7425,6 +7425,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://en.luxuretv.com"
       },
+      {
+        name: "Beeg",
+        nameKey: "beeg_name",
+        descriptionKey: "beeg_desc",
+        icon: "icons/wrappers/beeg.webp",
+        url2: "/wrapper/beeg",
+        apptype2: "wrapper",
+        url: "https://beeg.com"
+      },
     ]
   }
 ];

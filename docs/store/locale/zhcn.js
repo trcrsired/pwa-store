@@ -1891,6 +1891,8 @@ const L = {
   avdanyuwiki_desc: "Avdanyuwiki是一个由社区维护的百科平台，专注于收录日本AV男女优的资料、作品年表与职业信息。平台提供结构化元数据、历史记录与标签交叉索引，适合爱好者与研究者使用。内容可能包括照片、别名、出道时间与所属片商等信息。",
   luxuretv_name: "LuxureTV",
   luxuretv_desc: "LuxureTV 是一个成人视频平台，汇集了经典成人内容、素人素材以及更多小众类别。它将自己定位为一个用户可以探索各种成人主题的地方，包括那些被认为非常规或难以找到的主题。",
+  beeg_name: "Beeg",
+  beeg_desc: "在 Beeg.tv 上播放完整的高清成人视频。该平台提供各种类别的高质量内容，播放速度快、流畅，并且全部可供免费观看。",
 // WeChat Mini Programs
   miniprogramdemo_name: "小程序示例",
   miniprogramdemo_desc: "这是一个微信小程序示例，展示了基础功能如页面跳转、组件使用和接口调用，适合开发者学习和参考微信小程序开发框架。",

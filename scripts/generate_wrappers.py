@@ -448,6 +448,7 @@ WRAPPERS = [
   { "name" : "Supjav", "url": "https://supjav.com" },
   { "name" : "avdanyuwiki", "url": "https://avdanyuwiki.com" },
   { "name" : "LuxureTV", "url": "https://en.luxuretv.com" },
+  { "name" : "Beeg", "url": "https://beeg.com" },
 
 #  { "name" : "Proxy SwitchyOmega (V3)", "url": "extension://fnbemgdobbciiofjfaoaajboakejkdbo/options.html", "keyify_name": "proxyswitchyomegav3" , "apptype": "extension" },
 ]

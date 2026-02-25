@@ -1896,6 +1896,8 @@ const L = {
   avdanyuwiki_desc: "Avdanyuwiki is a community-driven wiki platform that catalogs profiles, filmographies, and career data of Japanese AV actors and actresses. It provides structured metadata, historical records, and cross-referenced tags for enthusiasts and researchers. Content may include images, aliases, debut dates, and studio affiliations.",
   luxuretv_name: "LuxureTV",
   luxuretv_desc: "LuxureTV is an adult video platform that brings together classic adult content, amateur material, and more niche categories. It positions itself as a place where users can explore a wide range of adult themes, including those considered unconventional or hard to find.",
+  beeg_name: "Beeg",
+  beeg_desc: "Stream full‑length HD adult videos on Beeg.tv. The platform offers high‑quality content across a wide range of categories with fast, smooth playback, all available to watch for free.",
 // WeChat Mini Programs
   miniprogramdemo_name: "Mini Program Demo (小程序示例)",
   miniprogramdemo_desc: "This is a demonstration Mini Program showcasing basic WeChat Mini Program capabilities, including navigation, UI components, and API integration. It serves as a reference for developers exploring the Mini Program framework.",
