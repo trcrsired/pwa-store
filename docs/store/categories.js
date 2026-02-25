@@ -7416,6 +7416,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://avdanyuwiki.com",
       },
+      {
+        name: "LuxureTV",
+        nameKey: "luxuretv_name",
+        descriptionKey: "luxuretv_desc",
+        icon: "icons/wrappers/luxuretv.webp",
+        url2: "/wrapper/luxuretv",
+        apptype2: "wrapper",
+        url: "https://en.luxuretv.com"
+      },
     ]
   }
 ];
