@@ -303,6 +303,9 @@ const renderCategory = (category, forceExpand = false) => {
   return section;
 };
 
+function isNSFWAllowed() {
+  return localStorage.getItem("hiddenfeatures") === "true";
+}
 
 // 🔄 Render the app store with search, type filters, and hide flag
 const renderStore = (filterText = '') => {
@@ -320,9 +323,15 @@ const renderStore = (filterText = '') => {
   const showNative = document.getElementById('filter-native')?.checked;
 
   categories.forEach((category) => {
+    const nsfwUnlocked = isNSFWAllowed();
+    if (category.nsfw && !nsfwUnlocked)
+    {
+      return;
+    }
     const categoryText = category.__searchText || `${(category.nameKey ? L(category.nameKey) : category.name)} ${category.name}`.toLowerCase();
 
     const filteredApps = category.apps.filter(app => {
+      if (app.nsfw && !nsfwUnlocked) return false;
       // 🚫 Skip hidden apps immediately
       if (app.hide) return false;
 

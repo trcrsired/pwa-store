@@ -7299,6 +7299,7 @@ export const categories = [
   {
     name: "Adult",
     nameKey: "adult_name",
+    nsfw: true,
     apps: [
       { name: "CrashOn.AI", icon: "icons/pwa/crushonai.webp", url: "https://crushon.ai", nameKey: "crushonai_name", descriptionKey: "crushonai_desc" },
       { name: "Girlfriend AI", icon: "icons/pwa/girlfriendai.webp", url: "https://girlfriend.ai", nameKey: "girlfriendai_name", descriptionKey: "girlfriendai_desc" },

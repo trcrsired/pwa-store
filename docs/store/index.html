@@ -11,6 +11,10 @@
 
   <!-- 🧩 Styles -->
   <link rel="stylesheet" href="style.css" />
+  <!-- Light mode -->
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+  <!-- Dark mode -->
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
 
   <!-- 🏷️ Favicon & manifest -->
   <link rel="icon" href="logo/logo.webp" />
@@ -19,6 +23,8 @@
   <!-- ⚙️ Scripts -->
   <script type="module" src="app.js"></script>
   <script type="module" src="lang.js"></script>
+  <script type="module" src="year.js"></script>
+  <script type="module" src="sw-register.js"></script>
   <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -107,6 +113,7 @@
       </a> ·
       <span id="footer-license"><strong>GPL-3.0</strong></span> ·
       <span id="footer-contribution">Contributions and donations welcome 💖</span>
+      <span id="footer-year"></span>
     </div>
   </footer>
 
