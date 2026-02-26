@@ -1318,6 +1318,8 @@ const L = {
   poppyramidnet_desc: "打开 PopulationPyramid.net，一个展示全球人口金字塔与人口预测的可视化平台。",
   poppyramidsorg_name: "PopulationPyramids.org",
   poppyramidsorg_desc: "打开 PopulationPyramids.org，一个展示全球人口结构与预测的可视化平台。",
+  repairwiki_name: "维修维基 (Repair Wiki)",
+  repairwiki_desc: "打开维修维基 (Repair Wiki)，一个由社区驱动的维修知识库，提供从手机到医疗设备的维修指南与技术资料。",
   religion_name: "宗教",
   qurancom_name: "古兰经 (Quran.com)",
   qurancom_desc: "简洁、适配移动设备的网站，可阅读和收听《古兰经》，支持多种语言翻译和注释(Tafsir)。",

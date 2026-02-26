@@ -346,6 +346,7 @@ WRAPPERS = [
   { "name": "RepRap", "url": "https://reprap.org" },
   { "name": "PopulationPyramid.net", "url": "https://www.populationpyramid.net", "keyify_name": "poppyramidnet" },
   { "name": "PopulationPyramids.org", "url": "https://www.populationpyramids.org", "keyify_name": "poppyramidsorg" },
+  { "name": "Repair Wiki", "url": "https://repair.wiki" },
   { "name": "REVCOM.US", "url": "https://revcom.us/en", "keyify_name": "revcomus" },
   { "name": "YouVersion Bible", "url": "https://bible.com", "keyify_name": "biblecom" },
   { "name": "Veducation", "url": "https://www.veducation.world" },

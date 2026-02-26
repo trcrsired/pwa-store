@@ -4555,6 +4555,15 @@ export const categories = [
         url: "https://www.populationpyramids.org",
         comment: "scamadviser gives a low score, but i don't see how is this website insecure"
       },
+      {
+        name: "Repair Wiki",
+        nameKey: "repairwiki_name",
+        descriptionKey: "repairwiki_desc",
+        icon: "icons/wrappers/repairwiki.webp",
+        url2: "/wrappers/repairwiki",
+        apptype2: "wrapper",
+        url: "https://repair.wiki"
+      },
     ]
   },
   {

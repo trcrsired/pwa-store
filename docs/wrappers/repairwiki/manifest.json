@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/repairwiki",
+  "name": "Repair Wiki",
+  "short_name": "Repair Wiki",
+  "start_url": "/wrappers/repairwiki/?source=pwa",
+  "scope": "/wrappers/repairwiki/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Repair Wiki",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/repairwiki/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

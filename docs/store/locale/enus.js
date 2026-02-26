@@ -1327,6 +1327,8 @@ const L = {
   poppyramidnet_desc: "Opens PopulationPyramid.net, a demographic visualization site showing global population pyramids and projections.",
   poppyramidsorg_name: "PopulationPyramids.org",
   poppyramidsorg_desc: "Opens PopulationPyramids.org, a global demographic visualization site showing population structures and projections.",
+  repairwiki_name: "Repair Wiki",
+  repairwiki_desc: "Opens Repair Wiki, a community-driven knowledge base offering repair guides and technical resources for devices ranging from phones to medical equipment.",
   religion_name: "Religion",
   qurancom_name: "Quran.com",
   qurancom_desc: "Clean, mobile-optimized site for reading and listening to the Quran. Includes translations and tafsir.",
