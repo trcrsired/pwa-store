@@ -1,5 +1,4 @@
 if ("serviceWorker" in navigator) {
-/*
   navigator.serviceWorker
     .register("./sw.js") // Adjust path if your service worker is elsewhere
     .then((registration) => {
@@ -8,5 +7,4 @@ if ("serviceWorker" in navigator) {
     .catch((error) => {
       console.error("❌ Service Worker registration failed:", error);
     });
-*/
 }
