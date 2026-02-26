@@ -188,6 +188,7 @@ WRAPPERS = [
   { "name": "NSA", "url": "https://www.nsa.gov" },
   { "name": "DOJ", "url": "https://www.justice.gov" },
   { "name": "OMB", "url": "https://www.whitehouse.gov/omb" },
+  { "name": "Freedom.gov", "url": "https://freedom.gov", "keyify_name": "freedomgov" },
   { "name": "NASA", "url": "https://www.nasa.gov" },
   { "name": "White House", "url": "https://www.whitehouse.gov", "keyify_name": "whitehouse" },
   { "name": "analytics.usa.gov", "url": "https://analytics.usa.gov", "keyify_name": "analyticsusagov", "apptype": "msedge" },

@@ -1696,6 +1696,8 @@ const L = {
   doj_desc: "Department of Justice—enforces federal law, defends the interests of the U.S., and ensures fair and impartial administration of justice.",
   omb_name: "OMB",
   omb_desc: "Office of Management and Budget—oversees federal budget development, agency performance, and regulatory policy across the executive branch.",
+  freedomgov_name: "Freedom.gov",
+  freedomgov_desc: "Opens Freedom.gov, a planned U.S. State Department portal intended to provide access to online content restricted under foreign censorship rules.",
   nasa_name: "NASA",
   nasa_desc: "National Aeronautics and Space Administration—explores space and aeronautics, conducts scientific research, and leads missions to study Earth, the solar system, and the universe. Access news, images, videos, and live coverage of launches and discoveries.",
   whitehouse_name: "White House",

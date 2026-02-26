@@ -1687,6 +1687,8 @@ const L = {
   doj_desc: "执行联邦法律、维护美国利益，并确保公正和公平的司法管理。",
   omb_name: "管理与预算办公室(OMB)",
   omb_desc: "监督联邦预算制定、机构绩效和行政部门的监管政策。",
+  freedomgov_name: "Freedom.gov",
+  freedomgov_desc: "打开 Freedom.gov，这是美国国务院计划推出的门户网站，旨在让用户访问在部分国家被审查或限制的在线内容。",
   nasa_name: "美国国家航空航天局(NASA)",
   nasa_desc: "探索太空与航空技术，开展科学研究，领导地球、太阳系和宇宙的探索任务。访问新闻、图片、视频以及发射和发现的实时报道。",
   whitehouse_name: "白宫",

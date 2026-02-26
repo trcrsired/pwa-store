@@ -6487,6 +6487,15 @@ export const categories = [
         url: "https://www.whitehouse.gov/omb"
       },
       {
+        name: "Freedom.gov",
+        nameKey: "freedomgov_name",
+        descriptionKey: "freedomgov_desc",
+        icon: "icons/wrappers/freedomgov.webp",
+        url2: "/wrappers/freedomgov",
+        apptype2: "wrapper",
+        url: "https://freedom.gov"
+      },
+      {
         name: "NASA",
         nameKey: "nasa_name",
         icon: "icons/wrappers/nasa.webp",

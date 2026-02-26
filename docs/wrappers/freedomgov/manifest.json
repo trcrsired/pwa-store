@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/freedomgov",
+  "name": "Freedom.gov",
+  "short_name": "Freedom.gov",
+  "start_url": "/wrappers/freedomgov/?source=pwa",
+  "scope": "/wrappers/freedomgov/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Freedom.gov",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/freedomgov/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
