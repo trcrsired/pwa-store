@@ -2,9 +2,10 @@ import { categories } from './categories.js';
 import './locale/enus.js';
 import './locale/zhcn.js';
 import { setLocale, L } from './locale/localization.js';
+import { getPreferredLanguage } from './preferedlanguage.js';
 
 function resolveStoreLocale() {
-  const raw = (navigator.language || 'en').toLowerCase();
+  const raw = getPreferredLanguage();
   // Keep this in sync with supported locale files under `docs/store/locale/`.
   const map = {
     zh: 'zhcn',
