@@ -222,6 +222,7 @@ WRAPPERS = [
   { "name": "Moneycontrol", "url": "https://www.moneycontrol.com" },
   { "name": "Free Software Foundations", "url": "https://www.fsf.org", "keyify_name": "fsf" },
   { "name": "librephone", "url": "https://librephone.fsf.org", "icon": "fsf.webp" },
+  { "name": "SF Conservancy", "url": "https://sfconservancy.org/" },
   { "name": "RA2: Chrono Divide", "url": "https://game.chronodivide.com", "keyify_name": "chronodivide" },
   { "name": "Floppy Bird", "url": "https://nebezb.com/floppybird" },
   { "name": "Eaglercraft", "url": "https://eaglercraft.com" },

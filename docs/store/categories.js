@@ -957,6 +957,15 @@ export const categories = [
         apptype2: "wrapper"
       },
       {
+        name: "Software Freedom Conservancy",
+        nameKey: "sfconservancy_name",
+        descriptionKey: "sfconservancy_desc",
+        icon: "icons/wrappers/sfconservancy.webp",
+        url2: "/wrappers/sfconservancy",
+        apptype2: "wrapper",
+        url: "https://sfconservancy.org"
+      },
+      {
         name: "GCC MCF",
         nameKey: "gccmcf_name",
         icon: "icons/wrappers/lhmouse.webp",
