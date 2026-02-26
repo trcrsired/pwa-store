@@ -1194,6 +1194,8 @@ const L = {
   gamerant_desc: "Gaming news, reviews, features, and interviews written by gamers, for gamers.",
   warcraft3_name: "Warcraft III Forum",
   warcraft3_desc: "Blizzard’s official community forum for Warcraft III discussions, updates, and player support.",
+  xboxsupport_name: "Xbox Support",
+  xboxsupport_desc: "Opens Xbox Support, Microsoft's official help center for Xbox consoles, games, accounts, and services.",
   mmochampion_name: "MMO Champion",
   mmochampion_desc: "World of Warcraft-focused news and forum hub featuring patch notes, raid strategies, and community discussions.",
   warcraftlogs_name: "Warcraft Logs",

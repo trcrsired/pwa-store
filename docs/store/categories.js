@@ -4004,6 +4004,13 @@ export const categories = [
         url: "https://us.forums.blizzard.com/en/warcraft3"
       },
       {
+        name: "Xbox Support",
+        nameKey: "xboxsupport_name",
+        descriptionKey: "xboxsupport_desc",
+        icon: "icons/pwa/xboxcloudgaming.webp",
+        url: "https://support.xbox.com"
+      },
+      {
         name: "MMO Champion",
         nameKey: "mmochampion_name",
         descriptionKey: "mmochampion_desc",
