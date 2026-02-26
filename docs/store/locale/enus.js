@@ -903,6 +903,8 @@ const L = {
   themirror_desc: "Opens The Mirror, the U.S. edition of the Mirror brand featuring entertainment, celebrity news, lifestyle stories, and trending American topics.",
   gbnews_name: "GB News",
   gbnews_desc: "Opens GB News, a UK-based news channel offering live news, commentary, politics, lifestyle, and global coverage.",
+  tribuneindia_name: "Tribune India",
+  tribuneindia_desc: "Opens Tribune India, a major Indian English-language news outlet offering national, regional, and international coverage.",
   ameblo_name: "Ameba Blog (アメーバブログ)",
   ameblo_desc: "A popular Japanese blogging platform for personal diaries, celebrity updates, and community interaction.",
   friend_name: "Friend",
