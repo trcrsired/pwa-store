@@ -233,6 +233,7 @@ WRAPPERS = [
   { "name": "United Nations", "url": "https://www.un.org", "keyify_name": "un" },
   { "name": "International Competition Network", "url": "https://www.internationalcompetitionnetwork.org" },
   { "name": "Marie Claire", "url": "https://www.marieclaire.com" },
+  { "name": "FULU", "url": "https://fulu.org" },
   { "name": "悦颜社", "url": "https://yueyanshe.com", "keyify_name": "yueyanshe" },
   { "name": "WWD", "url": "https://wwd.com" },
   { "name": "Harper's Bazaar", "url": "https://www.harpersbazaar.com", "keyify_name": "harpersbazaar" },

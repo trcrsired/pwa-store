@@ -1715,6 +1715,8 @@ const L = {
   un_desc: "联合国是全球唯一一个所有国家汇聚一堂，共同探讨问题并寻求造福全人类解决方案的组织。",
   internationalcompetitionnetwork_name: "国际竞争网络(International Competition Network)",
   internationalcompetitionnetwork_desc: "全球竞争执法机构网络，推动反垄断执法与政策合作。",
+  fulu_name: "FULU",
+  fulu_desc: "打开 FULU 基金会，一个致力于数字所有权、消费者权利与开放维修的非营利组织，通过社区行动与悬赏推动用户重新掌控设备。",
   healthinsurance_name: "健康和保险",
   teethtalkgirl_name: "Teeth Talk Girl",
   teethtalkgirl_desc: "Teeth Talk Girl 是由注册牙科卫生师 Whitney DiFoggio 创建的牙科健康教育网站。它提供循证文章、口腔护理技巧、产品评测和资源，帮助人们改善口腔卫生并做出明智的牙科选择。",

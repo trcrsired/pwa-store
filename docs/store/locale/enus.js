@@ -1724,6 +1724,8 @@ const L = {
   un_desc: "The United Nations (UN) is the only place on Earth where all the world's nations come together to discuss common problems and find shared solutions that benefit all of humanity.",
   internationalcompetitionnetwork_name: "International Competition Network",
   internationalcompetitionnetwork_desc: "A global network of competition authorities promoting antitrust enforcement and policy cooperation.",
+  fulu_name: "FULU",
+  fulu_desc: "Opens FULU Foundation, a nonprofit advocating for digital ownership, consumer rights, and open repair through community-driven initiatives and bounties.",
   healthinsurance_name: "Health & Insurance",
   teethtalkgirl_name: "Teeth Talk Girl",
   teethtalkgirl_desc: "Teeth Talk Girl is a dental health education site created by Whitney DiFoggio, RDH. It offers evidence-based articles, oral care tips, product reviews, and resources to help people improve their oral hygiene and make informed dental decisions.",

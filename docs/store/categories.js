@@ -6674,6 +6674,15 @@ export const categories = [
         url: "https://www.internationalcompetitionnetwork.org",
         apptype2: "wrapper"
       },
+      {
+        name: "FULU Foundation",
+        nameKey: "fulu_name",
+        descriptionKey: "fulu_desc",
+        icon: "icons/wrappers/fulu.webp",
+        url2: "/wrappers/fulu",
+        apptype2: "wrapper",
+        url: "https://fulu.org"
+      },
     ]
   },
   {
