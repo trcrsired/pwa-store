@@ -1100,6 +1100,15 @@ export const categories = [
         url: "https://usebottles.com"
       },
       {
+        name: "Keep Android Open",
+        nameKey: "keepandroidopen_name",
+        descriptionKey: "keepandroidopen_desc",
+        icon: "icons/wrappers/keepandroidopen.webp",
+        url2: "/wrappers/keepandroidopen",
+        apptype2: "wrapper",
+        url: "https://keepandroidopen.org"
+      },
+      {
         name: "Mini Program Demo",
         nameKey: "miniprogramdemo_name",
         descriptionKey: "miniprogramdemo_desc",
