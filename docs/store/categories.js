@@ -270,7 +270,7 @@ export const categories = [
       {
         name: "WolframAlpha", nameKey: "wolframalpha_name", icon: "icons/pwa/wolframalpha.webp", url: "https://www.wolframalpha.com", descriptionKey: "wolframalpha_desc"
       },
-      { name: "LMArena", icon: "icons/pwa/lmarena.webp", url: "https://lmarena.ai", nameKey: "lmarena_name", descriptionKey: "lmarena_desc" },
+      { name: "Arena AI", icon: "icons/wrappers/arenaai.webp", url: "https://arena.ai", nameKey: "arenaai_name", descriptionKey: "arenaai_desc", apptype2: "wrapper", url2: "/wrappers/arenaai" },
       {
         name: "OpenRouter",
         nameKey: "openrouter_name",

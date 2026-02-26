@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/arenaai",
+  "name": "Arena AI",
+  "short_name": "Arena AI",
+  "start_url": "/wrappers/arenaai/?source=pwa",
+  "scope": "/wrappers/arenaai/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Arena AI",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/arenaai/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
