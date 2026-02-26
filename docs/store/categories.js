@@ -6486,6 +6486,7 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.whitehouse.gov/omb"
       },
+/*
       {
         name: "Freedom.gov",
         nameKey: "freedomgov_name",
@@ -6495,6 +6496,7 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://freedom.gov"
       },
+*/
       {
         name: "NASA",
         nameKey: "nasa_name",
