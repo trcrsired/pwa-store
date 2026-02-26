@@ -78,6 +78,7 @@ WRAPPERS = [
   { "name": "蚂蚁阿福", "url": "https://chat.antafu.com/?source=https://pwa-store-7x5.pages.dev", "keyify_name": "antafu", "apptype": "msedge"},
   { "name": "stack.watch", "url": "https://stack.watch", "keyify_name": "stackwatch" },
   { "name": "Digital Survival Challenge", "url": "https://digital-survival-challenge-beta.vercel.app", "keyify_name": "digitalsurvival" },
+  { "name": "PrivSec", "url": "https://privsec.dev" },
   { "name": "Have I Been Pwned", "url": "https://haveibeenpwned.com", "keyify_name": "hibp", "apptype": "msedge" },
   { "name": "NIST Time", "url": "https://www.time.gov", "keyify_name": "timegov" },
   { "name": "aTimeLogger", "url": "https://app.atimelogger.com" },

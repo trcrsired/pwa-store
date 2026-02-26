@@ -54,6 +54,8 @@ const L = {
   "stackwatch_desc": "Track vulnerabilities and security updates across software stacks.",
   digitalsurvival_name: "Digital Survival Challenge",
   digitalsurvival_desc: "Opens Digital Survival Challenge, an interactive online game about digital literacy, privacy, and cybersecurity decision‑making.",
+  privsec_name: "PrivSec",
+  privsec_desc: "Opens PrivSec, a technical privacy and security site offering practical system hardening guides, software recommendations, and threat modeling resources.",
   "microsoft_services_name": "Microsoft Services",
   "msstore_name": "Microsoft Store",
   "msstore_desc": "Microsoft's App Store",

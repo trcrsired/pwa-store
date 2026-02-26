@@ -377,6 +377,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://digital-survival-challenge-beta.vercel.app"
       },
+      {
+        name: "PrivSec",
+        nameKey: "privsec_name",
+        descriptionKey: "privsec_desc",
+        icon: "icons/wrappers/privsec.webp",
+        url2: "/wrappers/privsec",
+        apptype2: "wrapper",
+        url: "https://privsec.dev"
+      },
     ]
   },
   {

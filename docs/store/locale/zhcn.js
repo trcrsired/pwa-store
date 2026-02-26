@@ -38,6 +38,8 @@ const L = {
   "stackwatch_desc": "跟踪软件栈中的漏洞和安全更新。",
   digitalsurvival_name: "数字生存挑战(Digital Survival Challenge)",
   digitalsurvival_desc: "打开 Digital Survival Challenge，一个关于数字素养、隐私保护与网络安全决策的互动在线挑战。",
+  privsec_name: "PrivSec",
+  privsec_desc: "打开 PrivSec，一个提供实用隐私与安全指南的技术站点，涵盖系统强化、软件推荐与威胁模型分析。",
   "time_name": "时间",
   "timeis_desc": "精确查看全球任意地点的当前时间。",
   "everytimezone_desc": "以简洁布局直观展示全球各地的时区。",
