@@ -389,6 +389,8 @@ const L = {
   usebottles_desc: "Opens UseBottles, the official site for Bottles, a Linux tool for managing Wine and Proton environments with ease.",
   keepandroidopen_name: "Keep Android Open",
   keepandroidopen_desc: "Opens Keep Android Open, a community campaign opposing Google's developer verification mandate and advocating for an open Android ecosystem.",
+  jsbin_name: "JSBin",
+  jsbin_desc: "Opens JSBin, an online playground for real-time HTML, CSS, and JavaScript editing, debugging, and sharing.",
   cloudflare_desc: "Cloudflare is a widely adopted platform that provides networking, security, and performance services to enhance the functionality of websites, applications, and online services. It is used by a diverse range of users, from individual developers to large enterprises, due to its robust features and global infrastructure.",
   yandex_name: "Yandex",
   yandex_desc: "Founded by Arkady Volozh, Arkady Borkovsky, and Ilya Segalovich, Yandex is a Russian technology company headquartered in Moscow. It offers a wide range of services including search, maps, cloud computing, streaming media, e-commerce, and ridesharing. Yandex Search is the dominant engine in Russia, supporting text, voice, and image queries with its own independent infrastructure. While Yandex does not use Bing’s API for search results, it collaborates with Bing via the IndexNow protocol to accelerate URL indexing across platforms.",

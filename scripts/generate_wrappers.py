@@ -307,6 +307,7 @@ WRAPPERS = [
   { "name": "GitHub Status", "url": "https://www.githubstatus.com" },
   { "name": "UseBottles", "url": "https://usebottles.com" },
   { "name": "Keep Android Open", "url": "https://keepandroidopen.org" },
+  { "name": "JSBin", "url": "https://jsbin.com" },
   { "name": "WPS", "url": "https://www.wps.com/wpsdocs" },
   { "name": "WPS (CN)", "url": "https://www.kdocs.cn", "keyify_name":"wpscn", "icon":"wps.webp" },
   { "name": "DingTalk", "url": "https://workspace.dingtalk.com" },

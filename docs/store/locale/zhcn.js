@@ -381,6 +381,8 @@ const L = {
   usebottles_desc: "打开 UseBottles，Bottles 的官方网站，用于轻松管理 Linux 上的 Wine 与 Proton 环境。",
   keepandroidopen_name: "Keep Android Open",
   keepandroidopen_desc: "打开 Keep Android Open，这是一个反对谷歌开发者验证政策、倡导保持 Android 开放生态的社区行动。",
+  jsbin_name: "JSBin",
+  jsbin_desc: "打开 JSBin，一个用于实时编辑、调试和分享 HTML、CSS、JavaScript 的在线前端开发环境。",
   linuxtoys_name: "Linux.toys",
   linuxtoys_desc: "打开 Linux.toys，一个收集与 Linux 相关的小工具、玩具和实验的网站。",
   neocities_name: "Neocities",

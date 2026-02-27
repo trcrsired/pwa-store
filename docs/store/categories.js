@@ -1134,6 +1134,15 @@ export const categories = [
         url: "https://keepandroidopen.org"
       },
       {
+        name: "JSBin",
+        nameKey: "jsbin_name",
+        descriptionKey: "jsbin_desc",
+        icon: "icons/wrappers/jsbin.webp",
+        url2: "/wrappers/jsbin",
+        apptype2: "wrapper",
+        url: "https://jsbin.com"
+      },
+      {
         name: "Mini Program Demo",
         nameKey: "miniprogramdemo_name",
         descriptionKey: "miniprogramdemo_desc",
