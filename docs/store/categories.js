@@ -2687,6 +2687,13 @@ export const categories = [
         url: "https://www.404media.co"
       },
       {
+        name: "KDE Discuss",
+        nameKey: "kdediscuss_name",
+        descriptionKey: "kdediscuss_desc",
+        icon: "icons/pwa/kdediscuss.webp",
+        url: "https://discuss.kde.org"
+      },
+      {
         name: "Beebom Gadgets",
         nammeKey: "beebomgadgets_name",
         descriptionKey: "beebomgadgets_desc",
