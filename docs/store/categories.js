@@ -1143,6 +1143,15 @@ export const categories = [
         url: "https://jsbin.com"
       },
       {
+        name: "DEV Community",
+        nameKey: "devto_name",
+        descriptionKey: "devto_desc",
+        icon: "icons/wrappers/devto.webp",
+        url2: "/wrappers/devto",
+        apptype2: "wrapper",
+        url: "https://dev.to"
+      },
+      {
         name: "Mini Program Demo",
         nameKey: "miniprogramdemo_name",
         descriptionKey: "miniprogramdemo_desc",
@@ -1732,6 +1741,15 @@ export const categories = [
         url2: "/wrappers/spaccamient",
         apptype2: "wrapper",
         url: "https://spacc-inc.github.io/Spaccamient"
+      },
+      {
+        name: "NewPipe",
+        nameKey: "newpipe_name",
+        descriptionKey: "newpipe_desc",
+        icon: "icons/msedge/newpipe.webp",
+        url2: "/msedge/newpipe",
+        apptype: "wrapper",
+        url: "https://newpipe.net"
       },
       {
         name: "Tencent Meeting (腾讯会议)",
