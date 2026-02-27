@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/smzdm",
+  "name": "\u4ec0\u4e48\u503c\u5f97\u4e70",
+  "short_name": "\u4ec0\u4e48\u503c\u5f97\u4e70",
+  "start_url": "/msedge/smzdm/?source=pwa",
+  "scope": "/msedge/smzdm/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u4ec0\u4e48\u503c\u5f97\u4e70",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/smzdm/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

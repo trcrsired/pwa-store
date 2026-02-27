@@ -5321,6 +5321,13 @@ export const categories = [
         url: "https://moonstarendicott.com"
       },
       {
+        name: "SMZDM (什么值得买)",
+        nameKey: "smzdm_name",
+        descriptionKey: "smzdm_desc",
+        icon: "icons/msedge/smzdm.webp",
+        url: "https://www.smzdm.com"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",
