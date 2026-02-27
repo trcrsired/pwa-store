@@ -1393,6 +1393,8 @@ const L = {
   cloudflarespeed_desc: "Opens Cloudflare Speed Test, a network diagnostics tool that measures latency, jitter, bandwidth, and routing performance using Cloudflare's global edge network.",
   mylocation_name: "My Location",
   mylocation_desc: "Opens My‑Location.org, a browser‑based geolocation tool that uses device location services or IP fallback to show your coordinates and location details.",
+  idc_name: "IDC",
+  idc_desc: "Opens IDC, a global provider of technology market intelligence, research, and industry insights for IT, telecom, and emerging technologies.",
   nukemap_name: "NUKEMAP",
   nukemap_desc: "Opens NUKEMAP, an educational tool for visualizing the effects of historical nuclear detonations on a map.",
   streaming_name: "Streaming",

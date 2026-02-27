@@ -4826,6 +4826,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://my-location.org"
       },
+      {
+        name: "IDC",
+        nameKey: "idc_name",
+        descriptionKey: "idc_desc",
+        icon: "icons/wrappers/idc.webp",
+        url2: "/wrappers/idc",
+        apptype2: "wrapper",
+        url: "https://www.idc.com"
+      },
     ]
   },
   {

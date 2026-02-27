@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/idc",
+  "name": "IDC",
+  "short_name": "IDC",
+  "start_url": "/wrappers/idc/?source=pwa",
+  "scope": "/wrappers/idc/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for IDC",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/idc/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -1384,6 +1384,8 @@ const L = {
   cloudflarespeed_desc: "打开 Cloudflare Speed Test，一个通过 Cloudflare 全球边缘网络测试延迟、抖动、带宽与路由质量的网络诊断工具。",
   mylocation_name: "我的位置 (My Location)",
   mylocation_desc: "打开 my‑Location.org，一个基于浏览器的定位工具，可使用设备定位服务或 IP 作为后备来显示坐标与位置信息。",
+  idc_name: "IDC",
+  idc_desc: "打开 IDC，这是一家全球领先的科技行业市场研究机构，提供 IT、通信与新兴技术的市场数据与行业洞察。",
   nukemap_name: "NUKEMAP",
   nukemap_desc: "打开 NUKEMAP，用于可视化历史核爆炸影响的教育工具。",
   streaming_name: "流媒体",
