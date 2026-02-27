@@ -1811,6 +1811,9 @@ const L = {
   yale_name: "Yale University",
   yale_desc: "Established in 1701 in New Haven, Connecticut, Yale is an Ivy League university known for its historic campus, strong liberal arts tradition, and influential alumni.",
 
+  danxi_name: "DanXi",
+  danxi_desc: "Opens DanXi, an open-source campus assistant for Fudan University offering schedules, card balance, dorm electricity, library occupancy, and more.",
+
   caltech_name: "California Institute of Technology (Caltech)",
   caltech_desc: "Founded in 1891 in Pasadena, California, Caltech is a premier science and engineering institute, famous for its small size, Nobel Prize-winning faculty, and leadership in space exploration.",
   

@@ -1806,6 +1806,9 @@ const L = {
   yale_name: "耶鲁大学 (Yale University)",
   yale_desc: "耶鲁大学成立于1701年，位于康涅狄格州纽黑文，是常春藤盟校之一，以悠久的校园历史、强大的文科传统和杰出校友闻名。",
 
+  danxi_name: "旦挞校园助手 (DanXi)",
+  danxi_desc: "打开旦挞校园助手，一个复旦大学学生使用的一站式开源校园服务应用，提供课表、校园卡、寝室电量、图书馆人数等功能。",
+
   caltech_name: "加州理工学院 (California Institute of Technology)",
   caltech_desc: "加州理工学院成立于1891年，位于加利福尼亚州帕萨迪纳，是顶尖的科学与工程学府，以小规模、诺贝尔奖得主师资和在太空探索中的领导地位著称。",
 

@@ -428,6 +428,7 @@ WRAPPERS = [
   { "name": "NCBI", "url": "https://www.ncbi.nlm.nih.gov" },
   { "name": "问卷星", "url": "https://www.wjx.cn", "keyify_name": "wenjuanxing" },
 
+  { "name" : "DanXi", "url": "https://danxi.fduhole.com/DanXi" },
   { "name" : "Caltech", "url": "https://www.caltech.edu", "apptype": "msedge" },
   { "name" : "UChicago", "url": "https://www.uchicago.edu", "apptype": "msedge" },
   { "name" : "University of Oxford", "url": "https://www.ox.ac.uk", "keyify_name": "oxford", "apptype": "msedge" },

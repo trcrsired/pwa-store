@@ -7080,6 +7080,15 @@ export const categories = [
         url: "https://www.yale.edu"
       },
       {
+        name: "DanXi",
+        nameKey: "danxi_name",
+        descriptionKey: "danxi_desc",
+        icon: "icons/wrappers/danxi.webp",
+        url2: "/wrappers/danxi",
+        apptype2: "wrapper",
+        url: "https://danxi.fduhole.com/DanXi"
+      },
+      {
         name: "California Institute of Technology (Caltech)",
         nameKey: "caltech_name",
         descriptionKey: "caltech_desc",

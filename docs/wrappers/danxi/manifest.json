@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/danxi",
+  "name": "DanXi",
+  "short_name": "DanXi",
+  "start_url": "/wrappers/danxi/?source=pwa",
+  "scope": "/wrappers/danxi/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for DanXi",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/danxi/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
