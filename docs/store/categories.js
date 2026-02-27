@@ -3890,6 +3890,13 @@ export const categories = [
         url: "https://sr.mihoyo.com/cloud"
       },
       {
+        name: "Minesweeper Online",
+        nameKey: "minesweeperonline_name",
+        descriptionKey: "minesweeperonline_desc",
+        icon: "icons/pwa/minesweeperonline.webp",
+        url: "https://minesweeper.online"
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",

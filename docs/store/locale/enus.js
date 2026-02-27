@@ -1165,6 +1165,8 @@ const L = {
   gokuro_desc: "Opens Gokuro, a minimalist browser puzzle game focused on clean design and quick play sessions.",
   srcloud_name: "Star Rail Cloud (星穹铁道云游戏)",
   srcloud_desc: "Opens the official Honkai: Star Rail Cloud Gaming portal, allowing players to stream the game instantly without downloads or installation.",
+  minesweeperonline_name: "Minesweeper Online",
+  minesweeperonline_desc: "Opens Minesweeper Online, a full-featured platform offering classic Minesweeper, multiplayer modes, rankings, quests, and competitive play.",
   chronodivide_name: "RA2: Chrono Divide",
   chronodivide_desc: "RA2: Chrono Divide is a fan-made, browser-based tribute to the classic Command & Conquer: Red Alert 2. It faithfully recreates the real-time strategy experience with smooth online multiplayer, iconic units, and nostalgic visuals—all without needing to install a thing. Whether you're commanding Soviet forces or leading Allied troops, Chrono Divide lets you relive the tactical thrill of chrono technology and battlefield domination, right from your browser.",
   floppybird_name: "Floppy Bird",
