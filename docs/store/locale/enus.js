@@ -677,6 +677,8 @@ const L = {
   wccftech_desc: "Opens Wccftech, a site covering technology news, hardware reviews, gaming, and industry updates.",
   "404media_name": "404 Media",
   "404media_desc": "Opens 404 Media, an independent tech-focused investigative journalism outlet covering digital rights, cybersecurity, and online culture.",
+  kdediscuss_name: "KDE Discuss",
+  kdediscuss_desc: "Opens KDE Discuss, the official community forum for KDE users and developers to get support, share ideas, and collaborate.",
 
   tomsguide_name: "Tom's Guide",
   tomsguide_desc: "Opens Tom's Guide, a site offering tech reviews, buying guides, and consumer electronics recommendations.",

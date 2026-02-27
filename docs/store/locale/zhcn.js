@@ -672,6 +672,8 @@ const L = {
   wccftech_desc: "打开 Wccftech，一个提供科技新闻、硬件评测、游戏与行业动态的网站。",
   "404media_name": "404 Media",
   "404media_desc": "打开 404 Media，一个专注数字权利、网络安全与互联网文化的独立科技调查媒体。",
+  kdediscuss_name: "KDE讨论 (KDE Discuss)",
+  kdediscuss_desc: "打开 KDE Discuss，这是 KDE 用户与开发者的官方社区论坛，用于支持、交流与协作。",
   tomsguide_name: "Tom's Guide",
   tomsguide_desc: "打开 Tom's Guide，一个提供科技评测、购买指南和消费电子推荐的网站。",
   ninetofivegoogle_name: "9to5Google",
