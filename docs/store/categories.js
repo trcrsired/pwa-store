@@ -182,6 +182,13 @@ export const categories = [
         url: "https://cartes.app"
       },
       {
+        name: "Unlock Music",
+        nameKey: "unlockmusic_name",
+        descriptionKey: "unlockmusic_desc",
+        icon: "icons/pwa/unlockmusic.webp",
+        url: "https://unlockmusic.cn"
+      },
+      {
         name: "Weather & Climate",
         nameKey: "weatherclimate_name",
         descriptionKey: "weatherclimate_desc",

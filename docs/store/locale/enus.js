@@ -1406,6 +1406,8 @@ const L = {
   pocketcasts_desc: "A powerful podcast player offering smart recommendations, cross-device syncing, and a sleek interface.",
   tonzhon_name: "Tonzhon (铜钟)",
   tonzhon_desc: "A music web app focused on listening, offering rich music resources, refreshing UI, and intuitive interaction.",
+  unlockmusic_name: "Unlock Music",
+  unlockmusic_desc: "Opens Unlock Music, a browser-based tool for decrypting purchased music files from platforms like QQ Music, Netease Cloud Music, and more.",
   iheart_name: "iHeart",
   iheart_desc: "Opens iHeart, a major audio platform offering radio stations, podcasts, music streaming, and live shows.",
   ecommerece_name: "E-commerece",
