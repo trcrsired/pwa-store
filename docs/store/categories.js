@@ -6340,6 +6340,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://winred.com"
       },
+      {
+        name: "Harldan's Guides",
+        nameKey: "harldan_name",
+        descriptionKey: "harldan_desc",
+        icon: "icons/wrappers/harldan.webp",
+        url2: "/wrappers/harldan",
+        apptype2: "wrapper",
+        url: "https://www.harldan.com"
+      },
     ]
   },
   {

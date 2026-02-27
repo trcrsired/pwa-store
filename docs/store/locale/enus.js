@@ -1666,6 +1666,8 @@ const L = {
   donaldjtrump_desc: "Opens the official website of Donald J. Trump, featuring announcements, statements, and campaign information.",
   winred_name: "WinRed",
   winred_desc: "Opens WinRed, an online fundraising platform used for political campaigns and donations.",
+  harldan_name: "Harldan's Guides",
+  harldan_desc: "Opens Harldan's Guides, a comprehensive set of World of Warcraft speedleveling routes with written and video guides from 1–70 and beyond.",
   manosphere_name: "Manosphere",
   mgtowtv_name: "MGTOW.TV",
   mgtowtv_desc: "Independent video platform centered on men's issues, free speech, and uncensored creator content.",

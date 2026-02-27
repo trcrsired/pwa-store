@@ -1657,6 +1657,8 @@ const L = {
   donaldjtrump_desc: "打开 Donald J. Trump 的官方网站，包含公告、声明与相关信息。",
   winred_name: "WinRed",
   winred_desc: "打开 WinRed，一个用于政治竞选与在线捐款的平台。",
+  harldan_name: "Harldan's Guides",
+  harldan_desc: "打开 Harldan 的魔兽世界练级指南，提供 1–70 及更高等级的极速练级路线与视频教程。",
   manosphere_name: "男性圈(Manosphere)",
   mgtowtv_name: "MGTOW.TV",
   mgtowtv_desc: "一个专注于男性话题的独立视频平台，提供言论自由和非审查的创作者内容。",
