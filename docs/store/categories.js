@@ -483,6 +483,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://blog.google"
       },
+      {
+        name: "Google Translate",
+        nameKey: "googletranslate_name",
+        descriptionKey: "googletranslate_desc",
+        icon: "icons/wrappers/googletranslate.webp",
+        url2: "/wrappers/googletranslate",
+        apptype2: "wrapper",
+        url: "https://translate.google.com"
+      },
     ]
   },
   {
@@ -7530,6 +7539,13 @@ export const categories = [
         descriptionKey: "xhamster_desc",
         icon: "icons/pwa/xhamster.webp",
         url: "https://xhamster.com"
+      },
+      {
+        name: "Mycamtv",
+        nameKey: "mycamtv_name",
+        descriptionKey: "mycamtv_desc",
+        icon: "icons/pwa/mycamtv.webp",
+        url: "https://mycamtv.com"
       },
       {
         name: "JavHDPorn Live",
