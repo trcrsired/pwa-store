@@ -4932,6 +4932,13 @@ export const categories = [
         url: "https://tonzhon.whamon.com"
       },
       {
+        name: "YesPlayMusic",
+        nameKey: "yesplaymusic_name",
+        descriptionKey: "yesplaymusic_desc",
+        icon: "icons/pwa/yesplaymusic.webp",
+        url: "https://my-yesplaymusic-five.vercel.app"
+      },
+      {
         name: "iHeart",
         nameKey: "iheart_name",
         descriptionKey: "iheart_desc",
