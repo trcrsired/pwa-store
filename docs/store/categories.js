@@ -7108,9 +7108,7 @@ export const categories = [
         name: "DanXi",
         nameKey: "danxi_name",
         descriptionKey: "danxi_desc",
-        icon: "icons/wrappers/danxi.webp",
-        url2: "/wrappers/danxi",
-        apptype2: "wrapper",
+        icon: "icons/pwa/danxi.webp",
         url: "https://danxi.fduhole.com/DanXi"
       },
       {
