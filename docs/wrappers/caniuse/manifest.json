@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/caniuse",
+  "name": "Can I Use",
+  "short_name": "Can I Use",
+  "start_url": "/wrappers/caniuse/?source=pwa",
+  "scope": "/wrappers/caniuse/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Can I Use",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/caniuse/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

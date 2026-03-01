@@ -900,6 +900,13 @@ export const categories = [
         url: "https://chromiumdash.appspot.com"
       },
       {
+        name: "Svelte",
+        nameKey: "svelte_name",
+        descriptionKey: "svelte_desc",
+        icon: "icons/pwa/svelte.webp",
+        url: "https://svelte.dev"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",
@@ -1150,6 +1157,24 @@ export const categories = [
         url2: "/wrappers/jsbin",
         apptype2: "wrapper",
         url: "https://jsbin.com"
+      },
+      {
+        name: "DEV Community",
+        nameKey: "devto_name",
+        descriptionKey: "devto_desc",
+        icon: "icons/wrappers/devto.webp",
+        url2: "/wrappers/devto",
+        apptype2: "wrapper",
+        url: "https://dev.to"
+      },
+      {
+        name: "Can I Use",
+        nameKey: "caniuse_name",
+        descriptionKey: "caniuse_desc",
+        icon: "icons/wrappers/caniuse.webp",
+        url2: "/wrappers/caniuse",
+        apptype2: "wrapper",
+        url: "https://caniuse.com"
       },
       {
         name: "Mini Program Demo",
@@ -1741,6 +1766,15 @@ export const categories = [
         url2: "/wrappers/spaccamient",
         apptype2: "wrapper",
         url: "https://spacc-inc.github.io/Spaccamient"
+      },
+      {
+        name: "NewPipe",
+        nameKey: "newpipe_name",
+        descriptionKey: "newpipe_desc",
+        icon: "icons/msedge/newpipe.webp",
+        url2: "/msedge/newpipe",
+        apptype: "wrapper",
+        url: "https://newpipe.net"
       },
       {
         name: "Tencent Meeting (腾讯会议)",
@@ -4907,6 +4941,13 @@ export const categories = [
         url: "https://tonzhon.whamon.com"
       },
       {
+        name: "YesPlayMusic",
+        nameKey: "yesplaymusic_name",
+        descriptionKey: "yesplaymusic_desc",
+        icon: "icons/pwa/yesplaymusic.webp",
+        url: "https://my-yesplaymusic-five.vercel.app"
+      },
+      {
         name: "iHeart",
         nameKey: "iheart_name",
         descriptionKey: "iheart_desc",
@@ -7099,9 +7140,7 @@ export const categories = [
         name: "DanXi",
         nameKey: "danxi_name",
         descriptionKey: "danxi_desc",
-        icon: "icons/wrappers/danxi.webp",
-        url2: "/wrappers/danxi",
-        apptype2: "wrapper",
+        icon: "icons/pwa/danxi.webp",
         url: "https://danxi.fduhole.com/DanXi"
       },
       {
@@ -7586,7 +7625,7 @@ export const categories = [
         nameKey: "luxuretv_name",
         descriptionKey: "luxuretv_desc",
         icon: "icons/wrappers/luxuretv.webp",
-        url2: "/wrapper/luxuretv",
+        url2: "/wrappers/luxuretv",
         apptype2: "wrapper",
         url: "https://en.luxuretv.com"
       },
@@ -7595,7 +7634,7 @@ export const categories = [
         nameKey: "beeg_name",
         descriptionKey: "beeg_desc",
         icon: "icons/wrappers/beeg.webp",
-        url2: "/wrapper/beeg",
+        url2: "/wrappers/beeg",
         apptype2: "wrapper",
         url: "https://beeg.com"
       },
