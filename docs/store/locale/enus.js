@@ -1938,7 +1938,7 @@ const L = {
   xhamster_name: "xHamster",
   xhamster_desc: "xHamster is an adult‑content website offering user‑submitted and professionally produced videos.",
   mycamtv_name: "Mycamtv",
-  mtcamtv_desc: "Mycamtv.com is a 100% free live adult webcam platform offering instant access to thousands of amateur and professional models streaming interactive sex shows 24/7 in HD, featuring categories like women, men, couples, trans, and more with real-time chat, tipping, and private options.",
+  mycamtv_desc: "Mycamtv.com is a 100% free live adult webcam platform offering instant access to thousands of amateur and professional models streaming interactive sex shows 24/7 in HD, featuring categories like women, men, couples, trans, and more with real-time chat, tipping, and private options.",
   javhdpornlive_name: "JavHDPorn Live",
   javhdpornlive_desc: "Free Japanese AV HD videos and Japanese porn streaming online.",
   javhdporn_name: "JavHDPorn",

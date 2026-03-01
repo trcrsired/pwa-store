@@ -1933,7 +1933,7 @@ const L = {
   xhamster_name: "xHamster",
   xhamster_desc: "xHamster 是一个提供用户上传及专业制作内容的成人网站。",
   mycamtv_name: "Mycamtv",
-  mtcamtv_desc: "Mycamtv.com 是一个 100% 免费的直播成人网络摄像头平台，可即时访问数千名业余和专业模特，24/7 高清直播互动性爱节目，包括女性、男性、情侣、变性人等类别，并提供实时聊天、小费和私人选项。",
+  mycamtv_desc: "Mycamtv.com 是一个 100% 免费的直播成人网络摄像头平台，可即时访问数千名业余和专业模特，24/7 高清直播互动性爱节目，包括女性、男性、情侣、变性人等类别，并提供实时聊天、小费和私人选项。",
   javhdpornlive_name: "JavHDPorn直播(JavHDPorn Live)",
   javhdpornlive_desc: "提供免费的日本AV高清影片与日本色情视频在线流媒体。",
   javhdporn_name: "JavHDPorn",
