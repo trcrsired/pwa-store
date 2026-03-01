@@ -891,6 +891,13 @@ export const categories = [
         url: "https://chromiumdash.appspot.com"
       },
       {
+        name: "Svelte",
+        nameKey: "svelte_name",
+        descriptionKey: "svelte_desc",
+        icon: "icons/pwa/svelte.webp",
+        url: "https://svelte.dev"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",

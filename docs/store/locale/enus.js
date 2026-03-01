@@ -337,6 +337,8 @@ const L = {
   stackedit_desc: "Opens StackEdit, a powerful in‑browser Markdown editor with offline support and cloud sync.",
   webapis_name: "Web APIs",
   webapis_desc: "Explore Modern Web APIs with demos and samples for learning and experimenting with JavaScript Web APIs.",
+  svelte_name: "Svelte",
+  svelte_desc: "Opens Svelte, a compiler-based UI framework offering fast, lightweight, and elegant web development with minimal runtime.",
   chromiumdash_name: "Chromium Dash",
   chromiumdash_desc: "Opens Chromium Dash, a dashboard for tracking Chromium release schedules, milestones, branches, and version timelines.",
   python_desc: "Python is a programming language that lets you work quickly and integrate systems more effectively.",
