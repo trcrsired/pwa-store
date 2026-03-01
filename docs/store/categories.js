@@ -1159,6 +1159,15 @@ export const categories = [
         url: "https://dev.to"
       },
       {
+        name: "Can I Use",
+        nameKey: "caniuse_name",
+        descriptionKey: "caniuse_desc",
+        icon: "icons/wrappers/caniuse.webp",
+        url2: "/wrappers/caniuse",
+        apptype2: "wrapper",
+        url: "https://caniuse.com"
+      },
+      {
         name: "Mini Program Demo",
         nameKey: "miniprogramdemo_name",
         descriptionKey: "miniprogramdemo_desc",
