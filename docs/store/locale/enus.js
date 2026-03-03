@@ -408,6 +408,8 @@ const L = {
   duckduckgo_desc: "Founded by Gabriel Weinberg and headquartered in Paoli, Pennsylvania, DuckDuckGo is a privacy-focused search engine and browser platform that blocks trackers, hides personal data, and avoids filter bubbles. It offers anonymous search, ad-free video playback, and a built-in VPN via its Privacy Pro subscription. Available on Windows, macOS, iOS, and Android, DuckDuckGo is trusted by millions for secure, tracker-free browsing across devices. For web search results, DuckDuckGo leverages Bing’s search API while maintaining its strict privacy standards.",
   getnomad_name: "Nomad",
   getnomad_desc: "Global eSIM provider offering affordable mobile data plans in 200+ destinations with instant activation.",
+  downdetector_name: "Downdetector",
+  downdetector_desc: "Opens Downdetector, a real-time outage monitoring platform tracking over 32,000 services across 67 countries.",
   mail_name: "Mail",
   qqmail_name: "QQ Mail",
   qqmail_desc: "QQ Mail is a popular email service from Tencent, offering fast, secure, and mobile-friendly access to personal and enterprise email accounts. It integrates with the broader QQ ecosystem and supports both web and app-based usage.",
