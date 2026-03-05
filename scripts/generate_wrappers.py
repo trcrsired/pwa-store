@@ -320,6 +320,7 @@ WRAPPERS = [
   { "name": "Can I Use", "url": "https://caniuse.com" },
   { "name": "WPS", "url": "https://www.wps.com/wpsdocs" },
   { "name": "WPS (CN)", "url": "https://www.kdocs.cn", "keyify_name":"wpscn", "icon":"wps.webp" },
+  { "name": "Downdetector", "url": "https://downdetector.com" },
   { "name": "DingTalk", "url": "https://workspace.dingtalk.com" },
   { "name": "QQ Mail", "url": "https://mail.qq.com", "keyify_name":"qqmail" },
   { "name": "163 Mail", "url": "https://mail.163.com", "keyify_name":"netease163" },

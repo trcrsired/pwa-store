@@ -408,6 +408,8 @@ const L = {
   duckduckgo_desc: "DuckDuckGo 由 Gabriel Weinberg 创立，总部位于美国宾夕法尼亚州的 Paoli，是一个注重隐私的搜索引擎和浏览器平台，致力于屏蔽追踪器、保护用户数据，并避免信息茧房。它提供匿名搜索、无广告视频播放，以及通过 Privacy Pro 订阅服务提供的内置 VPN。支持 Windows、macOS、iOS 和 Android 等平台，DuckDuckGo 因其安全、无追踪的浏览体验而受到全球用户信赖。其网页搜索结果基于必应的搜索 API，同时严格遵守隐私保护原则。",
   getnomad_name: "Nomad",
   getnomad_desc: "全球 eSIM 服务商，提供覆盖 200+ 地区的高性价比移动数据计划，支持即时激活。",
+  downdetector_name: "Downdetector",
+  downdetector_desc: "打开 Downdetector，一个实时监测全球 32,000 多项服务是否宕机或出现故障的平台。",
   mail_name: "邮箱",
   qqmail_name: "QQ 邮箱",
   qqmail_desc: "QQ 邮箱是腾讯推出的流行邮件服务，提供快速、安全、适配移动设备的个人和企业邮箱访问。它与 QQ 生态系统深度集成，支持网页和 App 使用。",

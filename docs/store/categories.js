@@ -1242,6 +1242,15 @@ export const categories = [
         icon: "icons/pwa/getnomad.webp"
       },
       {
+        name: "Downdetector",
+        nameKey: "downdetector_name",
+        descriptionKey: "downdetector_desc",
+        icon: "icons/wrappers/downdetector.webp",
+        url2: "/wrappers/downdetector",
+        apptype2: "wrapper",
+        url: "https://downdetector.com"
+      },
+      {
         name: "China Telecom (中国电信)",
         nameKey: "chinatelecom_name",
         descriptionKey: "chinatelecom_desc",
