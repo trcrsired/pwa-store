@@ -1400,6 +1400,7 @@ const L = {
   mylocation_desc: "打开 my‑Location.org，一个基于浏览器的定位工具，可使用设备定位服务或 IP 作为后备来显示坐标与位置信息。",
   idc_name: "IDC",
   idc_desc: "打开 IDC，这是一家全球领先的科技行业市场研究机构，提供 IT、通信与新兴技术的市场数据与行业洞察。",
+  livetracking_name: "实时追踪",
   aisvesseltracker_name: "AIS Vessel Tracker",
   aisvesseltracker_desc: "打开 AIS Vessel Tracker，一个基于 AIS 的全球船舶实时跟踪平台。",
   marinetraffic_name: "MarineTraffic",

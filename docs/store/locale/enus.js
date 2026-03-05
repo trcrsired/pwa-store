@@ -1409,6 +1409,7 @@ const L = {
   mylocation_desc: "Opens My‑Location.org, a browser‑based geolocation tool that uses device location services or IP fallback to show your coordinates and location details.",
   idc_name: "IDC",
   idc_desc: "Opens IDC, a global provider of technology market intelligence, research, and industry insights for IT, telecom, and emerging technologies.",
+  livetracking_name: "Live Tracking",
   aisvesseltracker_name: "AIS Vessel Tracker",
   aisvesseltracker_desc: "Opens AIS Vessel Tracker, a real-time global ship tracking platform based on AIS data.",
   marinetraffic_name: "MarineTraffic",
