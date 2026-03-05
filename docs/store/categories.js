@@ -1851,8 +1851,10 @@ export const categories = [
         name: "Investing",
         nameKey: "investing_name",
         descriptionKey: "investing_desc",
-        icon: "icons/pwa/investing.webp",
-        url: "https://www.investing.com"
+        icon: "icons/wrappers/investing.webp",
+        url2: "/wrappers/investing",
+        apptype2: "wrapper",
+        url: "https://www.investing.com",
       },
       {
         name: "Stripe Dashboard",
@@ -4877,6 +4879,53 @@ export const categories = [
         url2: "/wrappers/idc",
         apptype2: "wrapper",
         url: "https://www.idc.com"
+      },
+    ]
+  },
+  {
+    name: "Live Tracking",
+    nameKey: "livetracking_name",
+    apps: [
+      {
+        name: "AIS Vessel Tracker",
+        nameKey: "aisvesseltracker_name",
+        descriptionKey: "aisvesseltracker_desc",
+        icon: "icons/pwa/aisvesseltracker.webp",
+        url: "https://aisvesseltracker.com"
+      },
+      {
+        name: "BusMaps",
+        nameKey: "busmaps_name",
+        descriptionKey: "busmaps_desc",
+        icon: "icons/pwa/busmaps.webp",
+        url: "https://busmaps.com"
+      },
+      {
+        name: "MarineTraffic",
+        nameKey: "marinetraffic_name",
+        descriptionKey: "marinetraffic_desc",
+        icon: "icons/wrappers/marinetraffic.webp",
+        url2: "/wrappers/marinetraffic",
+        apptype2: "wrapper",
+        url: "https://www.marinetraffic.com"
+      },
+      {
+        name: "Flightradar24",
+        nameKey: "flightradar24_name",
+        descriptionKey: "flightradar24_desc",
+        icon: "icons/wrappers/flightradar24.webp",
+        url2: "/wrappers/flightradar24",
+        apptype2: "wrapper",
+        url: "https://www.flightradar24.com"
+      },
+      {
+        name: "FlightAware Live",
+        nameKey: "flightawarelive_name",
+        descriptionKey: "flightawarelive_desc",
+        icon: "icons/wrappers/flightaware.webp",
+        url2: "/wrappers/flightawarelive",
+        apptype2: "wrapper",
+        url: "https://www.flightaware.com/live"
       },
     ]
   },
