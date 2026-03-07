@@ -1549,6 +1549,8 @@ const L = {
   moonstar_desc: "Opens Moon Star, an Asian restaurant in Endicott, NY offering dine-in, pickup, and delivery.",
   smzdm_name: "SMZDM (什么值得买)",
   smzdm_desc: "Opens SMZDM, a major Chinese platform for deals, price tracking, shopping guides, and user-generated reviews.",
+  roku_name: "Roku",
+  roku_desc: "Opens Roku, the official platform for streaming devices, smart TVs, free live TV, and account management.",
   bosideng_name: "Bosideng",
   bosideng_desc: "Bosideng is the official online store of the global down‑apparel brand, offering premium down jackets and seasonal clothing for men, women, and kids. The site features international collections, cold‑weather performance ratings, and worldwide shipping options.",
   housing_name: "Housing",

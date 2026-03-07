@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/roku",
+  "name": "Roku",
+  "short_name": "Roku",
+  "start_url": "/wrappers/roku/?source=pwa",
+  "scope": "/wrappers/roku/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Roku",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/roku/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

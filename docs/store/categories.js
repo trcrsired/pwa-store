@@ -5454,6 +5454,15 @@ export const categories = [
         url: "https://www.smzdm.com"
       },
       {
+        name: "Roku",
+        nameKey: "roku_name",
+        descriptionKey: "roku_desc",
+        icon: "icons/wrappers/roku.webp",
+        url2: "/wrappers/roku",
+        apptype2: "wrapper",
+        url: "https://www.roku.com"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",
