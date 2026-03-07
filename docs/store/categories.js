@@ -3684,6 +3684,15 @@ export const categories = [
         url: "https://www.westernjournal.com"
       },
       {
+        name: "Mediaite",
+        nameKey: "mediaite_name",
+        descriptionKey: "mediaite_desc",
+        icon: "icons/wrappers/mediaite.webp",
+        url2: "/wrappers/mediaite",
+        apptype2: "wrapper",
+        url: "https://www.mediaite.com"
+      },
+      {
         name: "Lianyungang Daily (连云港日报)",
         nameKey: "lygdaily_name",
         descriptionKey: "lygdaily_desc",
@@ -4935,6 +4944,15 @@ export const categories = [
         url2: "/wrappers/flightawarelive",
         apptype2: "wrapper",
         url: "https://www.flightaware.com/live"
+      },
+      {
+        name: "OilPrice",
+        nameKey: "oilprice_name",
+        descriptionKey: "oilprice_desc",
+        icon: "icons/wrappers/oilprice.webp",
+        url2: "/wrappers/oilprice",
+        apptype2: "wrapper",
+        url: "https://oilprice.com"
       },
     ]
   },

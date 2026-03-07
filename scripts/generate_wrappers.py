@@ -256,6 +256,7 @@ WRAPPERS = [
   { "name": "MarineTraffic", "url": "https://www.marinetraffic.com" },
   { "name": "Flightradar24", "url": "https://www.flightradar24.com" },
   { "name": "FlightAware Live", "url": "https://www.flightaware.com/live", "icon": "flightaware.webp" },
+  { "name": "OilPrice", "url": "https://oilprice.com" },
   { "name": "NUKEMAP", "url": "https://nuclearsecrecy.com/nukemap" },
   { "name": "NY Times", "url": "https://www.nytimes.com" , "keyify_name": "nytimes"},
   { "name": "Netflix", "url": "https://www.netflix.com" },
@@ -427,6 +428,7 @@ WRAPPERS = [
   { "name": "LiveScience", "url": "https://www.livescience.com" },
   { "name": "WBKO", "url": "https://www.wbko.com" },
   { "name": "Western Journal", "url": "https://www.westernjournal.com" },
+  { "name": "Mediaite", "url": "https://www.mediaite.com" },
 
   { "name": "Sporting News", "url": "https://www.sportingnews.com" },
   { "name": "Sports Illustrated", "url": "https://www.si.com", "keyify_name": "si" },
