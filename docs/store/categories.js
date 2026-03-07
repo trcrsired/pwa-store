@@ -2230,6 +2230,15 @@ export const categories = [
         url: "https://www.moneycontrol.com"
       },
       {
+        name: "OilPrice",
+        nameKey: "oilprice_name",
+        descriptionKey: "oilprice_desc",
+        icon: "icons/wrappers/oilprice.webp",
+        url2: "/wrappers/oilprice",
+        apptype2: "wrapper",
+        url: "https://oilprice.com"
+      },
+      {
         name: "Tencent Wealth Management (腾讯理财通)",
         nameKey: "tencentwm_name",
         descriptionKey: "tencentwm_desc",
@@ -4944,15 +4953,6 @@ export const categories = [
         url2: "/wrappers/flightawarelive",
         apptype2: "wrapper",
         url: "https://www.flightaware.com/live"
-      },
-      {
-        name: "OilPrice",
-        nameKey: "oilprice_name",
-        descriptionKey: "oilprice_desc",
-        icon: "icons/wrappers/oilprice.webp",
-        url2: "/wrappers/oilprice",
-        apptype2: "wrapper",
-        url: "https://oilprice.com"
       },
     ]
   },
