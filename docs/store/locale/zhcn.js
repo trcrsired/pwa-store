@@ -1446,6 +1446,8 @@ const L = {
   unlockmusic_desc: "打开 Unlock Music，一个在浏览器中解锁各大音乐平台加密格式的开源工具，支持 QQ 音乐、网易云、酷狗等多种格式。",
   bookreader2056app_name: "2056 Book Reader 应用",
   bookreader2056app_desc: "打开 2056 Book Reader 的网页阅读器，用于在线阅读图书与文档。",
+  rsstea_name: "rssTea",
+  rsstea_desc: "打开 rssTea，一个轻量级的浏览器 RSS 阅读器，用于管理和查看订阅源。",
   iheart_name: "iHeart",
   iheart_desc: "打开 iHeart，一个提供广播电台、播客、音乐流媒体与直播节目的大型音频平台。",
   ecommerece_name: "电子商务",

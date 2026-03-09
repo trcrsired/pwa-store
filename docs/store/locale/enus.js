@@ -1701,6 +1701,8 @@ const L = {
   lyc8503blog_desc: "A personal blog by Lyc8503, an open source developer based in Shanghai. Covers reverse engineering, security, web scraping, networking, HomeLab, DevOps, serverless, front-end and back-end development, and experiments with hardware.",
   bookreader2056_name: "2056 Book Reader",
   bookreader2056_desc: "Opens 2056 Book Reader, an online platform for reading books and documents in your browser.",
+  rsstea_name: "rssTea",
+  rsstea_desc: "Opens rssTea, a lightweight browser-based RSS reader for managing and viewing feeds.",
   herbsutter_name: "Herb Sutter",
   herbsutter_desc: "Herb Sutter (chairman of ISO C++ standard committee WG21)’s personal blog—explore thought-provoking essays, deep dives into modern C++, and insights on programming language evolution. A trusted resource for developers seeking clarity, rigor, and vision in software design.",
   bjarnestroustrup_name: "Bjarne Stroustrup",

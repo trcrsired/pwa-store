@@ -196,6 +196,13 @@ export const categories = [
         url: "https://app.2056bookreader.com"
       },
       {
+        name: "rssTea",
+        nameKey: "rsstea_name",
+        descriptionKey: "rsstea_desc",
+        icon: "icons/pwa/rsstea.webp",
+        url: "https://avadhesh18.github.io/rssTea"
+      },
+      {
         name: "Weather & Climate",
         nameKey: "weatherclimate_name",
         descriptionKey: "weatherclimate_desc",
