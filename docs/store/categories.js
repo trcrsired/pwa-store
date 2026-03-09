@@ -6340,7 +6340,7 @@ export const categories = [
         name: "Alibaba Cloud",
         nameKey: "alibabacloud_name",
         descriptionKey: "alibabacloud_desc",
-        icon: "icons/wrappers/alibabacloud.webp",
+        icon: "icons/wrappers/aliyun.webp",
         url2: "/wrappers/alibabacloud",
         apptype2: "wrapper",
         url: "https://www.alibabacloud.com"
@@ -6367,7 +6367,7 @@ export const categories = [
         name: "Tencent Cloud China(腾讯云中国)",
         nameKey: "tencentcloudcn_name",
         descriptionKey: "tencentcloudcn_desc",
-        icon: "icons/wrappers/tencentcloudcn.webp",
+        icon: "icons/wrappers/tencentcloud.webp",
         url2: "/wrappers/tencentcloudcn",
         apptype2: "wrapper",
         url: "https://cloud.tencent.com"
