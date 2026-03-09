@@ -129,6 +129,8 @@ const L = {
   base64guru_desc: "A comprehensive reference site for Base64 encoding, decoding, and data conversion. Includes tutorials, tools, and technical explanations for developers and analysts.",
   palform_name: "Palform",
   palform_desc: "Opens Palform, the encrypted survey platform that protects all responses with end‑to‑end encryption, offering secure, modern, AI‑assisted form creation.",
+  cloudconvert_name: "CloudConvert",
+  cloudconvert_desc: "Opens CloudConvert, an online file conversion platform supporting over 200 formats including images, documents, audio, and video.",
   wechatmyqrcode_name: "My QR Code (我的二维码)",
   wechatmyqrcode_desc: "Opens your personal WeChat QR code for adding contacts or sharing your profile.",
   wechatmoney_name: "Money (收付款)",

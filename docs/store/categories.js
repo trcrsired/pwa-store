@@ -232,7 +232,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://palform.app"
       },
-
+      {
+        name: "CloudConvert",
+        nameKey: "cloudconvert_name",
+        descriptionKey: "cloudconvert_desc",
+        icon: "icons/wrappers/cloudconvert.webp",
+        url2: "/wrappers/cloudconvert",
+        apptype2: "wrapper",
+        url: "https://cloudconvert.com"
+      },
     ]
   },
   {

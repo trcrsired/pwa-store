@@ -127,6 +127,8 @@ const L = {
   gbmb_desc: "打开 GBMB，一个提供数据、存储和各种单位换算工具的网站。",
   base64guru_name: "Base64.Guru",
   base64guru_desc: "一个全面的 Base64 编码、解码与数据转换参考网站，提供教程、工具和技术解析，适合开发者与数据分析人员使用。",
+  cloudconvert_name: "CloudConvert",
+  cloudconvert_desc: "打开 CloudConvert，一个支持 200 多种格式的在线文件转换平台，包括图片、文档、音频和视频。",
   palform_name: "Palform",
   palform_desc: "打开 Palform，这是一款端到端加密的调查平台，通过加密所有回答大幅降低数据泄露风险，并提供现代化与 AI 辅助的表单创建体验。",
   wechatmyqrcode_name: "我的二维码",

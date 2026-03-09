@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/cloudconvert",
+  "name": "CloudConvert",
+  "short_name": "CloudConvert",
+  "start_url": "/wrappers/cloudconvert/?source=pwa",
+  "scope": "/wrappers/cloudconvert/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for CloudConvert",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/cloudconvert/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

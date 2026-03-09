@@ -40,6 +40,7 @@ WRAPPERS = [
   { "name": "GBMB", "url": "https://www.gbmb.org" },
   { "name": "Base64.Guru", "url": "https://base64.guru", "keyify_name": "base64guru" },
   { "name": "Palform", "url": "https://palform.app" },
+  { "name": "CloudConvert", "url": "https://cloudconvert.com" },
   { "name": "CVS", "url": "https://www.cvs.com" },
   { "name": "Whirlpool", "url": "https://www.whirlpool.com" },
   { "name": "Android Authority", "url": "https://www.androidauthority.com", "keyify_name": "androidauthority"},
