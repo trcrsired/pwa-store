@@ -6318,6 +6318,69 @@ export const categories = [
         icon: "icons/pwa/azure.webp",
         url: "https://portal.azure.com"
       },
+      {
+        name: "AWS",
+        nameKey: "aws_name",
+        descriptionKey: "aws_desc",
+        icon: "icons/wrappers/aws.webp",
+        url2: "/wrappers/aws",
+        apptype2: "wrapper",
+        url: "https://aws.amazon.com"
+      },
+      {
+        name: "Google Cloud",
+        nameKey: "googlecloud_name",
+        descriptionKey: "googlecloud_desc",
+        icon: "icons/wrappers/googlecloud.webp",
+        url2: "/wrappers/googlecloud",
+        apptype2: "wrapper",
+        url: "https://cloud.google.com"
+      },
+      {
+        name: "Alibaba Cloud",
+        nameKey: "alibabacloud_name",
+        descriptionKey: "alibabacloud_desc",
+        icon: "icons/wrappers/alibabacloud.webp",
+        url2: "/wrappers/alibabacloud",
+        apptype2: "wrapper",
+        url: "https://www.alibabacloud.com"
+      },
+      {
+        name: "Aliyun China(阿里云中国)",
+        nameKey: "aliyun_name",
+        descriptionKey: "aliyun_desc",
+        icon: "icons/wrappers/aliyun.webp",
+        url2: "/wrappers/aliyun",
+        apptype2: "wrapper",
+        url: "https://cn.aliyun.com"
+      },
+      {
+        name: "Tencent Cloud",
+        nameKey: "tencentcloud_name",
+        descriptionKey: "tencentcloud_desc",
+        icon: "icons/wrappers/tencentcloud.webp",
+        url2: "/wrappers/tencentcloud",
+        apptype2: "wrapper",
+        url: "https://www.tencentcloud.com"
+      },
+      {
+        name: "Tencent Cloud China(腾讯云中国)",
+        nameKey: "tencentcloudcn_name",
+        descriptionKey: "tencentcloudcn_desc",
+        icon: "icons/wrappers/tencentcloudcn.webp",
+        url2: "/wrappers/tencentcloudcn",
+        apptype2: "wrapper",
+        url: "https://cloud.tencent.com"
+      },
+      {
+        name: "Yandex Cloud",
+        nameKey: "yandexcloud_name",
+        descriptionKey: "yandexcloud_desc",
+        icon: "icons/wrappers/yandexcloud.webp",
+        url2: "/wrappers/yandexcloud",
+        apptype2: "wrapper",
+        url: "https://yandex.cloud"
+      },
     ]
   },
   {

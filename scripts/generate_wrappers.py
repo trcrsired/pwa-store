@@ -204,6 +204,14 @@ WRAPPERS = [
 
   { "name": "中国政府网", "url": "https://www.gov.cn", "keyify_name": "govcn" },
   { "name": "连云港住房公积金", "url": "https://12329.zfgjj.lyg.gov.cn", "keyify_name": "lygfund" },
+  { "name": "AWS", "url": "https://aws.amazon.com" },
+  { "name": "Google Cloud", "url": "https://cloud.google.com" },
+  { "name": "Alibaba Cloud", "url": "https://www.alibabacloud.com", "icon": "aliyun.webp" },
+  { "name": "阿里云中国", "url": "https://cn.aliyun.com", "keyify_name": "aliyun" },
+  { "name": "Tencent Cloud", "url": "https://www.tencentcloud.com" },
+  { "name": "腾讯云中国", "url": "https://cloud.tencent.com", "keyify_name": "tencentcloudcn", "icon": "tencentcloud.webp" },
+  { "name": "Yandex Cloud", "url": "https://yandex.cloud" },
+
   { "name": "Richard Dawkins Foundation", "url": "https://richarddawkins.net" },
   { "name": "Herb Sutter", "url": "https://herbsutter.com", "keyify_name": "herbsutter" },
   { "name": "Bjarne Stroustrup", "url": "https://www.stroustrup.com", "keyify_name": "bjarnestroustrup" },
