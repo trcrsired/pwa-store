@@ -1413,6 +1413,8 @@ const L = {
   flightradar24_desc: "打开 Flightradar24，一个基于 ADS-B 的全球实时航班跟踪平台。",
   flightawarelive_name: "FlightAware Live",
   flightawarelive_desc: "打开 FlightAware Live，一个专业级的实时航班跟踪与航空数据平台。",
+  iranwarlive_name: "Iran War Live",
+  iranwarlive_desc: "打开 Iran War Live，一个展示冲突成本估算、时间线与部队部署的实时监测面板。",
   oilprice_name: "OilPrice",
   oilprice_desc: "打开 OilPrice，一个提供原油价格、能源新闻与市场分析的全球能源情报平台。",
   busmaps_name: "BusMaps",

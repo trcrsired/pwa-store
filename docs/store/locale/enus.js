@@ -1422,6 +1422,8 @@ const L = {
   flightradar24_desc: "Opens Flightradar24, a global real-time flight tracking platform with ADS-B and radar data.",
   flightawarelive_name: "FlightAware Live",
   flightawarelive_desc: "Opens FlightAware Live, a professional-grade real-time flight tracking and aviation data platform.",
+  iranwarlive_name: "Iran War Live",
+  iranwarlive_desc: "Opens Iran War Live, a real-time dashboard showing estimated conflict costs, timelines, and force deployments.",
   oilprice_name: "OilPrice",
   oilprice_desc: "Opens OilPrice, a global platform for real-time crude oil prices, energy news, and market intelligence.",
   busmaps_name: "BusMaps",

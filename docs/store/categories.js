@@ -4971,6 +4971,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.flightaware.com/live"
       },
+      {
+        name: "Iran War Live",
+        nameKey: "iranwarlive_name",
+        descriptionKey: "iranwarlive_desc",
+        icon: "icons/wrappers/iranwarlive.webp",
+        url2: "/wrappers/iranwarlive",
+        apptype2: "wrapper",
+        url: "https://iran-war-live.com"
+      },
     ]
   },
   {
