@@ -4247,6 +4247,15 @@ export const categories = [
         url: "https://dd.163.com/room/100100"
       },
       {
+        name: "ResetEra",
+        nameKey: "resetera_name",
+        descriptionKey: "resetera_desc",
+        icon: "icons/wrappers/resetera.webp",
+        url2: "/wrappers/resetera",
+        apptype2: "wrapper",
+        url: "https://www.resetera.com"
+      },
+      {
         name: "World of Warcraft (China)",
         nameKey: "wowchina_name",
         descriptionKey: "wowchina_desc",
@@ -4449,9 +4458,9 @@ export const categories = [
         nameKey: "pizzint_name",
         descriptionKey: "pizzint_desc",
         icon: "icons/wrappers/pizzint.webp",
-        url: "/wrappers/pizzint",
-        apptype: "wrapper",
-        urlDisplay: "https://www.pizzint.watch"
+        url2: "/wrappers/pizzint",
+        apptype2: "wrapper",
+        url: "https://www.pizzint.watch"
       },
     ]
   },

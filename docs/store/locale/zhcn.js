@@ -1297,6 +1297,8 @@ const L = {
   warcrafttavern_desc: "打开 Warcraft Tavern，提供魔兽世界指南、工具、新闻与职业资源的社区网站。",
   neteasedd_name: "网易DD",
   neteasedd_desc: "打开网易DD，一个由网易提供的直播与互动房间平台。",
+  resetera_name: "ResetEra",
+  resetera_desc: "打开 ResetEra，一个全球大型游戏论坛，提供游戏新闻、讨论与行业文化内容。",
   knowledgespedia_name: "知识和百科",
   wikipedia_name: "维基百科",
   wikipedia_desc: "免费的在线百科全书。",

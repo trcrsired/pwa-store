@@ -293,6 +293,7 @@ WRAPPERS = [
   { "name": "Warcraft Tavern", "url": "https://www.warcrafttavern.com" },
   { "name": "Investing", "url": "https://www.investing.com" },
   { "name": "网易DD", "url": "https://dd.163.com/room/100100", "apptype": "msedge", "keyify_name": "neteasedd" },
+  { "name": "ResetEra", "url": "https://www.resetera.com" },
   { "name": "Capital One", "url": "https://verified.capitalone.com", "apptype": "msedge" },
   { "name": "8marketcap", "url": "https://8marketcap.com", "apptype": "msedge", "keyify_name": "eightmarketcap" },
   { "name": "Paypal", "url": "https://www.paypal.com" },
