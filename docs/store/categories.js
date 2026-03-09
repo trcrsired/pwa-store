@@ -189,6 +189,13 @@ export const categories = [
         url: "https://unlockmusic.cn"
       },
       {
+        name: "2056 Book Reader App",
+        nameKey: "bookreader2056app_name",
+        descriptionKey: "bookreader2056app_desc",
+        icon: "icons/pwa/2056bookreader.webp",
+        url: "https://app.2056bookreader.com"
+      },
+      {
         name: "Weather & Climate",
         nameKey: "weatherclimate_name",
         descriptionKey: "weatherclimate_desc",
@@ -225,6 +232,7 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://palform.app"
       },
+
     ]
   },
   {
@@ -6373,6 +6381,13 @@ export const categories = [
         descriptionKey: "lyc8503blog_desc",
         icon: "icons/pwa/lyc8503blog.webp",
         url: "https://blog.lyc8503.net"
+      },
+      {
+        name: "2056 Book Reader",
+        nameKey: "bookreader2056_name",
+        descriptionKey: "bookreader2056_desc",
+        icon: "icons/pwa/2056bookreader.webp",
+        url: "https://2056bookreader.com"
       },
       {
         name: "Herb Sutter",
