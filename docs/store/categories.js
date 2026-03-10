@@ -2922,6 +2922,15 @@ export const categories = [
         url: "https://www.pcguide.com"
       },
       {
+        name: "The Register",
+        nameKey: "theregister_name",
+        descriptionKey: "theregister_desc",
+        icon: "icons/wrappers/theregister.webp",
+        url2: "/wrappers/theregister",
+        apptype2: "wrapper",
+        url: "https://www.theregister.com"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",
@@ -3360,6 +3369,13 @@ export const categories = [
         descriptionKey: "tribuneindia_desc",
         icon: "icons/pwa/tribuneindia.webp",
         url: "https://www.tribuneindia.com"
+      },
+      {
+        name: "Tuko",
+        nameKey: "tuko_name",
+        descriptionKey: "tuko_desc",
+        icon: "icons/pwa/tuko.webp",
+        url: "https://www.tuko.co.ke"
       },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url2: "/wrappers/nytimes", url: "https://www.nytimes.com", apptype2: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url2: "/wrappers/washingtonpost", url: "https://www.washingtonpost.com", apptype2: "wrapper" },
@@ -4938,6 +4954,15 @@ export const categories = [
         url2: "/wrappers/idc",
         apptype2: "wrapper",
         url: "https://www.idc.com"
+      },
+      {
+        name: "Who.is",
+        nameKey: "whois_name",
+        descriptionKey: "whois_desc",
+        icon: "icons/wrappers/whois.webp",
+        url2: "/wrappers/whois",
+        apptype2: "wrapper",
+        url: "https://who.is"
       },
     ]
   },
