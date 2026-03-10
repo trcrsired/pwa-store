@@ -1202,6 +1202,8 @@ const L = {
   "4399_desc": "4399游戏是中国知名的在线游戏平台，提供丰富的网页小游戏、手机游戏以及社区互动功能。",
   pizzint_name: "PizzINT",
   pizzint_desc: "一个基于“披萨情报理论”的趣味性、已被证伪的 OSINT 模因，通过观察五角大楼附近披萨店的热度来玩梗式推测地缘政治动向。",
+  nealfun_name: "Neal.fun",
+  nealfun_desc: "打开 Neal.fun，一个由 Neal Agarwal 创作的创意游戏、可视化与互动实验合集网站。",
   mumu_cn_name: "MuMu模拟器",
   mumu_cn_desc: "网易 MuMu 安卓模拟器的中国本地化版本，面向国内用户，深度集成大陆游戏生态，简化 PC 端操作。",
   mumu_global_name: "MuMuPlayer",

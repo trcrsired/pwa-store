@@ -246,6 +246,7 @@ WRAPPERS = [
   { "name": "Geforce Now", "url": "https://play.geforcenow.com", "icon": "nvidia.webp" },
   { "name": "4399", "url": "https://www.4399.com" },
   { "name": "PizzINT", "url": "https://www.pizzint.watch" },
+  { "name": "Neal.fun", "url": "https://neal.fun", "keyify_name": "nealfun" },
   { "name": "Mumu Emulator(模拟器)", "url": "https://mumu.163.com", "keyify_name": "mumu" },
   { "name": "MumuPlayer", "url": "https://www.mumuplayer.com", "keyify_name": "mumuplayer", "icon": "mumu.webp" },
   { "name": "United Nations", "url": "https://www.un.org", "keyify_name": "un" },

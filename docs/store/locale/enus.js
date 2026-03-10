@@ -1206,6 +1206,8 @@ const L = {
   "4399_desc": "4399 is a popular Chinese online gaming platform offering browser-based mini games, mobile titles, and community features.",
   pizzint_name: "PizzINT",
   pizzint_desc: "A humorous, debunked OSINT-style index inspired by the 'Pentagon Pizza Theory', which jokingly links spikes in pizza shop activity near the Pentagon to major geopolitical events.",
+  nealfun_name: "Neal.fun",
+  nealfun_desc: "Opens Neal.fun, a collection of creative games, visualizations, and interactive web experiments by Neal Agarwal.",
   mumu_cn_name: "MuMu Emulator (MuMu模拟器)",
   mumu_cn_desc: "Chinese-localized version of NetEase’s MuMu Android emulator, designed for domestic users with deep integration into mainland gaming ecosystems and simplified PC-side control.",
   mumu_global_name: "MuMuPlayer",

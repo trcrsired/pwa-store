@@ -4088,6 +4088,15 @@ export const categories = [
         url: "https://www.pizzint.watch"
       },
       {
+        name: "Neal.fun",
+        nameKey: "nealfun_name",
+        descriptionKey: "nealfun_desc",
+        icon: "icons/wrappers/nealfun.webp",
+        url2: "/wrappers/nealfun",
+        apptype2: "wrapper",
+        url: "https://neal.fun"
+      },
+      {
         name: "MuMu Emulator (MuMu模拟器)",
         nameKey: "mumu_cn_name",
         descriptionKey: "mumu_cn_desc",
