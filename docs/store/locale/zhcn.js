@@ -1305,6 +1305,8 @@ const L = {
   neteasedd_desc: "打开网易DD，一个由网易提供的直播与互动房间平台。",
   resetera_name: "ResetEra",
   resetera_desc: "打开 ResetEra，一个全球大型游戏论坛，提供游戏新闻、讨论与行业文化内容。",
+  protondb_name: "ProtonDB",
+  protondb_desc: "打开 ProtonDB，一个由社区驱动的 Linux 与 Steam Deck 游戏兼容性数据库。",
   knowledgespedia_name: "知识和百科",
   wikipedia_name: "维基百科",
   wikipedia_desc: "免费的在线百科全书。",

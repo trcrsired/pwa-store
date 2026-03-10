@@ -4287,6 +4287,15 @@ export const categories = [
         url: "https://www.resetera.com"
       },
       {
+        name: "ProtonDB",
+        nameKey: "protondb_name",
+        descriptionKey: "protondb_desc",
+        icon: "icons/wrappers/protondb.webp",
+        url2: "/wrappers/protondb",
+        apptype2: "wrapper",
+        url: "https://www.protondb.com"
+      },
+      {
         name: "World of Warcraft (China)",
         nameKey: "wowchina_name",
         descriptionKey: "wowchina_desc",

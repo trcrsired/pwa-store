@@ -1314,6 +1314,8 @@ const L = {
   neteasedd_desc: "Opens Netease DD, a NetEase live-streaming and interactive room platform.",
   resetera_name: "ResetEra",
   resetera_desc: "Opens ResetEra, a major global gaming forum for news, discussions, and gaming culture.",
+  protondb_name: "ProtonDB",
+  protondb_desc: "Opens ProtonDB, a community-driven database of Linux and Steam Deck game compatibility reports.",
   knowledgespedia_name: "Knowledge & Pedias",
   wikipedia_name: "Wikipedia",
   wikipedia_desc: "Free online encyclopedia.",
