@@ -697,7 +697,8 @@ const L = {
   "404media_desc": "Opens 404 Media, an independent tech-focused investigative journalism outlet covering digital rights, cybersecurity, and online culture.",
   kdediscuss_name: "KDE Discuss",
   kdediscuss_desc: "Opens KDE Discuss, the official community forum for KDE users and developers to get support, share ideas, and collaborate.",
-
+  allthingslinux_name: "All Things Linux",
+  allthingslinux_desc: "Opens All Things Linux, a nonprofit organization and community dedicated to supporting and advancing the Linux ecosystem.",
   tomsguide_name: "Tom's Guide",
   tomsguide_desc: "Opens Tom's Guide, a site offering tech reviews, buying guides, and consumer electronics recommendations.",
   ninetofivegoogle_name: "9to5Google",

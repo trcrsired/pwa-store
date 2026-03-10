@@ -2796,6 +2796,13 @@ export const categories = [
         url: "https://discuss.kde.org"
       },
       {
+        name: "All Things Linux",
+        nameKey: "allthingslinux_name",
+        descriptionKey: "allthingslinux_desc",
+        icon: "icons/pwa/allthingslinux.webp",
+        url: "https://allthingslinux.org"
+      },
+      {
         name: "Beebom Gadgets",
         nammeKey: "beebomgadgets_name",
         descriptionKey: "beebomgadgets_desc",
