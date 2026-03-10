@@ -5538,6 +5538,15 @@ export const categories = [
         url: "https://www.roku.com"
       },
       {
+        name: "KZ Audio",
+        nameKey: "kzaudio_name",
+        descriptionKey: "kzaudio_desc",
+        icon: "icons/wrappers/kzaudio.webp",
+        url2: "/wrappers/kzaudio",
+        apptype2: "wrapper",
+        url: "https://kz-audio.com"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",

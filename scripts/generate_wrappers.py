@@ -170,6 +170,7 @@ WRAPPERS = [
   { "name": "Moon Star", "url": "https://moonstarendicott.com", "keyify_name": "moonstarendicott" },
   { "name": "什么值得买", "url": "https://www.smzdm.com", "apptype": "msedge", "keyify_name": "smzdm" },
   { "name": "Roku", "url": "https://www.roku.com" },
+  { "name": "KZ Audio", "url": "https://kz-audio.com" },
   { "name": "Luckin Coffee", "url": "https://in.luckincoffee.com", "keyify_name": "luckin" },
   { "name": "Bosideng", "url": "https://www.bosidengfashion.com" },
   { "name": "Gmail", "url": "https://mail.google.com" },

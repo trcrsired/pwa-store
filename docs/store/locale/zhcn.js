@@ -1562,6 +1562,8 @@ const L = {
   smzdm_desc: "打开什么值得买，一个提供优惠信息、比价工具与消费内容社区的综合平台。",
   roku_name: "Roku",
   roku_desc: "打开 Roku，官方流媒体设备与智能电视平台，提供免费频道、直播电视和账户管理。",
+  kzaudio_name: "KZ Audio",
+  kzaudio_desc: "打开 KZ Audio，KZ/Knowledge Zenith 官方耳机与音频产品商店。",
   housing_name: "房地产",
   booking_name: "缤客",
   booking_desc: "搜索并预订来自全球供应商的酒店、度假村、公寓等住宿。可按地点、价格、评分和可订日期筛选。",
