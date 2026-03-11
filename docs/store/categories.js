@@ -5532,8 +5532,8 @@ export const categories = [
         name: "Moon Star",
         nameKey: "moonstar_name",
         descriptionKey: "moonstar_desc",
-        icon: "icons/wrappers/moonstar.webp",
-        url2: "/wrappers/moonstar",
+        icon: "icons/wrappers/moonstarendicott.webp",
+        url2: "/wrappers/moonstarendicott",
         apptype2: "wrapper",
         url: "https://moonstarendicott.com"
       },
