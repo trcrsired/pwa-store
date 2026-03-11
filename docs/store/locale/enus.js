@@ -2182,6 +2182,8 @@ const L = {
   xiaomilite_desc: "Opens the Xiaomi Lite mini program for viewing and purchasing Xiaomi products.",
   eastkaokao_name: "Eastkaokao (东方一串)",
   eastkaokao_desc: "Opens Eastkaokao (东方一串), a Chinese barbecue restaurant brand known for fresh meat skewers, charcoal pots, grilled fish, and crayfish, operated by Shanghai Xiuxiang Catering under Anhui Jingdong Food Technology.",
+  mengziyuan_name: "Mengziyuan (蒙自源)",
+  mengziyuan_desc: "Opens the Mengziyuan WeChat Mini Program, a major Yunnan rice noodle chain known for its fresh broth and over 1,000 locations across 80+ cities.",
   tencenthealth_name: "Tencent Health (腾讯健康)",
   tencenthealth_desc: "Track your health, manage appointments, and access wellness services with Tencent Health.",
   keep_name: "Keep Fitness Assistant (Keep运动助手)",

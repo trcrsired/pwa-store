@@ -2178,6 +2178,8 @@ const L = {
   xiaomilite_desc: "打开小米Lite小程序，可浏览和购买小米产品。",
   eastkaokao_name: "东方一串",
   eastkaokao_desc: "打开东方一串，一家由安徽晶东食品科技有限公司旗下、上海秀祥餐饮管理有限公司运营的烧烤连锁品牌，主营鲜肉烤串、炭锅系列、烤鱼与小龙虾等特色菜品。",
+  mengziyuan_name: "蒙自源",
+  mengziyuan_desc: "打开蒙自源微信小程序。蒙自源是专注云南米线的连锁品牌，坚持现熬原汤，在国内外 80 多个城市拥有 1000 多家门店。",
   tencenthealth_name: "腾讯健康",
   tencenthealth_desc: "腾讯健康提供健康管理、预约挂号及多种医疗服务，助您全面掌握健康状况。",
   keep_name: "Keep运动助手",

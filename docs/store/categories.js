@@ -5811,6 +5811,14 @@ export const categories = [
         apptype: "wechatmini",
         url: "#小程序://东方一串/lpPCacMREe9d51q"
       },
+      {	
+        name: "Mengziyuan (蒙自源)",
+        nameKey: "mengziyuan_name",
+        descriptionKey: "mengziyuan_desc",
+        icon: "icons/wechatmini/mengziyuan.webp",
+        apptype: "wechatmini",
+        url: "#小程序://蒙自源/Qr1ap69e1smL4Vt"
+      },
     ]
   },
   {
