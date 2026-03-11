@@ -1462,6 +1462,8 @@ const L = {
   tonzhon_desc: "A music web app focused on listening, offering rich music resources, refreshing UI, and intuitive interaction.",
   yesplaymusic_name: "YesPlayMusic",
   yesplaymusic_desc: "Opens YesPlayMusic, a beautiful open-source third-party NetEase Cloud Music player deployed on Vercel.",
+  gensokyoradio_name: "Gensokyo Radio",
+  gensokyoradio_desc: "Opens Gensokyo Radio, a 24/7 internet station streaming fan-made Touhou music from global artists.",
   unlockmusic_name: "Unlock Music",
   unlockmusic_desc: "Opens Unlock Music, a browser-based tool for decrypting purchased music files from platforms like QQ Music, Netease Cloud Music, and more.",
   bookreader2056app_name: "2056 Book Reader App",

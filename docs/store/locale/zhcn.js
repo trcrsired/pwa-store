@@ -1454,6 +1454,8 @@ const L = {
   tonzhon_desc: "一个专注于聆听的音乐网页应用，拥有丰富的音乐资源、清爽的界面和便捷的交互体验。",
   yesplaymusic_name: "YesPlayMusic",
   yesplaymusic_desc: "打开 YesPlayMusic，一个部署在 Vercel 上的开源第三方网易云音乐播放器。",
+  gensokyoradio_name: "Gensokyo Radio",
+  gensokyoradio_desc: "打开 Gensokyo Radio，一个全天候播放东方 Project 同人音乐的网络电台。",
   unlockmusic_name: "音乐解锁 (Unlock Music)",
   unlockmusic_desc: "打开 Unlock Music，一个在浏览器中解锁各大音乐平台加密格式的开源工具，支持 QQ 音乐、网易云、酷狗等多种格式。",
   bookreader2056app_name: "2056 Book Reader 应用",

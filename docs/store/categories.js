@@ -5115,6 +5115,13 @@ export const categories = [
         url: "https://my-yesplaymusic-five.vercel.app"
       },
       {
+        name: "Gensokyo Radio",
+        nameKey: "gensokyoradio_name",
+        descriptionKey: "gensokyoradio_desc",
+        icon: "icons/pwa/gensokyoradio.webp",
+        url: "https://app.gensokyoradio.net"
+      },
+      {
         name: "iHeart",
         nameKey: "iheart_name",
         descriptionKey: "iheart_desc",
