@@ -3,8 +3,8 @@ export const categories = [
     nameKey: "fundamental_name",
     name: "Fundamental",
     apps: [
-      { nameKey: "pwaplayer_name", name: "PWA Player (My own toy)", icon: "icons/pwa/pwaplayer.webp", url: "https://pwa-player.pages.dev", descriptionKey: "pwaplayer_desc" },
-      { name: "SnaePlayer", icon: "icons/pwa/snaeplayer.webp", url: "https://snaeplayer.com/library/tracks", descriptionKey: "snaeplayer_desc" },
+      { nameKey: "pwaplayer_name", name: "PWA Player (My own toy)", icon: "icons/pwa/pwaplayer.svg", url: "https://pwa-player.pages.dev", descriptionKey: "pwaplayer_desc" },
+      { name: "SnaePlayer", icon: "icons/pwa/snaeplayer.svg", url: "https://snaeplayer.com/library/tracks", descriptionKey: "snaeplayer_desc" },
       {
         name: "Readest",
         nameKey: "readest_name",
