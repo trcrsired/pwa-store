@@ -318,6 +318,13 @@ export const categories = [
         url: "https://andisearch.com"
       },
       {
+        name: "Venice AI",
+        nameKey: "veniceai_name",
+        descriptionKey: "veniceai_desc",
+        icon: "icons/pwa/veniceai.webp",
+        url: "https://venice.ai"
+      },
+      {
         name: "Duck.ai",
         nameKey: "duckai_name",
         descriptionKey: "duckai_desc",

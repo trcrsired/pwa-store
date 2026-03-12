@@ -170,6 +170,8 @@ const L = {
   g2ai_desc: "G2 AI 是一个以人工智能为核心的软件搜索工具，基于 G2 的评价数据驱动。用户可以通过自然语言提问，智能获取软件推荐与对比分析。访问 ai.g2.com 了解更多。",
   andi_name: "Andi",
   andi_desc: "打开 Andi 搜索，AI 驱动的搜索引擎，以对话式和可视化方式呈现答案。",
+  veniceai_name: "Venice AI",
+  veniceai_desc: "打开 Venice AI，一个注重隐私、去中心化且无审查的文本、图像与代码生成平台。",
   duckai_name: "Duck.ai",
   duckai_desc: "打开 Duck.ai，DuckDuckGo 推出的注重隐私的 AI 聊天与搜索助手。",
   komoai_name: "Komo AI",
