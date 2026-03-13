@@ -812,6 +812,8 @@ const L = {
   canva_desc: "可画是一款功能强大的在线设计平台，让任何人都能轻松创作出令人惊艳的视觉作品。无论是社交媒体内容、演示文稿、营销素材还是视频，可画都提供海量模板和直观工具，一站式满足你的设计需求。",
   figma_name: "Figma",
   figma_desc: "打开 Figma，一个用于 UI/UX 设计、原型制作与团队协作的在线设计平台。",
+  subtitletools_name: "Subtitle Tools",
+  subtitletools_desc: "打开 SubtitleTools.com，一个用于字幕转换、时间轴校准、清理与翻译的在线工具集合。",
   meituxiuxiu_name: "美图秀秀",
   meituxiuxiu_desc: "一款广受欢迎的中国图片编辑应用，提供滤镜、美颜、拼图等功能，并支持AI抠图与生成式设计。",
   news_name: "新闻",

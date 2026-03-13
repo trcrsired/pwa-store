@@ -3178,6 +3178,15 @@ export const categories = [
         url: "https://www.figma.com"
       },
       {
+        name: "Subtitle Tools",
+        nameKey: "subtitletools_name",
+        descriptionKey: "subtitletools_desc",
+        icon: "icons/wrappers/subtitletools.webp",
+        url2: "/wrappers/subtitletools",
+        apptype2: "wrapper",
+        url: "https://subtitletools.com"
+      },
+      {
         name: "Meituxiuxiu (美图秀秀)",
         nameKey: "meituxiuxiu_name",
         descriptionKey: "meituxiuxiu_desc",

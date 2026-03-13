@@ -400,6 +400,7 @@ WRAPPERS = [
   { "name": "Popular Mechanics" , "url": "https://www.popularmechanics.com" },
   { "name": "Canva", "url": "https://www.canva.com"},
   { "name": "Figma", "url": "https://www.figma.com", "apptype": "msedge" },
+  { "name": "Subtitle Tools", "url": "https://subtitletools.com"},
   { "name": "Sacramento Bee", "url": "https://www.sacbee.com"},
   { "name": "POLITICO", "url": "https://www.politico.com"},
   { "name": "The Daily Signal", "url": "https://www.dailysignal.com", "keyify_name": "dailysignal" },
