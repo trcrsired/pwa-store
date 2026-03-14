@@ -81,11 +81,6 @@ body {
       rgba(37, 99, 235, 0.18),
       transparent 55%
     ),
-    radial-gradient(
-      900px 340px at 95% 0%,
-      rgba(124, 58, 237, 0.14),
-      transparent 52%
-    ),
     var(--bg);
 }
 
