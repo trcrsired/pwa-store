@@ -537,6 +537,24 @@ a:hover {
   font-weight: 700;
 }
 
+.footer-card {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin-bottom: 16px;
+}
+
+.footer-card p {
+  margin: 0 0 12px;
+}
+
+.footer-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .site-footer hr {
   border: none;
   border-top: 1px solid var(--border);
