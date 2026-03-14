@@ -81,6 +81,11 @@ body {
       rgba(37, 99, 235, 0.18),
       transparent 55%
     ),
+    radial-gradient(
+      900px 340px at 95% 0%,
+      rgba(124, 58, 237, 0.14),
+      transparent 52%
+    ),
     var(--bg);
 }
 
@@ -132,8 +137,7 @@ a:hover {
 
 .site-header__inner {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  flex-direction: column;
   gap: 14px;
 }
 
@@ -184,7 +188,6 @@ a:hover {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-  margin-left: auto;
 }
 
 .nav-link {
@@ -208,7 +211,7 @@ a:hover {
 
 /* Toolbar */
 .toolbar {
-  width: 100%;
+  margin-top: 14px;
 }
 
 .toolbar-card {
@@ -289,6 +292,11 @@ a:hover {
   margin: 0;
 }
 
+.actions-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
 #toggle-all-btn {
   display: inline-flex;
   align-items: center;
@@ -301,7 +309,6 @@ a:hover {
   color: var(--text);
   cursor: pointer;
   font-weight: 700;
-  margin-left: auto;
 }
 
 #toggle-all-btn:hover {
@@ -429,16 +436,19 @@ a:hover {
   letter-spacing: -0.01em;
   margin: 4px 0 4px;
   color: var(--text);
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
 }
 
 .app-description {
   font-size: 0.92rem;
   color: var(--muted);
   margin: 0 0 10px;
+}
+
+.app-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 12px;
 }
 
 .apptype-badge {
@@ -524,24 +534,6 @@ a:hover {
 
 .site-footer a {
   font-weight: 700;
-}
-
-.footer-card {
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 14px 16px;
-  margin-bottom: 16px;
-}
-
-.footer-card p {
-  margin: 0 0 12px;
-}
-
-.footer-card__links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
 }
 
 .site-footer hr {
@@ -657,6 +649,10 @@ a:hover {
   padding: 14px 16px;
   box-shadow: var(--shadow-sm);
   color: var(--muted);
+}
+
+.app-url {
+  overflow-wrap: anywhere;
 }
 
 .nsfw-badge {
