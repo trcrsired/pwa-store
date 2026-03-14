@@ -306,6 +306,7 @@ a:hover {
   color: var(--text);
   cursor: pointer;
   font-weight: 700;
+  margin-left: auto;
 }
 
 #toggle-all-btn:hover {
