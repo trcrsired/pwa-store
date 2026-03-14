@@ -18,7 +18,6 @@ const L = {
   "copyurl_desc": "Copy URL",
   "open_desc": "Open",
   "open_wrapper_desc": "Open Wrapper",
-  "external_redirect_prompt": "You are about to leave PWA Store and visit an external website. Do you want to continue?",
   "Collapse All": "Collapse All",
   "Expand All": "Expand All",
   "native": "Native",

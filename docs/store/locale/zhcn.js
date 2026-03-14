@@ -18,7 +18,6 @@ const L = {
   "installfailed_desc": "安装失败",
   "open_desc": "打开",
   "open_wrapper_desc": "打开包装器",
-  "external_redirect_prompt": "您即将离开 PWA Store 并访问外部网站。是否继续？",
   "Collapse All": "全部收起",
   "Expand All": "全部展开",
   "native": "原生",
