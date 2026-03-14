@@ -71,9 +71,6 @@
                 <input type="checkbox" id="filter-native" />
                 <span id="label-filter-native">Native</span>
               </label>
-            </div>
-
-            <div class="actions-row">
               <button id="toggle-all-btn" type="button">Expand All</button>
             </div>
           </div>
@@ -94,25 +91,29 @@
       <p id="footer-warning">
         This store (like any other, including the Apple App Store) does not guarantee security and is not responsible for any issues caused by installed PWAs or visited websites—please proceed with caution.
       </p>
-      <p id="footer-extension">
-        If you're browsing on Android, consider installing the NoForceDownload Chromium extension. Many websites aggressively prompt mobile users to download apps, and this extension helps block the most intrusive ones.
-      </p>
-      <a id="footer-store-link" href="https://microsoftedge.microsoft.com/addons/detail/noforcedownload/dcfmfnemndhobghklljikelapjlnkpgp">
-        NoForceDownload in Microsoft Store
-      </a><br>
-      <a id="footer-crx-link" href="extensions/NoForceDownload.crx">
-        Download NoForceDownload.crx
-      </a><br>
-      <a id="footer-repo-link" href="https://github.com/trcrsired/NoForceDownload" target="_blank" rel="noopener noreferrer">
-        View Extension Repository
-      </a>
+      <div class="footer-card">
+        <p id="footer-extension">
+          If you're browsing on Android, consider installing the NoForceDownload Chromium extension. Many websites aggressively prompt mobile users to download apps, and this extension helps block the most intrusive ones.
+        </p>
+        <div class="footer-card__links">
+          <a id="footer-store-link" class="nav-link" href="https://microsoftedge.microsoft.com/addons/detail/noforcedownload/dcfmfnemndhobghklljikelapjlnkpgp">
+            NoForceDownload in Microsoft Store
+          </a>
+          <a id="footer-crx-link" class="nav-link" href="extensions/NoForceDownload.crx">
+            Download NoForceDownload.crx
+          </a>
+          <a id="footer-repo-link" class="nav-link" href="https://github.com/trcrsired/NoForceDownload" target="_blank" rel="noopener noreferrer">
+            View Extension Repository
+          </a>
+        </div>
+      </div>
 
       <hr>
 
       <a id="footer-github-link" href="https://github.com/trcrsired/pwa-store" target="_blank" rel="noopener noreferrer">
         PWA Store on GitHub
       </a> ·
-      <span id="footer-license"><strong>GPL-3.0</strong></span> ·
+      <a id="footer-license" href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="noopener noreferrer"><strong>GPL-3.0</strong></a> ·
       <span id="footer-contribution">Contributions and donations welcome 💖</span>
       <span id="footer-year"></span>
     </div>

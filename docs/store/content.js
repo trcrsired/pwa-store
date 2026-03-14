@@ -93,6 +93,26 @@ function sanitize_install_url(url) {
   }
 }
 
+function isExternalUrl(url) {
+  try {
+    const resolved = new URL(url, window.location.href);
+    return resolved.origin !== window.location.origin;
+  } catch {
+    return false;
+  }
+}
+
+function addExternalRedirectGuard(element, url) {
+  if (isExternalUrl(url)) {
+    element.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (confirm(`${L('external_redirect_prompt')}\n\n${url}`)) {
+        window.open(url, '_blank', 'noopener,noreferrer');
+      }
+    });
+  }
+}
+
 async function install_callback(e)
 {
   let sanitizedUrl="";
@@ -130,34 +150,22 @@ const renderAppCard = (app) => {
   const isWeChat = apptype === 'wechat';
   const isNative = apptype === 'native';
 
-  // Build static elements
+  // Build static elements – badge sits next to the app name
   container.innerHTML = `
     <img src="${app.icon}" alt="${localizedName}" class="app-icon" loading="lazy" decoding="async" />
-    <div class="app-name">${localizedName}</div>
+    <div class="app-name">
+      ${localizedName}
+      ${app.nsfw ? `<span class="nsfw-badge">NSFW</span>` : ''}
+      ${showBadge ? `<span class="apptype-badge">${L(app.apptype) || app.apptype}</span>` : ''}
+    </div>
     <div class="app-description">${localizedDescription}</div>
-    ${app.nsfw ? `<span class="nsfw-badge">NSFW</span>` : ''}
-    ${showBadge ? `<span class="apptype-badge">${L(app.apptype) || app.apptype}</span>` : ''}
   `;
 
-  // Primary URL line
-  // Show urlDisplay if it exists
-  if (app.urlDisplay) {
-    const urlLineDisplay = document.createElement('div');
-    urlLineDisplay.className = 'app-url';
-    urlLineDisplay.textContent = app.urlDisplay;
-    container.appendChild(urlLineDisplay);
-  }
-
-  // Always show raw url
-  const urlLine = document.createElement('div');
-  urlLine.className = 'app-url';
+  // Resolve primary URL (WeChat redirects to local page)
   var appurl = app.url;
-  if (isWeChat)
-  {
+  if (isWeChat) {
     appurl = `/store/wechat/${L("lang")}/`;
   }
-  urlLine.textContent = appurl;
-  container.appendChild(urlLine);
 
   // Collect all action buttons in a dedicated container so they stay pinned to the bottom.
   const actions = document.createElement('div');
@@ -170,8 +178,9 @@ const renderAppCard = (app) => {
     button.textContent = L('copyurl_desc');
     button.addEventListener('click', () => copyToClipboard(app.url));
   } else {
-    button.textContent = L(apptype == "wrapper"?'open_wrapper_desc': 'open_desc');
+    button.textContent = L(apptype == "wrapper" ? 'open_wrapper_desc' : 'open_desc');
     button.href = appurl;
+    addExternalRedirectGuard(button, appurl);
   }
   actions.appendChild(button);
 
@@ -185,37 +194,16 @@ const renderAppCard = (app) => {
   if (apptype2) {
     var appurl2 = app.url2;
     const isWeChat2 = apptype2 === "wechat";
-    if (isWeChat2)
-    {
+    if (isWeChat2) {
       appurl2 = `/store/wechat/${L("lang")}/`;
     }
-    // Always show secondary button
-    // Show apptype2 badge only if different from primary apptype
-    if (apptype2) {
-      const badge2 = document.createElement('span');
-      badge2.className = 'apptype-badge';
-      badge2.textContent = L(apptype2) || apptype2;
-      container.appendChild(badge2);
-    }
 
-    const urlDisplay1 = app.urlDisplay || appurl;
-    const urlDisplay2 = app.urlDisplay2 || appurl2;
-
-    // Show urlDisplay2 if it exists and is different from primary
-    if (urlDisplay2 && urlDisplay2 !== urlDisplay1) {
-      const urlLineDisplay2 = document.createElement('div');
-      urlLineDisplay2.className = 'app-url';
-      urlLineDisplay2.textContent = urlDisplay2;
-      container.appendChild(urlLineDisplay2);
-    }
-
-    // Always show raw url2
-    if (appurl2 && urlDisplay2 != appurl2) {
-      const urlLineRaw2 = document.createElement('div');
-      urlLineRaw2.className = 'app-url';
-      urlLineRaw2.textContent = appurl2;
-      container.appendChild(urlLineRaw2);
-    }
+    // Append secondary badge to the app name
+    const nameDiv = container.querySelector('.app-name');
+    const badge2 = document.createElement('span');
+    badge2.className = 'apptype-badge';
+    badge2.textContent = L(apptype2) || apptype2;
+    nameDiv.appendChild(badge2);
 
     const isWeChatMini2 = apptype2 === 'wechatmini';
 
@@ -225,8 +213,9 @@ const renderAppCard = (app) => {
       button2.textContent = L('copyurl_desc');
       button2.addEventListener('click', () => copyToClipboard(appurl2));
     } else {
-      button2.textContent = L(apptype2 == "wrapper"?'open_wrapper_desc': 'open_desc');
+      button2.textContent = L(apptype2 == "wrapper" ? 'open_wrapper_desc' : 'open_desc');
       button2.href = appurl2;
+      addExternalRedirectGuard(button2, appurl2);
     }
     actions.appendChild(button2);
 
