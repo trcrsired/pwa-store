@@ -289,11 +289,6 @@ a:hover {
   margin: 0;
 }
 
-.actions-row {
-  display: flex;
-  justify-content: flex-end;
-}
-
 #toggle-all-btn {
   display: inline-flex;
   align-items: center;
@@ -444,13 +439,6 @@ a:hover {
   font-size: 0.92rem;
   color: var(--muted);
   margin: 0 0 10px;
-}
-
-.app-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin: 0 0 12px;
 }
 
 .apptype-badge {
@@ -669,10 +657,6 @@ a:hover {
   padding: 14px 16px;
   box-shadow: var(--shadow-sm);
   color: var(--muted);
-}
-
-.app-url {
-  overflow-wrap: anywhere;
 }
 
 .nsfw-badge {
