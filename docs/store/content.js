@@ -102,6 +102,17 @@ function isExternalUrl(url) {
   }
 }
 
+function addExternalRedirectGuard(element, url) {
+  if (isExternalUrl(url)) {
+    element.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (confirm(`${L('external_redirect_prompt')}\n\n${url}`)) {
+        window.open(url, '_blank', 'noopener,noreferrer');
+      }
+    });
+  }
+}
+
 async function install_callback(e)
 {
   let sanitizedUrl="";
@@ -169,14 +180,7 @@ const renderAppCard = (app) => {
   } else {
     button.textContent = L(apptype == "wrapper" ? 'open_wrapper_desc' : 'open_desc');
     button.href = appurl;
-    if (isExternalUrl(appurl)) {
-      button.addEventListener('click', (e) => {
-        e.preventDefault();
-        if (confirm(`${L('external_redirect_prompt')}\n\n${appurl}`)) {
-          window.open(appurl, '_blank', 'noopener,noreferrer');
-        }
-      });
-    }
+    addExternalRedirectGuard(button, appurl);
   }
   actions.appendChild(button);
 
@@ -211,14 +215,7 @@ const renderAppCard = (app) => {
     } else {
       button2.textContent = L(apptype2 == "wrapper" ? 'open_wrapper_desc' : 'open_desc');
       button2.href = appurl2;
-      if (isExternalUrl(appurl2)) {
-        button2.addEventListener('click', (e) => {
-          e.preventDefault();
-          if (confirm(`${L('external_redirect_prompt')}\n\n${appurl2}`)) {
-            window.open(appurl2, '_blank', 'noopener,noreferrer');
-          }
-        });
-      }
+      addExternalRedirectGuard(button2, appurl2);
     }
     actions.appendChild(button2);
 
