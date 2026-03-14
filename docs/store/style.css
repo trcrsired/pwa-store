@@ -132,7 +132,8 @@ a:hover {
 
 .site-header__inner {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 14px;
 }
 
@@ -183,6 +184,7 @@ a:hover {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  margin-left: auto;
 }
 
 .nav-link {
@@ -206,7 +208,7 @@ a:hover {
 
 /* Toolbar */
 .toolbar {
-  margin-top: 14px;
+  width: 100%;
 }
 
 .toolbar-card {
