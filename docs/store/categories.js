@@ -3,8 +3,8 @@ export const categories = [
     nameKey: "fundamental_name",
     name: "Fundamental",
     apps: [
-      { nameKey: "pwaplayer_name", name: "PWA Player (My own toy)", icon: "icons/pwa/pwaplayer.webp", url: "https://pwa-player.pages.dev", descriptionKey: "pwaplayer_desc" },
-      { name: "SnaePlayer", icon: "icons/pwa/snaeplayer.webp", url: "https://snaeplayer.com/library/tracks", descriptionKey: "snaeplayer_desc" },
+      { nameKey: "pwaplayer_name", name: "PWA Player (My own toy)", icon: "icons/pwa/pwaplayer.svg", url: "https://pwa-player.pages.dev", descriptionKey: "pwaplayer_desc" },
+      { name: "SnaePlayer", icon: "icons/pwa/snaeplayer.svg", url: "https://snaeplayer.com/library/tracks", descriptionKey: "snaeplayer_desc" },
       {
         name: "Readest",
         nameKey: "readest_name",
@@ -316,6 +316,13 @@ export const categories = [
         descriptionKey: "andi_desc",
         icon: "icons/pwa/andi.webp",
         url: "https://andisearch.com"
+      },
+      {
+        name: "Venice AI",
+        nameKey: "veniceai_name",
+        descriptionKey: "veniceai_desc",
+        icon: "icons/pwa/veniceai.webp",
+        url: "https://venice.ai"
       },
       {
         name: "Duck.ai",
@@ -3180,6 +3187,15 @@ export const categories = [
         url: "https://www.figma.com"
       },
       {
+        name: "Subtitle Tools",
+        nameKey: "subtitletools_name",
+        descriptionKey: "subtitletools_desc",
+        icon: "icons/wrappers/subtitletools.webp",
+        url2: "/wrappers/subtitletools",
+        apptype2: "wrapper",
+        url: "https://subtitletools.com"
+      },
+      {
         name: "Meituxiuxiu (美图秀秀)",
         nameKey: "meituxiuxiu_name",
         descriptionKey: "meituxiuxiu_desc",
@@ -5124,6 +5140,13 @@ export const categories = [
         url: "https://my-yesplaymusic-five.vercel.app"
       },
       {
+        name: "Gensokyo Radio",
+        nameKey: "gensokyoradio_name",
+        descriptionKey: "gensokyoradio_desc",
+        icon: "icons/pwa/gensokyoradio.webp",
+        url: "https://app.gensokyoradio.net"
+      },
+      {
         name: "iHeart",
         nameKey: "iheart_name",
         descriptionKey: "iheart_desc",
@@ -5541,8 +5564,8 @@ export const categories = [
         name: "Moon Star",
         nameKey: "moonstar_name",
         descriptionKey: "moonstar_desc",
-        icon: "icons/wrappers/moonstar.webp",
-        url2: "/wrappers/moonstar",
+        icon: "icons/wrappers/moonstarendicott.webp",
+        url2: "/wrappers/moonstarendicott",
         apptype2: "wrapper",
         url: "https://moonstarendicott.com"
       },
@@ -5819,6 +5842,14 @@ export const categories = [
         icon: "icons/wechatmini/eastkaokao.webp",
         apptype: "wechatmini",
         url: "#小程序://东方一串/lpPCacMREe9d51q"
+      },
+      {	
+        name: "Mengziyuan (蒙自源)",
+        nameKey: "mengziyuan_name",
+        descriptionKey: "mengziyuan_desc",
+        icon: "icons/wechatmini/mengziyuan.webp",
+        apptype: "wechatmini",
+        url: "#小程序://蒙自源/Qr1ap69e1smL4Vt"
       },
     ]
   },
