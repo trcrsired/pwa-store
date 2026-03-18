@@ -19,7 +19,6 @@ export const categories = [
         icon: "icons/pwa/calculite.webp",
         url: "https://calculite.ingstudios.dev"
       },
-      { name: "Weawow", icon: "icons/pwa/weawow.webp", url: "https://weawow.com", descriptionKey: "weawow_desc" },
       { name: "Screen Flashlight", icon: "icons/pwa/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", descriptionKey: "screenflashlight_desc" },
       { name: "PWA Store", nameKey: "pwastore_name", icon: "logo/logo.webp", url: "/", urlDisplay: "https://pwa-store-7x5.pages.dev", descriptionKey: "pwastore_desc" },
       { name: "Wavacity", nameKey: "wavacity_name", icon: "icons/pwa/wavacity.webp", url: "https://wavacity.com", descriptionKey: "wavacity_desc" },
@@ -203,16 +202,6 @@ export const categories = [
         url: "https://avadhesh18.github.io/rssTea"
       },
       {
-        name: "Weather & Climate",
-        nameKey: "weatherclimate_name",
-        descriptionKey: "weatherclimate_desc",
-        icon: "icons/msedge/weatherclimate.webp",
-        url: "https://weather-and-climate.com",
-        apptype_hide: "msedge",
-        url2: "/msedge/weatherclimate",
-        apptype2: "wrapper",
-      },
-      {
         name: "Base64.Guru",
         nameKey: "base64guru_name",
         descriptionKey: "base64guru_desc",
@@ -247,6 +236,30 @@ export const categories = [
         url2: "/wrappers/cloudconvert",
         apptype2: "wrapper",
         url: "https://cloudconvert.com"
+      },
+    ]
+  },
+  {
+    name: "Weather",
+    nameKey: "weather_name",
+    apps: [
+      {
+        name: "The Weather Channel",
+        nameKey: "theweatherchannel_name",
+        descriptionKey: "theweatherchannel_desc",
+        icon: "icons/pwa/theweatherchannel.webp",
+        url: "https://weather.com"
+      },
+      { name: "Weawow", icon: "icons/pwa/weawow.webp", url: "https://weawow.com", descriptionKey: "weawow_desc" },
+      {
+        name: "Weather & Climate",
+        nameKey: "weatherclimate_name",
+        descriptionKey: "weatherclimate_desc",
+        icon: "icons/msedge/weatherclimate.webp",
+        url: "https://weather-and-climate.com",
+        apptype_hide: "msedge",
+        url2: "/msedge/weatherclimate",
+        apptype2: "wrapper",
       },
     ]
   },
