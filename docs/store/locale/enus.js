@@ -784,6 +784,8 @@ const L = {
   btsow_desc: "BTSOW is a magnet link indexing platform based on the BitTorrent protocol. It enables fast keyword search for publicly shared torrent resources, including movies, software, music, and more. The site operates on a distributed architecture without central servers, and domain changes may occur due to compliance issues.",
   thepiratebay_name: "The Pirate Bay",
   thepiratebay_desc: "Opens The Pirate Bay, a well‑known torrent index and search site.",
+  privacypack_name: "PrivacyPack",
+  privacypack_desc: "Opens PrivacyPack.org, an open-source tool for creating and sharing visual cards of privacy-respecting app replacements.",
   mediatools_name: "Media Tools",
   spline_name: "Spline",
   spline_desc: "Spline is a browser-based 3D design tool that enables real-time collaboration and interactive scene creation. Users can model, animate, and export 3D content directly from the web without installing software. It supports drag-and-drop interactivity, physics simulations, and integration with platforms like React and Webflow. Spline is proprietary software and not licensed under GPL.",

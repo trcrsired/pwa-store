@@ -51,6 +51,7 @@ WRAPPERS = [
   { "name": "AppAdvice", "url": "https://appadvice.com" },
   { "name": "BTSOW", "url": "https://btsow.lol" },
   { "name": "The Pirate Bay", "url": "https://thepiratebay.org" },
+  { "name": "PrivacyPack", "url": "https://privacypack.org" },
   { "name": "Chips and Cheese", "url": "https://chipsandcheese.com", "apptype": "msedge" },
   { "name": "Laptop Mag", "url": "https://www.laptopmag.com", "apptype": "msedge" },
   { "name": "Level1Techs", "url": "https://level1techs.com" },

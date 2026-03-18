@@ -3104,6 +3104,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://thepiratebay.org"
       },
+      {
+        name: "PrivacyPack",
+        nameKey: "privacypack_name",
+        descriptionKey: "privacypack_desc",
+        icon: "icons/wrappers/privacypack.webp",
+        url2: "/wrappers/privacypack",
+        apptype2: "wrapper",
+        url: "https://privacypack.org"
+      },
     ]
   },
   {
