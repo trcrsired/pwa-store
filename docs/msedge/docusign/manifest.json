@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/docusign",
+  "name": "DocuSign",
+  "short_name": "DocuSign",
+  "start_url": "/msedge/docusign/?source=pwa",
+  "scope": "/msedge/docusign/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for DocuSign",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/docusign/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -1700,6 +1700,8 @@ const L = {
   yandexcloud_name: "Yandex Cloud",
   yandexcloud_desc: "Opens Yandex Cloud, a full-featured cloud platform offering compute, storage, databases, AI, and enterprise services.",
   legaltech_name: "LegalTech",
+  docusign_name: "DocuSign",
+  docusign_desc: "Opens DocuSign for secure e-signatures, AI-powered agreement management, and automated contract workflows.",
   tencentesignature_name: "Tencent E-Signature (腾讯电子签)",
   tencentesignature_desc: "Tencent E-Signature is a WeChat-integrated electronic signing service developed by Tencent Cloud. It supports secure contract signing, identity verification, blockchain-based evidence storage, and full lifecycle contract management. Widely used in finance, HR, legal, and enterprise workflows.",
   websitesblogs_name: "Websites & Blogs",

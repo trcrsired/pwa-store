@@ -6507,6 +6507,15 @@ export const categories = [
     nameKey: "legaltech_name",
     apps: [
       {
+        name: "DocuSign",
+        nameKey: "docusign_name",
+        descriptionKey: "docusign_desc",
+        icon: "icons/msedge/docusign.webp",
+        url2: "/msedge/docusign",
+        apptype2: "wrapper",
+        url: "https://www.docusign.com"
+      },
+      {
         name: "Tencent E-Signature",
         nameKey: "tencentesignature_name",
         descriptionKey: "tencentesignature_desc",

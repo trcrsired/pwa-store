@@ -215,6 +215,7 @@ WRAPPERS = [
   { "name": "腾讯云中国", "url": "https://cloud.tencent.com", "keyify_name": "tencentcloudcn", "icon": "tencentcloud.webp" },
   { "name": "Yandex Cloud", "url": "https://yandex.cloud" },
 
+  { "name": "DocuSign", "url": "https://www.docusign.com", "apptype": "msedge" },
   { "name": "Richard Dawkins Foundation", "url": "https://richarddawkins.net" },
   { "name": "Herb Sutter", "url": "https://herbsutter.com", "keyify_name": "herbsutter" },
   { "name": "Bjarne Stroustrup", "url": "https://www.stroustrup.com", "keyify_name": "bjarnestroustrup" },
