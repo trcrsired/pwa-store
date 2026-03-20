@@ -325,6 +325,13 @@ export const categories = [
         url: "https://venice.ai"
       },
       {
+        name: "Chub AI",
+        nameKey: "chubai_name",
+        descriptionKey: "chubai_desc",
+        icon: "icons/pwa/chubai.webp",
+        url: "https://chub.ai"
+      },
+      {
         name: "Duck.ai",
         nameKey: "duckai_name",
         descriptionKey: "duckai_desc",
