@@ -51,6 +51,7 @@ WRAPPERS = [
   { "name": "AppAdvice", "url": "https://appadvice.com" },
   { "name": "BTSOW", "url": "https://btsow.lol" },
   { "name": "The Pirate Bay", "url": "https://thepiratebay.org" },
+  { "name": "PrivacyPack", "url": "https://privacypack.org" },
   { "name": "Chips and Cheese", "url": "https://chipsandcheese.com", "apptype": "msedge" },
   { "name": "Laptop Mag", "url": "https://www.laptopmag.com", "apptype": "msedge" },
   { "name": "Level1Techs", "url": "https://level1techs.com" },
@@ -214,6 +215,7 @@ WRAPPERS = [
   { "name": "腾讯云中国", "url": "https://cloud.tencent.com", "keyify_name": "tencentcloudcn", "icon": "tencentcloud.webp" },
   { "name": "Yandex Cloud", "url": "https://yandex.cloud" },
 
+  { "name": "DocuSign", "url": "https://www.docusign.com", "apptype": "msedge" },
   { "name": "Richard Dawkins Foundation", "url": "https://richarddawkins.net" },
   { "name": "Herb Sutter", "url": "https://herbsutter.com", "keyify_name": "herbsutter" },
   { "name": "Bjarne Stroustrup", "url": "https://www.stroustrup.com", "keyify_name": "bjarnestroustrup" },
