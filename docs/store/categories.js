@@ -345,6 +345,13 @@ export const categories = [
         url: "https://chub.ai"
       },
       {
+        name: "Replika",
+        nameKey: "replika_name",
+        descriptionKey: "replika_desc",
+        icon: "icons/pwa/replika.webp",
+        url: "https://replika.ai"
+      },
+      {
         name: "Duck.ai",
         nameKey: "duckai_name",
         descriptionKey: "duckai_desc",

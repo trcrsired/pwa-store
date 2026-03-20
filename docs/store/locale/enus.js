@@ -167,6 +167,8 @@ const L = {
   openrouter_desc: "Opens OpenRouter, a unified API and model hub that aggregates multiple AI models for developers.",
   chubai_name: "Chub AI",
   chubai_desc: "Opens Chub AI, an uncensored platform for creating and chatting with customizable AI characters using multiple LLM APIs.",
+  replika_name: "Replika",
+  replika_desc: "Opens Replika, an AI companion platform for emotional support, relationship simulation, and personalized virtual interactions.",
   crushonai_name: "CrushOn.AI",
   crushonai_desc: "An unfiltered AI chat platform where users create and interact with custom characters for storytelling, romance, or roleplay.",
   girlfriendai_name: "Girlfriend AI",

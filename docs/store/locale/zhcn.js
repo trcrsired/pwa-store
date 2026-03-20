@@ -167,6 +167,8 @@ const L = {
   openrouter_desc: "打开 OpenRouter，一个聚合多家大模型并提供统一 API 的开发者平台。",
   chubai_name: "Chub AI",
   chubai_desc: "打开 Chub AI，一个可使用多种 LLM API 与自定义角色进行无审查互动的平台。",
+  replika_name: "Replika",
+  replika_desc: "打开 Replika，一个提供情感陪伴、关系模拟与个性化虚拟互动的 AI 伙伴平台。",
   crushonai_name: "CrushOn.AI",
   crushonai_desc: "一个开放式AI聊天平台，用户可创建并与自定义角色互动，用于故事创作、恋爱模拟或角色扮演。",
   girlfriendai_name: "Girlfriend AI",
