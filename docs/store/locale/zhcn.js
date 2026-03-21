@@ -422,6 +422,8 @@ const L = {
   downdetector_name: "Downdetector",
   downdetector_desc: "打开 Downdetector，一个实时监测全球 32,000 多项服务是否宕机或出现故障的平台。",
   mail_name: "邮箱",
+  protonaccount_name: "Proton 账户",
+  protonaccount_desc: "打开 Proton 账户登录入口，用于访问 Proton Mail、Drive、VPN、Calendar 和 Pass。",
   qqmail_name: "QQ 邮箱",
   qqmail_desc: "QQ 邮箱是腾讯推出的流行邮件服务，提供快速、安全、适配移动设备的个人和企业邮箱访问。它与 QQ 生态系统深度集成，支持网页和 App 使用。",
   netease163_name: "网易 163 邮箱",

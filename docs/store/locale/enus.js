@@ -422,6 +422,8 @@ const L = {
   downdetector_name: "Downdetector",
   downdetector_desc: "Opens Downdetector, a real-time outage monitoring platform tracking over 32,000 services across 67 countries.",
   mail_name: "Mail",
+  protonaccount_name: "Proton Account",
+  protonaccount_desc: "Opens the Proton Account login portal for Proton Mail, Drive, VPN, Calendar, and Pass.",
   qqmail_name: "QQ Mail",
   qqmail_desc: "QQ Mail is a popular email service from Tencent, offering fast, secure, and mobile-friendly access to personal and enterprise email accounts. It integrates with the broader QQ ecosystem and supports both web and app-based usage.",
   netease163_name: "163 Mail",

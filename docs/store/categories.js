@@ -1347,6 +1347,13 @@ export const categories = [
     nameKey: "mail_name",
     apps: [
       {
+        name: "Proton Account",
+        nameKey: "protonaccount_name",
+        descriptionKey: "protonaccount_desc",
+        icon: "icons/pwa/protonaccount.webp",
+        url: "https://account.proton.me"
+      },
+      {
         name: "QQ Mail",
         nameKey: "qqmail_name",
         icon: "icons/wrappers/qqmail.webp",
