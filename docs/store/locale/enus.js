@@ -710,6 +710,8 @@ const L = {
   kdediscuss_desc: "Opens KDE Discuss, the official community forum for KDE users and developers to get support, share ideas, and collaborate.",
   allthingslinux_name: "All Things Linux",
   allthingslinux_desc: "Opens All Things Linux, a nonprofit organization and community dedicated to supporting and advancing the Linux ecosystem.",
+  musictech_name: "MusicTech",
+  musictech_desc: "Opens MusicTech, a leading media platform for music production, gear reviews, plugins, and audio innovation.",
   tomsguide_name: "Tom's Guide",
   tomsguide_desc: "Opens Tom's Guide, a site offering tech reviews, buying guides, and consumer electronics recommendations.",
   ninetofivegoogle_name: "9to5Google",

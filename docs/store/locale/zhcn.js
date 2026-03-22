@@ -705,6 +705,8 @@ const L = {
   kdediscuss_desc: "打开 KDE Discuss，这是 KDE 用户与开发者的官方社区论坛，用于支持、交流与协作。",
   allthingslinux_name: "All Things Linux",
   allthingslinux_desc: "打开 All Things Linux，一个致力于支持与推动 Linux 生态发展的非营利组织与社区。",
+  musictech_name: "MusicTech",
+  musictech_desc: "打开 MusicTech，一个专注音乐制作、设备评测、插件资讯与音频技术的专业媒体平台。",
   tomsguide_name: "Tom's Guide",
   tomsguide_desc: "打开 Tom's Guide，一个提供科技评测、购买指南和消费电子推荐的网站。",
   ninetofivegoogle_name: "9to5Google",

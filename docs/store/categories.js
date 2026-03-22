@@ -2844,6 +2844,13 @@ export const categories = [
         url: "https://allthingslinux.org"
       },
       {
+        name: "MusicTech",
+        nameKey: "musictech_name",
+        descriptionKey: "musictech_desc",
+        icon: "icons/pwa/musictech.webp",
+        url: "https://musictech.com"
+      },
+      {
         name: "Beebom Gadgets",
         nammeKey: "beebomgadgets_name",
         descriptionKey: "beebomgadgets_desc",
