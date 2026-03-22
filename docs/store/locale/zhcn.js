@@ -1687,6 +1687,8 @@ const L = {
   linode_desc: "由 Akamai 提供支持的云托管服务，包含虚拟机和开发工具。",
   azure_name: "Azure",
   azure_desc: "Azure 是微软开发的云计算平台，通过其全球基础设施为个人、企业和政府提供应用和服务的管理、访问与开发能力。",
+  cloudprice_name: "CloudPrice",
+  cloudprice_desc: "打开 CloudPrice，一个用于比较 AWS、Azure、GCP 等云服务价格的工具网站。",
   aws_name: "AWS(亚马逊云服务)",
   aws_desc: "打开 AWS, 全球最全面的云平台，提供超过 240 项计算、存储、AI 与企业级服务。",
   googlecloud_name: "Google Cloud",

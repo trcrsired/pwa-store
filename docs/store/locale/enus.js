@@ -1693,6 +1693,8 @@ const L = {
   linode_desc: "Akamai-powered cloud hosting, VMs, and dev tools.",
   azure_name: "Azure",
   azure_desc: "Azure is the cloud computing platform developed by Microsoft. It offers management, access and development of applications and services to individuals, companies, and governments through its global infrastructure.",
+  cloudprice_name: "CloudPrice",
+  cloudprice_desc: "Opens CloudPrice, a cloud service price comparison tool for AWS, Azure, GCP and more.",
   aws_name: "AWS",
   aws_desc: "Opens Amazon Web Services, the world’s most comprehensive cloud platform with over 240 services for compute, storage, AI, and enterprise applications.",
   googlecloud_name: "Google Cloud",

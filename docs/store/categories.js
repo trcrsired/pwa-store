@@ -6466,6 +6466,13 @@ export const categories = [
         url: "https://portal.azure.com"
       },
       {
+        name: "CloudPrice",
+        nameKey: "cloudprice_name",
+        descriptionKey: "cloudprice_desc",
+        icon: "icons/pwa/cloudprice.webp",
+        url: "https://cloudprice.net"
+      },
+      {
         name: "AWS",
         nameKey: "aws_name",
         descriptionKey: "aws_desc",
