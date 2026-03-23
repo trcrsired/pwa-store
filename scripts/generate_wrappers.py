@@ -204,6 +204,7 @@ WRAPPERS = [
   { "name": "analytics.usa.gov", "url": "https://analytics.usa.gov", "keyify_name": "analyticsusagov", "apptype": "msedge" },
   { "name": "ID.me", "url": "https://id.me", "keyify_name": "idme" },
   { "name": "Free File", "url": "https://www.freefilefillableforms.com" },
+  { "name": "CDC", "url": "https://www.cdc.gov" },
   { "name": "Arena AI", "url": "https://arena.ai" },
 
   { "name": "中国政府网", "url": "https://www.gov.cn", "keyify_name": "govcn" },

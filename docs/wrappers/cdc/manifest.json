@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/cdc",
+  "name": "CDC",
+  "short_name": "CDC",
+  "start_url": "/wrappers/cdc/?source=pwa",
+  "scope": "/wrappers/cdc/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for CDC",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/cdc/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
