@@ -3170,6 +3170,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://iptv.hacks.tools"
       },
+      {
+        name: "OpenSubtitles",
+        nameKey: "opensubtitles_name",
+        descriptionKey: "opensubtitles_desc",
+        icon: "icons/wrappers/opensubtitles.webp",
+        url2: "/wrappers/opensubtitles",
+        apptype2: "wrapper",
+        url: "https://www.opensubtitles.com"
+      },
     ]
   },
   {
@@ -8014,6 +8023,24 @@ export const categories = [
         url2: "/wrappers/beeg",
         apptype2: "wrapper",
         url: "https://beeg.com"
+      },
+      {
+        name: "Hentaiplay",
+        nameKey: "hentaiplay_name",
+        descriptionKey: "hentaiplay_desc",
+        icon: "icons/wrappers/hentaiplay.webp",
+        url2: "/wrappers/hentaiplay",
+        apptype2: "wrapper",
+        url: "https://hentaiplay.net"
+      },
+      {
+        name: "HentaiLA",
+        nameKey: "hentaila_name",
+        descriptionKey: "hentaila_desc",
+        icon: "icons/wrappers/hentaila.webp",
+        url2: "/wrappers/hentaila",
+        apptype2: "wrapper",
+        url: "https://hentaila.com"
       },
     ]
   }

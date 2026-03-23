@@ -53,6 +53,7 @@ WRAPPERS = [
   { "name": "The Pirate Bay", "url": "https://thepiratebay.org" },
   { "name": "PrivacyPack", "url": "https://privacypack.org" },
   { "name": "IPTV 直播源", "url": "https://iptv.hacks.tools", "keyify_name": "iptvtools", "apptype": "msedge" },
+  { "name": "OpenSubtitles", "url": "ttps://www.opensubtitles.com" },
   { "name": "Chips and Cheese", "url": "https://chipsandcheese.com", "apptype": "msedge" },
   { "name": "Laptop Mag", "url": "https://www.laptopmag.com", "apptype": "msedge" },
   { "name": "Level1Techs", "url": "https://level1techs.com" },
@@ -494,6 +495,8 @@ WRAPPERS = [
   { "name" : "avdanyuwiki", "url": "https://avdanyuwiki.com" },
   { "name" : "LuxureTV", "url": "https://en.luxuretv.com" },
   { "name" : "Beeg", "url": "https://beeg.com" },
+  { "name" : "Hentaiplay", "url": "https://hentaiplay.net" },
+  { "name" : "HentaiLA", "url": "https://hentaila.com" },
 
 #  { "name" : "Proxy SwitchyOmega (V3)", "url": "extension://fnbemgdobbciiofjfaoaajboakejkdbo/options.html", "keyify_name": "proxyswitchyomegav3" , "apptype": "extension" },
 ]
