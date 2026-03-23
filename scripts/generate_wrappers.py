@@ -52,6 +52,7 @@ WRAPPERS = [
   { "name": "BTSOW", "url": "https://btsow.lol" },
   { "name": "The Pirate Bay", "url": "https://thepiratebay.org" },
   { "name": "PrivacyPack", "url": "https://privacypack.org" },
+  { "name": "IPTV 直播源", "url": "https://iptv.hacks.tools", "keyify_name": "iptvtools", "apptype": "msedge" },
   { "name": "Chips and Cheese", "url": "https://chipsandcheese.com", "apptype": "msedge" },
   { "name": "Laptop Mag", "url": "https://www.laptopmag.com", "apptype": "msedge" },
   { "name": "Level1Techs", "url": "https://level1techs.com" },

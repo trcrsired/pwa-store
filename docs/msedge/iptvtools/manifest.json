@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/iptvtools",
+  "name": "IPTV \u76f4\u64ad\u6e90",
+  "short_name": "IPTV \u76f4\u64ad\u6e90",
+  "start_url": "/msedge/iptvtools/?source=pwa",
+  "scope": "/msedge/iptvtools/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for IPTV \u76f4\u64ad\u6e90",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/iptvtools/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

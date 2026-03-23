@@ -3161,6 +3161,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://privacypack.org"
       },
+      {
+        name: "IPTV Live Sources (IPTV 直播源)",
+        nameKey: "iptvtools_name",
+        descriptionKey: "iptvtools_desc",
+        icon: "icons/msedge/iptvtools.webp",
+        url2: "/msedge/iptvtools",
+        apptype2: "wrapper",
+        url: "https://iptv.hacks.tools"
+      },
     ]
   },
   {
@@ -3208,6 +3217,13 @@ export const categories = [
         descriptionKey: "storyblocks_desc",
         icon: "icons/pwa/storyblocks.webp",
         url: "https://www.storyblocks.com"
+      },
+      {
+        name: "Sketchpad",
+        nameKey: "sketchpad_name",
+        descriptionKey: "sketchpad_desc",
+        icon: "icons/pwa/sketchpad.webp",
+        url: "https://sketch.io/sketchpad"
       },
       {
         name: "Canva",
