@@ -7054,6 +7054,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.freefilefillableforms.com"
       },
+      {
+        name: "CDC",
+        nameKey: "cdc_name",
+        descriptionKey: "cdc_desc",
+        icon: "icons/wrappers/cdc.webp",
+        url2: "/wrappers/cdc",
+        apptype2: "wrapper",
+        url: "https://www.cdc.gov"
+      },
     ]
   },
   {

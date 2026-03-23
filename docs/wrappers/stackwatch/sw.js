@@ -3,6 +3,7 @@ const CACHE_NAME = `pwa-cache-${CACHE_VERSION}`;
 
 const sharedFiles = [
   "./",
+  "./?source=pwa",
   "./manifest.json",
   "./icons/icon.webp",
   "./styles.css",

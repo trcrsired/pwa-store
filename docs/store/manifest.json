@@ -3,7 +3,7 @@
   "name": "PWA Store",
   "short_name": "PWA Store",
   "description": "Install and explore Progressive Web Apps",
-  "start_url": "/store/?source=pwa",
+  "start_url": "/store/",
   "scope": "/store",
   "display": "standalone",
   "background_color": "#000000",

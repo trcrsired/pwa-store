@@ -1831,6 +1831,8 @@ const L = {
   idme_desc: "ID.me is a private digital identity platform trusted by U.S. government agencies for secure online access. It helps users verify their identity, access public services, and unlock exclusive benefits for verified groups like military personnel, students, and first responders.",
   freefile_name: "Free File Fillable Forms",
   freefile_desc: "Opens Free File Fillable Forms, the IRS-supported platform that lets you complete and e-file federal tax forms online for free using digital versions of standard IRS documents.",
+  cdc_name: "CDC",
+  cdc_desc: "Opens the CDC website, the U.S. Centers for Disease Control and Prevention, providing public health guidance and disease information.",
   cngov_name: "Chinese Government🇨🇳",
   govcn_name: "Chinese Government",
   govcn_desc: "Official portal of China's central government, providing policy updates, news, and public services.",
