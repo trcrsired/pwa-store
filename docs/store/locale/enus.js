@@ -234,6 +234,8 @@ const L = {
   notebooklm_desc: "Opens NotebookLM, Google's AI-powered research and note-taking assistant for summarizing and exploring documents.",
   googledev_name: "Google Developers",
   googledev_desc: "Opens Google Developers, the official hub for Google APIs, SDKs, documentation, and developer tools.",
+  googlekeep_name: "Google Keep",
+  googlekeep_desc: "Opens Google Keep, a cloud-based note-taking app for notes, lists, reminders, and quick ideas.",
   "gmail_desc": "Google's Mail Services",
   "googletrends_name": "Google Trends",
   "googletrends_desc": "Explore real-time search trends across regions and topics. Google Trends reveals what the world is curious about, from viral news to emerging interests.",

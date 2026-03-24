@@ -234,6 +234,8 @@ const L = {
   notebooklm_desc: "打开 NotebookLM，Google 的 AI 驱动研究与笔记助手，可用于总结和探索文档内容。",
   googledev_name: "谷歌开发者(Google Developers)",
   googledev_desc: "打开 Google Developers，谷歌官方的开发者文档中心，提供 API、SDK 与开发工具。",
+  googlekeep_name: "谷歌云笔记(Google Keep)",
+  googlekeep_desc: "打开 Google Keep，一个用于笔记、清单、提醒与快速记录的云端笔记工具。",
   "gmail_desc": "谷歌的邮件服务。",
   "googletrends_name": "谷歌趋势(Google Trends)",
   "googletrends_desc": "按地区和主题探索实时搜索趋势。谷歌趋势展示全球关注的热点，从爆炸性新闻到新兴兴趣。",
