@@ -997,6 +997,8 @@ const L = {
   cctv_desc: "China's state-run broadcaster offering news, documentaries, and entertainment across multiple channels and digital platforms.",
   fortune_name: "Fortune",
   fortune_desc: "A global business media brand known for its rankings like the Fortune 500 and Global 500, offering in-depth coverage of corporate leadership, finance, and economic trends.",
+  devdiscourse_name: "Devdiscourse",
+  devdiscourse_desc: "Opens Devdiscourse, a global development news platform covering policy, technology, environment, and world affairs.",
   factcheck_name: "FactCheck.org",
   factcheck_desc: "Opens FactCheck.org, a nonpartisan, nonprofit project of the Annenberg Public Policy Center dedicated to checking the factual accuracy of political claims and public statements.",
   scientificamerican_name: "Scientific American",

@@ -992,6 +992,8 @@ const L = {
   cctv_desc: "中国国家广播机构，提供新闻、纪录片和多种频道的娱乐节目。",
   fortune_name: "财富杂志(Fortune)",
   fortune_desc: "一家全球商业媒体品牌，以财富500强和全球500强等排名著称，提供关于企业领导力、金融和经济趋势的深入报道。",
+  devdiscourse_name: "Devdiscourse",
+  devdiscourse_desc: "打开 Devdiscourse，一个报道全球发展、科技、政策、环境与国际事务的新闻平台。",
   factcheck_name: "FactCheck.org",
   factcheck_desc: "打开 FactCheck.org，一个由安嫩伯格公共政策中心运营的非营利、无党派事实核查机构，专注于核查政治言论与公共声明的真实性。",
   scientificamerican_name: "科学美国人(Scientific American)",

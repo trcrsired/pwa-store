@@ -3496,6 +3496,13 @@ export const categories = [
       { name: "CCTV", nameKey: "cctv_name", descriptionKey: "cctv_desc", icon: "icons/wrappers/cctv.webp", url2: "/wrappers/cctv", apptype2: "wrapper", apptype_hide: "msedge", url: "https://tv.cctv.com" },
       { name: "Fortune", nameKey: "fortune_name", descriptionKey: "fortune_desc", icon: "icons/wrappers/fortune.webp", url2: "/wrappers/fortune", apptype2: "wrapper", url: "https://fortune.com"},
       {
+        name: "Devdiscourse",
+        nameKey: "devdiscourse_name",
+        descriptionKey: "devdiscourse_desc",
+        icon: "icons/pwa/devdiscourse.webp",
+        url: "https://www.devdiscourse.com"
+      },
+      {
         name: "FactCheck.org",
         nameKey: "factcheck_name",
         descriptionKey: "factcheck_desc",
