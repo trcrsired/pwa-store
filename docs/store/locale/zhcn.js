@@ -406,6 +406,8 @@ const L = {
   devto_desc: "打开 DEV Community，一个全球开发者社区，用于分享技术文章、教程与讨论。",
   caniuse_name: "Can I Use",
   caniuse_desc: "打开 Can I Use，一个用于查询 HTML、CSS、JavaScript 等 Web 特性浏览器兼容性的工具。",
+  cppreference_name: "cppreference",
+  cppreference_desc: "打开 cppreference，一个涵盖 C、C++ 与标准库的权威在线参考文档。",
   newpipe_name: "NewPipe",
   newpipe_desc: "打开 NewPipe，一个开源、无广告、隐私友好的 Android YouTube 客户端，支持后台播放与下载。",
   linuxtoys_name: "Linux.toys",

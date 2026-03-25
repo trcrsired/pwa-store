@@ -414,6 +414,8 @@ const L = {
   devto_desc: "Opens DEV Community, a global developer platform for sharing articles, tutorials, and discussions across modern software topics.",
   caniuse_name: "Can I Use",
   caniuse_desc: "Opens Can I Use, a browser compatibility platform for checking support of HTML, CSS, JavaScript, and web platform features.",
+  cppreference_name: "cppreference",
+  cppreference_desc: "Opens cppreference, an extensive reference for C, C++, and standard libraries.",
   newpipe_name: "NewPipe",
   newpipe_desc: "Opens NewPipe, a free and privacy-friendly open-source YouTube client for Android with background play, downloads, and no ads.",
   cloudflare_desc: "Cloudflare is a widely adopted platform that provides networking, security, and performance services to enhance the functionality of websites, applications, and online services. It is used by a diverse range of users, from individual developers to large enterprises, due to its robust features and global infrastructure.",

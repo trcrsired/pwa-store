@@ -1248,6 +1248,15 @@ export const categories = [
         url: "https://caniuse.com"
       },
       {
+        name: "cppreference",
+        nameKey: "cppreference_name",
+        descriptionKey: "cppreference_desc",
+        icon: "icons/wrappers/cppreference.webp",
+        url2: "/wrappers/cppreference",
+        apptype2: "wrapper",
+        url: "https://en.cppreference.com"
+      },
+      {
         name: "Mini Program Demo",
         nameKey: "miniprogramdemo_name",
         descriptionKey: "miniprogramdemo_desc",
