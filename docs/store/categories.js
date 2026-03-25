@@ -752,6 +752,13 @@ export const categories = [
         descriptionKey: "pwabuilder_desc"
       },
       {
+        name: "Theia Cloud",
+        nameKey: "theiacloud_name",
+        descriptionKey: "theiacloud_desc",
+        icon: "icons/pwa/theiacloud.webp",
+        url: "https://try.theia-cloud.io"
+      },
+      {
         name: "LeetCode",
         nameKey: "leetcode_name",
         icon: "icons/wrappers/leetcode.webp",

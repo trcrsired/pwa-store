@@ -291,6 +291,8 @@ const L = {
   bing_webmaster_desc: "提供网站搜索性能分析、索引状态和 SEO 诊断，帮助优化 Bing 搜索可见性。",
   pwabuilder_name: "PWA Builder",
   pwabuilder_desc: "由微软开发的开源工具，简化渐进式网络应用程序的部署流程。",
+  theiacloud_name: "Theia Cloud",
+  theiacloud_desc: "打开 Theia Cloud，一个基于 Eclipse Theia 的在线云端 IDE 试用环境。",
   leetcode_name: "LeetCode",
   leetcode_desc: "力扣(LeetCode)是一个在线编程学习平台，提供丰富的算法与数据结构题库，广泛用于技术面试准备和编程技能提升。",
   leetcodecn_name: "LeetCode (国内版)",

@@ -291,6 +291,8 @@ const L = {
   bing_webmaster_desc: "Bing Webmaster Tools provides website owners with insights into search performance, indexing status, and SEO diagnostics. Monitor traffic, submit sitemaps, and optimize your site for visibility on Bing Search.",
   pwabuilder_name: "PWA Builder",
   pwabuilder_desc: "PWA Builder is an open-source tool developed by Microsoft that simplifies the process of deploying Progressive Web Apps (PWAs).",
+  theiacloud_name: "Theia Cloud",
+  theiacloud_desc: "Opens Theia Cloud, an online IDE environment powered by Eclipse Theia.",
   leetcode_name: "LeetCode",
   leetcode_desc: "LeetCode is an online platform offering coding challenges focused on algorithms, data structures, and technical interview preparation.",
   leetcodecn_name: "LeetCode (CN)",
