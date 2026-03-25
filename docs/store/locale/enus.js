@@ -538,7 +538,7 @@ const L = {
   tieba_desc: "Baidu’s interest-based forum network where users gather in topic-specific bars to share posts, media, and discussions. On mobile, you need to use Microsoft Edge with Android and modify the agent string by adding ArkWeb to bypass the Tieba mini app check.",
   finance_name: "Finance",
   chase_name: "Chase",
-  chase_desc: "Largest bank in the US.",
+  chase_desc: "Opens Chase, a major U.S. bank offering online access to accounts, payments, and financial services.",
   bitcoinwell_name: "Bitcoin Well",
   bitcoinwell_desc: "Enable your independence with the fastest and safest way to buy bitcoin on-chain or via the Lightning Network in Canada and the USA.",
   eastmoney_name: "East Money (东方财经)",
