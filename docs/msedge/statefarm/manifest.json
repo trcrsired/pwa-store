@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/statefarm",
+  "name": "State Farm",
+  "short_name": "State Farm",
+  "start_url": "/msedge/statefarm/?source=pwa",
+  "scope": "/msedge/statefarm/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for State Farm",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/statefarm/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

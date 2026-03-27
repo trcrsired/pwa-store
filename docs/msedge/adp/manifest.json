@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/adp",
+  "name": "ADP",
+  "short_name": "ADP",
+  "start_url": "/msedge/adp/?source=pwa",
+  "scope": "/msedge/adp/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for ADP",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/adp/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

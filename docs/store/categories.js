@@ -5691,6 +5691,15 @@ export const categories = [
         url: "https://kz-audio.com"
       },
       {
+        name: "Instacart",
+        nameKey: "instacart_name",
+        descriptionKey: "instacart_desc",
+        icon: "icons/wrappers/instacart.webp",
+        url2: "/wrappers/instacart",
+        apptype2: "wrapper",
+        url: "https://www.instacart.com"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",
@@ -6084,6 +6093,15 @@ export const categories = [
         url: "https://www.tripadvisor.com"
       },
       {
+        name: "Expedia",
+        nameKey: "expedia_name",
+        descriptionKey: "expedia_desc",
+        icon: "icons/wrappers/expedia.webp",
+        url2: "/wrappers/expedia",
+        apptype2: "wrapper",
+        url: "https://www.expedia.com"
+      },
+      {
         name: "Transit Code",
         nameKey: "transitcode_name",
         descriptionKey: "transitcode_desc",
@@ -6475,6 +6493,15 @@ export const categories = [
         url2: "/wrappers/layoffsfyi",
         apptype2: "wrapper",
         url: "https://layoffs.fyi"
+      },
+      {
+        name: "ADP",
+        nameKey: "adp_name",
+        descriptionKey: "adp_desc",
+        icon: "icons/msedge/adp.webp",
+        url2: "/msedge/adp",
+        apptype2: "wrapper",
+        url: "https://www.adp.com"
       },
       {
         name: "BOSS Zhipin",
@@ -7334,6 +7361,15 @@ export const categories = [
         url2: "/wrappers/prevention",
         apptype2: "wrapper",
         url: "https://www.prevention.com"
+      },
+      {
+        name: "State Farm",
+        nameKey: "statefarm_name",
+        descriptionKey: "statefarm_desc",
+        icon: "icons/msedge/statefarm.webp",
+        url2: "/msedge/statefarm",
+        apptype2: "wrapper",
+        url: "https://www.statefarm.com"
       },
       {
         name: "Tencent Health (腾讯健康)",
