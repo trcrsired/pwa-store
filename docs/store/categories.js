@@ -657,6 +657,13 @@ export const categories = [
         descriptionKey: "github_desc"
       },
       {
+        name: "GitHub Docs",
+        nameKey: "githubdocs_name",
+        descriptionKey: "githubdocs_desc",
+        icon: "icons/pwa/githubdocs.webp",
+        url: "https://docs.github.com"
+      },
+      {
         name: "Visual Studio Code",
         nameKey: "vscode_name",
         icon: "icons/pwa/vscode.webp",
