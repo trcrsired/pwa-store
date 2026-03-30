@@ -985,6 +985,13 @@ export const categories = [
         url: "https://svelte.dev"
       },
       {
+        name: "Web Serial Terminal",
+        nameKey: "webserialterminal_name",
+        descriptionKey: "webserialterminal_desc",
+        icon: "icons/pwa/webserialterminal.webp",
+        url: "https://webserialterminal.com"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",
@@ -3292,6 +3299,15 @@ export const categories = [
         url: "https://subtitletools.com"
       },
       {
+        name: "FreeVideoSplitter",
+        nameKey: "freevideosplitter_name",
+        descriptionKey: "freevideosplitter_desc",
+        icon: "icons/msedge/freevideosplitter.webp",
+        url2: "/msedge/freevideosplitter",
+        apptype2: "wrapper",
+        url: "https://freevideosplitter.org"
+      },
+      {
         name: "Meituxiuxiu (美图秀秀)",
         nameKey: "meituxiuxiu_name",
         descriptionKey: "meituxiuxiu_desc",
@@ -4646,6 +4662,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.pizzint.watch"
       },
+      {
+        name: "3Blue1Brown",
+        nameKey: "threeblueonebrown_name",
+        descriptionKey: "threeblueonebrown_desc",
+        icon: "icons/wrappers/3blue1brown.webp",
+        url2: "/wrappers/3blue1brown",
+        apptype2: "wrapper",
+        url: "https://www.3blue1brown.com"
+      },
     ]
   },
   {
@@ -5705,6 +5730,15 @@ export const categories = [
         url2: "/wrappers/instacart",
         apptype2: "wrapper",
         url: "https://www.instacart.com"
+      },
+      {
+        name: "Albertsons",
+        nameKey: "albertsons_name",
+        descriptionKey: "albertsons_desc",
+        icon: "icons/wrappers/albertsons.webp",
+        url2: "/wrappers/albertsons",
+        apptype2: "wrapper",
+        url: "https://www.albertsons.com"
       },
       {
         name: "Meituan",
