@@ -4257,7 +4257,15 @@ export const categories = [
         url2: "/wrappers/mumuplayer",
         apptype2: "wrapper",
         url: "https://www.mumuplayer.com"
-      }
+      },
+      {
+        name: "QQ Classic Farm (QQ经典农场)",
+        nameKey: "qqclassicfarm_name",
+        descriptionKey: "qqclassicfarm_desc",
+        icon: "icons/wechatmini/qqclassicfarm.webp",
+        url: "#小程序://QQ经典农场/aHIemrmAYzJ4u2f",
+        apptype: "wechatmini"
+      },
     ]
   },
   {

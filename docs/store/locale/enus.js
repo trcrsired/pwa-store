@@ -2137,6 +2137,8 @@ const L = {
   gonganyiwang_desc: "Official WeChat Mini Program providing integrated public security services such as household registration, traffic, and permits.",
   yueshengshi_name: "Yueshengshi (粤省事)",
   yueshengshi_desc: "Official Guangdong provincial WeChat Mini Program providing one‑stop government services for residents.",
+  qqclassicfarm_name: "QQ Classic Farm (QQ经典农场)",
+  qqclassicfarm_desc: "Opens QQ Classic Farm, a casual farming game where players grow crops, raise animals, and interact with friends.",
   wowchina_name: "World of Warcraft (China)",
   wowchina_desc: "This WeChat Mini Program provides access to World of Warcraft services in mainland China (魔兽世界中国), including account management, game updates, community events, and support. Players can stay connected to Azeroth and manage their profiles on the go.",
   chinatelecom_name: "China Telecom (中国电信)",

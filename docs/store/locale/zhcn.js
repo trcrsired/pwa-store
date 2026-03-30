@@ -2133,6 +2133,8 @@ const L = {
   gonganyiwang_desc: "公安机关官方微信小程序，提供户籍、交通、许可等一站式公共服务。",
   yueshengshi_name: "粤省事",
   yueshengshi_desc: "广东省官方微信小程序，为居民提供一站式政务服务。",
+  qqclassicfarm_name: "QQ经典农场",
+  qqclassicfarm_desc: "打开 QQ 经典农场，这是一款轻松休闲的农场经营游戏，可种植作物、饲养动物并与好友互动。",
   wowchina_name: "魔兽世界(中国)",
   wowchina_desc: "该微信小程序面向中国大陆玩家，提供魔兽世界相关服务，包括账号管理、游戏资讯、社区活动和客服支持。玩家可随时随地连接艾泽拉斯，掌握个人动态。",
   chinatelecom_name: "中国电信",
