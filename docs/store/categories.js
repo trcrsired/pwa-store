@@ -3023,6 +3023,15 @@ export const categories = [
         url: "https://www.theregister.com"
       },
       {
+        name: "Gizmodo",
+        nameKey: "gizmodo_name",
+        descriptionKey: "gizmodo_desc",
+        icon: "icons/msedge/gizmodo.webp",
+        url2: "/msedge/gizmodo",
+        apptype2: "wrapper",
+        url: "https://gizmodo.com"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",

@@ -736,6 +736,8 @@ const L = {
   pcguide_desc: "Opens PCGuide, a site offering PC hardware guides, buying advice, tutorials, and tech reviews.",
   theregister_name: "The Register",
   theregister_desc: "Opens The Register, a UK-based technology news site covering enterprise IT, cloud, software, and industry analysis.",
+  gizmodo_name: "Gizmodo",
+  gizmodo_desc: "Opens Gizmodo, a U.S. technology and culture news site covering gadgets, science, and digital trends.",
 
   xueqiu_name: "Xueqiu (雪球)",
   xueqiu_desc: "A Chinese investment platform offering market data, portfolio tracking, and community insights across stocks, funds, and financial news.",

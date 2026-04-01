@@ -69,6 +69,7 @@ WRAPPERS = [
   { "name": "MakeUseOf", "url": "https://www.makeuseof.com" },
   { "name": "PCGuide" , "url": "https://www.pcguide.com"},
   { "name": "The Register" , "url": "https://www.theregister.com"},
+  { "name": "Gizmodo" , "url": "https://gizmodo.com", "apptype": "msedge"},
   { "name": "Influencersplace", "url": "https://influencersplace.com" },
   { "name": "Zscalar", "url": "https://www.zscaler.com"},
   { "name": "Business Standard", "url": "https://www.business-standard.com" },

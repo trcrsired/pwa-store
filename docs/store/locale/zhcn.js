@@ -731,6 +731,8 @@ const L = {
   pcguide_desc: "打开 PCGuide，一个提供电脑硬件指南、购买建议、教程与科技评测的网站。",
   theregister_name: "The Register",
   theregister_desc: "打开 The Register，一个报道企业 IT、云计算、软件与行业分析的英国科技新闻网站。",
+  gizmodo_name: "Gizmodo",
+  gizmodo_desc: "打开 Gizmodo，美国的科技与文化新闻网站，报道数码产品、科学与网络趋势。",
 
   xueqiu_name: "雪球",
   xueqiu_desc: "一个中国投资平台，提供股票、基金与财经资讯的市场数据、资产跟踪与社区观点。",
