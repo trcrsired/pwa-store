@@ -733,6 +733,8 @@ const L = {
   theregister_desc: "打开 The Register，一个报道企业 IT、云计算、软件与行业分析的英国科技新闻网站。",
   gizmodo_name: "Gizmodo",
   gizmodo_desc: "打开 Gizmodo，美国的科技与文化新闻网站，报道数码产品、科学与网络趋势。",
+  venturebeat_name: "VentureBeat",
+  venturebeat_desc: "打开 VentureBeat，美国的科技新闻网站，报道人工智能、初创企业与商业创新。",
 
   xueqiu_name: "雪球",
   xueqiu_desc: "一个中国投资平台，提供股票、基金与财经资讯的市场数据、资产跟踪与社区观点。",

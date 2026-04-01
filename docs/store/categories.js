@@ -3032,6 +3032,15 @@ export const categories = [
         url: "https://gizmodo.com"
       },
       {
+        name: "VentureBeat",
+        nameKey: "venturebeat_name",
+        descriptionKey: "venturebeat_desc",
+        icon: "icons/wrappers/venturebeat.webp",
+        url2: "/wrappers/venturebeat",
+        apptype2: "wrapper",
+        url: "https://venturebeat.com"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",

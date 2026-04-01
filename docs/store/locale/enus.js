@@ -738,6 +738,8 @@ const L = {
   theregister_desc: "Opens The Register, a UK-based technology news site covering enterprise IT, cloud, software, and industry analysis.",
   gizmodo_name: "Gizmodo",
   gizmodo_desc: "Opens Gizmodo, a U.S. technology and culture news site covering gadgets, science, and digital trends.",
+  venturebeat_name: "VentureBeat",
+  venturebeat_desc: "Opens VentureBeat, a U.S. technology news site covering AI, startups, and business innovation.",
 
   xueqiu_name: "Xueqiu (雪球)",
   xueqiu_desc: "A Chinese investment platform offering market data, portfolio tracking, and community insights across stocks, funds, and financial news.",
