@@ -6907,6 +6907,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.harldan.com"
       },
+      {
+        name: "Jody Bruchon",
+        nameKey: "jodybruchon_name",
+        descriptionKey: "jodybruchon_desc",
+        icon: "icons/wrappers/jodybruchon.webp",
+        url2: "/wrappers/jodybruchon",
+        apptype2: "wrapper",
+        url: "https://www.jodybruchon.com"
+      },
     ]
   },
   {
