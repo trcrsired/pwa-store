@@ -27,6 +27,8 @@ const L = {
   "page_label": "第",
   "of_label": "页，共",
   "total_label": "总计",
+  "more_on_next_page": "此分类更多应用在下一页 →",
+  "more_on_prev_page": "← 此分类更多应用在上一页",
   "native": "原生",
   "fundamental_name": "基本",
   "chabots_name": "聊天机器人",

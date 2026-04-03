@@ -265,6 +265,12 @@ const renderPagination = (containerId, totalPages, currentPage, currentPageApps,
       const badge = document.createElement('span');
       badge.className = 'category-badge clickable';
       badge.textContent = cat.name;
+      if (cat.nsfw) {
+        const nsfwBadge = document.createElement('span');
+        nsfwBadge.className = 'nsfw-badge';
+        nsfwBadge.textContent = 'NSFW';
+        badge.appendChild(nsfwBadge);
+      }
       if (onCategoryClick) {
         badge.addEventListener('click', () => onCategoryClick(cat.name));
       }
@@ -344,7 +350,7 @@ const renderPagination = (containerId, totalPages, currentPage, currentPageApps,
 };
 
 // Render a category block with its apps
-const renderCategory = (category, isExpanded = true) => {
+const renderCategory = (category, isExpanded = true, hasMoreOnNextPage = false, hasMoreOnPrevPage = false, onNavigatePage = null, currentPageNum = 1) => {
   const section = document.createElement('section');
   section.className = 'category-block';
 
@@ -361,6 +367,20 @@ const renderCategory = (category, isExpanded = true) => {
   heading.setAttribute('role', 'button');
   heading.tabIndex = 0;
   heading.setAttribute('aria-expanded', String(isExpanded));
+
+  section.appendChild(heading);
+
+  // Show indicator if category continues on previous page (at top)
+  if (hasMoreOnPrevPage) {
+    const prevInfo = document.createElement('div');
+    prevInfo.className = 'category-continuation category-continuation-top';
+    prevInfo.textContent = L('more_on_prev_page');
+    prevInfo.style.cursor = 'pointer';
+    prevInfo.addEventListener('click', () => {
+      if (onNavigatePage) onNavigatePage(currentPageNum - 1, localizedCategoryName);
+    });
+    section.appendChild(prevInfo);
+  }
 
   const grid = document.createElement('div');
   grid.className = 'app-grid';
@@ -388,8 +408,20 @@ const renderCategory = (category, isExpanded = true) => {
     }
   });
 
-  section.appendChild(heading);
   section.appendChild(grid);
+
+  // Show indicator if category continues on next page (at bottom)
+  if (hasMoreOnNextPage) {
+    const nextInfo = document.createElement('div');
+    nextInfo.className = 'category-continuation';
+    nextInfo.textContent = L('more_on_next_page');
+    nextInfo.style.cursor = 'pointer';
+    nextInfo.addEventListener('click', () => {
+      if (onNavigatePage) onNavigatePage(currentPageNum + 1, localizedCategoryName);
+    });
+    section.appendChild(nextInfo);
+  }
+
   return section;
 };
 
@@ -500,6 +532,40 @@ const findCategoryPage = (flatAppsList, categoryName) => {
   return 1;
 };
 
+// Check if a category has more apps on the next page (and hasn't ended)
+const hasCategoryMoreOnNextPage = (flatAppsList, categoryName, currentPageNum) => {
+  // Find the last index of this category in the entire list
+  let lastIndexOfCategory = -1;
+  for (let i = flatAppsList.length - 1; i >= 0; --i) {
+    if (flatAppsList[i].categoryName === categoryName) {
+      lastIndexOfCategory = i;
+      break;
+    }
+  }
+  if (lastIndexOfCategory === -1) return false;
+
+  // Check if the last app of this category is beyond the current page
+  const currentPageEndIndex = currentPageNum * pageSize;
+  return lastIndexOfCategory >= currentPageEndIndex;
+};
+
+// Check if a category has apps on the previous page (and hasn't started fresh)
+const hasCategoryOnPrevPage = (flatAppsList, categoryName, currentPageNum) => {
+  // Find the first index of this category in the entire list
+  let firstIndexOfCategory = -1;
+  for (let i = 0; i < flatAppsList.length; ++i) {
+    if (flatAppsList[i].categoryName === categoryName) {
+      firstIndexOfCategory = i;
+      break;
+    }
+  }
+  if (firstIndexOfCategory === -1) return false;
+
+  // Check if the first app of this category is before the current page
+  const currentPageStartIndex = (currentPageNum - 1) * pageSize;
+  return firstIndexOfCategory < currentPageStartIndex;
+};
+
 // 🔄 Render the app store with pagination
 const renderStore = (filterText = '', page = 1, scrollToCategory = null) => {
   prepareSearchIndex();
@@ -586,7 +652,11 @@ const renderStore = (filterText = '', page = 1, scrollToCategory = null) => {
 
   // Render each category group
   pageCategories.forEach((catGroup) => {
-    root.appendChild(renderCategory(catGroup, true));
+    const hasMoreNext = hasCategoryMoreOnNextPage(flatAppsList, catGroup.name, currentPage);
+    const hasMorePrev = hasCategoryOnPrevPage(flatAppsList, catGroup.name, currentPage);
+    root.appendChild(renderCategory(catGroup, true, hasMoreNext, hasMorePrev, (newPage, categoryName) => {
+      renderStore(filterText, newPage, categoryName);
+    }, currentPage));
   });
 
   // Bottom pagination (no categories)

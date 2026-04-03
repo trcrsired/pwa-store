@@ -27,6 +27,8 @@ const L = {
   "page_label": "Page",
   "of_label": "of",
   "total_label": "total",
+  "more_on_next_page": "More apps from this category on the next page →",
+  "more_on_prev_page": "← More apps from this category on the previous page",
   "native": "Native",
   "fundamental_name": "Fundamental",
   "chabots_name": "Chatbots",

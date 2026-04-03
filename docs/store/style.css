@@ -416,6 +416,28 @@ a:hover {
   visibility: visible;
 }
 
+/* Category continuation indicator */
+.category-continuation {
+  padding: 10px 16px;
+  text-align: center;
+  color: var(--brand);
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-top: 1px solid var(--border);
+  background: var(--surface-2);
+  cursor: pointer;
+  transition: background 140ms ease;
+}
+
+.category-continuation:hover {
+  background: rgba(37, 99, 235, 0.12);
+}
+
+.category-continuation-top {
+  border-top: none;
+  border-bottom: 1px solid var(--border);
+}
+
 /* App card */
 .app-card {
   border: 1px solid var(--border);
