@@ -568,7 +568,7 @@ a:hover {
 /* Back to Top button */
 #backToTop {
   position: fixed;
-  bottom: 18px;
+  bottom: 70px;
   right: 18px;
   width: 44px;
   height: 44px;
@@ -808,7 +808,7 @@ a:hover {
 #goToBottom {
   position: fixed;
   bottom: 18px;
-  right: 70px;
+  right: 18px;
   width: 44px;
   height: 44px;
   border-radius: 14px;
@@ -819,8 +819,7 @@ a:hover {
   display: none;
   z-index: 999;
   box-shadow: var(--shadow-sm);
-  transition: transform 140ms ease, opacity 140ms ease,
-    border-color 140ms ease;
+  transition: transform 140ms ease, opacity 140ms ease, border-color 140ms ease;
 }
 
 #goToBottom:hover {
@@ -870,27 +869,4 @@ a:hover {
   max-width: 1120px;
   margin: 0 auto 32px;
   padding: 0 16px;
-}
-
-/* Go to Bottom button */
-#goToBottom {
-  position: fixed;
-  bottom: 18px;
-  right: 70px;
-  width: 44px;
-  height: 44px;
-  border-radius: 14px;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--text);
-  cursor: pointer;
-  display: none;
-  z-index: 999;
-  box-shadow: var(--shadow-sm);
-  transition: transform 140ms ease, opacity 140ms ease, border-color 140ms ease;
-}
-
-#goToBottom:hover {
-  transform: translateY(-1px);
-  border-color: rgba(37, 99, 235, 0.35);
 }

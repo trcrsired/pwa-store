@@ -501,7 +501,7 @@ const findCategoryPage = (flatAppsList, categoryName) => {
 };
 
 // 🔄 Render the app store with pagination
-const renderStore = (filterText = '', page = 1) => {
+const renderStore = (filterText = '', page = 1, scrollToCategory = null) => {
   prepareSearchIndex();
   const root = document.getElementById('app-store');
   const resultCount = document.getElementById('result-count');
@@ -525,21 +525,25 @@ const renderStore = (filterText = '', page = 1) => {
     apps: cat.apps
   }));
 
+  // Helper to scroll to a category by name
+  const scrollToCategoryByName = (categoryName) => {
+    const allHeadings = document.querySelectorAll('.category-heading');
+    for (const heading of allHeadings) {
+      if (heading.textContent.includes(categoryName)) {
+        heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        break;
+      }
+    }
+  };
+
   // Category click handler - navigates to the page where category first appears
   const handleCategoryClick = (categoryName) => {
     const targetPage = findCategoryPage(flatAppsList, categoryName);
     if (targetPage !== currentPage) {
-      renderStore(filterText, targetPage);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      renderStore(filterText, targetPage, categoryName);
     } else {
       // Already on the page, scroll to the category
-      const allHeadings = document.querySelectorAll('.category-heading');
-      for (const heading of allHeadings) {
-        if (heading.textContent.includes(categoryName)) {
-          heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          break;
-        }
-      }
+      scrollToCategoryByName(categoryName);
     }
   };
 
@@ -601,6 +605,11 @@ const renderStore = (filterText = '', page = 1) => {
   // Update scroll buttons after render
   if (typeof window.updateScrollButtons === 'function') {
     setTimeout(window.updateScrollButtons, 50);
+  }
+
+  // Scroll to category if requested (after render completes)
+  if (scrollToCategory) {
+    setTimeout(() => scrollToCategoryByName(scrollToCategory), 50);
   }
 };
 
