@@ -7,7 +7,7 @@ import { localizePage } from './lang.js';
 
 // Pagination state
 let currentPage = 1;
-const defaultPageSize = 50;
+const defaultPageSize = 200;
 let pageSize = parseInt(localStorage.getItem('page-size'), 10) || defaultPageSize;
 if (pageSize < 1) pageSize = defaultPageSize;
 
