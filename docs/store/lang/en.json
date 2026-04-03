@@ -1,0 +1,18 @@
+{
+  "site_title": "PWA Store",
+  "site_subtitle": "Install and explore Progressive Web Apps.",
+  "how_link": "How to Install PWAs",
+  "how_href": "how/en/",
+  "footer_browser_recommendation": "For an optimal experience on Android, we recommend using the Microsoft Edge browser. We advise against Firefox due to limited compatibility, and strongly discourage the use of locked-down operating systems like iOS, ChromeOS, Windows S mode and anything from Huawei, which restrict user freedom and app flexibility.",
+  "footer_warning": "This store (like any other, including the Apple App Store) does not guarantee security and is not responsible for any issues caused by installed PWAs or visited websites—please proceed with caution.",
+  "footer_extension_tip": "If you're browsing on Android, consider installing the NoForceDownload Chromium extension. Many websites aggressively prompt mobile users to download apps, and this extension helps block the most intrusive ones.",
+  "footer_link_store": "NoForceDownload in Microsoft Store",
+  "footer_link_crx": "Download NoForceDownload.crx",
+  "footer_link_repo": "View Extension Repository",
+  "footer_repo_link": "PWA Store on GitHub",
+  "footer_license": "GPL-3.0",
+  "footer_contribution": "Contributions and donations welcome 💖",
+  "search_placeholder": "Search apps...",
+  "filter_wechat": "WeChat Mini Programs",
+  "filter_native": "Native"
+}

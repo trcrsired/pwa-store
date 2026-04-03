@@ -1,21 +1,36 @@
 import { getPreferredLanguage } from './preferedlanguage.js';
 
-async function localizePage() {
-  let browserLang = getPreferredLanguage();
+// Map locale codes to lang file names
+const localeToLang = {
+  'enus': 'en',
+  'zhcn': 'zh',
+  'en': 'en',
+  'zh': 'zh'
+};
 
-/*
-  browserLang = "zh"; // Force Chinese for testing
-*/
+export async function localizePage(localeOverride = null) {
+  let langKey;
 
-  const languageMap = {
-    'zh': 'zh',
-    'zh-cn': 'zh',
-    'zh-hans': 'zh',
-    'zh-tw': 'zh'
-  };
-
-  const langKey = languageMap[browserLang] || languageMap[browserLang.split('-')[0]];
-  if (!langKey) return;
+  if (localeOverride) {
+    langKey = localeToLang[localeOverride] || 'en';
+  } else {
+    // Check localStorage first
+    const savedLocale = localStorage.getItem('store-locale');
+    if (savedLocale) {
+      langKey = localeToLang[savedLocale] || 'en';
+    } else {
+      let browserLang = getPreferredLanguage();
+      const languageMap = {
+        'zh': 'zh',
+        'zh-cn': 'zh',
+        'zh-hans': 'zh',
+        'zh-tw': 'zh',
+        'en': 'en',
+        'en-us': 'en'
+      };
+      langKey = languageMap[browserLang] || languageMap[browserLang.split('-')[0]] || 'en';
+    }
+  }
 
   try {
     const response = await fetch(`lang/${langKey}.json`);
@@ -24,19 +39,16 @@ async function localizePage() {
     const setText = (id, value) => {
       const el = document.getElementById(id);
       if (el) el.textContent = value;
-      else console.warn(`Missing element: #${id}`);
     };
 
     const setHref = (id, value) => {
       const el = document.getElementById(id);
       if (el) el.href = value;
-      else console.warn(`Missing link element: #${id}`);
     };
 
     const setPlaceholder = (id, value) => {
       const el = document.getElementById(id);
       if (el) el.placeholder = value;
-      else console.warn(`Missing input element: #${id}`);
     };
 
     // Header
@@ -61,9 +73,16 @@ async function localizePage() {
     setText('footer-github-link', strings.footer_repo_link);
     setText('footer-license', strings.footer_license);
     setText('footer-contribution', strings.footer_contribution);
+
+    return true;
   } catch (error) {
     console.warn(`Failed to load language file: lang/${langKey}.json`, error);
+    return false;
   }
 }
 
-localizePage();
+// Initial localization after DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+  const savedLocale = localStorage.getItem('store-locale');
+  localizePage(savedLocale);
+});

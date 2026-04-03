@@ -3,6 +3,7 @@ import './locale/enus.js';
 import './locale/zhcn.js';
 import { setLocale, L } from './locale/localization.js';
 import { getPreferredLanguage } from './preferedlanguage.js';
+import { localizePage } from './lang.js';
 
 // Pagination state
 let currentPage = 1;
@@ -259,7 +260,7 @@ const renderPagination = (containerId, totalPages, currentPage, currentPageApps,
   if (containerId === 'pagination-row' && pageCategories.length > 0) {
     const categoriesInfo = document.createElement('div');
     categoriesInfo.className = 'page-categories';
-    categoriesInfo.innerHTML = '<span class="page-categories-label">Categories:</span> ';
+    categoriesInfo.innerHTML = `<span class="page-categories-label">${L('categories_label')}:</span> `;
     pageCategories.forEach((cat) => {
       const badge = document.createElement('span');
       badge.className = 'category-badge clickable';
@@ -282,16 +283,16 @@ const renderPagination = (containerId, totalPages, currentPage, currentPageApps,
   // Apps count on this page
   const appsInfo = document.createElement('div');
   appsInfo.className = 'pagination-info';
-  appsInfo.textContent = `${currentPageApps} apps on this page`;
+  appsInfo.textContent = `${currentPageApps} ${L('apps_on_page')}`;
   paginationRow.appendChild(appsInfo);
 
   // Page size selector
   const sizeInfo = document.createElement('div');
   sizeInfo.className = 'pagination-info';
   sizeInfo.innerHTML = `
-    <span>Show: </span>
+    <span>${L('show_label')}: </span>
     <input type="number" class="pagesize-input" min="1" value="${pageSize}" />
-    <span> per page</span>
+    <span> ${L('per_page')}</span>
   `;
   paginationRow.appendChild(sizeInfo);
 
@@ -310,9 +311,9 @@ const renderPagination = (containerId, totalPages, currentPage, currentPageApps,
     const pageInfo = document.createElement('div');
     pageInfo.className = 'pagination-info';
     pageInfo.innerHTML = `
-      <span>Page </span>
+      <span>${L('page_label')} </span>
       <input type="number" class="pagination-input" min="1" max="${totalPages}" value="${currentPage}" />
-      <span> of ${totalPages} (${totalApps} total)</span>
+      <span> ${L('of_label')} ${totalPages} (${totalApps} ${L('total_label')})</span>
     `;
     paginationRow.appendChild(pageInfo);
 
@@ -344,7 +345,7 @@ const renderPagination = (containerId, totalPages, currentPage, currentPageApps,
     // Just show total count if single page
     const totalInfo = document.createElement('div');
     totalInfo.className = 'pagination-info';
-    totalInfo.textContent = `(${totalApps} total)`;
+    totalInfo.textContent = `(${totalApps} ${L('total_label')})`;
     paginationRow.appendChild(totalInfo);
   }
 };
@@ -642,11 +643,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const savedLocale = localStorage.getItem('store-locale') || resolveStoreLocale();
     languageSelector.value = savedLocale;
 
-    languageSelector.addEventListener('change', (e) => {
+    languageSelector.addEventListener('change', async (e) => {
       const newLocale = e.target.value;
       localStorage.setItem('store-locale', newLocale);
       setLocale(newLocale);
       searchIndexPrepared = false; // Force rebuild search index with new locale
+
+      // Update UI text (buttons, labels, etc.)
+      await localizePage(newLocale);
+
       renderStore();
     });
   }
