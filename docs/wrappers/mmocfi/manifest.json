@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/mmocfi",
+  "name": "MOOC.fi",
+  "short_name": "MOOC.fi",
+  "start_url": "/wrappers/mmocfi/?source=pwa",
+  "scope": "/wrappers/mmocfi/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for MOOC.fi",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/mmocfi/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

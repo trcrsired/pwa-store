@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/javabook",
+  "name": "JavaBook",
+  "short_name": "JavaBook",
+  "start_url": "/wrappers/javabook/?source=pwa",
+  "scope": "/wrappers/javabook/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for JavaBook",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/javabook/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

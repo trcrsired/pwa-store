@@ -1271,6 +1271,24 @@ export const categories = [
         url: "https://en.cppreference.com"
       },
       {
+        name: "JavaBook",
+        nameKey: "javabook_name",
+        descriptionKey: "javabook_desc",
+        icon: "icons/wrappers/javabook.webp",
+        url2: "/wrappers/javabook",
+        apptype2: "wrapper",
+        url: "https://javabook.mccue.dev"
+      },
+      {
+        name: "MOOC.fi",
+        nameKey: "moocfi_name",
+        descriptionKey: "moocfi_desc",
+        icon: "icons/wrappers/moocfi.webp",
+        url2: "/wrappers/moocfi",
+        apptype2: "wrapper",
+        url: "https://www.mooc.fi"
+      },
+      {
         name: "Mini Program Demo",
         nameKey: "miniprogramdemo_name",
         descriptionKey: "miniprogramdemo_desc",
