@@ -834,6 +834,8 @@ const L = {
   storyblocks_desc: "Opens Storyblocks, a stock library offering royalty‑free videos, images, and audio.",
   sketchpad_name: "Sketchpad",
   sketchpad_desc: "Opens Sketchpad, an online drawing and illustration tool with layers, vector tools, brushes, and export options.",
+  ezgif_name: "Ezgif",
+  ezgif_desc: "Opens Ezgif, an online toolkit for editing GIFs, videos, and images.",
   woobx_name: "Wood Box (一个木函)",
   woobx_desc: "A multifunctional utility app offering tools for daily use, including text, image, and system utilities.",
   cartes_name: "Cartes",

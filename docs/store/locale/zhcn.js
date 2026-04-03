@@ -829,6 +829,8 @@ const L = {
   storyblocks_desc: "打开 Storyblocks，一个提供免版税视频、图片和音频素材的素材库。",
   sketchpad_name: "Sketchpad",
   sketchpad_desc: "打开 Sketchpad，一个支持图层、矢量工具、画笔与导出的在线绘图与插画工具。",
+  ezgif_name: "Ezgif",
+  ezgif_desc: "打开 Ezgif，一个用于编辑 GIF、视频和图片的在线工具网站。",
   cartes_name: "Cartes",
   cartes_desc: "打开 Cartes，一个基于 OpenStreetMap 的现代主权地图平台，尊重隐私，提供搜索、商家、旅游、街景照片以及步行、骑行、公交、火车等多种绿色路线规划（目前覆盖法国本土）。",
   woobx_name: "一个木函",

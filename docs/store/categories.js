@@ -3290,6 +3290,13 @@ export const categories = [
         url: "https://sketch.io/sketchpad"
       },
       {
+        name: "Ezgif",
+        nameKey: "ezgif_name",
+        descriptionKey: "ezgif_desc",
+        icon: "icons/pwa/ezgif.webp",
+        url: "https://ezgif.com"
+      },
+      {
         name: "Canva",
         nameKey: "canva_name",
         descriptionKey: "canva_desc",
