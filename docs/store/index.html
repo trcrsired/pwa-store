@@ -48,6 +48,10 @@
 
         <nav class="site-nav">
           <a id="how-link" class="nav-link" href="how/en/">How to Install PWAs</a>
+          <select id="language-selector" class="language-selector" aria-label="Select language">
+            <option value="enus">English</option>
+            <option value="zhcn">中文</option>
+          </select>
         </nav>
 
         <section class="toolbar" aria-label="Search and filters">
@@ -76,6 +80,10 @@
             <div class="actions-row">
               <button id="toggle-all-btn" type="button">Expand All</button>
             </div>
+
+            <div class="pagination-row" id="pagination-row">
+              <!-- Pagination controls rendered dynamically -->
+            </div>
           </div>
         </section>
       </div>
@@ -85,6 +93,10 @@
   <main id="app-store" class="store-container">
     <!-- Dynamic content loads here from content.js -->
   </main>
+
+  <div id="pagination-row-bottom" class="pagination-row pagination-bottom">
+    <!-- Bottom pagination rendered dynamically -->
+  </div>
 
   <footer class="site-footer">
     <div class="page">
@@ -120,6 +132,8 @@
 
   <!-- 🔝 Back to Top button -->
   <button id="backToTop" type="button" aria-label="Back to top">↑</button>
+  <!-- 🔽 Go to Bottom button -->
+  <button id="goToBottom" type="button" aria-label="Go to bottom">↓</button>
   <div id="toast" class="toast"></div>
 </body>
 </html>
