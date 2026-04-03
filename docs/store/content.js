@@ -242,7 +242,7 @@ const renderAppCard = (app) => {
 };
 
 // Render pagination controls with page input
-const renderPagination = (containerId, totalPages, currentPage, currentPageApps, totalApps, onPageChange, onPageSizeChange, pageCategories = [], forceShow = false) => {
+const renderPagination = (containerId, totalPages, currentPage, currentPageApps, totalApps, onPageChange, onPageSizeChange, allCategories = [], onCategoryClick = null) => {
   const paginationRow = document.getElementById(containerId);
   if (!paginationRow) return;
 
@@ -256,25 +256,18 @@ const renderPagination = (containerId, totalPages, currentPage, currentPageApps,
 
   paginationRow.style.display = 'flex';
 
-  // Categories on this page (only for top pagination)
-  if (containerId === 'pagination-row' && pageCategories.length > 0) {
+  // All categories (only for top pagination)
+  if (containerId === 'pagination-row' && allCategories.length > 0) {
     const categoriesInfo = document.createElement('div');
     categoriesInfo.className = 'page-categories';
     categoriesInfo.innerHTML = `<span class="page-categories-label">${L('categories_label')}:</span> `;
-    pageCategories.forEach((cat) => {
+    allCategories.forEach((cat) => {
       const badge = document.createElement('span');
       badge.className = 'category-badge clickable';
       badge.textContent = cat.name;
-      badge.addEventListener('click', () => {
-        const categoryHeading = document.querySelector(`.category-heading:has(.category-title)`);
-        const allHeadings = document.querySelectorAll('.category-heading');
-        for (const heading of allHeadings) {
-          if (heading.textContent.includes(cat.name)) {
-            heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            break;
-          }
-        }
-      });
+      if (onCategoryClick) {
+        badge.addEventListener('click', () => onCategoryClick(cat.name));
+      }
       categoriesInfo.appendChild(badge);
     });
     paginationRow.appendChild(categoriesInfo);
@@ -489,6 +482,24 @@ const groupAppsByCategory = (pageApps) => {
   return Object.values(grouped);
 };
 
+// Find the page where a category first appears
+const findCategoryPage = (flatAppsList, categoryName) => {
+  let currentCount = 0;
+  let currentPage = 1;
+
+  for (const item of flatAppsList) {
+    if (item.categoryName === categoryName) {
+      return currentPage;
+    }
+    ++currentCount;
+    if (currentCount >= pageSize) {
+      ++currentPage;
+      currentCount = 0;
+    }
+  }
+  return 1;
+};
+
 // 🔄 Render the app store with pagination
 const renderStore = (filterText = '', page = 1) => {
   prepareSearchIndex();
@@ -507,24 +518,42 @@ const renderStore = (filterText = '', page = 1) => {
 
   resultCount.textContent = `${totalApps} APP${totalApps !== 1 ? 's' : ''}`;
 
+  // Get all categories for the category list
+  const allCategories = filteredCategories.map(cat => ({
+    name: cat.nameKey ? L(cat.nameKey) : cat.name,
+    nsfw: cat.nsfw,
+    apps: cat.apps
+  }));
+
+  // Category click handler - navigates to the page where category first appears
+  const handleCategoryClick = (categoryName) => {
+    const targetPage = findCategoryPage(flatAppsList, categoryName);
+    if (targetPage !== currentPage) {
+      renderStore(filterText, targetPage);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      // Already on the page, scroll to the category
+      const allHeadings = document.querySelectorAll('.category-heading');
+      for (const heading of allHeadings) {
+        if (heading.textContent.includes(categoryName)) {
+          heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          break;
+        }
+      }
+    }
+  };
+
   // When searching, show all results (no pagination) with category grouping
   if (isSearching) {
-    // Group all filtered categories for display
-    const allPageCategories = filteredCategories.map(cat => ({
-      name: cat.nameKey ? L(cat.nameKey) : cat.name,
-      nsfw: cat.nsfw,
-      apps: cat.apps
-    }));
-
-    // Top pagination with categories and page size
-    renderPagination('pagination-row', 1, 1, totalApps, totalApps, () => {}, () => renderStore(filterText, 1), allPageCategories);
+    // Top pagination with all categories
+    renderPagination('pagination-row', 1, 1, totalApps, totalApps, () => {}, () => renderStore(filterText, 1), allCategories, handleCategoryClick);
 
     filteredCategories.forEach((category) => {
       root.appendChild(renderCategory(category, true));
     });
 
     // Bottom pagination
-    renderPagination('pagination-row-bottom', 1, 1, totalApps, totalApps, () => {}, () => renderStore(filterText, 1), []);
+    renderPagination('pagination-row-bottom', 1, 1, totalApps, totalApps, () => {}, () => renderStore(filterText, 1), [], null);
 
     updateToggleAllButtonLabel();
 
@@ -540,14 +569,15 @@ const renderStore = (filterText = '', page = 1) => {
   const pageAppsCount = pageApps.length;
   const pageCategories = groupAppsByCategory(pageApps);
 
-  // Top pagination
+  // Top pagination with all categories
   renderPagination('pagination-row', totalPages, currentPage, pageAppsCount, totalApps,
     (newPage) => {
       renderStore(filterText, newPage);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     },
-    () => renderStore(filterText, 1), // Reset to page 1 when page size changes
-    pageCategories
+    () => renderStore(filterText, 1),
+    allCategories,
+    handleCategoryClick
   );
 
   // Render each category group
@@ -555,14 +585,15 @@ const renderStore = (filterText = '', page = 1) => {
     root.appendChild(renderCategory(catGroup, true));
   });
 
-  // Bottom pagination
+  // Bottom pagination (no categories)
   renderPagination('pagination-row-bottom', totalPages, currentPage, pageAppsCount, totalApps,
     (newPage) => {
       renderStore(filterText, newPage);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     },
     () => renderStore(filterText, 1),
-    [] // Don't show categories on bottom pagination
+    [],
+    null
   );
 
   updateToggleAllButtonLabel();
