@@ -286,6 +286,7 @@ WRAPPERS = [
   { "name": "Flightradar24", "url": "https://www.flightradar24.com" },
   { "name": "FlightAware Live", "url": "https://www.flightaware.com/live", "icon": "flightaware.webp" },
   { "name": "Iran War Live", "url": "https://iran-war-live.com" },
+  { "name": "UkraineWarLosses", "url": "https://ukrainewarlosses.org" },
   { "name": "OilPrice", "url": "https://oilprice.com" },
   { "name": "NUKEMAP", "url": "https://nuclearsecrecy.com/nukemap" },
   { "name": "NY Times", "url": "https://www.nytimes.com" , "keyify_name": "nytimes"},

@@ -1487,6 +1487,8 @@ const L = {
   flightawarelive_desc: "打开 FlightAware Live，一个专业级的实时航班跟踪与航空数据平台。",
   iranwarlive_name: "Iran War Live",
   iranwarlive_desc: "打开 Iran War Live，一个展示冲突成本估算、时间线与部队部署的实时监测面板。",
+  ukrainewarlosses_name: "UkraineWarLosses",
+  ukrainewarlosses_desc: "打开 UkraineWarLosses.org，一个汇总俄乌战争中公开报道的军事损失数据的网站。",
   oilprice_name: "OilPrice",
   oilprice_desc: "打开 OilPrice，一个提供原油价格、能源新闻与市场分析的全球能源情报平台。",
   busmaps_name: "BusMaps",

@@ -5249,6 +5249,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://iran-war-live.com"
       },
+      {
+        name: "UkraineWarLosses",
+        nameKey: "ukrainewarlosses_name",
+        descriptionKey: "ukrainewarlosses_desc",
+        icon: "icons/wrappers/ukrainewarlosses.webp",
+        url2: "/wrappers/ukrainewarlosses",
+        apptype2: "wrapper",
+        url: "https://ukrainewarlosses.org"
+      },
     ]
   },
   {
