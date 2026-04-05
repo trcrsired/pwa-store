@@ -1818,6 +1818,8 @@ const L = {
   harldan_desc: "Opens Harldan's Guides, a comprehensive set of World of Warcraft speedleveling routes with written and video guides from 1–70 and beyond.",
   jodybruchon_name: "Jody Bruchon",
   jodybruchon_desc: "Opens Jody Bruchon's personal site featuring tech articles, software projects, tutorials, and blog posts.",
+  aifocus_name: "AI Focus",
+  aifocus_desc: "Opens AI Focus, Paul Kinlan’s blog exploring how artificial intelligence is reshaping web development and digital experiences.",
   manosphere_name: "Manosphere",
   mgtowtv_name: "MGTOW.TV",
   mgtowtv_desc: "Independent video platform centered on men's issues, free speech, and uncensored creator content.",

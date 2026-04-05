@@ -6950,6 +6950,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.jodybruchon.com"
       },
+      {
+        name: "AI Focus",
+        nameKey: "aifocus_name",
+        descriptionKey: "aifocus_desc",
+        icon: "icons/wrappers/aifocus.webp",
+        url2: "/wrappers/aifocus",
+        apptype2: "wrapper",
+        url: "https://aifoc.us"
+      },
     ]
   },
   {
