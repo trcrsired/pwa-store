@@ -106,6 +106,13 @@ export const categories = [
         icon: "icons/pwa/pwageolocation.webp",
         url: "https://pwa-geolocation.pages.dev"
       },
+      {
+        name: "Markdown Viewer",
+        nameKey: "markdownviewer_name",
+        descriptionKey: "markdownviewer_desc",
+        icon: "icons/pwa/markdownviewer.svg",
+        url: "https://spskelly.github.io/markdown-viewer"
+      },
     ]
   },
   {

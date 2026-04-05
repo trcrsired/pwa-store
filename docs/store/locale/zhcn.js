@@ -111,6 +111,8 @@ const L = {
   wormhole_desc: "打开 Wormhole，一个提供端到端加密、快速临时链接分享的安全文件传输服务。",
   pwageolocation_name: "PWA地理定位 (PWA Geolocation)",
   pwageolocation_desc: "打开 PWA Geolocation，一个轻量级的渐进式网络应用，使用浏览器定位 API 显示实时坐标、速度、海拔与精度信息。",
+  markdownviewer_name: "Markdown Viewer",
+  markdownviewer_desc: "打开 Markdown Viewer，一个轻量级网页应用，可直接在浏览器中渲染和预览 Markdown (.md)文件。",
   "alternatives_name": "替代品",
   qrcodetools_name: "二维码工具",
   qrcodetools_desc: "轻松生成、扫描和管理二维码，适用于开发者、市场人员和日常用户。",
