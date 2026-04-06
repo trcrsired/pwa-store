@@ -3942,6 +3942,15 @@ export const categories = [
         url: "https://www.mediaite.com"
       },
       {
+        name: "Surprising Ethics",
+        nameKey: "surprisingethics_name",
+        descriptionKey: "surprisingethics_desc",
+        icon: "icons/msedge/surprisingethics.webp",
+        url2: "/msedge/surprisingethics",
+        apptype2: "wrapper",
+        url: "https://surprisingethics.buzzsprout.com"
+      },
+      {
         name: "Lianyungang Daily (连云港日报)",
         nameKey: "lygdaily_name",
         descriptionKey: "lygdaily_desc",
@@ -5813,6 +5822,15 @@ export const categories = [
         url2: "/wrappers/albertsons",
         apptype2: "wrapper",
         url: "https://www.albertsons.com"
+      },
+      {
+        name: "Etsy",
+        nameKey: "etsy_name",
+        descriptionKey: "etsy_desc",
+        icon: "icons/wrappers/etsy.webp",
+        url2: "/wrappers/etsy",
+        apptype2: "wrapper",
+        url: "https://www.etsy.com"
       },
       {
         name: "Meituan",

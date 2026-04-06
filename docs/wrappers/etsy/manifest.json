@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/etsy",
+  "name": "Etsy",
+  "short_name": "Etsy",
+  "start_url": "/wrappers/etsy/?source=pwa",
+  "scope": "/wrappers/etsy/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Etsy",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/etsy/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

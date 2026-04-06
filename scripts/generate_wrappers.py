@@ -183,6 +183,7 @@ WRAPPERS = [
   { "name": "KZ Audio", "url": "https://kz-audio.com" },
   { "name": "Instacart", "url": "https://www.instacart.com" },
   { "name": "Albertsons", "url": "https://www.albertsons.com" },
+  { "name": "Etsy", "url": "https://www.etsy.com" },
   { "name": "Luckin Coffee", "url": "https://in.luckincoffee.com", "keyify_name": "luckin" },
   { "name": "Bosideng", "url": "https://www.bosidengfashion.com" },
   { "name": "Gmail", "url": "https://mail.google.com" },
@@ -466,6 +467,7 @@ WRAPPERS = [
   { "name": "WBKO", "url": "https://www.wbko.com" },
   { "name": "Western Journal", "url": "https://www.westernjournal.com" },
   { "name": "Mediaite", "url": "https://www.mediaite.com" },
+  { "name": "Surprising Ethics", "url": "https://surprisingethics.buzzsprout.com", "apptype": "msedge" },
 
   { "name": "Sporting News", "url": "https://www.sportingnews.com" },
   { "name": "Sports Illustrated", "url": "https://www.si.com", "keyify_name": "si" },
