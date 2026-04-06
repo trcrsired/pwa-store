@@ -1357,6 +1357,8 @@ const L = {
   hacommunity_desc: "Opens the Home Assistant Community Forum for discussions on automations, integrations, add-ons, and troubleshooting.",
   chinwag_name: "ChinWag",
   chinwag_desc: "Opens ChinWag, the official discussion forum for pluralistic.net, featuring community threads on tech, politics, economics, and Cory Doctorow’s latest essays.",
+  plexforums_name: "Plex Forums",
+  plexforums_desc: "Opens the official Plex Forums, a community hub for support, troubleshooting, and media server discussions.",
   ra2diy_name: "RA2 DIY",
   ra2diy_desc: "A community forum focused on modding and customizing Red Alert 2. Includes tools, tutorials, and user creations.",
   v2ex_name: "V2EX",

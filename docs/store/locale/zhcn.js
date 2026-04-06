@@ -1349,6 +1349,8 @@ const L = {
   hacommunity_desc: "打开 Home Assistant 官方社区论坛，讨论自动化、集成、插件与问题排查等内容。",
   chinwag_name: "ChinWag",
   chinwag_desc: "打开 ChinWag，这是 pluralistic.net 的官方讨论区，聚焦科技、政治、经济与 Cory Doctorow 最新文章的社区交流。",
+  plexforums_name: "Plex 论坛",
+  plexforums_desc: "打开 Plex 官方论坛，一个用于支持、故障排查和媒体服务器讨论的社区平台。",
   ra2diy_name: "红警DIY",
   ra2diy_desc: "一个专注于《红色警戒2》修改与定制的社区论坛，提供工具、教程与玩家作品分享。",
   v2ex_name: "V2EX",

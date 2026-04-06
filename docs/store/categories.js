@@ -4750,6 +4750,13 @@ export const categories = [
         url: "https://chinwag.pluralistic.net"
       },
       {
+        name: "Plex Forums",
+        nameKey: "plexforums_name",
+        descriptionKey: "plexforums_desc",
+        icon: "icons/pwa/plexforums.webp",
+        url: "https://forums.plex.tv"
+      },
+      {
         name: "RA2 DIY",
         nameKey: "ra2diy_name",
         descriptionKey: "ra2diy_desc",
