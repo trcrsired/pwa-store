@@ -3093,6 +3093,13 @@ export const categories = [
         icon: "icons/pwa/emacschina.webp",
         url: "https://emacs-china.org"
       },
+      {
+        name: "Android Central Forums",
+        nameKey: "androidcentralforums_name",
+        descriptionKey: "androidcentralforums_desc",
+        icon: "icons/pwa/androidcentralforums.webp",
+        url: "https://forums.androidcentral.com"
+      },
     ]
   },
   {

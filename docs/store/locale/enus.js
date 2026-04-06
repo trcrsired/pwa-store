@@ -727,6 +727,8 @@ const L = {
   juejin_desc: "Juejin is a Chinese developer community and content platform offering high-quality articles, tutorials, and discussions across frontend, backend, mobile, AI, and more. It serves as a hub for technical growth, open-source sharing, and career development, with active contributions from engineers, designers, and product managers.",
   emacschina_name: "Emacs China",
   emacschina_desc: "Probably the best Chinese forum for Emacs.",
+  androidcentralforums_name: "Android Central Forums",
+  androidcentralforums_desc: "Opens the Android Central Forums, a community for Android help, troubleshooting, device discussions, and tips.",
   wccftech_name: "Wccftech",
   wccftech_desc: "Opens Wccftech, a site covering technology news, hardware reviews, gaming, and industry updates.",
   "404media_name": "404 Media",

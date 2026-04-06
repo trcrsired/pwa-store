@@ -722,6 +722,8 @@ const L = {
   juejin_desc: "掘金是一个面向开发者的中文技术社区与内容平台，涵盖前端、后端、移动开发、人工智能等多个领域，提供高质量文章、教程与技术讨论。平台聚集了工程师、设计师与产品经理，致力于技术成长、开源分享与职业发展。",
   emacschina_name: "Emacs China",
   emacschina_desc: "可能是最好的 Emacs 中文论坛",
+  androidcentralforums_name: "Android Central 论坛",
+  androidcentralforums_desc: "打开 Android Central 论坛，一个用于 Android 帮助、故障排查、设备讨论与技巧分享的社区。",
   wccftech_name: "Wccftech",
   wccftech_desc: "打开 Wccftech，一个提供科技新闻、硬件评测、游戏与行业动态的网站。",
   "404media_name": "404 Media",
