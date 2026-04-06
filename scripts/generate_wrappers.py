@@ -286,6 +286,7 @@ WRAPPERS = [
   { "name": "Flightradar24", "url": "https://www.flightradar24.com" },
   { "name": "FlightAware Live", "url": "https://www.flightaware.com/live", "icon": "flightaware.webp" },
   { "name": "Iran War Live", "url": "https://iran-war-live.com" },
+  { "name": "UkraineWarLosses", "url": "https://ukrainewarlosses.org" },
   { "name": "OilPrice", "url": "https://oilprice.com" },
   { "name": "NUKEMAP", "url": "https://nuclearsecrecy.com/nukemap" },
   { "name": "NY Times", "url": "https://www.nytimes.com" , "keyify_name": "nytimes"},
@@ -447,6 +448,7 @@ WRAPPERS = [
   { "name": "WinRed", "url": "https://winred.com" },
   { "name": "Harldan's Guides", "url": "https://www.harldan.com", "keyify_name": "harldan" },
   { "name": "Jody Bruchon", "url": "https://www.jodybruchon.com" },
+  { "name": "AI Focus", "url": "https://aifoc.us" },
 
   { "name": "Radio Television of Afghanistan", "url": "https://rta.af", "keyify_name": "rtaaf"},
   { "name": "求是", "url": "https://www.qstheory.cn", "keyify_name": "qstheory"},
@@ -530,6 +532,7 @@ INDEX_HTML = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
   <title>{title}</title>
   <link rel="manifest" href="manifest.json" />
   <link rel="stylesheet" href="styles.css" />

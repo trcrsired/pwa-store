@@ -106,6 +106,13 @@ export const categories = [
         icon: "icons/pwa/pwageolocation.webp",
         url: "https://pwa-geolocation.pages.dev"
       },
+      {
+        name: "Markdown Viewer",
+        nameKey: "markdownviewer_name",
+        descriptionKey: "markdownviewer_desc",
+        icon: "icons/pwa/markdownviewer.svg",
+        url: "https://spskelly.github.io/markdown-viewer"
+      },
     ]
   },
   {
@@ -5256,6 +5263,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://iran-war-live.com"
       },
+      {
+        name: "UkraineWarLosses",
+        nameKey: "ukrainewarlosses_name",
+        descriptionKey: "ukrainewarlosses_desc",
+        icon: "icons/wrappers/ukrainewarlosses.webp",
+        url2: "/wrappers/ukrainewarlosses",
+        apptype2: "wrapper",
+        url: "https://ukrainewarlosses.org"
+      },
     ]
   },
   {
@@ -6947,6 +6963,15 @@ export const categories = [
         url2: "/wrappers/jodybruchon",
         apptype2: "wrapper",
         url: "https://www.jodybruchon.com"
+      },
+      {
+        name: "AI Focus",
+        nameKey: "aifocus_name",
+        descriptionKey: "aifocus_desc",
+        icon: "icons/wrappers/aifocus.webp",
+        url2: "/wrappers/aifocus",
+        apptype2: "wrapper",
+        url: "https://aifoc.us"
       },
     ]
   },

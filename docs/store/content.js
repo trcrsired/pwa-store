@@ -242,7 +242,7 @@ const renderAppCard = (app) => {
 };
 
 // Render pagination controls with page input
-const renderPagination = (containerId, totalPages, currentPage, currentPageApps, totalApps, onPageChange, onPageSizeChange, pageCategories = [], forceShow = false) => {
+const renderPagination = (containerId, totalPages, currentPage, currentPageApps, totalApps, onPageChange, onPageSizeChange, allCategories = [], onCategoryClick = null) => {
   const paginationRow = document.getElementById(containerId);
   if (!paginationRow) return;
 
@@ -256,25 +256,24 @@ const renderPagination = (containerId, totalPages, currentPage, currentPageApps,
 
   paginationRow.style.display = 'flex';
 
-  // Categories on this page (only for top pagination)
-  if (containerId === 'pagination-row' && pageCategories.length > 0) {
+  // All categories (only for top pagination)
+  if (containerId === 'pagination-row' && allCategories.length > 0) {
     const categoriesInfo = document.createElement('div');
     categoriesInfo.className = 'page-categories';
     categoriesInfo.innerHTML = `<span class="page-categories-label">${L('categories_label')}:</span> `;
-    pageCategories.forEach((cat) => {
+    allCategories.forEach((cat) => {
       const badge = document.createElement('span');
       badge.className = 'category-badge clickable';
       badge.textContent = cat.name;
-      badge.addEventListener('click', () => {
-        const categoryHeading = document.querySelector(`.category-heading:has(.category-title)`);
-        const allHeadings = document.querySelectorAll('.category-heading');
-        for (const heading of allHeadings) {
-          if (heading.textContent.includes(cat.name)) {
-            heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            break;
-          }
-        }
-      });
+      if (cat.nsfw) {
+        const nsfwBadge = document.createElement('span');
+        nsfwBadge.className = 'nsfw-badge';
+        nsfwBadge.textContent = 'NSFW';
+        badge.appendChild(nsfwBadge);
+      }
+      if (onCategoryClick) {
+        badge.addEventListener('click', () => onCategoryClick(cat.name));
+      }
       categoriesInfo.appendChild(badge);
     });
     paginationRow.appendChild(categoriesInfo);
@@ -351,7 +350,7 @@ const renderPagination = (containerId, totalPages, currentPage, currentPageApps,
 };
 
 // Render a category block with its apps
-const renderCategory = (category, isExpanded = true) => {
+const renderCategory = (category, isExpanded = true, hasMoreOnNextPage = false, hasMoreOnPrevPage = false, onNavigatePage = null, currentPageNum = 1) => {
   const section = document.createElement('section');
   section.className = 'category-block';
 
@@ -368,6 +367,20 @@ const renderCategory = (category, isExpanded = true) => {
   heading.setAttribute('role', 'button');
   heading.tabIndex = 0;
   heading.setAttribute('aria-expanded', String(isExpanded));
+
+  section.appendChild(heading);
+
+  // Show indicator if category continues on previous page (at top)
+  if (hasMoreOnPrevPage) {
+    const prevInfo = document.createElement('div');
+    prevInfo.className = 'category-continuation category-continuation-top';
+    prevInfo.textContent = L('more_on_prev_page');
+    prevInfo.style.cursor = 'pointer';
+    prevInfo.addEventListener('click', () => {
+      if (onNavigatePage) onNavigatePage(currentPageNum - 1, localizedCategoryName);
+    });
+    section.appendChild(prevInfo);
+  }
 
   const grid = document.createElement('div');
   grid.className = 'app-grid';
@@ -395,8 +408,20 @@ const renderCategory = (category, isExpanded = true) => {
     }
   });
 
-  section.appendChild(heading);
   section.appendChild(grid);
+
+  // Show indicator if category continues on next page (at bottom)
+  if (hasMoreOnNextPage) {
+    const nextInfo = document.createElement('div');
+    nextInfo.className = 'category-continuation';
+    nextInfo.textContent = L('more_on_next_page');
+    nextInfo.style.cursor = 'pointer';
+    nextInfo.addEventListener('click', () => {
+      if (onNavigatePage) onNavigatePage(currentPageNum + 1, localizedCategoryName);
+    });
+    section.appendChild(nextInfo);
+  }
+
   return section;
 };
 
@@ -489,8 +514,60 @@ const groupAppsByCategory = (pageApps) => {
   return Object.values(grouped);
 };
 
+// Find the page where a category first appears
+const findCategoryPage = (flatAppsList, categoryName) => {
+  let currentCount = 0;
+  let currentPage = 1;
+
+  for (const item of flatAppsList) {
+    if (item.categoryName === categoryName) {
+      return currentPage;
+    }
+    ++currentCount;
+    if (currentCount >= pageSize) {
+      ++currentPage;
+      currentCount = 0;
+    }
+  }
+  return 1;
+};
+
+// Check if a category has more apps on the next page (and hasn't ended)
+const hasCategoryMoreOnNextPage = (flatAppsList, categoryName, currentPageNum) => {
+  // Find the last index of this category in the entire list
+  let lastIndexOfCategory = -1;
+  for (let i = flatAppsList.length - 1; i >= 0; --i) {
+    if (flatAppsList[i].categoryName === categoryName) {
+      lastIndexOfCategory = i;
+      break;
+    }
+  }
+  if (lastIndexOfCategory === -1) return false;
+
+  // Check if the last app of this category is beyond the current page
+  const currentPageEndIndex = currentPageNum * pageSize;
+  return lastIndexOfCategory >= currentPageEndIndex;
+};
+
+// Check if a category has apps on the previous page (and hasn't started fresh)
+const hasCategoryOnPrevPage = (flatAppsList, categoryName, currentPageNum) => {
+  // Find the first index of this category in the entire list
+  let firstIndexOfCategory = -1;
+  for (let i = 0; i < flatAppsList.length; ++i) {
+    if (flatAppsList[i].categoryName === categoryName) {
+      firstIndexOfCategory = i;
+      break;
+    }
+  }
+  if (firstIndexOfCategory === -1) return false;
+
+  // Check if the first app of this category is before the current page
+  const currentPageStartIndex = (currentPageNum - 1) * pageSize;
+  return firstIndexOfCategory < currentPageStartIndex;
+};
+
 // 🔄 Render the app store with pagination
-const renderStore = (filterText = '', page = 1) => {
+const renderStore = (filterText = '', page = 1, scrollToCategory = null) => {
   prepareSearchIndex();
   const root = document.getElementById('app-store');
   const resultCount = document.getElementById('result-count');
@@ -507,24 +584,46 @@ const renderStore = (filterText = '', page = 1) => {
 
   resultCount.textContent = `${totalApps} APP${totalApps !== 1 ? 's' : ''}`;
 
+  // Get all categories for the category list
+  const allCategories = filteredCategories.map(cat => ({
+    name: cat.nameKey ? L(cat.nameKey) : cat.name,
+    nsfw: cat.nsfw,
+    apps: cat.apps
+  }));
+
+  // Helper to scroll to a category by name
+  const scrollToCategoryByName = (categoryName) => {
+    const allHeadings = document.querySelectorAll('.category-heading');
+    for (const heading of allHeadings) {
+      if (heading.textContent.includes(categoryName)) {
+        heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        break;
+      }
+    }
+  };
+
+  // Category click handler - navigates to the page where category first appears
+  const handleCategoryClick = (categoryName) => {
+    const targetPage = findCategoryPage(flatAppsList, categoryName);
+    if (targetPage !== currentPage) {
+      renderStore(filterText, targetPage, categoryName);
+    } else {
+      // Already on the page, scroll to the category
+      scrollToCategoryByName(categoryName);
+    }
+  };
+
   // When searching, show all results (no pagination) with category grouping
   if (isSearching) {
-    // Group all filtered categories for display
-    const allPageCategories = filteredCategories.map(cat => ({
-      name: cat.nameKey ? L(cat.nameKey) : cat.name,
-      nsfw: cat.nsfw,
-      apps: cat.apps
-    }));
-
-    // Top pagination with categories and page size
-    renderPagination('pagination-row', 1, 1, totalApps, totalApps, () => {}, () => renderStore(filterText, 1), allPageCategories);
+    // Top pagination with all categories
+    renderPagination('pagination-row', 1, 1, totalApps, totalApps, () => {}, () => renderStore(filterText, 1), allCategories, handleCategoryClick);
 
     filteredCategories.forEach((category) => {
       root.appendChild(renderCategory(category, true));
     });
 
     // Bottom pagination
-    renderPagination('pagination-row-bottom', 1, 1, totalApps, totalApps, () => {}, () => renderStore(filterText, 1), []);
+    renderPagination('pagination-row-bottom', 1, 1, totalApps, totalApps, () => {}, () => renderStore(filterText, 1), [], null);
 
     updateToggleAllButtonLabel();
 
@@ -540,29 +639,35 @@ const renderStore = (filterText = '', page = 1) => {
   const pageAppsCount = pageApps.length;
   const pageCategories = groupAppsByCategory(pageApps);
 
-  // Top pagination
+  // Top pagination with all categories
   renderPagination('pagination-row', totalPages, currentPage, pageAppsCount, totalApps,
     (newPage) => {
       renderStore(filterText, newPage);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     },
-    () => renderStore(filterText, 1), // Reset to page 1 when page size changes
-    pageCategories
+    () => renderStore(filterText, 1),
+    allCategories,
+    handleCategoryClick
   );
 
   // Render each category group
   pageCategories.forEach((catGroup) => {
-    root.appendChild(renderCategory(catGroup, true));
+    const hasMoreNext = hasCategoryMoreOnNextPage(flatAppsList, catGroup.name, currentPage);
+    const hasMorePrev = hasCategoryOnPrevPage(flatAppsList, catGroup.name, currentPage);
+    root.appendChild(renderCategory(catGroup, true, hasMoreNext, hasMorePrev, (newPage, categoryName) => {
+      renderStore(filterText, newPage, categoryName);
+    }, currentPage));
   });
 
-  // Bottom pagination
+  // Bottom pagination (no categories)
   renderPagination('pagination-row-bottom', totalPages, currentPage, pageAppsCount, totalApps,
     (newPage) => {
       renderStore(filterText, newPage);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     },
     () => renderStore(filterText, 1),
-    [] // Don't show categories on bottom pagination
+    [],
+    null
   );
 
   updateToggleAllButtonLabel();
@@ -570,6 +675,11 @@ const renderStore = (filterText = '', page = 1) => {
   // Update scroll buttons after render
   if (typeof window.updateScrollButtons === 'function') {
     setTimeout(window.updateScrollButtons, 50);
+  }
+
+  // Scroll to category if requested (after render completes)
+  if (scrollToCategory) {
+    setTimeout(() => scrollToCategoryByName(scrollToCategory), 50);
   }
 };
 
