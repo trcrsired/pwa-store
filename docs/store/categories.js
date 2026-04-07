@@ -2132,6 +2132,13 @@ export const categories = [
         url: "https://comexlive.org"
       },
       {
+        name: "CoinDesk",
+        nameKey: "coindesk_name",
+        descriptionKey: "coindesk_desc",
+        icon: "icons/pwa/coindesk.webp",
+        url: "https://www.coindesk.com"
+      },
+      {
         name: "Capital One",
         nameKey: "capitalone_name",
         descriptionKey: "capitalone_desc",
@@ -5840,6 +5847,15 @@ export const categories = [
         url: "https://www.etsy.com"
       },
       {
+        name: "InnoSearch AI",
+        nameKey: "innosearch_name",
+        descriptionKey: "innosearch_desc",
+        icon: "icons/wrappers/innosearch.webp",
+        url2: "/wrappers/innosearch",
+        apptype2: "wrapper",
+        url: "https://www.innosearch.ai"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",
@@ -7622,7 +7638,6 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://thespun.com"
       },
-
     ]
   },
   {
