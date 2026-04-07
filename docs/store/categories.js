@@ -6581,6 +6581,15 @@ export const categories = [
         url: "https://www.auction.com"
       },
       {
+        name: "WeWork",
+        nameKey: "wework_name",
+        descriptionKey: "wework_desc",
+        icon: "icons/msedge/wework.webp",
+        url2: "/msedge/wework",
+        apptype2: "wrapper",
+        url: "https://www.wework.com"
+      },
+      {
         name: "H World Club (华住会)",
         nameKey: "hworldclub_name",
         descriptionKey: "hworldclub_desc",

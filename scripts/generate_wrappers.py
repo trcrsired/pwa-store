@@ -364,6 +364,7 @@ WRAPPERS = [
   { "name": "126 Mail", "url": "https://mail.126.com", "keyify_name":"netease126" },
   { "name": "yeah.net Mail", "url": "https://mail.yeah.net", "keyify_name":"yeahnet" },
   { "name": "Auction.com", "url": "https://www.auction.com", "keyify_name": "auctioncom" },
+  { "name": "WeWork", "url": "https://www.wework.com", "apptype": "msedge"},
   { "name": "Airbnb", "url": "https://www.airbnb.com" },
   { "name": "Booking", "url": "https://www.booking.com" },
   { "name": "CarNewsChina", "url": "https://carnewschina.com" },

@@ -1669,6 +1669,8 @@ const L = {
   properstar_desc: "A global real estate platform helping users buy, sell, or rent properties across 100+ countries. Offers listings, price insights, and multilingual support for international buyers.",
   auctioncom_name: "Auction.com",
   auctioncom_desc: "Discover residential and commercial properties for auction. Bid online, review foreclosure details, and explore investment opportunities.",
+  wework_name: "WeWork",
+  wework_desc: "Opens the official WeWork website, a global provider of flexible workspaces, private offices, coworking areas, and meeting rooms. Explore membership options, browse locations worldwide, book workspaces, and learn about WeWork’s services for individuals, startups, and enterprises seeking modern, collaborative office environments.",
   jobs_name: "Jobs",
   linkedin_name: "LinkedIn",
   linkedin_desc: "Connect with professionals, explore job opportunities, and build your career profile. Follow companies, join industry groups, and share insights.",
