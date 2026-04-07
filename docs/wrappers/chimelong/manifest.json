@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/chimelong",
+  "name": "\u957f\u9686\u65c5\u6e38",
+  "short_name": "\u957f\u9686\u65c5\u6e38",
+  "start_url": "/wrappers/chimelong/?source=pwa",
+  "scope": "/wrappers/chimelong/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for \u957f\u9686\u65c5\u6e38",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/chimelong/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

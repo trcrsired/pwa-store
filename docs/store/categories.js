@@ -6355,11 +6355,26 @@ export const categories = [
       },
       {
         name: "EMS China Post Express Logistics (EMS中国邮政速递物流)",
-        nameKey: "chinaems_name",
-        descriptionKey: "chinaems_desc",
+        nameKey: "chinaemswechatmini_name",
+        descriptionKey: "chinaemswechatmini_desc",
         icon: "icons/wechatmini/chinaems.webp",
         url: "#小程序://EMS中国邮政速递物流/as1h1us3nlbaPbF",
         apptype: "wechatmini"
+      },
+      {
+        name: "Chimelong Tourism (长隆旅游)",
+        nameKey: "chimelong_name",
+        descriptionKey: "chimelong_desc",
+        icon: "icons/wrappers/chimelong.webp",
+        url: "https://www.chimelong.com"
+      },
+      {
+        name: "Chimelong Tourism (长隆旅游)",
+        nameKey: "chimelongwechatmini_name",
+        descriptionKey: "chimelongwechatmini_desc",
+        icon: "icons/wrappers/chimelong.webp",
+        apptype: "wechatmini",
+        url: "#小程序://长隆旅游/N4gg9khJGxkBqog"
       },
     ]
   },

@@ -156,6 +156,7 @@ WRAPPERS = [
   { "name": "China EMS", "url": "https://www.ems.com.cn"},
   { "name": "Tripadvisor", "url": "https://www.tripadvisor.com"},
   { "name": "Expedia", "url": "https://www.expedia.com"},
+  { "name": "长隆旅游", "url": "https://www.chimelong.com", "keyify_name": "chimelong" },
   { "name": "UHS", "url": "https://www.uhs.com" },
   { "name": "Delta Dental", "url": "https://www.deltadental.com", "keyify_name": "deltadental" },
   { "name": "Women's Health", "url": "https://www.womenshealthmag.com", "keyify_name": "womenshealth" },
