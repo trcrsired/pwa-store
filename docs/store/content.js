@@ -686,8 +686,8 @@ const renderStore = (filterText = '', page = 1, scrollToCategory = null) => {
 };
 
 
-// 🔧 Setup search input listener
-let lastWasSearching = false; // Track if we were in search mode (>=2 chars)
+// 🔧 Setup search input listener with debounce
+let searchDebounceTimer = null;
 
 const setupSearch = () => {
   const input = document.getElementById('search-input');
@@ -695,19 +695,16 @@ const setupSearch = () => {
 
   input.addEventListener('input', (e) => {
     const query = e.target.value.trim().toLowerCase();
-    const isSearching = query.length >= 2;
 
-    // Only re-render when transitioning between search/no-search states
-    // or when the search query actually changes (while in search mode)
-    if (isSearching !== lastWasSearching) {
-      // State transition: render with appropriate query
-      lastWasSearching = isSearching;
-      renderStore(isSearching ? query : '');
-    } else if (isSearching) {
-      // Already in search mode, query changed
-      renderStore(query);
+    // Clear previous timer
+    if (searchDebounceTimer) {
+      clearTimeout(searchDebounceTimer);
     }
-    // If not searching and wasn't searching before, do nothing
+
+    // Wait 300ms after user stops typing before rendering
+    searchDebounceTimer = setTimeout(() => {
+      renderStore(query);
+    }, 300);
   });
 };
 
