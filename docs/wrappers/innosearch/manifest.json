@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/innosearch",
+  "name": "InnoSearch AI",
+  "short_name": "InnoSearch AI",
+  "start_url": "/wrappers/innosearch/?source=pwa",
+  "scope": "/wrappers/innosearch/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for InnoSearch AI",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/innosearch/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

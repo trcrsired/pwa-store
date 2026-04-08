@@ -2132,6 +2132,13 @@ export const categories = [
         url: "https://comexlive.org"
       },
       {
+        name: "CoinDesk",
+        nameKey: "coindesk_name",
+        descriptionKey: "coindesk_desc",
+        icon: "icons/pwa/coindesk.webp",
+        url: "https://www.coindesk.com"
+      },
+      {
         name: "Capital One",
         nameKey: "capitalone_name",
         descriptionKey: "capitalone_desc",
@@ -5840,6 +5847,15 @@ export const categories = [
         url: "https://www.etsy.com"
       },
       {
+        name: "InnoSearch AI",
+        nameKey: "innosearch_name",
+        descriptionKey: "innosearch_desc",
+        icon: "icons/wrappers/innosearch.webp",
+        url2: "/wrappers/innosearch",
+        apptype2: "wrapper",
+        url: "https://www.innosearch.ai"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",
@@ -6339,11 +6355,26 @@ export const categories = [
       },
       {
         name: "EMS China Post Express Logistics (EMS中国邮政速递物流)",
-        nameKey: "chinaems_name",
-        descriptionKey: "chinaems_desc",
+        nameKey: "chinaemswechatmini_name",
+        descriptionKey: "chinaemswechatmini_desc",
         icon: "icons/wechatmini/chinaems.webp",
         url: "#小程序://EMS中国邮政速递物流/as1h1us3nlbaPbF",
         apptype: "wechatmini"
+      },
+      {
+        name: "Chimelong Tourism (长隆旅游)",
+        nameKey: "chimelong_name",
+        descriptionKey: "chimelong_desc",
+        icon: "icons/wrappers/chimelong.webp",
+        url: "https://www.chimelong.com"
+      },
+      {
+        name: "Chimelong Tourism (长隆旅游)",
+        nameKey: "chimelongwechatmini_name",
+        descriptionKey: "chimelongwechatmini_desc",
+        icon: "icons/wrappers/chimelong.webp",
+        apptype: "wechatmini",
+        url: "#小程序://长隆旅游/N4gg9khJGxkBqog"
       },
     ]
   },
@@ -6548,6 +6579,15 @@ export const categories = [
         url2: "/wrappers/auctioncom",
         apptype2: "wrapper",
         url: "https://www.auction.com"
+      },
+      {
+        name: "WeWork",
+        nameKey: "wework_name",
+        descriptionKey: "wework_desc",
+        icon: "icons/msedge/wework.webp",
+        url2: "/msedge/wework",
+        apptype2: "wrapper",
+        url: "https://www.wework.com"
       },
       {
         name: "H World Club (华住会)",
@@ -7629,7 +7669,6 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://thespun.com"
       },
-
     ]
   },
   {

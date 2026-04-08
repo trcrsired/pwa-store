@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/wework",
+  "name": "WeWork",
+  "short_name": "WeWork",
+  "start_url": "/msedge/wework/?source=pwa",
+  "scope": "/msedge/wework/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for WeWork",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/wework/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
