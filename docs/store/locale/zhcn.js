@@ -1834,6 +1834,8 @@ const L = {
   jodybruchon_desc: "打开 Jody Bruchon 的个人网站，包含技术文章、软件项目、教程与博客内容。",
   aifocus_name: "AI Focus",
   aifocus_desc: "打开 AI Focus，Paul Kinlan 的博客，探讨人工智能如何重塑网络开发与数字体验。",
+  zerosid_name: "0xSid",
+  zerosid_desc: "打开 0xSid 网站，内容涵盖网络安全研究、技术文章、工具分享以及与逆向工程和漏洞利用相关的技术探索。可浏览作者发布的研究成果、项目与资源。",
   manosphere_name: "男性圈(Manosphere)",
   mgtowtv_name: "MGTOW.TV",
   mgtowtv_desc: "一个专注于男性话题的独立视频平台，提供言论自由和非审查的创作者内容。",

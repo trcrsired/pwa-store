@@ -1838,6 +1838,8 @@ const L = {
   jodybruchon_desc: "Opens Jody Bruchon's personal site featuring tech articles, software projects, tutorials, and blog posts.",
   aifocus_name: "AI Focus",
   aifocus_desc: "Opens AI Focus, Paul Kinlan’s blog exploring how artificial intelligence is reshaping web development and digital experiences.",
+  zerosid_name: "0xSid",
+  zerosid_desc: "Opens the 0xSid website, featuring cybersecurity research, write‑ups, tools, and technical explorations focused on security, reverse engineering, and modern exploitation techniques. Explore articles, resources, and projects created by the 0xSid developer.",
   manosphere_name: "Manosphere",
   mgtowtv_name: "MGTOW.TV",
   mgtowtv_desc: "Independent video platform centered on men's issues, free speech, and uncensored creator content.",

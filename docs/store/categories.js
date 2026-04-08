@@ -7045,6 +7045,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://aifoc.us"
       },
+      {
+        name: "0xSid",
+        nameKey: "zerosid_name",
+        descriptionKey: "zerosid_desc",
+        icon: "icons/wrappers/0xsid.webp",
+        url2: "/wrappers/0xsid",
+        apptype2: "wrapper",
+        url: "https://www.0xsid.com"
+      },
     ]
   },
   {

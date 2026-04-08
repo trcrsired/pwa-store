@@ -453,6 +453,7 @@ WRAPPERS = [
   { "name": "Harldan's Guides", "url": "https://www.harldan.com", "keyify_name": "harldan" },
   { "name": "Jody Bruchon", "url": "https://www.jodybruchon.com" },
   { "name": "AI Focus", "url": "https://aifoc.us" },
+  { "name": "0xSid", "url": "https://www.0xsid.com" },
 
   { "name": "Radio Television of Afghanistan", "url": "https://rta.af", "keyify_name": "rtaaf"},
   { "name": "求是", "url": "https://www.qstheory.cn", "keyify_name": "qstheory"},
