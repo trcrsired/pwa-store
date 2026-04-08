@@ -438,6 +438,14 @@ a:hover {
   border-bottom: 1px solid var(--border);
 }
 
+/* Category app count */
+.category-count {
+  font-weight: 400;
+  font-size: 0.85em;
+  color: var(--muted);
+  margin-left: 4px;
+}
+
 /* App card */
 .app-card {
   border: 1px solid var(--border);

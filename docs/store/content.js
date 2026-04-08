@@ -356,9 +356,11 @@ const renderCategory = (category, isExpanded = true, hasMoreOnNextPage = false, 
 
   const heading = document.createElement('h2');
   const localizedCategoryName = category.nameKey ? L(category.nameKey) : category.name;
+  const appCount = category.apps.filter(app => !app.hide).length;
   heading.innerHTML = `
     <span class="category-title">
       ${localizedCategoryName}
+      <span class="category-count">(${appCount})</span>
       ${category.nsfw ? '<span class="nsfw-badge">NSFW</span>' : ''}
     </span>
   `;
@@ -691,7 +693,12 @@ const setupSearch = () => {
 
   input.addEventListener('input', (e) => {
     const query = e.target.value.trim().toLowerCase();
-    renderStore(query);
+    // Ignore single-character searches - treat as empty to prevent UI lag
+    if (query.length <= 1) {
+      renderStore('');
+    } else {
+      renderStore(query);
+    }
   });
 };
 
