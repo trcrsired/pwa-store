@@ -687,18 +687,27 @@ const renderStore = (filterText = '', page = 1, scrollToCategory = null) => {
 
 
 // 🔧 Setup search input listener
+let lastWasSearching = false; // Track if we were in search mode (>=2 chars)
+
 const setupSearch = () => {
   const input = document.getElementById('search-input');
   if (!input) return;
 
   input.addEventListener('input', (e) => {
     const query = e.target.value.trim().toLowerCase();
-    // Ignore single-character searches - treat as empty to prevent UI lag
-    if (query.length <= 1) {
-      renderStore('');
-    } else {
+    const isSearching = query.length >= 2;
+
+    // Only re-render when transitioning between search/no-search states
+    // or when the search query actually changes (while in search mode)
+    if (isSearching !== lastWasSearching) {
+      // State transition: render with appropriate query
+      lastWasSearching = isSearching;
+      renderStore(isSearching ? query : '');
+    } else if (isSearching) {
+      // Already in search mode, query changed
       renderStore(query);
     }
+    // If not searching and wasn't searching before, do nothing
   });
 };
 
