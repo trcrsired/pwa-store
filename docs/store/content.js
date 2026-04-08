@@ -701,10 +701,10 @@ const setupSearch = () => {
       clearTimeout(searchDebounceTimer);
     }
 
-    // Wait 300ms after user stops typing before rendering
+    // Wait 500ms after user stops typing before rendering
     searchDebounceTimer = setTimeout(() => {
       renderStore(query);
-    }, 300);
+    }, 500);
   });
 };
 
