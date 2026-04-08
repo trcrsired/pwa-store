@@ -1790,6 +1790,8 @@ const L = {
   qualcomm_desc: "A global leader in wireless technology and semiconductor innovation. Qualcomm powers smartphones, IoT, automotive systems, and 5G infrastructure with cutting-edge chipsets and connectivity solutions.",
   pwapilipinas_name: "PWA Pilipinas",
   pwapilipinas_desc: "A community-driven hub promoting Progressive Web Apps in the Philippines through education, events, and advocacy.",
+  rockosdev_name: "Rock",
+  rockosdev_desc: "Opens the RockosDev GitHub Pages site, showcasing personal development projects, tools, experiments, and open‑source work created by the developer. Explore demos, utilities, and project documentation hosted on the RockosDev portfolio site.",
   richarddawkins_name: "Richard Dawkins",
   richarddawkins_desc: "An evolutionary biologist and author known for The Selfish Gene, the concept of memes, and his advocacy of science and secularism.",
   richarddawkinsfoundation_name: "Richard Dawkins Foundation",

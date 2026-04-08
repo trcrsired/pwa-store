@@ -6836,6 +6836,13 @@ export const categories = [
         url: "https://app.pwapilipinas.org"
       },
       {
+        name: "Rock",
+        nameKey: "rockosdev_name",
+        descriptionKey: "rockosdev_desc",
+        icon: "icons/pwa/rockosdev.webp",
+        url: "https://rockosdev.github.io"
+      },
+      {
         name: "Richard Dawkins",
         nameKey: "richarddawkins_name",
         descriptionKey: "richarddawkins_desc",
