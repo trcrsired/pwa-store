@@ -3965,6 +3965,24 @@ export const categories = [
         url: "https://surprisingethics.buzzsprout.com"
       },
       {
+        name: "MySPA",
+        nameKey: "myspa_name",
+        descriptionKey: "myspa_desc",
+        icon: "icons/wrappers/myspa.webp",
+        url2: "/wrappers/myspa",
+        apptype2: "wrapper",
+        url: "https://myspa.nikkan-spa.jp"
+      },
+      {
+        name: "Joshi-SPA!",
+        nameKey: "joshispa_name",
+        descriptionKey: "joshispa_desc",
+        icon: "icons/wrappers/joshispa.webp",
+        url2: "/wrappers/joshispa",
+        apptype2: "wrapper",
+        url: "https://joshi-spa.jp"
+      },
+      {
         name: "Lianyungang Daily (连云港日报)",
         nameKey: "lygdaily_name",
         descriptionKey: "lygdaily_desc",

@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/joshispa",
+  "name": "Joshi-SPA!",
+  "short_name": "Joshi-SPA!",
+  "start_url": "/wrappers/joshispa/?source=pwa",
+  "scope": "/wrappers/joshispa/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Joshi-SPA!",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/joshispa/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

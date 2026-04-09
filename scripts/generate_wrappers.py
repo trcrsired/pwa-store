@@ -476,6 +476,8 @@ WRAPPERS = [
   { "name": "Western Journal", "url": "https://www.westernjournal.com" },
   { "name": "Mediaite", "url": "https://www.mediaite.com" },
   { "name": "Surprising Ethics", "url": "https://surprisingethics.buzzsprout.com", "apptype": "msedge" },
+  { "name": "MySPA!", "url": "https://myspa.nikkan-spa.jp", "keyify_name": "myspa" },
+  { "name": "Joshi-SPA!", "url": "https://joshi-spa.jp", "keyify_name": "joshispa" },
 
   { "name": "Sporting News", "url": "https://www.sportingnews.com" },
   { "name": "Sports Illustrated", "url": "https://www.si.com", "keyify_name": "si" },
