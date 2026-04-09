@@ -5865,6 +5865,24 @@ export const categories = [
         url: "https://www.kmart.com"
       },
       {
+        name: "Foodpanda PH",
+        nameKey: "foodpandaph_name",
+        descriptionKey: "foodpandaph_desc",
+        icon: "icons/wrappers/foodpandaph.webp",
+        url2: "/wrappers/foodpandaph",
+        apptype2: "wrapper",
+        url: "https://www.foodpanda.ph"
+      },
+      {
+        name: "GrabFood",
+        nameKey: "grabfood_name",
+        descriptionKey: "grabfood_desc",
+        icon: "icons/wrappers/grabfood.webp",
+        url2: "/wrappers/grabfood",
+        apptype2: "wrapper",
+        url: "https://food.grab.com"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",
@@ -7062,6 +7080,15 @@ export const categories = [
         url2: "/wrappers/0xsid",
         apptype2: "wrapper",
         url: "https://www.0xsid.com"
+      },
+      {
+        name: "Stallman",
+        nameKey: "stallman_name",
+        descriptionKey: "stallman_desc",
+        icon: "icons/wrappers/stallman.webp",
+        url2: "/wrappers/stallman",
+        apptype2: "wrapper",
+        url: "https://stallman.org"
       },
     ]
   },

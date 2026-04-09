@@ -187,6 +187,8 @@ WRAPPERS = [
   { "name": "Etsy", "url": "https://www.etsy.com" },
   { "name": "InnoSearch AI", "url": "https://www.innosearch.ai", "keyify_name": "innosearch" },
   { "name": "Kmart", "url": "https://www.kmart.com" },
+  { "name": "Foodpanda PH", "url": "https://www.foodpanda.ph" },
+  { "name": "GrabFood", "url": "https://food.grab.com" },
   { "name": "Luckin Coffee", "url": "https://in.luckincoffee.com", "keyify_name": "luckin" },
   { "name": "Bosideng", "url": "https://www.bosidengfashion.com" },
   { "name": "Gmail", "url": "https://mail.google.com" },
@@ -455,6 +457,7 @@ WRAPPERS = [
   { "name": "Jody Bruchon", "url": "https://www.jodybruchon.com" },
   { "name": "AI Focus", "url": "https://aifoc.us" },
   { "name": "0xSid", "url": "https://www.0xsid.com" },
+  { "name": "Stallman", "url": "https://stallman.org" },
 
   { "name": "Radio Television of Afghanistan", "url": "https://rta.af", "keyify_name": "rtaaf"},
   { "name": "求是", "url": "https://www.qstheory.cn", "keyify_name": "qstheory"},
