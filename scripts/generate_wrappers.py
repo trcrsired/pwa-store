@@ -186,6 +186,7 @@ WRAPPERS = [
   { "name": "Albertsons", "url": "https://www.albertsons.com" },
   { "name": "Etsy", "url": "https://www.etsy.com" },
   { "name": "InnoSearch AI", "url": "https://www.innosearch.ai", "keyify_name": "innosearch" },
+  { "name": "Kmart", "url": "https://www.kmart.com" },
   { "name": "Luckin Coffee", "url": "https://in.luckincoffee.com", "keyify_name": "luckin" },
   { "name": "Bosideng", "url": "https://www.bosidengfashion.com" },
   { "name": "Gmail", "url": "https://mail.google.com" },

@@ -1646,6 +1646,8 @@ const L = {
   etsy_desc: "打开 Etsy，一个全球性的手工制品、工艺品、复古商品与独特礼物的在线市场。",
   innosearch_name: "InnoSearch AI",
   innosearch_desc: "打开 InnoSearch AI，一个致力于为盲人和低视力人群提供平等数字访问的 501(c)(3) 非营利组织。",
+  kmart_name: "Kmart",
+  kmart_desc: "打开 Kmart 官方网站，可在线选购家居用品、服饰、电器、玩具、工具及日常用品。支持浏览优惠活动、查看商品分类、参与每周促销，并在 Kmart 的线上商城购买各类实惠商品。",
   bosideng_name: "波司登",
   bosideng_desc: "波司登是其官方线上商店，提供高端羽绒服及男女童季节性服饰，涵盖国际系列、保暖等级说明，并支持全球配送。",
   housing_name: "房地产",

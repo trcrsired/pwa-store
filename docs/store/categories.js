@@ -5856,6 +5856,15 @@ export const categories = [
         url: "https://www.innosearch.ai"
       },
       {
+        name: "Kmart",
+        nameKey: "kmart_name",
+        descriptionKey: "kmart_desc",
+        icon: "icons/wrappers/kmart.webp",
+        url2: "/wrappers/kmart",
+        apptype2: "wrapper",
+        url: "https://www.kmart.com"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",

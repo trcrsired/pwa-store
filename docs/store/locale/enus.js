@@ -1652,6 +1652,8 @@ const L = {
   etsy_desc: "Opens Etsy, a global marketplace for handmade goods, crafts, vintage items, and unique gifts.",
   innosearch_name: "InnoSearch AI",
   innosearch_desc: "Opens InnoSearch AI, a 501(c)(3) nonprofit dedicated to equal digital access for blind and low‑vision individuals.",
+  kmart_name: "Kmart",
+  kmart_desc: "Opens the official Kmart website, offering online shopping for home goods, clothing, appliances, toys, tools, and everyday essentials. Browse deals, explore product categories, check weekly promotions, and shop a wide range of affordable items across Kmart’s online marketplace.",
   bosideng_name: "Bosideng",
   bosideng_desc: "Bosideng is the official online store of the global down‑apparel brand, offering premium down jackets and seasonal clothing for men, women, and kids. The site features international collections, cold‑weather performance ratings, and worldwide shipping options.",
   housing_name: "Housing",
