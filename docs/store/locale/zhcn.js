@@ -754,6 +754,8 @@ const L = {
   gizmodo_desc: "打开 Gizmodo，美国的科技与文化新闻网站，报道数码产品、科学与网络趋势。",
   venturebeat_name: "VentureBeat",
   venturebeat_desc: "打开 VentureBeat，美国的科技新闻网站，报道人工智能、初创企业与商业创新。",
+  iphoneca_name: "iPhone in Canada",
+  iphoneca_desc: "打开 iPhone in Canada，这是加拿大的科技新闻网站，报道 Apple 动态、iPhone 新品、运营商套餐、科技产品评测、优惠信息及每日科技新闻，涵盖 Apple、Google、Samsung、Tesla 等品牌内容。",
 
   xueqiu_name: "雪球",
   xueqiu_desc: "一个中国投资平台，提供股票、基金与财经资讯的市场数据、资产跟踪与社区观点。",

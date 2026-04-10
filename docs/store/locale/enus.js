@@ -759,6 +759,8 @@ const L = {
   gizmodo_desc: "Opens Gizmodo, a U.S. technology and culture news site covering gadgets, science, and digital trends.",
   venturebeat_name: "VentureBeat",
   venturebeat_desc: "Opens VentureBeat, a U.S. technology news site covering AI, startups, and business innovation.",
+  iphoneca_name: "iPhone in Canada",
+  iphoneca_desc: "Opens iPhone in Canada, a Canadian tech news site covering Apple updates, iPhone releases, telecom carriers, mobile plans, gadgets, and daily tech stories. Includes reviews, deals, how‑to guides, and coverage of major brands such as Apple, Google, Samsung, and Tesla.",
 
   xueqiu_name: "Xueqiu (雪球)",
   xueqiu_desc: "A Chinese investment platform offering market data, portfolio tracking, and community insights across stocks, funds, and financial news.",

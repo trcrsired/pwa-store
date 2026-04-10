@@ -3073,6 +3073,15 @@ export const categories = [
         url: "https://venturebeat.com"
       },
       {
+        name: "iPhone in Canada",
+        nameKey: "iphoneincanada_name",
+        descriptionKey: "iphoneincanada_desc",
+        icon: "icons/wrappers/iphoneincanada.webp",
+        url2: "/wrappers/iphoneincanada",
+        apptype2: "wrapper",
+        url: "https://www.iphoneincanada.ca"
+      },
+      {
         name: "LINUX DO",
         nameKey: "linuxdo_name",
         descriptionKey: "linuxdo_desc",
