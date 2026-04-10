@@ -244,6 +244,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://cloudconvert.com"
       },
+      {
+        name: "RealFaviconGenerator",
+        nameKey: "rfg_name",
+        descriptionKey: "rfg_desc",
+        icon: "icons/msedge/realfavicongenerator.webp",
+        url2: "/msedge/realfavicongenerator",
+        apptype2: "wrapper",
+        url: "https://realfavicongenerator.net"
+      },
     ]
   },
   {

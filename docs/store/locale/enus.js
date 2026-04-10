@@ -148,6 +148,8 @@ const L = {
   palform_desc: "Opens Palform, the encrypted survey platform that protects all responses with end‑to‑end encryption, offering secure, modern, AI‑assisted form creation.",
   cloudconvert_name: "CloudConvert",
   cloudconvert_desc: "Opens CloudConvert, an online file conversion platform supporting over 200 formats including images, documents, audio, and video.",
+  rfg_name: "RealFaviconGenerator",
+  rfg_desc: "Opens RealFaviconGenerator, a web tool for creating, testing, and validating favicons for all browsers and devices. Generate icons for desktop, iOS, Android, and Windows, preview results, and get ready-to-use HTML markup for your site.",
   weather_name: "Weather",
   theweatherchannel_name: "The Weather Channel",
   theweatherchannel_desc: "Opens The Weather Channel’s official site for live radar, severe weather alerts, and national forecasts.",
