@@ -1,16 +1,16 @@
 {
-  "id": "/wrappers/cyberpress",
+  "id": "/msedge/cyberpress",
   "name": "CyberPress",
   "short_name": "CyberPress",
-  "start_url": "/wrappers/cyberpress/?source=pwa",
-  "scope": "/wrappers/cyberpress/",
+  "start_url": "/msedge/cyberpress/?source=pwa",
+  "scope": "/msedge/cyberpress/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for CyberPress",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/cyberpress/icons/icon.webp",
+      "src": "/msedge/cyberpress/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -69,6 +69,8 @@ const L = {
   privsec_desc: "Opens PrivSec, a technical privacy and security site offering practical system hardening guides, software recommendations, and threat modeling resources.",
   cyberpress_name: "CyberPress",
   cyberpress_desc: "Opens CyberPress, a global cybersecurity news platform delivering daily coverage on cyber attacks, vulnerabilities, data breaches, malware campaigns, and threat intelligence. Includes research reports, incident analysis, and updates on the evolving cybersecurity landscape.",
+  cvedetails_name: "CVEDetails",
+  cvedetails_desc: "Opens CVEDetails, a comprehensive vulnerability intelligence platform offering enhanced CVE data, CVSS and EPSS scores, exploit references, CPE details, vendor/product vulnerability listings, and attack surface insights. Includes feeds, alerts, SBOM analysis, and tools for tracking exploited and emerging vulnerabilities.",
   "microsoft_services_name": "Microsoft Services",
   "msstore_name": "Microsoft Store",
   "msstore_desc": "Microsoft's App Store",

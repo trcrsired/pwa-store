@@ -461,10 +461,19 @@ export const categories = [
         name: "CyberPress",
         nameKey: "cyberpress_name",
         descriptionKey: "cyberpress_desc",
-        icon: "icons/wrappers/cyberpress.webp",
-        url2: "/wrappers/cyberpress",
+        icon: "icons/msedge/cyberpress.webp",
+        url2: "/msedge/cyberpress",
         apptype2: "wrapper",
         url: "https://cyberpress.org"
+      },
+      {
+        name: "CVEDetails",
+        nameKey: "cvedetails_name",
+        descriptionKey: "cvedetails_desc",
+        icon: "icons/wrappers/cvedetails.webp",
+        url2: "/wrappers/cvedetails",
+        apptype2: "wrapper",
+        url: "https://www.cvedetails.com"
       },
     ]
   },

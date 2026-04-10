@@ -51,6 +51,8 @@ const L = {
   privsec_desc: "打开 PrivSec，一个提供实用隐私与安全指南的技术站点，涵盖系统强化、软件推荐与威胁模型分析。",
   cyberpress_name: "CyberPress",
   cyberpress_desc: "打开 CyberPress，这是一个全球网络安全新闻平台，提供关于网络攻击、漏洞、数据泄露、恶意软件活动与威胁情报的每日报道，并包含研究分析与网络安全趋势更新。",
+  cvedetails_name: "CVEDetails",
+  cvedetails_desc: "打开 CVEDetails，这是一个完整的漏洞情报平台，提供增强版 CVE 数据、CVSS/EPSS 评分、漏洞利用参考、CPE 信息、厂商与产品漏洞列表、攻击面分析等功能，并支持订阅提醒、漏洞动态、SBOM 分析与新兴漏洞追踪。",
   "time_name": "时间",
   "timeis_desc": "精确查看全球任意地点的当前时间。",
   "everytimezone_desc": "以简洁布局直观展示全球各地的时区。",
