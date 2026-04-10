@@ -49,6 +49,8 @@ const L = {
   digitalsurvival_desc: "打开 Digital Survival Challenge，一个关于数字素养、隐私保护与网络安全决策的互动在线挑战。",
   privsec_name: "PrivSec",
   privsec_desc: "打开 PrivSec，一个提供实用隐私与安全指南的技术站点，涵盖系统强化、软件推荐与威胁模型分析。",
+  cyberpress_name: "CyberPress",
+  cyberpress_desc: "打开 CyberPress，这是一个全球网络安全新闻平台，提供关于网络攻击、漏洞、数据泄露、恶意软件活动与威胁情报的每日报道，并包含研究分析与网络安全趋势更新。",
   "time_name": "时间",
   "timeis_desc": "精确查看全球任意地点的当前时间。",
   "everytimezone_desc": "以简洁布局直观展示全球各地的时区。",

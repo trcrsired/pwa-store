@@ -88,6 +88,7 @@ WRAPPERS = [
   { "name": "stack.watch", "url": "https://stack.watch", "keyify_name": "stackwatch" },
   { "name": "Digital Survival Challenge", "url": "https://digital-survival-challenge-beta.vercel.app", "keyify_name": "digitalsurvival" },
   { "name": "PrivSec", "url": "https://privsec.dev" },
+  { "name": "CyberPress", "url": "https://cyberpress.org" },
   { "name": "Have I Been Pwned", "url": "https://haveibeenpwned.com", "keyify_name": "hibp", "apptype": "msedge" },
   { "name": "NIST Time", "url": "https://www.time.gov", "keyify_name": "timegov" },
   { "name": "aTimeLogger", "url": "https://app.atimelogger.com" },

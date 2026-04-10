@@ -67,6 +67,8 @@ const L = {
   digitalsurvival_desc: "Opens Digital Survival Challenge, an interactive online game about digital literacy, privacy, and cybersecurity decision‑making.",
   privsec_name: "PrivSec",
   privsec_desc: "Opens PrivSec, a technical privacy and security site offering practical system hardening guides, software recommendations, and threat modeling resources.",
+  cyberpress_name: "CyberPress",
+  cyberpress_desc: "Opens CyberPress, a global cybersecurity news platform delivering daily coverage on cyber attacks, vulnerabilities, data breaches, malware campaigns, and threat intelligence. Includes research reports, incident analysis, and updates on the evolving cybersecurity landscape.",
   "microsoft_services_name": "Microsoft Services",
   "msstore_name": "Microsoft Store",
   "msstore_desc": "Microsoft's App Store",

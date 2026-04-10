@@ -457,6 +457,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://privsec.dev"
       },
+      {
+        name: "CyberPress",
+        nameKey: "cyberpress_name",
+        descriptionKey: "cyberpress_desc",
+        icon: "icons/wrappers/cyberpress.webp",
+        url2: "/wrappers/cyberpress",
+        apptype2: "wrapper",
+        url: "https://cyberpress.org"
+      },
     ]
   },
   {

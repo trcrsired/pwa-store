@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/cyberpress",
+  "name": "CyberPress",
+  "short_name": "CyberPress",
+  "start_url": "/wrappers/cyberpress/?source=pwa",
+  "scope": "/wrappers/cyberpress/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for CyberPress",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/cyberpress/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
