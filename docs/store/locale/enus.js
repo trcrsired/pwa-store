@@ -34,6 +34,11 @@ const L = {
   "chabots_name": "Chatbots",
   "cybersecurity_name": "Cybersecurity",
   "scamadviser_desc": "Analyze websites to check for trustworthiness and potential scams.",
+
+// PWA(Constructing... )
+
+
+// 
   bitwarden_name: "Bitwarden",
   bitwarden_desc: "Secure, open-source password manager for individuals and teams. Offers end-to-end encryption, cross-platform access, and advanced vault features.",
   privacyguidescommunity_name: "Privacy Guides Community",
@@ -2133,6 +2138,24 @@ const L = {
   hentaiplay_desc: "A streaming platform specializing in high-quality adult anime and animated videos with a focus on ease of access.",
   hentaila_name: "HentaiLA",
   hentaila_desc: "A premier platform for adult anime featuring high-quality streaming and a vast library of Spanish-subtitled content.",
+
+
+
+// Microsoft Edge(Constructing...)
+  icloud_name: "iCloud",
+  icloud_desc: "Opens iCloud, a cloud service by Apple for storing photos, files, notes, mail and syncing data across devices.",
+  livescience_name: "Live Science",
+  livescience_desc: "Opens Live Science, a science news site covering latest research in space, nature, health, tech and archaeology.",
+  swissinfo_name: "SWI swissinfo",
+  swissinfo_desc: "Opens SWI swissinfo.ch, a Swiss multilingual news platform providing news on politics, economy, culture and direct democracy.",
+  gofundme_name: "GoFundMe",
+  gofundme_desc: "Opens GoFundMe, a global crowdfunding platform for personal, medical, emergency and charitable fundraising.",
+  novayagazeta_name: "Novaya Gazeta Europe",
+  novayagazeta_desc: "Opens Novaya Gazeta Europe, an independent Russian-language news website covering Russia and European affairs.",
+  wbtv_name: "WBTV",
+  wbtv_desc: "Opens WBTV, a local news station in Charlotte, NC providing breaking news, weather, sports and traffic updates.",
+
+
 // WeChat Mini Programs
   miniprogramdemo_name: "Mini Program Demo (小程序示例)",
   miniprogramdemo_desc: "This is a demonstration Mini Program showcasing basic WeChat Mini Program capabilities, including navigation, UI components, and API integration. It serves as a reference for developers exploring the Mini Program framework.",
@@ -2327,6 +2350,9 @@ const L = {
   life_name: "Life",
   chibicart_name: "ChibiCart",
   chibicart_desc: "ChibiCart is a delightful shopping list PWA featuring AI-powered image generation, smart item suggestions, and a charming Japanese manga-inspired interface. It transforms everyday shopping into a visually engaging and personalized experience.",
+
+
+
 // native
   llvmreleases_name: "llvm-releases",
   llvmreleases_desc: "Personal builds by the author of this PWA Store, offering a custom LLVM distribution with over 15 cross-compiled targets and bundled sysroots. Includes toolchains for aarch64-windows-msvc, aarch64-apple-darwin, riscv64-linux-gnu, loongarch64-linux-gnu, aarch64-windows-gnu, aarch64-linux-android30, and wasm. Designed for reproducible, multi-target development across platforms, this native wrapper streamlines compiler deployment and cross-platform integration.",

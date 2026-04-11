@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/livescience",
+  "name": "Live Science",
+  "short_name": "Live Science",
+  "start_url": "/msedge/livescience/?source=pwa",
+  "scope": "/msedge/livescience/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Live Science",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/livescience/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
