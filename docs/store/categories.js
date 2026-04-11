@@ -3947,12 +3947,13 @@ export const categories = [
         url: "https://lawandcrime.com"
       },
       {
-        name: "LiveScience",
+        name: "Live Science",
         nameKey: "livescience_name",
         descriptionKey: "livescience_desc",
-        icon: "icons/wrappers/livescience.webp",
-        url2: "/wrappers/livescience",
+        icon: "icons/msedge/livescience.webp",
+        url2: "/msedge/livescience",
         apptype2: "wrapper",
+        apptype_hide: "msedge",
         url: "https://www.livescience.com"
       },
       {
@@ -6869,21 +6870,22 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://yandex.cloud"
       },
+      {
+        name: "iCloud",
+        nameKey: "icloud_name",
+        descriptionKey: "icloud_desc",
+        icon: "icons/msedge/icloud.webp",
+        url2: "/msedge/icloud",
+        apptype2: "wrapper",
+        apptype_hide: "msedge",
+        url: "https://www.icloud.com"
+      },
     ]
   },
   {
     name: "LegalTech",
     nameKey: "legaltech_name",
     apps: [
-      {
-        name: "DocuSign",
-        nameKey: "docusign_name",
-        descriptionKey: "docusign_desc",
-        icon: "icons/msedge/docusign.webp",
-        url2: "/msedge/docusign",
-        apptype2: "wrapper",
-        url: "https://www.docusign.com"
-      },
       {
         name: "Tencent E-Signature",
         nameKey: "tencentesignature_name",
@@ -6992,6 +6994,26 @@ export const categories = [
         url: "https://herbsutter.com"
       },
       {
+        name: "SWI swissinfo",
+        nameKey: "swissinfo_name",
+        descriptionKey: "swissinfo_desc",
+        icon: "icons/msedge/swissinfo.webp",
+        url2: "/msedge/swissinfo",
+        apptype2: "wrapper",
+        apptype_hide: "msedge",
+        url: "https://www.swissinfo.ch"
+      },
+      {
+        name: "GoFundMe",
+        nameKey: "gofundme_name",
+        descriptionKey: "gofundme_desc",
+        icon: "icons/msedge/gofundme.webp",
+        url2: "/msedge/gofundme",
+        apptype2: "wrapper",
+        apptype_hide: "msedge",
+        url: "https://www.gofundme.com"
+      },
+      {
         name: "Bjarne Stroustrup",
         nameKey: "bjarnestroustrup_name",
         descriptionKey: "bjarnestroustrup_desc",
@@ -6999,6 +7021,26 @@ export const categories = [
         url2: "/wrappers/bjarnestroustrup",
         apptype2: "wrapper",
         url: "https://www.stroustrup.com"
+      },
+      {
+        name: "WBTV",
+        nameKey: "wbtv_name",
+        descriptionKey: "wbtv_desc",
+        icon: "icons/msedge/wbtv.webp",
+        url2: "/msedge/wbtv",
+        apptype2: "wrapper",
+        apptype_hide: "msedge",
+        url: "https://www.wbtv.com"
+      },
+      {
+        name: "Novaya Gazeta Europe",
+        nameKey: "novayagazeta_name",
+        descriptionKey: "novayagazeta_desc",
+        icon: "icons/msedge/novayagazeta.webp",
+        url2: "/msedge/novayagazeta",
+        apptype2: "wrapper",
+        apptype_hide: "msedge",
+        url: "https://novayagazeta.eu"
       },
       {
         name: "NVIDIA",

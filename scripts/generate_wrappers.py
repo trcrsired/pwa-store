@@ -474,7 +474,6 @@ WRAPPERS = [
   { "name": "Xinhua English", "url": "https://english.news.cn", "icon": "xinhuanews.webp" },
   { "name": "The Fluctus", "url": "https://www.thefluctus.com" },
   { "name": "Law & Crime", "url": "https://lawandcrime.com", "keyify_name": "lawandcrime" },
-  { "name": "LiveScience", "url": "https://www.livescience.com" },
   { "name": "WBKO", "url": "https://www.wbko.com" },
   { "name": "Western Journal", "url": "https://www.westernjournal.com" },
   { "name": "Mediaite", "url": "https://www.mediaite.com" },
