@@ -302,27 +302,45 @@ python scripts/generate_wrappers.py ~/pwa-store
 
 # 提pr
 
-超简单！提交 PR 完整教程（一步一步照着做）
-我给你写最通俗、新手也能直接用的版本，你跟着点就行👇
-一、准备工作（10 秒）
-1. 打开你要提交的项目 GitHub 页面
-2. 点击右上角 Fork → 把项目复制到你自己的账号里
+一、前提（你已经满足）
+* 你有 Fork 过别人的仓库（或自己仓库想跨分支合并）
+* 你本地改完、commit、push 到 你自己的 Fork 仓库（你的分支）
+* 现在想把你的改动 提交给原仓库（上游）合并 → 这就是 PR
 
-二、修改代码
-1. 进入你 Fork 后的项目
-2. 找到要改的文件
-3. 点右上角 铅笔图标 ✏️ 编辑
-4. 改完后拉到最下面
-5. 点 Commit changes 保存
+二、网页端提交 PR（最常用）
 
-三、发起 Pull Request（PR）
-1. 回到你 Fork 的项目首页
-2. 点上方的 Pull requests
-3. 点 New pull request
-4. 确认分支正确后
-5. 点 Create pull request
-6. 写标题 + 简单说明
-7. 再点 Create pull request 提交
+1. 进入你的 Fork 仓库，比如：https://github.com/rockosdev/pwa-store
+2. 切换到你改完的分支
+会看到这样一行提示：This branch is [12 commits ahead]() of and [2 commits behind]() trcrsired/pwa-store:main
+| 英文               | 中文    | 含义                              |
+| ---------------- | ----- | ------------------------------- |
+| commits behind   | 落后提交  | 🔴我的库比官方库少了若干次提交，这部分需要从官方库拉取到自己库，以保持同步  |
+| commits ahead    | 超前提交  | 🟢我的库比官方库多了若干次提交，这部分可以提交给官方  |
+
+![1](https://img2024.cnblogs.com/blog/1915850/202604/1915850-20260412152617513-419381316.png)
+
+点击[2 commits behind](), 将官方多的提交拉取到自己库。
+![2](https://img2024.cnblogs.com/blog/1915850/202604/1915850-20260412152644265-694541506.png)
+![3](https://img2024.cnblogs.com/blog/1915850/202604/1915850-20260412152707133-1085512639.png)
+![4](https://img2024.cnblogs.com/blog/1915850/202604/1915850-20260412152716939-449277623.png)
+![5](https://img2024.cnblogs.com/blog/1915850/202604/1915850-20260412152721482-854529668.png)
+
+点击[12 commits ahead](),将自己库提交给官方库。
+![1-1](https://img2024.cnblogs.com/blog/1915850/202604/1915850-20260412152736603-1944088848.png)
+![1-2](https://img2024.cnblogs.com/blog/1915850/202604/1915850-20260412152742518-1510455304.png)
+![1-3](https://img2024.cnblogs.com/blog/1915850/202604/1915850-20260412152751592-485948431.png)
+
 ✅ 完成！ 等作者合并就行。
 
----
+这样操作可能需要本地更新本地的仓库，然后来到~/pwa-store下,  按以下顺序执行命令就好。
+| 命令                            | 英文含义                                           | 中文作用                        |
+| ----------------------------- | ---------------------------------------------- | --------------------------- |
+| git fetch origin              | Fetch latest changes from remote               | 从远程仓库下载最新代码（不合并、不覆盖）        |
+| git pull origin main --rebase | Pull and rebase local changes on top of remote | 拉取并同步远程最新代码，把你的本地修改放在最新版本后面 |
+| git push origin main          | Push local commits to remote main branch       | 把本地代码推送到 GitHub             |
+
+提交后流程（你要知道）
+* 原仓库维护者会 Review 代码
+* 有问题会评论 → 你在本地继续改、push 同分支 → PR 自动更新
+* 通过后 → 维护者 Merge PR → 你的代码合进 main
+    

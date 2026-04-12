@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/livescience",
+  "name": "LiveScience",
+  "short_name": "LiveScience",
+  "start_url": "/wrappers/livescience/?source=pwa",
+  "scope": "/wrappers/livescience/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for LiveScience",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/livescience/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

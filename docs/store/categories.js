@@ -3955,14 +3955,13 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://lawandcrime.com"
       },
-      {
-        name: "Live Science",
+	  {
+        name: "LiveScience",
         nameKey: "livescience_name",
         descriptionKey: "livescience_desc",
-        icon: "icons/msedge/livescience.webp",
-        url2: "/msedge/livescience",
+        icon: "icons/wrappers/livescience.webp",
+        url2: "/wrappers/livescience",
         apptype2: "wrapper",
-        apptype_hide: "msedge",
         url: "https://www.livescience.com"
       },
       {
@@ -6902,6 +6901,15 @@ export const categories = [
     name: "LegalTech",
     nameKey: "legaltech_name",
     apps: [
+	  {
+        name: "DocuSign",
+        nameKey: "docusign_name",
+        descriptionKey: "docusign_desc",
+        icon: "icons/msedge/docusign.webp",
+        url2: "/msedge/docusign",
+        apptype2: "wrapper",
+        url: "https://www.docusign.com"
+      },
       {
         name: "Tencent E-Signature",
         nameKey: "tencentesignature_name",
