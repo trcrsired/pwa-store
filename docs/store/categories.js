@@ -5426,6 +5426,13 @@ export const categories = [
         url: "https://app.gensokyoradio.net"
       },
       {
+        name: "Lofi 88lin",
+        nameKey: "lofi88lin_name",
+        descriptionKey: "lofi88lin_desc",
+        icon: "icons/pwa/lofi88lin.webp",
+        url: "https://lofi.88lin.eu.org"
+      },
+      {
         name: "iHeart",
         nameKey: "iheart_name",
         descriptionKey: "iheart_desc",

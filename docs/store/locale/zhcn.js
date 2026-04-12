@@ -1538,6 +1538,8 @@ const L = {
   yesplaymusic_desc: "打开 YesPlayMusic，一个部署在 Vercel 上的开源第三方网易云音乐播放器。",
   gensokyoradio_name: "Gensokyo Radio",
   gensokyoradio_desc: "打开 Gensokyo Radio，一个全天候播放东方 Project 同人音乐的网络电台。",
+  lofi88lin_name: "Lofi 88lin",
+  lofi88lin_desc: "打开 Lofi 88lin，一个极简风格的 Lofi 音乐播放器，提供持续播放的轻松节奏与氛围背景。适合学习、放松或专注时使用，界面简洁无干扰。",
   unlockmusic_name: "音乐解锁 (Unlock Music)",
   unlockmusic_desc: "打开 Unlock Music，一个在浏览器中解锁各大音乐平台加密格式的开源工具，支持 QQ 音乐、网易云、酷狗等多种格式。",
   bookreader2056app_name: "2056 Book Reader 应用",
