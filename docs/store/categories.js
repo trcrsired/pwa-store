@@ -244,6 +244,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://cloudconvert.com"
       },
+      {
+        name: "RealFaviconGenerator",
+        nameKey: "rfg_name",
+        descriptionKey: "rfg_desc",
+        icon: "icons/msedge/realfavicongenerator.webp",
+        url2: "/msedge/realfavicongenerator",
+        apptype2: "wrapper",
+        url: "https://realfavicongenerator.net"
+      },
     ]
   },
   {
@@ -5416,6 +5425,13 @@ export const categories = [
         descriptionKey: "gensokyoradio_desc",
         icon: "icons/pwa/gensokyoradio.webp",
         url: "https://app.gensokyoradio.net"
+      },
+      {
+        name: "Lofi 88lin",
+        nameKey: "lofi88lin_name",
+        descriptionKey: "lofi88lin_desc",
+        icon: "icons/pwa/lofi88lin.webp",
+        url: "https://lofi.88lin.eu.org"
       },
       {
         name: "iHeart",
