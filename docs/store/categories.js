@@ -3955,7 +3955,7 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://lawandcrime.com"
       },
-	  {
+	   {
         name: "LiveScience",
         nameKey: "livescience_name",
         descriptionKey: "livescience_desc",
@@ -4025,6 +4025,26 @@ export const categories = [
         icon: "icons/wechatmini/lygdaily.webp",
         url: "#小程序://连云港日报/rxYe5qmyJlJ4Dio",
         apptype: "wechatmini"
+      },
+      {
+        name: "SWI swissinfo",
+        nameKey: "swissinfo_name",
+        descriptionKey: "swissinfo_desc",
+        icon: "icons/msedge/swissinfo.webp",
+        url2: "/msedge/swissinfo",
+        apptype2: "wrapper",
+        apptype_hide: "msedge",
+        url: "https://www.swissinfo.ch"
+      },
+      {
+        name: "Novaya Gazeta Europe",
+        nameKey: "novayagazeta_name",
+        descriptionKey: "novayagazeta_desc",
+        icon: "icons/msedge/novayagazeta.webp",
+        url2: "/msedge/novayagazeta",
+        apptype2: "wrapper",
+        apptype_hide: "msedge",
+        url: "https://novayagazeta.eu"
       },
     ]
   },
@@ -7017,16 +7037,7 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://herbsutter.com"
       },
-      {
-        name: "SWI swissinfo",
-        nameKey: "swissinfo_name",
-        descriptionKey: "swissinfo_desc",
-        icon: "icons/msedge/swissinfo.webp",
-        url2: "/msedge/swissinfo",
-        apptype2: "wrapper",
-        apptype_hide: "msedge",
-        url: "https://www.swissinfo.ch"
-      },
+
       {
         name: "GoFundMe",
         nameKey: "gofundme_name",
@@ -7056,16 +7067,7 @@ export const categories = [
         apptype_hide: "msedge",
         url: "https://www.wbtv.com"
       },
-      {
-        name: "Novaya Gazeta Europe",
-        nameKey: "novayagazeta_name",
-        descriptionKey: "novayagazeta_desc",
-        icon: "icons/msedge/novayagazeta.webp",
-        url2: "/msedge/novayagazeta",
-        apptype2: "wrapper",
-        apptype_hide: "msedge",
-        url: "https://novayagazeta.eu"
-      },
+
       {
         name: "NVIDIA",
         nameKey: "nvidia_name",
