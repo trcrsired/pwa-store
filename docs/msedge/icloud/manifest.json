@@ -1,0 +1,18 @@
+{
+  "id": "/msedge/icloud",
+  "name": "iCloud",
+  "short_name": "iCloud",
+  "start_url": "/msedge/icloud/?source=pwa",
+  "scope": "/msedge/icloud/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for iCloud",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/msedge/icloud/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

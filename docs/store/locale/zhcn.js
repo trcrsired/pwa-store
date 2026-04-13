@@ -34,6 +34,12 @@ const L = {
   "chabots_name": "聊天机器人",
   "cybersecurity_name": "网络安全",
   "scamadviser_desc": "分析网站以评估可信度并识别潜在骗局。",
+
+
+  // PWA
+
+
+  // 未归类
   bitwarden_name: "Bitwarden",
   bitwarden_desc: "面向个人和团队的安全开源密码管理器，提供端到端加密、跨平台访问和高级密码库功能。",
   privacyguidescommunity_name: "隐私指南社区(Privacy Guides Community)",
@@ -2137,6 +2143,24 @@ const L = {
   hentaiplay_desc: "专注于高画质成人动漫与动画视频的流媒体平台，提供便捷的观看体验。",
   hentaila_name: "HentaiLA",
   hentaila_desc: "领先的成人动漫平台，提供高画质流媒体服务，并以其丰富的西班牙语字幕资源著称。",
+
+  
+
+// Microsoft Edge(建设中)
+  icloud_name: "iCloud",
+  icloud_desc: "打开 iCloud，苹果官方云服务，可存储照片、文件、备忘录、邮件并在多设备间同步数据。",
+  livescience_name: "Live Science",
+  livescience_desc: "打开 Live Science，科普新闻网站，报道太空、自然、健康、科技、考古等领域的最新研究。",
+  swissinfo_name: "SWI swissinfo",
+  swissinfo_desc: "打开瑞士资讯 SWI，多语种新闻平台，提供瑞士政治、经济、文化、社会等方面的新闻资讯。",
+  gofundme_name: "GoFundMe",
+  gofundme_desc: "打开 GoFundMe，全球知名众筹平台，用于个人、医疗、应急及公益项目筹款。",
+  novayagazeta_name: "Novaya Gazeta Europe",
+  novayagazeta_desc: "打开新报欧洲版，独立俄语新闻网站，报道俄罗斯及欧洲相关时政与社会新闻。",
+  wbtv_name: "WBTV",
+  wbtv_desc: "打开 WBTV，美国夏洛特本地新闻电视台，提供突发新闻、天气、体育和交通资讯。",
+
+
 // WeChat Mini Programs
   miniprogramdemo_name: "小程序示例",
   miniprogramdemo_desc: "这是一个微信小程序示例，展示了基础功能如页面跳转、组件使用和接口调用，适合开发者学习和参考微信小程序开发框架。",

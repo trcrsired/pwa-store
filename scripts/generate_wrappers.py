@@ -528,6 +528,12 @@ WRAPPERS = [
   { "name" : "Hentaiplay", "url": "https://hentaiplay.net" },
   { "name" : "HentaiLA", "url": "https://hentaila.com" },
 
+  { "name" : "iCloud", "url": "https://www.icloud.com", "keyify_name": "icloud", "apptype": "msedge" },
+  { "name" : "Live Science", "url": "https://www.livescience.com", "keyify_name": "livescience", "apptype": "msedge" },
+  { "name" : "swissinfo", "url": "https://www.swissinfo.ch", "keyify_name": "swissinfo", "apptype": "msedge" },
+  { "name" : "GoFundMe", "url": "https://www.gofundme.com", "keyify_name": "gofundme", "apptype": "msedge" },
+  { "name" : "WBTV", "url": "https://www.wbtv.com", "keyify_name": "wbtv", "apptype": "msedge" },
+  { "name" : "Novaya Gazeta Europe", "url": "https://novayagazeta.eu", "keyify_name": "novayagazeta", "apptype": "msedge" }
 #  { "name" : "Proxy SwitchyOmega (V3)", "url": "extension://fnbemgdobbciiofjfaoaajboakejkdbo/options.html", "keyify_name": "proxyswitchyomegav3" , "apptype": "extension" },
 ]
 

@@ -3955,7 +3955,7 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://lawandcrime.com"
       },
-      {
+	   {
         name: "LiveScience",
         nameKey: "livescience_name",
         descriptionKey: "livescience_desc",
@@ -4025,6 +4025,26 @@ export const categories = [
         icon: "icons/wechatmini/lygdaily.webp",
         url: "#小程序://连云港日报/rxYe5qmyJlJ4Dio",
         apptype: "wechatmini"
+      },
+      {
+        name: "SWI swissinfo",
+        nameKey: "swissinfo_name",
+        descriptionKey: "swissinfo_desc",
+        icon: "icons/msedge/swissinfo.webp",
+        url2: "/msedge/swissinfo",
+        apptype2: "wrapper",
+        apptype_hide: "msedge",
+        url: "https://www.swissinfo.ch"
+      },
+      {
+        name: "Novaya Gazeta Europe",
+        nameKey: "novayagazeta_name",
+        descriptionKey: "novayagazeta_desc",
+        icon: "icons/msedge/novayagazeta.webp",
+        url2: "/msedge/novayagazeta",
+        apptype2: "wrapper",
+        apptype_hide: "msedge",
+        url: "https://novayagazeta.eu"
       },
     ]
   },
@@ -6885,13 +6905,23 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://yandex.cloud"
       },
+      {
+        name: "iCloud",
+        nameKey: "icloud_name",
+        descriptionKey: "icloud_desc",
+        icon: "icons/msedge/icloud.webp",
+        url2: "/msedge/icloud",
+        apptype2: "wrapper",
+        apptype_hide: "msedge",
+        url: "https://www.icloud.com"
+      },
     ]
   },
   {
     name: "LegalTech",
     nameKey: "legaltech_name",
     apps: [
-      {
+	  {
         name: "DocuSign",
         nameKey: "docusign_name",
         descriptionKey: "docusign_desc",
@@ -7007,6 +7037,17 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://herbsutter.com"
       },
+
+      {
+        name: "GoFundMe",
+        nameKey: "gofundme_name",
+        descriptionKey: "gofundme_desc",
+        icon: "icons/msedge/gofundme.webp",
+        url2: "/msedge/gofundme",
+        apptype2: "wrapper",
+        apptype_hide: "msedge",
+        url: "https://www.gofundme.com"
+      },
       {
         name: "Bjarne Stroustrup",
         nameKey: "bjarnestroustrup_name",
@@ -7016,6 +7057,17 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.stroustrup.com"
       },
+      {
+        name: "WBTV",
+        nameKey: "wbtv_name",
+        descriptionKey: "wbtv_desc",
+        icon: "icons/msedge/wbtv.webp",
+        url2: "/msedge/wbtv",
+        apptype2: "wrapper",
+        apptype_hide: "msedge",
+        url: "https://www.wbtv.com"
+      },
+
       {
         name: "NVIDIA",
         nameKey: "nvidia_name",
