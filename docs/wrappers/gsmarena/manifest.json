@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/gsmarena",
+  "name": "GSMArena",
+  "short_name": "GSMArena",
+  "start_url": "/wrappers/gsmarena/?source=pwa",
+  "scope": "/wrappers/gsmarena/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for GSMArena",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/gsmarena/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -2399,6 +2399,15 @@ export const categories = [
         url: "https://oilprice.com"
       },
       {
+        name: "Finbold",
+        nameKey: "finbold_name",
+        descriptionKey: "finbold_desc",
+        icon: "icons/wrappers/finbold.webp",
+        url2: "/wrappers/finbold",
+        apptype2: "wrapper",
+        url: "https://finbold.com"
+      },
+      {
         name: "Tencent Wealth Management (腾讯理财通)",
         nameKey: "tencentwm_name",
         descriptionKey: "tencentwm_desc",
@@ -3107,6 +3116,15 @@ export const categories = [
         url2: "/wrappers/iphoneincanada",
         apptype2: "wrapper",
         url: "https://www.iphoneincanada.ca"
+      },
+      {
+        name: "GSMArena",
+        nameKey: "gsmarena_name",
+        descriptionKey: "gsmarena_desc",
+        icon: "icons/wrappers/gsmarena.webp",
+        url2: "/wrappers/gsmarena",
+        apptype2: "wrapper",
+        url: "https://www.gsmarena.com"
       },
       {
         name: "LINUX DO",
@@ -7202,6 +7220,15 @@ export const categories = [
         url2: "/wrappers/stallman",
         apptype2: "wrapper",
         url: "https://stallman.org"
+      },
+      {
+        name: "Tyler Raw",
+        nameKey: "tylerraw_name",
+        descriptionKey: "tylerraw_desc",
+        icon: "icons/msedge/tylerraw.webp",
+        url2: "/msedge/tylerraw",
+        apptype2: "wrapper",
+        url: "https://tylerraw.com"
       },
     ]
   },

@@ -73,6 +73,7 @@ WRAPPERS = [
   { "name": "Gizmodo" , "url": "https://gizmodo.com", "apptype": "msedge"},
   { "name": "VentureBeat" , "url": "https://venturebeat.com" },
   { "name": "iPhone in Canada" , "url": "https://www.iphoneincanada.ca" },
+  { "name": "GSMArena" , "url": "https://www.gsmarena.com" },
   { "name": "Influencersplace", "url": "https://influencersplace.com" },
   { "name": "Zscalar", "url": "https://www.zscaler.com"},
   { "name": "Business Standard", "url": "https://www.business-standard.com" },
@@ -298,6 +299,7 @@ WRAPPERS = [
   { "name": "Iran War Live", "url": "https://iran-war-live.com" },
   { "name": "UkraineWarLosses", "url": "https://ukrainewarlosses.org" },
   { "name": "OilPrice", "url": "https://oilprice.com" },
+  { "name": "Finbold", "url": "https://finbold.com" },
   { "name": "NUKEMAP", "url": "https://nuclearsecrecy.com/nukemap" },
   { "name": "NY Times", "url": "https://www.nytimes.com" , "keyify_name": "nytimes"},
   { "name": "Netflix", "url": "https://www.netflix.com" },
@@ -462,6 +464,7 @@ WRAPPERS = [
   { "name": "AI Focus", "url": "https://aifoc.us" },
   { "name": "0xSid", "url": "https://www.0xsid.com" },
   { "name": "Stallman", "url": "https://stallman.org" },
+  { "name": "Tyler Raw", "url": "https://tylerraw.com", "apptype": "msedge" },
 
   { "name": "Radio Television of Afghanistan", "url": "https://rta.af", "keyify_name": "rtaaf"},
   { "name": "求是", "url": "https://www.qstheory.cn", "keyify_name": "qstheory"},
