@@ -530,6 +530,7 @@ WRAPPERS = [
   { "name" : "Beeg", "url": "https://beeg.com" },
   { "name" : "Hentaiplay", "url": "https://hentaiplay.net" },
   { "name" : "HentaiLA", "url": "https://hentaila.com" },
+  { "name" : "t66y", "url": "https://www.t66y.com" },
 
   { "name" : "iCloud", "url": "https://www.icloud.com", "keyify_name": "icloud", "apptype": "msedge" },
   { "name" : "Live Science", "url": "https://www.livescience.com", "keyify_name": "livescience", "apptype": "msedge" },

@@ -2147,7 +2147,8 @@ const L = {
   hentaiplay_desc: "专注于高画质成人动漫与动画视频的流媒体平台，提供便捷的观看体验。",
   hentaila_name: "HentaiLA",
   hentaila_desc: "领先的成人动漫平台，提供高画质流媒体服务，并以其丰富的西班牙语字幕资源著称。",
-
+  t66y_name: "草榴社区 (t66y)",
+  t66y_desc: "知名的中文综合性讨论论坛与在线社区，包含多元话题与多媒体内容。",
   
 
 // Microsoft Edge(建设中)

@@ -2146,7 +2146,8 @@ const L = {
   hentaiplay_desc: "A streaming platform specializing in high-quality adult anime and animated videos with a focus on ease of access.",
   hentaila_name: "HentaiLA",
   hentaila_desc: "A premier platform for adult anime featuring high-quality streaming and a vast library of Spanish-subtitled content.",
-
+  t66y_name: "t66y (草榴社区)",
+  t66y_desc: "A well-known Chinese-language discussion forum and online community featuring diverse topics and multimedia content.",
 
 
 // Microsoft Edge(Constructing...)

@@ -3283,15 +3283,6 @@ export const categories = [
         apptype2: "wrapper"
       },
       {
-        name: "BTSOW",
-        nameKey: "btsow_name",
-        descriptionKey: "btsow_desc",
-        icon: "icons/wrappers/btsow.webp",
-        url2: "/wrappers/btsow",
-        apptype2: "wrapper",
-        url: "https://btsow.lol"
-      },
-      {
         name: "The Pirate Bay",
         nameKey: "thepiratebay_name",
         descriptionKey: "thepiratebay_desc",
@@ -8496,6 +8487,24 @@ export const categories = [
         url2: "/wrappers/hentaila",
         apptype2: "wrapper",
         url: "https://hentaila.com"
+      },
+      {
+        name: "BTSOW",
+        nameKey: "btsow_name",
+        descriptionKey: "btsow_desc",
+        icon: "icons/wrappers/btsow.webp",
+        url2: "/wrappers/btsow",
+        apptype2: "wrapper",
+        url: "https://btsow.lol"
+      },
+      {
+        name: "t66y (草榴社区)",
+        nameKey: "t66y_name",
+        descriptionKey: "t66y_desc",
+        icon: "icons/wrappers/t66y.webp",
+        url2: "/wrappers/t66y",
+        apptype2: "wrapper",
+        url: "https://www.t66y.com"
       },
     ]
   }
