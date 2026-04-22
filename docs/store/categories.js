@@ -5462,6 +5462,13 @@ export const categories = [
         url: "https://lofi.88lin.eu.org"
       },
       {
+        name: "RadioTune.fm",
+        nameKey: "radiotune_name",
+        descriptionKey: "radiotune_desc",
+        icon: "icons/pwa/radiotune.webp",
+        url: "https://www.radiotune.fm"
+      },
+      {
         name: "iHeart",
         nameKey: "iheart_name",
         descriptionKey: "iheart_desc",
