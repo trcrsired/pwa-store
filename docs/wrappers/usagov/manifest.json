@@ -2,15 +2,15 @@
   "id": "/wrappers/usagov",
   "name": "USA.gov",
   "short_name": "USA.gov",
-  "start_url": "/wrappers/usagov/?source=pwa",
-  "scope": "/wrappers/usagov/",
+  "start_url": "./usagov/?source=pwa",
+  "scope": "./usagov/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for USA.gov",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/usagov/icons/icon.webp",
+      "src": "./usagov/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

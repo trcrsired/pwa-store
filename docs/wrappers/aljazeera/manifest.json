@@ -2,15 +2,15 @@
   "id": "/wrappers/aljazeera",
   "name": "Al Jazeera",
   "short_name": "Al Jazeera",
-  "start_url": "/wrappers/aljazeera/?source=pwa",
-  "scope": "/wrappers/aljazeera/",
+  "start_url": "./aljazeera/?source=pwa",
+  "scope": "./aljazeera/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Al Jazeera",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/aljazeera/icons/icon.webp",
+      "src": "./aljazeera/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/tieba",
   "name": "Tieba",
   "short_name": "Tieba",
-  "start_url": "/wrappers/tieba/?source=pwa",
-  "scope": "/wrappers/tieba/",
+  "start_url": "./tieba/?source=pwa",
+  "scope": "./tieba/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Tieba",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/tieba/icons/icon.webp",
+      "src": "./tieba/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

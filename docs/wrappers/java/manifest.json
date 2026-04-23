@@ -2,15 +2,15 @@
   "id": "/wrappers/java",
   "name": "Java",
   "short_name": "Java",
-  "start_url": "/wrappers/java/?source=pwa",
-  "scope": "/wrappers/java/",
+  "start_url": "./java/?source=pwa",
+  "scope": "./java/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Java",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/java/icons/icon.webp",
+      "src": "./java/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

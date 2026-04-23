@@ -2,15 +2,15 @@
   "id": "/wrappers/finbold",
   "name": "Finbold",
   "short_name": "Finbold",
-  "start_url": "/wrappers/finbold/?source=pwa",
-  "scope": "/wrappers/finbold/",
+  "start_url": "./finbold/?source=pwa",
+  "scope": "./finbold/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Finbold",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/finbold/icons/icon.webp",
+      "src": "./finbold/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

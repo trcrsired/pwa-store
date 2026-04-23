@@ -2,15 +2,15 @@
   "id": "/wrappers/stallman",
   "name": "Stallman",
   "short_name": "Stallman",
-  "start_url": "/wrappers/stallman/?source=pwa",
-  "scope": "/wrappers/stallman/",
+  "start_url": "./stallman/?source=pwa",
+  "scope": "./stallman/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Stallman",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/stallman/icons/icon.webp",
+      "src": "./stallman/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

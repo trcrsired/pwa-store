@@ -2,15 +2,15 @@
   "id": "/wrappers/coinglassliq",
   "name": "Coinglass Liquidations",
   "short_name": "Coinglass Liquidations",
-  "start_url": "/wrappers/coinglassliq/?source=pwa",
-  "scope": "/wrappers/coinglassliq/",
+  "start_url": "./coinglassliq/?source=pwa",
+  "scope": "./coinglassliq/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Coinglass Liquidations",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/coinglassliq/icons/icon.webp",
+      "src": "./coinglassliq/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

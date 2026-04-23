@@ -2,15 +2,15 @@
   "id": "/msedge/gofundme",
   "name": "GoFundMe",
   "short_name": "GoFundMe",
-  "start_url": "/msedge/gofundme/?source=pwa",
-  "scope": "/msedge/gofundme/",
+  "start_url": "./gofundme/?source=pwa",
+  "scope": "./gofundme/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for GoFundMe",
   "display": "standalone",
   "icons": [
     {
-      "src": "/msedge/gofundme/icons/icon.webp",
+      "src": "./gofundme/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

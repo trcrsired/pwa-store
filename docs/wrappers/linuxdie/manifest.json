@@ -2,15 +2,15 @@
   "id": "/wrappers/linuxdie",
   "name": "linux.die",
   "short_name": "linux.die",
-  "start_url": "/wrappers/linuxdie/?source=pwa",
-  "scope": "/wrappers/linuxdie/",
+  "start_url": "./linuxdie/?source=pwa",
+  "scope": "./linuxdie/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for linux.die",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/linuxdie/icons/icon.webp",
+      "src": "./linuxdie/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

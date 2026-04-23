@@ -2,15 +2,15 @@
   "id": "/wrappers/iphoneincanada",
   "name": "iPhone in Canada",
   "short_name": "iPhone in Canada",
-  "start_url": "/wrappers/iphoneincanada/?source=pwa",
-  "scope": "/wrappers/iphoneincanada/",
+  "start_url": "./iphoneincanada/?source=pwa",
+  "scope": "./iphoneincanada/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for iPhone in Canada",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/iphoneincanada/icons/icon.webp",
+      "src": "./iphoneincanada/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

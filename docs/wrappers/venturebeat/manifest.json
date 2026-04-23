@@ -2,15 +2,15 @@
   "id": "/wrappers/venturebeat",
   "name": "VentureBeat",
   "short_name": "VentureBeat",
-  "start_url": "/wrappers/venturebeat/?source=pwa",
-  "scope": "/wrappers/venturebeat/",
+  "start_url": "./venturebeat/?source=pwa",
+  "scope": "./venturebeat/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for VentureBeat",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/venturebeat/icons/icon.webp",
+      "src": "./venturebeat/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

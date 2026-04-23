@@ -2,15 +2,15 @@
   "id": "/wrappers/uscis",
   "name": "USCIS",
   "short_name": "USCIS",
-  "start_url": "/wrappers/uscis/?source=pwa",
-  "scope": "/wrappers/uscis/",
+  "start_url": "./uscis/?source=pwa",
+  "scope": "./uscis/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for USCIS",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/uscis/icons/icon.webp",
+      "src": "./uscis/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/bingtravel",
   "name": "Bing Travel",
   "short_name": "Bing Travel",
-  "start_url": "/wrappers/bingtravel/?source=pwa",
-  "scope": "/wrappers/bingtravel/",
+  "start_url": "./bingtravel/?source=pwa",
+  "scope": "./bingtravel/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Bing Travel",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/bingtravel/icons/icon.webp",
+      "src": "./bingtravel/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

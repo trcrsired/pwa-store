@@ -2,15 +2,15 @@
   "id": "/msedge/surprisingethics",
   "name": "Surprising Ethics",
   "short_name": "Surprising Ethics",
-  "start_url": "/msedge/surprisingethics/?source=pwa",
-  "scope": "/msedge/surprisingethics/",
+  "start_url": "./surprisingethics/?source=pwa",
+  "scope": "./surprisingethics/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Surprising Ethics",
   "display": "standalone",
   "icons": [
     {
-      "src": "/msedge/surprisingethics/icons/icon.webp",
+      "src": "./surprisingethics/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

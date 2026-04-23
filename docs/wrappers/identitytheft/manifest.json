@@ -2,15 +2,15 @@
   "id": "/wrappers/identitytheft",
   "name": "IdentityTheft",
   "short_name": "IdentityTheft",
-  "start_url": "/wrappers/identitytheft/?source=pwa",
-  "scope": "/wrappers/identitytheft/",
+  "start_url": "./identitytheft/?source=pwa",
+  "scope": "./identitytheft/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for IdentityTheft",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/identitytheft/icons/icon.webp",
+      "src": "./identitytheft/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/googletranslate",
   "name": "Google Translate",
   "short_name": "Google Translate",
-  "start_url": "/wrappers/googletranslate/?source=pwa",
-  "scope": "/wrappers/googletranslate/",
+  "start_url": "./googletranslate/?source=pwa",
+  "scope": "./googletranslate/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Google Translate",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/googletranslate/icons/icon.webp",
+      "src": "./googletranslate/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

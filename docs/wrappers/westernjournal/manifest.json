@@ -2,15 +2,15 @@
   "id": "/wrappers/westernjournal",
   "name": "Western Journal",
   "short_name": "Western Journal",
-  "start_url": "/wrappers/westernjournal/?source=pwa",
-  "scope": "/wrappers/westernjournal/",
+  "start_url": "./westernjournal/?source=pwa",
+  "scope": "./westernjournal/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Western Journal",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/westernjournal/icons/icon.webp",
+      "src": "./westernjournal/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

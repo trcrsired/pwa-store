@@ -2,15 +2,15 @@
   "id": "/wrappers/mumuplayer",
   "name": "MumuPlayer",
   "short_name": "MumuPlayer",
-  "start_url": "/wrappers/mumuplayer/?source=pwa",
-  "scope": "/wrappers/mumuplayer/",
+  "start_url": "./mumuplayer/?source=pwa",
+  "scope": "./mumuplayer/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for MumuPlayer",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/mumuplayer/icons/icon.webp",
+      "src": "./mumuplayer/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

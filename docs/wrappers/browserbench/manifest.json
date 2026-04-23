@@ -2,15 +2,15 @@
   "id": "/wrappers/browserbench",
   "name": "BrowserBench",
   "short_name": "BrowserBench",
-  "start_url": "/wrappers/browserbench/?source=pwa",
-  "scope": "/wrappers/browserbench/",
+  "start_url": "./browserbench/?source=pwa",
+  "scope": "./browserbench/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for BrowserBench",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/browserbench/icons/icon.webp",
+      "src": "./browserbench/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/popularmechanics",
   "name": "Popular Mechanics",
   "short_name": "Popular Mechanics",
-  "start_url": "/wrappers/popularmechanics/?source=pwa",
-  "scope": "/wrappers/popularmechanics/",
+  "start_url": "./popularmechanics/?source=pwa",
+  "scope": "./popularmechanics/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Popular Mechanics",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/popularmechanics/icons/icon.webp",
+      "src": "./popularmechanics/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

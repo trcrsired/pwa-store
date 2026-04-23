@@ -2,15 +2,15 @@
   "id": "/wrappers/eaglercraft",
   "name": "Eaglercraft",
   "short_name": "Eaglercraft",
-  "start_url": "/wrappers/eaglercraft/?source=pwa",
-  "scope": "/wrappers/eaglercraft/",
+  "start_url": "./eaglercraft/?source=pwa",
+  "scope": "./eaglercraft/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Eaglercraft",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/eaglercraft/icons/icon.webp",
+      "src": "./eaglercraft/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

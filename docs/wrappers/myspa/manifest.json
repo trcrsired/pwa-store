@@ -2,15 +2,15 @@
   "id": "/wrappers/myspa",
   "name": "MySPA!",
   "short_name": "MySPA!",
-  "start_url": "/wrappers/myspa/?source=pwa",
-  "scope": "/wrappers/myspa/",
+  "start_url": "./myspa/?source=pwa",
+  "scope": "./myspa/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for MySPA!",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/myspa/icons/icon.webp",
+      "src": "./myspa/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

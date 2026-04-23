@@ -2,15 +2,15 @@
   "id": "/wrappers/hentaiplay",
   "name": "Hentaiplay",
   "short_name": "Hentaiplay",
-  "start_url": "/wrappers/hentaiplay/?source=pwa",
-  "scope": "/wrappers/hentaiplay/",
+  "start_url": "./hentaiplay/?source=pwa",
+  "scope": "./hentaiplay/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Hentaiplay",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/hentaiplay/icons/icon.webp",
+      "src": "./hentaiplay/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

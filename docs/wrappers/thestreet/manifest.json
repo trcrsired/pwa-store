@@ -2,15 +2,15 @@
   "id": "/wrappers/thestreet",
   "name": "TheStreet",
   "short_name": "TheStreet",
-  "start_url": "/wrappers/thestreet/?source=pwa",
-  "scope": "/wrappers/thestreet/",
+  "start_url": "./thestreet/?source=pwa",
+  "scope": "./thestreet/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for TheStreet",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/thestreet/icons/icon.webp",
+      "src": "./thestreet/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

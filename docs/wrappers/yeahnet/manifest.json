@@ -2,15 +2,15 @@
   "id": "/wrappers/yeahnet",
   "name": "yeah.net Mail",
   "short_name": "yeah.net Mail",
-  "start_url": "/wrappers/yeahnet/?source=pwa",
-  "scope": "/wrappers/yeahnet/",
+  "start_url": "./yeahnet/?source=pwa",
+  "scope": "./yeahnet/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for yeah.net Mail",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/yeahnet/icons/icon.webp",
+      "src": "./yeahnet/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

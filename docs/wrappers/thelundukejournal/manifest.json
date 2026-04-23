@@ -2,15 +2,15 @@
   "id": "/wrappers/thelundukejournal",
   "name": "The Lunduke Journal",
   "short_name": "The Lunduke Journal",
-  "start_url": "/wrappers/thelundukejournal/?source=pwa",
-  "scope": "/wrappers/thelundukejournal/",
+  "start_url": "./thelundukejournal/?source=pwa",
+  "scope": "./thelundukejournal/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for The Lunduke Journal",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/thelundukejournal/icons/icon.webp",
+      "src": "./thelundukejournal/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

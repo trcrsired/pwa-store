@@ -2,15 +2,15 @@
   "id": "/wrappers/tripadvisor",
   "name": "Tripadvisor",
   "short_name": "Tripadvisor",
-  "start_url": "/wrappers/tripadvisor/?source=pwa",
-  "scope": "/wrappers/tripadvisor/",
+  "start_url": "./tripadvisor/?source=pwa",
+  "scope": "./tripadvisor/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Tripadvisor",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/tripadvisor/icons/icon.webp",
+      "src": "./tripadvisor/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

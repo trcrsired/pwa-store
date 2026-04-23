@@ -2,15 +2,15 @@
   "id": "/wrappers/taopiaopiao",
   "name": "Tao Piao Piao",
   "short_name": "Tao Piao Piao",
-  "start_url": "/wrappers/taopiaopiao/?source=pwa",
-  "scope": "/wrappers/taopiaopiao/",
+  "start_url": "./taopiaopiao/?source=pwa",
+  "scope": "./taopiaopiao/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Tao Piao Piao",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/taopiaopiao/icons/icon.webp",
+      "src": "./taopiaopiao/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/subtitletools",
   "name": "Subtitle Tools",
   "short_name": "Subtitle Tools",
-  "start_url": "/wrappers/subtitletools/?source=pwa",
-  "scope": "/wrappers/subtitletools/",
+  "start_url": "./subtitletools/?source=pwa",
+  "scope": "./subtitletools/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Subtitle Tools",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/subtitletools/icons/icon.webp",
+      "src": "./subtitletools/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

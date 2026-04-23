@@ -2,15 +2,15 @@
   "id": "/wrappers/guanchazhe",
   "name": "\u89c2\u5bdf\u8005\u7f51",
   "short_name": "\u89c2\u5bdf\u8005\u7f51",
-  "start_url": "/wrappers/guanchazhe/?source=pwa",
-  "scope": "/wrappers/guanchazhe/",
+  "start_url": "./guanchazhe/?source=pwa",
+  "scope": "./guanchazhe/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u89c2\u5bdf\u8005\u7f51",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/guanchazhe/icons/icon.webp",
+      "src": "./guanchazhe/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

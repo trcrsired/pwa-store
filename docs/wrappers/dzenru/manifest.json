@@ -2,15 +2,15 @@
   "id": "/wrappers/dzenru",
   "name": "\u0414\u0437\u0435\u043d",
   "short_name": "\u0414\u0437\u0435\u043d",
-  "start_url": "/wrappers/dzenru/?source=pwa",
-  "scope": "/wrappers/dzenru/",
+  "start_url": "./dzenru/?source=pwa",
+  "scope": "./dzenru/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u0414\u0437\u0435\u043d",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/dzenru/icons/icon.webp",
+      "src": "./dzenru/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

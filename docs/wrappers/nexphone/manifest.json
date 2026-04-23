@@ -2,15 +2,15 @@
   "id": "/wrappers/nexphone",
   "name": "NexPhone",
   "short_name": "NexPhone",
-  "start_url": "/wrappers/nexphone/?source=pwa",
-  "scope": "/wrappers/nexphone/",
+  "start_url": "./nexphone/?source=pwa",
+  "scope": "./nexphone/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for NexPhone",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/nexphone/icons/icon.webp",
+      "src": "./nexphone/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

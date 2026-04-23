@@ -2,15 +2,15 @@
   "id": "/wrappers/tencentyuanbao",
   "name": "Tencent Yuanbao",
   "short_name": "Tencent Yuanbao",
-  "start_url": "/wrappers/tencentyuanbao/?source=pwa",
-  "scope": "/wrappers/tencentyuanbao/",
+  "start_url": "./tencentyuanbao/?source=pwa",
+  "scope": "./tencentyuanbao/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Tencent Yuanbao",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/tencentyuanbao/icons/icon.webp",
+      "src": "./tencentyuanbao/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

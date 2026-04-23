@@ -2,15 +2,15 @@
   "id": "/wrappers/fsf",
   "name": "Free Software Foundations",
   "short_name": "Free Software Foundations",
-  "start_url": "/wrappers/fsf/?source=pwa",
-  "scope": "/wrappers/fsf/",
+  "start_url": "./fsf/?source=pwa",
+  "scope": "./fsf/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Free Software Foundations",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/fsf/icons/icon.webp",
+      "src": "./fsf/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

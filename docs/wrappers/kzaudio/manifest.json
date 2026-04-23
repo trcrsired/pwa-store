@@ -2,15 +2,15 @@
   "id": "/wrappers/kzaudio",
   "name": "KZ Audio",
   "short_name": "KZ Audio",
-  "start_url": "/wrappers/kzaudio/?source=pwa",
-  "scope": "/wrappers/kzaudio/",
+  "start_url": "./kzaudio/?source=pwa",
+  "scope": "./kzaudio/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for KZ Audio",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/kzaudio/icons/icon.webp",
+      "src": "./kzaudio/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

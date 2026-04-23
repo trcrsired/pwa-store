@@ -2,15 +2,15 @@
   "id": "/wrappers/perplexity",
   "name": "perplexity",
   "short_name": "perplexity",
-  "start_url": "/wrappers/perplexity/?source=pwa",
-  "scope": "/wrappers/perplexity/",
+  "start_url": "./perplexity/?source=pwa",
+  "scope": "./perplexity/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for perplexity",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/perplexity/icons/icon.webp",
+      "src": "./perplexity/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

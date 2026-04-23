@@ -2,15 +2,15 @@
   "id": "/wrappers/googlecloud",
   "name": "Google Cloud",
   "short_name": "Google Cloud",
-  "start_url": "/wrappers/googlecloud/?source=pwa",
-  "scope": "/wrappers/googlecloud/",
+  "start_url": "./googlecloud/?source=pwa",
+  "scope": "./googlecloud/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Google Cloud",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/googlecloud/icons/icon.webp",
+      "src": "./googlecloud/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

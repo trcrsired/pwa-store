@@ -593,14 +593,14 @@ def build_manifest(name, key, apptype="wrapper"):
         "id": f"/{base}/{key}",
         "name": name,
         "short_name": name,
-        "start_url": f"/{base}/{key}/?source=pwa",
-        "scope": f"/{base}/{key}/",
+        "start_url": f"./{key}/?source=pwa",
+        "scope": f"./{key}/",
         "background_color": "black",
         "theme_color": "black",
         "description": f"PWA Wrapper for {name}",
         "display": "standalone",
         "icons": [{
-            "src": f"/{base}/{key}/icons/icon.webp",
+            "src": f"./{key}/icons/icon.webp",
             "type": "image/webp",
             "sizes": "512x512"
         }]

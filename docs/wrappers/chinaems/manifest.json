@@ -2,15 +2,15 @@
   "id": "/wrappers/chinaems",
   "name": "China EMS",
   "short_name": "China EMS",
-  "start_url": "/wrappers/chinaems/?source=pwa",
-  "scope": "/wrappers/chinaems/",
+  "start_url": "./chinaems/?source=pwa",
+  "scope": "./chinaems/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for China EMS",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/chinaems/icons/icon.webp",
+      "src": "./chinaems/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

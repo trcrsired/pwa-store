@@ -2,15 +2,15 @@
   "id": "/msedge/factcheck",
   "name": "FactCheck.org",
   "short_name": "FactCheck.org",
-  "start_url": "/msedge/factcheck/?source=pwa",
-  "scope": "/msedge/factcheck/",
+  "start_url": "./factcheck/?source=pwa",
+  "scope": "./factcheck/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for FactCheck.org",
   "display": "standalone",
   "icons": [
     {
-      "src": "/msedge/factcheck/icons/icon.webp",
+      "src": "./factcheck/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

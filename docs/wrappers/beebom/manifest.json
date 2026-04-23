@@ -2,15 +2,15 @@
   "id": "/wrappers/beebom",
   "name": "Beebom",
   "short_name": "Beebom",
-  "start_url": "/wrappers/beebom/?source=pwa",
-  "scope": "/wrappers/beebom/",
+  "start_url": "./beebom/?source=pwa",
+  "scope": "./beebom/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Beebom",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/beebom/icons/icon.webp",
+      "src": "./beebom/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

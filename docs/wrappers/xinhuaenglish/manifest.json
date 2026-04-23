@@ -2,15 +2,15 @@
   "id": "/wrappers/xinhuaenglish",
   "name": "Xinhua English",
   "short_name": "Xinhua English",
-  "start_url": "/wrappers/xinhuaenglish/?source=pwa",
-  "scope": "/wrappers/xinhuaenglish/",
+  "start_url": "./xinhuaenglish/?source=pwa",
+  "scope": "./xinhuaenglish/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Xinhua English",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/xinhuaenglish/icons/icon.webp",
+      "src": "./xinhuaenglish/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/tencentcloud",
   "name": "Tencent Cloud",
   "short_name": "Tencent Cloud",
-  "start_url": "/wrappers/tencentcloud/?source=pwa",
-  "scope": "/wrappers/tencentcloud/",
+  "start_url": "./tencentcloud/?source=pwa",
+  "scope": "./tencentcloud/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Tencent Cloud",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/tencentcloud/icons/icon.webp",
+      "src": "./tencentcloud/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

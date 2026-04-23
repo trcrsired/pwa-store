@@ -2,15 +2,15 @@
   "id": "/msedge/gizmodo",
   "name": "Gizmodo",
   "short_name": "Gizmodo",
-  "start_url": "/msedge/gizmodo/?source=pwa",
-  "scope": "/msedge/gizmodo/",
+  "start_url": "./gizmodo/?source=pwa",
+  "scope": "./gizmodo/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Gizmodo",
   "display": "standalone",
   "icons": [
     {
-      "src": "/msedge/gizmodo/icons/icon.webp",
+      "src": "./gizmodo/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

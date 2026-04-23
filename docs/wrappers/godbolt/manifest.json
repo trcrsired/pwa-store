@@ -2,15 +2,15 @@
   "id": "/wrappers/godbolt",
   "name": "Compiler Explorer",
   "short_name": "Compiler Explorer",
-  "start_url": "/wrappers/godbolt/?source=pwa",
-  "scope": "/wrappers/godbolt/",
+  "start_url": "./godbolt/?source=pwa",
+  "scope": "./godbolt/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Compiler Explorer",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/godbolt/icons/icon.webp",
+      "src": "./godbolt/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

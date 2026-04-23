@@ -2,15 +2,15 @@
   "id": "/wrappers/mmo-champion",
   "name": "MMO Champion",
   "short_name": "MMO Champion",
-  "start_url": "/wrappers/mmo-champion/?source=pwa",
-  "scope": "/wrappers/mmo-champion/",
+  "start_url": "./mmo-champion/?source=pwa",
+  "scope": "./mmo-champion/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for MMO Champion",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/mmo-champion/icons/icon.webp",
+      "src": "./mmo-champion/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

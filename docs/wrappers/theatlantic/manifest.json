@@ -2,15 +2,15 @@
   "id": "/wrappers/theatlantic",
   "name": "The Atlantic",
   "short_name": "The Atlantic",
-  "start_url": "/wrappers/theatlantic/?source=pwa",
-  "scope": "/wrappers/theatlantic/",
+  "start_url": "./theatlantic/?source=pwa",
+  "scope": "./theatlantic/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for The Atlantic",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/theatlantic/icons/icon.webp",
+      "src": "./theatlantic/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

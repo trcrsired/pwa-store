@@ -2,15 +2,15 @@
   "id": "/wrappers/sportingnews",
   "name": "Sporting News",
   "short_name": "Sporting News",
-  "start_url": "/wrappers/sportingnews/?source=pwa",
-  "scope": "/wrappers/sportingnews/",
+  "start_url": "./sportingnews/?source=pwa",
+  "scope": "./sportingnews/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Sporting News",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/sportingnews/icons/icon.webp",
+      "src": "./sportingnews/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

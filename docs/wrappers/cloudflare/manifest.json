@@ -2,15 +2,15 @@
   "id": "/wrappers/cloudflare",
   "name": "Cloudflare Speed Test",
   "short_name": "Cloudflare Speed Test",
-  "start_url": "/wrappers/cloudflare/?source=pwa",
-  "scope": "/wrappers/cloudflare/",
+  "start_url": "./cloudflare/?source=pwa",
+  "scope": "./cloudflare/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Cloudflare Speed Test",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/cloudflare/icons/icon.webp",
+      "src": "./cloudflare/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

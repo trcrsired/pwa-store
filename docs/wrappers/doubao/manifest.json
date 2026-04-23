@@ -2,15 +2,15 @@
   "id": "/wrappers/doubao",
   "name": "\u8c46\u5305",
   "short_name": "\u8c46\u5305",
-  "start_url": "/wrappers/doubao/?source=pwa",
-  "scope": "/wrappers/doubao/",
+  "start_url": "./doubao/?source=pwa",
+  "scope": "./doubao/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u8c46\u5305",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/doubao/icons/icon.webp",
+      "src": "./doubao/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

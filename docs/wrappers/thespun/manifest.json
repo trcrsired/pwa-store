@@ -2,15 +2,15 @@
   "id": "/wrappers/thespun",
   "name": "The Spun",
   "short_name": "The Spun",
-  "start_url": "/wrappers/thespun/?source=pwa",
-  "scope": "/wrappers/thespun/",
+  "start_url": "./thespun/?source=pwa",
+  "scope": "./thespun/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for The Spun",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/thespun/icons/icon.webp",
+      "src": "./thespun/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

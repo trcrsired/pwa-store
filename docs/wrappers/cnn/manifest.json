@@ -2,15 +2,15 @@
   "id": "/wrappers/cnn",
   "name": "CNN",
   "short_name": "CNN",
-  "start_url": "/wrappers/cnn/?source=pwa",
-  "scope": "/wrappers/cnn/",
+  "start_url": "./cnn/?source=pwa",
+  "scope": "./cnn/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for CNN",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/cnn/icons/icon.webp",
+      "src": "./cnn/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

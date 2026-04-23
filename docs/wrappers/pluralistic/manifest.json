@@ -2,15 +2,15 @@
   "id": "/wrappers/pluralistic",
   "name": "Pluralistic",
   "short_name": "Pluralistic",
-  "start_url": "/wrappers/pluralistic/?source=pwa",
-  "scope": "/wrappers/pluralistic/",
+  "start_url": "./pluralistic/?source=pwa",
+  "scope": "./pluralistic/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Pluralistic",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/pluralistic/icons/icon.webp",
+      "src": "./pluralistic/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

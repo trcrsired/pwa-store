@@ -2,15 +2,15 @@
   "id": "/wrappers/btsow",
   "name": "BTSOW",
   "short_name": "BTSOW",
-  "start_url": "/wrappers/btsow/?source=pwa",
-  "scope": "/wrappers/btsow/",
+  "start_url": "./btsow/?source=pwa",
+  "scope": "./btsow/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for BTSOW",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/btsow/icons/icon.webp",
+      "src": "./btsow/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

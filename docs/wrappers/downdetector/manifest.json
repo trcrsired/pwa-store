@@ -2,15 +2,15 @@
   "id": "/wrappers/downdetector",
   "name": "Downdetector",
   "short_name": "Downdetector",
-  "start_url": "/wrappers/downdetector/?source=pwa",
-  "scope": "/wrappers/downdetector/",
+  "start_url": "./downdetector/?source=pwa",
+  "scope": "./downdetector/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Downdetector",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/downdetector/icons/icon.webp",
+      "src": "./downdetector/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

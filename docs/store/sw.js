@@ -5,24 +5,24 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       return cache.addAll([
-        "/store/",
-        "/store/manifest.json",
-        "/store/logo/logo.webp",
-        "/store/content.js",
-        "/store/app.js",
-        "/store/lang.js",
-        "/store/year.js",
-        "/store/sw-register.js",
-        "/store/style.css",
-        "/store/how/en/",
-        "/store/how/zh/",
-        "/store/wechat/enus/",
-        "/store/wechat/zhcn/",
-        "/store/wechat/enus/01.webp",
-        "/store/wechat/enus/02.webp",
-        "/store/wechat/enus/03.webp",
-        "/store/lang/en.json",
-        "/store/lang/zh.json",
+        "./",
+        "./manifest.json",
+        "./logo/logo.webp",
+        "./content.js",
+        "./app.js",
+        "./lang.js",
+        "./year.js",
+        "./sw-register.js",
+        "./style.css",
+        "./how/en/",
+        "./how/zh/",
+        "./wechat/enus/",
+        "./wechat/zhcn/",
+        "./wechat/enus/01.webp",
+        "./wechat/enus/02.webp",
+        "./wechat/enus/03.webp",
+        "./lang/en.json",
+        "./lang/zh.json",
       ]);
     })
   );
@@ -48,7 +48,7 @@ self.addEventListener("fetch", (event) => {
   const req = event.request;
   if (req.method !== "GET") return;
 
-  if (req.destination === "image" && !req.url.includes("/store/logo/logo.webp"))
+  if (req.destination === "image" && !req.url.includes("./logo/logo.webp"))
   {
     event.respondWith(
       caches.open(IMAGE_CACHE).then((cache) =>

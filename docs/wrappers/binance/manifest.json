@@ -2,15 +2,15 @@
   "id": "/wrappers/binance",
   "name": "Binance",
   "short_name": "Binance",
-  "start_url": "/wrappers/binance/?source=pwa",
-  "scope": "/wrappers/binance/",
+  "start_url": "./binance/?source=pwa",
+  "scope": "./binance/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Binance",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/binance/icons/icon.webp",
+      "src": "./binance/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

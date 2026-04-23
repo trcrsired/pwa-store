@@ -2,15 +2,15 @@
   "id": "/wrappers/barchart",
   "name": "Barchart",
   "short_name": "Barchart",
-  "start_url": "/wrappers/barchart/?source=pwa",
-  "scope": "/wrappers/barchart/",
+  "start_url": "./barchart/?source=pwa",
+  "scope": "./barchart/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Barchart",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/barchart/icons/icon.webp",
+      "src": "./barchart/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

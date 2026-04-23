@@ -2,15 +2,15 @@
   "id": "/wrappers/subway",
   "name": "Subway",
   "short_name": "Subway",
-  "start_url": "/wrappers/subway/?source=pwa",
-  "scope": "/wrappers/subway/",
+  "start_url": "./subway/?source=pwa",
+  "scope": "./subway/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Subway",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/subway/icons/icon.webp",
+      "src": "./subway/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

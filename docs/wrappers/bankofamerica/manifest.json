@@ -2,15 +2,15 @@
   "id": "/wrappers/bankofamerica",
   "name": "Bank of America",
   "short_name": "Bank of America",
-  "start_url": "/wrappers/bankofamerica/?source=pwa",
-  "scope": "/wrappers/bankofamerica/",
+  "start_url": "./bankofamerica/?source=pwa",
+  "scope": "./bankofamerica/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Bank of America",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/bankofamerica/icons/icon.webp",
+      "src": "./bankofamerica/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

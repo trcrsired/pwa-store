@@ -2,15 +2,15 @@
   "id": "/wrappers/oilprice",
   "name": "OilPrice",
   "short_name": "OilPrice",
-  "start_url": "/wrappers/oilprice/?source=pwa",
-  "scope": "/wrappers/oilprice/",
+  "start_url": "./oilprice/?source=pwa",
+  "scope": "./oilprice/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for OilPrice",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/oilprice/icons/icon.webp",
+      "src": "./oilprice/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

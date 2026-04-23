@@ -2,15 +2,15 @@
   "id": "/wrappers/slingacademy",
   "name": "SlingAcademy",
   "short_name": "SlingAcademy",
-  "start_url": "/wrappers/slingacademy/?source=pwa",
-  "scope": "/wrappers/slingacademy/",
+  "start_url": "./slingacademy/?source=pwa",
+  "scope": "./slingacademy/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for SlingAcademy",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/slingacademy/icons/icon.webp",
+      "src": "./slingacademy/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/tencentcloudcn",
   "name": "\u817e\u8baf\u4e91\u4e2d\u56fd",
   "short_name": "\u817e\u8baf\u4e91\u4e2d\u56fd",
-  "start_url": "/wrappers/tencentcloudcn/?source=pwa",
-  "scope": "/wrappers/tencentcloudcn/",
+  "start_url": "./tencentcloudcn/?source=pwa",
+  "scope": "./tencentcloudcn/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u817e\u8baf\u4e91\u4e2d\u56fd",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/tencentcloudcn/icons/icon.webp",
+      "src": "./tencentcloudcn/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

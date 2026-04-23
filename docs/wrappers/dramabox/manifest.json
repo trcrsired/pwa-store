@@ -2,15 +2,15 @@
   "id": "/wrappers/dramabox",
   "name": "DramaBox",
   "short_name": "DramaBox",
-  "start_url": "/wrappers/dramabox/?source=pwa",
-  "scope": "/wrappers/dramabox/",
+  "start_url": "./dramabox/?source=pwa",
+  "scope": "./dramabox/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for DramaBox",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/dramabox/icons/icon.webp",
+      "src": "./dramabox/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

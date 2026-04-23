@@ -2,15 +2,15 @@
   "id": "/wrappers/wawa",
   "name": "Wawa",
   "short_name": "Wawa",
-  "start_url": "/wrappers/wawa/?source=pwa",
-  "scope": "/wrappers/wawa/",
+  "start_url": "./wawa/?source=pwa",
+  "scope": "./wawa/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Wawa",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/wawa/icons/icon.webp",
+      "src": "./wawa/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

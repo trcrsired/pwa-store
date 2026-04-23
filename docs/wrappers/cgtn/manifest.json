@@ -2,15 +2,15 @@
   "id": "/wrappers/cgtn",
   "name": "CGTN",
   "short_name": "CGTN",
-  "start_url": "/wrappers/cgtn/?source=pwa",
-  "scope": "/wrappers/cgtn/",
+  "start_url": "./cgtn/?source=pwa",
+  "scope": "./cgtn/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for CGTN",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/cgtn/icons/icon.webp",
+      "src": "./cgtn/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

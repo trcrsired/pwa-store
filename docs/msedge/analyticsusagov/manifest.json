@@ -2,15 +2,15 @@
   "id": "/msedge/analyticsusagov",
   "name": "analytics.usa.gov",
   "short_name": "analytics.usa.gov",
-  "start_url": "/msedge/analyticsusagov/?source=pwa",
-  "scope": "/msedge/analyticsusagov/",
+  "start_url": "./analyticsusagov/?source=pwa",
+  "scope": "./analyticsusagov/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for analytics.usa.gov",
   "display": "standalone",
   "icons": [
     {
-      "src": "/msedge/analyticsusagov/icons/icon.webp",
+      "src": "./analyticsusagov/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

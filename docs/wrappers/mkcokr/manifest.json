@@ -2,15 +2,15 @@
   "id": "/wrappers/mkcokr",
   "name": "\ub9e4\uc77c\uacbd\uc81c",
   "short_name": "\ub9e4\uc77c\uacbd\uc81c",
-  "start_url": "/wrappers/mkcokr/?source=pwa",
-  "scope": "/wrappers/mkcokr/",
+  "start_url": "./mkcokr/?source=pwa",
+  "scope": "./mkcokr/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \ub9e4\uc77c\uacbd\uc81c",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/mkcokr/icons/icon.webp",
+      "src": "./mkcokr/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

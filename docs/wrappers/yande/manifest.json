@@ -2,15 +2,15 @@
   "id": "/wrappers/yande",
   "name": "Yande",
   "short_name": "Yande",
-  "start_url": "/wrappers/yande/?source=pwa",
-  "scope": "/wrappers/yande/",
+  "start_url": "./yande/?source=pwa",
+  "scope": "./yande/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Yande",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/yande/icons/icon.webp",
+      "src": "./yande/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/michaelhudson",
   "name": "Michael Hudson",
   "short_name": "Michael Hudson",
-  "start_url": "/wrappers/michaelhudson/?source=pwa",
-  "scope": "/wrappers/michaelhudson/",
+  "start_url": "./michaelhudson/?source=pwa",
+  "scope": "./michaelhudson/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Michael Hudson",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/michaelhudson/icons/icon.webp",
+      "src": "./michaelhudson/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

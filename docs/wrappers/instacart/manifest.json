@@ -2,15 +2,15 @@
   "id": "/wrappers/instacart",
   "name": "Instacart",
   "short_name": "Instacart",
-  "start_url": "/wrappers/instacart/?source=pwa",
-  "scope": "/wrappers/instacart/",
+  "start_url": "./instacart/?source=pwa",
+  "scope": "./instacart/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Instacart",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/instacart/icons/icon.webp",
+      "src": "./instacart/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

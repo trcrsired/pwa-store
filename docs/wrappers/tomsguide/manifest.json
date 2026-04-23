@@ -2,15 +2,15 @@
   "id": "/wrappers/tomsguide",
   "name": "Tom's Guide",
   "short_name": "Tom's Guide",
-  "start_url": "/wrappers/tomsguide/?source=pwa",
-  "scope": "/wrappers/tomsguide/",
+  "start_url": "./tomsguide/?source=pwa",
+  "scope": "./tomsguide/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Tom's Guide",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/tomsguide/icons/icon.webp",
+      "src": "./tomsguide/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

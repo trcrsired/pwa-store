@@ -2,15 +2,15 @@
   "id": "/msedge/oxford",
   "name": "University of Oxford",
   "short_name": "University of Oxford",
-  "start_url": "/msedge/oxford/?source=pwa",
-  "scope": "/msedge/oxford/",
+  "start_url": "./oxford/?source=pwa",
+  "scope": "./oxford/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for University of Oxford",
   "display": "standalone",
   "icons": [
     {
-      "src": "/msedge/oxford/icons/icon.webp",
+      "src": "./oxford/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

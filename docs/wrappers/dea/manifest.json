@@ -2,15 +2,15 @@
   "id": "/wrappers/dea",
   "name": "DEA",
   "short_name": "DEA",
-  "start_url": "/wrappers/dea/?source=pwa",
-  "scope": "/wrappers/dea/",
+  "start_url": "./dea/?source=pwa",
+  "scope": "./dea/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for DEA",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/dea/icons/icon.webp",
+      "src": "./dea/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

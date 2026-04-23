@@ -2,15 +2,15 @@
   "id": "/wrappers/reuters",
   "name": "Reuters",
   "short_name": "Reuters",
-  "start_url": "/wrappers/reuters/?source=pwa",
-  "scope": "/wrappers/reuters/",
+  "start_url": "./reuters/?source=pwa",
+  "scope": "./reuters/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Reuters",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/reuters/icons/icon.webp",
+      "src": "./reuters/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

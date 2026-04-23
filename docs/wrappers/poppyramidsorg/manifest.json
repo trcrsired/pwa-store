@@ -2,15 +2,15 @@
   "id": "/wrappers/poppyramidsorg",
   "name": "PopulationPyramids.org",
   "short_name": "PopulationPyramids.org",
-  "start_url": "/wrappers/poppyramidsorg/?source=pwa",
-  "scope": "/wrappers/poppyramidsorg/",
+  "start_url": "./poppyramidsorg/?source=pwa",
+  "scope": "./poppyramidsorg/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for PopulationPyramids.org",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/poppyramidsorg/icons/icon.webp",
+      "src": "./poppyramidsorg/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

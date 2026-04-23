@@ -2,15 +2,15 @@
   "id": "/wrappers/fortune",
   "name": "Fortune",
   "short_name": "Fortune",
-  "start_url": "/wrappers/fortune/?source=pwa",
-  "scope": "/wrappers/fortune/",
+  "start_url": "./fortune/?source=pwa",
+  "scope": "./fortune/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Fortune",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/fortune/icons/icon.webp",
+      "src": "./fortune/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

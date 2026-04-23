@@ -2,15 +2,15 @@
   "id": "/wrappers/alibabacloud",
   "name": "Alibaba Cloud",
   "short_name": "Alibaba Cloud",
-  "start_url": "/wrappers/alibabacloud/?source=pwa",
-  "scope": "/wrappers/alibabacloud/",
+  "start_url": "./alibabacloud/?source=pwa",
+  "scope": "./alibabacloud/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Alibaba Cloud",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/alibabacloud/icons/icon.webp",
+      "src": "./alibabacloud/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

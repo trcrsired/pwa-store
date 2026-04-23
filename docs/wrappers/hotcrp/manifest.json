@@ -2,15 +2,15 @@
   "id": "/wrappers/hotcrp",
   "name": "HotCRP",
   "short_name": "HotCRP",
-  "start_url": "/wrappers/hotcrp/?source=pwa",
-  "scope": "/wrappers/hotcrp/",
+  "start_url": "./hotcrp/?source=pwa",
+  "scope": "./hotcrp/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for HotCRP",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/hotcrp/icons/icon.webp",
+      "src": "./hotcrp/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

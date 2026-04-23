@@ -2,15 +2,15 @@
   "id": "/wrappers/berkeley",
   "name": "University of California, Berkeley",
   "short_name": "University of California, Berkeley",
-  "start_url": "/wrappers/berkeley/?source=pwa",
-  "scope": "/wrappers/berkeley/",
+  "start_url": "./berkeley/?source=pwa",
+  "scope": "./berkeley/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for University of California, Berkeley",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/berkeley/icons/icon.webp",
+      "src": "./berkeley/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

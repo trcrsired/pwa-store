@@ -2,15 +2,15 @@
   "id": "/wrappers/gsa",
   "name": "GSA",
   "short_name": "GSA",
-  "start_url": "/wrappers/gsa/?source=pwa",
-  "scope": "/wrappers/gsa/",
+  "start_url": "./gsa/?source=pwa",
+  "scope": "./gsa/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for GSA",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/gsa/icons/icon.webp",
+      "src": "./gsa/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/tsa",
   "name": "TSA",
   "short_name": "TSA",
-  "start_url": "/wrappers/tsa/?source=pwa",
-  "scope": "/wrappers/tsa/",
+  "start_url": "./tsa/?source=pwa",
+  "scope": "./tsa/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for TSA",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/tsa/icons/icon.webp",
+      "src": "./tsa/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

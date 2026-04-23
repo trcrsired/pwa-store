@@ -2,15 +2,15 @@
   "id": "/msedge/novayagazeta",
   "name": "Novaya Gazeta Europe",
   "short_name": "Novaya Gazeta Europe",
-  "start_url": "/msedge/novayagazeta/?source=pwa",
-  "scope": "/msedge/novayagazeta/",
+  "start_url": "./novayagazeta/?source=pwa",
+  "scope": "./novayagazeta/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Novaya Gazeta Europe",
   "display": "standalone",
   "icons": [
     {
-      "src": "/msedge/novayagazeta/icons/icon.webp",
+      "src": "./novayagazeta/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

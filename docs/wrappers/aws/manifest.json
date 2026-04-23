@@ -2,15 +2,15 @@
   "id": "/wrappers/aws",
   "name": "AWS",
   "short_name": "AWS",
-  "start_url": "/wrappers/aws/?source=pwa",
-  "scope": "/wrappers/aws/",
+  "start_url": "./aws/?source=pwa",
+  "scope": "./aws/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for AWS",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/aws/icons/icon.webp",
+      "src": "./aws/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

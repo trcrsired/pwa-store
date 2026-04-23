@@ -2,15 +2,15 @@
   "id": "/wrappers/moonstarendicott",
   "name": "Moon Star",
   "short_name": "Moon Star",
-  "start_url": "/wrappers/moonstarendicott/?source=pwa",
-  "scope": "/wrappers/moonstarendicott/",
+  "start_url": "./moonstarendicott/?source=pwa",
+  "scope": "./moonstarendicott/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Moon Star",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/moonstarendicott/icons/icon.webp",
+      "src": "./moonstarendicott/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/nytimes",
   "name": "NY Times",
   "short_name": "NY Times",
-  "start_url": "/wrappers/nytimes/?source=pwa",
-  "scope": "/wrappers/nytimes/",
+  "start_url": "./nytimes/?source=pwa",
+  "scope": "./nytimes/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for NY Times",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/nytimes/icons/icon.webp",
+      "src": "./nytimes/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

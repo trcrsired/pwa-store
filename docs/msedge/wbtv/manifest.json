@@ -2,15 +2,15 @@
   "id": "/msedge/wbtv",
   "name": "WBTV",
   "short_name": "WBTV",
-  "start_url": "/msedge/wbtv/?source=pwa",
-  "scope": "/msedge/wbtv/",
+  "start_url": "./wbtv/?source=pwa",
+  "scope": "./wbtv/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for WBTV",
   "display": "standalone",
   "icons": [
     {
-      "src": "/msedge/wbtv/icons/icon.webp",
+      "src": "./wbtv/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

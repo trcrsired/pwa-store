@@ -2,15 +2,15 @@
   "id": "/wrappers/cppreference",
   "name": "cppreference",
   "short_name": "cppreference",
-  "start_url": "/wrappers/cppreference/?source=pwa",
-  "scope": "/wrappers/cppreference/",
+  "start_url": "./cppreference/?source=pwa",
+  "scope": "./cppreference/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for cppreference",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/cppreference/icons/icon.webp",
+      "src": "./cppreference/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

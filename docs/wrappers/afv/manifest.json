@@ -2,15 +2,15 @@
   "id": "/wrappers/afv",
   "name": "AFV",
   "short_name": "AFV",
-  "start_url": "/wrappers/afv/?source=pwa",
-  "scope": "/wrappers/afv/",
+  "start_url": "./afv/?source=pwa",
+  "scope": "./afv/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for AFV",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/afv/icons/icon.webp",
+      "src": "./afv/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

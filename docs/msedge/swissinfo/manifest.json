@@ -2,15 +2,15 @@
   "id": "/msedge/swissinfo",
   "name": "swissinfo",
   "short_name": "swissinfo",
-  "start_url": "/msedge/swissinfo/?source=pwa",
-  "scope": "/msedge/swissinfo/",
+  "start_url": "./swissinfo/?source=pwa",
+  "scope": "./swissinfo/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for swissinfo",
   "display": "standalone",
   "icons": [
     {
-      "src": "/msedge/swissinfo/icons/icon.webp",
+      "src": "./swissinfo/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

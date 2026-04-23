@@ -2,15 +2,15 @@
   "id": "/wrappers/kofi",
   "name": "Ko-fi",
   "short_name": "Ko-fi",
-  "start_url": "/wrappers/kofi/?source=pwa",
-  "scope": "/wrappers/kofi/",
+  "start_url": "./kofi/?source=pwa",
+  "scope": "./kofi/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Ko-fi",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/kofi/icons/icon.webp",
+      "src": "./kofi/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

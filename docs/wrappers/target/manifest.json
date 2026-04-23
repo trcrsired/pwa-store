@@ -2,15 +2,15 @@
   "id": "/wrappers/target",
   "name": "Target",
   "short_name": "Target",
-  "start_url": "/wrappers/target/?source=pwa",
-  "scope": "/wrappers/target/",
+  "start_url": "./target/?source=pwa",
+  "scope": "./target/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Target",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/target/icons/icon.webp",
+      "src": "./target/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

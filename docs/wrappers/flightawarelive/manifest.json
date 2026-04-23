@@ -2,15 +2,15 @@
   "id": "/wrappers/flightawarelive",
   "name": "FlightAware Live",
   "short_name": "FlightAware Live",
-  "start_url": "/wrappers/flightawarelive/?source=pwa",
-  "scope": "/wrappers/flightawarelive/",
+  "start_url": "./flightawarelive/?source=pwa",
+  "scope": "./flightawarelive/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for FlightAware Live",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/flightawarelive/icons/icon.webp",
+      "src": "./flightawarelive/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

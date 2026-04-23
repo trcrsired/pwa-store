@@ -2,15 +2,15 @@
   "id": "/wrappers/biggo",
   "name": "BigGo",
   "short_name": "BigGo",
-  "start_url": "/wrappers/biggo/?source=pwa",
-  "scope": "/wrappers/biggo/",
+  "start_url": "./biggo/?source=pwa",
+  "scope": "./biggo/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for BigGo",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/biggo/icons/icon.webp",
+      "src": "./biggo/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

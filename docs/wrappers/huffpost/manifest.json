@@ -2,15 +2,15 @@
   "id": "/wrappers/huffpost",
   "name": "HuffPost",
   "short_name": "HuffPost",
-  "start_url": "/wrappers/huffpost/?source=pwa",
-  "scope": "/wrappers/huffpost/",
+  "start_url": "./huffpost/?source=pwa",
+  "scope": "./huffpost/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for HuffPost",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/huffpost/icons/icon.webp",
+      "src": "./huffpost/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

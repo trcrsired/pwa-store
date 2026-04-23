@@ -2,15 +2,15 @@
   "id": "/msedge/duckai",
   "name": "Duck.ai",
   "short_name": "Duck.ai",
-  "start_url": "/msedge/duckai/?source=pwa",
-  "scope": "/msedge/duckai/",
+  "start_url": "./duckai/?source=pwa",
+  "scope": "./duckai/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Duck.ai",
   "display": "standalone",
   "icons": [
     {
-      "src": "/msedge/duckai/icons/icon.webp",
+      "src": "./duckai/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

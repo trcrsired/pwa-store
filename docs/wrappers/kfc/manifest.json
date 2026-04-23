@@ -2,15 +2,15 @@
   "id": "/wrappers/kfc",
   "name": "KFC",
   "short_name": "KFC",
-  "start_url": "/wrappers/kfc/?source=pwa",
-  "scope": "/wrappers/kfc/",
+  "start_url": "./kfc/?source=pwa",
+  "scope": "./kfc/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for KFC",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/kfc/icons/icon.webp",
+      "src": "./kfc/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

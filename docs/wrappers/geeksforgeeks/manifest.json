@@ -2,15 +2,15 @@
   "id": "/wrappers/geeksforgeeks",
   "name": "GeeksForGeeks",
   "short_name": "GeeksForGeeks",
-  "start_url": "/wrappers/geeksforgeeks/?source=pwa",
-  "scope": "/wrappers/geeksforgeeks/",
+  "start_url": "./geeksforgeeks/?source=pwa",
+  "scope": "./geeksforgeeks/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for GeeksForGeeks",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/geeksforgeeks/icons/icon.webp",
+      "src": "./geeksforgeeks/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

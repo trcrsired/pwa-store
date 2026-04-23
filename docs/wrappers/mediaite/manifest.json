@@ -2,15 +2,15 @@
   "id": "/wrappers/mediaite",
   "name": "Mediaite",
   "short_name": "Mediaite",
-  "start_url": "/wrappers/mediaite/?source=pwa",
-  "scope": "/wrappers/mediaite/",
+  "start_url": "./mediaite/?source=pwa",
+  "scope": "./mediaite/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Mediaite",
   "display": "standalone",
   "icons": [
     {
-      "src": "/wrappers/mediaite/icons/icon.webp",
+      "src": "./mediaite/icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }
