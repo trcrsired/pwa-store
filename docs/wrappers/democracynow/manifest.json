@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/democracynow",
+  "id": "./",
   "name": "Democracy Now!",
   "short_name": "Democracy Now!",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/democracynow/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Democracy Now!",

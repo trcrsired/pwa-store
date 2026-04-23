@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/piefed",
+  "id": "./",
   "name": "Piefed",
   "short_name": "Piefed",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/piefed/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Piefed",

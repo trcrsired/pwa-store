@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/thelist",
+  "id": "./",
   "name": "The List",
   "short_name": "The List",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/thelist/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for The List",

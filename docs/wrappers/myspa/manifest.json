@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/myspa",
+  "id": "./",
   "name": "MySPA!",
   "short_name": "MySPA!",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/myspa/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for MySPA!",

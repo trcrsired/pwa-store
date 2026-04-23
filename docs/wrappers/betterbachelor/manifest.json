@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/betterbachelor",
+  "id": "./",
   "name": "Better Bachelor",
   "short_name": "Better Bachelor",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/betterbachelor/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Better Bachelor",

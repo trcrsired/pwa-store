@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/swissinfo",
+  "id": "./",
   "name": "swissinfo",
   "short_name": "swissinfo",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/swissinfo/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for swissinfo",

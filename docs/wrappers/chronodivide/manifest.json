@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/chronodivide",
+  "id": "./",
   "name": "RA2: Chrono Divide",
   "short_name": "RA2: Chrono Divide",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/chronodivide/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for RA2: Chrono Divide",

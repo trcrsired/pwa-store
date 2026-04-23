@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/dollargeneral",
+  "id": "./",
   "name": "Dollar General",
   "short_name": "Dollar General",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/dollargeneral/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Dollar General",

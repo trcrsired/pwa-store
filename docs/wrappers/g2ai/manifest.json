@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/g2ai",
+  "id": "./",
   "name": "G2 AI",
   "short_name": "G2 AI",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/g2ai/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for G2 AI",

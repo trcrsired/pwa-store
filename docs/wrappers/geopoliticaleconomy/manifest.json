@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/geopoliticaleconomy",
+  "id": "./",
   "name": "Geopolitical Economy Report",
   "short_name": "Geopolitical Economy Report",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/geopoliticaleconomy/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Geopolitical Economy Report",

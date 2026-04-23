@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/aifocus",
+  "id": "./",
   "name": "AI Focus",
   "short_name": "AI Focus",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/aifocus/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for AI Focus",

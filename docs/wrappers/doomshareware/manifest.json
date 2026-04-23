@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/doomshareware",
+  "id": "./",
   "name": "DOOM Shareware",
   "short_name": "DOOM Shareware",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/doomshareware/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for DOOM Shareware",

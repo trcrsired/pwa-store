@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/berkeley",
+  "id": "./",
   "name": "University of California, Berkeley",
   "short_name": "University of California, Berkeley",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/berkeley/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for University of California, Berkeley",

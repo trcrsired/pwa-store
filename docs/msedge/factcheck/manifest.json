@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/factcheck",
+  "id": "./",
   "name": "FactCheck.org",
   "short_name": "FactCheck.org",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/factcheck/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for FactCheck.org",

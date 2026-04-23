@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/exchangerates",
+  "id": "./",
   "name": "Exchange\u2011Rates.org",
   "short_name": "Exchange\u2011Rates.org",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/exchangerates/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Exchange\u2011Rates.org",

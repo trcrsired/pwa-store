@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/opensubtitles",
+  "id": "./",
   "name": "OpenSubtitles",
   "short_name": "OpenSubtitles",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/opensubtitles/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for OpenSubtitles",

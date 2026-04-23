@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/innosearch",
+  "id": "./",
   "name": "InnoSearch AI",
   "short_name": "InnoSearch AI",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/innosearch/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for InnoSearch AI",

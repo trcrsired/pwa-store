@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/venturebeat",
+  "id": "./",
   "name": "VentureBeat",
   "short_name": "VentureBeat",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/venturebeat/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for VentureBeat",

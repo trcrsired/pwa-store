@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/sfchronicle",
+  "id": "./",
   "name": "San Francisco Chronicle",
   "short_name": "San Francisco Chronicle",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/sfchronicle/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for San Francisco Chronicle",

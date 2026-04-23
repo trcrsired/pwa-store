@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/counterpointresearch",
+  "id": "./",
   "name": "Counterpoint Research",
   "short_name": "Counterpoint Research",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/counterpointresearch/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Counterpoint Research",

@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/wechatread",
+  "id": "./",
   "name": "WeChat Read",
   "short_name": "WeChat Read",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/wechatread/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for WeChat Read",

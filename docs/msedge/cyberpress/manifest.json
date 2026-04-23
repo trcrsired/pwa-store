@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/cyberpress",
+  "id": "./",
   "name": "CyberPress",
   "short_name": "CyberPress",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/cyberpress/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for CyberPress",

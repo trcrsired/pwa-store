@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/qstheory",
+  "id": "./",
   "name": "\u6c42\u662f",
   "short_name": "\u6c42\u662f",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/qstheory/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u6c42\u662f",

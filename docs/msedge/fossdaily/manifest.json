@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/fossdaily",
+  "id": "./",
   "name": "FOSS Daily",
   "short_name": "FOSS Daily",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/fossdaily/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for FOSS Daily",

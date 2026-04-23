@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/level1techs",
+  "id": "./",
   "name": "Level1Techs",
   "short_name": "Level1Techs",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/level1techs/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Level1Techs",

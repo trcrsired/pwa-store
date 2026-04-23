@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/chinaems",
+  "id": "./",
   "name": "China EMS",
   "short_name": "China EMS",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/chinaems/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for China EMS",

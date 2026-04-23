@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/wework",
+  "id": "./",
   "name": "WeWork",
   "short_name": "WeWork",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/wework/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for WeWork",

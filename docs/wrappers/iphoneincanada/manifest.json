@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/iphoneincanada",
+  "id": "./",
   "name": "iPhone in Canada",
   "short_name": "iPhone in Canada",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/iphoneincanada/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for iPhone in Canada",

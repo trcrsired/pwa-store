@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/cloudconvert",
+  "id": "./",
   "name": "CloudConvert",
   "short_name": "CloudConvert",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/cloudconvert/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for CloudConvert",

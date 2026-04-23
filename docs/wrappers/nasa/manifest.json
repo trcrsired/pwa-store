@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/nasa",
+  "id": "./",
   "name": "NASA",
   "short_name": "NASA",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/nasa/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for NASA",

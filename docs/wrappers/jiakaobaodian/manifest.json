@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/jiakaobaodian",
+  "id": "./",
   "name": "\u9a7e\u8003\u5b9d\u5178",
   "short_name": "\u9a7e\u8003\u5b9d\u5178",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/jiakaobaodian/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u9a7e\u8003\u5b9d\u5178",

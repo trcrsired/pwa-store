@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/wowhead",
+  "id": "./",
   "name": "Wowhead",
   "short_name": "Wowhead",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/wowhead/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Wowhead",

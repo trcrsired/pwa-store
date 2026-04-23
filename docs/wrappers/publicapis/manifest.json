@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/publicapis",
+  "id": "./",
   "name": "Public Apis",
   "short_name": "Public Apis",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/publicapis/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Public Apis",

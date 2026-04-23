@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/idme",
+  "id": "./",
   "name": "ID.me",
   "short_name": "ID.me",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/idme/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for ID.me",

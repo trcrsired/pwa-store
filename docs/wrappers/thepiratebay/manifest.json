@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/thepiratebay",
+  "id": "./",
   "name": "The Pirate Bay",
   "short_name": "The Pirate Bay",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/thepiratebay/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for The Pirate Bay",

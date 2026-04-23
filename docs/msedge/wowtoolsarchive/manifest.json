@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/wowtoolsarchive",
+  "id": "./",
   "name": "WoW.tools Archive",
   "short_name": "WoW.tools Archive",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/wowtoolsarchive/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for WoW.tools Archive",

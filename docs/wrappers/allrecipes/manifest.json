@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/allrecipes",
+  "id": "./",
   "name": "Allrecipes",
   "short_name": "Allrecipes",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/allrecipes/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Allrecipes",

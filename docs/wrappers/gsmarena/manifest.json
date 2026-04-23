@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/gsmarena",
+  "id": "./",
   "name": "GSMArena",
   "short_name": "GSMArena",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/gsmarena/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for GSMArena",

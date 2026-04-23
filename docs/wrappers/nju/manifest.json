@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/nju",
+  "id": "./",
   "name": "Nanjing University (\u5357\u4eac\u5927\u5b66)",
   "short_name": "Nanjing University (\u5357\u4eac\u5927\u5b66)",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/nju/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Nanjing University (\u5357\u4eac\u5927\u5b66)",

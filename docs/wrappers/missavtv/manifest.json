@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/missavtv",
+  "id": "./",
   "name": "MissAV TV",
   "short_name": "MissAV TV",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/missavtv/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for MissAV TV",

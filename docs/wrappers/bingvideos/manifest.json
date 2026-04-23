@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/bingvideos",
+  "id": "./",
   "name": "Bing Videos",
   "short_name": "Bing Videos",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/bingvideos/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Bing Videos",

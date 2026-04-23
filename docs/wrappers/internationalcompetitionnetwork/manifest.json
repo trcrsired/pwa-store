@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/internationalcompetitionnetwork",
+  "id": "./",
   "name": "International Competition Network",
   "short_name": "International Competition Network",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/internationalcompetitionnetwork/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for International Competition Network",

@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/cspan",
+  "id": "./",
   "name": "C-SPAN",
   "short_name": "C-SPAN",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/cspan/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for C-SPAN",

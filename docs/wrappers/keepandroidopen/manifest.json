@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/keepandroidopen",
+  "id": "./",
   "name": "Keep Android Open",
   "short_name": "Keep Android Open",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/keepandroidopen/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Keep Android Open",

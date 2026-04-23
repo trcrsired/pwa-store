@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/oupacademic",
+  "id": "./",
   "name": "Oxford Academic",
   "short_name": "Oxford Academic",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/oupacademic/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Oxford Academic",

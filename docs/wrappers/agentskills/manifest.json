@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/agentskills",
+  "id": "./",
   "name": "AgentSkills",
   "short_name": "AgentSkills",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/agentskills/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for AgentSkills",

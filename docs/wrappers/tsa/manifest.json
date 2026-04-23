@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/tsa",
+  "id": "./",
   "name": "TSA",
   "short_name": "TSA",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/tsa/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for TSA",

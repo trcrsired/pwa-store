@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/maplestory",
+  "id": "./",
   "name": "MapleStory",
   "short_name": "MapleStory",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/maplestory/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for MapleStory",

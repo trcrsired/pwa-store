@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/resetera",
+  "id": "./",
   "name": "ResetEra",
   "short_name": "ResetEra",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/resetera/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for ResetEra",

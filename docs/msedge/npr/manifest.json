@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/npr",
+  "id": "./",
   "name": "NPR",
   "short_name": "NPR",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/npr/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for NPR",

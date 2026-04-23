@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/livescience",
+  "id": "./",
   "name": "LiveScience",
   "short_name": "LiveScience",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/livescience/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for LiveScience",

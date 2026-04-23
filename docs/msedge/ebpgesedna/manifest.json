@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/ebpgesedna",
+  "id": "./",
   "name": "\u6682\u505c\u5b9e\u9a8c\u5ba4",
   "short_name": "\u6682\u505c\u5b9e\u9a8c\u5ba4",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/ebpgesedna/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u6682\u505c\u5b9e\u9a8c\u5ba4",

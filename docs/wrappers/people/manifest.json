@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/people",
+  "id": "./",
   "name": "People",
   "short_name": "People",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/people/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for People",

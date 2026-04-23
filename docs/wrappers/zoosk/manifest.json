@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/zoosk",
+  "id": "./",
   "name": "Zoosk",
   "short_name": "Zoosk",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/zoosk/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Zoosk",

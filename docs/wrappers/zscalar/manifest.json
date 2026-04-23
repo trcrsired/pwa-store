@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/zscalar",
+  "id": "./",
   "name": "Zscalar",
   "short_name": "Zscalar",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/zscalar/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Zscalar",

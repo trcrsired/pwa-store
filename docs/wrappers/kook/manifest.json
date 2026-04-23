@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/kook",
+  "id": "./",
   "name": "Kook",
   "short_name": "Kook",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/kook/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Kook",

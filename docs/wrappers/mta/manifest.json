@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/mta",
+  "id": "./",
   "name": "MTA",
   "short_name": "MTA",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/mta/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for MTA",

@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/repairwiki",
+  "id": "./",
   "name": "Repair Wiki",
   "short_name": "Repair Wiki",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/repairwiki/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Repair Wiki",

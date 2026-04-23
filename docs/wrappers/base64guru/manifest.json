@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/base64guru",
+  "id": "./",
   "name": "Base64.Guru",
   "short_name": "Base64.Guru",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/base64guru/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Base64.Guru",

@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/ign",
+  "id": "./",
   "name": "IGN",
   "short_name": "IGN",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/ign/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for IGN",

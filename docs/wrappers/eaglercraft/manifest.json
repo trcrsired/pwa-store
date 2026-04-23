@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/eaglercraft",
+  "id": "./",
   "name": "Eaglercraft",
   "short_name": "Eaglercraft",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/eaglercraft/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Eaglercraft",

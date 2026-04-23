@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/donaldjtrump",
+  "id": "./",
   "name": "Donald J. Trump",
   "short_name": "Donald J. Trump",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/donaldjtrump/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Donald J. Trump",

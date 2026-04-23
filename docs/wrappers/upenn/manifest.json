@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/upenn",
+  "id": "./",
   "name": "University of Pennsylvania",
   "short_name": "University of Pennsylvania",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/upenn/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for University of Pennsylvania",

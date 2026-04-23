@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/wpscn",
+  "id": "./",
   "name": "WPS (CN)",
   "short_name": "WPS (CN)",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/wpscn/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for WPS (CN)",

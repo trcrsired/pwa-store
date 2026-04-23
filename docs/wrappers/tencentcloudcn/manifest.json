@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/tencentcloudcn",
+  "id": "./",
   "name": "\u817e\u8baf\u4e91\u4e2d\u56fd",
   "short_name": "\u817e\u8baf\u4e91\u4e2d\u56fd",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/tencentcloudcn/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u817e\u8baf\u4e91\u4e2d\u56fd",

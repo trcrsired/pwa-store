@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/bankofamerica",
+  "id": "./",
   "name": "Bank of America",
   "short_name": "Bank of America",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/bankofamerica/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Bank of America",

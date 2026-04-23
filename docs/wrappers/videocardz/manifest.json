@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/videocardz",
+  "id": "./",
   "name": "VideoCardz",
   "short_name": "VideoCardz",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/videocardz/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for VideoCardz",

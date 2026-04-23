@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/dramabox",
+  "id": "./",
   "name": "DramaBox",
   "short_name": "DramaBox",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/dramabox/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for DramaBox",

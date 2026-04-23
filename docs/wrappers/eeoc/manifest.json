@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/eeoc",
+  "id": "./",
   "name": "EEOC",
   "short_name": "EEOC",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/eeoc/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for EEOC",

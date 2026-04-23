@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/foodpandaph",
+  "id": "./",
   "name": "Foodpanda PH",
   "short_name": "Foodpanda PH",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/foodpandaph/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Foodpanda PH",

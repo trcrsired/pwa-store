@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/ximalaya",
+  "id": "./",
   "name": "Ximalaya",
   "short_name": "Ximalaya",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/ximalaya/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Ximalaya",

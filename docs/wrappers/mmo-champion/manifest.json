@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/mmo-champion",
+  "id": "./",
   "name": "MMO Champion",
   "short_name": "MMO Champion",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/mmo-champion/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for MMO Champion",

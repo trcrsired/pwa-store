@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/investing",
+  "id": "./",
   "name": "Investing",
   "short_name": "Investing",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/investing/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Investing",

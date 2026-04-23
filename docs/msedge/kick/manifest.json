@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/kick",
+  "id": "./",
   "name": "Kick",
   "short_name": "Kick",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/kick/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Kick",

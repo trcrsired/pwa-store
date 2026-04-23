@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/thespun",
+  "id": "./",
   "name": "The Spun",
   "short_name": "The Spun",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/thespun/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for The Spun",

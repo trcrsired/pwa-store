@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/wise",
+  "id": "./",
   "name": "Wise",
   "short_name": "Wise",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/wise/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Wise",

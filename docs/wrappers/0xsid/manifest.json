@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/0xsid",
+  "id": "./",
   "name": "0xSid",
   "short_name": "0xSid",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/0xsid/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for 0xSid",

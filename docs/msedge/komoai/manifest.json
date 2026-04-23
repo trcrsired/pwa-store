@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/komoai",
+  "id": "./",
   "name": "Komo AI",
   "short_name": "Komo AI",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/komoai/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Komo AI",

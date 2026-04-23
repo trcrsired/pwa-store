@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/cdc",
+  "id": "./",
   "name": "CDC",
   "short_name": "CDC",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/cdc/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for CDC",

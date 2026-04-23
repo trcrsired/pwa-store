@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/wuyouzhixiang",
+  "id": "./",
   "name": "\u4e4c\u6709\u4e4b\u4e61",
   "short_name": "\u4e4c\u6709\u4e4b\u4e61",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/wuyouzhixiang/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u4e4c\u6709\u4e4b\u4e61",

@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/neocities",
+  "id": "./",
   "name": "Neocities",
   "short_name": "Neocities",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/neocities/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Neocities",

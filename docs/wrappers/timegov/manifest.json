@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/timegov",
+  "id": "./",
   "name": "NIST Time",
   "short_name": "NIST Time",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/timegov/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for NIST Time",

@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/appleretail",
+  "id": "./",
   "name": "Apple Retail Store",
   "short_name": "Apple Retail Store",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/appleretail/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Apple Retail Store",

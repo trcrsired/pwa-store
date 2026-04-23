@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/wwd",
+  "id": "./",
   "name": "WWD",
   "short_name": "WWD",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/wwd/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for WWD",

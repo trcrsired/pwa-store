@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/protondb",
+  "id": "./",
   "name": "ProtonDB",
   "short_name": "ProtonDB",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/protondb/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for ProtonDB",

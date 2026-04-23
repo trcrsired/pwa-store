@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/hao123",
+  "id": "./",
   "name": "hao123",
   "short_name": "hao123",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/hao123/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for hao123",

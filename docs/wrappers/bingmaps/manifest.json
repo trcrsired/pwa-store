@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/bingmaps",
+  "id": "./",
   "name": "Bing Maps",
   "short_name": "Bing Maps",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/bingmaps/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Bing Maps",

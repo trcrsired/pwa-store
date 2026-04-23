@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/paypal",
+  "id": "./",
   "name": "Paypal",
   "short_name": "Paypal",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/paypal/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Paypal",

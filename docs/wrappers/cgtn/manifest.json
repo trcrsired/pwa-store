@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/cgtn",
+  "id": "./",
   "name": "CGTN",
   "short_name": "CGTN",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/cgtn/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for CGTN",

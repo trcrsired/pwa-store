@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/dol",
+  "id": "./",
   "name": "DOL",
   "short_name": "DOL",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/dol/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for DOL",

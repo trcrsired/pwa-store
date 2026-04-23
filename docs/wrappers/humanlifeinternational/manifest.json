@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/humanlifeinternational",
+  "id": "./",
   "name": "Human Life International",
   "short_name": "Human Life International",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/humanlifeinternational/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Human Life International",

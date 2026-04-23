@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/hentaila",
+  "id": "./",
   "name": "HentaiLA",
   "short_name": "HentaiLA",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/hentaila/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for HentaiLA",

@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/3blue1brown",
+  "id": "./",
   "name": "3Blue1Brown",
   "short_name": "3Blue1Brown",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/3blue1brown/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for 3Blue1Brown",

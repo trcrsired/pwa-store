@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/vsigo",
+  "id": "./",
   "name": "VSIGO(\u89c6\u5ba2\u773c\u955c)",
   "short_name": "VSIGO(\u89c6\u5ba2\u773c\u955c)",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/vsigo/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for VSIGO(\u89c6\u5ba2\u773c\u955c)",

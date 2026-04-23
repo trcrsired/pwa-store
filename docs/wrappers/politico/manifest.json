@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/politico",
+  "id": "./",
   "name": "POLITICO",
   "short_name": "POLITICO",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/politico/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for POLITICO",

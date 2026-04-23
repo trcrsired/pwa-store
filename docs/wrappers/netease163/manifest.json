@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/netease163",
+  "id": "./",
   "name": "163 Mail",
   "short_name": "163 Mail",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/netease163/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for 163 Mail",

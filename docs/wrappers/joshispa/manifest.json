@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/joshispa",
+  "id": "./",
   "name": "Joshi-SPA!",
   "short_name": "Joshi-SPA!",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/joshispa/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Joshi-SPA!",

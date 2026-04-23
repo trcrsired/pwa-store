@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/aljazeera",
+  "id": "./",
   "name": "Al Jazeera",
   "short_name": "Al Jazeera",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/aljazeera/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Al Jazeera",

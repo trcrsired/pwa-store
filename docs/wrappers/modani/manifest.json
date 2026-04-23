@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/modani",
+  "id": "./",
   "name": "Modani",
   "short_name": "Modani",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/modani/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Modani",

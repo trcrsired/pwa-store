@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/ruanyifeng",
+  "id": "./",
   "name": "\u962e\u4e00\u5cf0",
   "short_name": "\u962e\u4e00\u5cf0",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/ruanyifeng/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u962e\u4e00\u5cf0",

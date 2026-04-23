@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/delawareonline",
+  "id": "./",
   "name": "Delaware Online",
   "short_name": "Delaware Online",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/delawareonline/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Delaware Online",

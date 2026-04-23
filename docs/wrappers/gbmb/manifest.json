@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/gbmb",
+  "id": "./",
   "name": "GBMB",
   "short_name": "GBMB",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/gbmb/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for GBMB",

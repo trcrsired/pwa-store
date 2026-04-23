@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/marketwatch",
+  "id": "./",
   "name": "MarketWatch",
   "short_name": "MarketWatch",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/marketwatch/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for MarketWatch",

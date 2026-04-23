@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/yeahnet",
+  "id": "./",
   "name": "yeah.net Mail",
   "short_name": "yeah.net Mail",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/yeahnet/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for yeah.net Mail",

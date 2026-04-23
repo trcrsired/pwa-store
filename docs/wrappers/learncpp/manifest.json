@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/learncpp",
+  "id": "./",
   "name": "LearnCpp",
   "short_name": "LearnCpp",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/learncpp/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for LearnCpp",

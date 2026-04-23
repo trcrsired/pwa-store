@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/homedepot",
+  "id": "./",
   "name": "The Home Depot",
   "short_name": "The Home Depot",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/homedepot/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for The Home Depot",

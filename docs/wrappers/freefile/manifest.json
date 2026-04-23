@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/freefile",
+  "id": "./",
   "name": "Free File",
   "short_name": "Free File",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/freefile/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Free File",

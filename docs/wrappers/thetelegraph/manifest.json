@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/thetelegraph",
+  "id": "./",
   "name": "The Telegraph",
   "short_name": "The Telegraph",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/thetelegraph/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for The Telegraph",

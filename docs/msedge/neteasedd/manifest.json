@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/neteasedd",
+  "id": "./",
   "name": "\u7f51\u6613DD",
   "short_name": "\u7f51\u6613DD",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/neteasedd/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u7f51\u6613DD",

@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/reuters",
+  "id": "./",
   "name": "Reuters",
   "short_name": "Reuters",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/reuters/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Reuters",

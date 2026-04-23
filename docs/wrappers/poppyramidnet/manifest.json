@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/poppyramidnet",
+  "id": "./",
   "name": "PopulationPyramid.net",
   "short_name": "PopulationPyramid.net",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/poppyramidnet/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for PopulationPyramid.net",

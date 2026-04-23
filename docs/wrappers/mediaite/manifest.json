@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/mediaite",
+  "id": "./",
   "name": "Mediaite",
   "short_name": "Mediaite",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/mediaite/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Mediaite",

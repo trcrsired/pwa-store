@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/ifeng",
+  "id": "./",
   "name": "ifeng",
   "short_name": "ifeng",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/ifeng/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for ifeng",

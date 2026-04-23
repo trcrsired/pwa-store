@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/caseys",
+  "id": "./",
   "name": "Casey's",
   "short_name": "Casey's",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/caseys/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Casey's",

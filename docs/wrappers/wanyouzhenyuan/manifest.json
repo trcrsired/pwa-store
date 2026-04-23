@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/wanyouzhenyuan",
+  "id": "./",
   "name": "\u4e07\u6709\u771f\u6e90",
   "short_name": "\u4e07\u6709\u771f\u6e90",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/wanyouzhenyuan/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u4e07\u6709\u771f\u6e90",

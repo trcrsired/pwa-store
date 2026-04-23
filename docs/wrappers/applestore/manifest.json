@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/applestore",
+  "id": "./",
   "name": "Apple Store",
   "short_name": "Apple Store",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/applestore/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Apple Store",

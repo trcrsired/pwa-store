@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/xinhuaenglish",
+  "id": "./",
   "name": "Xinhua English",
   "short_name": "Xinhua English",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/xinhuaenglish/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Xinhua English",

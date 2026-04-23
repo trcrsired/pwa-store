@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/googletrends",
+  "id": "./",
   "name": "Google Trends",
   "short_name": "Google Trends",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/googletrends/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Google Trends",

@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/shuzhaige",
+  "id": "./",
   "name": "\u4e66\u658b\u9601",
   "short_name": "\u4e66\u658b\u9601",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/shuzhaige/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u4e66\u658b\u9601",

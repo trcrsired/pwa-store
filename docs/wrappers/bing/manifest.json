@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/bing",
+  "id": "./",
   "name": "Bing",
   "short_name": "Bing",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/bing/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Bing",

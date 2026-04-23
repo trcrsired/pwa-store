@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/d3wasm",
+  "id": "./",
   "name": "D3Wasm Doom",
   "short_name": "D3Wasm Doom",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/d3wasm/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for D3Wasm Doom",

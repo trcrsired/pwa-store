@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/moomoo",
+  "id": "./",
   "name": "Moomoo",
   "short_name": "Moomoo",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/moomoo/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Moomoo",

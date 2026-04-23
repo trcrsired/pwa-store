@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/dulishi",
+  "id": "./",
   "name": "\u4e00\u8d77\u8bfb\u5386\u53f2",
   "short_name": "\u4e00\u8d77\u8bfb\u5386\u53f2",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/dulishi/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u4e00\u8d77\u8bfb\u5386\u53f2",

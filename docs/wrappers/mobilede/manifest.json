@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/mobilede",
+  "id": "./",
   "name": "mobile.de",
   "short_name": "mobile.de",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/mobilede/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for mobile.de",

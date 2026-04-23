@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/chriswillx",
+  "id": "./",
   "name": "Chris Williamson",
   "short_name": "Chris Williamson",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/chriswillx/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Chris Williamson",

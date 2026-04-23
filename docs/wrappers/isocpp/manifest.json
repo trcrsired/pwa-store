@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/isocpp",
+  "id": "./",
   "name": "ISO C++",
   "short_name": "ISO C++",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/isocpp/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for ISO C++",

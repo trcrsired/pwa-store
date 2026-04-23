@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/raiderio",
+  "id": "./",
   "name": "Raider.IO",
   "short_name": "Raider.IO",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/raiderio/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Raider.IO",

@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/chipsandcheese",
+  "id": "./",
   "name": "Chips and Cheese",
   "short_name": "Chips and Cheese",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/chipsandcheese/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Chips and Cheese",

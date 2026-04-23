@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/grabfood",
+  "id": "./",
   "name": "GrabFood",
   "short_name": "GrabFood",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/grabfood/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for GrabFood",

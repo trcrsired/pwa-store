@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/mmocfi",
+  "id": "./",
   "name": "MOOC.fi",
   "short_name": "MOOC.fi",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/mmocfi/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for MOOC.fi",

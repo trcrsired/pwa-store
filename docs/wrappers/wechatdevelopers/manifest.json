@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/wechatdevelopers",
+  "id": "./",
   "name": "WeChat Devs",
   "short_name": "WeChat Devs",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/wechatdevelopers/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for WeChat Devs",

@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/yalee360",
+  "id": "./",
   "name": "Yale E360",
   "short_name": "Yale E360",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/yalee360/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Yale E360",

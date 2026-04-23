@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/mgtowtv",
+  "id": "./",
   "name": "MGTOW.TV",
   "short_name": "MGTOW.TV",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/mgtowtv/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for MGTOW.TV",

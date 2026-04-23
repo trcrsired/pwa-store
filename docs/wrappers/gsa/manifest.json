@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/gsa",
+  "id": "./",
   "name": "GSA",
   "short_name": "GSA",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/gsa/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for GSA",

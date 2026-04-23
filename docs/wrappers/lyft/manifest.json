@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/lyft",
+  "id": "./",
   "name": "Lyft",
   "short_name": "Lyft",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/lyft/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Lyft",

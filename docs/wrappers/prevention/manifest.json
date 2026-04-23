@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/prevention",
+  "id": "./",
   "name": "Prevention",
   "short_name": "Prevention",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/prevention/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Prevention",

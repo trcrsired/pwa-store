@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/harpersbazaar",
+  "id": "./",
   "name": "Harper's Bazaar",
   "short_name": "Harper's Bazaar",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/harpersbazaar/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Harper's Bazaar",

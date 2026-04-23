@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/carnewschina",
+  "id": "./",
   "name": "CarNewsChina",
   "short_name": "CarNewsChina",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/carnewschina/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for CarNewsChina",

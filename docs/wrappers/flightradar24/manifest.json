@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/flightradar24",
+  "id": "./",
   "name": "Flightradar24",
   "short_name": "Flightradar24",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/flightradar24/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Flightradar24",

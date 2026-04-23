@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/figma",
+  "id": "./",
   "name": "Figma",
   "short_name": "Figma",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/figma/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Figma",

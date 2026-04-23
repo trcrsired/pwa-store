@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/kofi",
+  "id": "./",
   "name": "Ko-fi",
   "short_name": "Ko-fi",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/kofi/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Ko-fi",

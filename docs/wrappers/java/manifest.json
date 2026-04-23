@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/java",
+  "id": "./",
   "name": "Java",
   "short_name": "Java",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/java/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Java",

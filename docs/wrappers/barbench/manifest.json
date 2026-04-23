@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/barbench",
+  "id": "./",
   "name": "Bar & Bench",
   "short_name": "Bar & Bench",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/barbench/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Bar & Bench",

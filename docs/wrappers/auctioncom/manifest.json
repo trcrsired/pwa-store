@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/auctioncom",
+  "id": "./",
   "name": "Auction.com",
   "short_name": "Auction.com",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/auctioncom/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Auction.com",

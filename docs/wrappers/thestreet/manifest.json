@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/thestreet",
+  "id": "./",
   "name": "TheStreet",
   "short_name": "TheStreet",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/thestreet/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for TheStreet",

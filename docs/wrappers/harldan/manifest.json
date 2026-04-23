@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/harldan",
+  "id": "./",
   "name": "Harldan's Guides",
   "short_name": "Harldan's Guides",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/harldan/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Harldan's Guides",

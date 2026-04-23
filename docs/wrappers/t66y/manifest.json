@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/t66y",
+  "id": "./",
   "name": "t66y",
   "short_name": "t66y",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/t66y/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for t66y",

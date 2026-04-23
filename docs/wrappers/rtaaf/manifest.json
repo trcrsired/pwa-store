@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/rtaaf",
+  "id": "./",
   "name": "Radio Television of Afghanistan",
   "short_name": "Radio Television of Afghanistan",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/rtaaf/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Radio Television of Afghanistan",

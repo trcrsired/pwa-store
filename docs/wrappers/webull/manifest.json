@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/webull",
+  "id": "./",
   "name": "Webull",
   "short_name": "Webull",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/webull/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Webull",

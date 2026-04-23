@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/beebom",
+  "id": "./",
   "name": "Beebom",
   "short_name": "Beebom",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/beebom/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Beebom",

@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/moneycontrol",
+  "id": "./",
   "name": "Moneycontrol",
   "short_name": "Moneycontrol",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/moneycontrol/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Moneycontrol",

@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/webassembly",
+  "id": "./",
   "name": "WebAssembly",
   "short_name": "WebAssembly",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/webassembly/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for WebAssembly",

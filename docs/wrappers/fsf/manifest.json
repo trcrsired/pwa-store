@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/fsf",
+  "id": "./",
   "name": "Free Software Foundations",
   "short_name": "Free Software Foundations",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/fsf/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Free Software Foundations",

@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/makeuseof",
+  "id": "./",
   "name": "MakeUseOf",
   "short_name": "MakeUseOf",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/makeuseof/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for MakeUseOf",

@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/docusign",
+  "id": "./",
   "name": "DocuSign",
   "short_name": "DocuSign",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/docusign/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for DocuSign",

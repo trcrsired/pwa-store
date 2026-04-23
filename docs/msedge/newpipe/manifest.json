@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/newpipe",
+  "id": "./",
   "name": "NewPipe",
   "short_name": "NewPipe",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/newpipe/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for NewPipe",

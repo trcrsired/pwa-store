@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/msn",
+  "id": "./",
   "name": "MSN",
   "short_name": "MSN",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/msn/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for MSN",

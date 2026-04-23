@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/perplexity",
+  "id": "./",
   "name": "perplexity",
   "short_name": "perplexity",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/perplexity/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for perplexity",

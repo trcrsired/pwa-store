@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/weatherclimate",
+  "id": "./",
   "name": "Weather & Climate",
   "short_name": "Weather & Climate",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/weatherclimate/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Weather & Climate",

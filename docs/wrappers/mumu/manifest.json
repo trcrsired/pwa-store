@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/mumu",
+  "id": "./",
   "name": "Mumu Emulator(\u6a21\u62df\u5668)",
   "short_name": "Mumu Emulator(\u6a21\u62df\u5668)",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/mumu/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Mumu Emulator(\u6a21\u62df\u5668)",

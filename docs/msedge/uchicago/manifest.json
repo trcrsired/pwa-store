@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/uchicago",
+  "id": "./",
   "name": "UChicago",
   "short_name": "UChicago",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/uchicago/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for UChicago",

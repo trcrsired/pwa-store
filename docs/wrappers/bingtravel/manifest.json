@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/bingtravel",
+  "id": "./",
   "name": "Bing Travel",
   "short_name": "Bing Travel",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/bingtravel/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Bing Travel",

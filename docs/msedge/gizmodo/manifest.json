@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/gizmodo",
+  "id": "./",
   "name": "Gizmodo",
   "short_name": "Gizmodo",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/gizmodo/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Gizmodo",

@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/netease126",
+  "id": "./",
   "name": "126 Mail",
   "short_name": "126 Mail",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/netease126/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for 126 Mail",

@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/msedgeaddons",
+  "id": "./",
   "name": "Microsoft Edge Add-ons",
   "short_name": "Microsoft Edge Add-ons",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/msedgeaddons/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Microsoft Edge Add-ons",

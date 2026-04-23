@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/capitalone",
+  "id": "./",
   "name": "Capital One",
   "short_name": "Capital One",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/capitalone/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Capital One",

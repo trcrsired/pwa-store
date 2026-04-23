@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/realfavicongenerator",
+  "id": "./",
   "name": "RealFaviconGenerator",
   "short_name": "RealFaviconGenerator",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/realfavicongenerator/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for RealFaviconGenerator",

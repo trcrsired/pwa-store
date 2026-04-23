@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/washingtonpost",
+  "id": "./",
   "name": "Washington Post",
   "short_name": "Washington Post",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/washingtonpost/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Washington Post",

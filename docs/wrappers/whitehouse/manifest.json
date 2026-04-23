@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/whitehouse",
+  "id": "./",
   "name": "White House",
   "short_name": "White House",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/whitehouse/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for White House",

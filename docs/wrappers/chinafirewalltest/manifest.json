@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/chinafirewalltest",
+  "id": "./",
   "name": "China Firewall Test",
   "short_name": "China Firewall Test",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/chinafirewalltest/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for China Firewall Test",

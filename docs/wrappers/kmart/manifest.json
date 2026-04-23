@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/kmart",
+  "id": "./",
   "name": "Kmart",
   "short_name": "Kmart",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/kmart/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Kmart",

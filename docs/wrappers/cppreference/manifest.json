@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/cppreference",
+  "id": "./",
   "name": "cppreference",
   "short_name": "cppreference",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/cppreference/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for cppreference",

@@ -590,11 +590,11 @@ def encode(text):
 def build_manifest(name, key, apptype="wrapper"):
     base = CATEGORIES_DIRS[apptype]
     manifest = {
-        "id": f"/{base}/{key}",
+        "id": f"./",
         "name": name,
         "short_name": name,
         "start_url": f"./?source=pwa",
-        "scope": f"/{base}/{key}/",
+        "scope": f"./",
         "background_color": "black",
         "theme_color": "black",
         "description": f"PWA Wrapper for {name}",

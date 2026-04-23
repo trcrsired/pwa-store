@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/lightnovelkingdom",
+  "id": "./",
   "name": "Lightnovel Kingdom",
   "short_name": "Lightnovel Kingdom",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/lightnovelkingdom/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Lightnovel Kingdom",

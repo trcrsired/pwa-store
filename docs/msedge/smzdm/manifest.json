@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/smzdm",
+  "id": "./",
   "name": "\u4ec0\u4e48\u503c\u5f97\u4e70",
   "short_name": "\u4ec0\u4e48\u503c\u5f97\u4e70",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/smzdm/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u4ec0\u4e48\u503c\u5f97\u4e70",

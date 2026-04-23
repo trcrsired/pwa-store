@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/michaelhudson",
+  "id": "./",
   "name": "Michael Hudson",
   "short_name": "Michael Hudson",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/michaelhudson/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Michael Hudson",

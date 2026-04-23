@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/qqmail",
+  "id": "./",
   "name": "QQ Mail",
   "short_name": "QQ Mail",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/qqmail/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for QQ Mail",

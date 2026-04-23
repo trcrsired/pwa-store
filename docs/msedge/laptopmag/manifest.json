@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/laptopmag",
+  "id": "./",
   "name": "Laptop Mag",
   "short_name": "Laptop Mag",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/laptopmag/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Laptop Mag",

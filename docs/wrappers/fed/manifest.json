@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/fed",
+  "id": "./",
   "name": "FED",
   "short_name": "FED",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/fed/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for FED",

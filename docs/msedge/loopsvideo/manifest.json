@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/loopsvideo",
+  "id": "./",
   "name": "Loops.video",
   "short_name": "Loops.video",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/loopsvideo/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Loops.video",

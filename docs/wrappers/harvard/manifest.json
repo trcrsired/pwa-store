@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/harvard",
+  "id": "./",
   "name": "Harvard University",
   "short_name": "Harvard University",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/harvard/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Harvard University",

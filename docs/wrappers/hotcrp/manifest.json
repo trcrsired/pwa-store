@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/hotcrp",
+  "id": "./",
   "name": "HotCRP",
   "short_name": "HotCRP",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/hotcrp/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for HotCRP",

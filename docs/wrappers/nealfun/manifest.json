@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/nealfun",
+  "id": "./",
   "name": "Neal.fun",
   "short_name": "Neal.fun",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/nealfun/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Neal.fun",

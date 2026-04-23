@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/hibp",
+  "id": "./",
   "name": "Have I Been Pwned",
   "short_name": "Have I Been Pwned",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/hibp/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Have I Been Pwned",

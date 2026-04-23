@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/codesignal",
+  "id": "./",
   "name": "CodeSignal",
   "short_name": "CodeSignal",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/codesignal/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for CodeSignal",

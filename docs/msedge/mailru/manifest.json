@@ -1,9 +1,9 @@
 {
-  "id": "/msedge/mailru",
+  "id": "./",
   "name": "Mail.ru",
   "short_name": "Mail.ru",
   "start_url": "./?source=pwa",
-  "scope": "/msedge/mailru/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Mail.ru",

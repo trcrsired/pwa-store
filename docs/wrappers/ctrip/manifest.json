@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/ctrip",
+  "id": "./",
   "name": "Ctrip",
   "short_name": "Ctrip",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/ctrip/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Ctrip",

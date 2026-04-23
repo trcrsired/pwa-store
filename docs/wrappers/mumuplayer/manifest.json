@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/mumuplayer",
+  "id": "./",
   "name": "MumuPlayer",
   "short_name": "MumuPlayer",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/mumuplayer/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for MumuPlayer",

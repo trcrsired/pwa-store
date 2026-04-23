@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/fulu",
+  "id": "./",
   "name": "FULU",
   "short_name": "FULU",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/fulu/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for FULU",

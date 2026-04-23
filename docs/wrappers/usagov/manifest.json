@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/usagov",
+  "id": "./",
   "name": "USA.gov",
   "short_name": "USA.gov",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/usagov/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for USA.gov",

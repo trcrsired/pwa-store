@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/eudic",
+  "id": "./",
   "name": "Eudic",
   "short_name": "Eudic",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/eudic/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Eudic",

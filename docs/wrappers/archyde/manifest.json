@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/archyde",
+  "id": "./",
   "name": "Archyde",
   "short_name": "Archyde",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/archyde/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Archyde",

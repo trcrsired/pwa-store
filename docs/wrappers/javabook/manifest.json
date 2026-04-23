@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/javabook",
+  "id": "./",
   "name": "JavaBook",
   "short_name": "JavaBook",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/javabook/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for JavaBook",

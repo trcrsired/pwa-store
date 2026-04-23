@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/spaccamient",
+  "id": "./",
   "name": "Spaccamient",
   "short_name": "Spaccamient",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/spaccamient/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Spaccamient",

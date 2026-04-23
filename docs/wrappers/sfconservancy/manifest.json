@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/sfconservancy",
+  "id": "./",
   "name": "SF Conservancy",
   "short_name": "SF Conservancy",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/sfconservancy/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for SF Conservancy",

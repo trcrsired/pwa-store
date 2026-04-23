@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/downdetector",
+  "id": "./",
   "name": "Downdetector",
   "short_name": "Downdetector",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/downdetector/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Downdetector",

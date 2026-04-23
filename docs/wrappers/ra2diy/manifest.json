@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/ra2diy",
+  "id": "./",
   "name": "\u7ea2\u8b66DIY",
   "short_name": "\u7ea2\u8b66DIY",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/ra2diy/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u7ea2\u8b66DIY",

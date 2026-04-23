@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/xinyusi",
+  "id": "./",
   "name": "\u65b0\u8bed\u4e1d",
   "short_name": "\u65b0\u8bed\u4e1d",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/xinyusi/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u65b0\u8bed\u4e1d",

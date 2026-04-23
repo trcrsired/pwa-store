@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/gamersnexus",
+  "id": "./",
   "name": "Gamers Nexus",
   "short_name": "Gamers Nexus",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/gamersnexus/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Gamers Nexus",

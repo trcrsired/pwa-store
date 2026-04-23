@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/wps",
+  "id": "./",
   "name": "WPS",
   "short_name": "WPS",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/wps/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for WPS",

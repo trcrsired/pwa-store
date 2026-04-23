@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/alice",
+  "id": "./",
   "name": "\u0410\u043b\u0438\u0441\u0430",
   "short_name": "\u0410\u043b\u0438\u0441\u0430",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/alice/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u0410\u043b\u0438\u0441\u0430",

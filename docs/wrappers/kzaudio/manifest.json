@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/kzaudio",
+  "id": "./",
   "name": "KZ Audio",
   "short_name": "KZ Audio",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/kzaudio/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for KZ Audio",

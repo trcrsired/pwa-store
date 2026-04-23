@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/businessstandard",
+  "id": "./",
   "name": "Business Standard",
   "short_name": "Business Standard",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/businessstandard/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Business Standard",

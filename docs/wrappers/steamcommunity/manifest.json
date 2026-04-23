@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/steamcommunity",
+  "id": "./",
   "name": "Steam Community",
   "short_name": "Steam Community",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/steamcommunity/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Steam Community",

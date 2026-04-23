@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/whois",
+  "id": "./",
   "name": "Who.is",
   "short_name": "Who.is",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/whois/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Who.is",

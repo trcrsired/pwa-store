@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/pluralistic",
+  "id": "./",
   "name": "Pluralistic",
   "short_name": "Pluralistic",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/pluralistic/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Pluralistic",

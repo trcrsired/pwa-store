@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/pcguide",
+  "id": "./",
   "name": "PCGuide",
   "short_name": "PCGuide",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/pcguide/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for PCGuide",

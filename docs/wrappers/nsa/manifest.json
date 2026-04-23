@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/nsa",
+  "id": "./",
   "name": "NSA",
   "short_name": "NSA",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/nsa/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for NSA",

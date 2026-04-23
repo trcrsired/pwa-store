@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/thedrive",
+  "id": "./",
   "name": "The Drive",
   "short_name": "The Drive",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/thedrive/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for The Drive",

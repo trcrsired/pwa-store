@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/layoffsfyi",
+  "id": "./",
   "name": "Layoffs.fyi",
   "short_name": "Layoffs.fyi",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/layoffsfyi/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Layoffs.fyi",

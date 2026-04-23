@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/thechosundaily",
+  "id": "./",
   "name": "\uc870\uc120\uc77c\ubcf4",
   "short_name": "\uc870\uc120\uc77c\ubcf4",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/thechosundaily/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \uc870\uc120\uc77c\ubcf4",

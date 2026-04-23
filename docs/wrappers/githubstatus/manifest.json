@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/githubstatus",
+  "id": "./",
   "name": "GitHub Status",
   "short_name": "GitHub Status",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/githubstatus/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for GitHub Status",

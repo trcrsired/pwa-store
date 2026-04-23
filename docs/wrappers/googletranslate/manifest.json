@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/googletranslate",
+  "id": "./",
   "name": "Google Translate",
   "short_name": "Google Translate",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/googletranslate/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Google Translate",

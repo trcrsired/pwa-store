@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/idc",
+  "id": "./",
   "name": "IDC",
   "short_name": "IDC",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/idc/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for IDC",

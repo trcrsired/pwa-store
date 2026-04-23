@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/doubao",
+  "id": "./",
   "name": "\u8c46\u5305",
   "short_name": "\u8c46\u5305",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/doubao/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u8c46\u5305",

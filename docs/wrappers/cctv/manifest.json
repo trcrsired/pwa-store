@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/cctv",
+  "id": "./",
   "name": "CCTV",
   "short_name": "CCTV",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/cctv/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for CCTV",

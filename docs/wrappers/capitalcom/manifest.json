@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/capitalcom",
+  "id": "./",
   "name": "Capital.com",
   "short_name": "Capital.com",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/capitalcom/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Capital.com",

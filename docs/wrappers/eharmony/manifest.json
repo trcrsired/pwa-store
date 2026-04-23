@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/eharmony",
+  "id": "./",
   "name": "eHarmony",
   "short_name": "eHarmony",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/eharmony/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for eHarmony",

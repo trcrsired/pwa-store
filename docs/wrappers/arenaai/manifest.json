@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/arenaai",
+  "id": "./",
   "name": "Arena AI",
   "short_name": "Arena AI",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/arenaai/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Arena AI",

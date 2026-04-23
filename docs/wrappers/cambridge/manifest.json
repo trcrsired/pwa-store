@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/cambridge",
+  "id": "./",
   "name": "University of Cambridge",
   "short_name": "University of Cambridge",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/cambridge/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for University of Cambridge",

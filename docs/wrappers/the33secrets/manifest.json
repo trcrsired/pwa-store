@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/the33secrets",
+  "id": "./",
   "name": "The33Secrets",
   "short_name": "The33Secrets",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/the33secrets/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for The33Secrets",

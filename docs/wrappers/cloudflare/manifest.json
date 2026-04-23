@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/cloudflare",
+  "id": "./",
   "name": "Cloudflare Speed Test",
   "short_name": "Cloudflare Speed Test",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/cloudflare/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Cloudflare Speed Test",

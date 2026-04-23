@@ -1,9 +1,9 @@
 {
-  "id": "/wrappers/palform",
+  "id": "./",
   "name": "Palform",
   "short_name": "Palform",
   "start_url": "./?source=pwa",
-  "scope": "/wrappers/palform/",
+  "scope": "./",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Palform",
