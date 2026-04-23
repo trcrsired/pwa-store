@@ -4415,6 +4415,15 @@ export const categories = [
         url: "https://www.mumuplayer.com"
       },
       {
+        name: "3D Pinball (pinball.alula.me)",
+        nameKey: "pinballalulame_name",
+        descriptionKey: "pinballalulame_desc",
+        icon: "icons/wrappers/pinballalulame.webp",
+        url2: "/wrappers/pinballalulame",
+        apptype2: "wrapper",
+        url: "https://pinball.alula.me"
+      },
+      {
         name: "QQ Classic Farm (QQ经典农场)",
         nameKey: "qqclassicfarm_name",
         descriptionKey: "qqclassicfarm_desc",

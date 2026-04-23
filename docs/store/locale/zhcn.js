@@ -1294,6 +1294,8 @@ const L = {
   mumu_cn_desc: "网易 MuMu 安卓模拟器的中国本地化版本，面向国内用户，深度集成大陆游戏生态，简化 PC 端操作。",
   mumu_global_name: "MuMuPlayer",
   mumu_global_desc: "MuMu 的国际版，提供全球下载镜像、多语言支持，并针对 Windows 和 macOS 优化跨平台模拟体验。",
+  pinballalulame_name: "三维弹球 (pinball.alula.me)",
+  pinballalulame_desc: "经典‘太空军校生’弹球游戏的网页版重制，在浏览器中重温 Windows 95 的怀旧体验。",
   gamingcommunity_name: "游戏社区",
   murlok_name: "Murlok.io",
   murlok_desc: "提供魔兽世界天赋与构建指南。",

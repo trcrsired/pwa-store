@@ -1297,6 +1297,8 @@ const L = {
   mumu_cn_desc: "Chinese-localized version of NetEase’s MuMu Android emulator, designed for domestic users with deep integration into mainland gaming ecosystems and simplified PC-side control.",
   mumu_global_name: "MuMuPlayer",
   mumu_global_desc: "Global-facing version of MuMu with international download mirrors, multilingual support, and optimized cross-platform emulation for Windows and macOS.",
+  pinballalulame_name: "3D Pinball (pinball.alula.me)",
+  pinballalulame_desc: "A web-based restoration of the classic Space Cadet pinball game, bringing the nostalgic Windows 95 experience to your browser.",
   gamingcommunity_name: "Gaming Community",
   murlok_name: "Murlok.io",
   murlok_desc: "WoW talent and build guides.",

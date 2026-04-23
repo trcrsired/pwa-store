@@ -1,0 +1,18 @@
+{
+  "id": "/wrappers/pinballalulame",
+  "name": "3D Pinball",
+  "short_name": "3D Pinball",
+  "start_url": "/wrappers/pinballalulame/?source=pwa",
+  "scope": "/wrappers/pinballalulame/",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for 3D Pinball",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/wrappers/pinballalulame/icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

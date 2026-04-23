@@ -275,6 +275,7 @@ WRAPPERS = [
   { "name": "Neal.fun", "url": "https://neal.fun", "keyify_name": "nealfun" },
   { "name": "Mumu Emulator(模拟器)", "url": "https://mumu.163.com", "keyify_name": "mumu" },
   { "name": "MumuPlayer", "url": "https://www.mumuplayer.com", "keyify_name": "mumuplayer", "icon": "mumu.webp" },
+  { "name": "3D Pinball", "url": "https://pinball.alula.me", "keyify_name": "pinballalulame" },
   { "name": "United Nations", "url": "https://www.un.org", "keyify_name": "un" },
   { "name": "International Competition Network", "url": "https://www.internationalcompetitionnetwork.org" },
   { "name": "Marie Claire", "url": "https://www.marieclaire.com" },
