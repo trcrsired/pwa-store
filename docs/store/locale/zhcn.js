@@ -98,7 +98,7 @@ const L = {
   "pwastore_name": "PWA商店",
   "pwastore_desc": "对的，这个PWA商店自身也是个PWA。",
   pwastore_githubpagesmirror_name: "PWA商店 (GitHub Pages 镜像)",
-  pwastore_githubpagesmirror_desc: "本 PWA商店的官方 GitHub Pages 镜像站点。",
+  pwastore_githubpagesmirror_desc: "本PWA商店的官方 GitHub Pages 镜像站点。",
   "wavacity_name": "Wavacity",
   "wavacity_desc": "Wavacity 是一个免费开源的音频编辑器，可直接在网页浏览器中运行。它是 Audacity® 的浏览器版本移植，支持多轨编辑和音频处理，无需安装。Wavacity 与 Audacity 无隶属或官方授权关系。",
   "webscreenrecorder_name": "Web Screen Recorder",
