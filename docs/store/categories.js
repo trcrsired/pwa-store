@@ -4,6 +4,7 @@ export const categories = [
     name: "Fundamental",
     apps: [
       { nameKey: "pwaplayer_name", name: "PWA Player (My own toy)", icon: "icons/pwa/pwaplayer.svg", url: "https://pwa-player.pages.dev", descriptionKey: "pwaplayer_desc" },
+      { nameKey: "pwaplayer_githubpagesmirror_name", name: "PWA Player (Github Pages Mirror)", icon: "icons/pwa/pwaplayer.svg", url: "https://trcrsired.github.io/pwa-player", descriptionKey: "pwaplayer_githubpagesmirror_desc" },
       { name: "SnaePlayer", icon: "icons/pwa/snaeplayer.svg", url: "https://snaeplayer.com/library/tracks", descriptionKey: "snaeplayer_desc" },
       {
         name: "Readest",
@@ -20,7 +21,8 @@ export const categories = [
         url: "https://calculite.ingstudios.dev"
       },
       { name: "Screen Flashlight", icon: "icons/pwa/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", descriptionKey: "screenflashlight_desc" },
-      { name: "PWA Store", nameKey: "pwastore_name", icon: "logo/logo.webp", url: "/", urlDisplay: "https://pwa-store-7x5.pages.dev", descriptionKey: "pwastore_desc" },
+      { name: "PWA Store", nameKey: "pwastore_name", icon: "logo/logo.webp", url: "https://pwa-store-7x5.pages.dev", descriptionKey: "pwastore_desc" },
+      { name: "PWA Store (GitHub Pages Mirror)", nameKey: "pwastore_githubpagesmirror_name", icon: "logo/logo.webp", url: "https://trcrsired.github.io/pwa-store", descriptionKey: "pwastore_githubpagesmirror_desc" },
       { name: "Wavacity", nameKey: "wavacity_name", icon: "icons/pwa/wavacity.webp", url: "https://wavacity.com", descriptionKey: "wavacity_desc" },
       {
         name: "Web Screen Recorder",
