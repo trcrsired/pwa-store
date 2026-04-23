@@ -1558,6 +1558,8 @@ const L = {
   bookreader2056app_desc: "打开 2056 Book Reader 的网页阅读器，用于在线阅读图书与文档。",
   rsstea_name: "rssTea",
   rsstea_desc: "打开 rssTea，一个轻量级的浏览器 RSS 阅读器，用于管理和查看订阅源。",
+  pwa_mp3_player_name: "PWA MP3 Player",
+  pwa_mp3_player_desc: "一款轻量级的网络音乐播放器，支持本地及远程 MP3 播放。注意：该应用界面仅支持日语。",
   iheart_name: "iHeart",
   iheart_desc: "打开 iHeart，一个提供广播电台、播客、音乐流媒体与直播节目的大型音频平台。",
   ecommerece_name: "电子商务",

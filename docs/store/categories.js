@@ -209,6 +209,13 @@ export const categories = [
         url: "https://avadhesh18.github.io/rssTea"
       },
       {
+        name: "PWA MP3 Player",
+        nameKey: "pwa_mp3_player_name",
+        descriptionKey: "pwa_mp3_player_desc",
+        icon: "icons/pwa/pwa_mp3_player.webp",
+        url: "https://utausnskareshi.github.io/pwa-mp3-player"
+      },
+      {
         name: "Base64.Guru",
         nameKey: "base64guru_name",
         descriptionKey: "base64guru_desc",

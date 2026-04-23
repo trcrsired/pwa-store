@@ -1839,6 +1839,8 @@ const L = {
   bookreader2056_desc: "Opens 2056 Book Reader, an online platform for reading books and documents in your browser.",
   rsstea_name: "rssTea",
   rsstea_desc: "Opens rssTea, a lightweight browser-based RSS reader for managing and viewing feeds.",
+  pwa_mp3_player_name: "PWA MP3 Player",
+  pwa_mp3_player_desc: "A lightweight web music player for local and remote MP3 files. Note: The user interface is exclusively in Japanese.",
   herbsutter_name: "Herb Sutter",
   herbsutter_desc: "Herb Sutter (chairman of ISO C++ standard committee WG21)’s personal blog—explore thought-provoking essays, deep dives into modern C++, and insights on programming language evolution. A trusted resource for developers seeking clarity, rigor, and vision in software design.",
   bjarnestroustrup_name: "Bjarne Stroustrup",
