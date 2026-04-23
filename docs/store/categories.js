@@ -220,7 +220,7 @@ export const categories = [
         nameKey: "base64guru_name",
         descriptionKey: "base64guru_desc",
         icon: "icons/wrappers/base64guru.webp",
-        url2: "/wrappers/base64guru",
+        url2: "../wrappers/base64guru",
         url: "https://base64.guru",
         apptype2: "wrapper"
       },
@@ -229,7 +229,7 @@ export const categories = [
         nameKey: "gbmb_name",
         descriptionKey: "gbmb_desc",
         icon: "icons/wrappers/gbmb.webp",
-        url2: "/wrappers/gbmb",
+        url2: "../wrappers/gbmb",
         apptype2: "wrapper",
         url: "https://www.gbmb.org"
       },
@@ -238,7 +238,7 @@ export const categories = [
         nameKey: "palform_name",
         descriptionKey: "palform_desc",
         icon: "icons/wrappers/palform.webp",
-        url2: "/wrappers/palform",
+        url2: "../wrappers/palform",
         apptype2: "wrapper",
         url: "https://palform.app"
       },
@@ -247,7 +247,7 @@ export const categories = [
         nameKey: "cloudconvert_name",
         descriptionKey: "cloudconvert_desc",
         icon: "icons/wrappers/cloudconvert.webp",
-        url2: "/wrappers/cloudconvert",
+        url2: "../wrappers/cloudconvert",
         apptype2: "wrapper",
         url: "https://cloudconvert.com"
       },
@@ -256,7 +256,7 @@ export const categories = [
         nameKey: "rfg_name",
         descriptionKey: "rfg_desc",
         icon: "icons/msedge/realfavicongenerator.webp",
-        url2: "/msedge/realfavicongenerator",
+        url2: "../msedge/realfavicongenerator",
         apptype2: "wrapper",
         url: "https://realfavicongenerator.net"
       },
@@ -281,7 +281,7 @@ export const categories = [
         icon: "icons/msedge/weatherclimate.webp",
         url: "https://weather-and-climate.com",
         apptype_hide: "msedge",
-        url2: "/msedge/weatherclimate",
+        url2: "../msedge/weatherclimate",
         apptype2: "wrapper",
       },
     ]
@@ -336,7 +336,7 @@ export const categories = [
       {
         name: "WolframAlpha", nameKey: "wolframalpha_name", icon: "icons/pwa/wolframalpha.webp", url: "https://www.wolframalpha.com", descriptionKey: "wolframalpha_desc"
       },
-      { name: "Arena AI", icon: "icons/wrappers/arenaai.webp", url: "https://arena.ai", nameKey: "arenaai_name", descriptionKey: "arenaai_desc", apptype2: "wrapper", url2: "/wrappers/arenaai" },
+      { name: "Arena AI", icon: "icons/wrappers/arenaai.webp", url: "https://arena.ai", nameKey: "arenaai_name", descriptionKey: "arenaai_desc", apptype2: "wrapper", url2: "../wrappers/arenaai" },
       {
         name: "OpenRouter",
         nameKey: "openrouter_name",
@@ -344,8 +344,8 @@ export const categories = [
         icon: "icons/pwa/openrouter.webp",
         url: "https://openrouter.ai"
       },
-      { name: "Perplexity", icon: "icons/wrappers/perplexity.webp", url2: "/wrappers/perplexity", urlDisplay:"https://www.perplexity.ai", descriptionKey: "perplexity_desc", apptype2: "wrapper" },
-      { name: "G2 AI", nameKey: "g2ai_name", icon: "icons/wrappers/g2ai.webp", url2: "/wrappers/g2ai", url: "https://ai.g2.com", descriptionKey: "g2ai_desc", apptype2: "wrapper" },
+      { name: "Perplexity", icon: "icons/wrappers/perplexity.webp", url2: "../wrappers/perplexity", urlDisplay:"https://www.perplexity.ai", descriptionKey: "perplexity_desc", apptype2: "wrapper" },
+      { name: "G2 AI", nameKey: "g2ai_name", icon: "icons/wrappers/g2ai.webp", url2: "../wrappers/g2ai", url: "https://ai.g2.com", descriptionKey: "g2ai_desc", apptype2: "wrapper" },
       {
         name: "Andi",
         nameKey: "andi_name",
@@ -379,7 +379,7 @@ export const categories = [
         nameKey: "duckai_name",
         descriptionKey: "duckai_desc",
         icon: "icons/msedge/duckai.webp",
-        url2: "/msedge/duckai",
+        url2: "../msedge/duckai",
         apptype2: "wrapper",
         url: "https://duck.ai"
       },
@@ -391,10 +391,10 @@ export const categories = [
         apptype_hide: "msedge",
         url: "https://komo.ai",
         apptype2: "wrapper",
-        url2: "/msedge/komoai",
+        url2: "../msedge/komoai",
       },
-      { name: "Tencent Yuanbao (腾讯元宝)", nameKey: "tencentyuanbao_name", descriptionKey: "tencentyuanbao_desc", apptype2: "wrapper", icon: "icons/wrappers/tencentyuanbao.webp", url2: "/wrappers/tencentyuanbao", url: "https://yuanbao.tencent.com/chat" },
-      { name: "Doubao (豆包)", nameKey: "doubao_name", descriptionKey: "doubao_desc", apptype2: "wrapper", icon: "icons/wrappers/doubao.webp", url2: "/wrappers/doubao", url: "https://www.doubao.com/chat" },
+      { name: "Tencent Yuanbao (腾讯元宝)", nameKey: "tencentyuanbao_name", descriptionKey: "tencentyuanbao_desc", apptype2: "wrapper", icon: "icons/wrappers/tencentyuanbao.webp", url2: "../wrappers/tencentyuanbao", url: "https://yuanbao.tencent.com/chat" },
+      { name: "Doubao (豆包)", nameKey: "doubao_name", descriptionKey: "doubao_desc", apptype2: "wrapper", icon: "icons/wrappers/doubao.webp", url2: "../wrappers/doubao", url: "https://www.doubao.com/chat" },
       {
         name: "Alice (Алиса)",
         nameKey: "alice_name",
@@ -402,14 +402,14 @@ export const categories = [
         icon: "icons/wrappers/alice.webp",
         url: "https://alice.yandex.ru",
         apptype2: "wrapper",
-        url2: "/wrappers/alice"
+        url2: "../wrappers/alice"
       },
       {
         name: "Wenxin (文心助手)",
         nameKey: "wenxin_name",
         descriptionKey: "wenxin_desc",
         icon: "icons/msedge/wenxin.webp",
-        url2: "/msedge/wenxin",
+        url2: "../msedge/wenxin",
         apptype2: "wrapper",
         url: "https://chat.baidu.com"
       },
@@ -418,7 +418,7 @@ export const categories = [
         nameKey: "antafu_name",
         descriptionKey: "antafu_desc",
         icon: "icons/msedge/antafu.webp",
-        url2: "/msedge/antafu",
+        url2: "../msedge/antafu",
         apptype2: "wrapper",
         url: "https://chat.antafu.com/?source=https://pwa-store-7x5.pages.dev"
       },
@@ -450,17 +450,17 @@ export const categories = [
         nameKey: "hibp_name",
         descriptionKey: "hibp_desc",
         icon: "icons/msedge/hibp.webp",
-        url2: "/msedge/hibp",
+        url2: "../msedge/hibp",
         apptype2: "wrapper",
         url: "https://haveibeenpwned.com"
       },
-      { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url2: "/wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype2: "wrapper", url: "https://stack.watch" },
+      { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url2: "../wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype2: "wrapper", url: "https://stack.watch" },
       {
         name: "Digital Survival Challenge",
         nameKey: "digitalsurvival_name",
         descriptionKey: "digitalsurvival_desc",
         icon: "icons/wrappers/digitalsurvival.webp",
-        url2: "/wrappers/digitalsurvival",
+        url2: "../wrappers/digitalsurvival",
         apptype2: "wrapper",
         url: "https://digital-survival-challenge-beta.vercel.app"
       },
@@ -469,7 +469,7 @@ export const categories = [
         nameKey: "privsec_name",
         descriptionKey: "privsec_desc",
         icon: "icons/wrappers/privsec.webp",
-        url2: "/wrappers/privsec",
+        url2: "../wrappers/privsec",
         apptype2: "wrapper",
         url: "https://privsec.dev"
       },
@@ -478,7 +478,7 @@ export const categories = [
         nameKey: "cyberpress_name",
         descriptionKey: "cyberpress_desc",
         icon: "icons/msedge/cyberpress.webp",
-        url2: "/msedge/cyberpress",
+        url2: "../msedge/cyberpress",
         apptype2: "wrapper",
         url: "https://cyberpress.org"
       },
@@ -487,7 +487,7 @@ export const categories = [
         nameKey: "cvedetails_name",
         descriptionKey: "cvedetails_desc",
         icon: "icons/wrappers/cvedetails.webp",
-        url2: "/wrappers/cvedetails",
+        url2: "../wrappers/cvedetails",
         apptype2: "wrapper",
         url: "https://www.cvedetails.com"
       },
@@ -506,8 +506,8 @@ export const categories = [
         icon: "icons/pwa/epochconverter.webp",
         url: "https://www.epochconverter.com"
       },
-      { name: "NIST Time", icon: "icons/wrappers/timegov.webp", url2: "/wrappers/timegov", url: "https://www.time.gov", descriptionKey: "timegov_desc", apptype2: "wrapper" },
-      { name: "aTimerLogger", nameKey: "atimelogger_name", icon: "icons/wrappers/atimelogger.webp", url2: "/wrappers/atimelogger", url: "https://app.atimelogger.com", descriptionKey: "atimelogger_desc", apptype2: "wrapper" },
+      { name: "NIST Time", icon: "icons/wrappers/timegov.webp", url2: "../wrappers/timegov", url: "https://www.time.gov", descriptionKey: "timegov_desc", apptype2: "wrapper" },
+      { name: "aTimerLogger", nameKey: "atimelogger_name", icon: "icons/wrappers/atimelogger.webp", url2: "../wrappers/atimelogger", url: "https://app.atimelogger.com", descriptionKey: "atimelogger_desc", apptype2: "wrapper" },
     ]
   },
   {
@@ -518,23 +518,23 @@ export const categories = [
       { name: "OneDrive", icon: "icons/pwa/onedrive.webp", url: "https://onedrive.live.com", descriptionKey: "onedrive_desc" },
       { name: "Microsoft Store", nameKey: "msstore_name", icon: "icons/wrappers/msstore.webp", url: "https://apps.microsoft.com", descriptionKey: "msstore_desc" },
       { name: "Microsoft Tech Community", nameKey: "mstechcommunity_name", icon: "icons/pwa/msft.webp", url: "https://techcommunity.microsoft.com", descriptionKey: "mstechcommunity_desc" },
-      { name: "Microsoft Account", nameKey: "microsoftaccount_name", descriptionKey: "microsoftaccount_desc", icon: "icons/wrappers/microsoft.webp", url2: "/wrappers/microsoftaccount", apptype2: "wrapper", url: "https://account.microsoft.com" },
-      { name: "Microsoft Partner", nameKey: "microsoftpartner_name", descriptionKey: "microsoftpartner_desc", icon: "icons/wrappers/microsoft.webp", url2: "/wrappers/microsoftpartner", apptype2: "wrapper", url: "https://partner.microsoft.com" },
-      { name: "MSN", nameKey: "msn_name", icon: "icons/wrappers/msn.webp", url2: "/wrappers/msn", descriptionKey: "msn_desc", apptype2: "wrapper", url: "https://www.msn.com" },
-      { name: "Bing", nameKey: "bing_name", icon: "icons/wrappers/bing.webp", url2: "/wrappers/bing", descriptionKey: "bing_desc", apptype2: "wrapper", url: "https://www.bing.com" },
-      { name: "Bing Videos", nameKey: "bingvideos_name", descriptionKey: "bingvideos_desc", icon: "icons/wrappers/bing.webp", url2: "/wrappers/bingvideos", descriptionKey: "bingvideos_desc", apptype2: "wrapper", url: "https://www.bing.com/videos" },
-      { name: "Bing Maps", nameKey: "bingmaps_name", descriptionKey: "bingmaps_desc", icon: "icons/wrappers/bing.webp", url2: "/wrappers/bingmaps", descriptionKey: "bingmaps_desc", apptype2: "wrapper", url: "https://www.bing.com/maps" },
-      { name: "Bing Images", nameKey: "bingimages_name", descriptionKey: "bingimages_desc", icon: "icons/wrappers/bing.webp", url2: "/wrappers/bingimages", descriptionKey: "bingimages_desc", apptype2: "wrapper", url: "https://www.bing.com/images" },
-      { name: "Bing News", nameKey: "bingnews_name", descriptionKey: "bingsnews_desc", icon: "icons/wrappers/bing.webp", url2: "/wrappers/bingnews", descriptionKey: "bingnews_desc", apptype2: "wrapper", url: "https://www.bing.com/news" },
-      { name: "Bing Shop", nameKey: "bingshop_name", descriptionKey: "bingshop_desc", icon: "icons/wrappers/bing.webp", url2: "/wrappers/bingshop", descriptionKey: "bingshop_desc", apptype2: "wrapper", url: "https://www.bing.com/shop" },
-      { name: "Bing Travel", nameKey: "bingtravel_name", descriptionKey: "bingtravel_desc", icon: "icons/wrappers/bing.webp", url2: "/wrappers/bingtravel", descriptionKey: "bingtravel_desc", apptype2: "wrapper", url: "https://www.bing.com/travel" },
-      { name: "Bing Flights", nameKey: "bingflights_name", descriptionKey: "bingflights_desc", icon: "icons/wrappers/bing.webp", url2: "/wrappers/bingflights", descriptionKey: "bingflights_desc", apptype2: "wrapper", url: "https://www.bing.com/flights" },
+      { name: "Microsoft Account", nameKey: "microsoftaccount_name", descriptionKey: "microsoftaccount_desc", icon: "icons/wrappers/microsoft.webp", url2: "../wrappers/microsoftaccount", apptype2: "wrapper", url: "https://account.microsoft.com" },
+      { name: "Microsoft Partner", nameKey: "microsoftpartner_name", descriptionKey: "microsoftpartner_desc", icon: "icons/wrappers/microsoft.webp", url2: "../wrappers/microsoftpartner", apptype2: "wrapper", url: "https://partner.microsoft.com" },
+      { name: "MSN", nameKey: "msn_name", icon: "icons/wrappers/msn.webp", url2: "../wrappers/msn", descriptionKey: "msn_desc", apptype2: "wrapper", url: "https://www.msn.com" },
+      { name: "Bing", nameKey: "bing_name", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bing", descriptionKey: "bing_desc", apptype2: "wrapper", url: "https://www.bing.com" },
+      { name: "Bing Videos", nameKey: "bingvideos_name", descriptionKey: "bingvideos_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingvideos", descriptionKey: "bingvideos_desc", apptype2: "wrapper", url: "https://www.bing.com/videos" },
+      { name: "Bing Maps", nameKey: "bingmaps_name", descriptionKey: "bingmaps_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingmaps", descriptionKey: "bingmaps_desc", apptype2: "wrapper", url: "https://www.bing.com/maps" },
+      { name: "Bing Images", nameKey: "bingimages_name", descriptionKey: "bingimages_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingimages", descriptionKey: "bingimages_desc", apptype2: "wrapper", url: "https://www.bing.com/images" },
+      { name: "Bing News", nameKey: "bingnews_name", descriptionKey: "bingsnews_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingnews", descriptionKey: "bingnews_desc", apptype2: "wrapper", url: "https://www.bing.com/news" },
+      { name: "Bing Shop", nameKey: "bingshop_name", descriptionKey: "bingshop_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingshop", descriptionKey: "bingshop_desc", apptype2: "wrapper", url: "https://www.bing.com/shop" },
+      { name: "Bing Travel", nameKey: "bingtravel_name", descriptionKey: "bingtravel_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingtravel", descriptionKey: "bingtravel_desc", apptype2: "wrapper", url: "https://www.bing.com/travel" },
+      { name: "Bing Flights", nameKey: "bingflights_name", descriptionKey: "bingflights_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingflights", descriptionKey: "bingflights_desc", apptype2: "wrapper", url: "https://www.bing.com/flights" },
       {
         name: "Microsoft Edge Add-ons",
         nameKey: "msedgeaddons_name",
         descriptionKey: "msedgeaddons_desc",
         icon: "icons/wrappers/msedge.webp",
-        url2: "/wrappers/msedgeaddons",
+        url2: "../wrappers/msedgeaddons",
         apptype2: "wrapper",
         url: "https://microsoftedge.microsoft.com/addons"
       },
@@ -543,7 +543,7 @@ export const categories = [
         nameKey: "msnews_name",
         descriptionKey: "msnews_desc",
         icon: "icons/wrappers/microsoft.webp",
-        url2: "/wrappers/msnews",
+        url2: "../wrappers/msnews",
         apptype2: "wrapper",
         url: "https://news.microsoft.com"
       },
@@ -577,14 +577,14 @@ export const categories = [
         icon: "icons/pwa/googlekeep.webp",
         url: "https://keep.google.com"
       },
-      { name: "Gmail", icon: "icons/wrappers/gmail.webp", url2: "/wrappers/gmail", descriptionKey: "gmail_desc", apptype2: "wrapper", url: "https://mail.google.com" },
-      { name: "Google Trends", icon: "icons/wrappers/googletrends.webp", url2: "/wrappers/googletrends", descriptionKey: "googletrends_desc", apptype2: "wrapper", url: "https://trends.google.com" },
+      { name: "Gmail", icon: "icons/wrappers/gmail.webp", url2: "../wrappers/gmail", descriptionKey: "gmail_desc", apptype2: "wrapper", url: "https://mail.google.com" },
+      { name: "Google Trends", icon: "icons/wrappers/googletrends.webp", url2: "../wrappers/googletrends", descriptionKey: "googletrends_desc", apptype2: "wrapper", url: "https://trends.google.com" },
       {
         name: "Google Blog",
         nameKey: "googleblog_name",
         descriptionKey: "googleblog_desc",
         icon: "icons/wrappers/google.webp",
-        url2: "/wrappers/googleblog",
+        url2: "../wrappers/googleblog",
         apptype2: "wrapper",
         url: "https://blog.google"
       },
@@ -593,7 +593,7 @@ export const categories = [
         nameKey: "googletranslate_name",
         descriptionKey: "googletranslate_desc",
         icon: "icons/wrappers/googletranslate.webp",
-        url2: "/wrappers/googletranslate",
+        url2: "../wrappers/googletranslate",
         apptype2: "wrapper",
         url: "https://translate.google.com"
       },
@@ -606,7 +606,7 @@ export const categories = [
       {
         name: "WPS",
         icon: "icons/wrappers/wps.webp",
-        url2: "/wrappers/wps",
+        url2: "../wrappers/wps",
         descriptionKey: "wps_desc",
         apptype2: "wrapper",
         url: "https://www.wps.com/wpsdocs"
@@ -616,7 +616,7 @@ export const categories = [
         nameKey: "wpscn_name",
         descriptionKey: "wpscn_desc",
         icon: "icons/wrappers/wps.webp",
-        url2: "/wrappers/wpscn",
+        url2: "../wrappers/wpscn",
         apptype2: "wrapper",
         url: "https://www.kdocs.cn"
       },
@@ -667,7 +667,7 @@ export const categories = [
         nameKey: "dingtalk_name",
         descriptionKey: "dingtalk_desc",
         icon: "icons/wrappers/dingtalk.webp",
-        url2: "/wrappers/dingtalk",
+        url2: "../wrappers/dingtalk",
         url: "https://workspace.dingtalk.com",
         apptype2: "wrapper"
       },
@@ -817,7 +817,7 @@ export const categories = [
         name: "LeetCode (CN)",
         nameKey: "leetcodecn_name",
         icon: "icons/wrappers/leetcode.webp",
-        url2: "/wrappers/leetcodecn",
+        url2: "../wrappers/leetcodecn",
         url: "https://leetcode.cn",
         descriptionKey: "leetcodecn_desc",
         apptype2: "wrapper"
@@ -1048,7 +1048,7 @@ export const categories = [
         name: "ISO C++",
         nameKey: "isocpp_name",
         icon: "icons/wrappers/isocpp.webp",
-        url2: "/wrappers/isocpp",
+        url2: "../wrappers/isocpp",
         url: "https://isocpp.org",
         descriptionKey: "isocpp_desc",
         apptype2: "wrapper"
@@ -1057,7 +1057,7 @@ export const categories = [
         name: "Java",
         nameKey: "java_name",
         icon: "icons/wrappers/java.webp",
-        url2: "/wrappers/java",
+        url2: "../wrappers/java",
         url: "https://www.java.com",
         descriptionKey: "java_desc",
         apptype2: "wrapper"
@@ -1066,7 +1066,7 @@ export const categories = [
         name: "Linux.die",
         nameKey: "linuxdie_name",
         icon: "icons/wrappers/linuxdie.webp",
-        url2: "/wrappers/linuxdie",
+        url2: "../wrappers/linuxdie",
         url: "https://linux.die.net",
         descriptionKey: "linuxdie_desc",
         apptype2: "wrapper"
@@ -1074,7 +1074,7 @@ export const categories = [
       {
         name: "Godbolt",
         icon: "icons/wrappers/godbolt.webp",
-        url2: "/wrappers/godbolt",
+        url2: "../wrappers/godbolt",
         url: "https://godbolt.org",
         descriptionKey: "godbolt_desc",
         apptype2: "wrapper"
@@ -1082,7 +1082,7 @@ export const categories = [
       {
         name: "Termux",
         icon: "icons/wrappers/termux.webp",
-        url2: "/wrappers/termux",
+        url2: "../wrappers/termux",
         url: "https://termux.dev",
         descriptionKey: "termux_desc",
         apptype2: "wrapper",
@@ -1091,7 +1091,7 @@ export const categories = [
         name: "Free Software Foundations",
         nameKey: "fsf_name",
         icon: "icons/wrappers/fsf.webp",
-        url2: "/wrappers/fsf",
+        url2: "../wrappers/fsf",
         url: "https://www.fsf.org",
         descriptionKey: "fsf_desc",
         apptype2: "wrapper"
@@ -1100,7 +1100,7 @@ export const categories = [
         name: "Librephone",
         nameKey: "librephone_name",
         icon: "icons/wrappers/fsf.webp",
-        url2: "/wrappers/librephone",
+        url2: "../wrappers/librephone",
         url: "https://librephone.fsf.org",
         descriptionKey: "librephone_desc",
         apptype2: "wrapper"
@@ -1110,7 +1110,7 @@ export const categories = [
         nameKey: "sfconservancy_name",
         descriptionKey: "sfconservancy_desc",
         icon: "icons/wrappers/sfconservancy.webp",
-        url2: "/wrappers/sfconservancy",
+        url2: "../wrappers/sfconservancy",
         apptype2: "wrapper",
         url: "https://sfconservancy.org"
       },
@@ -1118,7 +1118,7 @@ export const categories = [
         name: "GCC MCF",
         nameKey: "gccmcf_name",
         icon: "icons/wrappers/lhmouse.webp",
-        url2: "/wrappers/gccmcf",
+        url2: "../wrappers/gccmcf",
         url: "https://gcc-mcf.lhmouse.com",
         descriptionKey: "gccmcf_desc",
         apptype2: "wrapper"
@@ -1128,14 +1128,14 @@ export const categories = [
         nameKey: "webassembly_name",
         descriptionKey: "webassembly_desc",
         icon: "icons/wrappers/webassembly.webp",
-        url2: "/wrappers/webassembly",
+        url2: "../wrappers/webassembly",
         url: "https://webassembly.org",
         apptype2: "wrapper"
       },
       {
         name: "GeeksForGeeks",
         icon: "icons/wrappers/geeksforgeeks.webp",
-        url2: "/wrappers/geeksforgeeks",
+        url2: "../wrappers/geeksforgeeks",
         descriptionKey: "geeksforgeeks_desc",
         url: "https://www.geeksforgeeks.org",
         apptype2: "wrapper"
@@ -1143,7 +1143,7 @@ export const categories = [
       {
         name: "Aurora Store",
         icon: "icons/wrappers/aurorastore.webp",
-        url2: "/wrappers/aurorastore",
+        url2: "../wrappers/aurorastore",
         url: "https://store.auroraoss.com",
         descriptionKey: "aurorastore_desc",
         apptype2: "wrapper"
@@ -1153,7 +1153,7 @@ export const categories = [
         nameKey: "wechatdevelopers_name",
         descriptionKey: "wechatdevelopers_desc",
         icon: "icons/wrappers/wechatdevelopers.webp",
-        url2: "/wrappers/wechatdevelopers",
+        url2: "../wrappers/wechatdevelopers",
         url: "https://developers.weixin.qq.com",
         apptype2: "wrapper"
       },
@@ -1162,7 +1162,7 @@ export const categories = [
         nameKey: "dontkillmyapp_name",
         descriptionKey: "dontkillmyapp_desc",
         icon: "icons/wrappers/dontkillmyapp.webp",
-        url2: "/wrappers/dontkillmyapp",
+        url2: "../wrappers/dontkillmyapp",
         url: "https://dontkillmyapp.com",
         apptype2: "wrapper"
       },
@@ -1171,7 +1171,7 @@ export const categories = [
         nameKey: "microsoftclarity_name",
         descriptionKey: "microsoftclarity_desc",
         icon: "icons/wrappers/microsoftclarity.webp",
-        url2: "/wrappers/microsoftclarity",
+        url2: "../wrappers/microsoftclarity",
         url: "https://clarity.microsoft.com",
         apptype2: "wrapper"
       },
@@ -1180,7 +1180,7 @@ export const categories = [
         nameKey: "learncpp_name",
         descriptionKey: "learncpp_desc",
         icon: "icons/wrappers/learncpp.webp",
-        url2: "/wrappers/learncpp",
+        url2: "../wrappers/learncpp",
         apptype2: "wrapper",
         url: "https://www.learncpp.com"
       },
@@ -1189,7 +1189,7 @@ export const categories = [
         nameKey: "slingacademy_name",
         descriptionKey: "slingacademy_desc",
         icon: "icons/wrappers/slingacademy.webp",
-        url2: "/wrappers/slingacademy",
+        url2: "../wrappers/slingacademy",
         apptype2: "wrapper",
         url: "https://www.slingacademy.com"
       },
@@ -1198,7 +1198,7 @@ export const categories = [
         nameKey: "linuxtoys_name",
         descriptionKey: "linuxtoys_desc",
         icon: "icons/wrappers/linuxtoys.webp",
-        url2: "/wrappers/linuxtoys",
+        url2: "../wrappers/linuxtoys",
         apptype2: "wrapper",
         url: "https://linux.toys"
       },
@@ -1207,7 +1207,7 @@ export const categories = [
         nameKey: "neocities_name",
         descriptionKey: "neocities_desc",
         icon: "icons/wrappers/neocities.webp",
-        url2: "/wrappers/neocities",
+        url2: "../wrappers/neocities",
         apptype2: "wrapper",
         url: "https://neocities.org"
       },
@@ -1216,7 +1216,7 @@ export const categories = [
         nameKey: "agentskills_name",
         descriptionKey: "agentskills_desc",
         icon: "icons/wrappers/agentskills.webp",
-        url2: "/wrappers/agentskills",
+        url2: "../wrappers/agentskills",
         apptype2: "wrapper",
         url: "https://agentskills.io"
       },
@@ -1225,7 +1225,7 @@ export const categories = [
         nameKey: "libhunt_name",
         descriptionKey: "libhunt_desc",
         icon: "icons/wrappers/libhunt.webp",
-        url2: "/wrappers/libhunt",
+        url2: "../wrappers/libhunt",
         apptype2: "wrapper",
         url: "https://www.libhunt.com"
       },
@@ -1237,14 +1237,14 @@ export const categories = [
         apptype_hide: "msedge",
         url: "https://modelscope.cn",
         apptype2: "wrapper",
-        url2: "/wrappers/modelscope",
+        url2: "../wrappers/modelscope",
       },
       {
         name: "Public APIs",
         nameKey: "publicapis_name",
         descriptionKey: "publicapis_desc",
         icon: "icons/wrappers/publicapis.webp",
-        url2: "/wrappers/publicapis",
+        url2: "../wrappers/publicapis",
         apptype2: "wrapper",
         url: "https://publicapis.io"
       },
@@ -1253,7 +1253,7 @@ export const categories = [
         nameKey: "githubstatus_name",
         descriptionKey: "githubstatus_desc",
         icon: "icons/wrappers/githubstatus.webp",
-        url2: "/wrappers/githubstatus",
+        url2: "../wrappers/githubstatus",
         apptype2: "wrapper",
         url: "https://www.githubstatus.com"
       },
@@ -1262,7 +1262,7 @@ export const categories = [
         nameKey: "usebottles_name",
         descriptionKey: "usebottles_desc",
         icon: "icons/wrappers/usebottles.webp",
-        url2: "/wrappers/usebottles",
+        url2: "../wrappers/usebottles",
         apptype2: "wrapper",
         url: "https://usebottles.com"
       },
@@ -1271,7 +1271,7 @@ export const categories = [
         nameKey: "keepandroidopen_name",
         descriptionKey: "keepandroidopen_desc",
         icon: "icons/wrappers/keepandroidopen.webp",
-        url2: "/wrappers/keepandroidopen",
+        url2: "../wrappers/keepandroidopen",
         apptype2: "wrapper",
         url: "https://keepandroidopen.org"
       },
@@ -1280,7 +1280,7 @@ export const categories = [
         nameKey: "jsbin_name",
         descriptionKey: "jsbin_desc",
         icon: "icons/wrappers/jsbin.webp",
-        url2: "/wrappers/jsbin",
+        url2: "../wrappers/jsbin",
         apptype2: "wrapper",
         url: "https://jsbin.com"
       },
@@ -1289,7 +1289,7 @@ export const categories = [
         nameKey: "devto_name",
         descriptionKey: "devto_desc",
         icon: "icons/wrappers/devto.webp",
-        url2: "/wrappers/devto",
+        url2: "../wrappers/devto",
         apptype2: "wrapper",
         url: "https://dev.to"
       },
@@ -1298,7 +1298,7 @@ export const categories = [
         nameKey: "caniuse_name",
         descriptionKey: "caniuse_desc",
         icon: "icons/wrappers/caniuse.webp",
-        url2: "/wrappers/caniuse",
+        url2: "../wrappers/caniuse",
         apptype2: "wrapper",
         url: "https://caniuse.com"
       },
@@ -1307,7 +1307,7 @@ export const categories = [
         nameKey: "cppreference_name",
         descriptionKey: "cppreference_desc",
         icon: "icons/wrappers/cppreference.webp",
-        url2: "/wrappers/cppreference",
+        url2: "../wrappers/cppreference",
         apptype2: "wrapper",
         url: "https://en.cppreference.com"
       },
@@ -1316,7 +1316,7 @@ export const categories = [
         nameKey: "javabook_name",
         descriptionKey: "javabook_desc",
         icon: "icons/wrappers/javabook.webp",
-        url2: "/wrappers/javabook",
+        url2: "../wrappers/javabook",
         apptype2: "wrapper",
         url: "https://javabook.mccue.dev"
       },
@@ -1325,7 +1325,7 @@ export const categories = [
         nameKey: "moocfi_name",
         descriptionKey: "moocfi_desc",
         icon: "icons/wrappers/moocfi.webp",
-        url2: "/wrappers/moocfi",
+        url2: "../wrappers/moocfi",
         apptype2: "wrapper",
         url: "https://www.mooc.fi"
       },
@@ -1399,7 +1399,7 @@ export const categories = [
         nameKey: "downdetector_name",
         descriptionKey: "downdetector_desc",
         icon: "icons/wrappers/downdetector.webp",
-        url2: "/wrappers/downdetector",
+        url2: "../wrappers/downdetector",
         apptype2: "wrapper",
         url: "https://downdetector.com"
       },
@@ -1453,7 +1453,7 @@ export const categories = [
         name: "QQ Mail",
         nameKey: "qqmail_name",
         icon: "icons/wrappers/qqmail.webp",
-        url2: "/wrappers/qqmail",
+        url2: "../wrappers/qqmail",
         apptype2: "wrapper",
         descriptionKey: "qqmail_desc",
         url: "https://mail.qq.com"
@@ -1462,7 +1462,7 @@ export const categories = [
         name: "163 Mail",
         nameKey: "netease163_name",
         icon: "icons/wrappers/netease163.webp",
-        url2: "/wrappers/netease163",
+        url2: "../wrappers/netease163",
         apptype2: "wrapper",
         descriptionKey: "netease163_desc",
         url: "https://mail.163.com"
@@ -1471,7 +1471,7 @@ export const categories = [
         name: "126 Mail",
         nameKey: "netease126_name",
         icon: "icons/wrappers/netease126.webp",
-        url2: "/wrappers/netease126",
+        url2: "../wrappers/netease126",
         apptype2: "wrapper",
         descriptionKey: "netease126_desc",
         url: "https://mail.126.com"
@@ -1480,7 +1480,7 @@ export const categories = [
         name: "yeah.net Mail",
         nameKey: "yeahnet_name",
         icon: "icons/wrappers/yeahnet.webp",
-        url2: "/wrappers/yeahnet",
+        url2: "../wrappers/yeahnet",
         apptype2: "wrapper",
         descriptionKey: "yeahnet_desc",
         url: "https://mail.yeah.net"
@@ -1822,7 +1822,7 @@ export const categories = [
         nameKey: "loopsvideo_name",
         descriptionKey: "loopsvideo_desc",
         icon: "icons/msedge/loopsvideo.webp",
-        url2: "/msedge/loopsvideo",
+        url2: "../msedge/loopsvideo",
         apptype2: "wrapper",
         url: "https://loops.video"
       },
@@ -1831,7 +1831,7 @@ export const categories = [
         nameKey: "piefed_name",
         descriptionKey: "piefed_desc",
         icon: "icons/msedge/piefed.webp",
-        url2: "/msedge/piefed",
+        url2: "../msedge/piefed",
         apptype2: "wrapper",
         url: "https://piefed.social"
       },
@@ -1843,13 +1843,13 @@ export const categories = [
         apptype_hide: "msedge",
         url: "https://mail.ru",
         apptype2: "wrapper",
-        url2: "/msedge/mailru",
+        url2: "../msedge/mailru",
       },
       {
         name: "Zoosk",
         nameKey: "zoosk_name",
         icon: "icons/wrappers/zoosk.webp",
-        url2: "/wrappers/zoosk",
+        url2: "../wrappers/zoosk",
         descriptionKey: "zoosk_desc",
         apptype2: "wrapper",
         url: "https://zoosk.com"
@@ -1858,14 +1858,14 @@ export const categories = [
         name: "eHarmony",
         nameKey: "eharmony_name",
         icon: "icons/wrappers/eharmony.webp",
-        url2: "/wrappers/eharmony",
+        url2: "../wrappers/eharmony",
         descriptionKey: "eharmony_desc",
         apptype2: "wrapper",
         url: "https://www.eharmony.com"
       },
       {
         name: "ShareChat",
-        url2: "/wrappers/sharechat",
+        url2: "../wrappers/sharechat",
         icon: "icons/wrappers/sharechat.webp",
         nameKey: "sharechat_name",
         descriptionKey: "sharechat_desc",
@@ -1877,7 +1877,7 @@ export const categories = [
         nameKey: "dzen_name",
         descriptionKey: "dzen_desc",
         icon: "icons/wrappers/dzen.webp",
-        url2: "/wrappers/dzenru",
+        url2: "../wrappers/dzenru",
         url: "https://dzen.ru",
         apptype2: "wrapper",
       },
@@ -1886,7 +1886,7 @@ export const categories = [
         nameKey: "kick_name",
         descriptionKey: "kick_desc",
         icon: "icons/msedge/kick.webp",
-        url2: "/msedge/kick",
+        url2: "../msedge/kick",
         apptype2: "wrapper",
         url: "https://kick.com",
         apptype_hide: "msedge"
@@ -1896,7 +1896,7 @@ export const categories = [
         nameKey: "kofi_name",
         descriptionKey: "kofi_desc",
         icon: "icons/wrappers/kofi.webp",
-        url2: "/wrappers/kofi",
+        url2: "../wrappers/kofi",
         apptype2: "wrapper",
         url: "https://ko-fi.com"
       },
@@ -1905,7 +1905,7 @@ export const categories = [
         nameKey: "vimeo_name",
         descriptionKey: "vimeo_desc",
         icon: "icons/wrappers/vimeo.webp",
-        url2: "/wrappers/vimeo",
+        url2: "../wrappers/vimeo",
         apptype2: "wrapper",
         url: "https://vimeo.com"
       },
@@ -1914,7 +1914,7 @@ export const categories = [
         nameKey: "kook_name",
         descriptionKey: "kook_desc",
         icon: "icons/wrappers/kook.webp",
-        url2: "/wrappers/kook",
+        url2: "../wrappers/kook",
         apptype2: "wrapper",
         url: "https://www.kookapp.cn/app/"
       },
@@ -1923,7 +1923,7 @@ export const categories = [
         nameKey: "zulip_name",
         descriptionKey: "zulip_desc",
         icon: "icons/wrappers/zulip.webp",
-        url2: "/wrappers/zulip",
+        url2: "../wrappers/zulip",
         apptype2: "wrapper",
         url: "https://zulip.com"
       },
@@ -1932,7 +1932,7 @@ export const categories = [
         nameKey: "spaccamient_name",
         descriptionKey: "spaccamient_desc",
         icon: "icons/wrappers/spaccamient.webp",
-        url2: "/wrappers/spaccamient",
+        url2: "../wrappers/spaccamient",
         apptype2: "wrapper",
         url: "https://spacc-inc.github.io/Spaccamient"
       },
@@ -1941,7 +1941,7 @@ export const categories = [
         nameKey: "newpipe_name",
         descriptionKey: "newpipe_desc",
         icon: "icons/msedge/newpipe.webp",
-        url2: "/msedge/newpipe",
+        url2: "../msedge/newpipe",
         apptype: "wrapper",
         url: "https://newpipe.net"
       },
@@ -2021,7 +2021,7 @@ export const categories = [
         nameKey: "investing_name",
         descriptionKey: "investing_desc",
         icon: "icons/wrappers/investing.webp",
-        url2: "/wrappers/investing",
+        url2: "../wrappers/investing",
         apptype2: "wrapper",
         url: "https://www.investing.com",
       },
@@ -2180,14 +2180,14 @@ export const categories = [
         url: "https://verified.capitalone.com",
         icon: "icons/msedge/capitalone.webp",
         apptype2: "wrapper",
-        url2: "/msedge/capitalone",
+        url2: "../msedge/capitalone",
       },
       {
         name: "8marketcap",
         nameKey: "eightmarketcap_name",
         descriptionKey: "eightmarketcap_desc",
         icon: "icons/msedge/eightmarketcap.webp",
-        url2: "/msedge/eightmarketcap",
+        url2: "../msedge/eightmarketcap",
         apptype2: "wrapper",
         url: "https://8marketcap.com"
       },
@@ -2196,7 +2196,7 @@ export const categories = [
         nameKey: "paypal_name",
         descriptionKey: "paypal_desc",
         icon: "icons/wrappers/paypal.webp",
-        url2: "/wrappers/paypal",
+        url2: "../wrappers/paypal",
         apptype2: "wrapper",
         url: "https://www.paypal.com"
       },
@@ -2205,7 +2205,7 @@ export const categories = [
         nameKey: "moomoo_name",
         descriptionKey: "moomoo_desc",
         icon: "icons/wrappers/moomoo.webp",
-        url2: "/wrappers/moomoo",
+        url2: "../wrappers/moomoo",
         apptype2: "wrapper",
         url: "https://www.moomoo.com"
       },
@@ -2214,7 +2214,7 @@ export const categories = [
         nameKey: "thestreet_name",
         descriptionKey: "thestreet_desc",
         icon: "icons/wrappers/thestreet.webp",
-        url2: "/wrappers/thestreet",
+        url2: "../wrappers/thestreet",
         apptype2: "wrapper",
         url: "https://www.thestreet.com"
       },
@@ -2223,7 +2223,7 @@ export const categories = [
         nameKey: "marketwatch_name",
         descriptionKey: "marketwatch_desc",
         icon: "icons/wrappers/marketwatch.webp",
-        url2: "/wrappers/marketwatch",
+        url2: "../wrappers/marketwatch",
         apptype2: "wrapper",
         url: "https://www.marketwatch.com"
       },
@@ -2232,7 +2232,7 @@ export const categories = [
         nameKey: "247wallst_name",
         descriptionKey: "247wallst_desc",
         icon: "icons/wrappers/247wallst.webp",
-        url2: "/wrappers/247wallst",
+        url2: "../wrappers/247wallst",
         apptype2: "wrapper",
         url: "https://247wallst.com"
       },
@@ -2241,7 +2241,7 @@ export const categories = [
         nameKey: "webull_name",
         descriptionKey: "webull_desc",
         icon: "icons/wrappers/webull.webp",
-        url2: "/wrappers/webull",
+        url2: "../wrappers/webull",
         apptype2: "wrapper",
         url: "https://www.webull.com"
       },
@@ -2250,7 +2250,7 @@ export const categories = [
         nameKey: "bankofamerica_name",
         descriptionKey: "bankofamerica_desc",
         icon: "icons/wrappers/bankofamerica.webp",
-        url2: "/wrappers/bankofamerica",
+        url2: "../wrappers/bankofamerica",
         apptype2: "wrapper",
         url: "https://www.bankofamerica.com"
       },
@@ -2259,7 +2259,7 @@ export const categories = [
         nameKey: "binance_name",
         descriptionKey: "binance_desc",
         icon: "icons/wrappers/binance.webp",
-        url2: "/wrappers/binance",
+        url2: "../wrappers/binance",
         apptype2: "wrapper",
         url: "https://www.binance.com"
       },
@@ -2268,7 +2268,7 @@ export const categories = [
         nameKey: "barrons_name",
         descriptionKey: "barrons_desc",
         icon: "icons/wrappers/barrons.webp",
-        url2: "/wrappers/barrons",
+        url2: "../wrappers/barrons",
         apptype2: "wrapper",
         url: "https://www.barrons.com"
       },
@@ -2277,7 +2277,7 @@ export const categories = [
         nameKey: "stockcharts_name",
         descriptionKey: "stockcharts_desc",
         icon: "icons/msedge/stockcharts.webp",
-        url2: "/msedge/stockcharts",
+        url2: "../msedge/stockcharts",
         apptype2: "wrapper",
         url: "https://stockcharts.com"
       },
@@ -2286,7 +2286,7 @@ export const categories = [
         nameKey: "robinhood_name",
         descriptionKey: "robinhood_desc",
         icon: "icons/wrappers/robinhood.webp",
-        url2: "/wrappers/robinhood",
+        url2: "../wrappers/robinhood",
         apptype2: "wrapper",
         url: "https://robinhood.com"
       },
@@ -2295,7 +2295,7 @@ export const categories = [
         nameKey: "capitalcom_name",
         descriptionKey: "capitalcom_desc",
         icon: "icons/wrappers/capitalcom.webp",
-        url2: "/wrappers/capitalcom",
+        url2: "../wrappers/capitalcom",
         apptype2: "wrapper",
         url: "https://capital.com"
       },
@@ -2304,7 +2304,7 @@ export const categories = [
         nameKey: "wise_name",
         descriptionKey: "wise_desc",
         icon: "icons/wrappers/wise.webp",
-        url2: "/wrappers/wise",
+        url2: "../wrappers/wise",
         apptype2: "wrapper",
         url: "https://wise.com"
       },
@@ -2313,7 +2313,7 @@ export const categories = [
         nameKey: "barchart_name",
         descriptionKey: "barchart_desc",
         icon: "icons/wrappers/barchart.webp",
-        url2: "/wrappers/barchart",
+        url2: "../wrappers/barchart",
         apptype2: "wrapper",
         url: "https://www.barchart.com"
       },
@@ -2329,7 +2329,7 @@ export const categories = [
         nameKey: "exchangerates_name",
         descriptionKey: "exchangerates_desc",
         icon: "icons/wrappers/exchangerates.webp",
-        url2: "/wrappers/exchangerates",
+        url2: "../wrappers/exchangerates",
         apptype2: "wrapper",
         url: "https://www.exchange-rates.org"
       },
@@ -2338,7 +2338,7 @@ export const categories = [
         nameKey: "coinglass_name",
         descriptionKey: "coinglass_desc",
         icon: "icons/wrappers/coinglass.webp",
-        url2: "/wrappers/coinglass",
+        url2: "../wrappers/coinglass",
         apptype2: "wrapper",
         url: "https://www.coinglass.com"
       },
@@ -2347,7 +2347,7 @@ export const categories = [
         nameKey: "coinglassliq_name",
         descriptionKey: "coinglassliq_desc",
         icon: "icons/wrappers/coinglass.webp",
-        url2: "/wrappers/coinglassliq",
+        url2: "../wrappers/coinglassliq",
         apptype2: "wrapper",
         url: "https://www.coinglass.com/liquidations"
       },
@@ -2356,7 +2356,7 @@ export const categories = [
         nameKey: "vanguardinvestor_name",
         descriptionKey: "vanguardinvestor_desc",
         icon: "icons/wrappers/vanguard.webp",
-        url2: "/wrappers/vanguard",
+        url2: "../wrappers/vanguard",
         apptype2: "wrapper",
         url: "https://investor.vanguard.com"
       },
@@ -2365,7 +2365,7 @@ export const categories = [
         nameKey: "alphaspread_name",
         descriptionKey: "alphaspread_desc",
         icon: "icons/msedge/alphaspread.webp",
-        url2: "/msedge/alphaspread",
+        url2: "../msedge/alphaspread",
         apptype2: "wrapper",
         url: "https://www.alphaspread.com"
       },
@@ -2374,7 +2374,7 @@ export const categories = [
         nameKey: "hurun_name",
         descriptionKey: "hurun_desc",
         icon: "icons/wrappers/hurun.webp",
-        url2: "/wrappers/hurun",
+        url2: "../wrappers/hurun",
         apptype2: "wrapper",
         url: "https://www.hurun.net"
       },
@@ -2383,7 +2383,7 @@ export const categories = [
         nameKey: "mkcokr_name",
         descriptionKey: "mkcokr_desc",
         icon: "icons/wrappers/mkcokr.webp",
-        url2: "/wrappers/mk",
+        url2: "../wrappers/mk",
         url: "https://www.mk.co.kr",
         apptype2: "wrapper"
       },
@@ -2392,7 +2392,7 @@ export const categories = [
         nameKey: "moneycontrol_name",
         descriptionKey: "moneycontrol_desc",
         icon: "icons/wrappers/moneycontrol.webp",
-        url2: "/wrappers/moneycontrol",
+        url2: "../wrappers/moneycontrol",
         apptype2: "wrapper",
         url: "https://www.moneycontrol.com"
       },
@@ -2401,7 +2401,7 @@ export const categories = [
         nameKey: "oilprice_name",
         descriptionKey: "oilprice_desc",
         icon: "icons/wrappers/oilprice.webp",
-        url2: "/wrappers/oilprice",
+        url2: "../wrappers/oilprice",
         apptype2: "wrapper",
         url: "https://oilprice.com"
       },
@@ -2410,7 +2410,7 @@ export const categories = [
         nameKey: "finbold_name",
         descriptionKey: "finbold_desc",
         icon: "icons/wrappers/finbold.webp",
-        url2: "/wrappers/finbold",
+        url2: "../wrappers/finbold",
         apptype2: "wrapper",
         url: "https://finbold.com"
       },
@@ -2575,7 +2575,7 @@ export const categories = [
         nameKey: "influencersplace_name",
         descriptionKey: "influencersplace_desc",
         icon: "icons/wrappers/influencersplace.webp",
-        url2: "/wrappers/influencersplace",
+        url2: "../wrappers/influencersplace",
         url: "https://influencersplace.com",
         apptype2: "wrapper"
       },
@@ -2584,7 +2584,7 @@ export const categories = [
         nameKey: "zscalar_name",
         descriptionKey: "zscalar_desc",
         icon: "icons/wrappers/zscalar.webp",
-        url2: "/wrappers/zscalar",
+        url2: "../wrappers/zscalar",
         url: "https://www.zscaler.com",
         apptype2: "wrapper"
       },
@@ -2593,7 +2593,7 @@ export const categories = [
         nameKey: "businessstandard_name",
         descriptionKey: "businessstandard_desc",
         icon: "icons/wrappers/businessstandard.webp",
-        url2: "/wrappers/businessstandard",
+        url2: "../wrappers/businessstandard",
         apptype2: "wrapper",
         url: "https://www.business-standard.com"
       },
@@ -2602,7 +2602,7 @@ export const categories = [
         nameKey: "cryptopolitan_name",
         descriptionKey: "cryptopolitan_desc",
         icon: "icons/wrappers/cryptopolitan.webp",
-        url2: "/wrappers/cryptopolitan",
+        url2: "../wrappers/cryptopolitan",
         apptype2: "wrapper",
         url: "https://www.cryptopolitan.com"
       },
@@ -2611,7 +2611,7 @@ export const categories = [
         nameKey: "usebottles_name",
         descriptionKey: "usebottles_desc",
         icon: "icons/wrappers/usebottles.webp",
-        url2: "/wrappers/usebottles",
+        url2: "../wrappers/usebottles",
         apptype2: "wrapper",
         url: "https://usebottles.com"
       },
@@ -2683,7 +2683,7 @@ export const categories = [
         nameKey: "androidauthority_name",
         descriptionKey: "androidauthority_desc",
         icon: "icons/wrappers/androidauthority.webp",
-        url2: "/wrappers/androidauthority",
+        url2: "../wrappers/androidauthority",
         url: "https://www.androidauthority.com",
         apptype2: "wrapper"
       },
@@ -2977,7 +2977,7 @@ export const categories = [
         apptype_hide: "msedge",
         url: "https://chipsandcheese.com",
         apptype2: "wrapper",
-        url2: "/msedge/chipsandcheese",
+        url2: "../msedge/chipsandcheese",
       },
       {
         name: "Laptop Mag",
@@ -2986,7 +2986,7 @@ export const categories = [
         icon: "icons/msedge/laptopmag.webp",
         url: "https://www.laptopmag.com",
         apptype_hide: "msedge",
-        url2: "/msedge/laptopmag",
+        url2: "../msedge/laptopmag",
         apptype2: "wrapper",
       },
       {
@@ -2994,7 +2994,7 @@ export const categories = [
         nameKey: "level1techs_name",
         descriptionKey: "level1techs_desc",
         icon: "icons/wrappers/level1techs.webp",
-        url2: "/wrappers/level1techs",
+        url2: "../wrappers/level1techs",
         apptype2: "wrapper",
         url: "https://level1techs.com"
       },
@@ -3003,7 +3003,7 @@ export const categories = [
         nameKey: "gamersnexus_name",
         descriptionKey: "gamersnexus_desc",
         icon: "icons/wrappers/gamersnexus.webp",
-        url2: "/wrappers/gamersnexus",
+        url2: "../wrappers/gamersnexus",
         apptype2: "wrapper",
         url: "https://gamersnexus.net"
       },
@@ -3012,7 +3012,7 @@ export const categories = [
         nameKey: "beebom_name",
         descriptionKey: "beebom_desc",
         icon: "icons/wrappers/beebom.webp",
-        url2: "/wrappers/beebom",
+        url2: "../wrappers/beebom",
         apptype2: "wrapper",
         url: "https://beebom.com"
       },
@@ -3021,7 +3021,7 @@ export const categories = [
         nameKey: "fossforce_name",
         descriptionKey: "fossforce_desc",
         icon: "icons/wrappers/fossforce.webp",
-        url2: "/wrappers/fossforce",
+        url2: "../wrappers/fossforce",
         apptype2: "wrapper",
         url: "https://fossforce.com"
       },
@@ -3030,7 +3030,7 @@ export const categories = [
         nameKey: "fossdaily_name",
         descriptionKey: "fossdaily_desc",
         icon: "icons/msedge/fossdaily.webp",
-        url2: "/msedge/fossdaily",
+        url2: "../msedge/fossdaily",
         apptype2: "wrapper",
         url: "https://foss-daily.org"
       },
@@ -3039,7 +3039,7 @@ export const categories = [
         nameKey: "tomsguide_name",
         descriptionKey: "tomsguide_desc",
         icon: "icons/wrappers/tomsguide.webp",
-        url2: "/wrappers/tomsguide",
+        url2: "../wrappers/tomsguide",
         apptype2: "wrapper",
         url: "https://www.tomsguide.com"
       },
@@ -3048,7 +3048,7 @@ export const categories = [
         nameKey: "ninetofivegoogle_name",
         descriptionKey: "ninetofivegoogle_desc",
         icon: "icons/wrappers/ninetofivegoogle.webp",
-        url2: "/wrappers/ninetofivegoogle",
+        url2: "../wrappers/ninetofivegoogle",
         apptype2: "wrapper",
         url: "https://9to5google.com"
       },
@@ -3057,7 +3057,7 @@ export const categories = [
         nameKey: "pcgamer_name",
         descriptionKey: "pcgamer_desc",
         icon: "icons/wrappers/pcgamer.webp",
-        url2: "/wrappers/pcgamer",
+        url2: "../wrappers/pcgamer",
         apptype2: "wrapper",
         url: "https://www.pcgamer.com"
       },
@@ -3066,7 +3066,7 @@ export const categories = [
         nameKey: "videocardz_name",
         descriptionKey: "videocardz_desc",
         icon: "icons/wrappers/videocardz.webp",
-        url2: "/wrappers/videocardz",
+        url2: "../wrappers/videocardz",
         apptype2: "wrapper",
         url: "https://videocardz.com"
       },
@@ -3075,7 +3075,7 @@ export const categories = [
         nameKey: "makeuseof_name",
         descriptionKey: "makeuseof_desc",
         icon: "icons/wrappers/makeuseof.webp",
-        url2: "/wrappers/makeuseof",
+        url2: "../wrappers/makeuseof",
         apptype2: "wrapper",
         url: "https://www.makeuseof.com"
       },
@@ -3084,7 +3084,7 @@ export const categories = [
         nameKey: "pcguide_name",
         descriptionKey: "pcguide_desc",
         icon: "icons/wrappers/pcguide.webp",
-        url2: "/wrappers/pcguide",
+        url2: "../wrappers/pcguide",
         apptype2: "wrapper",
         url: "https://www.pcguide.com"
       },
@@ -3093,7 +3093,7 @@ export const categories = [
         nameKey: "theregister_name",
         descriptionKey: "theregister_desc",
         icon: "icons/wrappers/theregister.webp",
-        url2: "/wrappers/theregister",
+        url2: "../wrappers/theregister",
         apptype2: "wrapper",
         url: "https://www.theregister.com"
       },
@@ -3102,7 +3102,7 @@ export const categories = [
         nameKey: "gizmodo_name",
         descriptionKey: "gizmodo_desc",
         icon: "icons/msedge/gizmodo.webp",
-        url2: "/msedge/gizmodo",
+        url2: "../msedge/gizmodo",
         apptype2: "wrapper",
         url: "https://gizmodo.com"
       },
@@ -3111,7 +3111,7 @@ export const categories = [
         nameKey: "venturebeat_name",
         descriptionKey: "venturebeat_desc",
         icon: "icons/wrappers/venturebeat.webp",
-        url2: "/wrappers/venturebeat",
+        url2: "../wrappers/venturebeat",
         apptype2: "wrapper",
         url: "https://venturebeat.com"
       },
@@ -3120,7 +3120,7 @@ export const categories = [
         nameKey: "iphoneincanada_name",
         descriptionKey: "iphoneincanada_desc",
         icon: "icons/wrappers/iphoneincanada.webp",
-        url2: "/wrappers/iphoneincanada",
+        url2: "../wrappers/iphoneincanada",
         apptype2: "wrapper",
         url: "https://www.iphoneincanada.ca"
       },
@@ -3129,7 +3129,7 @@ export const categories = [
         nameKey: "gsmarena_name",
         descriptionKey: "gsmarena_desc",
         icon: "icons/wrappers/gsmarena.webp",
-        url2: "/wrappers/gsmarena",
+        url2: "../wrappers/gsmarena",
         apptype2: "wrapper",
         url: "https://www.gsmarena.com"
       },
@@ -3200,7 +3200,7 @@ export const categories = [
         nameKey: "armrepoverlt_name",
         descriptionKey: "armrepoverlt_desc",
         icon: "icons/wrappers/msstore.webp",
-        url2: "/wrappers/armrepoverlt",
+        url2: "../wrappers/armrepoverlt",
         url: "https://armrepo.ver.lt",
         apptype2: "wrapper"
       },
@@ -3258,7 +3258,7 @@ export const categories = [
         nameKey: "archive_name",
         descriptionKey: "archive_desc",
         icon: "icons/wrappers/archive.webp",
-        url2: "/wrappers/archive",
+        url2: "../wrappers/archive",
         url: "https://archive.org",
         apptype2: "wrapper"
       },
@@ -3266,7 +3266,7 @@ export const categories = [
         name: "APK Premier",
         nameKey: "apkpremier_name",
         icon: "icons/wrappers/apkpremier.webp",
-        url2: "/wrappers/apkpremier",
+        url2: "../wrappers/apkpremier",
         descriptionKey: "apkpremier_desc",
         url: "https://apkpremier.com",
         apptype2: "wrapper"
@@ -3276,7 +3276,7 @@ export const categories = [
         nameKey: "appleappstore_name",
         descriptionKey: "appleappstore_desc",
         icon: "icons/wrappers/appleappstore.webp",
-        url2: "/wrappers/appleappstore",
+        url2: "../wrappers/appleappstore",
         url: "https://apps.apple.com",
         apptype2: "wrapper"
       },
@@ -3285,7 +3285,7 @@ export const categories = [
         nameKey: "appadvice_name",
         descriptionKey: "appadvice_desc",
         icon: "icons/wrappers/appadvice.webp",
-        url2: "/wrappers/appadvice",
+        url2: "../wrappers/appadvice",
         url: "https://appadvice.com",
         apptype2: "wrapper"
       },
@@ -3294,7 +3294,7 @@ export const categories = [
         nameKey: "thepiratebay_name",
         descriptionKey: "thepiratebay_desc",
         icon: "icons/wrappers/thepiratebay.webp",
-        url2: "/wrappers/thepiratebay",
+        url2: "../wrappers/thepiratebay",
         apptype2: "wrapper",
         url: "https://thepiratebay.org"
       },
@@ -3303,7 +3303,7 @@ export const categories = [
         nameKey: "privacypack_name",
         descriptionKey: "privacypack_desc",
         icon: "icons/wrappers/privacypack.webp",
-        url2: "/wrappers/privacypack",
+        url2: "../wrappers/privacypack",
         apptype2: "wrapper",
         url: "https://privacypack.org"
       },
@@ -3312,7 +3312,7 @@ export const categories = [
         nameKey: "iptvtools_name",
         descriptionKey: "iptvtools_desc",
         icon: "icons/msedge/iptvtools.webp",
-        url2: "/msedge/iptvtools",
+        url2: "../msedge/iptvtools",
         apptype2: "wrapper",
         url: "https://iptv.hacks.tools"
       },
@@ -3321,7 +3321,7 @@ export const categories = [
         nameKey: "opensubtitles_name",
         descriptionKey: "opensubtitles_desc",
         icon: "icons/wrappers/opensubtitles.webp",
-        url2: "/wrappers/opensubtitles",
+        url2: "../wrappers/opensubtitles",
         apptype2: "wrapper",
         url: "https://www.opensubtitles.com"
       },
@@ -3392,7 +3392,7 @@ export const categories = [
         nameKey: "canva_name",
         descriptionKey: "canva_desc",
         icon: "icons/wrappers/canva.webp",
-        url2: "/wrappers/canva",
+        url2: "../wrappers/canva",
         url: "https://www.canva.com",
         apptype2: "wrapper"
       },
@@ -3401,7 +3401,7 @@ export const categories = [
         nameKey: "figma_name",
         descriptionKey: "figma_desc",
         icon: "icons/msedge/figma.webp",
-        url2: "/msedge/figma",
+        url2: "../msedge/figma",
         apptype2: "wrapper",
         url: "https://www.figma.com"
       },
@@ -3410,7 +3410,7 @@ export const categories = [
         nameKey: "subtitletools_name",
         descriptionKey: "subtitletools_desc",
         icon: "icons/wrappers/subtitletools.webp",
-        url2: "/wrappers/subtitletools",
+        url2: "../wrappers/subtitletools",
         apptype2: "wrapper",
         url: "https://subtitletools.com"
       },
@@ -3419,7 +3419,7 @@ export const categories = [
         nameKey: "freevideosplitter_name",
         descriptionKey: "freevideosplitter_desc",
         icon: "icons/msedge/freevideosplitter.webp",
-        url2: "/msedge/freevideosplitter",
+        url2: "../msedge/freevideosplitter",
         apptype2: "wrapper",
         url: "https://freevideosplitter.org"
       },
@@ -3637,19 +3637,19 @@ export const categories = [
         icon: "icons/pwa/tuko.webp",
         url: "https://www.tuko.co.ke"
       },
-      { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url2: "/wrappers/nytimes", url: "https://www.nytimes.com", apptype2: "wrapper" },
-      { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url2: "/wrappers/washingtonpost", url: "https://www.washingtonpost.com", apptype2: "wrapper" },
-      { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url2: "/wrappers/reuters", url: "https://www.reuters.com", apptype2: "wrapper" },
-      { name: "CNN", nameKey: "cnn_name", descriptionKey: "cnn_desc", icon: "icons/wrappers/cnn.webp", url2: "/wrappers/cnn", url: "https://www.cnn.com", apptype2: "wrapper" },
-      { name: "Fox News", nameKey: "foxnews_name", descriptionKey: "foxnews_desc", icon: "icons/wrappers/foxnews.webp", url2: "/wrappers/foxnews", url: "https://www.foxnews.com", apptype2: "wrapper" },
-      { name: "USA Today", nameKey: "usatoday_name", descriptionKey: "usatoday_desc", icon: "icons/wrappers/usatoday.webp", url2: "/wrappers/usatoday", url: "https://www.usatoday.com", apptype2: "wrapper" },
-      { name: "REVCOM.US", nameKey: "revcom_name", descriptionKey: "revcom_desc", icon: "icons/wrappers/revcomus.webp", url2: "/wrappers/revcomus", url: "https://revcom.us/en", apptype2: "wrapper" },
-      { name: "Al Jazeera", nameKey: "aljazeera_name", descriptionKey: "aljazeera_desc", icon: "icons/wrappers/aljazeera.webp", url2: "/wrappers/aljazeera", url: "https://www.aljazeera.com", apptype2: "wrapper" },
-      { name: "Foreign Policy", nameKey: "foreignpolicy_name", descriptionKey: "foreignpolicy_desc", icon: "icons/wrappers/foreignpolicy.webp", url2: "/wrappers/foreignpolicy", url: "https://foreignpolicy.com", apptype2: "wrapper"},
-      { name: "The Telegraph", nameKey: "thetelegraph_name", descriptionKey: "thetelegraph_desc", icon: "icons/wrappers/thetelegraph.webp", url2: "/wrappers/thetelegraph", apptype2: "wrapper", url: "https://www.telegraph.co.uk" },
-      { name: "CGTN", nameKey: "cgtn_name", descriptionKey: "cgtn_desc", icon: "icons/wrappers/cgtn.webp", url2: "/wrappers/cgtn", apptype2: "wrapper", url: "https://www.cgtn.com" },
-      { name: "CCTV", nameKey: "cctv_name", descriptionKey: "cctv_desc", icon: "icons/wrappers/cctv.webp", url2: "/wrappers/cctv", apptype2: "wrapper", apptype_hide: "msedge", url: "https://tv.cctv.com" },
-      { name: "Fortune", nameKey: "fortune_name", descriptionKey: "fortune_desc", icon: "icons/wrappers/fortune.webp", url2: "/wrappers/fortune", apptype2: "wrapper", url: "https://fortune.com"},
+      { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url2: "../wrappers/nytimes", url: "https://www.nytimes.com", apptype2: "wrapper" },
+      { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url2: "../wrappers/washingtonpost", url: "https://www.washingtonpost.com", apptype2: "wrapper" },
+      { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url2: "../wrappers/reuters", url: "https://www.reuters.com", apptype2: "wrapper" },
+      { name: "CNN", nameKey: "cnn_name", descriptionKey: "cnn_desc", icon: "icons/wrappers/cnn.webp", url2: "../wrappers/cnn", url: "https://www.cnn.com", apptype2: "wrapper" },
+      { name: "Fox News", nameKey: "foxnews_name", descriptionKey: "foxnews_desc", icon: "icons/wrappers/foxnews.webp", url2: "../wrappers/foxnews", url: "https://www.foxnews.com", apptype2: "wrapper" },
+      { name: "USA Today", nameKey: "usatoday_name", descriptionKey: "usatoday_desc", icon: "icons/wrappers/usatoday.webp", url2: "../wrappers/usatoday", url: "https://www.usatoday.com", apptype2: "wrapper" },
+      { name: "REVCOM.US", nameKey: "revcom_name", descriptionKey: "revcom_desc", icon: "icons/wrappers/revcomus.webp", url2: "../wrappers/revcomus", url: "https://revcom.us/en", apptype2: "wrapper" },
+      { name: "Al Jazeera", nameKey: "aljazeera_name", descriptionKey: "aljazeera_desc", icon: "icons/wrappers/aljazeera.webp", url2: "../wrappers/aljazeera", url: "https://www.aljazeera.com", apptype2: "wrapper" },
+      { name: "Foreign Policy", nameKey: "foreignpolicy_name", descriptionKey: "foreignpolicy_desc", icon: "icons/wrappers/foreignpolicy.webp", url2: "../wrappers/foreignpolicy", url: "https://foreignpolicy.com", apptype2: "wrapper"},
+      { name: "The Telegraph", nameKey: "thetelegraph_name", descriptionKey: "thetelegraph_desc", icon: "icons/wrappers/thetelegraph.webp", url2: "../wrappers/thetelegraph", apptype2: "wrapper", url: "https://www.telegraph.co.uk" },
+      { name: "CGTN", nameKey: "cgtn_name", descriptionKey: "cgtn_desc", icon: "icons/wrappers/cgtn.webp", url2: "../wrappers/cgtn", apptype2: "wrapper", url: "https://www.cgtn.com" },
+      { name: "CCTV", nameKey: "cctv_name", descriptionKey: "cctv_desc", icon: "icons/wrappers/cctv.webp", url2: "../wrappers/cctv", apptype2: "wrapper", apptype_hide: "msedge", url: "https://tv.cctv.com" },
+      { name: "Fortune", nameKey: "fortune_name", descriptionKey: "fortune_desc", icon: "icons/wrappers/fortune.webp", url2: "../wrappers/fortune", apptype2: "wrapper", url: "https://fortune.com"},
       {
         name: "Devdiscourse",
         nameKey: "devdiscourse_name",
@@ -3662,7 +3662,7 @@ export const categories = [
         nameKey: "factcheck_name",
         descriptionKey: "factcheck_desc",
         icon: "icons/msedge/factcheck.webp",
-        url2: "/msedge/factcheck",
+        url2: "../msedge/factcheck",
         url: "https://www.factcheck.org",
         apptype2: "wrapper"
       },
@@ -3671,7 +3671,7 @@ export const categories = [
         nameKey: "scientificamerican_name",
         descriptionKey: "scientificamerican_desc",
         icon: "icons/wrappers/scientificamerican.webp",
-        url2: "/wrappers/scientificamerican",
+        url2: "../wrappers/scientificamerican",
         apptype2: "wrapper",
         url: "https://www.scientificamerican.com"
       },
@@ -3680,25 +3680,25 @@ export const categories = [
         nameKey: "popularmechanics_name",
         descriptionKey: "popularmechanics_desc",
         icon: "icons/wrappers/popularmechanics.webp",
-        url2: "/wrappers/popularmechanics",
+        url2: "../wrappers/popularmechanics",
         apptype2: "wrapper",
         url: "https://www.popularmechanics.com"
       },
-      { name: "Sacramento Bee", nameKey: "sacramentobee_name", descriptionKey: "sacramentobee_desc", icon: "icons/wrappers/sacramentobee.webp", url2: "/wrappers/sacramentobee", apptype2: "wrapper", url: "https://www.sacbee.com" },
-      { name: "POLITICO", nameKey: "politico_name", descriptionKey: "politico_desc", icon: "icons/wrappers/politico.webp", url2: "/wrappers/politico", apptype2: "wrapper", url: "https://www.politico.com" },
-      { name: "The Daily Signal", nameKey: "dailysignal_name", descriptionKey: "dailysignal_desec", icon: "icons/wrappers/dailysignal.webp" , url2: "/wrappers/dailysignal", url: "https://www.dailysignal.com", apptype2: "wrapper" },
-      { name: "FreightWaves", nameKey: "freightwaves_name", descriptionKey: "freightwaves_desc", icon: "icons/wrappers/freightwaves.webp", url2: "/wrappers/freightwaves", url: "https://www.freightwaves.com", apptype2: "wrapper" },
-      { name: "ADWEEK", nameKey: "adweek_name", descriptionKey: "adweek_desc", url2: "/wrappers/adweek", url: "https://www.adweek.com", icon: "icons/wrappers/adweek.webp", apptype2: "wrapper" },
-      { name: "HuffPost", nameKey: "huffpost_name", descriptionKey: "huffpost_desc", url2: "/wrappers/huffpost", url: "https://www.huffpost.com", icon: "icons/wrappers/huffpost.webp", apptype2: "wrapper" },
-      { name: "Miami Herald", nameKey: "miamiherald_name", descriptionKey: "miamiherald_desc", url2: "/wrappers/miamiherald", url: "https://www.miamiherald.com", icon: "icons/wrappers/miamiherald.webp", apptype2: "wrapper" },
-      { name: "Financial Times", nameKey: "financialtimes_name", descriptionKey: "financialtimes_desc", url2: "/wrappers/financialtimes", icon: "icons/wrappers/financialtimes.webp", url: "https://www.ft.com", apptype2: "wrapper" },
-      { name: "Delaware Online", nameKey: "delawareonline_name", descriptionKey: "delawareonline_desc", url2: "/wrappers/delawareonline", url: "https://www.delawareonline.com", icon: "icons/wrappers/delawareonline.webp", apptype2: "wrapper"},
+      { name: "Sacramento Bee", nameKey: "sacramentobee_name", descriptionKey: "sacramentobee_desc", icon: "icons/wrappers/sacramentobee.webp", url2: "../wrappers/sacramentobee", apptype2: "wrapper", url: "https://www.sacbee.com" },
+      { name: "POLITICO", nameKey: "politico_name", descriptionKey: "politico_desc", icon: "icons/wrappers/politico.webp", url2: "../wrappers/politico", apptype2: "wrapper", url: "https://www.politico.com" },
+      { name: "The Daily Signal", nameKey: "dailysignal_name", descriptionKey: "dailysignal_desec", icon: "icons/wrappers/dailysignal.webp" , url2: "../wrappers/dailysignal", url: "https://www.dailysignal.com", apptype2: "wrapper" },
+      { name: "FreightWaves", nameKey: "freightwaves_name", descriptionKey: "freightwaves_desc", icon: "icons/wrappers/freightwaves.webp", url2: "../wrappers/freightwaves", url: "https://www.freightwaves.com", apptype2: "wrapper" },
+      { name: "ADWEEK", nameKey: "adweek_name", descriptionKey: "adweek_desc", url2: "../wrappers/adweek", url: "https://www.adweek.com", icon: "icons/wrappers/adweek.webp", apptype2: "wrapper" },
+      { name: "HuffPost", nameKey: "huffpost_name", descriptionKey: "huffpost_desc", url2: "../wrappers/huffpost", url: "https://www.huffpost.com", icon: "icons/wrappers/huffpost.webp", apptype2: "wrapper" },
+      { name: "Miami Herald", nameKey: "miamiherald_name", descriptionKey: "miamiherald_desc", url2: "../wrappers/miamiherald", url: "https://www.miamiherald.com", icon: "icons/wrappers/miamiherald.webp", apptype2: "wrapper" },
+      { name: "Financial Times", nameKey: "financialtimes_name", descriptionKey: "financialtimes_desc", url2: "../wrappers/financialtimes", icon: "icons/wrappers/financialtimes.webp", url: "https://www.ft.com", apptype2: "wrapper" },
+      { name: "Delaware Online", nameKey: "delawareonline_name", descriptionKey: "delawareonline_desc", url2: "../wrappers/delawareonline", url: "https://www.delawareonline.com", icon: "icons/wrappers/delawareonline.webp", apptype2: "wrapper"},
       {
         name: "Scripps News",
         nameKey: "scrippsnews_name",
         descriptionKey: "scrippsnews_desc",
         icon: "icons/wrappers/scrippsnews.webp",
-        url2: "/wrappers/scrippsnews",
+        url2: "../wrappers/scrippsnews",
         url: "https://www.scrippsnews.com",
         apptype2: "wrapper"
       },
@@ -3707,7 +3707,7 @@ export const categories = [
         nameKey: "sfchronicle_name",
         descriptionKey: "sfchronicle_desc",
         icon: "icons/wrappers/sfchronicle.webp",
-        url2: "/wrappers/sfchronicle",
+        url2: "../wrappers/sfchronicle",
         url: "https://www.sfchronicle.com",
         apptype2: "wrapper"
       },
@@ -3716,7 +3716,7 @@ export const categories = [
         nameKey: "archyde_name",
         descriptionKey: "archyde_desc",
         icon: "icons/wrappers/archyde.webp",
-        url2: "/wrappers/archyde",
+        url2: "../wrappers/archyde",
         apptype2: "wrapper",
         url: "https://www.archyde.com"
       },
@@ -3725,7 +3725,7 @@ export const categories = [
         nameKey: "democracynow_name",
         descriptionKey: "democracynow_desc",
         icon: "icons/wrappers/democracynow.webp",
-        url2: "/wrappers/democracynow",
+        url2: "../wrappers/democracynow",
         apptype2: "wrapper",
         url: "https://www.democracynow.org"
       },
@@ -3734,7 +3734,7 @@ export const categories = [
         nameKey: "salon_name",
         descriptionKey: "salon_desc",
         icon: "icons/msedge/salon.webp",
-        url2: "/msedge/salon",
+        url2: "../msedge/salon",
         apptype_hide: "msedge",
         url: "https://www.salon.com",
         apptype2: "wrapper"
@@ -3744,7 +3744,7 @@ export const categories = [
         nameKey: "npr_name",
         descriptionKey: "npr_desc",
         icon: "icons/msedge/npr.webp",
-        url2: "/msedge/npr",
+        url2: "../msedge/npr",
         apptype2: "wrapper",
         url: "https://www.npr.org",
         apptype_hide: "msedge",
@@ -3754,7 +3754,7 @@ export const categories = [
         nameKey: "futurity_name",
         descriptionKey: "futurity_desc",
         icon: "icons/wrappers/futurity.webp",
-        url2: "/wrappers/futurity",
+        url2: "../wrappers/futurity",
         apptype2: "wrapper",
         url: "https://www.futurity.org"
       },
@@ -3763,7 +3763,7 @@ export const categories = [
         nameKey: "people_name",
         descriptionKey: "people_desc",
         icon: "icons/wrappers/people.webp",
-        url2: "/wrappers/people",
+        url2: "../wrappers/people",
         apptype2: "wrapper",
         url: "https://people.com"
       },
@@ -3772,7 +3772,7 @@ export const categories = [
         nameKey: "hellopartner_name",
         descriptionKey: "hellopartner_desc",
         icon: "icons/wrappers/hellopartner.webp",
-        url2: "/wrappers/hellopartner",
+        url2: "../wrappers/hellopartner",
         apptype2: "wrapper",
         url: "https://hellopartner.com"
       },
@@ -3781,7 +3781,7 @@ export const categories = [
         nameKey: "cspan_name",
         descriptionKey: "cspan_desc",
         icon: "icons/wrappers/cspan.webp",
-        url2: "/wrappers/cspan",
+        url2: "../wrappers/cspan",
         apptype2: "wrapper",
         url: "https://www.c-span.org"
       },
@@ -3790,7 +3790,7 @@ export const categories = [
         nameKey: "icij_name",
         descriptionKey: "icij_desc",
         icon: "icons/wrappers/icij.webp",
-        url2: "/wrappers/icij",
+        url2: "../wrappers/icij",
         apptype2: "wrapper",
         url: "https://www.icij.org"
       },
@@ -3799,7 +3799,7 @@ export const categories = [
         nameKey: "theatlantic_name",
         descriptionKey: "theatlantic_desc",
         icon: "icons/wrappers/theatlantic.webp",
-        url2: "/wrappers/theatlantic",
+        url2: "../wrappers/theatlantic",
         apptype2: "wrapper",
         url: "https://www.theatlantic.com"
       },
@@ -3808,11 +3808,11 @@ export const categories = [
         nameKey: "zaobao_name",
         descriptionKey: "zaobao_desc",
         icon: "icons/wrappers/zaobao.webp",
-        url2: "/wrappers/zaobao",
+        url2: "../wrappers/zaobao",
         apptype2: "wrapper",
         url: "https://www.zaobao.com.sg"
       },
-      { name: "ifeng (凤凰网)", nameKey: "ifeng_name", descriptionKey: "ifeng_desc", icon: "icons/wrappers/ifeng.webp", url2: "/wrappers/ifeng", url: "https://www.ifeng.com", apptype2: "wrapper" },
+      { name: "ifeng (凤凰网)", nameKey: "ifeng_name", descriptionKey: "ifeng_desc", icon: "icons/wrappers/ifeng.webp", url2: "../wrappers/ifeng", url: "https://www.ifeng.com", apptype2: "wrapper" },
       { name: "Tencent News (腾讯新闻)", nameKey: "tencent_name", descriptionKey: "tencent_desc", icon: "icons/pwa/tencent_news.webp", url: "https://news.qq.com" },
       { name: "Baidu (百度)", nameKey: "baidu_name", descriptionKey: "baidu_desc", icon: "icons/pwa/baidu.webp", url: "https://www.baidu.com" },
       { name: "Sohu (搜狐)", nameKey: "sohu_name", descriptionKey: "sohu_desc", icon: "icons/pwa/sohu.webp", url: "https://www.sohu.com" },
@@ -3821,7 +3821,7 @@ export const categories = [
         nameKey: "guanchazhe_name",
         descriptionKey: "guanchazhe_desc",
         icon: "icons/wrappers/guanchazhe.webp",
-        url2: "/wrappers/guanchazhe",
+        url2: "../wrappers/guanchazhe",
         url: "https://www.guancha.cn",
         apptype2: "wrapper"
       },
@@ -3830,7 +3830,7 @@ export const categories = [
         nameKey: "wuyouzhixiang_name",
         descriptionKey: "wuyouzhixiang_desc",
         icon: "icons/wrappers/wuyouzhixiang.webp",
-        url2: "/wrappers/wuyouzhixiang",
+        url2: "../wrappers/wuyouzhixiang",
         url: "https://www.wyzxwk.com",
         apptype2: "wrapper"
       },
@@ -3839,7 +3839,7 @@ export const categories = [
         nameKey: "honggehui_name",
         descriptionKey: "honggehui_desc",
         icon: "icons/wrappers/honggehui.webp",
-        url2: "/wrappers/honggehui",
+        url2: "../wrappers/honggehui",
         url: "https://www.szhgh.com",
         apptype2: "wrapper"
       },
@@ -3848,7 +3848,7 @@ export const categories = [
         nameKey: "xinyusi_name",
         descriptionKey: "xinyusi_desc",
         icon: "icons/wrappers/xinyusi.webp",
-        url2: "/wrappers/xinyusi",
+        url2: "../wrappers/xinyusi",
         url: "https://xinyusi.org",
         apptype2: "wrapper"
       },
@@ -3858,7 +3858,7 @@ export const categories = [
         descriptionKey: "21jingji_desc",
         icon: "icons/msedge/21jingji.webp",
         url: "https://www.21jingji.com",
-        url2: "/msedge/21jingji",
+        url2: "../msedge/21jingji",
         apptype2: "wrapper",
       },
       {
@@ -3866,17 +3866,17 @@ export const categories = [
         nameKey: "thechosundaily_name",
         descriptionKey: "thechosundaily_desc",
         icon: "icons/wrappers/thechosundaily.webp",
-        url2: "/wrappers/thechosundaily",
+        url2: "../wrappers/thechosundaily",
         url: "https://www.chosun.com",
         apptype2: "wrapper"
       },
-      { name: "Radio Television of Afghanistan (RTA)", nameKey: "rtaaf_name", descriptionKey: "rtaaf_desc", url2: "/wrappers/rtaaf", url: "https://rta.af", icon: "icons/wrappers/rtaaf.webp", apptype2: "wrapper" },
+      { name: "Radio Television of Afghanistan (RTA)", nameKey: "rtaaf_name", descriptionKey: "rtaaf_desc", url2: "../wrappers/rtaaf", url: "https://rta.af", icon: "icons/wrappers/rtaaf.webp", apptype2: "wrapper" },
       {
         name: "QStheory (求是)",
         nameKey: "qstheory_name",
         descriptionKey: "qstheory_desc",
         icon: "icons/wrappers/qstheory.webp",
-        url2: "/wrappers/qstheory",
+        url2: "../wrappers/qstheory",
         apptype2: "wrapper",
         url: "https://www.qstheory.cn"
       },
@@ -3885,7 +3885,7 @@ export const categories = [
         nameKey: "cpimlm_name",
         descriptionKey: "cpimlm_desc",
         icon: "icons/msedge/cpimlm.webp",
-        url2: "/msedge/cpimlm",
+        url2: "../msedge/cpimlm",
         apptype_hide: "msedge",
         apptype2: "wrapper",
         url: "https://cpimlm.org"
@@ -3895,7 +3895,7 @@ export const categories = [
         nameKey: "geopoliticaleconomy_name",
         descriptionKey: "geopoliticaleconomy_desc",
         icon: "icons/wrappers/geopoliticaleconomy.webp",
-        url2: "/wrappers/geopoliticaleconomy",
+        url2: "../wrappers/geopoliticaleconomy",
         apptype2: "wrapper",
         url: "https://geopoliticaleconomy.com"
       },
@@ -3904,7 +3904,7 @@ export const categories = [
         nameKey: "worldaffairsincontext_name",
         descriptionKey: "worldaffairsincontext_desc",
         icon: "icons/wrappers/worldaffairsincontext.webp",
-        url2: "/wrappers/worldaffairsincontext",
+        url2: "../wrappers/worldaffairsincontext",
         apptype2: "wrapper",
         url: "https://www.worldaffairsincontext.com"
       },
@@ -3913,7 +3913,7 @@ export const categories = [
         nameKey: "democracyatwork_name",
         descriptionKey: "democracyatwork_desc",
         icon: "icons/wrappers/democracyatwork.webp",
-        url2: "/wrappers/democracyatwork",
+        url2: "../wrappers/democracyatwork",
         apptype2: "wrapper",
         url: "https://www.democracyatwork.info"
       },
@@ -3922,7 +3922,7 @@ export const categories = [
         nameKey: "propublica_name",
         descriptionKey: "propublica_desc",
         icon: "icons/wrappers/propublica.webp",
-        url2: "/wrappers/propublica",
+        url2: "../wrappers/propublica",
         apptype2: "wrapper",
         url: "https://www.propublica.org"
       },
@@ -3931,7 +3931,7 @@ export const categories = [
         nameKey: "barbench_name",
         descriptionKey: "barbench_desc",
         icon: "icons/wrappers/barbench.webp",
-        url2: "/wrappers/barbench",
+        url2: "../wrappers/barbench",
         apptype2: "wrapper",
         url: "https://www.barandbench.com"
       },
@@ -3940,7 +3940,7 @@ export const categories = [
         nameKey: "mprnews_name",
         descriptionKey: "mprnews_desc",
         icon: "icons/wrappers/mprnews.webp",
-        url2: "/wrappers/mprnews",
+        url2: "../wrappers/mprnews",
         apptype2: "wrapper",
         url: "https://www.mprnews.org"
       },
@@ -3949,7 +3949,7 @@ export const categories = [
         nameKey: "xinhuanews_name",
         descriptionKey: "xinhuanews_desc",
         icon: "icons/wrappers/xinhuanews.webp",
-        url2: "/wrappers/xinhuaenglish",
+        url2: "../wrappers/xinhuaenglish",
         apptype2: "wrapper",
         url: "https://english.news.cn"
       },
@@ -3958,7 +3958,7 @@ export const categories = [
         nameKey: "thefluctus_name",
         descriptionKey: "thefluctus_desc",
         icon: "icons/wrappers/thefluctus.webp",
-        url2: "/wrappers/thefluctus",
+        url2: "../wrappers/thefluctus",
         apptype2: "wrapper",
         url: "https://www.thefluctus.com"
       },
@@ -3967,7 +3967,7 @@ export const categories = [
         nameKey: "lawandcrime_name",
         descriptionKey: "lawandcrime_desc",
         icon: "icons/wrappers/lawandcrime.webp",
-        url2: "/wrappers/lawandcrime",
+        url2: "../wrappers/lawandcrime",
         apptype2: "wrapper",
         url: "https://lawandcrime.com"
       },
@@ -3976,7 +3976,7 @@ export const categories = [
         nameKey: "livescience_name",
         descriptionKey: "livescience_desc",
         icon: "icons/wrappers/livescience.webp",
-        url2: "/wrappers/livescience",
+        url2: "../wrappers/livescience",
         apptype2: "wrapper",
         url: "https://www.livescience.com"
       },
@@ -3985,7 +3985,7 @@ export const categories = [
         nameKey: "wbko_name",
         descriptionKey: "wbko_desc",
         icon: "icons/wrappers/wbko.webp",
-        url2: "/wrappers/wbko",
+        url2: "../wrappers/wbko",
         apptype2: "wrapper",
         url: "https://www.wbko.com"
       },
@@ -3994,7 +3994,7 @@ export const categories = [
         nameKey: "westernjournal_name",
         descriptionKey: "westernjournal_desc",
         icon: "icons/wrappers/westernjournal.webp",
-        url2: "/wrappers/westernjournal",
+        url2: "../wrappers/westernjournal",
         apptype2: "wrapper",
         url: "https://www.westernjournal.com"
       },
@@ -4003,7 +4003,7 @@ export const categories = [
         nameKey: "mediaite_name",
         descriptionKey: "mediaite_desc",
         icon: "icons/wrappers/mediaite.webp",
-        url2: "/wrappers/mediaite",
+        url2: "../wrappers/mediaite",
         apptype2: "wrapper",
         url: "https://www.mediaite.com"
       },
@@ -4012,7 +4012,7 @@ export const categories = [
         nameKey: "surprisingethics_name",
         descriptionKey: "surprisingethics_desc",
         icon: "icons/msedge/surprisingethics.webp",
-        url2: "/msedge/surprisingethics",
+        url2: "../msedge/surprisingethics",
         apptype2: "wrapper",
         url: "https://surprisingethics.buzzsprout.com"
       },
@@ -4021,7 +4021,7 @@ export const categories = [
         nameKey: "myspa_name",
         descriptionKey: "myspa_desc",
         icon: "icons/wrappers/myspa.webp",
-        url2: "/wrappers/myspa",
+        url2: "../wrappers/myspa",
         apptype2: "wrapper",
         url: "https://myspa.nikkan-spa.jp"
       },
@@ -4030,7 +4030,7 @@ export const categories = [
         nameKey: "joshispa_name",
         descriptionKey: "joshispa_desc",
         icon: "icons/wrappers/joshispa.webp",
-        url2: "/wrappers/joshispa",
+        url2: "../wrappers/joshispa",
         apptype2: "wrapper",
         url: "https://joshi-spa.jp"
       },
@@ -4047,7 +4047,7 @@ export const categories = [
         nameKey: "swissinfo_name",
         descriptionKey: "swissinfo_desc",
         icon: "icons/msedge/swissinfo.webp",
-        url2: "/msedge/swissinfo",
+        url2: "../msedge/swissinfo",
         apptype2: "wrapper",
         apptype_hide: "msedge",
         url: "https://www.swissinfo.ch"
@@ -4057,7 +4057,7 @@ export const categories = [
         nameKey: "novayagazeta_name",
         descriptionKey: "novayagazeta_desc",
         icon: "icons/msedge/novayagazeta.webp",
-        url2: "/msedge/novayagazeta",
+        url2: "../msedge/novayagazeta",
         apptype2: "wrapper",
         apptype_hide: "msedge",
         url: "https://novayagazeta.eu"
@@ -4070,14 +4070,14 @@ export const categories = [
     apps: [
       { name: "InStyle", nameKey: "instyle_name", descriptionKey: "instyle_desc", icon: "icons/pwa/instyle.webp", url: "https://www.instyle.com" },
       { name: "ELLE", nameKey: "elle_name", descriptionKey: "elle_desc", icon: "icons/pwa/elle.webp", url: "https://www.elle.com" },
-      { name: "Marie Claire", nameKey: "marieclaire_name", descriptionKey: "marieclaire_desc", icon: "icons/wrappers/marieclaire.webp", url2: "/wrappers/marieclaire", apptype2: "wrapper", url: "https://www.marieclaire.com" },
-      { name: "Yueyanshe (悦颜社)", nameKey: "yueyanshe_name", descriptionKey: "yueyanshe_desc", icon: "icons/wrappers/yueyanshe.webp", url2: "/wrappers/yueyanshe", apptype2: "wrapper", url: "https://yueyanshe.com" },
+      { name: "Marie Claire", nameKey: "marieclaire_name", descriptionKey: "marieclaire_desc", icon: "icons/wrappers/marieclaire.webp", url2: "../wrappers/marieclaire", apptype2: "wrapper", url: "https://www.marieclaire.com" },
+      { name: "Yueyanshe (悦颜社)", nameKey: "yueyanshe_name", descriptionKey: "yueyanshe_desc", icon: "icons/wrappers/yueyanshe.webp", url2: "../wrappers/yueyanshe", apptype2: "wrapper", url: "https://yueyanshe.com" },
       {
         name: "WWD",
         nameKey: "wwd_name",
         descriptionKey: "wwd_desc",
         icon: "icons/wrappers/wwd.webp",
-        url2: "/wrappers/wwd",
+        url2: "../wrappers/wwd",
         apptype2: "wrapper",
         url: "https://wwd.com"
       },
@@ -4086,7 +4086,7 @@ export const categories = [
         nameKey: "harpersbazaar_name",
         descriptionKey: "harpersbazaar_desc",
         icon: "icons/wrappers/harpersbazaar.webp",
-        url2: "/wrappers/harpersbazaar",
+        url2: "../wrappers/harpersbazaar",
         apptype2: "wrapper",
         url: "https://www.harpersbazaar.com"
       },
@@ -4095,7 +4095,7 @@ export const categories = [
         nameKey: "thelist_name",
         descriptionKey: "thelist_desc",
         icon: "icons/wrappers/thelist.webp",
-        url2: "/wrappers/thelist",
+        url2: "../wrappers/thelist",
         apptype2: "wrapper",
         url: "https://www.thelist.com"
       },
@@ -4137,20 +4137,20 @@ export const categories = [
         icon: "icons/pwa/weebcentral.webp",
         url: "https://weebcentral.com"
       },
-      { name: "Lightnovel Kingdom (轻之国度)", nameKey: "lightnovel_name", descriptionKey: "lightnovel_desc", icon: "icons/wrappers/lightnovelkingdom.webp", url2: "/wrappers/lightnovelkingdom", apptype2: "wrapper", url: "https://www.lightnovel.fun/cn" },
-      { name: "WeChat Read (微信读书)", nameKey: "wechatread_name", descriptionKey: "wechatread_desc", icon: "icons/wrappers/wechatread.webp", url2: "/wrappers/wechatread", apptype2: "wrapper", url: "https://weread.qq.com" },
+      { name: "Lightnovel Kingdom (轻之国度)", nameKey: "lightnovel_name", descriptionKey: "lightnovel_desc", icon: "icons/wrappers/lightnovelkingdom.webp", url2: "../wrappers/lightnovelkingdom", apptype2: "wrapper", url: "https://www.lightnovel.fun/cn" },
+      { name: "WeChat Read (微信读书)", nameKey: "wechatread_name", descriptionKey: "wechatread_desc", icon: "icons/wrappers/wechatread.webp", url2: "../wrappers/wechatread", apptype2: "wrapper", url: "https://weread.qq.com" },
       { name: "Qingting FM (蜻蜓FM)", nameKey: "qingtingfm_name", descriptionKey: "qingtingfm_desc", icon: "icons/wrappers/qingtingfm.webp", apptype2: "wrapper", url: "https://www.qtfm.cn" },
-      { name: "Ximalaya (喜马拉雅)", nameKey: "ximalaya_name", descriptionKey: "ximalaya_desc", icon: "icons/wrappers/ximalaya.webp", url2: "/wrappers/ximalaya", apptype2: "wrapper", url: "https://www.ximalaya.com" },
-      { name: "TED", nameKey: "ted_name", descriptionKey: "ted_desc", icon: "icons/wrappers/ted.webp", url2: "/wrappers/ted", apptype2: "wrapper", url: "https://www.ted.com" },
-      { name: "Netflix", nameKey: "netflix_name", descriptionKey: "netflix_desc", icon: "icons/wrappers/netflix.webp", url2: "/wrappers/netflix", apptype2: "wrapper", url: "https://www.netflix.com" },
-      { name: "Pixiv", nameKey: "pixiv_name", descriptionKey: "pixiv_desc", icon: "icons/wrappers/pixiv.webp", url2: "/wrappers/pixiv", apptype2: "wrapper", url: "https://www.pixiv.net" },
-      { name: "DramaBox", nameKey: "dramabox_name", descriptionKey: "dramabox_desc", icon: "icons/wrappers/dramabox.webp", url2: "/wrappers/dramabox", apptype2: "wrapper", url: "https://www.dramaboxapp.com" },
+      { name: "Ximalaya (喜马拉雅)", nameKey: "ximalaya_name", descriptionKey: "ximalaya_desc", icon: "icons/wrappers/ximalaya.webp", url2: "../wrappers/ximalaya", apptype2: "wrapper", url: "https://www.ximalaya.com" },
+      { name: "TED", nameKey: "ted_name", descriptionKey: "ted_desc", icon: "icons/wrappers/ted.webp", url2: "../wrappers/ted", apptype2: "wrapper", url: "https://www.ted.com" },
+      { name: "Netflix", nameKey: "netflix_name", descriptionKey: "netflix_desc", icon: "icons/wrappers/netflix.webp", url2: "../wrappers/netflix", apptype2: "wrapper", url: "https://www.netflix.com" },
+      { name: "Pixiv", nameKey: "pixiv_name", descriptionKey: "pixiv_desc", icon: "icons/wrappers/pixiv.webp", url2: "../wrappers/pixiv", apptype2: "wrapper", url: "https://www.pixiv.net" },
+      { name: "DramaBox", nameKey: "dramabox_name", descriptionKey: "dramabox_desc", icon: "icons/wrappers/dramabox.webp", url2: "../wrappers/dramabox", apptype2: "wrapper", url: "https://www.dramaboxapp.com" },
       {
         name: "Yinghua Anime (樱花动漫)⚠️💣",
         nameKey: "yinghuafabu_name",
         descriptionKey: "yinghuafabu_desc",
         icon: "icons/wrappers/yinghuafabu.webp",
-        url2: "/wrappers/yinghuafabu",
+        url2: "../wrappers/yinghuafabu",
         apptype2: "wrapper",
         hide: true,
         url: "https://www.yinghuafabu.com"
@@ -4160,7 +4160,7 @@ export const categories = [
         nameKey: "gying_name",
         descriptionKey: "gying_desc",
         icon: "icons/wrappers/gying.webp",
-        url2: "/wrappers/gying",
+        url2: "../wrappers/gying",
         apptype2: "wrapper",
         url: "https://www.gying.si"
       },
@@ -4169,7 +4169,7 @@ export const categories = [
         nameKey: "afv_name",
         descriptionKey: "afv_desc",
         icon: "icons/wrappers/afv.webp",
-        url2: "/wrappers/afv",
+        url2: "../wrappers/afv",
         apptype2: "wrapper",
         url: "https://www.afv.com"
       },
@@ -4178,7 +4178,7 @@ export const categories = [
         nameKey: "dailymail_name",
         descriptionKey: "dailymail_desc",
         icon: "icons/wrappers/dailymail.webp",
-        url2: "/wrappers/dailymail",
+        url2: "../wrappers/dailymail",
         apptype2: "wrapper",
         url: "https://www.dailymail.co.uk"
       },
@@ -4326,7 +4326,7 @@ export const categories = [
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",
         icon: "icons/wrappers/chronodivide.webp",
-        url2: "/wrappers/chronodivide",
+        url2: "../wrappers/chronodivide",
         apptype2: "wrapper",
         url: "https://game.chronodivide.com"
       },
@@ -4335,7 +4335,7 @@ export const categories = [
         nameKey: "floppybird_name",
         descriptionKey: "floppybird_desc",
         icon: "icons/wrappers/floppybird.webp",
-        url2: "/wrappers/floppybird",
+        url2: "../wrappers/floppybird",
         apptype2: "wrapper",
         url: "https://nebezb.com/floppybird"
       },
@@ -4344,7 +4344,7 @@ export const categories = [
         nameKey: "eaglercraft_name",
         descriptionKey: "eaglercraft_desc",
         icon: "icons/wrappers/eaglercraft.webp",
-        url2: "/wrappers/eaglercraft",
+        url2: "../wrappers/eaglercraft",
         apptype2: "wrapper",
         url: "https://eaglercraft.com"
       },
@@ -4354,7 +4354,7 @@ export const categories = [
         descriptionKey: "d3wasm_desc",
         icon: "icons/wrappers/d3wasm.webp",
         apptype2: "wrapper",
-        url2: "/wrappers/d3wasm",
+        url2: "../wrappers/d3wasm",
         url: "https://wasm.continuation-labs.com/d3demo"
       },
       {
@@ -4362,7 +4362,7 @@ export const categories = [
         nameKey: "doomshareware_name",
         descriptionKey: "doomshareware_desc",
         icon: "icons/wrappers/doomshareware.webp",
-        url2: "/wrappers/doomshareware",
+        url2: "../wrappers/doomshareware",
         url: "https://silentspacemarine.com",
         apptype2: "wrapper",
       },
@@ -4373,7 +4373,7 @@ export const categories = [
         icon: "icons/wrappers/nvidia.webp",
         url: "https://play.geforcenow.com",
         apptype_hide: "msedge",
-        url2: "/wrappers/geforcenow",
+        url2: "../wrappers/geforcenow",
         apptype2: "wrapper"
       },
       {
@@ -4381,7 +4381,7 @@ export const categories = [
         nameKey: "4399_name",
         descriptionKey: "4399_desc",
         icon: "icons/wrappers/4399.webp",
-        url2: "/wrappers/4399",
+        url2: "../wrappers/4399",
         apptype2: "wrapper",
         url: "https://www.4399.com"
       },
@@ -4390,7 +4390,7 @@ export const categories = [
         nameKey: "pizzint_name",
         descriptionKey: "pizzint_desc",
         icon: "icons/wrappers/pizzint.webp",
-        url2: "/wrappers/pizzint",
+        url2: "../wrappers/pizzint",
         apptype2: "wrapper",
         url: "https://www.pizzint.watch"
       },
@@ -4399,7 +4399,7 @@ export const categories = [
         nameKey: "nealfun_name",
         descriptionKey: "nealfun_desc",
         icon: "icons/wrappers/nealfun.webp",
-        url2: "/wrappers/nealfun",
+        url2: "../wrappers/nealfun",
         apptype2: "wrapper",
         url: "https://neal.fun"
       },
@@ -4408,7 +4408,7 @@ export const categories = [
         nameKey: "mumu_cn_name",
         descriptionKey: "mumu_cn_desc",
         icon: "icons/wrappers/mumu.webp",
-        url2: "/wrappers/mumu",
+        url2: "../wrappers/mumu",
         apptype2: "wrapper",
         url: "https://mumu.163.com"
       },
@@ -4417,7 +4417,7 @@ export const categories = [
         nameKey: "mumu_global_name",
         descriptionKey: "mumu_global_desc",
         icon: "icons/wrappers/mumu.webp",
-        url2: "/wrappers/mumuplayer",
+        url2: "../wrappers/mumuplayer",
         apptype2: "wrapper",
         url: "https://www.mumuplayer.com"
       },
@@ -4426,7 +4426,7 @@ export const categories = [
         nameKey: "pinballalulame_name",
         descriptionKey: "pinballalulame_desc",
         icon: "icons/wrappers/pinballalulame.webp",
-        url2: "/wrappers/pinballalulame",
+        url2: "../wrappers/pinballalulame",
         apptype2: "wrapper",
         url: "https://pinball.alula.me"
       },
@@ -4505,7 +4505,7 @@ export const categories = [
         nameKey: "mmochampion_name",
         descriptionKey: "mmochampion_desc",
         icon: "icons/wrappers/mmo-champion.webp",
-        url2: "/wrappers/mmo-champion",
+        url2: "../wrappers/mmo-champion",
         apptype2: "wrapper",
         url: "https://www.mmo-champion.com"
       },
@@ -4514,7 +4514,7 @@ export const categories = [
         nameKey: "warcraftlogs_name",
         descriptionKey: "warcraftlogs_desc",
         icon: "icons/wrappers/warcraftlogs.webp",
-        url2: "/wrappers/warcraftlogs",
+        url2: "../wrappers/warcraftlogs",
         apptype2: "wrapper",
         url: "https://www.warcraftlogs.com"
       },
@@ -4523,7 +4523,7 @@ export const categories = [
         nameKey: "raiderio_name",
         descriptionKey: "raiderio_desc",
         icon: "icons/wrappers/raiderio.webp",
-        url2: "/wrappers/raiderio",
+        url2: "../wrappers/raiderio",
         apptype2: "wrapper",
         url: "https://raider.io"
       },
@@ -4532,7 +4532,7 @@ export const categories = [
         nameKey: "maplestory_name",
         descriptionKey: "maplestory_desc",
         icon: "icons/wrappers/maplestory.webp",
-        url2: "/wrappers/maplestory",
+        url2: "../wrappers/maplestory",
         apptype2: "wrapper",
         url: "https://www.nexon.com/maplestory"
       },
@@ -4541,7 +4541,7 @@ export const categories = [
         nameKey: "curseforge_name",
         descriptionKey: "curseforge_desc",
         icon: "icons/wrappers/curseforge.webp",
-        url2: "/wrappers/curseforge",
+        url2: "../wrappers/curseforge",
         apptype2: "wrapper",
         url: "https://www.curseforge.com"
       },
@@ -4550,7 +4550,7 @@ export const categories = [
         nameKey: "minecraftforum_name",
         descriptionKey: "minecraftforum_desc",
         icon: "icons/wrappers/minecraftforum.webp",
-        url2: "/wrappers/minecraftforum",
+        url2: "../wrappers/minecraftforum",
         url: "https://www.minecraftforum.net",
         apptype2: "wrapper"
       },
@@ -4559,7 +4559,7 @@ export const categories = [
         nameKey: "ign_name",
         descriptionKey: "ign_desc",
         icon: "icons/wrappers/ign.webp",
-        url2: "/wrappers/ign",
+        url2: "../wrappers/ign",
         apptype2: "wrapper",
         url: "https://www.ign.com"
       },
@@ -4568,7 +4568,7 @@ export const categories = [
         nameKey: "wowhead_name",
         descriptionKey: "wowhead_desc",
         icon: "icons/wrappers/wowhead.webp",
-        url2: "/wrappers/wowhead",
+        url2: "../wrappers/wowhead",
         apptype2: "wrapper",
         url: "https://www.wowhead.com"
       },
@@ -4577,7 +4577,7 @@ export const categories = [
         nameKey: "ngacn_name",
         descriptionKey: "ngacn_desc",
         icon: "icons/wrappers/ngacn.webp",
-        url2: "/wrappers/ngacn",
+        url2: "../wrappers/ngacn",
         apptype2: "wrapper",
         url: "https://bbs.nga.cn"
       },
@@ -4586,7 +4586,7 @@ export const categories = [
         nameKey: "teamliquid_name",
         descriptionKey: "teamliquid_desc",
         icon: "icons/wrappers/teamliquid.webp",
-        url2: "/wrappers/teamliquid",
+        url2: "../wrappers/teamliquid",
         apptype2: "wrapper",
         url: "https://teamliquid.com"
       },
@@ -4595,7 +4595,7 @@ export const categories = [
         nameKey: "steamcommunity_name",
         descriptionKey: "steamcommunity_desc",
         icon: "icons/wrappers/steamcommunity.webp",
-        url2: "/wrappers/steamcommunity",
+        url2: "../wrappers/steamcommunity",
         apptype2: "wrapper",
         url: "https://steamcommunity.com"
       },
@@ -4604,7 +4604,7 @@ export const categories = [
         nameKey: "warcrafttavern_name",
         descriptionKey: "warcrafttavern_desc",
         icon: "icons/wrappers/warcrafttavern.webp",
-        url2: "/wrappers/warcrafttavern",
+        url2: "../wrappers/warcrafttavern",
         apptype2: "wrapper",
         url: "https://www.warcrafttavern.com"
       },
@@ -4613,7 +4613,7 @@ export const categories = [
         nameKey: "neteasedd_name",
         descriptionKey: "neteasedd_desc",
         icon: "icons/msedge/neteasedd.webp",
-        url2: "/msedge/neteasedd",
+        url2: "../msedge/neteasedd",
         apptype2: "wrapper",
         url: "https://dd.163.com/room/100100"
       },
@@ -4622,7 +4622,7 @@ export const categories = [
         nameKey: "resetera_name",
         descriptionKey: "resetera_desc",
         icon: "icons/wrappers/resetera.webp",
-        url2: "/wrappers/resetera",
+        url2: "../wrappers/resetera",
         apptype2: "wrapper",
         url: "https://www.resetera.com"
       },
@@ -4631,7 +4631,7 @@ export const categories = [
         nameKey: "protondb_name",
         descriptionKey: "protondb_desc",
         icon: "icons/wrappers/protondb.webp",
-        url2: "/wrappers/protondb",
+        url2: "../wrappers/protondb",
         apptype2: "wrapper",
         url: "https://www.protondb.com"
       },
@@ -4733,7 +4733,7 @@ export const categories = [
         icon: "icons/msedge/11000.webp",
         url: "https://www.11000.online",
         apptype_hide: "msedge",
-        url2: "/msedge/onethousandonline",
+        url2: "../msedge/onethousandonline",
         apptype2: "wrapper"
       },
       {
@@ -4741,7 +4741,7 @@ export const categories = [
         nameKey: "eudic_name",
         descriptionKey: "eudic_desc",
         icon: "icons/wrappers/eudic.webp",
-        url2: "/wrappers/eudic",
+        url2: "../wrappers/eudic",
         apptype2: "wrapper",
         url: "https://dict.eudic.net"
       },
@@ -4750,7 +4750,7 @@ export const categories = [
         nameKey: "quanxue_name",
         descriptionKey: "quanxue_desc",
         icon: "icons/wrappers/quanxue.webp",
-        url2: "/wrappers/quanxue",
+        url2: "../wrappers/quanxue",
         apptype2: "wrapper",
         url: "https://www.quanxue.cn"
       },
@@ -4759,7 +4759,7 @@ export const categories = [
         nameKey: "xdf_name",
         descriptionKey: "xdf_desc",
         icon: "icons/wrappers/xdf.webp",
-        url2: "/wrappers/xdf",
+        url2: "../wrappers/xdf",
         apptype2: "wrapper",
         url: "https://www.xdf.cn"
       },
@@ -4768,7 +4768,7 @@ export const categories = [
         nameKey: "chegg_name",
         descriptionKey: "chegg_desc",
         icon: "icons/wrappers/chegg.webp",
-        url2: "/wrappers/chegg",
+        url2: "../wrappers/chegg",
         apptype2: "wrapper",
         url: "https://www.chegg.com"
       },
@@ -4779,7 +4779,7 @@ export const categories = [
         icon: "icons/wrappers/mingku.webp",
         url: "https://www.mingku.cc",
         apptype2: "wrapper",
-        url2: "/wrappers/mingku"
+        url2: "../wrappers/mingku"
       },
       {
         name: "Shuzhaige (书斋阁)",
@@ -4788,14 +4788,14 @@ export const categories = [
         icon: "icons/wrappers/shuzhaige.webp",
         url: "https://www.shuzhaige.com",
         apptype2: "wrapper",
-        url2: "/wrappers/shuzhaige"
+        url2: "../wrappers/shuzhaige"
       },
       {
         name: "Dulishi (一起读历史)",
         nameKey: "dulishi_name",
         descriptionKey: "dulishi_desc",
         icon: "icons/wrappers/dulishi.webp",
-        url2: "/wrappers/dulishi",
+        url2: "../wrappers/dulishi",
         apptype2: "wrapper",
         url: "https://www.dulishi.cn"
       },
@@ -4811,7 +4811,7 @@ export const categories = [
         nameKey: "chaoxingv8_name",
         descriptionKey: "chaoxingv8_desc",
         icon: "icons/wrappers/chaoxingv8.webp",
-        url2: "/wrappers/chaoxingv8",
+        url2: "../wrappers/chaoxingv8",
         apptype2: "wrapper",
         url: "https://v8.chaoxing.com"
       },
@@ -4820,7 +4820,7 @@ export const categories = [
         nameKey: "ntuimooc_name",
         descriptionKey: "ntuimooc_desc",
         icon: "icons/wrappers/chaoxingv8.webp",
-        url2: "/wrappers/ntuimooc",
+        url2: "../wrappers/ntuimooc",
         apptype2: "wrapper",
         url: "https://imooc.ntu.edu.cn"
       },
@@ -4829,7 +4829,7 @@ export const categories = [
         nameKey: "nukemap_name",
         descriptionKey: "nukemap_desc",
         icon: "icons/wrappers/nukemap.webp",
-        url2: "/wrappers/nukemap",
+        url2: "../wrappers/nukemap",
         apptype2: "wrapper",
         url: "https://nuclearsecrecy.com/nukemap"
       },
@@ -4838,7 +4838,7 @@ export const categories = [
         nameKey: "pizzint_name",
         descriptionKey: "pizzint_desc",
         icon: "icons/wrappers/pizzint.webp",
-        url2: "/wrappers/pizzint",
+        url2: "../wrappers/pizzint",
         apptype2: "wrapper",
         url: "https://www.pizzint.watch"
       },
@@ -4847,7 +4847,7 @@ export const categories = [
         nameKey: "threeblueonebrown_name",
         descriptionKey: "threeblueonebrown_desc",
         icon: "icons/wrappers/3blue1brown.webp",
-        url2: "/wrappers/3blue1brown",
+        url2: "../wrappers/3blue1brown",
         apptype2: "wrapper",
         url: "https://www.3blue1brown.com"
       },
@@ -4890,7 +4890,7 @@ export const categories = [
         nameKey: "ra2diy_name",
         descriptionKey: "ra2diy_desc",
         icon: "icons/wrappers/ra2diy.webp",
-        url2: "/wrappers/ra2diy",
+        url2: "../wrappers/ra2diy",
         apptype2: "wrapper",
         url: "https://bbs.ra2diy.com"
       }
@@ -5000,7 +5000,7 @@ export const categories = [
         icon: "icons/msedge/wowtoolsarchive.webp",
         url: "https://archive.wow.tools",
         apptype_hide: "msedge",
-        url2: "/msedge/wowtoolsarchive",
+        url2: "../msedge/wowtoolsarchive",
         apptype2: "wrapper",
       },
       {
@@ -5008,7 +5008,7 @@ export const categories = [
         nameKey: "marxistsorg_name",
         descriptionKey: "marxistsorg_desc",
         icon: "icons/wrappers/marxistsorg.webp",
-        url2: "/wrappers/marxistsorg",
+        url2: "../wrappers/marxistsorg",
         apptype2: "wrapper",
         url: "https://www.marxists.org"
       },
@@ -5017,7 +5017,7 @@ export const categories = [
         nameKey: "osdevorg_name",
         descriptionKey: "osdevorg_desc",
         icon: "icons/wrappers/osdevorg.webp",
-        url2: "/wrappers/osdevorg",
+        url2: "../wrappers/osdevorg",
         apptype2: "wrapper",
         url: "https://wiki.osdev.org"
       },
@@ -5026,7 +5026,7 @@ export const categories = [
         nameKey: "consumerrightswiki_name",
         descriptionKey: "consumerrightswiki_desc",
         icon: "icons/wrappers/consumerrightswiki.webp",
-        url2: "/wrappers/consumerrightswiki",
+        url2: "../wrappers/consumerrightswiki",
         apptype2: "wrapper",
         url: "https://consumerrights.wiki"
       },
@@ -5035,7 +5035,7 @@ export const categories = [
         nameKey: "animewiki_name",
         descriptionKey: "animewiki_desc",
         icon: "icons/wrappers/animewiki.webp",
-        url2: "/wrappers/animewiki",
+        url2: "../wrappers/animewiki",
         apptype2: "wrapper",
         url: "https://anibase.net"
       },
@@ -5044,7 +5044,7 @@ export const categories = [
         nameKey: "wikisource_name",
         descriptionKey: "wikisource_desc",
         icon: "icons/wrappers/wikisource.webp",
-        url2: "/wrappers/wikisource",
+        url2: "../wrappers/wikisource",
         apptype2: "wrapper",
         url: "https://en.wikisource.org"
       },
@@ -5053,7 +5053,7 @@ export const categories = [
         nameKey: "wikiwand_name",
         descriptionKey: "wikiwand_desc",
         icon: "icons/wrappers/wikiwand.webp",
-        url2: "/wrappers/wikiwand",
+        url2: "../wrappers/wikiwand",
         apptype2: "wrapper",
         url: "https://www.wikiwand.com"
       },
@@ -5062,7 +5062,7 @@ export const categories = [
         nameKey: "wikihow_name",
         descriptionKey: "wikihow_desc",
         icon: "icons/msedge/wikihow.webp",
-        url2: "/msedge/wikihow",
+        url2: "../msedge/wikihow",
         apptype_hide: "msedge",
         apptype2: "wrapper",
         url: "https://www.wikihow.com"
@@ -5072,7 +5072,7 @@ export const categories = [
         nameKey: "reprap_name",
         descriptionKey: "reprap_desc",
         icon: "icons/wrappers/reprap.webp",
-        url2: "/wrappers/reprap",
+        url2: "../wrappers/reprap",
         apptype2: "wrapper",
         url: "https://reprap.org"
       },
@@ -5081,7 +5081,7 @@ export const categories = [
         nameKey: "poppyramidnet_name",
         descriptionKey: "poppyramidnet_desc",
         icon: "icons/wrappers/poppyramidnet.webp",
-        url2: "/wrappers/poppyramidnet",
+        url2: "../wrappers/poppyramidnet",
         apptype2: "wrapper",
         url: "https://www.populationpyramid.net"
       },
@@ -5090,7 +5090,7 @@ export const categories = [
         nameKey: "poppyramidsorg_name",
         descriptionKey: "poppyramidsorg_desc",
         icon: "icons/wrappers/poppyramidsorg.webp",
-        url2: "/wrappers/poppyramidsorg",
+        url2: "../wrappers/poppyramidsorg",
         apptype2: "wrapper",
         url: "https://www.populationpyramids.org",
         comment: "scamadviser gives a low score, but i don't see how is this website insecure"
@@ -5100,7 +5100,7 @@ export const categories = [
         nameKey: "repairwiki_name",
         descriptionKey: "repairwiki_desc",
         icon: "icons/wrappers/repairwiki.webp",
-        url2: "/wrappers/repairwiki",
+        url2: "../wrappers/repairwiki",
         apptype2: "wrapper",
         url: "https://repair.wiki"
       },
@@ -5136,7 +5136,7 @@ export const categories = [
         nameKey: "biblecom_name",
         descriptionKey: "biblecom_desc",
         icon: "icons/wrappers/biblecom.webp",
-        url2: "/wrappers/biblecom",
+        url2: "../wrappers/biblecom",
         apptype2: "wrapper",
         url: "https://bible.com"
       },
@@ -5145,7 +5145,7 @@ export const categories = [
         nameKey: "veducation_name",
         descriptionKey: "veducation_desc",
         icon: "icons/wrappers/veducation.webp",
-        url2: "/wrappers/veducation",
+        url2: "../wrappers/veducation",
         apptype2: "wrapper",
         url: "https://www.veducation.world"
       },
@@ -5154,7 +5154,7 @@ export const categories = [
         nameKey: "wanyouzhenyuan_name",
         descriptionKey: "wanyouzhenyuan_desc",
         icon: "icons/wrappers/wanyouzhenyuan.webp",
-        url2: "/wrappers/wanyouzhenyuan",
+        url2: "../wrappers/wanyouzhenyuan",
         apptype2: "wrapper",
         url: "https://www.wanyouzhenyuan.cn"
       },
@@ -5253,7 +5253,7 @@ export const categories = [
         nameKey: "browserbench_name",
         descriptionKey: "browserbench_desc",
         icon: "icons/wrappers/browserbench.webp",
-        url2: "/wrappers/browserbench",
+        url2: "../wrappers/browserbench",
         apptype2: "wrapper",
         url: "https://browserbench.org"
       },
@@ -5262,7 +5262,7 @@ export const categories = [
         nameKey: "clearwebstats_name",
         descriptionKey: "clearwebstats_desc",
         icon: "icons/wrappers/clearwebstats.webp",
-        url2: "/wrappers/clearwebstats",
+        url2: "../wrappers/clearwebstats",
         apptype2: "wrapper",
         url: "https://www.clearwebstats.com"
       },
@@ -5271,7 +5271,7 @@ export const categories = [
         nameKey: "chinafirewalltest_name",
         descriptionKey: "chinafirewalltest_desc",
         icon: "icons/wrappers/chinafirewalltest.webp",
-        url2: "/wrappers/chinafirewalltest",
+        url2: "../wrappers/chinafirewalltest",
         apptype2: "wrapper",
         url: "https://www.chinafirewalltest.com"
       },
@@ -5280,7 +5280,7 @@ export const categories = [
         nameKey: "counterpointresearch_name",
         descriptionKey: "counterpointresearch_desc",
         icon: "icons/wrappers/counterpointresearch.webp",
-        url2: "/wrappers/counterpointresearch",
+        url2: "../wrappers/counterpointresearch",
         apptype2: "wrapper",
         url: "https://www.counterpointresearch.com"
       },
@@ -5289,7 +5289,7 @@ export const categories = [
         nameKey: "openbenchmarking_name",
         descriptionKey: "openbenchmarking_desc",
         icon: "icons/wrappers/openbenchmarking.webp",
-        url2: "/wrappers/openbenchmarking",
+        url2: "../wrappers/openbenchmarking",
         apptype2: "wrapper",
         url: "https://openbenchmarking.org"
       },
@@ -5298,7 +5298,7 @@ export const categories = [
         nameKey: "cloudflarespeed_name",
         descriptionKey: "cloudflarespeed_desc",
         icon: "icons/wrappers/cloudflare.webp",
-        url2: "/wrappers/cloudflarespeed",
+        url2: "../wrappers/cloudflarespeed",
         apptype2: "wrapper",
         url: "https://speed.cloudflare.com"
       },
@@ -5307,7 +5307,7 @@ export const categories = [
         nameKey: "mylocation_name",
         descriptionKey: "mylocation_desc",
         icon: "icons/wrappers/mylocation.webp",
-        url2: "/wrappers/mylocation",
+        url2: "../wrappers/mylocation",
         apptype2: "wrapper",
         url: "https://my-location.org"
       },
@@ -5316,7 +5316,7 @@ export const categories = [
         nameKey: "idc_name",
         descriptionKey: "idc_desc",
         icon: "icons/wrappers/idc.webp",
-        url2: "/wrappers/idc",
+        url2: "../wrappers/idc",
         apptype2: "wrapper",
         url: "https://www.idc.com"
       },
@@ -5325,7 +5325,7 @@ export const categories = [
         nameKey: "whois_name",
         descriptionKey: "whois_desc",
         icon: "icons/wrappers/whois.webp",
-        url2: "/wrappers/whois",
+        url2: "../wrappers/whois",
         apptype2: "wrapper",
         url: "https://who.is"
       },
@@ -5354,7 +5354,7 @@ export const categories = [
         nameKey: "marinetraffic_name",
         descriptionKey: "marinetraffic_desc",
         icon: "icons/wrappers/marinetraffic.webp",
-        url2: "/wrappers/marinetraffic",
+        url2: "../wrappers/marinetraffic",
         apptype2: "wrapper",
         url: "https://www.marinetraffic.com"
       },
@@ -5363,7 +5363,7 @@ export const categories = [
         nameKey: "flightradar24_name",
         descriptionKey: "flightradar24_desc",
         icon: "icons/wrappers/flightradar24.webp",
-        url2: "/wrappers/flightradar24",
+        url2: "../wrappers/flightradar24",
         apptype2: "wrapper",
         url: "https://www.flightradar24.com"
       },
@@ -5372,7 +5372,7 @@ export const categories = [
         nameKey: "flightawarelive_name",
         descriptionKey: "flightawarelive_desc",
         icon: "icons/wrappers/flightaware.webp",
-        url2: "/wrappers/flightawarelive",
+        url2: "../wrappers/flightawarelive",
         apptype2: "wrapper",
         url: "https://www.flightaware.com/live"
       },
@@ -5381,7 +5381,7 @@ export const categories = [
         nameKey: "iranwarlive_name",
         descriptionKey: "iranwarlive_desc",
         icon: "icons/wrappers/iranwarlive.webp",
-        url2: "/wrappers/iranwarlive",
+        url2: "../wrappers/iranwarlive",
         apptype2: "wrapper",
         url: "https://iran-war-live.com"
       },
@@ -5390,7 +5390,7 @@ export const categories = [
         nameKey: "ukrainewarlosses_name",
         descriptionKey: "ukrainewarlosses_desc",
         icon: "icons/wrappers/ukrainewarlosses.webp",
-        url2: "/wrappers/ukrainewarlosses",
+        url2: "../wrappers/ukrainewarlosses",
         apptype2: "wrapper",
         url: "https://ukrainewarlosses.org"
       },
@@ -5489,7 +5489,7 @@ export const categories = [
         nameKey: "iheart_name",
         descriptionKey: "iheart_desc",
         icon: "icons/msedge/iheart.webp",
-        url2: "/msedge/iheart",
+        url2: "../msedge/iheart",
         apptype: "wrapper",
         url: "https://www.iheart.com"
       },
@@ -5601,7 +5601,7 @@ export const categories = [
         nameKey: "alibaba_name",
         descriptionKey: "alibaba_desc",
         icon: "icons/wrappers/alibaba.webp",
-        url2: "/wrappers/alibaba",
+        url2: "../wrappers/alibaba",
         apptype2: "wrapper",
         url: "https://www.alibaba.com"
       },
@@ -5640,7 +5640,7 @@ export const categories = [
         nameKey: "biggo_name",
         descriptionKey: "biggo_desc",
         icon: "icons/wrappers/biggo.webp",
-        url2: "/wrappers/biggo",
+        url2: "../wrappers/biggo",
         apptype2: "wrapper",
         url: "https://biggo.com"
       },
@@ -5649,7 +5649,7 @@ export const categories = [
         nameKey: "walmart_name",
         descriptionKey: "walmart_desc",
         icon: "icons/wrappers/walmart.webp",
-        url2: "/wrappers/walmart",
+        url2: "../wrappers/walmart",
         apptype2: "wrapper",
         url: "https://www.walmart.com"
       },
@@ -5658,7 +5658,7 @@ export const categories = [
         nameKey: "target_name",
         descriptionKey: "target_desc",
         icon: "icons/wrappers/target.webp",
-        url2: "/wrappers/target",
+        url2: "../wrappers/target",
         apptype2: "wrapper",
         url: "https://www.target.com"
       },
@@ -5667,7 +5667,7 @@ export const categories = [
         nameKey: "homedepot_name",
         descriptionKey: "homedepot_desc",
         icon: "icons/wrappers/homedepot.webp",
-        url2: "/wrappers/homedepot",
+        url2: "../wrappers/homedepot",
         apptype2: "wrapper",
         url: "https://www.homedepot.com"
       },
@@ -5676,7 +5676,7 @@ export const categories = [
         nameKey: "cvs_name",
         descriptionKey: "cvs_desc",
         icon: "icons/wrappers/cvs.webp",
-        url2: "/wrappers/cvs",
+        url2: "../wrappers/cvs",
         url: "https://www.cvs.com",
         apptype2: "wrapper"
       },
@@ -5685,7 +5685,7 @@ export const categories = [
         nameKey: "whirlpool_name",
         descriptionKey: "whirlpool_desc",
         icon: "icons/wrappers/whirlpool.webp",
-        url2: "/wrappers/whirlpool",
+        url2: "../wrappers/whirlpool",
         url: "https://www.whirlpool.com",
         apptype2: "wrapper"
       },
@@ -5694,7 +5694,7 @@ export const categories = [
         nameKey: "doordash_name",
         descriptionKey: "doordash_desc",
         icon: "icons/wrappers/doordash.webp",
-        url2: "/wrappers/doordash",
+        url2: "../wrappers/doordash",
         apptype2: "wrapper",
         url: "https://www.doordash.com"
       },
@@ -5703,7 +5703,7 @@ export const categories = [
         nameKey: "safeway_name",
         descriptionKey: "safeway_desc",
         icon: "icons/wrappers/safeway.webp",
-        url2: "/wrappers/safeway",
+        url2: "../wrappers/safeway",
         apptype2: "wrapper",
         url: "https://www.safeway.com"
       },
@@ -5712,7 +5712,7 @@ export const categories = [
         nameKey: "dollartree_name",
         descriptionKey: "dollartree_desc",
         icon: "icons/wrappers/dollartree.webp",
-        url2: "/wrappers/dollartree",
+        url2: "../wrappers/dollartree",
         apptype2: "wrapper",
         url: "https://www.dollartree.com"
       },
@@ -5721,7 +5721,7 @@ export const categories = [
         nameKey: "dollargeneral_name",
         descriptionKey: "dollargeneral_desc",
         icon: "icons/wrappers/dollargeneral.webp",
-        url2: "/wrappers/dollargeneral",
+        url2: "../wrappers/dollargeneral",
         apptype2: "wrapper",
         url: "https://www.dollargeneral.com"
       },
@@ -5730,7 +5730,7 @@ export const categories = [
         nameKey: "costco_name",
         descriptionKey: "costco_desc",
         icon: "icons/wrappers/costco.webp",
-        url2: "/wrappers/costco",
+        url2: "../wrappers/costco",
         apptype2: "wrapper",
         url: "https://www.costco.com"
       },
@@ -5747,7 +5747,7 @@ export const categories = [
         nameKey: "kfc_name",
         descriptionKey: "kfc_desc",
         icon: "icons/wrappers/kfc.webp",
-        url2: "/wrappers/kfc",
+        url2: "../wrappers/kfc",
         apptype2: "wrapper",
         url: "https://www.kfc.com"
       },
@@ -5779,7 +5779,7 @@ export const categories = [
         nameKey: "subway_name",
         descriptionKey: "subway_desc",
         icon: "icons/wrappers/subway.webp",
-        url2: "/wrappers/subway",
+        url2: "../wrappers/subway",
         apptype2: "wrapper",
         url: "https://www.subway.com"
       },
@@ -5788,7 +5788,7 @@ export const categories = [
         nameKey: "mcdonalds_name",
         descriptionKey: "mcdonalds_desc",
         icon: "icons/wrappers/mcdonalds.webp",
-        url2: "/wrappers/mcdonalds",
+        url2: "../wrappers/mcdonalds",
         apptype2: "wrapper",
         url: "https://www.mcdonalds.com"
       },
@@ -5797,7 +5797,7 @@ export const categories = [
         nameKey: "applestore_name",
         descriptionKey: "applestore_desc",
         icon: "icons/wrappers/apple.webp",
-        url2: "/wrappers/applestore",
+        url2: "../wrappers/applestore",
         apptype2: "wrapper",
         url: "https://www.apple.com/store"
       },
@@ -5806,7 +5806,7 @@ export const categories = [
         nameKey: "appleretail_name",
         descriptionKey: "appleretail_desc",
         icon: "icons/wrappers/apple.webp",
-        url2: "/wrappers/appleretail",
+        url2: "../wrappers/appleretail",
         apptype2: "wrapper",
         url: "https://www.apple.com/retail"
       },
@@ -5815,7 +5815,7 @@ export const categories = [
         nameKey: "luckin_name",
         descriptionKey: "luckin_desc",
         icon: "icons/wrappers/luckin.webp",
-        url2: "/wrappers/luckin",
+        url2: "../wrappers/luckin",
         apptype2: "wrapper",
         url: "https://in.luckincoffee.com"
       },
@@ -5824,7 +5824,7 @@ export const categories = [
         nameKey: "samsung_name",
         descriptionKey: "samsung_desc",
         icon: "icons/wrappers/samsung.webp",
-        url2: "/wrappers/samsung",
+        url2: "../wrappers/samsung",
         apptype2: "wrapper",
         url: "https://www.samsung.com"
       },
@@ -5833,7 +5833,7 @@ export const categories = [
         nameKey: "nordstrom_name",
         descriptionKey: "nordstrom_desc",
         icon: "icons/wrappers/nordstrom.webp",
-        url2: "/wrappers/nordstrom",
+        url2: "../wrappers/nordstrom",
         apptype2: "wrapper",
         url: "https://www.nordstrom.com"
       },
@@ -5842,7 +5842,7 @@ export const categories = [
         nameKey: "adidas_name",
         descriptionKey: "adidas_desc",
         icon: "icons/wrappers/adidas.webp",
-        url2: "/wrappers/adidas",
+        url2: "../wrappers/adidas",
         apptype2: "wrapper",
         url: "https://www.adidas.com"
       },
@@ -5859,7 +5859,7 @@ export const categories = [
         nameKey: "nexphone_name",
         descriptionKey: "nexphone_desc",
         icon: "icons/wrappers/nexphone.webp",
-        url2: "/wrappers/nexphone",
+        url2: "../wrappers/nexphone",
         apptype2: "wrapper",
         url: "https://nexphone.com"
       },
@@ -5868,7 +5868,7 @@ export const categories = [
         nameKey: "modani_name",
         descriptionKey: "modani_desc",
         icon: "icons/wrappers/modani.webp",
-        url2: "/wrappers/modani",
+        url2: "../wrappers/modani",
         apptype2: "wrapper",
         url: "https://modani.com"
       },
@@ -5884,7 +5884,7 @@ export const categories = [
         nameKey: "wawa_name",
         descriptionKey: "wawa_desc",
         icon: "icons/wrappers/wawa.webp",
-        url2: "/wrappers/wawa",
+        url2: "../wrappers/wawa",
         apptype2: "wrapper",
         url: "https://www.wawa.com"
       },
@@ -5893,7 +5893,7 @@ export const categories = [
         nameKey: "caseys_name",
         descriptionKey: "caseys_desc",
         icon: "icons/msedge/caseys.webp",
-        url2: "/msedge/caseys",
+        url2: "../msedge/caseys",
         apptype2: "wrapper",
         url: "https://www.caseys.com",
         apptype_hide: "msedge"
@@ -5903,7 +5903,7 @@ export const categories = [
         nameKey: "moonstar_name",
         descriptionKey: "moonstar_desc",
         icon: "icons/wrappers/moonstarendicott.webp",
-        url2: "/wrappers/moonstarendicott",
+        url2: "../wrappers/moonstarendicott",
         apptype2: "wrapper",
         url: "https://moonstarendicott.com"
       },
@@ -5919,7 +5919,7 @@ export const categories = [
         nameKey: "roku_name",
         descriptionKey: "roku_desc",
         icon: "icons/wrappers/roku.webp",
-        url2: "/wrappers/roku",
+        url2: "../wrappers/roku",
         apptype2: "wrapper",
         url: "https://www.roku.com"
       },
@@ -5928,7 +5928,7 @@ export const categories = [
         nameKey: "kzaudio_name",
         descriptionKey: "kzaudio_desc",
         icon: "icons/wrappers/kzaudio.webp",
-        url2: "/wrappers/kzaudio",
+        url2: "../wrappers/kzaudio",
         apptype2: "wrapper",
         url: "https://kz-audio.com"
       },
@@ -5937,7 +5937,7 @@ export const categories = [
         nameKey: "instacart_name",
         descriptionKey: "instacart_desc",
         icon: "icons/wrappers/instacart.webp",
-        url2: "/wrappers/instacart",
+        url2: "../wrappers/instacart",
         apptype2: "wrapper",
         url: "https://www.instacart.com"
       },
@@ -5946,7 +5946,7 @@ export const categories = [
         nameKey: "albertsons_name",
         descriptionKey: "albertsons_desc",
         icon: "icons/wrappers/albertsons.webp",
-        url2: "/wrappers/albertsons",
+        url2: "../wrappers/albertsons",
         apptype2: "wrapper",
         url: "https://www.albertsons.com"
       },
@@ -5955,7 +5955,7 @@ export const categories = [
         nameKey: "etsy_name",
         descriptionKey: "etsy_desc",
         icon: "icons/wrappers/etsy.webp",
-        url2: "/wrappers/etsy",
+        url2: "../wrappers/etsy",
         apptype2: "wrapper",
         url: "https://www.etsy.com"
       },
@@ -5964,7 +5964,7 @@ export const categories = [
         nameKey: "innosearch_name",
         descriptionKey: "innosearch_desc",
         icon: "icons/wrappers/innosearch.webp",
-        url2: "/wrappers/innosearch",
+        url2: "../wrappers/innosearch",
         apptype2: "wrapper",
         url: "https://www.innosearch.ai"
       },
@@ -5973,7 +5973,7 @@ export const categories = [
         nameKey: "kmart_name",
         descriptionKey: "kmart_desc",
         icon: "icons/wrappers/kmart.webp",
-        url2: "/wrappers/kmart",
+        url2: "../wrappers/kmart",
         apptype2: "wrapper",
         url: "https://www.kmart.com"
       },
@@ -5982,7 +5982,7 @@ export const categories = [
         nameKey: "foodpandaph_name",
         descriptionKey: "foodpandaph_desc",
         icon: "icons/wrappers/foodpandaph.webp",
-        url2: "/wrappers/foodpandaph",
+        url2: "../wrappers/foodpandaph",
         apptype2: "wrapper",
         url: "https://www.foodpanda.ph"
       },
@@ -5991,7 +5991,7 @@ export const categories = [
         nameKey: "grabfood_name",
         descriptionKey: "grabfood_desc",
         icon: "icons/wrappers/grabfood.webp",
-        url2: "/wrappers/grabfood",
+        url2: "../wrappers/grabfood",
         apptype2: "wrapper",
         url: "https://food.grab.com"
       },
@@ -6200,7 +6200,7 @@ export const categories = [
         nameKey: "bosideng_name",
         descriptionKey: "bosideng_desc",
         icon: "icons/wrappers/bosideng.webp",
-        url2: "/wrappers/bosideng",
+        url2: "../wrappers/bosideng",
         apptype2: "wrapper",
         url: "https://www.bosidengfashion.com"
       },
@@ -6263,7 +6263,7 @@ export const categories = [
         namekey: "delish_name",
         descriptionKey: "delish_desc",
         icon: "icons/wrappers/delish.webp",
-        url2: "/wrappers/delish",
+        url2: "../wrappers/delish",
         apptype2: "wrapper",
         url: "https://www.delish.com"
       },
@@ -6272,7 +6272,7 @@ export const categories = [
         nameKey: "allrecipes_name",
         descriptionKey: "allrecipes_desc",
         icon: "icons/wrappers/allrecipes.webp",
-        url2: "/wrappers/allrecipes",
+        url2: "../wrappers/allrecipes",
         apptype2: "wrapper",
         url: "https://www.allrecipes.com"
       },
@@ -6357,7 +6357,7 @@ export const categories = [
         nameKey: "usps_name",
         descriptionKey: "usps_desc",
         icon: "icons/wrappers/usps.webp",
-        url2: "/wrappers/usps",
+        url2: "../wrappers/usps",
         apptype2: "wrapper",
         url: "https://www.usps.com"
       },
@@ -6366,7 +6366,7 @@ export const categories = [
         nameKey: "mta_name",
         descriptionKey: "mta_desc",
         icon: "icons/wrappers/mta.webp",
-        url2: "/wrappers/mta",
+        url2: "../wrappers/mta",
         apptype2: "wrapper",
         url: "https://www.mta.info"
       },
@@ -6375,7 +6375,7 @@ export const categories = [
         nameKey: "chinaems_name",
         descriptionKey: "chinaems_desc",
         icon: "icons/wrappers/chinaems.webp",
-        url2: "/wrappers/chinaems",
+        url2: "../wrappers/chinaems",
         apptype2: "wrapper",
         url: "https://www.ems.com.cn"
       },
@@ -6384,7 +6384,7 @@ export const categories = [
         nameKey: "tripadvisor_name",
         descriptionKey: "tripadvisor_desc",
         icon: "icons/wrappers/tripadvisor.webp",
-        url2: "/wrappers/tripadvisor",
+        url2: "../wrappers/tripadvisor",
         apptype2: "wrapper",
         url: "https://www.tripadvisor.com"
       },
@@ -6393,7 +6393,7 @@ export const categories = [
         nameKey: "expedia_name",
         descriptionKey: "expedia_desc",
         icon: "icons/wrappers/expedia.webp",
-        url2: "/wrappers/expedia",
+        url2: "../wrappers/expedia",
         apptype2: "wrapper",
         url: "https://www.expedia.com"
       },
@@ -6548,7 +6548,7 @@ export const categories = [
         nameKey: "carnewschina_name",
         descriptionKey: "carnewschina_desc",
         icon: "icons/wrappers/carnewschina.webp",
-        url2: "/wrappers/carnewschina",
+        url2: "../wrappers/carnewschina",
         apptype2: "wrapper",
         url: "https://carnewschina.com"
       },
@@ -6557,7 +6557,7 @@ export const categories = [
         nameKey: "cleantechnica_name",
         descriptionKey: "cleantechnica_desc",
         icon: "icons/wrappers/cleantechnica.webp",
-        url2: "/wrappers/cleantechnica",
+        url2: "../wrappers/cleantechnica",
         apptype2: "wrapper",
         url: "https://cleantechnica.com"
       },
@@ -6566,7 +6566,7 @@ export const categories = [
         nameKey: "thedrive_name",
         descriptionKey: "thedrive_desc",
         icon: "icons/wrappers/thedrive.webp",
-        url2: "/wrappers/thedrive",
+        url2: "../wrappers/thedrive",
         apptype2: "wrapper",
         url: "https://www.thedrive.com"
       },
@@ -6582,7 +6582,7 @@ export const categories = [
         nameKey: "jiakaobaodian_name",
         descriptionKey: "jiakaobaodian_desc",
         icon: "icons/wrappers/jiakaobaodian.webp",
-        url2: "/wrappers/jiakaobaodian",
+        url2: "../wrappers/jiakaobaodian",
         apptype2: "wrapper",
         url: "https://www.jiakaobaodian.com"
       },
@@ -6591,7 +6591,7 @@ export const categories = [
         nameKey: "mobilede_name",
         descriptionKey: "mobilede_desc",
         icon: "icons/wrappers/mobilede.webp",
-        url2: "/wrappers/mobilede",
+        url2: "../wrappers/mobilede",
         apptype2: "wrapper",
         url: "https://www.mobile.de"
       },
@@ -6613,7 +6613,7 @@ export const categories = [
         nameKey: "booking_name",
         descriptionKey: "booking_desc",
         icon: "icons/wrappers/booking.webp",
-        url2: "/wrappers/booking",
+        url2: "../wrappers/booking",
         apptype2: "wrapper",
         url: "https://www.booking.com"
       },
@@ -6622,7 +6622,7 @@ export const categories = [
         nameKey: "ticketmaster_name",
         descriptionKey: "ticketmaster_desc",
         icon: "icons/wrappers/ticketmaster.webp",
-        url2: "/wrappers/ticketmaster",
+        url2: "../wrappers/ticketmaster",
         apptype2: "wrapper",
         url: "https://www.ticketmaster.com"
       },
@@ -6631,7 +6631,7 @@ export const categories = [
         nameKey: "ctrip_name",
         descriptionKey: "ctrip_desc",
         icon: "icons/wrappers/ctrip.webp",
-        url2: "/wrappers/ctrip",
+        url2: "../wrappers/ctrip",
         apptype2: "wrapper",
         url: "https://www.ctrip.com"
       },
@@ -6640,7 +6640,7 @@ export const categories = [
         nameKey: "taopiaopiao_name",
         descriptionKey: "taopiaopiao_desc",
         icon: "icons/wrappers/taopiaopiao.webp",
-        url2: "/wrappers/taopiaopiao",
+        url2: "../wrappers/taopiaopiao",
         apptype2: "wrapper",
         url: "https://www.taopiaopiao.com"
       },
@@ -6707,7 +6707,7 @@ export const categories = [
         nameKey: "airbnb_name",
         descriptionKey: "airbnb_desc",
         icon: "icons/wrappers/airbnb.webp",
-        url2: "/wrappers/airbnb",
+        url2: "../wrappers/airbnb",
         apptype2: "wrapper",
         url: "https://www.airbnb.com"
       },
@@ -6716,7 +6716,7 @@ export const categories = [
         nameKey: "auctioncom_name",
         descriptionKey: "auctioncom_desc",
         icon: "icons/wrappers/auctioncom.webp",
-        url2: "/wrappers/auctioncom",
+        url2: "../wrappers/auctioncom",
         apptype2: "wrapper",
         url: "https://www.auction.com"
       },
@@ -6725,7 +6725,7 @@ export const categories = [
         nameKey: "wework_name",
         descriptionKey: "wework_desc",
         icon: "icons/msedge/wework.webp",
-        url2: "/msedge/wework",
+        url2: "../msedge/wework",
         apptype2: "wrapper",
         url: "https://www.wework.com"
       },
@@ -6792,7 +6792,7 @@ export const categories = [
         nameKey: "codesignal_name",
         descriptionKey: "codesignal_desc",
         icon: "icons/wrappers/codesignal.webp",
-        url2: "/wrappers/codesignal",
+        url2: "../wrappers/codesignal",
         apptype2: "wrapper",
         url: "https://codesignal.com"
       },
@@ -6801,7 +6801,7 @@ export const categories = [
         nameKey: "remoteok_name",
         descriptionKey: "remoteok_desc",
         icon: "icons/wrappers/remoteok.webp",
-        url2: "/wrappers/remoteok",
+        url2: "../wrappers/remoteok",
         apptype2: "wrapper",
         url: "https://remoteok.com"
       },
@@ -6810,7 +6810,7 @@ export const categories = [
         nameKey: "layoffsfyi_name",
         descriptionKey: "layoffsfyi_desc",
         icon: "icons/wrappers/layoffsfyi.webp",
-        url2: "/wrappers/layoffsfyi",
+        url2: "../wrappers/layoffsfyi",
         apptype2: "wrapper",
         url: "https://layoffs.fyi"
       },
@@ -6819,7 +6819,7 @@ export const categories = [
         nameKey: "adp_name",
         descriptionKey: "adp_desc",
         icon: "icons/msedge/adp.webp",
-        url2: "/msedge/adp",
+        url2: "../msedge/adp",
         apptype2: "wrapper",
         url: "https://www.adp.com"
       },
@@ -6879,7 +6879,7 @@ export const categories = [
         nameKey: "aws_name",
         descriptionKey: "aws_desc",
         icon: "icons/wrappers/aws.webp",
-        url2: "/wrappers/aws",
+        url2: "../wrappers/aws",
         apptype2: "wrapper",
         url: "https://aws.amazon.com"
       },
@@ -6888,7 +6888,7 @@ export const categories = [
         nameKey: "googlecloud_name",
         descriptionKey: "googlecloud_desc",
         icon: "icons/wrappers/googlecloud.webp",
-        url2: "/wrappers/googlecloud",
+        url2: "../wrappers/googlecloud",
         apptype2: "wrapper",
         url: "https://cloud.google.com"
       },
@@ -6897,7 +6897,7 @@ export const categories = [
         nameKey: "alibabacloud_name",
         descriptionKey: "alibabacloud_desc",
         icon: "icons/wrappers/aliyun.webp",
-        url2: "/wrappers/alibabacloud",
+        url2: "../wrappers/alibabacloud",
         apptype2: "wrapper",
         url: "https://www.alibabacloud.com"
       },
@@ -6906,7 +6906,7 @@ export const categories = [
         nameKey: "aliyun_name",
         descriptionKey: "aliyun_desc",
         icon: "icons/wrappers/aliyun.webp",
-        url2: "/wrappers/aliyun",
+        url2: "../wrappers/aliyun",
         apptype2: "wrapper",
         url: "https://cn.aliyun.com"
       },
@@ -6915,7 +6915,7 @@ export const categories = [
         nameKey: "tencentcloud_name",
         descriptionKey: "tencentcloud_desc",
         icon: "icons/wrappers/tencentcloud.webp",
-        url2: "/wrappers/tencentcloud",
+        url2: "../wrappers/tencentcloud",
         apptype2: "wrapper",
         url: "https://www.tencentcloud.com"
       },
@@ -6924,7 +6924,7 @@ export const categories = [
         nameKey: "tencentcloudcn_name",
         descriptionKey: "tencentcloudcn_desc",
         icon: "icons/wrappers/tencentcloud.webp",
-        url2: "/wrappers/tencentcloudcn",
+        url2: "../wrappers/tencentcloudcn",
         apptype2: "wrapper",
         url: "https://cloud.tencent.com"
       },
@@ -6933,7 +6933,7 @@ export const categories = [
         nameKey: "yandexcloud_name",
         descriptionKey: "yandexcloud_desc",
         icon: "icons/wrappers/yandexcloud.webp",
-        url2: "/wrappers/yandexcloud",
+        url2: "../wrappers/yandexcloud",
         apptype2: "wrapper",
         url: "https://yandex.cloud"
       },
@@ -6942,7 +6942,7 @@ export const categories = [
         nameKey: "icloud_name",
         descriptionKey: "icloud_desc",
         icon: "icons/msedge/icloud.webp",
-        url2: "/msedge/icloud",
+        url2: "../msedge/icloud",
         apptype2: "wrapper",
         apptype_hide: "msedge",
         url: "https://www.icloud.com"
@@ -6958,7 +6958,7 @@ export const categories = [
         nameKey: "docusign_name",
         descriptionKey: "docusign_desc",
         icon: "icons/msedge/docusign.webp",
-        url2: "/msedge/docusign",
+        url2: "../msedge/docusign",
         apptype2: "wrapper",
         url: "https://www.docusign.com"
       },
@@ -7065,7 +7065,7 @@ export const categories = [
         nameKey: "herbsutter_name",
         descriptionKey: "herbsutter_desc",
         icon: "icons/wrappers/herbsutter.webp",
-        url2: "/wrappers/herbsutter",
+        url2: "../wrappers/herbsutter",
         apptype2: "wrapper",
         url: "https://herbsutter.com"
       },
@@ -7075,7 +7075,7 @@ export const categories = [
         nameKey: "gofundme_name",
         descriptionKey: "gofundme_desc",
         icon: "icons/msedge/gofundme.webp",
-        url2: "/msedge/gofundme",
+        url2: "../msedge/gofundme",
         apptype2: "wrapper",
         apptype_hide: "msedge",
         url: "https://www.gofundme.com"
@@ -7085,7 +7085,7 @@ export const categories = [
         nameKey: "bjarnestroustrup_name",
         descriptionKey: "bjarnestroustrup_desc",
         icon: "icons/wrappers/bjarnestroustrup.webp",
-        url2: "/wrappers/bjarnestroustrup",
+        url2: "../wrappers/bjarnestroustrup",
         apptype2: "wrapper",
         url: "https://www.stroustrup.com"
       },
@@ -7094,7 +7094,7 @@ export const categories = [
         nameKey: "wbtv_name",
         descriptionKey: "wbtv_desc",
         icon: "icons/msedge/wbtv.webp",
-        url2: "/msedge/wbtv",
+        url2: "../msedge/wbtv",
         apptype2: "wrapper",
         apptype_hide: "msedge",
         url: "https://www.wbtv.com"
@@ -7105,7 +7105,7 @@ export const categories = [
         nameKey: "nvidia_name",
         descriptionKey: "nvidia_desc",
         icon: "icons/wrappers/nvidia.webp",
-        url2: "/wrappers/nvidia",
+        url2: "../wrappers/nvidia",
         apptype2: "wrapper",
         url: "https://www.nvidia.com"
       },
@@ -7114,7 +7114,7 @@ export const categories = [
         nameKey: "ruanyifeng_name",
         descriptionKey: "ruanyifeng_desc",
         icon: "icons/wrappers/ruanyifeng.webp",
-        url2: "/wrappers/ruanyifeng",
+        url2: "../wrappers/ruanyifeng",
         url: "https://www.ruanyifeng.com",
         apptype2: "wrapper"
       },
@@ -7123,7 +7123,7 @@ export const categories = [
         nameKey: "veritasium_name",
         descriptionKey: "veritasium_desc",
         icon: "icons/wrappers/veritasium.webp",
-        url2: "/wrappers/veritasium",
+        url2: "../wrappers/veritasium",
         apptype2: "wrapper",
         url: "https://www.veritasium.com"
       },
@@ -7132,7 +7132,7 @@ export const categories = [
         nameKey: "thelundukejournal_name",
         descriptionKey: "thelundukejournal_desc",
         icon: "icons/wrappers/thelundukejournal.webp",
-        url2: "/wrappers/thelundukejournal",
+        url2: "../wrappers/thelundukejournal",
         apptype2: "wrapper",
         url: "https://lunduke.com"
       },
@@ -7141,7 +7141,7 @@ export const categories = [
         nameKey: "pluralistic_name",
         descriptionKey: "pluralistic_desc",
         icon: "icons/wrappers/pluralistic.webp",
-        url2: "/wrappers/pluralistic",
+        url2: "../wrappers/pluralistic",
         apptype2: "wrapper",
         url: "https://pluralistic.net"
       },
@@ -7150,7 +7150,7 @@ export const categories = [
         nameKey: "michaelhudson_name",
         descriptionKey: "michaelhudson_desc",
         icon: "icons/wrappers/michaelhudson.webp",
-        url2: "/wrappers/michaelhudson",
+        url2: "../wrappers/michaelhudson",
         apptype2: "wrapper",
         url: "https://michael-hudson.com"
       },
@@ -7159,7 +7159,7 @@ export const categories = [
         nameKey: "judgenap_name",
         descriptionKey: "judgenap_desc",
         icon: "icons/wrappers/judgenap.webp",
-        url2: "/wrappers/judgenap",
+        url2: "../wrappers/judgenap",
         apptype2: "wrapper",
         url: "https://judgenap.com"
       },
@@ -7168,7 +7168,7 @@ export const categories = [
         nameKey: "chriswillx_name",
         descriptionKey: "chriswillx_desc",
         icon: "icons/wrappers/chriswillx.webp",
-        url2: "/wrappers/chriswillx",
+        url2: "../wrappers/chriswillx",
         apptype2: "wrapper",
         url: "https://chriswillx.com"
       },
@@ -7177,7 +7177,7 @@ export const categories = [
         nameKey: "donaldjtrump_name",
         descriptionKey: "donaldjtrump_desc",
         icon: "icons/wrappers/donaldjtrump.webp",
-        url2: "/wrappers/donaldjtrump",
+        url2: "../wrappers/donaldjtrump",
         apptype2: "wrapper",
         url: "https://www.donaldjtrump.com"
       },
@@ -7186,7 +7186,7 @@ export const categories = [
         nameKey: "winred_name",
         descriptionKey: "winred_desc",
         icon: "icons/wrappers/winred.webp",
-        url2: "/wrappers/winred",
+        url2: "../wrappers/winred",
         apptype2: "wrapper",
         url: "https://winred.com"
       },
@@ -7195,7 +7195,7 @@ export const categories = [
         nameKey: "harldan_name",
         descriptionKey: "harldan_desc",
         icon: "icons/wrappers/harldan.webp",
-        url2: "/wrappers/harldan",
+        url2: "../wrappers/harldan",
         apptype2: "wrapper",
         url: "https://www.harldan.com"
       },
@@ -7204,7 +7204,7 @@ export const categories = [
         nameKey: "jodybruchon_name",
         descriptionKey: "jodybruchon_desc",
         icon: "icons/wrappers/jodybruchon.webp",
-        url2: "/wrappers/jodybruchon",
+        url2: "../wrappers/jodybruchon",
         apptype2: "wrapper",
         url: "https://www.jodybruchon.com"
       },
@@ -7213,7 +7213,7 @@ export const categories = [
         nameKey: "aifocus_name",
         descriptionKey: "aifocus_desc",
         icon: "icons/wrappers/aifocus.webp",
-        url2: "/wrappers/aifocus",
+        url2: "../wrappers/aifocus",
         apptype2: "wrapper",
         url: "https://aifoc.us"
       },
@@ -7222,7 +7222,7 @@ export const categories = [
         nameKey: "zerosid_name",
         descriptionKey: "zerosid_desc",
         icon: "icons/wrappers/0xsid.webp",
-        url2: "/wrappers/0xsid",
+        url2: "../wrappers/0xsid",
         apptype2: "wrapper",
         url: "https://www.0xsid.com"
       },
@@ -7231,7 +7231,7 @@ export const categories = [
         nameKey: "stallman_name",
         descriptionKey: "stallman_desc",
         icon: "icons/wrappers/stallman.webp",
-        url2: "/wrappers/stallman",
+        url2: "../wrappers/stallman",
         apptype2: "wrapper",
         url: "https://stallman.org"
       },
@@ -7240,7 +7240,7 @@ export const categories = [
         nameKey: "tylerraw_name",
         descriptionKey: "tylerraw_desc",
         icon: "icons/msedge/tylerraw.webp",
-        url2: "/msedge/tylerraw",
+        url2: "../msedge/tylerraw",
         apptype2: "wrapper",
         url: "https://tylerraw.com"
       },
@@ -7255,7 +7255,7 @@ export const categories = [
         nameKey: "mgtowtv_name",
         descriptionKey: "mgtowtv_desc",
         icon: "icons/wrappers/mgtowtv.webp",
-        url2: "/wrappers/mgtowtv",
+        url2: "../wrappers/mgtowtv",
         apptype2: "wrapper",
         url: "https://www.mgtow.tv"
       },
@@ -7264,7 +7264,7 @@ export const categories = [
         nameKey: "betterbachelor_name",
         descriptionKey: "betterbachelor_desc",
         icon: "icons/wrappers/betterbachelor.webp",
-        url2: "/wrappers/betterbachelor",
+        url2: "../wrappers/betterbachelor",
           apptype2: "wrapper",
           url: "https://betterbachelor.locals.com"
       },
@@ -7273,7 +7273,7 @@ export const categories = [
         nameKey: "the33secrets_name",
         descriptionKey: "the33secrets_desc",
         icon: "icons/wrappers/the33secrets.webp",
-        url2: "/wrappers/the33secrets",
+        url2: "../wrappers/the33secrets",
         apptype2: "wrapper",
         url: "https://www.the33secrets.com"
       },
@@ -7282,7 +7282,7 @@ export const categories = [
         nameKey: "toddvdating_name",
         descriptionKey: "toddvdating_desc",
         icon: "icons/wrappers/toddvdating.webp",
-        url2: "/wrappers/toddvdating",
+        url2: "../wrappers/toddvdating",
         apptype2: "wrapper",
         url: "https://toddvdating.com"
       },
@@ -7296,7 +7296,7 @@ export const categories = [
         name: "IRS",
         nameKey: "irs_name",
         icon: "icons/wrappers/irs.webp",
-        url2: "/wrappers/irs",
+        url2: "../wrappers/irs",
         descriptionKey: "irs_desc",
         apptype2: "wrapper",
         url: "https://www.irs.gov"
@@ -7305,7 +7305,7 @@ export const categories = [
         name: "USCIS",
         nameKey: "uscis_name",
         icon: "icons/wrappers/uscis.webp",
-        url2: "/wrappers/uscis",
+        url2: "../wrappers/uscis",
         descriptionKey: "uscis_desc",
         apptype2: "wrapper",
         url: "https://www.uscis.gov"
@@ -7314,7 +7314,7 @@ export const categories = [
         name: "SSA",
         nameKey: "ssa_name",
         icon: "icons/wrappers/ssa.webp",
-        url2: "/wrappers/ssa",
+        url2: "../wrappers/ssa",
         descriptionKey: "ssa_desc",
         apptype2: "wrapper",
         url: "https://www.ssa.gov"
@@ -7323,7 +7323,7 @@ export const categories = [
         name: "TSA",
         nameKey: "tsa_name",
         icon: "icons/wrappers/tsa.webp",
-        url2: "/wrappers/tsa",
+        url2: "../wrappers/tsa",
         descriptionKey: "tsa_desc",
         apptype2: "wrapper",
         url: "https://www.tsa.gov"
@@ -7332,7 +7332,7 @@ export const categories = [
         name: "DOS",
         nameKey: "dos_name",
         icon: "icons/wrappers/dos.webp",
-        url2: "/wrappers/dos",
+        url2: "../wrappers/dos",
         descriptionKey: "dos_desc",
         apptype2: "wrapper",
         url: "https://www.state.gov"
@@ -7341,7 +7341,7 @@ export const categories = [
         name: "USA.gov",
         nameKey: "usagov_name",
         icon: "icons/wrappers/usagov.webp",
-        url2: "/wrappers/usagov",
+        url2: "../wrappers/usagov",
         descriptionKey: "usagov_desc",
         apptype2: "wrapper",
         url: "https://www.usa.gov"
@@ -7350,7 +7350,7 @@ export const categories = [
         name: "IdentityTheft",
         nameKey: "identitytheft_name",
         icon: "icons/wrappers/identitytheft.webp",
-        url2: "/wrappers/identitytheft",
+        url2: "../wrappers/identitytheft",
         descriptionKey: "identitytheft_desc",
         apptype2: "wrapper",
         url: "https://www.identitytheft.gov"
@@ -7359,7 +7359,7 @@ export const categories = [
         name: "FTC",
         nameKey: "ftc_name",
         icon: "icons/wrappers/ftc.webp",
-        url2: "/wrappers/ftc",
+        url2: "../wrappers/ftc",
         descriptionKey: "ftc_desc",
         apptype2: "wrapper",
         url: "https://www.ftc.gov"
@@ -7368,7 +7368,7 @@ export const categories = [
         name: "FDA",
         nameKey: "fda_name",
         icon: "icons/wrappers/fda.webp",
-        url2: "/wrappers/fda",
+        url2: "../wrappers/fda",
         descriptionKey: "fda_desc",
         apptype2: "wrapper",
         url: "https://www.fda.gov"
@@ -7377,7 +7377,7 @@ export const categories = [
         name: "FED",
         nameKey: "fed_name",
         icon: "icons/wrappers/fed.webp",
-        url2: "/wrappers/fed",
+        url2: "../wrappers/fed",
         descriptionKey: "fed_desc",
         apptype2: "wrapper",
         url: "https://www.federalreserve.gov"
@@ -7386,7 +7386,7 @@ export const categories = [
         name: "DOL",
         nameKey: "dol_name",
         icon: "icons/wrappers/dol.webp",
-        url2: "/wrappers/dol",
+        url2: "../wrappers/dol",
         descriptionKey: "dol_desc",
         apptype2: "wrapper",
         url: "https://www.dol.gov"
@@ -7395,7 +7395,7 @@ export const categories = [
         name: "DOD",
         nameKey: "dod_name",
         icon: "icons/wrappers/dod.webp",
-        url2: "/wrappers/dod",
+        url2: "../wrappers/dod",
         descriptionKey: "dod_desc",
         apptype2: "wrapper",
         url: "https://www.defense.gov"
@@ -7404,7 +7404,7 @@ export const categories = [
         name: "GSA",
         nameKey: "gsa_name",
         icon: "icons/wrappers/gsa.webp",
-        url2: "/wrappers/gsa",
+        url2: "../wrappers/gsa",
         descriptionKey: "gsa_desc",
         apptype2: "wrapper",
         url: "https://www.gsa.gov"
@@ -7413,7 +7413,7 @@ export const categories = [
         name: "DHS",
         nameKey: "dhs_name",
         icon: "icons/wrappers/dhs.webp",
-        url2: "/wrappers/dhs",
+        url2: "../wrappers/dhs",
         descriptionKey: "dhs_desc",
         apptype2: "wrapper",
         url: "https://www.dhs.gov"
@@ -7422,7 +7422,7 @@ export const categories = [
         name: "DEA",
         nameKey: "dea_name",
         icon: "icons/wrappers/dea.webp",
-        url2: "/wrappers/dea",
+        url2: "../wrappers/dea",
         descriptionKey: "dea_desc",
         apptype2: "wrapper",
         url: "https://www.dea.gov"
@@ -7431,7 +7431,7 @@ export const categories = [
         name: "EEOC",
         nameKey: "eeoc_name",
         icon: "icons/wrappers/eeoc.webp",
-        url2: "/wrappers/eeoc",
+        url2: "../wrappers/eeoc",
         descriptionKey: "eeoc_desc",
         apptype2: "wrapper",
         url: "https://www.eeoc.gov"
@@ -7440,7 +7440,7 @@ export const categories = [
         name: "NSA",
         nameKey: "nsa_name",
         icon: "icons/wrappers/nsa.webp",
-        url2: "/wrappers/nsa",
+        url2: "../wrappers/nsa",
         descriptionKey: "nsa_desc",
         apptype2: "wrapper",
         url: "https://www.nsa.gov"
@@ -7456,7 +7456,7 @@ export const categories = [
         name: "DOJ",
         nameKey: "doj_name",
         icon: "icons/wrappers/doj.webp",
-        url2: "/wrappers/doj",
+        url2: "../wrappers/doj",
         descriptionKey: "doj_desc",
         apptype2: "wrapper",
         url: "https://www.justice.gov"
@@ -7465,7 +7465,7 @@ export const categories = [
         name: "OMB",
         nameKey: "omb_name",
         icon: "icons/wrappers/omb.webp",
-        url2: "/wrappers/omb",
+        url2: "../wrappers/omb",
         descriptionKey: "omb_desc",
         apptype2: "wrapper",
         url: "https://www.whitehouse.gov/omb"
@@ -7475,7 +7475,7 @@ export const categories = [
         nameKey: "freedomgov_name",
         descriptionKey: "freedomgov_desc",
         icon: "icons/wrappers/freedomgov.webp",
-        url2: "/wrappers/freedomgov",
+        url2: "../wrappers/freedomgov",
         apptype2: "wrapper",
         url: "https://freedom.gov",
         hide: true
@@ -7484,7 +7484,7 @@ export const categories = [
         name: "NASA",
         nameKey: "nasa_name",
         icon: "icons/wrappers/nasa.webp",
-        url2: "/wrappers/nasa",
+        url2: "../wrappers/nasa",
         descriptionKey: "nasa_desc",
         apptype2: "wrapper",
         url: "https://www.nasa.gov"
@@ -7504,13 +7504,13 @@ export const categories = [
         apptype_hide: "msedge",
         url: "https://analytics.usa.gov",
         apptype2: "wrapper",
-        url2: "/msedge/analyticsusagov"
+        url2: "../msedge/analyticsusagov"
       },
       {
         name: "ID.me",
         nameKey: "idme_name",
         icon: "icons/wrappers/idme.webp",
-        url2: "/wrappers/idme",
+        url2: "../wrappers/idme",
         descriptionKey: "idme_desc",
         apptype2: "wrapper",
         url: "https://id.me"
@@ -7520,7 +7520,7 @@ export const categories = [
         nameKey: "freefile_name",
         descriptionKey: "freefile_desc",
         icon: "icons/wrappers/freefile.webp",
-        url2: "/wrappers/freefile",
+        url2: "../wrappers/freefile",
         apptype2: "wrapper",
         url: "https://www.freefilefillableforms.com"
       },
@@ -7529,7 +7529,7 @@ export const categories = [
         nameKey: "cdc_name",
         descriptionKey: "cdc_desc",
         icon: "icons/wrappers/cdc.webp",
-        url2: "/wrappers/cdc",
+        url2: "../wrappers/cdc",
         apptype2: "wrapper",
         url: "https://www.cdc.gov"
       },
@@ -7544,7 +7544,7 @@ export const categories = [
         nameKey: "govcn_name",
         descriptionKey: "govcn_desc",
         icon: "icons/wrappers/govcn.webp",
-        url2: "/wrappers/govcn",
+        url2: "../wrappers/govcn",
         apptype2: "wrapper",
         url: "https://www.gov.cn"
       },
@@ -7553,7 +7553,7 @@ export const categories = [
         nameKey: "lygfund_name",
         descriptionKey: "lygfund_desc",
         icon: "icons/wrappers/lygfund.webp",
-        url2: "/wrappers/lygfund",
+        url2: "../wrappers/lygfund",
         apptype2: "wrapper",
         url: "https://12329.zfgjj.lyg.gov.cn"
       },
@@ -7638,7 +7638,7 @@ export const categories = [
         nameKey: "un_name",
         descriptionKey: "un_desc",
         icon: "icons/wrappers/un.webp",
-        url2: "/wrappers/un",
+        url2: "../wrappers/un",
         apptype2: "wrapper",
         url: "https://www.un.org"
       },
@@ -7647,7 +7647,7 @@ export const categories = [
         nameKey: "internationalcompetitionnetwork_name",
         descriptionKey: "internationalcompetitionnetwork_desc",
         icon: "icons/wrappers/internationalcompetitionnetwork.webp",
-        url2: "/wrappers/internationalcompetitionnetwork",
+        url2: "../wrappers/internationalcompetitionnetwork",
         url: "https://www.internationalcompetitionnetwork.org",
         apptype2: "wrapper"
       },
@@ -7656,7 +7656,7 @@ export const categories = [
         nameKey: "fulu_name",
         descriptionKey: "fulu_desc",
         icon: "icons/wrappers/fulu.webp",
-        url2: "/wrappers/fulu",
+        url2: "../wrappers/fulu",
         apptype2: "wrapper",
         url: "https://fulu.org"
       },
@@ -7699,7 +7699,7 @@ export const categories = [
         nameKey: "uhs_name",
         descriptionKey: "uhs_desc",
         icon: "icons/wrappers/uhs.webp",
-        url2: "/wrappers/uhs",
+        url2: "../wrappers/uhs",
         apptype2: "wrapper",
         url: "https://www.uhs.com"
       },
@@ -7708,7 +7708,7 @@ export const categories = [
         nameKey: "deltadental_name",
         descriptionKey: "deltadental_desc",
         icon: "icons/wrappers/deltadental.webp",
-        url2: "/wrappers/deltadental",
+        url2: "../wrappers/deltadental",
         apptype2: "wrapper",
         url: "https://www.deltadental.com"
       },
@@ -7716,14 +7716,14 @@ export const categories = [
         name: "Women's Health",
         nameKey: "womenshealth_name",
         descriptionKey: "womenshealth_desc",
-        url2: "/wrappers/womenshealth",
+        url2: "../wrappers/womenshealth",
         icon: "icons/wrappers/womenshealth.webp",
         apptype2: "wrapper",
         url: "https://www.womenshealthmag.com"
       },
       {
         name: "Human Life International",
-        url2: "/wrappers/humanlifeinternational",
+        url2: "../wrappers/humanlifeinternational",
         nameKey: "humanlifeinternational_name",
         descriptionKey: "humanlifeinternational_desc",
         icon: "icons/wrappers/humanlifeinternational.webp",
@@ -7735,7 +7735,7 @@ export const categories = [
         nameKey: "nydentalgroup_name",
         descriptionKey: "nydentalgroup_desc",
         icon: "icons/wrappers/nydentalgroup.webp",
-        url2: "/wrappers/nydentalgroup",
+        url2: "../wrappers/nydentalgroup",
         apptype2: "wrapper",
         url: "https://www.nydentalgroup.com"
       },
@@ -7744,7 +7744,7 @@ export const categories = [
         nameKey: "vsigo_name",
         descriptionKey: "vsigo_desc",
         icon: "icons/wrappers/vsigo.webp",
-        url2: "/wrappers/vsigo",
+        url2: "../wrappers/vsigo",
         apptype2: "wrapper",
         url: "https://www.vsigo.cn"
       },
@@ -7753,7 +7753,7 @@ export const categories = [
         nameKey: "ebpgesedna_name",
         descriptionKey: "ebpgesedna_desc",
         icon: "icons/msedge/ebpgesedna.webp",
-        url2: "/msedge/ebpgesedna",
+        url2: "../msedge/ebpgesedna",
         apptype2: "wrapper",
         url: "https://ebp.gesedna.com"
       },
@@ -7762,7 +7762,7 @@ export const categories = [
         nameKey: "prevention_name",
         descriptionKey: "prevention_desc",
         icon: "icons/wrappers/prevention.webp",
-        url2: "/wrappers/prevention",
+        url2: "../wrappers/prevention",
         apptype2: "wrapper",
         url: "https://www.prevention.com"
       },
@@ -7771,7 +7771,7 @@ export const categories = [
         nameKey: "statefarm_name",
         descriptionKey: "statefarm_desc",
         icon: "icons/msedge/statefarm.webp",
-        url2: "/msedge/statefarm",
+        url2: "../msedge/statefarm",
         apptype2: "wrapper",
         url: "https://www.statefarm.com"
       },
@@ -7846,7 +7846,7 @@ export const categories = [
         nameKey: "sportingnews_name",
         descriptionKey: "sportingnews_desc",
         icon: "icons/wrappers/sportingnews.webp",
-        url2: "/wrappers/sportingnews",
+        url2: "../wrappers/sportingnews",
         apptype2: "wrapper",
         url: "https://www.sportingnews.com"
       },
@@ -7855,7 +7855,7 @@ export const categories = [
         nameKey: "si_name",
         descriptionKey: "si_desc",
         icon: "icons/wrappers/si.webp",
-        url2: "/wrappers/si",
+        url2: "../wrappers/si",
         apptype2: "wrapper",
         url: "https://www.si.com"
       },
@@ -7864,7 +7864,7 @@ export const categories = [
         nameKey: "thespun_name",
         descriptionKey: "thespun_desc",
         icon: "icons/wrappers/thespun.webp",
-        url2: "/wrappers/thespun",
+        url2: "../wrappers/thespun",
         apptype2: "wrapper",
         url: "https://thespun.com"
       },
@@ -7907,7 +7907,7 @@ export const categories = [
         nameKey: "hotcrp_name",
         descriptionKey: "hotcrp_desc",
         icon: "icons/wrappers/hotcrp.webp",
-        url2: "/wrappers/hotcrp",
+        url2: "../wrappers/hotcrp",
         url: "https://hotcrp.com",
         apptype2: "wrapper",
       },
@@ -7916,7 +7916,7 @@ export const categories = [
         nameKey: "acm_name",
         descriptionKey: "acm_desc",
         icon: "icons/wrappers/acm.webp",
-        url2: "/wrappers/acm",
+        url2: "../wrappers/acm",
         url: "https://www.acm.org",
         apptype2: "wrapper",
       },
@@ -7928,14 +7928,14 @@ export const categories = [
         apptype_hide: "msedge",
         url: "https://academic.oup.com",
         apptype2: "wrapper",
-        url2: "/msedge/oupacademic",
+        url2: "../msedge/oupacademic",
       },
       {
         name: "ORCID",
         nameKey: "orcid_name",
         descriptionKey: "orcid_desc",
         icon: "icons/wrappers/orcid.webp",
-        url2: "/wrappers/orcid",
+        url2: "../wrappers/orcid",
         apptype2: "wrapper",
         url: "https://orcid.org"
       },
@@ -7944,7 +7944,7 @@ export const categories = [
         nameKey: "ncbi_name",
         descriptionKey: "ncbi_desc",
         icon: "icons/wrappers/ncbi.webp",
-        url2: "/wrappers/ncbi",
+        url2: "../wrappers/ncbi",
         apptype2: "wrapper",
         url: "https://www.ncbi.nlm.nih.gov"
       },
@@ -7953,7 +7953,7 @@ export const categories = [
         nameKey: "wenjuanxingcn_name",
         descriptionKey: "wenjuanxing_desc",
         icon: "icons/wrappers/wenjuanxing.webp",
-        url2: "/wrappers/wenjuanxing",
+        url2: "../wrappers/wenjuanxing",
         url: "https://www.wjx.cn",
         apptype2: "wrapper" 
       },
@@ -8005,7 +8005,7 @@ export const categories = [
         icon: "icons/msedge/caltech.webp",
         url: "https://www.caltech.edu",
         apptype_hide: "msedge",
-        url2: "/msedge/caltech",
+        url2: "../msedge/caltech",
         apptype2: "wrapper"
       },
       {
@@ -8015,7 +8015,7 @@ export const categories = [
         icon: "icons/msedge/uchicago.webp",
         url: "https://www.uchicago.edu",
         apptype_hide: "msedge",
-        url2: "/msedge/uchicago",
+        url2: "../msedge/uchicago",
         apptype2: "wrapper"
       },
       {
@@ -8025,7 +8025,7 @@ export const categories = [
         icon: "icons/msedge/oxford.webp",
         url: "https://www.ox.ac.uk",
         apptype_hide: "msedge",
-        url2: "/msedge/oxford",
+        url2: "../msedge/oxford",
         apptype2: "wrapper"
       },
       {
@@ -8035,7 +8035,7 @@ export const categories = [
         icon: "icons/msedge/cornell.webp",
         url: "https://www.cornell.edu",
         apptype_hide: "msedge",
-        url2: "/msedge/cornell",
+        url2: "../msedge/cornell",
         apptype2: "wrapper"
       },
       {
@@ -8043,7 +8043,7 @@ export const categories = [
         nameKey: "binghamton_name",
         descriptionKey: "binghamton_desc",
         icon: "icons/wrappers/binghamton_edu.webp",
-        url2: "/wrappers/binghamton_edu",
+        url2: "../wrappers/binghamton_edu",
         apptype2: "wrapper",
         url: "https://www.binghamton.edu",
       },
@@ -8052,7 +8052,7 @@ export const categories = [
         nameKey: "fudan_name",
         descriptionKey: "fudan_desc",
         icon: "icons/wrappers/fudan.webp",
-        url2: "/wrappers/fudan",
+        url2: "../wrappers/fudan",
         apptype2: "wrapper",
         url: "https://www.fudan.edu.cn"
       },
@@ -8061,7 +8061,7 @@ export const categories = [
         nameKey: "harvard_name",
         descriptionKey: "harvard_desc",
         icon: "icons/wrappers/harvard.webp",
-        url2: "/wrappers/harvard",
+        url2: "../wrappers/harvard",
         apptype2: "wrapper",
         url: "https://www.harvard.edu"
       },
@@ -8070,7 +8070,7 @@ export const categories = [
         nameKey: "stanford_name",
         descriptionKey: "stanford_desc",
         icon: "icons/wrappers/stanford.webp",
-        url2: "/wrappers/stanford",
+        url2: "../wrappers/stanford",
         apptype2: "wrapper",
         url: "https://www.stanford.edu"
       },
@@ -8079,7 +8079,7 @@ export const categories = [
         nameKey: "berkeley_name",
         descriptionKey: "berkeley_desc",
         icon: "icons/wrappers/berkeley.webp",
-        url2: "/wrappers/berkeley",
+        url2: "../wrappers/berkeley",
         apptype2: "wrapper",
         url: "https://www.berkeley.edu"
       },
@@ -8088,7 +8088,7 @@ export const categories = [
         nameKey: "columbia_name",
         descriptionKey: "columbia_desc",
         icon: "icons/wrappers/columbia.webp",
-        url2: "/wrappers/columbia",
+        url2: "../wrappers/columbia",
         apptype2: "wrapper",
         url: "https://www.columbia.edu"
       },
@@ -8097,7 +8097,7 @@ export const categories = [
         nameKey: "umich_name",
         descriptionKey: "umich_desc",
         icon: "icons/wrappers/umich.webp",
-        url2: "/wrappers/umich",
+        url2: "../wrappers/umich",
         apptype2: "wrapper",
         url: "https://umich.edu"
       },
@@ -8106,7 +8106,7 @@ export const categories = [
         nameKey: "upenn_name",
         descriptionKey: "upenn_desc",
         icon: "icons/wrappers/upenn.webp",
-        url2: "/wrappers/upenn",
+        url2: "../wrappers/upenn",
         apptype2: "wrapper",
         url: "https://www.upenn.edu"
       },
@@ -8115,7 +8115,7 @@ export const categories = [
         nameKey: "jhu_name",
         descriptionKey: "jhu_desc",
         icon: "icons/msedge/jhu.webp",
-        url2: "/msedge/jhu",
+        url2: "../msedge/jhu",
         apptype2: "wrapper",
         url: "https://www.jhu.edu"
       },
@@ -8124,7 +8124,7 @@ export const categories = [
         nameKey: "yalee360_name",
         descriptionKey: "yalee360_desc",
         icon: "icons/wrappers/yalee360.webp",
-        url2: "/wrappers/yalee360",
+        url2: "../wrappers/yalee360",
         apptype2: "wrapper",
         url: "https://e360.yale.edu"
       },
@@ -8133,7 +8133,7 @@ export const categories = [
         nameKey: "cambridge_name",
         descriptionKey: "cambridge_desc",
         icon: "icons/wrappers/cambridge.webp",
-        url2: "/wrappers/cambridge",
+        url2: "../wrappers/cambridge",
         apptype2: "wrapper",
         url: "https://www.cam.ac.uk"
       },
@@ -8142,7 +8142,7 @@ export const categories = [
         nameKey: "nus_name",
         descriptionKey: "nus_desc",
         icon: "icons/wrappers/nus.webp",
-        url2: "/wrappers/nus",
+        url2: "../wrappers/nus",
         apptype2: "wrapper",
         url: "https://nus.edu.sg"
       },
@@ -8151,7 +8151,7 @@ export const categories = [
         nameKey: "utokyo_name",
         descriptionKey: "utokyo_desc",
         icon: "icons/wrappers/utokyo.webp",
-        url2: "/wrappers/utokyo",
+        url2: "../wrappers/utokyo",
         apptype2: "wrapper",
         url: "https://www.u-tokyo.ac.jp"
       },
@@ -8160,7 +8160,7 @@ export const categories = [
         nameKey: "tsinghua_name",
         descriptionKey: "tsinghua_desc",
         icon: "icons/wrappers/tsinghua.webp",
-        url2: "/wrappers/tsinghua",
+        url2: "../wrappers/tsinghua",
         apptype2: "wrapper",
         url: "https://www.tsinghua.edu.cn"
       },
@@ -8169,7 +8169,7 @@ export const categories = [
         nameKey: "peking_name",
         descriptionKey: "peking_desc",
         icon: "icons/wrappers/peking.webp",
-        url2: "/wrappers/peking",
+        url2: "../wrappers/peking",
         apptype2: "wrapper",
         url: "https://www.pku.edu.cn"
       },
@@ -8178,7 +8178,7 @@ export const categories = [
         nameKey: "sjtu_name",
         descriptionKey: "sjtu_desc",
         icon: "icons/wrappers/sjtu.webp",
-        url2: "/wrappers/sjtu",
+        url2: "../wrappers/sjtu",
         apptype2: "wrapper",
         url: "https://www.sjtu.edu.cn"
       },
@@ -8187,7 +8187,7 @@ export const categories = [
         nameKey: "zju_name",
         descriptionKey: "zju_desc",
         icon: "icons/wrappers/zju.webp",
-        url2: "/wrappers/zju",
+        url2: "../wrappers/zju",
         apptype2: "wrapper",
         url: "https://www.zju.edu.cn"
       },
@@ -8196,7 +8196,7 @@ export const categories = [
         nameKey: "nju_name",
         descriptionKey: "nju_desc",
         icon: "icons/wrappers/nju.webp",
-        url2: "/wrappers/nju",
+        url2: "../wrappers/nju",
         apptype2: "wrapper",
         url: "https://www.nju.edu.cn"
       },
@@ -8251,7 +8251,7 @@ export const categories = [
         nameKey: "hao123_name",
         descriptionKey: "hao123_desc",
         icon: "icons/wrappers/hao123.webp",
-        url2: "/wrappers/hao123",
+        url2: "../wrappers/hao123",
         apptype2: "wrapper",
         url: "https://www.hao123.com"
       },
@@ -8328,7 +8328,7 @@ export const categories = [
         nameKey: "yande_name",
         descriptionKey: "yande_desc",
         icon: "icons/wrappers/yande.webp",
-        url2: "/wrappers/yande",
+        url2: "../wrappers/yande",
         url: "https://yande.re",
         apptype2: "wrapper"
       },
@@ -8402,7 +8402,7 @@ export const categories = [
         nameKey: "missavtv_name",
         descriptionKey: "missavtv_desc",
         icon: "icons/wrappers/missavtv.webp",
-        url2: "/wrappers/missavtv",
+        url2: "../wrappers/missavtv",
         url: "https://missavtv.com/en",
         apptype2: "wrapper"
       },
@@ -8453,7 +8453,7 @@ export const categories = [
         nameKey: "javhdporn_name",
         descriptionKey: "javhdporn_desc",
         icon: "icons/wrappers/javhdporn.webp",
-        url2: "/wrappers/javhdporn",
+        url2: "../wrappers/javhdporn",
         apptype2: "wrapper",
         url: "https://www4.javhdporn.net",
       },
@@ -8462,7 +8462,7 @@ export const categories = [
         nameKey: "supjav_name",
         descriptionKey: "supjav_desc",
         icon: "icons/wrappers/supjav.webp",
-        url2: "/wrappers/supjav",
+        url2: "../wrappers/supjav",
         apptype2: "wrapper",
         url: "https://supjav.com",
       },
@@ -8471,7 +8471,7 @@ export const categories = [
         nameKey: "avdanyuwiki_name",
         descriptionKey: "avdanyuwiki_desc",
         icon: "icons/wrappers/avdanyuwiki.webp",
-        url2: "/wrappers/avdanyuwiki",
+        url2: "../wrappers/avdanyuwiki",
         apptype2: "wrapper",
         url: "https://avdanyuwiki.com",
       },
@@ -8480,7 +8480,7 @@ export const categories = [
         nameKey: "luxuretv_name",
         descriptionKey: "luxuretv_desc",
         icon: "icons/wrappers/luxuretv.webp",
-        url2: "/wrappers/luxuretv",
+        url2: "../wrappers/luxuretv",
         apptype2: "wrapper",
         url: "https://en.luxuretv.com"
       },
@@ -8489,7 +8489,7 @@ export const categories = [
         nameKey: "beeg_name",
         descriptionKey: "beeg_desc",
         icon: "icons/wrappers/beeg.webp",
-        url2: "/wrappers/beeg",
+        url2: "../wrappers/beeg",
         apptype2: "wrapper",
         url: "https://beeg.com"
       },
@@ -8498,7 +8498,7 @@ export const categories = [
         nameKey: "hentaiplay_name",
         descriptionKey: "hentaiplay_desc",
         icon: "icons/wrappers/hentaiplay.webp",
-        url2: "/wrappers/hentaiplay",
+        url2: "../wrappers/hentaiplay",
         apptype2: "wrapper",
         url: "https://hentaiplay.net"
       },
@@ -8507,7 +8507,7 @@ export const categories = [
         nameKey: "hentaila_name",
         descriptionKey: "hentaila_desc",
         icon: "icons/wrappers/hentaila.webp",
-        url2: "/wrappers/hentaila",
+        url2: "../wrappers/hentaila",
         apptype2: "wrapper",
         url: "https://hentaila.com"
       },
@@ -8516,7 +8516,7 @@ export const categories = [
         nameKey: "btsow_name",
         descriptionKey: "btsow_desc",
         icon: "icons/wrappers/btsow.webp",
-        url2: "/wrappers/btsow",
+        url2: "../wrappers/btsow",
         apptype2: "wrapper",
         url: "https://btsow.lol"
       },
@@ -8525,7 +8525,7 @@ export const categories = [
         nameKey: "t66y_name",
         descriptionKey: "t66y_desc",
         icon: "icons/wrappers/t66y.webp",
-        url2: "/wrappers/t66y",
+        url2: "../wrappers/t66y",
         apptype2: "wrapper",
         url: "https://www.t66y.com"
       },
