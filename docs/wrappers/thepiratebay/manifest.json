@@ -2,15 +2,15 @@
   "id": "/wrappers/thepiratebay",
   "name": "The Pirate Bay",
   "short_name": "The Pirate Bay",
-  "start_url": "./thepiratebay/?source=pwa",
-  "scope": "./thepiratebay/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/thepiratebay/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for The Pirate Bay",
   "display": "standalone",
   "icons": [
     {
-      "src": "./thepiratebay/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

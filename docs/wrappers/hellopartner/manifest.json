@@ -2,15 +2,15 @@
   "id": "/wrappers/hellopartner",
   "name": "Hello Partner",
   "short_name": "Hello Partner",
-  "start_url": "./hellopartner/?source=pwa",
-  "scope": "./hellopartner/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/hellopartner/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Hello Partner",
   "display": "standalone",
   "icons": [
     {
-      "src": "./hellopartner/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/bingshop",
   "name": "Bing Shop",
   "short_name": "Bing Shop",
-  "start_url": "./bingshop/?source=pwa",
-  "scope": "./bingshop/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/bingshop/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Bing Shop",
   "display": "standalone",
   "icons": [
     {
-      "src": "./bingshop/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

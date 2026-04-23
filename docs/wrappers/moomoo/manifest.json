@@ -2,15 +2,15 @@
   "id": "/wrappers/moomoo",
   "name": "Moomoo",
   "short_name": "Moomoo",
-  "start_url": "./moomoo/?source=pwa",
-  "scope": "./moomoo/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/moomoo/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Moomoo",
   "display": "standalone",
   "icons": [
     {
-      "src": "./moomoo/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

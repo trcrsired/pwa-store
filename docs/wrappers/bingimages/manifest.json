@@ -2,15 +2,15 @@
   "id": "/wrappers/bingimages",
   "name": "Bing Images",
   "short_name": "Bing Images",
-  "start_url": "./bingimages/?source=pwa",
-  "scope": "./bingimages/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/bingimages/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Bing Images",
   "display": "standalone",
   "icons": [
     {
-      "src": "./bingimages/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

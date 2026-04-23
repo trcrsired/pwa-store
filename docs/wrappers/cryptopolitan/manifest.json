@@ -2,15 +2,15 @@
   "id": "/wrappers/cryptopolitan",
   "name": "Cryptopolitan",
   "short_name": "Cryptopolitan",
-  "start_url": "./cryptopolitan/?source=pwa",
-  "scope": "./cryptopolitan/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/cryptopolitan/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Cryptopolitan",
   "display": "standalone",
   "icons": [
     {
-      "src": "./cryptopolitan/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

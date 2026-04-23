@@ -2,15 +2,15 @@
   "id": "/wrappers/wpscn",
   "name": "WPS (CN)",
   "short_name": "WPS (CN)",
-  "start_url": "./wpscn/?source=pwa",
-  "scope": "./wpscn/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/wpscn/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for WPS (CN)",
   "display": "standalone",
   "icons": [
     {
-      "src": "./wpscn/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

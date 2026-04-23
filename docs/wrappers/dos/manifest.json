@@ -2,15 +2,15 @@
   "id": "/wrappers/dos",
   "name": "DOS",
   "short_name": "DOS",
-  "start_url": "./dos/?source=pwa",
-  "scope": "./dos/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/dos/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for DOS",
   "display": "standalone",
   "icons": [
     {
-      "src": "./dos/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

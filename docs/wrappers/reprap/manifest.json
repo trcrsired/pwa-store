@@ -2,15 +2,15 @@
   "id": "/wrappers/reprap",
   "name": "RepRap",
   "short_name": "RepRap",
-  "start_url": "./reprap/?source=pwa",
-  "scope": "./reprap/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/reprap/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for RepRap",
   "display": "standalone",
   "icons": [
     {
-      "src": "./reprap/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/wuyouzhixiang",
   "name": "\u4e4c\u6709\u4e4b\u4e61",
   "short_name": "\u4e4c\u6709\u4e4b\u4e61",
-  "start_url": "./wuyouzhixiang/?source=pwa",
-  "scope": "./wuyouzhixiang/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/wuyouzhixiang/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u4e4c\u6709\u4e4b\u4e61",
   "display": "standalone",
   "icons": [
     {
-      "src": "./wuyouzhixiang/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/luckin",
   "name": "Luckin Coffee",
   "short_name": "Luckin Coffee",
-  "start_url": "./luckin/?source=pwa",
-  "scope": "./luckin/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/luckin/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Luckin Coffee",
   "display": "standalone",
   "icons": [
     {
-      "src": "./luckin/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

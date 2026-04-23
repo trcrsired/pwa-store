@@ -2,15 +2,15 @@
   "id": "/wrappers/wbko",
   "name": "WBKO",
   "short_name": "WBKO",
-  "start_url": "./wbko/?source=pwa",
-  "scope": "./wbko/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/wbko/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for WBKO",
   "display": "standalone",
   "icons": [
     {
-      "src": "./wbko/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

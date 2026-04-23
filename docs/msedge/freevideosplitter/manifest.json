@@ -2,15 +2,15 @@
   "id": "/msedge/freevideosplitter",
   "name": "FreeVideoSplitter",
   "short_name": "FreeVideoSplitter",
-  "start_url": "./freevideosplitter/?source=pwa",
-  "scope": "./freevideosplitter/",
+  "start_url": "./?source=pwa",
+  "scope": "/msedge/freevideosplitter/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for FreeVideoSplitter",
   "display": "standalone",
   "icons": [
     {
-      "src": "./freevideosplitter/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

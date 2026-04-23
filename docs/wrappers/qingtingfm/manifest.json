@@ -2,15 +2,15 @@
   "id": "/wrappers/qingtingfm",
   "name": "Qingting FM",
   "short_name": "Qingting FM",
-  "start_url": "./qingtingfm/?source=pwa",
-  "scope": "./qingtingfm/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/qingtingfm/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Qingting FM",
   "display": "standalone",
   "icons": [
     {
-      "src": "./qingtingfm/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

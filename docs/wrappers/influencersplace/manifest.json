@@ -2,15 +2,15 @@
   "id": "/wrappers/influencersplace",
   "name": "Influencersplace",
   "short_name": "Influencersplace",
-  "start_url": "./influencersplace/?source=pwa",
-  "scope": "./influencersplace/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/influencersplace/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Influencersplace",
   "display": "standalone",
   "icons": [
     {
-      "src": "./influencersplace/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

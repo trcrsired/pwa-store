@@ -2,15 +2,15 @@
   "id": "/wrappers/yandexcloud",
   "name": "Yandex Cloud",
   "short_name": "Yandex Cloud",
-  "start_url": "./yandexcloud/?source=pwa",
-  "scope": "./yandexcloud/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/yandexcloud/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Yandex Cloud",
   "display": "standalone",
   "icons": [
     {
-      "src": "./yandexcloud/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/supjav",
   "name": "Supjav",
   "short_name": "Supjav",
-  "start_url": "./supjav/?source=pwa",
-  "scope": "./supjav/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/supjav/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Supjav",
   "display": "standalone",
   "icons": [
     {
-      "src": "./supjav/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

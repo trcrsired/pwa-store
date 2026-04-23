@@ -2,15 +2,15 @@
   "id": "/wrappers/irs",
   "name": "IRS",
   "short_name": "IRS",
-  "start_url": "./irs/?source=pwa",
-  "scope": "./irs/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/irs/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for IRS",
   "display": "standalone",
   "icons": [
     {
-      "src": "./irs/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

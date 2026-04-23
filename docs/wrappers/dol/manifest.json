@@ -2,15 +2,15 @@
   "id": "/wrappers/dol",
   "name": "DOL",
   "short_name": "DOL",
-  "start_url": "./dol/?source=pwa",
-  "scope": "./dol/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/dol/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for DOL",
   "display": "standalone",
   "icons": [
     {
-      "src": "./dol/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

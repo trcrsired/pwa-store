@@ -2,15 +2,15 @@
   "id": "/wrappers/ruanyifeng",
   "name": "\u962e\u4e00\u5cf0",
   "short_name": "\u962e\u4e00\u5cf0",
-  "start_url": "./ruanyifeng/?source=pwa",
-  "scope": "./ruanyifeng/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/ruanyifeng/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u962e\u4e00\u5cf0",
   "display": "standalone",
   "icons": [
     {
-      "src": "./ruanyifeng/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

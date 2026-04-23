@@ -2,15 +2,15 @@
   "id": "/wrappers/moneycontrol",
   "name": "Moneycontrol",
   "short_name": "Moneycontrol",
-  "start_url": "./moneycontrol/?source=pwa",
-  "scope": "./moneycontrol/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/moneycontrol/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Moneycontrol",
   "display": "standalone",
   "icons": [
     {
-      "src": "./moneycontrol/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/curseforge",
   "name": "CurseForge",
   "short_name": "CurseForge",
-  "start_url": "./curseforge/?source=pwa",
-  "scope": "./curseforge/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/curseforge/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for CurseForge",
   "display": "standalone",
   "icons": [
     {
-      "src": "./curseforge/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

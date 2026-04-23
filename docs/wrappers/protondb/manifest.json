@@ -2,15 +2,15 @@
   "id": "/wrappers/protondb",
   "name": "ProtonDB",
   "short_name": "ProtonDB",
-  "start_url": "./protondb/?source=pwa",
-  "scope": "./protondb/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/protondb/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for ProtonDB",
   "display": "standalone",
   "icons": [
     {
-      "src": "./protondb/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

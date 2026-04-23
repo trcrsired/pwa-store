@@ -2,15 +2,15 @@
   "id": "/wrappers/mprnews",
   "name": "MPR News",
   "short_name": "MPR News",
-  "start_url": "./mprnews/?source=pwa",
-  "scope": "./mprnews/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/mprnews/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for MPR News",
   "display": "standalone",
   "icons": [
     {
-      "src": "./mprnews/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/msedge/onethousandonline",
   "name": "11000.online",
   "short_name": "11000.online",
-  "start_url": "./onethousandonline/?source=pwa",
-  "scope": "./onethousandonline/",
+  "start_url": "./?source=pwa",
+  "scope": "/msedge/onethousandonline/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for 11000.online",
   "display": "standalone",
   "icons": [
     {
-      "src": "./onethousandonline/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

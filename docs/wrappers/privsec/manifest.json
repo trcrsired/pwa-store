@@ -2,15 +2,15 @@
   "id": "/wrappers/privsec",
   "name": "PrivSec",
   "short_name": "PrivSec",
-  "start_url": "./privsec/?source=pwa",
-  "scope": "./privsec/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/privsec/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for PrivSec",
   "display": "standalone",
   "icons": [
     {
-      "src": "./privsec/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/fed",
   "name": "FED",
   "short_name": "FED",
-  "start_url": "./fed/?source=pwa",
-  "scope": "./fed/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/fed/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for FED",
   "display": "standalone",
   "icons": [
     {
-      "src": "./fed/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

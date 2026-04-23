@@ -2,15 +2,15 @@
   "id": "/wrappers/coinglass",
   "name": "Coinglass",
   "short_name": "Coinglass",
-  "start_url": "./coinglass/?source=pwa",
-  "scope": "./coinglass/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/coinglass/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Coinglass",
   "display": "standalone",
   "icons": [
     {
-      "src": "./coinglass/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

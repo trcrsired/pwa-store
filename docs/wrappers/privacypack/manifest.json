@@ -2,15 +2,15 @@
   "id": "/wrappers/privacypack",
   "name": "PrivacyPack",
   "short_name": "PrivacyPack",
-  "start_url": "./privacypack/?source=pwa",
-  "scope": "./privacypack/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/privacypack/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for PrivacyPack",
   "display": "standalone",
   "icons": [
     {
-      "src": "./privacypack/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

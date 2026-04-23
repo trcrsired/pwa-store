@@ -2,15 +2,15 @@
   "id": "/wrappers/nukemap",
   "name": "NUKEMAP",
   "short_name": "NUKEMAP",
-  "start_url": "./nukemap/?source=pwa",
-  "scope": "./nukemap/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/nukemap/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for NUKEMAP",
   "display": "standalone",
   "icons": [
     {
-      "src": "./nukemap/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/toddvdating",
   "name": "ToddV Dating",
   "short_name": "ToddV Dating",
-  "start_url": "./toddvdating/?source=pwa",
-  "scope": "./toddvdating/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/toddvdating/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for ToddV Dating",
   "display": "standalone",
   "icons": [
     {
-      "src": "./toddvdating/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

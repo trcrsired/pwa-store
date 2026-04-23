@@ -2,15 +2,15 @@
   "id": "/wrappers/videocardz",
   "name": "VideoCardz",
   "short_name": "VideoCardz",
-  "start_url": "./videocardz/?source=pwa",
-  "scope": "./videocardz/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/videocardz/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for VideoCardz",
   "display": "standalone",
   "icons": [
     {
-      "src": "./videocardz/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

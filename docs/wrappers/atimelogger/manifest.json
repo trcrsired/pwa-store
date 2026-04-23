@@ -2,15 +2,15 @@
   "id": "/wrappers/atimelogger",
   "name": "aTimeLogger",
   "short_name": "aTimeLogger",
-  "start_url": "./atimelogger/?source=pwa",
-  "scope": "./atimelogger/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/atimelogger/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for aTimeLogger",
   "display": "standalone",
   "icons": [
     {
-      "src": "./atimelogger/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

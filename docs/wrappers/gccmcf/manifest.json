@@ -2,15 +2,15 @@
   "id": "/wrappers/gccmcf",
   "name": "GCC MCF",
   "short_name": "GCC MCF",
-  "start_url": "./gccmcf/?source=pwa",
-  "scope": "./gccmcf/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/gccmcf/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for GCC MCF",
   "display": "standalone",
   "icons": [
     {
-      "src": "./gccmcf/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

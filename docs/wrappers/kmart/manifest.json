@@ -2,15 +2,15 @@
   "id": "/wrappers/kmart",
   "name": "Kmart",
   "short_name": "Kmart",
-  "start_url": "./kmart/?source=pwa",
-  "scope": "./kmart/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/kmart/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Kmart",
   "display": "standalone",
   "icons": [
     {
-      "src": "./kmart/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

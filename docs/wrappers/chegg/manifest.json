@@ -2,15 +2,15 @@
   "id": "/wrappers/chegg",
   "name": "Chegg",
   "short_name": "Chegg",
-  "start_url": "./chegg/?source=pwa",
-  "scope": "./chegg/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/chegg/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Chegg",
   "display": "standalone",
   "icons": [
     {
-      "src": "./chegg/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

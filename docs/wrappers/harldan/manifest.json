@@ -2,15 +2,15 @@
   "id": "/wrappers/harldan",
   "name": "Harldan's Guides",
   "short_name": "Harldan's Guides",
-  "start_url": "./harldan/?source=pwa",
-  "scope": "./harldan/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/harldan/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Harldan's Guides",
   "display": "standalone",
   "icons": [
     {
-      "src": "./harldan/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

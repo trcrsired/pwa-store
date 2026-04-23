@@ -2,15 +2,15 @@
   "id": "/wrappers/sharechat",
   "name": "ShareChat",
   "short_name": "ShareChat",
-  "start_url": "./sharechat/?source=pwa",
-  "scope": "./sharechat/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/sharechat/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for ShareChat",
   "display": "standalone",
   "icons": [
     {
-      "src": "./sharechat/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

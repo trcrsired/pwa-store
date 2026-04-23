@@ -2,15 +2,15 @@
   "id": "/msedge/tylerraw",
   "name": "Tyler Raw",
   "short_name": "Tyler Raw",
-  "start_url": "./tylerraw/?source=pwa",
-  "scope": "./tylerraw/",
+  "start_url": "./?source=pwa",
+  "scope": "/msedge/tylerraw/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Tyler Raw",
   "display": "standalone",
   "icons": [
     {
-      "src": "./tylerraw/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/idme",
   "name": "ID.me",
   "short_name": "ID.me",
-  "start_url": "./idme/?source=pwa",
-  "scope": "./idme/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/idme/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for ID.me",
   "display": "standalone",
   "icons": [
     {
-      "src": "./idme/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

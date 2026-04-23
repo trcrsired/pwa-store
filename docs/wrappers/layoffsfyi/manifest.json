@@ -2,15 +2,15 @@
   "id": "/wrappers/layoffsfyi",
   "name": "Layoffs.fyi",
   "short_name": "Layoffs.fyi",
-  "start_url": "./layoffsfyi/?source=pwa",
-  "scope": "./layoffsfyi/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/layoffsfyi/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Layoffs.fyi",
   "display": "standalone",
   "icons": [
     {
-      "src": "./layoffsfyi/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

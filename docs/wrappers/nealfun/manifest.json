@@ -2,15 +2,15 @@
   "id": "/wrappers/nealfun",
   "name": "Neal.fun",
   "short_name": "Neal.fun",
-  "start_url": "./nealfun/?source=pwa",
-  "scope": "./nealfun/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/nealfun/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Neal.fun",
   "display": "standalone",
   "icons": [
     {
-      "src": "./nealfun/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

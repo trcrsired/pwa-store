@@ -2,15 +2,15 @@
   "id": "/wrappers/resetera",
   "name": "ResetEra",
   "short_name": "ResetEra",
-  "start_url": "./resetera/?source=pwa",
-  "scope": "./resetera/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/resetera/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for ResetEra",
   "display": "standalone",
   "icons": [
     {
-      "src": "./resetera/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

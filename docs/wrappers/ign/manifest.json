@@ -2,15 +2,15 @@
   "id": "/wrappers/ign",
   "name": "IGN",
   "short_name": "IGN",
-  "start_url": "./ign/?source=pwa",
-  "scope": "./ign/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/ign/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for IGN",
   "display": "standalone",
   "icons": [
     {
-      "src": "./ign/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

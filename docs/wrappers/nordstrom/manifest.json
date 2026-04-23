@@ -2,15 +2,15 @@
   "id": "/wrappers/nordstrom",
   "name": "Nordstrom",
   "short_name": "Nordstrom",
-  "start_url": "./nordstrom/?source=pwa",
-  "scope": "./nordstrom/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/nordstrom/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Nordstrom",
   "display": "standalone",
   "icons": [
     {
-      "src": "./nordstrom/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

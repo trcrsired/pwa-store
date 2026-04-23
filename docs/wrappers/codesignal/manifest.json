@@ -2,15 +2,15 @@
   "id": "/wrappers/codesignal",
   "name": "CodeSignal",
   "short_name": "CodeSignal",
-  "start_url": "./codesignal/?source=pwa",
-  "scope": "./codesignal/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/codesignal/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for CodeSignal",
   "display": "standalone",
   "icons": [
     {
-      "src": "./codesignal/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

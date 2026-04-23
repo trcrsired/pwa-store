@@ -2,15 +2,15 @@
   "id": "/wrappers/webull",
   "name": "Webull",
   "short_name": "Webull",
-  "start_url": "./webull/?source=pwa",
-  "scope": "./webull/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/webull/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Webull",
   "display": "standalone",
   "icons": [
     {
-      "src": "./webull/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

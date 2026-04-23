@@ -2,15 +2,15 @@
   "id": "/msedge/cornell",
   "name": "Cornell University",
   "short_name": "Cornell University",
-  "start_url": "./cornell/?source=pwa",
-  "scope": "./cornell/",
+  "start_url": "./?source=pwa",
+  "scope": "/msedge/cornell/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Cornell University",
   "display": "standalone",
   "icons": [
     {
-      "src": "./cornell/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/foxnews",
   "name": "Fox News",
   "short_name": "Fox News",
-  "start_url": "./foxnews/?source=pwa",
-  "scope": "./foxnews/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/foxnews/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Fox News",
   "display": "standalone",
   "icons": [
     {
-      "src": "./foxnews/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

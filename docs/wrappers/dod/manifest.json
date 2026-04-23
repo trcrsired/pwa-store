@@ -2,15 +2,15 @@
   "id": "/wrappers/dod",
   "name": "DOD",
   "short_name": "DOD",
-  "start_url": "./dod/?source=pwa",
-  "scope": "./dod/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/dod/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for DOD",
   "display": "standalone",
   "icons": [
     {
-      "src": "./dod/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

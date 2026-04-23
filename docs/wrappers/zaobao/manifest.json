@@ -2,15 +2,15 @@
   "id": "/wrappers/zaobao",
   "name": "\u8054\u5408\u65e9\u62a5",
   "short_name": "\u8054\u5408\u65e9\u62a5",
-  "start_url": "./zaobao/?source=pwa",
-  "scope": "./zaobao/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/zaobao/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u8054\u5408\u65e9\u62a5",
   "display": "standalone",
   "icons": [
     {
-      "src": "./zaobao/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

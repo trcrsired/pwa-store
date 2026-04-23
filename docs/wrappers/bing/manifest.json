@@ -2,15 +2,15 @@
   "id": "/wrappers/bing",
   "name": "Bing",
   "short_name": "Bing",
-  "start_url": "./bing/?source=pwa",
-  "scope": "./bing/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/bing/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Bing",
   "display": "standalone",
   "icons": [
     {
-      "src": "./bing/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/pizzint",
   "name": "PizzINT",
   "short_name": "PizzINT",
-  "start_url": "./pizzint/?source=pwa",
-  "scope": "./pizzint/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/pizzint/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for PizzINT",
   "display": "standalone",
   "icons": [
     {
-      "src": "./pizzint/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

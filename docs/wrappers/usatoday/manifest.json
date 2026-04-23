@@ -2,15 +2,15 @@
   "id": "/wrappers/usatoday",
   "name": "USA Today",
   "short_name": "USA Today",
-  "start_url": "./usatoday/?source=pwa",
-  "scope": "./usatoday/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/usatoday/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for USA Today",
   "display": "standalone",
   "icons": [
     {
-      "src": "./usatoday/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

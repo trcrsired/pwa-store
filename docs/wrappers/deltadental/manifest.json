@@ -2,15 +2,15 @@
   "id": "/wrappers/deltadental",
   "name": "Delta Dental",
   "short_name": "Delta Dental",
-  "start_url": "./deltadental/?source=pwa",
-  "scope": "./deltadental/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/deltadental/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Delta Dental",
   "display": "standalone",
   "icons": [
     {
-      "src": "./deltadental/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

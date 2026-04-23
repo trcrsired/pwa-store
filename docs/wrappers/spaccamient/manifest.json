@@ -2,15 +2,15 @@
   "id": "/wrappers/spaccamient",
   "name": "Spaccamient",
   "short_name": "Spaccamient",
-  "start_url": "./spaccamient/?source=pwa",
-  "scope": "./spaccamient/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/spaccamient/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Spaccamient",
   "display": "standalone",
   "icons": [
     {
-      "src": "./spaccamient/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

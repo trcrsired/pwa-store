@@ -2,15 +2,15 @@
   "id": "/wrappers/hentaila",
   "name": "HentaiLA",
   "short_name": "HentaiLA",
-  "start_url": "./hentaila/?source=pwa",
-  "scope": "./hentaila/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/hentaila/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for HentaiLA",
   "display": "standalone",
   "icons": [
     {
-      "src": "./hentaila/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

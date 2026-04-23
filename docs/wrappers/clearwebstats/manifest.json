@@ -2,15 +2,15 @@
   "id": "/wrappers/clearwebstats",
   "name": "ClearWebStats",
   "short_name": "ClearWebStats",
-  "start_url": "./clearwebstats/?source=pwa",
-  "scope": "./clearwebstats/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/clearwebstats/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for ClearWebStats",
   "display": "standalone",
   "icons": [
     {
-      "src": "./clearwebstats/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

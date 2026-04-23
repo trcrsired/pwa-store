@@ -2,15 +2,15 @@
   "id": "/wrappers/barbench",
   "name": "Bar & Bench",
   "short_name": "Bar & Bench",
-  "start_url": "./barbench/?source=pwa",
-  "scope": "./barbench/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/barbench/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Bar & Bench",
   "display": "standalone",
   "icons": [
     {
-      "src": "./barbench/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/mingku",
   "name": "\u540d\u5e93\u6587\u5b66",
   "short_name": "\u540d\u5e93\u6587\u5b66",
-  "start_url": "./mingku/?source=pwa",
-  "scope": "./mingku/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/mingku/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u540d\u5e93\u6587\u5b66",
   "display": "standalone",
   "icons": [
     {
-      "src": "./mingku/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

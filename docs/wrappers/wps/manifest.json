@@ -2,15 +2,15 @@
   "id": "/wrappers/wps",
   "name": "WPS",
   "short_name": "WPS",
-  "start_url": "./wps/?source=pwa",
-  "scope": "./wps/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/wps/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for WPS",
   "display": "standalone",
   "icons": [
     {
-      "src": "./wps/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

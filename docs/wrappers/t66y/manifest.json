@@ -2,15 +2,15 @@
   "id": "/wrappers/t66y",
   "name": "t66y",
   "short_name": "t66y",
-  "start_url": "./t66y/?source=pwa",
-  "scope": "./t66y/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/t66y/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for t66y",
   "display": "standalone",
   "icons": [
     {
-      "src": "./t66y/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

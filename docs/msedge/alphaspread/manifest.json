@@ -2,15 +2,15 @@
   "id": "/msedge/alphaspread",
   "name": "AlphaSpread",
   "short_name": "AlphaSpread",
-  "start_url": "./alphaspread/?source=pwa",
-  "scope": "./alphaspread/",
+  "start_url": "./?source=pwa",
+  "scope": "/msedge/alphaspread/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for AlphaSpread",
   "display": "standalone",
   "icons": [
     {
-      "src": "./alphaspread/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

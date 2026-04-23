@@ -2,15 +2,15 @@
   "id": "/wrappers/gmail",
   "name": "Gmail",
   "short_name": "Gmail",
-  "start_url": "./gmail/?source=pwa",
-  "scope": "./gmail/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/gmail/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Gmail",
   "display": "standalone",
   "icons": [
     {
-      "src": "./gmail/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

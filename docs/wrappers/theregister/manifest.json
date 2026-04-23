@@ -2,15 +2,15 @@
   "id": "/wrappers/theregister",
   "name": "The Register",
   "short_name": "The Register",
-  "start_url": "./theregister/?source=pwa",
-  "scope": "./theregister/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/theregister/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for The Register",
   "display": "standalone",
   "icons": [
     {
-      "src": "./theregister/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/0xsid",
   "name": "0xSid",
   "short_name": "0xSid",
-  "start_url": "./0xsid/?source=pwa",
-  "scope": "./0xsid/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/0xsid/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for 0xSid",
   "display": "standalone",
   "icons": [
     {
-      "src": "./0xsid/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

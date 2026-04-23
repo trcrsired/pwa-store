@@ -2,15 +2,15 @@
   "id": "/wrappers/marxistsorg",
   "name": "Marxists Internet Archive",
   "short_name": "Marxists Internet Archive",
-  "start_url": "./marxistsorg/?source=pwa",
-  "scope": "./marxistsorg/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/marxistsorg/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Marxists Internet Archive",
   "display": "standalone",
   "icons": [
     {
-      "src": "./marxistsorg/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

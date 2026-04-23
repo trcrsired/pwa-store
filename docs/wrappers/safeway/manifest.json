@@ -2,15 +2,15 @@
   "id": "/wrappers/safeway",
   "name": "Safeway",
   "short_name": "Safeway",
-  "start_url": "./safeway/?source=pwa",
-  "scope": "./safeway/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/safeway/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Safeway",
   "display": "standalone",
   "icons": [
     {
-      "src": "./safeway/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

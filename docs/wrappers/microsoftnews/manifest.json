@@ -2,15 +2,15 @@
   "id": "/wrappers/microsoftnews",
   "name": "Microsoft News",
   "short_name": "Microsoft News",
-  "start_url": "./microsoftnews/?source=pwa",
-  "scope": "./microsoftnews/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/microsoftnews/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Microsoft News",
   "display": "standalone",
   "icons": [
     {
-      "src": "./microsoftnews/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

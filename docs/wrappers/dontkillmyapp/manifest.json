@@ -2,15 +2,15 @@
   "id": "/wrappers/dontkillmyapp",
   "name": "DontKillMyApp",
   "short_name": "DontKillMyApp",
-  "start_url": "./dontkillmyapp/?source=pwa",
-  "scope": "./dontkillmyapp/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/dontkillmyapp/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for DontKillMyApp",
   "display": "standalone",
   "icons": [
     {
-      "src": "./dontkillmyapp/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

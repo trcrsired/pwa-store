@@ -2,15 +2,15 @@
   "id": "/msedge/realfavicongenerator",
   "name": "RealFaviconGenerator",
   "short_name": "RealFaviconGenerator",
-  "start_url": "./realfavicongenerator/?source=pwa",
-  "scope": "./realfavicongenerator/",
+  "start_url": "./?source=pwa",
+  "scope": "/msedge/realfavicongenerator/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for RealFaviconGenerator",
   "display": "standalone",
   "icons": [
     {
-      "src": "./realfavicongenerator/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

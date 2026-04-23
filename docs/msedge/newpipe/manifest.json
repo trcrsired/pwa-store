@@ -2,15 +2,15 @@
   "id": "/msedge/newpipe",
   "name": "NewPipe",
   "short_name": "NewPipe",
-  "start_url": "./newpipe/?source=pwa",
-  "scope": "./newpipe/",
+  "start_url": "./?source=pwa",
+  "scope": "/msedge/newpipe/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for NewPipe",
   "display": "standalone",
   "icons": [
     {
-      "src": "./newpipe/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

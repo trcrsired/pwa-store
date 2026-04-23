@@ -2,15 +2,15 @@
   "id": "/wrappers/tsinghua",
   "name": "Tsinghua University (\u6e05\u534e\u5927\u5b66)",
   "short_name": "Tsinghua University (\u6e05\u534e\u5927\u5b66)",
-  "start_url": "./tsinghua/?source=pwa",
-  "scope": "./tsinghua/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/tsinghua/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Tsinghua University (\u6e05\u534e\u5927\u5b66)",
   "display": "standalone",
   "icons": [
     {
-      "src": "./tsinghua/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

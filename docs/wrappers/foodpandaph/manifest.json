@@ -2,15 +2,15 @@
   "id": "/wrappers/foodpandaph",
   "name": "Foodpanda PH",
   "short_name": "Foodpanda PH",
-  "start_url": "./foodpandaph/?source=pwa",
-  "scope": "./foodpandaph/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/foodpandaph/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Foodpanda PH",
   "display": "standalone",
   "icons": [
     {
-      "src": "./foodpandaph/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

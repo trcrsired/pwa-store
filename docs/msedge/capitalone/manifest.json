@@ -2,15 +2,15 @@
   "id": "/msedge/capitalone",
   "name": "Capital One",
   "short_name": "Capital One",
-  "start_url": "./capitalone/?source=pwa",
-  "scope": "./capitalone/",
+  "start_url": "./?source=pwa",
+  "scope": "/msedge/capitalone/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Capital One",
   "display": "standalone",
   "icons": [
     {
-      "src": "./capitalone/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

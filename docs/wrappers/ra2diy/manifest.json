@@ -2,15 +2,15 @@
   "id": "/wrappers/ra2diy",
   "name": "\u7ea2\u8b66DIY",
   "short_name": "\u7ea2\u8b66DIY",
-  "start_url": "./ra2diy/?source=pwa",
-  "scope": "./ra2diy/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/ra2diy/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u7ea2\u8b66DIY",
   "display": "standalone",
   "icons": [
     {
-      "src": "./ra2diy/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

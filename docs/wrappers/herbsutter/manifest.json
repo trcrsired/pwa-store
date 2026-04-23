@@ -2,15 +2,15 @@
   "id": "/wrappers/herbsutter",
   "name": "Herb Sutter",
   "short_name": "Herb Sutter",
-  "start_url": "./herbsutter/?source=pwa",
-  "scope": "./herbsutter/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/herbsutter/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Herb Sutter",
   "display": "standalone",
   "icons": [
     {
-      "src": "./herbsutter/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/nvidia",
   "name": "NVIDIA",
   "short_name": "NVIDIA",
-  "start_url": "./nvidia/?source=pwa",
-  "scope": "./nvidia/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/nvidia/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for NVIDIA",
   "display": "standalone",
   "icons": [
     {
-      "src": "./nvidia/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

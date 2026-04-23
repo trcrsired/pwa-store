@@ -2,15 +2,15 @@
   "id": "/wrappers/beeg",
   "name": "Beeg",
   "short_name": "Beeg",
-  "start_url": "./beeg/?source=pwa",
-  "scope": "./beeg/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/beeg/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Beeg",
   "display": "standalone",
   "icons": [
     {
-      "src": "./beeg/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

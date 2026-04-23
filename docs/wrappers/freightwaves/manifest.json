@@ -2,15 +2,15 @@
   "id": "/wrappers/freightwaves",
   "name": "FreightWaves",
   "short_name": "FreightWaves",
-  "start_url": "./freightwaves/?source=pwa",
-  "scope": "./freightwaves/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/freightwaves/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for FreightWaves",
   "display": "standalone",
   "icons": [
     {
-      "src": "./freightwaves/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

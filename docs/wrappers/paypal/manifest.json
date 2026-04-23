@@ -2,15 +2,15 @@
   "id": "/wrappers/paypal",
   "name": "Paypal",
   "short_name": "Paypal",
-  "start_url": "./paypal/?source=pwa",
-  "scope": "./paypal/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/paypal/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Paypal",
   "display": "standalone",
   "icons": [
     {
-      "src": "./paypal/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

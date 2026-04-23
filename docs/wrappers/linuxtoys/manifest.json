@@ -2,15 +2,15 @@
   "id": "/wrappers/linuxtoys",
   "name": "Linux.toys",
   "short_name": "Linux.toys",
-  "start_url": "./linuxtoys/?source=pwa",
-  "scope": "./linuxtoys/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/linuxtoys/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Linux.toys",
   "display": "standalone",
   "icons": [
     {
-      "src": "./linuxtoys/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

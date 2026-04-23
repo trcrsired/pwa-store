@@ -2,15 +2,15 @@
   "id": "/wrappers/womenshealth",
   "name": "Women's Health",
   "short_name": "Women's Health",
-  "start_url": "./womenshealth/?source=pwa",
-  "scope": "./womenshealth/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/womenshealth/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Women's Health",
   "display": "standalone",
   "icons": [
     {
-      "src": "./womenshealth/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

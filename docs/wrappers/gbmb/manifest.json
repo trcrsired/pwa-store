@@ -2,15 +2,15 @@
   "id": "/wrappers/gbmb",
   "name": "GBMB",
   "short_name": "GBMB",
-  "start_url": "./gbmb/?source=pwa",
-  "scope": "./gbmb/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/gbmb/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for GBMB",
   "display": "standalone",
   "icons": [
     {
-      "src": "./gbmb/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

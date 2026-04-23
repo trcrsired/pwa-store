@@ -2,15 +2,15 @@
   "id": "/wrappers/iranwarlive",
   "name": "Iran War Live",
   "short_name": "Iran War Live",
-  "start_url": "./iranwarlive/?source=pwa",
-  "scope": "./iranwarlive/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/iranwarlive/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Iran War Live",
   "display": "standalone",
   "icons": [
     {
-      "src": "./iranwarlive/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

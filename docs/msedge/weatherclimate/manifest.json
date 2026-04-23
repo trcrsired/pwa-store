@@ -2,15 +2,15 @@
   "id": "/msedge/weatherclimate",
   "name": "Weather & Climate",
   "short_name": "Weather & Climate",
-  "start_url": "./weatherclimate/?source=pwa",
-  "scope": "./weatherclimate/",
+  "start_url": "./?source=pwa",
+  "scope": "/msedge/weatherclimate/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Weather & Climate",
   "display": "standalone",
   "icons": [
     {
-      "src": "./weatherclimate/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/usps",
   "name": "USPS",
   "short_name": "USPS",
-  "start_url": "./usps/?source=pwa",
-  "scope": "./usps/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/usps/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for USPS",
   "display": "standalone",
   "icons": [
     {
-      "src": "./usps/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

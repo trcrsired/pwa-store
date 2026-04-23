@@ -2,15 +2,15 @@
   "id": "/msedge/figma",
   "name": "Figma",
   "short_name": "Figma",
-  "start_url": "./figma/?source=pwa",
-  "scope": "./figma/",
+  "start_url": "./?source=pwa",
+  "scope": "/msedge/figma/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Figma",
   "display": "standalone",
   "icons": [
     {
-      "src": "./figma/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

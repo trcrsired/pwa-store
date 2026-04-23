@@ -2,15 +2,15 @@
   "id": "/msedge/fossdaily",
   "name": "FOSS Daily",
   "short_name": "FOSS Daily",
-  "start_url": "./fossdaily/?source=pwa",
-  "scope": "./fossdaily/",
+  "start_url": "./?source=pwa",
+  "scope": "/msedge/fossdaily/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for FOSS Daily",
   "display": "standalone",
   "icons": [
     {
-      "src": "./fossdaily/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

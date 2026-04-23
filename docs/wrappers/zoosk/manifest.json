@@ -2,15 +2,15 @@
   "id": "/wrappers/zoosk",
   "name": "Zoosk",
   "short_name": "Zoosk",
-  "start_url": "./zoosk/?source=pwa",
-  "scope": "./zoosk/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/zoosk/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Zoosk",
   "display": "standalone",
   "icons": [
     {
-      "src": "./zoosk/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/chaoxingv8",
   "name": "\u8d85\u661fV8",
   "short_name": "\u8d85\u661fV8",
-  "start_url": "./chaoxingv8/?source=pwa",
-  "scope": "./chaoxingv8/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/chaoxingv8/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u8d85\u661fV8",
   "display": "standalone",
   "icons": [
     {
-      "src": "./chaoxingv8/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

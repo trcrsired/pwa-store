@@ -2,15 +2,15 @@
   "id": "/wrappers/247wallst",
   "name": "24/7 Wall St.",
   "short_name": "24/7 Wall St.",
-  "start_url": "./247wallst/?source=pwa",
-  "scope": "./247wallst/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/247wallst/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for 24/7 Wall St.",
   "display": "standalone",
   "icons": [
     {
-      "src": "./247wallst/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

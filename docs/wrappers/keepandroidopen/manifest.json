@@ -2,15 +2,15 @@
   "id": "/wrappers/keepandroidopen",
   "name": "Keep Android Open",
   "short_name": "Keep Android Open",
-  "start_url": "./keepandroidopen/?source=pwa",
-  "scope": "./keepandroidopen/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/keepandroidopen/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Keep Android Open",
   "display": "standalone",
   "icons": [
     {
-      "src": "./keepandroidopen/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

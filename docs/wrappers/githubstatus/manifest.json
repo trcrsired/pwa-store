@@ -2,15 +2,15 @@
   "id": "/wrappers/githubstatus",
   "name": "GitHub Status",
   "short_name": "GitHub Status",
-  "start_url": "./githubstatus/?source=pwa",
-  "scope": "./githubstatus/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/githubstatus/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for GitHub Status",
   "display": "standalone",
   "icons": [
     {
-      "src": "./githubstatus/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

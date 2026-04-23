@@ -2,15 +2,15 @@
   "id": "/wrappers/whois",
   "name": "Who.is",
   "short_name": "Who.is",
-  "start_url": "./whois/?source=pwa",
-  "scope": "./whois/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/whois/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Who.is",
   "display": "standalone",
   "icons": [
     {
-      "src": "./whois/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

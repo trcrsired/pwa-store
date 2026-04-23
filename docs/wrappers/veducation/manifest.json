@@ -2,15 +2,15 @@
   "id": "/wrappers/veducation",
   "name": "Veducation",
   "short_name": "Veducation",
-  "start_url": "./veducation/?source=pwa",
-  "scope": "./veducation/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/veducation/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Veducation",
   "display": "standalone",
   "icons": [
     {
-      "src": "./veducation/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

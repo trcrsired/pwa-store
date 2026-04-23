@@ -2,15 +2,15 @@
   "id": "/wrappers/g2ai",
   "name": "G2 AI",
   "short_name": "G2 AI",
-  "start_url": "./g2ai/?source=pwa",
-  "scope": "./g2ai/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/g2ai/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for G2 AI",
   "display": "standalone",
   "icons": [
     {
-      "src": "./g2ai/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

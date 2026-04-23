@@ -2,15 +2,15 @@
   "id": "/wrappers/fda",
   "name": "FDA",
   "short_name": "FDA",
-  "start_url": "./fda/?source=pwa",
-  "scope": "./fda/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/fda/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for FDA",
   "display": "standalone",
   "icons": [
     {
-      "src": "./fda/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

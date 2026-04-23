@@ -2,15 +2,15 @@
   "id": "/wrappers/peking",
   "name": "Peking University (\u5317\u4eac\u5927\u5b66)",
   "short_name": "Peking University (\u5317\u4eac\u5927\u5b66)",
-  "start_url": "./peking/?source=pwa",
-  "scope": "./peking/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/peking/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Peking University (\u5317\u4eac\u5927\u5b66)",
   "display": "standalone",
   "icons": [
     {
-      "src": "./peking/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

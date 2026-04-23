@@ -2,15 +2,15 @@
   "id": "/wrappers/ftc",
   "name": "FTC",
   "short_name": "FTC",
-  "start_url": "./ftc/?source=pwa",
-  "scope": "./ftc/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/ftc/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for FTC",
   "display": "standalone",
   "icons": [
     {
-      "src": "./ftc/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

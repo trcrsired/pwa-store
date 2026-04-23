@@ -2,15 +2,15 @@
   "id": "/wrappers/ctrip",
   "name": "Ctrip",
   "short_name": "Ctrip",
-  "start_url": "./ctrip/?source=pwa",
-  "scope": "./ctrip/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/ctrip/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Ctrip",
   "display": "standalone",
   "icons": [
     {
-      "src": "./ctrip/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

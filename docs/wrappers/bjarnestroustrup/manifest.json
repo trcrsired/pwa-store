@@ -2,15 +2,15 @@
   "id": "/wrappers/bjarnestroustrup",
   "name": "Bjarne Stroustrup",
   "short_name": "Bjarne Stroustrup",
-  "start_url": "./bjarnestroustrup/?source=pwa",
-  "scope": "./bjarnestroustrup/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/bjarnestroustrup/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Bjarne Stroustrup",
   "display": "standalone",
   "icons": [
     {
-      "src": "./bjarnestroustrup/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

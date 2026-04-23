@@ -2,15 +2,15 @@
   "id": "/wrappers/microsoftaccount",
   "name": "Microsoft Account",
   "short_name": "Microsoft Account",
-  "start_url": "./microsoftaccount/?source=pwa",
-  "scope": "./microsoftaccount/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/microsoftaccount/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Microsoft Account",
   "display": "standalone",
   "icons": [
     {
-      "src": "./microsoftaccount/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

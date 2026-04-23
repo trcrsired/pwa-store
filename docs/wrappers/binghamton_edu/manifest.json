@@ -2,15 +2,15 @@
   "id": "/wrappers/binghamton_edu",
   "name": "Binghamton Univeristy",
   "short_name": "Binghamton Univeristy",
-  "start_url": "./binghamton_edu/?source=pwa",
-  "scope": "./binghamton_edu/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/binghamton_edu/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Binghamton Univeristy",
   "display": "standalone",
   "icons": [
     {
-      "src": "./binghamton_edu/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

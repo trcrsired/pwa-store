@@ -2,15 +2,15 @@
   "id": "/wrappers/floppybird",
   "name": "Floppy Bird",
   "short_name": "Floppy Bird",
-  "start_url": "./floppybird/?source=pwa",
-  "scope": "./floppybird/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/floppybird/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Floppy Bird",
   "display": "standalone",
   "icons": [
     {
-      "src": "./floppybird/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

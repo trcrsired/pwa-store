@@ -2,15 +2,15 @@
   "id": "/wrappers/uhs",
   "name": "UHS",
   "short_name": "UHS",
-  "start_url": "./uhs/?source=pwa",
-  "scope": "./uhs/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/uhs/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for UHS",
   "display": "standalone",
   "icons": [
     {
-      "src": "./uhs/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

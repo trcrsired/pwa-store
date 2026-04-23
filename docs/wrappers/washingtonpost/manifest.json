@@ -2,15 +2,15 @@
   "id": "/wrappers/washingtonpost",
   "name": "Washington Post",
   "short_name": "Washington Post",
-  "start_url": "./washingtonpost/?source=pwa",
-  "scope": "./washingtonpost/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/washingtonpost/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Washington Post",
   "display": "standalone",
   "icons": [
     {
-      "src": "./washingtonpost/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

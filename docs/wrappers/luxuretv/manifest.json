@@ -2,15 +2,15 @@
   "id": "/wrappers/luxuretv",
   "name": "LuxureTV",
   "short_name": "LuxureTV",
-  "start_url": "./luxuretv/?source=pwa",
-  "scope": "./luxuretv/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/luxuretv/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for LuxureTV",
   "display": "standalone",
   "icons": [
     {
-      "src": "./luxuretv/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

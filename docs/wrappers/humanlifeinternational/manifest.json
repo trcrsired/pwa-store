@@ -2,15 +2,15 @@
   "id": "/wrappers/humanlifeinternational",
   "name": "Human Life International",
   "short_name": "Human Life International",
-  "start_url": "./humanlifeinternational/?source=pwa",
-  "scope": "./humanlifeinternational/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/humanlifeinternational/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Human Life International",
   "display": "standalone",
   "icons": [
     {
-      "src": "./humanlifeinternational/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

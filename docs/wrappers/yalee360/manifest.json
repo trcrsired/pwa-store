@@ -2,15 +2,15 @@
   "id": "/wrappers/yalee360",
   "name": "Yale E360",
   "short_name": "Yale E360",
-  "start_url": "./yalee360/?source=pwa",
-  "scope": "./yalee360/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/yalee360/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Yale E360",
   "display": "standalone",
   "icons": [
     {
-      "src": "./yalee360/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

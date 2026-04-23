@@ -2,15 +2,15 @@
   "id": "/wrappers/wowhead",
   "name": "Wowhead",
   "short_name": "Wowhead",
-  "start_url": "./wowhead/?source=pwa",
-  "scope": "./wowhead/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/wowhead/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Wowhead",
   "display": "standalone",
   "icons": [
     {
-      "src": "./wowhead/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

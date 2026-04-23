@@ -2,15 +2,15 @@
   "id": "/wrappers/cvs",
   "name": "CVS",
   "short_name": "CVS",
-  "start_url": "./cvs/?source=pwa",
-  "scope": "./cvs/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/cvs/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for CVS",
   "display": "standalone",
   "icons": [
     {
-      "src": "./cvs/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

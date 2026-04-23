@@ -2,15 +2,15 @@
   "id": "/wrappers/cambridge",
   "name": "University of Cambridge",
   "short_name": "University of Cambridge",
-  "start_url": "./cambridge/?source=pwa",
-  "scope": "./cambridge/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/cambridge/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for University of Cambridge",
   "display": "standalone",
   "icons": [
     {
-      "src": "./cambridge/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

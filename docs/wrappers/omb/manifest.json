@@ -2,15 +2,15 @@
   "id": "/wrappers/omb",
   "name": "OMB",
   "short_name": "OMB",
-  "start_url": "./omb/?source=pwa",
-  "scope": "./omb/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/omb/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for OMB",
   "display": "standalone",
   "icons": [
     {
-      "src": "./omb/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

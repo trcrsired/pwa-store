@@ -2,15 +2,15 @@
   "id": "/wrappers/allrecipes",
   "name": "Allrecipes",
   "short_name": "Allrecipes",
-  "start_url": "./allrecipes/?source=pwa",
-  "scope": "./allrecipes/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/allrecipes/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Allrecipes",
   "display": "standalone",
   "icons": [
     {
-      "src": "./allrecipes/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

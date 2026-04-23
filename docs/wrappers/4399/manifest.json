@@ -2,15 +2,15 @@
   "id": "/wrappers/4399",
   "name": "4399",
   "short_name": "4399",
-  "start_url": "./4399/?source=pwa",
-  "scope": "./4399/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/4399/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for 4399",
   "display": "standalone",
   "icons": [
     {
-      "src": "./4399/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

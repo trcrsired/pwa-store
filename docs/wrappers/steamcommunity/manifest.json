@@ -2,15 +2,15 @@
   "id": "/wrappers/steamcommunity",
   "name": "Steam Community",
   "short_name": "Steam Community",
-  "start_url": "./steamcommunity/?source=pwa",
-  "scope": "./steamcommunity/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/steamcommunity/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Steam Community",
   "display": "standalone",
   "icons": [
     {
-      "src": "./steamcommunity/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

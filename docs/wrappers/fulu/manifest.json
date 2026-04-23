@@ -2,15 +2,15 @@
   "id": "/wrappers/fulu",
   "name": "FULU",
   "short_name": "FULU",
-  "start_url": "./fulu/?source=pwa",
-  "scope": "./fulu/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/fulu/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for FULU",
   "display": "standalone",
   "icons": [
     {
-      "src": "./fulu/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

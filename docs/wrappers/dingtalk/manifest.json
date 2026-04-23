@@ -2,15 +2,15 @@
   "id": "/wrappers/dingtalk",
   "name": "DingTalk",
   "short_name": "DingTalk",
-  "start_url": "./dingtalk/?source=pwa",
-  "scope": "./dingtalk/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/dingtalk/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for DingTalk",
   "display": "standalone",
   "icons": [
     {
-      "src": "./dingtalk/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

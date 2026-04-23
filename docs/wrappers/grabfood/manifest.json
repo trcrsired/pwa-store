@@ -2,15 +2,15 @@
   "id": "/wrappers/grabfood",
   "name": "GrabFood",
   "short_name": "GrabFood",
-  "start_url": "./grabfood/?source=pwa",
-  "scope": "./grabfood/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/grabfood/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for GrabFood",
   "display": "standalone",
   "icons": [
     {
-      "src": "./grabfood/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

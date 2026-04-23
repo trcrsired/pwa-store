@@ -2,15 +2,15 @@
   "id": "/wrappers/govcn",
   "name": "\u4e2d\u56fd\u653f\u5e9c\u7f51",
   "short_name": "\u4e2d\u56fd\u653f\u5e9c\u7f51",
-  "start_url": "./govcn/?source=pwa",
-  "scope": "./govcn/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/govcn/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for \u4e2d\u56fd\u653f\u5e9c\u7f51",
   "display": "standalone",
   "icons": [
     {
-      "src": "./govcn/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/msedge/loopsvideo",
   "name": "Loops.video",
   "short_name": "Loops.video",
-  "start_url": "./loopsvideo/?source=pwa",
-  "scope": "./loopsvideo/",
+  "start_url": "./?source=pwa",
+  "scope": "/msedge/loopsvideo/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Loops.video",
   "display": "standalone",
   "icons": [
     {
-      "src": "./loopsvideo/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

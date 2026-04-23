@@ -2,15 +2,15 @@
   "id": "/wrappers/eeoc",
   "name": "EEOC",
   "short_name": "EEOC",
-  "start_url": "./eeoc/?source=pwa",
-  "scope": "./eeoc/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/eeoc/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for EEOC",
   "display": "standalone",
   "icons": [
     {
-      "src": "./eeoc/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

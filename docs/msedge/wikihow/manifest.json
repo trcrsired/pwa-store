@@ -2,15 +2,15 @@
   "id": "/msedge/wikihow",
   "name": "wikiHow",
   "short_name": "wikiHow",
-  "start_url": "./wikihow/?source=pwa",
-  "scope": "./wikihow/",
+  "start_url": "./?source=pwa",
+  "scope": "/msedge/wikihow/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for wikiHow",
   "display": "standalone",
   "icons": [
     {
-      "src": "./wikihow/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

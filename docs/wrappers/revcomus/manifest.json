@@ -2,15 +2,15 @@
   "id": "/wrappers/revcomus",
   "name": "REVCOM.US",
   "short_name": "REVCOM.US",
-  "start_url": "./revcomus/?source=pwa",
-  "scope": "./revcomus/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/revcomus/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for REVCOM.US",
   "display": "standalone",
   "icons": [
     {
-      "src": "./revcomus/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

@@ -2,15 +2,15 @@
   "id": "/wrappers/albertsons",
   "name": "Albertsons",
   "short_name": "Albertsons",
-  "start_url": "./albertsons/?source=pwa",
-  "scope": "./albertsons/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/albertsons/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Albertsons",
   "display": "standalone",
   "icons": [
     {
-      "src": "./albertsons/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

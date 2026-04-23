@@ -2,15 +2,15 @@
   "id": "/wrappers/ukrainewarlosses",
   "name": "UkraineWarLosses",
   "short_name": "UkraineWarLosses",
-  "start_url": "./ukrainewarlosses/?source=pwa",
-  "scope": "./ukrainewarlosses/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/ukrainewarlosses/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for UkraineWarLosses",
   "display": "standalone",
   "icons": [
     {
-      "src": "./ukrainewarlosses/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

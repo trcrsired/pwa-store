@@ -2,15 +2,15 @@
   "id": "/wrappers/devto",
   "name": "DEV Community",
   "short_name": "DEV Community",
-  "start_url": "./devto/?source=pwa",
-  "scope": "./devto/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/devto/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for DEV Community",
   "display": "standalone",
   "icons": [
     {
-      "src": "./devto/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

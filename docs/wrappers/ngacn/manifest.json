@@ -2,15 +2,15 @@
   "id": "/wrappers/ngacn",
   "name": "NGA",
   "short_name": "NGA",
-  "start_url": "./ngacn/?source=pwa",
-  "scope": "./ngacn/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/ngacn/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for NGA",
   "display": "standalone",
   "icons": [
     {
-      "src": "./ngacn/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

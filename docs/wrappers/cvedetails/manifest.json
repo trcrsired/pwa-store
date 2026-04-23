@@ -2,15 +2,15 @@
   "id": "/wrappers/cvedetails",
   "name": "CVEDetails",
   "short_name": "CVEDetails",
-  "start_url": "./cvedetails/?source=pwa",
-  "scope": "./cvedetails/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/cvedetails/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for CVEDetails",
   "display": "standalone",
   "icons": [
     {
-      "src": "./cvedetails/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

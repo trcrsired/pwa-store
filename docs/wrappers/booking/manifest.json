@@ -2,15 +2,15 @@
   "id": "/wrappers/booking",
   "name": "Booking",
   "short_name": "Booking",
-  "start_url": "./booking/?source=pwa",
-  "scope": "./booking/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/booking/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Booking",
   "display": "standalone",
   "icons": [
     {
-      "src": "./booking/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }

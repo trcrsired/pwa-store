@@ -2,15 +2,15 @@
   "id": "/wrappers/judgenap",
   "name": "Judge Nap",
   "short_name": "Judge Nap",
-  "start_url": "./judgenap/?source=pwa",
-  "scope": "./judgenap/",
+  "start_url": "./?source=pwa",
+  "scope": "/wrappers/judgenap/",
   "background_color": "black",
   "theme_color": "black",
   "description": "PWA Wrapper for Judge Nap",
   "display": "standalone",
   "icons": [
     {
-      "src": "./judgenap/icons/icon.webp",
+      "src": "./icons/icon.webp",
       "type": "image/webp",
       "sizes": "512x512"
     }
