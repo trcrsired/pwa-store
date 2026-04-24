@@ -2175,6 +2175,13 @@ export const categories = [
         url: "https://www.coindesk.com"
       },
       {
+        name: "Coinbase",
+        nameKey: "coinbase_name",
+        descriptionKey: "coinbase_desc",
+        icon: "icons/pwa/coinbase.webp",
+        url: "https://www.coinbase.com"
+      },
+      {
         name: "Capital One",
         nameKey: "capitalone_name",
         descriptionKey: "capitalone_desc",

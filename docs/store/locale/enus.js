@@ -65,6 +65,8 @@ const L = {
   comexlive_desc: "Opens COMEX Live, a site providing live gold, silver, copper, and other commodity prices and charts.",
   coindesk_name: "CoinDesk",
   coindesk_desc: "Opens CoinDesk, a leading source for cryptocurrency news, blockchain analysis, and digital asset market updates.",
+  coinbase_name: "Coinbase",
+  coinbase_desc: "A secure online platform for buying, selling, transferring, and storing digital currency and stocks.",
   atimelogger_name: "aTimerLogger",
   atimelogger_desc: "A time tracking app for logging daily activities, habits, and productivity. Supports custom categories, charts, and export options for personal or professional use.",
   "stackwatch_desc": "Track vulnerabilities and security updates across software stacks.",
