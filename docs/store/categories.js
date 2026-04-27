@@ -1962,6 +1962,15 @@ export const categories = [
         url: "https://newpipe.net"
       },
       {
+        name: "Dailymotion",
+        nameKey: "dailymotion_name",
+        descriptionKey: "dailymotion_desc",
+        icon: "icons/wrappers/dailymotion.webp",
+        url2: "../wrappers/dailymotion",
+        apptype2: "wrapper",
+        url: "https://www.dailymotion.com"
+      },
+      {
         name: "Tencent Meeting (腾讯会议)",
         nameKey: "tencentmeeting_name",
         icon: "icons/wechatmini/tencentmeeting.webp",

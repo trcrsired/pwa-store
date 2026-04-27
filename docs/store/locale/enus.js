@@ -458,6 +458,8 @@ const L = {
   moocfi_desc: "Opens MOOC.fi, a Finnish platform offering free online courses in programming and computer science.",
   newpipe_name: "NewPipe",
   newpipe_desc: "Opens NewPipe, a free and privacy-friendly open-source YouTube client for Android with background play, downloads, and no ads.",
+  dailymotion_name: "Dailymotion",
+  dailymotion_desc: "A global video streaming service featuring trending news, sports, and entertainment content from premium publishers.",
   cloudflare_desc: "Cloudflare is a widely adopted platform that provides networking, security, and performance services to enhance the functionality of websites, applications, and online services. It is used by a diverse range of users, from individual developers to large enterprises, due to its robust features and global infrastructure.",
   yandex_name: "Yandex",
   yandex_desc: "Founded by Arkady Volozh, Arkady Borkovsky, and Ilya Segalovich, Yandex is a Russian technology company headquartered in Moscow. It offers a wide range of services including search, maps, cloud computing, streaming media, e-commerce, and ridesharing. Yandex Search is the dominant engine in Russia, supporting text, voice, and image queries with its own independent infrastructure. While Yandex does not use Bing’s API for search results, it collaborates with Bing via the IndexNow protocol to accelerate URL indexing across platforms.",

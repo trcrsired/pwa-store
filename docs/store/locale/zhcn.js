@@ -451,6 +451,8 @@ const L = {
   moocfi_desc: "打开 MOOC.fi，一个提供免费编程与计算机科学课程的芬兰在线学习平台。",
   newpipe_name: "NewPipe",
   newpipe_desc: "打开 NewPipe，一个开源、无广告、隐私友好的 Android YouTube 客户端，支持后台播放与下载。",
+  dailymotion_name: "Dailymotion",
+  dailymotion_desc: "全球视频流媒体服务平台，汇集了来自优质发行商的热点新闻、体育赛事和娱乐内容。",
   linuxtoys_name: "Linux.toys",
   linuxtoys_desc: "打开 Linux.toys，一个收集与 Linux 相关的小工具、玩具和实验的网站。",
   neocities_name: "Neocities",

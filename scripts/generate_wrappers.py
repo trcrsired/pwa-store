@@ -137,6 +137,7 @@ WRAPPERS = [
   { "name": "Zulip", "url": "https://zulip.com" },
   { "name": "Spaccamient", "url": "https://spacc-inc.github.io/Spaccamient" },
   { "name": "NewPipe", "url": "https://newpipe.net", "apptype": "msedge" },
+  { "name": "Dailymotion", "url": "https://www.dailymotion.com" },
   { "name": "Kook", "url": "https://www.kookapp.cn/app/" },
   { "name": "Tieba", "url": "https://tieba.baidu.com" },
   { "name": "Termux", "url": "https://termux.dev" },
