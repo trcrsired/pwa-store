@@ -1035,6 +1035,13 @@ export const categories = [
         url: "https://webserialterminal.com"
       },
       {
+        name: "Buildkite",
+        nameKey: "buildkite_name",
+        descriptionKey: "buildkite_desc",
+        icon: "icons/pwa/buildkite.webp",
+        url: "https://buildkite.com/dashboard"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",
@@ -1818,6 +1825,13 @@ export const categories = [
         descriptionKey: "stoat_desc",
         icon: "icons/pwa/stoat.webp",
         url: "https://stoat.chat/app"
+      },
+      {
+        name: "BitChute",
+        nameKey: "bitchute_name",
+        descriptionKey: "bitchute_desc",
+        icon: "icons/pwa/bitchute.svg",
+        url: "https://www.bitchute.com"
       },
       {
         name: "Loops.video",
