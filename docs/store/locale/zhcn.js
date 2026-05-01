@@ -1217,6 +1217,8 @@ const L = {
   eightbook_desc: "打开 8book 小说网站，提供玄幻、武侠、言情等多类型网络小说阅读。",
   weebcentral_name: "WeebCentral",
   weebcentral_desc: "打开 WeebCentral，一个面向二次元、动漫与同好社区的社交平台，用于聊天、分享与交流。",
+  tmdb_name: "TMDB",
+  tmdb_desc: "The Movie Database (TMDB) 是一个广受欢迎的用户可编辑电影和电视节目数据库，提供详尽的元数据、评分及演职员信息。",
   lightnovel_name: "轻之国度",
   lightnovel_desc: "中国最早的轻小说社区之一，提供连载翻译、作者档案和动漫风格文学，界面简洁，适合移动浏览。",
   wechatread_name: "微信读书",

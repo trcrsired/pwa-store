@@ -1221,6 +1221,8 @@ const L = {
   eightbook_desc: "Opens 8book, a Chinese online fiction site offering fantasy, wuxia, romance, and other genres.",
   weebcentral_name: "WeebCentral",
   weebcentral_desc: "Opens WeebCentral, a social platform for anime, manga, and fandom communities to chat, share, and connect.",
+  tmdb_name: "TMDB",
+  tmdb_desc: "The Movie Database (TMDB) is a popular, user-editable database for movies and TV shows, providing extensive metadata and ratings.",
   lightnovel_name: "Lightnovel Kingdom (轻之国度)",
   lightnovel_desc: "One of China’s longest-running light novel communities, offering serialized fan translations, author archives, and anime-inspired literature in a minimalist interface optimized for mobile browsing.",
   wechatread_name: "WeChat Read (微信读书)",
