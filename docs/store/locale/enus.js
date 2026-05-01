@@ -1287,6 +1287,8 @@ const L = {
   srcloud_desc: "Opens the official Honkai: Star Rail Cloud Gaming portal, allowing players to stream the game instantly without downloads or installation.",
   minesweeperonline_name: "Minesweeper Online",
   minesweeperonline_desc: "Opens Minesweeper Online, a full-featured platform offering classic Minesweeper, multiplayer modes, rankings, quests, and competitive play.",
+  wowtoken_name: "WoW Token Prices",
+  wowtoken_desc: "Real-time price tracking for World of Warcraft tokens across regions (NA, EU, KR and TW).",
   chronodivide_name: "RA2: Chrono Divide",
   chronodivide_desc: "RA2: Chrono Divide is a fan-made, browser-based tribute to the classic Command & Conquer: Red Alert 2. It faithfully recreates the real-time strategy experience with smooth online multiplayer, iconic units, and nostalgic visuals—all without needing to install a thing. Whether you're commanding Soviet forces or leading Allied troops, Chrono Divide lets you relive the tactical thrill of chrono technology and battlefield domination, right from your browser.",
   floppybird_name: "Floppy Bird",

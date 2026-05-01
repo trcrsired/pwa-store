@@ -1,0 +1,18 @@
+{
+  "id": "./",
+  "name": "WoW Token Prices",
+  "short_name": "WoW Token Prices",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for WoW Token Prices",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

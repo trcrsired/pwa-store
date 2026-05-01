@@ -1284,6 +1284,8 @@ const L = {
   srcloud_desc: "打开《崩坏：星穹铁道》官方云游戏入口，无需下载即可直接云端游玩。",
   minesweeperonline_name: "扫雷在线 (Minesweeper Online)",
   minesweeperonline_desc: "打开 Minesweeper Online，一个提供经典扫雷、多玩家模式、排行榜、任务与竞技玩法的完整扫雷平台。",
+  wowtoken_name: "魔兽世界时光徽章价格 (WoW Token Prices)",
+  wowtoken_desc: "实时追踪《魔兽世界》地区（美服、欧服、韩服和台服）的时光徽章价格。",
   chronodivide_name: "红警2：时空分裂 (RA2: Chrono Divide)",
   chronodivide_desc: "《红色警戒2：时空分裂》是一款由粉丝制作的浏览器游戏，致敬经典的《命令与征服：红色警戒2》。它忠实还原了即时战略的游戏体验，支持流畅的在线多人对战，拥有标志性的单位和充满怀旧感的画面——无需安装即可畅玩。无论你是指挥苏联军队，还是领导盟军部队，《时空分裂》都能让你在浏览器中重温时空科技与战场统治的战术快感。",
   floppybird_name: "Floppy Bird",

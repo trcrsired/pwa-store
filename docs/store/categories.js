@@ -4361,6 +4361,13 @@ export const categories = [
         url: "https://minesweeper.online"
       },
       {
+        name: "WoW Token Prices",
+        nameKey: "wowtoken_name",
+        descriptionKey: "wowtoken_desc",
+        icon: "icons/pwa/wowtoken.webp",
+        url: "https://wowtoken.app"
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",

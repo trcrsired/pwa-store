@@ -265,6 +265,7 @@ WRAPPERS = [
   { "name": "librephone", "url": "https://librephone.fsf.org", "icon": "fsf.webp" },
   { "name": "SF Conservancy", "url": "https://sfconservancy.org/" },
   { "name": "RA2: Chrono Divide", "url": "https://game.chronodivide.com", "keyify_name": "chronodivide" },
+  { "name": "WoW Token Prices", "url": "https://wowtoken.app", "keyify_name": "wowtoken" },
   { "name": "Floppy Bird", "url": "https://nebezb.com/floppybird" },
   { "name": "Eaglercraft", "url": "https://eaglercraft.com" },
   { "name": "D3Wasm Doom", "url": "https://wasm.continuation-labs.com/d3demo", "keyify_name": "d3wasm" },
