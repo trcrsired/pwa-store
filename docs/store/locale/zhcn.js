@@ -1806,6 +1806,8 @@ const L = {
   azure_desc: "Azure 是微软开发的云计算平台，通过其全球基础设施为个人、企业和政府提供应用和服务的管理、访问与开发能力。",
   cloudprice_name: "CloudPrice",
   cloudprice_desc: "打开 CloudPrice，一个用于比较 AWS、Azure、GCP 等云服务价格的工具网站。",
+  pikpak_name: "PikPak",
+  pikpak_desc: "一款私有云盘，支持从网页直接保存和播放视频，并具备强大的离线下载功能。",
   aws_name: "AWS(亚马逊云服务)",
   aws_desc: "打开 AWS, 全球最全面的云平台，提供超过 240 项计算、存储、AI 与企业级服务。",
   googlecloud_name: "Google Cloud",

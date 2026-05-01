@@ -6907,6 +6907,13 @@ export const categories = [
         url: "https://cloudprice.net"
       },
       {
+        name: "PikPak",
+        nameKey: "pikpak_name",
+        descriptionKey: "pikpak_desc",
+        icon: "icons/pwa/pikpak.webp",
+        url: "https://mypikpak.com"
+      },
+      {
         name: "AWS",
         nameKey: "aws_name",
         descriptionKey: "aws_desc",
