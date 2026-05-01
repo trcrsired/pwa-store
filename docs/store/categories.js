@@ -4361,13 +4361,6 @@ export const categories = [
         url: "https://minesweeper.online"
       },
       {
-        name: "WoW Token Prices",
-        nameKey: "wowtoken_name",
-        descriptionKey: "wowtoken_desc",
-        icon: "icons/pwa/wowtoken.webp",
-        url: "https://wowtoken.app"
-      },
-      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",
@@ -4680,6 +4673,15 @@ export const categories = [
         url2: "../wrappers/protondb",
         apptype2: "wrapper",
         url: "https://www.protondb.com"
+      },
+      {
+        name: "WoW Token Prices",
+        nameKey: "wowtoken_name",
+        descriptionKey: "wowtoken_desc",
+        icon: "icons/wrappers/wowtoken.webp",
+        url2: "../wrappers/wowtoken",
+        apptype2: "wrapper",
+        url: "https://wowtoken.app"
       },
       {
         name: "World of Warcraft (China)",
