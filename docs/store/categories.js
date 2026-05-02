@@ -214,7 +214,7 @@ export const categories = [
         name: "PWA MP3 Player",
         nameKey: "pwa_mp3_player_name",
         descriptionKey: "pwa_mp3_player_desc",
-        icon: "icons/pwa/pwa_mp3_player.webp",
+        icon: "icons/pwa/pwa-mp3-player.webp",
         url: "https://utausnskareshi.github.io/pwa-mp3-player"
       },
       {
