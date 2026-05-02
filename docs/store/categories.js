@@ -218,6 +218,13 @@ export const categories = [
         url: "https://utausnskareshi.github.io/pwa-mp3-player"
       },
       {
+        name: "OmniConvert",
+        nameKey: "omniconvert_name",
+        descriptionKey: "omniconvert_desc",
+        icon: "icons/pwa/omniconvert.svg",
+        url: "https://tools.sagasu.art"
+      },
+      {
         name: "Base64.Guru",
         nameKey: "base64guru_name",
         descriptionKey: "base64guru_desc",
@@ -663,6 +670,22 @@ export const categories = [
         descriptionKey: "pasteepad_desc",
         icon: "icons/pwa/pasteepad.webp",
         url: "https://pasteepad.com"
+      },
+      {
+        name: "Nanocell CSV",
+        nameKey: "nanocell_csv_name",
+        descriptionKey: "nanocell_csv_desc",
+        icon: "icons/pwa/nanocell_csv.svg",
+        url: "https://www.nanocell-csv.com"
+      },
+      {
+        name: "PDFGem",
+        nameKey: "pdfgem_name",
+        descriptionKey: "pdfgem_desc",
+        icon: "icons/wrappers/pdfgem.svg",
+        url2: "/wrappers/pdfgem",
+        apptype2: "wrapper",
+        url: "https://pdfgem.io"
       },
       {
         name: "DingTalk (钉钉)",
@@ -4794,6 +4817,13 @@ export const categories = [
         descriptionKey: "gpa_io_desc",
         icon: "icons/pwa/gpa_io.webp",
         url: "https://gpacalculator.io"
+      },
+      {
+        name: "Unalengua IPA Transcriber",
+        nameKey: "unalengua_ipa_name",
+        descriptionKey: "unalengua_ipa_desc",
+        icon: "icons/wrappers/unalengua_ipa.webp",
+        url: "https://unalengua.com/ipa"
       },
       {
         name: "11000.online (七星英语背单词)",

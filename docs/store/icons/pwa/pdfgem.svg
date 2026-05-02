@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#4f46e5"/>
+  <text x="16" y="20" font-family="system-ui" font-size="14" font-weight="bold" fill="white" text-anchor="middle">PDF</text>
+  <text x="28" y="29" font-family="system-ui" font-size="7" font-weight="600" fill="white" text-anchor="end">Gem</text>
+</svg>
