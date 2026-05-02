@@ -682,10 +682,9 @@ export const categories = [
         name: "PDFGem",
         nameKey: "pdfgem_name",
         descriptionKey: "pdfgem_desc",
-        icon: "icons/wrappers/pdfgem.svg",
-        url2: "/wrappers/pdfgem",
-        apptype2: "wrapper",
-        url: "https://pdfgem.io"
+        icon: "icons/pwa/pdfgem.svg",
+        url: "https://pdfgem.io",
+        hide: true
       },
       {
         name: "DingTalk (钉钉)",
