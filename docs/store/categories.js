@@ -3420,6 +3420,13 @@ export const categories = [
         url: "https://ezgif.com"
       },
       {
+        name: "3D House Planner",
+        nameKey: "house_planner_name",
+        descriptionKey: "house_planner_desc",
+        icon: "icons/pwa/house_planner.webp",
+        url: "https://3dhouseplanner.com/app2.php"
+      },
+      {
         name: "Canva",
         nameKey: "canva_name",
         descriptionKey: "canva_desc",
@@ -4773,6 +4780,20 @@ export const categories = [
         descriptionKey: "hellotyping_desc",
         icon: "icons/pwa/hellotyping.webp",
         url: "https://www.hellotyping.com"
+      },
+      {
+        name: "GPA Calculator (MemoryMaps)",
+        nameKey: "gpa_memorymaps_name",
+        descriptionKey: "gpa_memorymaps_desc",
+        icon: "icons/pwa/gpa_memorymaps.webp",
+        url: "https://gpacalculator.memorymaps.io"
+      },
+      {
+        name: "GPA Calculator (IO)",
+        nameKey: "gpa_io_name",
+        descriptionKey: "gpa_io_desc",
+        icon: "icons/pwa/gpa_io.webp",
+        url: "https://gpacalculator.io"
       },
       {
         name: "11000.online (七星英语背单词)",
