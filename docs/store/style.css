@@ -900,3 +900,11 @@ a:hover {
   margin: 0 auto 32px;
   padding: 0 16px;
 }
+
+.home-button {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}

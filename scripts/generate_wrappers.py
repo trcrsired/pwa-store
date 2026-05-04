@@ -565,6 +565,8 @@ INDEX_HTML = """<!DOCTYPE html>
   <link rel="manifest" href="manifest.json" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="icons/icon.webp" type="image/webp">
+  <link rel="canonical" href="https://pwa-store-7x5.pages.dev/store/" />
+
   <script src="config.js"></script>
   <script src="sw-register.js"></script>
   <script src="install-check.js"></script>

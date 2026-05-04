@@ -19,6 +19,7 @@
   <!-- 🏷️ Favicon & manifest -->
   <link rel="icon" href="logo/logo.webp" />
   <link rel="manifest" href="manifest.json" />
+  <link rel="canonical" href="https://pwa-store-7x5.pages.dev/store/" />
 
   <!-- ⚙️ Scripts -->
   <script type="module" src="app.js"></script>
@@ -39,9 +40,11 @@
     <div class="page">
       <div class="site-header__inner">
         <div class="brand">
-          <img class="brand__logo" src="logo/logo.webp" alt="" width="44" height="44" loading="eager" decoding="async" />
+          <a href="./" class="brand__logo-link" aria-label="Go to homepage">
+            <img class="brand__logo" src="logo/logo.webp" alt="PWA Store logo" width="44" height="44" loading="eager" decoding="async" />
+          </a>
           <div class="brand__title">
-            <h1 style="margin: 0; font-size: inherit; font-weight: inherit;"><a href="/" class="site-title-link" id="site-title">PWA Store</a></h1>
+            <h1 class="site-title" id="site-title">PWA Store</h1>
             <p class="site-subtitle" id="site-subtitle">Install and explore Progressive Web Apps.</p>
           </div>
         </div>
