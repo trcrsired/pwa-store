@@ -497,6 +497,8 @@ const L = {
   stoat_desc: "Opens Stoat, an open‑source chat platform built to be secure, customizable, and community‑focused, with a mission to reinvent communication.",
   bitchute_name: "BitChute",
   bitchute_desc: "A peer-to-peer video sharing platform focused on freedom of expression and independent content creation.",
+  iqiyi_name: "iQiyi",
+  iqiyi_desc: "A premier global streaming service specializing in popular Asian content, including C-dramas, anime, variety shows, and exclusive originals.",
   loopsvideo_name: "Loops.video",
   loopsvideo_desc: "Opens Loops.video, a platform for creating and sharing short looping videos.",
   piefed_name: "Piefed",

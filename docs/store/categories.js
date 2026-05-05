@@ -1856,6 +1856,13 @@ export const categories = [
         url: "https://www.bitchute.com"
       },
       {
+        name: "iQiyi",
+        nameKey: "iqiyi_name",
+        descriptionKey: "iqiyi_desc",
+        icon: "icons/pwa/iqiyi.webp",
+        url: "https://www.iq.com"
+      },
+      {
         name: "Loops.video",
         nameKey: "loopsvideo_name",
         descriptionKey: "loopsvideo_desc",
