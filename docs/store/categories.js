@@ -1361,6 +1361,15 @@ export const categories = [
         url: "https://www.mooc.fi"
       },
       {
+        name: "JSLinux",
+        nameKey: "jslinux_name",
+        descriptionKey: "jslinux_desc",
+        icon: "icons/wrappers/jslinux.webp",
+        url2: "/wrappers/jslinux",
+        apptype2: "wrapper",
+        url: "https://bellard.org/jslinux"
+      },
+      {
         name: "Mini Program Demo",
         nameKey: "miniprogramdemo_name",
         descriptionKey: "miniprogramdemo_desc",

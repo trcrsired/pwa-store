@@ -1,0 +1,18 @@
+{
+  "id": "./",
+  "name": "JSLinux",
+  "short_name": "JSLinux",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for JSLinux",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

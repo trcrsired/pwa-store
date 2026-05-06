@@ -460,6 +460,8 @@ const L = {
   javabook_desc: "Opens JavaBook, an online reference for the Java language and standard library.",
   moocfi_name: "MOOC.fi",
   moocfi_desc: "Opens MOOC.fi, a Finnish platform offering free online courses in programming and computer science.",
+  jslinux_name: "JSLinux",
+  jslinux_desc: "A PC emulator written in JavaScript that allows you to run Linux, Windows 2000, and other operating systems entirely within your browser.",
   newpipe_name: "NewPipe",
   newpipe_desc: "Opens NewPipe, a free and privacy-friendly open-source YouTube client for Android with background play, downloads, and no ads.",
   dailymotion_name: "Dailymotion",
