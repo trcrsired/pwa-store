@@ -506,6 +506,8 @@ const L = {
   bitchute_desc: "一个点对点视频分享平台，专注于言论自由和独立内容创作。",
   iqiyi_name: "iQiyi (爱奇艺国际版)",
   iqiyi_desc: "领先的全球流媒体服务平台，专注于热门亚洲内容，包括华语剧集、动漫、综艺及独家原创内容。",
+  vtsocial_name: "VT Social",
+  vtsocial_desc: "一个基于 Mastodon 的社区化社交网络实例，提供去中心化且无广告的社交体验。",
   loopsvideo_name: "Loops.video",
   loopsvideo_desc: "打开 Loops.video，一个用于创建与分享短循环视频的平台。",
   piefed_name: "Piefed",

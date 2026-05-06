@@ -1881,6 +1881,13 @@ export const categories = [
         url: "https://www.iq.com"
       },
       {
+        name: "VT Social",
+        nameKey: "vtsocial_name",
+        descriptionKey: "vtsocial_desc",
+        icon: "icons/pwa/vtsocial.webp",
+        url: "https://vt.social"
+      },
+      {
         name: "Loops.video",
         nameKey: "loopsvideo_name",
         descriptionKey: "loopsvideo_desc",

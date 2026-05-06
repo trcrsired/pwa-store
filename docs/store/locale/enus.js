@@ -505,6 +505,8 @@ const L = {
   bitchute_desc: "A peer-to-peer video sharing platform focused on freedom of expression and independent content creation.",
   iqiyi_name: "iQiyi",
   iqiyi_desc: "A premier global streaming service specializing in popular Asian content, including C-dramas, anime, variety shows, and exclusive originals.",
+  vtsocial_name: "VT Social",
+  vtsocial_desc: "A community-focused social networking instance powered by Mastodon, offering a decentralized and ad-free experience.",
   loopsvideo_name: "Loops.video",
   loopsvideo_desc: "Opens Loops.video, a platform for creating and sharing short looping videos.",
   piefed_name: "Piefed",
