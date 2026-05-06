@@ -500,6 +500,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.cvedetails.com"
       },
+      {
+        name: "SANS Internet Storm Center",
+        nameKey: "sans_isc_name",
+        descriptionKey: "sans_isc_desc",
+        icon: "icons/msedge/sans_isc.webp",
+        url2: "../msedge/sans_isc",
+        apptype2: "wrapper",
+        url: "https://isc.sans.edu"
+      },
     ]
   },
   {

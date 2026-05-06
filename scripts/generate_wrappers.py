@@ -92,6 +92,7 @@ WRAPPERS = [
   { "name": "PrivSec", "url": "https://privsec.dev" },
   { "name": "CyberPress", "url": "https://cyberpress.org", "apptype": "msedge" },
   { "name": "CVEDetails", "url": "https://www.cvedetails.com" },
+  { "name": "SANS Internet Storm Center", "url": "https://isc.sans.edu", "keyify_name": "sans_isc" },
   { "name": "Have I Been Pwned", "url": "https://haveibeenpwned.com", "keyify_name": "hibp", "apptype": "msedge" },
   { "name": "NIST Time", "url": "https://www.time.gov", "keyify_name": "timegov" },
   { "name": "aTimeLogger", "url": "https://app.atimelogger.com" },
