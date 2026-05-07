@@ -55,6 +55,7 @@ WRAPPERS = [
   { "name": "PrivacyPack", "url": "https://privacypack.org" },
   { "name": "IPTV 直播源", "url": "https://iptv.hacks.tools", "keyify_name": "iptvtools", "apptype": "msedge" },
   { "name": "OpenSubtitles", "url": "ttps://www.opensubtitles.com" },
+  { "name": "StreamVaults", "url": "https://streamvaults.ru", "apptype": "msedge" },
   { "name": "FreeVideoSplitter", "url": "https://freevideosplitter.org", "apptype": "msedge" },
   { "name": "Chips and Cheese", "url": "https://chipsandcheese.com", "apptype": "msedge" },
   { "name": "Laptop Mag", "url": "https://www.laptopmag.com", "apptype": "msedge" },

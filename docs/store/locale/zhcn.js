@@ -873,6 +873,8 @@ const L = {
   iptvtools_desc: "打开 IPTV 直播源，一个提供 IPTV 工具、M3U 资源、EPG 信息与相关工具的网站。",
   opensubtitles_name: "OpenSubtitles (开放字幕)",
   opensubtitles_desc: "打开 OpenSubtitles，一个提供多语言电影与剧集字幕的平台。",
+  streamvaults_name: "StreamVaults",
+  streamvaults_desc: "一个流媒体平台，提供丰富的视频内容、电影和数字媒体资源，支持在线观看。",
   freevideosplitter_name: "FreeVideoSplitter (免费视频分割)",
   freevideosplitter_desc: "打开 FreeVideoSplitter，一个无需安装软件即可在线分割视频的工具。",
   mediatools_name: "媒体工具",

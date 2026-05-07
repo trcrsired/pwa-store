@@ -3420,6 +3420,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.opensubtitles.com"
       },
+      {
+        name: "StreamVaults",
+        nameKey: "streamvaults_name",
+        descriptionKey: "streamvaults_desc",
+        icon: "icons/msedge/streamvaults.webp",
+        url2: "../msedge/streamvaults",
+        apptype2: "wrapper",
+        url: "https://streamvaults.ru"
+      },
     ]
   },
   {

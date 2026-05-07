@@ -877,6 +877,8 @@ const L = {
   iptvtools_desc: "Opens IPTV Live Sources, a site offering IPTV tools, M3U resources, EPG info, and related utilities.",
   opensubtitles_name: "OpenSubtitles",
   opensubtitles_desc: "Opens OpenSubtitles, a multilingual subtitle platform for movies and TV series.",
+  streamvaults_name: "StreamVaults",
+  streamvaults_desc: "A streaming platform offering a wide variety of video content, movies, and digital media for online viewing.",
   freevideosplitter_name: "FreeVideoSplitter",
   freevideosplitter_desc: "Opens FreeVideoSplitter, an online tool for splitting video files without installing software.",
   mediatools_name: "Media Tools",
