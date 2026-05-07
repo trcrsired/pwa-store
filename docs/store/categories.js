@@ -3272,6 +3272,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://iproyal.com"
       },
+      {
+        name: "WIRED",
+        nameKey: "wired_name",
+        descriptionKey: "wired_desc",
+        icon: "icons/wrappers/wired.webp",
+        url2: "/wrappers/wired",
+        apptype2: "wrapper",
+        url: "https://www.wired.com"
+      },
     ]
   },
   {
@@ -5260,6 +5269,24 @@ export const categories = [
         url2: "../wrappers/repairwiki",
         apptype2: "wrapper",
         url: "https://repair.wiki"
+      },
+      {
+        name: "Wikimedia Commons",
+        nameKey: "wikimedia_commons_name",
+        descriptionKey: "wikimedia_commons_desc",
+        icon: "icons/msedge/wikimedia_commons.webp",
+        url2: "../msedge/wikimedia_commons",
+        apptype2: "wrapper",
+        url: "https://commons.wikimedia.org/wiki/Main_Page"
+      },
+      {
+        name: "seeklogo",
+        nameKey: "seeklogo_name",
+        descriptionKey: "seeklogo_desc",
+        icon: "icons/wrappers/seeklogo.webp",
+        url2: "../wrappers/seeklogo",
+        apptype2: "wrapper",
+        url: "https://seeklogo.com"
       },
     ]
   },
