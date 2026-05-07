@@ -470,6 +470,8 @@ WRAPPERS = [
   { "name": "0xSid", "url": "https://www.0xsid.com" },
   { "name": "Stallman", "url": "https://stallman.org" },
   { "name": "Tyler Raw", "url": "https://tylerraw.com", "apptype": "msedge" },
+  { "name": "AMD", "url": "https://www.amd.com" },
+
 
   { "name": "Radio Television of Afghanistan", "url": "https://rta.af", "keyify_name": "rtaaf"},
   { "name": "求是", "url": "https://www.qstheory.cn", "keyify_name": "qstheory"},

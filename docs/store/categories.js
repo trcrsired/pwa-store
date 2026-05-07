@@ -1379,7 +1379,7 @@ export const categories = [
         url: "https://bellard.org/jslinux"
       },
       {
-        name: "Mini Program Demo",
+        name: "Mini Program Demo (小程序示例)",
         nameKey: "miniprogramdemo_name",
         descriptionKey: "miniprogramdemo_desc",
         icon: "icons/wechatmini/miniprogramdemo.webp",
@@ -7380,6 +7380,23 @@ export const categories = [
         url2: "../msedge/tylerraw",
         apptype2: "wrapper",
         url: "https://tylerraw.com"
+      },
+      {
+        name: "AMD",
+        nameKey: "amd_name",
+        descriptionKey: "amd_desc",
+        icon: "icons/wrappers/amd.webp",
+        url2: "../wrappers/amd",
+        apptype2: "wrapper",
+        url: "https://www.amd.com"
+      },
+      {
+        name: "AMD AI Research Club (AMD AI 研习社)",
+        nameKey: "amdai_name",
+        descriptionKey: "amdai_desc",
+        icon: "icons/wrappers/amd.webp",
+        url: "#小程序://AMDAI研习社/4tYfwtcGbGALt5m",
+        apptype: "wechatmini"
       },
     ]
   },

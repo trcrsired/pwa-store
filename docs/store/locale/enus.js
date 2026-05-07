@@ -1919,6 +1919,8 @@ const L = {
   stallman_desc: "Opens Stallman.org, the official website of Richard Stallman, founder of the Free Software Foundation and the GNU Project. The site features his essays, speeches, personal statements, free software advocacy, news commentary, and resources related to digital freedom, ethics, and user rights.",
   tylerraw_name: "Tyler Raw",
   tylerraw_desc: "Exclusive raw, unfiltered content from Tyler, featuring photography, projects, and creative works.",
+  amd_name: "AMD",
+  amd_desc: "The official website of Advanced Micro Devices (AMD), providing the latest information on processors, graphics cards, and high-performance computing solutions.",
   manosphere_name: "Manosphere",
   mgtowtv_name: "MGTOW.TV",
   mgtowtv_desc: "Independent video platform centered on men's issues, free speech, and uncensored creator content.",
@@ -2216,6 +2218,8 @@ const L = {
 // WeChat Mini Programs
   miniprogramdemo_name: "Mini Program Demo (小程序示例)",
   miniprogramdemo_desc: "This is a demonstration Mini Program showcasing basic WeChat Mini Program capabilities, including navigation, UI components, and API integration. It serves as a reference for developers exploring the Mini Program framework.",
+  amdai_name: "AMD AI Research Club (AMD AI 研习社)",
+  amdai_desc: "A specialized community focused on AI research, AMD hardware optimization, and technical learning resources.",
   lygdaily_name: "Lianyungang Daily (连云港日报)",
   lygdaily_desc: "Lianyungang Daily’s WeChat Mini Program provides local news, policy updates, and public service information for residents of Lianyungang. It serves as a digital portal for staying informed about city affairs, government announcements, and community events.",
   meituan_name: "Meituan (美团)",

@@ -1916,6 +1916,8 @@ const L = {
   stallman_desc: "打开 Stallman.org，这是自由软件基金会与 GNU 计划创始人 Richard Stallman (理查德·斯托曼) 的官方网站。网站包含他的文章、演讲、个人声明、自由软件倡议、新闻评论以及与数字自由、用户权利和技术伦理相关的内容。",
   tylerraw_name: "Tyler Raw",
   tylerraw_desc: "来自 Tyler 的独家原始、未过滤内容，涵盖摄影、项目及创意作品。",
+  amd_name: "AMD",
+  amd_desc: "超威半导体 (AMD) 官方网站，提供处理器、显卡及高性能计算解决方案的最新产品信息与技术支持。",
   manosphere_name: "男性圈(Manosphere)",
   mgtowtv_name: "MGTOW.TV",
   mgtowtv_desc: "一个专注于男性话题的独立视频平台，提供言论自由和非审查的创作者内容。",
@@ -2217,6 +2219,8 @@ const L = {
 // WeChat Mini Programs
   miniprogramdemo_name: "小程序示例",
   miniprogramdemo_desc: "这是一个微信小程序示例，展示了基础功能如页面跳转、组件使用和接口调用，适合开发者学习和参考微信小程序开发框架。",
+  amdai_name: "AMD AI 研习社",
+  amdai_desc: "专注于人工智能研究、AMD 硬件优化及技术进阶学习的专业社区。",
   lygdaily_name: "连云港日报",
   lygdaily_desc: "连云港日报微信小程序，面向本地居民提供新闻资讯、政策动态及公共服务信息。用户可通过小程序了解城市要闻、政务发布和社区活动，掌握连云港最新动态。",
   meituan_name: "美团",
