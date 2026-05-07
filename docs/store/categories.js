@@ -3420,15 +3420,6 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.opensubtitles.com"
       },
-      {
-        name: "StreamVaults",
-        nameKey: "streamvaults_name",
-        descriptionKey: "streamvaults_desc",
-        icon: "icons/msedge/streamvaults.webp",
-        url2: "../msedge/streamvaults",
-        apptype2: "wrapper",
-        url: "https://streamvaults.ru"
-      },
     ]
   },
   {
@@ -4299,6 +4290,15 @@ export const categories = [
         url2: "../wrappers/dailymail",
         apptype2: "wrapper",
         url: "https://www.dailymail.co.uk"
+      },
+      {
+        name: "StreamVaults",
+        nameKey: "streamvaults_name",
+        descriptionKey: "streamvaults_desc",
+        icon: "icons/msedge/streamvaults.webp",
+        url2: "../msedge/streamvaults",
+        apptype2: "wrapper",
+        url: "https://streamvaults.ru"
       },
     ]
   },
