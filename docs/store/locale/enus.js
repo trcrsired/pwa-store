@@ -1568,6 +1568,8 @@ const L = {
   ukrainewarlosses_desc: "Opens UkraineWarLosses.org, a site that compiles publicly reported data on military losses in the Russia–Ukraine war.",
   oilprice_name: "OilPrice",
   oilprice_desc: "Opens OilPrice, a global platform for real-time crude oil prices, energy news, and market intelligence.",
+  fred_name: "FRED Economic Data",
+  fred_desc: "A comprehensive database of hundreds of thousands of economic data time series from scores of national, international, public, and private sources.",
   busmaps_name: "BusMaps",
   busmaps_desc: "Opens BusMaps, a global public transit route visualization platform.",
   nukemap_name: "NUKEMAP",

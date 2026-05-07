@@ -1561,6 +1561,8 @@ const L = {
   ukrainewarlosses_desc: "打开 UkraineWarLosses.org，一个汇总俄乌战争中公开报道的军事损失数据的网站。",
   oilprice_name: "OilPrice",
   oilprice_desc: "打开 OilPrice，一个提供原油价格、能源新闻与市场分析的全球能源情报平台。",
+  fred_name: "FRED 经济数据库 (FRED Economic Data)",
+  fred_desc: "由圣路易斯联邦储备银行提供的综合数据库，包含来自数十个国家、国际、公共和私人机构的数十万条经济时间序列数据。",
   busmaps_name: "BusMaps",
   busmaps_desc: "打开 BusMaps，一个全球公交线路可视化平台。",
   nukemap_name: "NUKEMAP",

@@ -2501,6 +2501,15 @@ export const categories = [
         url: "https://finbold.com"
       },
       {
+        name: "FRED Economic Data",
+        nameKey: "fred_name",
+        descriptionKey: "fred_desc",
+        icon: "icons/wrappers/fred.webp",
+        url2: "../wrappers/fred",
+        apptype2: "wrapper",
+        url: "https://fred.stlouisfed.org"
+      },
+      {
         name: "Tencent Wealth Management (腾讯理财通)",
         nameKey: "tencentwm_name",
         descriptionKey: "tencentwm_desc",

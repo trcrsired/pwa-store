@@ -305,6 +305,7 @@ WRAPPERS = [
   { "name": "UkraineWarLosses", "url": "https://ukrainewarlosses.org" },
   { "name": "OilPrice", "url": "https://oilprice.com" },
   { "name": "Finbold", "url": "https://finbold.com" },
+  { "name": "FRED Economic Data", "url": "https://fred.stlouisfed.org", "keyify_name": "fred" },
   { "name": "NUKEMAP", "url": "https://nuclearsecrecy.com/nukemap" },
   { "name": "NY Times", "url": "https://www.nytimes.com" , "keyify_name": "nytimes"},
   { "name": "Netflix", "url": "https://www.netflix.com" },
