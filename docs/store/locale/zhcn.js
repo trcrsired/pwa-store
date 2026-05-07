@@ -764,6 +764,8 @@ const L = {
   emacschina_desc: "可能是最好的 Emacs 中文论坛",
   androidcentralforums_name: "Android Central 论坛",
   androidcentralforums_desc: "打开 Android Central 论坛，一个用于 Android 帮助、故障排查、设备讨论与技巧分享的社区。",
+  iproyal_name: "IPRoyal",
+  iproyal_desc: "专业的代理服务提供商，提供住宅、数据中心及移动代理解决方案，适用于数据采集和隐私保护。",
   wccftech_name: "Wccftech",
   wccftech_desc: "打开 Wccftech，一个提供科技新闻、硬件评测、游戏与行业动态的网站。",
   "404media_name": "404 Media",

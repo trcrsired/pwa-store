@@ -3263,6 +3263,15 @@ export const categories = [
         icon: "icons/pwa/androidcentralforums.webp",
         url: "https://forums.androidcentral.com"
       },
+      {
+        name: "IPRoyal",
+        nameKey: "iproyal_name",
+        descriptionKey: "iproyal_desc",
+        icon: "icons/wrappers/iproyal.webp",
+        url2: "../wrappers/iproyal",
+        apptype2: "wrapper",
+        url: "https://iproyal.com"
+      },
     ]
   },
   {

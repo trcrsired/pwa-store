@@ -768,6 +768,8 @@ const L = {
   emacschina_desc: "Probably the best Chinese forum for Emacs.",
   androidcentralforums_name: "Android Central Forums",
   androidcentralforums_desc: "Opens the Android Central Forums, a community for Android help, troubleshooting, device discussions, and tips.",
+  iproyal_name: "IPRoyal",
+  iproyal_desc: "A professional proxy service provider offering residential, datacenter, and mobile proxies for web scraping and privacy.",
   wccftech_name: "Wccftech",
   wccftech_desc: "Opens Wccftech, a site covering technology news, hardware reviews, gaming, and industry updates.",
   "404media_name": "404 Media",
