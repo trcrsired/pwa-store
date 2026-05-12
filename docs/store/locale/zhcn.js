@@ -1241,6 +1241,8 @@ const L = {
   weebcentral_desc: "打开 WeebCentral，一个面向二次元、动漫与同好社区的社交平台，用于聊天、分享与交流。",
   tmdb_name: "TMDB",
   tmdb_desc: "The Movie Database (TMDB) 是一个广受欢迎的用户可编辑电影和电视节目数据库，提供详尽的元数据、评分及演职员信息。",
+  yanmaga_name: "Yanmaga Web (ヤンマガWeb)",
+  yanmaga_desc: "讲谈社《周刊 Young Magazine》官方数字平台，提供大量漫画连载、写真以及独家网络内容。",
   lightnovel_name: "轻之国度",
   lightnovel_desc: "中国最早的轻小说社区之一，提供连载翻译、作者档案和动漫风格文学，界面简洁，适合移动浏览。",
   wechatread_name: "微信读书",
