@@ -257,6 +257,8 @@ const L = {
   msedgeaddons_desc: "Microsoft Edge Add-ons is the official extension marketplace for the Edge browser, offering productivity tools, AI-powered extensions, security utilities, shopping helpers, and customization features such as new tab pages and translation tools.",
   msnews_name: "Microsoft News",
   msnews_desc: "Opens Microsoft News Center, the official source for Microsoft announcements, product updates, AI news, and corporate stories.",
+  edge_download_name: "Microsoft Edge Download",
+  edge_download_desc: "The official download page for Microsoft Edge, the Chromium-based web browser designed for speed, performance, and advanced privacy features across all devices.",
   "google_desc": "Global search and service hub offering instant access to Search, Gmail, Drive, Translate, and other tools via a fast, unified web interface optimized across devices.",
   "googlevoice_name": "Google Voice",
   "googlevoice_desc": "Get a free U.S. phone number for calls, texts, and voicemail—syncs across devices and works on web or mobile.",
@@ -2437,5 +2439,9 @@ const L = {
   windowsmsvcsysroot_desc: "Custom MSVC sysroot maintained by the author of this PWA Store. Provides standardized headers and libraries for the ${ARCH}-windows-msvc triplet, following GCC/Clang-style sysroot rules. Designed to support cross-compilation and canadian-compilation workflows, this native wrapper offers a clean alternative to ${ARCH}-windows-gnu setups for developers preferring MSVC semantics.",
   gccreleases_name: "gcc-releases",
   gccreleases_desc: "Personal builds by the author of this PWA Store, offering a custom GCC distribution with cross-compiled toolchains for x86_64-linux-gnu, x86_64-w64-mingw32, x86_64-elf, x86_64-freebsd, aarch64-linux-gnu, riscv64-linux-gnu, loongarch64-linux-gnu, and i586-msdosdjgpp. Designed for reproducible builds and multi-target development, this native wrapper simplifies compiler deployment across embedded, desktop, and legacy platforms.",
+  ungoogled_chromium_name: "ungoogled-chromium binaries",
+  ungoogled_chromium_desc: "The official platform for downloading pre-compiled binaries of ungoogled-chromium, a privacy-focused browser that retains the Chromium experience without Google web services.",
+  ungoogled_chromium_macos_name: "ungoogled-chromium for macOS",
+  ungoogled_chromium_macos_desc: "The GitHub Releases page for downloading pre-compiled macOS binaries of ungoogled-chromium, providing a privacy-focused browsing experience without Google services.",
 };
 registerLocale("enus", L);

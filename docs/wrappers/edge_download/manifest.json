@@ -1,0 +1,18 @@
+{
+  "id": "./",
+  "name": "Microsoft Edge Download",
+  "short_name": "Microsoft Edge Download",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Microsoft Edge Download",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

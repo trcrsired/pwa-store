@@ -258,6 +258,8 @@ const L = {
   msedgeaddons_desc: "微软Edge插件商店是微软Edge浏览器的官方扩展平台，提供生产力工具、AI 扩展、安全插件、购物助手以及新标签页和翻译等个性化功能。",
   msnews_name: "微软新闻(Microsoft News)",
   msnews_desc: "打开微软新闻中心，微软官方发布公司公告、产品更新、AI 动态与企业故事的平台。",
+  edge_download_name: "Microsoft Edge 下载",
+  edge_download_desc: "Microsoft Edge 浏览器官方下载页面。基于 Chromium 内核打造，跨平台支持，提供更快的速度、更强的性能以及更完善的隐私保护体验。",
   "google_desc": "全球搜索与服务中心，快速统一的网页界面，可访问搜索、Gmail、云端硬盘、翻译等工具，适配多设备。",
   "googlevoice_name": "谷歌语音(Google Voice)",
   "googlevoice_desc": "免费美国电话号码，支持通话、短信和语音信箱——可跨设备同步，支持网页和移动端。",
@@ -2433,6 +2435,10 @@ const L = {
   windowsmsvcsysroot_name: "windows-msvc-sysroot",
   windowsmsvcsysroot_desc: "由本PWA商店作者维护的自定义MSVC系统根，提供符合 GCC/Clang 风格的标准化头文件与库，适用于 ${ARCH}-windows-msvc triplet。支持交叉编译与加拿大式编译流程，为偏好 MSVC 语义的开发者提供相较于 ${ARCH}-windows-gnu 的简洁替代方案。",
   gccreleases_name: "gcc-releases",
-  gccreleases_desc: "本PWA商店作者提供的 GCC 个性化构建版本，支持多平台交叉编译工具链，包括 x86_64-linux-gnu、x86_64-w64-mingw32、x86_64-elf、x86_64-freebsd、aarch64-linux-gnu、riscv64-linux-gnu、loongarch64-linux-gnu 及 i586-msdosdjgpp。该原生封装旨在实现可复现构建与多平台开发，覆盖嵌入式、桌面及传统系统场景。"
+  gccreleases_desc: "本PWA商店作者提供的 GCC 个性化构建版本，支持多平台交叉编译工具链，包括 x86_64-linux-gnu、x86_64-w64-mingw32、x86_64-elf、x86_64-freebsd、aarch64-linux-gnu、riscv64-linux-gnu、loongarch64-linux-gnu 及 i586-msdosdjgpp。该原生封装旨在实现可复现构建与多平台开发，覆盖嵌入式、桌面及传统系统场景。",
+  ungoogled_chromium_name: "ungoogled-chromium binaries",
+  ungoogled_chromium_desc: "ungoogled-chromium 预编译二进制文件的官方下载平台。该浏览器专注于隐私保护，在完全移除 Google 相关网络服务与追踪的同时，保留了纯粹的 Chromium 体验。",
+  ungoogled_chromium_macos_name: "ungoogled-chromium for macOS",
+  ungoogled_chromium_macos_desc: "ungoogled-chromium for macOS 预编译版本的 GitHub Releases 下载页面，为 Mac 用户提供完全移除 Google 服务与追踪的纯粹隐私浏览体验。",
 };
 registerLocale("zhcn", L);

@@ -565,6 +565,16 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://news.microsoft.com"
       },
+      {
+        name: "Microsoft Edge Download",
+        nameKey: "edge_download_name",
+        descriptionKey: "edge_download_desc",
+        icon: "icons/wrappers/msedge.webp",
+        url2: "../wrappers/edge_download",
+        apptype2: "wrapper",
+        url: "https://www.microsoft.com/en-us/edge/download",
+        apptype: "native"
+      },
     ]
   },
   {
@@ -1163,15 +1173,7 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://sfconservancy.org"
       },
-      {
-        name: "GCC MCF",
-        nameKey: "gccmcf_name",
-        icon: "icons/wrappers/lhmouse.webp",
-        url2: "../wrappers/gccmcf",
-        url: "https://gcc-mcf.lhmouse.com",
-        descriptionKey: "gccmcf_desc",
-        apptype2: "wrapper"
-      },
+
       {
         name: "WebAssembly",
         nameKey: "webassembly_name",
@@ -1417,6 +1419,34 @@ export const categories = [
         descriptionKey: "gccreleases_desc",
         icon: "icons/native/gcc.webp",
         url: "https://github.com/trcrsired/gcc-releases/releases",
+        apptype: "native"
+      },
+      {
+        name: "GCC MCF",
+        nameKey: "gccmcf_name",
+        icon: "icons/wrappers/lhmouse.webp",
+        url2: "../wrappers/gccmcf",
+        url: "https://gcc-mcf.lhmouse.com",
+        apptype: "native",
+        descriptionKey: "gccmcf_desc",
+        apptype2: "wrapper"
+      },
+      {
+        name: "ungoogled-chromium binaries",
+        nameKey: "ungoogled_chromium_name",
+        descriptionKey: "ungoogled_chromium_desc",
+        icon: "icons/wrappers/ungoogled_chromium.webp",
+        url2: "../wrappers/ungoogled_chromium",
+        apptype2: "wrapper",
+        url: "https://ungoogled-software.github.io/ungoogled-chromium-binaries/",
+        apptype: "native"
+      },
+      {
+        name: "ungoogled-chromium for macOS",
+        nameKey: "ungoogled_chromium_macos_name",
+        descriptionKey: "ungoogled_chromium_macos_desc",
+        icon: "icons/wrappers/ungoogled_chromium.webp",
+        url: "https://github.com/ungoogled-software/ungoogled-chromium-macos/releases",
         apptype: "native"
       },
     ]
