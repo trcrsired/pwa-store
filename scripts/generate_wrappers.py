@@ -206,6 +206,7 @@ WRAPPERS = [
   { "name": "Google Trends", "url": "https://trends.google.com" },
   { "name": "Google Blog", "url": "https://blog.google", "icon": "google.webp" },
   { "name": "Google Translate", "url": "https://translate.google.com" },
+  { "name": "Chrome Web Store", "url": "https://chromewebstore.google.com" },
   { "name": "IRS", "url": "https://www.irs.gov" },
   { "name": "USCIS", "url": "https://www.uscis.gov" },
   { "name": "SSA", "url": "https://www.ssa.gov" },

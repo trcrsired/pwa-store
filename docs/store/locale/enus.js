@@ -277,6 +277,8 @@ const L = {
   googleblog_desc: "Opens the official Google Blog featuring product updates, AI news, company announcements, and insights from across Google.",
   googletranslate_name: "Google Translate",
   googletranslate_desc: "Opens Google Translate, a multilingual translation service supporting text, voice, images, and website translation across 100+ languages.",
+  chromewebstore_name: "Chrome Web Store",
+  chromewebstore_desc: "The official marketplace for Google Chrome and other Chromium-based browsers, offering thousands of extensions and themes to customize and enhance your browsing experience.",
   "officesuites_name": "Office Suites",
   "wps_desc": "WPS is an office suite developed by the Chinese company Kingsoft Office Software",
   "wpscn_name": "WPS (CN)",

@@ -615,6 +615,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://translate.google.com"
       },
+      {
+        name: "Chrome Web Store",
+        nameKey: "chromewebstore_name",
+        descriptionKey: "chromewebstore_desc",
+        icon: "icons/wrappers/chromewebstore.webp",
+        url2: "../wrappers/chromewebstore",
+        apptype2: "wrapper",
+        url: "https://chromewebstore.google.com"
+      },
     ]
   },
   {

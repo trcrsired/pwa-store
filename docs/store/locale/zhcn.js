@@ -278,6 +278,8 @@ const L = {
   googleblog_desc: "打开 Google 官方博客，涵盖产品更新、AI 动态、公司公告与来自 Google 各团队的洞察。",
   googletranslate_name: "谷歌翻译(Google Translate)",
   googletranslate_desc: "打开谷歌翻译，一个支持文本、语音、图片和网页翻译的多语言在线翻译服务。",
+  chromewebstore_name: "Chrome 网络商店 (Chrome Web Store)",
+  chromewebstore_desc: "谷歌 Chrome 及其他 Chromium 内核浏览器的官方网络商店，提供数以千计的扩展程序和主题背景，用于自定义并增强您的浏览器体验。",
   "officesuites_name": "办公套件",
   "wps_desc": "由中国金山办公软件公司开发的办公套件。",
   "wpscn_name": "WPS国内版",
