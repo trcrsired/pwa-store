@@ -8,6 +8,9 @@
   "theme_color": "black",
   "description": "PWA Wrapper for Exchange\u2011Rates.org",
   "display": "standalone",
+  "display_override": [
+    "window-controls-overlay"
+  ],
   "icons": [
     {
       "src": "./icons/icon.webp",

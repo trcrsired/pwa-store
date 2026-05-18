@@ -8,6 +8,9 @@
   "theme_color": "black",
   "description": "PWA Wrapper for Have I Been Pwned",
   "display": "standalone",
+  "display_override": [
+    "window-controls-overlay"
+  ],
   "icons": [
     {
       "src": "./icons/icon.webp",

@@ -8,6 +8,9 @@
   "theme_color": "black",
   "description": "PWA Wrapper for Zhejiang University (\u6d59\u6c5f\u5927\u5b66)",
   "display": "standalone",
+  "display_override": [
+    "window-controls-overlay"
+  ],
   "icons": [
     {
       "src": "./icons/icon.webp",

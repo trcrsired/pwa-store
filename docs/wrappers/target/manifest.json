@@ -8,6 +8,9 @@
   "theme_color": "black",
   "description": "PWA Wrapper for Target",
   "display": "standalone",
+  "display_override": [
+    "window-controls-overlay"
+  ],
   "icons": [
     {
       "src": "./icons/icon.webp",

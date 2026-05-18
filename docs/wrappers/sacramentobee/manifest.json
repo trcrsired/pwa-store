@@ -8,6 +8,9 @@
   "theme_color": "black",
   "description": "PWA Wrapper for Sacramento Bee",
   "display": "standalone",
+  "display_override": [
+    "window-controls-overlay"
+  ],
   "icons": [
     {
       "src": "./icons/icon.webp",

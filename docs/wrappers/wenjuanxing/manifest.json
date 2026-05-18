@@ -8,6 +8,9 @@
   "theme_color": "black",
   "description": "PWA Wrapper for \u95ee\u5377\u661f",
   "display": "standalone",
+  "display_override": [
+    "window-controls-overlay"
+  ],
   "icons": [
     {
       "src": "./icons/icon.webp",

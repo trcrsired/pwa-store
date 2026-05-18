@@ -616,6 +616,7 @@ def build_manifest(name, key, apptype="wrapper"):
         "theme_color": "black",
         "description": f"PWA Wrapper for {name}",
         "display": "standalone",
+        "display_override": ["window-controls-overlay"],
         "icons": [{
             "src": f"./icons/icon.webp",
             "type": "image/webp",
