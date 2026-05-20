@@ -3796,6 +3796,13 @@ export const categories = [
         icon: "icons/pwa/tuko.webp",
         url: "https://www.tuko.co.ke"
       },
+      {
+        name: "Times Now",
+        nameKey: "timesnownews_name",
+        descriptionKey: "timesnownews_desc",
+        icon: "icons/pwa/timesnownews.webp",
+        url: "https://www.timesnownews.com"
+      },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url2: "../wrappers/nytimes", url: "https://www.nytimes.com", apptype2: "wrapper" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url2: "../wrappers/washingtonpost", url: "https://www.washingtonpost.com", apptype2: "wrapper" },
       { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url2: "../wrappers/reuters", url: "https://www.reuters.com", apptype2: "wrapper" },
@@ -4220,6 +4227,15 @@ export const categories = [
         apptype2: "wrapper",
         apptype_hide: "msedge",
         url: "https://novayagazeta.eu"
+      },
+      {
+        name: "Eyerys",
+        nameKey: "eyerys_name",
+        descriptionKey: "eyerys_desc",
+        icon: "icons/wrappers/eyerys.webp",
+        url2: "../wrappers/eyerys",
+        apptype2: "wrapper",
+        url: "https://www.eyerys.com"
       },
     ]
   },

@@ -1047,6 +1047,8 @@ const L = {
   tribuneindia_desc: "Opens Tribune India, a major Indian English-language news outlet offering national, regional, and international coverage.",
   tuko_name: "Tuko",
   tuko_desc: "Opens Tuko, a leading Kenyan digital news platform covering breaking news, politics, entertainment, and lifestyle stories.",
+  timesnownews_name: "Times Now",
+  timesnownews_desc: "The digital arm of Times Network, providing 24/7 breaking news, in-depth analysis, and comprehensive coverage of politics, business, entertainment, and global events.",
   ameblo_name: "Ameba Blog (アメーバブログ)",
   ameblo_desc: "A popular Japanese blogging platform for personal diaries, celebrity updates, and community interaction.",
   friend_name: "Friend",
@@ -2231,6 +2233,8 @@ const L = {
   novayagazeta_desc: "Opens Novaya Gazeta Europe, an independent Russian-language news website covering Russia and European affairs.",
   wbtv_name: "WBTV",
   wbtv_desc: "Opens WBTV, a local news station in Charlotte, NC providing breaking news, weather, sports and traffic updates.",
+  eyerys_name: "Eyerys",
+  eyerys_desc: "A technology journal and web development blog providing in-depth analysis on hardware trends, software design, digital marketing, and tech news.",
 
 
 // WeChat Mini Programs

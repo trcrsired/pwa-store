@@ -1041,6 +1041,8 @@ const L = {
   tribuneindia_desc: "打开 Tribune India，这是一家印度主要的英文新闻媒体，提供国内、地区及国际新闻报道。",
   tuko_name: "Tuko",
   tuko_desc: "打开Tuko，一个肯尼亚领先的数字新闻平台，提供突发新闻、政治、娱乐和生活方式内容。",
+  timesnownews_name: "Times Now",
+  timesnownews_desc: "时报网络（Times Network）旗下官方新闻门户，提供 24/7 全天候即时新闻、深度分析以及涵盖政治、商业、娱乐和全球热点事件的全面报道。",
   gbnews_name: "GB News",
   gbnews_desc: "打开 GB News，这是一家总部位于英国的新闻频道，提供实时新闻、评论、政治、生活方式及全球资讯。",
   ameblo_name: "Ameba博客 (アメーバブログ)",
@@ -2232,6 +2234,8 @@ const L = {
   novayagazeta_desc: "打开新报欧洲版，独立俄语新闻网站，报道俄罗斯及欧洲相关时政与社会新闻。",
   wbtv_name: "WBTV",
   wbtv_desc: "打开 WBTV，美国夏洛特本地新闻电视台，提供突发新闻、天气、体育和交通资讯。",
+  eyerys_name: "Eyerys",
+  eyerys_desc: "一家专注于前沿技术、网络开发与数字营销的科技媒体博客，提供深度的软硬件原理解析、行业趋势报道与技术新闻。",
 
 
 // WeChat Mini Programs
