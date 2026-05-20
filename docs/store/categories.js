@@ -577,10 +577,10 @@ export const categories = [
       },
       {
         name: "OneNote",
-        nameKey: "onenote_web_name",
-        descriptionKey: "onenote_web_desc",
-        icon: "icons/wrappers/onenote_web.webp",
-        url2: "../wrappers/onenote_web",
+        nameKey: "onenote_name",
+        descriptionKey: "onenote_desc",
+        icon: "icons/wrappers/onenote.webp",
+        url2: "../wrappers/onenote",
         apptype2: "wrapper",
         url: "https://onenote.cloud.microsoft"
       },
