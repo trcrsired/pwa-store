@@ -555,6 +555,8 @@ WRAPPERS = [
   { "name" : "WBTV", "url": "https://www.wbtv.com", "keyify_name": "wbtv", "apptype": "msedge" },
   { "name" : "Novaya Gazeta Europe", "url": "https://novayagazeta.eu", "keyify_name": "novayagazeta", "apptype": "msedge" },
   { "name" : "Eyerys", "url": "https://www.eyerys.com" },
+  { "name" : "The Straits Times", "url": "https://www.straitstimes.com", "keyify_name": "straitstimes" },
+
 #  { "name" : "Proxy SwitchyOmega (V3)", "url": "extension://fnbemgdobbciiofjfaoaajboakejkdbo/options.html", "keyify_name": "proxyswitchyomegav3" , "apptype": "extension" },
 ]
 

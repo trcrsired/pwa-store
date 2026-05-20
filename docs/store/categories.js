@@ -4237,6 +4237,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.eyerys.com"
       },
+      {
+        name: "The Straits Times",
+        nameKey: "straitstimes_name",
+        descriptionKey: "straitstimes_desc",
+        icon: "icons/wrappers/straitstimes.webp",
+        url2: "../wrappers/straitstimes",
+        apptype2: "wrapper",
+        url: "https://www.straitstimes.com"
+      },
     ]
   },
   {

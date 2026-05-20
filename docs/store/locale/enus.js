@@ -2235,6 +2235,8 @@ const L = {
   wbtv_desc: "Opens WBTV, a local news station in Charlotte, NC providing breaking news, weather, sports and traffic updates.",
   eyerys_name: "Eyerys",
   eyerys_desc: "A technology journal and web development blog providing in-depth analysis on hardware trends, software design, digital marketing, and tech news.",
+  straitstimes_name: "The Straits Times",
+  straitstimes_desc: "The flagship English-language daily newspaper in Singapore, providing comprehensive coverage of local news, Asian insights, and global current affairs.",
 
 
 // WeChat Mini Programs

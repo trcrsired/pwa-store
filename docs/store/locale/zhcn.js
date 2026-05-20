@@ -2236,6 +2236,8 @@ const L = {
   wbtv_desc: "打开 WBTV，美国夏洛特本地新闻电视台，提供突发新闻、天气、体育和交通资讯。",
   eyerys_name: "Eyerys",
   eyerys_desc: "一家专注于前沿技术、网络开发与数字营销的科技媒体博客，提供深度的软硬件原理解析、行业趋势报道与技术新闻。",
+  straitstimes_name: "海峡时报",
+  straitstimes_desc: "新加坡历史最悠久的旗舰英文日报，提供全面的本地新闻报道、深入的亚洲视角以及全球时事动态分析。",
 
 
 // WeChat Mini Programs
