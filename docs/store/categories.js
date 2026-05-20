@@ -4255,6 +4255,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.straitstimes.com"
       },
+      {
+        name: "Parliamentlive.tv",
+        nameKey: "parliamentlive_name",
+        descriptionKey: "parliamentlive_desc",
+        icon: "icons/wrappers/parliamentlive.webp",
+        url2: "../wrappers/parliamentlive",
+        apptype2: "wrapper",
+        url: "https://parliamentlive.tv"
+      },
     ]
   },
   {

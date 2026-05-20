@@ -2240,6 +2240,8 @@ const L = {
   eyerys_desc: "一家专注于前沿技术、网络开发与数字营销的科技媒体博客，提供深度的软硬件原理解析、行业趋势报道与技术新闻。",
   straitstimes_name: "海峡时报",
   straitstimes_desc: "新加坡历史最悠久的旗舰英文日报，提供全面的本地新闻报道、深入的亚洲视角以及全球时事动态分析。",
+  parliamentlive_name: "Parliamentlive.tv",
+  parliamentlive_desc: "英国议会官方网络直播与点播平台，提供英国下议院、上议院以及各大委员会辩论、听证会和会议的实时音视频转播与历史回放。",
 
 
 // WeChat Mini Programs
