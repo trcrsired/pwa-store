@@ -260,6 +260,8 @@ const L = {
   msnews_desc: "打开微软新闻中心，微软官方发布公司公告、产品更新、AI 动态与企业故事的平台。",
   edge_download_name: "Microsoft Edge 下载",
   edge_download_desc: "Microsoft Edge 浏览器官方下载页面。基于 Chromium 内核打造，跨平台支持，提供更快的速度、更强的性能以及更完善的隐私保护体验。",
+  onenote_web_name: "OneNote",
+  onenote_web_desc: "基于微软统一云服务域名的 OneNote 官方网络应用。支持多端无缝同步的数字笔记本，提供自由度极高的画布、资料整理与知识管理体验。",
   "google_desc": "全球搜索与服务中心，快速统一的网页界面，可访问搜索、Gmail、云端硬盘、翻译等工具，适配多设备。",
   "googlevoice_name": "谷歌语音(Google Voice)",
   "googlevoice_desc": "免费美国电话号码，支持通话、短信和语音信箱——可跨设备同步，支持网页和移动端。",

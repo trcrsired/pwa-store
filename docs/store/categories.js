@@ -575,6 +575,15 @@ export const categories = [
         url: "https://www.microsoft.com/en-us/edge/download",
         apptype: "native"
       },
+      {
+        name: "OneNote",
+        nameKey: "onenote_web_name",
+        descriptionKey: "onenote_web_desc",
+        icon: "icons/wrappers/onenote_web.webp",
+        url2: "../wrappers/onenote_web",
+        apptype2: "wrapper",
+        url: "https://onenote.cloud.microsoft"
+      },
     ]
   },
   {
