@@ -1625,6 +1625,8 @@ const L = {
   bookreader2056app_desc: "Opens the 2056 Book Reader web app for reading books and documents online.",
   iheart_name: "iHeart",
   iheart_desc: "Opens iHeart, a major audio platform offering radio stations, podcasts, music streaming, and live shows.",
+  plyric_name: "Plyric",
+  plyric_desc: "A comprehensive lyrics community platform providing song lyrics, translations, and multi-language romanizations across various genres and artists.",
   ecommerece_name: "E-commerece",
   starbucks_name: "Starbucks",
   starbucks_desc: "Coffee ordering and loyalty tracking.",

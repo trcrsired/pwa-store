@@ -149,6 +149,7 @@ WRAPPERS = [
   { "name": "Tieba", "url": "https://tieba.baidu.com" },
   { "name": "Termux", "url": "https://termux.dev" },
   { "name": "iHeart", "url": "https://www.iheart.com", "apptype": "msedge" },
+  { "name": "Plyric", "url": "https://plyric.com" },
   { "name": "Alibaba", "url": "https://www.alibaba.com" },
   { "name": "BigGo", "url": "https://biggo.com" },
   { "name": "Walmart", "url": "https://www.walmart.com" },

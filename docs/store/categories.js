@@ -5766,6 +5766,15 @@ export const categories = [
         apptype: "wrapper",
         url: "https://www.iheart.com"
       },
+      {
+        name: "Plyric",
+        nameKey: "plyric_name",
+        descriptionKey: "plyric_desc",
+        icon: "icons/wrappers/plyric.webp",
+        url2: "../wrappers/plyric",
+        apptype2: "wrapper",
+        url: "https://plyric.com"
+      },
     ]
   },
   {
