@@ -269,6 +269,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://realfavicongenerator.net"
       },
+      {
+        name: "iLoveSVG",
+        nameKey: "ilovesvg_name",
+        descriptionKey: "ilovesvg_desc",
+        icon: "icons/wrappers/ilovesvg.webp",
+        url2: "/wrappers/ilovesvg",
+        apptype2: "wrapper",
+        url: "https://www.ilovesvg.com"
+      },
     ]
   },
   {

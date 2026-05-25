@@ -166,6 +166,8 @@ const L = {
   cloudconvert_desc: "打开 CloudConvert，一个支持 200 多种格式的在线文件转换平台，包括图片、文档、音频和视频。",
   rfg_name: "RealFaviconGenerator",
   rfg_desc: "打开 RealFaviconGenerator，这是一个用于生成、测试和验证网站图标（favicon）的在线工具。支持桌面浏览器、iOS、Android 与 Windows 平台，可预览效果并生成可直接使用的 HTML 代码。",
+  ilovesvg_name: "iLoveSVG",
+  ilovesvg_desc: "一个便捷的在线 SVG 矢量图处理工具平台，提供高效的 SVG 优化、压缩以及格式转换等实用功能。",
   weather_name: "天气",
   theweatherchannel_name: "The Weather Channel",
   theweatherchannel_desc: "打开 The Weather Channel 官方网站，查看实时雷达、严重天气预警和全国天气预报。",
