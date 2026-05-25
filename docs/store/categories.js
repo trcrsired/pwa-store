@@ -5767,6 +5767,13 @@ export const categories = [
         url: "https://www.radiotune.fm"
       },
       {
+        name: "OTOTOY",
+        nameKey: "ototoy_name",
+        descriptionKey: "ototoy_desc",
+        icon: "icons/pwa/ototoy.webp",
+        url: "https://ototoy.jp"
+      },
+      {
         name: "iHeart",
         nameKey: "iheart_name",
         descriptionKey: "iheart_desc",

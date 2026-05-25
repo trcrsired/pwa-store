@@ -1614,6 +1614,8 @@ const L = {
   lofi88lin_desc: "打开 Lofi 88lin，一个极简风格的 Lofi 音乐播放器，提供持续播放的轻松节奏与氛围背景。适合学习、放松或专注时使用，界面简洁无干扰。",
   radiotune_name: "RadioTune.fm",
   radiotune_desc: "通过简洁、高质量的流媒体界面，探索并收听来自全球各地的数千个实时广播电台。",
+  ototoy_name: "OTOTOY",
+  ototoy_desc: "日本知名的数字音乐商店与媒体平台，专注于高解析度音频（Hi-Res Audio）无损音乐下载、流媒体播放以及独立音乐新闻报道。",
   unlockmusic_name: "音乐解锁 (Unlock Music)",
   unlockmusic_desc: "打开 Unlock Music，一个在浏览器中解锁各大音乐平台加密格式的开源工具，支持 QQ 音乐、网易云、酷狗等多种格式。",
   bookreader2056app_name: "2056 Book Reader 应用",

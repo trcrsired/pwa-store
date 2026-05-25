@@ -1621,6 +1621,8 @@ const L = {
   lofi88lin_desc: "Opens Lofi 88lin, a minimalist lofi music player featuring continuous chill beats and ambient backgrounds. Ideal for studying, relaxing, or focusing with a clean, distraction‑free interface.",
   radiotune_name: "RadioTune.fm",
   radiotune_desc: "Discover and listen to thousands of live radio stations from around the world with a clean, high-quality streaming interface.",
+  ototoy_name: "OTOTOY",
+  ototoy_desc: "A prominent Japanese digital music store and publication specializing in high-resolution audio downloads, lossless streaming, and independent music journalism.",
   unlockmusic_name: "Unlock Music",
   unlockmusic_desc: "Opens Unlock Music, a browser-based tool for decrypting purchased music files from platforms like QQ Music, Netease Cloud Music, and more.",
   bookreader2056app_name: "2056 Book Reader App",
