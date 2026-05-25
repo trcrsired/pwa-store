@@ -1403,7 +1403,7 @@ export const categories = [
         nameKey: "jslinux_name",
         descriptionKey: "jslinux_desc",
         icon: "icons/wrappers/jslinux.webp",
-        url2: "/wrappers/jslinux",
+        url2: "../wrappers/jslinux",
         apptype2: "wrapper",
         url: "https://bellard.org/jslinux"
       },
@@ -3334,7 +3334,7 @@ export const categories = [
         nameKey: "wired_name",
         descriptionKey: "wired_desc",
         icon: "icons/wrappers/wired.webp",
-        url2: "/wrappers/wired",
+        url2: "../wrappers/wired",
         apptype2: "wrapper",
         url: "https://www.wired.com"
       },
