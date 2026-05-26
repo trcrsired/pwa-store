@@ -2247,6 +2247,8 @@ const L = {
   straitstimes_desc: "The flagship English-language daily newspaper in Singapore, providing comprehensive coverage of local news, Asian insights, and global current affairs.",
   parliamentlive_name: "Parliamentlive.tv",
   parliamentlive_desc: "The official live and on-demand broadcasting service for the UK Parliament, covering debates, committee hearings, and sessions from the House of Commons and House of Lords.",
+  srnnews_name: "SRN News",
+  srnnews_desc: "The digital platform for Salem Radio Network News, providing 24/7 comprehensive news coverage, breaking updates, and conservative talk radio insights.",
 
 
 // WeChat Mini Programs

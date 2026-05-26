@@ -4273,6 +4273,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://parliamentlive.tv"
       },
+      {
+        name: "SRN News",
+        nameKey: "srnnews_name",
+        descriptionKey: "srnnews_desc",
+        icon: "icons/wrappers/srnnews.webp",
+        url2: "../wrappers/srnnews",
+        apptype2: "wrapper",
+        url: "https://srnnews.com"
+      },
     ]
   },
   {
