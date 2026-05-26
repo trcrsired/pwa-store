@@ -263,6 +263,8 @@ const L = {
   edge_download_desc: "The official download page for Microsoft Edge, the Chromium-based web browser designed for speed, performance, and advanced privacy features across all devices.",
   onenote_name: "OneNote",
   onenote_desc: "The official web app for Microsoft OneNote on the unified cloud.microsoft domain, providing seamless cross-device note-taking, canvas organization, and digital notebook management.",
+  killedbymicrosoft_name: "Killed by Microsoft",
+  killedbymicrosoft_desc: "The Microsoft Graveyard—a comprehensive, open-source archive and tracker listing dead products, services, and devices killed or discontinued by Microsoft.",
   "google_desc": "Global search and service hub offering instant access to Search, Gmail, Drive, Translate, and other tools via a fast, unified web interface optimized across devices.",
   "googlevoice_name": "Google Voice",
   "googlevoice_desc": "Get a free U.S. phone number for calls, texts, and voicemail—syncs across devices and works on web or mobile.",

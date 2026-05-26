@@ -593,6 +593,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://onenote.cloud.microsoft"
       },
+      {
+        name: "Killed by Microsoft",
+        nameKey: "killedbymicrosoft_name",
+        descriptionKey: "killedbymicrosoft_desc",
+        icon: "icons/wrappers/killedbymicrosoft.webp",
+        url2: "../wrappers/killedbymicrosoft",
+        apptype2: "wrapper",
+        url: "https://killedbymicrosoft.info"
+      },
     ]
   },
   {

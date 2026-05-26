@@ -115,6 +115,7 @@ WRAPPERS = [
   { "name": "Microsoft News", "url": "https://news.microsoft.com", "icon": "microsoft.webp" },
   { "name": "Microsoft Edge Download", "url": "https://www.microsoft.com/en-us/edge/download", "keyify_name": "edge_download", "icon": "msedge.webp" },
   { "name": "OneNote", "url": "https://onenote.cloud.microsoft" },
+  { "name": "Killed by Microsoft", "url": "https://killedbymicrosoft.info"},
   { "name": "CCTV", "url": "https://tv.cctv.com" },
   { "name": "ifeng", "url": "https://www.ifeng.com" },
   { "name": "观察者网", "url": "https://www.guancha.cn", "keyify_name": "guanchazhe" },
