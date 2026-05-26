@@ -3842,6 +3842,20 @@ export const categories = [
         url: "https://www.devdiscourse.com"
       },
       {
+        name: "EL PAIS (EL PAÍS)",
+        nameKey: "elpais_name",
+        descriptionKey: "elpais_desc",
+        icon: "icons/pwa/elpais.webp",
+        url: "https://elpais.com"
+      },
+      {
+        name: "EL PAIS English (EL PAÍS English)",
+        nameKey: "elpais_english_name",
+        descriptionKey: "elpais_english_desc",
+        icon: "icons/pwa/elpais.webp",
+        url: "https://english.elpais.com"
+      },
+      {
         name: "FactCheck.org",
         nameKey: "factcheck_name",
         descriptionKey: "factcheck_desc",
