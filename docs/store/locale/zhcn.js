@@ -1642,6 +1642,8 @@ const L = {
   iheart_desc: "打开 iHeart，一个提供广播电台、播客、音乐流媒体与直播节目的大型音频平台。",
   plyric_name: "Plyric",
   plyric_desc: "一个全面的歌词社区平台，提供海量流行歌曲的歌词、多语种翻译及歌词罗马音对照，涵盖各种音乐流派与艺人。",
+  lyricsondemand_name: "Lyrics on Demand",
+  lyricsondemand_desc: "一个历史悠久的在线歌词数据库，按歌手和专辑整齐收录了横跨各类音乐流派的海量歌曲歌词，是经典的歌词查阅与文本参考平台。",
   ecommerece_name: "电子商务",
   starbucks_name: "星巴克",
   starbucks_desc: "咖啡点单与会员积分管理。",

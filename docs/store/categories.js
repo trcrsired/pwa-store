@@ -3527,6 +3527,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://plyric.com"
       },
+      {
+        name: "Lyrics on Demand",
+        nameKey: "lyricsondemand_name",
+        descriptionKey: "lyricsondemand_desc",
+        icon: "icons/wrappers/lyricsondemand.webp",
+        url2: "../wrappers/lyricsondemand",
+        apptype2: "wrapper",
+        url: "https://www.lyricsondemand.com"
+      },
     ]
   },
   {

@@ -1643,6 +1643,8 @@ const L = {
   iheart_desc: "Opens iHeart, a major audio platform offering radio stations, podcasts, music streaming, and live shows.",
   plyric_name: "Plyric",
   plyric_desc: "A comprehensive lyrics community platform providing song lyrics, translations, and multi-language romanizations across various genres and artists.",
+  lyricsondemand_name: "Lyrics on Demand",
+  lyricsondemand_desc: "A long-standing online lyrics database offering an extensive and organized collection of song lyrics across thousands of artists, albums, and musical genres.",
   ecommerece_name: "E-commerece",
   starbucks_name: "Starbucks",
   starbucks_desc: "Coffee ordering and loyalty tracking.",
