@@ -923,7 +923,9 @@ const L = {
   iptvorg_name: "iptv-org",
   iptvorg_desc: "打开 iptv-org，一个由社区维护的全球 IPTV 频道与播放源索引平台。",
   iptvhdplayer_name: "IPTV HD Player",
-  iptvhdplayer_desc: "打开 IPTV HD Player，一个用于加载和观看 IPTV 播放列表的网页播放器。",
+  iptvhdplayer_desc: "打开 IPTV HD Player，一个用于加载和观看 IPTV 播放列表的网页播放器。",\
+  animesonglyrics_name: "动漫歌曲歌词 (Anime Song Lyrics)",
+  animesonglyrics_desc: "专注于日本动漫、游戏及特摄歌曲的歌词数据库，提供日文原版歌词、罗马音对照以及英文翻译，是动漫音乐爱好者的歌词速查工具。",
   canva_name: "可画",
   canva_desc: "可画是一款功能强大的在线设计平台，让任何人都能轻松创作出令人惊艳的视觉作品。无论是社交媒体内容、演示文稿、营销素材还是视频，可画都提供海量模板和直观工具，一站式满足你的设计需求。",
   figma_name: "Figma",

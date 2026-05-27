@@ -3433,6 +3433,13 @@ export const categories = [
         url: "https://iptvhdplayer.com"
       },
       {
+        name: "Anime Song Lyrics",
+        nameKey: "animesonglyrics_name",
+        descriptionKey: "animesonglyrics_desc",
+        icon: "icons/pwa/animesonglyrics.webp",
+        url: "https://www.animesonglyrics.com"
+      },
+      {
         name: "Internet Archive",
         nameKey: "archive_name",
         descriptionKey: "archive_desc",
@@ -3503,6 +3510,15 @@ export const categories = [
         url2: "../wrappers/opensubtitles",
         apptype2: "wrapper",
         url: "https://www.opensubtitles.com"
+      },
+      {
+        name: "Plyric",
+        nameKey: "plyric_name",
+        descriptionKey: "plyric_desc",
+        icon: "icons/wrappers/plyric.webp",
+        url2: "../wrappers/plyric",
+        apptype2: "wrapper",
+        url: "https://plyric.com"
       },
     ]
   },
@@ -5813,15 +5829,6 @@ export const categories = [
         url2: "../msedge/iheart",
         apptype: "wrapper",
         url: "https://www.iheart.com"
-      },
-      {
-        name: "Plyric",
-        nameKey: "plyric_name",
-        descriptionKey: "plyric_desc",
-        icon: "icons/wrappers/plyric.webp",
-        url2: "../wrappers/plyric",
-        apptype2: "wrapper",
-        url: "https://plyric.com"
       },
     ]
   },

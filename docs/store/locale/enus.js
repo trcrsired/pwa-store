@@ -928,6 +928,8 @@ const L = {
   iptvorg_desc: "Opens iptv-org, a community-driven index of global IPTV channels and playlists.",
   iptvhdplayer_name: "IPTV HD Player",
   iptvhdplayer_desc: "Opens IPTV HD Player, a web-based IPTV streaming player for loading and watching IPTV playlists.",
+  animesonglyrics_name: "Anime Song Lyrics",
+  animesonglyrics_desc: "A dedicated database for anime, video game, and tokusatsu song lyrics, providing Japanese lyrics, romaji transliterations, and English translations.",
   canva_name: "Canva",
   canva_desc: "Canva is a powerful online design platform that makes it easy for anyone to create stunning visuals. From social media posts and presentations to marketing materials and videos, Canva offers thousands of templates and intuitive tools—all in one place.",
   figma_name: "Figma",
