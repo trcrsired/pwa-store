@@ -1119,6 +1119,13 @@ export const categories = [
         url: "https://buildkite.com/dashboard"
       },
       {
+        name: "Visual Studio Developer Community",
+        nameKey: "vsdevcomm_name",
+        descriptionKey: "vsdevcomm_desc",
+        icon: "icons/pwa/vsdevcomm.webp",
+        url: "https://developercommunity.visualstudio.com"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",
