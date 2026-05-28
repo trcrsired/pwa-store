@@ -1540,7 +1540,7 @@ export const categories = [
         descriptionKey: "startpage_desc",
         icon: "icons/msedge/startpage.webp",
         url2: "../msedge/startpage",
-        apptype2: "msedge",
+        apptype2: "wrapper",
         url: "https://www.startpage.com"
       },
       {
@@ -1549,7 +1549,7 @@ export const categories = [
         descriptionKey: "bravesearch_desc",
         icon: "icons/msedge/bravesearch.webp",
         url2: "../msedge/bravesearch",
-        apptype2: "msedge",
+        apptype2: "wrapper",
         url: "https://search.brave.com"
       },
       {
