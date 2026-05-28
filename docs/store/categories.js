@@ -1583,7 +1583,7 @@ export const categories = [
         name: "searx.space",
         nameKey: "searx_space_name",
         descriptionKey: "searx_space_desc",
-        icon: "icons/wrappers/searx_space.webp",
+        icon: "icons/wrappers/searxng.webp",
         url2: "../wrappers/searx_space",
         apptype2: "wrapper",
         url: "https://searx.space"
