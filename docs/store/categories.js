@@ -1510,6 +1510,15 @@ export const categories = [
         icon: "icons/pwa/duckduckgo.webp"
       },
       {
+        name: "NO AI DuckDuckGo",
+        nameKey: "noaiduckduckgo_name",
+        descriptionKey: "noaiduckduckgo_desc",
+        icon: "icons/pwa/duckduckgo.webp",
+        url2: "../wrappers/noaiduckduckgo",
+        apptype2: "wrapper",
+        url: "https://noai.duckduckgo.com"
+      },
+      {
         name: "Nomad",
         url: "https://www.getnomad.app",
         nameKey: "getnomad_name",
@@ -1524,6 +1533,60 @@ export const categories = [
         url2: "../wrappers/downdetector",
         apptype2: "wrapper",
         url: "https://downdetector.com"
+      },
+      {
+        name: "Startpage",
+        nameKey: "startpage_name",
+        descriptionKey: "startpage_desc",
+        icon: "icons/msedge/startpage.webp",
+        url2: "../msedge/startpage",
+        apptype2: "msedge",
+        url: "https://www.startpage.com"
+      },
+      {
+        name: "Brave Search",
+        nameKey: "bravesearch_name",
+        descriptionKey: "bravesearch_desc",
+        icon: "icons/msedge/bravesearch.webp",
+        url2: "../msedge/bravesearch",
+        apptype2: "msedge",
+        url: "https://search.brave.com"
+      },
+      {
+        name: "Kagi",
+        nameKey: "kagi_name",
+        descriptionKey: "kagi_desc",
+        icon: "icons/wrappers/kagi.webp",
+        url2: "../wrappers/kagi",
+        apptype2: "wrapper",
+        url: "https://kagi.com"
+      },
+      {
+        name: "Mojeek",
+        nameKey: "mojeek_name",
+        descriptionKey: "mojeek_desc",
+        icon: "icons/wrappers/mojeek.webp",
+        url2: "../wrappers/mojeek",
+        apptype2: "wrapper",
+        url: "https://www.mojeek.com"
+      },
+      {
+        name: "SearXNG",
+        nameKey: "searxng_name",
+        descriptionKey: "searxng_desc",
+        icon: "icons/wrappers/searxng.webp",
+        url2: "../wrappers/searxng",
+        apptype2: "wrapper",
+        url: "https://docs.searxng.org"
+      },
+      {
+        name: "searx.space",
+        nameKey: "searx_space_name",
+        descriptionKey: "searx_space_desc",
+        icon: "icons/wrappers/searx_space.webp",
+        url2: "../wrappers/searx_space",
+        apptype2: "wrapper",
+        url: "https://searx.space"
       },
       {
         name: "China Telecom (中国电信)",
