@@ -1420,6 +1420,8 @@ const L = {
   bestpianomethod_desc: "采用循序渐进的教学法，适合初学者和进阶者的钢琴学习平台。",
   studycountry_name: "国家学习 (StudyCountry)",
   studycountry_desc: "全面了解世界各国的文化、教育、经济等信息，一站式国家资料平台。",
+  ctext_name: "中国哲学书电子化计划",
+  ctext_desc: "全球知名的中国古代文史哲经典文献数字化图书馆。完整收录先秦两汉至明清时期的传世典籍与古籍文献，支持强大的全文检索、字词分析及异体字查阅。",
   gushiwen_name: "古诗文网",
   gushiwen_desc: "古诗文网收录大量中国古典诗词与文言文，提供注释、译文、赏析及作者资料，是学习传统文学的宝贵资源。",
   hellotyping_name: "打字侠",

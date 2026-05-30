@@ -5111,6 +5111,15 @@ export const categories = [
         url: "https://gpacalculator.io"
       },
       {
+        name: "Chinese Text Project",
+        nameKey: "ctext_name",
+        descriptionKey: "ctext_desc",
+        icon: "icons/msedge/ctext.webp",
+        url2: "../msedge/ctext",
+        apptype2: "wrapper",
+        url: "https://ctext.org"
+      },
+      {
         name: "Unalengua IPA Transcriber",
         nameKey: "unalengua_ipa_name",
         descriptionKey: "unalengua_ipa_desc",

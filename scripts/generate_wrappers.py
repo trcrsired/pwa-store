@@ -413,6 +413,7 @@ WRAPPERS = [
   { "name": "Layoffs.fyi", "url": "https://layoffs.fyi", "keyify_name": "layoffsfyi" },
   { "name": "ADP", "url": "https://www.adp.com", "keyify_name": "adp", "apptype": "msedge" },
   { "name": "11000.online", "url": "https://www.11000.online", "keyify_name": "onethousandonline", "apptype": "msedge" },
+  { "name": "Chinese Text Project", "url": "https://ctext.org", "keyify_name": "ctext", "apptype": "msedge" },
   { "name": "Eudic", "url": "https://dict.eudic.net" },
   { "name": "劝学", "url": "https://www.quanxue.cn", "keyify_name": "quanxue" },
   { "name": "新东方", "url": "https://www.xdf.cn", "keyify_name": "xdf" },

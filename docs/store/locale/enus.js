@@ -1429,6 +1429,8 @@ const L = {
   bestpianomethod_desc: "Learn piano with a proven step-by-step method designed for beginners and advancing players.",
   studycountry_name: "StudyCountry",
   studycountry_desc: "Explore comprehensive profiles of every nation—culture, education, economy, and more in one place.",
+  ctext_name: "Chinese Text Project",
+  ctext_desc: "A comprehensive digital library that makes classical Chinese texts available online, featuring ancient philosophy, historical documents, and advanced textual analysis tools.",
   gushiwen_name: "Gushiwen (古诗文网)",
   gushiwen_desc: "Explore classical Chinese poetry and prose with Gushiwen—an extensive archive of annotated texts, author bios, and literary analysis.",
   hellotyping_name: "Hellotyping (打字侠)",
