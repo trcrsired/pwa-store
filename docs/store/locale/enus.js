@@ -1345,6 +1345,8 @@ const L = {
   srcloud_desc: "Opens the official Honkai: Star Rail Cloud Gaming portal, allowing players to stream the game instantly without downloads or installation.",
   minesweeperonline_name: "Minesweeper Online",
   minesweeperonline_desc: "Opens Minesweeper Online, a full-featured platform offering classic Minesweeper, multiplayer modes, rankings, quests, and competitive play.",
+  grrdreversi_name: "grrd's Reversi",
+  grrdreversi_desc: "A sleek, lightweight HTML5 Othello/Reversi game. Play against a friend or challenge the computer with adjustable difficulty levels in a completely ad-free interface.",
   wowtoken_name: "WoW Token Prices",
   wowtoken_desc: "Real-time price tracking for World of Warcraft tokens across regions (NA, EU, KR and TW).",
   chronodivide_name: "RA2: Chrono Divide",

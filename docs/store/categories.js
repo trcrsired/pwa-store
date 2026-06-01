@@ -4683,6 +4683,13 @@ export const categories = [
         url: "https://minesweeper.online"
       },
       {
+        name: "grrd's Reversi",
+        nameKey: "grrdreversi_name",
+        descriptionKey: "grrdreversi_desc",
+        icon: "icons/pwa/grrdreversi.webp",
+        url: "https://reversi.grrd.ch"
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",

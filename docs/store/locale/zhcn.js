@@ -1342,6 +1342,8 @@ const L = {
   srcloud_desc: "打开《崩坏：星穹铁道》官方云游戏入口，无需下载即可直接云端游玩。",
   minesweeperonline_name: "扫雷在线 (Minesweeper Online)",
   minesweeperonline_desc: "打开 Minesweeper Online，一个提供经典扫雷、多玩家模式、排行榜、任务与竞技玩法的完整扫雷平台。",
+  grrdreversi_name: "grrd's Reversi",
+  grrdreversi_desc: "一款流畅且轻量化的 HTML5 奥赛罗游戏。支持双人对战或挑战不同难度的电脑 AI，界面干净清爽，完全无广告，支持离线运行。",
   wowtoken_name: "魔兽世界时光徽章价格 (WoW Token Prices)",
   wowtoken_desc: "实时追踪《魔兽世界》地区（美服、欧服、韩服和台服）的时光徽章价格。",
   chronodivide_name: "红警2：时空分裂 (RA2: Chrono Divide)",
