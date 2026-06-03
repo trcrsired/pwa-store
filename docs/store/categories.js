@@ -7227,6 +7227,13 @@ export const categories = [
         url: "https://remoteintech.company"
       },
       {
+        name: "Fiverr",
+        nameKey: "fiverr_name",
+        descriptionKey: "fiverr_desc",
+        icon: "icons/pwa/fiverr.webp",
+        url: "https://www.fiverr.com"
+      },
+      {
         name: "CodeSignal",
         nameKey: "codesignal_name",
         descriptionKey: "codesignal_desc",

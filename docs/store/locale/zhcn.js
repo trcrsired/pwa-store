@@ -1810,6 +1810,8 @@ const L = {
   iguopin_desc: "由中国国家人才网运营的央企招聘平台，提供职位搜索、校园招聘、社会招聘、高端人才服务等功能。其PWA支持移动端访问、简历投递、在线测评及云宣讲会，适合高校毕业生及职场人士寻找央企及大型企业岗位。",
   remoteintech_name: "Remote In Tech",
   remoteintech_desc: "一个由开源社区共同维护的远程友好型技术公司名录。旨在帮助开发者与技术人才轻松检索支持全远程或混合办公的全球科技企业及求职资讯。",
+  fiverr_name: "Fiverr",
+  fiverr_desc: "全球知名的自由职业在线兼职与服务交易平台。汇聚全球顶尖设计师、程序员、文案策划及音视频专家，让数字化人才与企业外包需求实现高效对接。",
   commonfloor_name: "CommonFloor.com",
   commonfloor_desc: "一个印度房地产平台，提供房产信息、公寓管理工具和社区互动功能。",
   codesignal_name: "CodeSignal",

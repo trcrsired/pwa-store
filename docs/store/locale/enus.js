@@ -1811,6 +1811,8 @@ const L = {
   iguopin_desc: "Operated by China National Talent Network, Guopin is a state-backed recruitment platform offering job listings, campus hiring, social recruitment, and high-end talent services. Its PWA supports mobile access to job search, resume submission, online assessments, and virtual career fairs. Ideal for graduates and professionals seeking roles in central SOEs and major enterprises.",
   remoteintech_name: "Remote In Tech",
   remoteintech_desc: "A community-maintained open-source directory of remote-friendly tech companies, helping developers and tech professionals discover organizations that support flexible and distributed work.",
+  fiverr_name: "Fiverr",
+  fiverr_desc: "The leading global marketplace for digital freelance services, connecting businesses with expert freelancers offering graphics, programming, writing, marketing, and more.",
   commonfloor_name: "CommonFloor.com",
   commonfloor_desc: "A real estate platform in India offering property listings, apartment management tools, and community features.",
   codesignal_name: "CodeSignal",
