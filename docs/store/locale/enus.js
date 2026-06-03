@@ -1809,6 +1809,8 @@ const L = {
   wellfound_desc: "Wellfound is a platform that connects job seekers with startup opportunities. Formerly known as AngelList Talent, it allows users to browse thousands of tech and remote jobs, apply directly to founders and hiring managers, and manage their startup job search in one place.",
   iguopin_name: "IGUOPIN",
   iguopin_desc: "Operated by China National Talent Network, Guopin is a state-backed recruitment platform offering job listings, campus hiring, social recruitment, and high-end talent services. Its PWA supports mobile access to job search, resume submission, online assessments, and virtual career fairs. Ideal for graduates and professionals seeking roles in central SOEs and major enterprises.",
+  remoteintech_name: "Remote In Tech",
+  remoteintech_desc: "A community-maintained open-source directory of remote-friendly tech companies, helping developers and tech professionals discover organizations that support flexible and distributed work.",
   commonfloor_name: "CommonFloor.com",
   commonfloor_desc: "A real estate platform in India offering property listings, apartment management tools, and community features.",
   codesignal_name: "CodeSignal",

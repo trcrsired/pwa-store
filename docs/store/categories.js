@@ -7220,6 +7220,13 @@ export const categories = [
         url: "https://www.iguopin.com",
       },
       {
+        name: "Remote In Tech",
+        nameKey: "remoteintech_name",
+        descriptionKey: "remoteintech_desc",
+        icon: "icons/pwa/remoteintech.webp",
+        url: "https://remoteintech.company"
+      },
+      {
         name: "CodeSignal",
         nameKey: "codesignal_name",
         descriptionKey: "codesignal_desc",
