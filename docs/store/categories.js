@@ -5130,7 +5130,7 @@ export const categories = [
         name: "Unalengua IPA Transcriber",
         nameKey: "unalengua_ipa_name",
         descriptionKey: "unalengua_ipa_desc",
-        icon: "icons/wrappers/unalengua_ipa.webp",
+        icon: "icons/pwa/unalengua_ipa.webp",
         url: "https://unalengua.com/ipa"
       },
       {
