@@ -1849,6 +1849,8 @@ const L = {
   tripcom_desc: "An international travel service platform offering flight tickets, hotels, train bookings, car rentals, and vacation packages.",
   girlsheavens_name: "Girls Heavens",
   girlsheavens_desc: "A travel-oriented site offering guides on nightlife, dating, and meeting women across regions.",
+  happilyevertravels_name: "Happily Ever Travels",
+  happilyevertravels_desc: "An inspiring travel blog and destination guide specializing in couples' travel, honeymoon planning, itinerary crafting, and practical travel tips for exploring the world together.",
   usps_name: "USPS",
   usps_desc: "United States Postal Service—track shipments, buy postage, schedule pickups, and access national mailing services and address tools through its official portal.",
   mta_name: "MTA",

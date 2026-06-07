@@ -1848,6 +1848,8 @@ const L = {
   tripcom_desc: "一个国际旅行服务平台，提供机票、酒店、火车票、租车与度假套餐。",
   girlsheavens_name: "Girls Heavens",
   girlsheavens_desc: "面向男性旅行者的攻略网站，介绍各地夜生活、交友方式与文化差异。",
+  happilyevertravels_name: "Happily Ever Travels",
+  happilyevertravels_desc: "一个充满灵感的独立旅游博客与目的地指南站。专注于情侣旅行、蜜月规划、深度行程定制以及全球结伴出游的实用技巧与打包建议。",
   usps_name: "美国邮政",
   usps_desc: "美国邮政服务——支持快递查询、邮资购买、预约取件及地址工具等国家邮政服务。",
   mta_name: "MTA纽约大都会运输署",

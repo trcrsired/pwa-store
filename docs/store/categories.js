@@ -6785,6 +6785,13 @@ export const categories = [
         url: "https://girlsheavens.com"
       },
       {
+        name: "Happily Ever Travels",
+        nameKey: "happilyevertravels_name",
+        descriptionKey: "happilyevertravels_desc",
+        icon: "icons/pwa/happilyevertravels.webp",
+        url: "https://happilyevertravels.com"
+      },
+      {
         name: "USPS",
         nameKey: "usps_name",
         descriptionKey: "usps_desc",
