@@ -206,6 +206,8 @@ WRAPPERS = [
   { "name": "Kmart", "url": "https://www.kmart.com" },
   { "name": "Foodpanda PH", "url": "https://www.foodpanda.ph" },
   { "name": "GrabFood", "url": "https://food.grab.com" },
+  { "name": "Lenovo US", "url": "https://www.lenovo.com/us/en/", "keyify_name": "lenovo_us", "icon": "lenovo.webp" },
+  { "name": "Lenovo China", "url": "https://www.lenovo.com.cn/", "keyify_name": "lenovo_cn", "icon": "lenovo.webp" },
   { "name": "Luckin Coffee", "url": "https://in.luckincoffee.com", "keyify_name": "luckin" },
   { "name": "Bosideng", "url": "https://www.bosidengfashion.com" },
   { "name": "Gmail", "url": "https://mail.google.com" },

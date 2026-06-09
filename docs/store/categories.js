@@ -6428,6 +6428,24 @@ export const categories = [
         url: "https://food.grab.com"
       },
       {
+        name: "Lenovo US",
+        nameKey: "lenovo_us_name",
+        descriptionKey: "lenovo_us_desc",
+        icon: "icons/wrappers/lenovo.webp",
+        url2: "../wrappers/lenovo_us",
+        apptype2: "wrapper",
+        url: "https://www.lenovo.com/us/en/"
+      },
+      {
+        name: "Lenovo China",
+        nameKey: "lenovo_cn_name",
+        descriptionKey: "lenovo_cn_desc",
+        icon: "icons/wrappers/lenovo.webp",
+        url2: "../wrappers/lenovo_cn",
+        apptype2: "wrapper",
+        url: "https://www.lenovo.com.cn/"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",
@@ -8089,7 +8107,15 @@ export const categories = [
         icon: "icons/wechatmini/yueshengshi.webp",
         url: "#小程序://粤省事/8YjIca7Izt3So3w",
         apptype: "wechatmini"
-      }
+      },
+      {
+        name: "Hushang Recycle (沪尚回收)",
+        nameKey: "hushangrecycle_name",
+        descriptionKey: "hushangrecycle_desc",
+        icon: "icons/wechatmini/hushangrecycle.webp",
+        url: "#小程序://沪尚回收/Pl6uYll6itgvSve",
+        apptype: "wechatmini"
+      },
     ]
   },
   {
