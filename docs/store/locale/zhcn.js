@@ -2488,6 +2488,8 @@ const L = {
   mymedicalvoucher_desc: "用于查看和管理个人医保凭证的官方小程序，支持相关服务办理。",
   nationalmedical_name: "国家医保",
   nationalmedical_desc: "国家医保官方小程序，提供政策查询、服务办理等功能。",
+  jiuhui_name: "九回共享运动健康",
+  jiuhui_desc: "打开九回共享运动健康微信小程序，查看上海共享健身房、运动场馆、赛事活动、健身服务与健康管理等内容。",
   life_name: "生活",
   chibicart_name: "ChibiCart",
   chibicart_desc: "ChibiCart 是一款充满日漫风格的购物清单 PWA，提供 AI 图像生成、智能物品推荐等功能，让日常购物变得更有趣、更具视觉吸引力。",

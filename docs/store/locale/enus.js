@@ -2488,6 +2488,8 @@ const L = {
   mymedicalvoucher_desc: "Mini app for accessing your personal medical insurance certificate and related services.",
   nationalmedical_name: "National Medical Insurance (国家医保)",
   nationalmedical_desc: "Official mini app for China’s national medical insurance system, offering policy access and service tools.",
+  jiuhui_name: "Jiuhui Sports Health (九回共享运动健康)",
+  jiuhui_desc: "Opens the Jiuhui Shared Sports Health mini‑program, offering access to Shanghai’s shared gyms, fitness services, venue information, and community sports events.",
   life_name: "Life",
   chibicart_name: "ChibiCart",
   chibicart_desc: "ChibiCart is a delightful shopping list PWA featuring AI-powered image generation, smart item suggestions, and a charming Japanese manga-inspired interface. It transforms everyday shopping into a visually engaging and personalized experience.",

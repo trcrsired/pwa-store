@@ -8318,6 +8318,15 @@ export const categories = [
         url: "#小程序://国家医保/jWOQQAViWjIKErf",
         apptype: "wechatmini"
       },
+      {
+        name: "Jiuhui Sports Health (九回共享运动健康)",
+        nameKey: "jiuhui_name",
+        descriptionKey: "jiuhui_desc",
+        icon: "icons/wechatmini/jiuhui.webp",
+        apptype: "wechatmini",
+        url: "#小程序://九回共享运动健康上海人人来赛/hyeNxGKyfxnx7Sv"
+      },
+
     ]
   },
   {
