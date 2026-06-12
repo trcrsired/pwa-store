@@ -1917,13 +1917,13 @@ export const categories = [
         icon: "icons/pwa/soul.webp",
         url: "https://login.soulapp.cn",
       },
-      {
+/*      {
         name: "Moj",
         nameKey: "moj_name",
         descriptionKey: "moj_desc",
         icon: "icons/pwa/moj.webp",
         url: "https://mojapp.in"
-      },
+      },*/
       {
         name: "Spectra Video",
         nameKey: "spectravideo_name",
@@ -2069,7 +2069,7 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.eharmony.com"
       },
-      {
+/*      {
         name: "ShareChat",
         url2: "../wrappers/sharechat",
         icon: "icons/wrappers/sharechat.webp",
@@ -2077,7 +2077,7 @@ export const categories = [
         descriptionKey: "sharechat_desc",
         apptype2: "wrapper",
         url: "https://sharechat.com"
-      },
+      },*/
       {
         name: "Dzen (Дзен)",
         nameKey: "dzen_name",
@@ -2793,14 +2793,14 @@ export const categories = [
         url: "https://www.g2.com",
         descriptionKey: "g2_desc"
       },
-      {
+/*      {
         name: "LiveMint",
         nameKey: "livemint_name",
         descriptionKey: "livemint_desc",
         icon: "icons/pwa/livemint.webp",
         url: "https://www.livemint.com",
 //      apptype: "desk"
-      },
+      },*/
       {
         name: "Influencersplace",
         nameKey: "influencersplace_name",
@@ -2819,7 +2819,7 @@ export const categories = [
         url: "https://www.zscaler.com",
         apptype2: "wrapper"
       },
-      {
+/*      {
         name: "Business Standard",
         nameKey: "businessstandard_name",
         descriptionKey: "businessstandard_desc",
@@ -2827,7 +2827,7 @@ export const categories = [
         url2: "../wrappers/businessstandard",
         apptype2: "wrapper",
         url: "https://www.business-standard.com"
-      },
+      },*/
       {
         name: "Cryptopolitan",
         nameKey: "cryptopolitan_name",
@@ -3022,13 +3022,13 @@ export const categories = [
         icon: "icons/pwa/engadget.webp",
         url: "https://www.engadget.com"
       },
-      {
+/*      {
         name: "MEDIANAMA",
         nameKey: "medianama_name",
         descriptionKey: "medianama_desc",
         icon: "icons/pwa/medianama.webp",
         url: "https://www.medianama.com"
-      },
+      },*/
       {
         name: "How-To Geek",
         nameKey: "howtogeek_name",
@@ -3722,7 +3722,7 @@ export const categories = [
       { name: "PressTV", nameKey: "presstv_name", descriptionKey: "presstv_desc", icon: "icons/pwa/presstv.webp", url: "https://www.presstv.ir" },
       { name: "PressTV(co.uk)", nameKey: "presstvcouk_name", descriptionKey: "presstvcouk_desc", icon: "icons/pwa/presstv.webp", url: "https://www.presstv.co.uk" },
       { name: "Bloomberg", nameKey: "bloomberg_name", descriptionKey: "bloomberg_desc", icon: "icons/pwa/bloomberg.webp", url: "https://www.bloomberg.com" },
-      { name: "Firstpost", nameKey: "firstpost_name", descriptionKey: "firstpost_desc", icon: "icons/pwa/firstpost.webp", url: "https://www.firstpost.com" },
+//      { name: "Firstpost", nameKey: "firstpost_name", descriptionKey: "firstpost_desc", icon: "icons/pwa/firstpost.webp", url: "https://www.firstpost.com" },
       { name: "Forbes", nameKey: "forbes_name", descriptionKey: "forbes_desc", icon: "icons/pwa/forbes.webp", url: "https://www.forbes.com" },
       { name: "PBS", nameKey: "pbs_name", descriptionKey: "pbs_desc", icon: "icons/pwa/pbs.webp", url: "https://www.pbs.org" },
       { name: "BBC", nameKey: "bbc_name", descriptionKey: "bbc_desc", icon: "icons/pwa/bbc.webp", url: "https://www.bbc.com" },
@@ -3739,8 +3739,8 @@ export const categories = [
       { name: "The Independent", nameKey: "independent_name", descriptionKey: "independent_desc", icon: "icons/pwa/independent.webp", url: "https://www.independent.co.uk" },
       { name: "The Guardian", nameKey: "theguardian_name", descriptionKey: "theguardian_desc", icon: "icons/pwa/theguardian.webp", url: "https://www.theguardian.com" },
       { name: "Nippon TV NEWS (日テレNEWS)", nameKey: "nittele_name", descriptionKey: "nittele_desc", icon: "icons/pwa/nittele.webp", url: "https://news.ntv.co.jp" },
-      { name: "Economic Times", nameKey: "economictimes_name", descriptionKey: "economictimes_desc", icon: "icons/pwa/economictimes.webp", url: "https://economictimes.indiatimes.com" },
-      { name: "Hindustan Times", nameKey: "hindustantimes_name", descriptionKey: "hindustantimes_desc", icon: "icons/pwa/hindustantimes.webp", url: "https://www.hindustantimes.com" },
+//      { name: "Economic Times", nameKey: "economictimes_name", descriptionKey: "economictimes_desc", icon: "icons/pwa/economictimes.webp", url: "https://economictimes.indiatimes.com" },
+//      { name: "Hindustan Times", nameKey: "hindustantimes_name", descriptionKey: "hindustantimes_desc", icon: "icons/pwa/hindustantimes.webp", url: "https://www.hindustantimes.com" },
       { name: "DW", nameKey: "dw_name", descriptionKey: "dw_desc", icon: "icons/pwa/dw.webp", url: "https://www.dw.com"},
       { name: "Le Monde", nameKey: "lemonde_name", descriptionKey: "lemonde_desc", icon: "icons/pwa/lemonde.webp", url: "https://www.lemonde.fr" },
       {
@@ -3806,13 +3806,13 @@ export const categories = [
         icon: "icons/pwa/france24.webp",
         url: "https://www.france24.com",
       },
-      {
+/*      {
         name: "News18",
         nameKey: "news18_name",
         descriptionKey: "news18_desc",
         icon: "icons/pwa/news18.webp",
         url: "https://www.news18.com"
-      },
+      },*/
       {
         name: "Irish Star",
         nameKey: "irishstar_name",
@@ -3848,13 +3848,13 @@ export const categories = [
         url: "https://govfacts.org",
         descriptionKey: "govfacts_desc"
       },
-      {
+/*      {
         name: "WION News",
         nameKey: "wionews_name",
         descriptionKey: "wionews_desc",
         icon: "icons/pwa/wionews.webp",
         url: "https://www.wionews.com"
-      },
+      },*/
       {
         name: "RFI",
         nameKey: "rfi_name",
@@ -3862,13 +3862,13 @@ export const categories = [
         icon: "icons/pwa/rfi.webp",
         url: "https://www.rfi.fr"
       },
-      {
+/*      {
         name: "NDTV",
         nameKey: "ndtv_name",
         descriptionKey: "ndtv_desc",
         icon: "icons/pwa/ndtv.webp",
         url: "https://www.ndtv.com"
-      },
+      },*/
       {
         name: "NewsBreak",
         nameKey: "newsbreak_name",
@@ -3904,13 +3904,13 @@ export const categories = [
         icon: "icons/pwa/gbnews.webp",
         url: "https://www.gbnews.com"
       },
-      {
+/*      {
         name: "Tribune India",
         nameKey: "tribuneindia_name",
         descriptionKey: "tribuneindia_desc",
         icon: "icons/pwa/tribuneindia.webp",
         url: "https://www.tribuneindia.com"
-      },
+      },*/
       {
         name: "Tuko",
         nameKey: "tuko_name",
@@ -4228,7 +4228,7 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.propublica.org"
       },
-      {
+/*      {
         name: "Bar & Bench",
         nameKey: "barbench_name",
         descriptionKey: "barbench_desc",
@@ -4236,7 +4236,7 @@ export const categories = [
         url2: "../wrappers/barbench",
         apptype2: "wrapper",
         url: "https://www.barandbench.com"
-      },
+      },*/
       {
         name: "MPR News",
         nameKey: "mprnews_name",
@@ -4496,7 +4496,7 @@ export const categories = [
       { name: "TED", nameKey: "ted_name", descriptionKey: "ted_desc", icon: "icons/wrappers/ted.webp", url2: "../wrappers/ted", apptype2: "wrapper", url: "https://www.ted.com" },
       { name: "Netflix", nameKey: "netflix_name", descriptionKey: "netflix_desc", icon: "icons/wrappers/netflix.webp", url2: "../wrappers/netflix", apptype2: "wrapper", url: "https://www.netflix.com" },
       { name: "Pixiv", nameKey: "pixiv_name", descriptionKey: "pixiv_desc", icon: "icons/wrappers/pixiv.webp", url2: "../wrappers/pixiv", apptype2: "wrapper", url: "https://www.pixiv.net" },
-      { name: "DramaBox", nameKey: "dramabox_name", descriptionKey: "dramabox_desc", icon: "icons/wrappers/dramabox.webp", url2: "../wrappers/dramabox", apptype2: "wrapper", url: "https://www.dramaboxapp.com" },
+//      { name: "DramaBox", nameKey: "dramabox_name", descriptionKey: "dramabox_desc", icon: "icons/wrappers/dramabox.webp", url2: "../wrappers/dramabox", apptype2: "wrapper", url: "https://www.dramaboxapp.com" },
       {
         name: "Yinghua Anime (樱花动漫)⚠️💣",
         nameKey: "yinghuafabu_name",
@@ -6000,13 +6000,13 @@ export const categories = [
         icon: "icons/pwa/seamless.webp",
         url: "https://www.seamless.com"
       },
-      {
+/*      {
         name: "Flipkart",
         nameKey: "flipkart_name",
         descriptionKey: "flipkart_desc",
         icon: "icons/pwa/flipkart.webp",
         url: "https://www.flipkart.com",
-      },
+      },*/
       {
         name: "Fashion Nova",
         nameKey: "fashionnova_name",
@@ -7152,13 +7152,13 @@ export const categories = [
         icon: "icons/pwa/properstar.webp",
         url: "https://www.properstar.com"
       },
-      {
+/*      {
         name: "CommonFloor.com",
         nameKey: "commonfloor_name",
         descriptionKey: "commonfloor_desc",
         icon: "icons/pwa/commonfloor.webp",
         url: "https://www.commonfloor.com"
-      },
+      },*/
       {
         name: "Airbnb",
         nameKey: "airbnb_name",
