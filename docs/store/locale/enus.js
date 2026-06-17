@@ -1347,6 +1347,8 @@ const L = {
   minesweeperonline_desc: "Opens Minesweeper Online, a full-featured platform offering classic Minesweeper, multiplayer modes, rankings, quests, and competitive play.",
   grrdreversi_name: "grrd's Reversi",
   grrdreversi_desc: "A sleek, lightweight HTML5 Othello/Reversi game. Play against a friend or challenge the computer with adjustable difficulty levels in a completely ad-free interface.",
+  tsukidev_name: "Tsukihime",
+  tsukidev_desc: "The development and preview branch of Tsukihime Web. Play the legendary Type-Moon visual novel 'Tsukihime (2000)' directly in your browser with cross-device save importing and multi-language community translations.",
   wowtoken_name: "WoW Token Prices",
   wowtoken_desc: "Real-time price tracking for World of Warcraft tokens across regions (NA, EU, KR and TW).",
   chronodivide_name: "RA2: Chrono Divide",

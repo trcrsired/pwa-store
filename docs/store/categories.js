@@ -4690,6 +4690,13 @@ export const categories = [
         url: "https://reversi.grrd.ch"
       },
       {
+        name: "Tsukihime",
+        nameKey: "tsukidev_name",
+        descriptionKey: "tsukidev_desc",
+        icon: "icons/pwa/tsukidev.webp",
+        url: "https://tsukidev.holofield.fr"
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",

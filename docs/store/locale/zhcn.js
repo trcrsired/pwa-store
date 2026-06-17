@@ -1344,6 +1344,8 @@ const L = {
   minesweeperonline_desc: "打开 Minesweeper Online，一个提供经典扫雷、多玩家模式、排行榜、任务与竞技玩法的完整扫雷平台。",
   grrdreversi_name: "grrd's Reversi",
   grrdreversi_desc: "一款流畅且轻量化的 HTML5 奥赛罗游戏。支持双人对战或挑战不同难度的电脑 AI，界面干净清爽，完全无广告，支持离线运行。",
+  tsukidev_name: "月姬",
+  tsukidev_desc: "经典视觉小说《月姬 (2000)》网页复刻版的官方开发测试分支。无需安装即可在浏览器中体验原汁原味的月姬物语，支持跨设备存档导入导出，并集成了最新的社区汉化与多语言文本测试。",
   wowtoken_name: "魔兽世界时光徽章价格 (WoW Token Prices)",
   wowtoken_desc: "实时追踪《魔兽世界》地区（美服、欧服、韩服和台服）的时光徽章价格。",
   chronodivide_name: "红警2：时空分裂 (RA2: Chrono Divide)",
