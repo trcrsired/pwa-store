@@ -1787,6 +1787,8 @@ const L = {
   lenovo_us_desc: "The official US store and support portal for Lenovo, offering a comprehensive lineup of ThinkPad laptops, Yoga PCs, Legion gaming rigs, and enterprise smart infrastructure.",
   lenovo_cn_name: "Lenovo China",
   lenovo_cn_desc: "The official Chinese store and support hub for Lenovo, providing localized access to device sales, driver downloads, firmware updates, and professional customer service.",
+  innout_name: "In-N-Out",
+  innout_desc: "The official portal for the iconic West Coast burger chain. Browse the legendary menu (including the Secret Menu), locate nearby fresh-prep stores, and check out official merchandise.",
   bosideng_name: "Bosideng",
   bosideng_desc: "Bosideng is the official online store of the global down‑apparel brand, offering premium down jackets and seasonal clothing for men, women, and kids. The site features international collections, cold‑weather performance ratings, and worldwide shipping options.",
   housing_name: "Housing",

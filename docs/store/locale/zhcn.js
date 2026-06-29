@@ -1786,6 +1786,8 @@ const L = {
   lenovo_us_desc: "联想（Lenovo）美国官方商城与支持门户。提供 ThinkPad 笔记本、Yoga 轻薄本、Legion 拯救者游戏电脑以及企业级智能基础设施的完整产品线与官方技术服务。",
   lenovo_cn_name: "联想中国官网",
   lenovo_cn_desc: "联想（Lenovo）中国官方商城与服务大厅。提供全系列智能设备销售、官方驱动下载、固件更新、售后技术支持及客制化定制服务。",
+  innout_name: "In-N-Out",
+  innout_desc: "美国西海岸传奇快餐连锁品牌的官方平台。可在此查询标志性的现做汉堡菜单（含隐藏菜单 Animal Style）、查找周边门店及浏览官方周边。",
   bosideng_name: "波司登",
   bosideng_desc: "波司登是其官方线上商店，提供高端羽绒服及男女童季节性服饰，涵盖国际系列、保暖等级说明，并支持全球配送。",
   housing_name: "房地产",

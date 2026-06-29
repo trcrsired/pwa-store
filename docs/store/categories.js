@@ -6453,6 +6453,15 @@ export const categories = [
         url: "https://www.lenovo.com.cn/"
       },
       {
+        name: "In-N-Out",
+        nameKey: "innout_name",
+        descriptionKey: "innout_desc",
+        icon: "icons/wrappers/innout.webp",
+        url2: "../wrappers/innout",
+        apptype2: "wrapper",
+        url: "https://www.in-n-out.com"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",
