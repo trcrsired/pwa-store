@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "Taco John's Careers",
+  "short_name": "Taco John's Careers",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Taco John's Careers",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "icons": [
+    {
+      "src": "./icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

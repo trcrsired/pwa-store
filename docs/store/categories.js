@@ -6461,6 +6461,25 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.in-n-out.com"
       },
+
+      {
+        name: "Taco John's Order",
+        nameKey: "tacojohns_order_name",
+        descriptionKey: "tacojohns_order_desc",
+        icon: "icons/wrappers/tacojohns.webp",
+        url2: "../wrappers/tacojohns_order",
+        apptype2: "wrapper",
+        url: "https://order.tacojohns.com"
+      },
+      {
+        name: "Taco John's",
+        nameKey: "tacojohns_name",
+        descriptionKey: "tacojohns_desc",
+        icon: "icons/wrappers/tacojohns.webp",
+        url2: "../wrappers/tacojohns",
+        apptype2: "wrapper",
+        url: "https://www.tacojohns.com"
+      },
       {
         name: "Meituan",
         nameKey: "meituan_name",
@@ -7309,6 +7328,15 @@ export const categories = [
         url2: "../msedge/adp",
         apptype2: "wrapper",
         url: "https://www.adp.com"
+      },
+      {
+        name: "Taco John's Careers",
+        nameKey: "tacojohns_careers_name",
+        descriptionKey: "tacojohns_careers_desc",
+        icon: "icons/wrappers/tacojohns.webp",
+        url2: "../wrappers/tacojohns_careers",
+        apptype2: "wrapper",
+        url: "https://careers.tacojohns.com"
       },
       {
         name: "BOSS Zhipin",
