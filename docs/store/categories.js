@@ -7339,6 +7339,15 @@ export const categories = [
         url: "https://careers.tacojohns.com"
       },
       {
+        name: "Interstride",
+        nameKey: "interstride_name",
+        descriptionKey: "interstride_desc",
+        icon: "icons/wrappers/interstride.webp",
+        url2: "../wrappers/interstride",
+        apptype2: "wrapper",
+        url: "https://www.interstride.com"
+      },
+      {
         name: "BOSS Zhipin",
         nameKey: "bosszhipin_name",
         descriptionKey: "bosszhipin_desc",

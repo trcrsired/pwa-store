@@ -1792,6 +1792,8 @@ const L = {
   tacojohns_order_desc: "Taco John's 的专属线上点餐平台。免去排队烦恼，自由定制您的塔可、卷饼和脆皮薯球，并支持快捷自提或外卖配送。",
   tacojohns_name: "Taco John's",
   tacojohns_desc: "美国知名墨西哥风味快餐品牌 Taco John's 的官方网站。在这里浏览充满美墨风味的特色菜单（如招牌 Potato Olés® 薯球）、查看最新优惠活动并探索品牌故事。",
+  interstride_name: "Interstride",
+  interstride_desc: "专为国际留学生打造的一站式职业发展与求职赋能平台。提供留学生友好的职位检索、签证抽签与政策追踪数据、赞助雇主数据库及跨国求职指导资源。",
   bosideng_name: "波司登",
   bosideng_desc: "波司登是其官方线上商店，提供高端羽绒服及男女童季节性服饰，涵盖国际系列、保暖等级说明，并支持全球配送。",
   housing_name: "房地产",

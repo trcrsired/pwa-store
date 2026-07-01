@@ -211,6 +211,7 @@ WRAPPERS = [
   { "name": "In-N-Out", "url": "https://www.in-n-out.com", "keyify_name": "innout" },
   { "name": "Taco John's Order", "url": "https://order.tacojohns.com", "keyify_name": "tacojohns_order", "icon": "tacojohns.webp" },
   { "name": "Taco John's", "url": "https://www.tacojohns.com", "keyify_name": "tacojohns", "icon": "tacojohns.webp" },
+  { "name": "Interstride", "url": "https://www.interstride.com" },
   { "name": "Luckin Coffee", "url": "https://in.luckincoffee.com", "keyify_name": "luckin" },
   { "name": "Bosideng", "url": "https://www.bosidengfashion.com" },
   { "name": "Gmail", "url": "https://mail.google.com" },

@@ -1793,6 +1793,8 @@ const L = {
   tacojohns_order_desc: "The dedicated online ordering platform for Taco John's. Skip the line, customize your favorite tacos, burritos, and Potato Olés®, and schedule quick pickup or delivery.",
   tacojohns_name: "Taco John's",
   tacojohns_desc: "The official portal for Taco John's, home of the legendary Potato Olés®. Browse the flavorful Tex-Mex menu, check ongoing deals, and discover the 'Olés & A Lot More' flavor legacy.", 
+  interstride_name: "Interstride",
+  interstride_desc: "A comprehensive career platform tailored for international students. It provides job search tools, visa insight tracking, cap-exempt employer databases, and career resources to navigate the global job market.",
   bosideng_name: "Bosideng",
   bosideng_desc: "Bosideng is the official online store of the global down‑apparel brand, offering premium down jackets and seasonal clothing for men, women, and kids. The site features international collections, cold‑weather performance ratings, and worldwide shipping options.",
   housing_name: "Housing",
