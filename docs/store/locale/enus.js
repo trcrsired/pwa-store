@@ -2343,10 +2343,12 @@ const L = {
   srnnews_desc: "The digital platform for Salem Radio Network News, providing 24/7 comprehensive news coverage, breaking updates, and conservative talk radio insights.",
   bluewin_name: "Bluewin",
   bluewin_desc: "A major Swiss news and lifestyle portal. Stay updated with Swiss and global news, entertainment, sports, and weather, alongside easy access to the popular Bluewin Mail service.",
-  tonga_independent_name: "Tonga Independent",
-  tonga_independent_desc: "An independent news and current affairs portal covering Tonga and the broader Pacific region, featuring local politics, economy, culture, and environmental news.",
   defendgirls_name: "Defend Girls",
   defendgirls_desc: "A Canadian advocacy campaign website dedicated to raising awareness and pushing for legislation against sex-selective abortion, aiming to protect pre-born girls and promote gender equality in the womb.",
+  tonga_independent_name: "Tonga Independent",
+  tonga_independent_desc: "An independent news and current affairs portal covering Tonga and the broader Pacific region, featuring local politics, economy, culture, and environmental news.",
+  mitchellh_name: "Mitchell Hashimoto",
+  mitchellh_desc: "Personal blog and project archive of Mitchell Hashimoto, co-founder of HashiCorp and creator of Ghostty. Features deep dives into systems programming, terminal architecture, open-source development, and software engineering philosophy.",
 
 
 // WeChat Mini Programs

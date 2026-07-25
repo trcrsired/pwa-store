@@ -2348,6 +2348,8 @@ const L = {
   defendgirls_desc: "加拿大一项旨在反对性别选择性堕胎的社会倡导运动平台。呼吁推动相关立法以禁止因性别筛选而终止妊娠，致力于保护未出生女婴的生命权益与社会平等意识。",
   tonga_independent_name: "Tonga Independent(汤加独立报)",
   tonga_independent_desc: "关注汤加王国及太平洋岛国地区的独立新闻与时事资讯平台。提供本土政治、经济、社会文化及环境议题的全方位报道。",
+  mitchellh_name: "Mitchell Hashimoto",
+  mitchellh_desc: "HashiCorp 联合创始人、Ghostty 终端创造者 Mitchell Hashimoto 的个人技术博客。分享系统级编程、开源项目演进、终端架构设计与软件工程思考的高质量技术干货。",
 
 
 // WeChat Mini Programs

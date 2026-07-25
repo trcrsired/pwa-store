@@ -7969,6 +7969,15 @@ export const categories = [
         url: "https://www.defendgirls.com"
       },
       {
+        name: "Mitchell Hashimoto",
+        nameKey: "mitchellh_name",
+        descriptionKey: "mitchellh_desc",
+        icon: "icons/wrappers/mitchellh.webp",
+        url2: "../wrappers/mitchellh",
+        apptype2: "wrapper",
+        url: "https://mitchellh.com"
+      },
+      {
         name: "AMD AI Research Club (AMD AI 研习社)",
         nameKey: "amdai_name",
         descriptionKey: "amdai_desc",
