@@ -4560,7 +4560,7 @@ export const categories = [
     name: "Entertainment Platform",
     nameKey: "entertainmentplatform_name",
     apps : [
-      { name: "AGE Animation (AGE动漫)", nameKey: "age_name", descriptionKey: "age_desc", icon: "icons/msedge/ageanimation.webp", url: "https://www.agedm.io", apptype2: "msedge", url2: "../msedge/ageanimation" },
+      { name: "AGE Animation (AGE动漫)", nameKey: "age_name", descriptionKey: "age_desc", icon: "icons/msedge/ageanimation.webp", url: "https://www.agedm.io", apptype2: "wrapper", url2: "../msedge/ageanimation" },
       { name: "Disney+", nameKey: "disneyplus_name", descriptionKey: "disneyplus_desc", icon: "icons/pwa/disneyplus.webp", url: "https://www.disneyplus.com" },
       { name: "Hulu", nameKey: "hulu_name", descriptionKey: "hulu_desc", icon: "icons/pwa/hulu.webp", url: "https://www.hulu.com" },
       { name: "ViX (vix.com)", nameKey: "vixcom_name", descriptionKey: "vixcom_desc", icon: "icons/pwa/vix.webp", url: "https://www.vix.com" },
