@@ -1267,7 +1267,7 @@ export const categories = [
         name: "WebAssembly Opcodes",
         nameKey: "wasm_chart_name",
         descriptionKey: "wasm_chart_desc",
-        icon: "icons/wrappers/wasm_chart.webp",
+        icon: "icons/wrappers/webassembly.webp",
         url2: "../wrappers/wasm_chart",
         apptype2: "wrapper",
         url: "https://wasm-chart.pengowray.com"
