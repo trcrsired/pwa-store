@@ -644,6 +644,8 @@ const L = {
   finance_name: "金融",
   chase_name: "摩根大通(Chase)",
   chase_desc: "打开摩根大通(Chase)，美国主要银行之一，提供账户管理、支付和多种在线金融服务。",
+  chasesignin_name: "摩根大通(登录) (Chase (Sign in))",
+  chasesignin_desc: "美国摩根大通银行(Chase)安全登录入口。轻松管理个人与企业银行账户、信用卡、房贷、投资理财及在线账单支付。",
   bitcoinwell_name: "比特币井(Bitcoin Well)",
   bitcoinwell_desc: "加拿大和美国最快捷、最安全的比特币购买平台，支持链上和闪电网络交易。",
   eastmoney_name: "东方财富网",

@@ -154,6 +154,8 @@ WRAPPERS = [
   { "name": "Feishu Video Conference", "url": "https://vc.feishu.cn/w", "apptype": "msedge", "keyify_name": "feishu_vc", "icon": "feishu.webp" },
   { "name": "Kook", "url": "https://www.kookapp.cn/app/" },
   { "name": "Tieba", "url": "https://tieba.baidu.com" },
+  { "name": "Chase", "url": "https://chase.com", "apptype": "msedge" },
+  { "name": "Chase (Sign in)", "url": "https://chase.com", "keyify_name": "chasesignin", "icon": "../msedge/chase.webp" },
   { "name": "Termux", "url": "https://termux.dev" },
   { "name": "iHeart", "url": "https://www.iheart.com", "apptype": "msedge" },
   { "name": "Plyric", "url": "https://plyric.com" },

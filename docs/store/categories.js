@@ -2250,8 +2250,19 @@ export const categories = [
         name: "Chase",
         nameKey: "chase_name",
         descriptionKey: "chase_desc",
-        icon: "icons/pwa/chase.webp",
-        url: "https://chase.com"
+        icon: "icons/msedge/chase.webp",
+        url: "https://chase.com",
+        apptype: "wrapper",
+        url2: "../msedge/chase"
+      },
+      {
+        name: "Chase (Sign in)",
+        nameKey: "chasesignin_name",
+        descriptionKey: "chasesignin_desc",
+        icon: "icons/msedge/chase.webp",
+        url: "https://secure.chase.com",
+        apptype: "wrapper",
+        url2: "../wrappers/chasesignin"
       },
       {
         name: "Bitcoin Well",

@@ -643,6 +643,8 @@ const L = {
   finance_name: "Finance",
   chase_name: "Chase",
   chase_desc: "Opens Chase, a major U.S. bank offering online access to accounts, payments, and financial services.",
+  chasesignin_name: "Chase (Sign in)",
+  chasesignin_desc: "Secure login access to Chase personal and business banking. Manage your checking and savings accounts, credit cards, mortgages, investments, and online bill payments.",
   bitcoinwell_name: "Bitcoin Well",
   bitcoinwell_desc: "Enable your independence with the fastest and safest way to buy bitcoin on-chain or via the Lightning Network in Canada and the USA.",
   eastmoney_name: "East Money (东方财经)",
