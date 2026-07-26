@@ -84,6 +84,7 @@ WRAPPERS = [
   { "name": "Zscalar", "url": "https://www.zscaler.com"},
   { "name": "Business Standard", "url": "https://www.business-standard.com" },
   { "name": "Cryptopolitan", "url": "https://www.cryptopolitan.com" },
+  { "name": "Copilot", "url": "https://copilot.microsoft.com", "apptype": "msedge" },
   { "name": "perplexity", "url": "https://www.perplexity.ai" },
   { "name": "G2 AI", "url": "https://ai.g2.com" },
   { "name": "Duck.ai", "url": "https://duck.ai", "apptype": "msedge", "keyify_name": "duckai" },
@@ -318,6 +319,7 @@ WRAPPERS = [
   { "name": "WWD", "url": "https://wwd.com" },
   { "name": "Harper's Bazaar", "url": "https://www.harpersbazaar.com", "keyify_name": "harpersbazaar" },
   { "name": "The List", "url": "https://www.thelist.com" },
+  { "name": "AGE动漫", "url": "https://www.agedm.io", "apptype": "msedge", "keyify_name": "ageanimation" },
   { "name": "Lightnovel Kingdom", "url": "https://www.lightnovel.fun/cn" },
   { "name": "BrowserBench", "url": "https://browserbench.org" },
   { "name": "ClearWebStats", "url": "https://www.clearwebstats.com" },
@@ -373,6 +375,7 @@ WRAPPERS = [
   { "name": "网易DD", "url": "https://dd.163.com/room/100100", "apptype": "msedge", "keyify_name": "neteasedd" },
   { "name": "ResetEra", "url": "https://www.resetera.com" },
   { "name": "ProtonDB", "url": "https://www.protondb.com" },
+  { "name": "TradingView", "url": "https://www.tradingview.com", "apptype": "msedge" },
   { "name": "Capital One", "url": "https://verified.capitalone.com", "apptype": "msedge" },
   { "name": "8marketcap", "url": "https://8marketcap.com", "apptype": "msedge", "keyify_name": "eightmarketcap" },
   { "name": "Paypal", "url": "https://www.paypal.com" },
@@ -448,6 +451,7 @@ WRAPPERS = [
   { "name": "超星iMooc", "url": "https://imooc.ntu.edu.cn", "keyify_name": "ntuimooc", "icon": "chaoxingv8.webp" },
   { "name": "红警DIY", "url": "https://bbs.ra2diy.com", "keyify_name": "ra2diy" },
   { "name": "WoW.tools Archive", "url": "https://archive.wow.tools", "keyify_name": "wowtoolsarchive", "apptype": "msedge" },
+  { "name": "Liquipedia", "url": "https://liquipedia.net", "apptype": "msedge" },
   { "name": "Marxists Internet Archive", "url": "https://www.marxists.org", "keyify_name": "marxistsorg" },
   { "name": "OSDev.org" , "url": "https://wiki.osdev.org", "keyify_name": "osdevorg" },
   { "name": "Consumer Rights Wiki", "url": "https://consumerrights.wiki" },
@@ -673,6 +677,9 @@ for outdir in [OUTPUT_DIRS["wrapper"], OUTPUT_DIRS["extension"], OUTPUT_DIRS["ms
     if outdir.exists():
         shutil.rmtree(outdir)
 
+icons_found_count = 0
+icons_not_found_count = 0
+
 # 🛠️ Generation loop
 for wrapper in WRAPPERS:
     name = wrapper["name"]
@@ -704,8 +711,10 @@ for wrapper in WRAPPERS:
     icon_dst = icons_dest / "icon.webp"
     if icon_src.exists():
         shutil.copy(icon_src, icon_dst)
+        icons_found_count = icons_found_count + 1
     else:
         print(f"⚠️ Warning: icon not found → {icon_file} for {apptype}: {name}")
+        icons_not_found_count = icons_not_found_count + 1
 
     # Generate config.js
     with open(dest / "config.js", "wb") as f:
@@ -720,3 +729,5 @@ for wrapper in WRAPPERS:
         f.write(build_manifest(name, key, apptype))
 
     print(f"✅ Generated {apptype}: {name} → {key} → icon: {icon_file}")
+
+print(f"icons_not_found_count:{icons_not_found_count}\ntotal_count:{icons_found_count+icons_not_found_count}")

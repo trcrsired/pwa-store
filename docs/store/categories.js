@@ -351,7 +351,7 @@ export const categories = [
     nameKey: "chabots_name",
     name: "Chatbots",
     apps: [
-      { name: "Microsoft Copilot", icon: "icons/pwa/copilot.webp", url: "https://copilot.microsoft.com", descriptionKey: "copilot_desc" },
+      { name: "Microsoft Copilot", icon: "icons/msedge/copilot.webp", url: "https://copilot.microsoft.com", descriptionKey: "copilot_desc", apptype2: "wrapper", url2: "../msedge/copilot" },
       { name: "ChatGPT", icon: "icons/pwa/chatgpt.webp", url: "https://chat.openai.com", descriptionKey: "chatgpt_desc" },
       { name: "Grok", icon: "icons/pwa/grok.webp", url: "https://grok.com", descriptionKey: "grok_desc"},
       { name: "Meta AI", icon: "icons/pwa/metaai.webp", url: "https://www.meta.ai", descriptionKey: "metaai_desc" }, 
@@ -2271,8 +2271,10 @@ export const categories = [
         name: "TradingView",
         nameKey: "tradingview_name",
         descriptionKey: "tradingview_desc",
-        icon: "icons/pwa/tradingview.webp",
-        url: "https://www.tradingview.com"
+        icon: "icons/msedge/tradingview.webp",
+        url: "https://www.tradingview.com",
+        url2: "../msedge/tradingview",
+        apptype2: "wrapper",
       },
       {
         name: "Yahoo Finance",
@@ -4547,7 +4549,7 @@ export const categories = [
     name: "Entertainment Platform",
     nameKey: "entertainmentplatform_name",
     apps : [
-      { name: "AGE Animation (AGE动漫)", nameKey: "age_name", descriptionKey: "age_desc", icon: "icons/pwa/ageanimation.webp", url: "https://www.agedm.io" },
+      { name: "AGE Animation (AGE动漫)", nameKey: "age_name", descriptionKey: "age_desc", icon: "icons/msedge/ageanimation.webp", url: "https://www.agedm.io", apptype2: "msedge", url2: "../msedge/ageanimation" },
       { name: "Disney+", nameKey: "disneyplus_name", descriptionKey: "disneyplus_desc", icon: "icons/pwa/disneyplus.webp", url: "https://www.disneyplus.com" },
       { name: "Hulu", nameKey: "hulu_name", descriptionKey: "hulu_desc", icon: "icons/pwa/hulu.webp", url: "https://www.hulu.com" },
       { name: "ViX (vix.com)", nameKey: "vixcom_name", descriptionKey: "vixcom_desc", icon: "icons/pwa/vix.webp", url: "https://www.vix.com" },
@@ -5463,8 +5465,10 @@ export const categories = [
         name: "Liquipedia",
         nameKey: "liquipedia_name",
         descriptionKey: "liquipedia_desc",
-        icon: "icons/pwa/liquipedia.webp",
-        url: "https://liquipedia.net"
+        icon: "icons/msedge/liquipedia.webp",
+        url: "https://liquipedia.net",
+        url2: "../msedge/liquipedia",
+        apptype2: "wrapper",
       },
       {
         name: "Incel Wiki",
