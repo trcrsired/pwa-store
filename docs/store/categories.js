@@ -2252,7 +2252,7 @@ export const categories = [
         descriptionKey: "chase_desc",
         icon: "icons/msedge/chase.webp",
         url: "https://chase.com",
-        apptype: "wrapper",
+        apptype2: "wrapper",
         url2: "../msedge/chase"
       },
       {
@@ -2261,7 +2261,7 @@ export const categories = [
         descriptionKey: "chasesignin_desc",
         icon: "icons/msedge/chase.webp",
         url: "https://secure.chase.com",
-        apptype: "wrapper",
+        apptype2: "wrapper",
         url2: "../wrappers/chasesignin"
       },
       {
