@@ -2553,6 +2553,8 @@ const L = {
   life_name: "生活",
   chibicart_name: "ChibiCart",
   chibicart_desc: "ChibiCart 是一款充满日漫风格的购物清单 PWA，提供 AI 图像生成、智能物品推荐等功能，让日常购物变得更有趣、更具视觉吸引力。",
+  everyday_dynamify_name: "Everyday (Sodexo)",
+  everyday_dynamify_desc: "由索迪斯（Sodexo）推出的智能无缝点餐与餐饮服务平台。支持在线查看每日菜单、提前预订餐食、无现金支付及无接触取餐，为企业园区与校园食堂提供高效便利的用餐体验。",
 // native
   llvmreleases_name: "llvm-releases",
   llvmreleases_desc: "本PWA商店作者亲自构建的 LLVM 发行版，支持超过 15 个跨平台编译目标，并集成对应系统根。涵盖 aarch64-windows-msvc、aarch64-apple-darwin、riscv64-linux-gnu、loongarch64-linux-gnu、aarch64-windows-gnu、aarch64-linux-android30 及 wasm 等工具链。适用于需要可复现、多平台构建的开发者，该原生封装器可简化编译器部署与跨平台集成流程。",

@@ -8595,6 +8595,15 @@ export const categories = [
         icon: "icons/pwa/chibicart.webp",
         url: "https://chibicart.com"
       },
+      {
+        name: "Everyday (Sodexo)",
+        nameKey: "everyday_dynamify_name",
+        descriptionKey: "everyday_dynamify_desc",
+        icon: "icons/wrappers/everyday_dynamify.webp",
+        url2: "../wrappers/everyday_dynamify",
+        apptype2: "wrapper",
+        url: "https://everyday.dynamify.com"
+      },
     ]
   },
   {

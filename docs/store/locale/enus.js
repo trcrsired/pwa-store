@@ -2553,6 +2553,8 @@ const L = {
   life_name: "Life",
   chibicart_name: "ChibiCart",
   chibicart_desc: "ChibiCart is a delightful shopping list PWA featuring AI-powered image generation, smart item suggestions, and a charming Japanese manga-inspired interface. It transforms everyday shopping into a visually engaging and personalized experience.",
+  everyday_dynamify_name: "Everyday (Sodexo)",
+  everyday_dynamify_desc: "The official seamless food ordering platform powered by Sodexo and Dynamify. Browse daily menus, pre-order meals, make cashless payments, and skip the lines at workplace and campus dining halls.",
 
 
 

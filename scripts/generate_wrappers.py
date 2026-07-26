@@ -538,6 +538,7 @@ WRAPPERS = [
   { "name": "MySPA!", "url": "https://myspa.nikkan-spa.jp", "keyify_name": "myspa" },
   { "name": "Joshi-SPA!", "url": "https://joshi-spa.jp", "keyify_name": "joshispa" },
 
+  { "name": "Everyday (Sodexo)", "url": "https://everyday.dynamify.com", "keyify_name": "everyday_dynamify" },
   { "name": "Sporting News", "url": "https://www.sportingnews.com" },
   { "name": "Sports Illustrated", "url": "https://www.si.com", "keyify_name": "si" },
   { "name": "The Spun", "url": "https://thespun.com" },
