@@ -7251,6 +7251,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.mobile.de"
       },
+      {
+        name: "Driving Practice Tests",
+        nameKey: "driving_practice_tests_name",
+        descriptionKey: "driving_practice_tests_desc",
+        icon: "icons/msedge/driving_practice_tests.webp",
+        url2: "../msedge/driving_practice_tests",
+        apptype2: "wrapper",
+        url: "https://drivingpracticetests.com"
+      },
     ]
   },
   {
