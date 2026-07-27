@@ -1815,9 +1815,11 @@ export const categories = [
       {
         name: "Bluesky",
         nameKey: "bluesky_name",
-        icon: "icons/pwa/bluesky.webp",
+        icon: "icons/msedge/bluesky.webp",
         url: "https://bsky.app",
-        descriptionKey: "bluesky_desc"
+        descriptionKey: "bluesky_desc",
+        url2: "../msedge/bluesky",
+        apptype2: "wrapper"
       },
       {
         name: "Twitch",
