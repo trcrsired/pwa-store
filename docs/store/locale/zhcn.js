@@ -1941,6 +1941,8 @@ const L = {
   mobilede_desc: "打开 mobile.de，德国最大的汽车、摩托车及商用车在线交易平台。",
   driving_practice_tests_name: "Driving Practice Tests",
   driving_practice_tests_desc: "免费且针对性强的在线驾照笔试模拟平台。提供各州/地区 DMV 官方法规题库、交通标志识别测试与模拟考试，助力快速通过驾驶许可考试。",
+  carscoops_name: "Carscoops",
+  carscoops_desc: "知名汽车新闻与独家谍照门户网站。提供 24 小时不间断的全球新车首发报道、伪装车测试谍照、专业试驾评测及汽车行业深度资讯。",
   tickets_name: "票",
   fandango_name: "Fandango",
   fandango_desc: "Fandango 是领先的电影票务与娱乐平台。您可以浏览放映时间、观看预告片、阅读影评，并提前预订美国各地影院的座位。无论是计划外出观影，还是追看最新大片，Fandango 都能让您的观影体验更加轻松便捷。",

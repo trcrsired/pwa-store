@@ -7276,6 +7276,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://drivingpracticetests.com"
       },
+      {
+        name: "Carscoops",
+        nameKey: "carscoops_name",
+        descriptionKey: "carscoops_desc",
+        icon: "icons/wrappers/carscoops.webp",
+        url2: "../wrappers/carscoops",
+        apptype2: "wrapper",
+        url: "https://www.carscoops.com"
+      },
     ]
   },
   {

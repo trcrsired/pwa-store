@@ -1938,6 +1938,8 @@ const L = {
   mobilede_desc: "Opens mobile.de, Germany’s largest online marketplace for buying and selling cars, motorcycles, and commercial vehicles.",
   driving_practice_tests_name: "Driving Practice Tests",
   driving_practice_tests_desc: "A comprehensive free online prep platform for DMV driving permit and license tests. Practice state-specific knowledge test questions, road signs, and hazard perception rules anytime.",
+  carscoops_name: "Carscoops",
+  carscoops_desc: "A leading automotive news and spy shot portal. Get 24/7 breaking car news, exclusive spy shots, new model reveals, expert reviews, and global automotive industry insights.",
   tickets_name: "Tickets",
   fandango_name: "Fandango",
   fandango_desc: "Fandango is your go-to platform for movie tickets, showtimes, trailers, and reviews. Discover what's playing near you, reserve seats in advance, and explore the latest in cinema—all in one place.",

@@ -434,6 +434,7 @@ WRAPPERS = [
   { "name": "驾考宝典", "url": "https://www.jiakaobaodian.com", "keyify_name": "jiakaobaodian" },
   { "name": "mobile.de", "url": "https://www.mobile.de", "keyify_name": "mobilede" },
   { "name": "Driving Practice Tests", "url": "https://drivingpracticetests.com", "keyify_name": "driving_practice_tests", "apptype": "msedge" },
+  { "name": "Carscoops", "url": "https://www.carscoops.com" },
   { "name": "Ticketmaster", "url": "https://www.ticketmaster.com" },
   { "name": "Ctrip", "url": "https://www.ctrip.com" },
   { "name": "Tao Piao Piao", "url": "https://www.taopiaopiao.com", "keyify_name":"taopiaopiao" },
