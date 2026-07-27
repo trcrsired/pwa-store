@@ -323,6 +323,7 @@ WRAPPERS = [
   { "name": "The List", "url": "https://www.thelist.com" },
   { "name": "AGE动漫", "url": "https://www.agedm.io", "apptype": "msedge", "keyify_name": "ageanimation" },
   { "name": "Linovelib", "url": "https://www.linovelib.com", "apptype": "msedge"  },
+  { "name": "Bilinovel", "url": "https://www.bilinovel.com", "apptype": "msedge", "icon": "linovelib.webp" },
   { "name": "Lightnovel Kingdom", "url": "https://www.lightnovel.fun/cn" },
   { "name": "BrowserBench", "url": "https://browserbench.org" },
   { "name": "ClearWebStats", "url": "https://www.clearwebstats.com" },

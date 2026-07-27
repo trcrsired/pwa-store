@@ -1291,6 +1291,8 @@ const L = {
   sling_desc: "Sling TV is a flexible streaming service offering live and on-demand channels across news, sports, and entertainment. Users can customize their lineup with affordable packages and no long-term contracts.",
   linovelib_name: "Linovelib (哔哩轻小说)",
   linovelib_desc: "A Chinese light novel site offering Japanese anime-style web novels, rankings, tags, and downloadable formats. Features include full-series archives, user-curated popularity lists, and fast updates.",
+  bilinovel_name: "Bilinovel (哔哩轻小说)",
+  bilinovel_desc: "Alternative domain of Linovelib",
   nebula_name: "Nebula",
   nebula_desc: "A creator-driven streaming platform offering smart, independent video content beyond the algorithm.",
   tubitv_name: "Tubi",

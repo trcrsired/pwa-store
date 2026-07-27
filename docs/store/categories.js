@@ -4574,6 +4574,7 @@ export const categories = [
         icon: "icons/pwa/sling.webp", url: "https://www.sling.com"
       },
       { name: "Linovelib", nameKey: "linovelib_name", descriptionKey: "linovelib_desc", icon: "icons/msedge/linovelib.webp", url: "https://www.linovelib.com", apptype2: "wrapper", url2: "../msedge/linovelib" },
+      { name: "Bilinovel", nameKey: "bilinovel_name", descriptionKey: "bilinovel_desc", icon: "icons/msedge/linovelib.webp", url: "https://www.bilinovel.com", apptype2: "wrapper", url2: "../msedge/bilinovel" },
       { name: "Nebula", nameKey: "nebula_name", descriptionKey: "nebula_desc", icon: "icons/pwa/nebula.webp", url: "https://nebula.tv" },
       { name: "Tubi", nameKey: "tubitv_name", descriptionKey: "tubitv_desc", icon: "icons/pwa/tubitv.webp", url: "https://tubitv.com" },
       { name: "Dubok (独播库)", nameKey: "dubok_name", descriptionKey: "dubok_desc", icon: "icons/pwa/dubok.webp", url: "https://www.dubok.tv" },
