@@ -4570,10 +4570,10 @@ export const categories = [
       { name: "Crunchyroll", nameKey: "crunchyroll_name", descriptionKey: "crunchyroll_desc", icon: "icons/pwa/crunchyroll.webp", url: "https://www.crunchyroll.com" },
       { name: "AnimeKai", nameKey: "animekai_name", descriptionKey: "animekai_desc", icon: "icons/pwa/animekai.webp" , url: "https://animekai.to" },
       {
-        name: "Sling", nameKey: "sling_name", descriptionKey: "sling_Desc",
+        name: "Sling", nameKey: "sling_name", descriptionKey: "sling_desc",
         icon: "icons/pwa/sling.webp", url: "https://www.sling.com"
       },
-      { name: "Bilinovel", nameKey: "bilinovel_name", descriptionKey: "bilinovel_desc", icon: "icons/pwa/bilinovel.webp", url: "https://www.bilinovel.com" },
+      { name: "Linovelib", nameKey: "linovelib_name", descriptionKey: "linovelib_desc", icon: "icons/msedge/linovelib.webp", url: "https://www.linovelib.com", apptype2: "wrapper", url2: "../msedge/linovelib" },
       { name: "Nebula", nameKey: "nebula_name", descriptionKey: "nebula_desc", icon: "icons/pwa/nebula.webp", url: "https://nebula.tv" },
       { name: "Tubi", nameKey: "tubitv_name", descriptionKey: "tubitv_desc", icon: "icons/pwa/tubitv.webp", url: "https://tubitv.com" },
       { name: "Dubok (独播库)", nameKey: "dubok_name", descriptionKey: "dubok_desc", icon: "icons/pwa/dubok.webp", url: "https://www.dubok.tv" },
