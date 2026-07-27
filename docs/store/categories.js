@@ -6110,8 +6110,10 @@ export const categories = [
         name: "Best Buy",
         nameKey: "bestbuy_name",
         descriptionKey: "bestbuy_desc",
-        icon: "icons/pwa/bestbuy.webp",
-        url: "https://www.bestbuy.com"
+        icon: "icons/wrappers/bestbuy.webp",
+        url: "https://www.bestbuy.com",
+        apptype2: "wrapper",
+        url2: "../wrappers/bestbuy"
       },
       {
         name: "eBay",
