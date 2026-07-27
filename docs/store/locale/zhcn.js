@@ -2566,6 +2566,8 @@ const L = {
   llvmreleases_desc: "本PWA商店作者亲自构建的 LLVM 发行版，支持超过 15 个跨平台编译目标，并集成对应系统根。涵盖 aarch64-windows-msvc、aarch64-apple-darwin、riscv64-linux-gnu、loongarch64-linux-gnu、aarch64-windows-gnu、aarch64-linux-android30 及 wasm 等工具链。适用于需要可复现、多平台构建的开发者，该原生封装器可简化编译器部署与跨平台集成流程。",
   windowsmsvcsysroot_name: "windows-msvc-sysroot",
   windowsmsvcsysroot_desc: "由本PWA商店作者维护的自定义MSVC系统根，提供符合 GCC/Clang 风格的标准化头文件与库，适用于 ${ARCH}-windows-msvc triplet。支持交叉编译与加拿大式编译流程，为偏好 MSVC 语义的开发者提供相较于 ${ARCH}-windows-gnu 的简洁替代方案。",
+  gcc_name: "GCC (GNU 编译器套件)",
+  gcc_desc: "GNU 编译器套件官方网站，提供 C/C++ 等编译器的官方文档、版本发布与源码下载。注：网站保留传统桌面版排版且未适配移动端浏览器，在手机端打开时字体极小、布局无法自动缩放，需手动放大查看。",
   gccreleases_name: "gcc-releases",
   gccreleases_desc: "本PWA商店作者提供的 GCC 个性化构建版本，支持多平台交叉编译工具链，包括 x86_64-linux-gnu、x86_64-w64-mingw32、x86_64-elf、x86_64-freebsd、aarch64-linux-gnu、riscv64-linux-gnu、loongarch64-linux-gnu 及 i586-msdosdjgpp。该原生封装旨在实现可复现构建与多平台开发，覆盖嵌入式、桌面及传统系统场景。",
   ungoogled_chromium_name: "ungoogled-chromium binaries",

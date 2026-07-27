@@ -1503,6 +1503,15 @@ export const categories = [
         apptype: "native"
       },
       {
+        name: "GCC (GNU Compiler Collection)",
+        nameKey: "gcc_name",
+        descriptionKey: "gcc_desc",
+        icon: "icons/native/gcc.webp",
+        url2: "../wrappers/gcc",
+        apptype2: "wrapper",
+        url: "https://gcc.gnu.org"
+      },
+      {
         name: "gcc-releases",
         nameKey: "gccreleases_name",
         descriptionKey: "gccreleases_desc",

@@ -277,6 +277,7 @@ WRAPPERS = [
   { "name": "Mitchell Hashimoto", "url": "https://mitchellh.com", "keyify_name": "mitchellh" },
   { "name": "Herb Sutter", "url": "https://herbsutter.com", "keyify_name": "herbsutter" },
   { "name": "Bjarne Stroustrup", "url": "https://www.stroustrup.com", "keyify_name": "bjarnestroustrup" },
+  { "name": "GCC", "url": "https://gcc.gnu.org", "icon": "../native/gcc.webp" },
   { "name": "GCC MCF", "url": "https://gcc-mcf.lhmouse.com", "keyify_name": "gccmcf", "icon": "lhmouse.webp" },
   { "name": "ungoogled-chromium binaries", "url": "https://ungoogled-software.github.io/ungoogled-chromium-binaries/", "keyify_name": "ungoogled_chromium" },
   { "name": "Webull", "url": "https://www.webull.com" },
