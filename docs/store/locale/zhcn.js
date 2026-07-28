@@ -816,6 +816,8 @@ const L = {
   iproyal_desc: "专业的代理服务提供商，提供住宅、数据中心及移动代理解决方案，适用于数据采集和隐私保护。",
   wired_name: "WIRED (连线)",
   wired_desc: "知名的深度报道媒体，专注于技术、科学、商业和文化的交汇点，以其前瞻性的视角和权威的技术评论著称。",
+  interestingengineering_name: "Interesting Engineering",
+  interestingengineering_desc: "前沿科技与工程新闻门户。报道人工智能、机器人、航空航天、清洁能源及科学发现等领域的最新突破与创新资讯。",
   wccftech_name: "Wccftech",
   wccftech_desc: "打开 Wccftech，一个提供科技新闻、硬件评测、游戏与行业动态的网站。",
   "404media_name": "404 Media",

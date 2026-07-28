@@ -820,6 +820,8 @@ const L = {
   iproyal_desc: "A professional proxy service provider offering residential, datacenter, and mobile proxies for web scraping and privacy.",
   wired_name: "WIRED",
   wired_desc: "A premier news source covering the intersection of technology, science, business, and culture, known for its in-depth reporting and future-focused insights.",
+  interestingengineering_name: "Interesting Engineering",
+  interestingengineering_desc: "A digital news platform covering science, technology, and engineering. Features breakthroughs in AI, robotics, aerospace, renewable energy, and future innovations.",
   wccftech_name: "Wccftech",
   wccftech_desc: "Opens Wccftech, a site covering technology news, hardware reviews, gaming, and industry updates.",
   "404media_name": "404 Media",

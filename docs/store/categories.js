@@ -3520,6 +3520,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.wired.com"
       },
+      {
+        name: "Interesting Engineering",
+        nameKey: "interestingengineering_name",
+        descriptionKey: "interestingengineering_desc",
+        icon: "icons/wrappers/interestingengineering.webp",
+        url2: "../wrappers/interestingengineering",
+        apptype2: "wrapper",
+        url: "https://interestingengineering.com"
+      },
     ]
   },
   {
