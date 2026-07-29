@@ -2357,6 +2357,8 @@ const L = {
   tonga_independent_desc: "An independent news and current affairs portal covering Tonga and the broader Pacific region, featuring local politics, economy, culture, and environmental news.",
   mitchellh_name: "Mitchell Hashimoto",
   mitchellh_desc: "Personal blog and project archive of Mitchell Hashimoto, co-founder of HashiCorp and creator of Ghostty. Features deep dives into systems programming, terminal architecture, open-source development, and software engineering philosophy.",
+  electronicintifada_name: "The Electronic Intifada",
+  electronicintifada_desc: "An independent online news publication and educational resource focusing on Palestine, Palestinian rights, Middle East politics, and international policy analysis.",
 
 
 // WeChat Mini Programs

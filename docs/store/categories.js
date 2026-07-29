@@ -4528,6 +4528,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://tongaindependent.com"
       },
+      {
+        name: "The Electronic Intifada",
+        nameKey: "electronicintifada_name",
+        descriptionKey: "electronicintifada_desc",
+        icon: "icons/wrappers/electronicintifada.webp",
+        url2: "../wrappers/electronicintifada",
+        apptype2: "wrapper",
+        url: "https://electronicintifada.net"
+      },
     ]
   },
   {
