@@ -8055,7 +8055,7 @@ export const categories = [
         name: "Sinya Lee Blog",
         nameKey: "sinyalee_blog_name",
         descriptionKey: "sinyalee_blog_desc",
-        icon: "icons/wrappers/sinyalee_blog.webp",
+        icon: "icons/wrappers/sinyalee.webp",
         url2: "../wrappers/sinyalee_blog",
         apptype2: "wrapper",
         url: "https://sinyalee.com/blog"
