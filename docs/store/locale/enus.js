@@ -2359,6 +2359,10 @@ const L = {
   tonga_independent_desc: "An independent news and current affairs portal covering Tonga and the broader Pacific region, featuring local politics, economy, culture, and environmental news.",
   mitchellh_name: "Mitchell Hashimoto",
   mitchellh_desc: "Personal blog and project archive of Mitchell Hashimoto, co-founder of HashiCorp and creator of Ghostty. Features deep dives into systems programming, terminal architecture, open-source development, and software engineering philosophy.",
+  sinyalee_name: "Sinya Lee",
+  sinyalee_desc: "Personal website and blog of Sinya Lee (李新野), founder and CEO of Alpha Star Research. Features essays and insights on quantitative trading, AI, systems programming, and computer science.",
+  sinyalee_blog_name: "Sinya Lee Blog",
+  sinyalee_blog_desc: "Blog essays and articles by Sinya Lee (李新野), featuring insights on quantitative trading, AI, technology, and computer science.",
   electronicintifada_name: "The Electronic Intifada",
   electronicintifada_desc: "An independent online news publication and educational resource focusing on Palestine, Palestinian rights, Middle East politics, and international policy analysis.",
 

@@ -8043,6 +8043,24 @@ export const categories = [
         url: "https://mitchellh.com"
       },
       {
+        name: "Sinya Lee",
+        nameKey: "sinyalee_name",
+        descriptionKey: "sinyalee_desc",
+        icon: "icons/wrappers/sinyalee.webp",
+        url2: "../wrappers/sinyalee",
+        apptype2: "wrapper",
+        url: "https://sinyalee.com/blog"
+      },
+      {
+        name: "Sinya Lee Blog",
+        nameKey: "sinyalee_blog_name",
+        descriptionKey: "sinyalee_blog_desc",
+        icon: "icons/wrappers/sinyalee_blog.webp",
+        url2: "../wrappers/sinyalee_blog",
+        apptype2: "wrapper",
+        url: "https://sinyalee.com/blog"
+      },
+      {
         name: "AMD AI Research Club (AMD AI 研习社)",
         nameKey: "amdai_name",
         descriptionKey: "amdai_desc",

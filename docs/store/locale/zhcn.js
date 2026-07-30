@@ -2360,6 +2360,10 @@ const L = {
   tonga_independent_desc: "关注汤加王国及太平洋岛国地区的独立新闻与时事资讯平台。提供本土政治、经济、社会文化及环境议题的全方位报道。",
   mitchellh_name: "Mitchell Hashimoto",
   mitchellh_desc: "HashiCorp 联合创始人、Ghostty 终端创造者 Mitchell Hashimoto 的个人技术博客。分享系统级编程、开源项目演进、终端架构设计与软件工程思考的高质量技术干货。",
+  sinyalee_name: "李新野 (Sinya Lee)",
+  sinyalee_desc: "Alpha Star Research 创始人兼 CEO 李新野的个人网站与中文博客。分享量化交易、人工智能、系统编程及计算机科学领域的深度思考与文章。",
+  sinyalee_blog_name: "李新野博客",
+  sinyalee_blog_desc: "李新野的中文博客。分享关于量化交易、人工智能、技术与计算机科学领域的深度随笔与文章。",
   electronicintifada_name: "The Electronic Intifada",
   electronicintifada_desc: "关注巴勒斯坦局势、中东政治及相关国际人权政策的独立在线新闻与分析平台。提供深度报道、社论及视听节目。",
 
