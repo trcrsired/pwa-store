@@ -4853,6 +4853,20 @@ export const categories = [
         url: "https://tsukidev.holofield.fr"
       },
       {
+        name: "Zhuzhiliao(竹知了)",
+        nameKey: "zhuzhiliao_name",
+        descriptionKey: "zhuzhiliao_desc",
+        icon: "icons/pwa/zhuzhiliao.webp",
+        url: "https://zhuzhiliao.icu"
+      },
+      {
+        name: "huawei.dog",
+        nameKey: "huaweidog_name",
+        descriptionKey: "huaweidog_desc",
+        icon: "icons/pwa/huaweidog.webp",
+        url: "https://huawei.dog"
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",
