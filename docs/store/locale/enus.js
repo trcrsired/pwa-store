@@ -1428,6 +1428,8 @@ const L = {
   warcraft3_desc: "Blizzard’s official community forum for Warcraft III discussions, updates, and player support.",
   xboxsupport_name: "Xbox Support",
   xboxsupport_desc: "Opens Xbox Support, Microsoft's official help center for Xbox consoles, games, accounts, and services.",
+  nationstates_name: "NationStates",
+  nationstates_desc: "A classic text-based nation simulation and political roleplay game. Create and govern your own country, respond to daily political issues, pass laws, and engage in international diplomacy.",
   mmochampion_name: "MMO Champion",
   mmochampion_desc: "World of Warcraft-focused news and forum hub featuring patch notes, raid strategies, and community discussions.",
   warcraftlogs_name: "Warcraft Logs",

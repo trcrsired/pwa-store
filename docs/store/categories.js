@@ -5032,6 +5032,13 @@ export const categories = [
         url: "https://support.xbox.com"
       },
       {
+        name: "NationStates",
+        nameKey: "nationstates_name",
+        descriptionKey: "nationstates_desc",
+        icon: "icons/pwa/nationstates.webp",
+        url: "https://www.nationstates.net"
+      },
+      {
         name: "MMO Champion",
         nameKey: "mmochampion_name",
         descriptionKey: "mmochampion_desc",

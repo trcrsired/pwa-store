@@ -1425,6 +1425,8 @@ const L = {
   gamerant_desc: "由玩家撰写的游戏新闻、评测、专题与访谈，专为游戏爱好者打造。",
   xboxsupport_name: "Xbox 支持(Xbox Support)",
   xboxsupport_desc: "打开 Xbox 官方支持中心，提供主机、游戏、账户与服务的帮助与故障排查。",
+  nationstates_name: "NationStates",
+  nationstates_desc: "经典的文本类国家政治模拟与角色扮演游戏。建立并治理属于你自己的虚拟国家，处理每日政治议题、制定法律，并在国际舞台（世界大会）上开展外交博弈。",
   mmochampion_name: "MMO Champion",
   mmochampion_desc: "专注于魔兽世界的新闻与论坛中心，提供补丁说明、团队副本攻略和社区讨论。",
   warcraftlogs_name: "Warcraft Logs",
