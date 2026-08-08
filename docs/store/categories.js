@@ -4867,6 +4867,13 @@ export const categories = [
         url: "https://huawei.dog"
       },
       {
+        name: "Bilibili Zhuzhiliao",
+        nameKey: "bilibili_zhuzhiliao_name",
+        descriptionKey: "bilibili_zhuzhiliao_desc",
+        icon: "icons/pwa/bilibili_zhuzhiliao.webp",
+        url: "https://www.bilibili.com/toy/zhuzhiliao/index.html?spm_id_from=333.788.specialRecommendByOp.0"
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",

@@ -1383,6 +1383,8 @@ const L = {
   zhuzhiliao_desc: "A Web simulation of the traditional Chinese spinning friction toy 'Bamboo Cicada'. Zero-dependency single file, real audio sampling, mobile-first design.",
   huaweidog_name: "huawei.dog",
   huaweidog_desc: "A satirical parody site mocking Huawei marketing and recent meme events like the 'Bamboo Cicada' controversy with interactive Web simulations.",
+  bilibili_zhuzhiliao_name: "Bilibili Bamboo Cicada",
+  bilibili_zhuzhiliao_desc: "An interactive Web toy by Bilibili simulating the traditional Chinese 'Bamboo Cicada'. Spin to generate authentic buzzing sounds and relaxing audio feedback.",
   wowtoken_name: "WoW Token Prices",
   wowtoken_desc: "Real-time price tracking for World of Warcraft tokens across regions (NA, EU, KR and TW).",
   vghf_name: "Video Game History Foundation",
