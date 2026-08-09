@@ -4857,7 +4857,15 @@ export const categories = [
         nameKey: "zhuzhiliao_name",
         descriptionKey: "zhuzhiliao_desc",
         icon: "icons/pwa/zhuzhiliao.webp",
-        url: "https://zhuzhiliao.icu"
+        url: "https://imsai.top"
+      },
+      {
+        name: "Zhuzhiliao(竹知了)",
+        nameKey: "zhuzhiliao_name",
+        descriptionKey: "zhuzhiliao_desc",
+        icon: "icons/pwa/zhuzhiliao.webp",
+        url: "https://zhuzhiliao.icu",
+        hide: true
       },
       {
         name: "huawei.dog",
