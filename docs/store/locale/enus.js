@@ -832,6 +832,8 @@ const L = {
   allthingslinux_desc: "Opens All Things Linux, a nonprofit organization and community dedicated to supporting and advancing the Linux ecosystem.",
   musictech_name: "MusicTech",
   musictech_desc: "Opens MusicTech, a leading media platform for music production, gear reviews, plugins, and audio innovation.",
+  amperecommunity_name: "Ampere Computing Community",
+  amperecommunity_desc: "The official developer forum and portal for Ampere Computing. Features discussions on ARM Cloud Native processors, Linux optimization, AI workloads, and server hardware.",
   tomsguide_name: "Tom's Guide",
   tomsguide_desc: "Opens Tom's Guide, a site offering tech reviews, buying guides, and consumer electronics recommendations.",
   ninetofivegoogle_name: "9to5Google",

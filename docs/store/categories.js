@@ -3297,6 +3297,13 @@ export const categories = [
         url: "https://musictech.com"
       },
       {
+        name: "Ampere Computing Community",
+        nameKey: "amperecommunity_name",
+        descriptionKey: "amperecommunity_desc",
+        icon: "icons/pwa/amperecommunity.webp",
+        url: "https://community.amperecomputing.com"
+      },
+      {
         name: "Beebom Gadgets",
         nammeKey: "beebomgadgets_name",
         descriptionKey: "beebomgadgets_desc",
