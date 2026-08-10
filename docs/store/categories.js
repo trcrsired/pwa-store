@@ -4079,6 +4079,15 @@ export const categories = [
         url: "https://www.disclose.tv"
       },
       {
+        name: "The Spokesman-Review",
+        nameKey: "spokesman_name",
+        descriptionKey: "spokesman_desc",
+        icon: "icons/wrappers/spokesman.webp",
+        url2: "/wrappers/spokesman",
+        apptype2: "wrapper",
+        url: "https://www.spokesman.com"
+      },
+      {
         name: "FactCheck.org",
         nameKey: "factcheck_name",
         descriptionKey: "factcheck_desc",
