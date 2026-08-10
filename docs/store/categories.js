@@ -4086,6 +4086,15 @@ export const categories = [
         url: "https://www.disclose.tv"
       },
       {
+        name: "The Spokesman-Review",
+        nameKey: "spokesman_name",
+        descriptionKey: "spokesman_desc",
+        icon: "icons/wrappers/spokesman.webp",
+        url2: "/wrappers/spokesman",
+        apptype2: "wrapper",
+        url: "https://www.spokesman.com"
+      },
+      {
         name: "FactCheck.org",
         nameKey: "factcheck_name",
         descriptionKey: "factcheck_desc",
@@ -4553,6 +4562,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://electronicintifada.net"
       },
+      {
+        name: "South Florida Sun Sentinel",
+        nameKey: "sunsentinel_name",
+        descriptionKey: "sunsentinel_desc",
+        icon: "icons/wrappers/sunsentinel.webp",
+        url2: "../wrappers/sunsentinel",
+        apptype2: "wrapper",
+        url: "https://www.sun-sentinel.com"
+      },
     ]
   },
   {
@@ -4864,7 +4882,15 @@ export const categories = [
         nameKey: "zhuzhiliao_name",
         descriptionKey: "zhuzhiliao_desc",
         icon: "icons/pwa/zhuzhiliao.webp",
-        url: "https://zhuzhiliao.icu"
+        url: "https://imsai.top"
+      },
+      {
+        name: "Zhuzhiliao(竹知了)",
+        nameKey: "zhuzhiliao_name",
+        descriptionKey: "zhuzhiliao_desc",
+        icon: "icons/pwa/zhuzhiliao.webp",
+        url: "https://zhuzhiliao.icu",
+        hide: true
       },
       {
         name: "huawei.dog",

@@ -1147,6 +1147,8 @@ const L = {
   elpais_english_desc: "The English edition of Spain's leading daily newspaper, providing comprehensive news coverage, global analysis, and in-depth reporting on Spain and Latin America.",
   disclose_tv_name: "Disclose.tv",
   disclose_tv_desc: "An independent news aggregator and community platform focusing on breaking news, alternative headlines, global events, and unvetted viral discussions.",
+  spokesman_name: "The Spokesman-Review",
+  spokesman_desc: "Daily local and regional news covering Spokane, the Inland Northwest, Washington state politics, sports, and community events.",
   factcheck_name: "FactCheck.org",
   factcheck_desc: "Opens FactCheck.org, a nonpartisan, nonprofit project of the Annenberg Public Policy Center dedicated to checking the factual accuracy of political claims and public statements.",
   scientificamerican_name: "Scientific American",
@@ -2375,6 +2377,8 @@ const L = {
   sinyalee_blog_desc: "Blog essays and articles by Sinya Lee (李新野), featuring insights on quantitative trading, AI, technology, and computer science.",
   electronicintifada_name: "The Electronic Intifada",
   electronicintifada_desc: "An independent online news publication and educational resource focusing on Palestine, Palestinian rights, Middle East politics, and international policy analysis.",
+  sunsentinel_name: "South Florida Sun Sentinel",
+  sunsentinel_desc: "Daily regional news covering South Florida, Fort Lauderdale, Broward, and Palm Beach counties. Features local breaking news, investigations, weather, and sports.",
 
 
 // WeChat Mini Programs

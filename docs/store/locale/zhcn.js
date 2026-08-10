@@ -1141,6 +1141,8 @@ const L = {
   elpais_english_desc: "西班牙第一大日报《国家报》（EL PAÍS）的官方英文频道。提供全面的新闻报道、全球时事分析以及针对西班牙和拉丁美洲地区的深度报道。",
   disclose_tv_name: "Disclose.tv",
   disclose_tv_desc: "独立的非主流新闻聚合与社区讨论平台。主打实时突发新闻、全球热点事件及替代视角的快速追踪与讨论。",
+  spokesman_name: "发言人评论报 (The Spokesman-Review)",
+  spokesman_desc: "美国华盛顿州斯波坎市与西北太平洋地区的日报门户。提供当地社区新闻、华盛顿州政坛动态、体育赛事及生活资讯。",
   devdiscourse_name: "Devdiscourse",
   devdiscourse_desc: "打开 Devdiscourse，一个报道全球发展、科技、政策、环境与国际事务的新闻平台。",
   factcheck_name: "FactCheck.org",
@@ -2376,6 +2378,8 @@ const L = {
   sinyalee_blog_desc: "李新野的中文博客。分享关于量化交易、人工智能、技术与计算机科学领域的深度随笔与文章。",
   electronicintifada_name: "The Electronic Intifada",
   electronicintifada_desc: "关注巴勒斯坦局势、中东政治及相关国际人权政策的独立在线新闻与分析平台。提供深度报道、社论及视听节目。",
+  sunsentinel_name: "南佛罗里达太阳哨兵报 (Sun Sentinel)",
+  sunsentinel_desc: "服务于南佛罗里达州及罗德岱堡地区的独立主流日报。提供当地突发新闻、调查性报道、飓风与天气预警及社区动态。",
 
 
 // WeChat Mini Programs
