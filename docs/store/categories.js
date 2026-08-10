@@ -4555,6 +4555,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://electronicintifada.net"
       },
+      {
+        name: "South Florida Sun Sentinel",
+        nameKey: "sunsentinel_name",
+        descriptionKey: "sunsentinel_desc",
+        icon: "icons/wrappers/sunsentinel.webp",
+        url2: "../wrappers/sunsentinel",
+        apptype2: "wrapper",
+        url: "https://www.sun-sentinel.com"
+      },
     ]
   },
   {

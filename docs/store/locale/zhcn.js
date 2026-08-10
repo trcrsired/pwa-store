@@ -2376,6 +2376,8 @@ const L = {
   sinyalee_blog_desc: "李新野的中文博客。分享关于量化交易、人工智能、技术与计算机科学领域的深度随笔与文章。",
   electronicintifada_name: "The Electronic Intifada",
   electronicintifada_desc: "关注巴勒斯坦局势、中东政治及相关国际人权政策的独立在线新闻与分析平台。提供深度报道、社论及视听节目。",
+  sunsentinel_name: "南佛罗里达太阳哨兵报 (Sun Sentinel)",
+  sunsentinel_desc: "服务于南佛罗里达州及罗德岱堡地区的独立主流日报。提供当地突发新闻、调查性报道、飓风与天气预警及社区动态。",
 
 
 // WeChat Mini Programs

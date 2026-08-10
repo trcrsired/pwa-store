@@ -2375,6 +2375,8 @@ const L = {
   sinyalee_blog_desc: "Blog essays and articles by Sinya Lee (李新野), featuring insights on quantitative trading, AI, technology, and computer science.",
   electronicintifada_name: "The Electronic Intifada",
   electronicintifada_desc: "An independent online news publication and educational resource focusing on Palestine, Palestinian rights, Middle East politics, and international policy analysis.",
+  sunsentinel_name: "South Florida Sun Sentinel",
+  sunsentinel_desc: "Daily regional news covering South Florida, Fort Lauderdale, Broward, and Palm Beach counties. Features local breaking news, investigations, weather, and sports.",
 
 
 // WeChat Mini Programs
