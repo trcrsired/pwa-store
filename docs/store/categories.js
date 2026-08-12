@@ -8122,6 +8122,15 @@ export const categories = [
         url: "https://sinyalee.com/blog"
       },
       {
+        name: "Jeffrey Snover's Blog",
+        nameKey: "jsnover_name",
+        descriptionKey: "jsnover_desc",
+        icon: "icons/wrappers/jsnover.webp",
+        url2: "../wrappers/jsnover",
+        apptype2: "wrapper",
+        url: "https://www.jsnover.com"
+      },
+      {
         name: "AMD AI Research Club (AMD AI 研习社)",
         nameKey: "amdai_name",
         descriptionKey: "amdai_desc",

@@ -2375,6 +2375,8 @@ const L = {
   sinyalee_desc: "Personal website and blog of Sinya Lee (李新野), founder and CEO of Alpha Star Research. Features essays and insights on quantitative trading, AI, systems programming, and computer science.",
   sinyalee_blog_name: "Sinya Lee Blog",
   sinyalee_blog_desc: "Blog essays and articles by Sinya Lee (李新野), featuring insights on quantitative trading, AI, technology, and computer science.",
+  jsnover_name: "Jeffrey Snover's Blog",
+  jsnover_desc: "Personal blog of Jeffrey Snover, creator and architect of PowerShell. Features posts on PowerShell, system architecture, cloud computing, and software engineering.",
   electronicintifada_name: "The Electronic Intifada",
   electronicintifada_desc: "An independent online news publication and educational resource focusing on Palestine, Palestinian rights, Middle East politics, and international policy analysis.",
   sunsentinel_name: "South Florida Sun Sentinel",

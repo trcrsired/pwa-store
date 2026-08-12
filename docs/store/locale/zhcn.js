@@ -2376,6 +2376,8 @@ const L = {
   sinyalee_desc: "Alpha Star Research 创始人兼 CEO 李新野的个人网站与中文博客。分享量化交易、人工智能、系统编程及计算机科学领域的深度思考与文章。",
   sinyalee_blog_name: "李新野博客",
   sinyalee_blog_desc: "李新野的中文博客。分享关于量化交易、人工智能、技术与计算机科学领域的深度随笔与文章。",
+  jsnover_name: "Jeffrey Snover 的博客",
+  jsnover_desc: "PowerShell 发明人与总架构师 Jeffrey Snover 的个人博客。分享关于 PowerShell、系统架构、云计算与软件工程的思考与技术文章。",
   electronicintifada_name: "The Electronic Intifada",
   electronicintifada_desc: "关注巴勒斯坦局势、中东政治及相关国际人权政策的独立在线新闻与分析平台。提供深度报道、社论及视听节目。",
   sunsentinel_name: "南佛罗里达太阳哨兵报 (Sun Sentinel)",

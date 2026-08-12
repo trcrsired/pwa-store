@@ -278,6 +278,7 @@ WRAPPERS = [
   { "name": "Mitchell Hashimoto", "url": "https://mitchellh.com", "keyify_name": "mitchellh" },
   { "name": "Sinya Lee", "url": "https://sinyalee.com/blog" },
   { "name": "Sinya Lee Blog", "url": "https://sinyalee.com/blog", "keyify_name": "sinyalee_blog", "icon": "sinyalee.webp" },
+  { "name": "Jeffrey Snover's Blog", "url": "https://www.jsnover.com", "keyify_name": "jsnover" },
   { "name": "The Electronic Intifada", "url": "https://electronicintifada.net", "keyify_name": "electronicintifada" },
   { "name": "South Florida Sun Sentinel", "url": "https://www.sun-sentinel.com", "keyify_name": "sunsentinel" },
   { "name": "Herb Sutter", "url": "https://herbsutter.com", "keyify_name": "herbsutter" },

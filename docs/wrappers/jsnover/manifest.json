@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "Jeffrey Snover's Blog",
+  "short_name": "Jeffrey Snover's Blog",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Jeffrey Snover's Blog",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "icons": [
+    {
+      "src": "./icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
