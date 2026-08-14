@@ -131,7 +131,7 @@ WRAPPERS = [
   { "name": "조선일보", "url": "https://www.chosun.com", "keyify_name": "thechosundaily" },
   { "name": "cppreference", "url": "https://en.cppreference.com" },
   { "name": "JavaBook", "url": "https://javabook.mccue.dev" },
-  { "name": "MOOC.fi", "url": "https://javabook.mccue.dev", "keyify_name": "mmocfi" },
+  { "name": "MOOC.fi", "url": "https://www.mooc.fi", "keyify_name": "moocfi" },
   { "name": "JSLinux", "url": "https://bellard.org/jslinux" },
   { "name": "Compiler Explorer", "url": "https://godbolt.org", "keyify_name": "godbolt" },
   { "name": "linux.die", "url": "https://linux.die.net" },

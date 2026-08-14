@@ -1,4 +1,4 @@
 window.appConfig = {
   title: "MOOC.fi",
-  url: "https://javabook.mccue.dev"
+  url: "https://www.mooc.fi"
 };
