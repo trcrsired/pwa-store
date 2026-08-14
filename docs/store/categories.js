@@ -1653,6 +1653,15 @@ export const categories = [
         url: "https://searx.space"
       },
       {
+        name: "China Unicom Shanghai E-Bill (上海联通电子账单)",
+        nameKey: "unicom_sh_ebill_name",
+        descriptionKey: "unicom_sh_ebill_desc",
+        icon: "icons/wechatmini/chinaunicom.webp",
+        url2: "../wrappers/unicom_sh_ebill",
+        apptype2: "wrapper",
+        url: "https://ebill.10010sh.cn"
+      },
+      {
         name: "China Telecom (中国电信)",
         nameKey: "chinatelecom_name",
         descriptionKey: "chinatelecom_desc",

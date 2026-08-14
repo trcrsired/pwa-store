@@ -428,6 +428,7 @@ WRAPPERS = [
   { "name": "Mojeek", "url": "https://www.mojeek.com" },
   { "name": "SearXNG", "url": "https://docs.searxng.org" },
   { "name": "searx.space", "url": "https://searx.space", "keyify_name": "searx_space", "icon": "searxng.webp" },
+  { "name": "China Unicom Shanghai E-Bill", "url": "https://ebill.10010sh.cn", "keyify_name": "unicom_sh_ebill", "icon": "../wechatmini/chinaunicom.webp" },
   { "name": "DingTalk", "url": "https://workspace.dingtalk.com" },
   { "name": "QQ Mail", "url": "https://mail.qq.com", "keyify_name":"qqmail" },
   { "name": "163 Mail", "url": "https://mail.163.com", "keyify_name":"netease163" },

@@ -526,6 +526,8 @@ const L = {
   searxng_desc: "开源元搜索引擎 SearXNG 的官方文档。SearXNG 是一款尊重隐私的分布式搜索工具，能够聚合数十种搜索引擎的结果且不会留下任何追踪记录。",
   searx_space_name: "searx.space",
   searx_space_desc: "SearXNG / Searx 公共实例节点追踪站。帮助用户在全球范围内寻找活跃、安全且速度最快的去中心化分布式元搜索节点。",
+  unicom_sh_ebill_name: "上海联通电子账单",
+  unicom_sh_ebill_desc: "中国联通上海市分公司官方电子账单服务平台。提供月度通信账单查询、费用明细核对及账单相关业务办理。",
   mail_name: "邮箱",
   protonaccount_name: "Proton 账户",
   protonaccount_desc: "打开 Proton 账户登录入口，用于访问 Proton Mail、Drive、VPN、Calendar 和 Pass。",

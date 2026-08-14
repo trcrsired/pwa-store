@@ -525,6 +525,8 @@ const L = {
   searxng_desc: "The official documentation for SearXNG, a privacy-respecting, open-source metasearch engine that aggregates results from dozens of search engines without tracking users.",
   searx_space_name: "searx.space",
   searx_space_desc: "The ultimate public instance tracker for SearXNG and Searx, helping users find active, secure, and fast decentralized metasearch nodes globally.",
+  unicom_sh_ebill_name: "China Unicom Shanghai E-Bill",
+  unicom_sh_ebill_desc: "Official e-bill and account management portal for China Unicom Shanghai subscribers. View monthly telecom bills, usage details, and manage billing services.",
   mail_name: "Mail",
   protonaccount_name: "Proton Account",
   protonaccount_desc: "Opens the Proton Account login portal for Proton Mail, Drive, VPN, Calendar, and Pass.",
