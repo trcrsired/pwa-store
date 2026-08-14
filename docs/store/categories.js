@@ -630,6 +630,7 @@ export const categories = [
     ]
   },
   {
+    name: "Google Services",
     nameKey: "google_services_name",
     apps: [
       { name: "Google", icon: "icons/pwa/google.webp", url: "https://www.google.com", descriptionKey: "google_desc" },
@@ -663,6 +664,20 @@ export const categories = [
         descriptionKey: "google_finance_desc",
         icon: "icons/pwa/google_finance.webp",
         url: "https://www.google.com/finance"
+      },
+      {
+        name: "Google AI Studio",
+        nameKey: "google_aistudio_name",
+        descriptionKey: "google_aistudio_desc",
+        icon: "icons/pwa/google_aistudio.webp",
+        url: "https://aistudio.google.com"
+      },
+      {
+        name: "Google AI for Developers",
+        nameKey: "google_ai_dev_name",
+        descriptionKey: "google_ai_dev_desc",
+        icon: "icons/pwa/google_ai_dev.webp",
+        url: "https://ai.google.dev"
       },
       { name: "Gmail", icon: "icons/wrappers/gmail.webp", url2: "../wrappers/gmail", descriptionKey: "gmail_desc", apptype2: "wrapper", url: "https://mail.google.com" },
       { name: "Google Trends", icon: "icons/wrappers/googletrends.webp", url2: "../wrappers/googletrends", descriptionKey: "googletrends_desc", apptype2: "wrapper", url: "https://trends.google.com" },
