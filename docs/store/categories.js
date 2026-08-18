@@ -5040,6 +5040,15 @@ export const categories = [
         url: "https://pinball.alula.me"
       },
       {
+        name: "Warcraft 3 Replays",
+        nameKey: "war3replays_name",
+        descriptionKey: "war3replays_desc",
+        icon: "icons/wrappers/war3replays.webp",
+        url2: "../wrappers/war3replays",
+        apptype2: "wrapper",
+        url: "https://war3replays.com"
+      },
+      {
         name: "QQ Classic Farm (QQ经典农场)",
         nameKey: "qqclassicfarm_name",
         descriptionKey: "qqclassicfarm_desc",
@@ -5803,6 +5812,15 @@ export const categories = [
         url2: "../wrappers/seeklogo",
         apptype2: "wrapper",
         url: "https://seeklogo.com"
+      },
+      {
+        name: "Warcraft Wiki",
+        nameKey: "warcraft_wiki_name",
+        descriptionKey: "warcraft_wiki_desc",
+        icon: "icons/wrappers/warcraft_wiki.webp",
+        url2: "../wrappers/warcraft_wiki",
+        apptype2: "wrapper",
+        url: "https://warcraft.wiki.gg"
       },
     ]
   },

@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "Warcraft 3 Replays",
+  "short_name": "Warcraft 3 Replays",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Warcraft 3 Replays",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "icons": [
+    {
+      "src": "./icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}
