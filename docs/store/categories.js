@@ -115,6 +115,13 @@ export const categories = [
         icon: "icons/pwa/markdownviewer.svg",
         url: "https://spskelly.github.io/markdown-viewer"
       },
+      {
+        name: "3color",
+        nameKey: "3color_name",
+        descriptionKey: "3color_desc",
+        icon: "icons/pwa/3color.webp",
+        url: "https://3color.pages.dev"
+      },
     ]
   },
   {

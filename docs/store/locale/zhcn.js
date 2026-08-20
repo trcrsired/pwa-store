@@ -139,6 +139,8 @@ const L = {
   pwageolocation_desc: "打开 PWA Geolocation，一个轻量级的渐进式网络应用，使用浏览器定位 API 显示实时坐标、速度、海拔与精度信息。",
   markdownviewer_name: "Markdown Viewer",
   markdownviewer_desc: "打开 Markdown Viewer，一个轻量级网页应用，可直接在浏览器中渲染和预览 Markdown (.md)文件。",
+  "3color_name": "3color",
+  "3color_desc": "极简的三色配色方案生成与预览在线工具。适用于 UI 设计、插画创作及视觉风格设计灵感探索。",
   "alternatives_name": "替代品",
   qrcodetools_name: "二维码工具",
   qrcodetools_desc: "轻松生成、扫描和管理二维码，适用于开发者、市场人员和日常用户。",

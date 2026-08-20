@@ -138,6 +138,8 @@ const L = {
   pwageolocation_desc: "Opens PWA Geolocation, a lightweight Progressive Web App that displays real‑time coordinates, speed, altitude, and accuracy using the Web Geolocation API.",
   markdownviewer_name: "Markdown Viewer",
   markdownviewer_desc: "Opens Markdown Viewer, a lightweight web app for rendering and previewing Markdown (.md) files directly in your browser.",
+  "3color_name": "3color",
+  "3color_desc": "A minimalist web tool for generating, previewing, and exploring three-color palettes and color combinations for UI and graphic design.",
   "alternatives_name": "Alternatives",
   qrcodetools_name: "QR Code Tools",
   qrcodetools_desc: "Generate, scan, and manage QR codes with ease. Ideal for developers, marketers, and everyday users.",
