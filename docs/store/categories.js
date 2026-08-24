@@ -6133,6 +6133,20 @@ export const categories = [
     nameKey: "streaming_name",
     apps: [
       {
+        name: "GDStudio Music (Global Edition)",
+        nameKey: "gdstudio_music_xyz_name",
+        descriptionKey: "gdstudio_music_xyz_desc",
+        icon: "icons/pwa/gdstudio_music.webp",
+        url: "https://music.gdstudio.xyz"
+      },
+      {
+        name: "GDStudio Music (Mainland China Edition)",
+        nameKey: "gdstudio_music_org_name",
+        descriptionKey: "gdstudio_music_org_desc",
+        icon: "icons/pwa/gdstudio_music.webp",
+        url: "http://music.gdstudio.org"
+      },
+      {
         name: "Spotify",
         nameKey: "spotify_name",
         descriptionKey: "spotify_desc",
