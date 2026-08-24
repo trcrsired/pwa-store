@@ -3541,6 +3541,13 @@ export const categories = [
         url: "https://forums.androidcentral.com"
       },
       {
+        name: "Looksmaxxing Forum",
+        nameKey: "looksmaxxing_forum_name",
+        descriptionKey: "looksmaxxing_forum_desc",
+        icon: "icons/pwa/looksmaxxing_forum.webp",
+        url: "https://forum.looksmaxxing.com"
+      },
+      {
         name: "IPRoyal",
         nameKey: "iproyal_name",
         descriptionKey: "iproyal_desc",

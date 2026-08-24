@@ -820,6 +820,8 @@ const L = {
   emacschina_desc: "可能是最好的 Emacs 中文论坛",
   androidcentralforums_name: "Android Central 论坛",
   androidcentralforums_desc: "打开 Android Central 论坛，一个用于 Android 帮助、故障排查、设备讨论与技巧分享的社区。",
+  looksmaxxing_forum_name: "Looksmaxxing 形象提升论坛",
+  looksmaxxing_forum_desc: "专注于个人外表与形象管理（Looksmaxxing）的在线讨论社区。涵盖面部美学、健身体态、护肤理容、穿搭指导及自律提升经验分享。",
   iproyal_name: "IPRoyal",
   iproyal_desc: "专业的代理服务提供商，提供住宅、数据中心及移动代理解决方案，适用于数据采集和隐私保护。",
   wired_name: "WIRED (连线)",
