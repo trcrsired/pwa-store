@@ -1501,6 +1501,15 @@ export const categories = [
         url: "https://bellard.org/jslinux"
       },
       {
+        name: "OpenCode",
+        nameKey: "opencode_name",
+        descriptionKey: "opencode_desc",
+        icon: "icons/msedge/opencode.webp",
+        url2: "../msedge/opencode",
+        apptype2: "wrapper",
+        url: "https://opencode.ai"
+      },
+      {
         name: "Mini Program Demo (小程序示例)",
         nameKey: "miniprogramdemo_name",
         descriptionKey: "miniprogramdemo_desc",

@@ -502,6 +502,8 @@ const L = {
   moocfi_desc: "Opens MOOC.fi, a Finnish platform offering free online courses in programming and computer science.",
   jslinux_name: "JSLinux",
   jslinux_desc: "A PC emulator written in JavaScript that allows you to run Linux, Windows 2000, and other operating systems entirely within your browser.",
+  opencode_name: "OpenCode",
+  opencode_desc: "An AI-powered open source code generation and developer collaboration platform designed to assist programmers with code writing, refactoring, and debugging.",
   newpipe_name: "NewPipe",
   newpipe_desc: "Opens NewPipe, a free and privacy-friendly open-source YouTube client for Android with background play, downloads, and no ads.",
   dailymotion_name: "Dailymotion",

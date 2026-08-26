@@ -495,6 +495,8 @@ const L = {
   moocfi_desc: "打开 MOOC.fi，一个提供免费编程与计算机科学课程的芬兰在线学习平台。",
   jslinux_name: "JSLinux",
   jslinux_desc: "一个用 JavaScript 编写的 PC 模拟器，允许您完全在浏览器中运行 Linux、Windows 2000 等多种操作系统。",
+  opencode_name: "OpenCode",
+  opencode_desc: "AI 驱动的开源智能代码生成与开发协作平台。提供代码编写、重构指导及程序调试辅助，提升开发效率。",
   newpipe_name: "NewPipe",
   newpipe_desc: "打开 NewPipe，一个开源、无广告、隐私友好的 Android YouTube 客户端，支持后台播放与下载。",
   dailymotion_name: "Dailymotion",
