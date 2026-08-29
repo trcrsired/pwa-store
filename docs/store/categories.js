@@ -122,6 +122,13 @@ export const categories = [
         icon: "icons/pwa/3color.webp",
         url: "https://3color.pages.dev"
       },
+      {
+        name: "urljump",
+        nameKey: "urljump_name",
+        descriptionKey: "urljump_desc",
+        icon: "icons/pwa/urljump.webp",
+        url: "https://urljump-2gd.pages.dev"
+      },
     ]
   },
   {

@@ -140,6 +140,8 @@ const L = {
   markdownviewer_desc: "Opens Markdown Viewer, a lightweight web app for rendering and previewing Markdown (.md) files directly in your browser.",
   "3color_name": "3color",
   "3color_desc": "A minimalist web tool for generating, previewing, and exploring three-color palettes and color combinations for UI and graphic design.",
+  urljump_name: "urljump",
+  urljump_desc: "A lightweight utility for entering and navigating directly to custom Web URLs within the PWA wrapper environment.",
   "alternatives_name": "Alternatives",
   qrcodetools_name: "QR Code Tools",
   qrcodetools_desc: "Generate, scan, and manage QR codes with ease. Ideal for developers, marketers, and everyday users.",
