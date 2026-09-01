@@ -1161,6 +1161,8 @@ const L = {
   elpais_english_desc: "The English edition of Spain's leading daily newspaper, providing comprehensive news coverage, global analysis, and in-depth reporting on Spain and Latin America.",
   disclose_tv_name: "Disclose.tv",
   disclose_tv_desc: "An independent news aggregator and community platform focusing on breaking news, alternative headlines, global events, and unvetted viral discussions.",
+  nextshark_name: "NextShark",
+  nextshark_desc: "A digital news platform covering Asian and Asian American news, culture, business, entertainment, and trending global stories.",
   spokesman_name: "The Spokesman-Review",
   spokesman_desc: "Daily local and regional news covering Spokane, the Inland Northwest, Washington state politics, sports, and community events.",
   factcheck_name: "FactCheck.org",

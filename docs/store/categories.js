@@ -4140,6 +4140,13 @@ export const categories = [
         url: "https://www.disclose.tv"
       },
       {
+        name: "NextShark",
+        nameKey: "nextshark_name",
+        descriptionKey: "nextshark_desc",
+        icon: "icons/pwa/nextshark.webp",
+        url: "https://nextshark.com"
+      },
+      {
         name: "The Spokesman-Review",
         nameKey: "spokesman_name",
         descriptionKey: "spokesman_desc",
