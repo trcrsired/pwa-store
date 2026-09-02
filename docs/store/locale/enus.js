@@ -1730,6 +1730,8 @@ const L = {
   unlockmusic_desc: "Opens Unlock Music, a browser-based tool for decrypting purchased music files from platforms like QQ Music, Netease Cloud Music, and more.",
   bookreader2056app_name: "2056 Book Reader App",
   bookreader2056app_desc: "Opens the 2056 Book Reader web app for reading books and documents online.",
+  pydong_name: "PyDong",
+  pydong_desc: "Technical blog by Matthias Wippich focusing on arcane C++ and Python techniques, ISO C++ standardization (WG21), compiler internals, and metaprogramming.",
   iheart_name: "iHeart",
   iheart_desc: "Opens iHeart, a major audio platform offering radio stations, podcasts, music streaming, and live shows.",
   plyric_name: "Plyric",

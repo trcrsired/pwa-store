@@ -1724,6 +1724,8 @@ const L = {
   unlockmusic_desc: "打开 Unlock Music，一个在浏览器中解锁各大音乐平台加密格式的开源工具，支持 QQ 音乐、网易云、酷狗等多种格式。",
   bookreader2056app_name: "2056 Book Reader 应用",
   bookreader2056app_desc: "打开 2056 Book Reader 的网页阅读器，用于在线阅读图书与文档。",
+  pydong_name: "PyDong (Matthias Wippich 博客)",
+  pydong_desc: "ISO C++ 委员会成员 Matthias Wippich 的技术博客。主打 C++ 与 Python 的高级/冷门特性、元编程、编译器机制与 C++26 标准提案。",
   rsstea_name: "rssTea",
   rsstea_desc: "打开 rssTea，一个轻量级的浏览器 RSS 阅读器，用于管理和查看订阅源。",
   pwa_mp3_player_name: "PWA MP3 Player",

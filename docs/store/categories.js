@@ -7987,6 +7987,13 @@ export const categories = [
         url: "https://2056bookreader.com"
       },
       {
+        name: "PyDong",
+        nameKey: "pydong_name",
+        descriptionKey: "pydong_desc",
+        icon: "icons/pwa/pydong.webp",
+        url: "https://pydong.org"
+      },
+      {
         name: "Herb Sutter",
         nameKey: "herbsutter_name",
         descriptionKey: "herbsutter_desc",
