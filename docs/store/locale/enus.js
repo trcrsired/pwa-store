@@ -2301,6 +2301,8 @@ const L = {
   webportal_name: "Web Portal",
   hao123_name: "hao123",
   hao123_desc: "Opens hao123, a classic Chinese web portal offering categorized navigation links and a portal-style homepage.",
+  webportal265_name: "265 Web Portal (265上网导航)",
+  webportal265_desc: "A clean, fast-loading Chinese web directory offering curated links to search engines, news, videos, shopping, social platforms, tools, and other high‑frequency internet destinations.",
   otherpwastores_name: "Other PWA Stores",
   progressivewebappstore_name: "progressivewebapp.store",
   progressivewebappstore_desc: "A curated directory of Progressive Web Apps across categories, highlighting installable and high-quality experiences.",

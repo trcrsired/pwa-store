@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "265\u4e0a\u7f51\u5bfc\u822a",
+  "short_name": "265\u4e0a\u7f51\u5bfc\u822a",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for 265\u4e0a\u7f51\u5bfc\u822a",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "icons": [
+    {
+      "src": "./icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -9275,6 +9275,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.hao123.com"
       },
+      {
+        name: "Web Portal 265 (265上网导航)",
+        nameKey: "webportal265_name",
+        descriptionKey: "webportal265_desc",
+        url: "https://www.265.com",
+        apptype: "wrapper",
+        url2: "../wrappers/webportal265",
+        icon: "icons/wrappers/webportal265.webp"
+      },
     ]
   },
   {

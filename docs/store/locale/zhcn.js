@@ -2303,6 +2303,8 @@ const L = {
   webportal_name: "网络门户",
   hao123_name: "hao123",
   hao123_desc: "打开 hao123，一个经典的中文门户网站，提供分类网址导航与门户式上网入口。",
+  webportal265_name: "265上网导航",
+  webportal265_desc: "一个简洁、快速加载的中文上网导航站点，提供精心整理的搜索引擎、新闻、视频、购物、社交平台、实用工具等高频网站链接，方便用户快速访问各类常用互联网服务。",
   otherpwastores_name: "其他PWA商店",
   progressivewebappstore_name: "progressivewebapp.store",
   progressivewebappstore_desc: "一个精选渐进式网络应用目录，按类别展示可安装的高质量应用体验。",

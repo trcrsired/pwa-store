@@ -595,6 +595,7 @@ WRAPPERS = [
   { "name" : "Nanjing University (南京大学)", "url": "https://www.nju.edu.cn", "keyify_name": "nju" },
 
   { "name" : "hao123", "url": "https://www.hao123.com" },
+  { "name" : "265上网导航", "url": "https://www.265.com", "keyify_name": "webportal265" },
 
   { "name" : "Yande", "url": "https://yande.re" },
   { "name" : "MissAV TV", "url": "https://missavtv.com/en" },
