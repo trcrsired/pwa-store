@@ -140,6 +140,7 @@ WRAPPERS = [
   { "name": "MMO Champion", "url": "https://www.mmo-champion.com", "keyify_name": "mmo-champion" },
   { "name": "Target", "url": "https://www.target.com" },
   { "name": "TED", "url": "https://www.ted.com" },
+  { "name": "SafeReddit", "url": "https://safereddit.com" },
   { "name": "Bluesky", "url": "https://bsky.app", "apptype": "msedge" },
   { "name": "Loops.video", "url": "https://loops.video", "apptype": "msedge" },
   { "name": "Piefed", "url": "https://piefed.social", "apptype": "msedge" },

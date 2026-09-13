@@ -572,6 +572,8 @@ const L = {
   piefed_name: "Piefed",
   piefed_desc: "打开 Piefed.social，一个兼容 Pixelfed 的联邦宇宙照片分享实例。",
   reddit_desc: "社区驱动的讨论论坛。",
+  safereddit_name: "SafeReddit",
+  safereddit_desc: "轻量级且注重隐私的第三方 Reddit 镜像客户端。无需跟踪脚本即可流畅浏览社区帖子、评论及媒体内容。",
   x_name: "X(推特)",
   x_desc: "以文本为主的社交更新与交流平台。",
   mastodon_desc: "Mastodon 是一款自由开源软件，允许你加入或创建自己的服务器，并与整个联邦宇宙中的任何人交流。",

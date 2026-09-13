@@ -573,6 +573,8 @@ const L = {
   piefed_name: "Piefed",
   piefed_desc: "Opens Piefed.social, a federated photo‑sharing instance compatible with Pixelfed.",
   reddit_desc: "Community-driven discussion forums.",
+  safereddit_name: "SafeReddit",
+  safereddit_desc: "A lightweight, privacy-focused alternative web frontend for browsing Reddit posts, comments, and media without tracker scripts.",
   x_name: "X (Twitter)",
   x_desc: "Text-based social updates and chatter.",
   mastodon_desc: "Mastodon is a free and open-source software that lets you join or create your own server and communicate with anyone across the fediverse.",

@@ -1817,6 +1817,15 @@ export const categories = [
         descriptionKey: "reddit_desc"
       },
       {
+        name: "SafeReddit",
+        nameKey: "safereddit_name",
+        descriptionKey: "safereddit_desc",
+        icon: "icons/wrappers/safereddit.webp",
+        url2: "../wrappers/safereddit",
+        apptype2: "wrapper",
+        url: "https://safereddit.com"
+      },
+      {
         name: "X (Twitter)",
         nameKey: "x_name",
         icon: "icons/pwa/x.webp",
