@@ -1203,6 +1203,13 @@ export const categories = [
         url: "https://buildkite.com/llvm-project"
       },
       {
+        name: "LLVM Discourse",
+        nameKey: "llvm_discourse_name",
+        descriptionKey: "llvm_discourse_desc",
+        icon: "icons/pwa/llvm_discourse.webp",
+        url: "https://discourse.llvm.org"
+      },
+      {
         name: "Visual Studio Developer Community",
         nameKey: "vsdevcomm_name",
         descriptionKey: "vsdevcomm_desc",
@@ -8254,6 +8261,15 @@ export const categories = [
         url2: "../wrappers/jsnover",
         apptype2: "wrapper",
         url: "https://www.jsnover.com"
+      },
+      {
+        name: "Ryan Marler's Blog",
+        nameKey: "marler8997_blog_name",
+        descriptionKey: "marler8997_blog_desc",
+        icon: "icons/wrappers/marler8997_blog.webp",
+        url2: "/wrappers/marler8997_blog",
+        apptype2: "wrapper",
+        url: "https://marler8997.github.io"
       },
       {
         name: "AMD AI Research Club (AMD AI 研习社)",
