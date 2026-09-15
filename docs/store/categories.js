@@ -1206,7 +1206,7 @@ export const categories = [
         name: "LLVM Discourse",
         nameKey: "llvm_discourse_name",
         descriptionKey: "llvm_discourse_desc",
-        icon: "icons/pwa/llvm_discourse.webp",
+        icon: "icons/native/llvm.webp",
         url: "https://discourse.llvm.org"
       },
       {
