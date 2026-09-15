@@ -1941,9 +1941,11 @@ export const categories = [
       },
       {
         name: "Discord",
-        icon: "icons/pwa/discord.webp",
+        icon: "icons/msedge/discord.webp",
         url: "https://discord.com/app",
-        descriptionKey: "discord_desc"
+        descriptionKey: "discord_desc",
+        url2: "../msedge/discord",
+        apptype2: "wrapper",
       },
       {
         name: "Telegram",
@@ -4176,7 +4178,7 @@ export const categories = [
         nameKey: "spokesman_name",
         descriptionKey: "spokesman_desc",
         icon: "icons/wrappers/spokesman.webp",
-        url2: "/wrappers/spokesman",
+        url2: "../wrappers/spokesman",
         apptype2: "wrapper",
         url: "https://www.spokesman.com"
       },
@@ -7767,7 +7769,7 @@ export const categories = [
         nameKey: "bk_china_recruitment_name",
         descriptionKey: "bk_china_recruitment_desc",
         icon: "icons/wrappers/bk_china_recruitment.webp",
-        url2: "/wrappers/bk_china_recruitment",
+        url2: "../wrappers/bk_china_recruitment",
         apptype2: "wrapper",
         url: "https://app.mokahr.com/social-recruitment/bkchina/164000#/home",
         hide: true
@@ -8267,7 +8269,7 @@ export const categories = [
         nameKey: "marler8997_blog_name",
         descriptionKey: "marler8997_blog_desc",
         icon: "icons/wrappers/marler8997_blog.webp",
-        url2: "/wrappers/marler8997_blog",
+        url2: "../wrappers/marler8997_blog",
         apptype2: "wrapper",
         url: "https://marler8997.github.io"
       },

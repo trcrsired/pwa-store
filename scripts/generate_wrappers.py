@@ -142,6 +142,7 @@ WRAPPERS = [
   { "name": "TED", "url": "https://www.ted.com" },
   { "name": "SafeReddit", "url": "https://safereddit.com" },
   { "name": "Bluesky", "url": "https://bsky.app", "apptype": "msedge" },
+  { "name": "Discord", "url": "https://discord.com/app", "apptype": "msedge" },
   { "name": "Loops.video", "url": "https://loops.video", "apptype": "msedge" },
   { "name": "Piefed", "url": "https://piefed.social", "apptype": "msedge" },
   { "name": "Mail.ru", "url": "https://mail.ru", "keyify_name": "mailru", "apptype": "msedge" },
