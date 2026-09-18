@@ -60,6 +60,13 @@ export const categories = [
         url: "https://wasmpass.pages.dev"
       },
       {
+        name: "Authenticator",
+        nameKey: "authenticator_name",
+        descriptionKey: "authenticator_desc",
+        icon: "icons/pwa/authenticator.webp",
+        url: "https://authenticator-pwa.pages.dev"
+      },
+      {
         name: "Online Compass",
         nameKey: "onlinecompass_name",
         descriptionKey: "onlinecompass_desc",

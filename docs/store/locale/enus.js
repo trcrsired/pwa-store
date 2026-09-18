@@ -123,6 +123,8 @@ const L = {
   paintjs_desc: "Open-source, Web Components-based remake of Microsoft Paint using modern web capabilities.",
   wasmpass_name: "WasmPass",
   wasmpass_desc: "WasmPass is a progressive web app written by the author of this PWA store. It is powered by the C++ fast_io library compiled to WebAssembly, and is based on an example from the fast_io library itself. WasmPass generates secure credentials including passwords, usernames, and PINs of various lengths with options for special characters. Data can be saved locally, and the project is licensed under GPLv3.",
+  authenticator_name: "Authenticator",
+  authenticator_desc: "Authenticator is an offline-first TOTP/HOTP two-factor authenticator PWA written by the author of this PWA store, ported from the Authenticator browser extension. OTP codes are generated in WebAssembly (fast_io) with a JavaScript fallback. All data is stored locally in browser storage — nothing is collected or sent anywhere. Supports camera QR scanning, encrypted backups, WebAuthn verification, and Google Authenticator–compatible QR transfer. Licensed under GPLv3.",
   onlinecompass_name: "Online Compass",
   onlinecompass_desc: "Online Compass is a progressive web app that provides a digital compass in your browser. It uses device orientation and geolocation to show accurate directions without requiring installation.",
   mediaanalyzer_name: "Media Analyzer & Audio Extractor",
