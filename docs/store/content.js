@@ -165,7 +165,7 @@ const renderAppCard = (app) => {
   urlLine.className = 'app-url';
   var appurl = app.url;
   if (isWeChat) {
-    appurl = `/store/wechat/${L("lang")}/`;
+    appurl = `../store/wechat/${L("lang")}/`;
   }
   urlLine.textContent = appurl;
   container.appendChild(urlLine);
@@ -193,7 +193,7 @@ const renderAppCard = (app) => {
     var appurl2 = app.url2;
     const isWeChat2 = apptype2 === "wechat";
     if (isWeChat2) {
-      appurl2 = `/store/wechat/${L("lang")}/`;
+      appurl2 = `../store/wechat/${L("lang")}/`;
     }
 
     const badge2 = document.createElement('span');

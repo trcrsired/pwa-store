@@ -63,6 +63,7 @@ WRAPPERS = [
   { "name": "StreamVaults", "url": "https://streamvaults.ru", "apptype": "msedge" },
   { "name": "无忧书城", "url": "https://www.wyshu.com", "keyify_name": "wyshu" },
   { "name": "FreeVideoSplitter", "url": "https://freevideosplitter.org", "apptype": "msedge" },
+  { "name": "PBS News", "url": "https://www.pbs.org/newshour", "apptype": "msedge", "icon": "pbsnews.webp" },
   { "name": "Chips and Cheese", "url": "https://chipsandcheese.com", "apptype": "msedge" },
   { "name": "Laptop Mag", "url": "https://www.laptopmag.com", "apptype": "msedge" },
   { "name": "Level1Techs", "url": "https://level1techs.com" },

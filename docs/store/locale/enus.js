@@ -1018,6 +1018,8 @@ const L = {
   forbes_desc: "Global media outlet known for business news, financial insights, and influential rankings like the Forbes Billionaires List.",
   pbs_name: "PBS",
   pbs_desc: "U.S. public broadcaster providing educational, cultural, and documentary programming through a network of member stations.",
+  pbsnews_name: "PBS News",
+  pbsnews_desc: "Flagship news program of PBS delivering in-depth reporting, analysis, and documentary-style coverage of U.S. and global events.",
   bbc_name: "BBC",
   bbc_desc: "Global news and media hub—BBC delivers breaking stories, live coverage, and in-depth reporting across politics, culture, and science.",
   ap_name: "Associated Press",
