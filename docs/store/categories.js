@@ -5669,7 +5669,16 @@ export const categories = [
         url2: "../wrappers/ra2diy",
         apptype2: "wrapper",
         url: "https://bbs.ra2diy.com"
-      }
+      },
+      {
+        name: "OSDev Forum",
+        nameKey: "osdevforum_name",
+        descriptionKey: "osdevforum_desc",
+        icon: "icons/wrappers/osdevorg.webp",
+        url2: "../wrappers/osdevforum",
+        apptype2: "wrapper",
+        url: "https://forum.osdev.org"
+      },
     ]
   },
   {

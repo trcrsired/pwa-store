@@ -1557,6 +1557,8 @@ const L = {
   videolan_discourse_desc: "The official community and support forum for VideoLAN projects, including VLC media player, libVLC, x264, and multimedia development discussions.",
   ra2diy_name: "RA2 DIY",
   ra2diy_desc: "A community forum focused on modding and customizing Red Alert 2. Includes tools, tutorials, and user creations.",
+  osdevforum_name: "OSDev Forum",
+  osdevforum_desc: "The primary community forum for operating system development, bare-metal programming, kernel architecture, bootloader design, and driver development.",
   v2ex_name: "V2EX",
   v2ex_desc: "A community of tech enthusiasts, developers, and creatives discussing programming, startups, and internet culture.",
   ngacn_name: "NGA",

@@ -1548,6 +1548,8 @@ const L = {
   videolan_discourse_desc: "VideoLAN 项目官方社区与技术支持论坛。涵盖 VLC 媒体播放器、libVLC、x264 及多媒体开发讨论。",
   ra2diy_name: "红警DIY",
   ra2diy_desc: "一个专注于《红色警戒2》修改与定制的社区论坛，提供工具、教程与玩家作品分享。",
+  osdevforum_name: "OSDev 操作系统开发论坛",
+  osdevforum_desc: "面向操作系统开发者的核心技术讨论社区。涵盖内核架构设计、裸机编程、Bootloader 开发、驱动编写及硬件底层交互。",
   v2ex_name: "V2EX",
   v2ex_desc: "一个面向技术爱好者、开发者和创意人的社区，讨论编程、创业和互联网文化。",
   ngacn_name: "NGA",

@@ -472,6 +472,7 @@ WRAPPERS = [
   { "name": "超星V8", "url": "https://v8.chaoxing.com", "keyify_name": "chaoxingv8" },
   { "name": "超星iMooc", "url": "https://imooc.ntu.edu.cn", "keyify_name": "ntuimooc", "icon": "chaoxingv8.webp" },
   { "name": "红警DIY", "url": "https://bbs.ra2diy.com", "keyify_name": "ra2diy" },
+  { "name": "OSDev Forum", "url": "https://forum.osdev.org", "keyify_name": "osdevforum", "icon": "osdevorg.webp" },
   { "name": "WoW.tools Archive", "url": "https://archive.wow.tools", "keyify_name": "wowtoolsarchive", "apptype": "msedge" },
   { "name": "Liquipedia", "url": "https://liquipedia.net", "apptype": "msedge" },
   { "name": "Marxists Internet Archive", "url": "https://www.marxists.org", "keyify_name": "marxistsorg" },
