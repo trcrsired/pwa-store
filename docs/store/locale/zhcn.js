@@ -448,6 +448,8 @@ const L = {
   isocpp_desc: "isocpp.org 是 C++ 标准基金会的官方网站，致力于推广现代 C++ 的理解与应用。",
   java_name: "Java",
   java_desc: "Java编程语言官方网站，提供运行环境下载与开发者资源。",
+  vlang_name: "V 语言 (V lang)",
+  vlang_desc: "V 语言 (v lang) 官方开发者门户。提供语言文档、快速上手教程、官方包索引、在线 Playground 及版本更新动态。",
   linuxdie_name: "Linux.die",
   linuxdie_desc: "Linux 文档、man 页面和 HOWTO 指南的综合档案库，适合开发者和系统管理员快速查阅。",
   godbolt_desc: "交互式编译器探索工具，支持 C、C++、Rust 等语言，可视化汇编输出并比较不同工具链的优化效果。",

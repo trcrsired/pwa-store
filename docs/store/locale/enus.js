@@ -449,6 +449,8 @@ const L = {
   isocpp_desc: "isocpp.org is the official website for the Standard C++ Foundation, which supports the C++ software developer community and promotes the understanding and use of modern Standard C++.",
   java_name: "Java",
   java_desc: "The official site for the Java programming language, runtime downloads, and developer resources.",
+  vlang_name: "V lang",
+  vlang_desc: "Official website for the V programming language (vlang). Features language documentation, tutorials, package index, play environment, and release news.",
   linuxdie_name: "Linux.die",
   linuxdie_desc: "Extensive archive of Linux documentation, man pages, and HOWTO guides—ideal for developers, sysadmins, and command-line enthusiasts seeking quick reference and deep technical insight.",
   godbolt_desc: "Interactive compiler explorer for C, C++, Rust, and more—visualizing assembly output and comparing optimization across toolchains.",

@@ -1254,6 +1254,15 @@ export const categories = [
         apptype2: "wrapper"
       },
       {
+        name: "V Programming Language",
+        nameKey: "vlang_name",
+        descriptionKey: "vlang_desc",
+        icon: "icons/wrappers/vlang.webp",
+        url2: "../wrappers/vlang",
+        apptype2: "wrapper",
+        url: "https://vlang.io"
+      },
+      {
         name: "Linux.die",
         nameKey: "linuxdie_name",
         icon: "icons/wrappers/linuxdie.webp",
