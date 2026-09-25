@@ -372,7 +372,7 @@ export const categories = [
     nameKey: "chabots_name",
     name: "Chatbots",
     apps: [
-      { name: "Microsoft Copilot", icon: "icons/msedge/copilot.webp", url: "https://copilot.microsoft.com", descriptionKey: "copilot_desc", apptype2: "wrapper", url2: "../msedge/copilot" },
+      { name: "Microsoft Copilot", icon: "icons/msedge/copilot.webp", url: "https://copilot.microsoft.com", descriptionKey: "copilot_desc", apptype2: "wrapper", url2: "../msedge/copilot", "hide": true },
       { name: "ChatGPT", icon: "icons/pwa/chatgpt.webp", url: "https://chat.openai.com", descriptionKey: "chatgpt_desc" },
       { name: "Grok", icon: "icons/pwa/grok.webp", url: "https://grok.com", descriptionKey: "grok_desc"},
       { name: "Meta AI", icon: "icons/pwa/metaai.webp", url: "https://www.meta.ai", descriptionKey: "metaai_desc" }, 
