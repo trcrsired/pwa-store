@@ -264,6 +264,7 @@ WRAPPERS = [
   { "name": "ID.me", "url": "https://id.me", "keyify_name": "idme" },
   { "name": "Free File", "url": "https://www.freefilefillableforms.com" },
   { "name": "CDC", "url": "https://www.cdc.gov" },
+  { "name": "Gemini", "url": "https://gemini.google.com", "icon": "../pwa/gemini.webp" },
   { "name": "Arena AI", "url": "https://arena.ai" },
 
   { "name": "中国政府网", "url": "https://www.gov.cn", "keyify_name": "govcn" },

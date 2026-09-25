@@ -377,7 +377,7 @@ export const categories = [
       { name: "Grok", icon: "icons/pwa/grok.webp", url: "https://grok.com", descriptionKey: "grok_desc"},
       { name: "Meta AI", icon: "icons/pwa/metaai.webp", url: "https://www.meta.ai", descriptionKey: "metaai_desc" }, 
       { name: "Cursor", icon: "icons/pwa/cursor.webp", url: "https://cursor.com/agents", descriptionKey: "cursor_desc" },
-      { name: "Google Gemini", icon: "icons/pwa/gemini.webp", url: "https://gemini.google.com", descriptionKey: "gemini_desc" },
+      { name: "Google Gemini", icon: "icons/pwa/gemini.webp", url: "https://gemini.google.com", descriptionKey: "gemini_desc", apptype2: "wrapper", url2: "../wrappers/gemini" },
       { name: "Claude", icon: "icons/pwa/claude.webp", url: "https://claude.ai", descriptionKey: "claude_desc" },
       { name: "Manus", icon: "icons/pwa/manus.webp", url: "https://manus.im", descriptionKey: "manus_desc" },
       { name: "LeChat", icon: "icons/pwa/lechat.webp", url: "https://lechat.chat/chat", nameKey: "lechat_name", descriptionKey: "lechat_desc" },
