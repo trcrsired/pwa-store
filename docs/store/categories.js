@@ -60,6 +60,13 @@ export const categories = [
         url: "https://wasmpass.pages.dev"
       },
       {
+        name: "Authenticator",
+        nameKey: "authenticator_name",
+        descriptionKey: "authenticator_desc",
+        icon: "icons/pwa/authenticator.webp",
+        url: "https://authenticator-pwa.pages.dev"
+      },
+      {
         name: "Online Compass",
         nameKey: "onlinecompass_name",
         descriptionKey: "onlinecompass_desc",
@@ -370,7 +377,7 @@ export const categories = [
       { name: "Grok", icon: "icons/pwa/grok.webp", url: "https://grok.com", descriptionKey: "grok_desc"},
       { name: "Meta AI", icon: "icons/pwa/metaai.webp", url: "https://www.meta.ai", descriptionKey: "metaai_desc" }, 
       { name: "Cursor", icon: "icons/pwa/cursor.webp", url: "https://cursor.com/agents", descriptionKey: "cursor_desc" },
-      { name: "Google Gemini", icon: "icons/pwa/gemini.webp", url: "https://gemini.google.com", descriptionKey: "gemini_desc" },
+      { name: "Google Gemini", icon: "icons/pwa/gemini.webp", url: "https://gemini.google.com", descriptionKey: "gemini_desc", apptype2: "wrapper", url2: "../wrappers/gemini" },
       { name: "Claude", icon: "icons/pwa/claude.webp", url: "https://claude.ai", descriptionKey: "claude_desc" },
       { name: "Manus", icon: "icons/pwa/manus.webp", url: "https://manus.im", descriptionKey: "manus_desc" },
       { name: "LeChat", icon: "icons/pwa/lechat.webp", url: "https://lechat.chat/chat", nameKey: "lechat_name", descriptionKey: "lechat_desc" },
@@ -1203,6 +1210,13 @@ export const categories = [
         url: "https://buildkite.com/llvm-project"
       },
       {
+        name: "LLVM Discourse",
+        nameKey: "llvm_discourse_name",
+        descriptionKey: "llvm_discourse_desc",
+        icon: "icons/native/llvm.webp",
+        url: "https://discourse.llvm.org"
+      },
+      {
         name: "Visual Studio Developer Community",
         nameKey: "vsdevcomm_name",
         descriptionKey: "vsdevcomm_desc",
@@ -1238,6 +1252,15 @@ export const categories = [
         url: "https://www.java.com",
         descriptionKey: "java_desc",
         apptype2: "wrapper"
+      },
+      {
+        name: "V Programming Language",
+        nameKey: "vlang_name",
+        descriptionKey: "vlang_desc",
+        icon: "icons/wrappers/vlang.webp",
+        url2: "../wrappers/vlang",
+        apptype2: "wrapper",
+        url: "https://vlang.io"
       },
       {
         name: "Linux.die",
@@ -1817,6 +1840,15 @@ export const categories = [
         descriptionKey: "reddit_desc"
       },
       {
+        name: "SafeReddit",
+        nameKey: "safereddit_name",
+        descriptionKey: "safereddit_desc",
+        icon: "icons/wrappers/safereddit.webp",
+        url2: "../wrappers/safereddit",
+        apptype2: "wrapper",
+        url: "https://safereddit.com"
+      },
+      {
         name: "X (Twitter)",
         nameKey: "x_name",
         icon: "icons/pwa/x.webp",
@@ -1925,9 +1957,11 @@ export const categories = [
       },
       {
         name: "Discord",
-        icon: "icons/pwa/discord.webp",
+        icon: "icons/msedge/discord.webp",
         url: "https://discord.com/app",
-        descriptionKey: "discord_desc"
+        descriptionKey: "discord_desc",
+        url2: "../msedge/discord",
+        apptype2: "wrapper",
       },
       {
         name: "Telegram",
@@ -3907,6 +3941,15 @@ export const categories = [
 //      { name: "Firstpost", nameKey: "firstpost_name", descriptionKey: "firstpost_desc", icon: "icons/pwa/firstpost.webp", url: "https://www.firstpost.com" },
       { name: "Forbes", nameKey: "forbes_name", descriptionKey: "forbes_desc", icon: "icons/pwa/forbes.webp", url: "https://www.forbes.com" },
       { name: "PBS", nameKey: "pbs_name", descriptionKey: "pbs_desc", icon: "icons/pwa/pbs.webp", url: "https://www.pbs.org" },
+      {
+        name: "PBS News",
+        nameKey: "pbsnews_name",
+        descriptionKey: "pbsnews_desc",
+        icon: "icons/msedge/pbsnews.webp",
+        url: "https://www.pbs.org/newshour",
+        url2: "../wrappers/pbsnews",
+        apptype2: "wrapper",
+      },
       { name: "BBC", nameKey: "bbc_name", descriptionKey: "bbc_desc", icon: "icons/pwa/bbc.webp", url: "https://www.bbc.com" },
       { name: "Associated Press", nameKey: "ap_name", descriptionKey: "ap_desc", icon: "icons/pwa/associatedpress.webp", url: "https://apnews.com" },
       { name: "In Defence of Marxism", nameKey: "marxism_name", descriptionKey: "marxism_desc", icon: "icons/pwa/indefenseofmarxism.webp", url: "https://marxist.com" },
@@ -4160,7 +4203,7 @@ export const categories = [
         nameKey: "spokesman_name",
         descriptionKey: "spokesman_desc",
         icon: "icons/wrappers/spokesman.webp",
-        url2: "/wrappers/spokesman",
+        url2: "../wrappers/spokesman",
         apptype2: "wrapper",
         url: "https://www.spokesman.com"
       },
@@ -5635,7 +5678,16 @@ export const categories = [
         url2: "../wrappers/ra2diy",
         apptype2: "wrapper",
         url: "https://bbs.ra2diy.com"
-      }
+      },
+      {
+        name: "OSDev Forum",
+        nameKey: "osdevforum_name",
+        descriptionKey: "osdevforum_desc",
+        icon: "icons/wrappers/osdevorg.webp",
+        url2: "../wrappers/osdevforum",
+        apptype2: "wrapper",
+        url: "https://forum.osdev.org"
+      },
     ]
   },
   {
@@ -7751,7 +7803,7 @@ export const categories = [
         nameKey: "bk_china_recruitment_name",
         descriptionKey: "bk_china_recruitment_desc",
         icon: "icons/wrappers/bk_china_recruitment.webp",
-        url2: "/wrappers/bk_china_recruitment",
+        url2: "../wrappers/bk_china_recruitment",
         apptype2: "wrapper",
         url: "https://app.mokahr.com/social-recruitment/bkchina/164000#/home",
         hide: true
@@ -8245,6 +8297,15 @@ export const categories = [
         url2: "../wrappers/jsnover",
         apptype2: "wrapper",
         url: "https://www.jsnover.com"
+      },
+      {
+        name: "Ryan Marler's Blog",
+        nameKey: "marler8997_blog_name",
+        descriptionKey: "marler8997_blog_desc",
+        icon: "icons/wrappers/marler8997_blog.webp",
+        url2: "../wrappers/marler8997_blog",
+        apptype2: "wrapper",
+        url: "https://marler8997.github.io"
       },
       {
         name: "AMD AI Research Club (AMD AI 研习社)",
