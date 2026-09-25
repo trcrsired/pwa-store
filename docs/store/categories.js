@@ -8062,6 +8062,13 @@ export const categories = [
         url: "https://pydong.org"
       },
       {
+        name: "MMGames",
+        nameKey: "mmgames_name",
+        descriptionKey: "mmgames_desc",
+        icon: "icons/pwa/mmgames.webp",
+        url: "https://9cguide.appspot.com"
+      },
+      {
         name: "Herb Sutter",
         nameKey: "herbsutter_name",
         descriptionKey: "herbsutter_desc",

@@ -1749,6 +1749,8 @@ const L = {
   bookreader2056app_desc: "Opens the 2056 Book Reader web app for reading books and documents online.",
   pydong_name: "PyDong",
   pydong_desc: "Technical blog by Matthias Wippich focusing on arcane C++ and Python techniques, ISO C++ standardization (WG21), compiler internals, and metaprogramming.",
+  mmgames_name: "MMGames",
+  mmgames_desc: "Official portal site for MMGames. Features web tools, developer utilities, monitor display tests, and the C programming tutorial 'Kurushiinde Oboeru C Language'.",
   iheart_name: "iHeart",
   iheart_desc: "Opens iHeart, a major audio platform offering radio stations, podcasts, music streaming, and live shows.",
   plyric_name: "Plyric",

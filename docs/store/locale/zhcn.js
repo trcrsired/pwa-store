@@ -1741,6 +1741,8 @@ const L = {
   bookreader2056app_desc: "打开 2056 Book Reader 的网页阅读器，用于在线阅读图书与文档。",
   pydong_name: "PyDong (Matthias Wippich 博客)",
   pydong_desc: "ISO C++ 委员会成员 Matthias Wippich 的技术博客。主打 C++ 与 Python 的高级/冷门特性、元编程、编译器机制与 C++26 标准提案。",
+  mmgames_portal_name: "MMGames",
+  mmgames_portal_desc: "MMGames 官方个人门户网站。包含在线 Web 实用工具、屏幕测试工具，以及知名 C 语言入门教程《苦学 C 语言》(苦C)。",
   rsstea_name: "rssTea",
   rsstea_desc: "打开 rssTea，一个轻量级的浏览器 RSS 阅读器，用于管理和查看订阅源。",
   pwa_mp3_player_name: "PWA MP3 Player",
