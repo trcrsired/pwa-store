@@ -205,7 +205,8 @@ export const categories = [
         "name": "Microsoft Copilot",
         "icon": "icons/pwa/copilot.webp",
         "url": "https://copilot.microsoft.com",
-        "descriptionKey": "copilot_desc"
+        "descriptionKey": "copilot_desc",
+        "hide": true
       },
       {
         "name": "ChatGPT",
