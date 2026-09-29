@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "9GAG",
+  "short_name": "9GAG",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for 9GAG",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "icons": [
+    {
+      "src": "./icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -159,6 +159,7 @@ WRAPPERS = [
   { "name": "NewPipe", "url": "https://newpipe.net", "apptype": "msedge" },
   { "name": "Dailymotion", "url": "https://www.dailymotion.com" },
   { "name": "Feishu Video Conference", "url": "https://vc.feishu.cn/w", "apptype": "msedge", "keyify_name": "feishu_vc", "icon": "feishu.webp" },
+  { "name": "9GAG", "url": "https://9gag.com", "keyify_name": "ninegag", "apptype": "msedge" },
   { "name": "Kook", "url": "https://www.kookapp.cn/app/" },
   { "name": "Tieba", "url": "https://tieba.baidu.com" },
   { "name": "Chase", "url": "https://chase.com", "apptype": "msedge" },

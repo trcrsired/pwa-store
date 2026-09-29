@@ -2326,6 +2326,15 @@ export const categories = [
         url: "https://vc.feishu.cn/w"
       },
       {
+        name: "9GAG",
+        nameKey: "ninegag_name",
+        descriptionKey: "ninegag_desc",
+        icon: "icons/msedge/ninegag.webp",
+        url2: "../msedge/ninegag",
+        apptype2: "wrapper",
+        url: "https://9gag.com"
+      },
+      {
         name: "Tencent Meeting (腾讯会议)",
         nameKey: "tencentmeeting_name",
         icon: "icons/wechatmini/tencentmeeting.webp",
