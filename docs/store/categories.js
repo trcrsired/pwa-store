@@ -6923,6 +6923,15 @@ export const categories = [
         url: "https://www.gog.com"
       },
       {
+        name: "Hebei Logistics Network (河北内卷网)",
+        nameKey: "hebei_neijuan_name",
+        descriptionKey: "hebei_neijuan_desc",
+        icon: "icons/msedge/hebei_neijuan.webp",
+        url2: "../msedge/hebei_neijuan",
+        apptype2: "wrapper",
+        url: "https://www.hebeineijuan.com"
+      },
+      {
         name: "Meituan",
         nameKey: "meituan_name",
         descriptionKey: "meituan_desc",

@@ -1893,6 +1893,8 @@ const L = {
   madeinchina_desc: "A comprehensive global B2B e-commerce platform connecting international buyers with Chinese suppliers, manufacturers, and wholesale exporters across various industries.",
   gog_name: "GOG.com",
   gog_desc: "A premier digital distribution platform for DRM-free PC games. From curated modern hits to fully optimized all-time classics, it offers legitimate game purchases that you truly own and can play offline anytime.",
+  hebei_neijuan_name: "Hebei Logistics Network (河北内卷网)",
+  hebei_neijuan_desc: "B2B platform connecting source manufacturers, industrial clusters, logistics providers, and trade opportunities across Hebei and nationwide.",
   interstride_name: "Interstride",
   interstride_desc: "A comprehensive career platform tailored for international students. It provides job search tools, visa insight tracking, cap-exempt employer databases, and career resources to navigate the global job market.",
   bk_china_recruitment_name: "Burger King China Careers",
