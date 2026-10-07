@@ -2349,6 +2349,8 @@ const L = {
   bluetoothdevices_name: "Bluetooth Devices",
   faovoapp_name: "faovo-app",
   faovoapp_desc: "Opens faovo-app, a browser-based alternative app for fake AOVO Pro M1 scooters with BLE telemetry and controls.",
+  coffe_scale_name: "Coffee Scale",
+  coffe_scale_desc: "A custom web application that connects to bluetooth scale devices for tracking real-time weight measurements via Web Bluetooth.",
   tuyasmartwechatmini_name: "Tuya Smart (涂鸦智能)",
   tuyasmartwechatmini_desc: "Opens the Tuya Smart WeChat Mini Program via its deep link.",
   adult_name: "Adult",

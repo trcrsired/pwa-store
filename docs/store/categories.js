@@ -9477,6 +9477,13 @@ export const categories = [
         url: "https://alexiii.github.io/faovo-app",
       },
       {
+        name: "Coffee Scale",
+        nameKey: "coffe_scale_name",
+        descriptionKey: "coffe_scale_desc",
+        icon: "icons/pwa/coffe_scale.webp",
+        url: "https://puji4810.github.io/coffe-scale"
+      },
+      {
         name: "Tuya Smart (涂鸦智能)",
         nameKey: "tuyasmartwechatmini_name",
         descriptionKey: "tuyasmartwechatmini_desc",
