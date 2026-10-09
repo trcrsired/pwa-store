@@ -5147,6 +5147,15 @@ export const categories = [
         url: "https://war3replays.com"
       },
       {
+        name: "Brake Master",
+        nameKey: "brake_master_game_name",
+        descriptionKey: "brake_master_game_desc",
+        icon: "icons/wrappers/brake_master_game.webp",
+        url2: "../wrappers/brake_master_game",
+        apptype2: "wrapper",
+        url: "https://breakbreak.app"
+      },
+      {
         name: "QQ Classic Farm (QQ经典农场)",
         nameKey: "qqclassicfarm_name",
         descriptionKey: "qqclassicfarm_desc",

@@ -1454,6 +1454,8 @@ const L = {
   pinballalulame_desc: "A web-based restoration of the classic Space Cadet pinball game, bringing the nostalgic Windows 95 experience to your browser.",
   war3replays_name: "Warcraft 3 Replays",
   war3replays_desc: "Community database for Warcraft III. Watch replays online directly in your browser, download pro match replays, and analyze ladder game strategies.",
+  brake_master_game_name: "Brake Master (刹车大师)",
+  brake_master_game_desc: "A satirical web mini-game inspired by the Huawei Maextro brake pedal controversy. Challenge yourself to bring the vehicle to a stop from 100 km/h in the shortest time and compete on the global leaderboard.",
   gamingcommunity_name: "Gaming Community",
   murlok_name: "Murlok.io",
   murlok_desc: "WoW talent and build guides.",

@@ -1449,6 +1449,8 @@ const L = {
   pinballalulame_desc: "经典‘太空军校生’弹球游戏的网络版重制，在浏览器中重温 Windows 95 的怀旧体验。",
   war3replays_name: "魔兽争霸 3 录像网 (War3Replays)",
   war3replays_desc: "《魔兽争霸 III》比赛录像社区与数据库。支持网络端在线直接播放观看录像，并提供职业赛事、天梯对局录像下载与战术分析。",
+  brake_master_game_name: "刹车大师",
+  brake_master_game_desc: "源自华为尊界踏板断裂争议事件的热点讽刺小游戏。挑战在 100 km/h 速度下以最短时间刹停，冲击全球前 50 排行榜。",
   gamingcommunity_name: "游戏社区",
   murlok_name: "Murlok.io",
   murlok_desc: "提供魔兽世界天赋与构建指南。",
