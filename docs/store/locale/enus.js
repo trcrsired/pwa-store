@@ -441,6 +441,8 @@ const L = {
   llvm_discourse_desc: "The official discussion forum for the LLVM Compiler Infrastructure project. Covers developer RFCs, Clang, LLD, LLDB, MLIR, release announcements, and compiler architecture.",
   vsdevcomm_name: "Visual Studio Developer Community",
   vsdevcomm_desc: "The official Microsoft platform for developers to report bugs, suggest new features, and track issues for Visual Studio, .NET, C++, and related development tools.",
+  linux_syscalls_name: "Linux Syscall Tables",
+  linux_syscalls_desc: "High-quality browsable Linux kernel syscall tables for multiple architectures including x86, x86_64, ARM, ARM64, MIPS, and RISC-V.",
   chromiumdash_name: "Chromium Dash",
   chromiumdash_desc: "Opens Chromium Dash, a dashboard for tracking Chromium release schedules, milestones, branches, and version timelines.",
   python_desc: "Python is a programming language that lets you work quickly and integrate systems more effectively.",

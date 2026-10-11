@@ -1224,6 +1224,13 @@ export const categories = [
         url: "https://developercommunity.visualstudio.com"
       },
       {
+        name: "Linux Syscall Tables",
+        nameKey: "linux_syscalls_name",
+        descriptionKey: "linux_syscalls_desc",
+        icon: "icons/pwa/linux_syscalls.webp",
+        url: "https://syscalls.mebeim.net"
+      },
+      {
         name: "Python",
         icon: "icons/pwa/python.webp",
         url: "https://www.python.org",

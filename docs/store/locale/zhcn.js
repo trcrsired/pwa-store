@@ -440,6 +440,8 @@ const L = {
   llvm_discourse_desc: "LLVM 编译器基础架构项目官方讨论社区。涵盖 RFC 提案探讨、Clang、LLD、LLDB、MLIR、版本发布公告及编译器底层架构讨论。",
   vsdevcomm_name: "Visual Studio 开发者社区 (Visual Studio Developer Community)",
   vsdevcomm_desc: "微软官方的开发者反馈与交流平台。用于提交 Bug、提出新功能建议、追踪反馈进度，并与 Visual Studio、.NET 及 C++ 编译器工程团队直接互动。",
+  linux_syscalls_name: "Linux 系统调用表 (Linux Syscall Tables)",
+  linux_syscalls_desc: "高质量的 Linux 内核系统调用(Syscall)多架构在线检索工具。支持 x86、x86_64、ARM、ARM64、MIPS 和 RISC-V 等架构的参数及调用约定速查。",
   chromiumdash_name: "Chromium Dash",
   chromiumdash_desc: "打开 Chromium Dash，一个用于查看 Chromium 发布计划、版本时间线、分支状态与里程碑进度的官方仪表盘。",
   python_desc: "一种高效的编程语言，适用于快速开发和系统集成。",
