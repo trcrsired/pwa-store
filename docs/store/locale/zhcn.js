@@ -181,6 +181,8 @@ const L = {
   rfg_desc: "打开 RealFaviconGenerator，这是一个用于生成、测试和验证网站图标（favicon）的在线工具。支持桌面浏览器、iOS、Android 与 Windows 平台，可预览效果并生成可直接使用的 HTML 代码。",
   ilovesvg_name: "iLoveSVG",
   ilovesvg_desc: "一个便捷的在线 SVG 矢量图处理工具平台，提供高效的 SVG 优化、压缩以及格式转换等实用功能。",
+  tunelet_music_name: "Tunelet",
+  tunelet_music_desc: "注重隐私的本地音乐播放器与网络电台 PWA。支持画中画悬浮歌词、词曲同步、标签与封面编辑、批量 ZIP 导出，音频文件完全本地处理无需上传。",
   weather_name: "天气",
   theweatherchannel_name: "The Weather Channel",
   theweatherchannel_desc: "打开 The Weather Channel 官方网站，查看实时雷达、严重天气预警和全国天气预报。",

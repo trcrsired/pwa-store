@@ -182,6 +182,8 @@ const L = {
   rfg_desc: "Opens RealFaviconGenerator, a web tool for creating, testing, and validating favicons for all browsers and devices. Generate icons for desktop, iOS, Android, and Windows, preview results, and get ready-to-use HTML markup for your site.",
   ilovesvg_name: "iLoveSVG",
   ilovesvg_desc: "A handy online utility platform for processing SVG vectors, offering efficient tools for SVG optimization, compression, and format conversion.",
+  tunelet_music_name: "Tunelet",
+  tunelet_music_desc: "A privacy-focused web audio player with floating lyrics (Chrome/Edge), online radio, tag & cover editor, and batch ZIP export. All local audio is processed strictly in-browser without uploads.",
   weather_name: "Weather",
   theweatherchannel_name: "The Weather Channel",
   theweatherchannel_desc: "Opens The Weather Channel’s official site for live radar, severe weather alerts, and national forecasts.",
