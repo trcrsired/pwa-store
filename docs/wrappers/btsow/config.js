@@ -1,4 +1,4 @@
 window.appConfig = {
   title: "BTSOW",
-  url: "https://btsow.lol"
+  url: "https://tellme.pw/bts"
 };

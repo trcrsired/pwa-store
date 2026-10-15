@@ -55,7 +55,7 @@ WRAPPERS = [
   { "name": "APK Premier", "url": "https://apkpremier.com", "keyify_name": "apkpremier" },
   { "name": "App Store", "url": "https://apps.apple.com", "keyify_name": "appleappstore" },
   { "name": "AppAdvice", "url": "https://appadvice.com" },
-  { "name": "BTSOW", "url": "https://btsow.lol" },
+  { "name": "BTSOW", "url": "https://tellme.pw/bts" },
   { "name": "The Pirate Bay", "url": "https://thepiratebay.org" },
   { "name": "PrivacyPack", "url": "https://privacypack.org" },
   { "name": "IPTV 直播源", "url": "https://iptv.hacks.tools", "keyify_name": "iptvtools", "apptype": "msedge" },

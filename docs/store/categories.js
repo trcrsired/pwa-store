@@ -9672,7 +9672,7 @@ export const categories = [
         icon: "icons/wrappers/btsow.webp",
         url2: "../wrappers/btsow",
         apptype2: "wrapper",
-        url: "https://btsow.lol"
+        url: "https://tellme.pw/bts"
       },
       {
         name: "t66y (草榴社区)",
