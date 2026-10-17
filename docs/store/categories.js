@@ -9518,6 +9518,13 @@ export const categories = [
         url: "https://puji4810.github.io/coffe-scale"
       },
       {
+        name: "E-Scooter PWA",
+        nameKey: "escooter_pwa_name",
+        descriptionKey: "escooter_pwa_desc",
+        icon: "icons/pwa/escooter_pwa.webp",
+        url: "https://e-scooter-pwa.pages.dev"
+      },
+      {
         name: "Tuya Smart (涂鸦智能)",
         nameKey: "tuyasmartwechatmini_name",
         descriptionKey: "tuyasmartwechatmini_desc",

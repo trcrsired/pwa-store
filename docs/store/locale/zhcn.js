@@ -2357,6 +2357,8 @@ const L = {
   faovoapp_desc: "打开 faovo-app，一个基于浏览器的 AOVO Pro M1 克隆车替代应用，支持蓝牙遥测与控制功能。",
   coffe_scale_name: "Coffee Scale",
   coffe_scale_desc: "基于 Web Bluetooth API 开发的蓝牙电子秤/体重秤 PWA 应用，支持实时蓝牙设备连接与体重测量数据读取。",
+escooter_pwa_name: "E-Scooter PWA (电动滑板车 PWA)",
+  escooter_pwa_desc: "基于 GPLv3 自由软件协议构建的电动滑板车渐进式网络应用，支持仪表盘监控与蓝牙设备管理。",
   tuyasmartwechatmini_name: "涂鸦智能",
   tuyasmartwechatmini_desc: "打开涂鸦智能微信小程序，通过其深度链接跳转。",
   adult_name: "成人",
