@@ -968,6 +968,8 @@ const L = {
   streamvaults_desc: "A streaming platform offering a wide variety of video content, movies, and digital media for online viewing.",
   wyshu_name: "Wyshu (无忧书城)",
   wyshu_desc: "A Chinese comprehensive free online reading platform offering a vast collection of classic literature, modern fiction, sci-fi, wuxia, romance, and mystery web novels.",
+  jiasenongye_name: "jiasenongye (漫画库)",
+  jiasenongye_desc: "An online digital comic and manga reading repository featuring curated recommendations, popularity rankings, and category browsing.",
   freevideosplitter_name: "FreeVideoSplitter",
   freevideosplitter_desc: "Opens FreeVideoSplitter, an online tool for splitting video files without installing software.",
   mediatools_name: "Media Tools",

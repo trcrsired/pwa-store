@@ -64,6 +64,7 @@ WRAPPERS = [
   { "name": "OpenSubtitles", "url": "ttps://www.opensubtitles.com" },
   { "name": "StreamVaults", "url": "https://streamvaults.ru", "apptype": "msedge" },
   { "name": "无忧书城", "url": "https://www.wyshu.com", "keyify_name": "wyshu" },
+  { "name": "漫画库", "url": "https://www.jiasenongye.com", "keyify_name": "jiasenongye", "icon": "../../logo/logo.webp" },
   { "name": "FreeVideoSplitter", "url": "https://freevideosplitter.org", "apptype": "msedge" },
   { "name": "PBS News", "url": "https://www.pbs.org/newshour", "apptype": "msedge", "icon": "pbsnews.webp" },
   { "name": "Chips and Cheese", "url": "https://chipsandcheese.com", "apptype": "msedge" },

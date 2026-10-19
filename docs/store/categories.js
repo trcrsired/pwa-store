@@ -4871,6 +4871,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.wyshu.com"
       },
+      {
+        name: "jiasenongye (漫画库)",
+        nameKey: "jiasenongye_name",
+        descriptionKey: "jiasenongye_desc",
+        icon: "icons/wrappers/jiasenongye.webp",
+        url2: "../wrappers/jiasenongye",
+        apptype2: "wrapper",
+        url: "https://www.jiasenongye.com"
+      },
     ]
   },
   {

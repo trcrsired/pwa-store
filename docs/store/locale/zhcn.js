@@ -962,6 +962,8 @@ const L = {
   streamvaults_desc: "一个流媒体平台，提供丰富的视频内容、电影和数字媒体资源，支持在线观看。",
   wyshu_name: "无忧书城",
   wyshu_desc: "为您免费提供在线阅读服务的中文数字文学平台。涵盖古典、现代、外国文学书籍，以及武侠、言情、科幻、都市、悬疑、网络与影视等各类型小说。",
+  jiasenongye_name: "漫画库",
+  jiasenongye_desc: "在线漫画阅读与分享平台。提供编辑推荐、热门漫画榜单、同人作品以及多分类漫画浏览与阅读历史记录。",
   freevideosplitter_name: "FreeVideoSplitter (免费视频分割)",
   freevideosplitter_desc: "打开 FreeVideoSplitter，一个无需安装软件即可在线分割视频的工具。",
   mediatools_name: "媒体工具",
