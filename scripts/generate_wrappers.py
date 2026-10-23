@@ -44,8 +44,6 @@ WRAPPERS = [
   { "name": "CloudConvert", "url": "https://cloudconvert.com" },
   { "name": "RealFaviconGenerator", "url": "https://realfavicongenerator.net", "apptype": "msedge" },
   { "name": "iLoveSVG", "url": "https://www.ilovesvg.com" },
-  { "name": "Tunelet", "url": "https://tunelet.cn", "keyify_name": "tunelet_cn", "icon": "tunelet.webp" },
-  { "name": "Tunelet", "url": "https://tunelet.pages.dev", "keyify_name": "tunelet_pages", "icon": "tunelet.webp" },
   { "name": "CVS", "url": "https://www.cvs.com" },
   { "name": "Whirlpool", "url": "https://www.whirlpool.com" },
   { "name": "Android Authority", "url": "https://www.androidauthority.com", "keyify_name": "androidauthority"},

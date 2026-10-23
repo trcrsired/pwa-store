@@ -304,8 +304,6 @@ export const categories = [
         nameKey: "tunelet_name",
         descriptionKey: "tunelet_desc",
         icon: "icons/wrappers/tunelet.webp",
-        url2: "../wrappers/tunelet_pages",
-        apptype2: "wrapper",
         url: "https://tunelet.pages.dev"
       },
       {
@@ -313,8 +311,6 @@ export const categories = [
         nameKey: "tunelet_name",
         descriptionKey: "tunelet_desc",
         icon: "icons/wrappers/tunelet.webp",
-        url2: "../wrappers/tunelet_cn",
-        apptype2: "wrapper",
         url: "https://tunelet.cn"
       },
     ]
