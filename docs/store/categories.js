@@ -301,15 +301,15 @@ export const categories = [
       },
       {
         name: "Tunelet",
-        nameKey: "tunelet_name",
-        descriptionKey: "tunelet_desc",
+        nameKey: "tunelet_music_name",
+        descriptionKey: "tunelet_music_desc",
         icon: "icons/wrappers/tunelet.webp",
         url: "https://tunelet.pages.dev"
       },
       {
         name: "Tunelet",
-        nameKey: "tunelet_name",
-        descriptionKey: "tunelet_desc",
+        nameKey: "tunelet_music_name",
+        descriptionKey: "tunelet_music_desc",
         icon: "icons/wrappers/tunelet.webp",
         url: "https://tunelet.cn"
       },
