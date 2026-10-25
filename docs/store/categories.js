@@ -5059,6 +5059,13 @@ export const categories = [
         url: "https://www.bilibili.com/toy/zhuzhiliao/index.html?spm_id_from=333.788.specialRecommendByOp.0"
       },
       {
+        name: "iBeer",
+        nameKey: "ibeer_name",
+        descriptionKey: "ibeer_desc",
+        icon: "icons/pwa/ibeer.webp",
+        url: "https://ibeer.org"
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",
