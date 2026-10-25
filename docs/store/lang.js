@@ -66,9 +66,11 @@ export async function localizePage(localeOverride = null) {
     // Footer
     setText('footer-browser', strings.footer_browser_recommendation);
     setText('footer-warning', strings.footer_warning);
+/*
     setText('footer-extension', strings.footer_extension_tip);
     setText('footer-store-link', strings.footer_link_store);
     setText('footer-crx-link', strings.footer_link_crx);
+*/
     setText('footer-repo-link', strings.footer_link_repo);
     setText('footer-github-link', strings.footer_repo_link);
     setText('footer-license', strings.footer_license);
