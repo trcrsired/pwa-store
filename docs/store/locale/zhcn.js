@@ -1421,6 +1421,8 @@ const L = {
   huaweidog_desc: "针对华为营销及“竹知了”舆论事件的在线讽刺与恶搞模因（Meme）网页 (在线增智慧)，内置竹知了 Web 声响模拟器。",
   bilibili_zhuzhiliao_name: "哔哩哔哩 · 竹知了",
   bilibili_zhuzhiliao_desc: "哔哩哔哩推出的在线传统玩具“竹知了”声响模拟交互网页。支持滑动与旋转互动，转动即可触发真实摇鸣声与解压体验。",
+  ibeer_name: "iBeer (经典虚拟啤酒 PWA)",
+  ibeer_desc: "诞生于 2008 年的经典 iPhone 喝啤酒小游戏重制版 PWA。利用设备重力与陀螺仪传感器，在屏幕上模拟倾斜饮用啤酒、汽水与各类自定义饮料。",
   sansatemple_name: "Sansa (산사 · 在线寺庙)",
   sansatemple_desc: "基于 WebGL 开发的 3D 在线韩国寺庙体验应用。用户可以操控小和尚在法堂内漫步、合十拜佛、拨动念珠、倾听诵经与环境音。",
   wowtoken_name: "魔兽世界时光徽章价格 (WoW Token Prices)",

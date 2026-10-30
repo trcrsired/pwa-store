@@ -387,7 +387,7 @@ export const categories = [
     name: "Chatbots",
     apps: [
       { name: "Microsoft Copilot", icon: "icons/msedge/copilot.webp", url: "https://copilot.microsoft.com", descriptionKey: "copilot_desc", apptype2: "wrapper", url2: "../msedge/copilot", "hide": true },
-      { name: "ChatGPT", icon: "icons/pwa/chatgpt.webp", url: "https://chat.openai.com", descriptionKey: "chatgpt_desc" },
+      { name: "ChatGPT", icon: "icons/pwa/chatgpt.webp", url: "https://chat.openai.com", descriptionKey: "chatgpt_desc", apptype2: "wrapper", url2: "../wrappers/chatgpt" },
       { name: "Grok", icon: "icons/pwa/grok.webp", url: "https://grok.com", descriptionKey: "grok_desc"},
       { name: "Meta AI", icon: "icons/pwa/metaai.webp", url: "https://www.meta.ai", descriptionKey: "metaai_desc" }, 
       { name: "Cursor", icon: "icons/pwa/cursor.webp", url: "https://cursor.com/agents", descriptionKey: "cursor_desc" },
@@ -5057,6 +5057,13 @@ export const categories = [
         descriptionKey: "bilibili_zhuzhiliao_desc",
         icon: "icons/pwa/bilibili_zhuzhiliao.webp",
         url: "https://www.bilibili.com/toy/zhuzhiliao/index.html?spm_id_from=333.788.specialRecommendByOp.0"
+      },
+      {
+        name: "iBeer",
+        nameKey: "ibeer_name",
+        descriptionKey: "ibeer_desc",
+        icon: "icons/pwa/ibeer.webp",
+        url: "https://ibeer.org"
       },
       {
         name: "Sansa (Online Temple)",

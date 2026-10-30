@@ -1426,6 +1426,8 @@ const L = {
   huaweidog_desc: "A satirical parody site mocking Huawei marketing and recent meme events like the 'Bamboo Cicada' (Zhuzhiliao) controversy with interactive Web simulations.",
   bilibili_zhuzhiliao_name: "Bilibili Zhuzhiliao",
   bilibili_zhuzhiliao_desc: "An interactive Web toy by Bilibili simulating the traditional Chinese 'Bamboo Cicada'. Spin to generate authentic buzzing sounds and relaxing audio feedback.",
+  ibeer_name: "iBeer",
+  ibeer_desc: "The original 2008 virtual beer pouring app revived as a Web PWA. Uses device motion sensors to simulate drinking beer, water, lime, cola, and custom beverages directly on screen.",
   sansatemple_name: "Sansa (Online Temple)",
   sansatemple_desc: "An interactive online 3D Korean temple web application allowing visitors to explore a virtual temple hall, bow, count prayer beads, and listen to ambient chants.",
   wowtoken_name: "WoW Token Prices",
