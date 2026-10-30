@@ -5059,6 +5059,13 @@ export const categories = [
         url: "https://www.bilibili.com/toy/zhuzhiliao/index.html?spm_id_from=333.788.specialRecommendByOp.0"
       },
       {
+        name: "Sansa (Online Temple)",
+        nameKey: "sansatemple_name",
+        descriptionKey: "sansatemple_desc",
+        icon: "icons/pwa/sansatemple.svg",
+        url: "https://sansatemple.com"
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",

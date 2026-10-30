@@ -1421,6 +1421,8 @@ const L = {
   huaweidog_desc: "针对华为营销及“竹知了”舆论事件的在线讽刺与恶搞模因（Meme）网页 (在线增智慧)，内置竹知了 Web 声响模拟器。",
   bilibili_zhuzhiliao_name: "哔哩哔哩 · 竹知了",
   bilibili_zhuzhiliao_desc: "哔哩哔哩推出的在线传统玩具“竹知了”声响模拟交互网页。支持滑动与旋转互动，转动即可触发真实摇鸣声与解压体验。",
+  sansatemple_name: "Sansa (산사 · 在线寺庙)",
+  sansatemple_desc: "基于 WebGL 开发的 3D 在线韩国寺庙体验应用。用户可以操控小和尚在法堂内漫步、合十拜佛、拨动念珠、倾听诵经与环境音。",
   wowtoken_name: "魔兽世界时光徽章价格 (WoW Token Prices)",
   wowtoken_desc: "实时追踪《魔兽世界》地区（美服、欧服、韩服和台服）的时光徽章价格。",
   vghf_name: "电子游戏历史基金会",
