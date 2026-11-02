@@ -44,6 +44,7 @@ WRAPPERS = [
   { "name": "CloudConvert", "url": "https://cloudconvert.com" },
   { "name": "RealFaviconGenerator", "url": "https://realfavicongenerator.net", "apptype": "msedge" },
   { "name": "iLoveSVG", "url": "https://www.ilovesvg.com" },
+  { "name": "ImageDone", "url": "https://imagedone.com" },
   { "name": "CVS", "url": "https://www.cvs.com" },
   { "name": "Whirlpool", "url": "https://www.whirlpool.com" },
   { "name": "Android Authority", "url": "https://www.androidauthority.com", "keyify_name": "androidauthority"},

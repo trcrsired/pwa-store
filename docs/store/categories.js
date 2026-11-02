@@ -313,6 +313,15 @@ export const categories = [
         icon: "icons/wrappers/tunelet.webp",
         url: "https://tunelet.cn"
       },
+      {
+        name: "ImageDone",
+        nameKey: "imagedone_name",
+        descriptionKey: "imagedone_desc",
+        icon: "icons/wrappers/imagedone.webp",
+        url2: "../wrappers/imagedone_app",
+        apptype2: "wrapper",
+        url: "https://imagedone.com"
+      },
     ]
   },
   {

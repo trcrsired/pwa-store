@@ -184,6 +184,8 @@ const L = {
   ilovesvg_desc: "A handy online utility platform for processing SVG vectors, offering efficient tools for SVG optimization, compression, and format conversion.",
   tunelet_music_name: "Tunelet",
   tunelet_music_desc: "A privacy-focused web audio player with floating lyrics (Chrome/Edge), online radio, tag & cover editor, and batch ZIP export. All local audio is processed strictly in-browser without uploads.",
+  imagedone_app_name: "ImageDone",
+  imagedone_app_desc: "A privacy-first image and video tool that runs entirely in-browser using WebAssembly. Features AI background removal, Waifu2x upscaling, EXIF metadata editing, and format conversion.",
   weather_name: "Weather",
   theweatherchannel_name: "The Weather Channel",
   theweatherchannel_desc: "Opens The Weather Channel’s official site for live radar, severe weather alerts, and national forecasts.",
