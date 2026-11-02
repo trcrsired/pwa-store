@@ -1579,6 +1579,24 @@ export const categories = [
         url: "https://opencode.ai"
       },
       {
+        name: "Repology",
+        nameKey: "repology_name",
+        descriptionKey: "repology_desc",
+        icon: "icons/wrappers/repology.webp",
+        url2: "../wrappers/repology",
+        apptype2: "wrapper",
+        url: "https://repology.org"
+      },
+      {
+        name: "Repology: glibc",
+        nameKey: "repology_glibc_name",
+        descriptionKey: "repology_glibc_desc",
+        icon: "icons/wrappers/repology_glibc.webp",
+        url2: "../wrappers/repology_glibc",
+        apptype2: "wrapper",
+        url: "https://repology.org/project/glibc/versions"
+      },
+      {
         name: "Mini Program Demo (小程序示例)",
         nameKey: "miniprogramdemo_name",
         descriptionKey: "miniprogramdemo_desc",

@@ -138,6 +138,8 @@ WRAPPERS = [
   { "name": "MOOC.fi", "url": "https://www.mooc.fi", "keyify_name": "moocfi" },
   { "name": "JSLinux", "url": "https://bellard.org/jslinux" },
   { "name": "OpenCode", "url": "https://opencode.ai", "apptype": "msedge" },
+  { "name": "Repology", "url": "https://repology.org" },
+  { "name": "Repology: glibc", "url": "https://repology.org/project/glibc/versions", "keyify_name": "repology_glibc", "icon": "repology.webp" },
   { "name": "Compiler Explorer", "url": "https://godbolt.org", "keyify_name": "godbolt" },
   { "name": "linux.die", "url": "https://linux.die.net" },
   { "name": "MMO Champion", "url": "https://www.mmo-champion.com", "keyify_name": "mmo-champion" },
