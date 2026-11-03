@@ -4850,6 +4850,15 @@ export const categories = [
         nsfw: true
       },
       {
+        name: "yinghuadongmanorg",
+        nameKey: "yinghuadongmanorg_name",
+        descriptionKey: "yinghuadongmanorg_desc",
+        icon: "icons/wrappers/yinghuadongmanorg.webp",
+        url2: "../wrappers/yinghuadongmanorg",
+        apptype2: "wrapper",
+        url: "https://yinghuadongman.org.cn"
+      },
+      {
         name: "vyhhua⚠️💣",
         nameKey: "vyhhua_name",
         descriptionKey: "vyhhua_desc",

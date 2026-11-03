@@ -372,6 +372,7 @@ WRAPPERS = [
   { "name": "Pixiv", "url": "https://www.pixiv.net" },
   { "name": "DramaBox", "url": "https://www.dramaboxapp.com" },
   { "name": "yinghuafabu⚠️💣", "url": "https://www.yinghuafabu.com", "keyify_name": "yinghuafabu" },
+  { "name": "yinghuadongmanorg", "url": "https://yinghuadongman.org.cn" },
   { "name": "vyhhua⚠️💣", "url": "https://v.yhhua.com.cn", "keyify_name": "vyhhua" },
   { "name": "GYING (观影)", "url": "https://www.gying.si", "keyify_name": "gying" },
   { "name": "AFV", "url": "https://www.afv.com" },
