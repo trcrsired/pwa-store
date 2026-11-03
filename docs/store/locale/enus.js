@@ -1378,7 +1378,7 @@ const L = {
   dramabox_desc: "A free drama streaming platform operated by STORYMATRIX PTE. LTD., based in Singapore. DramaBox specializes in short-form soap operas and viral drama clips, offering fast-paced storytelling across romance, revenge, family conflict, and mistaken identity themes. Popular in the U.S., Mexico, and India, it delivers bite-sized episodes optimized for mobile viewing and emotional impact—often featuring dramatic twists, slaps, scandals, and cliffhangers",
   yinghuafabu_name: "yinghuafabu⚠️💣",
   yinghuafabu_desc: "One of fake website of Banned Yinghua Anime. Warning: the site contains ads that may redirect to malicious pornographic content. Prefer AGE Anime if the title exists there.",
-  vyhhua_name: "yinghuafabu⚠️💣",
+  vyhhua_name: "vyhhua⚠️💣",
   vyhhua_desc: "One of fake website of Banned Yinghua Anime.",
   gying_name: "GYING (观影)",
   gying_desc: "Opens GYING, a streaming site offering a large collection of movies and shows available to watch for free.",
