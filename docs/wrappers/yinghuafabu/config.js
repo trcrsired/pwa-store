@@ -1,4 +1,4 @@
 window.appConfig = {
-  title: "樱花动漫⚠️💣",
+  title: "yinghuafabu⚠️💣",
   url: "https://www.yinghuafabu.com"
 };

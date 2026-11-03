@@ -4840,14 +4840,24 @@ export const categories = [
       { name: "Pixiv", nameKey: "pixiv_name", descriptionKey: "pixiv_desc", icon: "icons/wrappers/pixiv.webp", url2: "../wrappers/pixiv", apptype2: "wrapper", url: "https://www.pixiv.net" },
 //      { name: "DramaBox", nameKey: "dramabox_name", descriptionKey: "dramabox_desc", icon: "icons/wrappers/dramabox.webp", url2: "../wrappers/dramabox", apptype2: "wrapper", url: "https://www.dramaboxapp.com" },
       {
-        name: "Yinghua Anime (樱花动漫)⚠️💣",
+        name: "yinghuafabu⚠️💣",
         nameKey: "yinghuafabu_name",
         descriptionKey: "yinghuafabu_desc",
         icon: "icons/wrappers/yinghuafabu.webp",
         url2: "../wrappers/yinghuafabu",
         apptype2: "wrapper",
-        hide: true,
-        url: "https://www.yinghuafabu.com"
+        url: "https://www.yinghuafabu.com",
+        nsfw: true
+      },
+      {
+        name: "vyhhua⚠️💣",
+        nameKey: "vyhhua_name",
+        descriptionKey: "vyhhua_desc",
+        icon: "icons/wrappers/vyhhua.webp",
+        url2: "../wrappers/vyhhua",
+        apptype2: "wrapper",
+        url: "https://v.yhhua.com.cn",
+        nsfw: true
       },
       {
         name: "GYING (观影)",
