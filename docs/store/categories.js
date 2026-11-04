@@ -857,6 +857,13 @@ export const categories = [
         url: "https://workspace.dingtalk.com",
         apptype2: "wrapper"
       },
+      {
+        name: "WawaWriter (蛙蛙写作)",
+        nameKey: "wawawriter_name",
+        descriptionKey: "wawawriter_desc",
+        icon: "icons/pwa/wawawriter.webp",
+        url: "https://wawawriter.com"
+      },
     ]
   },
   {

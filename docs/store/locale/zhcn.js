@@ -337,6 +337,8 @@ const L = {
   excalidraw_desc: "Excalidraw 是一款具有手绘风格的虚拟白板，适合头脑风暴、教学和可视化思维。支持快速协作，注重隐私保护。",
   dingtalk_name: "钉钉",
   dingtalk_desc: "阿里巴巴推出的企业沟通与协作平台，集成消息、会议和工作流程工具。",
+  wawawriter_name: "蛙蛙写作",
+  wawawriter_desc: "面向中文创作者的超级 AI 智能写作助手与小说创作平台。支持长篇小说设定、情节续写、剧本创作、多章节管理及多场景文案生成。",
   "programming_name": "编程",
   open_web_advocacy_name: "开放网络倡议",
   open_web_advocacy_desc: "我们是一群来自世界各地的软件工程师，致力于为开放网络的未来提供技术支持和政策建议。",
