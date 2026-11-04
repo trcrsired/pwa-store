@@ -4929,6 +4929,24 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.jiasenongye.com"
       },
+      {
+        name: "Manhuagui (漫画柜)",
+        nameKey: "manhuagui_name",
+        descriptionKey: "manhuagui_desc",
+        icon: "icons/wrappers/manhuagui.webp",
+        url2: "../wrappers/manhuagui",
+        apptype2: "wrapper",
+        url: "https://www.manhuagui.com"
+      },
+      {
+        name: "Manhuagui (Mobile) (漫画柜)",
+        nameKey: "manhuagui_mobile_name",
+        descriptionKey: "manhuagui_mobile_desc",
+        icon: "icons/wrappers/manhuagui.webp",
+        url2: "../wrappers/manhuagui_mobile",
+        apptype2: "wrapper",
+        url: "https://m.manhuagui.com"
+      },
     ]
   },
   {
