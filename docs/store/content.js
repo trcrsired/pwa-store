@@ -1,9 +1,15 @@
-import { categories } from './categories.js';
 import './locale/enus.js';
 import './locale/zhcn.js';
-import { setLocale, L } from './locale/localization.js';
+import { setLocale, L, activeLocaleTables } from './locale/localization.js';
 import { getPreferredLanguage } from './preferedlanguage.js';
 import { localizePage } from './lang.js';
+import {
+  initStoreEngine,
+  isStoreEngineReady,
+  pushLocales,
+  filterFlags,
+  renderCatalogue,
+} from './storeengine.js';
 
 // Pagination state
 let currentPage = 1;
@@ -29,30 +35,6 @@ function resolveStoreLocale() {
 }
 
 setLocale(resolveStoreLocale());
-
-let searchIndexPrepared = false;
-function prepareSearchIndex() {
-  if (searchIndexPrepared) return;
-
-  for (const category of categories) {
-    const localizedCategoryName = category.nameKey ? L(category.nameKey) : category.name;
-    category.__searchText = `${localizedCategoryName} ${category.name}`.toLowerCase();
-
-    for (const app of category.apps) {
-      const nameKey = app.nameKey ? L(app.nameKey) : '';
-      const name = app.name || '';
-      const descKey = app.descriptionKey ? L(app.descriptionKey) : '';
-      const desc = app.description || '';
-      const url1 = app.url || '';
-      const url2 = app.url2 || '';
-      const urlDisplay1 = app.urlDisplay || '';
-      const urlDisplay2 = app.urlDisplay2 || '';
-      app.__searchText = `${nameKey} ${name} ${descKey} ${desc} ${url1} ${url2} ${urlDisplay1} ${urlDisplay2}`.toLowerCase();
-    }
-  }
-
-  searchIndexPrepared = true;
-}
 
 function copyToClipboard(text) {
   navigator.clipboard.writeText(text).then(() => {
@@ -104,11 +86,11 @@ function sanitize_install_url(url) {
   }
 }
 
-async function install_callback(e)
+async function install_url(targetUrl)
 {
+  if (typeof navigator.install !== 'function') return;
   let sanitizedUrl="";
   try {
-    const targetUrl = e.currentTarget.dataset.url;
     sanitizedUrl = sanitize_install_url(targetUrl);
     await navigator.install(sanitizedUrl);
   } catch (err) {
@@ -116,575 +98,166 @@ async function install_callback(e)
   }
 }
 
-function add_install_button(container, url, apptype)
-{
-  if (has_navigator_install)
-  {
-    const installBtn = document.createElement('button');
-    installBtn.className = 'install-button';
-    installBtn.textContent = L(apptype=="wrapper"?'install_wrapper_desc':'install_desc');
-    installBtn.dataset.url = url;
-    installBtn.addEventListener('click', install_callback);
-    container.appendChild(installBtn);
-  }
-}
-
 function isNSFWAllowed() {
   return localStorage.getItem("hiddenfeatures") === "true";
 }
 
-// Render an app card
-const renderAppCard = (app) => {
-  const container = document.createElement('div');
-  container.className = 'app-card';
+// What the last render was asked for, so the toolbar can re-issue it.
+let currentQuery = '';
 
-  const localizedName = app.nameKey ? L(app.nameKey) : app.name;
-  const localizedDescription = app.descriptionKey ? L(app.descriptionKey) : app.description;
-  const apptype = app.apptype;
-  const showBadge = apptype && apptype !== "pwa";
-  const isWeChatMini = apptype === 'wechatmini';
-  const isWeChat = apptype === 'wechat';
-  const isNative = apptype === 'native';
+function currentFilterFlags() {
+  return filterFlags({
+    pwa: document.getElementById('filter-pwa')?.checked !== false,
+    wechat: document.getElementById('filter-wechat')?.checked === true,
+    native: document.getElementById('filter-native')?.checked === true,
+  });
+}
 
-  container.innerHTML = `
-    <img src="${app.icon}" alt="${localizedName}" class="app-icon" loading="lazy" decoding="async" />
-    <div class="app-name">${localizedName}</div>
-    <div class="app-description">${localizedDescription}</div>
-    ${app.nsfw ? `<span class="nsfw-badge">NSFW</span>` : ''}
-    ${showBadge ? `<span class="apptype-badge">${L(apptype) || apptype}</span>` : ''}
-  `;
+// Everything below the cards is markup the engine does not build: it needs
+// input elements and buttons, so it is written here with localised labels and
+// one delegated listener per container.
+const escapeHTML = (text) =>
+  String(text).replace(/[&<>"']/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
 
-  if (app.urlDisplay) {
-    const urlLineDisplay = document.createElement('div');
-    urlLineDisplay.className = 'app-url';
-    urlLineDisplay.textContent = app.urlDisplay;
-    container.appendChild(urlLineDisplay);
-  }
+const renderPagination = (containerId, state, showLegend) => {
+  const row = document.getElementById(containerId);
+  if (!row) return;
 
-  const urlLine = document.createElement('div');
-  urlLine.className = 'app-url';
-  var appurl = app.url;
-  if (isWeChat) {
-    appurl = `../store/wechat/${L("lang")}/`;
-  }
-  urlLine.textContent = appurl;
-  container.appendChild(urlLine);
-
-  const actions = document.createElement('div');
-  actions.className = 'card-actions';
-
-  const button = document.createElement(isWeChatMini ? 'button' : 'a');
-  button.className = 'install-button';
-  if (isWeChatMini) {
-    button.textContent = L('copyurl_desc');
-    button.addEventListener('click', () => copyToClipboard(app.url));
-  } else {
-    button.textContent = L(apptype == "wrapper" ? 'open_wrapper_desc' : 'open_desc');
-    button.href = appurl;
-  }
-  actions.appendChild(button);
-
-  if (!isWeChatMini && !isNative && !isWeChat) {
-    add_install_button(actions, app.url, apptype);
-  }
-
-  const apptype2 = app.apptype2;
-  if (apptype2) {
-    var appurl2 = app.url2;
-    const isWeChat2 = apptype2 === "wechat";
-    if (isWeChat2) {
-      appurl2 = `../store/wechat/${L("lang")}/`;
-    }
-
-    const badge2 = document.createElement('span');
-    badge2.className = 'apptype-badge';
-    badge2.textContent = L(apptype2) || apptype2;
-    container.appendChild(badge2);
-
-    const urlDisplay1 = app.urlDisplay || appurl;
-    const urlDisplay2 = app.urlDisplay2 || appurl2;
-
-    if (urlDisplay2 && urlDisplay2 !== urlDisplay1) {
-      const urlLineDisplay2 = document.createElement('div');
-      urlLineDisplay2.className = 'app-url';
-      urlLineDisplay2.textContent = urlDisplay2;
-      container.appendChild(urlLineDisplay2);
-    }
-
-    if (appurl2 && urlDisplay2 != appurl2) {
-      const urlLineRaw2 = document.createElement('div');
-      urlLineRaw2.className = 'app-url';
-      urlLineRaw2.textContent = appurl2;
-      container.appendChild(urlLineRaw2);
-    }
-
-    const isWeChatMini2 = apptype2 === 'wechatmini';
-
-    const button2 = document.createElement(isWeChatMini2 ? 'button' : 'a');
-    button2.className = 'install-button';
-    if (isWeChatMini2) {
-      button2.textContent = L('copyurl_desc');
-      button2.addEventListener('click', () => copyToClipboard(appurl2));
-    } else {
-      button2.textContent = L(apptype2 == "wrapper" ? 'open_wrapper_desc' : 'open_desc');
-      button2.href = appurl2;
-    }
-    actions.appendChild(button2);
-
-    const isNative2 = apptype2 === 'native';
-    if (!isWeChatMini2 && !isNative2 && !isWeChat2) {
-      add_install_button(actions, appurl2, apptype2);
-    }
-  }
-
-  container.appendChild(actions);
-  return container;
-};
-
-// Render pagination controls with page input
-const renderPagination = (containerId, totalPages, currentPage, currentPageApps, totalApps, onPageChange, onPageSizeChange, allCategories = [], onCategoryClick = null) => {
-  const paginationRow = document.getElementById(containerId);
-  if (!paginationRow) return;
-
-  paginationRow.innerHTML = '';
-
-  // Only hide if no apps at all
-  if (totalApps === 0) {
-    paginationRow.style.display = 'none';
+  if (state.total === 0) {
+    row.innerHTML = '';
+    row.style.display = 'none';
     return;
   }
+  row.style.display = 'flex';
 
-  paginationRow.style.display = 'flex';
-
-  // All categories (only for top pagination)
-  if (containerId === 'pagination-row' && allCategories.length > 0) {
-    const categoriesInfo = document.createElement('div');
-    categoriesInfo.className = 'page-categories';
-    categoriesInfo.innerHTML = `<span class="page-categories-label">${L('categories_label')}:</span> `;
-    allCategories.forEach((cat) => {
-      const badge = document.createElement('span');
-      badge.className = 'category-badge clickable';
-      badge.textContent = cat.name;
-      if (cat.nsfw) {
-        const nsfwBadge = document.createElement('span');
-        nsfwBadge.className = 'nsfw-badge';
-        nsfwBadge.textContent = 'NSFW';
-        badge.appendChild(nsfwBadge);
-      }
-      if (onCategoryClick) {
-        badge.addEventListener('click', () => onCategoryClick(cat.name));
-      }
-      categoriesInfo.appendChild(badge);
-    });
-    paginationRow.appendChild(categoriesInfo);
+  let html = '';
+  if (showLegend && state.legend) {
+    html += `<div class="page-categories"><span class="page-categories-label">${escapeHTML(L('categories_label'))}:</span> ${state.legend}</div>`;
   }
 
-  // Apps count on this page
-  const appsInfo = document.createElement('div');
-  appsInfo.className = 'pagination-info';
-  appsInfo.textContent = `${currentPageApps} ${L('apps_on_page')}`;
-  paginationRow.appendChild(appsInfo);
+  html += `<div class="pagination-info">${state.pageApps} ${escapeHTML(L('apps_on_page'))}</div>`;
+  html += `<div class="pagination-info"><span>${escapeHTML(L('show_label'))}: </span>`
+    + `<input type="number" class="pagesize-input" min="1" value="${pageSize}" />`
+    + `<span> ${escapeHTML(L('per_page'))}</span></div>`;
 
-  // Page size selector
-  const sizeInfo = document.createElement('div');
-  sizeInfo.className = 'pagination-info';
-  sizeInfo.innerHTML = `
-    <span>${L('show_label')}: </span>
-    <input type="number" class="pagesize-input" min="1" value="${pageSize}" />
-    <span> ${L('per_page')}</span>
-  `;
-  paginationRow.appendChild(sizeInfo);
-
-  const sizeInput = sizeInfo.querySelector('.pagesize-input');
-  sizeInput.addEventListener('change', (e) => {
-    let newSize = parseInt(e.target.value, 10);
-    if (newSize < 1) newSize = defaultPageSize;
-    e.target.value = newSize;
-    pageSize = newSize;
-    localStorage.setItem('page-size', newSize);
-    onPageSizeChange();
-  });
-
-  // Page navigation (only show if more than one page)
-  if (totalPages > 1) {
-    const pageInfo = document.createElement('div');
-    pageInfo.className = 'pagination-info';
-    pageInfo.innerHTML = `
-      <span>${L('page_label')} </span>
-      <input type="number" class="pagination-input" min="1" max="${totalPages}" value="${currentPage}" />
-      <span> ${L('of_label')} ${totalPages} (${totalApps} ${L('total_label')})</span>
-    `;
-    paginationRow.appendChild(pageInfo);
-
-    const pageInput = pageInfo.querySelector('.pagination-input');
-    pageInput.addEventListener('change', (e) => {
-      let newPage = parseInt(e.target.value, 10);
-      if (newPage < 1) newPage = 1;
-      if (newPage > totalPages) newPage = totalPages;
-      e.target.value = newPage;
-      onPageChange(newPage);
-    });
-
-    // Previous button
-    const prevBtn = document.createElement('button');
-    prevBtn.className = 'pagination-btn';
-    prevBtn.textContent = '←';
-    prevBtn.disabled = currentPage === 1;
-    prevBtn.addEventListener('click', () => onPageChange(currentPage - 1));
-    paginationRow.appendChild(prevBtn);
-
-    // Next button
-    const nextBtn = document.createElement('button');
-    nextBtn.className = 'pagination-btn';
-    nextBtn.textContent = '→';
-    nextBtn.disabled = currentPage === totalPages;
-    nextBtn.addEventListener('click', () => onPageChange(currentPage + 1));
-    paginationRow.appendChild(nextBtn);
+  if (state.pages > 1) {
+    html += `<div class="pagination-info"><span>${escapeHTML(L('page_label'))} </span>`
+      + `<input type="number" class="pagination-input" min="1" max="${state.pages}" value="${state.page}" />`
+      + `<span> ${escapeHTML(L('of_label'))} ${state.pages} (${state.total} ${escapeHTML(L('total_label'))})</span></div>`;
+    html += `<button class="pagination-btn" data-page-step="-1"${state.page === 1 ? ' disabled' : ''}>←</button>`;
+    html += `<button class="pagination-btn" data-page-step="1"${state.page === state.pages ? ' disabled' : ''}>→</button>`;
   } else {
-    // Just show total count if single page
-    const totalInfo = document.createElement('div');
-    totalInfo.className = 'pagination-info';
-    totalInfo.textContent = `(${totalApps} ${L('total_label')})`;
-    paginationRow.appendChild(totalInfo);
+    html += `<div class="pagination-info">(${state.total} ${escapeHTML(L('total_label'))})</div>`;
   }
+
+  row.innerHTML = html;
 };
 
-// Render a category block with its apps
-const renderCategory = (category, isExpanded = true, hasMoreOnNextPage = false, hasMoreOnPrevPage = false, onNavigatePage = null, currentPageNum = 1) => {
-  const section = document.createElement('section');
-  section.className = 'category-block';
+// One listener for both pagination rows, installed once: the rows are replaced
+// on every render, the containers are not.
+function wirePaginationRow(containerId) {
+  const row = document.getElementById(containerId);
+  if (!row) return;
 
-  const heading = document.createElement('h2');
-  const localizedCategoryName = category.nameKey ? L(category.nameKey) : category.name;
-  const appCount = category.apps.filter(app => !app.hide).length;
-  heading.innerHTML = `
-    <span class="category-title">
-      ${localizedCategoryName}
-      <span class="category-count">(${appCount})</span>
-      ${category.nsfw ? '<span class="nsfw-badge">NSFW</span>' : ''}
-    </span>
-  `;
-  heading.className = 'category-heading';
-  heading.classList.add(isExpanded ? 'expanded' : '');
-  heading.setAttribute('role', 'button');
-  heading.tabIndex = 0;
-  heading.setAttribute('aria-expanded', String(isExpanded));
-
-  section.appendChild(heading);
-
-  // Show indicator if category continues on previous page (at top)
-  if (hasMoreOnPrevPage) {
-    const prevInfo = document.createElement('div');
-    prevInfo.className = 'category-continuation category-continuation-top';
-    prevInfo.textContent = L('more_on_prev_page');
-    prevInfo.style.cursor = 'pointer';
-    prevInfo.addEventListener('click', () => {
-      if (onNavigatePage) onNavigatePage(currentPageNum - 1, localizedCategoryName);
-    });
-    section.appendChild(prevInfo);
-  }
-
-  const grid = document.createElement('div');
-  grid.className = 'app-grid';
-  grid.classList.add(isExpanded ? 'expanded' : 'collapsed');
-
-  category.apps.forEach((app) => {
-    if (!app.hide) {
-      grid.appendChild(renderAppCard(app));
+  row.addEventListener('click', (event) => {
+    const badge = event.target.closest('.category-badge.clickable');
+    if (badge) {
+      goToCategory(badge.dataset.category, Number(badge.dataset.page));
+      return;
+    }
+    const stepButton = event.target.closest('.pagination-btn[data-page-step]');
+    if (stepButton && !stepButton.disabled) {
+      goToPage(currentPage + Number(stepButton.dataset.pageStep));
     }
   });
 
-  const toggleCategory = () => {
-    const currentlyExpanded = grid.classList.contains('expanded');
-    grid.classList.toggle('expanded', !currentlyExpanded);
-    grid.classList.toggle('collapsed', currentlyExpanded);
-    heading.classList.toggle('expanded', !currentlyExpanded);
-    heading.setAttribute('aria-expanded', String(!currentlyExpanded));
-  };
-
-  heading.addEventListener('click', toggleCategory);
-  heading.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter' || e.key === ' ') {
-      e.preventDefault();
-      toggleCategory();
+  row.addEventListener('change', (event) => {
+    if (event.target.classList.contains('pagesize-input')) {
+      let newSize = parseInt(event.target.value, 10);
+      if (!Number.isFinite(newSize) || newSize < 1) newSize = defaultPageSize;
+      event.target.value = newSize;
+      pageSize = newSize;
+      localStorage.setItem('page-size', newSize);
+      renderStore(currentQuery, 1);
+      return;
+    }
+    if (event.target.classList.contains('pagination-input')) {
+      let newPage = parseInt(event.target.value, 10);
+      if (!Number.isFinite(newPage)) newPage = 1;
+      goToPage(newPage);
     }
   });
+}
 
-  section.appendChild(grid);
+function goToPage(page, scrollToCategory = null) {
+  if (!Number.isFinite(page) || page < 1) page = 1;
+  renderStore(currentQuery, page, scrollToCategory);
+  if (!scrollToCategory) window.scrollTo({ top: 0, behavior: 'smooth' });
+}
 
-  // Show indicator if category continues on next page (at bottom)
-  if (hasMoreOnNextPage) {
-    const nextInfo = document.createElement('div');
-    nextInfo.className = 'category-continuation';
-    nextInfo.textContent = L('more_on_next_page');
-    nextInfo.style.cursor = 'pointer';
-    nextInfo.addEventListener('click', () => {
-      if (onNavigatePage) onNavigatePage(currentPageNum + 1, localizedCategoryName);
-    });
-    section.appendChild(nextInfo);
+function goToCategory(categoryName, page) {
+  if (page !== currentPage) {
+    renderStore(currentQuery, page, categoryName);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    return;
   }
+  const heading = Array.from(document.querySelectorAll('.category-heading'))
+    .find((candidate) => candidate.textContent.includes(categoryName));
+  if (heading) heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
 
-  return section;
-};
+function toggleCategoryBlock(heading) {
+  const section = heading.closest('.category-block') || heading.parentElement;
+  const grid = section?.querySelector('.app-grid');
+  if (!grid) return;
+  const expanded = !grid.classList.contains('expanded');
+  grid.classList.toggle('expanded', expanded);
+  grid.classList.toggle('collapsed', !expanded);
+  heading.classList.toggle('expanded', expanded);
+  heading.setAttribute('aria-expanded', String(expanded));
+  updateToggleAllButtonLabel();
+}
 
-// Get filtered categories with their apps
-const getFilteredCategories = (filterText = '') => {
-  const nsfwUnlocked = isNSFWAllowed();
-  const showPWA = document.getElementById('filter-pwa')?.checked;
-  const showWeChat = document.getElementById('filter-wechat')?.checked;
-  const showNative = document.getElementById('filter-native')?.checked;
-
-  const filteredCategories = [];
-
-  categories.forEach((category) => {
-    if (category.nsfw && !nsfwUnlocked) return;
-
-    const categoryText = category.__searchText || `${(category.nameKey ? L(category.nameKey) : category.name)} ${category.name}`.toLowerCase();
-
-    const filteredApps = category.apps.filter(app => {
-      if (app.nsfw && !nsfwUnlocked) return false;
-      if (app.hide) return false;
-
-      const combined = app.__searchText || '';
-      const matchesSearch = filterText === '' || categoryText.includes(filterText) || combined.includes(filterText);
-
-      const type1 = app.apptype || 'pwa';
-      const type2 = app.apptype2 || null;
-
-      const isWeChatMini1 = type1 === 'wechatmini' || type1 === 'wechat';
-      const isNative1 = type1 === 'native';
-      const isPWA1 = !isWeChatMini1 && !isNative1;
-
-      const isWeChatMini2 = type2 === 'wechatmini' || type2 === 'wechat';
-      const isNative2 = type2 === 'native';
-      const isPWA2 = type2 && !isWeChatMini2 && !isNative2;
-
-      const matchesType =
-        (isPWA1 && showPWA) || (isWeChatMini1 && showWeChat) || (isNative1 && showNative) ||
-        (isPWA2 && showPWA) || (isWeChatMini2 && showWeChat) || (isNative2 && showNative);
-
-      return matchesSearch && matchesType;
-    });
-
-    if (filteredApps.length > 0) {
-      filteredCategories.push({
-        ...category,
-        apps: filteredApps
-      });
-    }
-  });
-
-  return filteredCategories;
-};
-
-// Get flat list of all apps with category info
-const getFlatAppsList = (filteredCategories) => {
-  const allApps = [];
-  filteredCategories.forEach(category => {
-    const categoryName = category.nameKey ? L(category.nameKey) : category.name;
-    category.apps.forEach(app => {
-      allApps.push({
-        app,
-        categoryName,
-        categoryNsfw: category.nsfw
-      });
-    });
-  });
-  return allApps;
-};
-
-// Get apps for a specific page (strict pageSize)
-const getAppsForPage = (flatAppsList, page) => {
-  const startIndex = (page - 1) * pageSize;
-  const endIndex = startIndex + pageSize;
-  return flatAppsList.slice(startIndex, endIndex);
-};
-
-// Group apps by category for display
-const groupAppsByCategory = (pageApps) => {
-  const grouped = {};
-  pageApps.forEach(({ app, categoryName, categoryNsfw }) => {
-    if (!grouped[categoryName]) {
-      grouped[categoryName] = {
-        name: categoryName,
-        nsfw: categoryNsfw,
-        apps: []
-      };
-    }
-    grouped[categoryName].apps.push(app);
-  });
-  return Object.values(grouped);
-};
-
-// Find the page where a category first appears
-const findCategoryPage = (flatAppsList, categoryName) => {
-  let currentCount = 0;
-  let currentPage = 1;
-
-  for (const item of flatAppsList) {
-    if (item.categoryName === categoryName) {
-      return currentPage;
-    }
-    ++currentCount;
-    if (currentCount >= pageSize) {
-      ++currentPage;
-      currentCount = 0;
-    }
-  }
-  return 1;
-};
-
-// Check if a category has more apps on the next page (and hasn't ended)
-const hasCategoryMoreOnNextPage = (flatAppsList, categoryName, currentPageNum) => {
-  // Find the last index of this category in the entire list
-  let lastIndexOfCategory = -1;
-  for (let i = flatAppsList.length - 1; i >= 0; --i) {
-    if (flatAppsList[i].categoryName === categoryName) {
-      lastIndexOfCategory = i;
-      break;
-    }
-  }
-  if (lastIndexOfCategory === -1) return false;
-
-  // Check if the last app of this category is beyond the current page
-  const currentPageEndIndex = currentPageNum * pageSize;
-  return lastIndexOfCategory >= currentPageEndIndex;
-};
-
-// Check if a category has apps on the previous page (and hasn't started fresh)
-const hasCategoryOnPrevPage = (flatAppsList, categoryName, currentPageNum) => {
-  // Find the first index of this category in the entire list
-  let firstIndexOfCategory = -1;
-  for (let i = 0; i < flatAppsList.length; ++i) {
-    if (flatAppsList[i].categoryName === categoryName) {
-      firstIndexOfCategory = i;
-      break;
-    }
-  }
-  if (firstIndexOfCategory === -1) return false;
-
-  // Check if the first app of this category is before the current page
-  const currentPageStartIndex = (currentPageNum - 1) * pageSize;
-  return firstIndexOfCategory < currentPageStartIndex;
-};
-
-// 🔄 Render the app store with pagination
+// The engine has already applied the query, the type filters, the NSFW gate,
+// the paging and the grouping, and has handed back one HTML string. All that is
+// left here is to place it and fill in the toolbar.
 const renderStore = (filterText = '', page = 1, scrollToCategory = null) => {
-  prepareSearchIndex();
   const root = document.getElementById('app-store');
   const resultCount = document.getElementById('result-count');
   if (!root || !resultCount) return;
+  if (!isStoreEngineReady()) return;
 
-  const isSearching = filterText.trim() !== '';
-  currentPage = page;
-  root.innerHTML = '';
+  currentQuery = filterText;
 
-  const filteredCategories = getFilteredCategories(filterText);
-  const flatAppsList = getFlatAppsList(filteredCategories);
-  const totalApps = flatAppsList.length;
-  const totalPages = Math.ceil(totalApps / pageSize);
-
-  resultCount.textContent = `${totalApps} APP${totalApps !== 1 ? 's' : ''}`;
-
-  // Get all categories for the category list
-  const allCategories = filteredCategories.map(cat => ({
-    name: cat.nameKey ? L(cat.nameKey) : cat.name,
-    nsfw: cat.nsfw,
-    apps: cat.apps
-  }));
-
-  // Helper to scroll to a category by name
-  const scrollToCategoryByName = (categoryName) => {
-    const allHeadings = document.querySelectorAll('.category-heading');
-    for (const heading of allHeadings) {
-      if (heading.textContent.includes(categoryName)) {
-        heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        break;
-      }
-    }
-  };
-
-  // Category click handler - navigates to the page where category first appears
-  const handleCategoryClick = (categoryName) => {
-    const targetPage = findCategoryPage(flatAppsList, categoryName);
-    if (targetPage !== currentPage) {
-      renderStore(filterText, targetPage, categoryName);
-    } else {
-      // Already on the page, scroll to the category
-      scrollToCategoryByName(categoryName);
-    }
-  };
-
-  // When searching, show all results (no pagination) with category grouping
-  if (isSearching) {
-    // Top pagination with all categories
-    renderPagination('pagination-row', 1, 1, totalApps, totalApps, () => {}, () => renderStore(filterText, 1), allCategories, handleCategoryClick);
-
-    filteredCategories.forEach((category) => {
-      root.appendChild(renderCategory(category, true));
-    });
-
-    // Bottom pagination
-    renderPagination('pagination-row-bottom', 1, 1, totalApps, totalApps, () => {}, () => renderStore(filterText, 1), [], null);
-
-    updateToggleAllButtonLabel();
-
-    // Update scroll buttons after render
-    if (typeof window.updateScrollButtons === 'function') {
-      setTimeout(window.updateScrollButtons, 50);
-    }
-    return;
-  }
-
-  // Paginated view - get apps for current page
-  const pageApps = getAppsForPage(flatAppsList, currentPage);
-  const pageAppsCount = pageApps.length;
-  const pageCategories = groupAppsByCategory(pageApps);
-
-  // Top pagination with all categories
-  renderPagination('pagination-row', totalPages, currentPage, pageAppsCount, totalApps,
-    (newPage) => {
-      renderStore(filterText, newPage);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    },
-    () => renderStore(filterText, 1),
-    allCategories,
-    handleCategoryClick
-  );
-
-  // Render each category group
-  pageCategories.forEach((catGroup) => {
-    const hasMoreNext = hasCategoryMoreOnNextPage(flatAppsList, catGroup.name, currentPage);
-    const hasMorePrev = hasCategoryOnPrevPage(flatAppsList, catGroup.name, currentPage);
-    root.appendChild(renderCategory(catGroup, true, hasMoreNext, hasMorePrev, (newPage, categoryName) => {
-      renderStore(filterText, newPage, categoryName);
-    }, currentPage));
+  const result = renderCatalogue({
+    query: filterText.trim().toLowerCase(),
+    page,
+    pageSize,
+    flags: currentFilterFlags(),
+    nsfw: isNSFWAllowed(),
+    install: has_navigator_install,
   });
 
-  // Bottom pagination (no categories)
-  renderPagination('pagination-row-bottom', totalPages, currentPage, pageAppsCount, totalApps,
-    (newPage) => {
-      renderStore(filterText, newPage);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    },
-    () => renderStore(filterText, 1),
-    [],
-    null
-  );
+  currentPage = result.page;
+  root.innerHTML = result.html;
+  resultCount.textContent = `${result.total} APP${result.total !== 1 ? 's' : ''}`;
+
+  renderPagination('pagination-row', result, true);
+  renderPagination('pagination-row-bottom', result, false);
 
   updateToggleAllButtonLabel();
 
-  // Update scroll buttons after render
   if (typeof window.updateScrollButtons === 'function') {
     setTimeout(window.updateScrollButtons, 50);
   }
-
-  // Scroll to category if requested (after render completes)
   if (scrollToCategory) {
-    setTimeout(() => scrollToCategoryByName(scrollToCategory), 50);
+    setTimeout(() => {
+      const heading = Array.from(document.querySelectorAll('.category-heading'))
+        .find((candidate) => candidate.textContent.includes(scrollToCategory));
+      if (heading) heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 50);
   }
 };
-
 
 // 🔧 Setup search input listener with debounce
 let searchDebounceTimer = null;
@@ -749,7 +322,7 @@ const filterNative = document.getElementById('filter-native');
 const searchInput = document.getElementById('search-input');
 
 // 🚀 Initialize everything
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
   // 🧠 Restore saved filter states, with default ON for PWA
   const savedPWA = localStorage.getItem('filter-pwa');
   const savedWeChat = localStorage.getItem('filter-wechat');
@@ -758,6 +331,20 @@ document.addEventListener('DOMContentLoaded', () => {
   filterPWA.checked = savedPWA === null ? true : savedPWA === 'true';
   filterWeChat.checked = savedWeChat === 'true';
   filterNative.checked = savedNative === 'true';
+
+  // The catalogue and its renderer arrive together; until they do there is
+  // nothing to show, and there is no JavaScript reader to fall back on.
+  try {
+    await initStoreEngine();
+    pushLocales(activeLocaleTables());
+  } catch (error) {
+    console.error(error);
+    const root = document.getElementById('app-store');
+    if (root) {
+      root.innerHTML = `<p class="store-unavailable">${escapeHTML(String(error.message || error))}</p>`;
+    }
+    return;
+  }
 
   // 🌐 Language selector
   const languageSelector = document.getElementById('language-selector');
@@ -770,14 +357,51 @@ document.addEventListener('DOMContentLoaded', () => {
       const newLocale = e.target.value;
       localStorage.setItem('store-locale', newLocale);
       setLocale(newLocale);
-      searchIndexPrepared = false; // Force rebuild search index with new locale
+      // The engine holds its own copy of the table, so hand it the new one.
+      pushLocales(activeLocaleTables());
 
       // Update UI text (buttons, labels, etc.)
       await localizePage(newLocale);
 
-      renderStore();
+      renderStore(currentQuery, 1);
     });
   }
+
+  // One listener for every card on every page, instead of one per button.
+  const storeRoot = document.getElementById('app-store');
+  storeRoot?.addEventListener('click', (event) => {
+    const installButton = event.target.closest('[data-install]');
+    if (installButton) {
+      event.preventDefault();
+      install_url(installButton.dataset.install);
+      return;
+    }
+    const copyButton = event.target.closest('[data-copy]');
+    if (copyButton) {
+      event.preventDefault();
+      copyToClipboard(copyButton.dataset.copy);
+      return;
+    }
+    const continuation = event.target.closest('.category-continuation[data-page]');
+    if (continuation) {
+      renderStore(currentQuery, Number(continuation.dataset.page));
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+    const heading = event.target.closest('.category-heading');
+    if (heading) toggleCategoryBlock(heading);
+  });
+
+  storeRoot?.addEventListener('keydown', (event) => {
+    if (event.key !== 'Enter' && event.key !== ' ') return;
+    const heading = event.target.closest('.category-heading');
+    if (!heading) return;
+    event.preventDefault();
+    toggleCategoryBlock(heading);
+  });
+
+  wirePaginationRow('pagination-row');
+  wirePaginationRow('pagination-row-bottom');
 
   renderStore(); // Initial full render
   setupSearch(); // Enable search

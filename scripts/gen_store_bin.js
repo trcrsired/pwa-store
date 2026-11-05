@@ -28,9 +28,9 @@
 //    12  u8   flags (1 = nsfw), u8 reserved, u16 reserved
 //    16  u32  first_app_index
 //    20  u32  app_count
-//   app_count x app record, 70 bytes
+//   app_count x app record, 64 bytes (10 x 6 + 4 of flags)
 //     0  (u32 offset, u16 length) x FIELDS.length   - see APP_FIELDS
-//     66 u32  flags (1 = nsfw, 2 = hide)
+//     60 u32  flags (1 = nsfw, 2 = hide)
 //
 // The engine indexes the string blob directly, so every string is a
 // (offset, length) pair into one contiguous buffer and no pointer is ever

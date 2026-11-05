@@ -1,0 +1,86 @@
+<!doctype html>
+<meta charset="utf-8" />
+<title>store selftest</title>
+<body>
+<pre id="out">running…</pre>
+<iframe id="page" src="index.html" style="width:1280px;height:900px"></iframe>
+<script type="module">
+const out = document.getElementById('out');
+const lines = [];
+const log = (ok, what) => { lines.push(`${ok ? 'ok  ' : 'FAIL'} ${what}`); out.textContent = lines.join('\n'); };
+const frame = document.getElementById('page');
+const wait = (ms) => new Promise((r) => setTimeout(r, ms));
+const doc = () => frame.contentDocument;
+
+frame.addEventListener('load', async () => {
+  try {
+    const win = frame.contentWindow;
+    win.addEventListener('error', (e) => log(false, `page error: ${e.message}`));
+    win.addEventListener('unhandledrejection', (e) => log(false, `page rejection: ${e.reason}`));
+    await wait(2500);
+    const d = doc();
+    const cards = d.querySelectorAll('.app-card');
+    log(cards.length > 0, `cards rendered: ${cards.length}`);
+    log(d.querySelector('.app-name')?.textContent?.length > 0, `first card name: ${d.querySelector('.app-name')?.textContent}`);
+    log(/^https?:\/\//.test(d.querySelector('.app-url')?.textContent || ''), `first card url: ${d.querySelector('.app-url')?.textContent}`);
+    log(d.querySelectorAll('.category-badge.clickable').length > 5, `legend badges: ${d.querySelectorAll('.category-badge.clickable').length}`);
+    log(!!d.querySelector('.pagination-input'), `page input: ${d.querySelector('.pagination-input')?.value} / ${d.querySelector('.pagination-input')?.max}`);
+    log(d.querySelectorAll('.install-button').length >= cards.length, `action buttons: ${d.querySelectorAll('.install-button').length}`);
+
+    const before = d.getElementById('result-count').textContent;
+    const input = d.getElementById('search-input');
+    input.value = 'player';
+    input.dispatchEvent(new Event('input', { bubbles: true }));
+    await wait(1200);
+    const after = d.getElementById('result-count').textContent;
+    log(before !== after, `search narrows ${before} -> ${after}`);
+
+    input.value = '';
+    input.dispatchEvent(new Event('input', { bubbles: true }));
+    await wait(1200);
+    const next1 = d.querySelector('.pagination-btn[data-page-step="1"]');
+    next1.click();
+    await wait(600);
+    d.querySelector('.pagination-btn[data-page-step="1"]').click();
+    await wait(600);
+    log(d.querySelector('.pagination-input').value === '3', `next twice lands on page ${d.querySelector('.pagination-input').value}`);
+    const pageInput = d.querySelector('.pagination-input');
+    pageInput.value = '4';
+    pageInput.dispatchEvent(new Event('change', { bubbles: true }));
+    await wait(600);
+    log(d.querySelector('.pagination-input').value === '4', `change event on the page input lands on ${d.querySelector('.pagination-input').value}`);
+
+
+    d.querySelector('.category-badge.clickable').click();
+    await wait(400);
+    log(!!d.querySelector('.category-heading'), 'legend click re-renders with headings');
+
+    const select = d.getElementById('language-selector');
+    select.value = 'zhcn';
+    select.dispatchEvent(new Event('change', { bubbles: true }));
+    await wait(1800);
+    const heading = d.querySelector('.category-heading')?.textContent || '';
+    log(/[\u4e00-\u9fff]/.test(heading), `zhcn heading: ${heading.trim().slice(0, 20)}`);
+
+    const sizeInput = d.querySelector('.pagesize-input');
+    for (const size of [50, 350]) {
+      const input2 = d.querySelector('.pagesize-input');
+      input2.value = String(size);
+      input2.dispatchEvent(new Event('change', { bubbles: true }));
+      await wait(600);
+      log(d.querySelectorAll('.app-card').length === size, `pagesize ${size} renders ${d.querySelectorAll('.app-card').length} cards`);
+    }
+
+    const head = d.querySelector('.category-heading');
+    const grid = head.closest('.category-block').querySelector('.app-grid');
+    const wasExpanded = grid.classList.contains('expanded');
+    head.click();
+    await wait(200);
+    log(grid.classList.contains('expanded') !== wasExpanded, 'heading click toggles the grid');
+
+    log(true, 'DONE');
+  } catch (error) {
+    log(false, `exception: ${error}`);
+  }
+});
+</script>

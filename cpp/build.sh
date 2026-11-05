@@ -29,6 +29,18 @@ clang++ --config "$CFG" -O2 -flto=thin \
 	-Wl,--export=pwa_store_category_name \
 	-Wl,--export=pwa_store_category_flags \
 	-Wl,--export=pwa_store_category_span \
-	store.cpp -o store.wasm
+	-Wl,--export=pwa_store_staging_ptr \
+	-Wl,--export=pwa_store_staging_capacity \
+	-Wl,--export=pwa_store_l10n_reset \
+	-Wl,--export=pwa_store_l10n_add \
+	-Wl,--export=pwa_store_l10n_count \
+	-Wl,--export=pwa_store_translate \
+	-Wl,--export=pwa_store_render \
+	-Wl,--export=pwa_store_legend \
+	-Wl,--export=pwa_store_last_total \
+	-Wl,--export=pwa_store_last_pages \
+	-Wl,--export=pwa_store_last_page \
+	-Wl,--export=pwa_store_last_page_apps \
+	store.cpp -o ../docs/store/store.wasm
 
-ls -l store.wasm
+ls -l ../docs/store/store.wasm

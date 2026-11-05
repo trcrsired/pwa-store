@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const root = path.resolve(__dirname, '..');
-const wasmBytes = fs.readFileSync(path.join(__dirname, 'store.wasm'));
+const wasmBytes = fs.readFileSync(path.join(__dirname, '../docs/store/store.wasm'));
 const bin = fs.readFileSync(path.join(root, 'docs/store/store.bin'));
 
 const { instance } = await WebAssembly.instantiate(wasmBytes, {});

@@ -76,3 +76,60 @@ object graph.
 
 There is deliberately **no JS reader**: if the module fails to load there is no
 second implementation to drift out of sync with the format.
+
+## The renderer
+
+The engine does not just answer questions, it writes the markup. `content.js`
+ends up with one `innerHTML` assignment per render: no per-card `createElement`,
+no per-card `addEventListener`, no per-card closures, no `__searchText` string
+concatenated for 1297 apps.
+
+| export | meaning |
+|---|---|
+| `pwa_store_l10n_reset` / `_add` | hand the engine the active locale table |
+| `pwa_store_render(query, page, pageSize, filterFlags, nsfw, install)` | one page of `<section>`/`.app-card` markup + the numbers the toolbar needs |
+| `pwa_store_legend()` | the category badges for the pagination bar |
+| `pwa_store_last_total/_pages/_page/_page_apps` | what the render decided |
+
+Filter bits are `1` PWA, `2` WeChat, `4` native; the engine applies them, the
+NSFW gate, the `hide` flag, the query, the grouping by category and the paging
+in one pass pair over the packed records.
+
+Translations stay in JavaScript — the engine holds a copy of the table, pushed
+in on load and re-pushed when the language changes, and resolves keys while
+printing. That keeps every string where it is authored while the DOM is still
+built in C++.
+
+### What is left in JavaScript, and why
+
+Only markup that needs an `<input>` or a listener: the pagination bar (page size
+box, page box, prev/next, category badges) and the two delegated click
+handlers — one on `#app-store` for open/copy/install buttons, section headings
+and continuation markers, one per pagination row for the toolbar. Buttons carry
+`data-install` / `data-copy` / `data-page` instead of a closure each.
+
+### Measured, 350 cards on the page
+
+| | JavaScript renderer | wasm renderer |
+|---|---|---|
+| JS heap after GC | 6.34 MB | **5.01 MB** |
+| full re-render | 25.5 ms | **19.7 ms** |
+| search → painted | 16.5 ms | 17.1 ms |
+| catalogue bytes | `categories.js` 311.6 KB of JS | `store.bin` 211.8 KB + `store.wasm` 26.3 KB |
+| DOM nodes | 3075 | 3206 |
+
+Search is a tie because a search result is only ~30 cards and both renderers pay
+the same layout cost; the win is the megabyte of heap that no longer exists and
+the 23% off a full re-render, on top of not parsing 311 KB of JavaScript.
+
+## Testing
+
+- `cpp/test.js` — engine contract: header validation, counts, field views,
+  search, flags, out-of-range safety.
+- `cpp/test-render.js` — markup: card counts, paging and clamping, continuation
+  markers, the legend, escaping, the filter bits, the NSFW gate, and that
+  switching to `zhcn` changes the output and switching back reproduces it byte
+  for byte.
+- `docs/store/selftest.html` — the real page in a browser: cards, search, next
+  page, page-size box, legend click, heading toggle, language switch. Open it and
+  read the list; no test runner needed.
