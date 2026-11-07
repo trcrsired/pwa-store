@@ -1446,6 +1446,8 @@ const L = {
   ibeer_desc: "The original 2008 virtual beer pouring app revived as a Web PWA. Uses device motion sensors to simulate drinking beer, water, lime, cola, and custom beverages directly on screen.",
   sansatemple_name: "Sansa (Online Temple)",
   sansatemple_desc: "An interactive online 3D Korean temple web application allowing visitors to explore a virtual temple hall, bow, count prayer beads, and listen to ambient chants.",
+  klondike_solitaire_name: "Klondike Solitaire",
+  klondike_solitaire_desc: "A lightweight, responsive web implementation of classic Klondike Solitaire card game running entirely client-side.",
   wowtoken_name: "WoW Token Prices",
   wowtoken_desc: "Real-time price tracking for World of Warcraft tokens across regions (NA, EU, KR and TW).",
   vghf_name: "Video Game History Foundation",

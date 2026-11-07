@@ -5144,6 +5144,13 @@ export const categories = [
         url: "https://sansatemple.com"
       },
       {
+        name: "Klondike Solitaire",
+        nameKey: "klondike_solitaire_name",
+        descriptionKey: "klondike_solitaire_desc",
+        icon: "icons/pwa/klondike_solitaire.webp",
+        url: "https://glotoff.github.io/solitaire/"
+      },
+      {
         name: "Red Alert 2: Chrono Divide",
         nameKey: "chronodivide_name",
         descriptionKey: "chronodivide_desc",

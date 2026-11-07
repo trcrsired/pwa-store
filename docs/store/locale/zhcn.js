@@ -1441,6 +1441,8 @@ const L = {
   ibeer_desc: "诞生于 2008 年的经典 iPhone 喝啤酒小游戏重制版 PWA。利用设备重力与陀螺仪传感器，在屏幕上模拟倾斜饮用啤酒、汽水与各类自定义饮料。",
   sansatemple_name: "Sansa (산사 · 在线寺庙)",
   sansatemple_desc: "基于 WebGL 开发的 3D 在线韩国寺庙体验应用。用户可以操控小和尚在法堂内漫步、合十拜佛、拨动念珠、倾听诵经与环境音。",
+  klondike_solitaire_name: "纸牌 (Solitaire)",
+  klondike_solitaire_desc: "轻量级网络版纸牌接龙游戏（Klondike Solitaire），支持纯本地离线运行与响应式触屏操作。",
   wowtoken_name: "魔兽世界时光徽章价格 (WoW Token Prices)",
   wowtoken_desc: "实时追踪《魔兽世界》地区（美服、欧服、韩服和台服）的时光徽章价格。",
   vghf_name: "电子游戏历史基金会",

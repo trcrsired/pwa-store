@@ -1,4 +1,4 @@
-const CACHE_NAME = "pwa-store-cache-v77";
+const CACHE_NAME = "pwa-store-cache-v78";
 const IMAGE_CACHE = "pwa-store-images-v1";
 
 self.addEventListener("install", (event) => {
@@ -10,7 +10,6 @@ self.addEventListener("install", (event) => {
         "./logo/logo.webp",
         "./content.js",
         "./storeengine.js",
-        "./store.bin",
         "./store.wasm",
         "./app.js",
         "./lang.js",
