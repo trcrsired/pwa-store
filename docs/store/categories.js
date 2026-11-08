@@ -136,6 +136,13 @@ export const categories = [
         icon: "icons/pwa/urljump.webp",
         url: "https://urljump-2gd.pages.dev"
       },
+      {
+        name: "Automation",
+        nameKey: "automation_name",
+        descriptionKey: "automation_desc",
+        icon: "icons/pwa/automation.webp",
+        url: "https://nurmuhammedjoy.github.io/Automation"
+      },
     ]
   },
   {
