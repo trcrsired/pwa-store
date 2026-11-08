@@ -6299,6 +6299,16 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://who.is"
       },
+      {
+        name: "Rosstat Leaks",
+        nameKey: "rosstat_leaks_name",
+        descriptionKey: "rosstat_leaks_desc",
+        icon: "icons/wrappers/rosstat_leaks.webp",
+        url2: "../wrappers/rosstat_leaks",
+        apptype2: "wrapper",
+        hide: true,
+        url: "https://rosstat-leaks.com"
+      },
     ]
   },
   {

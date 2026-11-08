@@ -1723,6 +1723,8 @@ const L = {
   idc_desc: "Opens IDC, a global provider of technology market intelligence, research, and industry insights for IT, telecom, and emerging technologies.",
   whois_name: "Who.is",
   whois_desc: "Opens Who.is, a domain and IP lookup service providing WHOIS, RDAP, DNS, and nameserver information.",
+  rosstat_leaks_name: "Rosstat Leaks",
+  rosstat_leaks_desc: "An analytical web application and dataset browser providing interactive access and visualization for leaked Russian Federal State Statistics Service (Rosstat) mortality and demographic records.",
   livetracking_name: "Live Tracking",
   aisvesseltracker_name: "AIS Vessel Tracker",
   aisvesseltracker_desc: "Opens AIS Vessel Tracker, a real-time global ship tracking platform based on AIS data.",

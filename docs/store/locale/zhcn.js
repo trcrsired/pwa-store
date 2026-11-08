@@ -1715,6 +1715,8 @@ const L = {
   idc_desc: "打开 IDC，这是一家全球领先的科技行业市场研究机构，提供 IT、通信与新兴技术的市场数据与行业洞察。",
   whois_name: "Who.is",
   whois_desc: "打开 Who.is，一个提供 WHOIS、RDAP、DNS 与域名信息查询的工具网站。",
+  rosstat_leaks_name: "Rosstat Leaks (俄联邦统计局泄露数据查询)",
+  rosstat_leaks_desc: "针对俄罗斯国家统计局 (Rosstat) 泄露人口与死亡数据的交互式 Web 分析与查询 PWA 工具。支持按地区、年份与年龄结构检索并可视化统计图表。",
   livetracking_name: "实时追踪",
   aisvesseltracker_name: "AIS Vessel Tracker",
   aisvesseltracker_desc: "打开 AIS Vessel Tracker，一个基于 AIS 的全球船舶实时跟踪平台。",
