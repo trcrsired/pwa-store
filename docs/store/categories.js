@@ -143,6 +143,13 @@ export const categories = [
         icon: "icons/pwa/automation.webp",
         url: "https://nurmuhammedjoy.github.io/Automation"
       },
+      {
+        name: "PWA Code",
+        nameKey: "pwa_code_name",
+        descriptionKey: "pwa_code_desc",
+        icon: "icons/pwa/pwa_code.svg",
+        url: "https://pwa-code.pages.dev/"
+      },
     ]
   },
   {

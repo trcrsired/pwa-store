@@ -149,6 +149,8 @@ const L = {
   urljump_desc: "A lightweight utility for entering and navigating directly to custom Web URLs within the PWA wrapper environment.",
   automation_name: "Automation",
   automation_desc: "A simple, privacy-focused web application for building and executing automated AI workflows directly on your device.",
+  pwa_code_name: "PWA Code",
+  pwa_code_desc: "A lightweight, web-based code editor and offline-capable IDE hosted on Cloudflare Pages for quick web development, syntax highlighting, and code previews.",
   "alternatives_name": "Alternatives",
   qrcodetools_name: "QR Code Tools",
   qrcodetools_desc: "Generate, scan, and manage QR codes with ease. Ideal for developers, marketers, and everyday users.",

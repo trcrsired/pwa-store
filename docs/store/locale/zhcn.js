@@ -148,6 +148,8 @@ const L = {
   urljump_desc: "适用于渐进式网络应用环境的轻量级 URL 网址跳转工具，支持直接输入自定义网址并在应用内快速导航。",
   automation_name: "Automation",
   automation_desc: "简单且注重隐私的 AI 工作流 PWA 工具。支持在设备本地创建与运行简易 AI 自动化任务流程。",
+  pwa_code_name: "PWA Code",
+  pwa_code_desc: "基于 Cloudflare Pages 部署的轻量级 Web 代码编辑器 PWA。支持离线运行、语法高亮与代码实时预览。",
   "alternatives_name": "替代品",
   qrcodetools_name: "二维码工具",
   qrcodetools_desc: "轻松生成、扫描和管理二维码，适用于开发者、市场人员和日常用户。",
