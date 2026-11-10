@@ -147,7 +147,7 @@ export const categories = [
         name: "PWA Code",
         nameKey: "pwa_code_name",
         descriptionKey: "pwa_code_desc",
-        icon: "icons/pwa/pwa_code.svg",
+        icon: "icons/pwa/pwa-code.svg",
         url: "https://pwa-code.pages.dev/"
       },
     ]
