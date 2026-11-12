@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" color="#4b61ee">
+  <rect width="48" height="48" rx="15" fill="currentColor"/>
+  <g id="bird">
+    <path d="M15 25C12 21 11 16 13 12Q14 10 16 12L24 22C23 17 27 13 31 14C35 14 37 17 37 21L42 23Q43 23.5 42 24L36.5 26C34 33 29 37 22 36C16 35 12 30 7 27Q5 25 8 24Z" fill="white"/>
+    <path d="M18 26Q21 31 27 29" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/>
+    <circle cx="32" cy="21" r="1.8" fill="currentColor"/>
+  </g>
+</svg>

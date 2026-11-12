@@ -150,6 +150,8 @@ const L = {
   automation_desc: "简单且注重隐私的 AI 工作流 PWA 工具。支持在设备本地创建与运行简易 AI 自动化任务流程。",
   pwa_code_name: "PWA Code",
   pwa_code_desc: "基于 Cloudflare Pages 部署的轻量级 Web 代码编辑器 PWA。支持离线运行、语法高亮与代码实时预览。",
+  hummingbird_name: "蜂鸟",
+  hummingbird_desc: "无需注册账号的局域网即时通讯与文件快传 PWA 工具。连接同一 Wi-Fi 即可自动发现附近在线设备，实现隐私安全的点对点聊天与图片传输。",
   "alternatives_name": "替代品",
   qrcodetools_name: "二维码工具",
   qrcodetools_desc: "轻松生成、扫描和管理二维码，适用于开发者、市场人员和日常用户。",

@@ -150,6 +150,13 @@ export const categories = [
         icon: "icons/pwa/pwa-code.svg",
         url: "https://pwa-code.pages.dev/"
       },
+      {
+        name: "Hummingbird",
+        nameKey: "hummingbird_name",
+        descriptionKey: "hummingbird_desc",
+        icon: "icons/pwa/hummingbird.svg",
+        url: "https://im.kuangye.team/"
+      },
     ]
   },
   {

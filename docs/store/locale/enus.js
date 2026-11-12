@@ -151,6 +151,8 @@ const L = {
   automation_desc: "A simple, privacy-focused web application for building and executing automated AI workflows directly on your device.",
   pwa_code_name: "PWA Code",
   pwa_code_desc: "A lightweight, web-based code editor and offline-capable IDE hosted on Cloudflare Pages for quick web development, syntax highlighting, and code previews.",
+  hummingbird_name: "Hummingbird",
+  hummingbird_desc: "An account-free, privacy-first local network chat and file-sharing PWA. Automatically discovers nearby devices on the same Wi-Fi for instant peer-to-peer messaging and photo transfers.",
   "alternatives_name": "Alternatives",
   qrcodetools_name: "QR Code Tools",
   qrcodetools_desc: "Generate, scan, and manage QR codes with ease. Ideal for developers, marketers, and everyday users.",
