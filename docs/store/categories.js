@@ -9836,6 +9836,15 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.t66y.com"
       },
+		{
+        name: "Liturgia diaria",
+        nameKey: "liturgia_diaria",
+        descriptionKey: "Acompanhe a LiturgiaDiária",
+        icon: "https://www.image2url.com/r2/default/images/png-to-jpg-1794666153834-29457593-d6a5-4a71-af18-e36135771ff7.jpg",
+        url2: "../wrappers/Liturgia diaria",
+        apptype2: "wrapper",
+        url: "https://liturgiadiaria.wasmer.app/"
+      }
     ]
   }
 ];
