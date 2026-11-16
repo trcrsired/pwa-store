@@ -1740,6 +1740,8 @@ const L = {
   finbold_desc: "一家快速发展的国际财经新闻与分析平台，全面涵盖股票市场、加密货币、金融科技、银行业以及全球宏观经济趋势的实时资讯与深度报道。",
   fred_name: "FRED 经济数据库 (FRED Economic Data)",
   fred_desc: "由圣路易斯联邦储备银行提供的综合数据库，包含来自数十个国家、国际、公共和私人机构的数十万条经济时间序列数据。",
+  ibkr_portal_name: "盈透证券客户端 (Interactive Brokers)",
+  ibkr_portal_desc: "盈透证券 (Interactive Brokers) 的安全身份验证、双重认证与客户端投资组合管理网关入口。",
   busmaps_name: "BusMaps",
   busmaps_desc: "打开 BusMaps，一个全球公交线路可视化平台。",
   nukemap_name: "NUKEMAP",

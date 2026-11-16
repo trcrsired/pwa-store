@@ -1748,6 +1748,8 @@ const L = {
   finbold_desc: "A fast-growing financial news and analysis platform providing extensive coverage of the stock market, cryptocurrency, fintech, banking, and global macroeconomic trends.",
   fred_name: "FRED Economic Data",
   fred_desc: "A comprehensive database of hundreds of thousands of economic data time series from scores of national, international, public, and private sources.",
+  ibkr_portal_name: "Interactive Brokers Portal",
+  ibkr_portal_desc: "The secure authentication, client portal, and multi-factor authorization gateway for managing trading portfolios and account positions on Interactive Brokers.",
   busmaps_name: "BusMaps",
   busmaps_desc: "Opens BusMaps, a global public transit route visualization platform.",
   nukemap_name: "NUKEMAP",

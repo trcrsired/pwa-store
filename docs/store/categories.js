@@ -2916,6 +2916,13 @@ export const categories = [
         url: "https://fred.stlouisfed.org"
       },
       {
+        name: "Interactive Brokers Portal",
+        nameKey: "ibkr_portal_name",
+        descriptionKey: "ibkr_portal_desc",
+        icon: "icons/pwa/ibkr_portal.webp",
+        url: "https://ndcdyn.interactivebrokers.com/"
+      },
+      {
         name: "Tencent Wealth Management (腾讯理财通)",
         nameKey: "tencentwm_name",
         descriptionKey: "tencentwm_desc",
