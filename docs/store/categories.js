@@ -4,8 +4,8 @@ export const categories = [
     name: "Fundamental",
     apps: [
       { nameKey: "pwaplayer_name", name: "PWA Player (My own toy)", icon: "icons/pwa/pwaplayer.svg", url: "https://pwa-player.pages.dev", descriptionKey: "pwaplayer_desc", manifestUrl: "https://pwa-player.pages.dev/manifest.json" },
-      { nameKey: "pwaplayer_githubpagesmirror_name", name: "PWA Player (Github Pages Mirror)", icon: "icons/pwa/pwaplayer.svg", url: "https://trcrsired.github.io/pwa-player", descriptionKey: "pwaplayer_githubpagesmirror_desc" },
-      { name: "SnaePlayer", icon: "icons/pwa/snaeplayer.svg", url: "https://snaeplayer.com/library/tracks", descriptionKey: "snaeplayer_desc", manifestUrl: "https://snaeplayer.com/manifest.webmanifest", manifestId: "https://snaeplayer.com/library/tracks" },
+      { nameKey: "pwaplayer_githubpagesmirror_name", name: "PWA Player (Github Pages Mirror)", icon: "icons/pwa/pwaplayer.svg", url: "https://trcrsired.github.io/pwa-player", descriptionKey: "pwaplayer_githubpagesmirror_desc", manifestUrl: "https://trcrsired.github.io/pwa-player/manifest.json" },
+      { name: "SnaePlayer", icon: "icons/pwa/snaeplayer.svg", url: "https://snaeplayer.com/library/tracks", descriptionKey: "snaeplayer_desc", manifestUrl: "https://snaeplayer.com/manifest.webmanifest", manifestId: "https://snaeplayer.com/library/tracks/" },
       {
         name: "Readest",
         nameKey: "readest_name",
@@ -13,16 +13,18 @@ export const categories = [
         icon: "icons/pwa/readest.webp",
         url: "https://web.readest.com",
         manifestUrl: "https://web.readest.com/manifest.json",
-        manifestId: "https://web.readest.com"
+        manifestId: "https://web.readest.com/"
       },
       {
         name: "Calculite",
         nameKey: "calculite_name",
         descriptionKey: "calculite_desc",
         icon: "icons/pwa/calculite.webp",
-        url: "https://calculite.ingstudios.dev"
+        url: "https://calculite.ingstudios.dev",
+        manifestUrl: "https://calculite.ingstudios.dev/manifest.webmanifest",
+        manifestId: "https://calculite.ingstudios.dev/"
       },
-      { name: "Screen Flashlight", icon: "icons/pwa/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", descriptionKey: "screenflashlight_desc", manifestUrl: "https://trcrsired.github.io/manifest.json", manifestId: "https://trcrsired.github.io/ScreenFlashlightWeb" },
+      { name: "Screen Flashlight", icon: "icons/pwa/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", descriptionKey: "screenflashlight_desc", manifestUrl: "https://trcrsired.github.io/ScreenFlashlightWeb/manifest.json", manifestId: "https://trcrsired.github.io/ScreenFlashlightWeb/" },
       { name: "PWA Store", nameKey: "pwastore_name", icon: "logo/logo.webp", url: "https://pwa-store-7x5.pages.dev", descriptionKey: "pwastore_desc" },
       { name: "PWA Store (GitHub Pages Mirror)", nameKey: "pwastore_githubpagesmirror_name", icon: "logo/logo.webp", url: "https://trcrsired.github.io/pwa-store", descriptionKey: "pwastore_githubpagesmirror_desc" },
       { name: "Wavacity", nameKey: "wavacity_name", icon: "icons/pwa/wavacity.webp", url: "https://wavacity.com", descriptionKey: "wavacity_desc" },
@@ -40,7 +42,7 @@ export const categories = [
         icon: "icons/pwa/squoosh.webp",
         url: "https://squoosh.app",
         manifestUrl: "https://squoosh.app/manifest.json",
-        manifestId: "https://squoosh.app"
+        manifestId: "https://squoosh.app/?utm_medium=PWA&utm_source=launcher"
       },
       {
         name: "ffmpeg.wasm",
@@ -56,7 +58,7 @@ export const categories = [
         icon: "icons/pwa/jspaint.webp",
         url: "https://jspaint.app",
         manifestUrl: "https://jspaint.app/manifest.webmanifest",
-        manifestId: "https://jspaint.app"
+        manifestId: "https://jspaint.app/"
       },
       {
         name: "WasmPass",
@@ -71,7 +73,9 @@ export const categories = [
         nameKey: "authenticator_name",
         descriptionKey: "authenticator_desc",
         icon: "icons/pwa/authenticator.webp",
-        url: "https://authenticator-pwa.pages.dev"
+        url: "https://authenticator-pwa.pages.dev",
+        manifestUrl: "https://authenticator-pwa.pages.dev/manifest.webmanifest",
+        manifestId: "https://authenticator-pwa.pages.dev/"
       },
       {
         name: "Online Compass",
@@ -80,7 +84,7 @@ export const categories = [
         icon: "icons/pwa/onlinecompass.webp",
         url: "https://onlinecompass.app",
         manifestUrl: "https://onlinecompass.app/manifest.json",
-        manifestId: "https://onlinecompass.app"
+        manifestId: "https://onlinecompass.app/"
       },
       {
         name: "Media Analyzer & Audio Extractor",
@@ -95,6 +99,8 @@ export const categories = [
         descriptionKey: "pjskstickers_desc",
         icon: "icons/pwa/pjskstickers.webp",
         url: "https://st.ayaka.one",
+        manifestUrl: "https://st.ayaka.one/site.webmanifest",
+        manifestId: "https://st.ayaka.one/"
       },
       {
         name: "White Noise Generator",
@@ -108,56 +114,69 @@ export const categories = [
         nameKey: "notepaditamarom_name",
         descriptionKey: "notepaditamarom_desc",
         icon: "icons/pwa/notepaditamarom.webp",
-        url: "https://itamarom.github.io/notepadjs"
+        url: "https://itamarom.github.io/notepadjs",
+        manifestUrl: "https://itamarom.github.io/notepadjs/manifest.webmanifest",
+        manifestId: "https://itamarom.github.io/notepadjs/"
       },
       {
         name: "Wormhole",
         nameKey: "wormhole_name",
         descriptionKey: "wormhole_desc",
         icon: "icons/pwa/wormhole.webp",
-        url: "https://wormhole.app"
+        url: "https://wormhole.app",
+        manifestUrl: "https://wormhole.app/site.webmanifest",
+        manifestId: "https://wormhole.app/?utm_source=homescreen"
       },
       {
         name: "PWA Geolocation",
         nameKey: "pwageolocation_name",
         descriptionKey: "pwageolocation_desc",
         icon: "icons/pwa/pwageolocation.webp",
-        url: "https://pwa-geolocation.pages.dev"
+        url: "https://pwa-geolocation.pages.dev",
+        manifestUrl: "https://pwa-geolocation.pages.dev/manifest.json"
       },
       {
         name: "Markdown Viewer",
         nameKey: "markdownviewer_name",
         descriptionKey: "markdownviewer_desc",
         icon: "icons/pwa/markdownviewer.svg",
-        url: "https://spskelly.github.io/markdown-viewer"
+        url: "https://spskelly.github.io/markdown-viewer",
+        manifestUrl: "https://spskelly.github.io/markdown-viewer/manifest.json",
+        manifestId: "https://spskelly.github.io/markdown-viewer/"
       },
       {
         name: "3color",
         nameKey: "3color_name",
         descriptionKey: "3color_desc",
         icon: "icons/pwa/3color.webp",
-        url: "https://3color.pages.dev"
+        url: "https://3color.pages.dev",
+        manifestUrl: "https://3color.pages.dev/manifest.webmanifest",
+        manifestId: "https://3color.pages.dev/index.html"
       },
       {
         name: "urljump",
         nameKey: "urljump_name",
         descriptionKey: "urljump_desc",
         icon: "icons/pwa/urljump.webp",
-        url: "https://urljump-2gd.pages.dev"
+        url: "https://urljump-2gd.pages.dev",
+        manifestUrl: "https://urljump-2gd.pages.dev/manifest.json"
       },
       {
         name: "Automation",
         nameKey: "automation_name",
         descriptionKey: "automation_desc",
         icon: "icons/pwa/automation.webp",
-        url: "https://nurmuhammedjoy.github.io/Automation"
+        url: "https://nurmuhammedjoy.github.io/Automation",
+        manifestUrl: "https://nurmuhammedjoy.github.io/Automation/manifest.webmanifest",
+        manifestId: "https://nurmuhammedjoy.github.io/Automation/"
       },
       {
         name: "PWA Code",
         nameKey: "pwa_code_name",
         descriptionKey: "pwa_code_desc",
         icon: "icons/pwa/pwa-code.svg",
-        url: "https://pwa-code.pages.dev/"
+        url: "https://pwa-code.pages.dev/",
+        manifestUrl: "https://pwa-code.pages.dev/manifest.webmanifest"
       },
       {
         name: "Hummingbird",
@@ -179,11 +198,11 @@ export const categories = [
         icon: "icons/pwa/qrcodetools.webp",
         url: "https://qrct.buhzzi.com",
         manifestUrl: "https://qrct.buhzzi.com/manifest.json",
-        manifestId: "https://qrct.buhzzi.com"
+        manifestId: "https://qrct.buhzzi.com/"
       },
-      { name: "WebVideoPlayer", icon: "icons/pwa/webvideoplayer.webp", url: "https://webvideoplayer.org", descriptionKey: "webvideoplayer_desc", manifestUrl: "https://webvideoplayer.org/manifest.json", manifestId: "https://webvideoplayer.org" },
+      { name: "WebVideoPlayer", icon: "icons/pwa/webvideoplayer.webp", url: "https://webvideoplayer.org", descriptionKey: "webvideoplayer_desc", manifestUrl: "https://webvideoplayer.org/manifest.json", manifestId: "https://webvideoplayer.org/player.html" },
       { name: "Flow", icon: "icons/pwa/flow.webp", url: "https://www.flowoss.com", descriptionKey: "flow_desc" },
-      { name: "TReader", icon: "icons/pwa/treader.webp", url: "https://tiansh.github.io/reader", descriptionKey: "treader_desc", manifestUrl: "https://tiansh.github.io/manifest.webmanifest", manifestId: "https://tiansh.github.io/reader" },
+      { name: "TReader", icon: "icons/pwa/treader.webp", url: "https://tiansh.github.io/reader", descriptionKey: "treader_desc", manifestUrl: "https://tiansh.github.io/reader/manifest.webmanifest", manifestId: "https://tiansh.github.io/reader/" },
       {
         name: "Notepad",
         nameKey: "notepadpwa_name",
@@ -191,14 +210,16 @@ export const categories = [
         icon: "icons/pwa/notepadpwa.webp",
         url: "https://notepad-pwa.vercel.app",
         manifestUrl: "https://notepad-pwa.vercel.app/manifest.json",
-        manifestId: "https://notepad-pwa.vercel.app"
+        manifestId: "https://notepad-pwa.vercel.app/"
       },
       {
         name: "Notepad.js",
         nameKey: "notepadjs_name",
         descriptionKey: "notepadjs_desc",
         icon: "icons/pwa/notepadjs.webp",
-        url: "https://notepad.js.org"
+        url: "https://notepad.js.org",
+        manifestUrl: "https://notepad.js.org/manifest.json",
+        manifestId: "https://notepad.js.org/index.html"
       },
       {
         name: "Paint.js",
@@ -207,16 +228,18 @@ export const categories = [
         icon: "icons/pwa/paintjs.webp",
         url: "https://paint.js.org",
         manifestUrl: "https://paint.js.org/manifest.webmanifest",
-        manifestId: "https://paint.js.org"
+        manifestId: "https://paint.js.org/"
       },
-      { name: "Calculator", nameKey: "calculator_name", icon: "icons/pwa/calculator.webp", url: "https://chrisdiana.github.io/pwa-calculator", descriptionKey: "calculator_desc", manifestUrl: "https://chrisdiana.github.io/manifest.json", manifestId: "https://chrisdiana.github.io/pwa-calculator" },
+      { name: "Calculator", nameKey: "calculator_name", icon: "icons/pwa/calculator.webp", url: "https://chrisdiana.github.io/pwa-calculator", descriptionKey: "calculator_desc", manifestUrl: "https://chrisdiana.github.io/pwa-calculator/manifest.json", manifestId: "https://chrisdiana.github.io/pwa-calculator/index.html" },
       { name: "Calculator (Chrome)", nameKey: "calculatorchrome_name", icon: "icons/pwa/calculatorchrome.webp", url: "https://calculator.apps.chrome/install", descriptionKey: "calculatorchrome_desc", nameKey: "calculatorchrome_name" },
       {
         name: "Battery Status",
         nameKey: "batterystatus_name",
         descriptionKey: "batterystatus_desc",
         icon: "icons/pwa/batterystatus.webp",
-        url: "https://irekrog.github.io/battery-status-progressive-web-app"
+        url: "https://irekrog.github.io/battery-status-progressive-web-app",
+        manifestUrl: "https://irekrog.github.io/battery-status-progressive-web-app/manifest.json",
+        manifestId: "https://irekrog.github.io/battery-status-progressive-web-app/"
       },
       {
         name: "Real-Time Typhoon Information (实时台风消息)",
@@ -230,57 +253,69 @@ export const categories = [
         nameKey: "woobx_name",
         descriptionKey: "woobx_desc",
         icon: "icons/pwa/woobx.webp",
-        url: "https://ol.woobx.cn",
-        manifestUrl: "https://ol.woobx.cn/manifest.json"
+        url: "https://ol.woobx.cn"
       },
       {
         name: "OpenStreetMap",
         nameKey: "openstreetmap_name",
         descriptionKey: "openstreetmap_desc",
         icon: "icons/pwa/openstreetmap.svg",
-        url: "https://www.openstreetmap.org"
+        url: "https://www.openstreetmap.org",
+        manifestUrl: "https://www.openstreetmap.org/assets/manifest-97cb57bafa7f7f002cc5fe5532b856c4246eef5cbbd21c78b4c6bc2ffa46747a.json",
+        manifestId: "https://www.openstreetmap.org/"
       },
       {
         name: "Cartes",
         nameKey: "cartes_name",
         descriptionKey: "cartes_desc",
         icon: "icons/pwa/cartes.webp",
-        url: "https://cartes.app"
+        url: "https://cartes.app",
+        manifestUrl: "https://cartes.app/manifest.webmanifest"
       },
       {
         name: "Unlock Music",
         nameKey: "unlockmusic_name",
         descriptionKey: "unlockmusic_desc",
         icon: "icons/pwa/unlockmusic.webp",
-        url: "https://unlockmusic.cn"
+        url: "https://unlockmusic.cn",
+        manifestUrl: "https://unlockmusic.cn/web-manifest.json",
+        manifestId: "https://unlockmusic.cn/index.html"
       },
       {
         name: "2056 Book Reader App",
         nameKey: "bookreader2056app_name",
         descriptionKey: "bookreader2056app_desc",
         icon: "icons/pwa/2056bookreader.webp",
-        url: "https://app.2056bookreader.com"
+        url: "https://app.2056bookreader.com",
+        manifestUrl: "https://app.2056bookreader.com/manifest.webmanifest",
+        manifestId: "https://app.2056bookreader.com/"
       },
       {
         name: "rssTea",
         nameKey: "rsstea_name",
         descriptionKey: "rsstea_desc",
         icon: "icons/pwa/rsstea.webp",
-        url: "https://avadhesh18.github.io/rssTea"
+        url: "https://avadhesh18.github.io/rssTea",
+        manifestUrl: "https://avadhesh18.github.io/rssTea/manifest.json",
+        manifestId: "https://avadhesh18.github.io/rssTea/index.html"
       },
       {
         name: "PWA MP3 Player",
         nameKey: "pwa_mp3_player_name",
         descriptionKey: "pwa_mp3_player_desc",
         icon: "icons/pwa/pwa-mp3-player.webp",
-        url: "https://utausnskareshi.github.io/pwa-mp3-player"
+        url: "https://utausnskareshi.github.io/pwa-mp3-player",
+        manifestUrl: "https://utausnskareshi.github.io/pwa-mp3-player/manifest.json",
+        manifestId: "https://utausnskareshi.github.io/pwa-mp3-player/index.html"
       },
       {
         name: "OmniConvert",
         nameKey: "omniconvert_name",
         descriptionKey: "omniconvert_desc",
         icon: "icons/pwa/omniconvert.svg",
-        url: "https://tools.sagasu.art"
+        url: "https://tools.sagasu.art",
+        manifestUrl: "https://tools.sagasu.art/manifest.json",
+        manifestId: "https://tools.sagasu.art/en/"
       },
       {
         name: "Base64.Guru",
@@ -330,6 +365,8 @@ export const categories = [
         url2: "../msedge/realfavicongenerator",
         apptype2: "wrapper",
         url: "https://realfavicongenerator.net",
+        manifestUrl: "https://realfavicongenerator.net/manifest.json",
+        manifestId: "https://realfavicongenerator.net/",
         manifestUrl2: "../msedge/realfavicongenerator/manifest.json"
       },
       {
@@ -347,7 +384,9 @@ export const categories = [
         nameKey: "tunelet_music_name",
         descriptionKey: "tunelet_music_desc",
         icon: "icons/wrappers/tunelet.webp",
-        url: "https://tunelet.pages.dev"
+        url: "https://tunelet.pages.dev",
+        manifestUrl: "https://tunelet.pages.dev/manifest.webmanifest",
+        manifestId: "https://tunelet.pages.dev/online?utm_source=a2hs"
       },
       {
         name: "Tunelet",
@@ -376,7 +415,9 @@ export const categories = [
         nameKey: "theweatherchannel_name",
         descriptionKey: "theweatherchannel_desc",
         icon: "icons/pwa/theweatherchannel.webp",
-        url: "https://weather.com"
+        url: "https://weather.com",
+        manifestUrl: "https://weather.com/manifest.webmanifest",
+        manifestId: "https://weather.com/?from=launch:homescreen"
       },
       { name: "Weawow", icon: "icons/pwa/weawow.webp", url: "https://weawow.com", descriptionKey: "weawow_desc" },
       {
@@ -384,7 +425,9 @@ export const categories = [
         nameKey: "windy_name",
         descriptionKey: "windy_desc",
         icon: "icons/pwa/windy.webp",
-        url: "https://www.windy.com"
+        url: "https://www.windy.com",
+        manifestUrl: "https://www.windy.com/v/51.4.4.ind.c444/manifest.json",
+        manifestId: "https://www.windy.com/?source=pwa"
       },
       {
         name: "Weather & Climate",
@@ -442,19 +485,19 @@ export const categories = [
     apps: [
       { name: "Microsoft Copilot", icon: "icons/msedge/copilot.webp", url: "https://copilot.microsoft.com", descriptionKey: "copilot_desc", apptype2: "wrapper", url2: "../msedge/copilot", "hide": true, manifestUrl2: "../msedge/copilot/manifest.json" },
       { name: "ChatGPT", icon: "icons/pwa/chatgpt.webp", url: "https://chat.openai.com", descriptionKey: "chatgpt_desc", apptype2: "wrapper", url2: "../wrappers/chatgpt", manifestUrl2: "../wrappers/chatgpt/manifest.json" },
-      { name: "Grok", icon: "icons/pwa/grok.webp", url: "https://grok.com", descriptionKey: "grok_desc"},
+      { name: "Grok", icon: "icons/pwa/grok.webp", url: "https://grok.com", descriptionKey: "grok_desc", manifestUrl: "https://grok.com/manifest.webmanifest", manifestId: "https://grok.com/"},
       { name: "Meta AI", icon: "icons/pwa/metaai.webp", url: "https://www.meta.ai", descriptionKey: "metaai_desc" }, 
       { name: "Cursor", icon: "icons/pwa/cursor.webp", url: "https://cursor.com/agents", descriptionKey: "cursor_desc" },
-      { name: "Google Gemini", icon: "icons/pwa/gemini.webp", url: "https://gemini.google.com", descriptionKey: "gemini_desc", apptype2: "wrapper", url2: "../wrappers/gemini", manifestUrl2: "../wrappers/gemini/manifest.json" },
+      { name: "Google Gemini", icon: "icons/pwa/gemini.webp", url: "https://gemini.google.com", descriptionKey: "gemini_desc", apptype2: "wrapper", url2: "../wrappers/gemini", manifestUrl: "https://gemini.google.com/_/BardChatUi/manifest.json", manifestId: "https://gemini.google.com/?lfhs=2", manifestUrl2: "../wrappers/gemini/manifest.json" },
       { name: "Claude", icon: "icons/pwa/claude.webp", url: "https://claude.ai", descriptionKey: "claude_desc" },
       { name: "Manus", icon: "icons/pwa/manus.webp", url: "https://manus.im", descriptionKey: "manus_desc" },
-      { name: "LeChat", icon: "icons/pwa/lechat.webp", url: "https://lechat.chat/chat", nameKey: "lechat_name", descriptionKey: "lechat_desc", manifestUrl: "https://lechat.chat/assets/images/favicon/site.webmanifest", manifestId: "https://lechat.chat/chat" },
-      { name: "Qwen", icon: "icons/pwa/qwen.webp", url: "https://chat.qwen.ai", descriptionKey: "qwen_desc", manifestUrl: "https://assets.alicdn.com/g/qwenweb/qwen-chat-fe/0.1.13/manifest.json", manifestId: "https://chat.qwen.ai" },
+      { name: "LeChat", icon: "icons/pwa/lechat.webp", url: "https://lechat.chat/chat", nameKey: "lechat_name", descriptionKey: "lechat_desc" },
+      { name: "Qwen", icon: "icons/pwa/qwen.webp", url: "https://chat.qwen.ai", descriptionKey: "qwen_desc" },
       { name: "Gauth", icon: "icons/pwa/gauthmath.webp", url: "https://www.gauthmath.com", descriptionKey: "gauth_desc"},
       { name: "DeepSeek", icon: "icons/pwa/deepseek.webp", url: "https://deepseek.com", descriptionKey: "deepseek_desc" },
-      { name: "Kimi", icon: "icons/pwa/kimi.webp", url: "https://www.kimi.com", descriptionKey: "kimi_desc" },
-      { name: "Kimi+", icon: "icons/pwa/kimi.webp", url: "https://www.kimi.com/kimiplus-square", descriptionKey: "kimiplus_desc" },
-      { name: "Z.ai", icon: "icons/pwa/z_ai.webp", url: "https://chat.z.ai", nameKey: "z_ai_name", descriptionKey: "z_ai_desc", manifestUrl: "https://z-cdn.chatglm.cn/z-ai/frontend/static/manifest.json", manifestId: "https://chat.z.ai" },
+      { name: "Kimi", icon: "icons/pwa/kimi.webp", url: "https://www.kimi.com", descriptionKey: "kimi_desc", manifestUrl: "https://www.kimi.com/manifest.webmanifest" },
+      { name: "Kimi+", icon: "icons/pwa/kimi.webp", url: "https://www.kimi.com/kimiplus-square", descriptionKey: "kimiplus_desc", manifestUrl: "https://www.kimi.com/manifest.webmanifest" },
+      { name: "Z.ai", icon: "icons/pwa/z_ai.webp", url: "https://chat.z.ai", nameKey: "z_ai_name", descriptionKey: "z_ai_desc", manifestUrl: "https://z-cdn.chatglm.cn/z-ai/frontend/static/manifest.json", manifestId: "https://z-cdn.chatglm.cn/" },
       { name: "longcat", icon: "icons/pwa/longcat.webp", url: "https://longcat.chat", nameKey: "longcat_name", descriptionKey: "longcat_desc" },
       {
         name: "WolframAlpha", nameKey: "wolframalpha_name", icon: "icons/pwa/wolframalpha.webp", url: "https://www.wolframalpha.com", descriptionKey: "wolframalpha_desc"
@@ -465,7 +508,9 @@ export const categories = [
         nameKey: "openrouter_name",
         descriptionKey: "openrouter_desc",
         icon: "icons/pwa/openrouter.webp",
-        url: "https://openrouter.ai"
+        url: "https://openrouter.ai",
+        manifestUrl: "https://openrouter.ai/manifest.webmanifest",
+        manifestId: "https://openrouter.ai/"
       },
       { name: "Perplexity", icon: "icons/wrappers/perplexity.webp", url2: "../wrappers/perplexity", urlDisplay:"https://www.perplexity.ai", descriptionKey: "perplexity_desc", apptype2: "wrapper", manifestUrl2: "../wrappers/perplexity/manifest.json" },
       { name: "G2 AI", nameKey: "g2ai_name", icon: "icons/wrappers/g2ai.webp", url2: "../wrappers/g2ai", url: "https://ai.g2.com", descriptionKey: "g2ai_desc", apptype2: "wrapper", manifestUrl2: "../wrappers/g2ai/manifest.json" },
@@ -474,28 +519,34 @@ export const categories = [
         nameKey: "andi_name",
         descriptionKey: "andi_desc",
         icon: "icons/pwa/andi.webp",
-        url: "https://andisearch.com"
+        url: "https://andisearch.com",
+        manifestUrl: "https://andisearch.com/manifest.webmanifest",
+        manifestId: "https://andisearch.com/"
       },
       {
         name: "Venice AI",
         nameKey: "veniceai_name",
         descriptionKey: "veniceai_desc",
         icon: "icons/pwa/veniceai.webp",
-        url: "https://venice.ai"
+        url: "https://venice.ai",
+        manifestUrl: "https://venice.ai/manifest.json"
       },
       {
         name: "Chub AI",
         nameKey: "chubai_name",
         descriptionKey: "chubai_desc",
         icon: "icons/pwa/chubai.webp",
-        url: "https://chub.ai"
+        url: "https://chub.ai",
+        manifestUrl: "https://chub.ai/assets/manifest-20261007T172809077Z-BdAyOY0s.json"
       },
       {
         name: "Replika",
         nameKey: "replika_name",
         descriptionKey: "replika_desc",
         icon: "icons/pwa/replika.webp",
-        url: "https://replika.ai"
+        url: "https://replika.ai",
+        manifestUrl: "https://replika.com/manifest.webmanifest",
+        manifestId: "https://replika.com/"
       },
       {
         name: "Duck.ai",
@@ -528,6 +579,7 @@ export const categories = [
         url: "https://alice.yandex.ru",
         apptype2: "wrapper",
         url2: "../wrappers/alice",
+        manifestUrl: "https://alice.yandex.ru/manifest.webmanifest",
         manifestUrl2: "../wrappers/alice/manifest.json"
       },
       {
@@ -538,6 +590,8 @@ export const categories = [
         url2: "../msedge/wenxin",
         apptype2: "wrapper",
         url: "https://chat.baidu.com",
+        manifestUrl: "https://wenxin.baidu.com/aisearch.webmanifest",
+        manifestId: "https://wenxin.baidu.com/search?extParams=%7B%22enter_type%22%3A%22pwa%22%7D",
         manifestUrl2: "../msedge/wenxin/manifest.json"
       },
       {
@@ -567,7 +621,7 @@ export const categories = [
     name: "Cybersecurity",
     apps: [
       { name: "ScamAdviser", icon: "icons/pwa/scamadviser.webp", url: "https://www.scamadviser.com", descriptionKey: "scamadviser_desc", manifestUrl: "https://www.scamadviser.com/images/static/favicon/manifest.json" },
-      { name: "Bitwarden", nameKey: "bitwarden_name", icon: "icons/pwa/bitwarden.webp", url: "https://bitwarden.com", descriptionKey: "bitwarden_desc", manifestUrl: "https://bitwarden.com/manifest.webmanifest", manifestId: "https://bitwarden.com" },
+      { name: "Bitwarden", nameKey: "bitwarden_name", icon: "icons/pwa/bitwarden.webp", url: "https://bitwarden.com", descriptionKey: "bitwarden_desc", manifestUrl: "https://bitwarden.com/manifest.webmanifest", manifestId: "https://bitwarden.com/" },
       { name: "Privacy Guides Community", nameKey: "privacyguidescommunity_name", icon: "icons/pwa/privacyguidescommunity.webp", descriptionKey: "privacyguidescommunity_desc", url: "https://discuss.privacyguides.net" },
       {
         name: "Trustpilot",
@@ -576,7 +630,7 @@ export const categories = [
         icon: "icons/pwa/trustpilot.webp",
         url: "https://www.trustpilot.com",
         manifestUrl: "https://www.trustpilot.com/manifest.json",
-        manifestId: "https://www.trustpilot.com"
+        manifestId: "https://www.trustpilot.com/?utm_source=web_app_manifest"
       },
       {
         name: "GenPass",
@@ -585,7 +639,7 @@ export const categories = [
         icon: "icons/pwa/genpass.webp",
         url: "https://genpass.net",
         manifestUrl: "https://genpass.net/manifest.json",
-        manifestId: "https://genpass.net"
+        manifestId: "https://genpass.net/"
       },
       {
         name: "Have I Been Pwned",
@@ -595,6 +649,8 @@ export const categories = [
         url2: "../msedge/hibp",
         apptype2: "wrapper",
         url: "https://haveibeenpwned.com",
+        manifestUrl: "https://haveibeenpwned.com/site.webmanifest?v=tlOw2W1Wz0FBvJhxLuYAn03PU1xmcNTNUNbCyjw6Cg4",
+        manifestId: "https://haveibeenpwned.com/",
         manifestUrl2: "../msedge/hibp/manifest.json"
       },
       { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url2: "../wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype2: "wrapper", url: "https://stack.watch", manifestUrl2: "../wrappers/stackwatch/manifest.json" },
@@ -671,9 +727,7 @@ export const categories = [
         nameKey: "epochconverter_name",
         descriptionKey: "epochconverter_desc",
         icon: "icons/pwa/epochconverter.webp",
-        url: "https://www.epochconverter.com",
-        manifestUrl: "https://www.epochconverter.com/img/site.webmanifest",
-        manifestId: "https://www.epochconverter.com"
+        url: "https://www.epochconverter.com"
       },
       { name: "NIST Time", icon: "icons/wrappers/timegov.webp", url2: "../wrappers/timegov", url: "https://www.time.gov", descriptionKey: "timegov_desc", apptype2: "wrapper", manifestUrl2: "../wrappers/timegov/manifest.json" },
       { name: "aTimerLogger", nameKey: "atimelogger_name", icon: "icons/wrappers/atimelogger.webp", url2: "../wrappers/atimelogger", url: "https://app.atimelogger.com", descriptionKey: "atimelogger_desc", apptype2: "wrapper", manifestUrl2: "../wrappers/atimelogger/manifest.json" },
@@ -756,14 +810,16 @@ export const categories = [
     apps: [
       { name: "Google", icon: "icons/pwa/google.webp", url: "https://www.google.com", descriptionKey: "google_desc" },
       { nameKey: "googlevoice_name", name: "Google Voice", icon: "icons/pwa/googlevoice.webp", url: "https://voice.google.com", descriptionKey: "googlevoice_desc" },
-      { nameKey: "googlemaps_name", name: "Google Maps", icon: "icons/pwa/googlemaps.webp", url: "https://maps.google.com", descriptionKey: "googlemaps_desc", manifestUrl: "https://maps.google.com/maps/preview/pwa/manifest?source=ttpwa&hl=en", manifestId: "https://maps.google.com" },
-      { nameKey: "googlenews_name", name: "Google News", icon: "icons/pwa/googlenews.webp", url: "https://news.google.com", descriptionKey: "googlenews_desc", manifestUrl: "https://news.google.com/_/DotsSplashUi/manifest.json", manifestId: "https://news.google.com" },
+      { nameKey: "googlemaps_name", name: "Google Maps", icon: "icons/pwa/googlemaps.webp", url: "https://maps.google.com", descriptionKey: "googlemaps_desc", manifestUrl: "https://maps.google.com/maps/preview/pwa/manifest?source=ttpwa&hl=en", manifestId: "https://maps.google.com/maps?force=tt&source=ttpwa" },
+      { nameKey: "googlenews_name", name: "Google News", icon: "icons/pwa/googlenews.webp", url: "https://news.google.com", descriptionKey: "googlenews_desc", manifestUrl: "https://news.google.com/_/DotsSplashUi/manifest.json", manifestId: "https://news.google.com/?lfhs=2" },
       {
         name: "NotebookLM",
         nameKey: "notebooklm_name",
         descriptionKey: "notebooklm_desc",
         icon: "icons/pwa/notebooklm.webp",
-        url: "https://notebooklm.google.com"
+        url: "https://notebooklm.google.com",
+        manifestUrl: "https://notebook.google.com/_/static/branding/v6/manifest.json",
+        manifestId: "https://notebook.google.com/"
       },
       {
         name: "Google Developers",
@@ -772,7 +828,7 @@ export const categories = [
         icon: "icons/pwa/googledev.webp",
         url: "https://developers.google.com",
         manifestUrl: "https://developers.google.com/_pwa/developers/manifest.json",
-        manifestId: "https://developers.google.com"
+        manifestId: "https://developers.google.com/"
       },
       {
         name: "Google Keep",
@@ -793,7 +849,8 @@ export const categories = [
         nameKey: "google_aistudio_name",
         descriptionKey: "google_aistudio_desc",
         icon: "icons/pwa/google_aistudio.webp",
-        url: "https://aistudio.google.com"
+        url: "https://aistudio.google.com",
+        manifestUrl: "https://aistudio.google.com/_/MakerSuite/manifest.json"
       },
       {
         name: "Google AI for Developers",
@@ -822,6 +879,8 @@ export const categories = [
         url2: "../wrappers/googletranslate",
         apptype2: "wrapper",
         url: "https://translate.google.com",
+        manifestUrl: "https://translate.google.com/_/TranslateWebserverUi/manifest.json",
+        manifestId: "https://translate.google.com/?lfhs=2",
         manifestUrl2: "../wrappers/googletranslate/manifest.json"
       },
       {
@@ -866,7 +925,7 @@ export const categories = [
         icon: "icons/pwa/simplenote.webp",
         url: "https://app.simplenote.com",
         manifestUrl: "https://app.simplenote.com/manifest.json",
-        manifestId: "https://app.simplenote.com"
+        manifestId: "https://app.simplenote.com/"
       },
       {
         name: "Notion",
@@ -880,7 +939,9 @@ export const categories = [
         nameKey: "nextaidrawio_name",
         descriptionKey: "nextaidrawio_desc",
         icon: "icons/pwa/nextaidrawio.webp",
-        url: "https://next-ai-drawio.jiang.jp"
+        url: "https://next-ai-drawio.jiang.jp",
+        manifestUrl: "https://next-ai-drawio.jiang.jp/manifest.webmanifest",
+        manifestId: "https://next-ai-drawio.jiang.jp/"
       },
       {
         name: "Draw.io",
@@ -889,7 +950,7 @@ export const categories = [
         icon: "icons/pwa/drawio.webp",
         url: "https://app.diagrams.net",
         manifestUrl: "https://app.diagrams.net/images/manifest.json",
-        manifestId: "https://app.diagrams.net"
+        manifestId: "https://app.diagrams.net/index.html"
       },
       {
         name: "Excalidraw",
@@ -904,14 +965,17 @@ export const categories = [
         nameKey: "pasteepad_name",
         descriptionKey: "pasteepad_desc",
         icon: "icons/pwa/pasteepad.webp",
-        url: "https://pasteepad.com"
+        url: "https://pasteepad.com",
+        manifestUrl: "https://pasteepad.com/manifest.json",
+        manifestId: "https://pasteepad.com/index.html"
       },
       {
         name: "Nanocell CSV",
         nameKey: "nanocell_csv_name",
         descriptionKey: "nanocell_csv_desc",
         icon: "icons/pwa/nanocell_csv.svg",
-        url: "https://www.nanocell-csv.com"
+        url: "https://www.nanocell-csv.com",
+        manifestUrl: "https://www.nanocell-csv.com/manifest.webmanifest"
       },
       {
         name: "PDFGem",
@@ -919,14 +983,18 @@ export const categories = [
         descriptionKey: "pdfgem_desc",
         icon: "icons/pwa/pdfgem.svg",
         url: "https://pdfgem.io",
-        hide: true
+        hide: true,
+        manifestUrl: "https://pdfgem.io/manifest.json",
+        manifestId: "https://pdfgem.io/"
       },
       {
         name: "Fileverse Docs",
         nameKey: "fileverse_docs_name",
         descriptionKey: "fileverse_docs_desc",
         icon: "icons/pwa/fileverse_docs.webp",
-        url: "https://docs.fileverse.io"
+        url: "https://docs.fileverse.io",
+        manifestUrl: "https://docs.fileverse.io/manifest.webmanifest",
+        manifestId: "https://docs.fileverse.io/"
       },
       {
         name: "DingTalk (钉钉)",
@@ -966,7 +1034,7 @@ export const categories = [
         icon: "icons/pwa/infrequently.webp",
         url: "https://infrequently.org",
         manifestUrl: "https://infrequently.org/assets/infrequently.webmanifest",
-        manifestId: "https://infrequently.org"
+        manifestId: "https://infrequently.org/?source=pwa"
       },
       {
         name: "GitHub",
@@ -974,14 +1042,16 @@ export const categories = [
         url: "https://github.com",
         descriptionKey: "github_desc",
         manifestUrl: "https://github.com/manifest.json",
-        manifestId: "https://github.com"
+        manifestId: "https://github.com/"
       },
       {
         name: "GitHub Docs",
         nameKey: "githubdocs_name",
         descriptionKey: "githubdocs_desc",
         icon: "icons/pwa/githubdocs.webp",
-        url: "https://docs.github.com"
+        url: "https://docs.github.com",
+        manifestUrl: "https://docs.github.com/manifest.json",
+        manifestId: "https://docs.github.com/"
       },
       {
         name: "Visual Studio Code",
@@ -1009,9 +1079,7 @@ export const categories = [
         descriptionKey: "v2raya_desc",
         icon: "icons/pwa/v2raya.webp",
         url: "https://v2raya.top",
-        hide: true,
-        manifestUrl: "https://v2raya.top/site.webmanifest",
-        manifestId: "https://v2raya.top"
+        hide: true
       },
       {
         name: "GitLab",
@@ -1047,7 +1115,7 @@ export const categories = [
         url: "https://developer.mozilla.org",
         descriptionKey: "mdn_desc",
         manifestUrl: "https://developer.mozilla.org/manifest.json",
-        manifestId: "https://developer.mozilla.org"
+        manifestId: "https://developer.mozilla.org/"
       },
       {
         name: "Chrome for developers",
@@ -1056,7 +1124,7 @@ export const categories = [
         url: "https://developer.chrome.com",
         descriptionKey: "chrome_dev_desc",
         manifestUrl: "https://developer.chrome.com/_pwa/chrome/manifest.json",
-        manifestId: "https://developer.chrome.com"
+        manifestId: "https://developer.chrome.com/"
       },
       {
         name: "web.dev",
@@ -1064,7 +1132,7 @@ export const categories = [
         url: "https://web.dev",
         descriptionKey: "webdev_desc",
         manifestUrl: "https://web.dev/_pwa/web/manifest.json",
-        manifestId: "https://web.dev"
+        manifestId: "https://web.dev/"
       },
       {
         name: "Google for Developers",
@@ -1073,7 +1141,7 @@ export const categories = [
         url: "https://developers.google.com",
         descriptionKey: "googledevelopers_desc",
         manifestUrl: "https://developers.google.com/_pwa/developers/manifest.json",
-        manifestId: "https://developers.google.com"
+        manifestId: "https://developers.google.com/"
       },
       {
         name: "Bing Webmaster Tools",
@@ -1082,7 +1150,7 @@ export const categories = [
         url: "https://www.bing.com/webmasters",
         descriptionKey: "bing_webmaster_desc",
         manifestUrl: "https://www.bing.com/webmasters/manifest.json",
-        manifestId: "https://www.bing.com/webmasters"
+        manifestId: "https://www.bing.com/webmasters/pwa"
       },
       {
         name: "PWA Builder",
@@ -1091,14 +1159,16 @@ export const categories = [
         url: "https://www.pwabuilder.com",
         descriptionKey: "pwabuilder_desc",
         manifestUrl: "https://www.pwabuilder.com/manifest.json",
-        manifestId: "https://www.pwabuilder.com"
+        manifestId: "https://www.pwabuilder.com/"
       },
       {
         name: "Theia Cloud",
         nameKey: "theiacloud_name",
         descriptionKey: "theiacloud_desc",
         icon: "icons/pwa/theiacloud.webp",
-        url: "https://try.theia-cloud.io"
+        url: "https://try.theia-cloud.io",
+        manifestUrl: "https://try.theia-cloud.io/manifest.json",
+        manifestId: "https://try.theia-cloud.io/"
       },
       {
         name: "LeetCode",
@@ -1131,7 +1201,7 @@ export const categories = [
         url: "https://f-droid.org",
         descriptionKey: "fdroid_desc",
         manifestUrl: "https://f-droid.org/assets/site_J9OLInBmO2hLlutzRFC4mdstNJjL44B6NzBbT0ecmA0=.webmanifest",
-        manifestId: "https://f-droid.org"
+        manifestId: "https://f-droid.org/assets/"
       },
       {
         name: "Resilient Web Design",
@@ -1140,7 +1210,7 @@ export const categories = [
         url: "https://resilientwebdesign.com",
         descriptionKey: "resilientwebdesign_desc",
         manifestUrl: "https://resilientwebdesign.com/manifest.json",
-        manifestId: "https://resilientwebdesign.com"
+        manifestId: "https://resilientwebdesign.com/"
       },
       {
         name: "PWA Dev China",
@@ -1155,8 +1225,8 @@ export const categories = [
         icon: "icons/pwa/frontendmasters.webp",
         descriptionKey: "frontendmasters_desc",
         url: "https://frontendmasters.com",
-        manifestUrl: "https://frontendmasters.com/manifest.json",
-        manifestId: "https://frontendmasters.com"
+        manifestUrl: "https://master.dev/manifest.json",
+        manifestId: "https://master.dev/"
       },
       {
         name: "v86",
@@ -1186,9 +1256,7 @@ export const categories = [
         nameKey: "labuladong_name",
         descriptionKey: "labuladong_desc",
         icon: "icons/pwa/labuladong.webp",
-        url: "https://labuladong.online",
-        manifestUrl: "https://labuladong.online/algo/manifest.webmanifest",
-        manifestId: "https://labuladong.online"
+        url: "https://labuladong.online"
       },
       {
         name: "Indie Tools",
@@ -1197,7 +1265,7 @@ export const categories = [
         icon: "icons/pwa/indietools.webp",
         url: "https://www.indietools.work",
         manifestUrl: "https://www.indietools.work/manifest.json",
-        manifestId: "https://www.indietools.work"
+        manifestId: "https://www.indietools.work/"
       },
       {
         name: "DeepWiki",
@@ -1213,14 +1281,16 @@ export const categories = [
         icon: "icons/pwa/linear.webp",
         url: "https://linear.app",
         manifestUrl: "https://linear.app/static/pwa.webmanifest?v=4",
-        manifestId: "https://linear.app"
+        manifestId: "https://linear.app/login"
       },
       {
         name: "Codeberg",
         nameKey: "codeberg_name",
         descriptionKey: "codeberg_desc",
         icon: "icons/pwa/codeberg.webp",
-        url: "https://codeberg.org"
+        url: "https://codeberg.org",
+        manifestUrl: "https://codeberg.org/manifest.json",
+        manifestId: "https://codeberg.org/"
       },
       {
         name: "permission.site",
@@ -1244,7 +1314,7 @@ export const categories = [
         icon: "icons/pwa/webcomponents.webp",
         url: "https://www.webcomponents.org",
         manifestUrl: "https://www.webcomponents.org/manifest.json",
-        manifestId: "https://www.webcomponents.org"
+        manifestId: "https://www.webcomponents.org/"
       },
       {
         name: "PWA WASM Example",
@@ -1252,15 +1322,15 @@ export const categories = [
         descriptionKey: "pwawasmexample_desc",
         icon: "icons/pwa/pwawasmexample.webp",
         url: "https://trcrsired.github.io/pwa-wasm-example",
-        manifestUrl: "https://trcrsired.github.io/manifest.webmanifest",
-        manifestId: "https://trcrsired.github.io/pwa-wasm-example"
+        manifestUrl: "https://trcrsired.github.io/pwa-wasm-example/manifest.webmanifest"
       },
       {
         name: "fast_io",
         nameKey: "fastio_name",
         descriptionKey: "fastio_desc",
         icon: "icons/pwa/fastio.webp",
-        url: "https://fastio.pages.dev"
+        url: "https://fastio.pages.dev",
+        manifestUrl: "https://fastio.pages.dev/manifest.json"
       },
       {
         name: "PWA fast_io Demo",
@@ -1275,21 +1345,25 @@ export const categories = [
         nameKey: "webassemblysh_name",
         descriptionKey: "webassemblysh_desc",
         icon: "icons/pwa/webassemblysh.webp",
-        url: "https://webassembly.sh"
+        url: "https://webassembly.sh",
+        manifestUrl: "https://webassembly.sh/manifest.json",
+        manifestId: "https://webassembly.sh/"
       },
       {
         name: "Love2Dev",
         nameKey: "love2dev_name",
         descriptionKey: "love2dev_desc",
         icon: "icons/pwa/love2dev.webp",
-        url: "https://love2dev.com"
+        url: "https://love2dev.com",
+        manifestUrl: "https://love2dev.com/manifest.webmanifest"
       },
       {
         name: "FreeBSD Forums",
         nameKey: "freebsdforums_name",
         descriptionKey: "freebsdforums_desc",
         icon: "icons/pwa/freebsdforums.webp",
-        url: "https://forums.freebsd.org"
+        url: "https://forums.freebsd.org",
+        manifestUrl: "https://forums.freebsd.org/webmanifest.php"
       },
       {
         name: "CMake Discourse",
@@ -1317,35 +1391,44 @@ export const categories = [
         nameKey: "stackedit_name",
         descriptionKey: "stackedit_desc",
         icon: "icons/pwa/stackedit.webp",
-        url: "https://stackedit.io/app"
+        url: "https://stackedit.io/app",
+        manifestUrl: "https://stackedit.io/manifest.c9128ce574e7548a3b0d3bcd8bfa212c.json",
+        manifestId: "https://stackedit.io/app"
       },
       {
         name: "Web APIs",
         nameKey: "webapis_name",
         descriptionKey: "webapis_desc",
         icon: "icons/pwa/webapis.webp",
-        url: "https://webapis.co"
+        url: "https://webapis.co",
+        manifestUrl: "https://webapis.co/manifest.json"
       },
       {
         name: "Chromium Dash",
         nameKey: "chromiumdash_name",
         descriptionKey: "chromiumdash_desc",
         icon: "icons/pwa/chromiumdash.webp",
-        url: "https://chromiumdash.appspot.com"
+        url: "https://chromiumdash.appspot.com",
+        manifestUrl: "https://chromiumdash.appspot.com/static/manifest.json",
+        manifestId: "https://chromiumdash.appspot.com/"
       },
       {
         name: "Svelte",
         nameKey: "svelte_name",
         descriptionKey: "svelte_desc",
         icon: "icons/pwa/svelte.webp",
-        url: "https://svelte.dev"
+        url: "https://svelte.dev",
+        manifestUrl: "https://svelte.dev/manifest.json",
+        manifestId: "https://svelte.dev/"
       },
       {
         name: "Web Serial Terminal",
         nameKey: "webserialterminal_name",
         descriptionKey: "webserialterminal_desc",
         icon: "icons/pwa/webserialterminal.webp",
-        url: "https://webserialterminal.com"
+        url: "https://webserialterminal.com",
+        manifestUrl: "https://webserialterminal.com/manifest.json",
+        manifestId: "https://webserialterminal.com/index.html"
       },
       {
         name: "Buildkite",
@@ -1359,7 +1442,9 @@ export const categories = [
         nameKey: "buildkite_llvm_name",
         descriptionKey: "buildkite_llvm_desc",
         icon: "icons/pwa/buildkite.webp",
-        url: "https://buildkite.com/llvm-project"
+        url: "https://buildkite.com/llvm-project",
+        manifestUrl: "https://buildkite.com/manifest.json",
+        manifestId: "https://buildkite.com/"
       },
       {
         name: "LLVM Discourse",
@@ -1373,14 +1458,18 @@ export const categories = [
         nameKey: "vsdevcomm_name",
         descriptionKey: "vsdevcomm_desc",
         icon: "icons/pwa/vsdevcomm.webp",
-        url: "https://developercommunity.visualstudio.com"
+        url: "https://developercommunity.visualstudio.com",
+        manifestUrl: "https://developercommunity.visualstudio.com/manifest.json",
+        manifestId: "https://developercommunity.visualstudio.com/"
       },
       {
         name: "Linux Syscall Tables",
         nameKey: "linux_syscalls_name",
         descriptionKey: "linux_syscalls_desc",
         icon: "icons/pwa/linux_syscalls.webp",
-        url: "https://syscalls.mebeim.net"
+        url: "https://syscalls.mebeim.net",
+        manifestUrl: "https://syscalls.mebeim.net/site.webmanifest",
+        manifestId: "https://syscalls.mebeim.net/"
       },
       {
         name: "Python",
@@ -1393,8 +1482,8 @@ export const categories = [
         icon: "icons/pwa/rustlang.webp",
         url: "https://www.rust-lang.org",
         descriptionKey: "rust_desc",
-        manifestUrl: "https://www.rust-lang.org/static/images/site.webmanifest?v=ngJW8jGAmR",
-        manifestId: "https://www.rust-lang.org"
+        manifestUrl: "https://rust-lang.org/static/images/site.webmanifest?v=ngJW8jGAmR",
+        manifestId: "https://rust-lang.org/static/images/"
       },
       {
         name: "ISO C++",
@@ -1742,6 +1831,7 @@ export const categories = [
         url2: "../msedge/opencode",
         apptype2: "wrapper",
         url: "https://opencode.ai",
+        manifestUrl: "https://opencode.ai/site.webmanifest",
         manifestUrl2: "../msedge/opencode/manifest.json"
       },
       {
@@ -1855,7 +1945,7 @@ export const categories = [
         url: "https://yandex.com",
         descriptionKey: "yandex_desc",
         manifestUrl: "https://yandex.com/portal/front/resources/desktop/manifest-en.json",
-        manifestId: "https://yandex.com"
+        manifestId: "https://yandex.com/?from=homescreendesktop"
       },
       {
         name: "DuckDuckGo",
@@ -1880,8 +1970,8 @@ export const categories = [
         nameKey: "getnomad_name",
         descriptionKey: "getnomad_desc",
         icon: "icons/pwa/getnomad.webp",
-        manifestUrl: "https://www.getnomad.app/site.webmanifest",
-        manifestId: "https://www.getnomad.app"
+        manifestUrl: "https://www.nomadesim.com/site.webmanifest?v=2",
+        manifestId: "https://www.nomadesim.com/"
       },
       {
         name: "Downdetector",
@@ -2061,8 +2151,8 @@ export const categories = [
         icon: "icons/pwa/youtube.webp",
         url: "https://youtube.com",
         descriptionKey: "youtube_desc",
-        manifestUrl: "https://youtube.com/manifest.webmanifest",
-        manifestId: "https://youtube.com"
+        manifestUrl: "https://www.youtube.com/manifest.webmanifest",
+        manifestId: "https://www.youtube.com/?feature=ytca"
       },
       {
         name: "Nadeko Invidious",
@@ -2094,7 +2184,7 @@ export const categories = [
         url: "https://x.com",
         descriptionKey: "x_desc",
         manifestUrl: "https://x.com/manifest.json",
-        manifestId: "https://x.com"
+        manifestId: "https://x.com/?utm_source=homescreen&utm_medium=shortcut"
       },
       {
         name: "Mastodon",
@@ -2107,13 +2197,16 @@ export const categories = [
         name: "Threads",
         icon: "icons/pwa/threads.webp",
         url: "https://www.threads.com",
-        descriptionKey: "threads_desc"
+        descriptionKey: "threads_desc",
+        manifestUrl: "https://www.threads.com/data/manifest.json"
       },
       {
         name: "Instagram",
         icon: "icons/pwa/instagram.webp",
         url: "https://instagram.com",
-        descriptionKey: "instagram_desc"
+        descriptionKey: "instagram_desc",
+        manifestUrl: "https://www.instagram.com/data/manifest.json",
+        manifestId: "https://www.instagram.com/?utm_source=pwa_homescreen&__pwa=1"
       },
       {
         name: "Facebook",
@@ -2128,7 +2221,7 @@ export const categories = [
         url: "https://tinder.com",
         descriptionKey: "tinder_desc",
         manifestUrl: "https://tinder.com/manifest-en.json",
-        manifestId: "https://tinder.com"
+        manifestId: "https://tinder.com/index.html?utm_source=homescreen&lang=en"
       },
       {
         name: "Tea For Women",
@@ -2137,6 +2230,8 @@ export const categories = [
         icon: "icons/pwa/teaforwomen.webp",
         url: "https://www.teaforwomen.com",
         hide: true,
+        manifestUrl: "https://www.teaforwomen.com/site.webmanifest",
+        manifestId: "https://www.teaforwomen.com/"
       },
       {
         name: "TeaOnHer",
@@ -2194,14 +2289,15 @@ export const categories = [
         url: "https://web.groupme.com",
         descriptionKey: "groupme_desc",
         manifestUrl: "https://web.groupme.com/manifest.json",
-        manifestId: "https://web.groupme.com"
+        manifestId: "https://web.groupme.com/"
       },
       {
         name: "Fluxer",
         nameKey: "fluxer_name",
         descriptionKey: "fluxer_desc",
         icon: "icons/pwa/fluxer.webp",
-        url: "https://web.fluxer.app"
+        url: "https://web.fluxer.app",
+        manifestUrl: "https://web.fluxer.app/manifest.json"
       },
       {
         name: "Discord",
@@ -2219,7 +2315,7 @@ export const categories = [
         url: "https://web.telegram.org",
         descriptionKey: "telegram_desc",
         manifestUrl: "https://web.telegram.org/manifest.webapp.json",
-        manifestId: "https://web.telegram.org"
+        manifestId: "https://web.telegram.org/"
       },
       {
         name: "Zoom",
@@ -2238,7 +2334,8 @@ export const categories = [
         name: "Lobsters",
         icon: "icons/pwa/lobsters.webp",
         url: "https://lobste.rs",
-        descriptionKey: "lobsters_desc"
+        descriptionKey: "lobsters_desc",
+        manifestUrl: "https://lobste.rs/manifest.json"
       },
       {
         name: "Flipboard",
@@ -2247,7 +2344,7 @@ export const categories = [
         url: "https://flipboard.com",
         descriptionKey: "flipboard_desc",
         manifestUrl: "https://flipboard.com/manifest.webmanifest",
-        manifestId: "https://flipboard.com"
+        manifestId: "https://flipboard.com/"
       },
       {
         name: "Pinterest",
@@ -2256,7 +2353,7 @@ export const categories = [
         url: "https://www.pinterest.com",
         descriptionKey: "pinterest_desc",
         manifestUrl: "https://www.pinterest.com/manifest.json",
-        manifestId: "https://www.pinterest.com"
+        manifestId: "https://www.pinterest.com/?utm_source=homescreen_icon"
       },
       {
         name: "Linktree",
@@ -2300,7 +2397,7 @@ export const categories = [
         icon: "icons/pwa/substack.webp",
         url: "https://substack.com",
         manifestUrl: "https://substack.com/manifest.json",
-        manifestId: "https://substack.com"
+        manifestId: "https://substack.com/"
       },
       {
         name: "Flickr",
@@ -2323,7 +2420,7 @@ export const categories = [
         icon: "icons/pwa/element.webp",
         url: "https://app.element.io",
         manifestUrl: "https://app.element.io/manifest.json",
-        manifestId: "https://app.element.io"
+        manifestId: "https://app.element.io/index.html"
       },
       {
         name: "Soul",
@@ -2346,7 +2443,7 @@ export const categories = [
         icon: "icons/pwa/spectravideo.webp",
         url: "https://spectra.video",
         manifestUrl: "https://spectra.video/manifest.webmanifest?c075641cc03ce8f6b096bbf2d30c308b36409e9f",
-        manifestId: "https://spectra.video"
+        manifestId: "https://spectra.video/"
       },
       { name: "Weibo Lite (微博Lite)", nameKey: "weibo_name", descriptionKey: "weibo_desc", icon: "icons/pwa/weibo.webp", url: "https://m.weibo.cn" },
       {
@@ -2363,7 +2460,7 @@ export const categories = [
         icon: "icons/pwa/friend.webp",
         url: "https://friend.com",
         manifestUrl: "https://friend.com/site.webmanifest",
-        manifestId: "https://friend.com"
+        manifestId: "https://friend.com/"
       },
       {
         name: "Jitsi Meet",
@@ -2391,14 +2488,17 @@ export const categories = [
         nameKey: "nostter_name",
         descriptionKey: "nostter_desc",
         icon: "icons/pwa/nostter.webp",
-        url: "https://nostter.app"
+        url: "https://nostter.app",
+        manifestUrl: "https://nostter.app/manifest.webmanifest"
       },
       {
         name: "Framatube",
         nameKey: "framatube_name",
         descriptionKey: "framatube_desc",
         icon: "icons/pwa/framatube.webp",
-        url: "https://framatube.org"
+        url: "https://framatube.org",
+        manifestUrl: "https://framatube.org/manifest.webmanifest?e2123c95d44ecc43aef483ba2f92d6515f1794ef",
+        manifestId: "https://framatube.org/"
       },
       {
         name: "Yewtu.be",
@@ -2412,35 +2512,44 @@ export const categories = [
         nameKey: "pixelfed_name",
         descriptionKey: "pixelfed_desc",
         icon: "icons/pwa/pixelfed.webp",
-        url: "https://pixelfed.social"
+        url: "https://pixelfed.social",
+        manifestUrl: "https://pixelfed.social/manifest.json",
+        manifestId: "https://pixelfed.social/?source=pwa"
       },
       {
         name: "Stoat",
         nameKey: "stoat_name",
         descriptionKey: "stoat_desc",
         icon: "icons/pwa/stoat.webp",
-        url: "https://stoat.chat/app"
+        url: "https://stoat.chat/app",
+        manifestUrl: "https://stoat.chat/app/manifest.webmanifest",
+        manifestId: "https://stoat.chat/app/"
       },
       {
         name: "BitChute",
         nameKey: "bitchute_name",
         descriptionKey: "bitchute_desc",
         icon: "icons/pwa/bitchute.svg",
-        url: "https://www.bitchute.com"
+        url: "https://www.bitchute.com",
+        manifestUrl: "https://www.bitchute.com/manifest.json",
+        manifestId: "https://www.bitchute.com/"
       },
       {
         name: "iQiyi",
         nameKey: "iqiyi_name",
         descriptionKey: "iqiyi_desc",
         icon: "icons/pwa/iqiyi.webp",
-        url: "https://www.iq.com"
+        url: "https://www.iq.com",
+        manifestUrl: "https://www.iq.com/manifest.json",
+        manifestId: "https://www.iq.com/"
       },
       {
         name: "VT Social",
         nameKey: "vtsocial_name",
         descriptionKey: "vtsocial_desc",
         icon: "icons/pwa/vtsocial.webp",
-        url: "https://vt.social"
+        url: "https://vt.social",
+        manifestUrl: "https://vt.social/manifest"
       },
       {
         name: "Loops.video",
@@ -2460,6 +2569,7 @@ export const categories = [
         url2: "../msedge/piefed",
         apptype2: "wrapper",
         url: "https://piefed.social",
+        manifestUrl: "https://piefed.social/manifest.json",
         manifestUrl2: "../msedge/piefed/manifest.json"
       },
       {
@@ -2571,6 +2681,8 @@ export const categories = [
         url2: "../wrappers/spaccamient",
         apptype2: "wrapper",
         url: "https://spacc-inc.github.io/Spaccamient",
+        manifestUrl: "https://spacc-inc.github.io/Spaccamient/manifest.json",
+        manifestId: "https://spacc-inc.github.io/Spaccamient/index.html",
         manifestUrl2: "../wrappers/spaccamient/manifest.json"
       },
       {
@@ -2591,6 +2703,8 @@ export const categories = [
         url2: "../wrappers/dailymotion",
         apptype2: "wrapper",
         url: "https://www.dailymotion.com",
+        manifestUrl: "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/favicons/manifest.d2ccee56e762a6c4b7d7.json",
+        manifestId: "https://static.neon-ssr.dailymotion.com/neon-user-ssr/static/favicons/",
         manifestUrl2: "../wrappers/dailymotion/manifest.json"
       },
       {
@@ -2678,7 +2792,7 @@ export const categories = [
         url2: "../msedge/tradingview",
         apptype2: "wrapper",
         manifestUrl: "https://static.tradingview.com/static/images/favicon/manifest.json",
-        manifestId: "https://www.tradingview.com",
+        manifestId: "https://static.tradingview.com/static/images/favicon/",
         manifestUrl2: "../msedge/tradingview/manifest.json"
       },
       {
@@ -2688,7 +2802,7 @@ export const categories = [
         icon: "icons/pwa/yahoofinance.webp",
         url: "https://finance.yahoo.com",
         manifestUrl: "https://finance.yahoo.com/manifest.json",
-        manifestId: "https://finance.yahoo.com"
+        manifestId: "https://finance.yahoo.com/"
       },
       {
         name: "Stock Analysis",
@@ -2696,17 +2810,14 @@ export const categories = [
         descriptionKey: "stockanalysis_desc",
         icon: "icons/pwa/stockanalysis.webp",
         url: "https://stockanalysis.com",
-        manifestUrl: "https://stockanalysis.com/manifest.webmanifest",
-        manifestId: "https://stockanalysis.com"
+        manifestUrl: "https://stockanalysis.com/manifest.webmanifest"
       },
       {
         name: "LongForecast",
         nameKey: "longforecast_name",
         descriptionKey: "longforecast_desc",
         icon: "icons/pwa/longforecast.webp",
-        url: "https://longforecast.com",
-        manifestUrl: "https://longforecast.com/site.webmanifest",
-        manifestId: "https://longforecast.com"
+        url: "https://longforecast.com"
       },
       {
         name: "Investing",
@@ -2723,9 +2834,7 @@ export const categories = [
         nameKey: "stripe_name",
         descriptionKey: "stripe_desc",
         icon: "icons/pwa/stripe.webp",
-        url: "https://dashboard.stripe.com",
-        manifestUrl: "https://dashboard.stripe.com/android_manifest.json",
-        manifestId: "https://dashboard.stripe.com"
+        url: "https://dashboard.stripe.com"
       },
       {
         name: "Investor's Business Daily",
@@ -2754,9 +2863,7 @@ export const categories = [
         nameKey: "benzinga_name",
         descriptionKey: "benzinga_desc",
         icon: "icons/pwa/benzinga.webp",
-        url: "https://www.benzinga.com",
-        manifestUrl: "https://www.benzinga.com/next-assets/site.webmanifest",
-        manifestId: "https://www.benzinga.com"
+        url: "https://www.benzinga.com"
       },
       {
         name: "Investopedia",
@@ -2772,7 +2879,7 @@ export const categories = [
         icon: "icons/pwa/nasdaq.webp",
         url: "https://www.nasdaq.com",
         manifestUrl: "https://www.nasdaq.com/manifest.json",
-        manifestId: "https://www.nasdaq.com"
+        manifestId: "https://www.nasdaq.com/home"
       },
       {
         name: "Markets Insider",
@@ -2781,7 +2888,7 @@ export const categories = [
         icon: "icons/pwa/marketsinsider.webp",
         url: "https://markets.businessinsider.com",
         manifestUrl: "https://markets.businessinsider.com/manifest.json",
-        manifestId: "https://markets.businessinsider.com"
+        manifestId: "https://markets.businessinsider.com/"
       },
       {
         name: "Messari",
@@ -2797,7 +2904,7 @@ export const categories = [
         icon: "icons/pwa/coinmarketcap.webp",
         url: "https://coinmarketcap.com",
         manifestUrl: "https://coinmarketcap.com/manifest.json",
-        manifestId: "https://coinmarketcap.com"
+        manifestId: "https://coinmarketcap.com/?utm_source=androidappinstallbanner"
       },
       {
         name: "CoinStats",
@@ -2806,14 +2913,16 @@ export const categories = [
         icon: "icons/pwa/coinstats.webp",
         url: "https://coinstats.app",
         manifestUrl: "https://coinstats.app/manifest.json",
-        manifestId: "https://coinstats.app"
+        manifestId: "https://coinstats.app/"
       },
       {
         name: "Bitget",
         nameKey: "bitget_name",
         descriptionKey: "bitget_desc",
         icon: "icons/pwa/bitget.webp",
-        url: "https://www.bitget.com"
+        url: "https://www.bitget.com",
+        manifestUrl: "https://www.bitget.com/cdnstatic/pwa/manifest.json",
+        manifestId: "https://www.bitget.com/"
       },
       {
         name: "Xueqiu (雪球)",
@@ -2829,7 +2938,7 @@ export const categories = [
         url: "https://crypto.com",
         icon: "icons/pwa/cryptocom.webp",
         manifestUrl: "https://crypto.com/manifest.webmanifest",
-        manifestId: "https://crypto.com"
+        manifestId: "https://crypto.com/"
       },
       {
         name: "International Business Times",
@@ -2838,7 +2947,7 @@ export const categories = [
         icon: "icons/pwa/ibtimes.webp",
         url: "https://www.ibtimes.com",
         manifestUrl: "https://g.ibtimes.com/themes/favicons/site.webmanifest",
-        manifestId: "https://www.ibtimes.com"
+        manifestId: "https://g.ibtimes.com/themes/favicons/"
       },
       {
         name: "MetaMask",
@@ -2846,8 +2955,8 @@ export const categories = [
         descriptionKey: "metamask_desc",
         icon: "icons/pwa/metamask.webp",
         url: "https://metamask.io",
-        manifestUrl: "https://metamask.io/favicons/default/site.webmanifest",
-        manifestId: "https://metamask.io"
+        manifestUrl: "https://metamask.com/favicons/default/site.webmanifest",
+        manifestId: "https://metamask.com/favicons/default/"
       },
       {
         name: "BITCLOCK",
@@ -2856,14 +2965,16 @@ export const categories = [
         url: "https://bitclock.vercel.app",
         descriptionKey: "bitclock_desc",
         manifestUrl: "https://bitclock.vercel.app/manifest.json",
-        manifestId: "https://bitclock.vercel.app"
+        manifestId: "https://bitclock.vercel.app/"
       },
       {
         name: "Polymarket",
         nameKey: "polymarket_name",
         descriptionKey: "polymarket_desc",
         icon: "icons/pwa/polymarket.webp",
-        url: "https://polymarket.com"
+        url: "https://polymarket.com",
+        manifestUrl: "https://polymarket.com/manifest.json",
+        manifestId: "https://polymarket.com/"
       },
       {
         name: "TipRanks",
@@ -2877,7 +2988,9 @@ export const categories = [
         nameKey: "comexlive_name",
         descriptionKey: "comexlive_desc",
         icon: "icons/pwa/comexlive.webp",
-        url: "https://comexlive.org"
+        url: "https://comexlive.org",
+        manifestUrl: "https://comexlive.org/manifest.json",
+        manifestId: "https://comexlive.org/"
       },
       {
         name: "CoinDesk",
@@ -2898,7 +3011,9 @@ export const categories = [
         nameKey: "stockmvp_name",
         descriptionKey: "stockmvp_desc",
         icon: "icons/pwa/stockmvp.webp",
-        url: "https://stock-mvp.com"
+        url: "https://stock-mvp.com",
+        manifestUrl: "https://stock-mvp.com/manifest.json",
+        manifestId: "https://stock-mvp.com/market-overview"
       },
       {
         name: "Capital One",
@@ -2919,6 +3034,8 @@ export const categories = [
         url2: "../msedge/eightmarketcap",
         apptype2: "wrapper",
         url: "https://8marketcap.com",
+        manifestUrl: "https://8marketcap.com/site.webmanifest",
+        manifestId: "https://8marketcap.com/",
         manifestUrl2: "../msedge/eightmarketcap/manifest.json"
       },
       {
@@ -3039,6 +3156,8 @@ export const categories = [
         url2: "../wrappers/capitalcom",
         apptype2: "wrapper",
         url: "https://capital.com",
+        manifestUrl: "https://static.capital.com/favicon-v2/manifest.json",
+        manifestId: "https://static.capital.com/favicon-v2/",
         manifestUrl2: "../wrappers/capitalcom/manifest.json"
       },
       {
@@ -3066,7 +3185,9 @@ export const categories = [
         nameKey: "xe_name",
         descriptionKey: "xe_desc",
         icon: "icons/pwa/xe.webp",
-        url: "https://www.xe.com"
+        url: "https://www.xe.com",
+        manifestUrl: "https://www.xe.com/site.webmanifest",
+        manifestId: "https://www.xe.com/"
       },
       {
         name: "Exchange‑Rates.org",
@@ -3441,7 +3562,7 @@ export const categories = [
         icon: "icons/pwa/macrumors.webp",
         url: "https://www.macrumors.com",
         manifestUrl: "https://www.macrumors.com/manifest.json",
-        manifestId: "https://www.macrumors.com"
+        manifestId: "https://www.macrumors.com/?pwa=1"
       },
       {
         name: "MacRumors Forums",
@@ -3462,9 +3583,7 @@ export const categories = [
         nameKey: "androidheadlines_name",
         descriptionKey: "androidheadlines_desc",
         icon: "icons/pwa/androidheadlines.webp",
-        url: "https://www.androidheadlines.com",
-        manifestUrl: "https://www.androidheadlines.com/site.webmanifest",
-        manifestId: "https://www.androidheadlines.com"
+        url: "https://www.androidheadlines.com"
       },
       {
         name: "Android Authority",
@@ -3498,7 +3617,7 @@ export const categories = [
         icon: "icons/pwa/xdaforums.webp",
         url: "https://xdaforums.com",
         manifestUrl: "https://xdaforums.com/webmanifest.php",
-        manifestId: "https://xdaforums.com"
+        manifestId: "https://xdaforums.com/?_pwa=1"
       },
       {
         name: "F-Droid Forum",
@@ -3535,7 +3654,7 @@ export const categories = [
         icon: "icons/pwa/pcmag.webp",
         url: "https://www.pcmag.com",
         manifestUrl: "https://www.pcmag.com/manifest.json",
-        manifestId: "https://www.pcmag.com"
+        manifestId: "https://www.pcmag.com/"
       },
       {
         name: "ZDNET",
@@ -3605,8 +3724,7 @@ export const categories = [
         descriptionKey: "readhub_desc",
         icon: "icons/pwa/readhub.webp",
         url: "https://readhub.cn",
-        manifestUrl: "https://readhub.cn/manifest.json",
-        manifestId: "https://readhub.cn"
+        manifestUrl: "https://readhub.cn/manifest.json"
       },
       {
         name: "Frandroid",
@@ -3638,7 +3756,7 @@ export const categories = [
         icon: "icons/pwa/lifehacker.webp",
         url: "https://lifehacker.com",
         manifestUrl: "https://lifehacker.com/manifest.json",
-        manifestId: "https://lifehacker.com"
+        manifestId: "https://lifehacker.com/"
       },
       {
         name: "Durov's Code",
@@ -3647,7 +3765,7 @@ export const categories = [
         icon: "icons/pwa/durovscode.webp",
         url: "https://durovscode.com",
         manifestUrl: "https://durovscode.com/manifest.json",
-        manifestId: "https://durovscode.com"
+        manifestId: "https://durovscode.com/"
       },
       {
         name: "9to5mac",
@@ -3668,7 +3786,9 @@ export const categories = [
         nameKey: "techxplore_name",
         descriptionKey: "techxplore_desc",
         icon: "icons/pwa/techxplore.webp",
-        url: "https://techxplore.com"
+        url: "https://techxplore.com",
+        manifestUrl: "https://techxplore.com/manifest.json",
+        manifestId: "https://techxplore.com/"
       },
       {
         name: "Windows Forum",
@@ -3698,7 +3818,7 @@ export const categories = [
         icon: "icons/pwa/mashable.webp",
         url: "https://mashable.com",
         manifestUrl: "https://mashable.com/manifest.json",
-        manifestId: "https://mashable.com"
+        manifestId: "https://mashable.com/"
       },
       {
         name: "Windows Latest",
@@ -3721,7 +3841,9 @@ export const categories = [
         nameKey: "socialkernelorg_name",
         descriptionKey: "socialkernelorg_desc",
         icon: "icons/pwa/socialkernelorg.webp",
-        url: "https://social.kernel.org"
+        url: "https://social.kernel.org",
+        manifestUrl: "https://social.kernel.org/manifest.json",
+        manifestId: "https://social.kernel.org/"
       },
       {
         name: "Tech Evangelist SEO",
@@ -3730,22 +3852,26 @@ export const categories = [
         icon: "icons/pwa/techevangelistseo.webp",
         url: "https://techevangelistseo.com",
         hide: true,
-        manifestUrl: "https://techevangelistseo.com/pwa-manifest.json",
-        manifestId: "https://techevangelistseo.com"
+        manifestUrl: "https://techevangelistseo.com/manifest.json",
+        manifestId: "https://techevangelistseo.com/"
       },
       {
         name: "Wccftech",
         nameKey: "wccftech_name",
         descriptionKey: "wccftech_desc",
         icon: "icons/pwa/wccftech.webp",
-        url: "https://wccftech.com"
+        url: "https://wccftech.com",
+        manifestUrl: "https://wccftech.com/icons/manifest.json",
+        manifestId: "https://wccftech.com/icons/"
       },
       {
         name: "404 Media",
         nameKey: "404media_name",
         descriptionKey: "404media_desc",
         icon: "icons/pwa/404media.webp",
-        url: "https://www.404media.co"
+        url: "https://www.404media.co",
+        manifestUrl: "https://www.404media.co/assets/manifest.webmanifest?v=Vw6AvHYbQXZLKWGd",
+        manifestId: "https://www.404media.co/"
       },
       {
         name: "KDE Discuss",
@@ -3782,7 +3908,7 @@ export const categories = [
         icon: "icons/wrappers/beebom.webp",
         url: "https://gadgets.beebom.com",
         manifestUrl: "https://gadgets.beebom.com/manifest.json",
-        manifestId: "https://gadgets.beebom.com"
+        manifestId: "https://gadgets.beebom.com/"
       },
       {
         name: "Chips and Cheese",
@@ -3914,6 +4040,8 @@ export const categories = [
         url2: "../wrappers/pcguide",
         apptype2: "wrapper",
         url: "https://www.pcguide.com",
+        manifestUrl: "https://www.pcguide.com/wp-content/uploads/fbrfg/site.webmanifest",
+        manifestId: "https://www.pcguide.com/wp-content/uploads/fbrfg/",
         manifestUrl2: "../wrappers/pcguide/manifest.json"
       },
       {
@@ -3924,6 +4052,8 @@ export const categories = [
         url2: "../wrappers/theregister",
         apptype2: "wrapper",
         url: "https://www.theregister.com",
+        manifestUrl: "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/manifest.json",
+        manifestId: "https://www.theregister.com/view-resources/dachser2/public/theregister/favicons/",
         manifestUrl2: "../wrappers/theregister/manifest.json"
       },
       {
@@ -3980,7 +4110,7 @@ export const categories = [
         url: "https://juejin.cn",
         descriptionKey: "juejin_desc",
         manifestUrl: "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/favicons/site.webmanifest",
-        manifestId: "https://juejin.cn"
+        manifestId: "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/favicons/"
       },
       {
         name: "V2EX",
@@ -3989,7 +4119,7 @@ export const categories = [
         icon: "icons/pwa/v2ex.webp",
         url: "https://global.v2ex.co",
         manifestUrl: "https://global.v2ex.co/manifest.webmanifest",
-        manifestId: "https://global.v2ex.co"
+        manifestId: "https://global.v2ex.co/?from=pwa"
       },
       {
         name: "Emacs China",
@@ -4010,7 +4140,8 @@ export const categories = [
         nameKey: "looksmaxxing_forum_name",
         descriptionKey: "looksmaxxing_forum_desc",
         icon: "icons/pwa/looksmaxxing_forum.webp",
-        url: "https://forum.looksmaxxing.com"
+        url: "https://forum.looksmaxxing.com",
+        manifestUrl: "https://forum.looksmaxxing.com/webmanifest.php"
       },
       {
         name: "IPRoyal",
@@ -4053,9 +4184,7 @@ export const categories = [
         nameKey: "apkpure_name",
         descriptionKey: "apkpure_desc",
         icon: "icons/pwa/apkpure.webp",
-        url: "https://apkpure.com",
-        manifestUrl: "https://apkpure.com/manifest.json",
-        manifestId: "https://apkpure.com"
+        url: "https://apkpure.com"
       },
       {
         name: "Arch Linux AUR",
@@ -4071,7 +4200,7 @@ export const categories = [
         icon: "icons/pwa/windowsonarm.webp",
         url: "https://windowsonarm.org",
         manifestUrl: "https://windowsonarm.org/favicons/site.webmanifest",
-        manifestId: "https://windowsonarm.org"
+        manifestId: "https://windowsonarm.org/favicons/"
       },
       {
         name: "Windows ARM software (https://armrepo.ver.lt)",
@@ -4081,6 +4210,8 @@ export const categories = [
         url2: "../wrappers/armrepoverlt",
         url: "https://armrepo.ver.lt",
         apptype2: "wrapper",
+        manifestUrl: "https://armrepo.ver.lt/assets/manifest.json",
+        manifestId: "https://armrepo.ver.lt/",
         manifestUrl2: "../wrappers/armrepoverlt/manifest.json"
       },
       {
@@ -4090,15 +4221,14 @@ export const categories = [
         icon: "icons/pwa/rutrackerorg.webp",
         url: "https://rutracker.org",
         manifestUrl: "https://rutracker.org/manifest.json",
-        manifestId: "https://rutracker.org"
+        manifestId: "https://rutracker.org/"
       },
       {
         name: "AppBrain",
         nameKey: "appbrain_name",
         descriptionKey: "appbrain_desc",
         icon: "icons/pwa/appbrain.webp",
-        url: "https://www.appbrain.com",
-        manifestUrl: "https://www.appbrain.com/manifest.json"
+        url: "https://www.appbrain.com"
       },
       {
         name: "AppAgg",
@@ -4112,39 +4242,40 @@ export const categories = [
         nameKey: "annasarchive_name",
         descriptionKey: "annasarchive_desc",
         icon: "icons/pwa/annasarchive.webp",
-        url: "https://annas-archive.org",
-        manifestUrl: "https://annas-archive.org/site.webmanifest?hash=076af9a96b0bfbd668cd",
-        manifestId: "https://annas-archive.org"
+        url: "https://annas-archive.org"
       },
       {
         name: "Anna's Archive (Chinese)",
         nameKey: "annasarchivezh_name",
         descriptionKey: "annasarchivezh_desc",
         icon: "icons/pwa/annasarchive.webp",
-        url: "https://zh.annas-archive.se",
-        manifestUrl: "https://zh.annas-archive.se/site.webmanifest?hash=076af9a96b0bfbd668cd",
-        manifestId: "https://zh.annas-archive.se"
+        url: "https://zh.annas-archive.se"
       },
       {
         name: "iptv-org",
         nameKey: "iptvorg_name",
         descriptionKey: "iptvorg_desc",
         icon: "icons/pwa/iptvorg.webp",
-        url: "https://iptv-org.github.io"
+        url: "https://iptv-org.github.io",
+        manifestUrl: "https://iptv-org.github.io/manifest.json"
       },
       {
         name: "IPTV HD Player",
         nameKey: "iptvhdplayer_name",
         descriptionKey: "iptvhdplayer_desc",
         icon: "icons/pwa/iptvhdplayer.webp",
-        url: "https://iptvhdplayer.com"
+        url: "https://iptvhdplayer.com",
+        manifestUrl: "https://iptvhdplayer.com/manifest.webmanifest",
+        manifestId: "https://iptvhdplayer.com/"
       },
       {
         name: "Anime Song Lyrics",
         nameKey: "animesonglyrics_name",
         descriptionKey: "animesonglyrics_desc",
         icon: "icons/pwa/animesonglyrics.webp",
-        url: "https://www.animesonglyrics.com"
+        url: "https://www.animesonglyrics.com",
+        manifestUrl: "https://www.animesonglyrics.com/manifest.json",
+        manifestId: "https://www.animesonglyrics.com/"
       },
       {
         name: "Internet Archive",
@@ -4174,6 +4305,8 @@ export const categories = [
         url2: "../wrappers/appleappstore",
         url: "https://apps.apple.com",
         apptype2: "wrapper",
+        manifestUrl: "https://apps.apple.com/manifest.json",
+        manifestId: "https://apps.apple.com/",
         manifestUrl2: "../wrappers/appleappstore/manifest.json"
       },
       {
@@ -4244,6 +4377,8 @@ export const categories = [
         url2: "../wrappers/lyricsondemand",
         apptype2: "wrapper",
         url: "https://www.lyricsondemand.com",
+        manifestUrl: "https://lyricsondemand.com/manifest.json",
+        manifestId: "https://lyricsondemand.com/",
         manifestUrl2: "../wrappers/lyricsondemand/manifest.json"
       },
     ]
@@ -4264,9 +4399,7 @@ export const categories = [
         nameKey: "godot_name",
         descriptionKey: "godot_desc",
         icon: "icons/pwa/godot.webp",
-        url: "https://editor.godotengine.org",
-        manifestUrl: "https://editor.godotengine.org/manifest.json",
-        manifestId: "https://editor.godotengine.org"
+        url: "https://editor.godotengine.org"
       },
       {
         name: "Postimages",
@@ -4282,7 +4415,7 @@ export const categories = [
         icon: "icons/pwa/photopea.webp",
         url: "https://www.photopea.com",
         manifestUrl: "https://www.photopea.com/manifest.json",
-        manifestId: "https://www.photopea.com"
+        manifestId: "https://www.photopea.com/"
       },
       {
         name: "Maskable.app",
@@ -4291,28 +4424,34 @@ export const categories = [
         icon: "icons/pwa/maskableapp.webp",
         url: "https://maskable.app",
         manifestUrl: "https://maskable.app/manifest.json",
-        manifestId: "https://maskable.app"
+        manifestId: "https://maskable.app/"
       },
       {
         name: "Storyblocks",
         nameKey: "storyblocks_name",
         descriptionKey: "storyblocks_desc",
         icon: "icons/pwa/storyblocks.webp",
-        url: "https://www.storyblocks.com"
+        url: "https://www.storyblocks.com",
+        manifestUrl: "https://www.storyblocks.com/manifest.webmanifest",
+        manifestId: "https://www.storyblocks.com/"
       },
       {
         name: "Sketchpad",
         nameKey: "sketchpad_name",
         descriptionKey: "sketchpad_desc",
         icon: "icons/pwa/sketchpad.webp",
-        url: "https://sketch.io/sketchpad"
+        url: "https://sketch.io/sketchpad",
+        manifestUrl: "https://sketch.io/manifest.json",
+        manifestId: "https://sketch.io/index.html"
       },
       {
         name: "Ezgif",
         nameKey: "ezgif_name",
         descriptionKey: "ezgif_desc",
         icon: "icons/pwa/ezgif.webp",
-        url: "https://ezgif.com"
+        url: "https://ezgif.com",
+        manifestUrl: "https://ezgif.com/manifest.json",
+        manifestId: "https://ezgif.com/"
       },
       {
         name: "3D House Planner",
@@ -4339,6 +4478,8 @@ export const categories = [
         url2: "../msedge/figma",
         apptype2: "wrapper",
         url: "https://www.figma.com",
+        manifestUrl: "https://www.figma.com/manifest.json?v=1",
+        manifestId: "https://www.figma.com/",
         manifestUrl2: "../msedge/figma/manifest.json"
       },
       {
@@ -4375,13 +4516,13 @@ export const categories = [
     name: "News",
     nameKey: "news_name",
     apps: [
-      { name: "RT", nameKey: "rt_name", descriptionKey: "rt_desc", icon: "icons/pwa/rt.webp", url: "https://www.rt.com", manifestUrl: "https://www.rt.com/manifest.json", manifestId: "https://www.rt.com" },
-      { name: "PressTV", nameKey: "presstv_name", descriptionKey: "presstv_desc", icon: "icons/pwa/presstv.webp", url: "https://www.presstv.ir", manifestUrl: "https://www.presstv.ir/manifest.json", manifestId: "https://www.presstv.ir" },
-      { name: "PressTV(co.uk)", nameKey: "presstvcouk_name", descriptionKey: "presstvcouk_desc", icon: "icons/pwa/presstv.webp", url: "https://www.presstv.co.uk" },
+      { name: "RT", nameKey: "rt_name", descriptionKey: "rt_desc", icon: "icons/pwa/rt.webp", url: "https://www.rt.com", manifestUrl: "https://rt-english.com/manifest.json", manifestId: "https://rt-english.com/?utm_source=homescreen_android&utm_medium=tap&utm_campaign=homescreen" },
+      { name: "PressTV", nameKey: "presstv_name", descriptionKey: "presstv_desc", icon: "icons/pwa/presstv.webp", url: "https://www.presstv.ir" },
+      { name: "PressTV(co.uk)", nameKey: "presstvcouk_name", descriptionKey: "presstvcouk_desc", icon: "icons/pwa/presstv.webp", url: "https://www.presstv.co.uk", manifestUrl: "https://www.presstv.co.uk/manifest.json", manifestId: "https://www.presstv.co.uk/?utm_source=standalone&utm_medium=pwa&bpwav=1" },
       { name: "Bloomberg", nameKey: "bloomberg_name", descriptionKey: "bloomberg_desc", icon: "icons/pwa/bloomberg.webp", url: "https://www.bloomberg.com" },
 //      { name: "Firstpost", nameKey: "firstpost_name", descriptionKey: "firstpost_desc", icon: "icons/pwa/firstpost.webp", url: "https://www.firstpost.com" },
       { name: "Forbes", nameKey: "forbes_name", descriptionKey: "forbes_desc", icon: "icons/pwa/forbes.webp", url: "https://www.forbes.com" },
-      { name: "PBS", nameKey: "pbs_name", descriptionKey: "pbs_desc", icon: "icons/pwa/pbs.webp", url: "https://www.pbs.org", manifestUrl: "https://www.pbs.org/manifest.webmanifest", manifestId: "https://www.pbs.org" },
+      { name: "PBS", nameKey: "pbs_name", descriptionKey: "pbs_desc", icon: "icons/pwa/pbs.webp", url: "https://www.pbs.org", manifestUrl: "https://www.pbs.org/manifest.webmanifest", manifestId: "https://www.pbs.org/" },
       {
         name: "PBS News",
         nameKey: "pbsnews_name",
@@ -4390,25 +4531,27 @@ export const categories = [
         url: "https://www.pbs.org/newshour",
         url2: "../wrappers/pbsnews",
         apptype2: "wrapper",
+        manifestUrl: "https://d3i6fh83elv35t.cloudfront.net/static/assets/images/favicon/2024/manifest.json",
+        manifestId: "https://d3i6fh83elv35t.cloudfront.net/static/assets/images/favicon/2024/"
       },
-      { name: "BBC", nameKey: "bbc_name", descriptionKey: "bbc_desc", icon: "icons/pwa/bbc.webp", url: "https://www.bbc.com", manifestUrl: "https://static.files.bbci.co.uk/bbcdotcom/web/20251203-121739-f954f14c69-web-2.35.1-2/site.webmanifest", manifestId: "https://www.bbc.com" },
+      { name: "BBC", nameKey: "bbc_name", descriptionKey: "bbc_desc", icon: "icons/pwa/bbc.webp", url: "https://www.bbc.com", manifestUrl: "https://static.files.bbci.co.uk/bbcdotcom/web/20251203-121739-f954f14c69-web-2.35.1-2/site.webmanifest", manifestId: "https://static.files.bbci.co.uk/bbcdotcom/web/20251203-121739-f954f14c69-web-2.35.1-2/" },
       { name: "Associated Press", nameKey: "ap_name", descriptionKey: "ap_desc", icon: "icons/pwa/associatedpress.webp", url: "https://apnews.com", manifestUrl: "https://apnews.com/manifest.json" },
-      { name: "In Defence of Marxism", nameKey: "marxism_name", descriptionKey: "marxism_desc", icon: "icons/pwa/indefenseofmarxism.webp", url: "https://marxist.com" },
-      { name: "ABC News", nameKey: "abcnews_name", descriptionKey: "abcnews_desc", icon: "icons/pwa/abcnews.webp", url: "https://abcnews.go.com", manifestUrl: "https://abcnews.go.com/manifest.json", manifestId: "https://abcnews.go.com" },
+      { name: "In Defence of Marxism", nameKey: "marxism_name", descriptionKey: "marxism_desc", icon: "icons/pwa/indefenseofmarxism.webp", url: "https://marxist.com", manifestUrl: "https://marxist.com/manifest.webmanifest" },
+      { name: "ABC News", nameKey: "abcnews_name", descriptionKey: "abcnews_desc", icon: "icons/pwa/abcnews.webp", url: "https://abcnews.go.com" },
       { name: "US News", nameKey: "usnews_name", descriptionKey: "usnews_desc", icon: "icons/pwa/usnews.webp", url: "https://www.usnews.com" },
-      { name: "CBS News", nameKey: "cbsnews_name", descriptionKey: "cbsnews_desc", icon: "icons/pwa/cbs.webp", url: "https://www.cbsnews.com", manifestUrl: "https://www.cbsnews.com/manifest.json", manifestId: "https://www.cbsnews.com" },
-      { name: "NBC", nameKey: "nbc_name", descriptionKey: "nbc_desc", icon: "icons/pwa/nbc.webp", url: "https://www.nbc.com", manifestUrl: "https://www.nbc.com/generetic/manifest.json", manifestId: "https://www.nbc.com" },
+      { name: "CBS News", nameKey: "cbsnews_name", descriptionKey: "cbsnews_desc", icon: "icons/pwa/cbs.webp", url: "https://www.cbsnews.com", manifestUrl: "https://www.cbsnews.com/manifest.json", manifestId: "https://www.cbsnews.com/?pwa" },
+      { name: "NBC", nameKey: "nbc_name", descriptionKey: "nbc_desc", icon: "icons/pwa/nbc.webp", url: "https://www.nbc.com" },
       { name: "CNBC", nameKey: "cnbc_name", descriptionKey: "cnbc_desc", icon: "icons/pwa/nbc.webp", url: "https://www.cnbc.com" },
       { name: "MSNBC", nameKey: "msnbc_name", descriptionKey: "msnbc_desc", icon: "icons/pwa/nbc.webp", url: "https://www.msnbc.com" },
       { name: "Newsweek", nameKey: "newsweek_name", descriptionKey: "newsweek_desc", icon: "icons/pwa/newsweek.webp", url: "https://www.newsweek.com" },
       { name: "The Hill", nameKey: "thehill_name", descriptionKey: "thehill_desc", icon: "icons/pwa/thehill.webp", url: "https://thehill.com" },
-      { name: "The Independent", nameKey: "independent_name", descriptionKey: "independent_desc", icon: "icons/pwa/independent.webp", url: "https://www.independent.co.uk", manifestUrl: "https://www.independent.co.uk/manifest.json", manifestId: "https://www.independent.co.uk" },
-      { name: "The Guardian", nameKey: "theguardian_name", descriptionKey: "theguardian_desc", icon: "icons/pwa/theguardian.webp", url: "https://www.theguardian.com", manifestUrl: "https://assets.guim.co.uk/static/frontend/manifest.json", manifestId: "https://www.theguardian.com" },
+      { name: "The Independent", nameKey: "independent_name", descriptionKey: "independent_desc", icon: "icons/pwa/independent.webp", url: "https://www.independent.co.uk" },
+      { name: "The Guardian", nameKey: "theguardian_name", descriptionKey: "theguardian_desc", icon: "icons/pwa/theguardian.webp", url: "https://www.theguardian.com" },
       { name: "Nippon TV NEWS (日テレNEWS)", nameKey: "nittele_name", descriptionKey: "nittele_desc", icon: "icons/pwa/nittele.webp", url: "https://news.ntv.co.jp" },
 //      { name: "Economic Times", nameKey: "economictimes_name", descriptionKey: "economictimes_desc", icon: "icons/pwa/economictimes.webp", url: "https://economictimes.indiatimes.com" },
 //      { name: "Hindustan Times", nameKey: "hindustantimes_name", descriptionKey: "hindustantimes_desc", icon: "icons/pwa/hindustantimes.webp", url: "https://www.hindustantimes.com" },
       { name: "DW", nameKey: "dw_name", descriptionKey: "dw_desc", icon: "icons/pwa/dw.webp", url: "https://www.dw.com"},
-      { name: "Le Monde", nameKey: "lemonde_name", descriptionKey: "lemonde_desc", icon: "icons/pwa/lemonde.webp", url: "https://www.lemonde.fr", manifestUrl: "https://www.lemonde.fr/manifest.json", manifestId: "https://www.lemonde.fr" },
+      { name: "Le Monde", nameKey: "lemonde_name", descriptionKey: "lemonde_desc", icon: "icons/pwa/lemonde.webp", url: "https://www.lemonde.fr", manifestUrl: "https://www.lemonde.fr/manifest.json", manifestId: "https://www.lemonde.fr/" },
       {
         name: "Foreign Affairs",
         nameKey: "foreignaffairs_name",
@@ -4423,7 +4566,7 @@ export const categories = [
         icon: "icons/pwa/timemagazine.webp",
         url: "https://time.com",
         manifestUrl: "https://time.com/manifest.webmanifest",
-        manifestId: "https://time.com"
+        manifestId: "https://time.com/"
       },
       {
         name: "Variety",
@@ -4444,9 +4587,7 @@ export const categories = [
         nameKey: "washingtontimes_name",
         descriptionKey: "washingtontimes_desc",
         icon: "icons/pwa/washingtontimes.webp",
-        url: "https://www.washingtontimes.com",
-        manifestUrl: "https://www.washingtontimes.com/site.webmanifest",
-        manifestId: "https://www.washingtontimes.com"
+        url: "https://www.washingtontimes.com"
       },
       {
         name: "South China Morning Post",
@@ -4455,7 +4596,7 @@ export const categories = [
         icon: "icons/pwa/scmp.webp",
         url: "https://www.scmp.com",
         manifestUrl: "https://www.scmp.com/static/manifest.json",
-        manifestId: "https://www.scmp.com"
+        manifestId: "https://www.scmp.com/"
       },
       {
         name: "Inc.",
@@ -4469,9 +4610,7 @@ export const categories = [
         nameKey: "indiewire_name",
         descriptionKey: "indiewire_desc",
         icon: "icons/pwa/indiewire.webp",
-        url: "https://www.indiewire.com",
-        manifestUrl: "https://www.indiewire.com/manifest.json",
-        manifestId: "https://www.indiewire.com"
+        url: "https://www.indiewire.com"
       },
       {
         name: "France 24",
@@ -4480,7 +4619,7 @@ export const categories = [
         icon: "icons/pwa/france24.webp",
         url: "https://www.france24.com",
         manifestUrl: "https://www.france24.com/en/site.manifest",
-        manifestId: "https://www.france24.com"
+        manifestId: "https://www.france24.com/en/"
       },
 /*      {
         name: "News18",
@@ -4494,13 +4633,15 @@ export const categories = [
         nameKey: "irishstar_name",
         descriptionKey: "irishstar_desc",
         icon: "icons/pwa/irishstar.webp",
-        url: "https://www.irishstar.com"
+        url: "https://www.irishstar.com",
+        manifestUrl: "https://www.irishstar.com/manifest.json?v=6f7ed9d5128d770b",
+        manifestId: "https://www.irishstar.com/"
       },
-      { name: "Japan Today", nameKey: "japantoday_name", descriptionKey: "japantoday_desc", url: "https://japantoday.com", icon: "icons/pwa/japantoday.webp", manifestUrl: "https://static.japantoday.com/favicons/manifest.json?v=1.5.0", manifestId: "https://japantoday.com" },
-      { name: "The Conversation", nameKey: "theconversation_name", descriptionKey: "theconversation_desc", url: "https://theconversation.com", icon: "icons/pwa/theconversation.webp", manifestUrl: "https://theconversation.com/manifest.json", manifestId: "https://theconversation.com" },
-      { name: "The American Prospect", nameKey: "theamericanprospect_name", descriptionKey: "theamericanprospect_desc", url: "https://prospect.org", icon: "icons/pwa/theamericanprospect.webp", manifestUrl: "https://prospect.org/wp-json/wp/v2/web-app-manifest", manifestId: "https://prospect.org" },
+      { name: "Japan Today", nameKey: "japantoday_name", descriptionKey: "japantoday_desc", url: "https://japantoday.com", icon: "icons/pwa/japantoday.webp" },
+      { name: "The Conversation", nameKey: "theconversation_name", descriptionKey: "theconversation_desc", url: "https://theconversation.com", icon: "icons/pwa/theconversation.webp", manifestUrl: "https://theconversation.com/manifest.json", manifestId: "https://theconversation.com/" },
+      { name: "The American Prospect", nameKey: "theamericanprospect_name", descriptionKey: "theamericanprospect_desc", url: "https://prospect.org", icon: "icons/pwa/theamericanprospect.webp", manifestUrl: "https://prospect.org/wp-json/wp/v2/web-app-manifest", manifestId: "https://prospect.org/" },
       { name: "African Diaspora News Channel", nameKey: "africandiasporanewschannel_name", descriptionKey: "africandiasporanewschannel_desc", url: "https://africandiasporanews.org", icon: "icons/pwa/africandiasporanewschannel.webp" },
-      { name: "Distractify", nameKey: "distractify_name", descriptionKey: "distractify_desc", url: "https://www.distractify.com", icon: "icons/pwa/distractify.webp", manifestUrl: "https://www.distractify.com/manifest.json", manifestId: "https://www.distractify.com" },
+      { name: "Distractify", nameKey: "distractify_name", descriptionKey: "distractify_desc", url: "https://www.distractify.com", icon: "icons/pwa/distractify.webp", manifestUrl: "https://www.distractify.com/manifest.json", manifestId: "https://www.distractify.com/" },
       { name: "Los Angeles Times", nameKey: "latimes_name", descriptionKey: "latimes_desc", url: "https://www.latimes.com", icon: "icons/pwa/latimes.webp" },
       { name: "The Wichita Eagle", nameKey: "thewitchitaeagle_name", descriptionKey: "thewitchitaeagle_desc", icon: "icons/msedge/thewitchitaeagle.webp", url: "https://www.kansas.com", apptype_hide: "msedge" },
       {
@@ -4510,7 +4651,7 @@ export const categories = [
         icon: "icons/pwa/sankei.webp",
         url: "https://www.sankei.com",
         manifestUrl: "https://www.sankei.com/manifest.json",
-        manifestId: "https://www.sankei.com"
+        manifestId: "https://www.sankei.com/?utm_source=sankei_PWA&utm_medium=owned+media&utm_campaign=pwa"
       },
       {
         name: "Radio Free Europe / Radio Liberty",
@@ -4518,6 +4659,8 @@ export const categories = [
         descriptionKey: "rferl_desc",
         icon: "icons/pwa/rferl.webp",
         url: "https://www.rferl.org",
+        manifestUrl: "https://www.rferl.org/manifest.json",
+        manifestId: "https://www.rferl.org/?utm_medium=app&utm_campaign=prog-app&utm_source=rferl-english&utm_content=english"
       },
       {
         name: "GovFacts",
@@ -4552,35 +4695,44 @@ export const categories = [
         nameKey: "newsbreak_name",
         descriptionKey: "newsbreak_desc",
         icon: "icons/pwa/newsbreak.webp",
-        url: "https://www.newsbreak.com"
+        url: "https://www.newsbreak.com",
+        manifestUrl: "https://www.newsbreak.com/manifest.json"
       },
       {
         name: "Express UK",
         nameKey: "expressuk_name",
         descriptionKey: "expressuk_desc",
         icon: "icons/pwa/expressuk.webp",
-        url: "https://www.express.co.uk"
+        url: "https://www.express.co.uk",
+        manifestUrl: "https://www.express.co.uk/manifest.json",
+        manifestId: "https://www.express.co.uk/"
       },
       {
         name: "The Express",
         nameKey: "theexpress_name",
         descriptionKey: "theexpress_desc",
         icon: "icons/pwa/theexpress.webp",
-        url: "https://www.the-express.com"
+        url: "https://www.the-express.com",
+        manifestUrl: "https://www.the-express.com/manifest.json",
+        manifestId: "https://www.the-express.com/"
       },
       {
         name: "The Mirror",
         nameKey: "themirror_name",
         descriptionKey: "themirror_desc",
         icon: "icons/pwa/themirror.webp",
-        url: "https://www.themirror.com"
+        url: "https://www.themirror.com",
+        manifestUrl: "https://www.themirror.com/manifest.json?v=6f7ed9d5128d770b",
+        manifestId: "https://www.themirror.com/"
       },
       {
         name: "GB News",
         nameKey: "gbnews_name",
         descriptionKey: "gbnews_desc",
         icon: "icons/pwa/gbnews.webp",
-        url: "https://www.gbnews.com"
+        url: "https://www.gbnews.com",
+        manifestUrl: "https://www.gbnews.com/manifest.json",
+        manifestId: "https://www.gbnews.com/"
       },
 /*      {
         name: "Tribune India",
@@ -4594,14 +4746,18 @@ export const categories = [
         nameKey: "tuko_name",
         descriptionKey: "tuko_desc",
         icon: "icons/pwa/tuko.webp",
-        url: "https://www.tuko.co.ke"
+        url: "https://www.tuko.co.ke",
+        manifestUrl: "https://www.tuko.co.ke/tuko/manifest.json",
+        manifestId: "https://www.tuko.co.ke/?utm_source=homescreen"
       },
       {
         name: "Times Now",
         nameKey: "timesnownews_name",
         descriptionKey: "timesnownews_desc",
         icon: "icons/pwa/timesnownews.webp",
-        url: "https://www.timesnownews.com"
+        url: "https://www.timesnownews.com",
+        manifestUrl: "https://www.timesnownews.com/nimg/manifest.json",
+        manifestId: "https://www.timesnownews.com/?web=no&utm_source=pwahomescreen&utm_medium=direct"
       },
       { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url2: "../wrappers/nytimes", url: "https://www.nytimes.com", apptype2: "wrapper", manifestUrl2: "../wrappers/nytimes/manifest.json" },
       { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url2: "../wrappers/washingtonpost", url: "https://www.washingtonpost.com", apptype2: "wrapper", manifestUrl2: "../wrappers/washingtonpost/manifest.json" },
@@ -4611,7 +4767,7 @@ export const categories = [
       { name: "USA Today", nameKey: "usatoday_name", descriptionKey: "usatoday_desc", icon: "icons/wrappers/usatoday.webp", url2: "../wrappers/usatoday", url: "https://www.usatoday.com", apptype2: "wrapper", manifestUrl2: "../wrappers/usatoday/manifest.json" },
       { name: "REVCOM.US", nameKey: "revcom_name", descriptionKey: "revcom_desc", icon: "icons/wrappers/revcomus.webp", url2: "../wrappers/revcomus", url: "https://revcom.us/en", apptype2: "wrapper", manifestUrl2: "../wrappers/revcomus/manifest.json" },
       { name: "Al Jazeera", nameKey: "aljazeera_name", descriptionKey: "aljazeera_desc", icon: "icons/wrappers/aljazeera.webp", url2: "../wrappers/aljazeera", url: "https://www.aljazeera.com", apptype2: "wrapper", manifestUrl2: "../wrappers/aljazeera/manifest.json" },
-      { name: "Foreign Policy", nameKey: "foreignpolicy_name", descriptionKey: "foreignpolicy_desc", icon: "icons/wrappers/foreignpolicy.webp", url2: "../wrappers/foreignpolicy", url: "https://foreignpolicy.com", apptype2: "wrapper", manifestUrl2: "../wrappers/foreignpolicy/manifest.json"},
+      { name: "Foreign Policy", nameKey: "foreignpolicy_name", descriptionKey: "foreignpolicy_desc", icon: "icons/wrappers/foreignpolicy.webp", url2: "../wrappers/foreignpolicy", url: "https://foreignpolicy.com", apptype2: "wrapper", manifestUrl: "https://foreignpolicy.com/manifest.json", manifestId: "https://foreignpolicy.com/", manifestUrl2: "../wrappers/foreignpolicy/manifest.json"},
       { name: "The Telegraph", nameKey: "thetelegraph_name", descriptionKey: "thetelegraph_desc", icon: "icons/wrappers/thetelegraph.webp", url2: "../wrappers/thetelegraph", apptype2: "wrapper", url: "https://www.telegraph.co.uk", manifestUrl2: "../wrappers/thetelegraph/manifest.json" },
       { name: "CGTN", nameKey: "cgtn_name", descriptionKey: "cgtn_desc", icon: "icons/wrappers/cgtn.webp", url2: "../wrappers/cgtn", apptype2: "wrapper", url: "https://www.cgtn.com", manifestUrl2: "../wrappers/cgtn/manifest.json" },
       { name: "CCTV", nameKey: "cctv_name", descriptionKey: "cctv_desc", icon: "icons/wrappers/cctv.webp", url2: "../wrappers/cctv", apptype2: "wrapper", apptype_hide: "msedge", url: "https://tv.cctv.com", manifestUrl2: "../wrappers/cctv/manifest.json" },
@@ -4621,7 +4777,9 @@ export const categories = [
         nameKey: "devdiscourse_name",
         descriptionKey: "devdiscourse_desc",
         icon: "icons/pwa/devdiscourse.webp",
-        url: "https://www.devdiscourse.com"
+        url: "https://www.devdiscourse.com",
+        manifestUrl: "https://www.devdiscourse.com/AdminFiles/Favicon/manifest.json",
+        manifestId: "https://www.devdiscourse.com/"
       },
       {
         name: "EL PAIS (EL PAÍS)",
@@ -4642,14 +4800,16 @@ export const categories = [
         nameKey: "disclose_tv_name",
         descriptionKey: "disclose_tv_desc",
         icon: "icons/pwa/disclose_tv.webp",
-        url: "https://www.disclose.tv"
+        url: "https://www.disclose.tv",
+        manifestUrl: "https://www.disclose.tv/?dtv_manifest=1"
       },
       {
         name: "NextShark",
         nameKey: "nextshark_name",
         descriptionKey: "nextshark_desc",
         icon: "icons/pwa/nextshark.webp",
-        url: "https://nextshark.com"
+        url: "https://nextshark.com",
+        manifestUrl: "https://nextshark.com/site.webmanifest"
       },
       {
         name: "The Spokesman-Review",
@@ -4668,6 +4828,8 @@ export const categories = [
         url2: "../msedge/factcheck",
         url: "https://www.factcheck.org",
         apptype2: "wrapper",
+        manifestUrl: "https://www.factcheck.org/manifest.json",
+        manifestId: "https://www.factcheck.org/",
         manifestUrl2: "../msedge/factcheck/manifest.json"
       },
       {
@@ -4829,12 +4991,14 @@ export const categories = [
         url2: "../wrappers/zaobao",
         apptype2: "wrapper",
         url: "https://www.zaobao.com.sg",
+        manifestUrl: "https://www.zaobao.com.sg/site.webmanifest",
+        manifestId: "https://www.zaobao.com.sg/",
         manifestUrl2: "../wrappers/zaobao/manifest.json"
       },
       { name: "ifeng (凤凰网)", nameKey: "ifeng_name", descriptionKey: "ifeng_desc", icon: "icons/wrappers/ifeng.webp", url2: "../wrappers/ifeng", url: "https://www.ifeng.com", apptype2: "wrapper", manifestUrl2: "../wrappers/ifeng/manifest.json" },
       { name: "Tencent News (腾讯新闻)", nameKey: "tencent_name", descriptionKey: "tencent_desc", icon: "icons/pwa/tencent_news.webp", url: "https://news.qq.com" },
       { name: "Baidu (百度)", nameKey: "baidu_name", descriptionKey: "baidu_desc", icon: "icons/pwa/baidu.webp", url: "https://www.baidu.com" },
-      { name: "Sohu (搜狐)", nameKey: "sohu_name", descriptionKey: "sohu_desc", icon: "icons/pwa/sohu.webp", url: "https://www.sohu.com", manifestUrl: "https://g1.itc.cn/msfe-pch-prod/2025082603/pwa/manifest.json", manifestId: "https://www.sohu.com" },
+      { name: "Sohu (搜狐)", nameKey: "sohu_name", descriptionKey: "sohu_desc", icon: "icons/pwa/sohu.webp", url: "https://www.sohu.com" },
       {
         name: "Guanchazhe (观察者网)",
         nameKey: "guanchazhe_name",
@@ -5232,22 +5396,22 @@ export const categories = [
     nameKey: "entertainmentplatform_name",
     apps : [
       { name: "AGE Animation (AGE动漫)", nameKey: "age_name", descriptionKey: "age_desc", icon: "icons/msedge/ageanimation.webp", url: "https://www.agedm.io", apptype2: "wrapper", url2: "../msedge/ageanimation", manifestUrl2: "../msedge/ageanimation/manifest.json" },
-      { name: "Disney+", nameKey: "disneyplus_name", descriptionKey: "disneyplus_desc", icon: "icons/pwa/disneyplus.webp", url: "https://www.disneyplus.com", manifestUrl: "https://www.disneyplus.com/manifest.json", manifestId: "https://www.disneyplus.com" },
+      { name: "Disney+", nameKey: "disneyplus_name", descriptionKey: "disneyplus_desc", icon: "icons/pwa/disneyplus.webp", url: "https://www.disneyplus.com", manifestUrl: "https://www.disneyplus.com/manifest.json", manifestId: "https://www.disneyplus.com/" },
       { name: "Hulu", nameKey: "hulu_name", descriptionKey: "hulu_desc", icon: "icons/pwa/hulu.webp", url: "https://www.hulu.com" },
       { name: "ViX (vix.com)", nameKey: "vixcom_name", descriptionKey: "vixcom_desc", icon: "icons/pwa/vix.webp", url: "https://www.vix.com" },
       { name: "ViX (vix.watch)", nameKey: "vixwatch_name", descriptionKey: "vixwatch_desc", icon: "icons/pwa/vix.webp", url: "https://vix.watch" },
-      { name: "ESPN", nameKey: "espn_name", descriptionKey: "espn_desc", icon: "icons/pwa/espn.webp", url: "https://www.espn.com", manifestUrl: "https://www.espn.com/manifest.json", manifestId: "https://www.espn.com" },
-      { name: "MangaDex", nameKey: "mangadex_name", descriptionKey: "mangadex_desc", icon: "icons/pwa/mangadex.webp", url: "https://mangadex.org", manifestUrl: "https://mangadex.org/manifest.webmanifest" },
+      { name: "ESPN", nameKey: "espn_name", descriptionKey: "espn_desc", icon: "icons/pwa/espn.webp", url: "https://www.espn.com", manifestUrl: "https://www.espn.com/manifest.json", manifestId: "https://www.espn.com/" },
+      { name: "MangaDex", nameKey: "mangadex_name", descriptionKey: "mangadex_desc", icon: "icons/pwa/mangadex.webp", url: "https://mangadex.org" },
       { name: "Crunchyroll", nameKey: "crunchyroll_name", descriptionKey: "crunchyroll_desc", icon: "icons/pwa/crunchyroll.webp", url: "https://www.crunchyroll.com" },
-      { name: "AnimeKai", nameKey: "animekai_name", descriptionKey: "animekai_desc", icon: "icons/pwa/animekai.webp" , url: "https://animekai.to", manifestUrl: "https://animekai.to/manifest.json?v4", manifestId: "https://animekai.to" },
+      { name: "AnimeKai", nameKey: "animekai_name", descriptionKey: "animekai_desc", icon: "icons/pwa/animekai.webp" , url: "https://animekai.to" },
       {
         name: "Sling", nameKey: "sling_name", descriptionKey: "sling_desc",
         icon: "icons/pwa/sling.webp", url: "https://www.sling.com"
       },
       { name: "Linovelib", nameKey: "linovelib_name", descriptionKey: "linovelib_desc", icon: "icons/msedge/linovelib.webp", url: "https://www.linovelib.com", apptype2: "wrapper", url2: "../msedge/linovelib", manifestUrl2: "../msedge/linovelib/manifest.json" },
       { name: "Bilinovel", nameKey: "bilinovel_name", descriptionKey: "bilinovel_desc", icon: "icons/msedge/linovelib.webp", url: "https://www.bilinovel.com", apptype2: "wrapper", url2: "../msedge/bilinovel", manifestUrl2: "../msedge/bilinovel/manifest.json" },
-      { name: "Nebula", nameKey: "nebula_name", descriptionKey: "nebula_desc", icon: "icons/pwa/nebula.webp", url: "https://nebula.tv", manifestUrl: "https://nebula.tv/manifest.json", manifestId: "https://nebula.tv" },
-      { name: "Tubi", nameKey: "tubitv_name", descriptionKey: "tubitv_desc", icon: "icons/pwa/tubitv.webp", url: "https://tubitv.com", manifestUrl: "https://tubitv.com/manifest.json", manifestId: "https://tubitv.com" },
+      { name: "Nebula", nameKey: "nebula_name", descriptionKey: "nebula_desc", icon: "icons/pwa/nebula.webp", url: "https://nebula.tv", manifestUrl: "https://nebula.tv/manifest.json", manifestId: "https://nebula.tv/" },
+      { name: "Tubi", nameKey: "tubitv_name", descriptionKey: "tubitv_desc", icon: "icons/pwa/tubitv.webp", url: "https://tubitv.com", manifestUrl: "https://tubitv.com/manifest.json", manifestId: "https://tubitv.com/?pwa=true&utm_source=a2hs" },
       { name: "Dubok (独播库)", nameKey: "dubok_name", descriptionKey: "dubok_desc", icon: "icons/pwa/dubok.webp", url: "https://www.dubok.tv" },
       { name: "Youku (优酷)", nameKey: "youku_name", descriptionKey: "youku_desc", icon: "icons/pwa/youku.webp", url: "https://www.youku.com" },
       {
@@ -5255,14 +5419,18 @@ export const categories = [
         nameKey: "eightbook_name",
         descriptionKey: "eightbook_desc",
         icon: "icons/pwa/8book.webp",
-        url: "https://8book.com"
+        url: "https://8book.com",
+        manifestUrl: "https://8book.com/site.webmanifest",
+        manifestId: "https://8book.com/"
       },
       {
         name: "WeebCentral",
         nameKey: "weebcentral_name",
         descriptionKey: "weebcentral_desc",
         icon: "icons/pwa/weebcentral.webp",
-        url: "https://weebcentral.com"
+        url: "https://weebcentral.com",
+        manifestUrl: "https://weebcentral.com/manifest.json",
+        manifestId: "https://weebcentral.com/"
       },
       {
         name: "TMDB",
@@ -5276,7 +5444,9 @@ export const categories = [
         nameKey: "yanmaga_name",
         descriptionKey: "yanmaga_desc",
         icon: "icons/pwa/yanmaga.webp",
-        url: "https://yanmaga.jp"
+        url: "https://yanmaga.jp",
+        manifestUrl: "https://yanmaga.jp/manifest.json",
+        manifestId: "https://yanmaga.jp/?utm_source=pwa&utm_medium=homescreen&utm_campaign=banner"
       },
       { name: "Lightnovel Kingdom (轻之国度)", nameKey: "lightnovel_name", descriptionKey: "lightnovel_desc", icon: "icons/wrappers/lightnovelkingdom.webp", url2: "../wrappers/lightnovelkingdom", apptype2: "wrapper", url: "https://www.lightnovel.fun/cn", manifestUrl2: "../wrappers/lightnovelkingdom/manifest.json" },
       { name: "WeChat Read (微信读书)", nameKey: "wechatread_name", descriptionKey: "wechatread_desc", icon: "icons/wrappers/wechatread.webp", url2: "../wrappers/wechatread", apptype2: "wrapper", url: "https://weread.qq.com", manifestUrl2: "../wrappers/wechatread/manifest.json" },
@@ -5284,7 +5454,7 @@ export const categories = [
       { name: "Ximalaya (喜马拉雅)", nameKey: "ximalaya_name", descriptionKey: "ximalaya_desc", icon: "icons/wrappers/ximalaya.webp", url2: "../wrappers/ximalaya", apptype2: "wrapper", url: "https://www.ximalaya.com", manifestUrl2: "../wrappers/ximalaya/manifest.json" },
       { name: "TED", nameKey: "ted_name", descriptionKey: "ted_desc", icon: "icons/wrappers/ted.webp", url2: "../wrappers/ted", apptype2: "wrapper", url: "https://www.ted.com", manifestUrl2: "../wrappers/ted/manifest.json" },
       { name: "Netflix", nameKey: "netflix_name", descriptionKey: "netflix_desc", icon: "icons/wrappers/netflix.webp", url2: "../wrappers/netflix", apptype2: "wrapper", url: "https://www.netflix.com", manifestUrl2: "../wrappers/netflix/manifest.json" },
-      { name: "Pixiv", nameKey: "pixiv_name", descriptionKey: "pixiv_desc", icon: "icons/wrappers/pixiv.webp", url2: "../wrappers/pixiv", apptype2: "wrapper", url: "https://www.pixiv.net", manifestUrl2: "../wrappers/pixiv/manifest.json" },
+      { name: "Pixiv", nameKey: "pixiv_name", descriptionKey: "pixiv_desc", icon: "icons/wrappers/pixiv.webp", url2: "../wrappers/pixiv", apptype2: "wrapper", url: "https://www.pixiv.net", manifestUrl: "https://www.pixiv.net/manifest.json", manifestId: "https://www.pixiv.net/", manifestUrl2: "../wrappers/pixiv/manifest.json" },
 //      { name: "DramaBox", nameKey: "dramabox_name", descriptionKey: "dramabox_desc", icon: "icons/wrappers/dramabox.webp", url2: "../wrappers/dramabox", apptype2: "wrapper", url: "https://www.dramaboxapp.com" },
       {
         name: "yinghuafabu⚠️💣",
@@ -5411,7 +5581,7 @@ export const categories = [
         icon: "icons/pwa/gameslol.webp",
         url: "https://en.gameslol.net",
         manifestUrl: "https://en.gameslol.net/manifest.json",
-        manifestId: "https://en.gameslol.net"
+        manifestId: "https://en.gameslol.net/"
       },
       {
         name: "Genshin Impact Cloud (云原神)",
@@ -5442,7 +5612,7 @@ export const categories = [
         icon: "icons/pwa/webgamer.webp",
         url: "https://webgamer.io",
         manifestUrl: "https://webgamer.io/manifest.json",
-        manifestId: "https://webgamer.io"
+        manifestId: "https://webgamer.io/"
       },
       {
         name: "Roblox",
@@ -5456,9 +5626,7 @@ export const categories = [
         nameKey: "blizztrack_name",
         descriptionKey: "blizztrack_desc",
         icon: "icons/pwa/blizztrack.webp",
-        url: "https://blizztrack.com",
-        manifestUrl: "https://blizztrack.com/static/manifest.webmanifest",
-        manifestId: "https://blizztrack.com"
+        url: "https://blizztrack.com"
       },
       {
         name: "Xbox Cloud Gaming",
@@ -5466,7 +5634,7 @@ export const categories = [
         descriptionKey: "xboxcloudgaming_desc",
         icon: "icons/pwa/xboxcloudgaming.webp",
         url: "https://www.xbox.com/en-us/play",
-        manifestUrl: "https://www.xbox.com/en-US/play/manifest.webmanifest?page.name=Home"
+        manifestUrl: "https://play.xbox.com/manifest.webmanifest"
       },
       {
         name: "Sexual Repression Index Calculator (性压抑指数计算器) SRI Calculator",
@@ -5482,14 +5650,16 @@ export const categories = [
         icon: "icons/pwa/pwa2048.webp",
         url: "https://2048.skyafar.com",
         manifestUrl: "https://2048.skyafar.com/manifest.json",
-        manifestId: "https://2048.skyafar.com"
+        manifestId: "https://2048.skyafar.com/index.html"
       },
       {
         name: "Vimm's Lair",
         nameKey: "vimmslair_name",
         descriptionKey: "vimmslair_desc",
         icon: "icons/pwa/vimmslair.webp",
-        url: "https://vimm.net"
+        url: "https://vimm.net",
+        manifestUrl: "https://vimm.net/manifest.json",
+        manifestId: "https://vimm.net/"
       },
       {
         name: "Chess",
@@ -5498,7 +5668,7 @@ export const categories = [
         icon: "icons/pwa/chess.webp",
         url: "https://www.chess.com",
         manifestUrl: "https://www.chess.com/manifest.json",
-        manifestId: "https://www.chess.com"
+        manifestId: "https://www.chess.com/"
       },
       {
         name: "lichess",
@@ -5507,35 +5677,41 @@ export const categories = [
         icon: "icons/pwa/lichess.webp",
         url: "https://lichess.org",
         manifestUrl: "https://lichess.org/manifest.json",
-        manifestId: "https://lichess.org"
+        manifestId: "https://lichess.org/"
       },
       {
         name: "WordWalker",
         nameKey: "wordwalker_name",
         descriptionKey: "wordwalker_desc",
         icon: "icons/pwa/wordwalker.webp",
-        url: "https://impressto.ca/wordwalker"
+        url: "https://impressto.ca/wordwalker",
+        manifestUrl: "https://wordwalker.ca/dist/manifest.json"
       },
       {
         name: "Impressto Chess",
         nameKey: "impresstochess_name",
         descriptionKey: "impresstochess_desc",
         icon: "icons/pwa/impresstochess.webp",
-        url: "https://impressto.ca/chess"
+        url: "https://impressto.ca/chess",
+        manifestUrl: "https://impressto.ca/chess/dist/manifest.json",
+        manifestId: "https://impressto.ca/chess/"
       },
       {
         name: "TrySolitaire",
         nameKey: "trysolitaire_name",
         descriptionKey: "trysolitaire_desc",
         icon: "icons/pwa/trysolitaire.webp",
-        url: "https://trysolitaire.com"
+        url: "https://trysolitaire.com",
+        manifestUrl: "https://trysolitaire.com/assets/manifest-CJ8QWJVt.json"
       },
       {
         name: "Gokuro",
         nameKey: "gokuro_name",
         descriptionKey: "gokuro_desc",
         icon: "icons/pwa/gokuro.webp",
-        url: "https://gokuro.net"
+        url: "https://gokuro.net",
+        manifestUrl: "https://gokuro.net/manifest.webmanifest",
+        manifestId: "https://gokuro.net/"
       },
       {
         name: "Star Rail Cloud (星穹铁道云游戏)",
@@ -5556,21 +5732,25 @@ export const categories = [
         nameKey: "grrdreversi_name",
         descriptionKey: "grrdreversi_desc",
         icon: "icons/pwa/grrdreversi.webp",
-        url: "https://reversi.grrd.ch"
+        url: "https://reversi.grrd.ch",
+        manifestUrl: "https://reversi.grrd.ch/manifest/appmanifest.json",
+        manifestId: "https://reversi.grrd.ch/index.html"
       },
       {
         name: "Tsukihime",
         nameKey: "tsukidev_name",
         descriptionKey: "tsukidev_desc",
         icon: "icons/pwa/tsukidev.webp",
-        url: "https://tsukidev.holofield.fr"
+        url: "https://tsukidev.holofield.fr",
+        manifestUrl: "https://tsukidev.holofield.fr/manifest.json"
       },
       {
         name: "Zhuzhiliao(竹知了)",
         nameKey: "zhuzhiliao_name",
         descriptionKey: "zhuzhiliao_desc",
         icon: "icons/pwa/zhuzhiliao.webp",
-        url: "https://imsai.top"
+        url: "https://imsai.top",
+        manifestUrl: "https://vibevibi.com/api/works/zhuzhiliao/manifest.webmanifest"
       },
       {
         name: "Zhuzhiliao(竹知了)",
@@ -5578,42 +5758,51 @@ export const categories = [
         descriptionKey: "zhuzhiliao_desc",
         icon: "icons/pwa/zhuzhiliao.webp",
         url: "https://zhuzhiliao.icu",
-        hide: true
+        hide: true,
+        manifestUrl: "https://vibevibi.com/api/works/zhuzhiliao/manifest.webmanifest"
       },
       {
         name: "huawei.dog",
         nameKey: "huaweidog_name",
         descriptionKey: "huaweidog_desc",
         icon: "icons/pwa/huaweidog.webp",
-        url: "https://huawei.dog"
+        url: "https://huawei.dog",
+        manifestUrl: "https://huawei.dog/manifest.webmanifest",
+        manifestId: "https://huawei.dog/"
       },
       {
         name: "Bilibili Zhuzhiliao",
         nameKey: "bilibili_zhuzhiliao_name",
         descriptionKey: "bilibili_zhuzhiliao_desc",
         icon: "icons/pwa/bilibili_zhuzhiliao.webp",
-        url: "https://www.bilibili.com/toy/zhuzhiliao/index.html?spm_id_from=333.788.specialRecommendByOp.0"
+        url: "https://www.bilibili.com/toy/zhuzhiliao/index.html?spm_id_from=333.788.specialRecommendByOp.0",
+        manifestUrl: "https://www.bilibili.com/toy/zhuzhiliao/manifest.webmanifest",
+        manifestId: "https://www.bilibili.com/toy/zhuzhiliao/"
       },
       {
         name: "iBeer",
         nameKey: "ibeer_name",
         descriptionKey: "ibeer_desc",
         icon: "icons/pwa/ibeer.webp",
-        url: "https://ibeer.org"
+        url: "https://ibeer.org",
+        manifestUrl: "https://ibeer.org/manifest.json"
       },
       {
         name: "Sansa (Online Temple)",
         nameKey: "sansatemple_name",
         descriptionKey: "sansatemple_desc",
         icon: "icons/pwa/sansatemple.svg",
-        url: "https://sansatemple.com"
+        url: "https://sansatemple.com",
+        manifestUrl: "https://sansatemple.com/manifest.webmanifest?v=ccfba25ef8c5"
       },
       {
         name: "Klondike Solitaire",
         nameKey: "klondike_solitaire_name",
         descriptionKey: "klondike_solitaire_desc",
         icon: "icons/pwa/klondike_solitaire.webp",
-        url: "https://glotoff.github.io/solitaire/"
+        url: "https://glotoff.github.io/solitaire/",
+        manifestUrl: "https://glotoff.github.io/solitaire/manifest.webmanifest",
+        manifestId: "https://glotoff.github.io/solitaire/index.html"
       },
       {
         name: "Red Alert 2: Chrono Divide",
@@ -5643,6 +5832,7 @@ export const categories = [
         url2: "../wrappers/eaglercraft",
         apptype2: "wrapper",
         url: "https://eaglercraft.com",
+        manifestUrl: "https://eaglercraft.com/manifest.json",
         manifestUrl2: "../wrappers/eaglercraft/manifest.json"
       },
       {
@@ -5744,6 +5934,8 @@ export const categories = [
         url2: "../wrappers/war3replays",
         apptype2: "wrapper",
         url: "https://war3replays.com",
+        manifestUrl: "https://war3replays.com/manifest.webmanifest",
+        manifestId: "https://war3replays.com/",
         manifestUrl2: "../wrappers/war3replays/manifest.json"
       },
       {
@@ -5776,8 +5968,8 @@ export const categories = [
         descriptionKey: "murlok_desc",
         icon: "icons/pwa/murlok.webp",
         url: "https://murlok.io",
-        manifestUrl: "https://murlok.io/v3.42.26/manifest.webmanifest",
-        manifestId: "https://murlok.io"
+        manifestUrl: "https://murlok.io/v3.44.56/manifest.webmanifest",
+        manifestId: "https://murlok.io/"
       },
       {
         name: "World of Warcraft Forums (US)",
@@ -5826,14 +6018,18 @@ export const categories = [
         nameKey: "xboxsupport_name",
         descriptionKey: "xboxsupport_desc",
         icon: "icons/pwa/xboxcloudgaming.webp",
-        url: "https://support.xbox.com"
+        url: "https://support.xbox.com",
+        manifestUrl: "https://support.xbox.com/manifest.json",
+        manifestId: "https://support.xbox.com/"
       },
       {
         name: "NationStates",
         nameKey: "nationstates_name",
         descriptionKey: "nationstates_desc",
         icon: "icons/pwa/nationstates.webp",
-        url: "https://www.nationstates.net"
+        url: "https://www.nationstates.net",
+        manifestUrl: "https://www.nationstates.net/manifest.json",
+        manifestId: "https://www.nationstates.net/?utm_source=homescreen"
       },
       {
         name: "MMO Champion",
@@ -5863,6 +6059,7 @@ export const categories = [
         url2: "../wrappers/raiderio",
         apptype2: "wrapper",
         url: "https://raider.io",
+        manifestUrl: "https://raider.io/site.webmanifest",
         manifestUrl2: "../wrappers/raiderio/manifest.json"
       },
       {
@@ -6035,8 +6232,8 @@ export const categories = [
         descriptionKey: "duolingo_global_desc",
         icon: "icons/pwa/duolingo.webp",
         url: "https://duolingo.com",
-        manifestUrl: "https://duolingo.com/manifest.json",
-        manifestId: "https://duolingo.com"
+        manifestUrl: "https://www.duolingo.com/manifest.json",
+        manifestId: "https://www.duolingo.com/?utm_source=pwa_launch"
       },
       {
         name: "Duolingo (多邻国)",
@@ -6044,8 +6241,8 @@ export const categories = [
         descriptionKey: "duolingo_cn_desc",
         icon: "icons/pwa/duolingo.webp",
         url: "https://cn.duolingo.com",
-        manifestUrl: "https://cn.duolingo.com/manifest.json",
-        manifestId: "https://cn.duolingo.com"
+        manifestUrl: "https://www.duolingo.com/manifest.json",
+        manifestId: "https://www.duolingo.com/?utm_source=pwa_launch"
       },
       {
         name: "Oxford English Dictionary",
@@ -6054,16 +6251,14 @@ export const categories = [
         icon: "icons/pwa/oed.webp",
         url: "https://www.oed.com",
         manifestUrl: "https://www.oed.com/images/icons/manifest.json",
-        manifestId: "https://www.oed.com"
+        manifestId: "https://www.oed.com/images/icons/"
       },
       {
         name: "Duoreader",
         nameKey: "duoreader_name",
         descriptionKey: "duoreader_desc",
         icon: "icons/pwa/duoreader.webp",
-        url: "https://web.duoreader.cn",
-        manifestUrl: "https://web.duoreader.cn/manifest.webmanifest",
-        manifestId: "https://web.duoreader.cn"
+        url: "https://web.duoreader.cn"
       },
       {
         name: "Dudianji (读典籍)",
@@ -6072,23 +6267,23 @@ export const categories = [
         icon: "icons/pwa/dudianji.webp",
         url: "https://web.dudianji.com",
         manifestUrl: "https://web.dudianji.com/manifest.json",
-        manifestId: "https://web.dudianji.com"
+        manifestId: "https://web.dudianji.com/index.html"
       },
       {
         name: "Xiangyin (乡音)",
         nameKey: "xiangyin_name",
         descriptionKey: "xiangyin_desc",
         icon: "icons/pwa/xiangyin.webp",
-        url: "https://web.xiangyin.mobi",
-        manifestUrl: "https://web.xiangyin.mobi/manifest.json",
-        manifestId: "https://web.xiangyin.mobi"
+        url: "https://web.xiangyin.mobi"
       },
       {
         name: "Physics Lab",
         nameKey: "physicslab_name",
         descriptionKey: "physicslab_desc",
         icon: "icons/pwa/physicslab.webp",
-        url: "https://plweb.turtlesim.com"
+        url: "https://plweb.turtlesim.com",
+        manifestUrl: "https://plweb.turtlesim.com/manifest.webmanifest",
+        manifestId: "https://plweb.turtlesim.com/"
       },
       {
         name: "Best Piano Method",
@@ -6116,23 +6311,25 @@ export const categories = [
         nameKey: "hellotyping_name",
         descriptionKey: "hellotyping_desc",
         icon: "icons/pwa/hellotyping.webp",
-        url: "https://www.hellotyping.com",
-        manifestUrl: "https://www.hellotyping.com/manifest.webapp",
-        manifestId: "https://www.hellotyping.com"
+        url: "https://www.hellotyping.com"
       },
       {
         name: "GPA Calculator (MemoryMaps)",
         nameKey: "gpa_memorymaps_name",
         descriptionKey: "gpa_memorymaps_desc",
         icon: "icons/pwa/gpa_memorymaps.webp",
-        url: "https://gpacalculator.memorymaps.io"
+        url: "https://gpacalculator.memorymaps.io",
+        manifestUrl: "https://gpacalculator.memorymaps.io/manifest.json",
+        manifestId: "https://gpacalculator.memorymaps.io/"
       },
       {
         name: "GPA Calculator (IO)",
         nameKey: "gpa_io_name",
         descriptionKey: "gpa_io_desc",
         icon: "icons/pwa/gpa_io.webp",
-        url: "https://gpacalculator.io"
+        url: "https://gpacalculator.io",
+        manifestUrl: "https://gpacalculator.io/manifest.json",
+        manifestId: "https://gpacalculator.io/"
       },
       {
         name: "Chinese Text Project",
@@ -6149,7 +6346,9 @@ export const categories = [
         nameKey: "unalengua_ipa_name",
         descriptionKey: "unalengua_ipa_desc",
         icon: "icons/pwa/unalengua_ipa.webp",
-        url: "https://unalengua.com/ipa"
+        url: "https://unalengua.com/ipa",
+        manifestUrl: "https://unalengua.com/manifest.json",
+        manifestId: "https://unalengua.com/ipa?utm_source=pwa"
       },
       {
         name: "11000.online (七星英语背单词)",
@@ -6237,7 +6436,9 @@ export const categories = [
         nameKey: "getkana_name",
         descriptionKey: "getkana_desc",
         icon: "icons/pwa/getkana.webp",
-        url: "https://getkana.com/app/"
+        url: "https://getkana.com/app/",
+        manifestUrl: "https://getkana.com/app/manifest.json",
+        manifestId: "https://getkana.com/app/index.html"
       },
       {
         name: "Chaoxing V8 (超星V8)",
@@ -6267,6 +6468,8 @@ export const categories = [
         url2: "../wrappers/nukemap",
         apptype2: "wrapper",
         url: "https://nuclearsecrecy.com/nukemap",
+        manifestUrl: "https://img.nuclearsecrecy.com/manifest.json",
+        manifestId: "https://img.nuclearsecrecy.com/",
         manifestUrl2: "../wrappers/nukemap/manifest.json"
       },
       {
@@ -6399,9 +6602,7 @@ export const categories = [
         nameKey: "emojiswiki_name",
         descriptionKey: "emojiswiki_desc",
         icon: "icons/pwa/emojiswiki.webp",
-        url: "https://emojis.wiki",
-        manifestUrl: "https://emojis.wiki/pwa/manifest.json",
-        manifestId: "https://emojis.wiki"
+        url: "https://emojis.wiki"
       },
       {
         name: "emoj.info",
@@ -6415,7 +6616,9 @@ export const categories = [
         nameKey: "theapplewiki_name",
         descriptionKey: "theapplewiki_desc",
         icon: "icons/pwa/theapplewiki.webp",
-        url: "https://theapplewiki.com"
+        url: "https://theapplewiki.com",
+        manifestUrl: "https://theapplewiki.com/api.php?action=appmanifest",
+        manifestId: "https://theapplewiki.com/wiki/Main_Page"
       },
       {
         name: "Uncyclopedia",
@@ -6445,7 +6648,7 @@ export const categories = [
         icon: "icons/pwa/ifixit.webp",
         url: "https://www.ifixit.com",
         manifestUrl: "https://assets.cdn.ifixit.com/static/icons/ifixit/manifest.json",
-        manifestId: "https://www.ifixit.com"
+        manifestId: "https://assets.cdn.ifixit.com/static/icons/ifixit/"
       },
       {
         name: "LinusTechTips",
@@ -6574,6 +6777,8 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.populationpyramids.org",
         comment: "scamadviser gives a low score, but i don't see how is this website insecure",
+        manifestUrl: "https://www.populationpyramids.org/manifest.webmanifest",
+        manifestId: "https://www.populationpyramids.org/",
         manifestUrl2: "../wrappers/poppyramidsorg/manifest.json"
       },
       {
@@ -6629,7 +6834,7 @@ export const categories = [
       icon: "icons/pwa/qurancom.webp",
       url: "https://quran.com",
       manifestUrl: "https://quran.com/manifest.json",
-      manifestId: "https://quran.com"
+      manifestId: "https://quran.com/"
       },
       {
         name: "BibleGateway.com",
@@ -6643,7 +6848,9 @@ export const categories = [
         nameKey: "sefaria_name",
         descriptionKey: "sefaria_desc",
         icon: "icons/pwa/sefaria.webp",
-        url: "https://www.sefaria.org"
+        url: "https://www.sefaria.org",
+        manifestUrl: "https://www.sefaria.org/site.webmanifest?v=3",
+        manifestId: "https://www.sefaria.org/"
       },
       {
         name: "YouVersion Bible",
@@ -6680,7 +6887,8 @@ export const categories = [
         nameKey: "liturgiadiaria_name",
         descriptionKey: "liturgiadiaria_desc",
         icon: "icons/pwa/liturgiadiaria.webp",
-        url: "https://liturgiadiaria.wasmer.app/"
+        url: "https://liturgiadiaria.wasmer.app/",
+        manifestUrl: "https://liturgiadiaria.wasmer.app/manifest.webmanifest"
       },
     ]
   },
@@ -6693,9 +6901,7 @@ export const categories = [
         nameKey: "pwastats_name",
         descriptionKey: "pwastats_desc",
         icon: "icons/pwa/pwastats.webp",
-        url: "https://www.pwastats.com",
-        manifestUrl: "https://www.pwastats.com/manifest.json",
-        manifestId: "https://www.pwastats.com"
+        url: "https://www.pwastats.com"
       },
       {
         name: "StatCounter GS",
@@ -6709,9 +6915,7 @@ export const categories = [
         nameKey: "speedtest_name",
         descriptionKey: "speedtest_desc",
         icon: "icons/pwa/speedtest.webp",
-        url: "https://www.speedtest.net",
-        manifestUrl: "https://b.cdnst.net/manifest.webmanifest",
-        manifestId: "https://www.speedtest.net"
+        url: "https://www.speedtest.net"
       },
       {
         name: "Basemark Web",
@@ -6727,7 +6931,7 @@ export const categories = [
         icon: "icons/pwa/cznull.webp",
         url: "https://cznull.com",
         manifestUrl: "https://cznull.com/manifest.json",
-        manifestId: "https://cznull.com"
+        manifestId: "https://cznull.com/"
       },
       {
         name: "Redirection.io",
@@ -6736,7 +6940,7 @@ export const categories = [
         icon: "icons/pwa/redirectionio.webp",
         url: "https://redirection.io",
         manifestUrl: "https://redirection.io/assets/images/manifest.json",
-        manifestId: "https://redirection.io"
+        manifestId: "https://redirection.io/manager"
       },
       {
         name: "iplocation.net",
@@ -6766,21 +6970,24 @@ export const categories = [
         icon: "icons/pwa/statscrop.webp",
         url: "https://www.statscrop.com",
         manifestUrl: "https://www.statscrop.com/manifest.json",
-        manifestId: "https://www.statscrop.com"
+        manifestId: "https://www.statscrop.com/"
       },
       {
         name: "Semrush",
         nameKey: "semrush_name",
         descriptionKey: "semrush_desc",
         icon: "icons/pwa/semrush.webp",
-        url: "https://www.semrush.com"
+        url: "https://www.semrush.com",
+        manifestUrl: "https://www.semrush.com/__static__/manifest.c126ad9aade5.json"
       },
       {
         name: "PeerTube",
         nameKey: "peertube_name",
         descriptionKey: "peertube_desc",
         icon: "icons/pwa/peertube.webp",
-        url: "https://peertube.tv"
+        url: "https://peertube.tv",
+        manifestUrl: "https://peertube.tv/manifest.webmanifest?1bfbb4950ba1b37e4a48ec8b5372ccfe3969bbfd",
+        manifestId: "https://peertube.tv/"
       },
       {
         name: "BrowserBench",
@@ -6886,7 +7093,9 @@ export const categories = [
         nameKey: "worldmonitor_name",
         descriptionKey: "worldmonitor_desc",
         icon: "icons/pwa/worldmonitor.webp",
-        url: "https://www.worldmonitor.app"
+        url: "https://www.worldmonitor.app",
+        manifestUrl: "https://www.worldmonitor.app/manifest.webmanifest",
+        manifestId: "https://www.worldmonitor.app/dashboard"
       },
     ]
   },
@@ -6899,14 +7108,17 @@ export const categories = [
         nameKey: "aisvesseltracker_name",
         descriptionKey: "aisvesseltracker_desc",
         icon: "icons/pwa/aisvesseltracker.webp",
-        url: "https://aisvesseltracker.com"
+        url: "https://aisvesseltracker.com",
+        manifestUrl: "https://aisvesseltracker.com/site.webmanifest"
       },
       {
         name: "BusMaps",
         nameKey: "busmaps_name",
         descriptionKey: "busmaps_desc",
         icon: "icons/pwa/busmaps.webp",
-        url: "https://busmaps.com"
+        url: "https://busmaps.com",
+        manifestUrl: "https://busmaps.com/manifest.webmanifest",
+        manifestId: "https://busmaps.com/"
       },
       {
         name: "MarineTraffic",
@@ -6956,6 +7168,8 @@ export const categories = [
         url2: "../wrappers/ukrainewarlosses",
         apptype2: "wrapper",
         url: "https://ukrainewarlosses.org",
+        manifestUrl: "https://ukrainewarlosses.org/manifest.json",
+        manifestId: "https://ukrainewarlosses.org/",
         manifestUrl2: "../wrappers/ukrainewarlosses/manifest.json"
       },
     ]
@@ -6969,23 +7183,23 @@ export const categories = [
         nameKey: "gdstudio_music_xyz_name",
         descriptionKey: "gdstudio_music_xyz_desc",
         icon: "icons/pwa/gdstudio_music.webp",
-        url: "https://music.gdstudio.xyz"
+        url: "https://music.gdstudio.xyz",
+        manifestUrl: "https://music.gdstudio.xyz/manifest.json"
       },
       {
         name: "GDStudio Music (Mainland China Edition)",
         nameKey: "gdstudio_music_org_name",
         descriptionKey: "gdstudio_music_org_desc",
         icon: "icons/pwa/gdstudio_music.webp",
-        url: "http://music.gdstudio.org"
+        url: "http://music.gdstudio.org",
+        manifestUrl: "https://music.gdstudio.org/manifest.json"
       },
       {
         name: "Spotify",
         nameKey: "spotify_name",
         descriptionKey: "spotify_desc",
         icon: "icons/pwa/spotify.webp",
-        url: "https://open.spotify.com",
-        manifestUrl: "https://open.spotifycdn.com/cdn/generated/manifest-mobile-web-player.a1ddf51c.json",
-        manifestId: "https://open.spotify.com"
+        url: "https://open.spotify.com"
       },
       {
         name: "Apple Music",
@@ -6994,7 +7208,7 @@ export const categories = [
         icon: "icons/pwa/applemusic.webp",
         url: "https://music.apple.com",
         manifestUrl: "https://music.apple.com/manifest.json",
-        manifestId: "https://music.apple.com"
+        manifestId: "https://music.apple.com/"
       },
       {
         name: "YouTube Music",
@@ -7010,7 +7224,7 @@ export const categories = [
         icon: "icons/pwa/soundcloud.webp",
         url: "https://soundcloud.com",
         manifestUrl: "https://soundcloud.com/webmanifest.json",
-        manifestId: "https://soundcloud.com"
+        manifestId: "https://soundcloud.com/discover"
       },
       {
         name: "Audiomack",
@@ -7025,16 +7239,15 @@ export const categories = [
         nameKey: "roon_name",
         descriptionKey: "roon_desc",
         icon: "icons/pwa/roon.webp",
-        url: "https://roon.app",
-        manifestUrl: "https://roon.app/site.webmanifest",
-        manifestId: "https://roon.app"
+        url: "https://roon.app"
       },
       {
         name: "Pocket Casts",
         nameKey: "pocketcasts_name",
         descriptionKey: "pocketcasts_desc",
         icon: "icons/pwa/pocketcasts.webp",
-        url: "https://pocketcasts.com"
+        url: "https://pocketcasts.com",
+        manifestUrl: "https://pocketcasts.com/manifest.webmanifest"
       },
       {
         name: "Tonzhon (铜钟)",
@@ -7055,21 +7268,25 @@ export const categories = [
         nameKey: "gensokyoradio_name",
         descriptionKey: "gensokyoradio_desc",
         icon: "icons/pwa/gensokyoradio.webp",
-        url: "https://app.gensokyoradio.net"
+        url: "https://app.gensokyoradio.net",
+        manifestUrl: "https://app.gensokyoradio.net/manifest.webmanifest",
+        manifestId: "https://app.gensokyoradio.net/"
       },
       {
         name: "Lofi 88lin",
         nameKey: "lofi88lin_name",
         descriptionKey: "lofi88lin_desc",
         icon: "icons/pwa/lofi88lin.webp",
-        url: "https://lofi.88lin.eu.org"
+        url: "https://lofi.88lin.eu.org",
+        manifestUrl: "https://lofi.88lin.eu.org/manifest.json"
       },
       {
         name: "RadioTune.fm",
         nameKey: "radiotune_name",
         descriptionKey: "radiotune_desc",
         icon: "icons/pwa/radiotune.webp",
-        url: "https://www.radiotune.fm"
+        url: "https://www.radiotune.fm",
+        manifestUrl: "https://www.radiotune.fm/manifest.json"
       },
       {
         name: "OTOTOY",
@@ -7101,7 +7318,7 @@ export const categories = [
         icon: "icons/pwa/starbucks.webp",
         url: "https://www.starbucks.com",
         manifestUrl: "https://www.starbucks.com/manifest.json",
-        manifestId: "https://www.starbucks.com"
+        manifestId: "https://www.starbucks.com/"
       },
       {
         name: "Amazon",
@@ -7153,8 +7370,8 @@ export const categories = [
         descriptionKey: "dunkindonuts_desc",
         icon: "icons/pwa/dunkindonuts.webp",
         url: "https://www.dunkindonuts.com",
-        manifestUrl: "https://www.dunkindonuts.com/etc/designs/dd/manifest.json",
-        manifestId: "https://www.dunkindonuts.com"
+        manifestUrl: "https://www.dunkindonuts.com/brands/dun/site.webmanifest",
+        manifestId: "https://www.dunkindonuts.com/"
       },
       {
         name: "Sam's Club",
@@ -7168,9 +7385,7 @@ export const categories = [
         nameKey: "seamless_name",
         descriptionKey: "seamless_desc",
         icon: "icons/pwa/seamless.webp",
-        url: "https://www.seamless.com",
-        manifestUrl: "https://assets.seamless.com/manifest.json",
-        manifestId: "https://www.seamless.com"
+        url: "https://www.seamless.com"
       },
 /*      {
         name: "Flipkart",
@@ -7224,6 +7439,8 @@ export const categories = [
         icon: "icons/pwa/rossmann.webp",
         url: "https://rossmanngroup.com",
 //        apptype: "desk",
+manifestUrl: "https://rossmanngroup.com/manifest.webmanifest",
+manifestId: "https://rossmanngroup.com/"
       },
       {
         name: "Yelp",
@@ -7602,6 +7819,8 @@ export const categories = [
         url2: "../wrappers/innosearch",
         apptype2: "wrapper",
         url: "https://www.innosearch.ai",
+        manifestUrl: "https://www.innosearch.ai/manifest/manifest.json",
+        manifestId: "https://www.innosearch.ai/manifest/",
         manifestUrl2: "../wrappers/innosearch/manifest.json"
       },
       {
@@ -8048,7 +8267,7 @@ export const categories = [
         icon: "icons/pwa/jetblue.webp",
         url: "https://www.jetblue.com",
         manifestUrl: "https://www.jetblue.com/manifest.json",
-        manifestId: "https://www.jetblue.com"
+        manifestId: "https://www.jetblue.com/?source=progressive_web_app"
       },
       {
         name: "FlixBus",
@@ -8084,9 +8303,7 @@ export const categories = [
         nameKey: "girlsheavens_name",
         descriptionKey: "girlsheavens_desc",
         icon: "icons/pwa/girlsheavens.webp",
-        url: "https://girlsheavens.com",
-        manifestUrl: "https://girlsheavens.com/wp-content/uploads/fbrfg/site.webmanifest",
-        manifestId: "https://girlsheavens.com"
+        url: "https://girlsheavens.com"
       },
       {
         name: "Happily Ever Travels",
@@ -8289,9 +8506,7 @@ export const categories = [
         nameKey: "dongchedi_name",
         descriptionKey: "dongchedi_desc",
         icon: "icons/pwa/dongchedi.webp",
-        url: "https://www.dongchedi.com",
-        manifestUrl: "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/pwa/v1/manifest.json",
-        manifestId: "https://www.dongchedi.com"
+        url: "https://www.dongchedi.com"
       },
       {
         name: "CarNewsChina",
@@ -8358,6 +8573,8 @@ export const categories = [
         url2: "../msedge/driving_practice_tests",
         apptype2: "wrapper",
         url: "https://drivingpracticetests.com",
+        manifestUrl: "https://drivingpracticetests.com/manifest.json",
+        manifestId: "https://drivingpracticetests.com/?utm_source=homescreen&utm_medium=app",
         manifestUrl2: "../msedge/driving_practice_tests/manifest.json"
       },
       {
@@ -8458,9 +8675,7 @@ export const categories = [
         nameKey: "zillow_name",
         descriptionKey: "zillow_desc",
         icon: "icons/pwa/zillow.webp",
-        url: "https://www.zillow.com",
-        manifestUrl: "https://www.zillow.com/manifest.json",
-        manifestId: "https://www.zillow.com"
+        url: "https://www.zillow.com"
       },
       {
         name: "Redfin",
@@ -8491,6 +8706,8 @@ export const categories = [
         url2: "../wrappers/airbnb",
         apptype2: "wrapper",
         url: "https://www.airbnb.com",
+        manifestUrl: "https://www.airbnb.com/manifest.json",
+        manifestId: "https://www.airbnb.com/?utm_source=homescreen",
         manifestUrl2: "../wrappers/airbnb/manifest.json"
       },
       {
@@ -8557,7 +8774,7 @@ export const categories = [
         icon: "icons/pwa/handshake.webp",
         url: "https://app.joinhandshake.com",
         manifestUrl: "https://handshake-production-cdn.joinhandshake.com/site.webmanifest",
-        manifestId: "https://app.joinhandshake.com"
+        manifestId: "https://handshake-production-cdn.joinhandshake.com/"
       },
       {
         name: "Wellfound",
@@ -8573,7 +8790,7 @@ export const categories = [
         icon: "icons/pwa/iguopin.webp",
         url: "https://www.iguopin.com",
         manifestUrl: "https://www.iguopin.com/manifest.json",
-        manifestId: "https://www.iguopin.com"
+        manifestId: "https://www.iguopin.com/"
       },
       {
         name: "Remote In Tech",
@@ -8709,14 +8926,16 @@ export const categories = [
         nameKey: "cloudprice_name",
         descriptionKey: "cloudprice_desc",
         icon: "icons/pwa/cloudprice.webp",
-        url: "https://cloudprice.net"
+        url: "https://cloudprice.net",
+        manifestUrl: "https://cloudprice.net/manifest.json"
       },
       {
         name: "PikPak",
         nameKey: "pikpak_name",
         descriptionKey: "pikpak_desc",
         icon: "icons/pwa/pikpak.webp",
-        url: "https://mypikpak.com"
+        url: "https://mypikpak.com",
+        manifestUrl: "https://mypikpak.com/manifest.json"
       },
       {
         name: "AWS",
@@ -8843,7 +9062,7 @@ export const categories = [
         icon: "icons/pwa/adactio.webp",
         url: "https://adactio.com",
         manifestUrl: "https://adactio.com/manifest.json",
-        manifestId: "https://adactio.com"
+        manifestId: "https://adactio.com/"
       },
       {
         name: "Medium",
@@ -8865,8 +9084,7 @@ export const categories = [
         nameKey: "kangwenchang_name",
         descriptionKey: "kangwenchang_desc",
         icon: "icons/pwa/kangwenchang.webp",
-        url: "https://kangwenchang.com",
-        manifestUrl: "https://kangwenchang.com/manifest.json"
+        url: "https://kangwenchang.com"
       },
       {
         name: "Qualcomm",
@@ -8875,7 +9093,7 @@ export const categories = [
         icon: "icons/pwa/qualcomm.webp",
         url: "https://www.qualcomm.com",
         manifestUrl: "https://www.qualcomm.com/etc.clientlibs/qcomm-martech/clientlibs/clientlib-react/resources/manifest.json",
-        manifestId: "https://www.qualcomm.com"
+        manifestId: "https://www.qualcomm.com/content/qcomm-martech/$%7BlanguageCountry.split('_').get(1)%7D/$%7BlanguageCountry.split('_').get(0)%7D/home.html"
       },
       {
         name: "PWA Pilipinas",
@@ -8884,23 +9102,23 @@ export const categories = [
         icon: "icons/pwa/pwapilipinas.webp",
         url: "https://app.pwapilipinas.org",
         manifestUrl: "https://app.pwapilipinas.org/manifest.webmanifest",
-        manifestId: "https://app.pwapilipinas.org"
+        manifestId: "https://app.pwapilipinas.org/"
       },
       {
         name: "Rock",
         nameKey: "rockosdev_name",
         descriptionKey: "rockosdev_desc",
         icon: "icons/pwa/rockosdev.webp",
-        url: "https://rockosdev.github.io"
+        url: "https://rockosdev.github.io",
+        manifestUrl: "https://rockosdev.github.io/assets/img/favicons/site.webmanifest",
+        manifestId: "https://rockosdev.github.io/index.html"
       },
       {
         name: "Richard Dawkins",
         nameKey: "richarddawkins_name",
         descriptionKey: "richarddawkins_desc",
         icon: "icons/pwa/richarddawkins.webp",
-        url: "https://www.richarddawkins.com",
-        manifestUrl: "https://www.richarddawkins.com/public/images/favicon/site.webmanifest",
-        manifestId: "https://www.richarddawkins.com"
+        url: "https://www.richarddawkins.com"
       },
       {
         name: "Richard Dawkins Foundation",
@@ -8924,7 +9142,9 @@ export const categories = [
         nameKey: "bookreader2056_name",
         descriptionKey: "bookreader2056_desc",
         icon: "icons/pwa/2056bookreader.webp",
-        url: "https://2056bookreader.com"
+        url: "https://2056bookreader.com",
+        manifestUrl: "https://2056bookreader.com/site.webmanifest",
+        manifestId: "https://2056bookreader.com/"
       },
       {
         name: "PyDong",
@@ -8938,7 +9158,9 @@ export const categories = [
         nameKey: "mmgames_name",
         descriptionKey: "mmgames_desc",
         icon: "icons/pwa/mmgames.webp",
-        url: "https://9cguide.appspot.com"
+        url: "https://9cguide.appspot.com",
+        manifestUrl: "https://9cguide.appspot.com/manifest.json",
+        manifestId: "https://9cguide.appspot.com/top.html"
       },
       {
         name: "Herb Sutter",
@@ -9171,6 +9393,8 @@ export const categories = [
         url2: "../wrappers/mitchellh",
         apptype2: "wrapper",
         url: "https://mitchellh.com",
+        manifestUrl: "https://mitchellh.com/static/favicons/site.webmanifest",
+        manifestId: "https://mitchellh.com/static/favicons/",
         manifestUrl2: "../wrappers/mitchellh/manifest.json"
       },
       {
@@ -9448,9 +9672,7 @@ export const categories = [
         nameKey: "cia_name",
         icon: "icons/pwa/cia.webp",
         url: "https://www.cia.gov",
-        descriptionKey: "cia_desc",
-        manifestUrl: "https://www.cia.gov/manifest.webmanifest",
-        manifestId: "https://www.cia.gov"
+        descriptionKey: "cia_desc"
       },
       {
         name: "DOJ",
@@ -9498,9 +9720,7 @@ export const categories = [
         nameKey: "whitehouse_name",
         icon: "icons/wrappers/whitehouse.webp",
         url: "https://www.whitehouse.gov",
-        descriptionKey: "whitehouse_desc",
-        manifestUrl: "https://www.whitehouse.gov/wp-content/images/site.webmanifest",
-        manifestId: "https://www.whitehouse.gov"
+        descriptionKey: "whitehouse_desc"
       },
       {
         name: "analytics.usa.gov",
@@ -9694,7 +9914,9 @@ export const categories = [
         nameKey: "teethtalkgirl_name",
         descriptionKey: "teethtalkgirl_desc",
         icon: "icons/pwa/teethtalkgirl.webp",
-        url: "https://www.teethtalkgirl.com"
+        url: "https://www.teethtalkgirl.com",
+        manifestUrl: "https://www.teethtalkgirl.com/manifest.webmanifest",
+        manifestId: "https://www.teethtalkgirl.com/"
       },
       {
         name: "GE HealthCare Digital Expert",
@@ -9892,7 +10114,7 @@ export const categories = [
         icon: "icons/pwa/nba.webp",
         url: "https://www.nba.com",
         manifestUrl: "https://www.nba.com/site-manifest.json",
-        manifestId: "https://www.nba.com"
+        manifestId: "https://www.nba.com/"
       },
       {
         name: "Sporting News",
@@ -9936,8 +10158,8 @@ export const categories = [
         descriptionKey: "overleaf_desc",
         icon: "icons/pwa/overleaf.webp",
         url: "https://www.overleaf.com",
-        manifestUrl: "https://cdn.overleaf.com/web.sitemanifest",
-        manifestId: "https://www.overleaf.com"
+        manifestUrl: "https://www.overleaf.com/web.sitemanifest.json",
+        manifestId: "https://www.overleaf.com/"
       },
       {
         name: "Security and Privacy Conference Deadlines",
@@ -10046,9 +10268,7 @@ export const categories = [
         nameKey: "mit_name",
         descriptionKey: "mit_desc",
         icon: "icons/pwa/mit.webp",
-        url: "https://www.mit.edu",
-        manifestUrl: "https://www.mit.edu/themes/mit/assets/favicon/manifest.webmanifest",
-        manifestId: "https://www.mit.edu"
+        url: "https://www.mit.edu"
       },
       {
         name: "Yale University",
@@ -10057,14 +10277,15 @@ export const categories = [
         icon: "icons/pwa/yale.webp",
         url: "https://www.yale.edu",
         manifestUrl: "https://www.yale.edu/sites/all/themes/yale_blue/images/favicons/manifest.json",
-        manifestId: "https://www.yale.edu"
+        manifestId: "https://www.yale.edu/sites/all/themes/yale_blue/images/favicons/"
       },
       {
         name: "DanXi",
         nameKey: "danxi_name",
         descriptionKey: "danxi_desc",
         icon: "icons/pwa/danxi.webp",
-        url: "https://danxi.fduhole.com/DanXi"
+        url: "https://danxi.fduhole.com/DanXi",
+        manifestUrl: "https://danxi.fduhole.com/DanXi/manifest.json"
       },
       {
         name: "California Institute of Technology (Caltech)",
@@ -10368,17 +10589,15 @@ export const categories = [
         descriptionKey: "progressivewebappstore_desc",
         icon: "icons/pwa/progressivewebappstore.webp",
         url: "https://progressivewebapp.store",
-        manifestUrl: "https://progressivewebapp.store/assets/manifest-CFLMkuOX.json",
-        manifestId: "https://progressivewebapp.store"
+        manifestUrl: "https://pwastore.arnaudfavier.com/assets/manifest-CFLMkuOX.json",
+        manifestId: "https://pwastore.arnaudfavier.com/"
       },
       {
         name: "store.app",
         nameKey: "storeapp_name",
         descriptionKey: "storeapp_desc",
         icon: "icons/pwa/storeapp.webp",
-        url: "https://store.app",
-        manifestUrl: "https://store.app/manifest.webmanifest",
-        manifestId: "https://store.app"
+        url: "https://store.app"
       },
       {
         name: "PWA Marketplace",
@@ -10387,7 +10606,7 @@ export const categories = [
         icon: "icons/pwa/pwamarketplace.webp",
         url: "https://www.pwa.com",
         manifestUrl: "https://www.pwa.com/manifest.webmanifest",
-        manifestId: "https://www.pwa.com"
+        manifestId: "https://www.pwa.com/"
       },
       {
         name: "PWA Jisandi (PWA集散地)",
@@ -10396,7 +10615,7 @@ export const categories = [
         icon: "icons/pwa/pwappnet.webp",
         url: "https://www.pwapp.net",
         manifestUrl: "https://www.pwapp.net/manifest.json",
-        manifestId: "https://www.pwapp.net"
+        manifestId: "https://www.pwapp.net/"
       },
       {
         name: "PWAStore.io",
@@ -10404,7 +10623,7 @@ export const categories = [
         icon: "icons/pwa/pwastoreio.webp",
         url: "https://www.pwastore.io",
         descriptionKey: "pwastoreio_desc",
-        manifestUrl: "https://www.pwastore.io/manifest.json"
+        manifestUrl: "https://pwastore.io/manifest.json"
       },
     ]
   },
@@ -10455,20 +10674,25 @@ export const categories = [
         descriptionKey: "faovoapp_desc",
         icon: "icons/pwa/faovoapp.webp",
         url: "https://alexiii.github.io/faovo-app",
+        manifestUrl: "https://alexiii.github.io/faovo-app/manifest.json",
+        manifestId: "https://alexiii.github.io/faovo-app/"
       },
       {
         name: "Coffee Scale",
         nameKey: "coffe_scale_name",
         descriptionKey: "coffe_scale_desc",
         icon: "icons/pwa/coffe_scale.webp",
-        url: "https://puji4810.github.io/coffe-scale"
+        url: "https://puji4810.github.io/coffe-scale",
+        manifestUrl: "https://puji4810.github.io/coffe-scale/manifest.webmanifest",
+        manifestId: "https://puji4810.github.io/coffe-scale/"
       },
       {
         name: "E-Scooter PWA",
         nameKey: "escooter_pwa_name",
         descriptionKey: "escooter_pwa_desc",
         icon: "icons/pwa/escooter_pwa.webp",
-        url: "https://e-scooter-pwa.pages.dev"
+        url: "https://e-scooter-pwa.pages.dev",
+        manifestUrl: "https://e-scooter-pwa.pages.dev/manifest.json"
       },
       {
         name: "Tuya Smart (涂鸦智能)",
@@ -10483,7 +10707,9 @@ export const categories = [
         nameKey: "waterctl_name",
         descriptionKey: "waterctl_desc",
         icon: "icons/pwa/waterctl.webp",
-        url: "https://celeswuff.github.io/waterctl/"
+        url: "https://celeswuff.github.io/waterctl/",
+        manifestUrl: "https://celeswuff.github.io/waterctl/manifest.json",
+        manifestId: "https://celeswuff.github.io/waterctl/"
       },
     ]
   },
@@ -10528,9 +10754,7 @@ export const categories = [
         nameKey: "missavtv_name",
         descriptionKey: "missavtv_desc",
         icon: "icons/wrappers/missavtv.webp",
-        url: "https://missavtv.com/en",
-        manifestUrl: "https://missavtv.com/manifest.json",
-        manifestId: "https://missavtv.com/en"
+        url: "https://missavtv.com/en"
       },
       {
         name: "MissAV TV",
@@ -10540,8 +10764,6 @@ export const categories = [
         url2: "../wrappers/missavtv",
         url: "https://missavtv.com/en",
         apptype2: "wrapper",
-        manifestUrl: "https://missavtv.com/manifest.json",
-        manifestId: "https://missavtv.com/en",
         manifestUrl2: "../wrappers/missavtv/manifest.json"
       },
       {
@@ -10551,7 +10773,7 @@ export const categories = [
         icon: "icons/pwa/xnxx.webp",
         url: "https://www.xnxx.com",
         manifestUrl: "https://www.xnxx.com/manifest.json",
-        manifestId: "https://www.xnxx.com"
+        manifestId: "https://www.xnxx.com/"
       },
       {
         name: "OnlyFans",
@@ -10565,9 +10787,7 @@ export const categories = [
         nameKey: "theporndude_name",
         descriptionKey: "theporndude_desc",
         icon: "icons/pwa/theporndude.webp",
-        url: "https://theporndude.com",
-        manifestUrl: "https://theporndude.com/site.webmanifest",
-        manifestId: "https://theporndude.com"
+        url: "https://theporndude.com"
       },
       {
         name: "xHamster",
