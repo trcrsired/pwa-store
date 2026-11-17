@@ -6102,13 +6102,6 @@ export const categories = [
     nameKey: "religion_name",
     apps: [
       {
-        name: "Liturgia Diária",
-        nameKey: "liturgiadiaria_name",
-        descriptionKey: "liturgiadiaria_desc",
-        icon: "icons/pwa/liturgiadiaria.webp",
-        url: "https://liturgiadiaria.wasmer.app/"
-      },
-      {
       name: "Quran.com",
       nameKey: "qurancom_name",
       descriptionKey: "qurancom_desc",
@@ -6156,19 +6149,19 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.wanyouzhenyuan.cn"
       },
+      {
+        name: "Liturgia Diária",
+        nameKey: "liturgiadiaria_name",
+        descriptionKey: "liturgiadiaria_desc",
+        icon: "icons/pwa/liturgiadiaria.webp",
+        url: "https://liturgiadiaria.wasmer.app/"
+      },
     ]
   },
   {
     name: "Analytics",
     nameKey: "analytics_name",
     apps: [
-      {
-        name: "World Monitor",
-        nameKey: "worldmonitor_name",
-        descriptionKey: "worldmonitor_desc",
-        icon: "icons/pwa/worldmonitor.webp",
-        url: "https://www.worldmonitor.app"
-      },
       {
         name: "PWA Stats",
         nameKey: "pwastats_name",
@@ -6343,6 +6336,13 @@ export const categories = [
         apptype2: "wrapper",
         hide: true,
         url: "https://rosstat-leaks.com"
+      },
+      {
+        name: "World Monitor",
+        nameKey: "worldmonitor_name",
+        descriptionKey: "worldmonitor_desc",
+        icon: "icons/pwa/worldmonitor.webp",
+        url: "https://www.worldmonitor.app"
       },
     ]
   },
@@ -9653,13 +9653,6 @@ export const categories = [
     nameKey: "bluetoothdevices_name",
     apps : [
       {
-        name: "WaterCTL (蓝牙水控器 FOSS)",
-        nameKey: "waterctl_name",
-        descriptionKey: "waterctl_desc",
-        icon: "icons/pwa/waterctl.webp",
-        url: "https://celeswuff.github.io/waterctl/"
-      },
-      {
         name: "faovo-app",
         nameKey: "faovoapp_name",
         descriptionKey: "faovoapp_desc",
@@ -9687,6 +9680,13 @@ export const categories = [
         icon: "icons/wechatmini/tuyasmartwechatmini.webp",
         apptype: "wechatmini",
         url: "#小程序://涂鸦智能/rcxv5yfMGMx2zoG"
+      },
+      {
+        name: "WaterCTL (蓝牙水控器 FOSS)",
+        nameKey: "waterctl_name",
+        descriptionKey: "waterctl_desc",
+        icon: "icons/pwa/waterctl.webp",
+        url: "https://celeswuff.github.io/waterctl/"
       },
     ]
   },
