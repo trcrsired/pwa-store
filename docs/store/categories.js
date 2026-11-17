@@ -6102,6 +6102,13 @@ export const categories = [
     nameKey: "religion_name",
     apps: [
       {
+        name: "Liturgia Diária",
+        nameKey: "liturgiadiaria_name",
+        descriptionKey: "liturgiadiaria_desc",
+        icon: "icons/pwa/liturgiadiaria.webp",
+        url: "https://liturgiadiaria.wasmer.app/"
+      },
+      {
       name: "Quran.com",
       nameKey: "qurancom_name",
       descriptionKey: "qurancom_desc",
@@ -9645,6 +9652,13 @@ export const categories = [
     name: "Bluetooth Devices",
     nameKey: "bluetoothdevices_name",
     apps : [
+      {
+        name: "WaterCTL (蓝牙水控器 FOSS)",
+        nameKey: "waterctl_name",
+        descriptionKey: "waterctl_desc",
+        icon: "icons/pwa/waterctl.webp",
+        url: "https://celeswuff.github.io/waterctl/"
+      },
       {
         name: "faovo-app",
         nameKey: "faovoapp_name",
