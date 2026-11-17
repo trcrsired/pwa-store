@@ -1280,6 +1280,8 @@ const L = {
   geopoliticaleconomy_desc: "打开 Geopolitical Economy Report，一个关注全球政治、经济与国际关系分析的网站。",
   worldaffairsincontext_name: "World Affairs in Context",
   worldaffairsincontext_desc: "打开 World Affairs in Context，一个提供全球政治、国际关系与世界事件分析的网站。",
+  worldmonitor_name: "世界监控 (World Monitor)",
+  worldmonitor_desc: "实时全球情报平台：冲突、市场、军事与开源情报 (OSINT) 信号，覆盖 190 多个国家；并为 196 个国家中的 169 个提供结构性韧性排名。",
   democracyatwork_name: "Democracy at Work",
   democracyatwork_desc: "打开 Democracy at Work，一个倡导工人合作社、经济民主与替代经济分析的组织。",
   propublica_name: "ProPublica",

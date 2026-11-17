@@ -1286,6 +1286,8 @@ const L = {
   geopoliticaleconomy_desc: "Opens Geopolitical Economy Report, an analysis site covering global politics, economics, and international relations.",
   worldaffairsincontext_name: "World Affairs in Context",
   worldaffairsincontext_desc: "Opens World Affairs in Context, a site offering analysis and commentary on global politics, international relations, and world events.",
+  worldmonitor_name: "World Monitor",
+  worldmonitor_desc: "Real-time global intelligence: conflicts, markets, military, OSINT signals — live in 190+ countries; structural resilience ranked for 169 of 196 countries.",
   democracyatwork_name: "Democracy at Work",
   democracyatwork_desc: "Opens Democracy at Work, an organization promoting worker cooperatives, economic democracy, and alternative economic analysis.",
   propublica_name: "ProPublica",

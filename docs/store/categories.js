@@ -4551,6 +4551,13 @@ export const categories = [
         url: "https://www.worldaffairsincontext.com"
       },
       {
+        name: "World Monitor",
+        nameKey: "worldmonitor_name",
+        descriptionKey: "worldmonitor_desc",
+        icon: "icons/pwa/worldmonitor.webp",
+        url: "https://www.worldmonitor.app"
+      },
+      {
         name: "Democracy at Work",
         nameKey: "democracyatwork_name",
         descriptionKey: "democracyatwork_desc",
