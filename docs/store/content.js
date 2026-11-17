@@ -86,15 +86,34 @@ function sanitize_install_url(url) {
   }
 }
 
-async function install_url(targetUrl)
+// A manifestId is a computed, absolute URL, but it does not go through the
+// trailing-slash rules of an install target: resolve relative ids as-is.
+function resolve_install_id(url) {
+  if (!url) return '';
+  try { return new URL(url, window.location.href).toString(); } catch { return url; }
+}
+
+async function install_url(button)
 {
   if (typeof navigator.install !== 'function') return;
-  let sanitizedUrl="";
+  // The current Web Install API proposal installs from a manifest URL, using
+  // navigator.install({ manifest, manifestId }) instead of a document URL.
+  // The engine provides data-manifest (and data-manifest-id for manifests that
+  // do not declare an id); fall back to the legacy install target when absent.
+  const targetUrl = button.dataset.install;
+  const manifest = button.dataset.manifest || targetUrl;
+  const manifestId = button.dataset.manifestId;
+  let sanitizedUrl = "";
   try {
-    sanitizedUrl = sanitize_install_url(targetUrl);
-    await navigator.install(sanitizedUrl);
+    sanitizedUrl = sanitize_install_url(manifest);
+    const options = { manifest: sanitizedUrl };
+    if (manifestId) options.manifestId = resolve_install_id(manifestId);
+    await navigator.install(options);
   } catch (err) {
-    alert( `${L('installfailed_desc')}${err}\n${sanitizedUrl}\n${L('tryinstallmanually_desc')}`);
+    if (err && err.name === 'AbortError') return; // the user backed out
+    const name = err && err.name ? `${err.name}: ` : '';
+    const message = err && err.message ? err.message : String(err);
+    alert(`${L('installfailed_desc')} ${name}${message}\n${sanitizedUrl}\n${L('tryinstallmanually_desc')}`);
   }
 }
 
@@ -373,7 +392,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const installButton = event.target.closest('[data-install]');
     if (installButton) {
       event.preventDefault();
-      install_url(installButton.dataset.install);
+      install_url(installButton);
       return;
     }
     const copyButton = event.target.closest('[data-copy]');

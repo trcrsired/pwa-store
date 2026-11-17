@@ -51,11 +51,11 @@ function pushLocale() {
 const failures = [];
 const check = (ok, what) => { console.log(`${ok ? 'ok  ' : 'FAIL'} ${what}`); if (!ok) failures.push(what); };
 
-function render(query, page, pageSize, flags = 7, nsfw = false) {
+function render(query, page, pageSize, flags = 7, nsfw = false, install = 0) {
 	const bytes = encoder.encode(query);
 	if (bytes.length > e.pwa_store_query_capacity()) throw new Error('query too long');
 	memory.set(bytes, e.pwa_store_query_ptr());
-	const packed = e.pwa_store_render(bytes.length, page, pageSize, flags, nsfw ? 1 : 0, 0);
+	const packed = e.pwa_store_render(bytes.length, page, pageSize, flags, nsfw ? 1 : 0, install);
 	if (packed === 0n) throw new Error('render returned nothing');
 	return {
 		html: view(packed),
@@ -84,6 +84,13 @@ check((first.legend.match(/category-badge clickable/g) || []).length > 5, 'legen
 check(/Fundamental/.test(first.html) || /My own toy/.test(first.html), 'localised names are in the markup');
 check(!/_[a-z]+_desc/.test(first.html), 'no untranslated _desc key leaked into the markup');
 check(/<button class="install-button" data-copy="/.test(first.html) || true, 'copy buttons use data-copy');
+
+const installPage = render('', 1, 6, 7, false, 1);
+check(/data-install="/.test(installPage.html), 'install buttons keep the legacy target in data-install');
+check(/data-manifest="https:\/\//.test(installPage.html), 'install buttons carry a manifest URL');
+check(/data-manifest-id="https:\/\//.test(installPage.html), 'manifests without an id carry a computed manifestId');
+check(!/data-manifest=""|data-manifest-id=""/.test(installPage.html), 'no empty manifest attributes are emitted');
+check(!/<button class="install-button" data-install="/.test(first.html), 'no install buttons when install is disabled');
 
 const middle = render('', 2, 6);
 check(middle.page === 2, 'page 2');

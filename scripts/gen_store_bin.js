@@ -28,9 +28,9 @@
 //    12  u8   flags (1 = nsfw), u8 reserved, u16 reserved
 //    16  u32  first_app_index
 //    20  u32  app_count
-//   app_count x app record, 64 bytes (10 x 6 + 4 of flags)
+//   app_count x app record, 88 bytes (14 x 6 + 4 of flags)
 //     0  (u32 offset, u16 length) x FIELDS.length   - see APP_FIELDS
-//     60 u32  flags (1 = nsfw, 2 = hide)
+//     84 u32  flags (1 = nsfw, 2 = hide)
 //
 // The engine indexes the string blob directly, so every string is a
 // (offset, length) pair into one contiguous buffer and no pointer is ever
@@ -46,13 +46,14 @@ const OUT = path.join(ROOT, 'docs/store/store.bin');
 
 // Field order is the record layout; the engine has the same list.
 const APP_FIELDS = ['name', 'nameKey', 'icon', 'url', 'descriptionKey', 'url2',
-	'apptype', 'apptype2', 'urlDisplay', 'urlDisplay2'];
+	'apptype', 'apptype2', 'urlDisplay', 'urlDisplay2',
+	'manifestUrl', 'manifestId', 'manifestUrl2', 'manifestId2'];
 
 const CAT_SIZE = 24;
 const APP_SIZE = APP_FIELDS.length * 6 + 4;
 const HEADER_SIZE = 32;
 const MAGIC = 'PWST';
-const VERSION = 1;
+const VERSION = 2;
 
 function loadCategories() {
 	let src = fs.readFileSync(SRC, 'utf8');

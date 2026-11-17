@@ -27,10 +27,10 @@ namespace
  * writer and which verifies a round trip against categories.js. */
 inline constexpr ::std::size_t header_size{32};
 inline constexpr ::std::size_t category_size{24};
-inline constexpr ::std::size_t app_field_count{10};
+inline constexpr ::std::size_t app_field_count{14};
 /* one (u32 offset, u16 length) pair per field, then a u32 of flags */
 inline constexpr ::std::size_t app_size{app_field_count * 6 + 4};
-inline constexpr ::std::uint_least16_t format_version{1};
+inline constexpr ::std::uint_least16_t format_version{2};
 
 inline constexpr ::std::size_t bin_capacity{1u << 21};  /* 2 MiB, catalogue is 210 KB */
 inline constexpr ::std::size_t max_apps{8192};
@@ -47,6 +47,12 @@ inline constexpr ::std::size_t field_apptype{6};
 inline constexpr ::std::size_t field_apptype2{7};
 inline constexpr ::std::size_t field_url_display{8};
 inline constexpr ::std::size_t field_url_display2{9};
+/* Web Install API data: manifest URL plus the computed id when the manifest
+ * has no `id` of its own. The *2 variants belong to the second app type. */
+inline constexpr ::std::size_t field_manifest_url{10};
+inline constexpr ::std::size_t field_manifest_id{11};
+inline constexpr ::std::size_t field_manifest_url2{12};
+inline constexpr ::std::size_t field_manifest_id2{13};
 
 /* Fields a text query is matched against: the two display strings and the URL.
  * Icon paths and the *2 variants are not what a user types. */
@@ -791,7 +797,8 @@ void emit_card(sink &out, ::std::size_t index, bool install_enabled) noexcept
 	::fast_io::u8string_view const target2{apptype2.is_empty() ? ::fast_io::u8string_view{}
 															   : emit_links(apptype2, url2, url_display2)};
 
-	auto emit_button = [&](::fast_io::u8string_view type, ::fast_io::u8string_view target) {
+	auto emit_button = [&](::fast_io::u8string_view type, ::fast_io::u8string_view target,
+						   ::fast_io::u8string_view manifest, ::fast_io::u8string_view manifest_id) {
 		bool const is_wechat_mini{equals_folded(type, lit(u8"wechatmini"))};
 		::fast_io::u8string_view const wechat_target{
 			equals_folded(type, lit(u8"wechat"))
@@ -827,17 +834,33 @@ void emit_card(sink &out, ::std::size_t index, bool install_enabled) noexcept
 		}
 		out.append(lit(u8"<button class=\"install-button\" data-install=\""));
 		out.append_escaped(target);
-		out.append(lit(u8"\">"));
+		out.append(lit(u8"\""));
+		/* The Web Install API installs from a manifest URL. Callers may omit
+		 * manifestId only when the manifest itself declares an id, so the id is
+		 * stored only for the manifests that need it. */
+		if (!manifest.is_empty())
+		{
+			out.append(lit(u8" data-manifest=\""));
+			out.append_escaped(manifest);
+			out.append(lit(u8"\""));
+		}
+		if (!manifest_id.is_empty())
+		{
+			out.append(lit(u8" data-manifest-id=\""));
+			out.append_escaped(manifest_id);
+			out.append(lit(u8"\""));
+		}
+		out.append(lit(u8">"));
 		out.append_escaped(equals_folded(type, lit(u8"wrapper")) ? translate(lit(u8"install_wrapper_desc"))
 																 : translate(lit(u8"install_desc")));
 		out.append(lit(u8"</button>"));
 	};
 
 	out.append(lit(u8"<div class=\"card-actions\">"));
-	emit_button(apptype, url);
+	emit_button(apptype, url, app_field(index, field_manifest_url), app_field(index, field_manifest_id));
 	if (!apptype2.is_empty())
 	{
-		emit_button(apptype2, url2);
+		emit_button(apptype2, url2, app_field(index, field_manifest_url2), app_field(index, field_manifest_id2));
 	}
 	out.append(lit(u8"</div>"));
 

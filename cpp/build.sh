@@ -8,11 +8,12 @@ set -e
 : "${FAST_IO:=/home/cqwrteur/libraries/fast_io}"
 : "${CFG:=$HOME/cfgs/wasm32-wasip1-noeh-nomtg.cfg}"
 
-clang++ --config "$CFG" -O2 -flto=thin \
+# The config sets -fno-exceptions (standard C++ exceptions stay off);
+# -fherbceptions/-lherbceptions are a separate feature and are enabled here.
+clang++ --config "$CFG" -fherbceptions -lherbceptions -s -fno-ident -O3 -flto=thin \
 	-I "$FAST_IO/include" \
 	-nostdlib \
 	-Wl,--no-entry \
-	-Wl,--strip-all \
 	-Wl,--export=pwa_store_bin_ptr \
 	-Wl,--export=pwa_store_bin_capacity \
 	-Wl,--export=pwa_store_load \

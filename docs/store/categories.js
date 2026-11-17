@@ -3,15 +3,17 @@ export const categories = [
     nameKey: "fundamental_name",
     name: "Fundamental",
     apps: [
-      { nameKey: "pwaplayer_name", name: "PWA Player (My own toy)", icon: "icons/pwa/pwaplayer.svg", url: "https://pwa-player.pages.dev", descriptionKey: "pwaplayer_desc" },
+      { nameKey: "pwaplayer_name", name: "PWA Player (My own toy)", icon: "icons/pwa/pwaplayer.svg", url: "https://pwa-player.pages.dev", descriptionKey: "pwaplayer_desc", manifestUrl: "https://pwa-player.pages.dev/manifest.json" },
       { nameKey: "pwaplayer_githubpagesmirror_name", name: "PWA Player (Github Pages Mirror)", icon: "icons/pwa/pwaplayer.svg", url: "https://trcrsired.github.io/pwa-player", descriptionKey: "pwaplayer_githubpagesmirror_desc" },
-      { name: "SnaePlayer", icon: "icons/pwa/snaeplayer.svg", url: "https://snaeplayer.com/library/tracks", descriptionKey: "snaeplayer_desc" },
+      { name: "SnaePlayer", icon: "icons/pwa/snaeplayer.svg", url: "https://snaeplayer.com/library/tracks", descriptionKey: "snaeplayer_desc", manifestUrl: "https://snaeplayer.com/manifest.webmanifest", manifestId: "https://snaeplayer.com/library/tracks" },
       {
         name: "Readest",
         nameKey: "readest_name",
         descriptionKey: "readest_desc",
         icon: "icons/pwa/readest.webp",
-        url: "https://web.readest.com"
+        url: "https://web.readest.com",
+        manifestUrl: "https://web.readest.com/manifest.json",
+        manifestId: "https://web.readest.com"
       },
       {
         name: "Calculite",
@@ -20,7 +22,7 @@ export const categories = [
         icon: "icons/pwa/calculite.webp",
         url: "https://calculite.ingstudios.dev"
       },
-      { name: "Screen Flashlight", icon: "icons/pwa/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", descriptionKey: "screenflashlight_desc" },
+      { name: "Screen Flashlight", icon: "icons/pwa/screenflashlightweb.webp", url: "https://trcrsired.github.io/ScreenFlashlightWeb", descriptionKey: "screenflashlight_desc", manifestUrl: "https://trcrsired.github.io/manifest.json", manifestId: "https://trcrsired.github.io/ScreenFlashlightWeb" },
       { name: "PWA Store", nameKey: "pwastore_name", icon: "logo/logo.webp", url: "https://pwa-store-7x5.pages.dev", descriptionKey: "pwastore_desc" },
       { name: "PWA Store (GitHub Pages Mirror)", nameKey: "pwastore_githubpagesmirror_name", icon: "logo/logo.webp", url: "https://trcrsired.github.io/pwa-store", descriptionKey: "pwastore_githubpagesmirror_desc" },
       { name: "Wavacity", nameKey: "wavacity_name", icon: "icons/pwa/wavacity.webp", url: "https://wavacity.com", descriptionKey: "wavacity_desc" },
@@ -36,7 +38,9 @@ export const categories = [
         nameKey: "squoosh_name",
         descriptionKey: "squoosh_desc",
         icon: "icons/pwa/squoosh.webp",
-        url: "https://squoosh.app"
+        url: "https://squoosh.app",
+        manifestUrl: "https://squoosh.app/manifest.json",
+        manifestId: "https://squoosh.app"
       },
       {
         name: "ffmpeg.wasm",
@@ -50,14 +54,17 @@ export const categories = [
         nameKey: "jspaint_name",
         descriptionKey: "jspaint_desc",
         icon: "icons/pwa/jspaint.webp",
-        url: "https://jspaint.app"
+        url: "https://jspaint.app",
+        manifestUrl: "https://jspaint.app/manifest.webmanifest",
+        manifestId: "https://jspaint.app"
       },
       {
         name: "WasmPass",
         nameKey: "wasmpass_name",
         descriptionKey: "wasmpass_desc",
         icon: "icons/pwa/wasmpass.webp",
-        url: "https://wasmpass.pages.dev"
+        url: "https://wasmpass.pages.dev",
+        manifestUrl: "https://wasmpass.pages.dev/manifest.webmanifest"
       },
       {
         name: "Authenticator",
@@ -71,7 +78,9 @@ export const categories = [
         nameKey: "onlinecompass_name",
         descriptionKey: "onlinecompass_desc",
         icon: "icons/pwa/onlinecompass.webp",
-        url: "https://onlinecompass.app"
+        url: "https://onlinecompass.app",
+        manifestUrl: "https://onlinecompass.app/manifest.json",
+        manifestId: "https://onlinecompass.app"
       },
       {
         name: "Media Analyzer & Audio Extractor",
@@ -168,17 +177,21 @@ export const categories = [
         nameKey: "qrcodetools_name",
         descriptionKey: "qrcodetools_desc",
         icon: "icons/pwa/qrcodetools.webp",
-        url: "https://qrct.buhzzi.com"
+        url: "https://qrct.buhzzi.com",
+        manifestUrl: "https://qrct.buhzzi.com/manifest.json",
+        manifestId: "https://qrct.buhzzi.com"
       },
-      { name: "WebVideoPlayer", icon: "icons/pwa/webvideoplayer.webp", url: "https://webvideoplayer.org", descriptionKey: "webvideoplayer_desc" },
+      { name: "WebVideoPlayer", icon: "icons/pwa/webvideoplayer.webp", url: "https://webvideoplayer.org", descriptionKey: "webvideoplayer_desc", manifestUrl: "https://webvideoplayer.org/manifest.json", manifestId: "https://webvideoplayer.org" },
       { name: "Flow", icon: "icons/pwa/flow.webp", url: "https://www.flowoss.com", descriptionKey: "flow_desc" },
-      { name: "TReader", icon: "icons/pwa/treader.webp", url: "https://tiansh.github.io/reader", descriptionKey: "treader_desc" },
+      { name: "TReader", icon: "icons/pwa/treader.webp", url: "https://tiansh.github.io/reader", descriptionKey: "treader_desc", manifestUrl: "https://tiansh.github.io/manifest.webmanifest", manifestId: "https://tiansh.github.io/reader" },
       {
         name: "Notepad",
         nameKey: "notepadpwa_name",
         descriptionKey: "notepadpwa_desc",
         icon: "icons/pwa/notepadpwa.webp",
-        url: "https://notepad-pwa.vercel.app"
+        url: "https://notepad-pwa.vercel.app",
+        manifestUrl: "https://notepad-pwa.vercel.app/manifest.json",
+        manifestId: "https://notepad-pwa.vercel.app"
       },
       {
         name: "Notepad.js",
@@ -192,9 +205,11 @@ export const categories = [
         nameKey: "paintjs_name",
         descriptionKey: "paintjs_desc",
         icon: "icons/pwa/paintjs.webp",
-        url: "https://paint.js.org"
+        url: "https://paint.js.org",
+        manifestUrl: "https://paint.js.org/manifest.webmanifest",
+        manifestId: "https://paint.js.org"
       },
-      { name: "Calculator", nameKey: "calculator_name", icon: "icons/pwa/calculator.webp", url: "https://chrisdiana.github.io/pwa-calculator", descriptionKey: "calculator_desc" },
+      { name: "Calculator", nameKey: "calculator_name", icon: "icons/pwa/calculator.webp", url: "https://chrisdiana.github.io/pwa-calculator", descriptionKey: "calculator_desc", manifestUrl: "https://chrisdiana.github.io/manifest.json", manifestId: "https://chrisdiana.github.io/pwa-calculator" },
       { name: "Calculator (Chrome)", nameKey: "calculatorchrome_name", icon: "icons/pwa/calculatorchrome.webp", url: "https://calculator.apps.chrome/install", descriptionKey: "calculatorchrome_desc", nameKey: "calculatorchrome_name" },
       {
         name: "Battery Status",
@@ -215,7 +230,8 @@ export const categories = [
         nameKey: "woobx_name",
         descriptionKey: "woobx_desc",
         icon: "icons/pwa/woobx.webp",
-        url: "https://ol.woobx.cn"
+        url: "https://ol.woobx.cn",
+        manifestUrl: "https://ol.woobx.cn/manifest.json"
       },
       {
         name: "OpenStreetMap",
@@ -273,7 +289,8 @@ export const categories = [
         icon: "icons/wrappers/base64guru.webp",
         url2: "../wrappers/base64guru",
         url: "https://base64.guru",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/base64guru/manifest.json"
       },
       {
         name: "GBMB",
@@ -282,7 +299,8 @@ export const categories = [
         icon: "icons/wrappers/gbmb.webp",
         url2: "../wrappers/gbmb",
         apptype2: "wrapper",
-        url: "https://www.gbmb.org"
+        url: "https://www.gbmb.org",
+        manifestUrl2: "../wrappers/gbmb/manifest.json"
       },
       {
         name: "Palform",
@@ -291,7 +309,8 @@ export const categories = [
         icon: "icons/wrappers/palform.webp",
         url2: "../wrappers/palform",
         apptype2: "wrapper",
-        url: "https://palform.app"
+        url: "https://palform.app",
+        manifestUrl2: "../wrappers/palform/manifest.json"
       },
       {
         name: "CloudConvert",
@@ -300,7 +319,8 @@ export const categories = [
         icon: "icons/wrappers/cloudconvert.webp",
         url2: "../wrappers/cloudconvert",
         apptype2: "wrapper",
-        url: "https://cloudconvert.com"
+        url: "https://cloudconvert.com",
+        manifestUrl2: "../wrappers/cloudconvert/manifest.json"
       },
       {
         name: "RealFaviconGenerator",
@@ -309,7 +329,8 @@ export const categories = [
         icon: "icons/msedge/realfavicongenerator.webp",
         url2: "../msedge/realfavicongenerator",
         apptype2: "wrapper",
-        url: "https://realfavicongenerator.net"
+        url: "https://realfavicongenerator.net",
+        manifestUrl2: "../msedge/realfavicongenerator/manifest.json"
       },
       {
         name: "iLoveSVG",
@@ -318,7 +339,8 @@ export const categories = [
         icon: "icons/wrappers/ilovesvg.webp",
         url2: "../wrappers/ilovesvg",
         apptype2: "wrapper",
-        url: "https://www.ilovesvg.com"
+        url: "https://www.ilovesvg.com",
+        manifestUrl2: "../wrappers/ilovesvg/manifest.json"
       },
       {
         name: "Tunelet",
@@ -373,6 +395,7 @@ export const categories = [
         apptype_hide: "msedge",
         url2: "../msedge/weatherclimate",
         apptype2: "wrapper",
+        manifestUrl2: "../msedge/weatherclimate/manifest.json"
       },
       {
         name: "Zoom Earth",
@@ -381,7 +404,8 @@ export const categories = [
         icon: "icons/wrappers/zoomearth.webp",
         url2: "../wrappers/zoomearth",
         apptype2: "wrapper",
-        url: "https://zoom.earth"
+        url: "https://zoom.earth",
+        manifestUrl2: "../wrappers/zoomearth/manifest.json"
       },
     ]
   },
@@ -416,26 +440,26 @@ export const categories = [
     nameKey: "chabots_name",
     name: "Chatbots",
     apps: [
-      { name: "Microsoft Copilot", icon: "icons/msedge/copilot.webp", url: "https://copilot.microsoft.com", descriptionKey: "copilot_desc", apptype2: "wrapper", url2: "../msedge/copilot", "hide": true },
-      { name: "ChatGPT", icon: "icons/pwa/chatgpt.webp", url: "https://chat.openai.com", descriptionKey: "chatgpt_desc", apptype2: "wrapper", url2: "../wrappers/chatgpt" },
+      { name: "Microsoft Copilot", icon: "icons/msedge/copilot.webp", url: "https://copilot.microsoft.com", descriptionKey: "copilot_desc", apptype2: "wrapper", url2: "../msedge/copilot", "hide": true, manifestUrl2: "../msedge/copilot/manifest.json" },
+      { name: "ChatGPT", icon: "icons/pwa/chatgpt.webp", url: "https://chat.openai.com", descriptionKey: "chatgpt_desc", apptype2: "wrapper", url2: "../wrappers/chatgpt", manifestUrl2: "../wrappers/chatgpt/manifest.json" },
       { name: "Grok", icon: "icons/pwa/grok.webp", url: "https://grok.com", descriptionKey: "grok_desc"},
       { name: "Meta AI", icon: "icons/pwa/metaai.webp", url: "https://www.meta.ai", descriptionKey: "metaai_desc" }, 
       { name: "Cursor", icon: "icons/pwa/cursor.webp", url: "https://cursor.com/agents", descriptionKey: "cursor_desc" },
-      { name: "Google Gemini", icon: "icons/pwa/gemini.webp", url: "https://gemini.google.com", descriptionKey: "gemini_desc", apptype2: "wrapper", url2: "../wrappers/gemini" },
+      { name: "Google Gemini", icon: "icons/pwa/gemini.webp", url: "https://gemini.google.com", descriptionKey: "gemini_desc", apptype2: "wrapper", url2: "../wrappers/gemini", manifestUrl2: "../wrappers/gemini/manifest.json" },
       { name: "Claude", icon: "icons/pwa/claude.webp", url: "https://claude.ai", descriptionKey: "claude_desc" },
       { name: "Manus", icon: "icons/pwa/manus.webp", url: "https://manus.im", descriptionKey: "manus_desc" },
-      { name: "LeChat", icon: "icons/pwa/lechat.webp", url: "https://lechat.chat/chat", nameKey: "lechat_name", descriptionKey: "lechat_desc" },
-      { name: "Qwen", icon: "icons/pwa/qwen.webp", url: "https://chat.qwen.ai", descriptionKey: "qwen_desc" },
+      { name: "LeChat", icon: "icons/pwa/lechat.webp", url: "https://lechat.chat/chat", nameKey: "lechat_name", descriptionKey: "lechat_desc", manifestUrl: "https://lechat.chat/assets/images/favicon/site.webmanifest", manifestId: "https://lechat.chat/chat" },
+      { name: "Qwen", icon: "icons/pwa/qwen.webp", url: "https://chat.qwen.ai", descriptionKey: "qwen_desc", manifestUrl: "https://assets.alicdn.com/g/qwenweb/qwen-chat-fe/0.1.13/manifest.json", manifestId: "https://chat.qwen.ai" },
       { name: "Gauth", icon: "icons/pwa/gauthmath.webp", url: "https://www.gauthmath.com", descriptionKey: "gauth_desc"},
       { name: "DeepSeek", icon: "icons/pwa/deepseek.webp", url: "https://deepseek.com", descriptionKey: "deepseek_desc" },
       { name: "Kimi", icon: "icons/pwa/kimi.webp", url: "https://www.kimi.com", descriptionKey: "kimi_desc" },
       { name: "Kimi+", icon: "icons/pwa/kimi.webp", url: "https://www.kimi.com/kimiplus-square", descriptionKey: "kimiplus_desc" },
-      { name: "Z.ai", icon: "icons/pwa/z_ai.webp", url: "https://chat.z.ai", nameKey: "z_ai_name", descriptionKey: "z_ai_desc" },
+      { name: "Z.ai", icon: "icons/pwa/z_ai.webp", url: "https://chat.z.ai", nameKey: "z_ai_name", descriptionKey: "z_ai_desc", manifestUrl: "https://z-cdn.chatglm.cn/z-ai/frontend/static/manifest.json", manifestId: "https://chat.z.ai" },
       { name: "longcat", icon: "icons/pwa/longcat.webp", url: "https://longcat.chat", nameKey: "longcat_name", descriptionKey: "longcat_desc" },
       {
         name: "WolframAlpha", nameKey: "wolframalpha_name", icon: "icons/pwa/wolframalpha.webp", url: "https://www.wolframalpha.com", descriptionKey: "wolframalpha_desc"
       },
-      { name: "Arena AI", icon: "icons/wrappers/arenaai.webp", url: "https://arena.ai", nameKey: "arenaai_name", descriptionKey: "arenaai_desc", apptype2: "wrapper", url2: "../wrappers/arenaai" },
+      { name: "Arena AI", icon: "icons/wrappers/arenaai.webp", url: "https://arena.ai", nameKey: "arenaai_name", descriptionKey: "arenaai_desc", apptype2: "wrapper", url2: "../wrappers/arenaai", manifestUrl2: "../wrappers/arenaai/manifest.json" },
       {
         name: "OpenRouter",
         nameKey: "openrouter_name",
@@ -443,8 +467,8 @@ export const categories = [
         icon: "icons/pwa/openrouter.webp",
         url: "https://openrouter.ai"
       },
-      { name: "Perplexity", icon: "icons/wrappers/perplexity.webp", url2: "../wrappers/perplexity", urlDisplay:"https://www.perplexity.ai", descriptionKey: "perplexity_desc", apptype2: "wrapper" },
-      { name: "G2 AI", nameKey: "g2ai_name", icon: "icons/wrappers/g2ai.webp", url2: "../wrappers/g2ai", url: "https://ai.g2.com", descriptionKey: "g2ai_desc", apptype2: "wrapper" },
+      { name: "Perplexity", icon: "icons/wrappers/perplexity.webp", url2: "../wrappers/perplexity", urlDisplay:"https://www.perplexity.ai", descriptionKey: "perplexity_desc", apptype2: "wrapper", manifestUrl2: "../wrappers/perplexity/manifest.json" },
+      { name: "G2 AI", nameKey: "g2ai_name", icon: "icons/wrappers/g2ai.webp", url2: "../wrappers/g2ai", url: "https://ai.g2.com", descriptionKey: "g2ai_desc", apptype2: "wrapper", manifestUrl2: "../wrappers/g2ai/manifest.json" },
       {
         name: "Andi",
         nameKey: "andi_name",
@@ -480,7 +504,8 @@ export const categories = [
         icon: "icons/msedge/duckai.webp",
         url2: "../msedge/duckai",
         apptype2: "wrapper",
-        url: "https://duck.ai"
+        url: "https://duck.ai",
+        manifestUrl2: "../msedge/duckai/manifest.json"
       },
       {
         name: "Komo AI",
@@ -491,9 +516,10 @@ export const categories = [
         url: "https://komo.ai",
         apptype2: "wrapper",
         url2: "../msedge/komoai",
+        manifestUrl2: "../msedge/komoai/manifest.json"
       },
-      { name: "Tencent Yuanbao (腾讯元宝)", nameKey: "tencentyuanbao_name", descriptionKey: "tencentyuanbao_desc", apptype2: "wrapper", icon: "icons/wrappers/tencentyuanbao.webp", url2: "../wrappers/tencentyuanbao", url: "https://yuanbao.tencent.com/chat" },
-      { name: "Doubao (豆包)", nameKey: "doubao_name", descriptionKey: "doubao_desc", apptype2: "wrapper", icon: "icons/wrappers/doubao.webp", url2: "../wrappers/doubao", url: "https://www.doubao.com/chat" },
+      { name: "Tencent Yuanbao (腾讯元宝)", nameKey: "tencentyuanbao_name", descriptionKey: "tencentyuanbao_desc", apptype2: "wrapper", icon: "icons/wrappers/tencentyuanbao.webp", url2: "../wrappers/tencentyuanbao", url: "https://yuanbao.tencent.com/chat", manifestUrl2: "../wrappers/tencentyuanbao/manifest.json" },
+      { name: "Doubao (豆包)", nameKey: "doubao_name", descriptionKey: "doubao_desc", apptype2: "wrapper", icon: "icons/wrappers/doubao.webp", url2: "../wrappers/doubao", url: "https://www.doubao.com/chat", manifestUrl2: "../wrappers/doubao/manifest.json" },
       {
         name: "Alice (Алиса)",
         nameKey: "alice_name",
@@ -501,7 +527,8 @@ export const categories = [
         icon: "icons/wrappers/alice.webp",
         url: "https://alice.yandex.ru",
         apptype2: "wrapper",
-        url2: "../wrappers/alice"
+        url2: "../wrappers/alice",
+        manifestUrl2: "../wrappers/alice/manifest.json"
       },
       {
         name: "Wenxin (文心助手)",
@@ -510,7 +537,8 @@ export const categories = [
         icon: "icons/msedge/wenxin.webp",
         url2: "../msedge/wenxin",
         apptype2: "wrapper",
-        url: "https://chat.baidu.com"
+        url: "https://chat.baidu.com",
+        manifestUrl2: "../msedge/wenxin/manifest.json"
       },
       {
         name: "Antafu (蚂蚁阿福)",
@@ -519,7 +547,8 @@ export const categories = [
         icon: "icons/msedge/antafu.webp",
         url2: "../msedge/antafu",
         apptype2: "wrapper",
-        url: "https://chat.antafu.com/?source=https://pwa-store-7x5.pages.dev"
+        url: "https://chat.antafu.com/?source=https://pwa-store-7x5.pages.dev",
+        manifestUrl2: "../msedge/antafu/manifest.json"
       },
       {
         name: "Aizex",
@@ -528,7 +557,8 @@ export const categories = [
         icon: "icons/wrappers/aizex.webp",
         url2: "../wrappers/aizex",
         apptype2: "wrapper",
-        url: "https://aizex.net"
+        url: "https://aizex.net",
+        manifestUrl2: "../wrappers/aizex/manifest.json"
       },
     ]
   },
@@ -536,22 +566,26 @@ export const categories = [
     nameKey: "cybersecurity_name",
     name: "Cybersecurity",
     apps: [
-      { name: "ScamAdviser", icon: "icons/pwa/scamadviser.webp", url: "https://www.scamadviser.com", descriptionKey: "scamadviser_desc" },
-      { name: "Bitwarden", nameKey: "bitwarden_name", icon: "icons/pwa/bitwarden.webp", url: "https://bitwarden.com", descriptionKey: "bitwarden_desc" },
+      { name: "ScamAdviser", icon: "icons/pwa/scamadviser.webp", url: "https://www.scamadviser.com", descriptionKey: "scamadviser_desc", manifestUrl: "https://www.scamadviser.com/images/static/favicon/manifest.json" },
+      { name: "Bitwarden", nameKey: "bitwarden_name", icon: "icons/pwa/bitwarden.webp", url: "https://bitwarden.com", descriptionKey: "bitwarden_desc", manifestUrl: "https://bitwarden.com/manifest.webmanifest", manifestId: "https://bitwarden.com" },
       { name: "Privacy Guides Community", nameKey: "privacyguidescommunity_name", icon: "icons/pwa/privacyguidescommunity.webp", descriptionKey: "privacyguidescommunity_desc", url: "https://discuss.privacyguides.net" },
       {
         name: "Trustpilot",
         nameKey: "trustpilot_name",
         descriptionKey: "trustpilot_desc",
         icon: "icons/pwa/trustpilot.webp",
-        url: "https://www.trustpilot.com"
+        url: "https://www.trustpilot.com",
+        manifestUrl: "https://www.trustpilot.com/manifest.json",
+        manifestId: "https://www.trustpilot.com"
       },
       {
         name: "GenPass",
         nameKey: "genpass_name",
         descriptionKey: "genpass_desc",
         icon: "icons/pwa/genpass.webp",
-        url: "https://genpass.net"
+        url: "https://genpass.net",
+        manifestUrl: "https://genpass.net/manifest.json",
+        manifestId: "https://genpass.net"
       },
       {
         name: "Have I Been Pwned",
@@ -560,9 +594,10 @@ export const categories = [
         icon: "icons/msedge/hibp.webp",
         url2: "../msedge/hibp",
         apptype2: "wrapper",
-        url: "https://haveibeenpwned.com"
+        url: "https://haveibeenpwned.com",
+        manifestUrl2: "../msedge/hibp/manifest.json"
       },
-      { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url2: "../wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype2: "wrapper", url: "https://stack.watch" },
+      { name: "stack.watch", icon: "icons/wrappers/stackwatch.webp", url2: "../wrappers/stackwatch", descriptionKey: "stackwatch_desc", apptype2: "wrapper", url: "https://stack.watch", manifestUrl2: "../wrappers/stackwatch/manifest.json" },
       {
         name: "Digital Survival Challenge",
         nameKey: "digitalsurvival_name",
@@ -570,7 +605,8 @@ export const categories = [
         icon: "icons/wrappers/digitalsurvival.webp",
         url2: "../wrappers/digitalsurvival",
         apptype2: "wrapper",
-        url: "https://digital-survival-challenge-beta.vercel.app"
+        url: "https://digital-survival-challenge-beta.vercel.app",
+        manifestUrl2: "../wrappers/digitalsurvival/manifest.json"
       },
       {
         name: "PrivSec",
@@ -579,7 +615,8 @@ export const categories = [
         icon: "icons/wrappers/privsec.webp",
         url2: "../wrappers/privsec",
         apptype2: "wrapper",
-        url: "https://privsec.dev"
+        url: "https://privsec.dev",
+        manifestUrl2: "../wrappers/privsec/manifest.json"
       },
       {
         name: "CyberPress",
@@ -588,7 +625,8 @@ export const categories = [
         icon: "icons/msedge/cyberpress.webp",
         url2: "../msedge/cyberpress",
         apptype2: "wrapper",
-        url: "https://cyberpress.org"
+        url: "https://cyberpress.org",
+        manifestUrl2: "../msedge/cyberpress/manifest.json"
       },
       {
         name: "CVEDetails",
@@ -597,7 +635,8 @@ export const categories = [
         icon: "icons/wrappers/cvedetails.webp",
         url2: "../wrappers/cvedetails",
         apptype2: "wrapper",
-        url: "https://www.cvedetails.com"
+        url: "https://www.cvedetails.com",
+        manifestUrl2: "../wrappers/cvedetails/manifest.json"
       },
       {
         name: "SANS Internet Storm Center",
@@ -606,7 +645,8 @@ export const categories = [
         icon: "icons/msedge/sans_isc.webp",
         url2: "../msedge/sans_isc",
         apptype2: "wrapper",
-        url: "https://isc.sans.edu"
+        url: "https://isc.sans.edu",
+        manifestUrl2: "../msedge/sans_isc/manifest.json"
       },
       {
         name: "CVE Program",
@@ -615,7 +655,8 @@ export const categories = [
         icon: "icons/msedge/cve_program.webp",
         url2: "../msedge/cve_program",
         apptype2: "wrapper",
-        url: "https://www.cve.org"
+        url: "https://www.cve.org",
+        manifestUrl2: "../msedge/cve_program/manifest.json"
       },
     ]
   },
@@ -630,10 +671,12 @@ export const categories = [
         nameKey: "epochconverter_name",
         descriptionKey: "epochconverter_desc",
         icon: "icons/pwa/epochconverter.webp",
-        url: "https://www.epochconverter.com"
+        url: "https://www.epochconverter.com",
+        manifestUrl: "https://www.epochconverter.com/img/site.webmanifest",
+        manifestId: "https://www.epochconverter.com"
       },
-      { name: "NIST Time", icon: "icons/wrappers/timegov.webp", url2: "../wrappers/timegov", url: "https://www.time.gov", descriptionKey: "timegov_desc", apptype2: "wrapper" },
-      { name: "aTimerLogger", nameKey: "atimelogger_name", icon: "icons/wrappers/atimelogger.webp", url2: "../wrappers/atimelogger", url: "https://app.atimelogger.com", descriptionKey: "atimelogger_desc", apptype2: "wrapper" },
+      { name: "NIST Time", icon: "icons/wrappers/timegov.webp", url2: "../wrappers/timegov", url: "https://www.time.gov", descriptionKey: "timegov_desc", apptype2: "wrapper", manifestUrl2: "../wrappers/timegov/manifest.json" },
+      { name: "aTimerLogger", nameKey: "atimelogger_name", icon: "icons/wrappers/atimelogger.webp", url2: "../wrappers/atimelogger", url: "https://app.atimelogger.com", descriptionKey: "atimelogger_desc", apptype2: "wrapper", manifestUrl2: "../wrappers/atimelogger/manifest.json" },
     ]
   },
   {
@@ -642,19 +685,19 @@ export const categories = [
     apps: [
       { name: "Outlook", icon: "icons/pwa/outlook.webp", url: "https://outlook.live.com", descriptionKey: "outlook_desc" },
       { name: "OneDrive", icon: "icons/pwa/onedrive.webp", url: "https://onedrive.live.com", descriptionKey: "onedrive_desc" },
-      { name: "Microsoft Store", nameKey: "msstore_name", icon: "icons/wrappers/msstore.webp", url: "https://apps.microsoft.com", descriptionKey: "msstore_desc" },
-      { name: "Microsoft Tech Community", nameKey: "mstechcommunity_name", icon: "icons/pwa/msft.webp", url: "https://techcommunity.microsoft.com", descriptionKey: "mstechcommunity_desc" },
-      { name: "Microsoft Account", nameKey: "microsoftaccount_name", descriptionKey: "microsoftaccount_desc", icon: "icons/wrappers/microsoft.webp", url2: "../wrappers/microsoftaccount", apptype2: "wrapper", url: "https://account.microsoft.com" },
-      { name: "Microsoft Partner", nameKey: "microsoftpartner_name", descriptionKey: "microsoftpartner_desc", icon: "icons/wrappers/microsoft.webp", url2: "../wrappers/microsoftpartner", apptype2: "wrapper", url: "https://partner.microsoft.com" },
-      { name: "MSN", nameKey: "msn_name", icon: "icons/wrappers/msn.webp", url2: "../wrappers/msn", descriptionKey: "msn_desc", apptype2: "wrapper", url: "https://www.msn.com" },
-      { name: "Bing", nameKey: "bing_name", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bing", descriptionKey: "bing_desc", apptype2: "wrapper", url: "https://www.bing.com" },
-      { name: "Bing Videos", nameKey: "bingvideos_name", descriptionKey: "bingvideos_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingvideos", descriptionKey: "bingvideos_desc", apptype2: "wrapper", url: "https://www.bing.com/videos" },
-      { name: "Bing Maps", nameKey: "bingmaps_name", descriptionKey: "bingmaps_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingmaps", descriptionKey: "bingmaps_desc", apptype2: "wrapper", url: "https://www.bing.com/maps" },
-      { name: "Bing Images", nameKey: "bingimages_name", descriptionKey: "bingimages_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingimages", descriptionKey: "bingimages_desc", apptype2: "wrapper", url: "https://www.bing.com/images" },
-      { name: "Bing News", nameKey: "bingnews_name", descriptionKey: "bingsnews_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingnews", descriptionKey: "bingnews_desc", apptype2: "wrapper", url: "https://www.bing.com/news" },
-      { name: "Bing Shop", nameKey: "bingshop_name", descriptionKey: "bingshop_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingshop", descriptionKey: "bingshop_desc", apptype2: "wrapper", url: "https://www.bing.com/shop" },
-      { name: "Bing Travel", nameKey: "bingtravel_name", descriptionKey: "bingtravel_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingtravel", descriptionKey: "bingtravel_desc", apptype2: "wrapper", url: "https://www.bing.com/travel" },
-      { name: "Bing Flights", nameKey: "bingflights_name", descriptionKey: "bingflights_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingflights", descriptionKey: "bingflights_desc", apptype2: "wrapper", url: "https://www.bing.com/flights" },
+      { name: "Microsoft Store", nameKey: "msstore_name", icon: "icons/wrappers/msstore.webp", url: "https://apps.microsoft.com", descriptionKey: "msstore_desc", manifestUrl: "https://apps.microsoft.com/manifest.webmanifest" },
+      { name: "Microsoft Tech Community", nameKey: "mstechcommunity_name", icon: "icons/pwa/msft.webp", url: "https://techcommunity.microsoft.com", descriptionKey: "mstechcommunity_desc", manifestUrl: "https://techcommunity.microsoft.com/manifest.webmanifest/customTheme1/1764086100412" },
+      { name: "Microsoft Account", nameKey: "microsoftaccount_name", descriptionKey: "microsoftaccount_desc", icon: "icons/wrappers/microsoft.webp", url2: "../wrappers/microsoftaccount", apptype2: "wrapper", url: "https://account.microsoft.com", manifestUrl2: "../wrappers/microsoftaccount/manifest.json" },
+      { name: "Microsoft Partner", nameKey: "microsoftpartner_name", descriptionKey: "microsoftpartner_desc", icon: "icons/wrappers/microsoft.webp", url2: "../wrappers/microsoftpartner", apptype2: "wrapper", url: "https://partner.microsoft.com", manifestUrl2: "../wrappers/microsoftpartner/manifest.json" },
+      { name: "MSN", nameKey: "msn_name", icon: "icons/wrappers/msn.webp", url2: "../wrappers/msn", descriptionKey: "msn_desc", apptype2: "wrapper", url: "https://www.msn.com", manifestUrl2: "../wrappers/msn/manifest.json" },
+      { name: "Bing", nameKey: "bing_name", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bing", descriptionKey: "bing_desc", apptype2: "wrapper", url: "https://www.bing.com", manifestUrl2: "../wrappers/bing/manifest.json" },
+      { name: "Bing Videos", nameKey: "bingvideos_name", descriptionKey: "bingvideos_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingvideos", descriptionKey: "bingvideos_desc", apptype2: "wrapper", url: "https://www.bing.com/videos", manifestUrl2: "../wrappers/bingvideos/manifest.json" },
+      { name: "Bing Maps", nameKey: "bingmaps_name", descriptionKey: "bingmaps_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingmaps", descriptionKey: "bingmaps_desc", apptype2: "wrapper", url: "https://www.bing.com/maps", manifestUrl2: "../wrappers/bingmaps/manifest.json" },
+      { name: "Bing Images", nameKey: "bingimages_name", descriptionKey: "bingimages_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingimages", descriptionKey: "bingimages_desc", apptype2: "wrapper", url: "https://www.bing.com/images", manifestUrl2: "../wrappers/bingimages/manifest.json" },
+      { name: "Bing News", nameKey: "bingnews_name", descriptionKey: "bingsnews_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingnews", descriptionKey: "bingnews_desc", apptype2: "wrapper", url: "https://www.bing.com/news", manifestUrl2: "../wrappers/bingnews/manifest.json" },
+      { name: "Bing Shop", nameKey: "bingshop_name", descriptionKey: "bingshop_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingshop", descriptionKey: "bingshop_desc", apptype2: "wrapper", url: "https://www.bing.com/shop", manifestUrl2: "../wrappers/bingshop/manifest.json" },
+      { name: "Bing Travel", nameKey: "bingtravel_name", descriptionKey: "bingtravel_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingtravel", descriptionKey: "bingtravel_desc", apptype2: "wrapper", url: "https://www.bing.com/travel", manifestUrl2: "../wrappers/bingtravel/manifest.json" },
+      { name: "Bing Flights", nameKey: "bingflights_name", descriptionKey: "bingflights_desc", icon: "icons/wrappers/bing.webp", url2: "../wrappers/bingflights", descriptionKey: "bingflights_desc", apptype2: "wrapper", url: "https://www.bing.com/flights", manifestUrl2: "../wrappers/bingflights/manifest.json" },
       {
         name: "Microsoft Edge Add-ons",
         nameKey: "msedgeaddons_name",
@@ -662,7 +705,8 @@ export const categories = [
         icon: "icons/wrappers/msedge.webp",
         url2: "../wrappers/msedgeaddons",
         apptype2: "wrapper",
-        url: "https://microsoftedge.microsoft.com/addons"
+        url: "https://microsoftedge.microsoft.com/addons",
+        manifestUrl2: "../wrappers/msedgeaddons/manifest.json"
       },
       {
         name: "Microsoft News",
@@ -681,7 +725,8 @@ export const categories = [
         url2: "../wrappers/edge_download",
         apptype2: "wrapper",
         url: "https://www.microsoft.com/en-us/edge/download",
-        apptype: "native"
+        apptype: "native",
+        manifestUrl2: "../wrappers/edge_download/manifest.json"
       },
       {
         name: "OneNote",
@@ -690,7 +735,8 @@ export const categories = [
         icon: "icons/wrappers/onenote.webp",
         url2: "../wrappers/onenote",
         apptype2: "wrapper",
-        url: "https://onenote.cloud.microsoft"
+        url: "https://onenote.cloud.microsoft",
+        manifestUrl2: "../wrappers/onenote/manifest.json"
       },
       {
         name: "Killed by Microsoft",
@@ -699,7 +745,8 @@ export const categories = [
         icon: "icons/wrappers/killedbymicrosoft.webp",
         url2: "../wrappers/killedbymicrosoft",
         apptype2: "wrapper",
-        url: "https://killedbymicrosoft.info"
+        url: "https://killedbymicrosoft.info",
+        manifestUrl2: "../wrappers/killedbymicrosoft/manifest.json"
       },
     ]
   },
@@ -709,8 +756,8 @@ export const categories = [
     apps: [
       { name: "Google", icon: "icons/pwa/google.webp", url: "https://www.google.com", descriptionKey: "google_desc" },
       { nameKey: "googlevoice_name", name: "Google Voice", icon: "icons/pwa/googlevoice.webp", url: "https://voice.google.com", descriptionKey: "googlevoice_desc" },
-      { nameKey: "googlemaps_name", name: "Google Maps", icon: "icons/pwa/googlemaps.webp", url: "https://maps.google.com", descriptionKey: "googlemaps_desc" },
-      { nameKey: "googlenews_name", name: "Google News", icon: "icons/pwa/googlenews.webp", url: "https://news.google.com", descriptionKey: "googlenews_desc" },
+      { nameKey: "googlemaps_name", name: "Google Maps", icon: "icons/pwa/googlemaps.webp", url: "https://maps.google.com", descriptionKey: "googlemaps_desc", manifestUrl: "https://maps.google.com/maps/preview/pwa/manifest?source=ttpwa&hl=en", manifestId: "https://maps.google.com" },
+      { nameKey: "googlenews_name", name: "Google News", icon: "icons/pwa/googlenews.webp", url: "https://news.google.com", descriptionKey: "googlenews_desc", manifestUrl: "https://news.google.com/_/DotsSplashUi/manifest.json", manifestId: "https://news.google.com" },
       {
         name: "NotebookLM",
         nameKey: "notebooklm_name",
@@ -723,7 +770,9 @@ export const categories = [
         nameKey: "googledev_name",
         descriptionKey: "googledev_desc",
         icon: "icons/pwa/googledev.webp",
-        url: "https://developers.google.com"
+        url: "https://developers.google.com",
+        manifestUrl: "https://developers.google.com/_pwa/developers/manifest.json",
+        manifestId: "https://developers.google.com"
       },
       {
         name: "Google Keep",
@@ -753,8 +802,8 @@ export const categories = [
         icon: "icons/pwa/google_ai_dev.webp",
         url: "https://ai.google.dev"
       },
-      { name: "Gmail", icon: "icons/wrappers/gmail.webp", url2: "../wrappers/gmail", descriptionKey: "gmail_desc", apptype2: "wrapper", url: "https://mail.google.com" },
-      { name: "Google Trends", icon: "icons/wrappers/googletrends.webp", url2: "../wrappers/googletrends", descriptionKey: "googletrends_desc", apptype2: "wrapper", url: "https://trends.google.com" },
+      { name: "Gmail", icon: "icons/wrappers/gmail.webp", url2: "../wrappers/gmail", descriptionKey: "gmail_desc", apptype2: "wrapper", url: "https://mail.google.com", manifestUrl2: "../wrappers/gmail/manifest.json" },
+      { name: "Google Trends", icon: "icons/wrappers/googletrends.webp", url2: "../wrappers/googletrends", descriptionKey: "googletrends_desc", apptype2: "wrapper", url: "https://trends.google.com", manifestUrl2: "../wrappers/googletrends/manifest.json" },
       {
         name: "Google Blog",
         nameKey: "googleblog_name",
@@ -762,7 +811,8 @@ export const categories = [
         icon: "icons/wrappers/google.webp",
         url2: "../wrappers/googleblog",
         apptype2: "wrapper",
-        url: "https://blog.google"
+        url: "https://blog.google",
+        manifestUrl2: "../wrappers/googleblog/manifest.json"
       },
       {
         name: "Google Translate",
@@ -771,7 +821,8 @@ export const categories = [
         icon: "icons/wrappers/googletranslate.webp",
         url2: "../wrappers/googletranslate",
         apptype2: "wrapper",
-        url: "https://translate.google.com"
+        url: "https://translate.google.com",
+        manifestUrl2: "../wrappers/googletranslate/manifest.json"
       },
       {
         name: "Chrome Web Store",
@@ -780,7 +831,8 @@ export const categories = [
         icon: "icons/wrappers/chromewebstore.webp",
         url2: "../wrappers/chromewebstore",
         apptype2: "wrapper",
-        url: "https://chromewebstore.google.com"
+        url: "https://chromewebstore.google.com",
+        manifestUrl2: "../wrappers/chromewebstore/manifest.json"
       },
     ]
   },
@@ -794,7 +846,8 @@ export const categories = [
         url2: "../wrappers/wps",
         descriptionKey: "wps_desc",
         apptype2: "wrapper",
-        url: "https://www.wps.com/wpsdocs"
+        url: "https://www.wps.com/wpsdocs",
+        manifestUrl2: "../wrappers/wps/manifest.json"
       },
       {
         name: "WPS (CN)",
@@ -803,14 +856,17 @@ export const categories = [
         icon: "icons/wrappers/wps.webp",
         url2: "../wrappers/wpscn",
         apptype2: "wrapper",
-        url: "https://www.kdocs.cn"
+        url: "https://www.kdocs.cn",
+        manifestUrl2: "../wrappers/wpscn/manifest.json"
       },
       {
         name: "Simplenote",
         nameKey: "simplenote_name",
         descriptionKey: "simplenote_desc",
         icon: "icons/pwa/simplenote.webp",
-        url: "https://app.simplenote.com"
+        url: "https://app.simplenote.com",
+        manifestUrl: "https://app.simplenote.com/manifest.json",
+        manifestId: "https://app.simplenote.com"
       },
       {
         name: "Notion",
@@ -831,14 +887,17 @@ export const categories = [
         nameKey: "drawio_name",
         descriptionKey: "drawio_desc",
         icon: "icons/pwa/drawio.webp",
-        url: "https://app.diagrams.net"
+        url: "https://app.diagrams.net",
+        manifestUrl: "https://app.diagrams.net/images/manifest.json",
+        manifestId: "https://app.diagrams.net"
       },
       {
         name: "Excalidraw",
         nameKey: "excalidraw_name",
         descriptionKey: "excalidraw_desc",
         icon: "icons/pwa/excalidraw.webp",
-        url: "https://excalidraw.com"
+        url: "https://excalidraw.com",
+        manifestUrl: "https://excalidraw.com/manifest.webmanifest"
       },
       {
         name: "Pasteepad",
@@ -876,7 +935,8 @@ export const categories = [
         icon: "icons/wrappers/dingtalk.webp",
         url2: "../wrappers/dingtalk",
         url: "https://workspace.dingtalk.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/dingtalk/manifest.json"
       },
       {
         name: "WawaWriter (蛙蛙写作)",
@@ -896,20 +956,25 @@ export const categories = [
         nameKey: "open_web_advocacy_name",
         icon: "icons/pwa/open-web-advocacy.webp",
         url: "https://open-web-advocacy.org",
-        descriptionKey: "open_web_advocacy_desc"
+        descriptionKey: "open_web_advocacy_desc",
+        manifestUrl: "https://open-web-advocacy.org/manifest.json"
       },
       {
         name: "Infrequently",
         nameKey: "infrequently_name",
         descriptionKey: "infrequently_desc",
         icon: "icons/pwa/infrequently.webp",
-        url: "https://infrequently.org"
+        url: "https://infrequently.org",
+        manifestUrl: "https://infrequently.org/assets/infrequently.webmanifest",
+        manifestId: "https://infrequently.org"
       },
       {
         name: "GitHub",
         icon: "icons/pwa/github.webp",
         url: "https://github.com",
-        descriptionKey: "github_desc"
+        descriptionKey: "github_desc",
+        manifestUrl: "https://github.com/manifest.json",
+        manifestId: "https://github.com"
       },
       {
         name: "GitHub Docs",
@@ -944,7 +1009,9 @@ export const categories = [
         descriptionKey: "v2raya_desc",
         icon: "icons/pwa/v2raya.webp",
         url: "https://v2raya.top",
-        hide: true
+        hide: true,
+        manifestUrl: "https://v2raya.top/site.webmanifest",
+        manifestId: "https://v2raya.top"
       },
       {
         name: "GitLab",
@@ -963,7 +1030,8 @@ export const categories = [
         nameKey: "gitflic_name",
         icon: "icons/pwa/gitflic.webp",
         url: "https://gitflic.ru",
-        descriptionKey: "gitflic_desc"
+        descriptionKey: "gitflic_desc",
+        manifestUrl: "https://gitflic.ru/static/image/favicon/manifest.json"
       },
       {
         name: "Stack Overflow",
@@ -977,41 +1045,53 @@ export const categories = [
         nameKey: "mdn_name",
         icon: "icons/pwa/mdnwebdocs.webp",
         url: "https://developer.mozilla.org",
-        descriptionKey: "mdn_desc"
+        descriptionKey: "mdn_desc",
+        manifestUrl: "https://developer.mozilla.org/manifest.json",
+        manifestId: "https://developer.mozilla.org"
       },
       {
         name: "Chrome for developers",
         nameKey: "chrome_dev_name",
         icon: "icons/pwa/chrome.webp",
         url: "https://developer.chrome.com",
-        descriptionKey: "chrome_dev_desc"
+        descriptionKey: "chrome_dev_desc",
+        manifestUrl: "https://developer.chrome.com/_pwa/chrome/manifest.json",
+        manifestId: "https://developer.chrome.com"
       },
       {
         name: "web.dev",
         icon: "icons/pwa/webdev.webp",
         url: "https://web.dev",
-        descriptionKey: "webdev_desc"
+        descriptionKey: "webdev_desc",
+        manifestUrl: "https://web.dev/_pwa/web/manifest.json",
+        manifestId: "https://web.dev"
       },
       {
         name: "Google for Developers",
         nameKey: "googledevelopers_name",
         icon: "icons/pwa/google.webp",
         url: "https://developers.google.com",
-        descriptionKey: "googledevelopers_desc"
+        descriptionKey: "googledevelopers_desc",
+        manifestUrl: "https://developers.google.com/_pwa/developers/manifest.json",
+        manifestId: "https://developers.google.com"
       },
       {
         name: "Bing Webmaster Tools",
         nameKey: "bing_webmaster_name",
         icon: "icons/wrappers/bing.webp",
         url: "https://www.bing.com/webmasters",
-        descriptionKey: "bing_webmaster_desc"
+        descriptionKey: "bing_webmaster_desc",
+        manifestUrl: "https://www.bing.com/webmasters/manifest.json",
+        manifestId: "https://www.bing.com/webmasters"
       },
       {
         name: "PWA Builder",
         nameKey: "pwabuilder_name",
         icon: "icons/pwa/pwabuilder.webp",
         url: "https://www.pwabuilder.com",
-        descriptionKey: "pwabuilder_desc"
+        descriptionKey: "pwabuilder_desc",
+        manifestUrl: "https://www.pwabuilder.com/manifest.json",
+        manifestId: "https://www.pwabuilder.com"
       },
       {
         name: "Theia Cloud",
@@ -1034,7 +1114,8 @@ export const categories = [
         url2: "../wrappers/leetcodecn",
         url: "https://leetcode.cn",
         descriptionKey: "leetcodecn_desc",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/leetcodecn/manifest.json"
       },
       {
         name: "USACO Training Gateway",
@@ -1048,14 +1129,18 @@ export const categories = [
         nameKey: "fdroid_name",
         icon: "icons/pwa/fdroid.webp",
         url: "https://f-droid.org",
-        descriptionKey: "fdroid_desc"
+        descriptionKey: "fdroid_desc",
+        manifestUrl: "https://f-droid.org/assets/site_J9OLInBmO2hLlutzRFC4mdstNJjL44B6NzBbT0ecmA0=.webmanifest",
+        manifestId: "https://f-droid.org"
       },
       {
         name: "Resilient Web Design",
         nameKey: "resilientwebdesign_name",
         icon: "icons/pwa/resilientwebdesign.webp",
         url: "https://resilientwebdesign.com",
-        descriptionKey: "resilientwebdesign_desc"
+        descriptionKey: "resilientwebdesign_desc",
+        manifestUrl: "https://resilientwebdesign.com/manifest.json",
+        manifestId: "https://resilientwebdesign.com"
       },
       {
         name: "PWA Dev China",
@@ -1069,13 +1154,17 @@ export const categories = [
         nameKey: "frontendmasters_name",
         icon: "icons/pwa/frontendmasters.webp",
         descriptionKey: "frontendmasters_desc",
-        url: "https://frontendmasters.com"
+        url: "https://frontendmasters.com",
+        manifestUrl: "https://frontendmasters.com/manifest.json",
+        manifestId: "https://frontendmasters.com"
       },
       {
         name: "v86",
         icon: "icons/pwa/v86.webp",
         url: "https://copy.sh/v86",
         descriptionKey: "v86_desc",
+        manifestUrl: "https://copy.sh/v86/manifest.json",
+        manifestId: "https://copy.sh/v86/"
       },
       {
         name: "Meson Build",
@@ -1089,21 +1178,26 @@ export const categories = [
         namekey: "whatpwacandotoday_name",
         icon: "icons/pwa/whatpwacandotoday.webp",
         url: "https://whatpwacando.today",
-        descriptionKey: "whatpwacandotoday_desc"
+        descriptionKey: "whatpwacandotoday_desc",
+        manifestUrl: "https://whatpwacando.today/manifest.json"
       },
       {
         name: "Labuladong Algo Notes",
         nameKey: "labuladong_name",
         descriptionKey: "labuladong_desc",
         icon: "icons/pwa/labuladong.webp",
-        url: "https://labuladong.online"
+        url: "https://labuladong.online",
+        manifestUrl: "https://labuladong.online/algo/manifest.webmanifest",
+        manifestId: "https://labuladong.online"
       },
       {
         name: "Indie Tools",
         nameKey: "indietools_name",
         descriptionKey: "indietools_desc",
         icon: "icons/pwa/indietools.webp",
-        url: "https://www.indietools.work"
+        url: "https://www.indietools.work",
+        manifestUrl: "https://www.indietools.work/manifest.json",
+        manifestId: "https://www.indietools.work"
       },
       {
         name: "DeepWiki",
@@ -1117,7 +1211,9 @@ export const categories = [
         nameKey: "linear_name",
         descriptionKey: "linear_desc",
         icon: "icons/pwa/linear.webp",
-        url: "https://linear.app"
+        url: "https://linear.app",
+        manifestUrl: "https://linear.app/static/pwa.webmanifest?v=4",
+        manifestId: "https://linear.app"
       },
       {
         name: "Codeberg",
@@ -1146,14 +1242,18 @@ export const categories = [
         nameKey: "webcomponents_name",
         descriptionKey: "webcomponents_desc",
         icon: "icons/pwa/webcomponents.webp",
-        url: "https://www.webcomponents.org"
+        url: "https://www.webcomponents.org",
+        manifestUrl: "https://www.webcomponents.org/manifest.json",
+        manifestId: "https://www.webcomponents.org"
       },
       {
         name: "PWA WASM Example",
         nameKey: "pwawasmexample_name",
         descriptionKey: "pwawasmexample_desc",
         icon: "icons/pwa/pwawasmexample.webp",
-        url: "https://trcrsired.github.io/pwa-wasm-example"
+        url: "https://trcrsired.github.io/pwa-wasm-example",
+        manifestUrl: "https://trcrsired.github.io/manifest.webmanifest",
+        manifestId: "https://trcrsired.github.io/pwa-wasm-example"
       },
       {
         name: "fast_io",
@@ -1167,7 +1267,8 @@ export const categories = [
         nameKey: "pwafastio_name",
         descriptionKey: "pwafastio_desc",
         icon: "icons/pwa/pwawasmexample.webp",
-        url: "https://pwa-wasm-fast-io-demo.pages.dev"
+        url: "https://pwa-wasm-fast-io-demo.pages.dev",
+        manifestUrl: "https://pwa-wasm-fast-io-demo.pages.dev/manifest.webmanifest"
       },
       {
         name: "WebAssembly.sh",
@@ -1291,7 +1392,9 @@ export const categories = [
         name: "Rust",
         icon: "icons/pwa/rustlang.webp",
         url: "https://www.rust-lang.org",
-        descriptionKey: "rust_desc"
+        descriptionKey: "rust_desc",
+        manifestUrl: "https://www.rust-lang.org/static/images/site.webmanifest?v=ngJW8jGAmR",
+        manifestId: "https://www.rust-lang.org"
       },
       {
         name: "ISO C++",
@@ -1300,7 +1403,8 @@ export const categories = [
         url2: "../wrappers/isocpp",
         url: "https://isocpp.org",
         descriptionKey: "isocpp_desc",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/isocpp/manifest.json"
       },
       {
         name: "Java",
@@ -1309,7 +1413,8 @@ export const categories = [
         url2: "../wrappers/java",
         url: "https://www.java.com",
         descriptionKey: "java_desc",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/java/manifest.json"
       },
       {
         name: "V Programming Language",
@@ -1318,7 +1423,8 @@ export const categories = [
         icon: "icons/wrappers/vlang.webp",
         url2: "../wrappers/vlang",
         apptype2: "wrapper",
-        url: "https://vlang.io"
+        url: "https://vlang.io",
+        manifestUrl2: "../wrappers/vlang/manifest.json"
       },
       {
         name: "Linux.die",
@@ -1327,7 +1433,8 @@ export const categories = [
         url2: "../wrappers/linuxdie",
         url: "https://linux.die.net",
         descriptionKey: "linuxdie_desc",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/linuxdie/manifest.json"
       },
       {
         name: "Godbolt",
@@ -1335,7 +1442,8 @@ export const categories = [
         url2: "../wrappers/godbolt",
         url: "https://godbolt.org",
         descriptionKey: "godbolt_desc",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/godbolt/manifest.json"
       },
       {
         name: "Termux",
@@ -1344,6 +1452,7 @@ export const categories = [
         url: "https://termux.dev",
         descriptionKey: "termux_desc",
         apptype2: "wrapper",
+        manifestUrl2: "../wrappers/termux/manifest.json"
       },
       {
         name: "Free Software Foundations",
@@ -1352,7 +1461,8 @@ export const categories = [
         url2: "../wrappers/fsf",
         url: "https://www.fsf.org",
         descriptionKey: "fsf_desc",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/fsf/manifest.json"
       },
       {
         name: "Librephone",
@@ -1361,7 +1471,8 @@ export const categories = [
         url2: "../wrappers/librephone",
         url: "https://librephone.fsf.org",
         descriptionKey: "librephone_desc",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/librephone/manifest.json"
       },
       {
         name: "Software Freedom Conservancy",
@@ -1370,7 +1481,8 @@ export const categories = [
         icon: "icons/wrappers/sfconservancy.webp",
         url2: "../wrappers/sfconservancy",
         apptype2: "wrapper",
-        url: "https://sfconservancy.org"
+        url: "https://sfconservancy.org",
+        manifestUrl2: "../wrappers/sfconservancy/manifest.json"
       },
 
       {
@@ -1380,7 +1492,8 @@ export const categories = [
         icon: "icons/wrappers/webassembly.webp",
         url2: "../wrappers/webassembly",
         url: "https://webassembly.org",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/webassembly/manifest.json"
       },
       {
         name: "WebAssembly Opcodes",
@@ -1389,7 +1502,8 @@ export const categories = [
         icon: "icons/wrappers/webassembly.webp",
         url2: "../wrappers/wasm_chart",
         apptype2: "wrapper",
-        url: "https://wasm-chart.pengowray.com"
+        url: "https://wasm-chart.pengowray.com",
+        manifestUrl2: "../wrappers/wasm_chart/manifest.json"
       },
       {
         name: "GeeksForGeeks",
@@ -1397,7 +1511,8 @@ export const categories = [
         url2: "../wrappers/geeksforgeeks",
         descriptionKey: "geeksforgeeks_desc",
         url: "https://www.geeksforgeeks.org",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/geeksforgeeks/manifest.json"
       },
       {
         name: "Aurora Store",
@@ -1405,7 +1520,8 @@ export const categories = [
         url2: "../wrappers/aurorastore",
         url: "https://store.auroraoss.com",
         descriptionKey: "aurorastore_desc",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/aurorastore/manifest.json"
       },
       {
         name: "WeChat Developers",
@@ -1414,7 +1530,8 @@ export const categories = [
         icon: "icons/wrappers/wechatdevelopers.webp",
         url2: "../wrappers/wechatdevelopers",
         url: "https://developers.weixin.qq.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/wechatdevelopers/manifest.json"
       },
       {
         name: "DontKillMyApp",
@@ -1423,7 +1540,8 @@ export const categories = [
         icon: "icons/wrappers/dontkillmyapp.webp",
         url2: "../wrappers/dontkillmyapp",
         url: "https://dontkillmyapp.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/dontkillmyapp/manifest.json"
       },
       {
         name: "Microsoft Clarity",
@@ -1432,7 +1550,8 @@ export const categories = [
         icon: "icons/wrappers/microsoftclarity.webp",
         url2: "../wrappers/microsoftclarity",
         url: "https://clarity.microsoft.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/microsoftclarity/manifest.json"
       },
       {
         name: "LearnCpp",
@@ -1441,7 +1560,8 @@ export const categories = [
         icon: "icons/wrappers/learncpp.webp",
         url2: "../wrappers/learncpp",
         apptype2: "wrapper",
-        url: "https://www.learncpp.com"
+        url: "https://www.learncpp.com",
+        manifestUrl2: "../wrappers/learncpp/manifest.json"
       },
       {
         name: "SlingAcademy",
@@ -1450,7 +1570,8 @@ export const categories = [
         icon: "icons/wrappers/slingacademy.webp",
         url2: "../wrappers/slingacademy",
         apptype2: "wrapper",
-        url: "https://www.slingacademy.com"
+        url: "https://www.slingacademy.com",
+        manifestUrl2: "../wrappers/slingacademy/manifest.json"
       },
       {
         name: "Linux.toys",
@@ -1459,7 +1580,8 @@ export const categories = [
         icon: "icons/wrappers/linuxtoys.webp",
         url2: "../wrappers/linuxtoys",
         apptype2: "wrapper",
-        url: "https://linux.toys"
+        url: "https://linux.toys",
+        manifestUrl2: "../wrappers/linuxtoys/manifest.json"
       },
       {
         name: "Neocities",
@@ -1468,7 +1590,8 @@ export const categories = [
         icon: "icons/wrappers/neocities.webp",
         url2: "../wrappers/neocities",
         apptype2: "wrapper",
-        url: "https://neocities.org"
+        url: "https://neocities.org",
+        manifestUrl2: "../wrappers/neocities/manifest.json"
       },
       {
         name: "AgentSkills",
@@ -1477,7 +1600,8 @@ export const categories = [
         icon: "icons/wrappers/agentskills.webp",
         url2: "../wrappers/agentskills",
         apptype2: "wrapper",
-        url: "https://agentskills.io"
+        url: "https://agentskills.io",
+        manifestUrl2: "../wrappers/agentskills/manifest.json"
       },
       {
         name: "LibHunt",
@@ -1486,7 +1610,8 @@ export const categories = [
         icon: "icons/wrappers/libhunt.webp",
         url2: "../wrappers/libhunt",
         apptype2: "wrapper",
-        url: "https://www.libhunt.com"
+        url: "https://www.libhunt.com",
+        manifestUrl2: "../wrappers/libhunt/manifest.json"
       },
       {
         name: "ModelScope (魔搭社区)",
@@ -1497,6 +1622,7 @@ export const categories = [
         url: "https://modelscope.cn",
         apptype2: "wrapper",
         url2: "../wrappers/modelscope",
+        manifestUrl2: "../wrappers/modelscope/manifest.json"
       },
       {
         name: "Public APIs",
@@ -1505,7 +1631,8 @@ export const categories = [
         icon: "icons/wrappers/publicapis.webp",
         url2: "../wrappers/publicapis",
         apptype2: "wrapper",
-        url: "https://publicapis.io"
+        url: "https://publicapis.io",
+        manifestUrl2: "../wrappers/publicapis/manifest.json"
       },
       {
         name: "GitHub Status",
@@ -1514,7 +1641,8 @@ export const categories = [
         icon: "icons/wrappers/githubstatus.webp",
         url2: "../wrappers/githubstatus",
         apptype2: "wrapper",
-        url: "https://www.githubstatus.com"
+        url: "https://www.githubstatus.com",
+        manifestUrl2: "../wrappers/githubstatus/manifest.json"
       },
       {
         name: "UseBottles",
@@ -1523,7 +1651,8 @@ export const categories = [
         icon: "icons/wrappers/usebottles.webp",
         url2: "../wrappers/usebottles",
         apptype2: "wrapper",
-        url: "https://usebottles.com"
+        url: "https://usebottles.com",
+        manifestUrl2: "../wrappers/usebottles/manifest.json"
       },
       {
         name: "Keep Android Open",
@@ -1532,7 +1661,8 @@ export const categories = [
         icon: "icons/wrappers/keepandroidopen.webp",
         url2: "../wrappers/keepandroidopen",
         apptype2: "wrapper",
-        url: "https://keepandroidopen.org"
+        url: "https://keepandroidopen.org",
+        manifestUrl2: "../wrappers/keepandroidopen/manifest.json"
       },
       {
         name: "JSBin",
@@ -1541,7 +1671,8 @@ export const categories = [
         icon: "icons/wrappers/jsbin.webp",
         url2: "../wrappers/jsbin",
         apptype2: "wrapper",
-        url: "https://jsbin.com"
+        url: "https://jsbin.com",
+        manifestUrl2: "../wrappers/jsbin/manifest.json"
       },
       {
         name: "DEV Community",
@@ -1550,7 +1681,8 @@ export const categories = [
         icon: "icons/wrappers/devto.webp",
         url2: "../wrappers/devto",
         apptype2: "wrapper",
-        url: "https://dev.to"
+        url: "https://dev.to",
+        manifestUrl2: "../wrappers/devto/manifest.json"
       },
       {
         name: "Can I Use",
@@ -1559,7 +1691,8 @@ export const categories = [
         icon: "icons/wrappers/caniuse.webp",
         url2: "../wrappers/caniuse",
         apptype2: "wrapper",
-        url: "https://caniuse.com"
+        url: "https://caniuse.com",
+        manifestUrl2: "../wrappers/caniuse/manifest.json"
       },
       {
         name: "cppreference",
@@ -1568,7 +1701,8 @@ export const categories = [
         icon: "icons/wrappers/cppreference.webp",
         url2: "../wrappers/cppreference",
         apptype2: "wrapper",
-        url: "https://en.cppreference.com"
+        url: "https://en.cppreference.com",
+        manifestUrl2: "../wrappers/cppreference/manifest.json"
       },
       {
         name: "JavaBook",
@@ -1577,7 +1711,8 @@ export const categories = [
         icon: "icons/wrappers/javabook.webp",
         url2: "../wrappers/javabook",
         apptype2: "wrapper",
-        url: "https://javabook.mccue.dev"
+        url: "https://javabook.mccue.dev",
+        manifestUrl2: "../wrappers/javabook/manifest.json"
       },
       {
         name: "MOOC.fi",
@@ -1586,7 +1721,8 @@ export const categories = [
         icon: "icons/wrappers/moocfi.webp",
         url2: "../wrappers/moocfi",
         apptype2: "wrapper",
-        url: "https://www.mooc.fi"
+        url: "https://www.mooc.fi",
+        manifestUrl2: "../wrappers/moocfi/manifest.json"
       },
       {
         name: "JSLinux",
@@ -1595,7 +1731,8 @@ export const categories = [
         icon: "icons/wrappers/jslinux.webp",
         url2: "../wrappers/jslinux",
         apptype2: "wrapper",
-        url: "https://bellard.org/jslinux"
+        url: "https://bellard.org/jslinux",
+        manifestUrl2: "../wrappers/jslinux/manifest.json"
       },
       {
         name: "OpenCode",
@@ -1604,7 +1741,8 @@ export const categories = [
         icon: "icons/msedge/opencode.webp",
         url2: "../msedge/opencode",
         apptype2: "wrapper",
-        url: "https://opencode.ai"
+        url: "https://opencode.ai",
+        manifestUrl2: "../msedge/opencode/manifest.json"
       },
       {
         name: "Repology",
@@ -1613,7 +1751,8 @@ export const categories = [
         icon: "icons/wrappers/repology.webp",
         url2: "../wrappers/repology",
         apptype2: "wrapper",
-        url: "https://repology.org"
+        url: "https://repology.org",
+        manifestUrl2: "../wrappers/repology/manifest.json"
       },
       {
         name: "Repology: glibc",
@@ -1622,7 +1761,8 @@ export const categories = [
         icon: "icons/wrappers/repology_glibc.webp",
         url2: "../wrappers/repology_glibc",
         apptype2: "wrapper",
-        url: "https://repology.org/project/glibc/versions"
+        url: "https://repology.org/project/glibc/versions",
+        manifestUrl2: "../wrappers/repology_glibc/manifest.json"
       },
       {
         name: "Mini Program Demo (小程序示例)",
@@ -1655,7 +1795,8 @@ export const categories = [
         icon: "icons/native/gcc.webp",
         url2: "../wrappers/gcc",
         apptype2: "wrapper",
-        url: "https://gcc.gnu.org"
+        url: "https://gcc.gnu.org",
+        manifestUrl2: "../wrappers/gcc/manifest.json"
       },
       {
         name: "gcc-releases",
@@ -1673,7 +1814,8 @@ export const categories = [
         url: "https://gcc-mcf.lhmouse.com",
         apptype: "native",
         descriptionKey: "gccmcf_desc",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/gccmcf/manifest.json"
       },
       {
         name: "ungoogled-chromium binaries",
@@ -1683,7 +1825,8 @@ export const categories = [
         url2: "../wrappers/ungoogled_chromium",
         apptype2: "wrapper",
         url: "https://ungoogled-software.github.io/ungoogled-chromium-binaries/",
-        apptype: "native"
+        apptype: "native",
+        manifestUrl2: "../wrappers/ungoogled_chromium/manifest.json"
       },
       {
         name: "ungoogled-chromium for macOS",
@@ -1711,6 +1854,8 @@ export const categories = [
         icon: "icons/pwa/yandex.webp",
         url: "https://yandex.com",
         descriptionKey: "yandex_desc",
+        manifestUrl: "https://yandex.com/portal/front/resources/desktop/manifest-en.json",
+        manifestId: "https://yandex.com"
       },
       {
         name: "DuckDuckGo",
@@ -1726,14 +1871,17 @@ export const categories = [
         icon: "icons/pwa/duckduckgo.webp",
         url2: "../wrappers/noaiduckduckgo",
         apptype2: "wrapper",
-        url: "https://noai.duckduckgo.com"
+        url: "https://noai.duckduckgo.com",
+        manifestUrl2: "../wrappers/noaiduckduckgo/manifest.json"
       },
       {
         name: "Nomad",
         url: "https://www.getnomad.app",
         nameKey: "getnomad_name",
         descriptionKey: "getnomad_desc",
-        icon: "icons/pwa/getnomad.webp"
+        icon: "icons/pwa/getnomad.webp",
+        manifestUrl: "https://www.getnomad.app/site.webmanifest",
+        manifestId: "https://www.getnomad.app"
       },
       {
         name: "Downdetector",
@@ -1742,7 +1890,8 @@ export const categories = [
         icon: "icons/wrappers/downdetector.webp",
         url2: "../wrappers/downdetector",
         apptype2: "wrapper",
-        url: "https://downdetector.com"
+        url: "https://downdetector.com",
+        manifestUrl2: "../wrappers/downdetector/manifest.json"
       },
       {
         name: "Startpage",
@@ -1751,7 +1900,8 @@ export const categories = [
         icon: "icons/msedge/startpage.webp",
         url2: "../msedge/startpage",
         apptype2: "wrapper",
-        url: "https://www.startpage.com"
+        url: "https://www.startpage.com",
+        manifestUrl2: "../msedge/startpage/manifest.json"
       },
       {
         name: "Brave Search",
@@ -1760,7 +1910,8 @@ export const categories = [
         icon: "icons/msedge/bravesearch.webp",
         url2: "../msedge/bravesearch",
         apptype2: "wrapper",
-        url: "https://search.brave.com"
+        url: "https://search.brave.com",
+        manifestUrl2: "../msedge/bravesearch/manifest.json"
       },
       {
         name: "Kagi",
@@ -1769,7 +1920,8 @@ export const categories = [
         icon: "icons/wrappers/kagi.webp",
         url2: "../wrappers/kagi",
         apptype2: "wrapper",
-        url: "https://kagi.com"
+        url: "https://kagi.com",
+        manifestUrl2: "../wrappers/kagi/manifest.json"
       },
       {
         name: "Mojeek",
@@ -1778,7 +1930,8 @@ export const categories = [
         icon: "icons/wrappers/mojeek.webp",
         url2: "../wrappers/mojeek",
         apptype2: "wrapper",
-        url: "https://www.mojeek.com"
+        url: "https://www.mojeek.com",
+        manifestUrl2: "../wrappers/mojeek/manifest.json"
       },
       {
         name: "SearXNG",
@@ -1787,7 +1940,8 @@ export const categories = [
         icon: "icons/wrappers/searxng.webp",
         url2: "../wrappers/searxng",
         apptype2: "wrapper",
-        url: "https://docs.searxng.org"
+        url: "https://docs.searxng.org",
+        manifestUrl2: "../wrappers/searxng/manifest.json"
       },
       {
         name: "searx.space",
@@ -1796,7 +1950,8 @@ export const categories = [
         icon: "icons/wrappers/searxng.webp",
         url2: "../wrappers/searx_space",
         apptype2: "wrapper",
-        url: "https://searx.space"
+        url: "https://searx.space",
+        manifestUrl2: "../wrappers/searx_space/manifest.json"
       },
       {
         name: "China Unicom Shanghai E-Bill (上海联通电子账单)",
@@ -1805,7 +1960,8 @@ export const categories = [
         icon: "icons/wechatmini/chinaunicom.webp",
         url2: "../wrappers/unicom_sh_ebill",
         apptype2: "wrapper",
-        url: "https://ebill.10010sh.cn"
+        url: "https://ebill.10010sh.cn",
+        manifestUrl2: "../wrappers/unicom_sh_ebill/manifest.json"
       },
       {
         name: "China Telecom (中国电信)",
@@ -1860,7 +2016,8 @@ export const categories = [
         url2: "../wrappers/qqmail",
         apptype2: "wrapper",
         descriptionKey: "qqmail_desc",
-        url: "https://mail.qq.com"
+        url: "https://mail.qq.com",
+        manifestUrl2: "../wrappers/qqmail/manifest.json"
       },
       {
         name: "163 Mail",
@@ -1869,7 +2026,8 @@ export const categories = [
         url2: "../wrappers/netease163",
         apptype2: "wrapper",
         descriptionKey: "netease163_desc",
-        url: "https://mail.163.com"
+        url: "https://mail.163.com",
+        manifestUrl2: "../wrappers/netease163/manifest.json"
       },
       {
         name: "126 Mail",
@@ -1878,7 +2036,8 @@ export const categories = [
         url2: "../wrappers/netease126",
         apptype2: "wrapper",
         descriptionKey: "netease126_desc",
-        url: "https://mail.126.com"
+        url: "https://mail.126.com",
+        manifestUrl2: "../wrappers/netease126/manifest.json"
       },
       {
         name: "yeah.net Mail",
@@ -1887,7 +2046,8 @@ export const categories = [
         url2: "../wrappers/yeahnet",
         apptype2: "wrapper",
         descriptionKey: "yeahnet_desc",
-        url: "https://mail.yeah.net"
+        url: "https://mail.yeah.net",
+        manifestUrl2: "../wrappers/yeahnet/manifest.json"
       }
     ]
   },
@@ -1900,7 +2060,9 @@ export const categories = [
         nameKey: "youtube_name",
         icon: "icons/pwa/youtube.webp",
         url: "https://youtube.com",
-        descriptionKey: "youtube_desc"
+        descriptionKey: "youtube_desc",
+        manifestUrl: "https://youtube.com/manifest.webmanifest",
+        manifestId: "https://youtube.com"
       },
       {
         name: "Nadeko Invidious",
@@ -1922,20 +2084,24 @@ export const categories = [
         icon: "icons/wrappers/safereddit.webp",
         url2: "../wrappers/safereddit",
         apptype2: "wrapper",
-        url: "https://safereddit.com"
+        url: "https://safereddit.com",
+        manifestUrl2: "../wrappers/safereddit/manifest.json"
       },
       {
         name: "X (Twitter)",
         nameKey: "x_name",
         icon: "icons/pwa/x.webp",
         url: "https://x.com",
-        descriptionKey: "x_desc"
+        descriptionKey: "x_desc",
+        manifestUrl: "https://x.com/manifest.json",
+        manifestId: "https://x.com"
       },
       {
         name: "Mastodon",
         icon: "icons/pwa/mastodon.webp",
         url: "https://mastodon.social",
-        descriptionKey: "mastodon_desc"
+        descriptionKey: "mastodon_desc",
+        manifestUrl: "https://mastodon.social/manifest"
       },
       {
         name: "Threads",
@@ -1960,7 +2126,9 @@ export const categories = [
         name: "Tinder",
         icon: "icons/pwa/tinder.webp",
         url: "https://tinder.com",
-        descriptionKey: "tinder_desc"
+        descriptionKey: "tinder_desc",
+        manifestUrl: "https://tinder.com/manifest-en.json",
+        manifestId: "https://tinder.com"
       },
       {
         name: "Tea For Women",
@@ -1992,7 +2160,8 @@ export const categories = [
         url: "https://bsky.app",
         descriptionKey: "bluesky_desc",
         url2: "../msedge/bluesky",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../msedge/bluesky/manifest.json"
       },
       {
         name: "Twitch",
@@ -2010,7 +2179,8 @@ export const categories = [
         name: "Tumblr",
         icon: "icons/pwa/tumblr.webp",
         url: "https://www.tumblr.com",
-        descriptionKey: "tumblr_desc"
+        descriptionKey: "tumblr_desc",
+        manifestUrl: "https://www.tumblr.com/manifest.json"
       },
       {
         name: "Elk",
@@ -2022,7 +2192,9 @@ export const categories = [
         name: "GroupMe",
         icon: "icons/pwa/groupme.webp",
         url: "https://web.groupme.com",
-        descriptionKey: "groupme_desc"
+        descriptionKey: "groupme_desc",
+        manifestUrl: "https://web.groupme.com/manifest.json",
+        manifestId: "https://web.groupme.com"
       },
       {
         name: "Fluxer",
@@ -2038,13 +2210,16 @@ export const categories = [
         descriptionKey: "discord_desc",
         url2: "../msedge/discord",
         apptype2: "wrapper",
+        manifestUrl2: "../msedge/discord/manifest.json"
       },
       {
         name: "Telegram",
         nameKey: "telegram_name",
         icon: "icons/pwa/telegram.webp",
         url: "https://web.telegram.org",
-        descriptionKey: "telegram_desc"
+        descriptionKey: "telegram_desc",
+        manifestUrl: "https://web.telegram.org/manifest.webapp.json",
+        manifestId: "https://web.telegram.org"
       },
       {
         name: "Zoom",
@@ -2070,7 +2245,9 @@ export const categories = [
         nameKey: "flipboard_name",
         icon: "icons/pwa/flipboard.webp",
         url: "https://flipboard.com",
-        descriptionKey: "flipboard_desc"
+        descriptionKey: "flipboard_desc",
+        manifestUrl: "https://flipboard.com/manifest.webmanifest",
+        manifestId: "https://flipboard.com"
       },
       {
         name: "Pinterest",
@@ -2078,6 +2255,8 @@ export const categories = [
         icon: "icons/pwa/pinterest.webp",
         url: "https://www.pinterest.com",
         descriptionKey: "pinterest_desc",
+        manifestUrl: "https://www.pinterest.com/manifest.json",
+        manifestId: "https://www.pinterest.com"
       },
       {
         name: "Linktree",
@@ -2119,7 +2298,9 @@ export const categories = [
         nameKey: "substack_name",
         descriptionKey: "substack_desc",
         icon: "icons/pwa/substack.webp",
-        url: "https://substack.com"
+        url: "https://substack.com",
+        manifestUrl: "https://substack.com/manifest.json",
+        manifestId: "https://substack.com"
       },
       {
         name: "Flickr",
@@ -2140,7 +2321,9 @@ export const categories = [
         nameKey: "element_name",
         descriptionKey: "element_desc",
         icon: "icons/pwa/element.webp",
-        url: "https://app.element.io"
+        url: "https://app.element.io",
+        manifestUrl: "https://app.element.io/manifest.json",
+        manifestId: "https://app.element.io"
       },
       {
         name: "Soul",
@@ -2161,7 +2344,9 @@ export const categories = [
         nameKey: "spectravideo_name",
         descriptionKey: "spectravideo_desc",
         icon: "icons/pwa/spectravideo.webp",
-        url: "https://spectra.video"
+        url: "https://spectra.video",
+        manifestUrl: "https://spectra.video/manifest.webmanifest?c075641cc03ce8f6b096bbf2d30c308b36409e9f",
+        manifestId: "https://spectra.video"
       },
       { name: "Weibo Lite (微博Lite)", nameKey: "weibo_name", descriptionKey: "weibo_desc", icon: "icons/pwa/weibo.webp", url: "https://m.weibo.cn" },
       {
@@ -2176,7 +2361,9 @@ export const categories = [
         nameKey: "friend_name",
         descriptionKey: "friend_desc",
         icon: "icons/pwa/friend.webp",
-        url: "https://friend.com"
+        url: "https://friend.com",
+        manifestUrl: "https://friend.com/site.webmanifest",
+        manifestId: "https://friend.com"
       },
       {
         name: "Jitsi Meet",
@@ -2262,7 +2449,8 @@ export const categories = [
         icon: "icons/msedge/loopsvideo.webp",
         url2: "../msedge/loopsvideo",
         apptype2: "wrapper",
-        url: "https://loops.video"
+        url: "https://loops.video",
+        manifestUrl2: "../msedge/loopsvideo/manifest.json"
       },
       {
         name: "Piefed",
@@ -2271,7 +2459,8 @@ export const categories = [
         icon: "icons/msedge/piefed.webp",
         url2: "../msedge/piefed",
         apptype2: "wrapper",
-        url: "https://piefed.social"
+        url: "https://piefed.social",
+        manifestUrl2: "../msedge/piefed/manifest.json"
       },
       {
         name: "Mail.ru",
@@ -2282,6 +2471,7 @@ export const categories = [
         url: "https://mail.ru",
         apptype2: "wrapper",
         url2: "../msedge/mailru",
+        manifestUrl2: "../msedge/mailru/manifest.json"
       },
       {
         name: "Zoosk",
@@ -2290,7 +2480,8 @@ export const categories = [
         url2: "../wrappers/zoosk",
         descriptionKey: "zoosk_desc",
         apptype2: "wrapper",
-        url: "https://zoosk.com"
+        url: "https://zoosk.com",
+        manifestUrl2: "../wrappers/zoosk/manifest.json"
       },
       {
         name: "eHarmony",
@@ -2299,7 +2490,8 @@ export const categories = [
         url2: "../wrappers/eharmony",
         descriptionKey: "eharmony_desc",
         apptype2: "wrapper",
-        url: "https://www.eharmony.com"
+        url: "https://www.eharmony.com",
+        manifestUrl2: "../wrappers/eharmony/manifest.json"
       },
 /*      {
         name: "ShareChat",
@@ -2318,6 +2510,7 @@ export const categories = [
         url2: "../wrappers/dzenru",
         url: "https://dzen.ru",
         apptype2: "wrapper",
+        manifestUrl2: "../wrappers/dzenru/manifest.json"
       },
       {
         name: "Kick",
@@ -2327,7 +2520,8 @@ export const categories = [
         url2: "../msedge/kick",
         apptype2: "wrapper",
         url: "https://kick.com",
-        apptype_hide: "msedge"
+        apptype_hide: "msedge",
+        manifestUrl2: "../msedge/kick/manifest.json"
       },
       {
         name: "Ko-fi",
@@ -2336,7 +2530,8 @@ export const categories = [
         icon: "icons/wrappers/kofi.webp",
         url2: "../wrappers/kofi",
         apptype2: "wrapper",
-        url: "https://ko-fi.com"
+        url: "https://ko-fi.com",
+        manifestUrl2: "../wrappers/kofi/manifest.json"
       },
       {
         name: "Vimeo",
@@ -2345,7 +2540,8 @@ export const categories = [
         icon: "icons/wrappers/vimeo.webp",
         url2: "../wrappers/vimeo",
         apptype2: "wrapper",
-        url: "https://vimeo.com"
+        url: "https://vimeo.com",
+        manifestUrl2: "../wrappers/vimeo/manifest.json"
       },
       {
         name: "Kook",
@@ -2354,7 +2550,8 @@ export const categories = [
         icon: "icons/wrappers/kook.webp",
         url2: "../wrappers/kook",
         apptype2: "wrapper",
-        url: "https://www.kookapp.cn/app/"
+        url: "https://www.kookapp.cn/app/",
+        manifestUrl2: "../wrappers/kook/manifest.json"
       },
       {
         name: "Zulip",
@@ -2363,7 +2560,8 @@ export const categories = [
         icon: "icons/wrappers/zulip.webp",
         url2: "../wrappers/zulip",
         apptype2: "wrapper",
-        url: "https://zulip.com"
+        url: "https://zulip.com",
+        manifestUrl2: "../wrappers/zulip/manifest.json"
       },
       {
         name: "Spaccamient",
@@ -2372,7 +2570,8 @@ export const categories = [
         icon: "icons/wrappers/spaccamient.webp",
         url2: "../wrappers/spaccamient",
         apptype2: "wrapper",
-        url: "https://spacc-inc.github.io/Spaccamient"
+        url: "https://spacc-inc.github.io/Spaccamient",
+        manifestUrl2: "../wrappers/spaccamient/manifest.json"
       },
       {
         name: "NewPipe",
@@ -2381,7 +2580,8 @@ export const categories = [
         icon: "icons/msedge/newpipe.webp",
         url2: "../msedge/newpipe",
         apptype: "wrapper",
-        url: "https://newpipe.net"
+        url: "https://newpipe.net",
+        manifestUrl2: "../msedge/newpipe/manifest.json"
       },
       {
         name: "Dailymotion",
@@ -2390,7 +2590,8 @@ export const categories = [
         icon: "icons/wrappers/dailymotion.webp",
         url2: "../wrappers/dailymotion",
         apptype2: "wrapper",
-        url: "https://www.dailymotion.com"
+        url: "https://www.dailymotion.com",
+        manifestUrl2: "../wrappers/dailymotion/manifest.json"
       },
       {
         name: "Feishu Video Conference(飞书视频会议)",
@@ -2399,7 +2600,8 @@ export const categories = [
         icon: "icons/msedge/feishu.webp",
         url2: "../msedge/feishu_vc",
         apptype2: "wrapper",
-        url: "https://vc.feishu.cn/w"
+        url: "https://vc.feishu.cn/w",
+        manifestUrl2: "../msedge/feishu_vc/manifest.json"
       },
       {
         name: "9GAG",
@@ -2408,7 +2610,8 @@ export const categories = [
         icon: "icons/msedge/ninegag.webp",
         url2: "../msedge/ninegag",
         apptype2: "wrapper",
-        url: "https://9gag.com"
+        url: "https://9gag.com",
+        manifestUrl2: "../msedge/ninegag/manifest.json"
       },
       {
         name: "Tencent Meeting (腾讯会议)",
@@ -2439,7 +2642,8 @@ export const categories = [
         icon: "icons/msedge/chase.webp",
         url: "https://chase.com",
         apptype2: "wrapper",
-        url2: "../msedge/chase"
+        url2: "../msedge/chase",
+        manifestUrl2: "../msedge/chase/manifest.json"
       },
       {
         name: "Chase (Sign in)",
@@ -2448,7 +2652,8 @@ export const categories = [
         icon: "icons/msedge/chase.webp",
         url: "https://secure.chase.com",
         apptype2: "wrapper",
-        url2: "../wrappers/chasesignin"
+        url2: "../wrappers/chasesignin",
+        manifestUrl2: "../wrappers/chasesignin/manifest.json"
       },
       {
         name: "Bitcoin Well",
@@ -2472,27 +2677,36 @@ export const categories = [
         url: "https://www.tradingview.com",
         url2: "../msedge/tradingview",
         apptype2: "wrapper",
+        manifestUrl: "https://static.tradingview.com/static/images/favicon/manifest.json",
+        manifestId: "https://www.tradingview.com",
+        manifestUrl2: "../msedge/tradingview/manifest.json"
       },
       {
         name: "Yahoo Finance",
         nameKey: "yahoofinance_name",
         descriptionKey: "yahoofinance_desc",
         icon: "icons/pwa/yahoofinance.webp",
-        url: "https://finance.yahoo.com"
+        url: "https://finance.yahoo.com",
+        manifestUrl: "https://finance.yahoo.com/manifest.json",
+        manifestId: "https://finance.yahoo.com"
       },
       {
         name: "Stock Analysis",
         nameKey: "stockanalysis_name",
         descriptionKey: "stockanalysis_desc",
         icon: "icons/pwa/stockanalysis.webp",
-        url: "https://stockanalysis.com"
+        url: "https://stockanalysis.com",
+        manifestUrl: "https://stockanalysis.com/manifest.webmanifest",
+        manifestId: "https://stockanalysis.com"
       },
       {
         name: "LongForecast",
         nameKey: "longforecast_name",
         descriptionKey: "longforecast_desc",
         icon: "icons/pwa/longforecast.webp",
-        url: "https://longforecast.com"
+        url: "https://longforecast.com",
+        manifestUrl: "https://longforecast.com/site.webmanifest",
+        manifestId: "https://longforecast.com"
       },
       {
         name: "Investing",
@@ -2502,13 +2716,16 @@ export const categories = [
         url2: "../wrappers/investing",
         apptype2: "wrapper",
         url: "https://www.investing.com",
+        manifestUrl2: "../wrappers/investing/manifest.json"
       },
       {
         name: "Stripe Dashboard",
         nameKey: "stripe_name",
         descriptionKey: "stripe_desc",
         icon: "icons/pwa/stripe.webp",
-        url: "https://dashboard.stripe.com"
+        url: "https://dashboard.stripe.com",
+        manifestUrl: "https://dashboard.stripe.com/android_manifest.json",
+        manifestId: "https://dashboard.stripe.com"
       },
       {
         name: "Investor's Business Daily",
@@ -2522,7 +2739,8 @@ export const categories = [
         nameKey: "seekingalpha_name",
         descriptionKey: "seekingalpha_desc",
         icon: "icons/pwa/seekingalpha.webp",
-        url: "https://seekingalpha.com"
+        url: "https://seekingalpha.com",
+        manifestUrl: "https://seekingalpha.com/samw/manifest.21e1a41eec7430f48197357dbb41445d.json"
       },
       {
         name: "Motley Fool",
@@ -2536,7 +2754,9 @@ export const categories = [
         nameKey: "benzinga_name",
         descriptionKey: "benzinga_desc",
         icon: "icons/pwa/benzinga.webp",
-        url: "https://www.benzinga.com"
+        url: "https://www.benzinga.com",
+        manifestUrl: "https://www.benzinga.com/next-assets/site.webmanifest",
+        manifestId: "https://www.benzinga.com"
       },
       {
         name: "Investopedia",
@@ -2550,7 +2770,9 @@ export const categories = [
         nameKey: "nasdaq_name",
         descriptionKey: "nasdaq_desc",
         icon: "icons/pwa/nasdaq.webp",
-        url: "https://www.nasdaq.com"
+        url: "https://www.nasdaq.com",
+        manifestUrl: "https://www.nasdaq.com/manifest.json",
+        manifestId: "https://www.nasdaq.com"
       },
       {
         name: "Markets Insider",
@@ -2558,6 +2780,8 @@ export const categories = [
         descriptionKey: "marketsinsider_desc",
         icon: "icons/pwa/marketsinsider.webp",
         url: "https://markets.businessinsider.com",
+        manifestUrl: "https://markets.businessinsider.com/manifest.json",
+        manifestId: "https://markets.businessinsider.com"
       },
       {
         name: "Messari",
@@ -2571,14 +2795,18 @@ export const categories = [
         nameKey: "coinmarketcap_name",
         descriptionKey: "coinmarketcap_desc",
         icon: "icons/pwa/coinmarketcap.webp",
-        url: "https://coinmarketcap.com"
+        url: "https://coinmarketcap.com",
+        manifestUrl: "https://coinmarketcap.com/manifest.json",
+        manifestId: "https://coinmarketcap.com"
       },
       {
         name: "CoinStats",
         nameKey: "coinstats_name",
         descriptionKey: "coinstats_desc",
         icon: "icons/pwa/coinstats.webp",
-        url: "https://coinstats.app"
+        url: "https://coinstats.app",
+        manifestUrl: "https://coinstats.app/manifest.json",
+        manifestId: "https://coinstats.app"
       },
       {
         name: "Bitget",
@@ -2599,21 +2827,27 @@ export const categories = [
         namekey: "cryptocom_name",
         descriptionKey: "cryptocom_desc",
         url: "https://crypto.com",
-        icon: "icons/pwa/cryptocom.webp"
+        icon: "icons/pwa/cryptocom.webp",
+        manifestUrl: "https://crypto.com/manifest.webmanifest",
+        manifestId: "https://crypto.com"
       },
       {
         name: "International Business Times",
         nameKey: "ibtimes_name",
         descriptionKey: "ibtimes_desc",
         icon: "icons/pwa/ibtimes.webp",
-        url: "https://www.ibtimes.com"
+        url: "https://www.ibtimes.com",
+        manifestUrl: "https://g.ibtimes.com/themes/favicons/site.webmanifest",
+        manifestId: "https://www.ibtimes.com"
       },
       {
         name: "MetaMask",
         nameKey: "metamask_name",
         descriptionKey: "metamask_desc",
         icon: "icons/pwa/metamask.webp",
-        url: "https://metamask.io"
+        url: "https://metamask.io",
+        manifestUrl: "https://metamask.io/favicons/default/site.webmanifest",
+        manifestId: "https://metamask.io"
       },
       {
         name: "BITCLOCK",
@@ -2621,6 +2855,8 @@ export const categories = [
         icon: "icons/pwa/bitclock.webp",
         url: "https://bitclock.vercel.app",
         descriptionKey: "bitclock_desc",
+        manifestUrl: "https://bitclock.vercel.app/manifest.json",
+        manifestId: "https://bitclock.vercel.app"
       },
       {
         name: "Polymarket",
@@ -2673,6 +2909,7 @@ export const categories = [
         icon: "icons/msedge/capitalone.webp",
         apptype2: "wrapper",
         url2: "../msedge/capitalone",
+        manifestUrl2: "../msedge/capitalone/manifest.json"
       },
       {
         name: "8marketcap",
@@ -2681,7 +2918,8 @@ export const categories = [
         icon: "icons/msedge/eightmarketcap.webp",
         url2: "../msedge/eightmarketcap",
         apptype2: "wrapper",
-        url: "https://8marketcap.com"
+        url: "https://8marketcap.com",
+        manifestUrl2: "../msedge/eightmarketcap/manifest.json"
       },
       {
         name: "Paypal",
@@ -2690,7 +2928,8 @@ export const categories = [
         icon: "icons/wrappers/paypal.webp",
         url2: "../wrappers/paypal",
         apptype2: "wrapper",
-        url: "https://www.paypal.com"
+        url: "https://www.paypal.com",
+        manifestUrl2: "../wrappers/paypal/manifest.json"
       },
       {
         name: "Moomoo",
@@ -2699,7 +2938,8 @@ export const categories = [
         icon: "icons/wrappers/moomoo.webp",
         url2: "../wrappers/moomoo",
         apptype2: "wrapper",
-        url: "https://www.moomoo.com"
+        url: "https://www.moomoo.com",
+        manifestUrl2: "../wrappers/moomoo/manifest.json"
       },
       {
         name: "TheStreet",
@@ -2708,7 +2948,8 @@ export const categories = [
         icon: "icons/wrappers/thestreet.webp",
         url2: "../wrappers/thestreet",
         apptype2: "wrapper",
-        url: "https://www.thestreet.com"
+        url: "https://www.thestreet.com",
+        manifestUrl2: "../wrappers/thestreet/manifest.json"
       },
       {
         name: "MarketWatch",
@@ -2717,7 +2958,8 @@ export const categories = [
         icon: "icons/wrappers/marketwatch.webp",
         url2: "../wrappers/marketwatch",
         apptype2: "wrapper",
-        url: "https://www.marketwatch.com"
+        url: "https://www.marketwatch.com",
+        manifestUrl2: "../wrappers/marketwatch/manifest.json"
       },
       {
         name: "24/7 Wall St.",
@@ -2726,7 +2968,8 @@ export const categories = [
         icon: "icons/wrappers/247wallst.webp",
         url2: "../wrappers/247wallst",
         apptype2: "wrapper",
-        url: "https://247wallst.com"
+        url: "https://247wallst.com",
+        manifestUrl2: "../wrappers/247wallst/manifest.json"
       },
       {
         name: "Webull",
@@ -2735,7 +2978,8 @@ export const categories = [
         icon: "icons/wrappers/webull.webp",
         url2: "../wrappers/webull",
         apptype2: "wrapper",
-        url: "https://www.webull.com"
+        url: "https://www.webull.com",
+        manifestUrl2: "../wrappers/webull/manifest.json"
       },
       {
         name: "Bank of America",
@@ -2744,7 +2988,8 @@ export const categories = [
         icon: "icons/wrappers/bankofamerica.webp",
         url2: "../wrappers/bankofamerica",
         apptype2: "wrapper",
-        url: "https://www.bankofamerica.com"
+        url: "https://www.bankofamerica.com",
+        manifestUrl2: "../wrappers/bankofamerica/manifest.json"
       },
       {
         name: "Binance",
@@ -2753,7 +2998,8 @@ export const categories = [
         icon: "icons/wrappers/binance.webp",
         url2: "../wrappers/binance",
         apptype2: "wrapper",
-        url: "https://www.binance.com"
+        url: "https://www.binance.com",
+        manifestUrl2: "../wrappers/binance/manifest.json"
       },
       {
         name: "Barron's",
@@ -2762,7 +3008,8 @@ export const categories = [
         icon: "icons/wrappers/barrons.webp",
         url2: "../wrappers/barrons",
         apptype2: "wrapper",
-        url: "https://www.barrons.com"
+        url: "https://www.barrons.com",
+        manifestUrl2: "../wrappers/barrons/manifest.json"
       },
       {
         name: "StockCharts",
@@ -2771,7 +3018,8 @@ export const categories = [
         icon: "icons/msedge/stockcharts.webp",
         url2: "../msedge/stockcharts",
         apptype2: "wrapper",
-        url: "https://stockcharts.com"
+        url: "https://stockcharts.com",
+        manifestUrl2: "../msedge/stockcharts/manifest.json"
       },
       {
         name: "Robinhood",
@@ -2780,7 +3028,8 @@ export const categories = [
         icon: "icons/wrappers/robinhood.webp",
         url2: "../wrappers/robinhood",
         apptype2: "wrapper",
-        url: "https://robinhood.com"
+        url: "https://robinhood.com",
+        manifestUrl2: "../wrappers/robinhood/manifest.json"
       },
       {
         name: "Capital.com",
@@ -2789,7 +3038,8 @@ export const categories = [
         icon: "icons/wrappers/capitalcom.webp",
         url2: "../wrappers/capitalcom",
         apptype2: "wrapper",
-        url: "https://capital.com"
+        url: "https://capital.com",
+        manifestUrl2: "../wrappers/capitalcom/manifest.json"
       },
       {
         name: "Wise",
@@ -2798,7 +3048,8 @@ export const categories = [
         icon: "icons/wrappers/wise.webp",
         url2: "../wrappers/wise",
         apptype2: "wrapper",
-        url: "https://wise.com"
+        url: "https://wise.com",
+        manifestUrl2: "../wrappers/wise/manifest.json"
       },
       {
         name: "Barchart",
@@ -2807,7 +3058,8 @@ export const categories = [
         icon: "icons/wrappers/barchart.webp",
         url2: "../wrappers/barchart",
         apptype2: "wrapper",
-        url: "https://www.barchart.com"
+        url: "https://www.barchart.com",
+        manifestUrl2: "../wrappers/barchart/manifest.json"
       },
       {
         name: "Xe",
@@ -2823,7 +3075,8 @@ export const categories = [
         icon: "icons/wrappers/exchangerates.webp",
         url2: "../wrappers/exchangerates",
         apptype2: "wrapper",
-        url: "https://www.exchange-rates.org"
+        url: "https://www.exchange-rates.org",
+        manifestUrl2: "../wrappers/exchangerates/manifest.json"
       },
       {
         name: "Coinglass",
@@ -2832,7 +3085,8 @@ export const categories = [
         icon: "icons/wrappers/coinglass.webp",
         url2: "../wrappers/coinglass",
         apptype2: "wrapper",
-        url: "https://www.coinglass.com"
+        url: "https://www.coinglass.com",
+        manifestUrl2: "../wrappers/coinglass/manifest.json"
       },
       {
         name: "Coinglass Liquidations",
@@ -2841,7 +3095,8 @@ export const categories = [
         icon: "icons/wrappers/coinglass.webp",
         url2: "../wrappers/coinglassliq",
         apptype2: "wrapper",
-        url: "https://www.coinglass.com/liquidations"
+        url: "https://www.coinglass.com/liquidations",
+        manifestUrl2: "../wrappers/coinglassliq/manifest.json"
       },
       {
         name: "Vanguard",
@@ -2850,7 +3105,8 @@ export const categories = [
         icon: "icons/wrappers/vanguard.webp",
         url2: "../wrappers/vanguard",
         apptype2: "wrapper",
-        url: "https://investor.vanguard.com"
+        url: "https://investor.vanguard.com",
+        manifestUrl2: "../wrappers/vanguard/manifest.json"
       },
       {
         name: "AlphaSpread",
@@ -2859,7 +3115,8 @@ export const categories = [
         icon: "icons/msedge/alphaspread.webp",
         url2: "../msedge/alphaspread",
         apptype2: "wrapper",
-        url: "https://www.alphaspread.com"
+        url: "https://www.alphaspread.com",
+        manifestUrl2: "../msedge/alphaspread/manifest.json"
       },
       {
         name: "Hurun Report (胡润百富)",
@@ -2868,7 +3125,8 @@ export const categories = [
         icon: "icons/wrappers/hurun.webp",
         url2: "../wrappers/hurun",
         apptype2: "wrapper",
-        url: "https://www.hurun.net"
+        url: "https://www.hurun.net",
+        manifestUrl2: "../wrappers/hurun/manifest.json"
       },
       {
         name: "Maeil Business Newspaper (매일경제)",
@@ -2886,7 +3144,8 @@ export const categories = [
         icon: "icons/wrappers/moneycontrol.webp",
         url2: "../wrappers/moneycontrol",
         apptype2: "wrapper",
-        url: "https://www.moneycontrol.com"
+        url: "https://www.moneycontrol.com",
+        manifestUrl2: "../wrappers/moneycontrol/manifest.json"
       },
       {
         name: "OilPrice",
@@ -2895,7 +3154,8 @@ export const categories = [
         icon: "icons/wrappers/oilprice.webp",
         url2: "../wrappers/oilprice",
         apptype2: "wrapper",
-        url: "https://oilprice.com"
+        url: "https://oilprice.com",
+        manifestUrl2: "../wrappers/oilprice/manifest.json"
       },
       {
         name: "Finbold",
@@ -2904,7 +3164,8 @@ export const categories = [
         icon: "icons/wrappers/finbold.webp",
         url2: "../wrappers/finbold",
         apptype2: "wrapper",
-        url: "https://finbold.com"
+        url: "https://finbold.com",
+        manifestUrl2: "../wrappers/finbold/manifest.json"
       },
       {
         name: "FRED Economic Data",
@@ -2913,7 +3174,8 @@ export const categories = [
         icon: "icons/wrappers/fred.webp",
         url2: "../wrappers/fred",
         apptype2: "wrapper",
-        url: "https://fred.stlouisfed.org"
+        url: "https://fred.stlouisfed.org",
+        manifestUrl2: "../wrappers/fred/manifest.json"
       },
       {
         name: "Interactive Brokers Portal",
@@ -3085,7 +3347,8 @@ export const categories = [
         icon: "icons/wrappers/influencersplace.webp",
         url2: "../wrappers/influencersplace",
         url: "https://influencersplace.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/influencersplace/manifest.json"
       },
       {
         name: "Zscalar",
@@ -3094,7 +3357,8 @@ export const categories = [
         icon: "icons/wrappers/zscalar.webp",
         url2: "../wrappers/zscalar",
         url: "https://www.zscaler.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/zscalar/manifest.json"
       },
 /*      {
         name: "Business Standard",
@@ -3112,7 +3376,8 @@ export const categories = [
         icon: "icons/wrappers/cryptopolitan.webp",
         url2: "../wrappers/cryptopolitan",
         apptype2: "wrapper",
-        url: "https://www.cryptopolitan.com"
+        url: "https://www.cryptopolitan.com",
+        manifestUrl2: "../wrappers/cryptopolitan/manifest.json"
       },
       {
         name: "UseBottles",
@@ -3121,7 +3386,8 @@ export const categories = [
         icon: "icons/wrappers/usebottles.webp",
         url2: "../wrappers/usebottles",
         apptype2: "wrapper",
-        url: "https://usebottles.com"
+        url: "https://usebottles.com",
+        manifestUrl2: "../wrappers/usebottles/manifest.json"
       },
       {
         name: "Moka",
@@ -3130,7 +3396,8 @@ export const categories = [
         icon: "icons/msedge/moka.webp",
         url2: "../msedge/moka",
         apptype2: "wrapper",
-        url: "https://app.mokahr.com"
+        url: "https://app.mokahr.com",
+        manifestUrl2: "../msedge/moka/manifest.json"
       },
     ]
   },
@@ -3164,14 +3431,17 @@ export const categories = [
         nameKey: "windowscentralforum_name",
         descriptionKey: "windowscentralforum_desc",
         icon: "icons/pwa/windowscentralforum.webp",
-        url: "https://forums.windowscentral.com"
+        url: "https://forums.windowscentral.com",
+        manifestUrl: "https://forums.windowscentral.com/webmanifest.php"
       },
       {
         name: "MacRumors",
         nameKey: "macrumors_name",
         descriptionKey: "macrumors_desc",
         icon: "icons/pwa/macrumors.webp",
-        url: "https://www.macrumors.com"
+        url: "https://www.macrumors.com",
+        manifestUrl: "https://www.macrumors.com/manifest.json",
+        manifestId: "https://www.macrumors.com"
       },
       {
         name: "MacRumors Forums",
@@ -3192,7 +3462,9 @@ export const categories = [
         nameKey: "androidheadlines_name",
         descriptionKey: "androidheadlines_desc",
         icon: "icons/pwa/androidheadlines.webp",
-        url: "https://www.androidheadlines.com"
+        url: "https://www.androidheadlines.com",
+        manifestUrl: "https://www.androidheadlines.com/site.webmanifest",
+        manifestId: "https://www.androidheadlines.com"
       },
       {
         name: "Android Authority",
@@ -3201,7 +3473,8 @@ export const categories = [
         icon: "icons/wrappers/androidauthority.webp",
         url2: "../wrappers/androidauthority",
         url: "https://www.androidauthority.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/androidauthority/manifest.json"
       },
       {
         name: "Tom's Hardware",
@@ -3215,14 +3488,17 @@ export const categories = [
         nameKey: "arsopenforum_name",
         descriptionKey: "arsopenforum_desc",
         icon: "icons/pwa/ars-open-forum.webp",
-        url: "https://arstechnica.com/civis"
+        url: "https://arstechnica.com/civis",
+        manifestUrl: "https://arstechnica.com/civis/webmanifest.php"
       },
       {
         name: "XDA Forums",
         nameKey: "xdaforums_name",
         descriptionKey: "xdaforums_desc",
         icon: "icons/pwa/xdaforums.webp",
-        url: "https://xdaforums.com"
+        url: "https://xdaforums.com",
+        manifestUrl: "https://xdaforums.com/webmanifest.php",
+        manifestId: "https://xdaforums.com"
       },
       {
         name: "F-Droid Forum",
@@ -3258,6 +3534,8 @@ export const categories = [
         descriptionKey: "pcmag_desc",
         icon: "icons/pwa/pcmag.webp",
         url: "https://www.pcmag.com",
+        manifestUrl: "https://www.pcmag.com/manifest.json",
+        manifestId: "https://www.pcmag.com"
       },
       {
         name: "ZDNET",
@@ -3326,21 +3604,25 @@ export const categories = [
         nameKey: "readhub_name",
         descriptionKey: "readhub_desc",
         icon: "icons/pwa/readhub.webp",
-        url: "https://readhub.cn"
+        url: "https://readhub.cn",
+        manifestUrl: "https://readhub.cn/manifest.json",
+        manifestId: "https://readhub.cn"
       },
       {
         name: "Frandroid",
         nameKey: "frandroid_name",
         descriptionKey: "frandroid_desc",
         icon: "icons/pwa/frandroid.webp",
-        url: "https://www.frandroid.com"
+        url: "https://www.frandroid.com",
+        manifestUrl: "https://www.frandroid.com/wp-content/themes/humanoid-redesign/dist/pwa-manifest.json"
       },
       {
         name: "Lemmy",
         nameKey: "lemmy_name",
         descriptionKey: "lemmy_desc",
         icon: "icons/pwa/lemmy.webp",
-        url: "https://lemmy.ml"
+        url: "https://lemmy.ml",
+        manifestUrl: "https://lemmy.ml/manifest.webmanifest"
       },
       {
         name: "Phoronix Forums",
@@ -3354,14 +3636,18 @@ export const categories = [
         nameKey: "lifehacker_name",
         descriptionKey: "lifehacker_desc",
         icon: "icons/pwa/lifehacker.webp",
-        url: "https://lifehacker.com"
+        url: "https://lifehacker.com",
+        manifestUrl: "https://lifehacker.com/manifest.json",
+        manifestId: "https://lifehacker.com"
       },
       {
         name: "Durov's Code",
         nameKey: "durovscode_name",
         descriptionKey: "durovscode_desc",
         icon: "icons/pwa/durovscode.webp",
-        url: "https://durovscode.com"
+        url: "https://durovscode.com",
+        manifestUrl: "https://durovscode.com/manifest.json",
+        manifestId: "https://durovscode.com"
       },
       {
         name: "9to5mac",
@@ -3410,7 +3696,9 @@ export const categories = [
         nameKey: "mashable_name",
         descriptionKey: "mashable_desc",
         icon: "icons/pwa/mashable.webp",
-        url: "https://mashable.com"
+        url: "https://mashable.com",
+        manifestUrl: "https://mashable.com/manifest.json",
+        manifestId: "https://mashable.com"
       },
       {
         name: "Windows Latest",
@@ -3441,7 +3729,9 @@ export const categories = [
         descriptionKey: "techevangelistseo_desc",
         icon: "icons/pwa/techevangelistseo.webp",
         url: "https://techevangelistseo.com",
-        hide: true
+        hide: true,
+        manifestUrl: "https://techevangelistseo.com/pwa-manifest.json",
+        manifestId: "https://techevangelistseo.com"
       },
       {
         name: "Wccftech",
@@ -3490,7 +3780,9 @@ export const categories = [
         nammeKey: "beebomgadgets_name",
         descriptionKey: "beebomgadgets_desc",
         icon: "icons/wrappers/beebom.webp",
-        url: "https://gadgets.beebom.com"
+        url: "https://gadgets.beebom.com",
+        manifestUrl: "https://gadgets.beebom.com/manifest.json",
+        manifestId: "https://gadgets.beebom.com"
       },
       {
         name: "Chips and Cheese",
@@ -3501,6 +3793,7 @@ export const categories = [
         url: "https://chipsandcheese.com",
         apptype2: "wrapper",
         url2: "../msedge/chipsandcheese",
+        manifestUrl2: "../msedge/chipsandcheese/manifest.json"
       },
       {
         name: "Laptop Mag",
@@ -3511,6 +3804,7 @@ export const categories = [
         apptype_hide: "msedge",
         url2: "../msedge/laptopmag",
         apptype2: "wrapper",
+        manifestUrl2: "../msedge/laptopmag/manifest.json"
       },
       {
         name: "Level1Techs",
@@ -3519,7 +3813,8 @@ export const categories = [
         icon: "icons/wrappers/level1techs.webp",
         url2: "../wrappers/level1techs",
         apptype2: "wrapper",
-        url: "https://level1techs.com"
+        url: "https://level1techs.com",
+        manifestUrl2: "../wrappers/level1techs/manifest.json"
       },
       {
         name: "Gamers Nexus",
@@ -3528,7 +3823,8 @@ export const categories = [
         icon: "icons/wrappers/gamersnexus.webp",
         url2: "../wrappers/gamersnexus",
         apptype2: "wrapper",
-        url: "https://gamersnexus.net"
+        url: "https://gamersnexus.net",
+        manifestUrl2: "../wrappers/gamersnexus/manifest.json"
       },
       {
         name: "Beebom",
@@ -3537,7 +3833,8 @@ export const categories = [
         icon: "icons/wrappers/beebom.webp",
         url2: "../wrappers/beebom",
         apptype2: "wrapper",
-        url: "https://beebom.com"
+        url: "https://beebom.com",
+        manifestUrl2: "../wrappers/beebom/manifest.json"
       },
       {
         name: "FOSS Force",
@@ -3546,7 +3843,8 @@ export const categories = [
         icon: "icons/wrappers/fossforce.webp",
         url2: "../wrappers/fossforce",
         apptype2: "wrapper",
-        url: "https://fossforce.com"
+        url: "https://fossforce.com",
+        manifestUrl2: "../wrappers/fossforce/manifest.json"
       },
       {
         name: "FOSS Daily",
@@ -3555,7 +3853,8 @@ export const categories = [
         icon: "icons/msedge/fossdaily.webp",
         url2: "../msedge/fossdaily",
         apptype2: "wrapper",
-        url: "https://foss-daily.org"
+        url: "https://foss-daily.org",
+        manifestUrl2: "../msedge/fossdaily/manifest.json"
       },
       {
         name: "Tom's Guide",
@@ -3564,7 +3863,8 @@ export const categories = [
         icon: "icons/wrappers/tomsguide.webp",
         url2: "../wrappers/tomsguide",
         apptype2: "wrapper",
-        url: "https://www.tomsguide.com"
+        url: "https://www.tomsguide.com",
+        manifestUrl2: "../wrappers/tomsguide/manifest.json"
       },
       {
         name: "9to5Google",
@@ -3573,7 +3873,8 @@ export const categories = [
         icon: "icons/wrappers/ninetofivegoogle.webp",
         url2: "../wrappers/ninetofivegoogle",
         apptype2: "wrapper",
-        url: "https://9to5google.com"
+        url: "https://9to5google.com",
+        manifestUrl2: "../wrappers/ninetofivegoogle/manifest.json"
       },
       {
         name: "PC Gamer",
@@ -3582,7 +3883,8 @@ export const categories = [
         icon: "icons/wrappers/pcgamer.webp",
         url2: "../wrappers/pcgamer",
         apptype2: "wrapper",
-        url: "https://www.pcgamer.com"
+        url: "https://www.pcgamer.com",
+        manifestUrl2: "../wrappers/pcgamer/manifest.json"
       },
       {
         name: "VideoCardz",
@@ -3591,7 +3893,8 @@ export const categories = [
         icon: "icons/wrappers/videocardz.webp",
         url2: "../wrappers/videocardz",
         apptype2: "wrapper",
-        url: "https://videocardz.com"
+        url: "https://videocardz.com",
+        manifestUrl2: "../wrappers/videocardz/manifest.json"
       },
       {
         name: "MakeUseOf",
@@ -3600,7 +3903,8 @@ export const categories = [
         icon: "icons/wrappers/makeuseof.webp",
         url2: "../wrappers/makeuseof",
         apptype2: "wrapper",
-        url: "https://www.makeuseof.com"
+        url: "https://www.makeuseof.com",
+        manifestUrl2: "../wrappers/makeuseof/manifest.json"
       },
       {
         name: "PCGuide",
@@ -3609,7 +3913,8 @@ export const categories = [
         icon: "icons/wrappers/pcguide.webp",
         url2: "../wrappers/pcguide",
         apptype2: "wrapper",
-        url: "https://www.pcguide.com"
+        url: "https://www.pcguide.com",
+        manifestUrl2: "../wrappers/pcguide/manifest.json"
       },
       {
         name: "The Register",
@@ -3618,7 +3923,8 @@ export const categories = [
         icon: "icons/wrappers/theregister.webp",
         url2: "../wrappers/theregister",
         apptype2: "wrapper",
-        url: "https://www.theregister.com"
+        url: "https://www.theregister.com",
+        manifestUrl2: "../wrappers/theregister/manifest.json"
       },
       {
         name: "Gizmodo",
@@ -3627,7 +3933,8 @@ export const categories = [
         icon: "icons/msedge/gizmodo.webp",
         url2: "../msedge/gizmodo",
         apptype2: "wrapper",
-        url: "https://gizmodo.com"
+        url: "https://gizmodo.com",
+        manifestUrl2: "../msedge/gizmodo/manifest.json"
       },
       {
         name: "VentureBeat",
@@ -3636,7 +3943,8 @@ export const categories = [
         icon: "icons/wrappers/venturebeat.webp",
         url2: "../wrappers/venturebeat",
         apptype2: "wrapper",
-        url: "https://venturebeat.com"
+        url: "https://venturebeat.com",
+        manifestUrl2: "../wrappers/venturebeat/manifest.json"
       },
       {
         name: "iPhone in Canada",
@@ -3645,7 +3953,8 @@ export const categories = [
         icon: "icons/wrappers/iphoneincanada.webp",
         url2: "../wrappers/iphoneincanada",
         apptype2: "wrapper",
-        url: "https://www.iphoneincanada.ca"
+        url: "https://www.iphoneincanada.ca",
+        manifestUrl2: "../wrappers/iphoneincanada/manifest.json"
       },
       {
         name: "GSMArena",
@@ -3654,7 +3963,8 @@ export const categories = [
         icon: "icons/wrappers/gsmarena.webp",
         url2: "../wrappers/gsmarena",
         apptype2: "wrapper",
-        url: "https://www.gsmarena.com"
+        url: "https://www.gsmarena.com",
+        manifestUrl2: "../wrappers/gsmarena/manifest.json"
       },
       {
         name: "LINUX DO",
@@ -3668,14 +3978,18 @@ export const categories = [
         nameKey: "juejin_name",
         icon: "icons/pwa/juejin.webp",
         url: "https://juejin.cn",
-        descriptionKey: "juejin_desc"
+        descriptionKey: "juejin_desc",
+        manifestUrl: "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/favicons/site.webmanifest",
+        manifestId: "https://juejin.cn"
       },
       {
         name: "V2EX",
         nameKey: "v2ex_name",
         descriptionKey: "v2ex_desc",
         icon: "icons/pwa/v2ex.webp",
-        url: "https://global.v2ex.co"
+        url: "https://global.v2ex.co",
+        manifestUrl: "https://global.v2ex.co/manifest.webmanifest",
+        manifestId: "https://global.v2ex.co"
       },
       {
         name: "Emacs China",
@@ -3705,7 +4019,8 @@ export const categories = [
         icon: "icons/wrappers/iproyal.webp",
         url2: "../wrappers/iproyal",
         apptype2: "wrapper",
-        url: "https://iproyal.com"
+        url: "https://iproyal.com",
+        manifestUrl2: "../wrappers/iproyal/manifest.json"
       },
       {
         name: "WIRED",
@@ -3714,7 +4029,8 @@ export const categories = [
         icon: "icons/wrappers/wired.webp",
         url2: "../wrappers/wired",
         apptype2: "wrapper",
-        url: "https://www.wired.com"
+        url: "https://www.wired.com",
+        manifestUrl2: "../wrappers/wired/manifest.json"
       },
       {
         name: "Interesting Engineering",
@@ -3723,7 +4039,8 @@ export const categories = [
         icon: "icons/wrappers/interestingengineering.webp",
         url2: "../wrappers/interestingengineering",
         apptype2: "wrapper",
-        url: "https://interestingengineering.com"
+        url: "https://interestingengineering.com",
+        manifestUrl2: "../wrappers/interestingengineering/manifest.json"
       },
     ]
   },
@@ -3736,7 +4053,9 @@ export const categories = [
         nameKey: "apkpure_name",
         descriptionKey: "apkpure_desc",
         icon: "icons/pwa/apkpure.webp",
-        url: "https://apkpure.com"
+        url: "https://apkpure.com",
+        manifestUrl: "https://apkpure.com/manifest.json",
+        manifestId: "https://apkpure.com"
       },
       {
         name: "Arch Linux AUR",
@@ -3750,7 +4069,9 @@ export const categories = [
         nameKey: "windowsonarm_name",
         descriptionKey: "windowsonarm_desc",
         icon: "icons/pwa/windowsonarm.webp",
-        url: "https://windowsonarm.org"
+        url: "https://windowsonarm.org",
+        manifestUrl: "https://windowsonarm.org/favicons/site.webmanifest",
+        manifestId: "https://windowsonarm.org"
       },
       {
         name: "Windows ARM software (https://armrepo.ver.lt)",
@@ -3759,21 +4080,25 @@ export const categories = [
         icon: "icons/wrappers/msstore.webp",
         url2: "../wrappers/armrepoverlt",
         url: "https://armrepo.ver.lt",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/armrepoverlt/manifest.json"
       },
       {
         name: "RuTracker.org",
         nameKey: "rutrackerorg_name",
         descriptionKey: "rutrackerorg_desc",
         icon: "icons/pwa/rutrackerorg.webp",
-        url: "https://rutracker.org"
+        url: "https://rutracker.org",
+        manifestUrl: "https://rutracker.org/manifest.json",
+        manifestId: "https://rutracker.org"
       },
       {
         name: "AppBrain",
         nameKey: "appbrain_name",
         descriptionKey: "appbrain_desc",
         icon: "icons/pwa/appbrain.webp",
-        url: "https://www.appbrain.com"
+        url: "https://www.appbrain.com",
+        manifestUrl: "https://www.appbrain.com/manifest.json"
       },
       {
         name: "AppAgg",
@@ -3787,14 +4112,18 @@ export const categories = [
         nameKey: "annasarchive_name",
         descriptionKey: "annasarchive_desc",
         icon: "icons/pwa/annasarchive.webp",
-        url: "https://annas-archive.org"
+        url: "https://annas-archive.org",
+        manifestUrl: "https://annas-archive.org/site.webmanifest?hash=076af9a96b0bfbd668cd",
+        manifestId: "https://annas-archive.org"
       },
       {
         name: "Anna's Archive (Chinese)",
         nameKey: "annasarchivezh_name",
         descriptionKey: "annasarchivezh_desc",
         icon: "icons/pwa/annasarchive.webp",
-        url: "https://zh.annas-archive.se"
+        url: "https://zh.annas-archive.se",
+        manifestUrl: "https://zh.annas-archive.se/site.webmanifest?hash=076af9a96b0bfbd668cd",
+        manifestId: "https://zh.annas-archive.se"
       },
       {
         name: "iptv-org",
@@ -3824,7 +4153,8 @@ export const categories = [
         icon: "icons/wrappers/archive.webp",
         url2: "../wrappers/archive",
         url: "https://archive.org",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/archive/manifest.json"
       },
       {
         name: "APK Premier",
@@ -3833,7 +4163,8 @@ export const categories = [
         url2: "../wrappers/apkpremier",
         descriptionKey: "apkpremier_desc",
         url: "https://apkpremier.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/apkpremier/manifest.json"
       },
       {
         name: "Apple App Store",
@@ -3842,7 +4173,8 @@ export const categories = [
         icon: "icons/wrappers/appleappstore.webp",
         url2: "../wrappers/appleappstore",
         url: "https://apps.apple.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/appleappstore/manifest.json"
       },
       {
         name: "AppAdvice",
@@ -3851,7 +4183,8 @@ export const categories = [
         icon: "icons/wrappers/appadvice.webp",
         url2: "../wrappers/appadvice",
         url: "https://appadvice.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/appadvice/manifest.json"
       },
       {
         name: "The Pirate Bay",
@@ -3860,7 +4193,8 @@ export const categories = [
         icon: "icons/wrappers/thepiratebay.webp",
         url2: "../wrappers/thepiratebay",
         apptype2: "wrapper",
-        url: "https://thepiratebay.org"
+        url: "https://thepiratebay.org",
+        manifestUrl2: "../wrappers/thepiratebay/manifest.json"
       },
       {
         name: "PrivacyPack",
@@ -3869,7 +4203,8 @@ export const categories = [
         icon: "icons/wrappers/privacypack.webp",
         url2: "../wrappers/privacypack",
         apptype2: "wrapper",
-        url: "https://privacypack.org"
+        url: "https://privacypack.org",
+        manifestUrl2: "../wrappers/privacypack/manifest.json"
       },
       {
         name: "IPTV Live Sources (IPTV 直播源)",
@@ -3878,7 +4213,8 @@ export const categories = [
         icon: "icons/msedge/iptvtools.webp",
         url2: "../msedge/iptvtools",
         apptype2: "wrapper",
-        url: "https://iptv.hacks.tools"
+        url: "https://iptv.hacks.tools",
+        manifestUrl2: "../msedge/iptvtools/manifest.json"
       },
       {
         name: "OpenSubtitles",
@@ -3887,7 +4223,8 @@ export const categories = [
         icon: "icons/wrappers/opensubtitles.webp",
         url2: "../wrappers/opensubtitles",
         apptype2: "wrapper",
-        url: "https://www.opensubtitles.com"
+        url: "https://www.opensubtitles.com",
+        manifestUrl2: "../wrappers/opensubtitles/manifest.json"
       },
       {
         name: "Plyric",
@@ -3896,7 +4233,8 @@ export const categories = [
         icon: "icons/wrappers/plyric.webp",
         url2: "../wrappers/plyric",
         apptype2: "wrapper",
-        url: "https://plyric.com"
+        url: "https://plyric.com",
+        manifestUrl2: "../wrappers/plyric/manifest.json"
       },
       {
         name: "Lyrics on Demand",
@@ -3905,7 +4243,8 @@ export const categories = [
         icon: "icons/wrappers/lyricsondemand.webp",
         url2: "../wrappers/lyricsondemand",
         apptype2: "wrapper",
-        url: "https://www.lyricsondemand.com"
+        url: "https://www.lyricsondemand.com",
+        manifestUrl2: "../wrappers/lyricsondemand/manifest.json"
       },
     ]
   },
@@ -3925,7 +4264,9 @@ export const categories = [
         nameKey: "godot_name",
         descriptionKey: "godot_desc",
         icon: "icons/pwa/godot.webp",
-        url: "https://editor.godotengine.org"
+        url: "https://editor.godotengine.org",
+        manifestUrl: "https://editor.godotengine.org/manifest.json",
+        manifestId: "https://editor.godotengine.org"
       },
       {
         name: "Postimages",
@@ -3939,14 +4280,18 @@ export const categories = [
         nameKey: "photopea_name",
         descriptionKey: "photopea_desc",
         icon: "icons/pwa/photopea.webp",
-        url: "https://www.photopea.com"
+        url: "https://www.photopea.com",
+        manifestUrl: "https://www.photopea.com/manifest.json",
+        manifestId: "https://www.photopea.com"
       },
       {
         name: "Maskable.app",
         nameKey: "maskableapp_name",
         descriptionKey: "maskableapp_desc",
         icon: "icons/pwa/maskableapp.webp",
-        url: "https://maskable.app"
+        url: "https://maskable.app",
+        manifestUrl: "https://maskable.app/manifest.json",
+        manifestId: "https://maskable.app"
       },
       {
         name: "Storyblocks",
@@ -3983,7 +4328,8 @@ export const categories = [
         icon: "icons/wrappers/canva.webp",
         url2: "../wrappers/canva",
         url: "https://www.canva.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/canva/manifest.json"
       },
       {
         name: "Figma",
@@ -3992,7 +4338,8 @@ export const categories = [
         icon: "icons/msedge/figma.webp",
         url2: "../msedge/figma",
         apptype2: "wrapper",
-        url: "https://www.figma.com"
+        url: "https://www.figma.com",
+        manifestUrl2: "../msedge/figma/manifest.json"
       },
       {
         name: "Subtitle Tools",
@@ -4001,7 +4348,8 @@ export const categories = [
         icon: "icons/wrappers/subtitletools.webp",
         url2: "../wrappers/subtitletools",
         apptype2: "wrapper",
-        url: "https://subtitletools.com"
+        url: "https://subtitletools.com",
+        manifestUrl2: "../wrappers/subtitletools/manifest.json"
       },
       {
         name: "FreeVideoSplitter",
@@ -4010,7 +4358,8 @@ export const categories = [
         icon: "icons/msedge/freevideosplitter.webp",
         url2: "../msedge/freevideosplitter",
         apptype2: "wrapper",
-        url: "https://freevideosplitter.org"
+        url: "https://freevideosplitter.org",
+        manifestUrl2: "../msedge/freevideosplitter/manifest.json"
       },
       {
         name: "Meituxiuxiu (美图秀秀)",
@@ -4026,13 +4375,13 @@ export const categories = [
     name: "News",
     nameKey: "news_name",
     apps: [
-      { name: "RT", nameKey: "rt_name", descriptionKey: "rt_desc", icon: "icons/pwa/rt.webp", url: "https://www.rt.com" },
-      { name: "PressTV", nameKey: "presstv_name", descriptionKey: "presstv_desc", icon: "icons/pwa/presstv.webp", url: "https://www.presstv.ir" },
+      { name: "RT", nameKey: "rt_name", descriptionKey: "rt_desc", icon: "icons/pwa/rt.webp", url: "https://www.rt.com", manifestUrl: "https://www.rt.com/manifest.json", manifestId: "https://www.rt.com" },
+      { name: "PressTV", nameKey: "presstv_name", descriptionKey: "presstv_desc", icon: "icons/pwa/presstv.webp", url: "https://www.presstv.ir", manifestUrl: "https://www.presstv.ir/manifest.json", manifestId: "https://www.presstv.ir" },
       { name: "PressTV(co.uk)", nameKey: "presstvcouk_name", descriptionKey: "presstvcouk_desc", icon: "icons/pwa/presstv.webp", url: "https://www.presstv.co.uk" },
       { name: "Bloomberg", nameKey: "bloomberg_name", descriptionKey: "bloomberg_desc", icon: "icons/pwa/bloomberg.webp", url: "https://www.bloomberg.com" },
 //      { name: "Firstpost", nameKey: "firstpost_name", descriptionKey: "firstpost_desc", icon: "icons/pwa/firstpost.webp", url: "https://www.firstpost.com" },
       { name: "Forbes", nameKey: "forbes_name", descriptionKey: "forbes_desc", icon: "icons/pwa/forbes.webp", url: "https://www.forbes.com" },
-      { name: "PBS", nameKey: "pbs_name", descriptionKey: "pbs_desc", icon: "icons/pwa/pbs.webp", url: "https://www.pbs.org" },
+      { name: "PBS", nameKey: "pbs_name", descriptionKey: "pbs_desc", icon: "icons/pwa/pbs.webp", url: "https://www.pbs.org", manifestUrl: "https://www.pbs.org/manifest.webmanifest", manifestId: "https://www.pbs.org" },
       {
         name: "PBS News",
         nameKey: "pbsnews_name",
@@ -4042,24 +4391,24 @@ export const categories = [
         url2: "../wrappers/pbsnews",
         apptype2: "wrapper",
       },
-      { name: "BBC", nameKey: "bbc_name", descriptionKey: "bbc_desc", icon: "icons/pwa/bbc.webp", url: "https://www.bbc.com" },
-      { name: "Associated Press", nameKey: "ap_name", descriptionKey: "ap_desc", icon: "icons/pwa/associatedpress.webp", url: "https://apnews.com" },
+      { name: "BBC", nameKey: "bbc_name", descriptionKey: "bbc_desc", icon: "icons/pwa/bbc.webp", url: "https://www.bbc.com", manifestUrl: "https://static.files.bbci.co.uk/bbcdotcom/web/20251203-121739-f954f14c69-web-2.35.1-2/site.webmanifest", manifestId: "https://www.bbc.com" },
+      { name: "Associated Press", nameKey: "ap_name", descriptionKey: "ap_desc", icon: "icons/pwa/associatedpress.webp", url: "https://apnews.com", manifestUrl: "https://apnews.com/manifest.json" },
       { name: "In Defence of Marxism", nameKey: "marxism_name", descriptionKey: "marxism_desc", icon: "icons/pwa/indefenseofmarxism.webp", url: "https://marxist.com" },
-      { name: "ABC News", nameKey: "abcnews_name", descriptionKey: "abcnews_desc", icon: "icons/pwa/abcnews.webp", url: "https://abcnews.go.com" },
+      { name: "ABC News", nameKey: "abcnews_name", descriptionKey: "abcnews_desc", icon: "icons/pwa/abcnews.webp", url: "https://abcnews.go.com", manifestUrl: "https://abcnews.go.com/manifest.json", manifestId: "https://abcnews.go.com" },
       { name: "US News", nameKey: "usnews_name", descriptionKey: "usnews_desc", icon: "icons/pwa/usnews.webp", url: "https://www.usnews.com" },
-      { name: "CBS News", nameKey: "cbsnews_name", descriptionKey: "cbsnews_desc", icon: "icons/pwa/cbs.webp", url: "https://www.cbsnews.com" },
-      { name: "NBC", nameKey: "nbc_name", descriptionKey: "nbc_desc", icon: "icons/pwa/nbc.webp", url: "https://www.nbc.com" },
+      { name: "CBS News", nameKey: "cbsnews_name", descriptionKey: "cbsnews_desc", icon: "icons/pwa/cbs.webp", url: "https://www.cbsnews.com", manifestUrl: "https://www.cbsnews.com/manifest.json", manifestId: "https://www.cbsnews.com" },
+      { name: "NBC", nameKey: "nbc_name", descriptionKey: "nbc_desc", icon: "icons/pwa/nbc.webp", url: "https://www.nbc.com", manifestUrl: "https://www.nbc.com/generetic/manifest.json", manifestId: "https://www.nbc.com" },
       { name: "CNBC", nameKey: "cnbc_name", descriptionKey: "cnbc_desc", icon: "icons/pwa/nbc.webp", url: "https://www.cnbc.com" },
       { name: "MSNBC", nameKey: "msnbc_name", descriptionKey: "msnbc_desc", icon: "icons/pwa/nbc.webp", url: "https://www.msnbc.com" },
       { name: "Newsweek", nameKey: "newsweek_name", descriptionKey: "newsweek_desc", icon: "icons/pwa/newsweek.webp", url: "https://www.newsweek.com" },
       { name: "The Hill", nameKey: "thehill_name", descriptionKey: "thehill_desc", icon: "icons/pwa/thehill.webp", url: "https://thehill.com" },
-      { name: "The Independent", nameKey: "independent_name", descriptionKey: "independent_desc", icon: "icons/pwa/independent.webp", url: "https://www.independent.co.uk" },
-      { name: "The Guardian", nameKey: "theguardian_name", descriptionKey: "theguardian_desc", icon: "icons/pwa/theguardian.webp", url: "https://www.theguardian.com" },
+      { name: "The Independent", nameKey: "independent_name", descriptionKey: "independent_desc", icon: "icons/pwa/independent.webp", url: "https://www.independent.co.uk", manifestUrl: "https://www.independent.co.uk/manifest.json", manifestId: "https://www.independent.co.uk" },
+      { name: "The Guardian", nameKey: "theguardian_name", descriptionKey: "theguardian_desc", icon: "icons/pwa/theguardian.webp", url: "https://www.theguardian.com", manifestUrl: "https://assets.guim.co.uk/static/frontend/manifest.json", manifestId: "https://www.theguardian.com" },
       { name: "Nippon TV NEWS (日テレNEWS)", nameKey: "nittele_name", descriptionKey: "nittele_desc", icon: "icons/pwa/nittele.webp", url: "https://news.ntv.co.jp" },
 //      { name: "Economic Times", nameKey: "economictimes_name", descriptionKey: "economictimes_desc", icon: "icons/pwa/economictimes.webp", url: "https://economictimes.indiatimes.com" },
 //      { name: "Hindustan Times", nameKey: "hindustantimes_name", descriptionKey: "hindustantimes_desc", icon: "icons/pwa/hindustantimes.webp", url: "https://www.hindustantimes.com" },
       { name: "DW", nameKey: "dw_name", descriptionKey: "dw_desc", icon: "icons/pwa/dw.webp", url: "https://www.dw.com"},
-      { name: "Le Monde", nameKey: "lemonde_name", descriptionKey: "lemonde_desc", icon: "icons/pwa/lemonde.webp", url: "https://www.lemonde.fr" },
+      { name: "Le Monde", nameKey: "lemonde_name", descriptionKey: "lemonde_desc", icon: "icons/pwa/lemonde.webp", url: "https://www.lemonde.fr", manifestUrl: "https://www.lemonde.fr/manifest.json", manifestId: "https://www.lemonde.fr" },
       {
         name: "Foreign Affairs",
         nameKey: "foreignaffairs_name",
@@ -4072,7 +4421,9 @@ export const categories = [
         nameKey: "timemagazine_name",
         descriptionKey: "timemagazine_desc",
         icon: "icons/pwa/timemagazine.webp",
-        url: "https://time.com"
+        url: "https://time.com",
+        manifestUrl: "https://time.com/manifest.webmanifest",
+        manifestId: "https://time.com"
       },
       {
         name: "Variety",
@@ -4093,7 +4444,9 @@ export const categories = [
         nameKey: "washingtontimes_name",
         descriptionKey: "washingtontimes_desc",
         icon: "icons/pwa/washingtontimes.webp",
-        url: "https://www.washingtontimes.com"
+        url: "https://www.washingtontimes.com",
+        manifestUrl: "https://www.washingtontimes.com/site.webmanifest",
+        manifestId: "https://www.washingtontimes.com"
       },
       {
         name: "South China Morning Post",
@@ -4101,6 +4454,8 @@ export const categories = [
         descriptionKey: "scmp_desc",
         icon: "icons/pwa/scmp.webp",
         url: "https://www.scmp.com",
+        manifestUrl: "https://www.scmp.com/static/manifest.json",
+        manifestId: "https://www.scmp.com"
       },
       {
         name: "Inc.",
@@ -4114,7 +4469,9 @@ export const categories = [
         nameKey: "indiewire_name",
         descriptionKey: "indiewire_desc",
         icon: "icons/pwa/indiewire.webp",
-        url: "https://www.indiewire.com"
+        url: "https://www.indiewire.com",
+        manifestUrl: "https://www.indiewire.com/manifest.json",
+        manifestId: "https://www.indiewire.com"
       },
       {
         name: "France 24",
@@ -4122,6 +4479,8 @@ export const categories = [
         descriptionKey: "france24_desc",
         icon: "icons/pwa/france24.webp",
         url: "https://www.france24.com",
+        manifestUrl: "https://www.france24.com/en/site.manifest",
+        manifestId: "https://www.france24.com"
       },
 /*      {
         name: "News18",
@@ -4137,11 +4496,11 @@ export const categories = [
         icon: "icons/pwa/irishstar.webp",
         url: "https://www.irishstar.com"
       },
-      { name: "Japan Today", nameKey: "japantoday_name", descriptionKey: "japantoday_desc", url: "https://japantoday.com", icon: "icons/pwa/japantoday.webp" },
-      { name: "The Conversation", nameKey: "theconversation_name", descriptionKey: "theconversation_desc", url: "https://theconversation.com", icon: "icons/pwa/theconversation.webp" },
-      { name: "The American Prospect", nameKey: "theamericanprospect_name", descriptionKey: "theamericanprospect_desc", url: "https://prospect.org", icon: "icons/pwa/theamericanprospect.webp" },
+      { name: "Japan Today", nameKey: "japantoday_name", descriptionKey: "japantoday_desc", url: "https://japantoday.com", icon: "icons/pwa/japantoday.webp", manifestUrl: "https://static.japantoday.com/favicons/manifest.json?v=1.5.0", manifestId: "https://japantoday.com" },
+      { name: "The Conversation", nameKey: "theconversation_name", descriptionKey: "theconversation_desc", url: "https://theconversation.com", icon: "icons/pwa/theconversation.webp", manifestUrl: "https://theconversation.com/manifest.json", manifestId: "https://theconversation.com" },
+      { name: "The American Prospect", nameKey: "theamericanprospect_name", descriptionKey: "theamericanprospect_desc", url: "https://prospect.org", icon: "icons/pwa/theamericanprospect.webp", manifestUrl: "https://prospect.org/wp-json/wp/v2/web-app-manifest", manifestId: "https://prospect.org" },
       { name: "African Diaspora News Channel", nameKey: "africandiasporanewschannel_name", descriptionKey: "africandiasporanewschannel_desc", url: "https://africandiasporanews.org", icon: "icons/pwa/africandiasporanewschannel.webp" },
-      { name: "Distractify", nameKey: "distractify_name", descriptionKey: "distractify_desc", url: "https://www.distractify.com", icon: "icons/pwa/distractify.webp" },
+      { name: "Distractify", nameKey: "distractify_name", descriptionKey: "distractify_desc", url: "https://www.distractify.com", icon: "icons/pwa/distractify.webp", manifestUrl: "https://www.distractify.com/manifest.json", manifestId: "https://www.distractify.com" },
       { name: "Los Angeles Times", nameKey: "latimes_name", descriptionKey: "latimes_desc", url: "https://www.latimes.com", icon: "icons/pwa/latimes.webp" },
       { name: "The Wichita Eagle", nameKey: "thewitchitaeagle_name", descriptionKey: "thewitchitaeagle_desc", icon: "icons/msedge/thewitchitaeagle.webp", url: "https://www.kansas.com", apptype_hide: "msedge" },
       {
@@ -4149,7 +4508,9 @@ export const categories = [
         nameKey: "sankei_name",
         descriptionKey: "sankei_desc",
         icon: "icons/pwa/sankei.webp",
-        url: "https://www.sankei.com"
+        url: "https://www.sankei.com",
+        manifestUrl: "https://www.sankei.com/manifest.json",
+        manifestId: "https://www.sankei.com"
       },
       {
         name: "Radio Free Europe / Radio Liberty",
@@ -4242,19 +4603,19 @@ export const categories = [
         icon: "icons/pwa/timesnownews.webp",
         url: "https://www.timesnownews.com"
       },
-      { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url2: "../wrappers/nytimes", url: "https://www.nytimes.com", apptype2: "wrapper" },
-      { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url2: "../wrappers/washingtonpost", url: "https://www.washingtonpost.com", apptype2: "wrapper" },
-      { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url2: "../wrappers/reuters", url: "https://www.reuters.com", apptype2: "wrapper" },
-      { name: "CNN", nameKey: "cnn_name", descriptionKey: "cnn_desc", icon: "icons/wrappers/cnn.webp", url2: "../wrappers/cnn", url: "https://www.cnn.com", apptype2: "wrapper" },
-      { name: "Fox News", nameKey: "foxnews_name", descriptionKey: "foxnews_desc", icon: "icons/wrappers/foxnews.webp", url2: "../wrappers/foxnews", url: "https://www.foxnews.com", apptype2: "wrapper" },
-      { name: "USA Today", nameKey: "usatoday_name", descriptionKey: "usatoday_desc", icon: "icons/wrappers/usatoday.webp", url2: "../wrappers/usatoday", url: "https://www.usatoday.com", apptype2: "wrapper" },
-      { name: "REVCOM.US", nameKey: "revcom_name", descriptionKey: "revcom_desc", icon: "icons/wrappers/revcomus.webp", url2: "../wrappers/revcomus", url: "https://revcom.us/en", apptype2: "wrapper" },
-      { name: "Al Jazeera", nameKey: "aljazeera_name", descriptionKey: "aljazeera_desc", icon: "icons/wrappers/aljazeera.webp", url2: "../wrappers/aljazeera", url: "https://www.aljazeera.com", apptype2: "wrapper" },
-      { name: "Foreign Policy", nameKey: "foreignpolicy_name", descriptionKey: "foreignpolicy_desc", icon: "icons/wrappers/foreignpolicy.webp", url2: "../wrappers/foreignpolicy", url: "https://foreignpolicy.com", apptype2: "wrapper"},
-      { name: "The Telegraph", nameKey: "thetelegraph_name", descriptionKey: "thetelegraph_desc", icon: "icons/wrappers/thetelegraph.webp", url2: "../wrappers/thetelegraph", apptype2: "wrapper", url: "https://www.telegraph.co.uk" },
-      { name: "CGTN", nameKey: "cgtn_name", descriptionKey: "cgtn_desc", icon: "icons/wrappers/cgtn.webp", url2: "../wrappers/cgtn", apptype2: "wrapper", url: "https://www.cgtn.com" },
-      { name: "CCTV", nameKey: "cctv_name", descriptionKey: "cctv_desc", icon: "icons/wrappers/cctv.webp", url2: "../wrappers/cctv", apptype2: "wrapper", apptype_hide: "msedge", url: "https://tv.cctv.com" },
-      { name: "Fortune", nameKey: "fortune_name", descriptionKey: "fortune_desc", icon: "icons/wrappers/fortune.webp", url2: "../wrappers/fortune", apptype2: "wrapper", url: "https://fortune.com"},
+      { name: "New York Times", nameKey: "nyt_name", descriptionKey: "nyt_desc", icon: "icons/wrappers/nytimes.webp", url2: "../wrappers/nytimes", url: "https://www.nytimes.com", apptype2: "wrapper", manifestUrl2: "../wrappers/nytimes/manifest.json" },
+      { name: "Washington Post", nameKey: "washingtonpost_name", descriptionKey: "washingtonpost_desc", icon: "icons/wrappers/washingtonpost.webp", url2: "../wrappers/washingtonpost", url: "https://www.washingtonpost.com", apptype2: "wrapper", manifestUrl2: "../wrappers/washingtonpost/manifest.json" },
+      { name: "Reuters", nameKey: "reuters_name", descriptionKey: "reuters_desc", icon: "icons/wrappers/reuters.webp", url2: "../wrappers/reuters", url: "https://www.reuters.com", apptype2: "wrapper", manifestUrl2: "../wrappers/reuters/manifest.json" },
+      { name: "CNN", nameKey: "cnn_name", descriptionKey: "cnn_desc", icon: "icons/wrappers/cnn.webp", url2: "../wrappers/cnn", url: "https://www.cnn.com", apptype2: "wrapper", manifestUrl2: "../wrappers/cnn/manifest.json" },
+      { name: "Fox News", nameKey: "foxnews_name", descriptionKey: "foxnews_desc", icon: "icons/wrappers/foxnews.webp", url2: "../wrappers/foxnews", url: "https://www.foxnews.com", apptype2: "wrapper", manifestUrl2: "../wrappers/foxnews/manifest.json" },
+      { name: "USA Today", nameKey: "usatoday_name", descriptionKey: "usatoday_desc", icon: "icons/wrappers/usatoday.webp", url2: "../wrappers/usatoday", url: "https://www.usatoday.com", apptype2: "wrapper", manifestUrl2: "../wrappers/usatoday/manifest.json" },
+      { name: "REVCOM.US", nameKey: "revcom_name", descriptionKey: "revcom_desc", icon: "icons/wrappers/revcomus.webp", url2: "../wrappers/revcomus", url: "https://revcom.us/en", apptype2: "wrapper", manifestUrl2: "../wrappers/revcomus/manifest.json" },
+      { name: "Al Jazeera", nameKey: "aljazeera_name", descriptionKey: "aljazeera_desc", icon: "icons/wrappers/aljazeera.webp", url2: "../wrappers/aljazeera", url: "https://www.aljazeera.com", apptype2: "wrapper", manifestUrl2: "../wrappers/aljazeera/manifest.json" },
+      { name: "Foreign Policy", nameKey: "foreignpolicy_name", descriptionKey: "foreignpolicy_desc", icon: "icons/wrappers/foreignpolicy.webp", url2: "../wrappers/foreignpolicy", url: "https://foreignpolicy.com", apptype2: "wrapper", manifestUrl2: "../wrappers/foreignpolicy/manifest.json"},
+      { name: "The Telegraph", nameKey: "thetelegraph_name", descriptionKey: "thetelegraph_desc", icon: "icons/wrappers/thetelegraph.webp", url2: "../wrappers/thetelegraph", apptype2: "wrapper", url: "https://www.telegraph.co.uk", manifestUrl2: "../wrappers/thetelegraph/manifest.json" },
+      { name: "CGTN", nameKey: "cgtn_name", descriptionKey: "cgtn_desc", icon: "icons/wrappers/cgtn.webp", url2: "../wrappers/cgtn", apptype2: "wrapper", url: "https://www.cgtn.com", manifestUrl2: "../wrappers/cgtn/manifest.json" },
+      { name: "CCTV", nameKey: "cctv_name", descriptionKey: "cctv_desc", icon: "icons/wrappers/cctv.webp", url2: "../wrappers/cctv", apptype2: "wrapper", apptype_hide: "msedge", url: "https://tv.cctv.com", manifestUrl2: "../wrappers/cctv/manifest.json" },
+      { name: "Fortune", nameKey: "fortune_name", descriptionKey: "fortune_desc", icon: "icons/wrappers/fortune.webp", url2: "../wrappers/fortune", apptype2: "wrapper", url: "https://fortune.com", manifestUrl2: "../wrappers/fortune/manifest.json"},
       {
         name: "Devdiscourse",
         nameKey: "devdiscourse_name",
@@ -4306,7 +4667,8 @@ export const categories = [
         icon: "icons/msedge/factcheck.webp",
         url2: "../msedge/factcheck",
         url: "https://www.factcheck.org",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../msedge/factcheck/manifest.json"
       },
       {
         name: "Scientific American",
@@ -4315,7 +4677,8 @@ export const categories = [
         icon: "icons/wrappers/scientificamerican.webp",
         url2: "../wrappers/scientificamerican",
         apptype2: "wrapper",
-        url: "https://www.scientificamerican.com"
+        url: "https://www.scientificamerican.com",
+        manifestUrl2: "../wrappers/scientificamerican/manifest.json"
       },
       {
         name: "Popular Mechanics",
@@ -4324,17 +4687,18 @@ export const categories = [
         icon: "icons/wrappers/popularmechanics.webp",
         url2: "../wrappers/popularmechanics",
         apptype2: "wrapper",
-        url: "https://www.popularmechanics.com"
+        url: "https://www.popularmechanics.com",
+        manifestUrl2: "../wrappers/popularmechanics/manifest.json"
       },
-      { name: "Sacramento Bee", nameKey: "sacramentobee_name", descriptionKey: "sacramentobee_desc", icon: "icons/wrappers/sacramentobee.webp", url2: "../wrappers/sacramentobee", apptype2: "wrapper", url: "https://www.sacbee.com" },
-      { name: "POLITICO", nameKey: "politico_name", descriptionKey: "politico_desc", icon: "icons/wrappers/politico.webp", url2: "../wrappers/politico", apptype2: "wrapper", url: "https://www.politico.com" },
-      { name: "The Daily Signal", nameKey: "dailysignal_name", descriptionKey: "dailysignal_desec", icon: "icons/wrappers/dailysignal.webp" , url2: "../wrappers/dailysignal", url: "https://www.dailysignal.com", apptype2: "wrapper" },
-      { name: "FreightWaves", nameKey: "freightwaves_name", descriptionKey: "freightwaves_desc", icon: "icons/wrappers/freightwaves.webp", url2: "../wrappers/freightwaves", url: "https://www.freightwaves.com", apptype2: "wrapper" },
-      { name: "ADWEEK", nameKey: "adweek_name", descriptionKey: "adweek_desc", url2: "../wrappers/adweek", url: "https://www.adweek.com", icon: "icons/wrappers/adweek.webp", apptype2: "wrapper" },
-      { name: "HuffPost", nameKey: "huffpost_name", descriptionKey: "huffpost_desc", url2: "../wrappers/huffpost", url: "https://www.huffpost.com", icon: "icons/wrappers/huffpost.webp", apptype2: "wrapper" },
-      { name: "Miami Herald", nameKey: "miamiherald_name", descriptionKey: "miamiherald_desc", url2: "../wrappers/miamiherald", url: "https://www.miamiherald.com", icon: "icons/wrappers/miamiherald.webp", apptype2: "wrapper" },
-      { name: "Financial Times", nameKey: "financialtimes_name", descriptionKey: "financialtimes_desc", url2: "../wrappers/financialtimes", icon: "icons/wrappers/financialtimes.webp", url: "https://www.ft.com", apptype2: "wrapper" },
-      { name: "Delaware Online", nameKey: "delawareonline_name", descriptionKey: "delawareonline_desc", url2: "../wrappers/delawareonline", url: "https://www.delawareonline.com", icon: "icons/wrappers/delawareonline.webp", apptype2: "wrapper"},
+      { name: "Sacramento Bee", nameKey: "sacramentobee_name", descriptionKey: "sacramentobee_desc", icon: "icons/wrappers/sacramentobee.webp", url2: "../wrappers/sacramentobee", apptype2: "wrapper", url: "https://www.sacbee.com", manifestUrl2: "../wrappers/sacramentobee/manifest.json" },
+      { name: "POLITICO", nameKey: "politico_name", descriptionKey: "politico_desc", icon: "icons/wrappers/politico.webp", url2: "../wrappers/politico", apptype2: "wrapper", url: "https://www.politico.com", manifestUrl2: "../wrappers/politico/manifest.json" },
+      { name: "The Daily Signal", nameKey: "dailysignal_name", descriptionKey: "dailysignal_desec", icon: "icons/wrappers/dailysignal.webp" , url2: "../wrappers/dailysignal", url: "https://www.dailysignal.com", apptype2: "wrapper", manifestUrl2: "../wrappers/dailysignal/manifest.json" },
+      { name: "FreightWaves", nameKey: "freightwaves_name", descriptionKey: "freightwaves_desc", icon: "icons/wrappers/freightwaves.webp", url2: "../wrappers/freightwaves", url: "https://www.freightwaves.com", apptype2: "wrapper", manifestUrl2: "../wrappers/freightwaves/manifest.json" },
+      { name: "ADWEEK", nameKey: "adweek_name", descriptionKey: "adweek_desc", url2: "../wrappers/adweek", url: "https://www.adweek.com", icon: "icons/wrappers/adweek.webp", apptype2: "wrapper", manifestUrl2: "../wrappers/adweek/manifest.json" },
+      { name: "HuffPost", nameKey: "huffpost_name", descriptionKey: "huffpost_desc", url2: "../wrappers/huffpost", url: "https://www.huffpost.com", icon: "icons/wrappers/huffpost.webp", apptype2: "wrapper", manifestUrl2: "../wrappers/huffpost/manifest.json" },
+      { name: "Miami Herald", nameKey: "miamiherald_name", descriptionKey: "miamiherald_desc", url2: "../wrappers/miamiherald", url: "https://www.miamiherald.com", icon: "icons/wrappers/miamiherald.webp", apptype2: "wrapper", manifestUrl2: "../wrappers/miamiherald/manifest.json" },
+      { name: "Financial Times", nameKey: "financialtimes_name", descriptionKey: "financialtimes_desc", url2: "../wrappers/financialtimes", icon: "icons/wrappers/financialtimes.webp", url: "https://www.ft.com", apptype2: "wrapper", manifestUrl2: "../wrappers/financialtimes/manifest.json" },
+      { name: "Delaware Online", nameKey: "delawareonline_name", descriptionKey: "delawareonline_desc", url2: "../wrappers/delawareonline", url: "https://www.delawareonline.com", icon: "icons/wrappers/delawareonline.webp", apptype2: "wrapper", manifestUrl2: "../wrappers/delawareonline/manifest.json"},
       {
         name: "Scripps News",
         nameKey: "scrippsnews_name",
@@ -4342,7 +4706,8 @@ export const categories = [
         icon: "icons/wrappers/scrippsnews.webp",
         url2: "../wrappers/scrippsnews",
         url: "https://www.scrippsnews.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/scrippsnews/manifest.json"
       },
       {
         name: "San Francisco Chronicle",
@@ -4351,7 +4716,8 @@ export const categories = [
         icon: "icons/wrappers/sfchronicle.webp",
         url2: "../wrappers/sfchronicle",
         url: "https://www.sfchronicle.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/sfchronicle/manifest.json"
       },
       {
         name: "Archyde",
@@ -4360,7 +4726,8 @@ export const categories = [
         icon: "icons/wrappers/archyde.webp",
         url2: "../wrappers/archyde",
         apptype2: "wrapper",
-        url: "https://www.archyde.com"
+        url: "https://www.archyde.com",
+        manifestUrl2: "../wrappers/archyde/manifest.json"
       },
       {
         name: "Democracy Now!",
@@ -4369,7 +4736,8 @@ export const categories = [
         icon: "icons/wrappers/democracynow.webp",
         url2: "../wrappers/democracynow",
         apptype2: "wrapper",
-        url: "https://www.democracynow.org"
+        url: "https://www.democracynow.org",
+        manifestUrl2: "../wrappers/democracynow/manifest.json"
       },
       {
         name: "Salon",
@@ -4379,7 +4747,8 @@ export const categories = [
         url2: "../msedge/salon",
         apptype_hide: "msedge",
         url: "https://www.salon.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../msedge/salon/manifest.json"
       },
       {
         name: "NPR",
@@ -4390,6 +4759,7 @@ export const categories = [
         apptype2: "wrapper",
         url: "https://www.npr.org",
         apptype_hide: "msedge",
+        manifestUrl2: "../msedge/npr/manifest.json"
       },
       {
         name: "Futurity",
@@ -4398,7 +4768,8 @@ export const categories = [
         icon: "icons/wrappers/futurity.webp",
         url2: "../wrappers/futurity",
         apptype2: "wrapper",
-        url: "https://www.futurity.org"
+        url: "https://www.futurity.org",
+        manifestUrl2: "../wrappers/futurity/manifest.json"
       },
       {
         name: "People",
@@ -4407,7 +4778,8 @@ export const categories = [
         icon: "icons/wrappers/people.webp",
         url2: "../wrappers/people",
         apptype2: "wrapper",
-        url: "https://people.com"
+        url: "https://people.com",
+        manifestUrl2: "../wrappers/people/manifest.json"
       },
       {
         name: "Hello Partner",
@@ -4416,7 +4788,8 @@ export const categories = [
         icon: "icons/wrappers/hellopartner.webp",
         url2: "../wrappers/hellopartner",
         apptype2: "wrapper",
-        url: "https://hellopartner.com"
+        url: "https://hellopartner.com",
+        manifestUrl2: "../wrappers/hellopartner/manifest.json"
       },
       {
         name: "C-SPAN",
@@ -4425,7 +4798,8 @@ export const categories = [
         icon: "icons/wrappers/cspan.webp",
         url2: "../wrappers/cspan",
         apptype2: "wrapper",
-        url: "https://www.c-span.org"
+        url: "https://www.c-span.org",
+        manifestUrl2: "../wrappers/cspan/manifest.json"
       },
       {
         name: "ICIJ",
@@ -4434,7 +4808,8 @@ export const categories = [
         icon: "icons/wrappers/icij.webp",
         url2: "../wrappers/icij",
         apptype2: "wrapper",
-        url: "https://www.icij.org"
+        url: "https://www.icij.org",
+        manifestUrl2: "../wrappers/icij/manifest.json"
       },
       {
         name: "The Atlantic",
@@ -4443,7 +4818,8 @@ export const categories = [
         icon: "icons/wrappers/theatlantic.webp",
         url2: "../wrappers/theatlantic",
         apptype2: "wrapper",
-        url: "https://www.theatlantic.com"
+        url: "https://www.theatlantic.com",
+        manifestUrl2: "../wrappers/theatlantic/manifest.json"
       },
       {
         name: "Zaobao (联合早报)",
@@ -4452,12 +4828,13 @@ export const categories = [
         icon: "icons/wrappers/zaobao.webp",
         url2: "../wrappers/zaobao",
         apptype2: "wrapper",
-        url: "https://www.zaobao.com.sg"
+        url: "https://www.zaobao.com.sg",
+        manifestUrl2: "../wrappers/zaobao/manifest.json"
       },
-      { name: "ifeng (凤凰网)", nameKey: "ifeng_name", descriptionKey: "ifeng_desc", icon: "icons/wrappers/ifeng.webp", url2: "../wrappers/ifeng", url: "https://www.ifeng.com", apptype2: "wrapper" },
+      { name: "ifeng (凤凰网)", nameKey: "ifeng_name", descriptionKey: "ifeng_desc", icon: "icons/wrappers/ifeng.webp", url2: "../wrappers/ifeng", url: "https://www.ifeng.com", apptype2: "wrapper", manifestUrl2: "../wrappers/ifeng/manifest.json" },
       { name: "Tencent News (腾讯新闻)", nameKey: "tencent_name", descriptionKey: "tencent_desc", icon: "icons/pwa/tencent_news.webp", url: "https://news.qq.com" },
       { name: "Baidu (百度)", nameKey: "baidu_name", descriptionKey: "baidu_desc", icon: "icons/pwa/baidu.webp", url: "https://www.baidu.com" },
-      { name: "Sohu (搜狐)", nameKey: "sohu_name", descriptionKey: "sohu_desc", icon: "icons/pwa/sohu.webp", url: "https://www.sohu.com" },
+      { name: "Sohu (搜狐)", nameKey: "sohu_name", descriptionKey: "sohu_desc", icon: "icons/pwa/sohu.webp", url: "https://www.sohu.com", manifestUrl: "https://g1.itc.cn/msfe-pch-prod/2025082603/pwa/manifest.json", manifestId: "https://www.sohu.com" },
       {
         name: "Guanchazhe (观察者网)",
         nameKey: "guanchazhe_name",
@@ -4465,7 +4842,8 @@ export const categories = [
         icon: "icons/wrappers/guanchazhe.webp",
         url2: "../wrappers/guanchazhe",
         url: "https://www.guancha.cn",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/guanchazhe/manifest.json"
       },
       {
         name: "Wuyouzhixiang (乌有之乡)",
@@ -4474,7 +4852,8 @@ export const categories = [
         icon: "icons/wrappers/wuyouzhixiang.webp",
         url2: "../wrappers/wuyouzhixiang",
         url: "https://www.wyzxwk.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/wuyouzhixiang/manifest.json"
       },
       {
         name: "Honggehui (红歌会)",
@@ -4483,7 +4862,8 @@ export const categories = [
         icon: "icons/wrappers/honggehui.webp",
         url2: "../wrappers/honggehui",
         url: "https://www.szhgh.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/honggehui/manifest.json"
       },
       {
         name: "Xinyusi (新语丝)",
@@ -4492,7 +4872,8 @@ export const categories = [
         icon: "icons/wrappers/xinyusi.webp",
         url2: "../wrappers/xinyusi",
         url: "https://xinyusi.org",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/xinyusi/manifest.json"
       },
       {
         name: "21jingji (21经济)",
@@ -4502,6 +4883,7 @@ export const categories = [
         url: "https://www.21jingji.com",
         url2: "../msedge/21jingji",
         apptype2: "wrapper",
+        manifestUrl2: "../msedge/21jingji/manifest.json"
       },
       {
         name: "The Chosun Daily (조선일보)",
@@ -4510,9 +4892,10 @@ export const categories = [
         icon: "icons/wrappers/thechosundaily.webp",
         url2: "../wrappers/thechosundaily",
         url: "https://www.chosun.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/thechosundaily/manifest.json"
       },
-      { name: "Radio Television of Afghanistan (RTA)", nameKey: "rtaaf_name", descriptionKey: "rtaaf_desc", url2: "../wrappers/rtaaf", url: "https://rta.af", icon: "icons/wrappers/rtaaf.webp", apptype2: "wrapper" },
+      { name: "Radio Television of Afghanistan (RTA)", nameKey: "rtaaf_name", descriptionKey: "rtaaf_desc", url2: "../wrappers/rtaaf", url: "https://rta.af", icon: "icons/wrappers/rtaaf.webp", apptype2: "wrapper", manifestUrl2: "../wrappers/rtaaf/manifest.json" },
       {
         name: "QStheory (求是)",
         nameKey: "qstheory_name",
@@ -4520,7 +4903,8 @@ export const categories = [
         icon: "icons/wrappers/qstheory.webp",
         url2: "../wrappers/qstheory",
         apptype2: "wrapper",
-        url: "https://www.qstheory.cn"
+        url: "https://www.qstheory.cn",
+        manifestUrl2: "../wrappers/qstheory/manifest.json"
       },
       {
         name: "Communist Party of Iran (Marxist–Leninist–Maoist) (حزب کمونیست ایران مارکسیست لنینیست مائوئیست)",
@@ -4530,7 +4914,8 @@ export const categories = [
         url2: "../msedge/cpimlm",
         apptype_hide: "msedge",
         apptype2: "wrapper",
-        url: "https://cpimlm.org"
+        url: "https://cpimlm.org",
+        manifestUrl2: "../msedge/cpimlm/manifest.json"
       },
       {
         name: "Geopolitical Economy Report",
@@ -4539,7 +4924,8 @@ export const categories = [
         icon: "icons/wrappers/geopoliticaleconomy.webp",
         url2: "../wrappers/geopoliticaleconomy",
         apptype2: "wrapper",
-        url: "https://geopoliticaleconomy.com"
+        url: "https://geopoliticaleconomy.com",
+        manifestUrl2: "../wrappers/geopoliticaleconomy/manifest.json"
       },
       {
         name: "World Affairs in Context",
@@ -4548,7 +4934,8 @@ export const categories = [
         icon: "icons/wrappers/worldaffairsincontext.webp",
         url2: "../wrappers/worldaffairsincontext",
         apptype2: "wrapper",
-        url: "https://www.worldaffairsincontext.com"
+        url: "https://www.worldaffairsincontext.com",
+        manifestUrl2: "../wrappers/worldaffairsincontext/manifest.json"
       },
       {
         name: "Democracy at Work",
@@ -4557,7 +4944,8 @@ export const categories = [
         icon: "icons/wrappers/democracyatwork.webp",
         url2: "../wrappers/democracyatwork",
         apptype2: "wrapper",
-        url: "https://www.democracyatwork.info"
+        url: "https://www.democracyatwork.info",
+        manifestUrl2: "../wrappers/democracyatwork/manifest.json"
       },
       {
         name: "ProPublica",
@@ -4566,7 +4954,8 @@ export const categories = [
         icon: "icons/wrappers/propublica.webp",
         url2: "../wrappers/propublica",
         apptype2: "wrapper",
-        url: "https://www.propublica.org"
+        url: "https://www.propublica.org",
+        manifestUrl2: "../wrappers/propublica/manifest.json"
       },
 /*      {
         name: "Bar & Bench",
@@ -4584,7 +4973,8 @@ export const categories = [
         icon: "icons/wrappers/mprnews.webp",
         url2: "../wrappers/mprnews",
         apptype2: "wrapper",
-        url: "https://www.mprnews.org"
+        url: "https://www.mprnews.org",
+        manifestUrl2: "../wrappers/mprnews/manifest.json"
       },
       {
         name: "Xinhua English",
@@ -4593,7 +4983,8 @@ export const categories = [
         icon: "icons/wrappers/xinhuanews.webp",
         url2: "../wrappers/xinhuaenglish",
         apptype2: "wrapper",
-        url: "https://english.news.cn"
+        url: "https://english.news.cn",
+        manifestUrl2: "../wrappers/xinhuaenglish/manifest.json"
       },
       {
         name: "The Fluctus",
@@ -4602,7 +4993,8 @@ export const categories = [
         icon: "icons/wrappers/thefluctus.webp",
         url2: "../wrappers/thefluctus",
         apptype2: "wrapper",
-        url: "https://www.thefluctus.com"
+        url: "https://www.thefluctus.com",
+        manifestUrl2: "../wrappers/thefluctus/manifest.json"
       },
       {
         name: "Law & Crime",
@@ -4611,7 +5003,8 @@ export const categories = [
         icon: "icons/wrappers/lawandcrime.webp",
         url2: "../wrappers/lawandcrime",
         apptype2: "wrapper",
-        url: "https://lawandcrime.com"
+        url: "https://lawandcrime.com",
+        manifestUrl2: "../wrappers/lawandcrime/manifest.json"
       },
 	   {
         name: "LiveScience",
@@ -4620,7 +5013,8 @@ export const categories = [
         icon: "icons/wrappers/livescience.webp",
         url2: "../wrappers/livescience",
         apptype2: "wrapper",
-        url: "https://www.livescience.com"
+        url: "https://www.livescience.com",
+        manifestUrl2: "../wrappers/livescience/manifest.json"
       },
       {
         name: "WBKO",
@@ -4629,7 +5023,8 @@ export const categories = [
         icon: "icons/wrappers/wbko.webp",
         url2: "../wrappers/wbko",
         apptype2: "wrapper",
-        url: "https://www.wbko.com"
+        url: "https://www.wbko.com",
+        manifestUrl2: "../wrappers/wbko/manifest.json"
       },
       {
         name: "Western Journal",
@@ -4638,7 +5033,8 @@ export const categories = [
         icon: "icons/wrappers/westernjournal.webp",
         url2: "../wrappers/westernjournal",
         apptype2: "wrapper",
-        url: "https://www.westernjournal.com"
+        url: "https://www.westernjournal.com",
+        manifestUrl2: "../wrappers/westernjournal/manifest.json"
       },
       {
         name: "Mediaite",
@@ -4647,7 +5043,8 @@ export const categories = [
         icon: "icons/wrappers/mediaite.webp",
         url2: "../wrappers/mediaite",
         apptype2: "wrapper",
-        url: "https://www.mediaite.com"
+        url: "https://www.mediaite.com",
+        manifestUrl2: "../wrappers/mediaite/manifest.json"
       },
       {
         name: "Surprising Ethics",
@@ -4656,7 +5053,8 @@ export const categories = [
         icon: "icons/msedge/surprisingethics.webp",
         url2: "../msedge/surprisingethics",
         apptype2: "wrapper",
-        url: "https://surprisingethics.buzzsprout.com"
+        url: "https://surprisingethics.buzzsprout.com",
+        manifestUrl2: "../msedge/surprisingethics/manifest.json"
       },
       {
         name: "MySPA",
@@ -4665,7 +5063,8 @@ export const categories = [
         icon: "icons/wrappers/myspa.webp",
         url2: "../wrappers/myspa",
         apptype2: "wrapper",
-        url: "https://myspa.nikkan-spa.jp"
+        url: "https://myspa.nikkan-spa.jp",
+        manifestUrl2: "../wrappers/myspa/manifest.json"
       },
       {
         name: "Joshi-SPA!",
@@ -4674,7 +5073,8 @@ export const categories = [
         icon: "icons/wrappers/joshispa.webp",
         url2: "../wrappers/joshispa",
         apptype2: "wrapper",
-        url: "https://joshi-spa.jp"
+        url: "https://joshi-spa.jp",
+        manifestUrl2: "../wrappers/joshispa/manifest.json"
       },
       {
         name: "Lianyungang Daily (连云港日报)",
@@ -4692,7 +5092,8 @@ export const categories = [
         url2: "../msedge/swissinfo",
         apptype2: "wrapper",
         apptype_hide: "msedge",
-        url: "https://www.swissinfo.ch"
+        url: "https://www.swissinfo.ch",
+        manifestUrl2: "../msedge/swissinfo/manifest.json"
       },
       {
         name: "Novaya Gazeta Europe",
@@ -4702,7 +5103,8 @@ export const categories = [
         url2: "../msedge/novayagazeta",
         apptype2: "wrapper",
         apptype_hide: "msedge",
-        url: "https://novayagazeta.eu"
+        url: "https://novayagazeta.eu",
+        manifestUrl2: "../msedge/novayagazeta/manifest.json"
       },
       {
         name: "Eyerys",
@@ -4711,7 +5113,8 @@ export const categories = [
         icon: "icons/wrappers/eyerys.webp",
         url2: "../wrappers/eyerys",
         apptype2: "wrapper",
-        url: "https://www.eyerys.com"
+        url: "https://www.eyerys.com",
+        manifestUrl2: "../wrappers/eyerys/manifest.json"
       },
       {
         name: "The Straits Times",
@@ -4720,7 +5123,8 @@ export const categories = [
         icon: "icons/wrappers/straitstimes.webp",
         url2: "../wrappers/straitstimes",
         apptype2: "wrapper",
-        url: "https://www.straitstimes.com"
+        url: "https://www.straitstimes.com",
+        manifestUrl2: "../wrappers/straitstimes/manifest.json"
       },
       {
         name: "Parliamentlive.tv",
@@ -4729,7 +5133,8 @@ export const categories = [
         icon: "icons/wrappers/parliamentlive.webp",
         url2: "../wrappers/parliamentlive",
         apptype2: "wrapper",
-        url: "https://parliamentlive.tv"
+        url: "https://parliamentlive.tv",
+        manifestUrl2: "../wrappers/parliamentlive/manifest.json"
       },
       {
         name: "SRN News",
@@ -4738,7 +5143,8 @@ export const categories = [
         icon: "icons/wrappers/srnnews.webp",
         url2: "../wrappers/srnnews",
         apptype2: "wrapper",
-        url: "https://srnnews.com"
+        url: "https://srnnews.com",
+        manifestUrl2: "../wrappers/srnnews/manifest.json"
       },
       {
         name: "Bluewin",
@@ -4747,7 +5153,8 @@ export const categories = [
         icon: "icons/wrappers/bluewin.webp",
         url2: "../wrappers/bluewin",
         apptype2: "wrapper",
-        url: "https://www.bluewin.ch"
+        url: "https://www.bluewin.ch",
+        manifestUrl2: "../wrappers/bluewin/manifest.json"
       },
       {
         name: "The Tonga Independent",
@@ -4765,7 +5172,8 @@ export const categories = [
         icon: "icons/wrappers/electronicintifada.webp",
         url2: "../wrappers/electronicintifada",
         apptype2: "wrapper",
-        url: "https://electronicintifada.net"
+        url: "https://electronicintifada.net",
+        manifestUrl2: "../wrappers/electronicintifada/manifest.json"
       },
       {
         name: "South Florida Sun Sentinel",
@@ -4774,7 +5182,8 @@ export const categories = [
         icon: "icons/wrappers/sunsentinel.webp",
         url2: "../wrappers/sunsentinel",
         apptype2: "wrapper",
-        url: "https://www.sun-sentinel.com"
+        url: "https://www.sun-sentinel.com",
+        manifestUrl2: "../wrappers/sunsentinel/manifest.json"
       },
     ]
   },
@@ -4784,8 +5193,8 @@ export const categories = [
     apps: [
       { name: "InStyle", nameKey: "instyle_name", descriptionKey: "instyle_desc", icon: "icons/pwa/instyle.webp", url: "https://www.instyle.com" },
       { name: "ELLE", nameKey: "elle_name", descriptionKey: "elle_desc", icon: "icons/pwa/elle.webp", url: "https://www.elle.com" },
-      { name: "Marie Claire", nameKey: "marieclaire_name", descriptionKey: "marieclaire_desc", icon: "icons/wrappers/marieclaire.webp", url2: "../wrappers/marieclaire", apptype2: "wrapper", url: "https://www.marieclaire.com" },
-      { name: "Yueyanshe (悦颜社)", nameKey: "yueyanshe_name", descriptionKey: "yueyanshe_desc", icon: "icons/wrappers/yueyanshe.webp", url2: "../wrappers/yueyanshe", apptype2: "wrapper", url: "https://yueyanshe.com" },
+      { name: "Marie Claire", nameKey: "marieclaire_name", descriptionKey: "marieclaire_desc", icon: "icons/wrappers/marieclaire.webp", url2: "../wrappers/marieclaire", apptype2: "wrapper", url: "https://www.marieclaire.com", manifestUrl2: "../wrappers/marieclaire/manifest.json" },
+      { name: "Yueyanshe (悦颜社)", nameKey: "yueyanshe_name", descriptionKey: "yueyanshe_desc", icon: "icons/wrappers/yueyanshe.webp", url2: "../wrappers/yueyanshe", apptype2: "wrapper", url: "https://yueyanshe.com", manifestUrl2: "../wrappers/yueyanshe/manifest.json" },
       {
         name: "WWD",
         nameKey: "wwd_name",
@@ -4793,7 +5202,8 @@ export const categories = [
         icon: "icons/wrappers/wwd.webp",
         url2: "../wrappers/wwd",
         apptype2: "wrapper",
-        url: "https://wwd.com"
+        url: "https://wwd.com",
+        manifestUrl2: "../wrappers/wwd/manifest.json"
       },
       {
         name: "Harper's Bazaar",
@@ -4802,7 +5212,8 @@ export const categories = [
         icon: "icons/wrappers/harpersbazaar.webp",
         url2: "../wrappers/harpersbazaar",
         apptype2: "wrapper",
-        url: "https://www.harpersbazaar.com"
+        url: "https://www.harpersbazaar.com",
+        manifestUrl2: "../wrappers/harpersbazaar/manifest.json"
       },
       {
         name: "The List",
@@ -4811,7 +5222,8 @@ export const categories = [
         icon: "icons/wrappers/thelist.webp",
         url2: "../wrappers/thelist",
         apptype2: "wrapper",
-        url: "https://www.thelist.com"
+        url: "https://www.thelist.com",
+        manifestUrl2: "../wrappers/thelist/manifest.json"
       },
     ]
   },
@@ -4819,23 +5231,23 @@ export const categories = [
     name: "Entertainment Platform",
     nameKey: "entertainmentplatform_name",
     apps : [
-      { name: "AGE Animation (AGE动漫)", nameKey: "age_name", descriptionKey: "age_desc", icon: "icons/msedge/ageanimation.webp", url: "https://www.agedm.io", apptype2: "wrapper", url2: "../msedge/ageanimation" },
-      { name: "Disney+", nameKey: "disneyplus_name", descriptionKey: "disneyplus_desc", icon: "icons/pwa/disneyplus.webp", url: "https://www.disneyplus.com" },
+      { name: "AGE Animation (AGE动漫)", nameKey: "age_name", descriptionKey: "age_desc", icon: "icons/msedge/ageanimation.webp", url: "https://www.agedm.io", apptype2: "wrapper", url2: "../msedge/ageanimation", manifestUrl2: "../msedge/ageanimation/manifest.json" },
+      { name: "Disney+", nameKey: "disneyplus_name", descriptionKey: "disneyplus_desc", icon: "icons/pwa/disneyplus.webp", url: "https://www.disneyplus.com", manifestUrl: "https://www.disneyplus.com/manifest.json", manifestId: "https://www.disneyplus.com" },
       { name: "Hulu", nameKey: "hulu_name", descriptionKey: "hulu_desc", icon: "icons/pwa/hulu.webp", url: "https://www.hulu.com" },
       { name: "ViX (vix.com)", nameKey: "vixcom_name", descriptionKey: "vixcom_desc", icon: "icons/pwa/vix.webp", url: "https://www.vix.com" },
       { name: "ViX (vix.watch)", nameKey: "vixwatch_name", descriptionKey: "vixwatch_desc", icon: "icons/pwa/vix.webp", url: "https://vix.watch" },
-      { name: "ESPN", nameKey: "espn_name", descriptionKey: "espn_desc", icon: "icons/pwa/espn.webp", url: "https://www.espn.com" },
-      { name: "MangaDex", nameKey: "mangadex_name", descriptionKey: "mangadex_desc", icon: "icons/pwa/mangadex.webp", url: "https://mangadex.org" },
+      { name: "ESPN", nameKey: "espn_name", descriptionKey: "espn_desc", icon: "icons/pwa/espn.webp", url: "https://www.espn.com", manifestUrl: "https://www.espn.com/manifest.json", manifestId: "https://www.espn.com" },
+      { name: "MangaDex", nameKey: "mangadex_name", descriptionKey: "mangadex_desc", icon: "icons/pwa/mangadex.webp", url: "https://mangadex.org", manifestUrl: "https://mangadex.org/manifest.webmanifest" },
       { name: "Crunchyroll", nameKey: "crunchyroll_name", descriptionKey: "crunchyroll_desc", icon: "icons/pwa/crunchyroll.webp", url: "https://www.crunchyroll.com" },
-      { name: "AnimeKai", nameKey: "animekai_name", descriptionKey: "animekai_desc", icon: "icons/pwa/animekai.webp" , url: "https://animekai.to" },
+      { name: "AnimeKai", nameKey: "animekai_name", descriptionKey: "animekai_desc", icon: "icons/pwa/animekai.webp" , url: "https://animekai.to", manifestUrl: "https://animekai.to/manifest.json?v4", manifestId: "https://animekai.to" },
       {
         name: "Sling", nameKey: "sling_name", descriptionKey: "sling_desc",
         icon: "icons/pwa/sling.webp", url: "https://www.sling.com"
       },
-      { name: "Linovelib", nameKey: "linovelib_name", descriptionKey: "linovelib_desc", icon: "icons/msedge/linovelib.webp", url: "https://www.linovelib.com", apptype2: "wrapper", url2: "../msedge/linovelib" },
-      { name: "Bilinovel", nameKey: "bilinovel_name", descriptionKey: "bilinovel_desc", icon: "icons/msedge/linovelib.webp", url: "https://www.bilinovel.com", apptype2: "wrapper", url2: "../msedge/bilinovel" },
-      { name: "Nebula", nameKey: "nebula_name", descriptionKey: "nebula_desc", icon: "icons/pwa/nebula.webp", url: "https://nebula.tv" },
-      { name: "Tubi", nameKey: "tubitv_name", descriptionKey: "tubitv_desc", icon: "icons/pwa/tubitv.webp", url: "https://tubitv.com" },
+      { name: "Linovelib", nameKey: "linovelib_name", descriptionKey: "linovelib_desc", icon: "icons/msedge/linovelib.webp", url: "https://www.linovelib.com", apptype2: "wrapper", url2: "../msedge/linovelib", manifestUrl2: "../msedge/linovelib/manifest.json" },
+      { name: "Bilinovel", nameKey: "bilinovel_name", descriptionKey: "bilinovel_desc", icon: "icons/msedge/linovelib.webp", url: "https://www.bilinovel.com", apptype2: "wrapper", url2: "../msedge/bilinovel", manifestUrl2: "../msedge/bilinovel/manifest.json" },
+      { name: "Nebula", nameKey: "nebula_name", descriptionKey: "nebula_desc", icon: "icons/pwa/nebula.webp", url: "https://nebula.tv", manifestUrl: "https://nebula.tv/manifest.json", manifestId: "https://nebula.tv" },
+      { name: "Tubi", nameKey: "tubitv_name", descriptionKey: "tubitv_desc", icon: "icons/pwa/tubitv.webp", url: "https://tubitv.com", manifestUrl: "https://tubitv.com/manifest.json", manifestId: "https://tubitv.com" },
       { name: "Dubok (独播库)", nameKey: "dubok_name", descriptionKey: "dubok_desc", icon: "icons/pwa/dubok.webp", url: "https://www.dubok.tv" },
       { name: "Youku (优酷)", nameKey: "youku_name", descriptionKey: "youku_desc", icon: "icons/pwa/youku.webp", url: "https://www.youku.com" },
       {
@@ -4866,13 +5278,13 @@ export const categories = [
         icon: "icons/pwa/yanmaga.webp",
         url: "https://yanmaga.jp"
       },
-      { name: "Lightnovel Kingdom (轻之国度)", nameKey: "lightnovel_name", descriptionKey: "lightnovel_desc", icon: "icons/wrappers/lightnovelkingdom.webp", url2: "../wrappers/lightnovelkingdom", apptype2: "wrapper", url: "https://www.lightnovel.fun/cn" },
-      { name: "WeChat Read (微信读书)", nameKey: "wechatread_name", descriptionKey: "wechatread_desc", icon: "icons/wrappers/wechatread.webp", url2: "../wrappers/wechatread", apptype2: "wrapper", url: "https://weread.qq.com" },
+      { name: "Lightnovel Kingdom (轻之国度)", nameKey: "lightnovel_name", descriptionKey: "lightnovel_desc", icon: "icons/wrappers/lightnovelkingdom.webp", url2: "../wrappers/lightnovelkingdom", apptype2: "wrapper", url: "https://www.lightnovel.fun/cn", manifestUrl2: "../wrappers/lightnovelkingdom/manifest.json" },
+      { name: "WeChat Read (微信读书)", nameKey: "wechatread_name", descriptionKey: "wechatread_desc", icon: "icons/wrappers/wechatread.webp", url2: "../wrappers/wechatread", apptype2: "wrapper", url: "https://weread.qq.com", manifestUrl2: "../wrappers/wechatread/manifest.json" },
       { name: "Qingting FM (蜻蜓FM)", nameKey: "qingtingfm_name", descriptionKey: "qingtingfm_desc", icon: "icons/wrappers/qingtingfm.webp", apptype2: "wrapper", url: "https://www.qtfm.cn" },
-      { name: "Ximalaya (喜马拉雅)", nameKey: "ximalaya_name", descriptionKey: "ximalaya_desc", icon: "icons/wrappers/ximalaya.webp", url2: "../wrappers/ximalaya", apptype2: "wrapper", url: "https://www.ximalaya.com" },
-      { name: "TED", nameKey: "ted_name", descriptionKey: "ted_desc", icon: "icons/wrappers/ted.webp", url2: "../wrappers/ted", apptype2: "wrapper", url: "https://www.ted.com" },
-      { name: "Netflix", nameKey: "netflix_name", descriptionKey: "netflix_desc", icon: "icons/wrappers/netflix.webp", url2: "../wrappers/netflix", apptype2: "wrapper", url: "https://www.netflix.com" },
-      { name: "Pixiv", nameKey: "pixiv_name", descriptionKey: "pixiv_desc", icon: "icons/wrappers/pixiv.webp", url2: "../wrappers/pixiv", apptype2: "wrapper", url: "https://www.pixiv.net" },
+      { name: "Ximalaya (喜马拉雅)", nameKey: "ximalaya_name", descriptionKey: "ximalaya_desc", icon: "icons/wrappers/ximalaya.webp", url2: "../wrappers/ximalaya", apptype2: "wrapper", url: "https://www.ximalaya.com", manifestUrl2: "../wrappers/ximalaya/manifest.json" },
+      { name: "TED", nameKey: "ted_name", descriptionKey: "ted_desc", icon: "icons/wrappers/ted.webp", url2: "../wrappers/ted", apptype2: "wrapper", url: "https://www.ted.com", manifestUrl2: "../wrappers/ted/manifest.json" },
+      { name: "Netflix", nameKey: "netflix_name", descriptionKey: "netflix_desc", icon: "icons/wrappers/netflix.webp", url2: "../wrappers/netflix", apptype2: "wrapper", url: "https://www.netflix.com", manifestUrl2: "../wrappers/netflix/manifest.json" },
+      { name: "Pixiv", nameKey: "pixiv_name", descriptionKey: "pixiv_desc", icon: "icons/wrappers/pixiv.webp", url2: "../wrappers/pixiv", apptype2: "wrapper", url: "https://www.pixiv.net", manifestUrl2: "../wrappers/pixiv/manifest.json" },
 //      { name: "DramaBox", nameKey: "dramabox_name", descriptionKey: "dramabox_desc", icon: "icons/wrappers/dramabox.webp", url2: "../wrappers/dramabox", apptype2: "wrapper", url: "https://www.dramaboxapp.com" },
       {
         name: "yinghuafabu⚠️💣",
@@ -4882,7 +5294,8 @@ export const categories = [
         url2: "../wrappers/yinghuafabu",
         apptype2: "wrapper",
         url: "https://www.yinghuafabu.com",
-        nsfw: true
+        nsfw: true,
+        manifestUrl2: "../wrappers/yinghuafabu/manifest.json"
       },
       {
         name: "yinghuadongmanorg",
@@ -4891,7 +5304,8 @@ export const categories = [
         icon: "icons/wrappers/yinghuadongmanorg.webp",
         url2: "../wrappers/yinghuadongmanorg",
         apptype2: "wrapper",
-        url: "https://yinghuadongman.org.cn"
+        url: "https://yinghuadongman.org.cn",
+        manifestUrl2: "../wrappers/yinghuadongmanorg/manifest.json"
       },
       {
         name: "vyhhua⚠️💣",
@@ -4901,7 +5315,8 @@ export const categories = [
         url2: "../wrappers/vyhhua",
         apptype2: "wrapper",
         url: "https://v.yhhua.com.cn",
-        nsfw: true
+        nsfw: true,
+        manifestUrl2: "../wrappers/vyhhua/manifest.json"
       },
       {
         name: "GYING (观影)",
@@ -4910,7 +5325,8 @@ export const categories = [
         icon: "icons/wrappers/gying.webp",
         url2: "../wrappers/gying",
         apptype2: "wrapper",
-        url: "https://www.gying.si"
+        url: "https://www.gying.si",
+        manifestUrl2: "../wrappers/gying/manifest.json"
       },
       {
         name: "AFV",
@@ -4919,7 +5335,8 @@ export const categories = [
         icon: "icons/wrappers/afv.webp",
         url2: "../wrappers/afv",
         apptype2: "wrapper",
-        url: "https://www.afv.com"
+        url: "https://www.afv.com",
+        manifestUrl2: "../wrappers/afv/manifest.json"
       },
       {
         name: "Daily Mail",
@@ -4928,7 +5345,8 @@ export const categories = [
         icon: "icons/wrappers/dailymail.webp",
         url2: "../wrappers/dailymail",
         apptype2: "wrapper",
-        url: "https://www.dailymail.co.uk"
+        url: "https://www.dailymail.co.uk",
+        manifestUrl2: "../wrappers/dailymail/manifest.json"
       },
       {
         name: "StreamVaults",
@@ -4937,7 +5355,8 @@ export const categories = [
         icon: "icons/msedge/streamvaults.webp",
         url2: "../msedge/streamvaults",
         apptype2: "wrapper",
-        url: "https://streamvaults.ru"
+        url: "https://streamvaults.ru",
+        manifestUrl2: "../msedge/streamvaults/manifest.json"
       },
       {
         name: "Wyshu (无忧书城)",
@@ -4946,7 +5365,8 @@ export const categories = [
         icon: "icons/wrappers/wyshu.webp",
         url2: "../wrappers/wyshu",
         apptype2: "wrapper",
-        url: "https://www.wyshu.com"
+        url: "https://www.wyshu.com",
+        manifestUrl2: "../wrappers/wyshu/manifest.json"
       },
       {
         name: "jiasenongye (漫画库)",
@@ -4955,7 +5375,8 @@ export const categories = [
         icon: "logo/logo.webp",
         url2: "../wrappers/jiasenongye",
         apptype2: "wrapper",
-        url: "https://www.jiasenongye.com"
+        url: "https://www.jiasenongye.com",
+        manifestUrl2: "../wrappers/jiasenongye/manifest.json"
       },
       {
         name: "Manhuagui (漫画柜)",
@@ -4964,7 +5385,8 @@ export const categories = [
         icon: "icons/wrappers/manhuagui.webp",
         url2: "../wrappers/manhuagui",
         apptype2: "wrapper",
-        url: "https://www.manhuagui.com"
+        url: "https://www.manhuagui.com",
+        manifestUrl2: "../wrappers/manhuagui/manifest.json"
       },
       {
         name: "Manhuagui (Mobile) (漫画柜)",
@@ -4973,7 +5395,8 @@ export const categories = [
         icon: "icons/wrappers/manhuagui.webp",
         url2: "../wrappers/manhuagui_mobile",
         apptype2: "wrapper",
-        url: "https://m.manhuagui.com"
+        url: "https://m.manhuagui.com",
+        manifestUrl2: "../wrappers/manhuagui_mobile/manifest.json"
       },
     ]
   },
@@ -4986,7 +5409,9 @@ export const categories = [
         nameKey: "gameslol_name",
         descriptionKey: "gameslol_desc",
         icon: "icons/pwa/gameslol.webp",
-        url: "https://en.gameslol.net"
+        url: "https://en.gameslol.net",
+        manifestUrl: "https://en.gameslol.net/manifest.json",
+        manifestId: "https://en.gameslol.net"
       },
       {
         name: "Genshin Impact Cloud (云原神)",
@@ -5007,14 +5432,17 @@ export const categories = [
         nameKey: "crazygames_name",
         descriptionKey: "crazygames_desc",
         icon: "icons/pwa/crazygames.webp",
-        url: "https://www.crazygames.com"
+        url: "https://www.crazygames.com",
+        manifestUrl: "https://www.crazygames.com/manifest"
       },
       {
         name: "Web Gamer",
         nameKey: "webgamer_name",
         descriptionKey: "webgamer_desc",
         icon: "icons/pwa/webgamer.webp",
-        url: "https://webgamer.io"
+        url: "https://webgamer.io",
+        manifestUrl: "https://webgamer.io/manifest.json",
+        manifestId: "https://webgamer.io"
       },
       {
         name: "Roblox",
@@ -5028,14 +5456,17 @@ export const categories = [
         nameKey: "blizztrack_name",
         descriptionKey: "blizztrack_desc",
         icon: "icons/pwa/blizztrack.webp",
-        url: "https://blizztrack.com"
+        url: "https://blizztrack.com",
+        manifestUrl: "https://blizztrack.com/static/manifest.webmanifest",
+        manifestId: "https://blizztrack.com"
       },
       {
         name: "Xbox Cloud Gaming",
         nameKey: "xboxcloudgaming_name",
         descriptionKey: "xboxcloudgaming_desc",
         icon: "icons/pwa/xboxcloudgaming.webp",
-        url: "https://www.xbox.com/en-us/play"
+        url: "https://www.xbox.com/en-us/play",
+        manifestUrl: "https://www.xbox.com/en-US/play/manifest.webmanifest?page.name=Home"
       },
       {
         name: "Sexual Repression Index Calculator (性压抑指数计算器) SRI Calculator",
@@ -5049,7 +5480,9 @@ export const categories = [
         nameKey: "pwa2048_name",
         descriptionKey: "pwa2048_desc",
         icon: "icons/pwa/pwa2048.webp",
-        url: "https://2048.skyafar.com"
+        url: "https://2048.skyafar.com",
+        manifestUrl: "https://2048.skyafar.com/manifest.json",
+        manifestId: "https://2048.skyafar.com"
       },
       {
         name: "Vimm's Lair",
@@ -5063,14 +5496,18 @@ export const categories = [
         nameKey: "chess_name",
         descriptionKey: "chess_desc",
         icon: "icons/pwa/chess.webp",
-        url: "https://www.chess.com"
+        url: "https://www.chess.com",
+        manifestUrl: "https://www.chess.com/manifest.json",
+        manifestId: "https://www.chess.com"
       },
       {
         name: "lichess",
         nameKey: "lichess_name",
         descriptionKey: "lichess_desc",
         icon: "icons/pwa/lichess.webp",
-        url: "https://lichess.org"
+        url: "https://lichess.org",
+        manifestUrl: "https://lichess.org/manifest.json",
+        manifestId: "https://lichess.org"
       },
       {
         name: "WordWalker",
@@ -5185,7 +5622,8 @@ export const categories = [
         icon: "icons/wrappers/chronodivide.webp",
         url2: "../wrappers/chronodivide",
         apptype2: "wrapper",
-        url: "https://game.chronodivide.com"
+        url: "https://game.chronodivide.com",
+        manifestUrl2: "../wrappers/chronodivide/manifest.json"
       },
       {
         name: "Floppy Bird",
@@ -5194,7 +5632,8 @@ export const categories = [
         icon: "icons/wrappers/floppybird.webp",
         url2: "../wrappers/floppybird",
         apptype2: "wrapper",
-        url: "https://nebezb.com/floppybird"
+        url: "https://nebezb.com/floppybird",
+        manifestUrl2: "../wrappers/floppybird/manifest.json"
       },
       {
         name: "Eaglercraft",
@@ -5203,7 +5642,8 @@ export const categories = [
         icon: "icons/wrappers/eaglercraft.webp",
         url2: "../wrappers/eaglercraft",
         apptype2: "wrapper",
-        url: "https://eaglercraft.com"
+        url: "https://eaglercraft.com",
+        manifestUrl2: "../wrappers/eaglercraft/manifest.json"
       },
       {
         name: "D3Wasm Doom",
@@ -5212,7 +5652,8 @@ export const categories = [
         icon: "icons/wrappers/d3wasm.webp",
         apptype2: "wrapper",
         url2: "../wrappers/d3wasm",
-        url: "https://wasm.continuation-labs.com/d3demo"
+        url: "https://wasm.continuation-labs.com/d3demo",
+        manifestUrl2: "../wrappers/d3wasm/manifest.json"
       },
       {
         name: "DOOM Shareware",
@@ -5222,6 +5663,7 @@ export const categories = [
         url2: "../wrappers/doomshareware",
         url: "https://silentspacemarine.com",
         apptype2: "wrapper",
+        manifestUrl2: "../wrappers/doomshareware/manifest.json"
       },
       {
         name: "GeForce NOW",
@@ -5231,7 +5673,8 @@ export const categories = [
         url: "https://play.geforcenow.com",
         apptype_hide: "msedge",
         url2: "../wrappers/geforcenow",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/geforcenow/manifest.json"
       },
       {
         name: "4399",
@@ -5240,7 +5683,8 @@ export const categories = [
         icon: "icons/wrappers/4399.webp",
         url2: "../wrappers/4399",
         apptype2: "wrapper",
-        url: "https://www.4399.com"
+        url: "https://www.4399.com",
+        manifestUrl2: "../wrappers/4399/manifest.json"
       },
       {
         name: "PizzINT",
@@ -5249,7 +5693,8 @@ export const categories = [
         icon: "icons/wrappers/pizzint.webp",
         url2: "../wrappers/pizzint",
         apptype2: "wrapper",
-        url: "https://www.pizzint.watch"
+        url: "https://www.pizzint.watch",
+        manifestUrl2: "../wrappers/pizzint/manifest.json"
       },
       {
         name: "Neal.fun",
@@ -5258,7 +5703,8 @@ export const categories = [
         icon: "icons/wrappers/nealfun.webp",
         url2: "../wrappers/nealfun",
         apptype2: "wrapper",
-        url: "https://neal.fun"
+        url: "https://neal.fun",
+        manifestUrl2: "../wrappers/nealfun/manifest.json"
       },
       {
         name: "MuMu Emulator (MuMu模拟器)",
@@ -5267,7 +5713,8 @@ export const categories = [
         icon: "icons/wrappers/mumu.webp",
         url2: "../wrappers/mumu",
         apptype2: "wrapper",
-        url: "https://mumu.163.com"
+        url: "https://mumu.163.com",
+        manifestUrl2: "../wrappers/mumu/manifest.json"
       },
       {
         name: "MuMuPlayer",
@@ -5276,7 +5723,8 @@ export const categories = [
         icon: "icons/wrappers/mumu.webp",
         url2: "../wrappers/mumuplayer",
         apptype2: "wrapper",
-        url: "https://www.mumuplayer.com"
+        url: "https://www.mumuplayer.com",
+        manifestUrl2: "../wrappers/mumuplayer/manifest.json"
       },
       {
         name: "3D Pinball (pinball.alula.me)",
@@ -5285,7 +5733,8 @@ export const categories = [
         icon: "icons/wrappers/pinballalulame.webp",
         url2: "../wrappers/pinballalulame",
         apptype2: "wrapper",
-        url: "https://pinball.alula.me"
+        url: "https://pinball.alula.me",
+        manifestUrl2: "../wrappers/pinballalulame/manifest.json"
       },
       {
         name: "Warcraft 3 Replays",
@@ -5294,7 +5743,8 @@ export const categories = [
         icon: "icons/wrappers/war3replays.webp",
         url2: "../wrappers/war3replays",
         apptype2: "wrapper",
-        url: "https://war3replays.com"
+        url: "https://war3replays.com",
+        manifestUrl2: "../wrappers/war3replays/manifest.json"
       },
       {
         name: "Brake Master",
@@ -5303,7 +5753,8 @@ export const categories = [
         icon: "icons/wrappers/brake_master_game.webp",
         url2: "../wrappers/brake_master_game",
         apptype2: "wrapper",
-        url: "https://breakbreak.app"
+        url: "https://breakbreak.app",
+        manifestUrl2: "../wrappers/brake_master_game/manifest.json"
       },
       {
         name: "QQ Classic Farm (QQ经典农场)",
@@ -5324,7 +5775,9 @@ export const categories = [
         nameKey: "murlok_name",
         descriptionKey: "murlok_desc",
         icon: "icons/pwa/murlok.webp",
-        url: "https://murlok.io"
+        url: "https://murlok.io",
+        manifestUrl: "https://murlok.io/v3.42.26/manifest.webmanifest",
+        manifestId: "https://murlok.io"
       },
       {
         name: "World of Warcraft Forums (US)",
@@ -5389,7 +5842,8 @@ export const categories = [
         icon: "icons/wrappers/mmo-champion.webp",
         url2: "../wrappers/mmo-champion",
         apptype2: "wrapper",
-        url: "https://www.mmo-champion.com"
+        url: "https://www.mmo-champion.com",
+        manifestUrl2: "../wrappers/mmo-champion/manifest.json"
       },
       {
         name: "Warcraft Logs",
@@ -5398,7 +5852,8 @@ export const categories = [
         icon: "icons/wrappers/warcraftlogs.webp",
         url2: "../wrappers/warcraftlogs",
         apptype2: "wrapper",
-        url: "https://www.warcraftlogs.com"
+        url: "https://www.warcraftlogs.com",
+        manifestUrl2: "../wrappers/warcraftlogs/manifest.json"
       },
       {
         name: "Raider.IO",
@@ -5407,7 +5862,8 @@ export const categories = [
         icon: "icons/wrappers/raiderio.webp",
         url2: "../wrappers/raiderio",
         apptype2: "wrapper",
-        url: "https://raider.io"
+        url: "https://raider.io",
+        manifestUrl2: "../wrappers/raiderio/manifest.json"
       },
       {
         name: "MapleStory",
@@ -5416,7 +5872,8 @@ export const categories = [
         icon: "icons/wrappers/maplestory.webp",
         url2: "../wrappers/maplestory",
         apptype2: "wrapper",
-        url: "https://www.nexon.com/maplestory"
+        url: "https://www.nexon.com/maplestory",
+        manifestUrl2: "../wrappers/maplestory/manifest.json"
       },
       {
         name: "CurseForge",
@@ -5425,7 +5882,8 @@ export const categories = [
         icon: "icons/wrappers/curseforge.webp",
         url2: "../wrappers/curseforge",
         apptype2: "wrapper",
-        url: "https://www.curseforge.com"
+        url: "https://www.curseforge.com",
+        manifestUrl2: "../wrappers/curseforge/manifest.json"
       },
       {
         name: "Minecraft Forum",
@@ -5434,7 +5892,8 @@ export const categories = [
         icon: "icons/wrappers/minecraftforum.webp",
         url2: "../wrappers/minecraftforum",
         url: "https://www.minecraftforum.net",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/minecraftforum/manifest.json"
       },
       {
         name: "IGN",
@@ -5443,7 +5902,8 @@ export const categories = [
         icon: "icons/wrappers/ign.webp",
         url2: "../wrappers/ign",
         apptype2: "wrapper",
-        url: "https://www.ign.com"
+        url: "https://www.ign.com",
+        manifestUrl2: "../wrappers/ign/manifest.json"
       },
       {
         name: "Wowhead",
@@ -5452,7 +5912,8 @@ export const categories = [
         icon: "icons/wrappers/wowhead.webp",
         url2: "../wrappers/wowhead",
         apptype2: "wrapper",
-        url: "https://www.wowhead.com"
+        url: "https://www.wowhead.com",
+        manifestUrl2: "../wrappers/wowhead/manifest.json"
       },
       {
         name: "NGA",
@@ -5461,7 +5922,8 @@ export const categories = [
         icon: "icons/wrappers/ngacn.webp",
         url2: "../wrappers/ngacn",
         apptype2: "wrapper",
-        url: "https://bbs.nga.cn"
+        url: "https://bbs.nga.cn",
+        manifestUrl2: "../wrappers/ngacn/manifest.json"
       },
       {
         name: "Team Liquid",
@@ -5470,7 +5932,8 @@ export const categories = [
         icon: "icons/wrappers/teamliquid.webp",
         url2: "../wrappers/teamliquid",
         apptype2: "wrapper",
-        url: "https://teamliquid.com"
+        url: "https://teamliquid.com",
+        manifestUrl2: "../wrappers/teamliquid/manifest.json"
       },
       {
         name: "Steam Community",
@@ -5479,7 +5942,8 @@ export const categories = [
         icon: "icons/wrappers/steamcommunity.webp",
         url2: "../wrappers/steamcommunity",
         apptype2: "wrapper",
-        url: "https://steamcommunity.com"
+        url: "https://steamcommunity.com",
+        manifestUrl2: "../wrappers/steamcommunity/manifest.json"
       },
       {
         name: "Warcraft Tavern",
@@ -5488,7 +5952,8 @@ export const categories = [
         icon: "icons/wrappers/warcrafttavern.webp",
         url2: "../wrappers/warcrafttavern",
         apptype2: "wrapper",
-        url: "https://www.warcrafttavern.com"
+        url: "https://www.warcrafttavern.com",
+        manifestUrl2: "../wrappers/warcrafttavern/manifest.json"
       },
       {
         name: "Netease DD (网易DD)",
@@ -5497,7 +5962,8 @@ export const categories = [
         icon: "icons/msedge/neteasedd.webp",
         url2: "../msedge/neteasedd",
         apptype2: "wrapper",
-        url: "https://dd.163.com/room/100100"
+        url: "https://dd.163.com/room/100100",
+        manifestUrl2: "../msedge/neteasedd/manifest.json"
       },
       {
         name: "ResetEra",
@@ -5506,7 +5972,8 @@ export const categories = [
         icon: "icons/wrappers/resetera.webp",
         url2: "../wrappers/resetera",
         apptype2: "wrapper",
-        url: "https://www.resetera.com"
+        url: "https://www.resetera.com",
+        manifestUrl2: "../wrappers/resetera/manifest.json"
       },
       {
         name: "ProtonDB",
@@ -5515,7 +5982,8 @@ export const categories = [
         icon: "icons/wrappers/protondb.webp",
         url2: "../wrappers/protondb",
         apptype2: "wrapper",
-        url: "https://www.protondb.com"
+        url: "https://www.protondb.com",
+        manifestUrl2: "../wrappers/protondb/manifest.json"
       },
       {
         name: "WoW Token Prices",
@@ -5524,7 +5992,8 @@ export const categories = [
         icon: "icons/wrappers/wowtoken.webp",
         url2: "../wrappers/wowtoken",
         apptype2: "wrapper",
-        url: "https://wowtoken.app"
+        url: "https://wowtoken.app",
+        manifestUrl2: "../wrappers/wowtoken/manifest.json"
       },
       {
         name: "Video Game History Foundation",
@@ -5533,7 +6002,8 @@ export const categories = [
         icon: "icons/wrappers/vghf.webp",
         url2: "../wrappers/vghf",
         apptype2: "wrapper",
-        url: "https://gamehistory.org"
+        url: "https://gamehistory.org",
+        manifestUrl2: "../wrappers/vghf/manifest.json"
       },
       {
         name: "Wipefest",
@@ -5542,7 +6012,8 @@ export const categories = [
         icon: "icons/wrappers/wipefest.webp",
         url2: "../wrappers/wipefest",
         apptype2: "wrapper",
-        url: "https://www.wipefest.gg"
+        url: "https://www.wipefest.gg",
+        manifestUrl2: "../wrappers/wipefest/manifest.json"
       },
       {
         name: "World of Warcraft (China)",
@@ -5563,42 +6034,54 @@ export const categories = [
         nameKey: "duolingo_global_name",
         descriptionKey: "duolingo_global_desc",
         icon: "icons/pwa/duolingo.webp",
-        url: "https://duolingo.com"
+        url: "https://duolingo.com",
+        manifestUrl: "https://duolingo.com/manifest.json",
+        manifestId: "https://duolingo.com"
       },
       {
         name: "Duolingo (多邻国)",
         nameKey: "duolingo_cn_name",
         descriptionKey: "duolingo_cn_desc",
         icon: "icons/pwa/duolingo.webp",
-        url: "https://cn.duolingo.com"
+        url: "https://cn.duolingo.com",
+        manifestUrl: "https://cn.duolingo.com/manifest.json",
+        manifestId: "https://cn.duolingo.com"
       },
       {
         name: "Oxford English Dictionary",
         nameKey: "oed_name",
         descriptionKey: "oed_desc",
         icon: "icons/pwa/oed.webp",
-        url: "https://www.oed.com"
+        url: "https://www.oed.com",
+        manifestUrl: "https://www.oed.com/images/icons/manifest.json",
+        manifestId: "https://www.oed.com"
       },
       {
         name: "Duoreader",
         nameKey: "duoreader_name",
         descriptionKey: "duoreader_desc",
         icon: "icons/pwa/duoreader.webp",
-        url: "https://web.duoreader.cn"
+        url: "https://web.duoreader.cn",
+        manifestUrl: "https://web.duoreader.cn/manifest.webmanifest",
+        manifestId: "https://web.duoreader.cn"
       },
       {
         name: "Dudianji (读典籍)",
         nameKey: "dudianji_name",
         descriptionKey: "dudianji_desc",
         icon: "icons/pwa/dudianji.webp",
-        url: "https://web.dudianji.com"
+        url: "https://web.dudianji.com",
+        manifestUrl: "https://web.dudianji.com/manifest.json",
+        manifestId: "https://web.dudianji.com"
       },
       {
         name: "Xiangyin (乡音)",
         nameKey: "xiangyin_name",
         descriptionKey: "xiangyin_desc",
         icon: "icons/pwa/xiangyin.webp",
-        url: "https://web.xiangyin.mobi"
+        url: "https://web.xiangyin.mobi",
+        manifestUrl: "https://web.xiangyin.mobi/manifest.json",
+        manifestId: "https://web.xiangyin.mobi"
       },
       {
         name: "Physics Lab",
@@ -5633,7 +6116,9 @@ export const categories = [
         nameKey: "hellotyping_name",
         descriptionKey: "hellotyping_desc",
         icon: "icons/pwa/hellotyping.webp",
-        url: "https://www.hellotyping.com"
+        url: "https://www.hellotyping.com",
+        manifestUrl: "https://www.hellotyping.com/manifest.webapp",
+        manifestId: "https://www.hellotyping.com"
       },
       {
         name: "GPA Calculator (MemoryMaps)",
@@ -5656,7 +6141,8 @@ export const categories = [
         icon: "icons/msedge/ctext.webp",
         url2: "../msedge/ctext",
         apptype2: "wrapper",
-        url: "https://ctext.org"
+        url: "https://ctext.org",
+        manifestUrl2: "../msedge/ctext/manifest.json"
       },
       {
         name: "Unalengua IPA Transcriber",
@@ -5673,7 +6159,8 @@ export const categories = [
         url: "https://www.11000.online",
         apptype_hide: "msedge",
         url2: "../msedge/onethousandonline",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../msedge/onethousandonline/manifest.json"
       },
       {
         name: "Eudic Dictionary (欧路词典)",
@@ -5682,7 +6169,8 @@ export const categories = [
         icon: "icons/wrappers/eudic.webp",
         url2: "../wrappers/eudic",
         apptype2: "wrapper",
-        url: "https://dict.eudic.net"
+        url: "https://dict.eudic.net",
+        manifestUrl2: "../wrappers/eudic/manifest.json"
       },
       {
         name: "Quanxue (劝学)",
@@ -5691,7 +6179,8 @@ export const categories = [
         icon: "icons/wrappers/quanxue.webp",
         url2: "../wrappers/quanxue",
         apptype2: "wrapper",
-        url: "https://www.quanxue.cn"
+        url: "https://www.quanxue.cn",
+        manifestUrl2: "../wrappers/quanxue/manifest.json"
       },
       {
         name: "xdf (新东方)",
@@ -5700,7 +6189,8 @@ export const categories = [
         icon: "icons/wrappers/xdf.webp",
         url2: "../wrappers/xdf",
         apptype2: "wrapper",
-        url: "https://www.xdf.cn"
+        url: "https://www.xdf.cn",
+        manifestUrl2: "../wrappers/xdf/manifest.json"
       },
       {
         name: "Chegg",
@@ -5709,7 +6199,8 @@ export const categories = [
         icon: "icons/wrappers/chegg.webp",
         url2: "../wrappers/chegg",
         apptype2: "wrapper",
-        url: "https://www.chegg.com"
+        url: "https://www.chegg.com",
+        manifestUrl2: "../wrappers/chegg/manifest.json"
       },
       {
         name: "Mingku Literature (名库文学)",
@@ -5718,7 +6209,8 @@ export const categories = [
         icon: "icons/wrappers/mingku.webp",
         url: "https://www.mingku.cc",
         apptype2: "wrapper",
-        url2: "../wrappers/mingku"
+        url2: "../wrappers/mingku",
+        manifestUrl2: "../wrappers/mingku/manifest.json"
       },
       {
         name: "Shuzhaige (书斋阁)",
@@ -5727,7 +6219,8 @@ export const categories = [
         icon: "icons/wrappers/shuzhaige.webp",
         url: "https://www.shuzhaige.com",
         apptype2: "wrapper",
-        url2: "../wrappers/shuzhaige"
+        url2: "../wrappers/shuzhaige",
+        manifestUrl2: "../wrappers/shuzhaige/manifest.json"
       },
       {
         name: "Dulishi (一起读历史)",
@@ -5736,7 +6229,8 @@ export const categories = [
         icon: "icons/wrappers/dulishi.webp",
         url2: "../wrappers/dulishi",
         apptype2: "wrapper",
-        url: "https://www.dulishi.cn"
+        url: "https://www.dulishi.cn",
+        manifestUrl2: "../wrappers/dulishi/manifest.json"
       },
       {
         name: "Get Kana!",
@@ -5752,7 +6246,8 @@ export const categories = [
         icon: "icons/wrappers/chaoxingv8.webp",
         url2: "../wrappers/chaoxingv8",
         apptype2: "wrapper",
-        url: "https://v8.chaoxing.com"
+        url: "https://v8.chaoxing.com",
+        manifestUrl2: "../wrappers/chaoxingv8/manifest.json"
       },
       {
         name: "Chaoxing iMooc (超星iMooc)",
@@ -5761,7 +6256,8 @@ export const categories = [
         icon: "icons/wrappers/chaoxingv8.webp",
         url2: "../wrappers/ntuimooc",
         apptype2: "wrapper",
-        url: "https://imooc.ntu.edu.cn"
+        url: "https://imooc.ntu.edu.cn",
+        manifestUrl2: "../wrappers/ntuimooc/manifest.json"
       },
       {
         name: "NUKEMAP",
@@ -5770,7 +6266,8 @@ export const categories = [
         icon: "icons/wrappers/nukemap.webp",
         url2: "../wrappers/nukemap",
         apptype2: "wrapper",
-        url: "https://nuclearsecrecy.com/nukemap"
+        url: "https://nuclearsecrecy.com/nukemap",
+        manifestUrl2: "../wrappers/nukemap/manifest.json"
       },
       {
         name: "Pizzint",
@@ -5779,7 +6276,8 @@ export const categories = [
         icon: "icons/wrappers/pizzint.webp",
         url2: "../wrappers/pizzint",
         apptype2: "wrapper",
-        url: "https://www.pizzint.watch"
+        url: "https://www.pizzint.watch",
+        manifestUrl2: "../wrappers/pizzint/manifest.json"
       },
       {
         name: "3Blue1Brown",
@@ -5788,7 +6286,8 @@ export const categories = [
         icon: "icons/wrappers/3blue1brown.webp",
         url2: "../wrappers/3blue1brown",
         apptype2: "wrapper",
-        url: "https://www.3blue1brown.com"
+        url: "https://www.3blue1brown.com",
+        manifestUrl2: "../wrappers/3blue1brown/manifest.json"
       },
     ]
   },
@@ -5845,7 +6344,8 @@ export const categories = [
         icon: "icons/wrappers/ra2diy.webp",
         url2: "../wrappers/ra2diy",
         apptype2: "wrapper",
-        url: "https://bbs.ra2diy.com"
+        url: "https://bbs.ra2diy.com",
+        manifestUrl2: "../wrappers/ra2diy/manifest.json"
       },
       {
         name: "OSDev Forum",
@@ -5854,7 +6354,8 @@ export const categories = [
         icon: "icons/wrappers/osdevorg.webp",
         url2: "../wrappers/osdevforum",
         apptype2: "wrapper",
-        url: "https://forum.osdev.org"
+        url: "https://forum.osdev.org",
+        manifestUrl2: "../wrappers/osdevforum/manifest.json"
       },
     ]
   },
@@ -5877,6 +6378,7 @@ export const categories = [
         url: "https://liquipedia.net",
         url2: "../msedge/liquipedia",
         apptype2: "wrapper",
+        manifestUrl2: "../msedge/liquipedia/manifest.json"
       },
       {
         name: "Incel Wiki",
@@ -5897,7 +6399,9 @@ export const categories = [
         nameKey: "emojiswiki_name",
         descriptionKey: "emojiswiki_desc",
         icon: "icons/pwa/emojiswiki.webp",
-        url: "https://emojis.wiki"
+        url: "https://emojis.wiki",
+        manifestUrl: "https://emojis.wiki/pwa/manifest.json",
+        manifestId: "https://emojis.wiki"
       },
       {
         name: "emoj.info",
@@ -5939,7 +6443,9 @@ export const categories = [
         nameKey: "ifixit_name",
         descriptionKey: "ifixit_desc",
         icon: "icons/pwa/ifixit.webp",
-        url: "https://www.ifixit.com"
+        url: "https://www.ifixit.com",
+        manifestUrl: "https://assets.cdn.ifixit.com/static/icons/ifixit/manifest.json",
+        manifestId: "https://www.ifixit.com"
       },
       {
         name: "LinusTechTips",
@@ -5966,6 +6472,7 @@ export const categories = [
         apptype_hide: "msedge",
         url2: "../msedge/wowtoolsarchive",
         apptype2: "wrapper",
+        manifestUrl2: "../msedge/wowtoolsarchive/manifest.json"
       },
       {
         name: "Marxists Internet Archive",
@@ -5974,7 +6481,8 @@ export const categories = [
         icon: "icons/wrappers/marxistsorg.webp",
         url2: "../wrappers/marxistsorg",
         apptype2: "wrapper",
-        url: "https://www.marxists.org"
+        url: "https://www.marxists.org",
+        manifestUrl2: "../wrappers/marxistsorg/manifest.json"
       },
       {
         name: "OSDev.org",
@@ -5983,7 +6491,8 @@ export const categories = [
         icon: "icons/wrappers/osdevorg.webp",
         url2: "../wrappers/osdevorg",
         apptype2: "wrapper",
-        url: "https://wiki.osdev.org"
+        url: "https://wiki.osdev.org",
+        manifestUrl2: "../wrappers/osdevorg/manifest.json"
       },
       {
         name: "Consumer Rights Wiki",
@@ -5992,7 +6501,8 @@ export const categories = [
         icon: "icons/wrappers/consumerrightswiki.webp",
         url2: "../wrappers/consumerrightswiki",
         apptype2: "wrapper",
-        url: "https://consumerrights.wiki"
+        url: "https://consumerrights.wiki",
+        manifestUrl2: "../wrappers/consumerrightswiki/manifest.json"
       },
       {
         name: "Anime Wiki (anibase.net)",
@@ -6001,7 +6511,8 @@ export const categories = [
         icon: "icons/wrappers/animewiki.webp",
         url2: "../wrappers/animewiki",
         apptype2: "wrapper",
-        url: "https://anibase.net"
+        url: "https://anibase.net",
+        manifestUrl2: "../wrappers/animewiki/manifest.json"
       },
       {
         name: "Wikisource",
@@ -6010,7 +6521,8 @@ export const categories = [
         icon: "icons/wrappers/wikisource.webp",
         url2: "../wrappers/wikisource",
         apptype2: "wrapper",
-        url: "https://en.wikisource.org"
+        url: "https://en.wikisource.org",
+        manifestUrl2: "../wrappers/wikisource/manifest.json"
       },
       {
         name: "Wikiwand",
@@ -6019,7 +6531,8 @@ export const categories = [
         icon: "icons/wrappers/wikiwand.webp",
         url2: "../wrappers/wikiwand",
         apptype2: "wrapper",
-        url: "https://www.wikiwand.com"
+        url: "https://www.wikiwand.com",
+        manifestUrl2: "../wrappers/wikiwand/manifest.json"
       },
       {
         name: "wikiHow",
@@ -6029,7 +6542,8 @@ export const categories = [
         url2: "../msedge/wikihow",
         apptype_hide: "msedge",
         apptype2: "wrapper",
-        url: "https://www.wikihow.com"
+        url: "https://www.wikihow.com",
+        manifestUrl2: "../msedge/wikihow/manifest.json"
       },
       {
         name: "RepRap",
@@ -6038,7 +6552,8 @@ export const categories = [
         icon: "icons/wrappers/reprap.webp",
         url2: "../wrappers/reprap",
         apptype2: "wrapper",
-        url: "https://reprap.org"
+        url: "https://reprap.org",
+        manifestUrl2: "../wrappers/reprap/manifest.json"
       },
       {
         name: "PopulationPyramid.net",
@@ -6047,7 +6562,8 @@ export const categories = [
         icon: "icons/wrappers/poppyramidnet.webp",
         url2: "../wrappers/poppyramidnet",
         apptype2: "wrapper",
-        url: "https://www.populationpyramid.net"
+        url: "https://www.populationpyramid.net",
+        manifestUrl2: "../wrappers/poppyramidnet/manifest.json"
       },
       {
         name: "PopulationPyramids.org",
@@ -6057,7 +6573,8 @@ export const categories = [
         url2: "../wrappers/poppyramidsorg",
         apptype2: "wrapper",
         url: "https://www.populationpyramids.org",
-        comment: "scamadviser gives a low score, but i don't see how is this website insecure"
+        comment: "scamadviser gives a low score, but i don't see how is this website insecure",
+        manifestUrl2: "../wrappers/poppyramidsorg/manifest.json"
       },
       {
         name: "Repair Wiki",
@@ -6066,7 +6583,8 @@ export const categories = [
         icon: "icons/wrappers/repairwiki.webp",
         url2: "../wrappers/repairwiki",
         apptype2: "wrapper",
-        url: "https://repair.wiki"
+        url: "https://repair.wiki",
+        manifestUrl2: "../wrappers/repairwiki/manifest.json"
       },
       {
         name: "Wikimedia Commons",
@@ -6075,7 +6593,8 @@ export const categories = [
         icon: "icons/msedge/wikimedia_commons.webp",
         url2: "../msedge/wikimedia_commons",
         apptype2: "wrapper",
-        url: "https://commons.wikimedia.org/wiki/Main_Page"
+        url: "https://commons.wikimedia.org/wiki/Main_Page",
+        manifestUrl2: "../msedge/wikimedia_commons/manifest.json"
       },
       {
         name: "seeklogo",
@@ -6084,7 +6603,8 @@ export const categories = [
         icon: "icons/wrappers/seeklogo.webp",
         url2: "../wrappers/seeklogo",
         apptype2: "wrapper",
-        url: "https://seeklogo.com"
+        url: "https://seeklogo.com",
+        manifestUrl2: "../wrappers/seeklogo/manifest.json"
       },
       {
         name: "Warcraft Wiki",
@@ -6093,7 +6613,8 @@ export const categories = [
         icon: "icons/wrappers/warcraft_wiki.webp",
         url2: "../wrappers/warcraft_wiki",
         apptype2: "wrapper",
-        url: "https://warcraft.wiki.gg"
+        url: "https://warcraft.wiki.gg",
+        manifestUrl2: "../wrappers/warcraft_wiki/manifest.json"
       },
     ]
   },
@@ -6106,7 +6627,9 @@ export const categories = [
       nameKey: "qurancom_name",
       descriptionKey: "qurancom_desc",
       icon: "icons/pwa/qurancom.webp",
-      url: "https://quran.com"
+      url: "https://quran.com",
+      manifestUrl: "https://quran.com/manifest.json",
+      manifestId: "https://quran.com"
       },
       {
         name: "BibleGateway.com",
@@ -6129,7 +6652,8 @@ export const categories = [
         icon: "icons/wrappers/biblecom.webp",
         url2: "../wrappers/biblecom",
         apptype2: "wrapper",
-        url: "https://bible.com"
+        url: "https://bible.com",
+        manifestUrl2: "../wrappers/biblecom/manifest.json"
       },
       {
         name: "Veducation",
@@ -6138,7 +6662,8 @@ export const categories = [
         icon: "icons/wrappers/veducation.webp",
         url2: "../wrappers/veducation",
         apptype2: "wrapper",
-        url: "https://www.veducation.world"
+        url: "https://www.veducation.world",
+        manifestUrl2: "../wrappers/veducation/manifest.json"
       },
       {
         name: "Wanyou Zhenyuan (万有真源)",
@@ -6147,7 +6672,8 @@ export const categories = [
         icon: "icons/wrappers/wanyouzhenyuan.webp",
         url2: "../wrappers/wanyouzhenyuan",
         apptype2: "wrapper",
-        url: "https://www.wanyouzhenyuan.cn"
+        url: "https://www.wanyouzhenyuan.cn",
+        manifestUrl2: "../wrappers/wanyouzhenyuan/manifest.json"
       },
       {
         name: "Liturgia Diária",
@@ -6167,7 +6693,9 @@ export const categories = [
         nameKey: "pwastats_name",
         descriptionKey: "pwastats_desc",
         icon: "icons/pwa/pwastats.webp",
-        url: "https://www.pwastats.com"
+        url: "https://www.pwastats.com",
+        manifestUrl: "https://www.pwastats.com/manifest.json",
+        manifestId: "https://www.pwastats.com"
       },
       {
         name: "StatCounter GS",
@@ -6181,7 +6709,9 @@ export const categories = [
         nameKey: "speedtest_name",
         descriptionKey: "speedtest_desc",
         icon: "icons/pwa/speedtest.webp",
-        url: "https://www.speedtest.net"
+        url: "https://www.speedtest.net",
+        manifestUrl: "https://b.cdnst.net/manifest.webmanifest",
+        manifestId: "https://www.speedtest.net"
       },
       {
         name: "Basemark Web",
@@ -6195,14 +6725,18 @@ export const categories = [
         nameKey: "cznull_name",
         descriptionKey: "cznull_desc",
         icon: "icons/pwa/cznull.webp",
-        url: "https://cznull.com"
+        url: "https://cznull.com",
+        manifestUrl: "https://cznull.com/manifest.json",
+        manifestId: "https://cznull.com"
       },
       {
         name: "Redirection.io",
         nameKey: "redirectionio_name",
         descriptionKey: "redirectionio_desc",
         icon: "icons/pwa/redirectionio.webp",
-        url: "https://redirection.io"
+        url: "https://redirection.io",
+        manifestUrl: "https://redirection.io/assets/images/manifest.json",
+        manifestId: "https://redirection.io"
       },
       {
         name: "iplocation.net",
@@ -6230,7 +6764,9 @@ export const categories = [
         namekey: "statscrop_name",
         descriptionKey: "statscrop_desc",
         icon: "icons/pwa/statscrop.webp",
-        url: "https://www.statscrop.com"
+        url: "https://www.statscrop.com",
+        manifestUrl: "https://www.statscrop.com/manifest.json",
+        manifestId: "https://www.statscrop.com"
       },
       {
         name: "Semrush",
@@ -6253,7 +6789,8 @@ export const categories = [
         icon: "icons/wrappers/browserbench.webp",
         url2: "../wrappers/browserbench",
         apptype2: "wrapper",
-        url: "https://browserbench.org"
+        url: "https://browserbench.org",
+        manifestUrl2: "../wrappers/browserbench/manifest.json"
       },
       {
         name: "ClearWebStats",
@@ -6262,7 +6799,8 @@ export const categories = [
         icon: "icons/wrappers/clearwebstats.webp",
         url2: "../wrappers/clearwebstats",
         apptype2: "wrapper",
-        url: "https://www.clearwebstats.com"
+        url: "https://www.clearwebstats.com",
+        manifestUrl2: "../wrappers/clearwebstats/manifest.json"
       },
       {
         name: "China Firewall Test",
@@ -6271,7 +6809,8 @@ export const categories = [
         icon: "icons/wrappers/chinafirewalltest.webp",
         url2: "../wrappers/chinafirewalltest",
         apptype2: "wrapper",
-        url: "https://www.chinafirewalltest.com"
+        url: "https://www.chinafirewalltest.com",
+        manifestUrl2: "../wrappers/chinafirewalltest/manifest.json"
       },
       {
         name: "Counterpoint Research",
@@ -6280,7 +6819,8 @@ export const categories = [
         icon: "icons/wrappers/counterpointresearch.webp",
         url2: "../wrappers/counterpointresearch",
         apptype2: "wrapper",
-        url: "https://www.counterpointresearch.com"
+        url: "https://www.counterpointresearch.com",
+        manifestUrl2: "../wrappers/counterpointresearch/manifest.json"
       },
       {
         name: "OpenBenchmarking.org",
@@ -6289,7 +6829,8 @@ export const categories = [
         icon: "icons/wrappers/openbenchmarking.webp",
         url2: "../wrappers/openbenchmarking",
         apptype2: "wrapper",
-        url: "https://openbenchmarking.org"
+        url: "https://openbenchmarking.org",
+        manifestUrl2: "../wrappers/openbenchmarking/manifest.json"
       },
       {
         name: "Cloudflare Speed Test",
@@ -6307,7 +6848,8 @@ export const categories = [
         icon: "icons/wrappers/mylocation.webp",
         url2: "../wrappers/mylocation",
         apptype2: "wrapper",
-        url: "https://my-location.org"
+        url: "https://my-location.org",
+        manifestUrl2: "../wrappers/mylocation/manifest.json"
       },
       {
         name: "IDC",
@@ -6316,7 +6858,8 @@ export const categories = [
         icon: "icons/wrappers/idc.webp",
         url2: "../wrappers/idc",
         apptype2: "wrapper",
-        url: "https://www.idc.com"
+        url: "https://www.idc.com",
+        manifestUrl2: "../wrappers/idc/manifest.json"
       },
       {
         name: "Who.is",
@@ -6325,7 +6868,8 @@ export const categories = [
         icon: "icons/wrappers/whois.webp",
         url2: "../wrappers/whois",
         apptype2: "wrapper",
-        url: "https://who.is"
+        url: "https://who.is",
+        manifestUrl2: "../wrappers/whois/manifest.json"
       },
       {
         name: "Rosstat Leaks",
@@ -6371,7 +6915,8 @@ export const categories = [
         icon: "icons/wrappers/marinetraffic.webp",
         url2: "../wrappers/marinetraffic",
         apptype2: "wrapper",
-        url: "https://www.marinetraffic.com"
+        url: "https://www.marinetraffic.com",
+        manifestUrl2: "../wrappers/marinetraffic/manifest.json"
       },
       {
         name: "Flightradar24",
@@ -6380,7 +6925,8 @@ export const categories = [
         icon: "icons/wrappers/flightradar24.webp",
         url2: "../wrappers/flightradar24",
         apptype2: "wrapper",
-        url: "https://www.flightradar24.com"
+        url: "https://www.flightradar24.com",
+        manifestUrl2: "../wrappers/flightradar24/manifest.json"
       },
       {
         name: "FlightAware Live",
@@ -6389,7 +6935,8 @@ export const categories = [
         icon: "icons/wrappers/flightaware.webp",
         url2: "../wrappers/flightawarelive",
         apptype2: "wrapper",
-        url: "https://www.flightaware.com/live"
+        url: "https://www.flightaware.com/live",
+        manifestUrl2: "../wrappers/flightawarelive/manifest.json"
       },
       {
         name: "Iran War Live",
@@ -6398,7 +6945,8 @@ export const categories = [
         icon: "icons/wrappers/iranwarlive.webp",
         url2: "../wrappers/iranwarlive",
         apptype2: "wrapper",
-        url: "https://iran-war-live.com"
+        url: "https://iran-war-live.com",
+        manifestUrl2: "../wrappers/iranwarlive/manifest.json"
       },
       {
         name: "UkraineWarLosses",
@@ -6407,7 +6955,8 @@ export const categories = [
         icon: "icons/wrappers/ukrainewarlosses.webp",
         url2: "../wrappers/ukrainewarlosses",
         apptype2: "wrapper",
-        url: "https://ukrainewarlosses.org"
+        url: "https://ukrainewarlosses.org",
+        manifestUrl2: "../wrappers/ukrainewarlosses/manifest.json"
       },
     ]
   },
@@ -6434,14 +6983,18 @@ export const categories = [
         nameKey: "spotify_name",
         descriptionKey: "spotify_desc",
         icon: "icons/pwa/spotify.webp",
-        url: "https://open.spotify.com"
+        url: "https://open.spotify.com",
+        manifestUrl: "https://open.spotifycdn.com/cdn/generated/manifest-mobile-web-player.a1ddf51c.json",
+        manifestId: "https://open.spotify.com"
       },
       {
         name: "Apple Music",
         nameKey: "applemusic_name",
         descriptionKey: "applemusic_desc",
         icon: "icons/pwa/applemusic.webp",
-        url: "https://music.apple.com"
+        url: "https://music.apple.com",
+        manifestUrl: "https://music.apple.com/manifest.json",
+        manifestId: "https://music.apple.com"
       },
       {
         name: "YouTube Music",
@@ -6455,21 +7008,26 @@ export const categories = [
         nameKey: "soundcloud_name",
         descriptionKey: "soundcloud_desc",
         icon: "icons/pwa/soundcloud.webp",
-        url: "https://soundcloud.com"
+        url: "https://soundcloud.com",
+        manifestUrl: "https://soundcloud.com/webmanifest.json",
+        manifestId: "https://soundcloud.com"
       },
       {
         name: "Audiomack",
         nameKey: "audiomack_name",
         descriptionKey: "audiomack_desc",
         icon: "icons/pwa/audiomack.webp",
-        url: "https://audiomack.com"
+        url: "https://audiomack.com",
+        manifestUrl: "https://audiomack.com/manifest.json"
       },
       {
         name: "Roon",
         nameKey: "roon_name",
         descriptionKey: "roon_desc",
         icon: "icons/pwa/roon.webp",
-        url: "https://roon.app"
+        url: "https://roon.app",
+        manifestUrl: "https://roon.app/site.webmanifest",
+        manifestId: "https://roon.app"
       },
       {
         name: "Pocket Casts",
@@ -6527,7 +7085,8 @@ export const categories = [
         icon: "icons/msedge/iheart.webp",
         url2: "../msedge/iheart",
         apptype: "wrapper",
-        url: "https://www.iheart.com"
+        url: "https://www.iheart.com",
+        manifestUrl2: "../msedge/iheart/manifest.json"
       },
     ]
   },
@@ -6540,7 +7099,9 @@ export const categories = [
         nameKey: "starbucks_name",
         descriptionKey: "starbucks_desc",
         icon: "icons/pwa/starbucks.webp",
-        url: "https://www.starbucks.com"
+        url: "https://www.starbucks.com",
+        manifestUrl: "https://www.starbucks.com/manifest.json",
+        manifestId: "https://www.starbucks.com"
       },
       {
         name: "Amazon",
@@ -6556,7 +7117,8 @@ export const categories = [
         icon: "icons/wrappers/bestbuy.webp",
         url: "https://www.bestbuy.com",
         apptype2: "wrapper",
-        url2: "../wrappers/bestbuy"
+        url2: "../wrappers/bestbuy",
+        manifestUrl2: "../wrappers/bestbuy/manifest.json"
       },
       {
         name: "eBay",
@@ -6590,7 +7152,9 @@ export const categories = [
         nameKey: "dunkindonuts_name",
         descriptionKey: "dunkindonuts_desc",
         icon: "icons/pwa/dunkindonuts.webp",
-        url: "https://www.dunkindonuts.com"
+        url: "https://www.dunkindonuts.com",
+        manifestUrl: "https://www.dunkindonuts.com/etc/designs/dd/manifest.json",
+        manifestId: "https://www.dunkindonuts.com"
       },
       {
         name: "Sam's Club",
@@ -6604,7 +7168,9 @@ export const categories = [
         nameKey: "seamless_name",
         descriptionKey: "seamless_desc",
         icon: "icons/pwa/seamless.webp",
-        url: "https://www.seamless.com"
+        url: "https://www.seamless.com",
+        manifestUrl: "https://assets.seamless.com/manifest.json",
+        manifestId: "https://www.seamless.com"
       },
 /*      {
         name: "Flipkart",
@@ -6641,7 +7207,8 @@ export const categories = [
         icon: "icons/wrappers/alibaba.webp",
         url2: "../wrappers/alibaba",
         apptype2: "wrapper",
-        url: "https://www.alibaba.com"
+        url: "https://www.alibaba.com",
+        manifestUrl2: "../wrappers/alibaba/manifest.json"
       },
       {
         name: "Shein",
@@ -6680,7 +7247,8 @@ export const categories = [
         icon: "icons/wrappers/biggo.webp",
         url2: "../wrappers/biggo",
         apptype2: "wrapper",
-        url: "https://biggo.com"
+        url: "https://biggo.com",
+        manifestUrl2: "../wrappers/biggo/manifest.json"
       },
       {
         name: "Walmart",
@@ -6689,7 +7257,8 @@ export const categories = [
         icon: "icons/wrappers/walmart.webp",
         url2: "../wrappers/walmart",
         apptype2: "wrapper",
-        url: "https://www.walmart.com"
+        url: "https://www.walmart.com",
+        manifestUrl2: "../wrappers/walmart/manifest.json"
       },
       {
         name: "Target",
@@ -6698,7 +7267,8 @@ export const categories = [
         icon: "icons/wrappers/target.webp",
         url2: "../wrappers/target",
         apptype2: "wrapper",
-        url: "https://www.target.com"
+        url: "https://www.target.com",
+        manifestUrl2: "../wrappers/target/manifest.json"
       },
       {
         name: "The Home Depot",
@@ -6707,7 +7277,8 @@ export const categories = [
         icon: "icons/wrappers/homedepot.webp",
         url2: "../wrappers/homedepot",
         apptype2: "wrapper",
-        url: "https://www.homedepot.com"
+        url: "https://www.homedepot.com",
+        manifestUrl2: "../wrappers/homedepot/manifest.json"
       },
       {
         name: "CVS",
@@ -6716,7 +7287,8 @@ export const categories = [
         icon: "icons/wrappers/cvs.webp",
         url2: "../wrappers/cvs",
         url: "https://www.cvs.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/cvs/manifest.json"
       },
       {
         name: "Whirlpool",
@@ -6725,7 +7297,8 @@ export const categories = [
         icon: "icons/wrappers/whirlpool.webp",
         url2: "../wrappers/whirlpool",
         url: "https://www.whirlpool.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/whirlpool/manifest.json"
       },
       {
         name: "Doordash",
@@ -6734,7 +7307,8 @@ export const categories = [
         icon: "icons/wrappers/doordash.webp",
         url2: "../wrappers/doordash",
         apptype2: "wrapper",
-        url: "https://www.doordash.com"
+        url: "https://www.doordash.com",
+        manifestUrl2: "../wrappers/doordash/manifest.json"
       },
       {
         name: "Safeway",
@@ -6743,7 +7317,8 @@ export const categories = [
         icon: "icons/wrappers/safeway.webp",
         url2: "../wrappers/safeway",
         apptype2: "wrapper",
-        url: "https://www.safeway.com"
+        url: "https://www.safeway.com",
+        manifestUrl2: "../wrappers/safeway/manifest.json"
       },
       {
         name: "Dollar Tree",
@@ -6752,7 +7327,8 @@ export const categories = [
         icon: "icons/wrappers/dollartree.webp",
         url2: "../wrappers/dollartree",
         apptype2: "wrapper",
-        url: "https://www.dollartree.com"
+        url: "https://www.dollartree.com",
+        manifestUrl2: "../wrappers/dollartree/manifest.json"
       },
       {
         name: "Dollar General",
@@ -6761,7 +7337,8 @@ export const categories = [
         icon: "icons/wrappers/dollargeneral.webp",
         url2: "../wrappers/dollargeneral",
         apptype2: "wrapper",
-        url: "https://www.dollargeneral.com"
+        url: "https://www.dollargeneral.com",
+        manifestUrl2: "../wrappers/dollargeneral/manifest.json"
       },
       {
         name: "Costco",
@@ -6770,7 +7347,8 @@ export const categories = [
         icon: "icons/wrappers/costco.webp",
         url2: "../wrappers/costco",
         apptype2: "wrapper",
-        url: "https://www.costco.com"
+        url: "https://www.costco.com",
+        manifestUrl2: "../wrappers/costco/manifest.json"
       },
       {
         name: "Costco(CN)",
@@ -6787,7 +7365,8 @@ export const categories = [
         icon: "icons/wrappers/kfc.webp",
         url2: "../wrappers/kfc",
         apptype2: "wrapper",
-        url: "https://www.kfc.com"
+        url: "https://www.kfc.com",
+        manifestUrl2: "../wrappers/kfc/manifest.json"
       },
       {
         name: "KFC (CN)",
@@ -6819,7 +7398,8 @@ export const categories = [
         icon: "icons/wrappers/subway.webp",
         url2: "../wrappers/subway",
         apptype2: "wrapper",
-        url: "https://www.subway.com"
+        url: "https://www.subway.com",
+        manifestUrl2: "../wrappers/subway/manifest.json"
       },
       {
         name: "McDonald's",
@@ -6828,7 +7408,8 @@ export const categories = [
         icon: "icons/wrappers/mcdonalds.webp",
         url2: "../wrappers/mcdonalds",
         apptype2: "wrapper",
-        url: "https://www.mcdonalds.com"
+        url: "https://www.mcdonalds.com",
+        manifestUrl2: "../wrappers/mcdonalds/manifest.json"
       },
       {
         name: "Apple Store",
@@ -6837,7 +7418,8 @@ export const categories = [
         icon: "icons/wrappers/apple.webp",
         url2: "../wrappers/applestore",
         apptype2: "wrapper",
-        url: "https://www.apple.com/store"
+        url: "https://www.apple.com/store",
+        manifestUrl2: "../wrappers/applestore/manifest.json"
       },
       {
         name: "Apple Retail Store",
@@ -6846,7 +7428,8 @@ export const categories = [
         icon: "icons/wrappers/apple.webp",
         url2: "../wrappers/appleretail",
         apptype2: "wrapper",
-        url: "https://www.apple.com/retail"
+        url: "https://www.apple.com/retail",
+        manifestUrl2: "../wrappers/appleretail/manifest.json"
       },
       {
         name: "Luckin Coffee",
@@ -6855,7 +7438,8 @@ export const categories = [
         icon: "icons/wrappers/luckin.webp",
         url2: "../wrappers/luckin",
         apptype2: "wrapper",
-        url: "https://in.luckincoffee.com"
+        url: "https://in.luckincoffee.com",
+        manifestUrl2: "../wrappers/luckin/manifest.json"
       },
       {
         name: "Samsung",
@@ -6864,7 +7448,8 @@ export const categories = [
         icon: "icons/wrappers/samsung.webp",
         url2: "../wrappers/samsung",
         apptype2: "wrapper",
-        url: "https://www.samsung.com"
+        url: "https://www.samsung.com",
+        manifestUrl2: "../wrappers/samsung/manifest.json"
       },
       {
         name: "Nordstrom",
@@ -6873,7 +7458,8 @@ export const categories = [
         icon: "icons/wrappers/nordstrom.webp",
         url2: "../wrappers/nordstrom",
         apptype2: "wrapper",
-        url: "https://www.nordstrom.com"
+        url: "https://www.nordstrom.com",
+        manifestUrl2: "../wrappers/nordstrom/manifest.json"
       },
       {
         name: "adidas",
@@ -6882,7 +7468,8 @@ export const categories = [
         icon: "icons/wrappers/adidas.webp",
         url2: "../wrappers/adidas",
         apptype2: "wrapper",
-        url: "https://www.adidas.com"
+        url: "https://www.adidas.com",
+        manifestUrl2: "../wrappers/adidas/manifest.json"
       },
       {
         name: "adiClub 阿迪达斯会员中心",
@@ -6899,7 +7486,8 @@ export const categories = [
         icon: "icons/wrappers/nexphone.webp",
         url2: "../wrappers/nexphone",
         apptype2: "wrapper",
-        url: "https://nexphone.com"
+        url: "https://nexphone.com",
+        manifestUrl2: "../wrappers/nexphone/manifest.json"
       },
       {
         name: "Modani",
@@ -6908,7 +7496,8 @@ export const categories = [
         icon: "icons/wrappers/modani.webp",
         url2: "../wrappers/modani",
         apptype2: "wrapper",
-        url: "https://modani.com"
+        url: "https://modani.com",
+        manifestUrl2: "../wrappers/modani/manifest.json"
       },
       {
         name: "UGG",
@@ -6924,7 +7513,8 @@ export const categories = [
         icon: "icons/wrappers/wawa.webp",
         url2: "../wrappers/wawa",
         apptype2: "wrapper",
-        url: "https://www.wawa.com"
+        url: "https://www.wawa.com",
+        manifestUrl2: "../wrappers/wawa/manifest.json"
       },
       {
         name: "Casey's",
@@ -6934,7 +7524,8 @@ export const categories = [
         url2: "../msedge/caseys",
         apptype2: "wrapper",
         url: "https://www.caseys.com",
-        apptype_hide: "msedge"
+        apptype_hide: "msedge",
+        manifestUrl2: "../msedge/caseys/manifest.json"
       },
       {
         name: "Moon Star",
@@ -6943,7 +7534,8 @@ export const categories = [
         icon: "icons/wrappers/moonstarendicott.webp",
         url2: "../wrappers/moonstarendicott",
         apptype2: "wrapper",
-        url: "https://moonstarendicott.com"
+        url: "https://moonstarendicott.com",
+        manifestUrl2: "../wrappers/moonstarendicott/manifest.json"
       },
       {
         name: "SMZDM (什么值得买)",
@@ -6959,7 +7551,8 @@ export const categories = [
         icon: "icons/wrappers/roku.webp",
         url2: "../wrappers/roku",
         apptype2: "wrapper",
-        url: "https://www.roku.com"
+        url: "https://www.roku.com",
+        manifestUrl2: "../wrappers/roku/manifest.json"
       },
       {
         name: "KZ Audio",
@@ -6968,7 +7561,8 @@ export const categories = [
         icon: "icons/wrappers/kzaudio.webp",
         url2: "../wrappers/kzaudio",
         apptype2: "wrapper",
-        url: "https://kz-audio.com"
+        url: "https://kz-audio.com",
+        manifestUrl2: "../wrappers/kzaudio/manifest.json"
       },
       {
         name: "Instacart",
@@ -6977,7 +7571,8 @@ export const categories = [
         icon: "icons/wrappers/instacart.webp",
         url2: "../wrappers/instacart",
         apptype2: "wrapper",
-        url: "https://www.instacart.com"
+        url: "https://www.instacart.com",
+        manifestUrl2: "../wrappers/instacart/manifest.json"
       },
       {
         name: "Albertsons",
@@ -6986,7 +7581,8 @@ export const categories = [
         icon: "icons/wrappers/albertsons.webp",
         url2: "../wrappers/albertsons",
         apptype2: "wrapper",
-        url: "https://www.albertsons.com"
+        url: "https://www.albertsons.com",
+        manifestUrl2: "../wrappers/albertsons/manifest.json"
       },
       {
         name: "Etsy",
@@ -6995,7 +7591,8 @@ export const categories = [
         icon: "icons/wrappers/etsy.webp",
         url2: "../wrappers/etsy",
         apptype2: "wrapper",
-        url: "https://www.etsy.com"
+        url: "https://www.etsy.com",
+        manifestUrl2: "../wrappers/etsy/manifest.json"
       },
       {
         name: "InnoSearch AI",
@@ -7004,7 +7601,8 @@ export const categories = [
         icon: "icons/wrappers/innosearch.webp",
         url2: "../wrappers/innosearch",
         apptype2: "wrapper",
-        url: "https://www.innosearch.ai"
+        url: "https://www.innosearch.ai",
+        manifestUrl2: "../wrappers/innosearch/manifest.json"
       },
       {
         name: "Kmart",
@@ -7013,7 +7611,8 @@ export const categories = [
         icon: "icons/wrappers/kmart.webp",
         url2: "../wrappers/kmart",
         apptype2: "wrapper",
-        url: "https://www.kmart.com"
+        url: "https://www.kmart.com",
+        manifestUrl2: "../wrappers/kmart/manifest.json"
       },
       {
         name: "Foodpanda PH",
@@ -7022,7 +7621,8 @@ export const categories = [
         icon: "icons/wrappers/foodpandaph.webp",
         url2: "../wrappers/foodpandaph",
         apptype2: "wrapper",
-        url: "https://www.foodpanda.ph"
+        url: "https://www.foodpanda.ph",
+        manifestUrl2: "../wrappers/foodpandaph/manifest.json"
       },
       {
         name: "GrabFood",
@@ -7031,7 +7631,8 @@ export const categories = [
         icon: "icons/wrappers/grabfood.webp",
         url2: "../wrappers/grabfood",
         apptype2: "wrapper",
-        url: "https://food.grab.com"
+        url: "https://food.grab.com",
+        manifestUrl2: "../wrappers/grabfood/manifest.json"
       },
       {
         name: "Lenovo US",
@@ -7040,7 +7641,8 @@ export const categories = [
         icon: "icons/wrappers/lenovo.webp",
         url2: "../wrappers/lenovo_us",
         apptype2: "wrapper",
-        url: "https://www.lenovo.com/us/en/"
+        url: "https://www.lenovo.com/us/en/",
+        manifestUrl2: "../wrappers/lenovo_us/manifest.json"
       },
       {
         name: "Lenovo China",
@@ -7049,7 +7651,8 @@ export const categories = [
         icon: "icons/wrappers/lenovo.webp",
         url2: "../wrappers/lenovo_cn",
         apptype2: "wrapper",
-        url: "https://www.lenovo.com.cn/"
+        url: "https://www.lenovo.com.cn/",
+        manifestUrl2: "../wrappers/lenovo_cn/manifest.json"
       },
       {
         name: "In-N-Out",
@@ -7058,7 +7661,8 @@ export const categories = [
         icon: "icons/wrappers/innout.webp",
         url2: "../wrappers/innout",
         apptype2: "wrapper",
-        url: "https://www.in-n-out.com"
+        url: "https://www.in-n-out.com",
+        manifestUrl2: "../wrappers/innout/manifest.json"
       },
       {
         name: "Taco John's Order",
@@ -7067,7 +7671,8 @@ export const categories = [
         icon: "icons/wrappers/tacojohns.webp",
         url2: "../wrappers/tacojohns_order",
         apptype2: "wrapper",
-        url: "https://order.tacojohns.com"
+        url: "https://order.tacojohns.com",
+        manifestUrl2: "../wrappers/tacojohns_order/manifest.json"
       },
       {
         name: "Taco John's",
@@ -7076,7 +7681,8 @@ export const categories = [
         icon: "icons/wrappers/tacojohns.webp",
         url2: "../wrappers/tacojohns",
         apptype2: "wrapper",
-        url: "https://www.tacojohns.com"
+        url: "https://www.tacojohns.com",
+        manifestUrl2: "../wrappers/tacojohns/manifest.json"
       },
       {
         name: "Burger King",
@@ -7085,7 +7691,8 @@ export const categories = [
         icon: "icons/msedge/bk.webp",
         url2: "../msedge/bk",
         apptype2: "wrapper",
-        url: "https://www.bk.com"
+        url: "https://www.bk.com",
+        manifestUrl2: "../msedge/bk/manifest.json"
       },
       {
         name: "Made-in-China.com",
@@ -7094,7 +7701,8 @@ export const categories = [
         icon: "icons/msedge/madeinchina.webp",
         url2: "../msedge/madeinchina",
         apptype2: "wrapper",
-        url: "https://www.made-in-china.com"
+        url: "https://www.made-in-china.com",
+        manifestUrl2: "../msedge/madeinchina/manifest.json"
       },
       {
         name: "GOG.com",
@@ -7103,7 +7711,8 @@ export const categories = [
         icon: "icons/wrappers/gog.webp",
         url2: "../wrappers/gog",
         apptype2: "wrapper",
-        url: "https://www.gog.com"
+        url: "https://www.gog.com",
+        manifestUrl2: "../wrappers/gog/manifest.json"
       },
       {
         name: "Hebei Logistics Network (河北内卷网)",
@@ -7321,7 +7930,8 @@ export const categories = [
         icon: "icons/wrappers/bosideng.webp",
         url2: "../wrappers/bosideng",
         apptype2: "wrapper",
-        url: "https://www.bosidengfashion.com"
+        url: "https://www.bosidengfashion.com",
+        manifestUrl2: "../wrappers/bosideng/manifest.json"
       },
       {
         name: "Vipshop Deals (唯品会特卖)",
@@ -7384,7 +7994,8 @@ export const categories = [
         icon: "icons/wrappers/delish.webp",
         url2: "../wrappers/delish",
         apptype2: "wrapper",
-        url: "https://www.delish.com"
+        url: "https://www.delish.com",
+        manifestUrl2: "../wrappers/delish/manifest.json"
       },
       {
         name: "Allrecipes",
@@ -7393,7 +8004,8 @@ export const categories = [
         icon: "icons/wrappers/allrecipes.webp",
         url2: "../wrappers/allrecipes",
         apptype2: "wrapper",
-        url: "https://www.allrecipes.com"
+        url: "https://www.allrecipes.com",
+        manifestUrl2: "../wrappers/allrecipes/manifest.json"
       },
     ]
   },
@@ -7434,7 +8046,9 @@ export const categories = [
         nameKey: "jetblue_name",
         descriptionKey: "jetblue_desc",
         icon: "icons/pwa/jetblue.webp",
-        url: "https://www.jetblue.com"
+        url: "https://www.jetblue.com",
+        manifestUrl: "https://www.jetblue.com/manifest.json",
+        manifestId: "https://www.jetblue.com"
       },
       {
         name: "FlixBus",
@@ -7462,14 +8076,17 @@ export const categories = [
         nameKey: "tripcom_name",
         descriptionKey: "tripcom_desc",
         icon: "icons/pwa/tripcom.webp",
-        url: "https://us.trip.com"
+        url: "https://us.trip.com",
+        manifestUrl: "https://us.trip.com/m/manifest.json?sceneId=&locale=en-US"
       },
       {
         name: "Girls Heavens",
         nameKey: "girlsheavens_name",
         descriptionKey: "girlsheavens_desc",
         icon: "icons/pwa/girlsheavens.webp",
-        url: "https://girlsheavens.com"
+        url: "https://girlsheavens.com",
+        manifestUrl: "https://girlsheavens.com/wp-content/uploads/fbrfg/site.webmanifest",
+        manifestId: "https://girlsheavens.com"
       },
       {
         name: "Happily Ever Travels",
@@ -7485,7 +8102,8 @@ export const categories = [
         icon: "icons/wrappers/usps.webp",
         url2: "../wrappers/usps",
         apptype2: "wrapper",
-        url: "https://www.usps.com"
+        url: "https://www.usps.com",
+        manifestUrl2: "../wrappers/usps/manifest.json"
       },
       {
         name: "MTA",
@@ -7494,7 +8112,8 @@ export const categories = [
         icon: "icons/wrappers/mta.webp",
         url2: "../wrappers/mta",
         apptype2: "wrapper",
-        url: "https://www.mta.info"
+        url: "https://www.mta.info",
+        manifestUrl2: "../wrappers/mta/manifest.json"
       },
       {
         name: "China EMS",
@@ -7503,7 +8122,8 @@ export const categories = [
         icon: "icons/wrappers/chinaems.webp",
         url2: "../wrappers/chinaems",
         apptype2: "wrapper",
-        url: "https://www.ems.com.cn"
+        url: "https://www.ems.com.cn",
+        manifestUrl2: "../wrappers/chinaems/manifest.json"
       },
       {
         name: "Tripadvisor",
@@ -7512,7 +8132,8 @@ export const categories = [
         icon: "icons/wrappers/tripadvisor.webp",
         url2: "../wrappers/tripadvisor",
         apptype2: "wrapper",
-        url: "https://www.tripadvisor.com"
+        url: "https://www.tripadvisor.com",
+        manifestUrl2: "../wrappers/tripadvisor/manifest.json"
       },
       {
         name: "Expedia",
@@ -7521,7 +8142,8 @@ export const categories = [
         icon: "icons/wrappers/expedia.webp",
         url2: "../wrappers/expedia",
         apptype2: "wrapper",
-        url: "https://www.expedia.com"
+        url: "https://www.expedia.com",
+        manifestUrl2: "../wrappers/expedia/manifest.json"
       },
       {
         name: "Transit Code",
@@ -7667,7 +8289,9 @@ export const categories = [
         nameKey: "dongchedi_name",
         descriptionKey: "dongchedi_desc",
         icon: "icons/pwa/dongchedi.webp",
-        url: "https://www.dongchedi.com"
+        url: "https://www.dongchedi.com",
+        manifestUrl: "https://lf3-motor.dcarstatic.com/obj/motor-fe-static/motor/pc/_next/static/pwa/v1/manifest.json",
+        manifestId: "https://www.dongchedi.com"
       },
       {
         name: "CarNewsChina",
@@ -7676,7 +8300,8 @@ export const categories = [
         icon: "icons/wrappers/carnewschina.webp",
         url2: "../wrappers/carnewschina",
         apptype2: "wrapper",
-        url: "https://carnewschina.com"
+        url: "https://carnewschina.com",
+        manifestUrl2: "../wrappers/carnewschina/manifest.json"
       },
       {
         name: "CleanTechnica",
@@ -7685,7 +8310,8 @@ export const categories = [
         icon: "icons/wrappers/cleantechnica.webp",
         url2: "../wrappers/cleantechnica",
         apptype2: "wrapper",
-        url: "https://cleantechnica.com"
+        url: "https://cleantechnica.com",
+        manifestUrl2: "../wrappers/cleantechnica/manifest.json"
       },
       {
         name: "The Drive",
@@ -7694,7 +8320,8 @@ export const categories = [
         icon: "icons/wrappers/thedrive.webp",
         url2: "../wrappers/thedrive",
         apptype2: "wrapper",
-        url: "https://www.thedrive.com"
+        url: "https://www.thedrive.com",
+        manifestUrl2: "../wrappers/thedrive/manifest.json"
       },
       {
         name: "Jiakaobaodian (驾考宝典)",
@@ -7710,7 +8337,8 @@ export const categories = [
         icon: "icons/wrappers/jiakaobaodian.webp",
         url2: "../wrappers/jiakaobaodian",
         apptype2: "wrapper",
-        url: "https://www.jiakaobaodian.com"
+        url: "https://www.jiakaobaodian.com",
+        manifestUrl2: "../wrappers/jiakaobaodian/manifest.json"
       },
       {
         name: "mobile.de",
@@ -7719,7 +8347,8 @@ export const categories = [
         icon: "icons/wrappers/mobilede.webp",
         url2: "../wrappers/mobilede",
         apptype2: "wrapper",
-        url: "https://www.mobile.de"
+        url: "https://www.mobile.de",
+        manifestUrl2: "../wrappers/mobilede/manifest.json"
       },
       {
         name: "Driving Practice Tests",
@@ -7728,7 +8357,8 @@ export const categories = [
         icon: "icons/msedge/driving_practice_tests.webp",
         url2: "../msedge/driving_practice_tests",
         apptype2: "wrapper",
-        url: "https://drivingpracticetests.com"
+        url: "https://drivingpracticetests.com",
+        manifestUrl2: "../msedge/driving_practice_tests/manifest.json"
       },
       {
         name: "Carscoops",
@@ -7737,7 +8367,8 @@ export const categories = [
         icon: "icons/wrappers/carscoops.webp",
         url2: "../wrappers/carscoops",
         apptype2: "wrapper",
-        url: "https://www.carscoops.com"
+        url: "https://www.carscoops.com",
+        manifestUrl2: "../wrappers/carscoops/manifest.json"
       },
     ]
   },
@@ -7759,7 +8390,8 @@ export const categories = [
         icon: "icons/wrappers/booking.webp",
         url2: "../wrappers/booking",
         apptype2: "wrapper",
-        url: "https://www.booking.com"
+        url: "https://www.booking.com",
+        manifestUrl2: "../wrappers/booking/manifest.json"
       },
       {
         name: "Ticketmaster",
@@ -7768,7 +8400,8 @@ export const categories = [
         icon: "icons/wrappers/ticketmaster.webp",
         url2: "../wrappers/ticketmaster",
         apptype2: "wrapper",
-        url: "https://www.ticketmaster.com"
+        url: "https://www.ticketmaster.com",
+        manifestUrl2: "../wrappers/ticketmaster/manifest.json"
       },
       {
         name: "Ctrip (携程)",
@@ -7777,7 +8410,8 @@ export const categories = [
         icon: "icons/wrappers/ctrip.webp",
         url2: "../wrappers/ctrip",
         apptype2: "wrapper",
-        url: "https://www.ctrip.com"
+        url: "https://www.ctrip.com",
+        manifestUrl2: "../wrappers/ctrip/manifest.json"
       },
       {
         name: "Tao Piao Piao (淘票票)",
@@ -7786,7 +8420,8 @@ export const categories = [
         icon: "icons/wrappers/taopiaopiao.webp",
         url2: "../wrappers/taopiaopiao",
         apptype2: "wrapper",
-        url: "https://www.taopiaopiao.com"
+        url: "https://www.taopiaopiao.com",
+        manifestUrl2: "../wrappers/taopiaopiao/manifest.json"
       },
       {
         name: "Tao piao piao (淘票票)",
@@ -7824,6 +8459,8 @@ export const categories = [
         descriptionKey: "zillow_desc",
         icon: "icons/pwa/zillow.webp",
         url: "https://www.zillow.com",
+        manifestUrl: "https://www.zillow.com/manifest.json",
+        manifestId: "https://www.zillow.com"
       },
       {
         name: "Redfin",
@@ -7853,7 +8490,8 @@ export const categories = [
         icon: "icons/wrappers/airbnb.webp",
         url2: "../wrappers/airbnb",
         apptype2: "wrapper",
-        url: "https://www.airbnb.com"
+        url: "https://www.airbnb.com",
+        manifestUrl2: "../wrappers/airbnb/manifest.json"
       },
       {
         name: "Auction.com",
@@ -7862,7 +8500,8 @@ export const categories = [
         icon: "icons/wrappers/auctioncom.webp",
         url2: "../wrappers/auctioncom",
         apptype2: "wrapper",
-        url: "https://www.auction.com"
+        url: "https://www.auction.com",
+        manifestUrl2: "../wrappers/auctioncom/manifest.json"
       },
       {
         name: "WeWork",
@@ -7871,7 +8510,8 @@ export const categories = [
         icon: "icons/msedge/wework.webp",
         url2: "../msedge/wework",
         apptype2: "wrapper",
-        url: "https://www.wework.com"
+        url: "https://www.wework.com",
+        manifestUrl2: "../msedge/wework/manifest.json"
       },
       {
         name: "H World Club (华住会)",
@@ -7916,6 +8556,8 @@ export const categories = [
         descriptionKey: "handshake_desc",
         icon: "icons/pwa/handshake.webp",
         url: "https://app.joinhandshake.com",
+        manifestUrl: "https://handshake-production-cdn.joinhandshake.com/site.webmanifest",
+        manifestId: "https://app.joinhandshake.com"
       },
       {
         name: "Wellfound",
@@ -7930,6 +8572,8 @@ export const categories = [
         descriptionKey: "iguopin_desc",
         icon: "icons/pwa/iguopin.webp",
         url: "https://www.iguopin.com",
+        manifestUrl: "https://www.iguopin.com/manifest.json",
+        manifestId: "https://www.iguopin.com"
       },
       {
         name: "Remote In Tech",
@@ -7952,7 +8596,8 @@ export const categories = [
         icon: "icons/wrappers/codesignal.webp",
         url2: "../wrappers/codesignal",
         apptype2: "wrapper",
-        url: "https://codesignal.com"
+        url: "https://codesignal.com",
+        manifestUrl2: "../wrappers/codesignal/manifest.json"
       },
       {
         name: "Remote OK",
@@ -7961,7 +8606,8 @@ export const categories = [
         icon: "icons/wrappers/remoteok.webp",
         url2: "../wrappers/remoteok",
         apptype2: "wrapper",
-        url: "https://remoteok.com"
+        url: "https://remoteok.com",
+        manifestUrl2: "../wrappers/remoteok/manifest.json"
       },
       {
         name: "Layoffs.fyi",
@@ -7970,7 +8616,8 @@ export const categories = [
         icon: "icons/wrappers/layoffsfyi.webp",
         url2: "../wrappers/layoffsfyi",
         apptype2: "wrapper",
-        url: "https://layoffs.fyi"
+        url: "https://layoffs.fyi",
+        manifestUrl2: "../wrappers/layoffsfyi/manifest.json"
       },
       {
         name: "ADP",
@@ -7979,7 +8626,8 @@ export const categories = [
         icon: "icons/msedge/adp.webp",
         url2: "../msedge/adp",
         apptype2: "wrapper",
-        url: "https://www.adp.com"
+        url: "https://www.adp.com",
+        manifestUrl2: "../msedge/adp/manifest.json"
       },
       {
         name: "Taco John's Careers",
@@ -7988,7 +8636,8 @@ export const categories = [
         icon: "icons/wrappers/tacojohns.webp",
         url2: "../wrappers/tacojohns_careers",
         apptype2: "wrapper",
-        url: "https://careers.tacojohns.com"
+        url: "https://careers.tacojohns.com",
+        manifestUrl2: "../wrappers/tacojohns_careers/manifest.json"
       },
       {
         name: "Interstride",
@@ -7997,7 +8646,8 @@ export const categories = [
         icon: "icons/wrappers/interstride.webp",
         url2: "../wrappers/interstride",
         apptype2: "wrapper",
-        url: "https://www.interstride.com"
+        url: "https://www.interstride.com",
+        manifestUrl2: "../wrappers/interstride/manifest.json"
       },
       {
         name: "Burger King China Careers",
@@ -8007,7 +8657,8 @@ export const categories = [
         url2: "../wrappers/bk_china_recruitment",
         apptype2: "wrapper",
         url: "https://app.mokahr.com/social-recruitment/bkchina/164000#/home",
-        hide: true
+        hide: true,
+        manifestUrl2: "../wrappers/bk_china_recruitment/manifest.json"
       },
       {
         name: "BOSS Zhipin",
@@ -8074,7 +8725,8 @@ export const categories = [
         icon: "icons/wrappers/aws.webp",
         url2: "../wrappers/aws",
         apptype2: "wrapper",
-        url: "https://aws.amazon.com"
+        url: "https://aws.amazon.com",
+        manifestUrl2: "../wrappers/aws/manifest.json"
       },
       {
         name: "Google Cloud",
@@ -8083,7 +8735,8 @@ export const categories = [
         icon: "icons/wrappers/googlecloud.webp",
         url2: "../wrappers/googlecloud",
         apptype2: "wrapper",
-        url: "https://cloud.google.com"
+        url: "https://cloud.google.com",
+        manifestUrl2: "../wrappers/googlecloud/manifest.json"
       },
       {
         name: "Alibaba Cloud",
@@ -8092,7 +8745,8 @@ export const categories = [
         icon: "icons/wrappers/aliyun.webp",
         url2: "../wrappers/alibabacloud",
         apptype2: "wrapper",
-        url: "https://www.alibabacloud.com"
+        url: "https://www.alibabacloud.com",
+        manifestUrl2: "../wrappers/alibabacloud/manifest.json"
       },
       {
         name: "Aliyun China(阿里云中国)",
@@ -8101,7 +8755,8 @@ export const categories = [
         icon: "icons/wrappers/aliyun.webp",
         url2: "../wrappers/aliyun",
         apptype2: "wrapper",
-        url: "https://cn.aliyun.com"
+        url: "https://cn.aliyun.com",
+        manifestUrl2: "../wrappers/aliyun/manifest.json"
       },
       {
         name: "Tencent Cloud",
@@ -8110,7 +8765,8 @@ export const categories = [
         icon: "icons/wrappers/tencentcloud.webp",
         url2: "../wrappers/tencentcloud",
         apptype2: "wrapper",
-        url: "https://www.tencentcloud.com"
+        url: "https://www.tencentcloud.com",
+        manifestUrl2: "../wrappers/tencentcloud/manifest.json"
       },
       {
         name: "Tencent Cloud China(腾讯云中国)",
@@ -8119,7 +8775,8 @@ export const categories = [
         icon: "icons/wrappers/tencentcloud.webp",
         url2: "../wrappers/tencentcloudcn",
         apptype2: "wrapper",
-        url: "https://cloud.tencent.com"
+        url: "https://cloud.tencent.com",
+        manifestUrl2: "../wrappers/tencentcloudcn/manifest.json"
       },
       {
         name: "Yandex Cloud",
@@ -8128,7 +8785,8 @@ export const categories = [
         icon: "icons/wrappers/yandexcloud.webp",
         url2: "../wrappers/yandexcloud",
         apptype2: "wrapper",
-        url: "https://yandex.cloud"
+        url: "https://yandex.cloud",
+        manifestUrl2: "../wrappers/yandexcloud/manifest.json"
       },
       {
         name: "iCloud",
@@ -8138,7 +8796,8 @@ export const categories = [
         url2: "../msedge/icloud",
         apptype2: "wrapper",
         apptype_hide: "msedge",
-        url: "https://www.icloud.com"
+        url: "https://www.icloud.com",
+        manifestUrl2: "../msedge/icloud/manifest.json"
       },
     ]
   },
@@ -8153,7 +8812,8 @@ export const categories = [
         icon: "icons/msedge/docusign.webp",
         url2: "../msedge/docusign",
         apptype2: "wrapper",
-        url: "https://www.docusign.com"
+        url: "https://www.docusign.com",
+        manifestUrl2: "../msedge/docusign/manifest.json"
       },
       {
         name: "Tencent E-Signature",
@@ -8181,7 +8841,9 @@ export const categories = [
         nameKey: "adactio_name",
         descriptionKey: "adactio_desc",
         icon: "icons/pwa/adactio.webp",
-        url: "https://adactio.com"
+        url: "https://adactio.com",
+        manifestUrl: "https://adactio.com/manifest.json",
+        manifestId: "https://adactio.com"
       },
       {
         name: "Medium",
@@ -8195,28 +8857,34 @@ export const categories = [
         nameKey: "qinlili_name",
         descriptionKey: "qinlili_desc",
         icon: "icons/pwa/qinlili.webp",
-        url: "https://qinlili.bid" 
+        url: "https://qinlili.bid",
+        manifestUrl: "https://qinlili.bid/manifest.json" 
       },
       {
         name: "Kangwenchang",
         nameKey: "kangwenchang_name",
         descriptionKey: "kangwenchang_desc",
         icon: "icons/pwa/kangwenchang.webp",
-        url: "https://kangwenchang.com"
+        url: "https://kangwenchang.com",
+        manifestUrl: "https://kangwenchang.com/manifest.json"
       },
       {
         name: "Qualcomm",
         nameKey: "qualcomm_name",
         descriptionKey: "qualcomm_desc",
         icon: "icons/pwa/qualcomm.webp",
-        url: "https://www.qualcomm.com"
+        url: "https://www.qualcomm.com",
+        manifestUrl: "https://www.qualcomm.com/etc.clientlibs/qcomm-martech/clientlibs/clientlib-react/resources/manifest.json",
+        manifestId: "https://www.qualcomm.com"
       },
       {
         name: "PWA Pilipinas",
         nameKey: "pwapilipinas_name",
         descriptionKey: "pwapilipinas_desc",
         icon: "icons/pwa/pwapilipinas.webp",
-        url: "https://app.pwapilipinas.org"
+        url: "https://app.pwapilipinas.org",
+        manifestUrl: "https://app.pwapilipinas.org/manifest.webmanifest",
+        manifestId: "https://app.pwapilipinas.org"
       },
       {
         name: "Rock",
@@ -8230,7 +8898,9 @@ export const categories = [
         nameKey: "richarddawkins_name",
         descriptionKey: "richarddawkins_desc",
         icon: "icons/pwa/richarddawkins.webp",
-        url: "https://www.richarddawkins.com"
+        url: "https://www.richarddawkins.com",
+        manifestUrl: "https://www.richarddawkins.com/public/images/favicon/site.webmanifest",
+        manifestId: "https://www.richarddawkins.com"
       },
       {
         name: "Richard Dawkins Foundation",
@@ -8239,7 +8909,8 @@ export const categories = [
         icon: "icons/wrappers/richarddawkinsfoundation.webp",
         url: "https://richarddawkins.net",
         url2: "../wrappers/richarddawkinsfoundation",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/richarddawkinsfoundation/manifest.json"
       },
       {
         name: "Lyc8503's blog",
@@ -8276,7 +8947,8 @@ export const categories = [
         icon: "icons/wrappers/herbsutter.webp",
         url2: "../wrappers/herbsutter",
         apptype2: "wrapper",
-        url: "https://herbsutter.com"
+        url: "https://herbsutter.com",
+        manifestUrl2: "../wrappers/herbsutter/manifest.json"
       },
       {
         name: "GoFundMe",
@@ -8286,7 +8958,8 @@ export const categories = [
         url2: "../msedge/gofundme",
         apptype2: "wrapper",
         apptype_hide: "msedge",
-        url: "https://www.gofundme.com"
+        url: "https://www.gofundme.com",
+        manifestUrl2: "../msedge/gofundme/manifest.json"
       },
       {
         name: "Bjarne Stroustrup",
@@ -8295,7 +8968,8 @@ export const categories = [
         icon: "icons/wrappers/bjarnestroustrup.webp",
         url2: "../wrappers/bjarnestroustrup",
         apptype2: "wrapper",
-        url: "https://www.stroustrup.com"
+        url: "https://www.stroustrup.com",
+        manifestUrl2: "../wrappers/bjarnestroustrup/manifest.json"
       },
       {
         name: "WBTV",
@@ -8305,7 +8979,8 @@ export const categories = [
         url2: "../msedge/wbtv",
         apptype2: "wrapper",
         apptype_hide: "msedge",
-        url: "https://www.wbtv.com"
+        url: "https://www.wbtv.com",
+        manifestUrl2: "../msedge/wbtv/manifest.json"
       },
 
       {
@@ -8315,7 +8990,8 @@ export const categories = [
         icon: "icons/wrappers/nvidia.webp",
         url2: "../wrappers/nvidia",
         apptype2: "wrapper",
-        url: "https://www.nvidia.com"
+        url: "https://www.nvidia.com",
+        manifestUrl2: "../wrappers/nvidia/manifest.json"
       },
       {
         name: "Ruan Yifeng (阮一峰)",
@@ -8324,7 +9000,8 @@ export const categories = [
         icon: "icons/wrappers/ruanyifeng.webp",
         url2: "../wrappers/ruanyifeng",
         url: "https://www.ruanyifeng.com",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/ruanyifeng/manifest.json"
       },
       {
         name: "Veritasium",
@@ -8333,7 +9010,8 @@ export const categories = [
         icon: "icons/wrappers/veritasium.webp",
         url2: "../wrappers/veritasium",
         apptype2: "wrapper",
-        url: "https://www.veritasium.com"
+        url: "https://www.veritasium.com",
+        manifestUrl2: "../wrappers/veritasium/manifest.json"
       },
       {
         name: "The Lunduke Journal",
@@ -8342,7 +9020,8 @@ export const categories = [
         icon: "icons/wrappers/thelundukejournal.webp",
         url2: "../wrappers/thelundukejournal",
         apptype2: "wrapper",
-        url: "https://lunduke.com"
+        url: "https://lunduke.com",
+        manifestUrl2: "../wrappers/thelundukejournal/manifest.json"
       },
       {
         name: "Pluralistic",
@@ -8351,7 +9030,8 @@ export const categories = [
         icon: "icons/wrappers/pluralistic.webp",
         url2: "../wrappers/pluralistic",
         apptype2: "wrapper",
-        url: "https://pluralistic.net"
+        url: "https://pluralistic.net",
+        manifestUrl2: "../wrappers/pluralistic/manifest.json"
       },
       {
         name: "Michael Hudson",
@@ -8360,7 +9040,8 @@ export const categories = [
         icon: "icons/wrappers/michaelhudson.webp",
         url2: "../wrappers/michaelhudson",
         apptype2: "wrapper",
-        url: "https://michael-hudson.com"
+        url: "https://michael-hudson.com",
+        manifestUrl2: "../wrappers/michaelhudson/manifest.json"
       },
       {
         name: "Judge Nap",
@@ -8369,7 +9050,8 @@ export const categories = [
         icon: "icons/wrappers/judgenap.webp",
         url2: "../wrappers/judgenap",
         apptype2: "wrapper",
-        url: "https://judgenap.com"
+        url: "https://judgenap.com",
+        manifestUrl2: "../wrappers/judgenap/manifest.json"
       },
       {
         name: "ChrisWillX",
@@ -8378,7 +9060,8 @@ export const categories = [
         icon: "icons/wrappers/chriswillx.webp",
         url2: "../wrappers/chriswillx",
         apptype2: "wrapper",
-        url: "https://chriswillx.com"
+        url: "https://chriswillx.com",
+        manifestUrl2: "../wrappers/chriswillx/manifest.json"
       },
       {
         name: "Donald J. Trump",
@@ -8387,7 +9070,8 @@ export const categories = [
         icon: "icons/wrappers/donaldjtrump.webp",
         url2: "../wrappers/donaldjtrump",
         apptype2: "wrapper",
-        url: "https://www.donaldjtrump.com"
+        url: "https://www.donaldjtrump.com",
+        manifestUrl2: "../wrappers/donaldjtrump/manifest.json"
       },
       {
         name: "WinRed",
@@ -8396,7 +9080,8 @@ export const categories = [
         icon: "icons/wrappers/winred.webp",
         url2: "../wrappers/winred",
         apptype2: "wrapper",
-        url: "https://winred.com"
+        url: "https://winred.com",
+        manifestUrl2: "../wrappers/winred/manifest.json"
       },
       {
         name: "Harldan's Guides",
@@ -8405,7 +9090,8 @@ export const categories = [
         icon: "icons/wrappers/harldan.webp",
         url2: "../wrappers/harldan",
         apptype2: "wrapper",
-        url: "https://www.harldan.com"
+        url: "https://www.harldan.com",
+        manifestUrl2: "../wrappers/harldan/manifest.json"
       },
       {
         name: "Jody Bruchon",
@@ -8414,7 +9100,8 @@ export const categories = [
         icon: "icons/wrappers/jodybruchon.webp",
         url2: "../wrappers/jodybruchon",
         apptype2: "wrapper",
-        url: "https://www.jodybruchon.com"
+        url: "https://www.jodybruchon.com",
+        manifestUrl2: "../wrappers/jodybruchon/manifest.json"
       },
       {
         name: "AI Focus",
@@ -8423,7 +9110,8 @@ export const categories = [
         icon: "icons/wrappers/aifocus.webp",
         url2: "../wrappers/aifocus",
         apptype2: "wrapper",
-        url: "https://aifoc.us"
+        url: "https://aifoc.us",
+        manifestUrl2: "../wrappers/aifocus/manifest.json"
       },
       {
         name: "0xSid",
@@ -8432,7 +9120,8 @@ export const categories = [
         icon: "icons/wrappers/0xsid.webp",
         url2: "../wrappers/0xsid",
         apptype2: "wrapper",
-        url: "https://www.0xsid.com"
+        url: "https://www.0xsid.com",
+        manifestUrl2: "../wrappers/0xsid/manifest.json"
       },
       {
         name: "Stallman",
@@ -8441,7 +9130,8 @@ export const categories = [
         icon: "icons/wrappers/stallman.webp",
         url2: "../wrappers/stallman",
         apptype2: "wrapper",
-        url: "https://stallman.org"
+        url: "https://stallman.org",
+        manifestUrl2: "../wrappers/stallman/manifest.json"
       },
       {
         name: "Tyler Raw",
@@ -8450,7 +9140,8 @@ export const categories = [
         icon: "icons/msedge/tylerraw.webp",
         url2: "../msedge/tylerraw",
         apptype2: "wrapper",
-        url: "https://tylerraw.com"
+        url: "https://tylerraw.com",
+        manifestUrl2: "../msedge/tylerraw/manifest.json"
       },
       {
         name: "AMD",
@@ -8459,7 +9150,8 @@ export const categories = [
         icon: "icons/wrappers/amd.webp",
         url2: "../wrappers/amd",
         apptype2: "wrapper",
-        url: "https://www.amd.com"
+        url: "https://www.amd.com",
+        manifestUrl2: "../wrappers/amd/manifest.json"
       },
       {
         name: "Defend Girls",
@@ -8468,7 +9160,8 @@ export const categories = [
         icon: "icons/wrappers/defendgirls.webp",
         url2: "../wrappers/defendgirls",
         apptype2: "wrapper",
-        url: "https://www.defendgirls.com"
+        url: "https://www.defendgirls.com",
+        manifestUrl2: "../wrappers/defendgirls/manifest.json"
       },
       {
         name: "Mitchell Hashimoto",
@@ -8477,7 +9170,8 @@ export const categories = [
         icon: "icons/wrappers/mitchellh.webp",
         url2: "../wrappers/mitchellh",
         apptype2: "wrapper",
-        url: "https://mitchellh.com"
+        url: "https://mitchellh.com",
+        manifestUrl2: "../wrappers/mitchellh/manifest.json"
       },
       {
         name: "Sinya Lee",
@@ -8486,7 +9180,8 @@ export const categories = [
         icon: "icons/wrappers/sinyalee.webp",
         url2: "../wrappers/sinyalee",
         apptype2: "wrapper",
-        url: "https://sinyalee.com/blog"
+        url: "https://sinyalee.com/blog",
+        manifestUrl2: "../wrappers/sinyalee/manifest.json"
       },
       {
         name: "Sinya Lee Blog",
@@ -8495,7 +9190,8 @@ export const categories = [
         icon: "icons/wrappers/sinyalee.webp",
         url2: "../wrappers/sinyalee_blog",
         apptype2: "wrapper",
-        url: "https://sinyalee.com/blog"
+        url: "https://sinyalee.com/blog",
+        manifestUrl2: "../wrappers/sinyalee_blog/manifest.json"
       },
       {
         name: "Jeffrey Snover's Blog",
@@ -8504,7 +9200,8 @@ export const categories = [
         icon: "icons/wrappers/jsnover.webp",
         url2: "../wrappers/jsnover",
         apptype2: "wrapper",
-        url: "https://www.jsnover.com"
+        url: "https://www.jsnover.com",
+        manifestUrl2: "../wrappers/jsnover/manifest.json"
       },
       {
         name: "Ryan Marler's Blog",
@@ -8513,7 +9210,8 @@ export const categories = [
         icon: "icons/wrappers/marler8997_blog.webp",
         url2: "../wrappers/marler8997_blog",
         apptype2: "wrapper",
-        url: "https://marler8997.github.io"
+        url: "https://marler8997.github.io",
+        manifestUrl2: "../wrappers/marler8997_blog/manifest.json"
       },
       {
         name: "AMD AI Research Club (AMD AI 研习社)",
@@ -8536,7 +9234,8 @@ export const categories = [
         icon: "icons/wrappers/mgtowtv.webp",
         url2: "../wrappers/mgtowtv",
         apptype2: "wrapper",
-        url: "https://www.mgtow.tv"
+        url: "https://www.mgtow.tv",
+        manifestUrl2: "../wrappers/mgtowtv/manifest.json"
       },
       {
         name: "Better Bachelor",
@@ -8545,7 +9244,8 @@ export const categories = [
         icon: "icons/wrappers/betterbachelor.webp",
         url2: "../wrappers/betterbachelor",
           apptype2: "wrapper",
-          url: "https://betterbachelor.locals.com"
+          url: "https://betterbachelor.locals.com",
+          manifestUrl2: "../wrappers/betterbachelor/manifest.json"
       },
       {
         name: "The33Secrets",
@@ -8554,7 +9254,8 @@ export const categories = [
         icon: "icons/wrappers/the33secrets.webp",
         url2: "../wrappers/the33secrets",
         apptype2: "wrapper",
-        url: "https://www.the33secrets.com"
+        url: "https://www.the33secrets.com",
+        manifestUrl2: "../wrappers/the33secrets/manifest.json"
       },
       {
         name: "ToddV Dating",
@@ -8563,7 +9264,8 @@ export const categories = [
         icon: "icons/wrappers/toddvdating.webp",
         url2: "../wrappers/toddvdating",
         apptype2: "wrapper",
-        url: "https://toddvdating.com"
+        url: "https://toddvdating.com",
+        manifestUrl2: "../wrappers/toddvdating/manifest.json"
       },
     ]
   },
@@ -8578,7 +9280,8 @@ export const categories = [
         url2: "../wrappers/irs",
         descriptionKey: "irs_desc",
         apptype2: "wrapper",
-        url: "https://www.irs.gov"
+        url: "https://www.irs.gov",
+        manifestUrl2: "../wrappers/irs/manifest.json"
       },
       {
         name: "USCIS",
@@ -8587,7 +9290,8 @@ export const categories = [
         url2: "../wrappers/uscis",
         descriptionKey: "uscis_desc",
         apptype2: "wrapper",
-        url: "https://www.uscis.gov"
+        url: "https://www.uscis.gov",
+        manifestUrl2: "../wrappers/uscis/manifest.json"
       },
       {
         name: "SSA",
@@ -8596,7 +9300,8 @@ export const categories = [
         url2: "../wrappers/ssa",
         descriptionKey: "ssa_desc",
         apptype2: "wrapper",
-        url: "https://www.ssa.gov"
+        url: "https://www.ssa.gov",
+        manifestUrl2: "../wrappers/ssa/manifest.json"
       },
       {
         name: "TSA",
@@ -8605,7 +9310,8 @@ export const categories = [
         url2: "../wrappers/tsa",
         descriptionKey: "tsa_desc",
         apptype2: "wrapper",
-        url: "https://www.tsa.gov"
+        url: "https://www.tsa.gov",
+        manifestUrl2: "../wrappers/tsa/manifest.json"
       },
       {
         name: "DOS",
@@ -8614,7 +9320,8 @@ export const categories = [
         url2: "../wrappers/dos",
         descriptionKey: "dos_desc",
         apptype2: "wrapper",
-        url: "https://www.state.gov"
+        url: "https://www.state.gov",
+        manifestUrl2: "../wrappers/dos/manifest.json"
       },
       {
         name: "USA.gov",
@@ -8623,7 +9330,8 @@ export const categories = [
         url2: "../wrappers/usagov",
         descriptionKey: "usagov_desc",
         apptype2: "wrapper",
-        url: "https://www.usa.gov"
+        url: "https://www.usa.gov",
+        manifestUrl2: "../wrappers/usagov/manifest.json"
       },
       {
         name: "IdentityTheft",
@@ -8632,7 +9340,8 @@ export const categories = [
         url2: "../wrappers/identitytheft",
         descriptionKey: "identitytheft_desc",
         apptype2: "wrapper",
-        url: "https://www.identitytheft.gov"
+        url: "https://www.identitytheft.gov",
+        manifestUrl2: "../wrappers/identitytheft/manifest.json"
       },
       {
         name: "FTC",
@@ -8641,7 +9350,8 @@ export const categories = [
         url2: "../wrappers/ftc",
         descriptionKey: "ftc_desc",
         apptype2: "wrapper",
-        url: "https://www.ftc.gov"
+        url: "https://www.ftc.gov",
+        manifestUrl2: "../wrappers/ftc/manifest.json"
       },
       {
         name: "FDA",
@@ -8650,7 +9360,8 @@ export const categories = [
         url2: "../wrappers/fda",
         descriptionKey: "fda_desc",
         apptype2: "wrapper",
-        url: "https://www.fda.gov"
+        url: "https://www.fda.gov",
+        manifestUrl2: "../wrappers/fda/manifest.json"
       },
       {
         name: "FED",
@@ -8659,7 +9370,8 @@ export const categories = [
         url2: "../wrappers/fed",
         descriptionKey: "fed_desc",
         apptype2: "wrapper",
-        url: "https://www.federalreserve.gov"
+        url: "https://www.federalreserve.gov",
+        manifestUrl2: "../wrappers/fed/manifest.json"
       },
       {
         name: "DOL",
@@ -8668,7 +9380,8 @@ export const categories = [
         url2: "../wrappers/dol",
         descriptionKey: "dol_desc",
         apptype2: "wrapper",
-        url: "https://www.dol.gov"
+        url: "https://www.dol.gov",
+        manifestUrl2: "../wrappers/dol/manifest.json"
       },
       {
         name: "DOD",
@@ -8677,7 +9390,8 @@ export const categories = [
         url2: "../wrappers/dod",
         descriptionKey: "dod_desc",
         apptype2: "wrapper",
-        url: "https://www.defense.gov"
+        url: "https://www.defense.gov",
+        manifestUrl2: "../wrappers/dod/manifest.json"
       },
       {
         name: "GSA",
@@ -8686,7 +9400,8 @@ export const categories = [
         url2: "../wrappers/gsa",
         descriptionKey: "gsa_desc",
         apptype2: "wrapper",
-        url: "https://www.gsa.gov"
+        url: "https://www.gsa.gov",
+        manifestUrl2: "../wrappers/gsa/manifest.json"
       },
       {
         name: "DHS",
@@ -8695,7 +9410,8 @@ export const categories = [
         url2: "../wrappers/dhs",
         descriptionKey: "dhs_desc",
         apptype2: "wrapper",
-        url: "https://www.dhs.gov"
+        url: "https://www.dhs.gov",
+        manifestUrl2: "../wrappers/dhs/manifest.json"
       },
       {
         name: "DEA",
@@ -8704,7 +9420,8 @@ export const categories = [
         url2: "../wrappers/dea",
         descriptionKey: "dea_desc",
         apptype2: "wrapper",
-        url: "https://www.dea.gov"
+        url: "https://www.dea.gov",
+        manifestUrl2: "../wrappers/dea/manifest.json"
       },
       {
         name: "EEOC",
@@ -8713,7 +9430,8 @@ export const categories = [
         url2: "../wrappers/eeoc",
         descriptionKey: "eeoc_desc",
         apptype2: "wrapper",
-        url: "https://www.eeoc.gov"
+        url: "https://www.eeoc.gov",
+        manifestUrl2: "../wrappers/eeoc/manifest.json"
       },
       {
         name: "NSA",
@@ -8722,14 +9440,17 @@ export const categories = [
         url2: "../wrappers/nsa",
         descriptionKey: "nsa_desc",
         apptype2: "wrapper",
-        url: "https://www.nsa.gov"
+        url: "https://www.nsa.gov",
+        manifestUrl2: "../wrappers/nsa/manifest.json"
       },
       {
         name: "CIA",
         nameKey: "cia_name",
         icon: "icons/pwa/cia.webp",
         url: "https://www.cia.gov",
-        descriptionKey: "cia_desc"
+        descriptionKey: "cia_desc",
+        manifestUrl: "https://www.cia.gov/manifest.webmanifest",
+        manifestId: "https://www.cia.gov"
       },
       {
         name: "DOJ",
@@ -8738,7 +9459,8 @@ export const categories = [
         url2: "../wrappers/doj",
         descriptionKey: "doj_desc",
         apptype2: "wrapper",
-        url: "https://www.justice.gov"
+        url: "https://www.justice.gov",
+        manifestUrl2: "../wrappers/doj/manifest.json"
       },
       {
         name: "OMB",
@@ -8747,7 +9469,8 @@ export const categories = [
         url2: "../wrappers/omb",
         descriptionKey: "omb_desc",
         apptype2: "wrapper",
-        url: "https://www.whitehouse.gov/omb"
+        url: "https://www.whitehouse.gov/omb",
+        manifestUrl2: "../wrappers/omb/manifest.json"
       },
       {
         name: "Freedom.gov",
@@ -8757,7 +9480,8 @@ export const categories = [
         url2: "../wrappers/freedomgov",
         apptype2: "wrapper",
         url: "https://freedom.gov",
-        hide: true
+        hide: true,
+        manifestUrl2: "../wrappers/freedomgov/manifest.json"
       },
       {
         name: "NASA",
@@ -8766,7 +9490,8 @@ export const categories = [
         url2: "../wrappers/nasa",
         descriptionKey: "nasa_desc",
         apptype2: "wrapper",
-        url: "https://www.nasa.gov"
+        url: "https://www.nasa.gov",
+        manifestUrl2: "../wrappers/nasa/manifest.json"
       },
       {
         name: "White House",
@@ -8774,6 +9499,8 @@ export const categories = [
         icon: "icons/wrappers/whitehouse.webp",
         url: "https://www.whitehouse.gov",
         descriptionKey: "whitehouse_desc",
+        manifestUrl: "https://www.whitehouse.gov/wp-content/images/site.webmanifest",
+        manifestId: "https://www.whitehouse.gov"
       },
       {
         name: "analytics.usa.gov",
@@ -8783,7 +9510,8 @@ export const categories = [
         apptype_hide: "msedge",
         url: "https://analytics.usa.gov",
         apptype2: "wrapper",
-        url2: "../msedge/analyticsusagov"
+        url2: "../msedge/analyticsusagov",
+        manifestUrl2: "../msedge/analyticsusagov/manifest.json"
       },
       {
         name: "ID.me",
@@ -8792,7 +9520,8 @@ export const categories = [
         url2: "../wrappers/idme",
         descriptionKey: "idme_desc",
         apptype2: "wrapper",
-        url: "https://id.me"
+        url: "https://id.me",
+        manifestUrl2: "../wrappers/idme/manifest.json"
       },
       {
         name: "Free File Fillable Forms",
@@ -8801,7 +9530,8 @@ export const categories = [
         icon: "icons/wrappers/freefile.webp",
         url2: "../wrappers/freefile",
         apptype2: "wrapper",
-        url: "https://www.freefilefillableforms.com"
+        url: "https://www.freefilefillableforms.com",
+        manifestUrl2: "../wrappers/freefile/manifest.json"
       },
       {
         name: "CDC",
@@ -8810,7 +9540,8 @@ export const categories = [
         icon: "icons/wrappers/cdc.webp",
         url2: "../wrappers/cdc",
         apptype2: "wrapper",
-        url: "https://www.cdc.gov"
+        url: "https://www.cdc.gov",
+        manifestUrl2: "../wrappers/cdc/manifest.json"
       },
     ]
   },
@@ -8825,7 +9556,8 @@ export const categories = [
         icon: "icons/wrappers/govcn.webp",
         url2: "../wrappers/govcn",
         apptype2: "wrapper",
-        url: "https://www.gov.cn"
+        url: "https://www.gov.cn",
+        manifestUrl2: "../wrappers/govcn/manifest.json"
       },
       {
         name: "Lianyungang Housing Fund (连云港住房公积金)",
@@ -8834,7 +9566,8 @@ export const categories = [
         icon: "icons/wrappers/lygfund.webp",
         url2: "../wrappers/lygfund",
         apptype2: "wrapper",
-        url: "https://12329.zfgjj.lyg.gov.cn"
+        url: "https://12329.zfgjj.lyg.gov.cn",
+        manifestUrl2: "../wrappers/lygfund/manifest.json"
       },
       {
         name: "National Government Service Platform (国家政务服务平台)",
@@ -8927,7 +9660,8 @@ export const categories = [
         icon: "icons/wrappers/un.webp",
         url2: "../wrappers/un",
         apptype2: "wrapper",
-        url: "https://www.un.org"
+        url: "https://www.un.org",
+        manifestUrl2: "../wrappers/un/manifest.json"
       },
       {
         name: "International Competition Network",
@@ -8936,7 +9670,8 @@ export const categories = [
         icon: "icons/wrappers/internationalcompetitionnetwork.webp",
         url2: "../wrappers/internationalcompetitionnetwork",
         url: "https://www.internationalcompetitionnetwork.org",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/internationalcompetitionnetwork/manifest.json"
       },
       {
         name: "FULU Foundation",
@@ -8945,7 +9680,8 @@ export const categories = [
         icon: "icons/wrappers/fulu.webp",
         url2: "../wrappers/fulu",
         apptype2: "wrapper",
-        url: "https://fulu.org"
+        url: "https://fulu.org",
+        manifestUrl2: "../wrappers/fulu/manifest.json"
       },
     ]
   },
@@ -8988,7 +9724,8 @@ export const categories = [
         icon: "icons/wrappers/uhs.webp",
         url2: "../wrappers/uhs",
         apptype2: "wrapper",
-        url: "https://www.uhs.com"
+        url: "https://www.uhs.com",
+        manifestUrl2: "../wrappers/uhs/manifest.json"
       },
       {
         name: "Delta Dental",
@@ -8997,7 +9734,8 @@ export const categories = [
         icon: "icons/wrappers/deltadental.webp",
         url2: "../wrappers/deltadental",
         apptype2: "wrapper",
-        url: "https://www.deltadental.com"
+        url: "https://www.deltadental.com",
+        manifestUrl2: "../wrappers/deltadental/manifest.json"
       },
       {
         name: "Women's Health",
@@ -9006,7 +9744,8 @@ export const categories = [
         url2: "../wrappers/womenshealth",
         icon: "icons/wrappers/womenshealth.webp",
         apptype2: "wrapper",
-        url: "https://www.womenshealthmag.com"
+        url: "https://www.womenshealthmag.com",
+        manifestUrl2: "../wrappers/womenshealth/manifest.json"
       },
       {
         name: "Human Life International",
@@ -9015,7 +9754,8 @@ export const categories = [
         descriptionKey: "humanlifeinternational_desc",
         icon: "icons/wrappers/humanlifeinternational.webp",
         apptype2: "wrapper",
-        url: "https://www.hli.org"
+        url: "https://www.hli.org",
+        manifestUrl2: "../wrappers/humanlifeinternational/manifest.json"
       },
       {
         name: "New York Dental Group",
@@ -9024,7 +9764,8 @@ export const categories = [
         icon: "icons/wrappers/nydentalgroup.webp",
         url2: "../wrappers/nydentalgroup",
         apptype2: "wrapper",
-        url: "https://www.nydentalgroup.com"
+        url: "https://www.nydentalgroup.com",
+        manifestUrl2: "../wrappers/nydentalgroup/manifest.json"
       },
       {
         name: "VSIGO(视客眼镜)",
@@ -9033,7 +9774,8 @@ export const categories = [
         icon: "icons/wrappers/vsigo.webp",
         url2: "../wrappers/vsigo",
         apptype2: "wrapper",
-        url: "https://www.vsigo.cn"
+        url: "https://www.vsigo.cn",
+        manifestUrl2: "../wrappers/vsigo/manifest.json"
       },
       {
         name: "PauseLab (暂停实验室)",
@@ -9042,7 +9784,8 @@ export const categories = [
         icon: "icons/msedge/ebpgesedna.webp",
         url2: "../msedge/ebpgesedna",
         apptype2: "wrapper",
-        url: "https://ebp.gesedna.com"
+        url: "https://ebp.gesedna.com",
+        manifestUrl2: "../msedge/ebpgesedna/manifest.json"
       },
       {
         name: "Prevention",
@@ -9051,7 +9794,8 @@ export const categories = [
         icon: "icons/wrappers/prevention.webp",
         url2: "../wrappers/prevention",
         apptype2: "wrapper",
-        url: "https://www.prevention.com"
+        url: "https://www.prevention.com",
+        manifestUrl2: "../wrappers/prevention/manifest.json"
       },
       {
         name: "State Farm",
@@ -9060,7 +9804,8 @@ export const categories = [
         icon: "icons/msedge/statefarm.webp",
         url2: "../msedge/statefarm",
         apptype2: "wrapper",
-        url: "https://www.statefarm.com"
+        url: "https://www.statefarm.com",
+        manifestUrl2: "../msedge/statefarm/manifest.json"
       },
       {
         name: "Tencent Health (腾讯健康)",
@@ -9131,7 +9876,8 @@ export const categories = [
         icon: "icons/wrappers/everyday_dynamify.webp",
         url2: "../wrappers/everyday_dynamify",
         apptype2: "wrapper",
-        url: "https://everyday.dynamify.com"
+        url: "https://everyday.dynamify.com",
+        manifestUrl2: "../wrappers/everyday_dynamify/manifest.json"
       },
     ]
   },
@@ -9144,7 +9890,9 @@ export const categories = [
         nameKey: "nba_name",
         descriptionKey: "nba_desc",
         icon: "icons/pwa/nba.webp",
-        url: "https://www.nba.com"
+        url: "https://www.nba.com",
+        manifestUrl: "https://www.nba.com/site-manifest.json",
+        manifestId: "https://www.nba.com"
       },
       {
         name: "Sporting News",
@@ -9153,7 +9901,8 @@ export const categories = [
         icon: "icons/wrappers/sportingnews.webp",
         url2: "../wrappers/sportingnews",
         apptype2: "wrapper",
-        url: "https://www.sportingnews.com"
+        url: "https://www.sportingnews.com",
+        manifestUrl2: "../wrappers/sportingnews/manifest.json"
       },
       {
         name: "Sports Illustrated",
@@ -9162,7 +9911,8 @@ export const categories = [
         icon: "icons/wrappers/si.webp",
         url2: "../wrappers/si",
         apptype2: "wrapper",
-        url: "https://www.si.com"
+        url: "https://www.si.com",
+        manifestUrl2: "../wrappers/si/manifest.json"
       },
       {
         name: "The Spun",
@@ -9171,7 +9921,8 @@ export const categories = [
         icon: "icons/wrappers/thespun.webp",
         url2: "../wrappers/thespun",
         apptype2: "wrapper",
-        url: "https://thespun.com"
+        url: "https://thespun.com",
+        manifestUrl2: "../wrappers/thespun/manifest.json"
       },
     ]
   },
@@ -9184,7 +9935,9 @@ export const categories = [
         nameKey: "overleaf_name",
         descriptionKey: "overleaf_desc",
         icon: "icons/pwa/overleaf.webp",
-        url: "https://www.overleaf.com"
+        url: "https://www.overleaf.com",
+        manifestUrl: "https://cdn.overleaf.com/web.sitemanifest",
+        manifestId: "https://www.overleaf.com"
       },
       {
         name: "Security and Privacy Conference Deadlines",
@@ -9215,6 +9968,7 @@ export const categories = [
         url2: "../wrappers/hotcrp",
         url: "https://hotcrp.com",
         apptype2: "wrapper",
+        manifestUrl2: "../wrappers/hotcrp/manifest.json"
       },
       {
         name: "ACM",
@@ -9224,6 +9978,7 @@ export const categories = [
         url2: "../wrappers/acm",
         url: "https://www.acm.org",
         apptype2: "wrapper",
+        manifestUrl2: "../wrappers/acm/manifest.json"
       },
       {
         name: "Oxford Academic",
@@ -9234,6 +9989,7 @@ export const categories = [
         url: "https://academic.oup.com",
         apptype2: "wrapper",
         url2: "../msedge/oupacademic",
+        manifestUrl2: "../msedge/oupacademic/manifest.json"
       },
       {
         name: "ORCID",
@@ -9242,7 +9998,8 @@ export const categories = [
         icon: "icons/wrappers/orcid.webp",
         url2: "../wrappers/orcid",
         apptype2: "wrapper",
-        url: "https://orcid.org"
+        url: "https://orcid.org",
+        manifestUrl2: "../wrappers/orcid/manifest.json"
       },
       {
         name: "NCBI",
@@ -9251,7 +10008,8 @@ export const categories = [
         icon: "icons/wrappers/ncbi.webp",
         url2: "../wrappers/ncbi",
         apptype2: "wrapper",
-        url: "https://www.ncbi.nlm.nih.gov"
+        url: "https://www.ncbi.nlm.nih.gov",
+        manifestUrl2: "../wrappers/ncbi/manifest.json"
       },
       {
         name: "Wenjuanxing (问卷星)",
@@ -9260,7 +10018,8 @@ export const categories = [
         icon: "icons/wrappers/wenjuanxing.webp",
         url2: "../wrappers/wenjuanxing",
         url: "https://www.wjx.cn",
-        apptype2: "wrapper" 
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/wenjuanxing/manifest.json" 
       },
     ]
   },
@@ -9287,14 +10046,18 @@ export const categories = [
         nameKey: "mit_name",
         descriptionKey: "mit_desc",
         icon: "icons/pwa/mit.webp",
-        url: "https://www.mit.edu"
+        url: "https://www.mit.edu",
+        manifestUrl: "https://www.mit.edu/themes/mit/assets/favicon/manifest.webmanifest",
+        manifestId: "https://www.mit.edu"
       },
       {
         name: "Yale University",
         nameKey: "yale_name",
         descriptionKey: "yale_desc",
         icon: "icons/pwa/yale.webp",
-        url: "https://www.yale.edu"
+        url: "https://www.yale.edu",
+        manifestUrl: "https://www.yale.edu/sites/all/themes/yale_blue/images/favicons/manifest.json",
+        manifestId: "https://www.yale.edu"
       },
       {
         name: "DanXi",
@@ -9311,7 +10074,8 @@ export const categories = [
         url: "https://www.caltech.edu",
         apptype_hide: "msedge",
         url2: "../msedge/caltech",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../msedge/caltech/manifest.json"
       },
       {
         name: "University of Chicago (UChicago)",
@@ -9321,7 +10085,8 @@ export const categories = [
         url: "https://www.uchicago.edu",
         apptype_hide: "msedge",
         url2: "../msedge/uchicago",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../msedge/uchicago/manifest.json"
       },
       {
         name: "University of Oxford",
@@ -9331,7 +10096,8 @@ export const categories = [
         url: "https://www.ox.ac.uk",
         apptype_hide: "msedge",
         url2: "../msedge/oxford",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../msedge/oxford/manifest.json"
       },
       {
         name: "Cornell University",
@@ -9341,7 +10107,8 @@ export const categories = [
         url: "https://www.cornell.edu",
         apptype_hide: "msedge",
         url2: "../msedge/cornell",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../msedge/cornell/manifest.json"
       },
       {
         name: "Binghamton University",
@@ -9351,6 +10118,7 @@ export const categories = [
         url2: "../wrappers/binghamton_edu",
         apptype2: "wrapper",
         url: "https://www.binghamton.edu",
+        manifestUrl2: "../wrappers/binghamton_edu/manifest.json"
       },
       {
         name: "Fudan University (复旦大学)",
@@ -9359,7 +10127,8 @@ export const categories = [
         icon: "icons/wrappers/fudan.webp",
         url2: "../wrappers/fudan",
         apptype2: "wrapper",
-        url: "https://www.fudan.edu.cn"
+        url: "https://www.fudan.edu.cn",
+        manifestUrl2: "../wrappers/fudan/manifest.json"
       },
       {
         name: "Harvard University",
@@ -9368,7 +10137,8 @@ export const categories = [
         icon: "icons/wrappers/harvard.webp",
         url2: "../wrappers/harvard",
         apptype2: "wrapper",
-        url: "https://www.harvard.edu"
+        url: "https://www.harvard.edu",
+        manifestUrl2: "../wrappers/harvard/manifest.json"
       },
       {
         name: "Stanford University",
@@ -9377,7 +10147,8 @@ export const categories = [
         icon: "icons/wrappers/stanford.webp",
         url2: "../wrappers/stanford",
         apptype2: "wrapper",
-        url: "https://www.stanford.edu"
+        url: "https://www.stanford.edu",
+        manifestUrl2: "../wrappers/stanford/manifest.json"
       },
       {
         name: "University of California, Berkeley",
@@ -9386,7 +10157,8 @@ export const categories = [
         icon: "icons/wrappers/berkeley.webp",
         url2: "../wrappers/berkeley",
         apptype2: "wrapper",
-        url: "https://www.berkeley.edu"
+        url: "https://www.berkeley.edu",
+        manifestUrl2: "../wrappers/berkeley/manifest.json"
       },
       {
         name: "Columbia University",
@@ -9395,7 +10167,8 @@ export const categories = [
         icon: "icons/wrappers/columbia.webp",
         url2: "../wrappers/columbia",
         apptype2: "wrapper",
-        url: "https://www.columbia.edu"
+        url: "https://www.columbia.edu",
+        manifestUrl2: "../wrappers/columbia/manifest.json"
       },
       {
         name: "University of Michigan",
@@ -9404,7 +10177,8 @@ export const categories = [
         icon: "icons/wrappers/umich.webp",
         url2: "../wrappers/umich",
         apptype2: "wrapper",
-        url: "https://umich.edu"
+        url: "https://umich.edu",
+        manifestUrl2: "../wrappers/umich/manifest.json"
       },
       {
         name: "University of Pennsylvania",
@@ -9413,7 +10187,8 @@ export const categories = [
         icon: "icons/wrappers/upenn.webp",
         url2: "../wrappers/upenn",
         apptype2: "wrapper",
-        url: "https://www.upenn.edu"
+        url: "https://www.upenn.edu",
+        manifestUrl2: "../wrappers/upenn/manifest.json"
       },
       {
         name: "Johns Hopkins University",
@@ -9422,7 +10197,8 @@ export const categories = [
         icon: "icons/msedge/jhu.webp",
         url2: "../msedge/jhu",
         apptype2: "wrapper",
-        url: "https://www.jhu.edu"
+        url: "https://www.jhu.edu",
+        manifestUrl2: "../msedge/jhu/manifest.json"
       },
       {
         name: "Yale E360",
@@ -9431,7 +10207,8 @@ export const categories = [
         icon: "icons/wrappers/yalee360.webp",
         url2: "../wrappers/yalee360",
         apptype2: "wrapper",
-        url: "https://e360.yale.edu"
+        url: "https://e360.yale.edu",
+        manifestUrl2: "../wrappers/yalee360/manifest.json"
       },
       {
         name: "University of Cambridge",
@@ -9440,7 +10217,8 @@ export const categories = [
         icon: "icons/wrappers/cambridge.webp",
         url2: "../wrappers/cambridge",
         apptype2: "wrapper",
-        url: "https://www.cam.ac.uk"
+        url: "https://www.cam.ac.uk",
+        manifestUrl2: "../wrappers/cambridge/manifest.json"
       },
       {
         name: "National University of Singapore (NUS)",
@@ -9449,7 +10227,8 @@ export const categories = [
         icon: "icons/wrappers/nus.webp",
         url2: "../wrappers/nus",
         apptype2: "wrapper",
-        url: "https://nus.edu.sg"
+        url: "https://nus.edu.sg",
+        manifestUrl2: "../wrappers/nus/manifest.json"
       },
       {
         name: "University of Tokyo (東京大学)",
@@ -9458,7 +10237,8 @@ export const categories = [
         icon: "icons/wrappers/utokyo.webp",
         url2: "../wrappers/utokyo",
         apptype2: "wrapper",
-        url: "https://www.u-tokyo.ac.jp"
+        url: "https://www.u-tokyo.ac.jp",
+        manifestUrl2: "../wrappers/utokyo/manifest.json"
       },
       {
         name: "Tsinghua University (清华大学)",
@@ -9467,7 +10247,8 @@ export const categories = [
         icon: "icons/wrappers/tsinghua.webp",
         url2: "../wrappers/tsinghua",
         apptype2: "wrapper",
-        url: "https://www.tsinghua.edu.cn"
+        url: "https://www.tsinghua.edu.cn",
+        manifestUrl2: "../wrappers/tsinghua/manifest.json"
       },
       {
         name: "Peking University (北京大学)",
@@ -9476,7 +10257,8 @@ export const categories = [
         icon: "icons/wrappers/peking.webp",
         url2: "../wrappers/peking",
         apptype2: "wrapper",
-        url: "https://www.pku.edu.cn"
+        url: "https://www.pku.edu.cn",
+        manifestUrl2: "../wrappers/peking/manifest.json"
       },
       {
         name: "Shanghai Jiao Tong University (上海交通大学)",
@@ -9485,7 +10267,8 @@ export const categories = [
         icon: "icons/wrappers/sjtu.webp",
         url2: "../wrappers/sjtu",
         apptype2: "wrapper",
-        url: "https://www.sjtu.edu.cn"
+        url: "https://www.sjtu.edu.cn",
+        manifestUrl2: "../wrappers/sjtu/manifest.json"
       },
       {
         name: "Zhejiang University (浙江大学)",
@@ -9494,7 +10277,8 @@ export const categories = [
         icon: "icons/wrappers/zju.webp",
         url2: "../wrappers/zju",
         apptype2: "wrapper",
-        url: "https://www.zju.edu.cn"
+        url: "https://www.zju.edu.cn",
+        manifestUrl2: "../wrappers/zju/manifest.json"
       },
       {
         name: "Nanjing University (南京大学)",
@@ -9503,7 +10287,8 @@ export const categories = [
         icon: "icons/wrappers/nju.webp",
         url2: "../wrappers/nju",
         apptype2: "wrapper",
-        url: "https://www.nju.edu.cn"
+        url: "https://www.nju.edu.cn",
+        manifestUrl2: "../wrappers/nju/manifest.json"
       },
       {
         name: "Fudan eCard (复旦eCard)",
@@ -9558,7 +10343,8 @@ export const categories = [
         icon: "icons/wrappers/hao123.webp",
         url2: "../wrappers/hao123",
         apptype2: "wrapper",
-        url: "https://www.hao123.com"
+        url: "https://www.hao123.com",
+        manifestUrl2: "../wrappers/hao123/manifest.json"
       },
       {
         name: "Web Portal 265 (265上网导航)",
@@ -9567,7 +10353,8 @@ export const categories = [
         url: "https://www.265.com",
         apptype: "wrapper",
         url2: "../wrappers/webportal265",
-        icon: "icons/wrappers/webportal265.webp"
+        icon: "icons/wrappers/webportal265.webp",
+        manifestUrl2: "../wrappers/webportal265/manifest.json"
       },
     ]
   },
@@ -9580,35 +10367,44 @@ export const categories = [
         nameKey: "progressivewebappstore_name",
         descriptionKey: "progressivewebappstore_desc",
         icon: "icons/pwa/progressivewebappstore.webp",
-        url: "https://progressivewebapp.store"
+        url: "https://progressivewebapp.store",
+        manifestUrl: "https://progressivewebapp.store/assets/manifest-CFLMkuOX.json",
+        manifestId: "https://progressivewebapp.store"
       },
       {
         name: "store.app",
         nameKey: "storeapp_name",
         descriptionKey: "storeapp_desc",
         icon: "icons/pwa/storeapp.webp",
-        url: "https://store.app"
+        url: "https://store.app",
+        manifestUrl: "https://store.app/manifest.webmanifest",
+        manifestId: "https://store.app"
       },
       {
         name: "PWA Marketplace",
         nameKey: "pwamarketplace_name",
         descriptionKey: "pwamarketplace_desc",
         icon: "icons/pwa/pwamarketplace.webp",
-        url: "https://www.pwa.com"
+        url: "https://www.pwa.com",
+        manifestUrl: "https://www.pwa.com/manifest.webmanifest",
+        manifestId: "https://www.pwa.com"
       },
       {
         name: "PWA Jisandi (PWA集散地)",
         nameKey: "pwappnet_name",
         descriptionKey: "pwappnet_desc",
         icon: "icons/pwa/pwappnet.webp",
-        url: "https://www.pwapp.net"
+        url: "https://www.pwapp.net",
+        manifestUrl: "https://www.pwapp.net/manifest.json",
+        manifestId: "https://www.pwapp.net"
       },
       {
         name: "PWAStore.io",
         nameKey: "pwastoreio_name",
         icon: "icons/pwa/pwastoreio.webp",
         url: "https://www.pwastore.io",
-        descriptionKey: "pwastoreio_desc"
+        descriptionKey: "pwastoreio_desc",
+        manifestUrl: "https://www.pwastore.io/manifest.json"
       },
     ]
   },
@@ -9644,7 +10440,8 @@ export const categories = [
         icon: "icons/wrappers/yande.webp",
         url2: "../wrappers/yande",
         url: "https://yande.re",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl2: "../wrappers/yande/manifest.json"
       },
     ]
   },
@@ -9702,7 +10499,8 @@ export const categories = [
         nameKey: "pornhub_name",
         descriptionKey: "pornhub_desc",
         icon: "icons/pwa/pornhub.webp",
-        url: "https://www.pornhub.com"
+        url: "https://www.pornhub.com",
+        manifestUrl: "https://www.pornhub.com/manifest.json"
       },
       {
         name: "SpankBang",
@@ -9730,7 +10528,9 @@ export const categories = [
         nameKey: "missavtv_name",
         descriptionKey: "missavtv_desc",
         icon: "icons/wrappers/missavtv.webp",
-        url: "https://missavtv.com/en"
+        url: "https://missavtv.com/en",
+        manifestUrl: "https://missavtv.com/manifest.json",
+        manifestId: "https://missavtv.com/en"
       },
       {
         name: "MissAV TV",
@@ -9739,14 +10539,19 @@ export const categories = [
         icon: "icons/wrappers/missavtv.webp",
         url2: "../wrappers/missavtv",
         url: "https://missavtv.com/en",
-        apptype2: "wrapper"
+        apptype2: "wrapper",
+        manifestUrl: "https://missavtv.com/manifest.json",
+        manifestId: "https://missavtv.com/en",
+        manifestUrl2: "../wrappers/missavtv/manifest.json"
       },
       {
         name: "XNXX.COM",
         nameKey: "xnxx_name",
         descriptionKey: "xnxx_desc",
         icon: "icons/pwa/xnxx.webp",
-        url: "https://www.xnxx.com"
+        url: "https://www.xnxx.com",
+        manifestUrl: "https://www.xnxx.com/manifest.json",
+        manifestId: "https://www.xnxx.com"
       },
       {
         name: "OnlyFans",
@@ -9760,7 +10565,9 @@ export const categories = [
         nameKey: "theporndude_name",
         descriptionKey: "theporndude_desc",
         icon: "icons/pwa/theporndude.webp",
-        url: "https://theporndude.com"
+        url: "https://theporndude.com",
+        manifestUrl: "https://theporndude.com/site.webmanifest",
+        manifestId: "https://theporndude.com"
       },
       {
         name: "xHamster",
@@ -9791,6 +10598,7 @@ export const categories = [
         url2: "../wrappers/javhdporn",
         apptype2: "wrapper",
         url: "https://www4.javhdporn.net",
+        manifestUrl2: "../wrappers/javhdporn/manifest.json"
       },
       {
         name: "Supjav",
@@ -9800,6 +10608,7 @@ export const categories = [
         url2: "../wrappers/supjav",
         apptype2: "wrapper",
         url: "https://supjav.com",
+        manifestUrl2: "../wrappers/supjav/manifest.json"
       },
       {
         name: "avdanyuwiki",
@@ -9809,6 +10618,7 @@ export const categories = [
         url2: "../wrappers/avdanyuwiki",
         apptype2: "wrapper",
         url: "https://avdanyuwiki.com",
+        manifestUrl2: "../wrappers/avdanyuwiki/manifest.json"
       },
       {
         name: "LuxureTV",
@@ -9817,7 +10627,8 @@ export const categories = [
         icon: "icons/wrappers/luxuretv.webp",
         url2: "../wrappers/luxuretv",
         apptype2: "wrapper",
-        url: "https://en.luxuretv.com"
+        url: "https://en.luxuretv.com",
+        manifestUrl2: "../wrappers/luxuretv/manifest.json"
       },
       {
         name: "Beeg",
@@ -9826,7 +10637,8 @@ export const categories = [
         icon: "icons/wrappers/beeg.webp",
         url2: "../wrappers/beeg",
         apptype2: "wrapper",
-        url: "https://beeg.com"
+        url: "https://beeg.com",
+        manifestUrl2: "../wrappers/beeg/manifest.json"
       },
       {
         name: "Hentaiplay",
@@ -9835,7 +10647,8 @@ export const categories = [
         icon: "icons/wrappers/hentaiplay.webp",
         url2: "../wrappers/hentaiplay",
         apptype2: "wrapper",
-        url: "https://hentaiplay.net"
+        url: "https://hentaiplay.net",
+        manifestUrl2: "../wrappers/hentaiplay/manifest.json"
       },
       {
         name: "HentaiLA",
@@ -9844,7 +10657,8 @@ export const categories = [
         icon: "icons/wrappers/hentaila.webp",
         url2: "../wrappers/hentaila",
         apptype2: "wrapper",
-        url: "https://hentaila.com"
+        url: "https://hentaila.com",
+        manifestUrl2: "../wrappers/hentaila/manifest.json"
       },
       {
         name: "BTSOW",
@@ -9853,7 +10667,8 @@ export const categories = [
         icon: "icons/wrappers/btsow.webp",
         url2: "../wrappers/btsow",
         apptype2: "wrapper",
-        url: "https://tellme.pw/bts"
+        url: "https://tellme.pw/bts",
+        manifestUrl2: "../wrappers/btsow/manifest.json"
       },
       {
         name: "t66y (草榴社区)",
@@ -9862,7 +10677,8 @@ export const categories = [
         icon: "icons/wrappers/t66y.webp",
         url2: "../wrappers/t66y",
         apptype2: "wrapper",
-        url: "https://www.t66y.com"
+        url: "https://www.t66y.com",
+        manifestUrl2: "../wrappers/t66y/manifest.json"
       },
     ]
   }
