@@ -2702,5 +2702,7 @@ const L = {
   ungoogled_chromium_desc: "The official platform for downloading pre-compiled binaries of ungoogled-chromium, a privacy-focused browser that retains the Chromium experience without Google web services.",
   ungoogled_chromium_macos_name: "ungoogled-chromium for macOS",
   ungoogled_chromium_macos_desc: "The GitHub Releases page for downloading pre-compiled macOS binaries of ungoogled-chromium, providing a privacy-focused browsing experience without Google services.",
+  wtoolskit_name: "WebTools - Online Toolkit",
+  wtoolskit_desc: "153+ free online tools for developers, designers, and everyday users — JSON formatting, Base64, QR codes, image and PDF utilities, all processed locally in the browser with no sign-up.",
 };
 registerLocale("enus", L);

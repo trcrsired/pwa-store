@@ -2699,5 +2699,7 @@ escooter_pwa_name: "E-Scooter PWA (电动滑板车 PWA)",
   ungoogled_chromium_desc: "ungoogled-chromium 预编译二进制文件的官方下载平台。该浏览器专注于隐私保护，在完全移除 Google 相关网络服务与追踪的同时，保留了纯粹的 Chromium 体验。",
   ungoogled_chromium_macos_name: "ungoogled-chromium for macOS",
   ungoogled_chromium_macos_desc: "ungoogled-chromium for macOS 预编译版本的 GitHub Releases 下载页面，为 Mac 用户提供完全移除 Google 服务与追踪的纯粹隐私浏览体验。",
+  wtoolskit_name: "WebTools 在线工具箱",
+  wtoolskit_desc: "为开发者、设计师和普通用户提供 153 多种免费在线工具——JSON 格式化、Base64、二维码、图片与 PDF 处理等，全部在浏览器本地运行，无需注册。",
 };
 registerLocale("zhcn", L);

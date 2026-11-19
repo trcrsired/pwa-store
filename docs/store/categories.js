@@ -1926,6 +1926,14 @@ export const categories = [
         url: "https://github.com/ungoogled-software/ungoogled-chromium-macos/releases",
         apptype: "native"
       },
+      {
+        name: "WebTools - Online Toolkit",
+        nameKey: "wtoolskit_name",
+        descriptionKey: "wtoolskit_desc",
+        icon: "icons/pwa/wtoolskit.webp",
+        url: "https://www.wtoolskit.com",
+        manifestUrl: "https://www.wtoolskit.com/manifest-en.json"
+      },
     ]
   },
   {
