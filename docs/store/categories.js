@@ -5964,6 +5964,15 @@ export const categories = [
         url: "#小程序://QQ经典农场/aHIemrmAYzJ4u2f",
         apptype: "wechatmini"
       },
+      {
+        name: "ra2.games (Red Alert 2 in your browser)",
+        nameKey: "ra2games_name",
+        descriptionKey: "ra2games_desc",
+        icon: "icons/pwa/ra2games.webp",
+        url: "https://ra2.games/",
+        manifestUrl: "https://ra2.games/manifest.webmanifest",
+        manifestId: "https://ra2.games/"
+      },
     ]
   },
   {
