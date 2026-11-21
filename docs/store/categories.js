@@ -5970,6 +5970,7 @@ export const categories = [
         descriptionKey: "ra2games_desc",
         icon: "icons/pwa/ra2games.webp",
         url: "https://ra2.games/",
+        hide: true,
         manifestUrl: "https://ra2.games/manifest.webmanifest",
         manifestId: "https://ra2.games/"
       },
