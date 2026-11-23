@@ -3441,6 +3441,15 @@ export const categories = [
         url: "#小程序://腾讯自选股/uAuJu0zFDpXlNpd",
         apptype: "wechatmini",
       },
+      {
+        name: "Wall Street Oasis",
+        nameKey: "wallstreetoasis_name",
+        descriptionKey: "wallstreetoasis_desc",
+        icon: "icons/pwa/wallstreetoasis.webp",
+        url: "https://www.wallstreetoasis.com",
+        manifestUrl: "https://www.wallstreetoasis.com/manifest.json",
+        manifestId: "https://www.wallstreetoasis.com/"
+      },
     ]
   },
   {

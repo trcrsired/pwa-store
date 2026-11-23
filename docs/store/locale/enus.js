@@ -2706,5 +2706,7 @@ const L = {
   wtoolskit_desc: "153+ free online tools for developers, designers, and everyday users — JSON formatting, Base64, QR codes, image and PDF utilities, all processed locally in the browser with no sign-up.",
   ra2games_name: "ra2.games (Red Alert 2 in your browser)",
   ra2games_desc: "Play the original Red Alert 2 and Yuri's Revenge in your browser. Bring your own game assets and run the classic real-time strategy in a standalone PWA — no installation of the desktop game required.",
+  wallstreetoasis_name: "Wall Street Oasis",
+  wallstreetoasis_desc: "A finance community and career resource with forums, salary and interview databases, financial modeling courses, and job-seeking guides for investment banking, private equity, hedge funds, and trading.",
 };
 registerLocale("enus", L);
