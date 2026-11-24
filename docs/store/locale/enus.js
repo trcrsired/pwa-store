@@ -2710,5 +2710,7 @@ const L = {
   wallstreetoasis_desc: "A finance community and career resource with forums, salary and interview databases, financial modeling courses, and job-seeking guides for investment banking, private equity, hedge funds, and trading.",
   unkernel_name: "unkernel",
   unkernel_desc: "Runs a real aarch64 (ARM64) Linux kernel with Debian in your browser, booting to a shell in under a second — no server or desktop emulator required.",
+  shouldianswer_name: "Should I Answer",
+  shouldianswer_desc: "Reverse phone number lookup with community ratings and spam/robocall reports — see who called, check user reviews, and find out whether a number is safe before calling back.",
 };
 registerLocale("enus", L);

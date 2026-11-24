@@ -1,0 +1,21 @@
+{
+  "id": "./",
+  "name": "Should I Answer",
+  "short_name": "Should I Answer",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "background_color": "black",
+  "theme_color": "black",
+  "description": "PWA Wrapper for Should I Answer",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "icons": [
+    {
+      "src": "./icons/icon.webp",
+      "type": "image/webp",
+      "sizes": "512x512"
+    }
+  ]
+}

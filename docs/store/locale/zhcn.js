@@ -2707,5 +2707,7 @@ escooter_pwa_name: "E-Scooter PWA (电动滑板车 PWA)",
   wallstreetoasis_desc: "金融职业社区与资源平台，提供论坛、薪酬与面试数据库、财务建模课程，以及投资银行、私募股权、对冲基金和交易岗位的求职指南。",
   unkernel_name: "unkernel",
   unkernel_desc: "在浏览器中运行真正的 aarch64 (ARM64) Linux 内核与 Debian 系统，一秒内启动到 Shell——无需服务器或桌面模拟器。",
+  shouldianswer_name: "Should I Answer (该不该接)",
+  shouldianswer_desc: "电话号码反向查询与社区评分平台，可查看骚扰电话与诈骗号码的用户举报和评价——回拨前先查清号码是否安全，识别来电身份。",
 };
 registerLocale("zhcn", L);

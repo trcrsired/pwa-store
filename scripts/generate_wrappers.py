@@ -101,6 +101,7 @@ WRAPPERS = [
   { "name": "文心助手", "url": "https://chat.baidu.com", "keyify_name": "wenxin", "apptype": "msedge"},
   { "name": "蚂蚁阿福", "url": "https://chat.antafu.com/?source=https://pwa-store-7x5.pages.dev", "keyify_name": "antafu", "apptype": "msedge"},
   { "name": "Aizex", "url": "https://aizex.net" },
+  { "name": "Should I Answer", "url": "https://www.shouldianswer.com", "keyify_name": "shouldianswer" },
   { "name": "stack.watch", "url": "https://stack.watch", "keyify_name": "stackwatch" },
   { "name": "Digital Survival Challenge", "url": "https://digital-survival-challenge-beta.vercel.app", "keyify_name": "digitalsurvival" },
   { "name": "PrivSec", "url": "https://privsec.dev" },

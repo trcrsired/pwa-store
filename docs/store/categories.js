@@ -714,6 +714,16 @@ export const categories = [
         url: "https://www.cve.org",
         manifestUrl2: "../msedge/cve_program/manifest.json"
       },
+      {
+        name: "Should I Answer",
+        nameKey: "shouldianswer_name",
+        descriptionKey: "shouldianswer_desc",
+        icon: "icons/wrappers/shouldianswer.webp",
+        url2: "../wrappers/shouldianswer",
+        apptype2: "wrapper",
+        url: "https://www.shouldianswer.com",
+        manifestUrl2: "../wrappers/shouldianswer/manifest.json"
+      },
     ]
   },
   {
