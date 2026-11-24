@@ -2709,6 +2709,6 @@ const L = {
   wallstreetoasis_name: "Wall Street Oasis",
   wallstreetoasis_desc: "A finance community and career resource with forums, salary and interview databases, financial modeling courses, and job-seeking guides for investment banking, private equity, hedge funds, and trading.",
   unkernel_name: "unkernel",
-  unkernel_desc: "A real Linux kernel compiled to WebAssembly, running Alpine Linux and booting to a shell in your browser in under a second — no server or emulation required.",
+  unkernel_desc: "Runs a real aarch64 (ARM64) Linux kernel with Debian in your browser, booting to a shell in under a second — no server or desktop emulator required.",
 };
 registerLocale("enus", L);
