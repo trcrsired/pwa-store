@@ -1934,6 +1934,14 @@ export const categories = [
         url: "https://www.wtoolskit.com",
         manifestUrl: "https://www.wtoolskit.com/manifest-en.json"
       },
+      {
+        name: "unkernel",
+        nameKey: "unkernel_name",
+        descriptionKey: "unkernel_desc",
+        icon: "icons/pwa/unkernel.webp",
+        url: "https://unkernel.dev",
+        manifestUrl: "https://unkernel.dev/manifest.webmanifest"
+      },
     ]
   },
   {

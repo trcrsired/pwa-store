@@ -2705,5 +2705,7 @@ escooter_pwa_name: "E-Scooter PWA (电动滑板车 PWA)",
   ra2games_desc: "在浏览器中运行原版《红色警戒2》与《尤里的复仇》。自备游戏资源即可在独立 PWA 中体验这款经典即时战略游戏，无需安装桌面客户端。",
   wallstreetoasis_name: "华尔街绿洲 (Wall Street Oasis)",
   wallstreetoasis_desc: "金融职业社区与资源平台，提供论坛、薪酬与面试数据库、财务建模课程，以及投资银行、私募股权、对冲基金和交易岗位的求职指南。",
+  unkernel_name: "unkernel",
+  unkernel_desc: "编译为 WebAssembly 的真正 Linux 内核，在浏览器中运行 Alpine Linux 并在一秒内启动到 Shell——无需服务器或传统模拟器。",
 };
 registerLocale("zhcn", L);
