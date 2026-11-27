@@ -2713,5 +2713,7 @@ escooter_pwa_name: "E-Scooter PWA (电动滑板车 PWA)",
   refridge_desc: "离线优先的食品与杂物管理 PWA。按存放位置（冰箱、冷冻室、储物柜）记录物品、到期提醒、每公斤价格排序、照片、备份与多档案——全部数据本地存储，无需账号。",
   wangerhuoda_name: "王二火大 (红色警戒2 联机对战)",
   wangerhuoda_desc: "在浏览器中畅玩经典《红色警戒2》，与全球玩家实时联机对战。提供多种游戏模式与地图，手机、平板和电脑均可游玩，无需下载安装。",
+  calculatorpwa_name: "计算器 PWA (Calculator PWA)",
+  calculatorpwa_desc: "微软计算器风格的 PWA，内置 C++26 WebAssembly 位运算引擎。支持标准、科学、程序员（完整 C++26 <bit> 操作）、日期计算、单位换算、有理三角与乘移模式，可完全离线使用。",
 };
 registerLocale("zhcn", L);

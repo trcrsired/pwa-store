@@ -185,6 +185,14 @@ export const categories = [
         icon: "icons/pwa/hummingbird.svg",
         url: "https://im.kuangye.team/"
       },
+      {
+        name: "Calculator PWA",
+        nameKey: "calculatorpwa_name",
+        descriptionKey: "calculatorpwa_desc",
+        icon: "icons/pwa/calculatorpwa.webp",
+        url: "https://calculators-pwa.pages.dev",
+        manifestUrl: "https://calculators-pwa.pages.dev/manifest.webmanifest"
+      },
     ]
   },
   {
