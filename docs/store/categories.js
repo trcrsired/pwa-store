@@ -6001,6 +6001,15 @@ export const categories = [
         manifestUrl: "https://ra2.games/manifest.webmanifest",
         manifestId: "https://ra2.games/"
       },
+      {
+        name: "王二火大 (Red Alert 2 Online)",
+        nameKey: "wangerhuoda_name",
+        descriptionKey: "wangerhuoda_desc",
+        icon: "icons/pwa/wangerhuoda.webp",
+        url: "https://game.ra2web.com",
+        manifestUrl: "https://game.ra2web.com/manifest.webmanifest",
+        manifestId: "https://game.ra2web.com/"
+      },
     ]
   },
   {

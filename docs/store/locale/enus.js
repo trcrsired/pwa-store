@@ -2714,5 +2714,7 @@ const L = {
   shouldianswer_desc: "Reverse phone number lookup with community ratings and spam/robocall reports — see who called, check user reviews, and find out whether a number is safe before calling back.",
   refridge_name: "Fridge — Pantry & Refrigerator Manager",
   refridge_desc: "An offline-first pantry and refrigerator manager. Track items by location (fridge, freezer, pantry), expiry alerts, price-per-kilo sorting, photos, backups and multiple profiles — all stored locally with no account.",
+  wangerhuoda_name: "王二火大 (Red Alert 2 Online)",
+  wangerhuoda_desc: "Play the classic Red Alert 2 in your browser and battle players worldwide in real time. Multiple game modes and maps, playable on phone, tablet and desktop with no download required.",
 };
 registerLocale("enus", L);
