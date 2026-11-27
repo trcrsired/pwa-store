@@ -1,0 +1,94 @@
+name: Validate catalogue
+
+on:
+  pull_request:
+    paths:
+      - 'docs/store/**'
+      - 'scripts/**'
+      - 'cpp/**'
+      - '.github/**'
+  push:
+    branches: [main]
+    paths:
+      - 'docs/store/**'
+      - 'scripts/**'
+      - 'cpp/**'
+      - '.github/**'
+  schedule:
+    # Nightly full re-audit: catches a listed site that changed after its PR.
+    - cron: '17 3 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  static:
+    name: Static validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Write base catalogue for diff checks
+        run: |
+          set -e
+          case "${{ github.event_name }}" in
+            pull_request) base="${{ github.event.pull_request.base.sha }}" ;;
+            push)         base="${{ github.event.before }}" ;;
+            *)            base="" ;;
+          esac
+          if [ -n "$base" ] && git cat-file -e "$base:docs/store/categories.js" 2>/dev/null; then
+            git show "$base:docs/store/categories.js" > /tmp/base-categories.js
+          else
+            cp docs/store/categories.js /tmp/base-categories.js
+          fi
+
+      - name: Catalogue invariants and new-entry rules
+        run: node scripts/validate_catalog.js --base-file /tmp/base-categories.js
+
+      - name: store.bin is current
+        run: |
+          set -e
+          cp docs/store/store.bin /tmp/store.bin.expected
+          node scripts/gen_store_bin.js
+          cmp /tmp/store.bin.expected docs/store/store.bin
+
+      - name: Engine tests
+        run: node cpp/test.js
+
+      - name: Renderer tests
+        run: node cpp/test-render.js
+
+  manifest-audit:
+    name: Live manifest audit
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request' || github.event_name == 'schedule'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Audit changed manifests
+        if: github.event_name == 'pull_request'
+        run: |
+          set -e
+          base="${{ github.event.pull_request.base.sha }}"
+          if git cat-file -e "$base:docs/store/categories.js" 2>/dev/null; then
+            git show "$base:docs/store/categories.js" > /tmp/base-categories.js
+          else
+            cp docs/store/categories.js /tmp/base-categories.js
+          fi
+          node scripts/audit_manifests.js --base-file /tmp/base-categories.js
+
+      - name: Audit every manifest (nightly)
+        if: github.event_name == 'schedule'
+        run: node scripts/audit_manifests.js --all
