@@ -2712,5 +2712,7 @@ const L = {
   unkernel_desc: "Runs a real aarch64 (ARM64) Linux kernel with Debian in your browser, booting to a shell in under a second — no server or desktop emulator required.",
   shouldianswer_name: "Should I Answer",
   shouldianswer_desc: "Reverse phone number lookup with community ratings and spam/robocall reports — see who called, check user reviews, and find out whether a number is safe before calling back.",
+  refridge_name: "Fridge — Pantry & Refrigerator Manager",
+  refridge_desc: "An offline-first pantry and refrigerator manager. Track items by location (fridge, freezer, pantry), expiry alerts, price-per-kilo sorting, photos, backups and multiple profiles — all stored locally with no account.",
 };
 registerLocale("enus", L);

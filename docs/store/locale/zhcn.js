@@ -2709,5 +2709,7 @@ escooter_pwa_name: "E-Scooter PWA (电动滑板车 PWA)",
   unkernel_desc: "在浏览器中运行真正的 aarch64 (ARM64) Linux 内核与 Debian 系统，一秒内启动到 Shell——无需服务器或桌面模拟器。",
   shouldianswer_name: "Should I Answer (该不该接)",
   shouldianswer_desc: "电话号码反向查询与社区评分平台，可查看骚扰电话与诈骗号码的用户举报和评价——回拨前先查清号码是否安全，识别来电身份。",
+  refridge_name: "冰箱与储物柜管理 (Fridge)",
+  refridge_desc: "离线优先的食品与杂物管理 PWA。按存放位置（冰箱、冷冻室、储物柜）记录物品、到期提醒、每公斤价格排序、照片、备份与多档案——全部数据本地存储，无需账号。",
 };
 registerLocale("zhcn", L);

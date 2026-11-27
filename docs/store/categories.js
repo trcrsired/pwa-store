@@ -10146,6 +10146,14 @@ manifestId: "https://rossmanngroup.com/"
         url: "https://everyday.dynamify.com",
         manifestUrl2: "../wrappers/everyday_dynamify/manifest.json"
       },
+      {
+        name: "Fridge — Pantry & Refrigerator Manager",
+        nameKey: "refridge_name",
+        descriptionKey: "refridge_desc",
+        icon: "icons/pwa/refridge.svg",
+        url: "https://refridge.pages.dev/",
+        manifestUrl: "https://refridge.pages.dev/manifest.webmanifest"
+      },
     ]
   },
   {
